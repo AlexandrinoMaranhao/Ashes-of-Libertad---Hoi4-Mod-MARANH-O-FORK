@@ -1,0 +1,116 @@
+acrean_raids = {
+	
+	xp_for_percentage = {
+		available = {
+			has_army_experience > 9.99
+			check_variable = {
+				var = raid_success_percentage
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			army_experience = -10
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+	
+	navy_xp_for_percentage = {
+		available = {
+			has_navy_experience > 9.99
+			check_variable = {
+				var = raid_success_percentage
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			navy_experience = -10
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+	
+	cp_for_percentage = {
+		available = {
+			command_power > 9.99
+			check_variable = {
+				var = raid_success_percentage
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			add_command_power = -10
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+	
+	pp_for_percentage = {
+		available = {
+			has_political_power > 9
+			check_variable = {
+				var = raid_success_percentage
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = -10
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+	
+	test_percentage = {
+		complete_effect = {
+			if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 0
+				compare = equals
+					}
+				}
+				fixed_random_seed = no
+				random_list = {
+					90 = {
+						add_political_power = -70
+						clear_variable = raid_success_percentage
+					}
+					10 = {
+						add_political_power = 80
+						clear_variable = raid_success_percentage
+					}
+				}
+			}else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 10
+				compare = equals
+					}
+				}
+			fixed_random_seed = no
+				random_list = {
+					80 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					20 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+		}
+	}
+	
+
+}

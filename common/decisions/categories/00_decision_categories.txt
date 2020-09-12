@@ -1,3 +1,6 @@
 find_resources = {
      icon = generic_prospect_for_resources
 }
+acrean_raids = {
+	icon = acrean_raids
+}
