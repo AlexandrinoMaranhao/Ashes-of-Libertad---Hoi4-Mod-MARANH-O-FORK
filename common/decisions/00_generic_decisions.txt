@@ -7,4 +7,23 @@ find_resources = {
                add_manpower = -500
           }
       }
+	  
+	  test_this = {
+	  visible = { has_variable = acre_test }
+	  
+	  complete_effect = {
+		set_variable = {
+		var = overgay
+		value = 1
+		}
+	  }
+	  }
+	  
+	  fuck_you = {
+	  visible = { has_variable = overgay }
+	  
+	  complete_effect = {
+		add_political_power = 60
+	  }
+	  }
 }

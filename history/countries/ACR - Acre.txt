@@ -23,6 +23,11 @@ set_popularities = {
 	neutrality = 33
 }
 
+set_variable = {
+    var = acre_test
+    value = 1
+}
+
 add_ideas = {
 bonded_labor
 integrated_society
