@@ -1,0 +1,16 @@
+state={
+	id=155
+	name="STATE_155"
+	provinces={
+		5090 5093 5097 
+	}
+	manpower=30000
+        state_category=small_island
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = USR
+        add_core_of = USR
+}
+}

@@ -1,0 +1,28 @@
+﻿l_english:
+ DECISIONVIEW_TITLE:0 "Events and Decisions"
+ DECISIONSVIEW_EVENT_HEADER:0 "Events"
+ POPUP_NEWS:0 "News Popup"
+ POPUP_EVENTS:0 "Event Popup"
+ CATEGORY_COLLAPSE_DESC:0 "§GClick§! to collapse"
+ CATEGORY_EXPAND_DESC:0 "§GClick§! to expand"
+ DECISION_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is possible to take this decision.\n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is possible to take this decision.\n"
+ TAKE_DECISION_HEADER:0 "§HTake decision§!\n\n"
+ DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to take the decision"
+ DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
+ ON_MAP_DECISION_NAME_DEFAULT:0 "Find decisions on the map."
+ ADD_DAYS_TO_DECISION:0 "Add $DAYS|H$ days to Decision $DECISION|H$"
+ REMOVE_DAYS_TO_DECISION:0 "Remove $DAYS|H$ days from Decision $DECISION|H$"
+ ADD_DAYS_TO_MISSION:0 "Add $DAYS|H$ days to Mission $MISSION|H$"
+ REMOVE_DAYS_TO_MISSION:0 "Remove $DAYS|H$ days from Mission $MISSION|H$"
+ CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
+
+ form_amaru_mayu_required_states_tt:0 "Born from creeks and shallow channels amongst rocky cliffs, the watery branches of Ene, Tambó, Ucayali and all her sisters unite on thicker and thicker streams until the water's force becomes such that no amount of willpower can contain it, and like the warrior women she takes her name from, the Amazon gives and takes life away, and so shall her sons and daughters. \nWe must put the river under our benevolent hands, take back what is ours uniting our people for the first time in ever in one great federation, made for them, by them. \nTake the cities of §GManaus§!, §GRio Branco§!, §GBelém§!, §GNhamundá§!, §GParintins§!, §GCoari§!, §GBoa Vista§!, §GSantarém§! and §GJapurá§! to create the §YFederation of the Amaru Mayu§!."
+ form_amaru_mayu_category:0 "Reunification of the Amazon"
+ form_amaru_mayu:0 "Form the Federation of the Amaru Mayu"
+
+ form_amazon_free_state:0 "Reunite the Amazon"
+ form_amazon_free_state_required_states_tt:0 "No more pretenders, no more petty squabbles between city states, every boat now carries our flag, the rivers flow red with our fallen foe and even in the most remote valley of this dark jungle word of our ultimate victory was heard, a new age dawns upon the Amazon. \nTake the cities of §GManaus§!, §GRio Branco§!, §GBelém§!, §GNhamundá§!, §GParintins§!, §GCoari§!, §GBoa Vista§!, §GSantarém§! and §GJapurá§! to §YUnite the Amazon under your rule§!."
+
+ form_amazonian_papal_states:0 "Proclaim Salvation"
+ form_amazonian_papal_states_required_states_tt:0 "The Lord's work has no true end, some consider helping to bring it to fruition futile, we consider it an obligation. \nNonetheless, thanks to our devotion the savages of this land have been shaped into servants of our lord, equal to us in mind and soul, the time has come for the Great Crusade to begin, if man cannot bring order to this piece of heaven on earth then god will, and we will be his angels. \nTake the lands of the §GJaú National Park§!, avenge the martyrs slained by the §gNeblina Mercenaries§! and 'save' the souls of the §GJavari§! and §GJutaí§! to proclaim the §YKingdom of God on Earth§!."

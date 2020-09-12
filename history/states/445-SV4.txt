@@ -1,0 +1,14 @@
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		828 1523 1845 1951 2384 2549 3131 3136 3137 3162 3169 3174 3180 3199 
+	}
+	manpower=5000
+	state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=LLA
+             add_core_of = LLA
+}
+}

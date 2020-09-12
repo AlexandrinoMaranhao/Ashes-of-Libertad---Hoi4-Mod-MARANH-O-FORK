@@ -1,0 +1,16 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		209 395 406 891 2916 2939 2945 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	history={
+		owner = ERG
+		add_core_of = ERG
+
+	}
+}

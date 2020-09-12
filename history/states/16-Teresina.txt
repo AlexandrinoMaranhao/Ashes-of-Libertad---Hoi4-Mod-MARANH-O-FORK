@@ -1,0 +1,24 @@
+
+state={
+	id=16
+	name="STATE_16"
+
+	history={
+		owner = PIA
+		add_core_of = PIA
+
+		victory_points = {
+		1844 30	 
+		}
+		victory_points = {
+		2103 5	 
+		}
+	}
+
+	provinces={
+		52 1236 1384 1844 2103 3903 3951 3973 4003 
+	}
+	manpower=80388
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

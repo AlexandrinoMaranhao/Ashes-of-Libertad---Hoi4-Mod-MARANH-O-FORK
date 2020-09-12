@@ -1,0 +1,14 @@
+state={
+	id=322
+	name="STATE_322"
+	provinces={
+		289 906 924 1026 2432 2634 3423 3432 3447 
+	}
+	manpower=53849
+	state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ECU
+             add_core_of = ECU
+}
+}

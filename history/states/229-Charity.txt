@@ -1,0 +1,16 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		184 3032 3058 3068 3069 
+	}
+	manpower=100000
+        state_category=town
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = ENG
+        add_core_of = ENG
+}
+}

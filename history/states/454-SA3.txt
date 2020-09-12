@@ -1,0 +1,24 @@
+state={
+	id=454
+	name="STATE_454"
+	provinces={
+		88 1295 1491 2049 2257 2662 3450 3453 3454 3455 3456 3460 3463 3468 3469 3472 3489 
+	}
+	manpower=8263
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+        resources = {
+rubber = 2
+}
+	history={
+		owner = JAU
+		add_core_of = JAU
+            
+            buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            dockyard = 1
+}
+	}
+}

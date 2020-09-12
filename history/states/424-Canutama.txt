@@ -1,0 +1,30 @@
+state={
+	id=424
+	name="STATE_424"
+	provinces={
+		3947 
+	}
+	manpower=18945
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+rubber = 4
+steel = 1 
+}
+        history = {
+	owner = IQU
+	add_core_of = IQU
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3947 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3947 5
+		}
+}

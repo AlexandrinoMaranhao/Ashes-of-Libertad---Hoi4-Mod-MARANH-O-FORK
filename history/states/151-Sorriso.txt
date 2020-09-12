@@ -1,0 +1,26 @@
+
+state={
+	id=151
+	name="STATE_151"
+
+	history={
+		owner = XIN
+		add_core_of = XIN
+
+victory_points = {
+723 5            
+}
+
+victory_points = {
+1232 10            
+}
+
+	}
+
+	provinces={
+		86 197 723 1132 1232 1648 1972 2327 4337 
+	}
+	manpower=9775
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

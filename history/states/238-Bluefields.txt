@@ -1,0 +1,24 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		owner = NIC
+		add_core_of = NIC
+		victory_points = {
+		1177 3
+		}
+		victory_points = {
+		2620 1
+		}
+
+	}
+
+	provinces={
+		353 763 1177 1568 2620 6237 6238 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

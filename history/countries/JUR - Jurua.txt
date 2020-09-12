@@ -1,0 +1,48 @@
+﻿capital = 110
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+add_ideas = {
+	tribal_mobilization
+	migratory_tribe
+	domestic_servitude
+	integrated_society
+	no_press
+	war_economy
+	closed_economy
+}
+
+#create_country_leader = {
+#	
+#	name = ""
+#	picture = ""
+#	expire = ""
+#	ideology = 
+#	traits = {
+#		#
+#	}
+#}
+
+
+}

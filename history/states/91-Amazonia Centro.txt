@@ -1,0 +1,26 @@
+
+state={
+	id=91
+	name="STATE_91"
+
+	history={
+            
+            buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+}
+		owner = COR
+		add_core_of = COR
+
+	}
+        resources = {
+steel = 10
+ 
+}
+	provinces={
+		304 1456 1904 2010 2117 2605 3792 3802 3805 3808 3817 3821 3831 3833 3877 3904 3909 
+	}
+	manpower=8936
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

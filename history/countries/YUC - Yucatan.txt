@@ -1,0 +1,43 @@
+﻿capital = 251
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 10
+	fascism = 0
+	communism = 78
+	neutrality = 12
+}
+
+add_ideas = {
+	volunteer_only
+	closed_economy
+}
+
+create_country_leader = {
+	
+	name = "Genaro Vázques Rojas"
+	picture = "gfx/leaders/YUC/Portrait_YUC_Genaro_Vázques_Rojas.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+		#
+	}
+}
+
+
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=248
+	name="STATE_248"
+	provinces={
+		187 229 734 1273 1556 1666 1672 2379 2413 2739 2740 2753 2757 2768 2773 2776 6210 6208
+	}
+	manpower=1
+        state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=RRG
+             add_core_of = RRG
+}
+}

@@ -1,0 +1,65 @@
+﻿capital = 108
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 10
+	communism = 10
+	neutrality = 80
+}
+
+add_ideas = {
+	tribal_mobilization
+	domestic_servitude
+	total_segregation
+	no_press
+	war_economy
+	closed_economy
+}
+create_country_leader = {
+	
+	name = "Baradyahi"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = theocracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Tokaneri"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = tribal_chiefdom
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Pedro Malazarte"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		#
+	}
+}
+}

@@ -1,0 +1,31 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		2150 
+	}
+	manpower=15932
+	buildings_max_level_factor=1.000
+	state_category=city
+
+        resources = {
+rubber = 2
+steel = 1 
+}
+	history={
+		owner = ZOE
+		add_core_of = ZOE
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            2150 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                2150 5
+		}
+	}
+}

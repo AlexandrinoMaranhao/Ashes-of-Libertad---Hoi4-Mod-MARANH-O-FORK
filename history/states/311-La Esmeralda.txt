@@ -1,0 +1,14 @@
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		1213 1374 1392 1453 1679 1961 1983 2313 2336 2359 2681 3155 3159 3216 3222 3224 3244 3271 3284 
+	}
+	manpower=5000
+	state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=VEN
+             add_core_of = VEN
+}
+}

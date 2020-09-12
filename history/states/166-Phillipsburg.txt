@@ -1,0 +1,16 @@
+state={
+	id=166
+	name="STATE_166"
+	provinces={
+		5098 
+	}
+	manpower=10000
+        state_category=tiny_island
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = HOL
+        add_core_of = HOL
+}
+}

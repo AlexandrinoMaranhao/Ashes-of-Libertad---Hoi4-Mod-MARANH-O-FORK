@@ -1,0 +1,24 @@
+
+state={
+	id=245
+	name="STATE_245"
+
+	history={
+		owner = GUA
+		add_core_of = GUA
+		victory_points = {
+			2949 5 
+		}
+		victory_points = {
+			2387 3 
+		}
+
+	}
+
+	provinces={
+		139 323 845 1810 2061 2155 2387 2496 2938 2943 2949 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

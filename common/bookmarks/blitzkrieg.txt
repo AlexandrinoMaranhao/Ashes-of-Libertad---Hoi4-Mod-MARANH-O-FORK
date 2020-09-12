@@ -1,0 +1,46 @@
+bookmarks = {
+	bookmark ={
+		name = "Twilight of the Republic"
+		desc = "BLITZKRIEG_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "BRA"
+
+		"BRA"={
+		    history = "BRA_BLITZKRIEG_DESC"
+		}
+
+		"JUN"={
+			history = "JUN_BLITZKRIEG_DESC"
+		}
+
+		"UBA"={
+			history = "UBA_BLITZKRIEG_DESC"
+		}
+
+		"CRJ"={
+			history = "CRJ_BLITZKRIEG_DESC"
+		}
+
+		"RMI"={
+			history = "RMI_BLITZKRIEG_DESC"
+		}
+
+		"VAL"={
+			history = "VAL_BLITZKRIEG_DESC"
+		}
+
+		"JAG"={
+			history = "PAU_BLITZKRIEG_DESC"
+		}
+
+		"SAO"={
+			history = "SAO_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+    }
+}

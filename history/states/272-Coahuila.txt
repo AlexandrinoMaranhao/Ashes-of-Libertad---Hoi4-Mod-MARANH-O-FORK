@@ -1,0 +1,18 @@
+
+state={
+	id=272
+	name="STATE_272"
+
+	history={
+		owner = NNM
+		add_core_of = NNM
+
+	}
+
+	provinces={
+		89 433 816 996 1565 2751 2762 6209 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

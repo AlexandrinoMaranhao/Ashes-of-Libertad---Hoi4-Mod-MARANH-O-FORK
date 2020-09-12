@@ -1,0 +1,44 @@
+
+state={
+	id=96
+	name="STATE_96"
+
+	history={
+		owner = MNS
+		add_core_of = MNS
+
+        buildings = {
+            industrial_complex = 3
+            infrastructure = 2
+            dockyard = 3
+3679 = {
+naval_base = 4
+}
+        }
+		victory_points = {
+                2495 20
+		}
+
+		victory_points = {
+                3679 5
+		}
+
+		victory_points = {
+                3655 5
+		}
+	}
+
+        resources = {
+rubber = 10
+steel = 12
+motors = 2
+ammunition = 5
+ 
+}
+	provinces={
+		661 933 2353 2495 3631 3655 3670 3679 
+	}
+	manpower=99499
+	buildings_max_level_factor=1.000
+	state_category=city
+}

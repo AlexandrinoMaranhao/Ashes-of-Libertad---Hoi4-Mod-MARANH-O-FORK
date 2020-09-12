@@ -1,0 +1,24 @@
+state={
+	id=500
+	name="STATE_500"
+	provinces={
+		2217 2287 4639 6274 
+	}
+	manpower=335784
+	buildings_max_level_factor=1.000
+        state_category=town
+
+	history={
+		owner = SAO
+		add_core_of = SAO
+
+
+		victory_points = {
+		2217 5
+		}
+
+		victory_points = {
+		4639 5
+		}
+	}
+}

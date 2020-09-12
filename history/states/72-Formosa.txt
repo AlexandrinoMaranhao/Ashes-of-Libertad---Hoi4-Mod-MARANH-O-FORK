@@ -1,0 +1,24 @@
+
+state={
+	id=72
+	name="STATE_72"
+
+	history={
+		owner = JUN
+		add_core_of = JUN
+                add_core_of = JCS
+		victory_points = {
+                1714 5
+		}
+		victory_points = {
+                4390 1
+		}
+	}
+
+	provinces={
+		782 938 1714 2064 2670 4389 4390 4394 4406 
+	}
+	manpower=14283
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

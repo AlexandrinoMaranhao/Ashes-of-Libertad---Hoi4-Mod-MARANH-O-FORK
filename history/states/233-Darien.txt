@@ -1,0 +1,17 @@
+
+state={
+	id=233
+	name="STATE_233"
+	provinces={
+		49 1676 1787 2994 2997 2998 3022 3041 
+	}
+	manpower=1
+        state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=PAM
+             add_core_of = PAM
+             victory_points = {
+             1787 30
+             }
+}

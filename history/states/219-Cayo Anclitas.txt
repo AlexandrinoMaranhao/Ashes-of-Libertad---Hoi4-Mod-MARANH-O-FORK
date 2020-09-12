@@ -1,0 +1,14 @@
+state={
+	id=219
+	name="STATE_219"
+	provinces={
+		2861 5080 
+	}
+	manpower=500
+        state_category=small_island
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CUB
+             add_core_of = CUB
+}
+}

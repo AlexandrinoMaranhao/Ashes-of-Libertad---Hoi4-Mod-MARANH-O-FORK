@@ -1,0 +1,58 @@
+﻿capital = 36
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 75
+	communism = 0
+	neutrality = 25
+}
+
+add_ideas = {
+admiral_rademaker
+losers_of_guanabara
+navy_priority
+	closed_economy
+	partial_economic_mobilisation
+	extensive_conscription
+}
+
+create_country_leader = {
+	
+	name = "Augusto Rademaker"
+	picture = "gfx/leaders/CRJ/Portrait_CRJ_Augusto_Rademaker.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		anti_democrat
+		#american_caesar
+		warrior_code
+	}
+}
+
+create_country_leader = {
+	
+	name = "Emperor Rademaker"
+	picture = "gfx/leaders/CRJ/Portrait_CRJ_Imperial_Rademaker.dds"
+	expire = "1999.1.1"
+	ideology = monarchy_status_quo
+	traits = {
+
+	}
+}
+}

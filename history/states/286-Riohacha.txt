@@ -1,0 +1,16 @@
+state={
+	id=286
+	name="STATE_286"
+	provinces={
+		6 1859 2053 2630 2960 2981 
+	}
+	manpower=200438
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = ELN
+        add_core_of = ELN
+}
+}

@@ -1,0 +1,44 @@
+﻿capital = 29
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 25
+	fascism = 25
+	communism = 25
+	neutrality = 25
+}
+
+add_ideas = {
+	volunteer_only
+	low_economic_mobilisation
+}
+
+create_country_leader = {
+	
+	name = "Antonio 'Alemão' Danelon"
+	picture = "gfx/leaders/PIR/Portrait_PIR_Antonio_Danelon.dds"
+	expire = "1999.1.1"
+	ideology = conservatism
+	traits = {
+		popular_figurehead
+		snuggler
+	}
+}
+
+
+}

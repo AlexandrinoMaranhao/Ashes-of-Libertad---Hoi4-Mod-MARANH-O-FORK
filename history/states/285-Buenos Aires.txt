@@ -1,0 +1,31 @@
+
+state={
+	id=285
+	name="STATE_285"
+	provinces={
+		84 359 2087 2688 4898 4904 
+	}
+	manpower=2830304
+        state_category=metropolis
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           4904 50
+        }
+
+        victory_points = {
+           2688 1
+        }
+
+        victory_points = {
+           4898 5
+        }
+
+        victory_points = {
+           84 5
+        }
+}
+}

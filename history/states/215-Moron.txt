@@ -1,0 +1,14 @@
+state={
+	id=215
+	name="STATE_215"
+	provinces={
+		175 2176 2838 
+	}
+	manpower=38553
+        state_category=town
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CUB
+             add_core_of = CUB
+}
+}

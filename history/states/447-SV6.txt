@@ -1,0 +1,16 @@
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		44 1202 2254 2515 2611 3033 
+	}
+	manpower=40542
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	history={
+		owner = VEC
+		add_core_of = VEC
+
+	}
+}

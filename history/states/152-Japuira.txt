@@ -1,0 +1,26 @@
+
+state={
+	id=152
+	name="STATE_152"
+
+	history={
+		owner = JAG
+		add_core_of = JAG
+
+victory_points = {
+4356 5            
+}
+
+victory_points = {
+10 5            
+}
+
+	}
+
+	provinces={
+		10 316 371 1191 2024 2447 2637 4356 4395 
+	}
+	manpower=41274
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

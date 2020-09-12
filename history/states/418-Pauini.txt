@@ -1,0 +1,30 @@
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		4074 
+	}
+	manpower=14050
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+rubber = 2
+steel = 1 
+}
+        history = {
+	owner = JUR
+	add_core_of = JUR
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            4074 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                4074 5
+		}
+}

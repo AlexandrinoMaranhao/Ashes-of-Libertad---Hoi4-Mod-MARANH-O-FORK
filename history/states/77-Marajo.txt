@@ -1,0 +1,38 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		1148 1320 1748 2063 2323 3443 3477 3481 3522 5128 5129 5131 5132 5133 
+	}
+	manpower=12284
+	buildings_max_level_factor=1.000    
+        state_category=rural
+       resources = {
+steel = 1
+rubber = 2
+ 
+}
+            history = {
+
+        owner = BEM
+        add_core_of = BEM
+
+
+        buildings = {
+            dockyard = 2
+            infrastructure = 2
+        }
+
+		victory_points = {
+                2323 5
+		}
+
+		victory_points = {
+                1320 5
+		}
+
+		victory_points = {
+                2063 5
+		}
+}
+}

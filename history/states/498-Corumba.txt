@@ -1,0 +1,21 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		4520 4530 
+	}
+	manpower=68937
+	buildings_max_level_factor=1.000
+        state_category=city
+	history={
+		owner = ERN
+		add_core_of = ERN
+		victory_points = {
+			4520 30 
+		}
+		victory_points = {
+			1086 5 
+		}
+
+	}
+}

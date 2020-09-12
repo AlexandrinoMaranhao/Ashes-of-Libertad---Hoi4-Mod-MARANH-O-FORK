@@ -1,0 +1,18 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = RMT
+		add_core_of = RMT
+
+	}
+
+	provinces={
+		77 1031 1246 1427 1690 1702 2720 2807 2818 5071 5075 5078 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

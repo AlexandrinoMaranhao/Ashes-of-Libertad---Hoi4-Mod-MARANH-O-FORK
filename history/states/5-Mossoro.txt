@@ -1,0 +1,21 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = RGN
+		add_core_of = RGN
+		victory_points = {
+			3875 5 
+		}
+
+	}
+
+	provinces={
+		275 831 3875 6283 
+	}
+	manpower=31986
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

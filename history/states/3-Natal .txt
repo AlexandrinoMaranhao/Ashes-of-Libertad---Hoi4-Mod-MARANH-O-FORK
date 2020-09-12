@@ -1,0 +1,24 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		1021 1222 2687 3959 3987 4009 
+	}
+	manpower=884122
+	buildings_max_level_factor=1.000
+        state_category=city
+
+            history = {
+
+        owner = RGN
+        add_core_of = RGN
+
+		victory_points = {
+		3959 50	 
+		}
+		victory_points = {
+		3987 5	 
+		}
+
+}
+}

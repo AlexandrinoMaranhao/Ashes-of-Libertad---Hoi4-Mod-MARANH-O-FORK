@@ -1,0 +1,18 @@
+
+state={
+	id=291
+	name="STATE_291"
+
+	history={
+		owner = COL
+		add_core_of = COL
+
+	}
+
+	provinces={
+		315 988 1407 2032 2547 3134 3139 3140 3156 
+	}
+	manpower=499754
+	buildings_max_level_factor=1.000
+	state_category=town
+}

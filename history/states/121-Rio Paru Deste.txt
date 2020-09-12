@@ -1,0 +1,30 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		912 2086 2090 2143 2252 3334 3354 3435 3458 3485 3513 
+	}
+	manpower=5837
+	buildings_max_level_factor=1.000    
+        state_category=pastoral
+       resources = {
+rubber = 2
+steel = 1
+}
+            history = {
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 3
+        }
+        owner = WAI
+        add_core_of = WAI
+
+		victory_points = {
+                912 5
+		}
+		victory_points = {
+                2143 5
+		}
+}
+}

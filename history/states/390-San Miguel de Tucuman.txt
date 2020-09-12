@@ -1,0 +1,22 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		33 136 961 1267 1378 1416 1590 4679 4752 4761 4768 
+	}
+	manpower=198304
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           1267 10
+        }
+
+        victory_points = {
+           4752 5
+        }
+}
+}

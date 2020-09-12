@@ -1,0 +1,21 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		36 806 1653 2146 2475 
+	}
+	manpower=50664
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	history={
+		owner = CNU
+		add_core_of = CNU
+		victory_points = {
+		1653 5	 
+		}
+		victory_points = {
+		2146 5	 
+		}
+	}
+}

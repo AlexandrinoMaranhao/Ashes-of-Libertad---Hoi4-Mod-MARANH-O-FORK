@@ -1,0 +1,79 @@
+﻿capital = 24
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 78
+	fascism = 0
+	communism = 12
+	neutrality = 10
+}
+
+add_ideas = {
+	battle_of_guanabara
+	sp_betrayal
+	bra_elections
+	limited_conscription
+	limited_exports
+	partial_economic_mobilisation
+}
+
+create_country_leader = {
+	
+	name = "João Goulart"
+	picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
+	expire = "1999.1.1"
+	ideology = socialism
+	traits = {
+		cornered_fox
+		connected_citizen
+		social_reformer
+
+	}
+}
+create_country_leader = {
+	name = "Leonel Brizola"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
+	expire = "1999.1.1"
+	ideology = marxism
+	traits = {
+		connected_citizen
+		social_reformer
+
+	}
+}
+create_country_leader = {
+	name = "Henrique Teixeira Lott"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
+	expire = "1999.1.1"
+	ideology = military_junta
+	traits = {
+		cornered_fox
+
+	}
+}
+
+create_country_leader = {
+	
+	name = "Irton Marx"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Irton_Marx.dds"
+	expire = "1999.1.1."
+	ideology = centrism
+	traits = {
+		
+	}
+}
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=224
+	name="STATE_224"
+	provinces={
+		498 561 943 1461 1624 2401 2478 3150 3161 
+	}
+	manpower=30000
+        state_category=town
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CAY
+             add_core_of = CAY
+}
+}

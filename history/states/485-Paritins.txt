@@ -1,0 +1,29 @@
+state={
+	id=485
+	name="STATE_485"
+	provinces={
+		864 2723 3581 3601 3609 3614 3651 3652 3691 3712 3750 
+	}
+	manpower=5384
+	buildings_max_level_factor=1.000    
+        state_category=rural
+
+        resources = {
+rubber = 2
+ 
+}
+            history = {
+            
+            buildings = {
+            infrastructure = 4
+            industrial_complex = 1
+            dockyard = 1
+}
+        owner = AND
+        add_core_of = AND
+
+		victory_points = {
+                3601 10
+		}
+}
+}

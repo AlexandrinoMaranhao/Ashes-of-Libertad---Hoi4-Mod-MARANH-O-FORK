@@ -1,0 +1,33 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		3834 
+	}
+	manpower=14057
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+rubber = 5
+steel = 1 
+}
+        history = {
+	owner = COA
+	add_core_of = COA
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3834 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3834 5
+		}
+}
+
+
+}

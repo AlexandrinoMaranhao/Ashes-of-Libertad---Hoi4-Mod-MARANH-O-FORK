@@ -1,0 +1,20 @@
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		62 1058 3658 3737 3775 
+	}
+	manpower=137197
+	buildings_max_level_factor=1.000
+        state_category=town
+            history = {
+
+        owner = PIA
+        add_core_of = PIA
+
+		victory_points = {
+		3737 50 
+		}
+
+}
+}

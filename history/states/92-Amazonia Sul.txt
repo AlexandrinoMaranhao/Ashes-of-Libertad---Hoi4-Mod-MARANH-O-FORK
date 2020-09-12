@@ -1,0 +1,29 @@
+
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		14 620 878 915 930 1079 1433 1907 2208 2686 3926 3975 4004 4038 4039 4076 4086 4115 4124 4140 4150 
+	}
+	manpower=4632
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+        resources = {
+rubber = 2
+ 
+}
+            history = {
+
+        owner = ARI
+        add_core_of = ARI
+            
+            buildings = {
+            infrastructure = 2
+            dockyard = 1
+}
+		victory_points = {
+                620 5
+		}
+}
+}

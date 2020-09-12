@@ -1,0 +1,27 @@
+
+supply_area={
+	id=30
+	name="SUPPLYAREA_30"
+	value=10
+	states={
+		135 136 137 95 140 87 139 78 138 133 132 134 77 471 470 487 491 
+	}
+}
+
+supply_area={
+	id=33
+	name="SUPPLYAREA_33"
+	value=10
+	states={
+		311 310 309 229 228 307 308 445 442 443 441 
+	}
+}
+
+supply_area={
+	id=34
+	name="SUPPLYAREA_34"
+	value=10
+	states={
+		303 305 306 315 314 316 317 313 312 414 304 90 427 428 450 432 446 449 448 447 
+	}
+}

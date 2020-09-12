@@ -1,0 +1,30 @@
+
+state={
+	id=100
+	name="STATE_100"
+
+	history={
+		owner = QPM
+		add_core_of = QPM
+            
+            buildings = {
+            infrastructure = 4
+            industrial_complex = 1
+}
+		victory_points = {
+                1114 20
+		}
+	}
+
+	provinces={
+		510 841 1114 1224 1281 1843 1875 1958 2616 3510 3518 3549 3574 3586 3597 3612 
+	}
+	manpower=13209
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+        resources = {
+
+steel = 3
+}
+}

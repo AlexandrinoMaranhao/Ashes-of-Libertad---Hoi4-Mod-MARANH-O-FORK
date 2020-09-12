@@ -1,0 +1,37 @@
+
+state={
+	id=430
+	name="STATE_430"
+	resources={
+		steel=12.000
+		technology=4.000
+		ammunition=10.000
+		motors=1.000
+	}
+
+	history={
+		owner = NHA
+		add_core_of = NHA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 5
+			3506 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			3506 30 
+		}
+
+	}
+
+	provinces={
+		3476 3506 
+	}
+	manpower=17449
+	buildings_max_level_factor=1.000
+	state_category=town
+}

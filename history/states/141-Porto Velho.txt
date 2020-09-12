@@ -1,0 +1,22 @@
+
+state={
+	id=141
+	name="STATE_141"
+
+	history={
+		owner = ERN
+		add_core_of = ERN
+
+victory_points = {
+4205 20
+}
+
+	}
+
+	provinces={
+		15 493 665 1203 1724 2297 2707 4109 4131 4138 4149 4175 4182 4185 4198 4205 4220 4240 
+	}
+	manpower=80383
+	buildings_max_level_factor=1.000
+	state_category=city
+}

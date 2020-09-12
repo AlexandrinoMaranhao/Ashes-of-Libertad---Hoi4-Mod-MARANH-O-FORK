@@ -1,0 +1,22 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		1455 1794 2011 2027 4848 4862 
+	}
+	manpower=318183
+        state_category=city
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CHL
+             add_core_of = CHL
+
+        victory_points = {
+2027 5
+        }
+        victory_points = {
+1794 5
+        }
+}
+
+}

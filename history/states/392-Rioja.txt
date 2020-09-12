@@ -1,0 +1,22 @@
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		47 162 584 716 838 1127 1187 1443 1533 1550 1982 2113 2635 4688 4699 4705 4722 4781 4783 
+	}
+	manpower=94203
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           4781 5
+        }
+
+        victory_points = {
+           1443 5
+        }
+}
+}

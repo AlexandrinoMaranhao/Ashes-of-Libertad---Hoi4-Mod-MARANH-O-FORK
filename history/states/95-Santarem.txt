@@ -1,0 +1,42 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		335 999 1125 2615 3610 3632 3642 3667 3668 3686 3692 3713 3722 3736 3742 3764 3767 
+	}
+	manpower=51370
+	buildings_max_level_factor=1.000    
+        state_category=city
+       resources = {
+steel = 2
+technology = 2
+ammunition = 10
+motors = 3
+oil = 2
+}
+            history = {
+
+        buildings = {
+            arms_factory = 4
+            infrastructure = 6
+            industrial_complex = 2
+3632 = {
+naval_base = 2
+coastal_bunker = 2
+}
+
+        }
+
+        owner = STR
+        add_core_of = STR
+
+		victory_points = {
+                1125 30
+		}
+
+		victory_points = {
+                3632 5
+		}
+
+}
+}

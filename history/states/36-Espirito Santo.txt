@@ -1,0 +1,26 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = CRJ
+		victory_points = {
+			2268 30 
+		}
+		victory_points = {
+			2344 5 
+		}
+		victory_points = {
+			4511 5 
+		}
+
+	}
+
+	provinces={
+		609 1405 2268 2344 2531 4511 4518 4556 4570 6272 
+	}
+	manpower=1170858
+	buildings_max_level_factor=1.000
+	state_category=city
+}

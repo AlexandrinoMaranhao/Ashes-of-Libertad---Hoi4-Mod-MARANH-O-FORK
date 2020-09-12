@@ -1,0 +1,30 @@
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		526 
+	}
+	manpower=15294
+	buildings_max_level_factor=1.000
+	state_category=city
+
+        resources = {
+steel = 4 
+}
+	history={
+		owner = AND
+		add_core_of = AND
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            526 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                526 5
+		}
+	}
+}

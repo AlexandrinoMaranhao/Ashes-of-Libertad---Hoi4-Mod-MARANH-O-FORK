@@ -1,0 +1,27 @@
+
+state={
+	id=110
+	name="STATE_110"
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+            
+            buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+}
+	}
+
+	provinces={
+		542 668 1220 1474 2042 2238 2244 2383 2425 2679 4006 4014 4024 4026 4032 4044 4047 4059 4079 4104 4110 4127 4158 4167 
+	}
+	manpower=4750
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+        resources = {
+rubber = 2
+
+}
+}

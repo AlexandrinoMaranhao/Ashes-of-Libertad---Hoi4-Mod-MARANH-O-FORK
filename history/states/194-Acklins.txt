@@ -1,0 +1,14 @@
+state={
+	id=194
+	name="STATE_194"
+	provinces={
+		5064 
+	}
+	manpower=1000
+        state_category=small_island
+	buildings_max_level_factor=1.000
+            history = {
+             owner=SOV
+             add_core_of = SOV
+}
+}

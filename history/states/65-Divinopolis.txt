@@ -1,0 +1,24 @@
+
+state={
+	id=65
+	name="STATE_65"
+
+	history={
+		owner = RMI
+		add_core_of = RMI
+		victory_points = {
+			1215 10 
+		}
+		victory_points = {
+			4516 10 
+		}
+
+	}
+
+	provinces={
+		817 4503 4509 4516 4525 4532 4544 
+	}
+	manpower=965394
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		198 264 348 490 809 1053 1197 1578 1890 2158 2308 2683 4614 4620 4654 4659 4662 4663 
+	}
+	manpower=173183
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           198 10
+        }
+
+}
+}

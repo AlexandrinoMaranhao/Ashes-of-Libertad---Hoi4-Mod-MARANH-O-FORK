@@ -1,0 +1,22 @@
+state={
+	id=475
+	name="STATE_475"
+	provinces={
+		330 941 1634 1771 1895 1929 4133 
+	}
+	history={
+		owner = PIA
+		add_core_of = PIA
+
+		victory_points = {
+		1895 5	 
+		}
+		victory_points = {
+		1771 5	 
+		}
+	}
+
+	manpower=48503
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

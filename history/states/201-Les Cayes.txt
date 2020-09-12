@@ -1,0 +1,14 @@
+state={
+	id=201
+	name="STATE_201"
+	provinces={
+		2124 2237 2904 5095 
+	}
+	manpower=386539
+        state_category=town
+	buildings_max_level_factor=1.000
+            history = {
+             owner=HAI
+             add_core_of = HAI
+}
+}

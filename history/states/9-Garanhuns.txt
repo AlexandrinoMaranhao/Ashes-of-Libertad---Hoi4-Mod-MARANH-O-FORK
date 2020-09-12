@@ -1,0 +1,21 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		110 488 1153 4177 
+	}
+	manpower=985384
+	buildings_max_level_factor=1.000
+        state_category=pastoral
+
+
+            history = {
+
+        owner = PEB
+        add_core_of = PEB
+
+		victory_points = {
+		4177 5	 
+		}
+}
+}

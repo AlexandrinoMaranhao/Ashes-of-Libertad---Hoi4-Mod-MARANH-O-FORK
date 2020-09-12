@@ -1,0 +1,30 @@
+state={
+	id=426
+	name="STATE_426"
+	provinces={
+		2067 
+	}
+	manpower=17953
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+rubber = 2
+steel = 3 
+}
+        history = {
+	owner = JAV
+	add_core_of = JAV
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            2067 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                2067 5
+		}
+}

@@ -1,0 +1,32 @@
+state={
+	id=397
+	name="STATE_397"
+	provinces={
+		3441 
+	}
+	manpower=14087
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+steel = 2
+ammunition = 3
+}
+        history = {
+	owner = NEB
+	add_core_of = NEB
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3441 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3441 5
+		}
+}
+
+}

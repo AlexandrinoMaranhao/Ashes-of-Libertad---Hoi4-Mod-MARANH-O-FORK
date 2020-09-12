@@ -1,0 +1,25 @@
+state={
+	id=468
+	name="STATE_468"
+	provinces={
+		384 728 1297 1308 1887 2000 2126 2226 2500 4071 4120 4151 4154 4237 
+	}
+	manpower=37492
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+        resources = {
+steel = 4 
+motors = 4
+}
+            history = {
+
+        owner = ARI
+        add_core_of = ARI
+
+victory_points = {
+1887 5            
+}
+
+}
+}

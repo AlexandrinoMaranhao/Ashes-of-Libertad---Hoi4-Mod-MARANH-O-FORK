@@ -1,0 +1,19 @@
+
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		1333 1971 6243 
+	}
+	manpower=718384
+        state_category=large_city
+	buildings_max_level_factor=1.000
+            history = {
+             owner=BOL
+             add_core_of = BOL
+        victory_points = {
+1971 50
+        }
+
+}
+}

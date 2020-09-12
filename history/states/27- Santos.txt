@@ -1,0 +1,24 @@
+
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		1305 4647 4649 4653 4656 4658 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+            history = {
+
+          owner = SAO
+          add_core_of = SAO
+
+        victory_points = {
+           4658 30
+        }
+        victory_points = {
+           1305 1
+        }
+}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=480
+	name="STATE_480"
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		333 805 1434 1805 1952 2034 2811 2812 2814 2816 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,14 @@
+state={
+	id=207
+	name="STATE_207"
+	provinces={
+		2837 2840 2842 2843 2846 2847 5073 5074 
+	}
+	manpower=50000
+        state_category=small_island
+	buildings_max_level_factor=1.000
+            history = {
+             owner=JUV
+             add_core_of = JUV
+}
+}

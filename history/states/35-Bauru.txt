@@ -1,0 +1,24 @@
+
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = SAO
+		add_core_of = SAO
+		victory_points = {
+			4608 5 
+		}
+		victory_points = {
+			4601 5 
+		}
+
+	}
+
+	provinces={
+		1185 1944 2418 4601 4608 4621 6256 6257 
+	}
+	manpower=339274
+	buildings_max_level_factor=1.000
+	state_category=town
+}

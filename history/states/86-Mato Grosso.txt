@@ -1,0 +1,26 @@
+
+state={
+	id=86
+	name="STATE_86"
+
+	history={
+		owner = JAG
+		add_core_of = JAG
+
+victory_points = {
+4434 5            
+}
+
+victory_points = {
+1764 5            
+}
+
+	}
+
+	provinces={
+		156 358 362 379 380 669 857 1067 1233 1764 2233 2296 2439 4338 4392 4398 4404 4405 4419 4434 4439 4467 4476 
+	}
+	manpower=12486
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

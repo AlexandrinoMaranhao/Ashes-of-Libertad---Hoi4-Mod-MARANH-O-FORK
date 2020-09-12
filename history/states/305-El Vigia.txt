@@ -1,0 +1,18 @@
+
+state={
+	id=305
+	name="STATE_305"
+
+	history={
+		owner = VEC
+		add_core_of = VEC
+
+	}
+
+	provinces={
+		627 1625 2584 3000 3007 3009 3013 3016 3025 3072 
+	}
+	manpower=788943
+	buildings_max_level_factor=1.000
+	state_category=town
+}

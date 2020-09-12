@@ -1,0 +1,27 @@
+
+state={
+	id=58
+	name="STATE_58"
+
+	history={
+		owner = CNU
+		add_core_of = CNU
+
+		victory_points = {
+		2301 10	 
+		}
+		victory_points = {
+		4288 10	 
+		}
+		victory_points = {
+		4209 10	 
+		}
+	}
+
+	provinces={
+		334 387 633 739 1171 1744 2301 4209 4226 4249 4261 4288 
+	}
+	manpower=30449
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

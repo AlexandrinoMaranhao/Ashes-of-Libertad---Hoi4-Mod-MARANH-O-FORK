@@ -1,0 +1,22 @@
+
+state={
+	id=466
+	name="STATE_466"
+
+	history={
+		owner = ERN
+		add_core_of = ERN
+
+		victory_points = {
+			1086 5 
+		}
+
+	}
+
+	provinces={
+		23 87 443 959 1086 1156 1275 4519 
+	}
+	manpower=11330
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

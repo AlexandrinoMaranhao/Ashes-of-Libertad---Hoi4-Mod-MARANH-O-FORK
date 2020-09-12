@@ -1,0 +1,32 @@
+state={
+	id=420
+	name="STATE_420"
+	provinces={
+		3598 
+	}
+	manpower=15202
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+rubber = 2
+steel = 3 
+}
+        history = {
+	owner = JAU
+	add_core_of = JAU
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3598 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3598 5
+		}
+}
+
+}

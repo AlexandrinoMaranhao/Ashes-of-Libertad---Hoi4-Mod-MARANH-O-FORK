@@ -1,0 +1,18 @@
+
+state={
+	id=300
+	name="STATE_300"
+
+	history={
+             owner=LBT
+             add_core_of = LBT
+
+	}
+
+	provinces={
+		11 173 556 751 752 967 1138 1167 1429 1440 1527 1782 1866 1937 1954 2598 2700 3142 3143 3158 3173 3176 3191 3195 3210 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

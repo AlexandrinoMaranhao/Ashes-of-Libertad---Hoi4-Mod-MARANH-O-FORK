@@ -1,0 +1,33 @@
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		3725 
+	}
+	manpower=10992
+	buildings_max_level_factor=1.000
+        state_category=town
+
+        resources = {
+rubber = 2
+steel = 2
+ 
+}
+        history = {
+	owner = MNS
+	add_core_of = MNS
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3725 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3725 5
+		}
+}
+
+}

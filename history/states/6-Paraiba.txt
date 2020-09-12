@@ -1,0 +1,22 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = PAI
+		add_core_of = PAI
+		victory_points = {
+			6279 50 
+		}
+
+
+	}
+
+	provinces={
+		1795 6279 6282 
+	}
+	manpower=749394
+	buildings_max_level_factor=1.000
+	state_category=town
+}

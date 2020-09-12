@@ -1,0 +1,50 @@
+﻿capital = 96
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 20
+	fascism = 40
+	communism = 10
+	neutrality = 30
+}
+
+add_ideas = {
+bonded_labor
+racist_society
+light_censorship
+limited_conscription
+low_economic_mobilisation
+free_trade
+
+the_rubber_barons
+what_apocalypse
+}
+
+create_country_leader = {
+	
+	name = "Gilberto Mestrinho"
+	picture = "gfx/leaders/MNS/Portrait_MNS_Gilberto_Mestrinho.dds"
+	expire = "1999.1.1"
+	ideology = mercantile_oligarchy 
+	traits = {
+		#
+	}
+}
+
+
+}

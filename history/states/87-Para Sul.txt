@@ -1,0 +1,32 @@
+
+state={
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = KAY
+		add_core_of = KAY
+
+        buildings = {
+            industrial_complex = 1
+            infrastructure = 4
+        }
+		victory_points = {
+                4108 1
+		}
+
+		victory_points = {
+                2479 5
+		}
+	}
+       resources = {
+steel = 2
+ 
+}
+	provinces={
+		18 32 191 390 578 1644 1686 1981 2074 2169 2322 2479 2655 2695 3863 3890 3918 3937 3963 4002 4025 4093 4108 4128 4142 4143 4172 4173 4194 4199 4200 
+	}
+	manpower=9574
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		514 744 932 3654 3695 3699 3717 3720 3752 
+	}
+	manpower=7937
+	buildings_max_level_factor=1.000    
+        state_category=rural
+
+        resources = {
+steel = 5
+
+}
+            history = {
+            
+            buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+}
+        owner = QPM
+        add_core_of = QPM
+
+		victory_points = {
+                3720 5
+		}
+}
+}

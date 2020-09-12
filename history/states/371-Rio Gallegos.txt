@@ -1,0 +1,22 @@
+
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		76 122 151 244 377 388 432 455 473 701 759 1278 1332 1589 1731 1832 2007 2246 2291 2295 5008 5009 5010 5011 5012 5013 5014 5015 5016 5017 5018 5019 5022 5023 5024 5025 5026 5027 5028 5029 5030 5032 6254 6255 
+	}
+	manpower=48732
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           5030 5
+        }
+        victory_points = {
+           5039 5
+        }
+}
+}

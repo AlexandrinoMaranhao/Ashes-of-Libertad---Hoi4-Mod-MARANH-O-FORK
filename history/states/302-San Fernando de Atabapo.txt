@@ -1,0 +1,14 @@
+state={
+	id=302
+	name="STATE_302"
+	provinces={
+		894 1322 1485 2367 3204 3211 3234 3243 3248 3257 3278 
+	}
+	manpower=5000
+	state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CIA
+             add_core_of = CIA
+}
+}

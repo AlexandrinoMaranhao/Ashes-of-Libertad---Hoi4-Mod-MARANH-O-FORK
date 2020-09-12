@@ -1,0 +1,18 @@
+
+state={
+	id=298
+	name="STATE_298"
+
+	history={
+		owner = LHA
+		add_core_of = LHA
+
+	}
+
+	provinces={
+		655 656 727 835 1048 1117 1289 1529 1655 1953 1962 2489 2621 2638 3232 3237 3266 3267 3276 3289 3299 3341 3344 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

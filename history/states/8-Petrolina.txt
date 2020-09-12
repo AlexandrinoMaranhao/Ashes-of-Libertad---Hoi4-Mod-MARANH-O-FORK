@@ -1,0 +1,23 @@
+
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		1457 4056 4090 4134 4147 4160 
+	}
+	manpower=987293
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+            history = {
+
+        owner = PEB
+        add_core_of = PEB
+		victory_points = {
+		1457 5	 
+		}
+		victory_points = {
+		4160 30	 
+		}
+}
+}

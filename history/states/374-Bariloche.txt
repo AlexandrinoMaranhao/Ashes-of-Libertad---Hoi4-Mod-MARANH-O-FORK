@@ -1,0 +1,27 @@
+
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		22 261 468 496 610 664 832 997 1194 1254 1312 1338 1376 1450 1516 1623 1785 1879 2008 2025 2102 2133 2134 2309 2338 2543 2553 2561 2627 2677 4926 4929 4931 4941 4944 4947 4953 4958 4960 4963 4969 4972 4974 4976 4983 4984 4988 
+	}
+	manpower=200304
+        state_category=town
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           2543 30
+        }
+
+        victory_points = {
+           1450 30
+        }
+
+        victory_points = {
+           496 5
+        }
+}
+}

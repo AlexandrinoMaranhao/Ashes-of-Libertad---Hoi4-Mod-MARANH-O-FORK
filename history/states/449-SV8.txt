@@ -1,0 +1,18 @@
+
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		owner = LLA
+		add_core_of = LLA
+
+	}
+
+	provinces={
+		256 370 868 1917 2184 3015 3030 3036 3037 3043 3052 3054 
+	}
+	manpower=30542
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

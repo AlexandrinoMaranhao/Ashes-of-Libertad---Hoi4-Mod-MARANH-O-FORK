@@ -1,0 +1,18 @@
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		248 702 1118 1277 1511 2434 4772 4775 4819 4827 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+        state_category=city
+
+            history = {
+             owner=BRA
+             add_core_of = BRA
+        victory_points = {
+           2434 5
+        }
+    }
+}

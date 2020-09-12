@@ -1,0 +1,16 @@
+state={
+	id=212
+	name="STATE_212"
+	provinces={
+		2877 
+	}
+	manpower=30765
+        state_category=town
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = USR
+        add_core_of = USR
+}
+}

@@ -1,0 +1,14 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		799 1454 2897 2899 5092 
+	}
+	manpower=1835397
+        state_category=large_city
+	buildings_max_level_factor=1.000
+            history = {
+             owner=DOM
+             add_core_of = DOM
+}
+}

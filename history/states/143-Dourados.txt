@@ -1,0 +1,22 @@
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		31 364 850 872 1408 1510 2047 4575 4588 4593 4622 
+	}
+	manpower=10377
+	buildings_max_level_factor=1.000    
+        state_category=pastoral
+
+            history = {
+             owner=BRA
+             add_core_of = BRA
+
+        victory_points = {
+           4593 5
+        }
+        victory_points = {
+           2047 5
+        }
+    }
+}

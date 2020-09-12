@@ -1,0 +1,23 @@
+state={
+	id=13
+	name="STATE_13"
+	provinces={
+		39 93 181 2073 2108 4030 
+	}
+	manpower=110826
+	buildings_max_level_factor=1.000
+        state_category=pastoral
+
+            history = {
+
+        owner = CEA
+        add_core_of = CEA
+
+		victory_points = {
+		39 10	 
+		}
+		victory_points = {
+		4030 30	 
+		}
+}
+}

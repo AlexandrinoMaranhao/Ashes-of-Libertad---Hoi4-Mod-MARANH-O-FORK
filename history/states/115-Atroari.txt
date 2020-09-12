@@ -1,0 +1,28 @@
+
+state={
+	id=115
+	name="STATE_115"
+
+	history={
+		owner = ATR
+		add_core_of = ATR
+
+        buildings = {
+            industrial_complex = 1
+            infrastructure = 3
+        }
+	}
+
+	provinces={
+		1342 1850 2168 2285 2339 2415 3509 3516 3537 3538 3545 3562 3580 
+	}
+	manpower=9293
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+
+        resources = {
+rubber = 2
+ 
+}
+}

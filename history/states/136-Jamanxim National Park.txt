@@ -1,0 +1,27 @@
+
+state={
+	id=136
+	name="STATE_136"
+
+	history={
+
+        buildings = {
+            industrial_complex = 1
+            infrastructure = 2
+        }
+		owner = MUN
+		add_core_of = MUN
+
+	}
+
+	provinces={
+		40 690 973 1022 1050 1107 1546 1809 1920 1987 2381 2497 2625 3779 3788 3811 3812 3824 3836 3862 3912 3957 3985 
+	}
+       resources = {
+steel = 2
+rubber = 1
+}
+	manpower=9382
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

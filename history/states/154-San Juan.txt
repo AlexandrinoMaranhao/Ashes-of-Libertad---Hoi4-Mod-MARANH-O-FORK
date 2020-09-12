@@ -1,0 +1,17 @@
+
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		901 1728 2199 2518 2896 2906 2909 5088 5091 
+	}
+	manpower=1000000
+        state_category=city
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = USR
+        add_core_of = USR
+}
+}

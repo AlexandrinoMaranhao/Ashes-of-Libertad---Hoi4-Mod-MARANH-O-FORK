@@ -1,0 +1,28 @@
+state={
+	id=472
+	name="STATE_472"
+	provinces={
+		709 1041 1137 1691 1921 2250 2293 2375 2555 4193 4206 4223 4224 4252 4253 4282 4283 4309 
+	}
+	history={
+		owner = JAG
+		add_core_of = JAG
+
+victory_points = {
+709 5            
+}
+
+victory_points = {
+2250 5            
+}
+
+victory_points = {
+2555 5            
+}
+
+	}
+
+	manpower=19302
+	buildings_max_level_factor=1.000
+      	state_category=rural
+}

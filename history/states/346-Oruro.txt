@@ -1,0 +1,26 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = BOL
+		add_core_of = BOL
+		victory_points = {
+			71 5 
+		}
+		victory_points = {
+			4451 5 
+		}
+        victory_points = {
+2631 5
+        }
+	}
+
+	provinces={
+		71 73 250 2631 4451 4479 
+	}
+	manpower=504284
+	buildings_max_level_factor=1.000
+	state_category=town
+}

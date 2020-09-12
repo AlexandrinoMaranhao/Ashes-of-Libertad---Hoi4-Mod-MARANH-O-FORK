@@ -1,0 +1,29 @@
+
+state={
+	id=98
+	name="STATE_98"
+
+	history={
+		owner = JUR
+		add_core_of = JUR
+            
+            buildings = {
+            infrastructure = 2
+            arms_factory = 1
+}
+		victory_points = {
+                4096 5
+		}
+	}
+
+        resources = {
+rubber = 2
+
+}
+	provinces={
+		462 590 663 704 738 1073 1301 1351 2110 2299 2563 2684 4046 4062 4069 4095 4126 4129 
+	}
+	manpower=15743
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

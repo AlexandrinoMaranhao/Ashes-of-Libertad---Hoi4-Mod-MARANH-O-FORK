@@ -1,0 +1,17 @@
+state={
+	id=361
+	name="STATE_361"
+	provinces={
+		55 577 733 874 1262 1348 1652 2019 2076 4676 4685 4686 4687 4692 4695 4701 4751 4786 
+	}
+	manpower=12173
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CHL
+             add_core_of = CHL
+        victory_points = {
+733 5
+        }
+}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		491 569 745 1162 1188 1396 2015 2565 2578 2665 2680 3275 3279 3291 3292 3302 3307 3308 3312 3324 3331 3349 3361 
+	}
+	manpower=39273
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+        resources = {
+steel = 4
+ammunition = 3
+technology = 1
+}
+            history = {
+
+        buildings = {
+            dockyard = 2
+            infrastructure = 1
+        }
+        owner = NEB
+        add_core_of = NEB
+}
+}

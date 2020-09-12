@@ -1,0 +1,73 @@
+﻿capital = 89
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic =67
+	fascism = 0
+	communism = 0
+	neutrality = 33
+}
+
+add_ideas = {
+bonded_labor
+integrated_society
+free_press
+limited_conscription
+export_focus
+civilian_economy
+
+country_of_seringueiros
+militia_army
+}
+
+create_country_leader = {
+	
+	name = "Enéas Carneiro"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+
+
+	}
+}
+create_country_leader = {
+	
+	name = "Enéas Carneiro"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Triste.dds"
+	expire = "1999.1.1"
+	ideology = nazism
+	traits = {
+
+
+	}
+}
+
+create_country_leader = {
+	
+	name = "José Augusto de Araujo"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
+	expire = "1999.1.1"
+	ideology = liberalism
+	traits = {
+
+
+	}
+}
+
+}

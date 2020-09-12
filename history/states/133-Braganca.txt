@@ -1,0 +1,40 @@
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		38 361 596 786 1885 2068 2377 3577 3600 3633 3673 3687 3715 3727 3782 3825 
+	}
+	manpower=22394
+	buildings_max_level_factor=1.000    
+        state_category=town
+       resources = {
+steel = 5
+motors = 2
+}
+            history = {
+
+        buildings = {
+            arms_factory = 2
+            infrastructure = 4
+            dockyard = 1
+        }
+        owner = BEM
+        add_core_of = BEM
+
+		victory_points = {
+                786 5
+		}
+
+		victory_points = {
+                1885 5
+		}
+
+		victory_points = {
+                2068 5 
+		}
+
+		victory_points = {
+                596 5
+		}
+}
+}

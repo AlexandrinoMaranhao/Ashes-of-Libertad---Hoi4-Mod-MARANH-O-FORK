@@ -1,0 +1,24 @@
+
+state={
+	id=64
+	name="STATE_64"
+
+	history={
+		owner = RMI
+		add_core_of = RMI
+		victory_points = {
+			815 30 
+		}
+		victory_points = {
+			4514 5 
+		}
+
+	}
+
+	provinces={
+		815 4514 4528 4529 4545 4549 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

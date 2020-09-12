@@ -1,0 +1,18 @@
+
+state={
+	id=335
+	name="STATE_335"
+
+	history={
+		owner = PRU
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		169 885 900 1018 1131 1201 1789 1912 2460 4229 4292 4303 4304 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

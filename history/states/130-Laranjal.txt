@@ -1,0 +1,26 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		562 575 1704 1713 1806 1863 2188 2643 3823 3829 3854 3882 3923 3927 3968 
+	}
+	
+	buildings_max_level_factor=1.000    
+        state_category=pastoral
+        manpower = 7392
+
+
+        resources = {
+rubber = 2
+ 
+}
+            history = {
+            
+            buildings = {
+            infrastructure = 2
+            dockyard = 1
+}
+        owner = AND
+        add_core_of = AND
+}
+}

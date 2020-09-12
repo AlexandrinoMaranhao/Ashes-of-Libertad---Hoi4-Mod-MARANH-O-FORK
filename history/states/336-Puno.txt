@@ -1,0 +1,18 @@
+
+state={
+	id=336
+	name="STATE_336"
+
+	history={
+		owner = PRU
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		1170 2393 4424 4429 4430 4444 4455 4458 4465 
+	}
+	manpower=598322
+	buildings_max_level_factor=1.000
+	state_category=city
+}

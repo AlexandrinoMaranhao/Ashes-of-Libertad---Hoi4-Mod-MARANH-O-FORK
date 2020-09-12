@@ -1,0 +1,18 @@
+state={
+	id=379
+	name="STATE_379"
+	provinces={
+		724 1296 1318 1544 1588 1662 1914 2282 4660 4667 4672 4678 
+	}
+	manpower=69378
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           1544 10
+        }
+}
+}

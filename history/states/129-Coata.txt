@@ -1,0 +1,28 @@
+
+state={
+	id=129
+	name="STATE_129"
+
+	history={
+		owner = COA
+		add_core_of = COA
+            
+            buildings = {
+            infrastructure = 4
+            industrial_complex = 1
+            dockyard = 1
+}
+	}
+
+	provinces={
+		221 548 696 1391 1597 1659 1678 1757 2255 2310 2488 2730 3734 3735 3748 3773 3810 3815 3832 3835 3845 3879 3905 
+	}
+	manpower=4840
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+        resources = {
+rubber = 2
+oil = 5
+}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		746 892 1526 3995 4163 
+	}
+	manpower=49203
+	buildings_max_level_factor=1.000
+	state_category=rural
+            history = {
+
+        owner = MNH
+        add_core_of = MNH
+
+		victory_points = {
+		746 30	 
+		}
+}
+}

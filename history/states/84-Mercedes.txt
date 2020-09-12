@@ -1,0 +1,28 @@
+
+state={
+	id=84
+	name="STATE_84"
+
+	history={
+		owner = URG
+		add_core_of = URG
+
+        victory_points = {
+           2141 5
+        }
+
+        victory_points = {
+           4866 30
+        }
+        victory_points = {
+           4860 5
+        }
+	}
+
+	provinces={
+		129 925 940 1626 1641 2141 2153 4860 4866 4868 4871 4881 4886 4888 4893 
+	}
+	manpower=45032
+	buildings_max_level_factor=1.000
+	state_category=city
+}

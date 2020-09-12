@@ -1,0 +1,28 @@
+
+state={
+	id=126
+	name="STATE_126"
+
+	history={
+		owner = IQU
+		add_core_of = IQU
+            
+            buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            dockyard = 1
+}
+	}
+
+	provinces={
+		1160 1439 1792 1846 2363 2472 2539 2650 3935 3954 3966 3970 3981 3984 3996 4007 4015 4052 4057 4068 4085 4088 4100 
+	}
+	manpower=4837
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+        resources = {
+rubber = 3
+
+}
+}

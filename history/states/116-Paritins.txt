@@ -1,0 +1,23 @@
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		2082 2346 2360 3505 3539 3555 3569 3576 3608 
+	}
+	manpower=12273
+	buildings_max_level_factor=1.000    
+        state_category=rural
+
+        resources = {
+rubber = 1
+oil = 2
+}
+            history = {
+
+        buildings = {
+            infrastructure = 1
+        }
+        owner = PAT
+        add_core_of = PAT
+}
+}

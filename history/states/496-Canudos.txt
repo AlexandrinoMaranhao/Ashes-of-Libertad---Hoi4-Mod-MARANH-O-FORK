@@ -1,0 +1,21 @@
+state={
+	id=496
+	name="STATE_496"
+	provinces={
+		75 
+	}
+
+	history={
+		owner = CNU
+		add_core_of = CNU
+
+		victory_points = {
+		75 50	 
+		}
+
+	}
+
+	manpower=41736
+	buildings_max_level_factor=1.000
+	state_category=city
+}

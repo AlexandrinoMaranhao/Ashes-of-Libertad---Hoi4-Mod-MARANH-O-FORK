@@ -1,0 +1,525 @@
+form_amaru_mayu_category = {
+		form_amaru_mayu = {
+
+		icon = GFX_decision_category_amazon_native_formable_nation
+
+		allowed = {
+			OR = {
+              original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
+			}
+		}
+
+        cost = 100
+        fire_only_once = yes
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_amaru_mayu_required_states_tt
+				controls_state = 89
+				controls_state = 425
+				controls_state = 398
+				controls_state = 458
+				controls_state = 96
+				controls_state = 504
+				controls_state = 430
+				controls_state = 132
+                controls_state = 95
+			}
+		}
+
+		visible = {
+			OR = {
+              original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
+			}
+		}
+
+		complete_effect = {
+			    set_cosmetic_tag = AMZ_KAY
+			    set_capital = 132
+			every_state = {  
+			    limit = {
+			    OR = {
+			    state = 121
+			    state = 472
+			    state = 151
+			    state = 150
+			    state = 148
+				state = 79 
+				state = 912
+				state = 120
+				state = 123
+				state = 122
+				state = 490
+				state = 489
+				state = 488
+				state = 430
+				state = 119
+				state = 118
+				state = 485
+				state = 124
+				state = 486
+				state = 470
+				state = 137
+				state = 136
+				state = 95 
+				state = 135
+				state = 487
+			    state = 491
+			    state = 471
+			    state = 140
+			    state = 87 
+			    state = 139
+			    state = 78 
+			    state = 138
+			    state = 133
+			    state = 132
+			    state = 134
+			    state = 77 
+			    state = 116
+			    state = 401
+			    state = 115
+			    state = 456
+			    state = 117
+			    state = 96 
+			    state = 400
+			    state = 114
+			    state = 94 
+				state = 105
+				state = 458
+				state = 459
+				state = 104
+				state = 455
+				state = 103
+				state = 397
+				state = 395
+				state = 396
+				state = 504
+				state = 402
+				state = 131
+				state = 130
+				state = 129
+				state = 403
+				state = 404
+				state = 92 
+				state = 127
+				state = 429
+			    state = 128
+			    state = 405
+			    state = 406
+			    state = 457
+			    state = 126
+			    state = 424
+			    state = 423
+			    state = 460
+			    state = 125
+			    state = 419
+			    state = 89 
+			    state = 107
+			    state = 98 
+			    state = 417
+			    state = 411
+			    state = 416
+			    state = 110
+			    state = 418
+			    state = 415
+			    state = 111
+				state = 413
+				state = 112
+				state = 91 
+				state = 451
+				state = 421
+				state = 422
+				state = 398
+				state = 106
+				state = 97 
+				state = 412
+				state = 450
+				state = 90 
+				state = 414
+				state = 427
+				state = 428
+				state = 108
+				state = 109
+				state = 99 
+				state = 425
+			    state = 100
+			    state = 102
+			    state = 101
+			    state = 453
+			    state = 420
+			    state = 452
+			    state = 454
+			    state = 93 
+			    state = 399
+			    state = 113
+			    state = 410
+			    state = 409
+			    state = 408
+			    state = 407
+			    }
+			}
+			add_core_of = ROOT
+		}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+###############################################################################
+			form_amazon_free_state = {
+
+		icon = GFX_decision_category_amazon_formable_nation
+
+		allowed = {
+			OR = {
+              original_tag = MNS
+              original_tag = STR
+              original_tag = COR
+              original_tag = ROR
+              original_tag = NEB
+              original_tag = FBO
+              original_tag = AMA
+              original_tag = BEM
+			}
+		}
+
+        cost = 100
+        fire_only_once = yes
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_amazon_free_state_required_states_tt
+				controls_state = 89
+				controls_state = 425
+				controls_state = 398
+				controls_state = 458
+				controls_state = 96
+				controls_state = 504
+				controls_state = 430
+				controls_state = 132
+                controls_state = 95
+			}
+		}
+
+		visible = {
+			OR = {
+              original_tag = MNS
+              original_tag = STR
+              original_tag = COR
+              original_tag = ROR
+              original_tag = NEB
+              original_tag = FBO
+              original_tag = AMA
+              original_tag = BEM
+
+			}
+		}
+
+		complete_effect = {
+			    set_cosmetic_tag = AMZ_FREE
+			    set_capital = 96
+			every_state = {  
+			    limit = {
+			    OR = {
+			    state = 121
+			    state = 472
+			    state = 151
+			    state = 150
+			    state = 148
+				state = 79 
+				state = 912
+				state = 120
+				state = 123
+				state = 122
+				state = 490
+				state = 489
+				state = 488
+				state = 430
+				state = 119
+				state = 118
+				state = 485
+				state = 124
+				state = 486
+				state = 470
+				state = 137
+				state = 136
+				state = 95 
+				state = 135
+				state = 487
+			    state = 491
+			    state = 471
+			    state = 140
+			    state = 87 
+			    state = 139
+			    state = 78 
+			    state = 138
+			    state = 133
+			    state = 132
+			    state = 134
+			    state = 77 
+			    state = 116
+			    state = 401
+			    state = 115
+			    state = 456
+			    state = 117
+			    state = 96 
+			    state = 400
+			    state = 114
+			    state = 94 
+				state = 105
+				state = 458
+				state = 459
+				state = 104
+				state = 455
+				state = 103
+				state = 397
+				state = 395
+				state = 396
+				state = 504
+				state = 402
+				state = 131
+				state = 130
+				state = 129
+				state = 403
+				state = 404
+				state = 92 
+				state = 127
+				state = 429
+			    state = 128
+			    state = 405
+			    state = 406
+			    state = 457
+			    state = 126
+			    state = 424
+			    state = 423
+			    state = 460
+			    state = 125
+			    state = 419
+			    state = 89 
+			    state = 107
+			    state = 98 
+			    state = 417
+			    state = 411
+			    state = 416
+			    state = 110
+			    state = 418
+			    state = 415
+			    state = 111
+				state = 413
+				state = 112
+				state = 91 
+				state = 451
+				state = 421
+				state = 422
+				state = 398
+				state = 106
+				state = 97 
+				state = 412
+				state = 450
+				state = 90 
+				state = 414
+				state = 427
+				state = 428
+				state = 108
+				state = 109
+				state = 99 
+				state = 425
+			    state = 100
+			    state = 102
+			    state = 101
+			    state = 453
+			    state = 420
+			    state = 452
+			    state = 454
+			    state = 93 
+			    state = 399
+			    state = 113
+			    state = 410
+			    state = 409
+			    state = 408
+			    state = 407
+			    }
+			}
+			add_core_of = ROOT
+		}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+				form_amazonian_papal_states = {
+
+		icon = GFX_decision_category_amazonian_papal_states_formable_nation
+
+		allowed = {
+			OR = {
+              original_tag = QPM
+			}
+		}
+
+        cost = 200
+        fire_only_once = yes
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_amazonian_papal_states_required_states_tt
+				controls_state = 410
+				controls_state = 409
+				controls_state = 408
+				controls_state = 407
+				controls_state = 399
+				controls_state = 396
+				controls_state = 397
+				controls_state = 427
+                controls_state = 428
+			}
+		}
+
+		visible = {
+			OR = {
+              original_tag = QPM
+
+			}
+		}
+
+		complete_effect = {
+			    set_cosmetic_tag = AMZ_QPM
+			    set_capital = 100
+			every_state = {  
+			    limit = {
+			    OR = {
+			    state = 121
+			    state = 472
+			    state = 151
+			    state = 150
+			    state = 148
+				state = 79 
+				state = 912
+				state = 120
+				state = 123
+				state = 122
+				state = 490
+				state = 489
+				state = 488
+				state = 430
+				state = 119
+				state = 118
+				state = 485
+				state = 124
+				state = 486
+				state = 470
+				state = 137
+				state = 136
+				state = 95 
+				state = 135
+				state = 487
+			    state = 491
+			    state = 471
+			    state = 140
+			    state = 87 
+			    state = 139
+			    state = 78 
+			    state = 138
+			    state = 133
+			    state = 132
+			    state = 134
+			    state = 77 
+			    state = 116
+			    state = 401
+			    state = 115
+			    state = 456
+			    state = 117
+			    state = 96 
+			    state = 400
+			    state = 114
+			    state = 94 
+				state = 105
+				state = 458
+				state = 459
+				state = 104
+				state = 455
+				state = 103
+				state = 397
+				state = 395
+				state = 396
+				state = 504
+				state = 402
+				state = 131
+				state = 130
+				state = 129
+				state = 403
+				state = 404
+				state = 92 
+				state = 127
+				state = 429
+			    state = 128
+			    state = 405
+			    state = 406
+			    state = 457
+			    state = 126
+			    state = 424
+			    state = 423
+			    state = 460
+			    state = 125
+			    state = 419
+			    state = 89 
+			    state = 107
+			    state = 98 
+			    state = 417
+			    state = 411
+			    state = 416
+			    state = 110
+			    state = 418
+			    state = 415
+			    state = 111
+				state = 413
+				state = 112
+				state = 91 
+				state = 451
+				state = 421
+				state = 422
+				state = 398
+				state = 106
+				state = 97 
+				state = 412
+				state = 450
+				state = 90 
+				state = 414
+				state = 427
+				state = 428
+				state = 108
+				state = 109
+				state = 99 
+				state = 425
+			    state = 100
+			    state = 102
+			    state = 101
+			    state = 453
+			    state = 420
+			    state = 452
+			    state = 454
+			    state = 93 
+			    state = 399
+			    state = 113
+			    state = 410
+			    state = 409
+			    state = 408
+			    state = 407
+			    }
+			}
+			add_core_of = ROOT
+		}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+

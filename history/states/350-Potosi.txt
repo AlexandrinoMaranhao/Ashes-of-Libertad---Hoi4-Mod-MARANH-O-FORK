@@ -1,0 +1,24 @@
+
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		165 1465 2617 4586 4592 
+	}
+	manpower=448284
+        state_category=city
+	buildings_max_level_factor=1.000
+            history = {
+             owner=BOL
+             add_core_of = BOL
+        victory_points = {
+4586 5
+        }
+        victory_points = {
+165 30
+        }
+        victory_points = {
+1465 5
+        }
+}
+}

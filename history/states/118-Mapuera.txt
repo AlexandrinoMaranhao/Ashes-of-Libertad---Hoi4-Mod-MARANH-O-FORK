@@ -1,0 +1,26 @@
+state={
+	id=118
+	name="STATE_118"
+	provinces={
+		1062 2116 2526 2651 2658 3327 3329 3353 3359 3369 3383 3407 
+	}
+	manpower=15937
+	buildings_max_level_factor=1.000    
+        state_category=pastoral
+       resources = {
+steel = 4
+
+ 
+}
+            history = {
+
+        buildings = {
+            infrastructure = 2
+        }
+        owner = MAP
+        add_core_of = MAP
+		victory_points = {
+                3369 5
+		}
+}
+}

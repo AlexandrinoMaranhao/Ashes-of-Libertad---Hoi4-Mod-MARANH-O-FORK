@@ -1,0 +1,22 @@
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		27 418 624 834 865 1014 1032 1857 1865 2096 2314 2464 4776 
+	}
+	manpower=970384
+        state_category=large_town
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ARG
+             add_core_of = ARG
+
+        victory_points = {
+           2464 30
+        }
+
+        victory_points = {
+           2096 10
+        }
+}
+}

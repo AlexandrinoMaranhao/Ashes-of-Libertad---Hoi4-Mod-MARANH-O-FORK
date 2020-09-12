@@ -1,0 +1,23 @@
+
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		1379 2645 4799  
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+            history = {
+             owner=BRA
+             add_core_of = BRA
+
+        victory_points = {
+           2645 5
+        }
+        victory_points = {
+           1379 1 #Torres
+        }
+    }
+}

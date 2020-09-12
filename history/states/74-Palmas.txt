@@ -1,0 +1,27 @@
+
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		608 1069 1290 1478 1592 1796 1999 2020 2203 2504 4218 4233 4276 4294 4310 
+	}
+	manpower=24574
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+        history = {
+       
+            owner = JUN
+            add_core_of = JUN
+                add_core_of = JCS
+		victory_points = {
+                4276 5		
+                }
+		victory_points = {
+                4294 5
+		}
+		victory_points = {
+                1290 1
+		}
+     }
+}

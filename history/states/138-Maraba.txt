@@ -1,0 +1,36 @@
+
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		477 972 1063 1293 1319 1349 1515 1822 2045 2354 2442 2454 2528 2726 3680 3681 3723 3724 3743 3762 3781 3794 3850 3884 3913 3914 3915 
+	}
+	manpower=4283
+	buildings_max_level_factor=1.000    
+        state_category=rural
+       resources = {
+steel = 2
+ 
+}
+            history = {
+
+        buildings = {
+
+            infrastructure = 2
+        }
+        owner = BEM
+        add_core_of = BEM
+
+		victory_points = {
+                2528 1
+		}
+
+		victory_points = {
+                1349 5
+		}
+
+		victory_points = {
+                972 5
+		}
+}
+}

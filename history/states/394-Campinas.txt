@@ -1,0 +1,19 @@
+
+state={
+	id=394
+	name="STATE_394"
+
+	history={
+		owner = SAO
+		add_core_of = SAO
+
+
+	}
+
+	provinces={
+		185 605 681 1508 4594 
+	}
+	manpower=125697
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

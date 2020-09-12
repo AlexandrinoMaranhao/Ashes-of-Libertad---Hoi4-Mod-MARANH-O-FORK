@@ -1,0 +1,16 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		389 484 639 1090 1368 1781 2211 2427 2525 2652 3188 3229 3259 3261 3282 3287 
+	}
+	manpower=30000
+        state_category=rural
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = HOL
+        add_core_of = HOL
+}
+}

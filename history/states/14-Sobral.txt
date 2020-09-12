@@ -1,0 +1,22 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		159 416 1240 1255 1475 2390 
+	}
+	manpower=147283
+	buildings_max_level_factor=1.000
+        state_category=rural
+            history = {
+
+        owner = CEA
+        add_core_of = CEA
+
+		victory_points = {
+		2390 5	 
+		}
+		victory_points = {
+		159 30	 
+		}
+}
+}

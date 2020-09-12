@@ -1,0 +1,37 @@
+state={
+	id=106
+	name="STATE_106"
+	provinces={
+		186 489 1803 4072 4094 4105 4125 4189 
+	}
+	manpower=16093
+	buildings_max_level_factor=1.000    
+        state_category=pastoral
+
+        resources = {
+rubber = 10
+steel = 1
+oil = 3 
+}
+            history = {
+            
+            buildings = {
+            infrastructure = 3
+            arms_factory = 2
+}
+		victory_points = {
+                4094 5
+		}
+		victory_points = {
+                4125 5
+		}
+		victory_points = {
+                4189 5
+		}
+		victory_points = {
+                4105 5
+		}
+        owner = ACR
+        add_core_of = ACR
+}
+}

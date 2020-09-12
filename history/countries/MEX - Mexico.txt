@@ -1,0 +1,38 @@
+﻿capital = 260
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
+}
+
+create_country_leader = {
+	
+	name = "Gustavo Dias Ordaz"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Gustavo_Dias_Ordaz.dds"
+	expire = "1999.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}
+
+
+}

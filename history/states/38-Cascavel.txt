@@ -1,0 +1,19 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		546 614 935 1486 1851 2213 2710 4673 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+            history = {
+             owner=BRA
+             add_core_of = BRA
+
+        victory_points = {
+           614 5
+        }
+    }
+}

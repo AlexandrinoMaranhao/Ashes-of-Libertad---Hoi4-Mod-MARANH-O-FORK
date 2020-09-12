@@ -1,0 +1,17 @@
+
+state={
+	id=446
+	name="STATE_446"
+	provinces={
+		306 1001 1645 2369 2441 3066 3077 3082 3094 3098 3108 
+	}
+	manpower=20542
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	history={
+             owner=LLA
+             add_core_of = LLA
+
+	}
+}

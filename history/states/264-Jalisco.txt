@@ -1,0 +1,15 @@
+
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		16 325 434 465 1280 1432 1664 1842 1913 2535 2582 2593 2860 2863 2883 6221 
+	}
+	manpower=1
+        state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ESC
+             add_core_of = ESC
+}
+}

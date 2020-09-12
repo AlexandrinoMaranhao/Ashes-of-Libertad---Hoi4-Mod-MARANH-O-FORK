@@ -1,0 +1,16 @@
+state={
+	id=227
+	name="STATE_227"
+	provinces={
+		263 449 494 791 1303 1327 1852 3129 3145 3147 3160 3167 3186 3202 3205 3217 3228 3251 3268 3286 3294 3317 3332 3358 
+	}
+	manpower=20000
+        state_category=rural
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = ENG
+        add_core_of = ENG
+}
+}

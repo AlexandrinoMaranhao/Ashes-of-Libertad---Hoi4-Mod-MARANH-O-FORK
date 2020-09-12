@@ -1,0 +1,14 @@
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		1359 1466 1834 3465 3466 3524 3568 3618 3659 
+	}
+	manpower=3758739
+	state_category=city
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ECU
+             add_core_of = ECU
+}
+}

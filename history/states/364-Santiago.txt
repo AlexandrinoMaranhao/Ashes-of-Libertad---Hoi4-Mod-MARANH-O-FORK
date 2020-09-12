@@ -1,0 +1,27 @@
+
+state={
+	id=364
+	name="STATE_364"
+	provinces={
+		149 649 1218 1876 4880 4891 4911 4918 4930 
+	}
+	manpower=1893384
+        state_category=metropolis
+	buildings_max_level_factor=1.000
+            history = {
+             owner=CHL
+             add_core_of = CHL
+
+        victory_points = {
+        4911 50
+        }
+
+        victory_points = {
+        149 10
+        }
+
+        victory_points = {
+        4930 5
+        }
+}
+}

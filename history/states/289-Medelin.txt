@@ -1,0 +1,16 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		750 1238 1329 1642 2694 3039 
+	}
+	manpower=7048278
+	state_category=large_city
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = ELN
+        add_core_of = ELN
+}
+}

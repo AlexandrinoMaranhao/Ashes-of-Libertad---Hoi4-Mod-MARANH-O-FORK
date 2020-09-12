@@ -1,0 +1,16 @@
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		5122 
+	}
+	manpower=20000
+        state_category=small_island
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = ENG
+        add_core_of = ENG
+}
+}

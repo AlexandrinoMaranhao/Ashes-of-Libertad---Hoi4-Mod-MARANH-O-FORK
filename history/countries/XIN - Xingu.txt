@@ -1,0 +1,43 @@
+﻿capital = 150
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+add_ideas = {
+	tribal_mobilization
+}
+
+create_country_leader = {
+	
+	name = "Villas Bôas Brothers"
+	picture = "gfx/leaders/XIN/Portrait_XIN_Villas_Boas.dds"
+	expire = "1999.1.1"
+	ideology = centrism
+	traits = {
+		stout_defender
+		cornered_fox
+	}
+}
+
+
+}

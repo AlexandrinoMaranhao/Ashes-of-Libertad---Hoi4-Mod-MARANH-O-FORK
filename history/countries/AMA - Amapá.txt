@@ -1,0 +1,60 @@
+﻿capital = 79
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+}
+
+add_ideas = {
+slavery_banned
+integrated_society
+free_press
+limited_conscription
+export_focus
+civilian_economy
+
+the_port_of_macapa
+northern_friend_of_the_republic
+}
+
+create_country_leader = {
+	
+	name = "Raul Monteiro Valdez"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Luis Mendes da Silva"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}
+
+}

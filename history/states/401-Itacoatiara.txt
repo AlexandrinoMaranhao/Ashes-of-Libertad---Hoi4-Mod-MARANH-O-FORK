@@ -1,0 +1,26 @@
+state={
+	id=401
+	name="STATE_401"
+	provinces={
+		2202 3604 3625 3626 3649 3696 
+	}
+	manpower=23993
+	buildings_max_level_factor=1.000
+        state_category=rural
+        resources = {
+steel = 2
+ 
+}
+        history = {
+	owner = MNS
+	add_core_of = MNS
+
+        buildings = {
+            infrastructure = 4
+        }
+		victory_points = {
+                3625 5
+		}
+}
+
+}

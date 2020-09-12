@@ -1,0 +1,29 @@
+
+state={
+	id=97
+	name="STATE_97"
+
+	history={
+		owner = JAV
+		add_core_of = JAV
+            
+            buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+}
+		victory_points = {
+                4013 5
+		}
+	}
+
+        resources = {
+rubber = 2
+
+}
+	provinces={
+		245 500 875 1536 2278 2300 3991 4013 4035 4043 4048 4061 
+	}
+	manpower=9274
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=251
+	name="STATE_251"
+
+	history={
+		owner = YUC
+		add_core_of = YUC
+
+	}
+
+	provinces={
+		228 928 1057 1476 1684 1747 1849 1910 2859 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

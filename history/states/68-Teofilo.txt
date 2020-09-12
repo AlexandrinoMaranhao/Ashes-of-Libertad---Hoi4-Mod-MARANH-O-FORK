@@ -1,0 +1,25 @@
+
+state={
+	id=68
+	name="STATE_68"
+
+	history={
+		owner = VAL
+		add_core_of = VAL
+		victory_points = {
+			121 10 
+		}
+
+		victory_points = {
+			444 50 
+		}
+
+	}
+
+	provinces={
+		444 483 762 849 2604 4472 4482 4499 
+	}
+	manpower=41837
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

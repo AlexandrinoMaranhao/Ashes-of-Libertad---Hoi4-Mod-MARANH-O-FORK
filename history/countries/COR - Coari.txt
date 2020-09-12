@@ -1,0 +1,60 @@
+﻿capital = 398
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+}
+
+add_ideas = {
+slavery_banned
+integrated_society
+no_press
+service_by_requirement
+limited_exports
+war_economy
+
+coari_desperation
+the_white_linned_mayor
+}
+
+create_country_leader = {
+	
+	name = "Alexandre Montoril"
+	picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
+	expire = "1999.1.1"
+	ideology = pirate_federation
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Alexandre Montoril"
+	picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		#
+	}
+}
+
+}

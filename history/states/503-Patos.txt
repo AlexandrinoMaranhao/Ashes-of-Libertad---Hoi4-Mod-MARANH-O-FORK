@@ -1,0 +1,24 @@
+state={
+	id=503
+	name="STATE_503"
+	provinces={
+		164 460 4064 6280 6281 
+	}
+	manpower=499394
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+
+
+	history={
+
+		owner = PAI
+		add_core_of = PAI
+		victory_points = {
+			460 10 
+		}
+		victory_points = {
+			164 10 
+		}
+}
+}

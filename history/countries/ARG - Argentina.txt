@@ -1,0 +1,44 @@
+﻿capital = 285
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 60
+	communism = 30
+	neutrality = 10
+}
+
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation
+	free_trade
+}
+
+create_country_leader = {
+	
+	name = "José Maria Guido"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Jose_Maria_Guido.dds"
+	expire = "1999.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}
+
+
+}

@@ -1,0 +1,45 @@
+focus_tree = {
+	id = COR_focus_3
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = COR
+
+		}
+	}
+		default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+		focus = {
+		id = COR_
+		icon = GFX_goal_generic_major_war
+		x = 16
+		y = 2
+		prerequisite = { focus = COR_start_living }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+}

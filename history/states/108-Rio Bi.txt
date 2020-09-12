@@ -1,0 +1,34 @@
+
+state={
+	id=108
+	name="STATE_108"
+	resources={
+		rubber=2.000
+		steel=4.000
+		motors=1.000
+		ammunition=2.000
+	}
+
+	history={
+		owner = BIA
+		add_core_of = BIA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+
+		}
+		victory_points = {
+			2035 10 
+		}
+
+	}
+
+	provinces={
+		1442 1497 2035 2320 2600 2713 3621 3664 3700 3741 3754 3777 3807 3838 3843 3866 3871 
+	}
+	manpower=17394
+	buildings_max_level_factor=1.000
+	state_category=town
+}

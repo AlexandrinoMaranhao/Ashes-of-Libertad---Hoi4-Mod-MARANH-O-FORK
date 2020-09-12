@@ -1,0 +1,17 @@
+state={
+	id=246
+	name="STATE_246"
+	provinces={
+		452 630 1341 1798 2931 2942 
+	}
+	manpower=1
+        state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=GUA
+             add_core_of = GUA
+             victory_points = {
+             630 3
+             }
+}
+}

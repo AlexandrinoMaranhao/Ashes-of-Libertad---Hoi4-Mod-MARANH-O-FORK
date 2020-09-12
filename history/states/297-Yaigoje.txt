@@ -1,0 +1,18 @@
+
+state={
+	id=297
+	name="STATE_297"
+
+	history={
+             owner=CLA
+             add_core_of = CLA
+
+	}
+
+	provinces={
+		643 747 969 1321 1812 3427 3448 3495 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

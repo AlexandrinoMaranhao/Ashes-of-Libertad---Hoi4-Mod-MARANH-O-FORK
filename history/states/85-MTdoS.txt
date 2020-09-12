@@ -1,0 +1,27 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		144 310 382 711 863 1147 1242 1269 1403 1452 1558 1571 1738 2174 4551 
+	}
+	manpower=22849
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+            history = {
+             owner=BRA
+             add_core_of = BRA
+
+victory_points = {
+           1558 5
+}
+victory_points = {
+           1452 5 
+}
+victory_points = {
+           863 5
+}
+victory_points = {
+           1738 10 
+}

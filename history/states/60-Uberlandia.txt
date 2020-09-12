@@ -1,0 +1,27 @@
+
+state={
+	id=60
+	name="STATE_60"
+
+	history={
+		victory_points = {
+			1681 5 
+		}
+		victory_points = {
+			1371 30 
+		}
+		victory_points = {
+			4521 5 
+		}
+		owner = UBA
+		add_core_of = UBA
+
+	}
+
+	provinces={
+		798 1013 1292 1371 1501 1681 2510 4501 4507 4508 4510 4512 4515 4517 4521 4526 
+	}
+	manpower=22937
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,28 @@
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		3761 
+	}
+	manpower=13984
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        history = {
+	owner = MNS
+	add_core_of = MNS
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3761 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3761 5
+		}
+}
+
+}

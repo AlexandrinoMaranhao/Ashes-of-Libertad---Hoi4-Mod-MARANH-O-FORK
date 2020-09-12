@@ -1,0 +1,28 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		464 1195 2266 4896 4900 4901 4906 4912 4914 4917 4921 
+	}
+	manpower=649100
+	buildings_max_level_factor=1.000
+        state_category=metropolis
+
+            history = {
+             owner=URG
+             add_core_of = URG
+
+        victory_points = {
+           4921 50
+        }
+        victory_points = {
+           4912 5
+        }
+        victory_points = {
+           464 5
+        }
+        victory_points = {
+           2266 5
+        }
+}
+}

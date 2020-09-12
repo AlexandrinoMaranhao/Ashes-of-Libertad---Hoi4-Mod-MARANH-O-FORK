@@ -1,0 +1,45 @@
+capital = 76
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 40
+	communism = 60
+	neutrality = 0
+}
+
+add_ideas = {
+
+	closed_economy
+	partial_economic_mobilisation
+	extensive_conscription
+}
+
+create_country_leader = {
+	
+	name = "Carlos Lacerda"
+	picture = "gfx/leaders/JUN/Portrait_JUN_Carlos_Lacerda.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+
+
+	}
+}
+
+}

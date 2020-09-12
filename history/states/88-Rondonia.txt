@@ -1,0 +1,30 @@
+
+state={
+	id=88
+	name="STATE_88"
+
+	history={
+		owner = ERN
+		add_core_of = ERN
+
+victory_points = {
+1309 5
+}
+
+victory_points = {
+4299 5
+}
+
+victory_points = {
+1211 5
+}
+
+	}
+
+	provinces={
+		85 153 347 529 573 644 995 1211 1309 1373 1394 1583 1788 2114 2131 2225 2397 2538 4203 4235 4236 4247 4255 4264 4272 4275 4293 4299 4306 4308 4322 4336 4340 
+	}
+	manpower=28394
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

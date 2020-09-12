@@ -1,0 +1,21 @@
+
+state={
+	id=29
+	name="STATE_29"
+
+	history={
+		owner = SAO
+		add_core_of = SAO
+		victory_points = {
+			4625 20 
+		}
+
+	}
+
+	provinces={
+		600 4625 
+	}
+	manpower=116190
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

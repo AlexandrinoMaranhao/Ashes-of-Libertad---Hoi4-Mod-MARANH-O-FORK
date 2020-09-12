@@ -1,0 +1,30 @@
+
+state={
+	id=53
+	name="STATE_53"
+
+	history={
+		owner = RPB
+		add_core_of = RPB
+		victory_points = {
+			4365 50 
+		}
+		victory_points = {
+			553 10 
+		}
+		victory_points = {
+			190 5 
+		}
+		victory_points = {
+			5140 1 
+		}
+
+	}
+
+	provinces={
+		190 553 2717 4339 4365 5140 6273 
+	}
+	manpower=1100974
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

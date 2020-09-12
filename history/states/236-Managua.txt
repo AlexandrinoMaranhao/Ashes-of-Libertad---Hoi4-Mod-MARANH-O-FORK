@@ -1,0 +1,28 @@
+state={
+	id=236
+	name="STATE_236"
+    provinces={
+		90 283 1639 1833 2958 2959 2962 2963 2965 2970 5123 6239 6240 
+	}
+	history={
+		owner = NIC
+		add_core_of = NIC
+		victory_points = {
+		2962 30
+		}
+		victory_points = {
+		90 1
+		}
+		victory_points = {
+		2959 1
+		}
+		victory_points = {
+		2958 1
+		}
+
+	}
+
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

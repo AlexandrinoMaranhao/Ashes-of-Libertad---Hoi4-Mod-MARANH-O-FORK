@@ -1,0 +1,24 @@
+state={
+	id=280
+	name="STATE_280"
+	provinces={
+		1183 1615 1629 1770 1919 2448 2678 4675 4690 4691 4697 4715 
+	}
+	manpower=385102
+        state_category=town
+	buildings_max_level_factor=1.000
+            history = {
+             owner=PAR
+             add_core_of = PAR
+
+        victory_points = {
+           1770 30
+        }
+        victory_points = {
+           1183 5
+        }
+        victory_points = {
+           2448 5
+        }
+}
+}

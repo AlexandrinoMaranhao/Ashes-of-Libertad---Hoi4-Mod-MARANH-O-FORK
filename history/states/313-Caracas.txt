@@ -1,0 +1,18 @@
+
+state={
+	id=313
+	name="STATE_313"
+
+	history={
+		owner = VEJ
+		add_core_of = VEJ
+
+	}
+
+	provinces={
+		309 2066 2302 2969 2971 2978 2985 2991 5120 
+	}
+	manpower=897652
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

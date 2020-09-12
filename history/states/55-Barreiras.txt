@@ -1,0 +1,21 @@
+
+state={
+	id=55
+	name="STATE_55"
+
+	history={
+		owner = LAM
+		add_core_of = LAM
+
+		victory_points = {
+		4345 50	 
+		}
+	}
+
+	provinces={
+		557 1594 2191 4320 4323 4326 4334 4345 4357 
+	}
+	manpower=59940
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		820 1826 4212 4219 4227 4244 
+	}
+	manpower=1109933
+	buildings_max_level_factor=1.000
+        state_category=town
+
+
+            history = {
+
+        owner = ALA
+        add_core_of = ALA
+		victory_points = {
+		4219 50	 
+		}
+		victory_points = {
+		4244 10	 
+		}
+		victory_points = {
+		4212 5	 
+		}
+}
+
+}

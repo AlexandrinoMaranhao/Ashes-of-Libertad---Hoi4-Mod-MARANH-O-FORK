@@ -1,0 +1,20 @@
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		210 397 2028 2698 4184 4222 
+	}
+	manpower=39283
+	buildings_max_level_factor=1.000
+        state_category=pastoral
+            history = {
+
+        owner = CNU
+        add_core_of = CNU
+
+		victory_points = {
+		2698 5	 
+		}
+		
+}
+}

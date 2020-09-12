@@ -1,0 +1,15 @@
+
+state={
+	id=321
+	name="STATE_321"
+	provinces={
+		92 471 476 518 567 1586 1665 1710 1734 1924 2018 2283 2466 2487 2657 2733 3436 3452 3459 3500 3552 3619 3644 
+	}
+	manpower=39763
+	state_category=rural
+	buildings_max_level_factor=1.000
+            history = {
+             owner=ECU
+             add_core_of = ECU
+}
+}

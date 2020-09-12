@@ -1,0 +1,24 @@
+
+state={
+	id=497
+	name="STATE_497"
+
+	history={
+		owner = JUN
+		add_core_of = JUN
+                add_core_of = JRM
+		victory_points = {
+                516 5
+		}
+		victory_points = {
+                4440 10
+		}
+	}
+
+	provinces={
+		63 214 516 1335 2033 2564 2664 4420 4440 4447 4453 
+	}
+	manpower=216538
+	buildings_max_level_factor=1.000
+	state_category=city
+}

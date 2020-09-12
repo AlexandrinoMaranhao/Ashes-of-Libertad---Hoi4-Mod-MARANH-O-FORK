@@ -1,0 +1,14 @@
+state={
+	id=191
+	name="STATE_191"
+	provinces={
+		5058 
+	}
+	manpower=600
+        state_category=small_island
+	buildings_max_level_factor=1.000
+            history = {
+             owner=BAH
+             add_core_of = BAH
+}
+}

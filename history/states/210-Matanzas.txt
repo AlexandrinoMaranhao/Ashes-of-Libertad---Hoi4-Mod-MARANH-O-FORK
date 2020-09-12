@@ -1,0 +1,16 @@
+state={
+	id=210
+	name="STATE_210"
+	provinces={
+		268 1045 2647 2823 2829 2830 5060 5069 
+	}
+	manpower=7865
+        state_category=wasteland
+	buildings_max_level_factor=1.000
+
+            history = {
+
+        owner = WAS
+        add_core_of = WAS
+}
+}

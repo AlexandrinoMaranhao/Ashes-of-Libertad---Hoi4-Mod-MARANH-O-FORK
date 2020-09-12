@@ -1,0 +1,27 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		1366 1793 1869 4145 4188 
+	}
+	manpower=1862109
+	buildings_max_level_factor=1.000
+        state_category=large_city
+
+
+            history = {
+
+        owner = PEB
+        add_core_of = PEB
+
+		victory_points = {
+		1793 50	 
+		}
+		victory_points = {
+		4188 10	 
+		}
+		victory_points = {
+		1869 5	 
+		}
+}
+}

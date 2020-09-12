@@ -1,0 +1,18 @@
+
+state={
+	id=306
+	name="STATE_306"
+
+	history={
+             owner=VEC
+             add_core_of = VEC
+
+	}
+
+	provinces={
+		871 980 1473 1827 2450 3059 3070 3073 3081 3085 3088 3103 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

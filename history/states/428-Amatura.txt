@@ -1,0 +1,32 @@
+state={
+	id=428
+	name="STATE_428"
+	provinces={
+		3759 
+	}
+	manpower=16936
+	buildings_max_level_factor=1.000
+        state_category=rural
+
+        resources = {
+rubber = 2
+steel = 1 
+}
+        history = {
+	owner = JUT
+	add_core_of = JUT
+
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+
+            3759 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+                3759 5
+		}
+}
+
+}

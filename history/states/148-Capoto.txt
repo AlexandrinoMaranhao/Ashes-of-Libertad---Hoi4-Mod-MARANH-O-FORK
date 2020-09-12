@@ -1,0 +1,26 @@
+
+state={
+	id=148
+	name="STATE_148"
+
+	history={
+		owner = XIN
+		add_core_of = XIN
+
+victory_points = {
+552 5            
+}
+
+victory_points = {
+300 5            
+}
+
+	}
+
+	provinces={
+		300 552 1418 1896 2567 4281 
+	}
+	manpower=20092
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

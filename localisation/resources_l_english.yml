@@ -1,0 +1,10 @@
+﻿l_english:
+ 
+PRODUCTION_MATERIALS_TECHNOLOGY:0 "High Technology"
+technology_desc:0 "Pieces of high technology and the means to produce them, used for computers, military grade equipment and airplanes."
+
+PRODUCTION_MATERIALS_AMMUNITION:0 "Ammunition"
+ammunition_desc:0 "An undispensable resource in the post apocalypse anywhere, ammunition is used for artillery, guns and war vehicles."
+
+PRODUCTION_MATERIALS_MOTORS:0 "Motor Parts"
+motors_desc:0 "Motor parts and machinery, used to create anything from civilian vehicles to military war machines."
