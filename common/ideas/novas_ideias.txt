@@ -5,7 +5,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = COR
 			}
 
             available = {
@@ -31,7 +31,7 @@ ideas = {
 			picture = GFX_idea_coari_desperation
 			
 			allowed = {
-				
+				tag = COR
 			}
 
             available = {
@@ -57,7 +57,7 @@ ideas = {
 			picture = GFX_idea_the_white_linned_mayor
 			
 			allowed = {
-				
+				tag = COR
 			}
 
             available = {
@@ -83,7 +83,7 @@ ideas = {
 			picture = GFX_idea_memories_of_araguaia
 			
 			allowed = {
-				
+				tag = FBO
 			}
 
             available = {
@@ -109,7 +109,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = FBO
 			}
 
             available = {
@@ -135,7 +135,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = ACR
 			}
 
             available = {
@@ -161,7 +161,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = ACR
 			}
 
             available = {
@@ -187,7 +187,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = ACR
 			}
 
             available = {
@@ -213,7 +213,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = QPM
 			}
 
             available = {
@@ -239,7 +239,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = QPM
 			}
 
             available = {
@@ -265,7 +265,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = QPM
 			}
 
             available = {
@@ -291,7 +291,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = MNS
 			}
 
             available = {
@@ -317,7 +317,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = MNS
 			}
 
             available = {
@@ -343,7 +343,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = MNS
 			}
 
             available = {
@@ -368,7 +368,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = NEB
 			}
 
             available = {
@@ -394,7 +394,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = NEB
 			}
 
             available = {
@@ -420,7 +420,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = NEB
 			}
 
             available = {
@@ -446,7 +446,7 @@ ideas = {
 			picture =
 			
 			allowed = {
-				
+				tag = ROR
 			}
 
             available = {
@@ -479,7 +479,7 @@ army_org_factor = -0.5
 			picture =
 			
 			allowed = {
-				
+				tag = ROR
 			}
 
             available = {
@@ -505,7 +505,7 @@ army_org_factor = -0.5
 			picture =
 			
 			allowed = {
-				
+				tag = ROR
 			}
 
             available = {
@@ -532,7 +532,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = PAT
 			}
 
             available = {
@@ -558,7 +558,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = PAT
 			}
 
             available = {
@@ -584,7 +584,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = PAT
 			}
 
             available = {
@@ -610,7 +610,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = NHA
 			}
 
             available = {
@@ -636,7 +636,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = NHA
 			}
 
             available = {
@@ -662,7 +662,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = NHA
 			}
 
             available = {
@@ -688,7 +688,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = AMA
 			}
 
             available = {
@@ -714,7 +714,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = AMA
 			}
 
             available = {
@@ -740,7 +740,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = KAY
 			}
 
             available = {
@@ -766,7 +766,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = KAY
 			}
 
             available = {
@@ -792,7 +792,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = KAY
 			}
 
             available = {
@@ -818,7 +818,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = STR
 			}
 
             available = {
@@ -844,7 +844,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = STR
 			}
 
             available = {
@@ -870,7 +870,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = STR
 			}
 
             available = {
@@ -896,7 +896,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = BEM
 			}
 
             available = {
@@ -922,7 +922,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = BEM
 			}
 
             available = {
@@ -948,7 +948,7 @@ stability_weekly = -0.003
 			picture =
 			
 			allowed = {
-				
+				tag = BEM
 			}
 
             available = {
