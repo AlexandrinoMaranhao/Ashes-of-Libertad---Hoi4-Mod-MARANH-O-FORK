@@ -1,6 +1,32 @@
 ideas = {
 
 	country = {
+		paying_santarem_coari = {
+			picture = GFX_idea_paying_santarem_coari
+			
+			allowed = {
+				tag = COR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
+
+	country = {
 		pearl_of_solimoes = {
 			picture = GFX_idea_pearl_of_solimoes
 			
