@@ -1,6 +1,11 @@
 SpriteTypes = {
    
 spriteType ={
+    name = "GFX_idea_pearl_of_solimoes"
+    texturefile = "gfx/interface/ideas/pearl_of_solimoes.dds"
+}  
+    
+spriteType ={
     name = "GFX_idea_misfits"
     texturefile = "gfx/interface/ideas/Misfits.dds"
 }  

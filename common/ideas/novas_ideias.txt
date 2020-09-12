@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		pearl_of_solimoes = {
-			picture =
+			picture = GFX_idea_pearl_of_solimoes
 			
 			allowed = {
 				tag = COR
