@@ -1,4 +1,44 @@
 SpriteTypes = {
+    
+#spriteType ={
+#    name = "GFX_idea_"
+#    texturefile = "gfx/interface/ideas/.dds"
+#}  
+    
+spriteType ={
+    name = "GFX_idea_defenders_of_parintins"
+    texturefile = "gfx/interface/ideas/defenders_of_parintins.dds"
+}  
+    
+spriteType ={
+    name = "GFX_idea_mercenary_capital"
+    texturefile = "gfx/interface/ideas/mercenary_capital.dds"
+}  
+    
+spriteType ={
+    name = "GFX_idea_the_siege_of_altamira"
+    texturefile = "gfx/interface/ideas/the_siege_of_altamira.dds"
+}  
+    
+spriteType ={
+    name = "GFX_idea_the_fog"
+    texturefile = "gfx/interface/ideas/the_fog.dds"
+}  
+    
+spriteType ={
+    name = "GFX_idea_mercenary_state_neblina"
+    texturefile = "gfx/interface/ideas/mercenary_state_neblina.dds"
+}  
+    
+spriteType ={
+    name = "GFX_idea_what_apocalypse"
+    texturefile = "gfx/interface/ideas/what_apocalypse.dds"
+}  
+    
+spriteType ={
+    name = "GFX_idea_living_at_the_limit"
+    texturefile = "gfx/interface/ideas/living_at_the_limit.dds"
+}  
    
 spriteType ={
     name = "GFX_idea_paying_santarem_coari"

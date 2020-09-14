@@ -132,7 +132,7 @@ ideas = {
 
 	country = {
 		living_at_the_limit = {
-			picture =
+			picture = GFX_idea_living_at_the_limit
 			
 			allowed = {
 				tag = FBO
@@ -366,7 +366,7 @@ ideas = {
 
 	country = {
 		what_apocalypse = {
-			picture =
+			picture = GFX_idea_what_apocalypse
 			
 			allowed = {
 				tag = MNS
@@ -417,7 +417,7 @@ ideas = {
 
 	country = {
 		mercenary_state_neblina = {
-			picture =
+			picture = GFX_idea_mercenary_state_neblina
 			
 			allowed = {
 				tag = NEB
@@ -443,7 +443,7 @@ ideas = {
 
 	country = {
 		the_fog = {
-			picture =
+			picture = GFX_idea_the_fog
 			
 			allowed = {
 				tag = NEB
@@ -841,7 +841,7 @@ stability_weekly = -0.003
 
 	country = {
 		the_siege_of_altamira = {
-			picture =
+			picture = GFX_idea_the_siege_of_altamira
 			
 			allowed = {
 				tag = STR
@@ -893,7 +893,7 @@ stability_weekly = -0.003
 
 	country = {
 		mercenary_capital = {
-			picture =
+			picture = GFX_idea_mercenary_capital
 			
 			allowed = {
 				tag = STR
@@ -994,5 +994,30 @@ stability_weekly = -0.003
 			}
 		}
 	}
-	
+
+	country = {
+		defenders_of_parintins = {
+			picture = GFX_idea_defenders_of_parintins
+			
+			allowed = {
+				tag = AND
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
 }
