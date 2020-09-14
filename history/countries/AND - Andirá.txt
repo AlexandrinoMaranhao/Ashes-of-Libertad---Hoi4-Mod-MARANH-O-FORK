@@ -31,6 +31,7 @@ add_ideas = {
 	war_economy
 	closed_economy
 
+	defenders_of_parintins
 }
 
 create_country_leader = {
