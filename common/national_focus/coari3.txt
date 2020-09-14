@@ -15,11 +15,826 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 		focus = {
-		id = COR_
+		id = COR_begin_expansion
+		icon = GFX_goal_generic_major_war
+		x = 16
+		y = 1
+		prerequisite = { focus = COR_start_living }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+		focus = {
+		id = COR_end_isolation
 		icon = GFX_goal_generic_major_war
 		x = 16
 		y = 2
-		prerequisite = { focus = COR_start_living }
+		prerequisite = { focus = COR_begin_expansion }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_negotiate_with_the_commies
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 2
+		prerequisite = { focus = COR_begin_expansion }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_negotiations_worked
+		icon = GFX_goal_generic_major_war
+		x = 11
+		y = 3
+		prerequisite = { focus = COR_negotiate_with_the_commies }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_negotiations_failed
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 3
+		prerequisite = { focus = COR_negotiate_with_the_commies }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_another_church_to_raid
+		icon = GFX_goal_generic_major_war
+		x = 12
+		y = 4
+		prerequisite = { focus = COR_negotiations_failed }
+		prerequisite = { focus = COR_negotiations_worked }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_profit_from_slavery
+		icon = GFX_goal_generic_major_war
+		x = 12
+		y = 5
+		prerequisite = { focus = COR_another_church_to_raid }
+        mutually_exclusive = { focus = COR_just_kill_them_all }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_just_kill_them_all
+		icon = GFX_goal_generic_major_war
+		x = 10
+		y = 5
+		prerequisite = { focus = COR_another_church_to_raid }
+        mutually_exclusive = { focus = COR_profit_from_slavery }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_camp_atalaia
+		icon = GFX_goal_generic_major_war
+		x = 11
+		y = 6
+		prerequisite = { focus = COR_just_kill_them_all focus = COR_profit_from_slavery }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_attack_coata
+		icon = GFX_goal_generic_major_war
+		x = 19
+		y = 3
+		prerequisite = { focus = COR_end_isolation }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_take_a_shot_at_manaus
+		icon = GFX_goal_generic_major_war
+		x = 18
+		y = 4
+		prerequisite = { focus = COR_attack_coata }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_hi_merima
+		icon = GFX_goal_generic_major_war
+		x = 15
+		y = 3
+		prerequisite = { focus = COR_end_isolation }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_finish_off_the_deni
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 3
+		prerequisite = { focus = COR_end_isolation }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_nature_provides
+		icon = GFX_goal_generic_major_war
+		x = 15
+		y = 4
+		prerequisite = { focus = COR_finish_off_the_deni }
+        prerequisite = { focus = COR_hi_merima }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_trade_or_else
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 5
+		prerequisite = { focus = COR_nature_provides }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_enough_talking
+		icon = GFX_goal_generic_major_war
+		x = 16
+		y = 5
+		prerequisite = { focus = COR_nature_provides }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_jungle_outposts
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 6
+		prerequisite = { focus = COR_enough_talking }
+		prerequisite = { focus = COR_trade_or_else }
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_strangle_acre
+		icon = GFX_goal_generic_major_war
+		x = 18
+		y = 5
+		prerequisite = { focus = COR_nature_provides }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_the_mouth
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 6
+		prerequisite = { focus = COR_strangle_acre }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+	
+		focus = {
+		id = COR_the_raid_of_rio_branco
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 7
+		prerequisite = { focus = COR_the_mouth }
+		prerequisite = { focus = COR_jungle_outposts }
+		prerequisite = { focus = COR_camp_atalaia }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+########################## QPM BRANCH ##############################
+	
+		focus = {
+		id = COR_the_escapist_priest
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+	
+		focus = {
+		id = COR_prepare_for_the_worse
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 2
+		prerequisite = { focus = COR_the_escapist_priest }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+	
+		focus = {
+		id = COR_scream_very_loudly
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 2
+		prerequisite = { focus = COR_the_escapist_priest }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+	
+		focus = {
+		id = COR_ready_a_raid_on_japurá
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 3
+		prerequisite = { focus = COR_scream_very_loudly }
+		prerequisite = { focus = COR_prepare_for_the_worse }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+		focus = {
+		id = COR_god_is_dead
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 4
+		prerequisite = { focus = COR_ready_a_raid_on_japurá }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_burn_the_missiones
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 5
+		prerequisite = { focus = COR_god_is_dead }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_the_children_are_worth_less
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 5
+		prerequisite = { focus = COR_god_is_dead }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_the_fate_of_hirsch
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 6
+		prerequisite = { focus = COR_burn_the_missiones }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_the_fate_of_baldassari
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 6
+		prerequisite = { focus = COR_the_children_are_worth_less }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+################################### MANAUS BRANCH ############################################
+
+		focus = {
+		id = COR_tensions_excalating
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 1
+		prerequisite = { focus =  }
 
 		cost = 3
 

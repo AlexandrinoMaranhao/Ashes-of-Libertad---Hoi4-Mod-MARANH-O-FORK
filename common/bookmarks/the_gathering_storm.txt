@@ -7,35 +7,35 @@ bookmarks = {
 		default_country = "MNS"
 
 		"MNS"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "MNS_GATHERING_STORM_DESC"
 		}
 
 		"ACR"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "ACR_GATHERING_STORM_DESC"
 		}
 
 		"COR"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "COR_GATHERING_STORM_DESC"
 		}
 
 		"BEM"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "BEM_GATHERING_STORM_DESC"
 		}
 
 		"NHA"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "NHA_GATHERING_STORM_DESC"
 		}
 
 		"KAY"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "KAY_GATHERING_STORM_DESC"
 		}
 
 		"ROR"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "ROR_GATHERING_STORM_DESC"
 		}
 
 		"QPM"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "QPM_GATHERING_STORM_DESC"
 		}
 
 		effect = {

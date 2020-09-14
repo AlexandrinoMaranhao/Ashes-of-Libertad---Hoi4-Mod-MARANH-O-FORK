@@ -354,7 +354,7 @@ add_ideas = limited_conscription
 
 	focus = {
 		id = COR_pray_for_help
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_pray_for_help
 		x = -1
 		y = 4
 		relative_position_id = COR_intro_one
@@ -457,7 +457,7 @@ add_ideas = limited_conscription
 
 	focus = {
 		id = COR_open_the_market
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_open_the_market
 		x = -3
 		y = 6
 		relative_position_id = COR_intro_one
