@@ -575,6 +575,117 @@ focus_tree = {
           add_political_power = 1
 		}
 	}
+
+		focus = {
+		id = COR_the_last_stand_of_the_republic
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 8
+		prerequisite = { focus = COR_the_raid_of_rio_branco }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_rubber_overlord
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 9
+		prerequisite = { focus = COR_the_last_stand_of_the_republic }
+        mutually_exclusive = { focus = COR_burn_rio_branco_to_the_ground }
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_burn_rio_branco_to_the_ground
+		icon = GFX_goal_generic_major_war
+		x = 15
+		y = 9
+		prerequisite = { focus = COR_the_last_stand_of_the_republic }
+        mutually_exclusive = { focus = COR_rubber_overlord }
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_the_mayor_of_the_amazon
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 10
+		prerequisite = { focus = COR_rubber_overlord focus = COR_burn_rio_branco_to_the_ground }
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
 ########################## QPM BRANCH ##############################
 	
 		focus = {
@@ -832,9 +943,232 @@ focus_tree = {
 		focus = {
 		id = COR_tensions_excalating
 		icon = GFX_goal_generic_major_war
-		x = 23
+		x = 22
 		y = 1
-		prerequisite = { focus =  }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_double_down
+		icon = GFX_goal_generic_major_war
+		x = 21
+		y = 2
+		prerequisite = { focus = COR_tensions_excalating }
+        mutually_exclusive = { focus = COR_give_back_the_pirarucu }
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_give_back_the_pirarucu
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 2
+		prerequisite = { focus = COR_tensions_excalating }
+        mutually_exclusive = { focus = COR_double_down }
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_retribution
+		icon = GFX_goal_generic_major_war
+		x = 22
+		y = 3
+		prerequisite = { focus = COR_give_back_the_pirarucu focus = COR_double_down }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_amazons_constantinople
+		icon = GFX_goal_generic_major_war
+		x = 22
+		y = 4
+		prerequisite = { focus = COR_retribution }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_midnight_show
+		icon = GFX_goal_generic_major_war
+		x = 21
+		y = 5
+		prerequisite = { focus = COR_amazons_constantinople }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_infiltrate_the_market
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 5
+		prerequisite = { focus = COR_amazons_constantinople }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_election_day
+		icon = GFX_goal_generic_major_war
+		x = 21
+		y = 6
+		prerequisite = { focus = COR_midnight_show }
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+          add_political_power = 1
+		}
+	}
+
+		focus = {
+		id = COR_finally_living_well
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 6
+		prerequisite = { focus = COR_infiltrate_the_market }
 
 		cost = 3
 

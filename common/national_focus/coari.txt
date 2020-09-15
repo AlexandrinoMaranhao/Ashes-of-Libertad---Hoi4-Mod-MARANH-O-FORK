@@ -192,7 +192,7 @@ country_event = {
 
 	focus = {
 		id = COR_mercenary_militia
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_paidmenfocus
 		x = 1
 		y = 4
 		relative_position_id = COR_intro_one
@@ -247,7 +247,7 @@ country_event = {
 
 	focus = {
 		id = COR_local_militia
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_local_men
 		x = 3
 		y = 4
 		relative_position_id = COR_intro_one

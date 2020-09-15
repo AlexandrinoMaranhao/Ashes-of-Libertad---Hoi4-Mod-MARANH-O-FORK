@@ -3,6 +3,16 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_paidmenfocus"
+	texturefile = "gfx/interface/goals/paidmenfocus.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_local_men"
+	texturefile = "gfx/interface/goals/local_men.dds"			
+	}	
+	
+	SpriteType = {
 	name = "GFX_goal_open_the_market"
 	texturefile = "gfx/interface/goals/open_the_market.dds"			
 	}	
