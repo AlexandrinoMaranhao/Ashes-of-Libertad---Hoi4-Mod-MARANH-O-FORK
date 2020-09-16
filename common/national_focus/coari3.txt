@@ -19,7 +19,6 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 16
 		y = 1
-		prerequisite = { focus = COR_start_living }
 
 		cost = 3
 
@@ -106,8 +105,10 @@ focus_tree = {
 		x = 11
 		y = 3
 		prerequisite = { focus = COR_negotiate_with_the_commies }
+        mutually_exclusive = { focus = COR_negotiations_failed }
 
 		cost = 3
+
 
 		ai_will_do = {
 			factor = 1
@@ -134,6 +135,7 @@ focus_tree = {
 		x = 13
 		y = 3
 		prerequisite = { focus = COR_negotiate_with_the_commies }
+        mutually_exclusive = { focus = COR_negotiations_worked }
 
 		cost = 3
 
@@ -161,8 +163,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 12
 		y = 4
-		prerequisite = { focus = COR_negotiations_failed }
-		prerequisite = { focus = COR_negotiations_worked }
+		prerequisite = { focus = COR_negotiations_failed focus = COR_negotiations_worked }
 
 		cost = 3
 
@@ -772,7 +773,7 @@ focus_tree = {
 	}
 	
 		focus = {
-		id = COR_ready_a_raid_on_japurá
+		id = COR_ready_a_raid_on_japura
 		icon = GFX_goal_generic_major_war
 		x = 7
 		y = 3
@@ -804,7 +805,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 7
 		y = 4
-		prerequisite = { focus = COR_ready_a_raid_on_japurá }
+		prerequisite = { focus = COR_ready_a_raid_on_japura }
 
 		cost = 3
 
