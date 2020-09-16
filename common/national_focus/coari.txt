@@ -53,7 +53,7 @@
 
 	focus = {
 		id = COR_intro_two
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_the_white_linned_mayor
 		x = -1
 		y = 1
 		relative_position_id = COR_intro_one
@@ -86,7 +86,7 @@
 
 	focus = {
 		id = COR_intro_three
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_pearl_of_solimoes
 		x = 1
 		y = 1
 		relative_position_id = COR_intro_one
@@ -101,6 +101,7 @@
 		available = {
 		}
 		
+	
 		bypass = {
 		}
 
@@ -118,7 +119,7 @@
 
 	focus = {
 		id = COR_intro_final
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_losing_its_shine
 		x = 0
 		y = 2
 		relative_position_id = COR_intro_one
@@ -492,7 +493,7 @@ add_ideas = limited_conscription
 
 	focus = {
 		id = COR_find_guns
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_armory
 		x = 2
 		y = 5
 		relative_position_id = COR_intro_one
@@ -558,7 +559,7 @@ add_ideas = limited_conscription
 
 	focus = {
 		id = COR_organize_a_raid
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_soldiers_focus
 		x = 3 
 		y = 6
 		relative_position_id = COR_intro_one
@@ -590,7 +591,7 @@ add_ideas = limited_conscription
 
 	focus = {
 		id = COR_desperate_measures
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_desperate_measures
 		x = 0
 		y = 5
 		relative_position_id = COR_intro_one
@@ -657,7 +658,7 @@ add_ideas = limited_conscription
 
 	focus = {
 		id = COR_go_hunting
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_gone_fishing
 		x = 0
 		y = 7
 		relative_position_id = COR_intro_one

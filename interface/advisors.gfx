@@ -3,7 +3,30 @@ SpriteTypes = {
 #spriteType ={
 #    name = "GFX_idea_"
 #    texturefile = "gfx/interface/ideas/.dds"
-#}  
+#} 
+ 
+ 
+ 
+ 
+spriteType ={
+    name = "GFX_idea_heart_of_the_amazon"
+    texturefile = "gfx/interface/ideas/heart_of_the_amazon.dds"
+}
+ 
+spriteType ={
+    name = "GFX_idea_the_amazonian_military_command"
+    texturefile = "gfx/interface/ideas/the_amazonian_military_command.dds"
+}
+  
+spriteType ={
+    name = "GFX_idea_the_great_game"
+    texturefile = "gfx/interface/ideas/the_great_game.dds"
+}
+
+spriteType ={
+    name = "GFX_idea_warrior_culture"
+    texturefile = "gfx/interface/ideas/warrior_culture.dds"
+}
 
 spriteType ={
     name = "GFX_idea_defenders_of_parintins"
