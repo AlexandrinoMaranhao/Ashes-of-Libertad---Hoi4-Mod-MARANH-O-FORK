@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = COR_fishing_spot
 		icon = GFX_goal_generic_major_war
-		x = 16
+		x = 10
 		y = 2
 
 		cost = 3
