@@ -3,6 +3,16 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_deni_take"
+	texturefile = "gfx/interface/goals/deni_take.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_qpm_reach_focus"
+	texturefile = "gfx/interface/goals/qpm_reach_focus.dds"			
+	}	
+	
+	SpriteType = {
 	name = "GFX_goal_the_white_linned_mayor"
 	texturefile = "gfx/interface/goals/the_white_linned_mayor.dds"			
 	}	
