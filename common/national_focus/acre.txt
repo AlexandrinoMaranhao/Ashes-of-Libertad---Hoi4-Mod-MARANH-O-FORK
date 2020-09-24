@@ -831,37 +831,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ACR_right_of_vote
-		icon = GFX_goal_generic_major_war
-		x = 2
-		y = 7
-		relative_position_id = ACR_intro_one
-		prerequisite = { focus = ACR_power_of_the_senate }
-		prerequisite = { focus = ACR_workers_no focus = ACR_workers_yes }
-
-
-		cost = 1
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
 		id = ACR_no_rest_for_the_sick
 		icon = GFX_goal_generic_major_war
 		x = -2
