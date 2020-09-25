@@ -1,0 +1,176 @@
+﻿####################################
+# Coari Events
+####################################
+
+add_namespace = CoariIntroduction
+add_namespace = Coari
+
+#########################################################################
+# How did we get here?
+#########################################################################
+country_event = {
+	id = CoariIntroduction.1
+	title = CoariIntroduction.1.t
+	desc = CoariIntroduction.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CoariIntroduction.1.A
+	}
+}
+
+#########################################################################
+# The Pearl of Solimoes
+#########################################################################
+country_event = {
+	id = CoariIntroduction.2
+	title = CoariIntroduction.2.t
+	desc = CoariIntroduction.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CoariIntroduction.2.A
+	}
+}
+
+#########################################################################
+# The White Lined Mayor
+#########################################################################
+country_event = {
+	id = CoariIntroduction.3
+	title = CoariIntroduction.3.t
+	desc = CoariIntroduction.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CoariIntroduction.3.A
+	}
+}
+
+#########################################################################
+# Hired Guns [to be changed]
+#########################################################################
+country_event = {
+	id = Coari.1
+	title = Coari.1.t
+	desc = Coari.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.1.A
+	}
+}
+
+#########################################################################
+# Recruit Local Men [to be changed]
+#########################################################################
+country_event = {
+	id = Coari.2
+	title = Coari.2.t
+	desc = Coari.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.2.A
+	}
+}
+
+#########################################################################
+# The Craze of 61
+#########################################################################
+country_event = {
+	id = Coari.3
+	title = Coari.3.t
+	desc = Coari.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.3.A
+	}
+}
+
+#########################################################################
+# Pray for Help
+#########################################################################
+country_event = {
+	id = Coari.4
+	title = Coari.4.t
+	desc = Coari.4.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.4.A
+	}
+}
+
+#########################################################################
+# Open the Market
+#########################################################################
+country_event = {
+	id = Coari.5
+	title = Coari.5.t
+	desc = Coari.5.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.5.A
+	}
+}
+
+#########################################################################
+# Desperate Measures
+#########################################################################
+country_event = {
+	id = Coari.6
+	title = Coari.6.t
+	desc = Coari.6.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.6.A
+	}
+}
+
+#########################################################################
+# A Last Cry for Help
+#########################################################################
+country_event = {
+	id = Coari.7
+	title = Coari.7.t
+	desc = Coari.7.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Coari.7.A
+	}
+}
