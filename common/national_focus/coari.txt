@@ -180,7 +180,7 @@
 			}
 		}
 	}
-
+	
 	focus = {
 		id = COR_find_guns
 		icon = GFX_goal_armory
@@ -209,9 +209,7 @@
 			focus = COR_mercenary_militia
 			focus = COR_local_militia
 		}
-		mutually_exclusive = {
-			focus = COR_find_guns
-		}
+
 		x = 3
 		y = 1
 		relative_position_id = COR_mercenary_militia

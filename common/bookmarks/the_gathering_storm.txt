@@ -8,34 +8,117 @@ bookmarks = {
 
 		"MNS"={
 			history = "MNS_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
 		}
 
 		"ACR"={
 			history = "ACR_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
 		}
 
 		"COR"={
 			history = "COR_GATHERING_STORM_DESC"
+            ideas = {
+               the_white_linned_mayor 
+               pearl_of_solimoes 
+               coari_desperation 
+            }
+            focuses = {
+                COR_intro_one
+                COR_steal_from_monastery
+                COR_go_hunting
+            }
+
 		}
 
 		"BEM"={
 			history = "BEM_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
+
 		}
 
 		"NHA"={
 			history = "NHA_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
+
 		}
 
 		"KAY"={
 			history = "KAY_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
+
 		}
 
 		"ROR"={
 			history = "ROR_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
+
 		}
 
 		"QPM"={
 			history = "QPM_GATHERING_STORM_DESC"
+			ideas = {
+               
+            }
+            focuses = {
+                
+            }
+
+		}
+
+		"PAT"={
+            minor = yes
+			history = "PAT_GATHERING_STORM_DESC"
+		}
+
+		"FBO"={
+            minor = yes
+			history = "FBO_GATHERING_STORM_DESC"
+		}
+
+		"AMA"={
+            minor = yes
+			history = "AMA_GATHERING_STORM_DESC"
+		}
+
+		"STR"={
+            minor = yes
+			history = "STR_GATHERING_STORM_DESC"
+		}
+
+		"NEB"={
+            minor = yes
+			history = "NEB_GATHERING_STORM_DESC"
 		}
 
 		effect = {
