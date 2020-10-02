@@ -305,7 +305,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_deni_peace
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_talk_deni
 		x = -1
 		y = 2
 		relative_position_id = COR_fishing_spot
@@ -335,7 +335,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_deni_war
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_deni_take
 		x = 1
 		y = 2
 		relative_position_id = COR_fishing_spot
@@ -452,7 +452,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_contact_the_qpm
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_qpm_reach_focus
 		x = -7
 		y = 3
 		relative_position_id = COR_fishing_spot
@@ -481,7 +481,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_negotiations_were_short
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_talks_were_short
 		x = -7
 		y = 4
 		relative_position_id = COR_fishing_spot
@@ -800,8 +800,8 @@ focus_tree = {
 
 	focus = {
 		id = COR_raid_for_guns
-		icon = GFX_goal_generic_major_war
-		x = -5
+		icon = GFX_goal_modern_day_flint_focus
+		x = -5 
 		y = 4
 		relative_position_id = COR_fishing_spot
 		prerequisite = { focus = COR_raiding_intro }
@@ -829,7 +829,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_raid_for_ships
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_modern_day_pirates_focus2
 		x = -5
 		y = 5
 		relative_position_id = COR_fishing_spot
@@ -887,7 +887,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_steal_the_pirarucu
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Pirarucu_focus
 		x = -4
 		y = 6
 		relative_position_id = COR_fishing_spot
