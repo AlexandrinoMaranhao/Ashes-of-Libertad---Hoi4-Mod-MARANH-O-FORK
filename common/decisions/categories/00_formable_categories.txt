@@ -1,11 +1,4 @@
-#formable_nations = {
-#
-#	icon = generic_formable_nations
-#
-#	allowed = {
-#		has_dlc = "Waking the Tiger"
-#	}
-#}
+
 
 form_gran_colombia_category = {
 
@@ -33,6 +26,46 @@ form_amaru_mayu_category = {
 
 form_amazonian_free_state_category = {
 
+	icon = GFX_decision_category_amazon_free_state_nation
+
+	picture = GFX_decision_category_amazon_free_state_nation
+
+}
+
+form_amazon_coari = {
+
+	icon = GFX_decision_category_coari_formable_nation
+
+	picture = GFX_decision_category_coari_formable_nation
+
+}
+
+form_amazon_manaus = {
+
+	icon = GFX_decision_category_amazon_formable_nation
+
+	picture = GFX_decision_category_manaus_formable_nation
+
+}
+
+form_para_amc = {
+
+	icon = GFX_decision_category_para_formable_nation
+
+	picture = GFX_decision_category_para_formable_nation
+
+}
+
+form_para_para = {
+
+	icon = GFX_decision_category_para_formable_nation
+
+	picture = GFX_decision_category_para_formable_nation
+
+}
+
+form_amazon_amc = {
+
 	icon = GFX_decision_category_amazon_formable_nation
 
 	picture = GFX_decision_category_amazon_formable_nation
@@ -46,3 +79,4 @@ form_amazonian_papal_states_category = {
 	picture = GFX_decision_category_amazonian_papal_states_formable_nation
 
 }
+

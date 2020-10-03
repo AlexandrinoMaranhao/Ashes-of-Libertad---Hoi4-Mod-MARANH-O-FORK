@@ -18,11 +18,35 @@
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
 
  form_amaru_mayu_required_states_tt:0 "Born from creeks and shallow channels amongst rocky cliffs, the watery branches of Ene, Tambó, Ucayali and all her sisters unite on thicker and thicker streams until the water's force becomes such that no amount of willpower can contain it, and like the warrior women she takes her name from, the Amazon gives and takes life away, and so shall her sons and daughters. \nWe must put the river under our benevolent hands, take back what is ours uniting our people for the first time in ever in one great federation, made for them, by them. \nTake the cities of §GManaus§!, §GRio Branco§!, §GBelém§!, §GNhamundá§!, §GParintins§!, §GCoari§!, §GBoa Vista§!, §GSantarém§! and §GJapurá§! to create the §YFederation of the Amaru Mayu§!."
- form_amaru_mayu_category:0 "Reunification of the Amazon"
+ form_amaru_mayu_category:0 "Unite the Amazon"
  form_amaru_mayu:0 "Form the Federation of the Amaru Mayu"
 
- form_amazon_free_state:0 "Reunite the Amazon"
+ form_amazon_free_state:0 "Unite the Amazon"
  form_amazon_free_state_required_states_tt:0 "No more pretenders, no more petty squabbles between city states, every boat now carries our flag, the rivers flow red with our fallen foe and even in the most remote valley of this dark jungle word of our ultimate victory was heard, a new age dawns upon the Amazon. \nTake the cities of §GManaus§!, §GRio Branco§!, §GBelém§!, §GNhamundá§!, §GParintins§!, §GCoari§!, §GBoa Vista§!, §GSantarém§! and §GJapurá§! to §YUnite the Amazon under your rule§!."
 
+ form_amazonian_papal_states_category:0 "Finish the New Missiones Experiment" 
  form_amazonian_papal_states:0 "Proclaim Salvation"
  form_amazonian_papal_states_required_states_tt:0 "The Lord's work has no true end, some consider helping to bring it to fruition futile, we consider it an obligation. \nNonetheless, thanks to our devotion the savages of this land have been shaped into servants of our lord, equal to us in mind and soul, the time has come for the Great Crusade to begin, if man cannot bring order to this piece of heaven on earth then god will, and we will be his angels. \nTake the lands of the §GJaú National Park§!, avenge the martyrs slained by the §gNeblina Mercenaries§! and 'save' the souls of the §GJavari§! and §GJutaí§! to proclaim the §YKingdom of God on Earth§!."
+
+ form_amazon_coari:0 "Embrace the Apocalypse"
+
+ form_amazonian_free_state_category:0 "Create the Amazonian Free State"
+ 
+ form_amazon_manaus:0 "Declare our Sovereignty"
+
+ form_para_amc:0 "Declare ourselves the Provisional Government of Pará"
+
+ form_amazon_amc:0 "Declare ourselves the Provisional Government of the Amazon"
+
+ form_para_para:0 "Restore Order."
+ 
+ acrean_raids:0 "Pillaging the Amazon"
+ give_guns_to_raiders:0 "Arrange guns to the raiders"
+ give_boats_to_raiders:0 "Arrange boats to the raiders"
+ give_them_extra_supplies:0 "Give the raiders extra supplies"
+ send_trained_boatman:0 "Hire a local boatman"
+ send_mercenary_advisor:0 "Hire a mercenary advisor"
+ send_negotiator:0 "Send a negotiator"
+ draft_plan:0 "Draft an attack plan"
+ motivational_speech:0 "Montoril make's a motivational speech"
+ hire_extra_mercenaries:0 "Hire professional mercenary soldiers"

@@ -5,6 +5,26 @@ spriteTypes = {
 	##SAM
 	
 	spriteType = {
+		name = "GFX_decision_category_coari_formable_nation"
+		texturefile = "gfx/interface/decisions/decision_category_coari_formable_nation.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_decision_category_para_formable_nation"
+		texturefile = "gfx/interface/decisions/decision_category_para_formable_nation.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_decision_category_manaus_formable_nation"
+		texturefile = "gfx/interface/decisions/decision_category_manaus_formable_nation.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_decision_category_amazon_free_state_nation"
+		texturefile = "gfx/interface/decisions/decision_category_amazon_free_state_nation.dds"
+	}
+		
+	spriteType = {
 		name = "GFX_decision_category_acrean_raids"
 		texturefile = "gfx/interface/decisions/decision_category_acrean_raids.dds"
 	}
