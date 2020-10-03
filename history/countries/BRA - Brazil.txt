@@ -22,6 +22,10 @@ set_popularities = {
 	neutrality = 10
 }
 
+create_faction = brazilian_federation
+add_to_faction = AMA
+add_to_faction = CNU
+
 add_ideas = {
 	battle_of_guanabara
 	sp_betrayal

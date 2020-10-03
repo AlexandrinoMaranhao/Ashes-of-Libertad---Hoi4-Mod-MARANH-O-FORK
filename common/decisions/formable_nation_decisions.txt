@@ -523,7 +523,7 @@ form_amazonian_papal_states_category = {
 	}
 }
 ########################################################################################
-form_amazon_coari = {
+form_amazon_coari_category = {
 				form_amazon_coari = {
 
 		icon = GFX_decision_category_coari_formable_nation
@@ -725,7 +725,7 @@ form_amazon_coari = {
 	}
 }
 #######################################################################
-form_amazon_manaus = {
+form_amazon_manaus_category = {
 				form_amazon_manaus = {
 
 		icon = GFX_decision_category_manaus_formable_nation
@@ -927,7 +927,7 @@ form_amazon_manaus = {
 	}
 }
 #######################################################################
-form_para_amc = {
+form_para_amc_category = {
 				form_para_amc = {
 
 		icon = GFX_decision_category_para_formable_nation
@@ -1031,7 +1031,7 @@ form_para_amc = {
 	}
 }
 ###################################################################
-form_amazon_amc = {
+form_amazon_amc_category = {
 				form_amazon_amc = {
 
 		icon = GFX_decision_category_amazon_formable_nation
@@ -1224,7 +1224,7 @@ form_amazon_amc = {
 	}
 }
 #####################################################################
-form_para_para = {
+form_para_para_category = {
 				form_para_para = {
 
 		icon = GFX_decision_category_para_formable_nation

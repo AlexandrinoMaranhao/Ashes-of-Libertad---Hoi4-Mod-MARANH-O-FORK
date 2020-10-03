@@ -23,6 +23,12 @@ set_popularities = {
 	neutrality = 0
 }
 
+create_faction = brazilian_military_junta
+add_to_faction = BEM
+add_to_faction = UBA
+add_to_faction = CRJ
+add_to_faction = LAM
+
 add_ideas = {
 incompetent_administration
 castelo_branco

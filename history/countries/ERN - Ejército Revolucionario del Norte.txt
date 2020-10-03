@@ -23,6 +23,9 @@ set_popularities = {
 	neutrality = 0
 }
 
+create_faction = los_libertadores
+add_to_faction = LBT
+
 add_ideas = {
 	isolation
 	closed_economy

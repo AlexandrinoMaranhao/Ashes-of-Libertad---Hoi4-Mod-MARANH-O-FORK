@@ -32,7 +32,7 @@ form_amazonian_free_state_category = {
 
 }
 
-form_amazon_coari = {
+form_amazon_coari_category = {
 
 	icon = GFX_decision_category_coari_formable_nation
 
@@ -40,7 +40,7 @@ form_amazon_coari = {
 
 }
 
-form_amazon_manaus = {
+form_amazon_manaus_category = {
 
 	icon = GFX_decision_category_amazon_formable_nation
 
@@ -48,7 +48,7 @@ form_amazon_manaus = {
 
 }
 
-form_para_amc = {
+form_para_amc_category = {
 
 	icon = GFX_decision_category_para_formable_nation
 
@@ -56,7 +56,7 @@ form_para_amc = {
 
 }
 
-form_para_para = {
+form_para_para_category = {
 
 	icon = GFX_decision_category_para_formable_nation
 
@@ -64,7 +64,7 @@ form_para_para = {
 
 }
 
-form_amazon_amc = {
+form_amazon_amc_category = {
 
 	icon = GFX_decision_category_amazon_formable_nation
 

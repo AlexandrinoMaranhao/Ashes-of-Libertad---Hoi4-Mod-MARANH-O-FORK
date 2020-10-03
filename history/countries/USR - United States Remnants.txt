@@ -23,6 +23,9 @@ set_popularities = {
 	neutrality = 0
 }
 
+create_faction = NATO
+add_to_faction = DOM
+
 add_ideas = {
     volunteer_only
 	low_economic_mobilisation
