@@ -1,0 +1,16 @@
+state={
+	id=515
+	name="STATE_515"
+	provinces={
+		5162 
+	}
+	manpower=294
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+
+	history={
+		owner = CHL
+		add_core_of = CHL
+
+	}
+}

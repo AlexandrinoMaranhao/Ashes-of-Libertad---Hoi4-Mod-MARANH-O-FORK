@@ -2,14 +2,17 @@
 state={
 	id=368
 	name="STATE_368"
+
+	history={
+		owner = CHL
+		add_core_of = CHL
+
+	}
+
 	provinces={
-		5165 5167 5168 5169 5170 5171 5172 5173 5174 5175 5176 5177 5178 5179 5180 5181 5182 5183 5184 5185 5186 5187 5188 5190 5193 5195 5197 
+		5165 5167 5168 5169 5170 5171 5172 5173 5174 5175 5176 5177 5178 5179 5180 5181 5182 5183 5184 5186 5187 5188 5190 5193 5195 5197 
 	}
 	manpower=983
-        state_category=tiny_island
 	buildings_max_level_factor=1.000
-            history = {
-             owner=CHL
-             add_core_of = CHL
-}
+	state_category=tiny_island
 }

@@ -17,7 +17,7 @@ ammunition = 3
 	add_core_of = COR
 
         buildings = {
-            arms_factory = 3
+            industrial_complex = 3
             infrastructure = 4
             dockyard = 2
 

@@ -1,17 +1,21 @@
+
 state={
 	id=370
 	name="STATE_370"
+
+	history={
+		owner = CHL
+		add_core_of = CHL
+		victory_points = {
+			1100 5 
+		}
+
+	}
+
 	provinces={
-		450 1100 5035 5221 5222 5223 5224 5226 5227 5228 5229 5230 
+		450 1100 5035 5221 5222 5224 5226 5228 5229 5230 
 	}
 	manpower=10293
-        state_category=small_island
 	buildings_max_level_factor=1.000
-            history = {
-             owner=CHL
-             add_core_of = CHL
-        victory_points = {
-1100 5
-        }
-}
+	state_category=small_island
 }
