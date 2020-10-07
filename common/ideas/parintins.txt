@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+			caprichoso = {
+			picture =
+			
+			allowed = {
+				tag = PAT
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		garantido = {
+			picture =
+			
+			allowed = {
+				tag = PAT
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		the_other_manaus = {
+			picture =
+			
+			allowed = {
+				tag = PAT
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
+}

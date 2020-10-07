@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+			heart_of_the_amazon = {
+			picture =
+			
+			allowed = {
+				tag = MNS
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		the_rubber_barons = {
+			picture =
+			
+			allowed = {
+				tag = MNS
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		what_apocalypse = {
+			picture = GFX_idea_what_apocalypse
+			
+			allowed = {
+				tag = MNS
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
+}

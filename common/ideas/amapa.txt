@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+		    the_port_of_macapa = {
+			picture =
+			
+			allowed = {
+				tag = AMA
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		northern_friend_of_the_republic = {
+			picture =
+			
+			allowed = {
+				tag = AMA
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
+}

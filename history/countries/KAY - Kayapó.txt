@@ -38,7 +38,7 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Cacique Raoni"
+	name = "Raoni Metuktir"
 	picture = "gfx/leaders/KAY/Portrait_KAY_Cacique_Raoni.dds"
 	expire = "1999.1.1"
 	ideology = tribal_chiefdom

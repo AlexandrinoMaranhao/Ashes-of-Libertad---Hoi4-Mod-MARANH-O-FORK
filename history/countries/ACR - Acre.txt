@@ -11,16 +11,16 @@ set_convoys = 8
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic =67
+	democratic = 0
 	fascism = 0
 	communism = 0
-	neutrality = 33
+	neutrality = 100
 }
 
 set_variable = {
@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "José Augusto de Araujo"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
 	expire = "1999.1.1"
-	ideology = liberalism
+	ideology = moderatism
 	traits = {
 
 

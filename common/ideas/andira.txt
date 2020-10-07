@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+			defenders_of_parintins = {
+			picture = GFX_idea_defenders_of_parintins
+			
+			allowed = {
+				tag = AND
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
+}

@@ -1,48 +1,11 @@
 ideas = {
-
 	country = {
 
-		paying_santarem = {
-			picture = GFX_idea_paying_santarem_coari
+			the_kayapo = {
+			picture =
 			
 			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-		
-		the_american_priest = {
-			picture = GFX_idea_paying_santarem_coari
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		pearl_of_solimoes = {
-			picture = GFX_idea_pearl_of_solimoes
-			
-			allowed = {
-				tag = COR
+				tag = KAY
 			}
 
             available = {
@@ -61,12 +24,11 @@ ideas = {
 
 			}
 		}
-
-		coari_desperation = {
-			picture = GFX_idea_coari_desperation
+		warrior_culture = {
+			picture =
 			
 			allowed = {
-				tag = COR
+				tag = KAY
 			}
 
             available = {
@@ -85,12 +47,11 @@ ideas = {
 
 			}
 		}
-		
-		the_white_linned_mayor = {
-			picture = GFX_idea_the_white_linned_mayor
+		cachimbo_military_base = {
+			picture =
 			
 			allowed = {
-				tag = COR
+				tag = KAY
 			}
 
             available = {
@@ -109,22 +70,28 @@ ideas = {
 
 			}
 		}
+		quick_modernization = {
+			picture =
+			
+			allowed = {
+				tag = KAY
+			}
 
+            available = {
 
+            }
 
+            cancel = {
 
+            }
 
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
 
-
-
-
-
-
-
-
-
-
-
-
-    }
+			}
+		}
+	}
 }

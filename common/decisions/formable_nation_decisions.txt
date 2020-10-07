@@ -14,8 +14,6 @@ form_amaru_mayu_category = {
 		available = {
 			is_subject = no
 
-			custom_trigger_tooltip = {
-				tooltip = form_amaru_mayu_required_states_tt
 				controls_state = 89
 				controls_state = 425
 				controls_state = 398
@@ -25,7 +23,7 @@ form_amaru_mayu_category = {
 				controls_state = 430
 				controls_state = 132
                 controls_state = 95
-			}
+			
 		}
 
 		visible = {
@@ -187,9 +185,6 @@ form_amaru_mayu_category = {
         fire_only_once = yes
 		available = {
 			is_subject = no
-
-			custom_trigger_tooltip = {
-				tooltip = form_amazon_free_state_required_states_tt
 				controls_state = 89
 				controls_state = 425
 				controls_state = 398
@@ -199,7 +194,7 @@ form_amaru_mayu_category = {
 				controls_state = 430
 				controls_state = 132
                 controls_state = 95
-			}
+
 		}
 
 		visible = {
@@ -367,8 +362,6 @@ form_amazonian_papal_states_category = {
 		available = {
 			is_subject = no
 
-			custom_trigger_tooltip = {
-				tooltip = form_amazonian_papal_states_required_states_tt
 				controls_state = 410
 				controls_state = 409
 				controls_state = 408
@@ -378,7 +371,6 @@ form_amazonian_papal_states_category = {
 				controls_state = 397
 				controls_state = 427
                 controls_state = 428
-			}
 		}
 
 		visible = {
@@ -538,9 +530,7 @@ form_amazon_coari_category = {
         fire_only_once = yes
 		available = {
 			is_subject = no
-
-			custom_trigger_tooltip = {
-				tooltip = form_amazon_coari_DESC
+	
 				controls_state = 504
 				controls_state = 402
 				controls_state = 403
@@ -580,7 +570,7 @@ form_amazon_coari_category = {
                 controls_state = 94
                 controls_state = 458
 
-			}
+			
 		}
 
 		visible = {
@@ -740,48 +730,16 @@ form_amazon_manaus_category = {
 		available = {
 			is_subject = no
 
-			custom_trigger_tooltip = {
-				tooltip = form_amazon_manaus_desc
+				controls_state = 89
+				controls_state = 425
+				controls_state = 398
+				controls_state = 458
+				controls_state = 96
 				controls_state = 504
-				controls_state = 402
-				controls_state = 403
-				controls_state = 404
-				controls_state = 405
-				controls_state = 406
-				controls_state = 424
-				controls_state = 423
-                controls_state = 419
-                controls_state = 89
-                controls_state = 107
-                controls_state = 417
-                controls_state = 418
-                controls_state = 398
-                controls_state = 422
-                controls_state = 421
-                controls_state = 415
-                controls_state = 416
-                controls_state = 411
-                controls_state = 106
-                controls_state = 412
-                controls_state = 414
-                controls_state = 109
-                controls_state = 428
-                controls_state = 427
-                controls_state = 426
-                controls_state = 425
-                controls_state = 420
-                controls_state = 410
-                controls_state = 409
-                controls_state = 408
-                controls_state = 407
-                controls_state = 399
-                controls_state = 396
-                controls_state = 397
-                controls_state = 96
-                controls_state = 94
-                controls_state = 458
+				controls_state = 430
+				controls_state = 132
+                controls_state = 95
                 
-			}
 		}
 
 		visible = {
@@ -941,8 +899,6 @@ form_para_amc_category = {
 		available = {
 			is_subject = no
 
-			custom_trigger_tooltip = {
-				tooltip = form_para_nha_desc
 				controls_state = 430
 				controls_state = 119
 				controls_state = 118
@@ -973,7 +929,7 @@ form_para_amc_category = {
                 controls_state = 133
                 controls_state = 77
                 
-			}
+			
 		}
 
 		visible = {
@@ -1044,8 +1000,6 @@ form_amazon_amc_category = {
 		available = {
 			is_subject = no
 
-			custom_trigger_tooltip = {
-				tooltip = form_amazon_nha_desc
 				controls_state = 89
 				controls_state = 425
 				controls_state = 398
@@ -1056,7 +1010,6 @@ form_amazon_amc_category = {
 				controls_state = 132
                 controls_state = 95
                 
-			}
 		}
 
 		visible = {
@@ -1216,8 +1169,6 @@ form_para_para_category = {
 		available = {
 			is_subject = no
 
-			custom_trigger_tooltip = {
-				tooltip = form_para_para_desc
 				controls_state = 430
 				controls_state = 119
 				controls_state = 118
@@ -1248,7 +1199,6 @@ form_para_para_category = {
                 controls_state = 133
                 controls_state = 77
                 
-			}
 		}
 
 		visible = {
@@ -1291,7 +1241,7 @@ form_para_para_category = {
                 state = 132
                 state = 133
                 state = 77
-                
+
 			    }
 			}
 			add_core_of = ROOT

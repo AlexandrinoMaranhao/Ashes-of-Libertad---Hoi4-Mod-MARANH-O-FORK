@@ -9,7 +9,9 @@ bookmarks = {
 		"MNS"={
 			history = "MNS_GATHERING_STORM_DESC"
 			ideas = {
-               
+               heart_of_the_amazon
+               the_rubber_barons
+               what_apocalypse
             }
             focuses = {
                 
@@ -19,7 +21,9 @@ bookmarks = {
 		"ACR"={
 			history = "ACR_GATHERING_STORM_DESC"
 			ideas = {
-               
+               country_of_seringueiros
+               the_red_menace
+               the_acrean_constitution
             }
             focuses = {
                 
@@ -44,7 +48,9 @@ bookmarks = {
 		"BEM"={
 			history = "BEM_GATHERING_STORM_DESC"
 			ideas = {
-               
+               the_siege_of_altamira
+               the_juntas_favorite_pet
+               the_cabanos
             }
             focuses = {
                 
@@ -55,7 +61,9 @@ bookmarks = {
 		"NHA"={
 			history = "NHA_GATHERING_STORM_DESC"
 			ideas = {
-               
+               the_amazonian_military_command
+               what_are_we_fighting_for
+               amazons_finest
             }
             focuses = {
                 
@@ -66,7 +74,9 @@ bookmarks = {
 		"KAY"={
 			history = "KAY_GATHERING_STORM_DESC"
 			ideas = {
-               
+               the_kayapo
+               cachimbo_military_base
+               quick_modernization
             }
             focuses = {
                 
@@ -77,7 +87,9 @@ bookmarks = {
 		"ROR"={
 			history = "ROR_GATHERING_STORM_DESC"
 			ideas = {
-               
+               misfits
+               the_northen_star
+               no_administration_roraima
             }
             focuses = {
                 
@@ -88,7 +100,9 @@ bookmarks = {
 		"QPM"={
 			history = "QPM_GATHERING_STORM_DESC"
 			ideas = {
-               
+               antas
+               modern_missiones
+               the_10th_crusade
             }
             focuses = {
                 

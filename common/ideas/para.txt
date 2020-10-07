@@ -1,48 +1,79 @@
 ideas = {
-
 	country = {
-
-		paying_santarem = {
-			picture = GFX_idea_paying_santarem_coari
+			the_siege_of_altamira = {
+			picture = GFX_idea_the_siege_of_altamira
 			
 			allowed = {
-				always = no
+				tag = BEM
 			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
 
 			allowed_civil_war = {
 				always = no
 			}
 			
-			removal_cost = -1
-			
 			modifier = {
-				
+
 			}
 		}
-		
-		the_american_priest = {
-			picture = GFX_idea_paying_santarem_coari
+		a_state_falling_appart = {
+			picture =
 			
 			allowed = {
-				always = no
+				tag = BEM
 			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
 
 			allowed_civil_war = {
 				always = no
 			}
 			
-			removal_cost = -1
-			
 			modifier = {
-				
+
 			}
 		}
-
-		pearl_of_solimoes = {
-			picture = GFX_idea_pearl_of_solimoes
+		the_cabanos = {
+			picture =
 			
 			allowed = {
-				tag = COR
+				tag = BEM
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		the_jailed_bird = {
+			picture =
+			
+			allowed = {
+				tag = BEM
 			}
 
             available = {
@@ -62,11 +93,11 @@ ideas = {
 			}
 		}
 
-		coari_desperation = {
-			picture = GFX_idea_coari_desperation
+		the_juntas_favorite_pet = {
+			picture =
 			
 			allowed = {
-				tag = COR
+				tag = BEM
 			}
 
             available = {
@@ -85,46 +116,5 @@ ideas = {
 
 			}
 		}
-		
-		the_white_linned_mayor = {
-			picture = GFX_idea_the_white_linned_mayor
-			
-			allowed = {
-				tag = COR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+	}
 }

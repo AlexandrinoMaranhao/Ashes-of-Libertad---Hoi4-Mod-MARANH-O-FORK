@@ -1,48 +1,10 @@
 ideas = {
-
 	country = {
-
-		paying_santarem = {
-			picture = GFX_idea_paying_santarem_coari
+			praying_indians = {
+			picture =
 			
 			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-		
-		the_american_priest = {
-			picture = GFX_idea_paying_santarem_coari
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				
-			}
-		}
-
-		pearl_of_solimoes = {
-			picture = GFX_idea_pearl_of_solimoes
-			
-			allowed = {
-				tag = COR
+				tag = QPM
 			}
 
             available = {
@@ -61,12 +23,11 @@ ideas = {
 
 			}
 		}
-
-		coari_desperation = {
-			picture = GFX_idea_coari_desperation
+		antas = {
+			picture =
 			
 			allowed = {
-				tag = COR
+				tag = QPM
 			}
 
             available = {
@@ -85,12 +46,11 @@ ideas = {
 
 			}
 		}
-		
-		the_white_linned_mayor = {
-			picture = GFX_idea_the_white_linned_mayor
+		modern_missiones = {
+			picture =
 			
 			allowed = {
-				tag = COR
+				tag = QPM
 			}
 
             available = {
@@ -109,22 +69,28 @@ ideas = {
 
 			}
 		}
+		the_10th_crusade = {
+			picture =
+			
+			allowed = {
+				tag = QPM
+			}
 
+            available = {
 
+            }
 
+            cancel = {
 
+            }
 
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
 
-
-
-
-
-
-
-
-
-
-
-
-    }
+			}
+		}
+	}
 }

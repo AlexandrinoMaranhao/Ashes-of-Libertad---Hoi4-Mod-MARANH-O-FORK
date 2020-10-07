@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+			the_great_game = {
+			picture =
+			
+			allowed = {
+				tag = STR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		mercenary_capital = {
+			picture = GFX_idea_mercenary_capital
+			
+			allowed = {
+				tag = STR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
+}

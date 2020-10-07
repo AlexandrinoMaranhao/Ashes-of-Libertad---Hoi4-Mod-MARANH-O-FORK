@@ -72,7 +72,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_natives_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Local_Business
 		x = 0
 		y = 1
 		relative_position_id = COR_fishing_spot
@@ -131,7 +131,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_manaus_trading_post
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_All_rivers_lead_to_Manaus
 		x = -3
 		y = 2
 		relative_position_id = COR_fishing_spot
@@ -365,7 +365,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_pillage_jurua
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Less_mouths_to_scream
 		x = 1
 		y = 3
 		relative_position_id = COR_fishing_spot
@@ -423,7 +423,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_mayors_office_raid
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Trouble_Back_Home
 		x = 0
 		y = 4
 		relative_position_id = COR_fishing_spot
@@ -626,7 +626,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_jurua_tribe_aftermath
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Set_our_sights_at_the_Republic_acre
 		x = 5
 		y = 5
 		relative_position_id = COR_fishing_spot
@@ -771,7 +771,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_raiding_intro
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Expand_our_striking_potential
 		x = -5
 		y = 3
 		relative_position_id = COR_fishing_spot
@@ -858,7 +858,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_priests_for_things
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Priests_For_Things
 		x = -6
 		y = 6
 		relative_position_id = COR_fishing_spot
@@ -976,7 +976,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_stop_surviving
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Stop_surviving
 		x = 0
 		y = 6
 		relative_position_id = COR_fishing_spot
@@ -1005,7 +1005,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_start_living
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Start_living
 		x = 0
 		y = 7
 		relative_position_id = COR_fishing_spot
@@ -1038,7 +1038,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_useful_savages
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Useful_Savages
 		x = 4
 		y = 6
 		relative_position_id = COR_fishing_spot
@@ -1068,7 +1068,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_profitable_savages
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_Profitable_Savages
 		x = 6
 		y = 6
 		relative_position_id = COR_fishing_spot

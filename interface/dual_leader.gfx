@@ -1,11 +1,6 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_ROR_ONOFRE_PINTO"
-		texturefile = "gfx/dual_leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
-	}
-
-	spriteType = {
 		name = "GFX_header_bg_political"
 		texturefile = "gfx/interface/header_bg_political.dds"
 	}
@@ -45,6 +40,11 @@ spriteTypes = {
 	# Country Specific Portraits
 
 	spriteType = {
+		name = "GFX_ROR_ONOFRE_PINTO"
+		texturefile = "gfx/dual_leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ENG_George_V"
 		texturefile = "gfx/dual_leaders/ENG/ENG_George_V.dds"
 	}
@@ -53,4 +53,25 @@ spriteTypes = {
 		name = "GFX_ROM_Carol_II"
 		texturefile = "gfx/dual_leaders/ROM/ROM_Carol_II.dds"
 	}
+
+	spriteType = {
+		name = "GFX_BRA_BRAZIL"
+		texturefile = "gfx/dual_leaders/BRA/Portrait_BRA_brasao.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JUN_JUNTA"
+		texturefile = "gfx/dual_leaders/JUN/Portrait_JUN_brasao.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ACR_ACRE"
+		texturefile = "gfx/dual_leaders/ACR/Portrait_ACR_brasao.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SAO_SAO_PAULO"
+		texturefile = "gfx/dual_leaders/SAO/Portrait_BRA_brasao.dds"
+	}
+
 }

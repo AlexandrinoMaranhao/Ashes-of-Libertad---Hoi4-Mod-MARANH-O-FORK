@@ -1,7 +1,7 @@
 
 AMZ_COR = {
-	color = rgb { 10  10  10 }
-	color_ui = rgb { 10 10 10 }
+	color = rgb { 99  70  99 }
+	color_ui = rgb { 99  70  99 }
 }
 
 AMZ_QPM = {
