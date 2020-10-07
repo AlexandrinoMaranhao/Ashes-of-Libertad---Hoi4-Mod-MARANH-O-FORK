@@ -6,7 +6,13 @@ SpriteTypes = {
 #} 
  
  
+ 
     
+spriteType ={
+    name = "GFX_idea_amazonas_theater"
+    texturefile = "gfx/interface/ideas/Amazonas_Theatre.dds"
+} 
+     
 spriteType ={
     name = "GFX_idea_the_port_of_macapa"
     texturefile = "gfx/interface/ideas/The_port_of_Macapa.dds"

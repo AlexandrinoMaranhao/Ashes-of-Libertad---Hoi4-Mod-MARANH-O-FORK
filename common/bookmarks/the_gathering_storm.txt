@@ -9,7 +9,7 @@ bookmarks = {
 		"MNS"={
 			history = "MNS_GATHERING_STORM_DESC"
 			ideas = {
-               heart_of_the_amazon
+               amazonas_theater
                the_rubber_barons
                what_apocalypse
             }

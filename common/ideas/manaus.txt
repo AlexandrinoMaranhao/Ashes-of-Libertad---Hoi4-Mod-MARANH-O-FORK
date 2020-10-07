@@ -69,5 +69,28 @@ ideas = {
 
 			}
 		}
+		amazonas_theater = {
+			picture = GFX_idea_amazonas_theater
+			
+			allowed = {
+				tag = MNS
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
 	}
 }
