@@ -1,0 +1,4 @@
+acrean_raids = {
+	icon = acrean_raids
+    allowed = { tag = COR }
+}

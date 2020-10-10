@@ -1,0 +1,125 @@
+hire_fonte_boa = {
+	icon = decision_category_generic_political_actions
+	visible_when_empty = yes
+
+	picture = 
+
+	allowed = {
+		tag = IQU
+		tag = JUR
+		tag = DNI
+		tag = JAV
+		tag = JUT
+		tag = WAM
+		tag = JAU
+		tag = COA
+		tag = AND
+		tag = MUN
+		tag = MAP
+		tag = AMA
+		tag = WAI
+		tag = ZOE
+		tag = ATR
+		tag = TRO
+		tag = YAN
+		tag = KAY
+		tag = ARI
+	}
+	visible = {
+
+	}
+}
+
+hire_neblina = {
+	icon = decision_category_generic_political_actions
+	visible_when_empty = yes
+
+	picture = 
+
+	allowed = {
+		tag = IQU
+		tag = JUR
+		tag = DNI
+		tag = JAV
+		tag = JUT
+		tag = WAM
+		tag = JAU
+		tag = COA
+		tag = AND
+		tag = MUN
+		tag = MAP
+		tag = AMA
+		tag = WAI
+		tag = ZOE
+		tag = ATR
+		tag = TRO
+		tag = YAN
+		tag = KAY
+		tag = MNS
+		tag = PAT
+		tag = ARI
+		tag = MNS
+		tag = PAT
+		tag = ACR
+		tag = COR
+		tag = VEC
+		tag = VEN
+		tag = LLA
+		tag = VEJ
+		tag = ROR
+		tag = HOL
+		tag = LBT
+
+	}
+	visible = {
+
+	}
+}
+
+
+hire_cia = {
+	icon = decision_category_generic_political_actions
+	visible_when_empty = yes
+
+	picture = 
+
+	allowed = {
+		tag = BRA
+		tag = JUN
+		tag = MNS
+		tag = VEN
+		tag = VEJ
+		tag = NHA
+		tag = BEM
+		tag = COR
+		tag = ACR
+		tag = BOL
+		tag = ARG
+		tag = MEX
+	}
+	visible = {
+
+	}
+}
+
+hire_santarem = {
+	icon = decision_category_generic_political_actions
+	visible_when_empty = yes
+
+	picture = 
+
+	allowed = {
+		tag = KAY
+		tag = AMA
+		tag = PAT
+		tag = MNS
+		tag = ROR
+		tag = COR
+		tag = QPM
+		tag = ACR
+	}
+	visible = {
+
+	}
+
+}

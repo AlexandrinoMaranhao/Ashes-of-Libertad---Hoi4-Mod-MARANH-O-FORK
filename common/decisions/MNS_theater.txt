@@ -1,0 +1,111 @@
+MNS_the_amazonas_theater = {
+	
+			MNS_1967_opening_show = {
+		allowed = { tag = MNS }
+
+		available = {
+			has_war = no
+		}
+
+		visible = {
+
+		}
+
+		days_remove = 21
+
+		cost = 25
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MNS_1967_opening_show"
+			country_event = {
+				id = OpeningShow.1
+				days = 7
+			}
+			custom_effect_tooltip = MNS_1967_opening_show_tt
+		}
+
+		remove_effect = {
+			country_event = {
+				id = OpeningShow.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+		
+			MNS_caetano_veloso = {
+		allowed = { tag = MNS }
+
+		available = {
+			has_war = no
+		}
+
+		visible = {
+
+		}
+
+		days_remove = 21
+
+		cost = 25
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MNS_caetano_veloso"
+			country_event = {
+				id = CaetanoVeloso.1
+				days = 7
+			}
+			custom_effect_tooltip = MNS_caetano_veloso_tt
+		}
+
+		remove_effect = {
+			country_event = {
+				id = CaetanoVeloso.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+			MNS_yma_sumac = {
+		allowed = { tag = MNS }
+
+		available = {
+			has_war = no
+		}
+
+		visible = {
+
+		}
+
+		days_remove = 21
+
+		cost = 25
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MNS_yma_sumac"
+			country_event = {
+				id = YmaSumac.1
+				days = 7
+			}
+			custom_effect_tooltip = MNS_yma_sumac_tt
+		}
+
+		remove_effect = {
+			country_event = {
+				id = YmaSumac.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}
