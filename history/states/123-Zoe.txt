@@ -20,11 +20,9 @@ steel = 2
         owner = ZOE
         add_core_of = ZOE
 
+
 		victory_points = {
-                635 5
-		}
-		victory_points = {
-                3470 30
+                3470 10
 		}
 }
 }

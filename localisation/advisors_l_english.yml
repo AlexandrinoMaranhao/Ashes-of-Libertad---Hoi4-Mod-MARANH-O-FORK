@@ -1,6 +1,6 @@
 ﻿l_english:
  ABILITY_TOOLTIP_NAME:0 "$NAME|H$"
- 
+        
         felicidade:0 "Felicidade"
         cultural_advisor:0 "Cultural Advisor"
         generic_artist_1:0 "Artist"
@@ -35,7 +35,7 @@
         militia_army:0 "Militia Army"
         praying_indians:0 "Praying Indians"
         antas:0 "Antas"
-        modern_missiones:0 "Modern-Day Missiones"
+        modern_missiones:0 "Modern-Day Misiones"
         heart_of_the_amazon:0 "Heart of the Amazon"
         the_rubber_barons:0 "The Rubber Barons"
         what_apocalypse:0 "What Apocalypse?"
@@ -65,4 +65,11 @@
         the_cabanos:0 "The Cabanos"
         the_jailed_bird:0 "Jailed Bird"
         syndical_activist:0 "Syndical Activist"
+        the_10th_crusade:0 "The 10th Crusade"
+        amazonas_theater:0 "The Amazonas Theater"
+        the_acrean_constitution:0 "The Acrean Constitution"
+        the_juntas_favorite_pet:0 "The Junta's Favorite Pet"
+        amazons_finest:0 "Amazon's Finest"
+        quick_modernization:0 "Quick Modernization"
+
 

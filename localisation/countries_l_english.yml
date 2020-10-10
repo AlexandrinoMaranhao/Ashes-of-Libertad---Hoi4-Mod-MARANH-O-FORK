@@ -623,8 +623,8 @@
  PAT_neutrality_ADJ:0 "Parintense"
  PAT_communism_ADJ:0 "Parintense"
 
- BEM_fascism:0 "Grão Pará"
- BEM_fascism_DEF:0 "the Grão Pará"
+ BEM_fascism:0 "State of Pará"
+ BEM_fascism_DEF:0 "the State of Pará"
  BEM_democratic:0 "State of Pará"
  BEM_democratic_DEF:0 "the State of Pará"
  BEM_neutrality:1 "Cabana Republic"
@@ -696,7 +696,7 @@
  NHA_neutrality_DEF:1 "Nhamundá"
  NHA_communism:0 "Nhamundá"
  NHA_communism_DEF:0 "Nhamundá"
- NHA_fascism_ADJ:0 "Nhamundense"
+ NHA_fascism_ADJ:0 "AMC soldier"
  NHA_democratic_ADJ:0 "Nhamundense"
  NHA_neutrality_ADJ:0 "Nhamundense"
  NHA_communism_ADJ:0 "Nhamundense"
@@ -832,7 +832,7 @@
  COR_communism_ADJ:0 "Coariense communists"
 
  CUB_fascism:0 "Caribbean Empire"
- CUB_fascism_DEF:0 "theCaribbean Empire"
+ CUB_fascism_DEF:0 "the Caribbean Empire"
  CUB_democratic:0 "Cuban Remnants"
  CUB_democratic_DEF:0 "the Cuban Remnants"
  CUB_neutrality:1 "Cuba"

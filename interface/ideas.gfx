@@ -6,6 +6,16 @@ SpriteTypes = {
 #} 
 
 spriteType ={
+    name = "GFX_idea_red_menace"
+    texturefile = "gfx/interface/ideas/red_menace.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_Rubber_Barons"
+    texturefile = "gfx/interface/ideas/Rubber_Barons.dds"
+} 
+
+spriteType ={
     name = "GFX_idea_antas"
     texturefile = "gfx/interface/ideas/anta.dds"
 } 

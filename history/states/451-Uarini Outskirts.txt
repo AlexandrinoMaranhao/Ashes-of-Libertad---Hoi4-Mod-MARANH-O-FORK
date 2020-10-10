@@ -16,7 +16,7 @@ oil = 3
             
             buildings = {
             infrastructure = 2
-            industrial_complex = 1
+
 }
 		owner = COR
 		add_core_of = COR

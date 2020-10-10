@@ -19,7 +19,7 @@ ammunition = 3
         buildings = {
             industrial_complex = 3
             infrastructure = 4
-            dockyard = 2
+            dockyard = 3
 
             3887 = {
                 naval_base = 3

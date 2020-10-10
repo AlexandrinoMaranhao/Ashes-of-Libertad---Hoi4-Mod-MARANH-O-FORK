@@ -2,7 +2,7 @@ hire_fonte_boa = {
 	icon = decision_category_generic_political_actions
 	visible_when_empty = yes
 
-	picture = 
+	picture = x
 
 	allowed = {
 		tag = IQU
@@ -25,40 +25,23 @@ hire_fonte_boa = {
 		tag = KAY
 		tag = ARI
 	}
-	visible = {
+	    
+    available = {
 
-	}
+    }
 }
 
 hire_neblina = {
 	icon = decision_category_generic_political_actions
 	visible_when_empty = yes
 
-	picture = 
+	picture = x
 
 	allowed = {
-		tag = IQU
-		tag = JUR
-		tag = DNI
-		tag = JAV
-		tag = JUT
-		tag = WAM
-		tag = JAU
-		tag = COA
-		tag = AND
-		tag = MUN
 		tag = MAP
 		tag = AMA
-		tag = WAI
-		tag = ZOE
-		tag = ATR
-		tag = TRO
-		tag = YAN
-		tag = KAY
 		tag = MNS
 		tag = PAT
-		tag = ARI
-		tag = MNS
 		tag = PAT
 		tag = ACR
 		tag = COR
@@ -66,22 +49,20 @@ hire_neblina = {
 		tag = VEN
 		tag = LLA
 		tag = VEJ
-		tag = ROR
 		tag = HOL
 		tag = LBT
+    }
 
-	}
-	visible = {
+    available = {
 
-	}
+    }
 }
-
 
 hire_cia = {
 	icon = decision_category_generic_political_actions
 	visible_when_empty = yes
 
-	picture = 
+	picture = x
 
 	allowed = {
 		tag = BRA
@@ -97,16 +78,17 @@ hire_cia = {
 		tag = ARG
 		tag = MEX
 	}
-	visible = {
 
-	}
+    available = {
+
+    }
 }
 
 hire_santarem = {
 	icon = decision_category_generic_political_actions
 	visible_when_empty = yes
 
-	picture = 
+	picture = x
 
 	allowed = {
 		tag = KAY
@@ -118,8 +100,8 @@ hire_santarem = {
 		tag = QPM
 		tag = ACR
 	}
-	visible = {
+    
+    available = {
 
-	}
-
+    }
 }

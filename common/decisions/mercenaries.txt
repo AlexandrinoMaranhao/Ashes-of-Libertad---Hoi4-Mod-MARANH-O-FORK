@@ -1,0 +1,121 @@
+hire_fonte_boa = {
+
+    open_up = {
+
+    }
+
+    embrace_language = {
+
+    }
+
+    embrace_firearms = {
+
+    }
+
+    embrace_medicine = {
+
+    }
+
+    embrace_military_structure = {
+
+    }
+
+	military_training = {
+
+	}
+    
+    guns_shipment = {
+
+    }
+
+    create_guarrison = {
+
+    }
+
+    embrace_ideals = {
+
+    }
+
+}
+
+hire_neblina = {
+	
+	buy_slaves = {
+	allowed = { tag = MNS }
+	}
+    
+    hire_military_advisor = {
+
+    }
+
+    hire_admiral = {
+
+    }
+
+    hire_mercenary_army = {
+
+    }
+
+    buy_military_grade_equipment = {
+
+    }
+
+}
+
+hire_cia = {
+	
+	hire_interrogation_experts = {
+
+	}
+
+	hire_infiltration_experts = {
+
+	}
+
+	hire_spy = {
+
+	}
+
+	hire_elite_unit = {
+
+	}
+
+}
+
+hire_santarem = {
+	
+	hire_general_attack = {
+	    available = {
+        
+        }
+
+	}
+
+	hire_general_defence = {
+	    available = {
+        
+        }
+
+	}
+
+	hire_general_mixed = {
+	    available = {
+        
+        }
+
+	}
+
+	hire_mercenary_group_BR = {
+	    available = {
+        
+        }
+
+	}
+
+	hire_mercenary_gropu_US = {
+        available = {
+
+        }
+	}
+
+}

@@ -17,7 +17,7 @@ motors = 4
 	add_core_of = COR
 
         buildings = {
-            arms_factory = 1
+
             infrastructure = 4
 
             3710 = {

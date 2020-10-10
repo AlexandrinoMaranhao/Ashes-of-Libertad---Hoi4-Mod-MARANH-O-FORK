@@ -8,9 +8,9 @@ state={
 		add_core_of = MNS
 
         buildings = {
-            industrial_complex = 3
+            industrial_complex = 2
             infrastructure = 2
-            dockyard = 3
+            dockyard = 4
 3679 = {
 naval_base = 4
 }
