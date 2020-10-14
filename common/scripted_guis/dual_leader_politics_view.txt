@@ -12,6 +12,9 @@ scripted_gui = {
 		}
 		
 		visible = {
+			OR = {
+				tag = ROR tag = STR tag = PAT
+			}
 		}
 		
 		effects = {

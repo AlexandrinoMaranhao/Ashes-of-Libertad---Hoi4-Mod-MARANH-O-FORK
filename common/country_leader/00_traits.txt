@@ -1,6 +1,31 @@
 leader_traits = {
 	
+		
 	
+	civilian_desperation_trait = {
+		random = no
+		stability_factor = -0.5
+		industrial_capacity_factory = -0.5
+		production_speed_arms_factory_factor = -0.5
+		production_speed_dockyard_factor = -0.5
+		production_speed_infrastructure_factor = -0.5
+		consumer_goods_factor = -1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	
+	the_pearl_of_solimoes_trait = {
+		random = no
+		stability_factor = 0.1
+		war_support_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	the_white_linned_mayor_trait = {
 		random = no
 		stability_factor = 0.05

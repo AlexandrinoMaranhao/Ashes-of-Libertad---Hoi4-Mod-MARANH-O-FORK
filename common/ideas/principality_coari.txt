@@ -13,6 +13,10 @@ ideas = {
 				always = no
 			}
 			
+			modifier = {
+
+			}
+
 			removal_cost = -1
 			
 			modifier = {
@@ -30,7 +34,14 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
-			
+						
+			modifier = {
+		consumer_goods_factor = -0.5
+		industrial_capacity_factory = 0.25
+		production_speed_dockyard_factor = 0.25
+		production_speed_infrastructure_factor = 0.25
+			}
+
 			removal_cost = -1
 			
 			modifier = {
@@ -52,6 +63,11 @@ ideas = {
             cancel = {
 
             }
+			
+			modifier = {
+		stability_factor = 0.1
+		war_support_factor = 0.1
+			}
 
 			allowed_civil_war = {
 				always = no
@@ -76,6 +92,15 @@ ideas = {
             cancel = {
 
             }
+			
+			modifier = {
+		stability_factor = -0.5
+		industrial_capacity_factory = -0.5
+		production_speed_arms_factory_factor = -0.5
+		production_speed_dockyard_factor = -0.5
+		production_speed_infrastructure_factor = -0.5
+		consumer_goods_factor = 1
+			}
 
 			allowed_civil_war = {
 				always = no

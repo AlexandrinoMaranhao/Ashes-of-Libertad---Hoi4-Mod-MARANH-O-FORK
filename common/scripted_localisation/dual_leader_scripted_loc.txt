@@ -27,6 +27,13 @@ defined_text = {
 		}
 		localization_key = ROR_FIRST_TITLE
 	}
+		text = {
+		trigger = {
+			original_tag = COR
+			has_government = democratic
+		}
+		localization_key = COR_FIRST_TITLE
+	}
 }
 
 defined_text = {
@@ -79,6 +86,7 @@ defined_text = {
 		}
 		localization_key = ROR_ONOFRE_PINTO
 	}	
+
 	text = {
 		localization_key = DEFAULT_TITLE
 	}
@@ -155,4 +163,12 @@ defined_text = {
         }
         localization_key = "ROR_WILSON_DESC"
 	}
+
+    text = {
+        trigger = {
+			original_tag = COR
+        }
+        localization_key = "COR_MONTORIL_DESC"
+	}
+
 }
