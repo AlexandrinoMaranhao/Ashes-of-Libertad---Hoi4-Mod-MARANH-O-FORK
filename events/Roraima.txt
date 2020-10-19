@@ -1,0 +1,418 @@
+﻿####################################
+# roraima Events
+####################################
+
+
+add_namespace = roraima
+
+
+#########################################################################
+# Hired Guns [to be changed]
+#########################################################################
+country_event = {
+	id = roraima.1
+	title = roraima.1.t
+	desc = roraima.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.1.a
+	}
+}
+
+#########################################################################
+# Recruit Local Men [to be changed]
+#########################################################################
+country_event = {
+	id = roraima.2
+	title = roraima.2.t
+	desc = roraima.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.2.a
+	}
+}
+
+#########################################################################
+# The Craze of 61
+#########################################################################
+country_event = {
+	id = roraima.3
+	title = roraima.3.t
+	desc = roraima.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.3.a
+	}
+}
+
+#########################################################################
+# Pray for Help
+#########################################################################
+country_event = {
+	id = roraima.4
+	title = roraima.4.t
+	desc = roraima.4.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.4.a
+	}
+}
+
+#########################################################################
+# Open the Market
+#########################################################################
+country_event = {
+	id = roraima.5
+	title = roraima.5.t
+	desc = roraima.5.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.5.a
+	}
+}
+
+#########################################################################
+# Desperate Measures
+#########################################################################
+country_event = {
+	id = roraima.6
+	title = roraima.6.t
+	desc = roraima.6.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.6.a
+		
+	add_dynamic_modifier = {
+  modifier = ROR_Reformation_Of_The_Misfits
+ 
+}	
+	}
+	
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.7
+	title = roraima.7.t
+	desc = roraima.7.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.7.a
+	}
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.8
+	title = roraima.8.t
+	desc = roraima.8.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.8.a
+		ERN = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+			}
+	}
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.9
+	title = roraima.9.t
+	desc = roraima.9.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.9.a
+		FAR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+			}
+	}
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.10
+	title = roraima.10.t
+	desc = roraima.10.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.10.a
+		CHL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+			}
+	}
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.11
+	title = roraima.11.t
+	desc = roraima.11.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.11.a
+			add_to_variable = { ROR_experience_gain_army_factor = -0.025 }
+			add_stability = 0.1
+	}
+	option = {
+		name = roraima.11.b
+			add_to_variable = { ROR_experience_gain_army_factor = 0.025 }
+			add_stability = -0.1
+	}
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.12
+	title = roraima.12.t
+	desc = roraima.12.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.12.a
+		add_to_variable = { ROR_industrial_capacity_factory = 0.05 }
+
+	}
+	option = {
+		name = roraima.12.b
+			add_to_variable = { ROR_production_speed_buildings_factor = 0.05 }
+
+	}
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.13
+	title = roraima.13.t
+	desc = roraima.13.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.13.a
+		
+
+	}
+	
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.14
+	title = roraima.14.t
+	desc = roraima.14.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.14.a
+		
+
+	}
+	
+}
+
+#########################################################################
+# a Last Cry for Help
+#########################################################################
+country_event = {
+	id = roraima.15
+	title = roraima.15.t
+	desc = roraima.15.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.15.a
+		YAN = {
+		country_event = { id = roraima.151
+						days = 5
+						}
+		}
+
+	}
+	
+}
+country_event = {
+	id = roraima.151
+	title = roraima.151.t
+	desc = roraima.151.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.151.a
+		ROR = {
+		country_event = { id = roraima.152
+						days = 5
+						}
+		}
+
+	}
+	
+			
+
+	option = {
+		name = roraima.151.b
+		ROR = {
+add_state_core = 104
+		}
+		ROR = {
+
+		annex_country = {
+    target = YAN
+    transfer_troops = yes
+
+}
+		}
+
+	}
+	
+}
+
+country_event = {
+	id = roraima.152
+	title = roraima.152.t
+	desc = roraima.152.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.152.a
+	declare_war_on = {
+    target = YAN
+    type = annex_everything
+}
+		}
+
+	}
+	
+country_event = {
+	id = roraima.16
+	title = roraima.16.t
+	desc = roraima.16.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#answer
+	option = {
+		name = roraima.16.a
+		random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					
+				}
+			
+			}
+
+	}
+	
+			
+
+	option = {
+		name = roraima.16.b
+		
+		random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					
+				}
+				
+			}
+		
+}
+		}
+
+	}
+	
+}
+
