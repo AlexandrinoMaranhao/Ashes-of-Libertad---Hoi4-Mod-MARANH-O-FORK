@@ -1,0 +1,62 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "acre_senate_category_GUI"
+		size = { width = 0 height = 450 }
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "acre_senate_category_GUI_container1"
+			size = { width = 0 height = 0 }
+			position = { x = 14 y = -14 }
+
+			iconType = {
+				name = "Category Picture"
+				spriteType = "GFX_acre_senate_pic"
+				position = { x = 0 y = 0 }
+				scale = 1.00
+				Orientation = "CENTER"
+			}
+			#iconType = {
+			#	name = "Coat of Arms"
+			#	spriteType = "GFX_acre_coat_pic"
+			#	position = { x = 0 y = 0 }
+			#	scale = 1.00
+			#	Orientation = "CENTER"
+			#}
+
+			instantTextBoxType = {
+				name = "category_description"
+				position = { x = 0 y = 151 }
+				maxWidth = 482
+				maxHeight = 400
+				format = center
+				font = "vic_18"
+				text = acrean_senate_desc_gui
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "category_statistics"
+				position = { x = 0 y = 320 }
+				maxWidth = 482
+				maxHeight = 400
+				format = left
+				font = "vic_18"
+				text = acrean_senate_desc_statistics_gui
+				alwaystransparent = yes
+			}
+
+			#buttonType = {
+			#	name = "lottquadros_plus_button"
+			#	position = { x = 0 y = 547 }
+			#	quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+			#}
+
+			#buttonType = {
+			#	name = "lottquadros_minus_button"
+			#	position = { x = 50 y = 547 }
+			#	quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+			#}
+		}
+	}
+}
