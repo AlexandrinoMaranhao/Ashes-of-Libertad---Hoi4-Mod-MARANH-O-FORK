@@ -1,0 +1,86 @@
+focus_tree = {
+	id = AMC_focus
+	default = no
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NHA
+
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1000 }
+		focus = {
+		id = NHA_intro_one
+		icon = GFX_goal_coat_of_arms_coari
+		cost = 1
+		prerequisite = {
+			focus = x
+		}
+		x = 9
+		y = 1
+		completion_reward = {
+			country_event = {
+				id = AMCIntroduction.1
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = NHA_intro_two
+		icon = GFX_goal_the_white_linned_mayor
+		cost = 1
+		prerequisite = {
+			focus = NHA_intro_one
+		}
+		x = -1
+		y = 1
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+			country_event = {
+				id = AMCIntroduction.3
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = NHA_intro_three
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_intro_one
+		}
+		x = 1
+		y = 1
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+			country_event = {
+				id = AMCIntroduction.2
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = NHA_intro_final
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		bypass = {
+		has_completed_focus = NHA_intro_one
+		}
+		x = 0
+		y = 2
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+			country_event = {
+				id = AMCIntroduction.1
+				days = 0
+			}
+		}
+	}
+
+}

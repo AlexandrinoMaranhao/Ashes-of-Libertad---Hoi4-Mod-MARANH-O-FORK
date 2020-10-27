@@ -92,7 +92,7 @@ create_country_leader = {
 
         create_corps_commander = {
 	name = "Micheas de Almeida"
-	picture = "gfx/leaders/ROR/.dds"
+	picture = "gfx/leaders/ROR/Portrait_ROR_Micheas_de_Almeida.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 2

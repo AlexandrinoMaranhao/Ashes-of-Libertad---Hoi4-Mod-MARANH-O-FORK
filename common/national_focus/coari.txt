@@ -23,7 +23,7 @@
 		completion_reward = {
 			country_event = {
 				id = CoariIntroduction.1
-				days = 7
+				days = 0
 			}
 		}
 	}
@@ -41,7 +41,7 @@
 		completion_reward = {
 			country_event = {
 				id = CoariIntroduction.3
-				days = 7
+				days = 0
 			}
 		}
 	}
@@ -59,7 +59,7 @@
 		completion_reward = {
 			country_event = {
 				id = CoariIntroduction.2
-				days = 7
+				days = 0
 			}
 		}
 	}
@@ -68,11 +68,9 @@
 		id = COR_intro_final
 		icon = GFX_goal_losing_its_shine
 		cost = 1
-		prerequisite = {
-			focus = COR_intro_two
-		}
-		prerequisite = {
-			focus = COR_intro_three
+
+		bypass = {
+		has_completed_focus = COR_intro_one
 		}
 		x = 0
 		y = 2
@@ -80,7 +78,7 @@
 		completion_reward = {
 			country_event = {
 				id = CoariIntroduction.1
-				days = 7
+				days = 0
 			}
 		}
 	}
