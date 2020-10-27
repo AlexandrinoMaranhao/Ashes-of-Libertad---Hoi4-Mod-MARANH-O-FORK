@@ -10,8 +10,8 @@ state={
 
 
             history = {
-
-        owner = PEB
+        owner = CFD
+        add_core_of = CFD
         add_core_of = PEB
 
 		victory_points = {

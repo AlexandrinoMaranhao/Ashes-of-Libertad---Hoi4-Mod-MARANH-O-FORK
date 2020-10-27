@@ -9,8 +9,8 @@ state={
         state_category=city
 
             history = {
-
-        owner = RGN
+        owner = CFD
+        add_core_of = CFD
         add_core_of = RGN
 
 		victory_points = {

@@ -10,8 +10,8 @@ state={
         state_category=rural
 
             history = {
-
-        owner = PEB
+        owner = CFD
+        add_core_of = CFD
         add_core_of = PEB
 		victory_points = {
 		1457 5	 

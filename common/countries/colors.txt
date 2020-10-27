@@ -1,3 +1,9 @@
+
+CFD = {
+	color = rgb { 255 142 5 }
+	color_ui = rgb { 255 142 5 }
+}
+
 CHL = {
 	color = rgb { 168 155 61 }
 	color_ui = rgb { 112 102 41 }

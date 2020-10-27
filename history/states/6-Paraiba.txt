@@ -4,7 +4,8 @@ state={
 	name="STATE_6"
 
 	history={
-		owner = PAI
+        owner = CFD
+        add_core_of = CFD
 		add_core_of = PAI
 		victory_points = {
 			6279 50 

@@ -12,7 +12,8 @@ state={
 
 	history={
 
-		owner = PAI
+        owner = CFD
+        add_core_of = CFD
 		add_core_of = PAI
 		victory_points = {
 			460 10 

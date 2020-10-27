@@ -11,16 +11,16 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+	election_frequency = 0
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 60
-	fascism = 30
+	democratic = 0
+	fascism = 100
 	communism = 0
-	neutrality = 10
+	neutrality = 0
 }
 
 add_ideas = {
@@ -29,16 +29,16 @@ add_ideas = {
 	limited_exports
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Filinto Müller"
+	picture = "gfx/leaders/JAG/Portrait_JAG_Filinto_Muller.dds"
+	expire = "1999.1.1"
+	ideology = military_government 
+	traits = {
+		#
+	}
+}
 
 
 }
