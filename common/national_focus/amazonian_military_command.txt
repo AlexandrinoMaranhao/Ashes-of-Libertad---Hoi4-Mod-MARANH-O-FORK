@@ -1,5 +1,5 @@
 focus_tree = {
-	id = AMC_focus
+	id = AMC_focus_1
 	default = no
 	country = {
 		factor = 0
@@ -80,6 +80,364 @@ focus_tree = {
 				id = AMCIntroduction.1
 				days = 0
 			}
+		}
+	}
+
+	focus = {
+		id = NHA_keep_calm_ffs
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_intro_final
+		}
+		x = 2
+		y = 3
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_address_deserters
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_intro_final
+		}
+		x = -2
+		y = 3
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_manadge_supply
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_intro_final
+		}
+		x = 0
+		y = 3
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_ask_the_government_for_help
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_keep_calm_ffs
+		}
+		x = 4
+		y = 4
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = NHA_adress_faction_leaders
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_keep_calm_ffs
+		}
+		x = 2
+		y = 4
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_renew_the_port
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_manadge_supply
+		}
+		x = 0
+		y = 4
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_make_em_learn
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_address_deserters
+		}
+		mutually_exclusive = {
+			focus = NHA_quiet_pardons
+		}
+		x = -2
+		y = 4
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_quiet_pardons
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_address_deserters
+		}
+		mutually_exclusive = {
+			focus = NHA_make_em_learn
+		}
+		x =-4
+		y = 4
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_promises_of_recovery
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_quiet_pardons focus = NHA_make_em_learn
+		}
+		x = -3
+		y = 5
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_use_the_civilians
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_renew_the_port
+		}
+		mutually_exclusive = {
+			focus = NHA_use_the_military
+		}
+		x = -1
+		y = 5
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_use_the_military
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_renew_the_port
+		}
+		mutually_exclusive = {
+			focus = NHA_use_the_civilians
+		}
+		x = 1
+		y = 5
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_the_council_of_nhamunda
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_adress_faction_leaders
+		}
+		x = 3
+		y = 5
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_amapa_papers
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_ask_the_government_for_help
+		}
+		mutually_exclusive = {
+			focus = NHA_petition_belem
+		}
+		x = 5
+		y = 5
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_petition_belem
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_ask_the_government_for_help
+		}
+		mutually_exclusive = {
+			focus = NHA_amapa_papers
+		}
+		x = 7
+		y = 5
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_segregate_the_troops
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_the_council_of_nhamunda
+		}
+		x = 4
+		y = 6
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_the_new_port_of_nhamunda
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_use_the_civilians
+focus = NHA_use_the_military
+		}
+		x = 0
+		y = 6
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_shiny_new_toys
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_amapa_papers
+focus = NHA_petition_belem
+		}
+		x = 6
+		y = 6
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_get_me_off_this_off_this_fucking_island
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_promises_of_recovery
+		}
+		x = -3
+		y = 6
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_mainland_deployment
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_segregate_the_troops }
+        prerequisite = {focus = NHA_the_new_port_of_nhamunda
+		}
+		x = 2
+		y = 7
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_war_plan
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_mainland_deployment
+		}
+		prerequisite = {
+			focus = NHA_shiny_new_toys
+		}
+		x = 6
+		y = 8
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_enforce_order_in_the_army
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_get_me_off_this_off_this_fucking_island
+		}
+		x = -3
+		y = 8
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = NHA_the_madera_incident
+		icon = GFX_goal_pearl_of_solimoes
+		cost = 1
+		prerequisite = {
+			focus = NHA_enforce_order_in_the_army
+		}
+		prerequisite = {
+			focus = NHA_war_plan
+		}
+		x = 0
+		y = 9
+		relative_position_id = NHA_intro_one
+		completion_reward = {
+
 		}
 	}
 

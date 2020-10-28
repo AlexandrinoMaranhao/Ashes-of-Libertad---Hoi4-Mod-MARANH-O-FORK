@@ -1,4 +1,4 @@
-﻿capital = 216
+﻿capital = 7
 
 #oob = ""
 
@@ -27,16 +27,16 @@ add_ideas = {
 	
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Miguel Arraes"
+	picture = "gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+	expire = "1999.1.1"
+	ideology = coronelism
+	traits = {
+		#
+	}
+}
 
 
 }
