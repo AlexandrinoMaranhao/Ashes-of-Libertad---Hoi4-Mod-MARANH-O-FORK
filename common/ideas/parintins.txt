@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			caprichoso = {
-			picture =
 			
 			allowed = {
 				tag = PAT
@@ -24,7 +23,6 @@ ideas = {
 			}
 		}
 		garantido = {
-			picture =
 			
 			allowed = {
 				tag = PAT
@@ -47,7 +45,6 @@ ideas = {
 			}
 		}
 		the_other_manaus = {
-			picture =
 			
 			allowed = {
 				tag = PAT

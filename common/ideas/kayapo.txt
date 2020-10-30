@@ -2,7 +2,6 @@ ideas = {
 	country = {
 
 			the_kayapo = {
-			picture =
 			
 			allowed = {
 				tag = KAY
@@ -25,7 +24,6 @@ ideas = {
 			}
 		}
 		warrior_culture = {
-			picture =
 			
 			allowed = {
 				tag = KAY
@@ -48,7 +46,6 @@ ideas = {
 			}
 		}
 		cachimbo_military_base = {
-			picture =
 			
 			allowed = {
 				tag = KAY
@@ -71,7 +68,6 @@ ideas = {
 			}
 		}
 		quick_modernization = {
-			picture =
 			
 			allowed = {
 				tag = KAY

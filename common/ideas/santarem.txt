@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			the_great_game = {
-			picture =
 			
 			allowed = {
 				tag = STR

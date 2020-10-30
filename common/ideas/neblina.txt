@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			twin_saints = {
-			picture =
 			
 			allowed = {
 				tag = NEB

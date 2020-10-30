@@ -11,9 +11,9 @@ state={
              owner=PAN
              add_core_of = PAN
              victory_points = {
-             81 50
+             81 10
              }
              victory_points = {
-             391 30
+             391 5
              }
 }

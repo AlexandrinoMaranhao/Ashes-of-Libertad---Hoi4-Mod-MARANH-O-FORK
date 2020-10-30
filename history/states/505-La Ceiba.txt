@@ -12,11 +12,11 @@ state={
 		add_core_of = HON
 		victory_points =
 		{
-		20 50
+		20 10
 		}
 		victory_points =	
 		{
-		880 30
+		880 5
 		}
 		victory_points =
 		{

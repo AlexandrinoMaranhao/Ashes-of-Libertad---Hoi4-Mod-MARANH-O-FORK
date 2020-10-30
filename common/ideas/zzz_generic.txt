@@ -1945,259 +1945,153 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-
 	}
- ############################################
-	cultural_advisor = {
+    
+    ###########################
+    #                         #
+    #        NEW STUFF        #
+    #                         #
+    ###########################
+    
+    minorities = {
 
-		generic_artist_1 = {
-			
-			allowed = {
+    integrated_society = {}
 
-			}
-			
-			traits = { liberal_journalist }			
-		}
-		
-		generic_artist_2 = {
+    racist_society = {}
+    
+    state_segregation = {}
 
-			allowed = {
+    total_segregation = {}
 
-			}
-			
-			traits = { propaganda_expert }			
-		}
+    racial_oligarchy = {}
 
-		generic_artist_3 = {
+    }
+    
+#####SLAVERY
 
-			allowed = {
+    slavery = {
 
-			}
-			
-			traits = { ideological_groupie }			
-		}
+    slavery_banned = {}
 
-		generic_artist_4 = {
+    bonded_labor = {}
 
-			allowed = {
+    domestic_servitude = {}
 
-			}
-			
-			traits = { socialist_novelist }			
-		}
-	}
-	####################################################
-	press = {
+    regulated_slavery = {}
 
-		free_press = {
-			
-			picture = idea_AOL_free_press
-
-			allowed = {
-            NOT = {
-                 original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
-            }
-			}
-			available = {
-		    NOT = {
-			has_government = fascism
-			}
-			}
-			traits = { free_press }			
-		}
-		
-			
-		#	available = {
-        #   NOT = {
-        #        original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI #original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = #ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
-        #   }
-		#	}
+    unregulated_slavery = {}
 
 
+    }
+    
+#####PRESS
 
-		light_censorship = {
-			
-			picture = idea_AOL_light_censorship
+    press = {
+    
+    idea_AOL_no_press = {}
 
-			allowed = {
-            NOT = {
-                 original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
-            }
+    idea_AOL_free_press = {}
 
-			}
-			
-			traits = { light_censorship }			
-		}
+    idea_AOL_light_censorship = {}
 
-		state_press = {
-			
-			picture = idea_AOL_state_press
+    idea_AOL_state_press = {}
 
-			allowed = {
-            NOT = {
-                 original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
-                             }
-            }
-			available = {
-		    NOT = {
-			has_government = democratic
-			}
-			}
-			
-			traits = { state_press }			
-		}
+    idea_AOL_total_censorship = {}
 
-		no_press = {
-			
-			picture = idea_AOL_no_press
 
-			allowed = {
+    }
+    
 
-			}
 
-			ai_will_do = {
-			factor = 0
-			}
-			
-			traits = { no_press }			
-		}
+    ###########################
+    #                         #
+    #   NEW MILITARY STUFF    #
+    #                         #
+    ###########################
+    
+    specialization = {
 
-		total_censorship = {
-			
-			picture = idea_AOL_total_censorship
-			
-			allowed = {
-            NOT = {
-                 original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
-            }
-			}
-			available = {
-		    NOT = {
-			has_government = democratic
-			}
-			}
-			traits = { total_censorship }			
-		}
-	}
-  ###########################################
-  	minorities = {
+    desert_spe = {}
 
-		racial_oligarchy = {
+    jungle_spe = {}
 
-			allowed = {
+    urban_spe = {}
 
-			}
+    mountain_spe = {}
 
-			ai_will_do = {
-			factor = 0
-			}
+    naval_spe = {}
 
-			traits = { racial_oligarchy }			
-		}
+    forest_spe = {}
 
-		total_segregation = {
-			
-			allowed = {
+    }
+    
+#####TRAINING
 
-			}
-			
-			traits = { total_segregation }			
-		}
-		
-		state_segregation = {
+    training = {
 
-			allowed = {
+    guerrilla_training = {}
 
-			}
-			
-			traits = { state_segregation }			
-		}
+    no_training = {}
 
-		racist_society = {
+    militia_troop_training = {}
 
-			allowed = {
+    mercenary_troop_training = {}
 
-			}
-			
-			traits = { racist_society }			
-		}
+    military_troop_training = {}
 
-		integrated_society = {
+    }
+    
+#####OFFICER TRAINING
 
-			allowed = {
+    officer_training = {
 
-			}
-			
-			traits = { integrated_society }			
-		}
-	}
-	############################################
-		slavery = {
+    no_training = {}
 
-		slavery_banned = {
-			
-			allowed = {
+    mercenary_training = {}
 
-			}
+    foreign_training = {}
 
-			ai_will_do = {
-			factor = 1
-			}
-			
-			traits = { slavery_banned }			
-		}
-		
-		bonded_labor = {
+    professional_military_training = {}
 
-			allowed = {
+    }
+    
+#####MERCENARIES
 
-			}
+    mercenaries = {
 
-			ai_will_do = {
-			factor = 1
-			}
-			
-			traits = { bonded_labor }			
-		}
+    no_mercenaries = {}
 
-		domestic_servitude = {
+    mercenary_auxiliaries = {}
 
-			allowed = {
+    mercenary_battalions = {}
 
-			}
+    mercenary_army = {}
 
-			ai_will_do = {
-			factor = 1
-			}
-			
-			traits = { domestic_servitude }			
-		}
+    }
+    
+#####TRADITION
 
-		regulated_slavery = {
+    tradition = {
+    
+    no_tradition = {}
 
-			allowed = {
+    tribal_tradition = {}
 
-			}
-		
-			ai_will_do = {
-			factor = 0
-			}
-	
-			traits = { regulated_slavery }			
-		}
+    british_tradition = {}
 
-		unregulated_slavery = {
+    french_tradition = {}
 
-			allowed = {
-            has_government = communism
-			has_government = neutrality
-			}
+    german_tradition = {}
 
-			ai_will_do = {
-			factor = 0
-			}
+    usa_tradition = {}
 
-			traits = { unregulated_slavery }			
-		}
-	}
+    ussr_tradition = {}
+    
+    dutch_tradition = {} #exclusive to the dutch
+
+    }
+
+
+
+#END
 }

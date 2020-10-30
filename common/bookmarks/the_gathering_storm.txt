@@ -92,7 +92,9 @@ bookmarks = {
                no_administration_roraima
             }
             focuses = {
-                
+                ROR_No_Cause_Greater
+                ROR_Were_Gonna_Find_Out_Whos_Naughty_Or_Nice
+                ROR_A_Truely_Marxist_Army
             }
 
 		}

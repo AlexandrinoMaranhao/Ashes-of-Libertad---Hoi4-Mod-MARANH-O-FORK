@@ -12,7 +12,7 @@ state={
              add_core_of = USR
 
              victory_points = {
-             463 30 
+             463 10
              }
 }
 }

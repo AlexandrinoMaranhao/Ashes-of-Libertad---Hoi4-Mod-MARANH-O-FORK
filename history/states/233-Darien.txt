@@ -12,6 +12,6 @@ state={
              owner=PAM
              add_core_of = PAM
              victory_points = {
-             1787 30
+             1787 10
              }
 }

@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			overcrowded_island = {
-			picture =
 			
 			allowed = {
 				tag = NHA
@@ -24,7 +23,6 @@ ideas = {
 			}
 		}
 		the_amazonian_military_command = {
-			picture =
 			
 			allowed = {
 				tag = NHA
@@ -47,7 +45,6 @@ ideas = {
 			}
 		}
 		what_are_we_fighting_for = {
-			picture =
 			
 			allowed = {
 				tag = NHA
@@ -70,7 +67,6 @@ ideas = {
 			}
 		}
 		amazons_finest = {
-			picture =
 			
 			allowed = {
 				tag = NHA

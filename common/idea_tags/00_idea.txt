@@ -17,49 +17,64 @@ idea_categories = {
         ledger = hidden
     }
 
-    economic = {
+    policies = {
         slot = economy
         slot = trade_laws
-        slot = political_advisor
-        slot = political_advisor
-        slot = political_advisor
-        slot = political_advisor
-
-        ledger = civilian
-
-        cost = 150
-        removal_cost = 0
-    }
-
-    Cultural = {
         slot = minorities
         slot = slavery
         slot = press
-        slot = cultural_advisor
-        slot = cultural_advisor
-        slot = cultural_advisor
+        slot = political_advisor
 
         ledger = civilian
 
-        cost = 150
+        cost = 500
+
+        removal_cost = 0
+    }
+
+    ministers = {
+        slot = political_advisor
+        slot = political_advisor
+        slot = political_advisor
+        slot = political_advisor
+        slot = political_advisor
+        slot = political_advisor
+
+        ledger = civilian
+
+        cost = 500
         removal_cost = 0
     }
 
     military = {
         slot = mobilization_laws
+        slot = specialization
+        slot = training
+        slot = officer_training
+        slot = mercenaries
+        slot = tradition
+
+        ledger = invalid # must be overridden
+
+        cost = 500
+        removal_cost = 0
+    }
+
+    military_staff = {
         slot = theorist
         slot = army_chief
         slot = navy_chief
         slot = air_chief
         slot = high_command
+        slot = high_command
 
         ledger = invalid # must be overridden
 
-        cost = 150
+        cost = 500
         removal_cost = 0
     }
 
-    Development = {
+    development = {
         slot = industrial_concern
         slot = industrial_concern
         slot = materiel_manufacturer
@@ -69,7 +84,7 @@ idea_categories = {
 
         ledger = civilian
 
-        cost = 150
+        cost = 500
         removal_cost = 0
     }
 }

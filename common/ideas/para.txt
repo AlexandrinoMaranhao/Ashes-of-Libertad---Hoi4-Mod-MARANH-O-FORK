@@ -24,7 +24,6 @@ ideas = {
 			}
 		}
 		a_state_falling_appart = {
-			picture =
 			
 			allowed = {
 				tag = BEM
@@ -47,7 +46,6 @@ ideas = {
 			}
 		}
 		the_cabanos = {
-			picture =
 			
 			allowed = {
 				tag = BEM
@@ -70,7 +68,6 @@ ideas = {
 			}
 		}
 		the_jailed_bird = {
-			picture =
 			
 			allowed = {
 				tag = BEM
@@ -94,7 +91,6 @@ ideas = {
 		}
 
 		the_juntas_favorite_pet = {
-			picture =
 			
 			allowed = {
 				tag = BEM

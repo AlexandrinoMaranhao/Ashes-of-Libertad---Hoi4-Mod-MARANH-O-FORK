@@ -12,7 +12,7 @@ state={
              owner=HON
              add_core_of = HON
              victory_points = {
-             2955 50
+             2955 10
              }
              victory_points =  {
              285 5

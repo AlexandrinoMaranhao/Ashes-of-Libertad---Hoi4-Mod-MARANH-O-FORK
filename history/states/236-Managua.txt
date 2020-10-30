@@ -8,16 +8,16 @@ state={
 		owner = NIC
 		add_core_of = NIC
 		victory_points = {
-		2962 30
+		2962 10
 		}
 		victory_points = {
-		90 1
+		90 3
 		}
 		victory_points = {
-		2959 1
+		2959 3
 		}
 		victory_points = {
-		2958 1
+		2958 3
 		}
 
 	}

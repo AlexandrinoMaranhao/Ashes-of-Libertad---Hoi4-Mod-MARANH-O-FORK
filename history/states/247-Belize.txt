@@ -11,7 +11,7 @@ state={
              owner=ENG
              add_core_of = ENG
              victory_points = {
-             2690 30
+             2690 10
              }
              victory_points = {
              1897 5

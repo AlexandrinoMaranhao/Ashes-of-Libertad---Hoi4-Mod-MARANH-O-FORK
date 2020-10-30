@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			praying_indians = {
-			picture =
 			
 			allowed = {
 				tag = QPM
@@ -24,7 +23,6 @@ ideas = {
 			}
 		}
 		antas = {
-			picture =
 			
 			allowed = {
 				tag = QPM
@@ -47,7 +45,6 @@ ideas = {
 			}
 		}
 		modern_missiones = {
-			picture =
 			
 			allowed = {
 				tag = QPM
@@ -70,7 +67,6 @@ ideas = {
 			}
 		}
 		the_10th_crusade = {
-			picture =
 			
 			allowed = {
 				tag = QPM

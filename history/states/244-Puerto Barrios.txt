@@ -7,10 +7,10 @@ state={
 		owner = GUA
 		add_core_of = GUA
 		victory_points = {
-			2135 3 
+			2135 5 
 		}
 		victory_points = {
-			2061 1 
+			2061 3
 		}
 
 	}

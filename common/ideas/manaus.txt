@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			heart_of_the_amazon = {
-			picture =
 			
 			allowed = {
 				tag = MNS
@@ -23,8 +22,8 @@ ideas = {
 
 			}
 		}
+
 		the_rubber_barons = {
-			picture =
 			
 			allowed = {
 				tag = MNS

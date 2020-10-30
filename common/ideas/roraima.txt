@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			misfits = {
-			picture =
 			
 			allowed = {
 				tag = ROR
@@ -30,7 +29,6 @@ army_org_factor = -0.5
 			}
 		}
 		the_northen_star = {
-			picture =
 			
 			allowed = {
 				tag = ROR
@@ -53,7 +51,6 @@ army_org_factor = -0.5
 			}
 		}
 		no_administration_roraima = {
-			picture =
 			
 			allowed = {
 				tag = ROR

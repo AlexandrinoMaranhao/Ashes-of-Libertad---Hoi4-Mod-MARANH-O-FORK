@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 		    the_port_of_macapa = {
-			picture =
 			
 			allowed = {
 				tag = AMA
@@ -24,7 +23,6 @@ ideas = {
 			}
 		}
 		northern_friend_of_the_republic = {
-			picture =
 			
 			allowed = {
 				tag = AMA

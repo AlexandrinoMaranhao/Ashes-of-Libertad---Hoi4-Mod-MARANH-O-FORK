@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 			country_of_seringueiros = {
-			picture =
 			
 			allowed = {
 				tag = ACR
@@ -24,7 +23,6 @@ ideas = {
 			}
 		}
 		the_red_menace = {
-			picture =
 			
 			allowed = {
 				tag = ACR
@@ -47,8 +45,6 @@ ideas = {
 			}
 		}
 		militia_army = {
-			picture =
-			
 			allowed = {
 				tag = ACR
 			}
@@ -70,7 +66,6 @@ ideas = {
 			}
 		}
 		the_acrean_constitution = {
-			picture =
 			
 			allowed = {
 				tag = ACR
