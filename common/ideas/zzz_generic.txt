@@ -1955,15 +1955,64 @@ ideas = {
     
     minorities = {
 
-    integrated_society = {}
+    integrated_society = {
+    modifier = {
+		random = no
+		non_core_manpower = 0.5
+		conscription_factor = 0.1
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    racist_society = {}
+    racist_society = {
+    modifier = {
+		random = no
+		non_core_manpower = 0.05
+		conscription_factor = -0.05
+		political_power_gain = 0.05
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
     
-    state_segregation = {}
+    state_segregation = {
+    modifier = {
+		random = no
+		non_core_manpower = -0.1
+		conscription_factor = -0.25
+		political_power_gain = 0.1
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    total_segregation = {}
+    total_segregation = {
+    modifier = {
+		random = no
+		non_core_manpower = -0.2
+		conscription_factor = -0.5
+		political_power_gain = 0.2
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    racial_oligarchy = {}
+    racial_oligarchy = {
+    modifier = {
+		random = no
+        non_core_manpower = -0.5
+        conscription_factor = -0.6
+        political_power_gain = 0.5
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
     }
     
@@ -1971,15 +2020,66 @@ ideas = {
 
     slavery = {
 
-    slavery_banned = {}
+    slavery_banned = {
+    modifier = {
+		random = no
+		stability_factor = 0.10
+		trade_opinion_factor = 0.25
+		}
 
-    bonded_labor = {}
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    domestic_servitude = {}
+    bonded_labor = {
+    modifier = {
+		random = no
+		conscription_factor = 0.02
+		production_factory_max_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.1
+		consumer_goods_factor = 0.01
+        supply_consumption_factor = 0.05
+        trade_opinion_factor = -0.1
+		}
 
-    regulated_slavery = {}
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    unregulated_slavery = {}
+    domestic_servitude = {
+    modifier = {
+		random = no
+		conscription_factor = 0.04
+		production_factory_max_efficiency_factor = 0.2
+		line_change_production_efficiency_factor = 0.2
+		consumer_goods_factor = 0.03
+        stability_factor = -0.10
+        supply_consumption_factor = 0.1
+        trade_opinion_factor = -0.25
+		}
+		ai_will_do = {
+			factor = 1
+		}    
+    }
+
+    regulated_slavery = {
+    modifier = {
+		random = no
+		conscription_factor = 0.06
+		production_factory_max_efficiency_factor = 0.3
+		line_change_production_efficiency_factor = 0.3
+		consumer_goods_factor = 0.05
+		industry_free_repair_factor = 0.5
+        stability_factor = -0.20
+        supply_consumption_factor = 0.2
+        trade_opinion_factor = -0.5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
 
     }
@@ -1988,20 +2088,107 @@ ideas = {
 
     press = {
     
-    idea_AOL_no_press = {}
+    idea_AOL_no_press = {
+    modifier = {
+		random = no
+		stability_factor = -0.10
+		war_support_factor = -0.30
+        political_power_factor = -0.05
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    idea_AOL_free_press = {}
+    idea_AOL_free_press = {
+    modifier = {
+		random = no
+		resistance_target = 0.1
+		compliance_gain = -0.1
+        stability_factor = 0.5
+        war_support_factor = -0.2
+        political_power_factor = -0.01
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    idea_AOL_light_censorship = {}
+    idea_AOL_light_censorship = {
+    modifier = {
+		random = no
+		resistance_target = -0.05
+		compliance_gain = 0.15
+        stability_factor = 0.15
+        war_support_factor = -0.15
+        political_power_factor = 0.01
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    idea_AOL_state_press = {}
+    idea_AOL_state_press = {
+    modifier = {
+		random = no
+		resistance_target = -0.10
+		compliance_gain = 0.25
+        stability_factor = 0.05
+        war_support_factor = 0.05
+        political_power_factor = 0.02
+    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
-    idea_AOL_total_censorship = {}
+    idea_AOL_total_censorship = {
+    modifier = {
+		random = no
+		resistance_target = -0.25
+		compliance_gain = 0.5
+		stability_factor = -0.10
+		war_support_factor = -0.10
+        political_power_factor = 0.05
+        }
+		ai_will_do = {
+			factor = 1
+		}
+    }
 
 
     }
     
+#####EDUCATION
 
+   education = {
+
+   a0_literacy = {
+        modifier = {research_speed_factor = -0.50}
+
+   }
+
+   a20_literacy = {
+        modifier = {research_speed_factor = -0.25}
+
+   }
+
+   a50_literacy = {
+        modifier = {research_speed_factor = 0
+   }
+   }
+
+   a80_literacy = {
+        modifier = {research_speed_factor = 0.25
+   }
+   }
+
+   a100_literacy = {
+        modifier = {research_speed_factor = 0.50
+   }
+   }
+
+   }
 
     ###########################
     #                         #
@@ -2011,17 +2198,48 @@ ideas = {
     
     specialization = {
 
-    desert_spe = {}
+    desert_spe = {
+    modifier = {
+    heat_attrition_factor = -0.2
+    attrition = -0.2
+    acclimatization_hot_climate_gain_factor = 0.2
+    }    
+    }
 
-    jungle_spe = {}
+    jungle_spe = {
+    modifier = {
+    out_of_supply_factor = -0.5
+    attrition = -0.5
+    }    
+    }
 
-    urban_spe = {}
+    urban_spe = {
+    modifier = {
+    max_dig_in = 1
+    }    
+    }
 
-    mountain_spe = {}
+    mountain_spe = {
+    modifier = {
+    winter_attrition_factor = -0.2
+    attrition = -0.2
+    acclimatization_cold_climate_gain_factor = 0.2
+    }    
+    }
 
-    naval_spe = {}
+    naval_spe = {
+    modifier = {
+    invasion_preparation = -0.2
+    amphibious_invasion = 0.5
+    }    
+    }
 
-    forest_spe = {}
+    forest_spe = {
+    modifier = {
+    attrition = -0.25
+    army_org_factor = 0.25
+    }    
+    }
 
     }
     
@@ -2029,15 +2247,40 @@ ideas = {
 
     training = {
 
-    guerrilla_training = {}
+    guerrilla_training = {
+    modifier = {
 
-    no_training = {}
+    }
+    }
 
-    militia_troop_training = {}
+    no_training = {    
+    modifier = {
+				training_time_factor = -0.1
+			}
+    }
 
-    mercenary_troop_training = {}
+    militia_troop_training = {
+    modifier = {
+				army_org_Factor = 0.04
+				training_time_factor = -0.05
+			}
+    }
 
-    military_troop_training = {}
+    mercenary_troop_training = {
+    modifier = {
+				army_org_Factor = 0.06
+				stability_factor = -0.1
+				training_time_factor = 0.1
+
+			}
+    }
+
+    military_troop_training = {
+    modifier = {
+				army_org_Factor = 0.1
+				training_time_factor = 0.2
+			}
+    }
 
     }
     
@@ -2045,13 +2288,53 @@ ideas = {
 
     officer_training = {
 
-    no_training = {}
+    no_officer_training = {
+       modifier = {
+				military_leader_cost_factor = -0.4
+			}
+    }
 
-    mercenary_training = {}
+    mercenary_training = {
+        modifier = {
+				stability_factor = -0.1
+				special_forces_cap = 0.04
+				max_command_power = 15
+				military_leader_cost_factor = -0.2
+				army_leader_start_level = 1
+				army_leader_start_logistics_level = 1
+				army_leader_start_defense_level = 1
+				army_org_Factor = 0.01
+			}
+    }
 
-    foreign_training = {}
+    foreign_training = {
+    modifier = {
+				stability_factor = -0.05
+				special_forces_cap = 0.06
+				max_command_power = 20
+				political_power_gain = -0.05
+				military_leader_cost_factor = -0.1
+				army_leader_start_level = 1
+				army_leader_start_logistics_level = 1
+				army_leader_start_defense_level = 1
+				army_org_Factor = 0.01
+			}
+        
+    }
 
-    professional_military_training = {}
+    professional_military_training = {
+    modifier = {
+				special_forces_cap = 0.08
+				max_command_power = 25
+				political_power_gain = -0.1
+				army_leader_start_level = 2
+				army_leader_start_attack_level = 1
+				army_leader_start_defense_level = 1
+				army_leader_start_planning_level = 1
+				army_leader_start_logistics_level = 1
+				army_org_Factor = 0.02
+			} 
+    }
 
     }
     
@@ -2059,13 +2342,39 @@ ideas = {
 
     mercenaries = {
 
-    no_mercenaries = {}
+    no_mercenaries = {
+        modifier = {
+				stability_factor = 0.01
+				war_support_factor = 0.01
+			}
+    }
 
-    mercenary_auxiliaries = {}
+    mercenary_auxiliaries = {
+        modifier = {
+				non_core_manpower = 0.25
+				stability_factor = -0.01
+				war_support_factor = -0.01
+				planning_speed = 0.02
+			}
+    }
 
-    mercenary_battalions = {}
+    mercenary_battalions = {
+        modifier = {
+				non_core_manpower = 0.5
+				stability_factor = -0.03
+				war_support_factor = 0.03
+				planning_speed = 0.04
+			}
+    }
 
-    mercenary_army = {}
+    mercenary_army = {
+        modifier = {
+				non_core_manpower = 0.75
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				planning_speed = 0.05
+			}
+    }
 
     }
     
@@ -2073,21 +2382,39 @@ ideas = {
 
     tradition = {
     
-    no_tradition = {}
+    no_tradition = {
+        traits = {  }
+    }
 
-    tribal_tradition = {}
+    tribal_tradition = {
+        traits = {  }
+    }
 
-    british_tradition = {}
+    british_tradition = {
+        traits = {  }
+    }
 
-    french_tradition = {}
+    french_tradition = {
+        traits = {  }
+    }
 
-    german_tradition = {}
+    german_tradition = {
+        traits = {  }
+    }
 
-    usa_tradition = {}
+    usa_tradition = {
+        traits = {  }
+    }
 
-    ussr_tradition = {}
+    ussr_tradition = {
+        traits = {  }
+    }
     
-    dutch_tradition = {} #exclusive to the dutch
+    dutch_tradition = {
+        allowed = { original_tag = HOL }
+
+        traits = {  }
+    } #exclusive to the dutch
 
     }
 

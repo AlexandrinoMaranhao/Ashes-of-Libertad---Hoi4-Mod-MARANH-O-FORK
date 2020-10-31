@@ -1,0 +1,334 @@
+ideas = {
+
+    ###############################
+	# Military Staff
+	###############################
+
+	army_chief = {
+			alexandre_montoril_army_chief = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+			eddie_ribeiro_army_chief = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			available = {
+			has_completed_focus = COR_mercenary_militia
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+			algenor_g_nascimento_army_chief = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			available = {
+			has_completed_focus = COR_local_militia
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+    ###############################
+	# High Command
+	###############################
+
+	high_command = {
+			alexandre_montoril_high_command = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+			eddie_ribeiro_high_command = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			available = {
+			has_completed_focus = COR_mercenary_militia
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+			algenor_g_nascimento_high_command = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			available = {
+			has_completed_focus = COR_local_militia
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+    ###############################
+	# Theorists
+	###############################
+
+    theorist = {
+			father_hirsch_theorist = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			available = {
+			has_completed_focus = COR_the_american_priest
+			NOT = { has_completed_focus = COR_the_escapist_priest }
+
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+			alexandre_montoril_theorist = {
+			picture = 
+			ledger = army
+			allowed = {
+				original_tag = COR
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+    }
+
+    ###############################
+	# Manufacturers
+	###############################
+
+    naval_manufacturer = {
+
+    repurposed_civilian_crafts = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+			traits = {
+				
+			}
+    }
+
+    manauan_made_crafts = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+			traits = {
+				
+			}
+			available = {
+			has_completed_focus = COR_our_biggest_trading_partner
+			NOT = { has_completed_focus = COR_take_a_shot_at_manaus }
+			}
+    }
+
+    }
+
+    ###############################
+	# Political Advisors
+	###############################
+    
+    political_advisor = {
+
+    roberval_vieira_journalist = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+            available = {
+           
+            ROOT = {
+            OR = {
+            has_idea = idea_AOL_free_press
+            has_idea = idea_AOL_light_censorship
+            }
+            }
+            }
+			traits = {
+				
+			}
+    }
+
+    jose_coelho_maciel_poet = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+            available = {
+            ROOT = {
+            OR = {
+            has_idea = idea_AOL_no_press
+            has_idea = idea_AOL_free_press
+            has_idea = idea_AOL_light_censorship
+            }
+            }
+            }
+			traits = {
+				
+			}
+    }
+
+    francisco_vasconcelos_poet_writer = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+            available = {
+            ROOT = {
+            OR = {
+            has_idea = idea_AOL_no_press
+            has_idea = idea_AOL_free_press
+            has_idea = idea_AOL_light_censorship
+            }
+            }
+            }
+			traits = {
+				
+			}
+        }
+    o_coaryense_journal = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+            available = {
+            ROOT = {
+            OR = {
+            has_idea = idea_AOL_state_press
+            has_idea = idea_AOL_free_press
+            has_idea = idea_AOL_light_censorship
+            has_idea = idea_AOL_total_censorship
+            }
+            }
+            }
+			traits = {
+				
+			}
+			}
+
+    erasmo_linhares_radialist = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+            available = {
+            ROOT = {
+            OR = {
+            has_idea = idea_AOL_no_press 
+            has_idea = idea_AOL_free_press
+            has_idea = idea_AOL_light_censorship
+            has_idea = idea_AOL_state_press      
+            }      
+            }
+            }
+			traits = {
+				
+			}
+			}
+
+    maria_de_fatima_de_souza_acris_miss = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+			traits = {
+				
+			}
+			}
+
+    father_hirsch_advisor_cor = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+			traits = {
+				
+			}
+
+			available = {
+			has_completed_focus = COR_the_american_priest
+			NOT = { has_completed_focus = COR_the_escapist_priest }
+			}
+    }
+
+    eddie_ribeiro_merc_advisor = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+			traits = {
+				
+			}
+
+			available = {
+			has_completed_focus = COR_mercenary_militia
+			}
+    }
+
+    algenor_g_nascimento_advisor = {
+			allowed = {
+				original_tag = COR
+			}
+			picture = 
+			traits = {
+				
+			}
+
+			available = {
+			has_completed_focus = COR_local_militia
+			}
+    }
+    }
+
+#end
+}

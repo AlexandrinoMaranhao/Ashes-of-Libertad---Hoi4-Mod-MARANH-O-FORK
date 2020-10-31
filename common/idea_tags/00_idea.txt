@@ -23,7 +23,7 @@ idea_categories = {
         slot = minorities
         slot = slavery
         slot = press
-        slot = political_advisor
+        slot = education
 
         ledger = civilian
 
@@ -54,7 +54,7 @@ idea_categories = {
         slot = mercenaries
         slot = tradition
 
-        ledger = invalid # must be overridden
+        ledger = army
 
         cost = 500
         removal_cost = 0
@@ -68,7 +68,7 @@ idea_categories = {
         slot = high_command
         slot = high_command
 
-        ledger = invalid # must be overridden
+        ledger = army
 
         cost = 500
         removal_cost = 0

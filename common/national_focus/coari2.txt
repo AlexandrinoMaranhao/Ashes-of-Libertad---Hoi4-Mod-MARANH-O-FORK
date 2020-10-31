@@ -1033,6 +1033,8 @@ focus_tree = {
 
 		completion_reward = {
           load_focus_tree = COR_focus_3
+				keep_completed = yes
+
 		}
 	}
 
