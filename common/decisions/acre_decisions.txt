@@ -1,0 +1,24 @@
+acrean_senate = {
+	debug_add_militarists_1 = { #only a debug decision to test the system, will remove eventually
+		allowed = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			acre_senate_add_militarist_seats_1 = yes
+		}
+	}
+	debug_add_seats_1 = { #only a debug decision to test the system, will remove eventually
+		allowed = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			acre_senate_add_seats_1 = yes
+		}
+	}
+}

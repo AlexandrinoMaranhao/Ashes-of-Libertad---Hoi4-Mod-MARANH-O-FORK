@@ -370,7 +370,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
 		}
 	}
 

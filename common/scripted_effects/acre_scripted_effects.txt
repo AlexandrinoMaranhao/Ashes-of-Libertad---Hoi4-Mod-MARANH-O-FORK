@@ -1,0 +1,620 @@
+acre_senate_add_seats_1 = {
+	custom_effect_tooltip = acrean_senate_1_seat_tt
+	hidden_effect = { 
+		add_to_variable = { senate_seats = 1 }
+		if = {
+			limit = { 
+				check_variable = { senate_neutral_seats > 0 }
+			}
+			add_to_variable = { senate_neutral_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					check_variable = { senate_militarist_seats > senate_nationalist_seats }
+				}
+			}
+			add_to_variable = { senate_militarist_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+				}
+			}
+			add_to_variable = { senate_technocrat_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+				}
+			}
+			add_to_variable = { senate_nationalist_seats = 1 }
+		}
+		else = { add_to_variable = { senate_neutral_seats = 1 } }		
+	}
+}
+
+acre_senate_add_seats_2 = {
+	custom_effect_tooltip = acrean_senate_2_seat_tt
+	hidden_effect = { 
+		add_to_variable = { senate_seats = 2 }
+		if = {
+			limit = { 
+				check_variable = { senate_neutral_seats > 0 }
+			}
+			add_to_variable = { senate_neutral_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					check_variable = { senate_militarist_seats > senate_nationalist_seats }
+				}
+			}
+			add_to_variable = { senate_militarist_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+				}
+			}
+			add_to_variable = { senate_technocrat_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+				}
+			}
+			add_to_variable = { senate_nationalist_seats = 2 }
+		}
+		else = { add_to_variable = { senate_neutral_seats = 2 } }		
+	}
+}
+
+acre_senate_add_seats_3 = {
+	custom_effect_tooltip = acrean_senate_3_seat_tt
+	hidden_effect = { 
+		add_to_variable = { senate_seats = 3 }
+		if = {
+			limit = { 
+				check_variable = { senate_neutral_seats > 0 }
+			}
+			add_to_variable = { senate_neutral_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					check_variable = { senate_militarist_seats > senate_nationalist_seats }
+				}
+			}
+			add_to_variable = { senate_militarist_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+				}
+			}
+			add_to_variable = { senate_technocrat_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+				}
+			}
+			add_to_variable = { senate_nationalist_seats = 3 }
+		}
+		else = { add_to_variable = { senate_neutral_seats = 3 } }		
+	}
+}
+
+## Militarist ##
+acre_senate_add_militarist_seats_1 = {
+	custom_effect_tooltip = acrean_senate_militarist_1_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 0 } }
+			subtract_from_variable = { senate_neutral_seats = 1 }
+			add_to_variable = { senate_militarist_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > 0 }
+					check_variable = { senate_nationalist_seats > 0 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_technocrat_seats = 1 }
+					add_to_variable = { senate_militarist_seats = 1 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_nationalist_seats = 1 }
+					add_to_variable = { senate_militarist_seats = 1 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > 0 }
+				}	
+			}
+			subtract_from_variable = { senate_technocrat_seats = 1 }
+			add_to_variable = { senate_militarist_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seat > 0 }
+				}	
+			}
+			subtract_from_variable = { senate_nationalist_seat = 1 }
+			add_to_variable = { senate_militarist_seats = 1 }
+		}
+	}
+}
+
+acre_senate_add_militarist_seats_2 = {
+	custom_effect_tooltip = acrean_senate_militarist_2_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 1 } }
+			subtract_from_variable = { senate_neutral_seats = 2 }
+			add_to_variable = { senate_militarist_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > 1 }
+					check_variable = { senate_nationalist_seats > 1 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_technocrat_seats = 2 }
+					add_to_variable = { senate_militarist_seats = 2 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_nationalist_seats = 2 }
+					add_to_variable = { senate_militarist_seats = 2 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > 1 }
+				}	
+			}
+			subtract_from_variable = { senate_technocrat_seats = 2 }
+			add_to_variable = { senate_militarist_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seat > 1 }
+				}	
+			}
+			subtract_from_variable = { senate_nationalist_seat = 2 }
+			add_to_variable = { senate_militarist_seats = 2 }
+		}
+	}
+}
+
+acre_senate_add_militarist_seats_3 = {
+	custom_effect_tooltip = acrean_senate_militarist_3_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 2 } }
+			subtract_from_variable = { senate_neutral_seats = 3 }
+			add_to_variable = { senate_militarist_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > 2 }
+					check_variable = { senate_nationalist_seats > 2 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_technocrat_seats = 3 }
+					add_to_variable = { senate_militarist_seats = 3 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_nationalist_seats = 3 }
+					add_to_variable = { senate_militarist_seats = 3 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seats > 2 }
+				}	
+			}
+			subtract_from_variable = { senate_technocrat_seats = 3 }
+			add_to_variable = { senate_militarist_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seat > 2 }
+				}	
+			}
+			subtract_from_variable = { senate_nationalist_seat = 3 }
+			add_to_variable = { senate_militarist_seats = 3 }
+		}
+	}
+}
+
+## Technocrat ##
+acre_senate_add_technocrat_seats_1 = {
+	custom_effect_tooltip = acrean_senate_technocrat_1_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 0 } }
+			subtract_from_variable = { senate_neutral_seats = 1 }
+			add_to_variable = { senate_technocrat_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 0 }
+					check_variable = { senate_nationalist_seats > 0 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_militarist_seats = 1 }
+					add_to_variable = { senate_technocrat_seats = 1 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_militarist_seats > senate_nationalist_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_nationalist_seats = 1 }
+					add_to_variable = { senate_technocrat_seats = 1 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 0 }
+				}	
+			}
+			subtract_from_variable = { senate_militarist_seats = 1 }
+			add_to_variable = { senate_technocrat_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seat > 0 }
+				}	
+			}
+			subtract_from_variable = { senate_nationalist_seat = 1 }
+			add_to_variable = { senate_technocrat_seats = 1 }
+		}
+	}
+}
+
+acre_senate_add_technocrat_seats_2 = {
+	custom_effect_tooltip = acrean_senate_technocrat_2_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 1 } }
+			subtract_from_variable = { senate_neutral_seats = 2 }
+			add_to_variable = { senate_technocrat_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 1 }
+					check_variable = { senate_nationalist_seats > 1 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_militarist_seats = 2 }
+					add_to_variable = { senate_technocrat_seats = 2 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_militarist_seats > senate_nationalist_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_nationalist_seats = 2 }
+					add_to_variable = { senate_technocrat_seats = 2 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 1 }
+				}	
+			}
+			subtract_from_variable = { senate_militarist_seats = 2 }
+			add_to_variable = { senate_technocrat_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seat > 1 }
+				}	
+			}
+			subtract_from_variable = { senate_nationalist_seat = 2 }
+			add_to_variable = { senate_technocrat_seats = 2 }
+		}
+	}
+}
+
+acre_senate_add_technocrat_seats_3 = {
+	custom_effect_tooltip = acrean_senate_technocrat_3_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 2 } }
+			subtract_from_variable = { senate_neutral_seats = 3 }
+			add_to_variable = { senate_technocrat_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 2 }
+					check_variable = { senate_nationalist_seats > 2 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_militarist_seats = 3 }
+					add_to_variable = { senate_technocrat_seats = 3 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_militarist_seats > senate_nationalist_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_nationalist_seats = 3 }
+					add_to_variable = { senate_technocrat_seats = 3 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 2 }
+				}	
+			}
+			subtract_from_variable = { senate_militarist_seats = 3 }
+			add_to_variable = { senate_technocrat_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_nationalist_seat > 2 }
+				}	
+			}
+			subtract_from_variable = { senate_nationalist_seat = 3 }
+			add_to_variable = { senate_technocrat_seats = 3 }
+		}
+	}
+}
+
+## Nationalist ##
+acre_senate_add_nationalist_seats_1 = {
+	custom_effect_tooltip = acrean_senate_nationalist_1_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 0 } }
+			subtract_from_variable = { senate_neutral_seats = 1 }
+			add_to_variable = { senate_nationalist_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 0 }
+					check_variable = { senate_technocrat_seats > 0 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_militarist_seats = 1 }
+					add_to_variable = { senate_nationalist_seats = 1 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_technocrat_seats = 1 }
+					add_to_variable = { senate_nationalist_seats = 1 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 0 }
+				}	
+			}
+			subtract_from_variable = { senate_militarist_seats = 1 }
+			add_to_variable = { senate_nationalist_seats = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seat > 0 }
+				}	
+			}
+			subtract_from_variable = { senate_technocrat_seat = 1 }
+			add_to_variable = { senate_nationalist_seats = 1 }
+		}
+	}
+}
+
+acre_senate_add_nationalist_seats_2 = {
+	custom_effect_tooltip = acrean_senate_nationalist_2_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 1 } }
+			subtract_from_variable = { senate_neutral_seats = 2 }
+			add_to_variable = { senate_nationalist_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 1 }
+					check_variable = { senate_technocrat_seats > 1 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_militarist_seats = 2 }
+					add_to_variable = { senate_nationalist_seats = 2 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_technocrat_seats = 2 }
+					add_to_variable = { senate_nationalist_seats = 2 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 1 }
+				}	
+			}
+			subtract_from_variable = { senate_militarist_seats = 2 }
+			add_to_variable = { senate_nationalist_seats = 2 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seat > 1 }
+				}	
+			}
+			subtract_from_variable = { senate_technocrat_seat = 2 }
+			add_to_variable = { senate_nationalist_seats = 2 }
+		}
+	}
+}
+
+acre_senate_add_nationalist_seats_3 = {
+	custom_effect_tooltip = acrean_senate_nationalist_3_seat_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { senate_neutral_seats > 2 } }
+			subtract_from_variable = { senate_neutral_seats = 3 }
+			add_to_variable = { senate_nationalist_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 2 }
+					check_variable = { senate_technocrat_seats > 2 }
+				}
+			}
+			random_list = {
+				50 = {
+					subtract_from_variable = { senate_militarist_seats = 3 }
+					add_to_variable = { senate_nationalist_seats = 3 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					}
+				}
+				50 = {
+					subtract_from_variable = { senate_technocrat_seats = 3 }
+					add_to_variable = { senate_nationalist_seats = 3 }
+					modifier = {
+						factor = 1.5
+						check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_militarist_seats > 2 }
+				}	
+			}
+			subtract_from_variable = { senate_militarist_seats = 3 }
+			add_to_variable = { senate_nationalist_seats = 3 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { senate_technocrat_seat > 2 }
+				}	
+			}
+			subtract_from_variable = { senate_technocrat_seat = 3 }
+			add_to_variable = { senate_nationalist_seats = 3 }
+		}
+	}
+}

@@ -3,4 +3,23 @@
 # Decisions
   acrean_senate:0 "The Senate of Acre"
   acrean_senate_desc_gui:0 "The Senate of Acre was created as a solution to the difficulties in creating a modern Republican system in such a primitive location as the deep Amazon rainforest.\n\nAfter years of uncertainty and trial and error the many settlements have finally sent their representatives who now organize themselves into their political cliques with like minded individuals and together shall write and sign the new Constitution, solidifying the Republic as a legitimate democracy, and electing the first president in an indirect election made by the senators."
-  acrean_senate_desc_statistics_gui:0 "There are currently §OX§! Seats, of which...\n\nThe §GMilitarists§! hold §OX§!\n\nThe §RTechnocrats§! hold §OX§!\n\nThe §YLiberals§! hold §OX§!"
+  acrean_senate_desc_statistics_gui:0 "The Senate is currently comprised of [?senate_seats|O0] Seats[ROOT.GetACR_NeutralSeats] and...\n\nThe §GMilitarists§! hold [?senate_militarist_seats|O0] seats.\n\nThe §RTechnocrats§! hold [?senate_technocrat_seats|O0] seats.\n\nThe §YNationalists§! hold [?senate_nationalist_seats|O0] seats."
+  acrean_senate_neutral_seats:0 ", [?senate_neutral_seats|O0] of them being neutral,"
+
+  acrean_senate_1_seat_tt:0 "§GWill add one new Seat to the Senate§!"
+  acrean_senate_2_seat_tt:0 "§GWill add two new Seats to the Senate§!"
+  acrean_senate_3_seat_tt:0 "§GWill add three new Seats to the Senate§!"
+
+  acrean_senate_militarist_1_seat_tt:0 "Will grant one Seat to the §GMilitarists§!"
+  acrean_senate_militarist_2_seat_tt:0 "Will grant two Seats to the §GMilitarists§!"
+  acrean_senate_militarist_3_seat_tt:0 "Will grant thrre Seats to the §GMilitarists§!"
+
+  acrean_senate_technocrat_1_seat_tt:0 "Will grant one Seat to the §RTechnocrats§!"
+  acrean_senate_technocrat_2_seat_tt:0 "Will grant two Seats to the §RTechnocrats§!"
+  acrean_senate_technocrat_3_seat_tt:0 "Will grant thrre Seats to the §RTechnocrats§!"
+
+  acrean_senate_nationalist_1_seat_tt:0 "Will grant one Seat to the §YNationalists§!"
+  acrean_senate_nationalist_2_seat_tt:0 "Will grant two Seats to the §YNationalists§!"
+  acrean_senate_nationalist_3_seat_tt:0 "Will grant thrre Seats to the §YNationalists§!"
+
+  debug_add_militarists_1:0 "Debug - Add 1 Militarist Seat"

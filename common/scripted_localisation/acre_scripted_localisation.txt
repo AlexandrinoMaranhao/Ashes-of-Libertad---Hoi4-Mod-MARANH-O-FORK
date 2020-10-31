@@ -1,0 +1,7 @@
+defined_text = {
+	name = GetACR_NeutralSeats
+	text = {
+		trigger = { check_variable = { senate_neutral_seats > 0 } }
+		localization_key = acrean_senate_neutral_seats
+	}
+}

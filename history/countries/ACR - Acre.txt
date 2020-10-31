@@ -23,10 +23,18 @@ set_popularities = {
 	neutrality = 100
 }
 
+## variables ##
 set_variable = {
     var = raid_success_percentage
     value = 0
 }
+
+# senate #
+set_variable = { senate_seats = 22 }
+set_variable = { senate_militarist_seats = 0 }
+set_variable = { senate_technocrat_seats = 0 }
+set_variable = { senate_nationalist_seats = 0 }
+set_variable = { senate_neutral_seats = 22 }
 
 add_ideas = {
 bonded_labor
