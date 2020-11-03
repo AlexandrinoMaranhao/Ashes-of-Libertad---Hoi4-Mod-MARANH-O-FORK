@@ -2416,6 +2416,10 @@ ideas = {
         traits = {  }
     } #exclusive to the dutch
 
+    japanese_tradition = {
+        allowed = { original_tag = JAP }
+
+    }
     }
 
 

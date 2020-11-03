@@ -6,7 +6,7 @@ ideas = {
 
 	army_chief = {
 			alexandre_montoril_army_chief = {
-			picture = 
+			picture = GFX_idea_montoril_advisor_cor
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -19,7 +19,6 @@ ideas = {
 			}
 		}
 			eddie_ribeiro_army_chief = {
-			picture = 
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -35,7 +34,6 @@ ideas = {
 			}
 		}
 			algenor_g_nascimento_army_chief = {
-			picture = 
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -58,7 +56,7 @@ ideas = {
 
 	high_command = {
 			alexandre_montoril_high_command = {
-			picture = 
+			picture = GFX_idea_montoril_advisor_cor
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -71,7 +69,6 @@ ideas = {
 			}
 		}
 			eddie_ribeiro_high_command = {
-			picture = 
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -87,7 +84,6 @@ ideas = {
 			}
 		}
 			algenor_g_nascimento_high_command = {
-			picture = 
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -128,7 +124,7 @@ ideas = {
 			}
 		}
 			alexandre_montoril_theorist = {
-			picture = 
+			picture = GFX_idea_montoril_advisor_cor
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -203,7 +199,7 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
+			picture = GFX_idea_jose_coelho_cor
             available = {
             ROOT = {
             OR = {
@@ -240,7 +236,6 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
             available = {
             ROOT = {
             OR = {
@@ -305,7 +300,7 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
+			picture = GFX_idea_eddie_ribeiro
 			traits = {
 				
 			}
@@ -319,7 +314,6 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
 			traits = {
 				
 			}

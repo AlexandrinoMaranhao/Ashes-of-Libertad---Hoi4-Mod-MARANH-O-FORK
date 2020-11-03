@@ -6,6 +6,146 @@ SpriteTypes = {
 #} 
 
 spriteType ={
+    name = "GFX_idea_british_tradition"
+    texturefile = "gfx/interface/ideas/icon_bri.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_french_tradition"
+    texturefile = "gfx/interface/ideas/icon_fra.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_german_tradition"
+    texturefile = "gfx/interface/ideas/icon_ger.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_japanese_tradition"
+    texturefile = "gfx/interface/ideas/icon_jap.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_ussr_tradition"
+    texturefile = "gfx/interface/ideas/icon_sov.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_usa_tradition"
+    texturefile = "gfx/interface/ideas/icon_us.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_no_tradition"
+    texturefile = "gfx/interface/ideas/icon_no_tradition.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_tribal_tradition"
+    texturefile = "gfx/interface/ideas/icon_tribal.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_7"
+    texturefile = "gfx/interface/ideas/Aldenlol.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_8"
+    texturefile = "gfx/interface/ideas/economist.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_9"
+    texturefile = "gfx/interface/ideas/evil_minister_mwahahaha.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_10"
+    texturefile = "gfx/interface/ideas/minister.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_11"
+    texturefile = "gfx/interface/ideas/minister_2.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_hautom_mns"
+    texturefile = "gfx/interface/ideas/Hautom.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_jose_coelho_cor"
+    texturefile = "gfx/interface/ideas/joses_caelho.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_montoril_advisor_cor"
+    texturefile = "gfx/interface/ideas/montoril_advisor.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_1"
+    texturefile = "gfx/interface/ideas/generic_advisor_1.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_2"
+    texturefile = "gfx/interface/ideas/generic_advisor_2.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_3"
+    texturefile = "gfx/interface/ideas/generic_advisor_3.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_4"
+    texturefile = "gfx/interface/ideas/generic_advisor4_.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_algenor_g_nascimento_advisor"
+    texturefile = "gfx/interface/ideas/generic_advisor_5.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_algenor_g_nascimento_high_command"
+    texturefile = "gfx/interface/ideas/generic_advisor_5.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_algenor_g_nascimento_army_chief"
+    texturefile = "gfx/interface/ideas/generic_advisor_5.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_generic_advisor_6"
+    texturefile = "gfx/interface/ideas/generic_advisor_6.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_o_coaryense_journal"
+    texturefile = "gfx/interface/ideas/newspaper.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_eddie_ribeiro_merc_advisor"
+    texturefile = "gfx/interface/ideas/eddie_ribeiro.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_eddie_ribeiro_high_command"
+    texturefile = "gfx/interface/ideas/eddie_ribeiro.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_eddie_ribeiro_army_chief"
+    texturefile = "gfx/interface/ideas/eddie_ribeiro.dds"
+} 
+
+spriteType ={
     name = "GFX_idea_modern_missiones"
     texturefile = "gfx/interface/ideas/Modern_Day_Missiones.dds"
 } 
@@ -777,8 +917,8 @@ spriteType ={
     }       
     
     spriteType = {
-        name = "GFX_idea_german_advisors"
-        texturefile = "gfx/interface/ideas/german_advisors.dds"
+        name = "GFX_idea_german_ideas"
+        texturefile = "gfx/interface/ideas/german_ideas.dds"
     }   
     
     ### GENERIC national focus icons    
