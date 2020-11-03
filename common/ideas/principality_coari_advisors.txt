@@ -12,7 +12,7 @@ ideas = {
 				original_tag = COR
 			}
 			traits = {
-				
+				alexandre_montoril_army
 			}
 			ai_will_do = {
 				factor = 10
@@ -27,7 +27,7 @@ ideas = {
 			has_completed_focus = COR_mercenary_militia
 			}
 			traits = {
-				
+				army_commando_2
 			}
 			ai_will_do = {
 				factor = 10
@@ -42,7 +42,8 @@ ideas = {
 			has_completed_focus = COR_local_militia
 			}
 			traits = {
-				
+				army_chief_morale_2
+				army_chief_planning_3
 			}
 			ai_will_do = {
 				factor = 10
@@ -62,7 +63,7 @@ ideas = {
 				original_tag = COR
 			}
 			traits = {
-				
+				alexandre_montoril_high_command_trait
 			}
 			ai_will_do = {
 				factor = 10
@@ -77,7 +78,10 @@ ideas = {
 			has_completed_focus = COR_mercenary_militia
 			}
 			traits = {
-				
+				army_chief_organizational_2
+			}
+			modifier = {
+			planning_speed = -0.05
 			}
 			ai_will_do = {
 				factor = 10
@@ -92,12 +96,26 @@ ideas = {
 			has_completed_focus = COR_local_militia
 			}
 			traits = {
-				
+				army_chief_organizational_3
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+		    father_hirsch_high_command = {
+		    ledger = army
+		    allowed = { original_tag = COR }
+			available = {
+			has_completed_focus = COR_the_american_priest
+			NOT = { has_completed_focus = COR_the_escapist_priest }
+			}
+			traits = {
+				the_american_priest_high_command
+			}
+			ai_will_do = {
+				factor = 10
+			}	
+			}	    
 	}
 
     ###############################
@@ -117,7 +135,7 @@ ideas = {
 
 			}
 			traits = {
-				
+				the_american_priest_theorist
 			}
 			ai_will_do = {
 				factor = 10
@@ -130,7 +148,7 @@ ideas = {
 				original_tag = COR
 			}
 			traits = {
-				
+				alexandre_montoril_theorist_trait
 			}
 			ai_will_do = {
 				factor = 10
@@ -145,22 +163,26 @@ ideas = {
     naval_manufacturer = {
 
     repurposed_civilian_crafts = {
+    		designer = yes
+
 			allowed = {
 				original_tag = COR
 			}
 			picture = 
 			traits = {
-				
+			repurposed_civilian_crafts_trait
 			}
     }
 
     manauan_made_crafts = {
+    		designer = yes
+
 			allowed = {
 				original_tag = COR
 			}
 			picture = 
 			traits = {
-				
+				manauan_made_crafts_trait
 			}
 			available = {
 			has_completed_focus = COR_our_biggest_trading_partner
@@ -180,7 +202,6 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
             available = {
            
             ROOT = {
@@ -191,7 +212,7 @@ ideas = {
             }
             }
 			traits = {
-				
+				journalist_1
 			}
     }
 
@@ -210,7 +231,7 @@ ideas = {
             }
             }
 			traits = {
-				
+				poet_3
 			}
     }
 
@@ -218,7 +239,6 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
             available = {
             ROOT = {
             OR = {
@@ -229,7 +249,7 @@ ideas = {
             }
             }
 			traits = {
-				
+				folk_poet
 			}
         }
     o_coaryense_journal = {
@@ -240,14 +260,12 @@ ideas = {
             ROOT = {
             OR = {
             has_idea = idea_AOL_state_press
-            has_idea = idea_AOL_free_press
-            has_idea = idea_AOL_light_censorship
             has_idea = idea_AOL_total_censorship
             }
             }
             }
 			traits = {
-				
+				o_coaryense_trait
 			}
 			}
 
@@ -255,7 +273,6 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
             available = {
             ROOT = {
             OR = {
@@ -267,7 +284,7 @@ ideas = {
             }
             }
 			traits = {
-				
+				radialist_2
 			}
 			}
 
@@ -275,9 +292,12 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
-			traits = {
-				
+			modifier = {
+		war_support_factor = 0.10 
+		trade_opinion_factor = 0.10
+		consumer_goods_factor = -0.02
+		weekly_manpower = 100
+		foreign_subversive_activites = -0.4
 			}
 			}
 
@@ -285,9 +305,13 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
-			traits = {
-				
+			modifier = {
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		compliance_gain = 0.5
+		resistance_target = -0.05
+        political_power_factor = -0.02
+		consumer_goods_factor = 0.05			
 			}
 
 			available = {
@@ -302,7 +326,7 @@ ideas = {
 			}
 			picture = GFX_idea_eddie_ribeiro
 			traits = {
-				
+				mercenary_advisor
 			}
 
 			available = {
@@ -315,7 +339,7 @@ ideas = {
 				original_tag = COR
 			}
 			traits = {
-				
+				war_profiteer
 			}
 
 			available = {

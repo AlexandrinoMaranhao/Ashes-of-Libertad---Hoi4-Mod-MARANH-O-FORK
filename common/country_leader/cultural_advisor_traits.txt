@@ -1,0 +1,245 @@
+leader_traits = {
+
+	radialist_1 = {
+		production_speed_radar_station_factor = 0.05
+		political_power_factor = -0.05
+		war_support_factor = 0.1
+		weekly_manpower = -50
+
+	}
+
+	radialist_2 = {
+		production_speed_radar_station_factor = 0.05
+		political_power_factor = -0.1
+		war_support_factor = 0.1
+		weekly_manpower = 50
+
+	}
+
+	radialist_3 = {
+		production_speed_radar_station_factor = 0.05
+		political_power_factor = 0.05
+		war_support_factor = 0.1
+		weekly_manpower = 140
+
+	}
+
+	radialist_4 = {
+		production_speed_radar_station_factor = 0.05
+		political_power_factor = 0.1
+		war_support_factor = 0.1		
+		weekly_manpower = 240
+
+	}
+
+    poet_1 = {
+		war_support_factor = -0.1
+		army_morale_factor = 0.2
+
+    }
+
+    poet_2 = {
+		war_support_factor = -0.05
+		army_morale_factor = 0.3
+
+    }
+
+    poet_3 = {
+   		stability_factor = 0.2
+		war_support_factor = 0.05
+		army_morale_factor = 0.4
+
+    }
+
+    poet_4 = {
+   		stability_factor = 0.3
+		war_support_factor = 0.1
+		army_morale_factor = 0.5
+
+    }
+
+    journalist_1 = {
+    	political_power_factor = -0.05
+   		stability_factor = 0.2
+		war_support_factor = -0.05
+		army_morale_factor = 0.2
+		weekly_manpower = -100
+
+    }
+
+    journalist_2 = {
+    	political_power_factor = -0.1
+   		stability_factor = 0.3
+		war_support_factor = -0.1
+		army_morale_factor = 0.3
+		weekly_manpower = -50
+
+    }
+
+    journalist_3 = {
+    	political_power_factor = -0.15
+   		stability_factor = 0.4
+		war_support_factor = -0.15
+		army_morale_factor = 0.4
+		weekly_manpower = 100
+
+    }
+
+    journalist_4 = {
+    random = no
+
+    	political_power_factor = -0.20
+   		stability_factor = 0.5
+		war_support_factor = -0.20
+		army_morale_factor = 0.5
+		weekly_manpower = 200
+
+    }
+
+    writer_1 = {
+		stability_factor = -0.05
+		political_power_factor = -0.3
+		consumer_goods_factor = -0.2
+		trade_opinion_factor = 0.05
+
+
+    }
+
+    writer_2 = {
+		stability_factor = -0.05
+		political_power_factor = -0.3
+		consumer_goods_factor = -0.3
+		trade_opinion_factor = 0.05
+
+
+    }
+
+    writer_3 = {
+		stability_factor = 0.05
+		political_power_factor = -0.3
+		consumer_goods_factor = -0.4
+		trade_opinion_factor = 0.05
+
+
+    }
+
+    writer_4 = {
+		stability_factor = 0.05
+		political_power_factor = -0.3
+		consumer_goods_factor = -0.5
+		trade_opinion_factor = 0.05
+
+
+    }
+    
+    folk_poet = {
+		war_support_factor = 0.25
+		stability_factor = 0.05
+    	political_power_factor = -0.05
+   		weekly_manpower = 50
+
+
+    }
+
+    miss_coari_trait = {
+		war_support_factor = 0.10 
+		trade_opinion_factor = 0.10
+		consumer_goods_factor = -0.02
+		weekly_manpower = 100
+		foreign_subversive_activites = -0.4
+    }
+    
+    the_american_priest_trait = {
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		compliance_gain = 0.5
+		resistance_target = -0.05
+        political_power_factor = -0.02
+		consumer_goods_factor = 0.05
+    }
+
+    the_american_priest_theorist = {
+    random = no
+		experience_gain_army = 0.01
+        supply_consumption_factor = -0.2
+
+    }
+    
+    the_american_priest_high_command = {
+    random = no
+		compliance_gain = 0.5
+		resistance_target = -0.05
+        stability_factor = 0.15
+        war_support_factor = 0.05
+		consumer_goods_factor = 0.05
+
+    }
+    
+    o_coaryense_trait = {
+    random = no
+        political_power_factor = -1
+		compliance_gain = 0.5
+		resistance_target = -0.5
+        stability_factor = 0.2
+        war_support_factor = 0.15
+		consumer_goods_factor = 0.05
+
+    }
+
+    mercenary_advisor = {
+    random = no
+		army_org_factor = 0.3
+		planning_speed = 0.05
+		dig_in_speed_factor = 0.05
+		experience_gain_army_factor = 0.05
+    }
+
+    repurposed_civilian_crafts_trait = {
+		amphibious_invasion = 0.1
+		navy_screen_attack_factor = 0.05
+		equipment_bonus = {
+			screen_ship = {
+				surface_visibility = -0.1 naval_speed = 0.1	naval_range = 0.3 build_cost_ic = 0.1
+			}
+		}
+    }
+    
+    manauan_made_crafts_trait = {
+		amphibious_invasion = 0.05
+		navy_capital_ship_attack_factor = 0.05
+		navy_screen_attack_factor = 0.05
+		equipment_bonus = {
+			capital_ship = {
+				surface_visibility = -0.1 naval_speed = 0.1 hg_attack = -0.1
+			}
+			screen_ship = {
+				surface_visibility = -0.1 naval_speed = 0.1
+			}
+			screen_ship = {
+				naval_range = 0.3 naval_speed = 0.1 build_cost_ic = 0.1
+			}
+		}
+    }
+    
+    alexandre_montoril_army = {
+    random = no
+		production_speed_dockyard_factor = 0.05
+		army_org_factor = 0.5
+		planning_speed = 0.15
+		dig_in_speed_factor = 0.05
+    }
+
+    alexandre_montoril_theorist_trait = {
+		experience_gain_army = 0.05
+		experience_gain_navy = 0.05
+
+    }
+
+    alexandre_montoril_high_command_trait = {
+		army_morale_factor = 0.1
+		attrition = -0.1
+
+    }
+
+#end
+}

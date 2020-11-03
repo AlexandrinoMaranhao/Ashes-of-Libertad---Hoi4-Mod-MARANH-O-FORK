@@ -26,10 +26,15 @@ set_popularities = {
 add_ideas = {
 slavery_banned
 integrated_society
-no_press
-service_by_requirement
-limited_exports
-war_economy
+idea_AOL_free_press
+disarmed_nation
+subsistence_economy
+undisturbed_isolation
+a20_literacy
+no_training
+no_officer_training
+no_mercenaries
+no_tradition
 
 coari_desperation
 the_white_linned_mayor
