@@ -1,0 +1,267 @@
+####################################
+# Amazonian Military Command Events
+####################################
+
+add_namespace = AMCIntroduction
+add_namespace = AMC
+
+#########################################################################
+# The Amazon's
+#########################################################################
+country_event = {
+	id = AMCIntroduction.1
+	title = AMCIntroduction.1.t
+	desc = AMCIntroduction.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMCIntroduction.1.A
+	}
+}
+
+#########################################################################
+# ...Biggest Loosers
+#########################################################################
+country_event = {
+	id = AMCIntroduction.2
+	title = AMCIntroduction.2.t
+	desc = AMCIntroduction.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMCIntroduction.2.A
+	}
+}
+
+#########################################################################
+# ...Finest
+#########################################################################
+country_event = {
+	id = AMCIntroduction.3
+	title = AMCIntroduction.3.t
+	desc = AMCIntroduction.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMCIntroduction.3.A
+	}
+}
+
+#########################################################################
+# Getting Back Up
+#########################################################################
+country_event = {
+	id = AMC.1
+	title = AMC.1.t
+	desc = AMC.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.1.A
+	}
+}
+
+#########################################################################
+# Keep Calm FFs
+#########################################################################
+country_event = {
+	id = AMC.2
+	title = AMC.2.t
+	desc = AMC.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.2.A
+	}
+}
+
+#########################################################################
+# Renew the Port
+#########################################################################
+country_event = {
+	id = AMC.3
+	title = AMC.3.t
+	desc = AMC.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.3.A
+	}
+}
+
+#########################################################################
+# Quiet Pardons
+#########################################################################
+country_event = {
+	id = AMC.4
+	title = AMC.4.t
+	desc = AMC.4.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.4.A
+	}
+}
+
+#########################################################################
+# Promises of Recovery
+#########################################################################
+country_event = {
+	id = AMC.5
+	title = AMC.5.t
+	desc = AMC.5.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.5.A
+	}
+}
+
+#########################################################################
+# Use the Civilians
+#########################################################################
+country_event = {
+	id = AMC.6
+	title = AMC.6.t
+	desc = AMC.6.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.6.A
+	}
+}
+
+#########################################################################
+# Use the Military
+#########################################################################
+country_event = {
+	id = AMC.7
+	title = AMC.7.t
+	desc = AMC.7.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.7.A
+	}
+}
+
+#########################################################################
+# Segregate the troops
+#########################################################################
+country_event = {
+	id = AMC.8
+	title = AMC.8.t
+	desc = AMC.8.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.8.A
+	}
+	option = {
+		name = AMC.8.B
+	}
+}
+
+#########################################################################
+# Shiny New Toys
+#########################################################################
+country_event = {
+	id = AMC.9
+	title = AMC.9.t
+	desc = AMC.9.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.9.A
+	}
+}
+
+#########################################################################
+# Get Me Off This Fucking Island
+#########################################################################
+country_event = {
+	id = AMC.10
+	title = AMC.10.t
+	desc = AMC.10.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.10.A
+	}
+}
+
+#########################################################################
+# War Plan
+#########################################################################
+country_event = {
+	id = AMC.11
+	title = AMC.11.t
+	desc = AMC.11.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.11.A
+	}
+	option = {
+		name = AMC.11.B
+	}
+}
+
+#########################################################################
+# The Madera Incident
+#########################################################################
+country_event = {
+	id = AMC.12
+	title = AMC.12.t
+	desc = AMC.12.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.12.A
+	}
+}

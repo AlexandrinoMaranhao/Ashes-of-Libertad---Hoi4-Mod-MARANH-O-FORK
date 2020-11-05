@@ -13,13 +13,13 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 		focus = {
 		id = NHA_intro_one
-		icon = GFX_goal_coat_of_arms_coari
+		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {
 			focus = x
 		}
 		x = 9
-		y = 1
+		y = 0
 		completion_reward = {
 			country_event = {
 				id = AMCIntroduction.1
@@ -30,7 +30,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_intro_two
-		icon = GFX_goal_the_white_linned_mayor
+		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {
 			focus = NHA_intro_one
@@ -66,7 +66,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_intro_final
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 
 		bypass = {
@@ -77,7 +77,7 @@ focus_tree = {
 		relative_position_id = NHA_intro_one
 		completion_reward = {
 			country_event = {
-				id = AMCIntroduction.1
+				id = AMC.1
 				days = 0
 			}
 		}
@@ -94,7 +94,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.2
+				days = 0
+			}
 		}
 	}
 
@@ -129,29 +132,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NHA_ask_the_government_for_help
-		icon = GFX_goal_pearl_of_solimoes
-		cost = 1
-		prerequisite = {
-			focus = NHA_keep_calm_ffs
-		}
-		x = 4
-		y = 4
-		relative_position_id = NHA_intro_one
-		completion_reward = {
-
-		}
-	}
-
-
-	focus = {
 		id = NHA_adress_faction_leaders
 		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {
 			focus = NHA_keep_calm_ffs
 		}
-		x = 2
+		x = 3
 		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -170,7 +157,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.3
+				days = 0
+			}
 		}
 	}
 
@@ -188,7 +178,11 @@ focus_tree = {
 		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
+			country_event = {
+				id = AMC.4
+				days = 0
 
+			}
 		}
 	}
 
@@ -206,7 +200,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.5
+				days = 0
+			}
 		}
 	}
 
@@ -239,7 +236,10 @@ focus_tree = {
 		y = 5
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.6
+				days = 0
+			}
 		}
 	}
 
@@ -257,22 +257,10 @@ focus_tree = {
 		y = 5
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = NHA_the_council_of_nhamunda
-		icon = GFX_goal_pearl_of_solimoes
-		cost = 1
-		prerequisite = {
-			focus = NHA_adress_faction_leaders
-		}
-		x = 3
-		y = 5
-		relative_position_id = NHA_intro_one
-		completion_reward = {
-
+			country_event = {
+				id = AMC.7
+				days = 0
+			}
 		}
 	}
 
@@ -281,13 +269,13 @@ focus_tree = {
 		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {
-			focus = NHA_ask_the_government_for_help
+			focus = NHA_keep_calm_ffs
 		}
 		mutually_exclusive = {
 			focus = NHA_petition_belem
 		}
 		x = 5
-		y = 5
+		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
 
@@ -299,13 +287,13 @@ focus_tree = {
 		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {
-			focus = NHA_ask_the_government_for_help
+			focus = NHA_keep_calm_ffs
 		}
 		mutually_exclusive = {
 			focus = NHA_amapa_papers
 		}
 		x = 7
-		y = 5
+		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
 
@@ -317,13 +305,16 @@ focus_tree = {
 		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {
-			focus = NHA_the_council_of_nhamunda
+			focus = NHA_adress_faction_leaders
 		}
-		x = 4
+		x = 3
 		y = 6
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.8
+				days = 0
+			}
 		}
 	}
 
@@ -355,7 +346,10 @@ focus = NHA_petition_belem
 		y = 6
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.9
+				days = 0
+			}
 		}
 	}
 
@@ -370,7 +364,10 @@ focus = NHA_petition_belem
 		y = 6
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.10
+				days = 0
+			}
 		}
 	}
 
@@ -404,7 +401,10 @@ focus = NHA_petition_belem
 		y = 8
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-
+			country_event = {
+				id = AMC.11
+				days = 0
+			}
 		}
 	}
 
@@ -437,6 +437,10 @@ focus = NHA_petition_belem
 		y = 9
 		relative_position_id = NHA_intro_one
 		completion_reward = {
+			country_event = {
+				id = AMC.12
+				days = 0
+			}
 
 		}
 	}
