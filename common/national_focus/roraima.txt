@@ -128,8 +128,7 @@ focus = {
 	focus = {
 		id = ROR_Making_A_List
 		icon = GFX_focus_generic_treaty
-		prerequisite = { focus = ROR_Drafting_A_Plan }
-		prerequisite = { focus = ROR_Convincing_The_Officers }
+
 		x = 0
 		y = 2
 		relative_position_id = ROR_A_Merry_Band_Of_Misfits
@@ -161,10 +160,10 @@ focus = {
 	}
 	#5
 	focus = {
-		id = ROR_Checking_It_Twice
+		id = ROR_reaching_out
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = ROR_Making_A_List }
-		x = -1
+		x = -2
 		y = 3
 		relative_position_id = ROR_A_Merry_Band_Of_Misfits
 		cost = 3
@@ -193,10 +192,10 @@ focus = {
 	focus = {
 		id = ROR_Were_Gonna_Find_Out_Whos_Naughty_Or_Nice
 		icon = GFX_goal_Naughty_or_nice
-		prerequisite = { focus = ROR_Making_A_List }
+		prerequisite = { focus = ROR_pardon_ex_governors focus = ROR_wilsons_new_cabinet }
 		x = 2
-		y = 0
-		relative_position_id = ROR_Checking_It_Twice 
+		y = 6
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
 		cost = 3
 
 		ai_will_do = {
@@ -222,14 +221,438 @@ focus = {
 						}	
 		}
 	}
-    focus = {
-		id = ROR_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	focus = {
+		id = ROR_farc
 		icon = GFX_goal_Naughty_or_nice
-		prerequisite = { focus = ROR_Were_Gonna_Find_Out_Whos_Naughty_Or_Nice }
-		prerequisite = { focus = ROR_Checking_It_Twice }
+		mutually_exclusive = { focus = ROR_libertadores }
+		mutually_exclusive = { focus = ROR_ce}
+		prerequisite = { focus = ROR_reaching_out }
+		x = -2
+		y = 4
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_libertadores
+		icon = GFX_goal_Naughty_or_nice
+		mutually_exclusive = { focus = ROR_farc }
+		mutually_exclusive = { focus = ROR_ce}		
+		prerequisite = { focus = ROR_reaching_out }
+		x = -4
+		y = 4
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_ce
+		icon = GFX_goal_Naughty_or_nice
+		mutually_exclusive = { focus = ROR_libertadores }
+		mutually_exclusive = { focus = ROR_farc}		
+		prerequisite = { focus = ROR_reaching_out }
+		x = 0
+		y = 4
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ROR_fonte_boa
+		icon = GFX_goal_Naughty_or_nice
+		
+		prerequisite = { focus = ROR_farc focus = ROR_ce focus = ROR_libertadores  }
+		x = -2
+		y = 5
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_fly_by
+		icon = GFX_goal_Naughty_or_nice
+		mutually_exclusive = { focus = ROR_by_boat }
+		prerequisite = { focus = ROR_fonte_boa }
+		x = -3
+		y = 6
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_by_boat
+		icon = GFX_goal_Naughty_or_nice
+		mutually_exclusive = { focus = ROR_fly_by }
+		
+		prerequisite = { focus = ROR_fonte_boa }
+		x = -1
+		y = 6
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_araguaia_conection
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_fly_by focus = ROR_by_boat }
+		x = -2
+		y = 7
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_boa_vista_reorganization
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_Making_A_List }
+		x = 2
+		y = 3
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_keep_it_bloodless
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_boa_vista_reorganization }
+		x = 2
+		y = 4
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_revolutions_need_martyrs
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_boa_vista_reorganization }
+		x = 4
+		y = 4
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_pardon_ex_governors
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_keep_it_bloodless }
+		mutually_exclusive = { focus = ROR_wilsons_new_cabinet }
+
 		x = 1
-		y = 1
-		relative_position_id = ROR_Checking_It_Twice 
+		y = 5
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_wilsons_new_cabinet
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_keep_it_bloodless }
+		mutually_exclusive = { focus = ROR_pardon_ex_governors }
+
+		x = 3
+		y = 5
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_civic_center_plaza_attack
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_revolutions_need_martyrs }
+		mutually_exclusive = { focus = ROR_heroes_from_araguaia }
+
+		x = 5
+		y = 5
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_heroes_from_araguaia
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_revolutions_need_martyrs }
+		mutually_exclusive = { focus = ROR_civic_center_plaza_attack }
+
+		x = 7
+		y = 5
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ROR_our_new_heroes
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_civic_center_plaza_attack focus = ROR_heroes_from_araguaia }
+		x = 6
+		y = 6
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
 		cost = 3
 
 		ai_will_do = {
@@ -250,11 +673,72 @@ focus = {
 
 		completion_reward = {
 		add_war_support = .05
+		country_event = { id = roraima.5
+						days = 5
+						}	
+		}
+	}
+	focus = {
+		id = ROR_the_roraima_provisional_government
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_Were_Gonna_Find_Out_Whos_Naughty_Or_Nice focus = ROR_our_new_heroes }
+		x = 4
+		y = 7
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
 
-					load_focus_tree = {
-				tree = ROR_focus_2
-				keep_completed = yes
-			}
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_war_support = .05
+		country_event = { id = roraima.5
+						days = 5
+						}	
+		}
+	}
+	focus = {
+		id = ROR_addressing_the_misfits
+		icon = GFX_goal_Naughty_or_nice
+		prerequisite = { focus = ROR_the_roraima_provisional_government } prerequisite = {focus = ROR_araguaia_conection }
+		x = 0
+		y = 8
+		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
+		cost = 3
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_war_support = .05
+		country_event = { id = roraima.5
+						days = 5
 						}	
 		}
 	}
