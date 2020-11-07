@@ -37,12 +37,8 @@ set_variable = { senate_nationalist_seats = 0 }
 set_variable = { senate_neutral_seats = 22 }
 
 add_ideas = {
-bonded_labor
-integrated_society
-free_press
-limited_conscription
-export_focus
-civilian_economy
+undisturbed_isolation
+subsistence_economy
 
 country_of_seringueiros
 militia_army
@@ -50,21 +46,30 @@ militia_army
 
 create_country_leader = {
 	
-	name = "Enéas Carneiro"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro.dds"
+	name = "Hélio Cury"
+	picture = "gfx/leaders/ACR/.dds"
 	expire = "1999.1.1"
-	ideology = fascism_ideology
+	ideology = centrism 
 	traits = {
-
-
 	}
 }
+
+create_country_leader = {
+	
+	name = "Jorge Kalume"
+	picture = "gfx/leaders/ACR/.dds"
+	expire = "1999.1.1"
+	ideology = mercantile_oligarchy 
+	traits = {
+	}
+}
+
 create_country_leader = {
 	
 	name = "Enéas Carneiro"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Triste.dds"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro.dds"
 	expire = "1999.1.1"
-	ideology = nazism
+	ideology = posadism 
 	traits = {
 
 
@@ -83,4 +88,35 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	
+	name = "José Marques de Souza"
+	picture = "gfx/leaders/ACR/.dds"
+	expire = "1999.1.1"
+	ideology = marxism 
+	traits = {
+	}
+}
+
+create_country_leader = {
+	
+	name = "Edgar Cerqueira"
+	picture = "gfx/leaders/ACR/.dds"
+	expire = "1999.1.1"
+	ideology = military_government 
+	traits = {
+	}
+}
+
+#create_country_leader = {
+#	
+#	name = ""
+#	picture = "gfx/leaders/ACR/.dds"
+#	expire = "1999.1.1"
+#	ideology = 
+#	traits = {
+#
+#
+#	}
+#}
 }

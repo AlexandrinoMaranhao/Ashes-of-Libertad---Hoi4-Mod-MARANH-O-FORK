@@ -41,7 +41,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		completion_reward = {		
+		completion_reward = {	
+			country_event = {
+				id = ACRIntroduction.1
+				days = 0
+			}	
 }
 	}
 
@@ -72,6 +76,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACRIntroduction.2
+				days = 0
+			}
 		}
 	}
 
@@ -101,7 +109,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACRIntroduction.3
+				days = 0
+			}
 		}
 	}
 
@@ -159,7 +170,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.1
+				days = 0
+			}
 		}
 	}
 
@@ -189,7 +203,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.2
+				days = 0
+			}
 		}
 	}
 
@@ -219,7 +236,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.3
+				days = 0
+			}
 		}
 	}
 
@@ -249,7 +269,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.4
+				days = 0
+			}
 		}
 	}
 
@@ -279,7 +302,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.5
+				days = 0
+			}
 		}
 	}
 
@@ -309,7 +335,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.7
+				days = 0
+			}
 		}
 	}
 
@@ -339,7 +368,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.6
+				days = 0
+			}
 		}
 	}
 
@@ -370,6 +402,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACR.8
+				days = 0
+			}
 		}
 	}
 
@@ -459,7 +495,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.9
+				days = 0
+			}
 		}
 	}
 
@@ -490,7 +529,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+    acre_senate_add_nationalist_seats_2 = yes
+    acre_senate_add_technocrat_seats_1 = yes
 		}
 	}
 
@@ -521,7 +561,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+    acre_senate_add_technocrat_seats_1 = yes
+    acre_senate_add_militarist_seats_2 = yes
 		}
 	}
 
@@ -551,7 +592,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.10
+				days = 0
+			}
 		}
 	}
 
@@ -582,7 +626,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.11
+				days = 0
+			}
 		}
 	}
 
@@ -613,6 +660,8 @@ focus_tree = {
 
 		completion_reward = {
 
+    acre_senate_add_nationalist_seats_1 = yes
+
 		}
 	}
 
@@ -642,6 +691,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+    acre_senate_add_militarist_seats_1 = yes
 
 		}
 	}
@@ -672,7 +722,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+    acre_senate_add_technocrat_seats_1 = yes
 		}
 	}
 
@@ -702,7 +752,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = ACR.12
+				days = 0
+			}
 		}
 	}
 
@@ -732,6 +785,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACR.13
+				days = 0
+			}
 
 		}
 	}
@@ -762,6 +819,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACR.14
+				days = 0
+			}
 
 		}
 	}
@@ -792,6 +853,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACR.15
+				days = 0
+			}
 
 		}
 	}
@@ -825,6 +890,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACR.16
+				days = 0
+			}
 
 		}
 	}
@@ -856,6 +925,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = {
+				id = ACR.17
+				days = 0
+			}
 
 		}
 	}
