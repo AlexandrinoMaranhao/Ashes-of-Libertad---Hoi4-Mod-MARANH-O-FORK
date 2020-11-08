@@ -45,7 +45,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -126,7 +126,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
 		}
 		
@@ -196,7 +196,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -287,7 +287,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		

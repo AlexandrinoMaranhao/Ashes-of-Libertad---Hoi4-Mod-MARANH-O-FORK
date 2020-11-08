@@ -19,7 +19,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_intro_one
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_first_step_republic
 		x = 9
 		y =1
 
@@ -51,7 +51,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_intro_two
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACRE_first_step_republic
 		x = -1
 		y = 1
 		relative_position_id = ACR_intro_one
@@ -147,7 +147,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_the_1967_constitution
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_1967_constitution
 		x = 0
 		y = 3
 		relative_position_id = ACR_intro_one
@@ -179,7 +179,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_minorities_no
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_separate_ourselves_savages
 		x = -1
 		y = 4
 		relative_position_id = ACR_intro_one
@@ -212,7 +212,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_minorities_yes
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_all_men_equal
 		x = 1
 		y = 4
 		relative_position_id = ACR_intro_one
@@ -245,7 +245,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_press_no
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_control_press
 		x = -1
 		y = 5
 		relative_position_id = ACR_intro_one
@@ -379,7 +379,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_the_red_menace
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_red_menace
 		x = -4
 		y = 2
 		relative_position_id = ACR_intro_one
@@ -411,7 +411,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_defend_in_the_cities
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_fight_city
 		x = -5
 		y = 3
 		relative_position_id = ACR_intro_one
@@ -441,7 +441,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_defend_in_the_jungle
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_fight_jungle
 		x = -3
 		y = 3
 		relative_position_id = ACR_intro_one
