@@ -278,7 +278,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_press_yes
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_let_the_people_speak
 		x = 1
 		y = 5
 		relative_position_id = ACR_intro_one
@@ -379,7 +379,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_the_red_menace
-		icon = GFX_goal_red_menace
+		icon = GFX_goal_focus_ACRE_red_menace2
 		x = -4
 		y = 2
 		relative_position_id = ACR_intro_one
