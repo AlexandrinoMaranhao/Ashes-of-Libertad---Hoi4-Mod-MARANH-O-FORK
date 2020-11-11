@@ -11,7 +11,7 @@ set_convoys = 8
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -46,18 +46,8 @@ militia_army
 
 create_country_leader = {
 	
-	name = "Hélio Cury"
-	picture = "gfx/leaders/ACR/.dds"
-	expire = "1999.1.1"
-	ideology = centrism 
-	traits = {
-	}
-}
-
-create_country_leader = {
-	
 	name = "Jorge Kalume"
-	picture = "gfx/leaders/ACR/.dds"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
 	expire = "1999.1.1"
 	ideology = mercantile_oligarchy 
 	traits = {
@@ -90,6 +80,16 @@ create_country_leader = {
 
 create_country_leader = {
 	
+	name = "Hélio Cury"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Helio_Cury.dds"
+	expire = "1999.1.1"
+	ideology = centrism 
+	traits = {
+	}
+}
+
+create_country_leader = {
+	
 	name = "José Marques de Souza"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Marques_de_Souza.dds"
 	expire = "1999.1.1"
@@ -104,6 +104,16 @@ create_country_leader = {
 	picture = "gfx/leaders/ACR/.dds"
 	expire = "1999.1.1"
 	ideology = military_government 
+	traits = {
+	}
+}
+
+create_country_leader = {
+	
+	name = "Provisional Government of Acre"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Provisional Government.dds"
+	expire = "1999.1.1"
+	ideology = provisional_government
 	traits = {
 	}
 }

@@ -85,7 +85,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_intro_three
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_tapper_life
 		x = 1
 		y = 1
 		relative_position_id = ACR_intro_one
