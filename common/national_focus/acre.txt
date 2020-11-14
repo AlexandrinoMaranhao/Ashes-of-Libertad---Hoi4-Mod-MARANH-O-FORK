@@ -958,9 +958,82 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = acre_elections_tt
+			hidden_effect = {
+				if = { # Militarists Elected
+					limit = { 
+						AND = {
+							check_variable = { senate_militarist_seats > senate_technocrat_seats }
+							check_variable = { senate_militarist_seats > senate_nationalist_seats }
+						}
+					} 
+					set_politics = {
+						ruling_party = fascism
+						last_election = "1967.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					kill_country_leader = yes
+					create_country_leader = {
 
-          load_focus_tree = ACR_focus_2
+						name = "Edgar Cerqueira"
+						picture = "gfx/leaders/ACR/.dds"
+						expire = "1999.1.1"
+						ideology = military_government
+						traits = {
+						}
+					}
+				}
+				else_if = { # Technocrats Elected
+					limit = { 
+						AND = {
+							check_variable = { senate_technocrat_seats > senate_militarist_seats }
+							check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+						}
+					} 
+					set_politics = {
+						ruling_party = communism
+						last_election = "1967.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					kill_country_leader = yes
+					create_country_leader = {
 
+						name = "José Marques de Souza"
+						picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Marques_de_Souza.dds"
+						expire = "1999.1.1"
+						ideology = marxism
+						traits = {
+						}
+					}
+				}
+				else_if = { # Nationalists Elected
+					limit = {
+						AND = {
+							check_variable = { senate_nationalist_seats > senate_militarist_seats }
+							check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+						}
+					} 
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1967.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					kill_country_leader = yes
+					create_country_leader = {
+
+						name = "Hélio Cury"
+						picture = "gfx/leaders/ACR/Portrait_ACR_Helio_Cury.dds"
+						expire = "1999.1.1"
+						ideology = centrism
+						traits = {
+						}
+					}
+				}
+				load_focus_tree = ACR_focus_2
+			}
 		}
 	}
 }		
