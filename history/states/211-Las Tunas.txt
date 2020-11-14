@@ -1,16 +1,18 @@
+
 state={
 	id=211
 	name="STATE_211"
+
+	history={
+		owner = WAS
+		add_core_of = WAS
+
+	}
+
 	provinces={
-		74 913 2636 2857 2872 
+		913 2857 6342 6343 
 	}
 	manpower=8643
-        state_category=wasteland
 	buildings_max_level_factor=1.000
-
-            history = {
-
-        owner = WAS
-        add_core_of = WAS
-}
+	state_category=wasteland
 }

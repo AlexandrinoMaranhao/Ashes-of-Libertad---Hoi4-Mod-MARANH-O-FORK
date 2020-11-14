@@ -1,14 +1,18 @@
+
 state={
 	id=216
 	name="STATE_216"
+
+	history={
+		owner = CUB
+		add_core_of = CUB
+
+	}
+
 	provinces={
-		1549 1825 2391 2848 
+		1825 6336 6337 6338 6339 6341 
 	}
 	manpower=40585
-        state_category=city
 	buildings_max_level_factor=1.000
-            history = {
-             owner=CUB
-             add_core_of = CUB
-}
+	state_category=city
 }
