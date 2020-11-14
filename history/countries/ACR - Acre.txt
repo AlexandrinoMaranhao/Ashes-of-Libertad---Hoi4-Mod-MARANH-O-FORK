@@ -49,7 +49,7 @@ create_country_leader = {
 	name = "Jorge Kalume"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
 	expire = "1999.1.1"
-	ideology = mercantile_oligarchy 
+	ideology = mercantile_oligarchy
 	traits = {
 	}
 }
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Hélio Cury"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Helio_Cury.dds"
 	expire = "1999.1.1"
-	ideology = centrism 
+	ideology = centrism
 	traits = {
 	}
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "José Marques de Souza"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Marques_de_Souza.dds"
 	expire = "1999.1.1"
-	ideology = marxism 
+	ideology = marxism
 	traits = {
 	}
 }
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Edgar Cerqueira"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 	expire = "1999.1.1"
-	ideology = military_government 
+	ideology = military_government
 	traits = {
 	}
 }

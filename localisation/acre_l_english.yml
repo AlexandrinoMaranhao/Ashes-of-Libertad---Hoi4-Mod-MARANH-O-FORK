@@ -1,4 +1,6 @@
 ﻿l_english:
+# Focus Tree
+  acre_elections_tt:0 "§KElections will be held...§!"
 
 # Decisions
   acrean_senate:0 "The Senate of Acre"
@@ -12,14 +14,14 @@
 
   acrean_senate_militarist_1_seat_tt:0 "Will grant one Seat to the §GMilitarists§!"
   acrean_senate_militarist_2_seat_tt:0 "Will grant two Seats to the §GMilitarists§!"
-  acrean_senate_militarist_3_seat_tt:0 "Will grant thrre Seats to the §GMilitarists§!"
+  acrean_senate_militarist_3_seat_tt:0 "Will grant three Seats to the §GMilitarists§!"
 
   acrean_senate_technocrat_1_seat_tt:0 "Will grant one Seat to the §RTechnocrats§!"
   acrean_senate_technocrat_2_seat_tt:0 "Will grant two Seats to the §RTechnocrats§!"
-  acrean_senate_technocrat_3_seat_tt:0 "Will grant thrre Seats to the §RTechnocrats§!"
+  acrean_senate_technocrat_3_seat_tt:0 "Will grant three Seats to the §RTechnocrats§!"
 
   acrean_senate_nationalist_1_seat_tt:0 "Will grant one Seat to the §YNationalists§!"
   acrean_senate_nationalist_2_seat_tt:0 "Will grant two Seats to the §YNationalists§!"
-  acrean_senate_nationalist_3_seat_tt:0 "Will grant thrre Seats to the §YNationalists§!"
+  acrean_senate_nationalist_3_seat_tt:0 "Will grant three Seats to the §YNationalists§!"
 
   debug_add_militarists_1:0 "Debug - Add 1 Militarist Seat"

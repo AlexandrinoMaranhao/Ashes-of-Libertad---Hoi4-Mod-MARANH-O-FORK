@@ -7,9 +7,6 @@ scripted_gui = {
 		visible = { always = yes }
 
 		properties = {
-			lottquadros_Meter = {
-				frame = BRA_lottquadros_progress_var
-			}
 		}
 
 		effects = {
