@@ -193,7 +193,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 300
+				amount = 339
 				producer = COR
 			}
 		}
@@ -221,7 +221,7 @@
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment 
-				amount = 200
+				amount = 284
 				producer = COR
 			}
 		}
@@ -240,7 +240,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 250
+				amount = 151
 				producer = COR
 			}
 		}

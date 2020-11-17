@@ -3,6 +3,26 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_focus_ACRE_right_mens"
+	texturefile = "gfx/interface/goals/focus_ACRE_right_mens.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_tapper_life_hard"
+	texturefile = "gfx/interface/goals/focus_ACRE_tapper_life_hard.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_senate"
+	texturefile = "gfx/interface/goals/focus_ACRE_senate.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_need_of_industries"
+	texturefile = "gfx/interface/goals/focus_ACRE_need_of_industries.dds"
+	}	
+	
+	SpriteType = {
 	name = "GFX_goal_tapper_life"
 	texturefile = "gfx/interface/goals/tapper_life.dds"
 	}	

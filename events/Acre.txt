@@ -90,11 +90,28 @@ country_event = {
 	add_ideas = state_segregation   
 	acre_senate_add_militarist_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
 	}
 	option = {
 		name = ACR.2.C
 	add_ideas = total_segregation 
     acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 }
 
@@ -114,12 +131,29 @@ country_event = {
 		name = ACR.3.A
 		add_ideas = integrated_society
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.3.B
 		add_ideas = racist_society
 	acre_senate_add_militarist_seats_1 = yes
-    acre_senate_add_nationalist_seats_1 = yes		
+    acre_senate_add_nationalist_seats_1 = yes	
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+	
     }
 }
 
@@ -140,11 +174,28 @@ country_event = {
 	    add_ideas = idea_AOL_light_censorship
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+
 	}
 	option = {
 		name = ACR.4.B
         add_ideas = idea_AOL_total_censorship
     acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.4.C
@@ -169,6 +220,16 @@ country_event = {
 		add_ideas = idea_AOL_free_press
     acre_senate_add_nationalist_seats_1 = yes
     acre_senate_add_technocrat_seats_1 = yes
+			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
 
 	}
 	option = {
@@ -176,6 +237,17 @@ country_event = {
 		add_ideas = idea_AOL_light_censorship
     acre_senate_add_militarist_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+
 	}
 	option = {
 		name = ACR.5.C
@@ -200,12 +272,29 @@ country_event = {
 		name = ACR.6.A
 		add_ideas = regulated_slavery
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.6.B
 		add_ideas = bonded_labor
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
 	}
 
 }
@@ -226,12 +315,30 @@ country_event = {
 		name = ACR.7.A
 		add_ideas = slavery_banned
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.7.B
 		add_ideas = domestic_servitude
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
+			
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+
 	}
 
 }
@@ -250,6 +357,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.8.A
+		add_ideas = the_red_menace
 	}
 
 }
@@ -271,16 +379,34 @@ country_event = {
 		add_ideas = limited_conscription
     acre_senate_add_technocrat_seats_2 = yes
 
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
+
 	}
 	option = {
 		name = ACR.9.B
 		add_ideas = extensive_conscription
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.9.C
 		add_ideas = all_adults_serve
 	acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 }
 
@@ -299,14 +425,32 @@ country_event = {
 	option = {
 		name = ACR.10.A
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.10.B
 	acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.10.C
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 }
 
@@ -343,16 +487,34 @@ country_event = {
 		name = ACR.12.A
 		add_ideas = closed_economy
     acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.12.B
 		add_ideas = limited_exports
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.12.C
 		add_ideas = export_focus
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 }
 
@@ -371,10 +533,22 @@ country_event = {
 	option = {
 		name = ACR.13.A
     acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.13.B
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 }
 
@@ -393,10 +567,22 @@ country_event = {
 	option = {
 		name = ACR.14.A
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.14.B
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 }
 
@@ -433,14 +619,32 @@ country_event = {
 	option = {
 		name = ACR.16.A
     acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.16.B
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.16.C
 	acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
   	}
 }
 
@@ -460,16 +664,34 @@ country_event = {
 		name = ACR.17.A
 		add_ideas = low_economic_mobilisation
     acre_senate_add_technocrat_seats_2 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.17.C
 		add_ideas = war_economy
     acre_senate_add_nationalist_seats_2 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
 	}
 	option = {
 		name = ACR.17.B
 		add_ideas = undisturbed_isolation
     acre_senate_add_militarist_seats_2 = yes
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 	}
 }
 

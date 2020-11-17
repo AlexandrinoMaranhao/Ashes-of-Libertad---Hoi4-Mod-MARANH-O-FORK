@@ -40,9 +40,8 @@ ideas = {
 				always = no
 			}
 			
-			modifier = {
+        targeted_modifier = { tag = ERN attack_bonus_against = 0.1 defense_bonus_against = 0.25}
 
-			}
 		}
 		militia_army = {
 			allowed = {

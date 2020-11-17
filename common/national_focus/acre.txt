@@ -118,7 +118,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_intro_final
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_tapper_life_hard
 		x = 0
 		y = 2
 		relative_position_id = ACR_intro_one
@@ -311,7 +311,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_workers_no
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_right_mens
 		x = -1
 		y = 6
 		relative_position_id = ACR_intro_one
@@ -344,7 +344,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_workers_yes
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_need_of_industries
 		x = 1
 		y = 6
 		relative_position_id = ACR_intro_one
@@ -435,7 +435,36 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4230
+		level = 3
+	}
+}
 
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4300
+		level = 3
+	}
+}
+
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4305
+		level = 2
+	}
+}
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 811
+		level = 2
+	}
+}
 		}
 	}
 
@@ -465,7 +494,66 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4300
+		level = 1
+	}
+}
 
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 2029
+		level = 1
+	}
+}
+
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 1813
+		level = 1
+	}
+}
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4279
+		level = 1
+	}
+}
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4263
+		level = 1
+	}
+}
+
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4258
+		level = 1
+	}
+}
+
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4268
+		level = 2
+	}
+}
+        89 = {
+	add_building_construction = {
+		type = bunker
+        	province = 4241
+		level = 2
+	}
+}
 		}
 	}
 
@@ -531,6 +619,28 @@ focus_tree = {
 		completion_reward = {
     acre_senate_add_nationalist_seats_2 = yes
     acre_senate_add_technocrat_seats_1 = yes
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+
+			create_field_marshal = {
+				name = "PLACEHOLDER"
+				picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
+				traits = { trait_reckless war_hero media_personality }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+
 		}
 	}
 
@@ -563,6 +673,28 @@ focus_tree = {
 		completion_reward = {
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_militarist_seats_2 = yes
+
+			create_field_marshal = {
+				name = "Edgar Cerqueira"
+				picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+				traits = { defensive_doctrine old_guard }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+
 		}
 	}
 
@@ -603,7 +735,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_the_senate
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_senate
 		x = 4
 		y = 2
 		relative_position_id = ACR_intro_one
@@ -661,6 +793,11 @@ focus_tree = {
 		completion_reward = {
 
     acre_senate_add_nationalist_seats_1 = yes
+			
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
 
 		}
 	}
@@ -692,6 +829,11 @@ focus_tree = {
 
 		completion_reward = {
     acre_senate_add_militarist_seats_1 = yes
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
 
 		}
 	}
@@ -723,6 +865,12 @@ focus_tree = {
 
 		completion_reward = {
     acre_senate_add_technocrat_seats_1 = yes
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
 		}
 	}
 
