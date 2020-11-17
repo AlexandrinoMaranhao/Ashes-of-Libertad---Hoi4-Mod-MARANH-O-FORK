@@ -25,10 +25,8 @@ set_popularities = {
 
 add_ideas = {
 	tribal_mobilization
-	migratory_tribe
 	unregulated_slavery
 	racial_oligarchy
-	no_press
 	undisturbed_isolation
 	closed_economy
 }

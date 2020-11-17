@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "Ramón Casto Jijón"
 	picture = "gfx/leaders/ECU/Portrait_ECU_Ramon_Casto_Jijon.dds"
 	expire = "1999.1.1"
-	ideology = stalinism
+	ideology = marxism 
 	traits = {
 		#
 	}

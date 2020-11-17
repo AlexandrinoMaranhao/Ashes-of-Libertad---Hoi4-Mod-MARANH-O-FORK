@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Luis de la Puente Uceda"
 	picture = "gfx/leaders/PRU/Portrait_PRU_Luis_de_la_Puente_Uceda.dds"
 	expire = "1999.1.1"
-	ideology = leninism 
+	ideology = marxism  
 	traits = {
 		#
 	}

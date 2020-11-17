@@ -124,7 +124,7 @@ ideas = {
 
     theorist = {
 			father_hirsch_theorist = {
-			picture = 
+#			picture = 
 			ledger = army
 			allowed = {
 				original_tag = COR
@@ -163,19 +163,19 @@ ideas = {
     naval_manufacturer = {
 
     repurposed_civilian_crafts = {
-    		designer = yes
+#    		designer = yes
 
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
+#			picture = 
 			traits = {
 			repurposed_civilian_crafts_trait
 			}
     }
 
     manauan_made_crafts = {
-    		designer = yes
+#    		designer = yes
 
 			allowed = {
 				original_tag = COR

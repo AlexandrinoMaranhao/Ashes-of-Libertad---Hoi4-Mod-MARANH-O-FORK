@@ -1957,7 +1957,7 @@ ideas = {
 
     integrated_society = {
     modifier = {
-		random = no
+
 		non_core_manpower = 0.5
 		conscription_factor = 0.1
     }
@@ -1968,7 +1968,7 @@ ideas = {
 
     racist_society = {
     modifier = {
-		random = no
+
 		non_core_manpower = 0.05
 		conscription_factor = -0.05
 		political_power_gain = 0.05
@@ -1980,7 +1980,7 @@ ideas = {
     
     state_segregation = {
     modifier = {
-		random = no
+
 		non_core_manpower = -0.1
 		conscription_factor = -0.25
 		political_power_gain = 0.1
@@ -1992,7 +1992,7 @@ ideas = {
 
     total_segregation = {
     modifier = {
-		random = no
+
 		non_core_manpower = -0.2
 		conscription_factor = -0.5
 		political_power_gain = 0.2
@@ -2004,7 +2004,7 @@ ideas = {
 
     racial_oligarchy = {
     modifier = {
-		random = no
+
         non_core_manpower = -0.5
         conscription_factor = -0.6
         political_power_gain = 0.5
@@ -2022,7 +2022,7 @@ ideas = {
 
     slavery_banned = {
     modifier = {
-		random = no
+
 		stability_factor = 0.10
 		trade_opinion_factor = 0.25
 		}
@@ -2034,7 +2034,7 @@ ideas = {
 
     bonded_labor = {
     modifier = {
-		random = no
+
 		conscription_factor = 0.02
 		production_factory_max_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.1
@@ -2050,7 +2050,7 @@ ideas = {
 
     domestic_servitude = {
     modifier = {
-		random = no
+
 		conscription_factor = 0.04
 		production_factory_max_efficiency_factor = 0.2
 		line_change_production_efficiency_factor = 0.2
@@ -2066,7 +2066,7 @@ ideas = {
 
     regulated_slavery = {
     modifier = {
-		random = no
+
 		conscription_factor = 0.06
 		production_factory_max_efficiency_factor = 0.3
 		line_change_production_efficiency_factor = 0.3
@@ -2090,7 +2090,7 @@ ideas = {
     
     idea_AOL_no_press = {
     modifier = {
-		random = no
+
 		stability_factor = -0.10
 		war_support_factor = -0.30
         political_power_factor = -0.05
@@ -2102,7 +2102,7 @@ ideas = {
 
     idea_AOL_free_press = {
     modifier = {
-		random = no
+
 		resistance_target = 0.1
 		compliance_gain = -0.1
         stability_factor = 0.5
@@ -2116,7 +2116,7 @@ ideas = {
 
     idea_AOL_light_censorship = {
     modifier = {
-		random = no
+
 		resistance_target = -0.05
 		compliance_gain = 0.15
         stability_factor = 0.15
@@ -2130,7 +2130,7 @@ ideas = {
 
     idea_AOL_state_press = {
     modifier = {
-		random = no
+
 		resistance_target = -0.10
 		compliance_gain = 0.25
         stability_factor = 0.05
@@ -2144,7 +2144,7 @@ ideas = {
 
     idea_AOL_total_censorship = {
     modifier = {
-		random = no
+
 		resistance_target = -0.25
 		compliance_gain = 0.5
 		stability_factor = -0.10

@@ -27,7 +27,6 @@ add_ideas = {
 	tribal_mobilization
 	bonded_labor
 	racist_society
-	no_press
 	war_economy
 	closed_economy
 }

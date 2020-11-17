@@ -30,7 +30,6 @@ add_ideas = {
     volunteer_only
 	low_economic_mobilisation
 	subsistence_economy
-	tomb_of_democracy
 }
 
 #create_country_leader = {

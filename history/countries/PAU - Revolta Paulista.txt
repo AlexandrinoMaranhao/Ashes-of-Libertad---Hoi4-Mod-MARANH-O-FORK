@@ -24,9 +24,7 @@ set_popularities = {
 }
 
 add_ideas = {
-lessons_from_castro
-meticulous_planning
-lost_connections
+
 	volunteer_only
 	closed_economy
 	war_economy

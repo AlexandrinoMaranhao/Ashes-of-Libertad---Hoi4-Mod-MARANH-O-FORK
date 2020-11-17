@@ -26,7 +26,6 @@ set_popularities = {
 add_ideas = {
 slavery_banned
 racist_society
-free_press
 limited_conscription
 civilian_economy
 closed_economy

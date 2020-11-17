@@ -29,7 +29,6 @@ add_ideas = {
 	isolation
 	domestic_servitude
 	integrated_society
-	total_censorship
 
 	antas
 	modern_missiones
