@@ -70,9 +70,28 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.1.A
+		add_stability = 0.05
 	}
+	
+	option = {
+		name = AMC.1.B
+		add_war_support = 0.05
+	
+	}
+	
+	option = {
+		name = AMC.1.C
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					
+				}
+			}
 }
-
+}
 #########################################################################
 # Keep Calm FFs
 #########################################################################
@@ -121,6 +140,9 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.4.A
+		add_stability = -0.05
+		add_war_support = 0.1
+		add_manpower = -200
 	}
 }
 
@@ -138,6 +160,9 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.5.A
+		add_stability = 0.1
+		add_war_support = -0.05
+		add_manpower = -500
 	}
 }
 
@@ -155,12 +180,14 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.6.A
+		add_stability = -0.1
+		add_political_power = -100
 	}
 }
 
 #########################################################################
 # Use the Military
-#########################################################################
+##`#######################################################################
 country_event = {
 	id = AMC.7
 	title = AMC.7.t
@@ -172,8 +199,16 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.7.A
+		430 = {
+			remove_building = {
+    type = infrastructure
+    level = 1
+}
+		}
 	}
 }
+
+
 
 #########################################################################
 # Segregate the troops
@@ -189,9 +224,12 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.8.A
+		set_country_flag = junta_allign
 	}
 	option = {
 		name = AMC.8.B
+				
+
 	}
 }
 
@@ -226,6 +264,7 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.10.A
+		add_stability = -0.1
 	}
 }
 
@@ -263,5 +302,78 @@ country_event = {
 	#Answer
 	option = {
 		name = AMC.12.A
+		if = {
+    limit = {
+        has_completed_focus = NHA_amapa_papers
+    }   
+    load_focus_tree = {
+				tree = NHA_focus_tree_rep1
+				keep_completed = yes
+			}
+}
+else_if = {
+    limit = {
+        has_country_flag = {
+    flag = junta_allign
+}
+    }
+    start_civil_war = {
+    ruling_party = fascism
+    ideology = democratic
+    
+}
+load_focus_tree = {
+				tree = NHA_focus_tree_junta1
+				keep_completed = yes
+			}
+}
+else = {
+     start_civil_war = {
+    ruling_party = democratic
+    ideology = fascism
+    
+}
+load_focus_tree = {
+				tree = NHA_focus_tree_rep1
+				keep_completed = yes
+			}
+}
+	}
+}
+
+#########################################################################
+# event for focus tree; address faction leaders
+#########################################################################
+country_event = {
+	id = AMC.13
+	title = AMC.13.t
+	desc = AMC.13.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = AMC.13.A
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+	}
+	
+	option = {
+		name = AMC.13.B
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 	}
 }
