@@ -1,0 +1,5 @@
+sound = {
+	name = "guanabara_super_sound"
+	file = "customsound/guanabara.wav"
+	always_load = no
+}

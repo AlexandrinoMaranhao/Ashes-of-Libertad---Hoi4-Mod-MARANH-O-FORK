@@ -23,7 +23,7 @@ guiTypes = {
 		Orientation = left
 		Origo = left
 		clipping = no
-		#show_sound = guanabara_super
+		show_sound = guanabara_super
 
 		iconType = {
 			name ="pic"
@@ -44,14 +44,6 @@ guiTypes = {
 			format = right
 			Orientation = lower_left
 		}
-
-		#iconType = {
-		#	name ="underlay"
-		#	spriteType = "GFX_superevent_text_underlay"
-		#	position = { x= 0 y = 0 }
-		#	Orientation = lower_left
-		#	alwaystransparent = yes
-		#}
 
 		buttonType = {
 			name = "button"
