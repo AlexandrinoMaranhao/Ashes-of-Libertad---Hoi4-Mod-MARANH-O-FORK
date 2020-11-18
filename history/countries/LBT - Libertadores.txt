@@ -24,7 +24,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	colombian_war
+	support_from_down_south
 }
 
 #create_country_leader = {
@@ -39,4 +40,13 @@ add_ideas = {
 #}
 
 
+}
+
+declare_war_on = {
+	target = ELN
+	type = annex_everything
+}
+declare_war_on = {
+	target = FAR
+	type = annex_everything
 }

@@ -25,6 +25,8 @@ set_popularities = {
 
 add_ideas = {
 	extensive_conscription
+
+	colombian_war
 }
 
 create_country_leader = {

@@ -494,6 +494,10 @@ spriteType ={
     name = "GFX_idea_lost_connections"
     texturefile = "gfx/interface/ideas/lost_connections.dds"
 }
+spriteType = {
+    name = "GFX_idea_colombian_war"
+    texturefile = "gfx/interface/ideas/idea_la_violencia.dds"
+}
 ###############################################################################
 
 

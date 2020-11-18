@@ -767,7 +767,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_appoint_senator_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_helio_cury
 		x = 6
 		y = 3
 		relative_position_id = ACR_intro_one
@@ -804,7 +804,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_appoint_senator_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_edgar_cerqueira
 		x = 4
 		y = 3
 		relative_position_id = ACR_intro_one
@@ -840,7 +840,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_appoint_senator_3
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_marques_de_souza
 		x = 2
 		y = 3
 		relative_position_id = ACR_intro_one

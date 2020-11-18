@@ -26,6 +26,8 @@ set_popularities = {
 add_ideas = {
 	extensive_conscription
 	closed_economy
+
+	colombian_war
 }
 
 create_country_leader = {
@@ -41,3 +43,4 @@ create_country_leader = {
 
 
 }
+
