@@ -1,65 +1,65 @@
 guiTypes = {
 
-	containerWindowType = {
+	containerWindowType = { # GUANABARA
 		name = "super_event_guanabara_frame"
-		size = { width = 2000 height = 1510 }
-		position = { x=0 y=0 }
-		Orientation = center
-		Origo = center
+		size = { width = 1000 height = 755 }
+		position = { x=-60 y=-220 }
+		Orientation = left
+		Origo = left
 		clipping = no
-
-		#iconType = {
-		#	name ="underlay"
-		#	spriteType = "GFX_superevent_text_underlay"
-		#	position = { x= 30 y = -200 }
-		#	Orientation = lower_left
-		#	alwaystransparent = yes
-		#}
 
 		iconType = { # Background
 			name ="pic"
 			spriteType = "GFX_se_background"
-			position = { x= -286 y = -18 }
+			position = { x= 0 y = 0 }
 			Orientation = center
 			alwaystransparent = yes
 		}
 	}
-	containerWindowType = { # GUANABARA
+	containerWindowType = {
 		name = "super_event_guanabara_pic"
-		size = { width = 2000 height = 1510 }
-		position = { x=0 y= 0 }
-		Orientation = center
-		Origo = center
+		size = { width = 1000 height = 755 }
+		position = { x=-60 y=-220 }
+		Orientation = left
+		Origo = left
 		clipping = no
 		#show_sound = guanabara_super
 
 		iconType = {
 			name ="pic"
 			spriteType = "GFX_se_guanabara"
-			position = { x= -286 y = -18 }
+			position = { x= 0 y = 0 }
 			Orientation = center
 			alwaystransparent = no
 		}
 
 		instantTextBoxType = {
 			name = "description"
-			position = {  x= 120 y = -195 }
-			font = "garamond_24"
+			position = { x=990 y=120 }
+			font = "vic_22"
 			text = "se_guanabara_desc"
-			maxWidth = 455
-			maxHeight = 173
+			maxWidth = 415
+			maxHeight = 200
 			fixedsize = yes
 			format = right
 			Orientation = lower_left
 		}
 
+		#iconType = {
+		#	name ="underlay"
+		#	spriteType = "GFX_superevent_text_underlay"
+		#	position = { x= 0 y = 0 }
+		#	Orientation = lower_left
+		#	alwaystransparent = yes
+		#}
+
 		buttonType = {
 			name = "button"
 			text = "se_guanabara_a"
 			shortcut = "ESCAPE"
-			position = { x= -286 y = -18 }
+			position = { x=600 y=620 }
 			quadTextureSprite ="GFX_big_button_232"
-			buttonFont = "garamond_24"
+			buttonFont = "vic_22"
 			Orientation = center
 		}
 	}
