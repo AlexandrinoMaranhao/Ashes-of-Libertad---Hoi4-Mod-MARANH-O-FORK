@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "super_event_guanabara_frame"
-		size = { width = 494 height = 373 }
+		size = { width = 2000 height = 1510 }
 		position = { x=0 y=0 }
 		Orientation = center
 		Origo = center
@@ -26,7 +26,7 @@ guiTypes = {
 	}
 	containerWindowType = { # GUANABARA
 		name = "super_event_guanabara_pic"
-		size = { width = 494 height = 373 }
+		size = { width = 2000 height = 1510 }
 		position = { x=0 y= 0 }
 		Orientation = center
 		Origo = center
