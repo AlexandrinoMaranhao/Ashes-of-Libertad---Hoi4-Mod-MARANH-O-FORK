@@ -27,6 +27,9 @@ add_ideas = {
 	scraping_the_barrel
 	closed_economy
 	tot_economic_mobilisation
+
+	colombian_war
+	fading_support
 }
 
 create_country_leader = {
@@ -50,4 +53,27 @@ create_country_leader = {
 		
 	}
 }
+
+declare_war_on = {
+	target = ELN
+	type = annex_everything
 }
+declare_war_on = {
+	target = FAR
+	type = annex_everything
+}
+declare_war_on = {
+	target = LBT
+	type = annex_everything
+}
+
+
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	set_autonomy = { target = CLA autonomy_state = autonomy_isolated_military_district }
+	else = {
+		puppet = CLA
+	}
+}
+

@@ -1,0 +1,115 @@
+#####################################################################################################
+##############                                                                #######################
+##############                    A R G E N T I N A !                         #######################
+#####################################################################################################
+
+
+add_namespace = ARG
+add_namespace = ARG_aiwar ## FOR ALPHA RELEASE
+add_namespace = ARG_intro
+
+##### INTRO EVENTS
+## ARGENTINA INTRO (theres not any yet LOL)
+country_event = {
+    id = ARG_intro.1
+    title = ARG_intro.1.t
+    desc = ARG_intro.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = ARG_intro.1.a
+    }
+}
+
+
+###### NOW TIME TO GET INTO THE GRITTY NITTY
+## ARGENTINA WAR CHAIN FOR ALPHA ##
+country_event = { #### Falklands Reclamation
+    id = ARG_aiwar.1
+    title = ARG_aiwar.1.t
+    desc = ARG.aiwar.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = ARG_aiwar.1.a
+        ai_chance = { factor = 1 }
+        declare_war_on = {
+            target = FAK
+            type = annex_everything
+        }
+        add_state_core = 153
+        add_state_core = 514
+        hidden_effect = { country_event = { id = ARG_aiwar.2 days = 574 } }
+    }
+}
+country_event = { ### Paraguay
+    id = ARG_aiwar.2
+    title = ARG_aiwar.2.t
+    desc = ARG.aiwar.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = ARG_aiwar.2.a
+        ai_chance = { factor = 0.5 }
+        declare_war_on = {
+            target = PAR
+            type = annex_everything
+        }
+        hidden_effect = { country_event = { id = ARG_aiwar.3 days = 371 } }
+    }
+    option = {
+        name = ARG.aiwar.2.b
+        ai_chance = { factor = 0.5 }
+        puppet = PAR
+        hidden_effect = { country_event = { id = ARG_aiwar.3 days = 371 } }
+    }
+}
+country_event = { ### Uruguay 
+    id = ARG_aiwar.3
+    title = ARG.aiwar.3.t
+    desc = ARG.aiwar.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = ARG_aiwar.3.a
+        ai_chance = { factor = 0.3 }
+        annex_country = {
+            target = URG
+            transfer_troops = yes
+        }
+        hidden_effect = { country_event = { id = ARG_aiwar.4 days = 356 } }
+    }
+    option = {
+        name = ARG_aiwar.3.b
+        ai_chance = { factor = 0.7 }
+        declare_war_on = {
+            target = URG
+            type = annex_everything
+        }
+        hidden_effect = { country_event = { id = ARG_aiwar.4 days = 356 } }
+    }
+}
+country_event = {
+    id = ARG_aiwar.4
+    title = ARG.aiwar.4.t
+    desc = ARG.aiwar.4.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = ARG.aiwar.4.a
+        ai_chance = { factor = 1 }
+        declare_war_on = {
+            target = CHL
+            type = annex_everything
+        }
+    }
+}

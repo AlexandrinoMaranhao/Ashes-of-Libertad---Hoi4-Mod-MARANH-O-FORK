@@ -24,7 +24,6 @@ set_popularities = {
 }
 
 create_faction = los_libertadores
-add_to_faction = LBT
 
 add_ideas = {
 	isolation
