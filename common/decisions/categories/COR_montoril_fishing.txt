@@ -1,0 +1,14 @@
+
+COR_Montoril_Goes_Fishing = {
+	icon = decision_category_generic_political_actions
+	visible_when_empty = yes
+
+	picture = GFX_idea_amazonas_theater
+
+	allowed = {
+		original_tag = COR
+	}
+	visible = {
+		original_tag = COR
+	}
+}

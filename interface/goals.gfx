@@ -3,6 +3,26 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_More_Mouths_to_Feed"
+	texturefile = "gfx/interface/goals/More_Mouths_to_Feed.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Find_a_Fishing_Spot"
+	texturefile = "gfx/interface/goals/Find_a_Fishing_Spot.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Make_An_Example_nice"
+	texturefile = "gfx/interface/goals/Make_An_Example_nice.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Drafting_a_Plan"
+	texturefile = "gfx/interface/goals/Drafting_a_Plan.dds"
+	}	
+	
+	SpriteType = {
 	name = "GFX_goal_focus_ACRE_helio_cury"
 	texturefile = "gfx/interface/goals/focus_ACRE_helio_cury.dds"
 	}	
