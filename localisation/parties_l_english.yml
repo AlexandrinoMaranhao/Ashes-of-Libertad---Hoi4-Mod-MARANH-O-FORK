@@ -1,7 +1,7 @@
 ﻿l_english:
  communism:0 "Revolutionary"
  communism_noun:0 "Revolutionary"
- communism_desc:0 "Values Radical Revisionisms"
+ communism_desc:0 "Values Radical Revisionism"
 
  democratic:0 "Conservative"
  democratic_noun:0 "Conservative"
@@ -160,4 +160,10 @@
  MNS_democratic_party:0 ""
  MNS_neutrality_party:0 ""
 
+JUN_fascism_party:0 "Junta Militar - CO"
+JUN_fascism_party_long:0 "Junta Militar - Clique dos Oficiais"
+JUN_communism_party:0 "Leftist Dissidents"
+JUN_democratic_party:0 "Liberal Movements"
+JUN_neutrality_party:0 "Junta Militar - R"
+JUN_neutrality_party_long:0 "Junta Militar - Reformistas"
 

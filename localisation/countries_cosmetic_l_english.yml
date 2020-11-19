@@ -733,3 +733,6 @@
  DST_communism:0 "DST"
  DST_fascism:0 "DST"
  DST_neutrality:0 "DST"
+ JUN_COUNCIL_fascism:0 "Brazilian Military Council"
+ JUN_COUNCIL_fascism_DEF:0 "the Brazilian Military Junta"
+ JUN_COUNCIL_fascism_ADJ:0 "Brazilian"

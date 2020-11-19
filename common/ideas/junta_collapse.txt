@@ -1,0 +1,21 @@
+ideas = {
+    country = {
+        administration_in_chaos = {
+            picture = x
+
+            allowed = {
+                tag = JUN
+            }
+
+            available = {
+
+            }
+
+            modifier = {
+                stability_weekly = -0.05
+                max_command_power = -90
+                army_org_factor = -0.5
+            }
+        }
+    }
+}

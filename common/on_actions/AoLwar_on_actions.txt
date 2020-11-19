@@ -79,50 +79,72 @@ on_actions = {
             }
         }
     }
+
     on_state_control_changed = {
         effect = {
-            limit = {
-                ROOT = { tag = CRJ }
-                has_global_flag = guanabara_battle
-                AND = {
-                    24 = {
-                        is_owned_by = BRA
-                    }
-                    24 = {
-                        is_controlled_by = CRJ
+            if = {
+                limit = {
+                    has_global_flag = guanabara_battle
+                    AND = {
+                        24 = {
+                            is_owned_by = BRA
+                        }
+                        24 = {
+                            is_fully_controlled_by = CRJ
+                        }
                     }
                 }
-            }
-            CRJ = {
-                country_event = {
-                    id = CRJ_guanabara.3
-                }
-            }
-            BRA = {
-                country_event = {
-                    id = BRA_guanabara.3
+                CRJ = {
+                    country_event = {
+                        id = CRJ_guanabara.3
+                    }
+                    BRA = {
+                        country_event = {
+                            id = BRA_guanabara.3
+                        }
+                    }
                 }
             }
         }
     }
+
     on_declare_war = {
         effect = {
-            limit = {
-                ROOT = { tag = CRJ }
-                has_global_flag = guanabara_battle
-            }
-            CRJ = {
-                country_event = {
-                    id = CRJ_guanabara.2
-                    days = 31
+            if = {
+                limit = {
+                    has_global_flag = guanabara_battle
+                }
+                CRJ = {
+                    country_event = {
+                        id = CRJ_guanabara.2
+                        days = 45
+                    }
+                }
+                BRA = {
+                    country_event = {
+                        id = BRA_guanabara.2
+                        days = 45
+                    }
                 }
             }
-            BRA = {
+        }
+    }
+
+
+#### JUNTA BREAK UP #####
+
+###1-CASTELODEATH###
+
+on_actions = {
+    on_startup = {
+        effect = {
+            JUN = {
                 country_event = {
-                    id = BRA_guanabara.2
-                    days = 31
+                    id = JUN_collapse.1 
+                    days = 679
                 }
             }
         }
     }
 }
+

@@ -1,0 +1,21 @@
+add_namespace = SAO
+
+country_event = {
+    id = SAO.200
+    title = SAO.200.t
+    desc = SAO.200.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        annex_country = {
+            target = UBA
+            transfer_troops = yes
+        }
+        SAO = { add_state_core = 60 }
+        SAO = { add_state_core = 61 }
+        SAO = { add_state_core = 513 }
+        SAO = { add_state_core = 512 }
+    }
+}

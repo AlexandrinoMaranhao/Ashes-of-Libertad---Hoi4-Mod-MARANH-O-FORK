@@ -1,0 +1,19 @@
+add_namespace = RMI
+
+
+
+country_event = {
+    id = RMI.200
+    title = RMI.200.t
+    desc = RMI.200.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        declare_war_on = {
+            target = VAL
+            type = annex_everything
+        }
+    }
+}

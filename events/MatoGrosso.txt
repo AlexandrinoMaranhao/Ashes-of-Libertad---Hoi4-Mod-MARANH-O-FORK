@@ -1,0 +1,19 @@
+#####LEL####
+
+add_namespace = JAG
+
+
+country_event = {
+    id = JAG.10
+    title = JAG.10.t
+    desc = JAG.10.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = JAG.10.a
+        JAG = { transfer_state = 147 }
+        JUN = { country_event = { id = JUN.10 days = 1 } }
+    }
+}

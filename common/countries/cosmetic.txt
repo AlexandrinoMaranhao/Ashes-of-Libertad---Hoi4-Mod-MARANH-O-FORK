@@ -29,6 +29,11 @@ RAJ_UK = {
 	color_ui = rgb { 200  10  10 }
 }
 
+JUN_COUNCIL = {
+	color = rgb { 57 71 48 }
+	color_ui = rgb { 39 68 19 }
+}
+
 RAJ_FREE = {
 	color = rgb { 80  165  10 }
 	color_ui = rgb { 80  165  10 }
