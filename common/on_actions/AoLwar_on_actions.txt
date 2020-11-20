@@ -15,7 +15,7 @@ on_actions = {
 
 ######## Che Huevada
 
-
+on_actions = {
     on_startup = {
         effect = {
             ERN = {
