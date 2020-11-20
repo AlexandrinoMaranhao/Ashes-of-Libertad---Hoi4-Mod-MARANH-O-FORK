@@ -1,7 +1,7 @@
 
 COR_Montoril_Goes_Fishing = {
 	icon = decision_category_generic_political_actions
-	visible_when_empty = no
+	visible_when_empty = yes
 
 	picture = x
 

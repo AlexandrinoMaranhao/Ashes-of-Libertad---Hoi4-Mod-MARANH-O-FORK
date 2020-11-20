@@ -4,6 +4,8 @@
 
 add_namespace = CoariIntroduction
 add_namespace = Coari
+add_namespace = MontorilGoesFishing
+add_namespace = MontorilReturnsFromFishing
 
 #########################################################################
 # How did we get here?
@@ -172,5 +174,343 @@ country_event = {
 	#Answer
 	option = {
 		name = Coari.7.A
+	}
+}
+#########################################################################
+# Montoril Goes Fishing c:
+#########################################################################
+country_event = {
+	id = MontorilReturnsFromFishing.1
+	title = MontorilReturnsFromFishing.1.t
+	desc = MontorilReturnsFromFishing.1.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.1.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.2
+	title = MontorilReturnsFromFishing.2.t
+	desc = MontorilReturnsFromFishing.2.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.2.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.3
+	title = MontorilReturnsFromFishing.3.t
+	desc = MontorilReturnsFromFishing.3.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.3.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.4
+	title = MontorilReturnsFromFishing.4.t
+	desc = MontorilReturnsFromFishing.4.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.4.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.5
+	title = MontorilReturnsFromFishing.5.t
+	desc = MontorilReturnsFromFishing.5.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.5.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.6
+	title = MontorilReturnsFromFishing.6.t
+	desc = MontorilReturnsFromFishing.6.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.6.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.7
+	title = MontorilReturnsFromFishing.7.t
+	desc = MontorilReturnsFromFishing.7.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.7.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.8
+	title = MontorilReturnsFromFishing.8.t
+	desc = MontorilReturnsFromFishing.8.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.8.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.9
+	title = MontorilReturnsFromFishing.9.t
+	desc = MontorilReturnsFromFishing.9.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.9.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.10
+	title = MontorilReturnsFromFishing.10.t
+	desc = MontorilReturnsFromFishing.10.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.10.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.11
+	title = MontorilReturnsFromFishing.11.t
+	desc = MontorilReturnsFromFishing.11.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.11.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.12
+	title = MontorilReturnsFromFishing.12.t
+	desc = MontorilReturnsFromFishing.12.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.12.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.13
+	title = MontorilReturnsFromFishing.13.t
+	desc = MontorilReturnsFromFishing.13.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.13.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.14
+	title = MontorilReturnsFromFishing.14.t
+	desc = MontorilReturnsFromFishing.14.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.14.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.15
+	title = MontorilReturnsFromFishing.15.t
+	desc = MontorilReturnsFromFishing.15.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.15.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.16
+	title = MontorilReturnsFromFishing.16.t
+	desc = MontorilReturnsFromFishing.16.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.16.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.17
+	title = MontorilReturnsFromFishing.17.t
+	desc = MontorilReturnsFromFishing.17.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.17.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.18
+	title = MontorilReturnsFromFishing.18.t
+	desc = MontorilReturnsFromFishing.18.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.18.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.19
+	title = MontorilReturnsFromFishing.19.t
+	desc = MontorilReturnsFromFishing.19.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.19.A
+	}
+}
+
+country_event = {
+	id = MontorilReturnsFromFishing.20
+	title = MontorilReturnsFromFishing.20.t
+	desc = MontorilReturnsFromFishing.20.d
+	picture = x
+	
+	#Answer
+	option = {
+		name = MontorilReturnsFromFishing.20.A
+	}
+}
+
+country_event = {
+	id = MontorilGoesFishing.1
+	title = MontorilGoesFishing.1.t
+	desc = MontorilGoesFishing.1.d
+	picture = x
+		fixed_random_seed = no
+
+	#Answer
+	option = {
+	name = MontorilGoesFishing.1.A
+		random_list = {
+					5 = {
+			country_event = MontorilReturnsFromFishing.1
+					}
+
+				    5 = {
+			country_event = MontorilReturnsFromFishing.2
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.3
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.4
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.5
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.6
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.7
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.8
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.9
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.10
+					}
+					5 = {
+			country_event = MontorilReturnsFromFishing.11
+					}
+
+				    5 = {
+			country_event = MontorilReturnsFromFishing.12
+					}
+
+					5 = {		
+			country_event = MontorilReturnsFromFishing.13
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.14
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.15
+					}
+
+					5 = {
+
+			country_event = MontorilReturnsFromFishing.16
+					}
+
+					5 = {
+
+			country_event = MontorilReturnsFromFishing.17
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.18
+					}
+
+					5 = {
+
+			country_event = MontorilReturnsFromFishing.19
+					}
+
+					5 = {
+			country_event = MontorilReturnsFromFishing.20
+					}
+	    }
 	}
 }
