@@ -184,6 +184,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.1.t
 	desc = MontorilReturnsFromFishing.1.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -196,6 +197,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.2.t
 	desc = MontorilReturnsFromFishing.2.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -208,6 +210,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.3.t
 	desc = MontorilReturnsFromFishing.3.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -220,6 +223,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.4.t
 	desc = MontorilReturnsFromFishing.4.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -232,6 +236,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.5.t
 	desc = MontorilReturnsFromFishing.5.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -244,6 +249,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.6.t
 	desc = MontorilReturnsFromFishing.6.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -256,6 +262,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.7.t
 	desc = MontorilReturnsFromFishing.7.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -268,6 +275,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.8.t
 	desc = MontorilReturnsFromFishing.8.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -280,6 +288,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.9.t
 	desc = MontorilReturnsFromFishing.9.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -292,6 +301,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.10.t
 	desc = MontorilReturnsFromFishing.10.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -304,6 +314,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.11.t
 	desc = MontorilReturnsFromFishing.11.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -316,6 +327,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.12.t
 	desc = MontorilReturnsFromFishing.12.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -328,6 +340,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.13.t
 	desc = MontorilReturnsFromFishing.13.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -340,6 +353,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.14.t
 	desc = MontorilReturnsFromFishing.14.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -352,6 +366,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.15.t
 	desc = MontorilReturnsFromFishing.15.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -364,6 +379,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.16.t
 	desc = MontorilReturnsFromFishing.16.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -376,6 +392,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.17.t
 	desc = MontorilReturnsFromFishing.17.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -388,6 +405,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.18.t
 	desc = MontorilReturnsFromFishing.18.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -400,6 +418,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.19.t
 	desc = MontorilReturnsFromFishing.19.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -412,6 +431,7 @@ country_event = {
 	title = MontorilReturnsFromFishing.20.t
 	desc = MontorilReturnsFromFishing.20.d
 	picture = x
+    is_triggered_only = yes
 	
 	#Answer
 	option = {
@@ -424,8 +444,8 @@ country_event = {
 	title = MontorilGoesFishing.1.t
 	desc = MontorilGoesFishing.1.d
 	picture = x
-		fixed_random_seed = no
-
+	fixed_random_seed = no
+    is_triggered_only = yes
 	#Answer
 	option = {
 	name = MontorilGoesFishing.1.A
