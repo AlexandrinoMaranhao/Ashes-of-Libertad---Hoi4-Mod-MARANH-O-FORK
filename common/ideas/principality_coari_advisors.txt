@@ -292,33 +292,25 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			modifier = {
-		war_support_factor = 0.10 
-		trade_opinion_factor = 0.10
-		consumer_goods_factor = -0.02
-		weekly_manpower = 100
-		foreign_subversive_activites = -0.4
+			traits = {
+				miss_coari_trait
 			}
 			}
 
     father_hirsch_advisor_cor = {
 			allowed = {
 				original_tag = COR
-			}
-			modifier = {
-		production_speed_industrial_complex_factor = 0.05
-		production_speed_infrastructure_factor = 0.05
-		compliance_gain = 0.5
-		resistance_target = -0.05
-        political_power_factor = -0.02
-		consumer_goods_factor = 0.05			
-			}
-
+			}		
+			
 			available = {
 			has_completed_focus = COR_the_american_priest
 			NOT = { has_completed_focus = COR_the_escapist_priest }
 			}
-    }
+			traits = {
+				the_american_priest_trait
+			}
+   		} 	
+	}
 
     eddie_ribeiro_merc_advisor = {
 			allowed = {
