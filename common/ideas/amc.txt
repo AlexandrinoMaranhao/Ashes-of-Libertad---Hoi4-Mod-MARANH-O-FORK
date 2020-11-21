@@ -78,30 +78,27 @@ ideas = {
                 join_faction_tension = 0.8
 			}
 		}
-	}	
+		amazons_finest = {
+			
+			allowed = {
+				tag = NHA
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+	}
 }
-##################################
-#		amazons_finest = {		 
-#								 
-#			allowed = {			 
-#				tag = NHA		 
-#			}					 
-#  								 
-#           available = {		 
-#								 
-#            }					 
-#								 
-#            cancel = {			 
-#								 
-#            }					 
-#								 
-#			allowed_civil_war = {
-#				always = no		 
-#			}					 
-#								 
-#			modifier = {		 
-#								 
-#			}					 
-#		}						 
-#	         					 	
-##################################
