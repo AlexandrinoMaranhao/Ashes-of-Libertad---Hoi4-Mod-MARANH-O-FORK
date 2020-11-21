@@ -6,6 +6,16 @@ SpriteTypes = {
 #} 
 
 spriteType ={
+    name = "GFX_idea_overcrowded_island"
+    texturefile = "gfx/interface/ideas/overcrowdedIsland.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_what_are_we_fighting_for"
+    texturefile = "gfx/interface/ideas/WhatAreWeFightingFor.dds"
+} 
+
+spriteType ={
     name = "GFX_idea_british_tradition"
     texturefile = "gfx/interface/ideas/icon_bri.dds"
 } 

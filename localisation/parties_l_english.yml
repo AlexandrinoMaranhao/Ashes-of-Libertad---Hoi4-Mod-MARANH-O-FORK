@@ -15,6 +15,10 @@
  neutrality_noun:0 "Status Quo"
  neutrality_desc:0 "Happy with the Status Quo"
 
+ reactionary:0 "Reactionary"
+ reactionary_noun:0 "Reactionary"
+ reactionary_desc:0 "Values Radical Revisionism"
+
  conservatism:0 "Conservative Democracy"
  liberalism:0 "Liberal Democracy"
  socialism:0 "Socialist Democracy"
@@ -69,7 +73,7 @@
  military_junta:0 "Military Junta"
  mercantile_oligarchy:0 "Mercantile Oligarchy"
  corporate_state:0 "Corporate State"
-# despotism:0 "Despotism"
+ despotism:0 "Despotism"
 # oligarchism:0 "Oligarchy"
  fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
 # falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."

@@ -159,7 +159,7 @@ ideologies = {
 			}
 
 			despotism = {
-			
+
 			}
 		}
 
@@ -320,7 +320,7 @@ ideologies = {
 
 		}
 		
-		color = { 160 100 0 }
+		color = { 130 80 0 }
 		
 		rules = {
 			can_create_collaboration_government = yes
