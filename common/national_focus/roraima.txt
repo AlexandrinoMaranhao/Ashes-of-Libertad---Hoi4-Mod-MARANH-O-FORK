@@ -11,10 +11,9 @@ focus_tree = {
 	}
 	
 	default = no
-
 	continuous_focus_position = { x = 50 y = 2500 }
-#1
-focus = {
+
+	focus = {
 		id = ROR_A_Merry_Band_Of_Misfits
 		icon = GFX_goal_Misfits_remake
 		x = 12
@@ -43,13 +42,13 @@ focus = {
 		}
 
 		completion_reward = {
-			country_event = { id = roraima.1 
-						days = 5
-						}
+			country_event = {
+				id = roraima.1 
+				days = 5
+			}
 		}
 	}
-	#2
-focus = {
+	focus = {
 		id = ROR_Convincing_The_Officers
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		prerequisite = { focus = ROR_A_Merry_Band_Of_Misfits }
@@ -80,12 +79,12 @@ focus = {
 		}
 
 		completion_reward = {
-			country_event = { id = roraima.2 
-						days = 5
-						}
+			country_event = {
+				id = roraima.2 
+				days = 5
+			}
 		}
 	}
-#3
 	focus = {
 		id = ROR_Drafting_A_Plan
 		icon = GFX_focus_ger_bulwark_against_bolshevism
@@ -117,14 +116,12 @@ focus = {
 		}
 
 		completion_reward = {
-			country_event = { id = roraima.3
-						days = 5
-						}
+			country_event = {
+				id = roraima.3
+				days = 5
+			}
 		}
 	}
-	
-	
-	#4
 	focus = {
 		id = ROR_Making_A_List
 		icon = GFX_focus_generic_treaty
@@ -153,12 +150,12 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		country_event = { id = roraima.4
-						days = 5
-						}		
-							}		
+			country_event = {
+				id = roraima.4
+				days = 5
+			}		
+		}		
 	}
-	#5
 	focus = {
 		id = ROR_reaching_out
 		icon = GFX_goal_support_democracy
@@ -185,10 +182,9 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_stability = .05
+			
 		}
 	}
-	#6
 	focus = {
 		id = ROR_Were_Gonna_Find_Out_Whos_Naughty_Or_Nice
 		icon = GFX_goal_Naughty_or_nice
@@ -215,10 +211,11 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_war_support = .05
-		country_event = { id = roraima.5
-						days = 5
-						}	
+			add_war_support = 0.05
+			country_event = { 
+				id = roraima.5
+				days = 5
+			}	
 		}
 	}
 	focus = {
@@ -249,7 +246,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			add_ideas = guerrilla_training
 		}
 	}
 	focus = {
@@ -280,7 +277,10 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			add_ideas = {
+				partial_economic_mobilisation
+				militia_troop_training
+			}
 		}
 	}
 	focus = {
@@ -311,7 +311,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			
 		}
 	}
 
@@ -342,7 +342,20 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			109 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			FBO = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 200
+					producer = ROR
+				}
+			}
 		}
 	}
 	focus = {
@@ -372,7 +385,14 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			set_technology = {
+				early_bomber = 1
+			}
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = 5
+				producer = ROR
+			}
 		}
 	}
 	focus = {
@@ -403,7 +423,16 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 10
+				producer = ROR
+			}
 		}
 	}
 	focus = {
@@ -432,7 +461,20 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			set_autonomy = {
+				target = FBO
+				autonomous_state = autonomy_puppet
+			}
+			create_corps_commander = {
+				name = "Carlos Lamarca"
+				picture = ""
+				traits = { guerrilla }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 4
+				logistics_skill = 1
+			}
 		}
 	}
 	focus = {
@@ -461,7 +503,13 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			458 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -490,7 +538,10 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = roraima.6
+				days = 5
+			}
 		}
 	}
 	focus = {
@@ -519,7 +570,10 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			country_event = {
+				id = roraima.7
+				days = 5
+			}
 		}
 	}
 	focus = {
@@ -550,7 +604,10 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = no_administration_roraima
+				add_idea = unloyal_administration_roraima
+			}
 		}
 	}
 	focus = {
@@ -581,7 +638,14 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			add_war_support = 0.2
+			add_stability = 0.1	
+			add_political_power = 100
+			
+			swap_ideas = {
+				remove_idea = no_administration_roraima
+				add_idea = incompetent_administration_roraima
+			}
 		}
 	}
 	focus = {
@@ -612,7 +676,12 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			add_stability = - 0.05
+			add_war_support = 0.1
+			swap_ideas = {
+				remove_idea = misfits
+				add_idea = misfits_1
+			}
 		}
 	}
 	focus = {
@@ -643,7 +712,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			add_ideas = professional_military_training
 		}
 	}
 	focus = {
