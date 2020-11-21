@@ -24,12 +24,7 @@ set_popularities = {
 }
 
 add_ideas = {
-pride_of_a_nation
-railway_lord
-prodigal_son
-	extensive_conscription
-	war_economy
-	subsistence_economy
+
 }
 
 create_country_leader = {

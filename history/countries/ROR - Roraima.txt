@@ -25,7 +25,6 @@ set_popularities = {
 add_ideas = {
 bonded_labor
 state_segregation
-state_press
 limited_conscription
 isolation
 closed_economy

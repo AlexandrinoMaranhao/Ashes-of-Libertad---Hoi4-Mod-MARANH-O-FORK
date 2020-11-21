@@ -1,7 +1,7 @@
 ﻿l_english:
  communism:0 "Revolutionary"
  communism_noun:0 "Revolutionary"
- communism_desc:0 "Values Radical Revisionisms"
+ communism_desc:0 "Values Radical Revisionism"
 
  democratic:0 "Conservative"
  democratic_noun:0 "Conservative"
@@ -14,6 +14,10 @@
  neutrality:0 "Status Quo"
  neutrality_noun:0 "Status Quo"
  neutrality_desc:0 "Happy with the Status Quo"
+
+ reactionary:0 "Reactionary"
+ reactionary_noun:0 "Reactionary"
+ reactionary_desc:0 "Values Radical Revisionism"
 
  conservatism:0 "Conservative Democracy"
  liberalism:0 "Liberal Democracy"
@@ -69,7 +73,7 @@
  military_junta:0 "Military Junta"
  mercantile_oligarchy:0 "Mercantile Oligarchy"
  corporate_state:0 "Corporate State"
-# despotism:0 "Despotism"
+ despotism:0 "Despotism"
 # oligarchism:0 "Oligarchy"
  fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
 # falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
@@ -114,3 +118,56 @@
  GER_neutrality_party_civil_war:0 "Militärregierung"
  GER_neutrality_party_kaiserreich:0 "DNVP"
  GER_neutrality_party_kaiserreich_long:0 "Deutschnationale Volkspartei"
+
+# XXX_fascism_party:0 ""
+# XXX_communism_party:0 ""
+# XXX_democratic_party:0 ""
+# XXX_neutrality_party:0 ""
+
+ ACR_fascism_party:0 "Militarists"
+ ACR_communism_party:0 "Technocrats"
+ ACR_democratic_party:0 "Provisional Government of Acre"
+ ACR_neutrality_party:0 "Nationalists"
+
+ KAY_fascism_party:0 "The Kayapó"
+ KAY_communism_party:0 "The Kayapó"
+ KAY_democratic_party:0 "The Kayapó"
+ KAY_neutrality_party:0 "The Kayapó"
+
+ ROR_fascism_party:0 "Onofre's Supporters"
+ ROR_communism_party:0 "Wilson's Supporters"
+ ROR_democratic_party:0 "Brazilian Loyalists"
+ ROR_neutrality_party:0 "Nationalists"
+
+ COR_fascism_party:0 "Montoril's Supporters"
+ COR_communism_party:0 "Montoril's Supporters"
+ COR_democratic_party:0 "Montoril's Supporters"
+ COR_neutrality_party:0 "Montoril's Supporters"
+
+ QPM_fascism_party:0 "Reducionistas - Hirsch"
+ QPM_communism_party:0 "Reducionistas - Baldassari"
+ QPM_democratic_party:0 "Reducionistas"
+ QPM_neutrality_party:0 "Reducionistas"
+
+ NHA_fascism_party:0 "Amazonian Military Command"
+ NHA_communism_party:0 "Amazonian Military Command"
+ NHA_democratic_party:0 "Amazonian Military Command"
+ NHA_neutrality_party:0 "Amazonian Military Command"
+
+ BEM_fascism_party:0 "Junta Loyalists"
+ BEM_communism_party:0 "The Cabanos"
+ BEM_democratic_party:0 "Republican Loyalists"
+ BEM_neutrality_party:0 "Paraense Nationalists"
+
+ MNS_fascism_party:0 ""
+ MNS_communism_party:0 ""
+ MNS_democratic_party:0 ""
+ MNS_neutrality_party:0 ""
+
+JUN_fascism_party:0 "Junta Militar - CO"
+JUN_fascism_party_long:0 "Junta Militar - Clique dos Oficiais"
+JUN_communism_party:0 "Leftist Dissidents"
+JUN_democratic_party:0 "Liberal Movements"
+JUN_neutrality_party:0 "Junta Militar - R"
+JUN_neutrality_party_long:0 "Junta Militar - Reformistas"
+

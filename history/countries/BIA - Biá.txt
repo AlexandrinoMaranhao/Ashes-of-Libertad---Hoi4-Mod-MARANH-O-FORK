@@ -27,7 +27,6 @@ add_ideas = {
 	tribal_mobilization
 	domestic_servitude
 	total_segregation
-	no_press
 	war_economy
 	closed_economy
 }

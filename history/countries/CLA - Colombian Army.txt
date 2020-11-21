@@ -27,6 +27,8 @@ add_ideas = {
 	all_adults_serve
 	closed_economy
 	war_economy
+
+	colombian_war
 }
 
 create_country_leader = {

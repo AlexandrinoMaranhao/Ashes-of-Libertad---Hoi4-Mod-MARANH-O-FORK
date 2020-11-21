@@ -25,7 +25,6 @@ set_popularities = {
 
 add_ideas = {
 tribal_mobilization
-no_press
 total_segregation
 bonded_labor
 low_economic_mobilisation

@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = { # Background
+		name = "GFX_se_background"
+		textureFile = "gfx//se_picture//se_background.tga"
+	}
+
+	spriteType = { # Guanabara
+		name = "GFX_se_guanabara"
+		textureFile = "gfx//se_picture//se_guanabara.tga"
+	}
+}

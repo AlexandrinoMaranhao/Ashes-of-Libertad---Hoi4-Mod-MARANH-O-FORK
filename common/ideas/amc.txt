@@ -19,7 +19,10 @@ ideas = {
 			}
 			
 			modifier = {
-
+				attrition = 0.8
+				industrial_capacity_factory = -0.8
+				industrial_capacity_dockyard = -0.8
+				consumer_goods_factor = 0.3
 			}
 		}
 		the_amazonian_military_command = {
@@ -41,6 +44,11 @@ ideas = {
 			}
 			
 			modifier = {
+				amphibious_invasion = 0.1
+				training_time_army_factor = 0.05
+				acclimatization_hot_climate_gain_factor = 0.3
+				out_of_supply_factor = -0.25
+				supply_consumption_factor = -0.2
 
 			}
 		}
@@ -63,30 +71,37 @@ ideas = {
 			}
 			
 			modifier = {
-
+				planning_speed = -0.8
+				max_planning = -0.5
+				ai_get_ally_desire_factor = -10000
+                ai_join_ally_desire_factor = -10000
+                join_faction_tension = 0.8
 			}
 		}
-		amazons_finest = {
-			
-			allowed = {
-				tag = NHA
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
-	}
+	}	
 }
+##################################
+#		amazons_finest = {		 
+#								 
+#			allowed = {			 
+#				tag = NHA		 
+#			}					 
+#  								 
+#           available = {		 
+#								 
+#            }					 
+#								 
+#            cancel = {			 
+#								 
+#            }					 
+#								 
+#			allowed_civil_war = {
+#				always = no		 
+#			}					 
+#								 
+#			modifier = {		 
+#								 
+#			}					 
+#		}						 
+#	         					 	
+##################################

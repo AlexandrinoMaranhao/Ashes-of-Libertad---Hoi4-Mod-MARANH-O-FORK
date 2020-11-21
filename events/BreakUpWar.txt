@@ -1,0 +1,103 @@
+####juntaded####
+
+add_namespace = JEG_breakupwar
+add_namespace = JCL_breakupwar
+add_namespace = JGD_breakupwar
+add_namespace = JRM_breakupwar
+add_namespace = JCS_breakupwar
+
+
+country_event = {
+    id = JEG_breakupwar.1
+    title = JEG_breakupwar.1.t
+    desc = JEG_breakupwar.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+        declare_war_on = {
+            target = JCL
+            target = JGD
+            target = JRM
+            target = JCS
+            type = annex_everything
+        }
+    }
+}
+
+country_event = {
+    id = JCL_breakupwar.1
+    title = JCL_breakupwar.1.t
+    desc = JCL_breakupwar.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        declare_war_on = {
+            target = JEG
+            target = JGD
+            target = JRM
+            target = JCS
+            type = annex_everything
+        }
+    }
+}
+
+country_event = {
+    id = JGD_breakupwar.1
+    title = JGD_breakupwar.1.t
+    desc = JGD_breakupwar.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        declare_war_on = {
+            target = JEG
+            target = JCL
+            target = JRM
+            target = JCS
+            type = annex_everything
+        }
+    }
+}
+
+country_event = {
+    id = JRM_breakupwar.1
+    title = JRM_breakupwar.1.t
+    desc = JRM_breakupwar.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+        declare_war_on = {
+            target = JEG
+            target = JCL
+            target = JGD
+            target = JCS
+            type = annex_everything
+        }
+    }
+}
+
+country_event = {
+    id = JCS_breakupwar.1
+    title = JCS_breakupwar.1.t
+    desc = JCS_breakupwar.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+        declare_war_on = {
+            target = JEG
+            target = JCL
+            target = JGD
+            target = JRM
+            type = annex_everything
+        }
+    }
+}

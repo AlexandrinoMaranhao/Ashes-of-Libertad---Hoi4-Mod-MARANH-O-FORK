@@ -1,0 +1,150 @@
+on_actions = {
+    ### ARGENTINA WAR CHAIN
+    on_startup = {
+        effect = {
+            ARG = {
+                country_event = {
+                    id = ARG_aiwar.1 # Falklands Reclamation
+                    days = 186
+                }
+            }
+        }
+    }
+}
+
+
+######## Che Huevada
+
+on_actions = {
+    on_startup = {
+        effect = {
+            ERN = {
+                country_event = {
+                    id = ERN_aiwar.1 # Acre War
+                    days = 1486 ## 26 of January
+                }
+            }
+        }
+    }
+}
+
+
+#### MNH and CFD scripted peace deal
+
+on_actions = {
+    on_startup = {
+        effect = {
+            CFD = {
+                country_event = {
+                    id = CFD_ai.1 # Annexation of SEG
+                    days = 405
+                }
+            }
+        }
+    }
+}
+
+
+####GUANABARA#####
+
+
+on_actions = {
+    on_startup = {
+        effect = {
+            CRJ = {
+                country_event = {
+                    id = CRJ_guanabara.1
+                    days = 125
+                }
+            }
+        }
+    }
+}
+
+
+on_actions = {
+    on_declare_war = {
+        effect = {
+            if = {
+                limit = {
+                    ROOT = { tag = CRJ }
+                    has_global_flag = guanabara_battle
+                }
+            }
+            BRA = {
+                country_event = {
+                    id = BRA_guanabara.1
+                    days = 1
+                }
+            }
+        }
+    }
+
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    has_global_flag = guanabara_battle
+                    AND = {
+                        24 = {
+                            is_owned_by = BRA
+                        }
+                        24 = {
+                            is_fully_controlled_by = CRJ
+                        }
+                    }
+                }
+                CRJ = {
+                    country_event = {
+                        id = CRJ_guanabara.3
+                    }
+                    BRA = {
+                        country_event = {
+                            id = BRA_guanabara.3
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    on_declare_war = {
+        effect = {
+            if = {
+                limit = {
+                    has_global_flag = guanabara_battle
+                }
+                CRJ = {
+                    country_event = {
+                        id = CRJ_guanabara.2
+                        days = 45
+                    }
+                }
+                BRA = {
+                    country_event = {
+                        id = BRA_guanabara.2
+                        days = 45
+                    }
+                }
+            }
+        }
+    }
+
+
+#### JUNTA BREAK UP #####
+
+###1-CASTELODEATH###
+
+on_actions = {
+    on_startup = {
+        effect = {
+            JUN = {
+                country_event = {
+                    id = JUN_collapse.1 
+                    days = 679
+                }
+            }
+        }
+    }
+}
+

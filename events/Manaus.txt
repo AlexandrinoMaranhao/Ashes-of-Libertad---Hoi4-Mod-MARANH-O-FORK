@@ -6,7 +6,7 @@ add_namespace = CaetanoVeloso
 add_namespace = Caetano
 add_namespace = OpeningShow
 add_namespace = YmaSumac 
-add_namespace = 
+
 
 #########################################################################
 # 1967 Opening Show

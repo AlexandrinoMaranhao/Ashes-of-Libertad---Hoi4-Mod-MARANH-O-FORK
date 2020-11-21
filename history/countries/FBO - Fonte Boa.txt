@@ -26,7 +26,6 @@ set_popularities = {
 add_ideas = {
 slavery_banned
 state_segregation
-no_press
 scraping_the_barrel
 limited_exports
 partial_economic_mobilisation
@@ -40,7 +39,7 @@ create_country_leader = {
 	name = "Carlos Lamarca"
 	picture = "gfx/leaders/FBO/Portrait_FBO_Lamarca_Portrait.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla
+	ideology = guerrilla 
 	traits = {
 		#
 	}
@@ -48,7 +47,7 @@ create_country_leader = {
         create_corps_commander = {
 	name = "Dinalva Oliveira Teixeira"
 	picture = ""
-	traits = { guerrilla }
+	traits = {  }
 	skill = 2
 	attack_skill = 3
 	defense_skill = 1
@@ -58,7 +57,7 @@ create_country_leader = {
         create_corps_commander = {
 	name = "Adriano Fonseca"
 	picture = ""
-	traits = { guerrilla }
+	traits = {  }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 2
@@ -69,7 +68,7 @@ create_country_leader = {
         create_field_marshal = {
 	name = "Carlos Lamarca"
 	picture = "gfx/leaders/ROR/.dds"
-	traits = { guerrilla }
+	traits = {  }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2

@@ -26,7 +26,6 @@ set_popularities = {
 add_ideas = {
 slavery_banned
 integrated_society
-free_press
 limited_conscription
 free_trade
 partial_economic_mobilisation

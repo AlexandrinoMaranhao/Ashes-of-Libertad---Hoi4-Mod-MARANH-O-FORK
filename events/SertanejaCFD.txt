@@ -1,0 +1,67 @@
+### PLACEHOLDER EVENTS, NOT INCLUDED IN ALPHA OTHER THAN AI ACTIONS ###
+
+add_namespace = CFD
+add_namespace = CFD_ai
+add_namespace = CFD_aiwar
+
+
+country_event = {
+    id = CFD_ai.1
+    title = CFD_ai.1.t
+    desc = CFD_ai.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_ai.1.a
+        annex_country = {
+            target = SEG
+            transfer_troops = yes
+        }
+        add_state_core = 11
+    }
+}
+
+country_event = {
+    id = CFD_aiwar.1
+    title = CFD_aiwar.1.t
+    desc = CFD_aiwar.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_aiwar.1.a
+        declare_war_on = {
+            target = PIA
+            type = annex_everything
+        }
+        MNH = {
+            country_event = {
+                id = MNH_war.1
+            }
+        }
+            set_global_flag = CFD_MNH_split_war
+    }
+}
+
+country_event = {  
+    id = CFD_aiwar.2
+    title = CFD_aiwar.2.t
+    desc = CFD_aiwar.2.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_aiwar.2.a
+        clr_global_flag = CFD_MNH_split_war
+        transfer_state = 15
+        transfer_state = 16
+        transfer_state = 475
+        add_state_core = 15
+        add_state_core = 16
+        add_state_core = 475
+    }
+}

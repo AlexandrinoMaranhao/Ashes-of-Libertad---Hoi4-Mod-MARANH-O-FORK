@@ -548,7 +548,7 @@ focus_tree = {
 		id = ROR_revolutions_need_martyrs
 		icon = GFX_goal_Naughty_or_nice
 		prerequisite = { focus = ROR_boa_vista_reorganization }
-		x = 4
+		x = 6
 		y = 4
 		relative_position_id = ROR_A_Merry_Band_Of_Misfits 
 		cost = 3

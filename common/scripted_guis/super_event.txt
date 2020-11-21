@@ -1,0 +1,26 @@
+scripted_gui = {
+
+	super_event_frame_guanabara = { # Guanabara
+		context_type = player_context
+		window_name = "super_event_guanabara_frame"
+
+		visible = {
+			has_country_flag = se_guanabara_flag
+		}
+	}
+	super_event_guanabara = {
+		context_type = player_context
+		window_name = "super_event_guanabara_pic"
+
+		visible = {
+			has_country_flag = se_guanabara_flag
+		}
+		effects = {
+			button_click = {
+				clr_country_flag = se_guanabara_flag
+			}
+		}
+	}
+}
+
+#set_country_flag se_guanabara_flag

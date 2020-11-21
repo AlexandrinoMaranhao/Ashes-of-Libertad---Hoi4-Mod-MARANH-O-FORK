@@ -38,6 +38,7 @@ what_apocalypse
 create_country_leader = {
 	
 	name = "Gilberto Mestrinho"
+	desc = "MNS_GILBERTO_MESTRINHO_DESC"
 	picture = "gfx/leaders/MNS/Portrait_MNS_Gilberto_Mestrinho.dds"
 	expire = "1999.1.1"
 	ideology = mercantile_oligarchy 

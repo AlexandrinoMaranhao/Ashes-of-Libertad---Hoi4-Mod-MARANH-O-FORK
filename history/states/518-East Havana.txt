@@ -1,0 +1,17 @@
+state={
+	id=518
+	name="STATE_518"
+	provinces={
+		6299 6302 
+	}
+	manpower=4086
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	history={
+		owner = WAS
+		add_core_of = WAS
+
+	}
+
+}

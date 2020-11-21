@@ -1,0 +1,72 @@
+############################
+## COME TO BRAZIL!!!!!!!!!!!!!! ##
+############################
+
+add_namespace = BRA
+add_namespace = BRA_guanabara
+add_namespace = BRA_opportunity
+
+
+
+country_event = {
+    id = BRA_guanabara.1
+    title = BRA_guanabara.1.t
+    desc = BRA_guanabara.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = BRA_guanabara.1.a
+        set_global_flag = guanabara_battle
+    }
+}
+
+##Victory##
+country_event = {
+    id = BRA_guanabara.2
+    title = BRA_guanabara.2.t
+    desc = BRA_guanabara.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = BRA_guanabara.2.a
+        add_stability = 0.2
+        add_political_power = 150
+        clr_global_flag = guanabara_battle
+    }
+}
+## Defeat ##
+country_event = {
+    id = BRA_guanabara.3
+    title = BRA_guanabara.3.t
+    desc = BRA_guanabara.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = BRA_guanabara.3.a
+        add_stability = -0.3
+        add_political_power = -150
+        clr_global_flag = guanabara_battle
+    }
+}
+
+country_event = {
+    id = BRA_opportunity.1
+    title = BRA_opportunity.1.t
+    desc = BRA_opportunity.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        declare_war_on = {
+            target = JAG
+            type = annex_everything
+        }
+    }
+}

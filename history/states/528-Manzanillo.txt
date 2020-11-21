@@ -1,0 +1,17 @@
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		2871 2872 6344 6348 
+	}
+	manpower=4086
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	history={
+		owner = WAS
+		add_core_of = WAS
+
+	}
+
+}

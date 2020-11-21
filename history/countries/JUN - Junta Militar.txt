@@ -28,11 +28,10 @@ add_to_faction = BEM
 add_to_faction = UBA
 add_to_faction = CRJ
 add_to_faction = LAM
+add_to_faction = JAG
 
 add_ideas = {
-incompetent_administration
-castelo_branco
-araguaia
+
 	closed_economy
 	partial_economic_mobilisation
 	extensive_conscription

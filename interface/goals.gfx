@@ -3,6 +3,126 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_More_Mouths_to_Feed"
+	texturefile = "gfx/interface/goals/More_Mouths_to_Feed.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Find_a_Fishing_Spot"
+	texturefile = "gfx/interface/goals/Find_a_Fishing_Spot.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Make_An_Example_nice"
+	texturefile = "gfx/interface/goals/Make_An_Example_nice.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Drafting_a_Plan"
+	texturefile = "gfx/interface/goals/Drafting_a_Plan.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_helio_cury"
+	texturefile = "gfx/interface/goals/focus_ACRE_helio_cury.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_marques_de_souza"
+	texturefile = "gfx/interface/goals/focus_ACRE_marques_de_souza.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_edgar_cerqueira"
+	texturefile = "gfx/interface/goals/focus_ACRE_edgar_cerqueira.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_right_mens"
+	texturefile = "gfx/interface/goals/focus_ACRE_right_mens.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_tapper_life_hard"
+	texturefile = "gfx/interface/goals/focus_ACRE_tapper_life_hard.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_senate"
+	texturefile = "gfx/interface/goals/focus_ACRE_senate.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_need_of_industries"
+	texturefile = "gfx/interface/goals/focus_ACRE_need_of_industries.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_tapper_life"
+	texturefile = "gfx/interface/goals/tapper_life.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_let_the_people_speak"
+	texturefile = "gfx/interface/goals/let_the_people_speak.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_red_menace2"
+	texturefile = "gfx/interface/goals/focus_ACRE_red_menace2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_Remove_The_Questionable"
+	texturefile = "gfx/interface/goals/Remove_The_Questionable.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_fight_city"
+	texturefile = "gfx/interface/goals/fight_city.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_fight_jungle"
+	texturefile = "gfx/interface/goals/fight_jungle.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_red_menace"
+	texturefile = "gfx/interface/goals/red_menace.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_ACRE_first_step_republic"
+	texturefile = "gfx/interface/goals/ACRE_first_step_republic.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_control_press"
+	texturefile = "gfx/interface/goals/control_press.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_1967_constitution"
+	texturefile = "gfx/interface/goals/1967_constitution.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_all_men_equal"
+	texturefile = "gfx/interface/goals/all_men_equal.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_first_step_republic"
+	texturefile = "gfx/interface/goals/first_step_republic.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_separate_ourselves_savages"
+	texturefile = "gfx/interface/goals/separate_ourselves_savages.dds"
+	}	
+	
+	SpriteType = {
 	name = "GFX_goal_modern_missiones"
 	texturefile = "gfx/interface/goals/Modern_Day_Missiones.dds"
 	}	

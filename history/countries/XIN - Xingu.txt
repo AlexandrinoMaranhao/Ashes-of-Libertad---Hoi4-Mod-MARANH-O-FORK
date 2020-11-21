@@ -29,8 +29,8 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Villas Bôas Brothers"
-	picture = "gfx/leaders/XIN/Portrait_XIN_Villas_Boas.dds"
+	name = "Orlando Villas Bôas"
+	picture = "gfx/leaders/XIN/Portrait_XIN_Villas_Boas_1.dds"
 	expire = "1999.1.1"
 	ideology = centrism
 	traits = {
