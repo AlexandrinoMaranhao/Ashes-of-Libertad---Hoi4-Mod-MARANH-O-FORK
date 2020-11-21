@@ -119,7 +119,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NHA_manadge_supply
+		id = NHA_manage_supply
 		icon = GFX_goal_pearl_of_solimoes
 		cost = 1
 		prerequisite = {

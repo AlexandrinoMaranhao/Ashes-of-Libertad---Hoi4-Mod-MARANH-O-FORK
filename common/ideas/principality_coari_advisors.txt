@@ -180,7 +180,7 @@ ideas = {
 			allowed = {
 				original_tag = COR
 			}
-			picture = 
+#			picture = 
 			traits = {
 				manauan_made_crafts_trait
 			}
@@ -310,7 +310,7 @@ ideas = {
 				the_american_priest_trait
 			}
    		} 	
-	}
+	
 
     eddie_ribeiro_merc_advisor = {
 			allowed = {
@@ -337,8 +337,7 @@ ideas = {
 			available = {
 			has_completed_focus = COR_local_militia
 			}
+    	}
     }
-    }
-
-#end
 }
+#end
