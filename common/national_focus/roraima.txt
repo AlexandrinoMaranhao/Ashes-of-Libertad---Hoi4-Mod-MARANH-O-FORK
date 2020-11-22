@@ -182,7 +182,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			every_other_country = {
+				limit = {
+					has_government = ROOT
+				}
+				add_opinion_modifier = {
+					tag = ROR
+					modifier = same_ruling_party 
+				}
+			}
 		}
 	}
 	focus = {
@@ -311,7 +319,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ussr_tradition
 		}
 	}
 
@@ -676,7 +684,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = - 0.05
+			add_stability = -0.05
 			add_war_support = 0.1
 			swap_ideas = {
 				remove_idea = misfits
@@ -741,10 +749,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_war_support = .05
-		country_event = { id = roraima.5
-						days = 5
-						}	
+			
 		}
 	}
 	focus = {
@@ -773,10 +778,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_war_support = .05
-		country_event = { id = roraima.5
-						days = 5
-						}	
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -805,10 +807,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_war_support = .05
-		country_event = { id = roraima.5
-						days = 5
-						}	
+			load_focus_tree = roraima2
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 }

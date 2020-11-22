@@ -2,13 +2,13 @@ ideas = {
 	country = {
 		misfits = {
 		
-		allowed = {
-			tag = ROR
-		}
+			allowed = {
+				tag = ROR
+			}
 
-        available = {
+			available = {
 
-        }
+			}
 
             cancel = {
 
@@ -29,13 +29,13 @@ ideas = {
 		}
 		misfits_1 = {
 		
-		allowed = {
-			tag = ROR
-		}
+			allowed = {
+				tag = ROR
+			}
 
-        available = {
+			available = {
 
-        }
+			}
 
             cancel = {
 
@@ -51,6 +51,7 @@ ideas = {
 				max_planning = -0.5
 				experience_gain_army_factor = -0.5
 				army_org_factor = -0.5
+				army_morale_factor = -0.45
 			}
 		}
 		the_northen_star = {
@@ -139,7 +140,7 @@ ideas = {
 			}
 			
 			modifier = {
-
+				
 			}
 		}
 	}
