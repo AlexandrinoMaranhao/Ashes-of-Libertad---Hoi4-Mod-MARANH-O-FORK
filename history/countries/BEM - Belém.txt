@@ -35,6 +35,11 @@ the_jailed_bird
 the_siege_of_altamira
 }
 
+set_country_flag = has_unique_advisors
+set_country_flag = has_unique_chiefs
+set_country_flag = has_unique_theorists
+set_country_flag = has_unique_high_command
+
 create_country_leader = {
 	
 	name = "Jarbas Passarinho"

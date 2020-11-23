@@ -1,0 +1,31 @@
+has_unique_advisors = {
+	hidden_trigger = {
+		OR = {
+			has_country_flag = has_unique_advisors
+		}
+	}
+}
+
+has_unique_chiefs = {
+	hidden_trigger = {
+		OR = {
+			has_country_flag = has_unique_chiefs
+		}
+	}
+}
+
+has_unique_theorists = {
+	hidden_trigger = {
+		OR = {
+			has_country_flag = has_unique_theorists
+		}
+	}
+}
+
+has_unique_high_command = {
+	hidden_trigger = {
+		OR = {
+			has_country_flag = has_unique_high_command
+		}
+	}
+}

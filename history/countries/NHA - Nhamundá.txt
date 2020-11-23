@@ -35,6 +35,11 @@ the_amazonian_military_command
 what_are_we_fighting_for
 }
 
+set_country_flag = has_unique_advisors
+set_country_flag = has_unique_chiefs
+set_country_flag = has_unique_theorists
+set_country_flag = has_unique_high_command
+
 create_country_leader = {
 	
 	name = "Rodrigo Otávio Jordão Ramos"

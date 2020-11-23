@@ -221,6 +221,11 @@ leader_traits = {
 		attrition = -0.1
 
     }
+	algenor_g_nascimento_army_chief = {
+	random = no
+		army_morale_factor = 0.08
+		planning_speed = 0.12
+	}
 
 #end
 }

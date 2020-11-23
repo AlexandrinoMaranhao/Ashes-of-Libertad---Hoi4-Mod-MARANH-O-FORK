@@ -36,10 +36,10 @@ ideas = {
 			}
 						
 			modifier = {
-		consumer_goods_factor = -0.5
-		industrial_capacity_factory = 0.25
-		production_speed_dockyard_factor = 0.25
-		production_speed_infrastructure_factor = 0.25
+		consumer_goods_factor = -0.05
+		industrial_capacity_factory = 0.1
+		production_speed_dockyard_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
 			}
 
 			removal_cost = -1
