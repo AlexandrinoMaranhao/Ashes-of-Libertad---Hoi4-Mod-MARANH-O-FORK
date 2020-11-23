@@ -249,7 +249,7 @@ focus_tree = {
 		x = -1
 		y = 5
 		relative_position_id = ACR_intro_one
-		prerequisite = { focus = ACR_the_1967_constitution }
+		prerequisite = { focus = ACR_minorities_no focus = ACR_minorities_yes }
 		mutually_exclusive = { focus = ACR_press_yes }
 		
 		cost = 1
@@ -282,7 +282,7 @@ focus_tree = {
 		x = 1
 		y = 5
 		relative_position_id = ACR_intro_one
-		prerequisite = { focus = ACR_the_1967_constitution }
+		prerequisite = { focus = ACR_minorities_yes focus = ACR_minorities_no }
 		mutually_exclusive = { focus = ACR_press_no }
 		
 		cost = 1
@@ -315,7 +315,7 @@ focus_tree = {
 		x = -1
 		y = 6
 		relative_position_id = ACR_intro_one
-		prerequisite = { focus = ACR_the_1967_constitution }
+		prerequisite = { focus = ACR_press_no focus = ACR_press_yes }
 		mutually_exclusive = { focus = ACR_workers_yes }
 		
 		cost = 1
@@ -348,7 +348,7 @@ focus_tree = {
 		x = 1
 		y = 6
 		relative_position_id = ACR_intro_one
-		prerequisite = { focus = ACR_the_1967_constitution }
+		prerequisite = { focus = ACR_press_yes focus = ACR_press_no }
 		mutually_exclusive = { focus = ACR_workers_no }
 		
 		cost = 1
