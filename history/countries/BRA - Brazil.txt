@@ -19,7 +19,8 @@ set_popularities = {
 	democratic = 78
 	fascism = 0
 	communism = 12
-	neutrality = 10
+	neutrality = 0
+	reactionary = 10
 }
 
 create_faction = brazilian_federation

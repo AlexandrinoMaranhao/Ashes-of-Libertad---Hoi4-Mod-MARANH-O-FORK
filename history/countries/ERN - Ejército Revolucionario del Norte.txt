@@ -21,6 +21,8 @@ set_popularities = {
 	fascism = 0
 	communism = 100
 	neutrality = 0
+	reactionary = 0
+
 }
 
 create_faction = los_libertadores

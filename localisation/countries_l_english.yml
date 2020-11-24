@@ -115,6 +115,9 @@
  SAO_democratic_ADJ:0 "Paulista"
  SAO_neutrality_ADJ:0 "Paulista"
  SAO_communism_ADJ:0 "Paulista"
+ SAO_reactionary_ADJ:0 "Paulista"
+ SAO_reactionary:0 "São Paulo"
+ SAO_reactionary_DEF:0 "the State of São Paulo"
 
  PAU_fascism:0 "São Paulo Military Command"
  PAU_fascism_DEF:0 "the SPMC"

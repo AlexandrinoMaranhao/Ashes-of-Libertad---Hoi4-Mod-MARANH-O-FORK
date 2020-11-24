@@ -19,8 +19,9 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 100
+	communism = 0
 	neutrality = 0
+	reactionary = 100
 }
 
 add_ideas = {
@@ -32,7 +33,7 @@ create_country_leader = {
 	name = "Father Almeida Lustosa"
 	picture = "gfx/leaders/CEA/Portrait_CEA_Antonio_de_Almeida_lustosa.dds"
 	expire = "1999.1.1"
-	ideology = evangelical_theocracy
+	ideology = cristian_theocracy
 	traits = {
 		#
 	}

@@ -215,6 +215,9 @@ ideologies = {
 		types = {
 		
 
+			mormon_theocracy = {
+			}
+			
 			moderatism = {
 			}
 			
@@ -294,9 +297,6 @@ ideologies = {
 	
 		types = {
 
-			mormon_theocracy = {
-			}
-			
 			pirate_federation = {
 			}
 
@@ -311,9 +311,6 @@ ideologies = {
 
 			coronelism = {
 			}
-
-            cristero_state = {
-            }
 
 			cristian_theocracy = {
 			}

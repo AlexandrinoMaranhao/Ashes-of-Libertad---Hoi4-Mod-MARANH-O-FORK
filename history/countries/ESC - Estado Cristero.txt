@@ -19,8 +19,10 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 26
-	communism = 7
-	neutrality = 67
+	communism = 0
+	neutrality = 0
+	reactionary = 74
+
 }
 
 add_ideas = {
@@ -32,7 +34,7 @@ create_country_leader = {
 	name = "Salvador Abascal"
 	picture = "gfx/leaders/ESC/Portrait_ESC_Salvador_Abascal.dds"
 	expire = "1999.1.1"
-	ideology = cristero_state
+	ideology = cristian_theocracy
 	traits = {
 		#
 	}
