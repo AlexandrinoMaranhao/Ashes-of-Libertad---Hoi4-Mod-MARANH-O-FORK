@@ -16,11 +16,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	democratic = 10
 	fascism = 80
-	communism = 5
+	communism = 10
 	neutrality = 0
-	reactionary = 10
+	reactionary = 0
 }
 
 add_ideas = {
@@ -43,6 +43,7 @@ set_country_flag = has_unique_high_command
 create_country_leader = {
 	
 	name = "Jarbas Passarinho"
+	desc = "BEM_JARBAS_PASSARINHO_DESC"
 	picture = "gfx/leaders/BEM/Portrait_BEM_Jarbas_Passarinho.dds"
 	expire = "1999.1.1"
 	ideology = military_junta 

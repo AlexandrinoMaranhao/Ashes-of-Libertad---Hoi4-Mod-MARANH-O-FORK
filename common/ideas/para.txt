@@ -23,51 +23,8 @@ ideas = {
 
 			}
 		}
-		a_state_falling_appart = {
-			
-			allowed = {
-				tag = BEM
-			}
 
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
 		the_cabanos = {
-			
-			allowed = {
-				tag = BEM
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
-		the_jailed_bird = {
 			
 			allowed = {
 				tag = BEM

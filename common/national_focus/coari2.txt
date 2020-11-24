@@ -394,7 +394,7 @@ focus_tree = {
 
 	focus = {
 		id = COR_more_mouths_to_feed
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_More_Mouths_to_Feed
 		x = -1
 		y = 3
 		relative_position_id = COR_fishing_spot

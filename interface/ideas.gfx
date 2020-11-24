@@ -4,6 +4,46 @@ SpriteTypes = {
 #    name = "GFX_idea_"
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
+    
+spriteType ={
+    name = "GFX_idea_cachimbo_military_base"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_quick_modernization"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_cabanos"
+    texturefile = "gfx/interface/ideas/the_cabanos.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_the_juntas_favorite_pet"
+    texturefile = "gfx/interface/ideas/juntas_favorite_pet.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_country_of_seringueiros"
+    texturefile = "gfx/interface/ideas/country_of_seringueiros.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_the_acrean_constitution"
+    texturefile = "gfx/interface/ideas/acrean_constitution.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_the_10th_crusade"
+    texturefile = "gfx/interface/ideas/the_tenth_crusade.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_the_northen_star"
+    texturefile = "gfx/interface/ideas/northernstar.dds"
+} 
 
 spriteType ={
     name = "GFX_idea_overcrowded_island"
