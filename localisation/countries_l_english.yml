@@ -7,10 +7,13 @@
  CFD_neutrality_DEF:1 "Confederação Sertaneja"
  CFD_communism:0 "Confederação Sertaneja"
  CFD_communism_DEF:0 "Confederação Sertaneja"
- CFD_fascism_ADJ:0 "Nordestino"
- CFD_democratic_ADJ:0 "Nordestino"
- CFD_neutrality_ADJ:0 "Nordestino"
- CFD_communism_ADJ:0 "Nordestino"
+ CFD_fascism_ADJ:0 "Nordestine"
+ CFD_democratic_ADJ:0 "Nordestine"
+ CFD_neutrality_ADJ:0 "Nordestine"
+ CFD_communism_ADJ:0 "Nordestine"
+ CFD_reactionary_ADJ:0 "Nordestine"
+ CFD_reactionary_DEF:0 "Confederação Sertaneja"
+ CFD_reactionary:0 "Confederação Sertaneja"
 
  PIR_fascism:0 "Caipira Empire"
  PIR_fascism_DEF:0 "the Caipira Empire"
@@ -186,16 +189,17 @@
 
  MNH_fascism:0 "Duchy of Maranhão"
  MNH_fascism_DEF:0 "the Duchy of Maranhão"
- MNH_democratic:0 "2° Brazilian Empire"
- MNH_democratic_DEF:0 "the 2° Brazilian Empire"
+ MNH_democratic:0 "State of Maranhão"
+ MNH_democratic_DEF:0 "the State of Maranhão"
  MNH_neutrality:1 "Maranhão"
  MNH_neutrality_DEF:1 "Maranhão"
- MNH_communism:0 ""
- MNH_communism_DEF:0 ""
  MNH_fascism_ADJ:0 "Maranhense"
  MNH_democratic_ADJ:0 "Maranhense"
  MNH_neutrality_ADJ:0 "Maranhense"
  MNH_communism_ADJ:0 "Maranhense"
+ MNH_reactionary:0 "Maranhão"
+ MNH_reactionary_ADJ:0 "Maranhense"
+ MNH_reactionary_DEF:0 "Maranhão"
 
  PIA_fascism:0 ""
  PIA_fascism_DEF:0 ""
@@ -287,6 +291,20 @@
  SEG_democratic_ADJ:0 "Sergipan"
  SEG_neutrality_ADJ:0 "Sergipan"
  SEG_communism_ADJ:0 "Sergipan"
+
+ PIA_reactionary:0 "Piauí"
+
+ CEA_reactionary:0 "Ceará"
+
+ RGN_reactionary:0 "Rio Grande do Norte"
+
+ PAI_reactionary:0 "Paraíba"
+
+ PEB_reactionary:0 "Pernambuco"
+
+ ALA_reactionary:0 "Alagoas"
+
+ SEG_reactionary:0 "Sergipe"
 
  XIN_fascism:0 "Xingu"
  XIN_fascism_DEF:0 "Xingu"
@@ -470,18 +488,20 @@
  ROR_neutrality_ADJ:0 "Roraimense"
  ROR_communism_ADJ:0 "Roraimense"
 
- QPM_fascism:0 "The Saved People"
- QPM_fascism_DEF:0 "The Saved People"
+ QPM_fascism:0 "The 10th Crusade"
+ QPM_fascism_DEF:0 "The Quatro Povos das Missões"
  QPM_democratic:0 "Quatro Povos das Missões"
- QPM_democratic_DEF:0 "Quatro Povos das Missões"
+ QPM_democratic_DEF:0 "The Quatro Povos das Missões"
  QPM_neutrality:1 "Quatro Povos das Missões"
- QPM_neutrality_DEF:1 "Quatro Povos das Missões"
+ QPM_neutrality_DEF:1 "The Quatro Povos das Missões"
  QPM_communism:0 "Quatro Povos das Missões"
- QPM_communism_DEF:0 "Quatro Povos das Missões"
- QPM_fascism_ADJ:0 "Saved people"
- QPM_democratic_ADJ:0 "Quatro Povos das Missões"
- QPM_neutrality_ADJ:0 "Quatro Povos das Missões"
- QPM_communism_ADJ:0 "Quatro Povos das Missões"
+ QPM_communism_DEF:0 "The Quatro Povos das Missões"
+ QPM_fascism_ADJ:0 "Crusader"
+ QPM_democratic_ADJ:0 "QPM"
+ QPM_neutrality_ADJ:0 "QPM"
+ QPM_communism_ADJ:0 "QPM"
+ QPM_reactionary:0 "Quatro Povos das Missões"
+ QPM_reactionary_ADJ:0 "QPM"
 
  FBO_fascism:0 "Fonte Boa"
  FBO_fascism_DEF:0 "Fonte Boa"
@@ -846,7 +866,9 @@
  COR_democratic_ADJ:0 "Coariense"
  COR_neutrality_ADJ:0 "Coariense"
  COR_communism_ADJ:0 "Coariense communists"
-
+ COR_reactionary_ADJ:0 "Coariense"
+ COR_reactionary:0 "Montoril's Army"
+ 
  CUB_fascism:0 "Caribbean Empire"
  CUB_fascism_DEF:0 "the Caribbean Empire"
  CUB_democratic:0 "Cuban Remnants"
@@ -1314,6 +1336,9 @@
  HAI_democratic_ADJ:0 "Haitian"
  HAI_neutrality_ADJ:0 "Haitian"
  HAI_communism_ADJ:0 "Haitian"
+ HAI_reactionary_ADJ:0 "Haitian"
+ HAI_reactionary_DEF:0 "Haiti"
+ HAI_reactionary:0 "Haiti"
  
  NIC_fascism:0 "Liberal Nationalist Nicaragua"
  NIC_fascism_DEF:0 "Liberal Nationalist Nicaragua"
