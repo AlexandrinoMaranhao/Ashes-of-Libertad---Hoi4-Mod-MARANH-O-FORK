@@ -1,4 +1,4 @@
-#focus_tree = {
+focus_tree = {
 	id = ACR_focus
 	
 	country = {
@@ -559,7 +559,7 @@
 
 	focus = {
 		id = ACR_conscription_law
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_ACRE_adress_militia
 		x = -4
 		y = 4
 

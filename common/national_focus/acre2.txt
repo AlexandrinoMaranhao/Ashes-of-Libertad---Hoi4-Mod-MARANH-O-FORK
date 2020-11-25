@@ -16,7 +16,1067 @@ focus_tree = {
 	default = no
 	
 	continuous_focus_position = { x = 50 y = 1000 }
+##ARMY BRANCH
+	focus = {
+		id = ACR_army_doctrine_evaluation
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_glancing_into_the_milita }
+		relative_position_id = ACR_glancing_into_the_milita
 
+		x = 4
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_learn_from_the_reds
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_army_doctrine_evaluation }
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = -2
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_from_before_the_war
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_army_doctrine_evaluation }
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 0
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_and_past_the_amazonia
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_army_doctrine_evaluation }
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 2
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_keep_the_militia_structure
+		prerequisite = { focus = ACR_from_before_the_war }
+		prerequisite = { focus = ACR_learn_from_the_reds }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+		mutually_exclusive = { focus = ACR_look_for_options}
+
+		x = -1
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_look_for_options
+		prerequisite = { focus = ACR_from_before_the_war }
+		prerequisite = { focus = ACR_and_past_the_amazonia }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+		mutually_exclusive = { focus = ACR_keep_the_militia_structure }
+
+		x = 1
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_centralize_the_command_structure
+		prerequisite = { focus = ACR_look_for_options }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+		mutually_exclusive = { focus = ACR_to_the_highest_bidder}
+
+		x = 1
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_to_the_highest_bidder
+		prerequisite = { focus = ACR_look_for_options }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+		mutually_exclusive = { focus = ACR_centralize_the_command_structure}
+
+		x = 3
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_extra_autonomous_units
+		prerequisite = { focus = ACR_keep_the_militia_structure }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = -2
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_the_best_there_is
+		prerequisite = { focus = ACR_centralize_the_command_structure }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 1
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_soldados_da_fortuna
+		prerequisite = { focus = ACR_to_the_highest_bidder }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 3
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_bonafide_officers
+		prerequisite = { focus = ACR_the_best_there_is }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 1
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_dipping_our_wallets
+		prerequisite = { focus = ACR_soldados_da_fortuna }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 3
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_relax_standards
+		prerequisite = { focus = ACR_extra_autonomous_units }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = -2
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_lawful_militias
+		prerequisite = { focus = ACR_relax_standards}
+		icon = GFX_goal_first_step_republic
+		mutually_exclusive = { focus = ACR_grabbing_the_paramilitaries }
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = -1
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_grabbing_the_paramilitaries
+		prerequisite = { focus = ACR_relax_standards }
+		mutually_exclusive = { focus = ACR_lawful_militias }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = -3
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_a_protection_force
+		prerequisite = { focus = ACR_lawful_militias focus = ACR_grabbing_the_paramilitaries }
+		prerequisite = { focus = ACR_bonafide_officers focus = ACR_dipping_our_wallets}
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+		mutually_exclusive = { focus = ACR_an_army_capable_of_expanding }
+
+		x = 0
+		y = 6
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_an_army_capable_of_expanding
+		prerequisite = { focus = ACR_lawful_militias focus = ACR_grabbing_the_paramilitaries }
+		prerequisite = { focus = ACR_bonafide_officers focus = ACR_dipping_our_wallets}
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+        mutually_exclusive = { focus = ACR_a_protection_force }
+		x = 2
+		y = 6
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_amazonic_specialized_training
+		prerequisite = { focus = ACR_a_protection_force focus = ACR_an_army_capable_of_expanding }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = -1
+		y = 7
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_an_academy_to_boot
+		prerequisite = { focus = ACR_a_protection_force focus = ACR_an_army_capable_of_expanding }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 1
+		y = 7
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_a_contingency_plan
+		prerequisite = { focus = ACR_a_protection_force focus = ACR_an_army_capable_of_expanding }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 3
+		y = 7
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_most_importantly
+		prerequisite = { focus = ACR_amazonic_specialized_training }
+		prerequisite = { focus = ACR_an_academy_to_boot }
+		prerequisite = { focus = ACR_a_contingency_plan }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 1
+		y = 8
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_most_importantly
+		prerequisite = { focus = ACR_most_importantly }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_army_doctrine_evaluation
+
+		x = 1
+		y = 10
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = ACR_glancing_into_the_milita
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = }
+		x = 20
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_the_industrial_part_of_militarization
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_glancing_into_the_milita }
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -3
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_the_workshops
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_the_industrial_part_of_militarization }
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -4
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+
+	focus = {
+		id = ACR_avenues_of_modernization
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_the_industrial_part_of_militarization }
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -2
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_no_time_for_quality
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_the_workshops }
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -5
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_a_national_fire_stick
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_avenues_of_modernization }
+		prerequisite = { focus = ACR_the_workshops }
+
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -3
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_grasp_abbandoned_trucks
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_avenues_of_modernization }
+
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -1
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_stocking_up
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_no_time_for_quality }
+
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -6
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_the_way_of_the_technical
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_grasp_abbandoned_trucks }
+
+		relative_position_id = ACR_glancing_into_the_milita
+		x = 0
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_we_did_what_we_could
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_a_national_fire_stick }
+		prerequisite = { focus = ACR_stocking_up }
+		prerequisite = { focus = ACR_the_way_of_the_technical }
+
+		relative_position_id = ACR_glancing_into_the_milita
+		x = -3
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
 ##UNIVERSITY
 	focus = {
 		id = ACR_the_university_of_rio_branco
