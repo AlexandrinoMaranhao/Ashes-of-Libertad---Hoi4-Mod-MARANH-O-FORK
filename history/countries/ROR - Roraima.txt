@@ -44,6 +44,9 @@ set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
 
+set_country_flag = is_amazonian
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Onofre Pinto"

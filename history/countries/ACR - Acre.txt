@@ -51,6 +51,9 @@ set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
 
+set_country_flag = is_amazonian
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Jorge Kalume"
@@ -118,6 +121,7 @@ create_country_leader = {
 create_country_leader = {
 	
 	name = "Provisional Government of Acre"
+	desc = "ACR_PROVISIONAL_DESC"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Provisional Government.dds"
 	expire = "1999.1.1"
 	ideology = provisional_government

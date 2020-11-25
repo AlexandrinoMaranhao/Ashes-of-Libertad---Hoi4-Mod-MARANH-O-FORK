@@ -29,6 +29,8 @@ add_ideas = {
 	tribal_mobilization
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Orlando Villas Bôas"

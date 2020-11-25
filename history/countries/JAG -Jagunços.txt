@@ -30,6 +30,8 @@ add_ideas = {
 	limited_exports
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Filinto Müller"

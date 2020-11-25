@@ -36,6 +36,9 @@ mercenary_state_neblina
 the_fog
 }
 
+set_country_flag = is_amazonian
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Wolfgang Larrazabál"

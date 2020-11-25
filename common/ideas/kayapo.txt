@@ -23,28 +23,6 @@ ideas = {
 
 			}
 		}
-		warrior_culture = {
-			
-			allowed = {
-				tag = KAY
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
 		cachimbo_military_base = {
 			
 			allowed = {

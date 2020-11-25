@@ -16,11 +16,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	democratic = 10
 	fascism = 80
-	communism = 5
+	communism = 10
 	neutrality = 0
-	reactionary = 10
+	reactionary = 0
 }
 
 add_ideas = {
@@ -30,8 +30,6 @@ limited_conscription
 civilian_economy
 closed_economy
 
-a_state_falling_appart
-the_jailed_bird
 the_siege_of_altamira
 }
 
@@ -40,9 +38,13 @@ set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
 
+set_country_flag = is_brazilian
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Jarbas Passarinho"
+	desc = "BEM_JARBAS_PASSARINHO_DESC"
 	picture = "gfx/leaders/BEM/Portrait_BEM_Jarbas_Passarinho.dds"
 	expire = "1999.1.1"
 	ideology = military_junta 

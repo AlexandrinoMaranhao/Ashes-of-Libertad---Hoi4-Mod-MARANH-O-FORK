@@ -30,6 +30,8 @@ add_ideas = {
 	closed_economy
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Jim Jones"

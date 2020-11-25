@@ -29,6 +29,8 @@ add_ideas = {
 
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Hugo de Abreu"

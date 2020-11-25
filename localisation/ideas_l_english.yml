@@ -627,7 +627,7 @@
  trade_laws:0 "Trade Scope"
  economy:0 "Population War Support"
  aircraft_manufacturer:0 "Aircraft Designer"
- materiel_manufacturer:0 "Materiel Designer"
+ material_manufacturer:0 "Material Designer"
  industry_concern:0 "Industry Concern"
  army_chief:0 "Chief of Army"
  navy_chief:0 "Chief of Navy"

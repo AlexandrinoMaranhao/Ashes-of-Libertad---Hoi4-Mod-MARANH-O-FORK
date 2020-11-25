@@ -31,6 +31,8 @@ add_ideas = {
 	subsistence_economy
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Justino Alves Bastos"

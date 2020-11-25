@@ -1,0 +1,930 @@
+focus_tree = {
+	id = ACR_focus_2
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ACR
+
+		}
+
+	}
+
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+##UNIVERSITY
+	focus = {
+		id = ACR_the_university_of_rio_branco
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = }
+		x = 2
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_lay_down_the_groundwork
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_the_university_of_rio_branco }
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -1
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_gather_engineers
+		icon = GFX_goal_first_step_republic
+		prerequisite = { focus = ACR_the_university_of_rio_branco }
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 1
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_begin_construction
+		prerequisite = { focus = ACR_gather_engineers }
+		prerequisite = { focus = ACR_lay_down_the_groundwork }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 0
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_the_university_completed
+		prerequisite = { focus = ACR_begin_construction }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 0
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_east_wing_expansion
+		prerequisite = { focus = ACR_the_university_completed }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 1
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_west_wing_expansion
+		prerequisite = { focus = ACR_the_university_completed }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -1
+		y = 4
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_art_of_thought
+		prerequisite = { focus = ACR_west_wing_expansion}
+		icon = GFX_goal_first_step_republic
+		mutually_exclusive = { focus = ACR_art_of_war }
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -1
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_art_of_war
+		prerequisite = { focus = ACR_west_wing_expansion}
+		mutually_exclusive = { focus = ACR_art_of_thought }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -3
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_platos_cave
+		prerequisite = { focus = ACR_art_of_thought}
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -1
+		y = 6
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_war_academy
+		prerequisite = { focus = ACR_art_of_war}
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -3
+		y = 6
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+
+	focus = {
+		id = ACR_education_for_all
+		prerequisite = { focus = ACR_east_wing_expansion}
+		mutually_exclusive = { focus = ACR_education_for_the_elite }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 3
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_education_for_the_elite
+		prerequisite = { focus = ACR_east_wing_expansion}
+		mutually_exclusive = { focus = ACR_education_for_all }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 1
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_the_elites_elite
+		prerequisite = { focus = ACR_education_for_the_elite}
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 1
+		y = 6
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_tappers_no_more
+		prerequisite = { focus = ACR_education_for_all }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 3
+		y = 6
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_extra_research_slot_1
+		prerequisite = { focus = ACR_the_elites_elite focus = ACR_tappers_no_more }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 2
+		y = 7
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_extra_research_slot_2
+		prerequisite = { focus = ACR_war_academy focus = ACR_platos_cave }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = -2
+		y = 7
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_mr_carneiros_class
+		prerequisite = { focus = ACR_extra_research_slot_2 }
+		prerequisite = { focus = ACR_extra_research_slot_1 }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_the_university_of_rio_branco
+
+		x = 0
+		y = 8
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+
+##CAPITAL
+	focus = {
+		id = ACR_building_a_capital
+		icon = GFX_goal_first_step_republic
+		x = 10
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+}
+	}
+	focus = {
+		id = ACR_fix_the_roads
+		prerequisite = { focus = ACR_building_a_capital }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = -4
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_reestore_public_buildings
+		prerequisite = { focus = ACR_building_a_capital }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = -2
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_bring_light_to_the_city
+		prerequisite = { focus = ACR_building_a_capital }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = 2
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_revive_the_gameleira_street
+		prerequisite = { focus = ACR_building_a_capital }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = 4
+		y = 1
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_revive_beirut_square
+		prerequisite = { focus = ACR_fix_the_roads }
+		prerequisite = { focus = ACR_reestore_public_buildings }	
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = -3
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_revive_the_cassinos
+		prerequisite = { focus = ACR_revive_the_gameleira_street }
+		prerequisite = { focus = ACR_bring_light_to_the_city }	
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = 3
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_casas_aviadoras
+		prerequisite = { focus = ACR_reestore_public_buildings }
+		prerequisite = { focus = ACR_bring_light_to_the_city }	
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = 0
+		y = 2
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_map_the_rivers
+		prerequisite = { focus = ACR_casas_aviadoras }
+		prerequisite = { focus = ACR_revive_beirut_square }		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = -1
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_connect_the_cities
+		prerequisite = { focus = ACR_casas_aviadoras }
+		prerequisite = { focus = ACR_revive_the_cassinos }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = 1
+		y = 3
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+	focus = {
+		id = ACR_acre_united
+		prerequisite = { focus = ACR_map_the_rivers }
+		prerequisite = { focus = ACR_connect_the_cities }
+		icon = GFX_goal_first_step_republic
+		relative_position_id = ACR_building_a_capital
+
+		x = 0
+		y = 5
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {	
+	
+    }
+}
+
+}

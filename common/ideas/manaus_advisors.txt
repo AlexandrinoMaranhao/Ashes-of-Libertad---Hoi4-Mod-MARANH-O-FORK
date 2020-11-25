@@ -1,0 +1,23 @@
+ideas = {
+
+	################
+	# Manufacturers
+	################
+
+	naval_manufacturer = {
+			companhia_portuaria_chibatao = {
+    		designer = yes
+
+			allowed = {
+				original_tag = MNS
+			}
+#			picture = 
+			traits = {
+				companhia_portuaria_chibatao_trait
+			}
+			available = {
+                always = yes
+			}
+        }
+	}
+}

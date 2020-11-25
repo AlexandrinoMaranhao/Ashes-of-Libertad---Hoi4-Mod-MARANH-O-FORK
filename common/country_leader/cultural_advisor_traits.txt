@@ -176,6 +176,10 @@ leader_traits = {
 		experience_gain_army_factor = 0.05
     }
 
+	#######################
+    # Manufacturers
+    #######################
+
     repurposed_civilian_crafts_trait = {
 		amphibious_invasion = 0.1
 		navy_screen_attack_factor = 0.05
@@ -202,6 +206,60 @@ leader_traits = {
 			}
 		}
     }
+
+	brazilian_made_crafts_trait = {
+		navy_screen_attack_factor = 0.1
+		spotting_chance = 0.15
+		equipment_bonus = {
+			screen_ship = {
+				surface_visibility = -0.2 naval_speed = 0.1 build_cost_ic = 0.15
+			}
+		}
+	}
+
+	companhia_portuaria_chibatao_trait = {
+		industrial_capacity_dockyard = 0.2
+		convoy_escort_efficiency = 0.15
+		navy_max_range_factor = 0.1
+		}
+
+	argentinian_made_weapons_trait = {
+		equipment_bonus = {
+			infantry_equipment = {
+				reliability_factor = 0.15 soft_attack = 0.1 build_cost_ic = 0.1
+			}
+		}
+	}
+
+	uruguayan_made_equipment_trait = {
+		equipment_bonus = {
+			support_equipment = {
+				supply_consumption = 0.075 default_morale = 0.2 max_strength = 0.25 build_cost_ic = 0.15
+			}
+		}
+	}
+
+	neblina_weapons_trait = {
+		heat_attrition_factor = -0.2
+		equipment_bonus = {
+			infantry_equipment = {
+				defense = 0.05 supply_consumption = 0.1 build_cost_ic = -0.1
+			}
+		}
+	}
+
+	brazilian_made_weapons_trait = {
+		equipment_bonus = {
+			infrantry_equipment = {
+				reliability = -0.1 supply_consumption = -0.15 build_cost_ic = -0.2
+			}
+		}
+	}
+	
+
+	##################
+	# Chiefs
+	##################
     
     alexandre_montoril_army = {
     random = no
@@ -219,13 +277,28 @@ leader_traits = {
     alexandre_montoril_high_command_trait = {
 		army_morale_factor = 0.1
 		attrition = -0.1
-
     }
+
+	alexandre_montoril_navy = {
+	random = no
+		ships_at_battle_start = 0.15
+		naval_coordination = 0.05
+		naval_speed_factor = 0.1
+	}
+
 	algenor_g_nascimento_army_chief = {
 	random = no
 		army_morale_factor = 0.08
 		planning_speed = 0.12
 	}
+
+	vitor_falcao_alves_navy_chief = {
+	random = no
+		naval_hit_chance = 0.2
+		ships_at_battle_start = -0.05
+		naval_coordination = -0.15
+	}
+	
 
 #end
 }

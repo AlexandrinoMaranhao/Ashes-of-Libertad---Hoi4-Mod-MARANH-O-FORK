@@ -38,6 +38,8 @@ add_ideas = {
 	extensive_conscription
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Castelo Branco"
