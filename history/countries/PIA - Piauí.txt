@@ -30,6 +30,8 @@ add_ideas = {
 	low_economic_mobilisation
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Colapsed Government"

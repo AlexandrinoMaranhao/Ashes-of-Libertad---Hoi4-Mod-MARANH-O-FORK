@@ -36,6 +36,9 @@ the_port_of_macapa
 northern_friend_of_the_republic
 }
 
+set_country_flag = is_amazonian
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Raul Monteiro Valdez"

@@ -143,6 +143,11 @@ spriteType ={
 spriteType ={
     name = "GFX_idea_alexandre_montoril_army_chief"
     texturefile = "gfx/interface/ideas/montoril_advisor.dds"
+}
+
+spriteType ={
+    name = "GFX_idea_alexandre_montoril_navy_chief"
+    texturefile = "gfx/interface/ideas/montoril_advisor.dds"
 } 
 
 spriteType ={

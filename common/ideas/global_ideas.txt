@@ -1,0 +1,103 @@
+ideas = {
+
+    #######################
+    # Manufacturers
+    #######################
+
+    naval_manufacturer = {
+
+    repurposed_civilian_crafts = {
+    		designer = yes
+
+			allowed = {
+				always = yes
+			}
+#			picture = 
+			traits = {
+			repurposed_civilian_crafts_trait
+			}
+    }
+
+    manauan_made_crafts = {
+    		designer = yes
+
+			allowed = {
+				always = yes
+			}
+#			picture = 
+			traits = {
+				manauan_made_crafts_trait
+			}
+			available = {
+                always = yes
+			}
+        }
+    }
+
+	material_manufacturer = {
+
+		argentinian_made_weapons = {
+			designer = yes
+
+			allowed ={
+				always = yes
+			}
+#			picture =
+			traits = {
+				argentinian_made_weapons_trait
+			}
+			available = {
+				always = yes
+			}
+		}
+
+		uruguayan_made_equipment = {
+			designer = yes
+
+			allowed = {
+				always = yes
+			}
+#			picture = 
+			traits = {
+				uruguayan_made_equipment_trait
+			}
+			available = {
+				always = yes
+			}
+		}
+
+		neblina_weapons = {
+			designer = yes
+			
+			allowed = {
+			}
+#			picture =
+			available = {
+				is_amazonian = yes
+			}
+			visible = {
+				is_amazonian = yes
+			}
+			traits = {
+				neblina_weapons_trait
+			}
+		}
+
+		brazilian_made_weapons = {
+			designer = yes
+
+			allowed = {
+			}
+#			picture =
+			available = {
+				is_brazilian = yes
+			}
+			visible = {
+				is_brazilian = yes
+			}
+			traits = {
+				brazilian_made_weapons_trait
+			}
+		}
+	}
+}

@@ -36,6 +36,9 @@ memories_of_araguaia
 living_at_the_limit
 }
 
+set_country_flag = is_amazonian
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Carlos Lamarca"

@@ -1,0 +1,23 @@
+ideas = {
+
+	#################
+	# Manufacturers
+	#################
+
+	naval_manufacturer = {
+		    brazilian_made_craft = {
+            designer = yes
+
+            allowed = {
+                original_tag = BEM
+            }
+#           picture =
+            traits = {
+                brazilian_made_crafts_trait
+            }
+            availabe = {
+                always = yes
+            }
+    	}
+	}
+}

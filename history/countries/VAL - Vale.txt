@@ -31,6 +31,8 @@ add_ideas = {
 	volunteer_only
 }
 
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Eliezer Batista"

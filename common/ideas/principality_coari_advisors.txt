@@ -50,6 +50,35 @@ ideas = {
 		}
 	}
 
+	navy_chief = {
+		alexandre_montoril_navy_chief = {
+			picture = GFX_idea_montoril_advisor_cor
+			ledger = navy
+			allowed = {
+				original_tag = COR
+			}
+			traits = {
+				alexandre_montoril_navy
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		vitor_falcao_alves_navy_chief = {  #placeholder name, feel free to change it
+			ledger = navy
+			allowed = {
+				original_tag = COR
+			}
+			traits = {
+				vitor_falcao_alves_navy_chief
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+
     ###############################
 	# High Command
 	###############################
@@ -153,42 +182,6 @@ ideas = {
 				factor = 10
 			}
 		}
-    }
-
-    ###############################
-	# Manufacturers
-	###############################
-
-    naval_manufacturer = {
-
-    repurposed_civilian_crafts = {
-#    		designer = yes
-
-			allowed = {
-				original_tag = COR
-			}
-#			picture = 
-			traits = {
-			repurposed_civilian_crafts_trait
-			}
-    }
-
-    manauan_made_crafts = {
-#    		designer = yes
-
-			allowed = {
-				original_tag = COR
-			}
-#			picture = 
-			traits = {
-				manauan_made_crafts_trait
-			}
-			available = {
-			has_completed_focus = COR_our_biggest_trading_partner
-			NOT = { has_completed_focus = COR_take_a_shot_at_manaus }
-			}
-    }
-
     }
 
     ###############################
