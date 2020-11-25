@@ -2257,12 +2257,12 @@ ideas = {
    }
 
    a80_literacy = {
-        modifier = {research_speed_factor = 0.25
+        modifier = {research_speed_factor = 0.05
    }
    }
 
    a100_literacy = {
-        modifier = {research_speed_factor = 0.50
+        modifier = {research_speed_factor = 0.1
    }
    }
 
@@ -2278,16 +2278,16 @@ ideas = {
 
     desert_spe = {
     modifier = {
-    heat_attrition_factor = -0.2
-    attrition = -0.2
-    acclimatization_hot_climate_gain_factor = 0.2
+    heat_attrition_factor = -0.05
+    attrition = -0.05
+    acclimatization_hot_climate_gain_factor = 0.05
     }    
     }
 
     jungle_spe = {
     modifier = {
-    out_of_supply_factor = -0.5
-    attrition = -0.5
+    out_of_supply_factor = -0.05
+    attrition = -0.05
     }    
     }
 
@@ -2299,23 +2299,23 @@ ideas = {
 
     mountain_spe = {
     modifier = {
-    winter_attrition_factor = -0.2
-    attrition = -0.2
-    acclimatization_cold_climate_gain_factor = 0.2
+    winter_attrition_factor = -0.05
+    attrition = -0.05
+    acclimatization_cold_climate_gain_factor = 0.05
     }    
     }
 
     naval_spe = {
     modifier = {
-    invasion_preparation = -0.2
-    amphibious_invasion = 0.5
+    invasion_preparation = -0.05
+    amphibious_invasion = 0.1
     }    
     }
 
     forest_spe = {
     modifier = {
-    attrition = -0.25
-    army_org_factor = 0.25
+    attrition = -0.05
+    army_org_factor = 0.05
     }    
     }
 

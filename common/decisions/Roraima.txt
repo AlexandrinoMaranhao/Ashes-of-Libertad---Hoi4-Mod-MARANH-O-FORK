@@ -1,6 +1,5 @@
 ROR_Extend_Reforms_category = {
-
-
+	
 	Extend_The_Reforms	= {
 		available = {
 
@@ -9,7 +8,7 @@ ROR_Extend_Reforms_category = {
 		has_completed_focus = ROR_A_Truely_Marxist_Army
 		}
 		complete_effect = {
-			load_focus_tree = { tree = ROR_focus_2 }
+			load_focus_tree = { tree = ROR_focus_3 }
 		}
 	}
 	

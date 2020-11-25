@@ -24,11 +24,16 @@ set_popularities = {
 }
 
 add_ideas = {
-bonded_labor
-state_segregation
+slavery_banned 
+integrated_society 
 limited_conscription
 isolation
 closed_economy
+idea_AOL_state_press
+a50_literacy
+jungle_spe
+militia_troop_training
+no_mercenaries
 
 misfits
 no_administration_roraima

@@ -13,6 +13,7 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 50 y = 2500 }
 
+
 	focus = {
 		id = ROR_A_Merry_Band_Of_Misfits
 		icon = GFX_goal_Misfits_remake
@@ -807,7 +808,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			load_focus_tree = roraima2
+			load_focus_tree = ROR_focus_2
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = arms_factory

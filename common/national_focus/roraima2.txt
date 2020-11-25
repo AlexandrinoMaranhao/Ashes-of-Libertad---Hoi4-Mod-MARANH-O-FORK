@@ -84,6 +84,10 @@ focus_tree = {
 			country_event = { id = roraima.6
 						days = 1
 						}	
+						add_dynamic_modifier = {
+  modifier = ROR_Reformation_Of_The_Misfits
+ 
+}
 		}
 	}
 	#20
