@@ -30,8 +30,6 @@ limited_conscription
 civilian_economy
 closed_economy
 
-a_state_falling_appart
-the_jailed_bird
 the_siege_of_altamira
 }
 
