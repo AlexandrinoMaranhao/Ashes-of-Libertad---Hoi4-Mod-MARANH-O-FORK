@@ -713,13 +713,13 @@ focus_tree = {
     }
 }
 	focus = {
-		id = ACR_most_importantly
+		id = ACR_an_acrean_army
 		prerequisite = { focus = ACR_most_importantly }
 		icon = GFX_goal_first_step_republic
 		relative_position_id = ACR_army_doctrine_evaluation
 
 		x = 1
-		y = 10
+		y = 9
 
 
 		cost = 1
@@ -743,31 +743,6 @@ focus_tree = {
 	
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	focus = {
 		id = ACR_glancing_into_the_milita
