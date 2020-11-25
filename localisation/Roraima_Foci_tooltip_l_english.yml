@@ -1,0 +1,17 @@
+﻿l_english:
+ army_morale_t:0 "Taking this focus will work towards increasing our army's morale"
+ supply_consumption_t:0 "Taking this focus will work towards decreasing our supply consumption"
+ training_time_t:0 "Taking this focus will decrease the amount of time it takes it train our troops"
+ army_org_t:0 "Taking this focus will work towards increasing our army's organization"
+ conscription_neg_t:0 "Taking this focus will unfortunately lower the amount of conscripts we can bring into the army"
+ training_time_neg_t:0 "Taking this focus will unfortunately increase the amount of time it takes to train our troops"
+ planning_t:0 "Taking this focus will increase the amount our officers will be able to plan for operations successfully"
+ conscription_t:0 "Taking this focus will increase the amount of conscripts we can bring into our army"
+ Marxist_Values_t:0 "Taking this focus will modernize our army in accordance with our Marxist principles"
+ reinforce_t:0 "Taking this focus will increase the reinforce rate of our divisions"
+ meritocracy_t:0 "Taking this focus will move our army towards the design of a meritocracy, which will increase our overall efficiency"
+ production_t:0 "Taking this focus will attempt to increase our rate of industrial production"
+ research_t:0 "Taking this focus will, through increasing our literacy rate or improving our schools, improve our research time"
+ army_exp_t:0 "Taking this focus will increase our soldiers' and officers' ability to adapt to new situations and understand their equipment and as such increase our gain of experience"
+ population_t:0 "Taking this focus will, through improving agricultural services or standards of living, increase the population growth of Roraima"
+ 
