@@ -10,5 +10,11 @@ state={
             history = {
              owner=ESC
              add_core_of = ESC
+             victory_points = {
+             1447 5
+             }
+             victory_points = {
+             1130 3
+             }
 }
 }

@@ -6,7 +6,9 @@ state={
 	history={
 		owner = NNM
 		add_core_of = NNM
-
+		victory_points = {
+		89 5
+		}
 	}
 
 	provinces={

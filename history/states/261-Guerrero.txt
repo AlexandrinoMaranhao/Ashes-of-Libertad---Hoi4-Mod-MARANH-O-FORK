@@ -2,6 +2,7 @@
 state={
 	id=261
 	name="STATE_261"
+	
 	provinces={
 		653 764 1104 1144 1168 1243 2737 2927 6225 6226 6227 6228 6229 
 	}
@@ -11,5 +12,14 @@ state={
             history = {
              owner=ESC
              add_core_of = ESC
+             victory_points = {
+             1243 5
+             }
+             victory_points = {
+             1144 3
+             }
+             victory_points = {
+             2737 3
+             }
 }
 }

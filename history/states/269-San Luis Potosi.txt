@@ -6,7 +6,9 @@ state={
 	history={
 		owner = MEX
 		add_core_of = MEX
-
+		victory_points = {
+		2834 5
+		}
 	}
 
 	provinces={

@@ -6,7 +6,9 @@ state={
 	history={
 		owner = AMC
 		add_core_of = AMC
-
+		victory_points = {
+		555 3
+		}
 	}
 
 	provinces={

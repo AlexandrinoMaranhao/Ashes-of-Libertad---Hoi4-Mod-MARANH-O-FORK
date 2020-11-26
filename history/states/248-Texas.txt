@@ -11,5 +11,14 @@ state={
             history = {
              owner=RRG
              add_core_of = RRG
+             victory_points = {
+             2739 5
+             }
+             victory_points = {
+             2773 3
+             }
+             victory_points = {
+             2776 1
+             }
 }
 }

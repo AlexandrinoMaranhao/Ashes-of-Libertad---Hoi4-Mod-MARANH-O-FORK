@@ -6,7 +6,12 @@ state={
 	history={
 		owner = RMT
 		add_core_of = RMT
-
+		victory_points = {
+		77 3
+		}
+		victory_points = {
+		1702 5
+		}
 	}
 
 	provinces={
