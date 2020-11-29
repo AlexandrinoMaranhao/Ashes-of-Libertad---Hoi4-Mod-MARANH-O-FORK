@@ -230,10 +230,7 @@ ideologies = {
 			city_state = {
 			}
 
-			tribal_federation = {
-			}
-
-			tribal_chiefdom = {
+			tribal = {
 			}
 
 			mercantile_state = {
