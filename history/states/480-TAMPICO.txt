@@ -7,7 +7,7 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-		2814 10
+		2814 30
 		}
 	}
 
