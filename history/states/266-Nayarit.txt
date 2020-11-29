@@ -7,7 +7,7 @@ state={
 		owner = ESC
 		add_core_of = ESC
 		victory_points = {
-		2121 10
+		2121 30
 		}
 		victory_points = {
 		2839 3

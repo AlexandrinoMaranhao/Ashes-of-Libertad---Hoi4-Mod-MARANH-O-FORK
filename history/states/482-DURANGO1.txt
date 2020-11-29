@@ -7,7 +7,7 @@ state={
 		owner = NNM
 		add_core_of = NNM
 		victory_points = {
-		1537 5
+		1537 30
 		}
 	}
 
