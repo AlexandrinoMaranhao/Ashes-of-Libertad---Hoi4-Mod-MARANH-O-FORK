@@ -31,6 +31,8 @@ civilian_economy
 closed_economy
 
 the_siege_of_altamira
+the_cabanos
+the_juntas_favorite_pet
 }
 
 set_country_flag = has_unique_advisors

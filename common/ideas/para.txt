@@ -1,6 +1,8 @@
 ideas = {
+
 	country = {
-			the_siege_of_altamira = {
+
+		the_siege_of_altamira = {
 			picture = GFX_idea_the_siege_of_altamira
 			
 			allowed = {
@@ -25,7 +27,8 @@ ideas = {
 		}
 
 		the_cabanos = {
-			
+			picture = GFX_idea_the_cabanos
+
 			allowed = {
 				tag = BEM
 			}
@@ -48,6 +51,7 @@ ideas = {
 		}
 
 		the_juntas_favorite_pet = {
+			picture = GFX_idea_the_juntas_favorite_pet
 			
 			allowed = {
 				tag = BEM
