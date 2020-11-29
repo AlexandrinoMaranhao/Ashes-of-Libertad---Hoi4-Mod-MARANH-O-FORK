@@ -592,7 +592,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_general_of_the_people
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_peoples_general
 		x = -5
 		y = 5
 
@@ -631,8 +631,8 @@ focus_tree = {
 			}
 
 			create_field_marshal = {
-				name = "PLACEHOLDER"
-				picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
+				name = "Jorge Kalume"
+				picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
 				traits = { trait_reckless war_hero media_personality }
 				skill = 3
 				attack_skill = 2
@@ -646,7 +646,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_general_of_the_army
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_traitor_general
 		x = -3
 		y = 5
 

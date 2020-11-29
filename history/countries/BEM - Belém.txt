@@ -30,6 +30,8 @@ limited_conscription
 civilian_economy
 closed_economy
 
+the_cabanos 
+the_juntas_favorite_pet 
 the_siege_of_altamira
 the_cabanos
 the_juntas_favorite_pet

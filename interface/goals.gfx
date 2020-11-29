@@ -3,8 +3,13 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
-	name = "GFX_goal_focus_ACRE_adress_militia"
-	texturefile = "gfx/interface/goals/focus_ACRE_adress_militia.dds"
+	name = "GFX_goal_traitor_general"
+	texturefile = "gfx/interface/goals/focus_ACRE_traitor_general.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_peoples_general"
+	texturefile = "gfx/interface/goals/focus_ACRE_peoples_general.dds"
 	}	
 
 	SpriteType = {
