@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_scripted_gui_window_background"
+		textureFile = "/gfx/interface/GUIs/para/elements/scripted_gui_background.dds"
+	}
+	spriteType = {
+		name = "GFX_close_button"
+		textureFile = "/gfx/interface/GUIs/para/elements/close_button.dds"
+}
