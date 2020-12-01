@@ -7,6 +7,7 @@ ideas = {
     naval_manufacturer = {
 
     repurposed_civilian_crafts = {
+	
     		designer = yes
 
 			allowed = {
@@ -19,6 +20,7 @@ ideas = {
     }
 
     manauan_made_crafts = {
+	
     		designer = yes
 
 			allowed = {
@@ -37,6 +39,7 @@ ideas = {
 	material_manufacturer = {
 
 		argentinian_made_weapons = {
+		
 			designer = yes
 
 			allowed ={
@@ -52,6 +55,7 @@ ideas = {
 		}
 
 		uruguayan_made_equipment = {
+		
 			designer = yes
 
 			allowed = {
@@ -67,6 +71,7 @@ ideas = {
 		}
 
 		neblina_weapons = {
+		
 			designer = yes
 			
 			allowed = {
@@ -84,6 +89,7 @@ ideas = {
 		}
 
 		brazilian_made_weapons = {
+		
 			designer = yes
 
 			allowed = {

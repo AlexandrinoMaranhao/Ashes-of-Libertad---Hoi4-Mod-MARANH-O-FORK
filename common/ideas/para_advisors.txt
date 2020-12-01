@@ -5,7 +5,9 @@ ideas = {
 	#################
 
 	naval_manufacturer = {
+	
 		    brazilian_made_craft = {
+			
             designer = yes
 
             allowed = {
@@ -15,7 +17,7 @@ ideas = {
             traits = {
                 brazilian_made_crafts_trait
             }
-            availabe = {
+            available = {
                 always = yes
             }
     	}
