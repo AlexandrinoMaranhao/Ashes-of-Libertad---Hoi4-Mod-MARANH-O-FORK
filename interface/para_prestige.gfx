@@ -7,4 +7,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_close_button"
 		textureFile = "/gfx/interface/GUIs/para/elements/close_button.dds"
+    }
+	spriteType = {
+		name = "GFX_tutorial_button"
+		textureFile = "/gfx/interface/GUIs/para/elements/tutorial_button.dds"
+    }
 }
