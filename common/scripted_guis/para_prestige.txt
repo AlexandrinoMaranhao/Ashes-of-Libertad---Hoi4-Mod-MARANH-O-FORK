@@ -1,15 +1,23 @@
 scripted_gui = {
-  new_scripted_gui = {
-    window_name = "new_scripted_gui_window"
+  para_prestige_gui = {
+    window_name = "para_prestige_gui_window"
     context_type = player_context
 
     visible = {
+		tag = BEM
 		has_country_flag = para_prestige
     }
 
     effects = {
 		close_button_click = {
 			clr_country_flag = para_prestige
+		}
+		
+		tutorial_button_click = {
+			country_event = {
+				id = ParaTutorial.0
+				days = 0
+			}
 		}
     }
 

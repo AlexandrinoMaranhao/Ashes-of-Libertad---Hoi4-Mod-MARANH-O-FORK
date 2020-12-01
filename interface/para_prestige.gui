@@ -1,7 +1,7 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "new_scripted_gui_window"
+		name = "para_prestige_gui_window"
 		position = { x = 0 y = 0}	
 		size = { width = 800 height= 650 }
 		orientation = center
@@ -17,12 +17,19 @@ guiTypes = {
 			quadTextureSprite ="GFX_scripted_gui_window_background"
 		}
 
-		buttonType ={
+		buttonType = {
 			name ="close_button"
 			spriteType = "GFX_close_button"
-			position = { x= 740 y = 20 }
+			position = { x= 163 y = 90 }
+			Orientation = "UPPER_RIGHT"
+		}
+
+		buttonType = {
+			name ="tutorial_button"
+			spriteType = "GFX_tutorial_button"
+			position = { x= 13 y = 90 }
 			Orientation = "UPPER_LEFT"
-		}	
+		}		
 
 		#instantTextboxType = {
 		#	name = "political_title"
