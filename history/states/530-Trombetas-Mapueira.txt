@@ -1,0 +1,26 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		742 771 787 2321 2486 3352 3365 3368 3371 3376 3380 3394 3395 3401 3405 3406 3420 3421 
+	}
+
+	history={
+		buildings = {
+
+			infrastructure = 1
+			3395 = {
+				naval_base = 1
+
+			}
+
+		}
+		owner = TRO
+		add_core_of = TRO
+		add_core_of = MAP
+	}
+
+	manpower=4952
+	buildings_max_level_factor=1.000
+        state_category=pastoral
+}

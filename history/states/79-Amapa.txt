@@ -44,5 +44,7 @@ naval_base = 4
 		}
         owner = AMA
         add_core_of = AMA
+
+        add_core_of = WAI
 }
 }

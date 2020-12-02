@@ -1,26 +1,30 @@
+
 state={
 	id=471
 	name="STATE_471"
-	provinces={
-		117 158 1517 1778 1864 1883 2218 2457 4087 4121 4155 4159 4183 4186 
+	resources={
+		steel=2.000
 	}
-	manpower=14387
-	buildings_max_level_factor=1.000
-        state_category=rural
-       resources = {
-steel = 2
- 
-}
+
 	history={
 		owner = KAY
 		add_core_of = KAY
+                add_core_of = BEM
+		buildings = {
+			arms_factory = 2
+			infrastructure = 3
 
-        buildings = {
-            arms_factory = 1
-            infrastructure = 2
-        }
-		victory_points = {
-                1864 1
 		}
+		victory_points = {
+			1864 1 
+		}
+
 	}
+
+	provinces={
+		117 158 1022 1517 1778 1864 1883 1987 2218 2457 4087 4121 4155 4159 4183 4186 
+	}
+	manpower=14387
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

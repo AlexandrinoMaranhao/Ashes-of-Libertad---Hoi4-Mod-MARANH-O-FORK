@@ -1,27 +1,28 @@
+
 state={
 	id=139
 	name="STATE_139"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = BEM
+		add_core_of = BEM
+		victory_points = {
+			4019 5 
+		}
+
+	}
+
 	provinces={
-		534 852 1039 1422 1494 1500 1660 1870 1998 2003 2041 2123 2132 2165 2224 2231 2576 3756 3780 3797 3818 3852 3855 3856 3891 3892 3902 3930 3948 3964 3971 3982 4012 4019 
+		1039 1500 1660 2041 2132 2224 2576 3892 3902 3930 3948 3964 3971 3982 4012 4019 
 	}
 	manpower=1842
-	buildings_max_level_factor=1.000    
-        state_category=rural
-       resources = {
-steel = 2
- 
-}
-            history = {
-
-        buildings = {
-            arms_factory = 1
-            infrastructure = 4
-        }
-        owner = BEM
-        add_core_of = BEM
-
-		victory_points = {
-                4019 5
-		}
-}
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

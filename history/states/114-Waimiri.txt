@@ -1,24 +1,26 @@
+
 state={
 	id=114
 	name="STATE_114"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		buildings = {
+			arms_factory = 2
+			infrastructure = 3
+
+		}
+		owner = WAM
+		add_core_of = WAM
+
+	}
+
 	provinces={
-		349 396 479 1030 1562 2075 2312 2685 3417 3446 3451 3484 3503 3504 3508 3519 3550 3575 
+		349 396 479 1030 1033 1258 1562 2075 2312 2685 3417 3446 3451 3484 3503 3504 3508 3519 3550 3575 
 	}
 	manpower=19386
-	buildings_max_level_factor=1.000    
-        state_category=rural
-
-        resources = {
-rubber = 2
-
-}
-            history = {
-
-        buildings = {
-            arms_factory = 2
-            infrastructure = 3
-        }
-        owner = WAM
-        add_core_of = WAM
-}
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

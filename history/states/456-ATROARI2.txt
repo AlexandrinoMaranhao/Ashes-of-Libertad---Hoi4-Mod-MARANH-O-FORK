@@ -1,24 +1,26 @@
+
 state={
 	id=456
 	name="STATE_456"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = ATR
+		add_core_of = ATR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+
+		}
+
+	}
+
 	provinces={
-		591 676 825 922 1025 1033 1258 1531 2292 3426 3431 3487 
+		591 676 825 922 1025 1531 2285 2292 3426 3431 3487 3509 3516 3538 
 	}
 	manpower=9873
 	buildings_max_level_factor=1.000
 	state_category=rural
-
-        resources = {
-steel = 1
- 
-}
-	history={
-		owner = ATR
-		add_core_of = ATR
-
-        buildings = {
-            arms_factory = 1
-            infrastructure = 2
-        }
-	}
 }
