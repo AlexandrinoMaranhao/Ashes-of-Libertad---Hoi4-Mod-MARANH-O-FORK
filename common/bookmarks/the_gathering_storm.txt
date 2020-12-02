@@ -53,7 +53,9 @@ bookmarks = {
                the_cabanos
             }
             focuses = {
-                
+               BEM_the_new_problem
+               BEM_the_older_problem
+               BEM_the_old_problem
             }
 
 		}

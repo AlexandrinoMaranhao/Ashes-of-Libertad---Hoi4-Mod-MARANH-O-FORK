@@ -1,6 +1,16 @@
 leader_traits = {
 	
-		
+	juntas_favorite_pet	= {
+        random = no
+        ai_call_ally_desire_factor = -1000
+		ai_join_ally_desire_factor = -1000
+		consumer_goods_factor = -0.1
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	civilian_desperation_trait = {
 		random = no

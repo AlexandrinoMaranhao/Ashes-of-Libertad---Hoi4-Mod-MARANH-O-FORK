@@ -3,6 +3,21 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_TheOldProblem"
+	texturefile = "gfx/interface/goals/TheOldProblem.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_TheOlderProblem"
+	texturefile = "gfx/interface/goals/TheOlderProblem.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_TheNewProblem"
+	texturefile = "gfx/interface/goals/TheNewProblem.dds"
+	}	
+
+	SpriteType = {
 	name = "GFX_goal_traitor_general"
 	texturefile = "gfx/interface/goals/focus_ACRE_traitor_general.dds"
 	}	

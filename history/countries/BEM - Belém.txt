@@ -33,8 +33,8 @@ closed_economy
 the_cabanos 
 the_juntas_favorite_pet 
 the_siege_of_altamira
-the_cabanos
-the_juntas_favorite_pet
+
+
 }
 
 set_country_flag = has_unique_advisors
@@ -54,7 +54,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = military_junta 
 	traits = {
-		#
+		juntas_favorite_pet
 	}
 }
 

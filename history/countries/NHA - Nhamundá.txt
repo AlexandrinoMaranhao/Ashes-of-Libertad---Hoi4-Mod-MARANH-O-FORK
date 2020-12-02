@@ -47,6 +47,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Rodrigo Otávio Jordão Ramos"
+	desc = "NHA_RODRIGO_OTAVIO_DESC"
 	picture = "gfx/leaders/NHA/Portrait_NHA_Rodrigo_Otavio_Jordao_Ramos.dds"
 	expire = "1999.1.1"
 	ideology = military_government

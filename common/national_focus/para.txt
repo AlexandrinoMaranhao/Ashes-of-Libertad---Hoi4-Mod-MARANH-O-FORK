@@ -86,7 +86,7 @@ focus_tree = {
 
 	focus = {
 		id = BEM_the_new_problem
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_TheNewProblem
 		cost = 1
 
 		prerequisite = {
@@ -102,7 +102,7 @@ focus_tree = {
 
 	focus = {
 		id = BEM_the_older_problem
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_TheOlderProblem
 		cost = 1
 
 		prerequisite = {
@@ -120,7 +120,7 @@ focus_tree = {
 
 	focus = {
 		id = BEM_the_old_problem
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_TheOldProblem
 		cost = 1
 
 		prerequisite = {
