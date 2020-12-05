@@ -3,6 +3,41 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
+	name = "GFX_goal_FactionLeader"
+	texturefile = "gfx/interface/goals/FactionLeader.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_KeepCalmFFSAMC"
+	texturefile = "gfx/interface/goals/KeepCalmFFSAMC.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ManadgeSupplyAMC"
+	texturefile = "gfx/interface/goals/ManadgeSupplyAMC.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Deserters"
+	texturefile = "gfx/interface/goals/Deserters.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_GettingUp"
+	texturefile = "gfx/interface/goals/GettingUp.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_AmazonsFinestAMCIntro"
+	texturefile = "gfx/interface/goals/AmazonsFinestAMCIntro.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_AmazonsLosersAMCIntro"
+	texturefile = "gfx/interface/goals/AmazonsLosersAMCIntro.dds"
+	}	
+
+	SpriteType = {
 	name = "GFX_goal_TheOldProblem"
 	texturefile = "gfx/interface/goals/TheOldProblem.dds"
 	}	

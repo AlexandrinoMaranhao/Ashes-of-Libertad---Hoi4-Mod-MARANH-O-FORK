@@ -30,7 +30,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_intro_two
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_AmazonsFinestAMCIntro
 		cost = 1
 		prerequisite = {
 			focus = NHA_intro_one
@@ -48,7 +48,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_intro_three
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_AmazonsLosersAMCIntro
 		cost = 1
 		prerequisite = {
 			focus = NHA_intro_one
@@ -66,7 +66,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_intro_final
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_GettingUp
 		cost = 1
 
 		bypass = {
@@ -85,7 +85,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_keep_calm_ffs
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_KeepCalmFFSAMC
 		cost = 1
 		prerequisite = {
 			focus = NHA_intro_final
@@ -103,7 +103,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_address_deserters
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_Deserters
 		cost = 1
 		prerequisite = {
 			focus = NHA_intro_final
@@ -120,7 +120,7 @@ focus_tree = {
 
 	focus = {
 		id = NHA_manage_supply
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_ManadgeSupplyAMC
 		cost = 1
 		prerequisite = {
 			focus = NHA_intro_final
@@ -153,7 +153,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_adress_faction_leaders
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_FactionLeader
 		cost = 1
 		prerequisite = {
 			focus = NHA_keep_calm_ffs
