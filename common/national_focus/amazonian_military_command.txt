@@ -13,7 +13,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 		focus = {
 		id = NHA_intro_one
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_AMC
 		cost = 1
 		prerequisite = {
 			focus = x
@@ -68,7 +68,12 @@ focus_tree = {
 		id = NHA_intro_final
 		icon = GFX_goal_GettingUp
 		cost = 1
-
+		prerequisite = {
+			focus = NHA_intro_three
+		}
+		prerequisite = {
+			focus = NHA_intro_two
+		}
 		bypass = {
 		has_completed_focus = NHA_intro_one
 		}
@@ -90,7 +95,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NHA_intro_final
 		}
-		x = 2
+		x = 5
 		y = 3
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -108,7 +113,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NHA_intro_final
 		}
-		x = -2
+		x = -5
 		y = 3
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -119,7 +124,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NHA_manage_supply
+		id = NHA_manadge_supply
 		icon = GFX_goal_ManadgeSupplyAMC
 		cost = 1
 		prerequisite = {
@@ -168,7 +173,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_renew_the_port
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_TheNewPortOfNhamunda
 		cost = 1
 		prerequisite = {
 			focus = NHA_manadge_supply
@@ -199,7 +204,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_make_em_learn
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_MakeEmLearn
 		cost = 1
 		prerequisite = {
 			focus = NHA_address_deserters
@@ -207,7 +212,7 @@ random_owned_controlled_state = {
 		mutually_exclusive = {
 			focus = NHA_quiet_pardons
 		}
-		x = -2
+		x = -4
 		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -221,7 +226,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_quiet_pardons
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_QuietPardons
 		cost = 1
 		prerequisite = {
 			focus = NHA_address_deserters
@@ -229,7 +234,7 @@ random_owned_controlled_state = {
 		mutually_exclusive = {
 			focus = NHA_make_em_learn
 		}
-		x =-4
+		x =-6
 		y = 4
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -242,12 +247,12 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_promises_of_recovery
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_PromissesofRecoveryAMC
 		cost = 1
 		prerequisite = {
 			focus = NHA_quiet_pardons focus = NHA_make_em_learn
 		}
-		x = -3
+		x = -5
 		y = 5
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -257,7 +262,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_use_the_civilians
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_UsetheCiviliansAMC
 		cost = 1
 		prerequisite = {
 			focus = NHA_renew_the_port
@@ -277,8 +282,8 @@ random_owned_controlled_state = {
 	}
 
 	focus = {
-		id = NHA_use_the_military
-		icon = GFX_goal_pearl_of_solimoes
+		id = NHA_use_the_military_AMC
+		icon = GFX_goal_UsetheMilitaryAMC
 		cost = 1
 		prerequisite = {
 			focus = NHA_renew_the_port
@@ -299,7 +304,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_amapa_papers
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_AmapaPapers
 		cost = 1
 		prerequisite = {
 			focus = NHA_keep_calm_ffs
@@ -331,7 +336,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_petition_belem
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_PetitionBelem
 		cost = 1
 		prerequisite = {
 			focus = NHA_keep_calm_ffs
@@ -359,7 +364,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_segregate_the_troops
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_SeparateTheTroops
 		cost = 1
 		prerequisite = {
 			focus = NHA_adress_faction_leaders
@@ -377,11 +382,11 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = NHA_the_new_port_of_nhamunda
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_RenewThePortNhamunda
 		cost = 1
 		prerequisite = {
 			focus = NHA_use_the_civilians
-focus = NHA_use_the_military
+focus = NHA_use_the_military_AMC
 		}
 		x = 0
 		y = 6
@@ -400,7 +405,7 @@ focus = NHA_use_the_military
 
 	focus = {
 		id = NHA_shiny_new_toys
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_ShinyNewToys
 		cost = 1
 		prerequisite = {
 			focus = NHA_amapa_papers
@@ -426,12 +431,12 @@ focus = NHA_petition_belem
 
 	focus = {
 		id = NHA_get_me_off_this_off_this_fucking_island
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_GetMeOffThisFuckingIsland
 		cost = 1
 		prerequisite = {
 			focus = NHA_promises_of_recovery
 		}
-		x = -3
+		x = -5
 		y = 6
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -444,13 +449,13 @@ focus = NHA_petition_belem
 
 	focus = {
 		id = NHA_mainland_deployment
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_MainlandDeployment
 		cost = 1
 		prerequisite = {
 			focus = NHA_segregate_the_troops }
         prerequisite = {focus = NHA_the_new_port_of_nhamunda
 		}
-		x = 2
+		x = 0
 		y = 7
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -466,7 +471,7 @@ focus = NHA_petition_belem
 
 	focus = {
 		id = NHA_war_plan
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_BackToBussiness
 		cost = 1
 		prerequisite = {
 			focus = NHA_mainland_deployment
@@ -487,12 +492,12 @@ focus = NHA_petition_belem
 
 	focus = {
 		id = NHA_enforce_order_in_the_army
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_EnforceOrderInTheArmy
 		cost = 1
 		prerequisite = {
 			focus = NHA_get_me_off_this_off_this_fucking_island
 		}
-		x = -3
+		x = -5
 		y = 8
 		relative_position_id = NHA_intro_one
 		completion_reward = {
@@ -504,7 +509,7 @@ focus = NHA_petition_belem
 
 	focus = {
 		id = NHA_the_madera_incident
-		icon = GFX_goal_pearl_of_solimoes
+		icon = GFX_goal_TheMaderaIncident
 		cost = 1
 		prerequisite = {
 			focus = NHA_enforce_order_in_the_army

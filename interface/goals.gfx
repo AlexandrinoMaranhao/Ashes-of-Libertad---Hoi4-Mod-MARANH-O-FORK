@@ -2,9 +2,95 @@ spriteTypes = {
 
 	#### Generic continuous goal icons
 
+
+	SpriteType = {
+	name = "GFX_goal_PetitionBelem"
+	texturefile = "gfx/interface/goals/PetitionBelem.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_SeparateTheTroops"
+	texturefile = "gfx/interface/goals/SeparateTheTroops.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ShinyNewToys"
+	texturefile = "gfx/interface/goals/ShinyNewToys.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_TheNewPortOfNhamunda"
+	texturefile = "gfx/interface/goals/TheNewPortOfNhamunda.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_MainlandDeployment"
+	texturefile = "gfx/interface/goals/MainlandDeployment.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_UsetheMilitaryAMC"
+	texturefile = "gfx/interface/goals/UsetheMilitaryAMC.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_UsetheCiviliansAMC"
+	texturefile = "gfx/interface/goals/UsetheCiviliansAMC.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_RenewThePortNhamunda"
+	texturefile = "gfx/interface/goals/RenewThePortNhamunda.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_QuietPardons"
+	texturefile = "gfx/interface/goals/QuietPardons.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_AmapaPapers"
+	texturefile = "gfx/interface/goals/AmapaPapers.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_MakeEmLearn"
+	texturefile = "gfx/interface/goals/MakeEmLearn.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_PromissesofRecoveryAMC"
+	texturefile = "gfx/interface/goals/PromissesofRecoveryAMC.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_GetMeOffThisFuckingIsland"
+	texturefile = "gfx/interface/goals/GetMeOffThisFuckingIsland.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_EnforceOrderInTheArmy"
+	texturefile = "gfx/interface/goals/EnforceOrderInTheArmy.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_BackToBussiness"
+	texturefile = "gfx/interface/goals/BackToBussiness.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_TheMaderaIncident"
+	texturefile = "gfx/interface/goals/TheMaderaIncident.dds"
+	}	
+
 	SpriteType = {
 	name = "GFX_goal_FactionLeader"
 	texturefile = "gfx/interface/goals/FactionLeader.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_AMC"
+	texturefile = "gfx/interface/goals/AMC.dds"
 	}	
 
 	SpriteType = {
