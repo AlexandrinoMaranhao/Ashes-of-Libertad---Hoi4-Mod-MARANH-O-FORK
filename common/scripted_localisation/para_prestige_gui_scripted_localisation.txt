@@ -1,0 +1,12 @@
+defined_text = {
+    name = GetBelemPiece
+    text = {
+        trigger = {
+            tag = BEM
+            controls_state = 77
+            controls_state = 132
+            controls_state = 133
+        }
+        localization_key = "GFX_belem_controlled_piece"
+    }
+}
