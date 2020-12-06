@@ -1,15 +1,110 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_scripted_gui_window_background"
-		textureFile = "/gfx/interface/GUIs/para/elements/scripted_gui_background.dds"
+		name = "GFX_open_gui"
+		textureFile = "/gfx/interface/GUIs/para/elements/Clipboard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_para_background"
+		textureFile = "/gfx/interface/GUIs/para/elements/Para_background.dds"
 	}
 	spriteType = {
 		name = "GFX_close_button"
-		textureFile = "/gfx/interface/GUIs/para/elements/close_button.dds"
+		textureFile = "/gfx/interface/GUIs/para/elements/Close_button.dds"
     }
 	spriteType = {
 		name = "GFX_tutorial_button"
-		textureFile = "/gfx/interface/GUIs/para/elements/tutorial_button.dds"
+		textureFile = "/gfx/interface/GUIs/para/elements/Tutorial_button.dds"
+    }
+##################################
+# Map Pieces
+##################################	
+	spriteType = {
+		name = "GFX_belem_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/BelemPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_belem_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/BelemPieceControl.dds"
+    }
+	spriteType = {
+		name = "GFX_cachimbo_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/CachimboPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_cachimbo_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/CachimboPieceControl.dds"
+    }
+	spriteType = {
+		name = "GFX_kayapo_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/KayapoPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_kayapo_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/KayapoPieceControl.dds"
+    }
+	spriteType = {
+		name = "GFX_nhamunda_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/NhamundaPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_nhamunda_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/NhamundaPieceControl.dds"
+    }
+	spriteType = {
+		name = "GFX_portel_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/PortelPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_portel_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/PortelPieceControl.dds"
+    }
+	spriteType = {
+		name = "GFX_santarem_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/SantaremPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_santarem_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/SantaremPieceControl.dds"
+    }
+	spriteType = {
+		name = "GFX_tapajos_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/TapajosPiece.dds"
+    }
+	spriteType = {
+		name = "GFX_tapajos_controlled_piece"
+		textureFile = "/gfx/interface/GUIs/para/elements/TapajosPieceControl.dds"
+    }
+###########################
+# State List in Regions
+###########################
+	spriteType = {
+		name = "GFX_belem_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
+    }
+	spriteType = {
+		name = "GFX_cachimbo_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
+    }
+	spriteType = {
+		name = "GFX_kayapo_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
+    }
+	spriteType = {
+		name = "GFX_nhamunda_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
+    }
+	spriteType = {
+		name = "GFX_portel_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
+    }
+	spriteType = {
+		name = "GFX_santarem_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
+    }
+	spriteType = {
+		name = "GFX_tapajos_list"
+		textureFile = "/gfx/interface/GUIs/para/elements/List.dds"
     }
 }
