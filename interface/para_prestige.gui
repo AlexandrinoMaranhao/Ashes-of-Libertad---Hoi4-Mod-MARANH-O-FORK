@@ -206,15 +206,260 @@ guiTypes = {
 			pdx_tooltip = "BEM_tapajos_list_tt"
 		}	
 	}
-		#instantTextboxType = {
-		#	name = "political_title"
-		#	position = { x = 45 y = 8 }
-		#	font = "hoi_36header"
-		#	borderSize = {x = 0 y = 0}
-		#	text = "POLITICAL_POLITICAL"
-		#	maxWidth = 400
-		#	maxHeight = 20
-		#	fixedsize = yes
-		#}
+	containerWindowType = {
+		name = "para_names"
+		position = { x = 0 y = 0 }
+		size = { width = 800 height = 650  }
+		orientation = center
+
+		instantTextboxType = {
+			name = "belem_state"
+			position = { x = -285 y = 50 }
+			font = "hoi_20header"
+			text = "Belém"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "cachimbo_state"
+			position = { x = -300 y = 50 }
+			font = "hoi_20header"
+			text = "Cachimbo"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "kayapo_state"
+			position = { x = -290 y = 50 }
+			font = "hoi_20header"
+			text = "Kayapó"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "nhamunda_state"
+			position = { x = -280 y = 50 }
+			font = "hoi_20header"
+			text = "Zoe"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "portel_state"
+			position = { x = -290 y = 50 }
+			font = "hoi_20header"
+			text = "Portel"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "santarem_state"
+			position = { x = -300 y = 50 }
+			font = "hoi_20header"
+			text = "Santarém"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "tapajos_state"
+			position = { x = -290 y = 50 }
+			font = "hoi_20header"
+			text = "Tapajós"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}										
+		}
+	containerWindowType = {
+		name = "para_prestige"
+		position = { x = 0 y = 0 }
+		size = { width = 800 height = 650  }
+		orientation = center
+
+		instantTextboxType = {
+			name = "prestige_view"
+			position = { x = -95 y = -199 }
+			font = "hoi_24header"
+			text = "Current Prestige: [?var:BEM_Prestige]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = no
+			format = center
+			}
+
+		buttonType = {
+			name ="civ_factory"
+			spriteType = "GFX_civ_button"
+			position = { x= 135 y = -470 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="civ_factory_checked"
+			spriteType = "GFX_civ_button_checked"
+			position = { x= 135 y = -470 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="mil_factory"
+			spriteType = "GFX_mil_button"
+			position = { x= 135 y = -443 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="mil_factory_checked"
+			spriteType = "GFX_mil_button_checked"
+			position = { x= 135 y = -443 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name = "military_intervention"
+			spriteType = "GFX_military_intervention"
+			position = { x= -20 y = -410 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="military_intervention_checked"
+			spriteType = "GFX_military_intervention_checked"
+			position = { x= -20 y = -410 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_garrison"
+			spriteType = "GFX_garrison_button"
+			position = { x= 135 y = -305 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_garrison_checked"
+			spriteType = "GFX_garrison_button_checked"
+			position = { x= 135 y = -305 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_equipment"
+			spriteType = "GFX_equipment_button"
+			position = { x= 135 y = -282 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_equipment_checked"
+			spriteType = "GFX_equipment_button_checked"
+			position = { x= 135 y = -282 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_division"
+			spriteType = "GFX_division_button"
+			position = { x= 135 y = -259 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_division_checked"
+			spriteType = "GFX_division_button_checked"
+			position = { x= 135 y = -259 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_general"
+			spriteType = "GFX_general_button"
+			position = { x= 135 y = -236 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="new_general_checked"
+			spriteType = "GFX_general_button_checked"
+			position = { x= 135 y = -236 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="building_speed"
+			spriteType = "GFX_building_button"
+			position = { x= 135 y = -213 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="building_speed_checked"
+			spriteType = "GFX_building_button_checked"
+			position = { x= 135 y = -213 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="stability_boost"
+			spriteType = "GFX_stab_button"
+			position = { x= 135 y = -188 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="stability_boost_checked"
+			spriteType = "GFX_stab_button_checked"
+			position = { x= 135 y = -188 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="abort_mission"
+			spriteType = "GFX_abort_button"
+			position = { x= 135 y = -164 }
+			Orientation = "CENTER"
+		}
+
+		buttonType = {
+			name ="abort_mission_checked"
+			spriteType = "GFX_abort_button_checked"
+			position = { x= 135 y = -164 }
+			Orientation = "CENTER"
+		}
+
+		instantTextboxType = {
+			name = "belem_cabanos"
+			position = { x = -282 y = -105 }
+			font = "hoi_22typewriter"
+			text = "[?var:BEM_belem_cabanos]/10"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "general_request"
+			position = { x = -40 y = -292 }
+			font = "hoi_36header"
+			text = "New General in Route"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}						
+		instantTextboxType = {
+			name = "prestige_penalty"
+			position = { x = -282 y = -42 }
+			font = "hoi_22typewriter"
+			text = "10%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}
+		}			
 	}
 }

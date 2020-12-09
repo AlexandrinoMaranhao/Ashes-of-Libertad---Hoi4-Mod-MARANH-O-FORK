@@ -11,9 +11,9 @@ add_namespace = ParaTutorial
 country_event = {
 		id = ParaTutorial.0
 		title = ParaTutorial.0.t
-		dsec = ParaTutorial.0.d
+		desc = ParaTutorial.0.d
 		#picture =
-		#is_triggered_only = yes
+		is_triggered_only = yes
 		
 		option = {
 			name = ParaTutorial.0.a

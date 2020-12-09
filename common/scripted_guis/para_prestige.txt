@@ -69,130 +69,211 @@ scripted_gui = {
 		}
   }
   belem_piece_click = {
-      set_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   cachimbo_piece_click = {
-      set_country_flag = cachimbo_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = cachimbo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   kayapo_piece_click = {
-      set_country_flag = kayapo_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = kayapo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   nhamunda_piece_click = {
-      set_country_flag = nhamunda_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = nhamunda_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   portel_piece_click = {
-      set_country_flag = portel_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = portel_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   santarem_piece_click = {
-      set_country_flag = santarem_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = santarem_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = tapajos_selected
   }
   tapajos_piece_click = {
-      set_country_flag = tapajos_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
+      set_country_flag = tapajos_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
   }
   belem_controlled_piece_click = {
-      set_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   cachimbo_controlled_piece_click = {
-      set_country_flag = cachimbo_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = cachimbo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   kayapo_controlled_piece_click = {
-      set_country_flag = kayapo_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = kayapo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   nhamunda_controlled_piece_click = {
-      set_country_flag = nhamunda_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = nhamunda_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
-  portel_controlled_piece_click = {
-      set_country_flag = portel_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = santarem_region_list
-      clr_country_flag = tapajos_region_list
+  portel_controlled_piece_click = {#
+      set_country_flag = portel_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
   }
   santarem_controlled_piece_click = {
-      set_country_flag = santarem_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = tapajos_region_list
+      set_country_flag = santarem_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = tapajos_selected
   }
   tapajos_controlled_piece_click = {
-      set_country_flag = tapajos_region_list
-      clr_country_flag = belem_region_list
-      clr_country_flag = kayapo_region_list
-      clr_country_flag = cachimbo_region_list
-      clr_country_flag = nhamunda_region_list
-      clr_country_flag = portel_region_list
-      clr_country_flag = santarem_region_list
+      set_country_flag = tapajos_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+  }
+  # Buttons
+  military_intervention_click = {
+    set_country_flag = mil_intervention_ch
+    clr_country_flag = mil_intervention
+  }
+  military_intervention_checked_click = {
+    set_country_flag = mil_intervention
+    clr_country_flag = mil_intervention_ch
+  }
+  civ_factory_click = {
+    set_country_flag = civ_factory_ch
+    clr_country_flag = civ_factory
+  }
+  civ_factory_checked_click = {
+    set_country_flag = civ_factory
+    clr_country_flag = civ_factory_ch
+  }
+  mil_factory_click = {
+    set_country_flag = mil_factory_ch
+    clr_country_flag = mil_factory
+  }
+  mil_factory_checked_click = {
+    set_country_flag = mil_factory
+    clr_country_flag = mil_factory_ch
+  }
+  new_garrison_click = {
+    set_country_flag = new_garrison_ch
+    clr_country_flag = new_garrison
+  }
+  new_garrison_checked_click = {
+    set_country_flag = new_garrison
+    clr_country_flag = new_garrison_ch
+  }
+  new_equipment_click = {
+    set_country_flag = new_equipment_ch
+    clr_country_flag = new_equipment
+  }
+  new_equipment_checked_click = {
+    set_country_flag = new_equipment
+    clr_country_flag = new_equipment_ch
+  }
+  new_division_click = {
+    set_country_flag = new_division_ch
+    clr_country_flag = new_division
+  }
+  new_division_checked_click = {
+    set_country_flag = new_division
+    clr_country_flag = new_division_ch
+  }
+  new_general_click = {
+    set_country_flag = new_general_ch
+    clr_country_flag = new_general
+  }
+  new_general_checked_click = {
+    set_country_flag = new_general
+    clr_country_flag = new_general_ch
+  }
+  building_speed_click = {
+    set_country_flag = building_speed_ch
+    clr_country_flag = building_speed
+  }
+  building_speed_checked_click = {
+    set_country_flag = building_speed
+    clr_country_flag = building_speed_ch
+  }
+  stability_boost_click = {
+    set_country_flag = stability_boost_ch
+    clr_country_flag = stability_boost
+  }
+  stability_boost_checked_click = {
+    set_country_flag = stability_boost
+    clr_country_flag = stability_boost_ch
+  }
+  abort_mission_click = {
+    set_country_flag = abort_mission_ch
+    clr_country_flag = abort_mission
+  }
+  abort_mission_checked_click = {
+    set_country_flag = abort_mission
+    clr_country_flag = abort_mission_ch
   }
 }
 
@@ -251,25 +332,85 @@ scripted_gui = {
         controls_state = 530
       }
     belem_list_visible = {
-        has_country_flag = belem_region_list
+      has_country_flag = belem_selected
     }
     kayapo_list_visible = {
-      has_country_flag = kayapo_region_list
+      has_country_flag = kayapo_selected
     }
     cachimbo_list_visible = {
-      has_country_flag = cachimbo_region_list
+      has_country_flag = cachimbo_selected
     }
     nhamunda_list_visible = {
-      has_country_flag = nhamunda_region_list
+      has_country_flag = nhamunda_selected
     }
     portel_list_visible = {
-      has_country_flag = portel_region_list
+      has_country_flag = portel_selected
     }
     santarem_list_visible = {
-      has_country_flag = santarem_region_list
+      has_country_flag = santarem_selected
     }
     tapajos_list_visible = {
-      has_country_flag = tapajos_region_list
+      has_country_flag = tapajos_selected
+    }
+    belem_state_visible = {
+      has_country_flag = belem_selected
+    }
+    cachimbo_state_visible = {
+      has_country_flag = cachimbo_selected
+    }
+    kayapo_state_visible = {
+      has_country_flag = kayapo_selected
+    }
+    nhamunda_state_visible = {
+      has_country_flag = nhamunda_selected
+    }
+    portel_state_visible = {
+      has_country_flag = portel_selected
+    }
+    santarem_state_visible = {
+      has_country_flag = santarem_selected
+    }
+    tapajos_state_visible = {
+      has_country_flag = tapajos_selected
+    }
+
+    # Prestige
+    prestige_view_visible = {
+      always = yes
+    }
+    military_intervention_checked_visible = {
+      has_country_flag = mil_intervention_ch
+    }
+    civ_factory_checked_visible = {
+      has_country_flag = civ_factory_ch
+    }
+    mil_factory_checked_visible = {
+      has_country_flag = mil_factory_ch
+    }
+    new_garrison_checked_visible = {
+      has_country_flag = new_garrison_ch
+    }
+    new_equipment_checked_visible = {
+      has_country_flag = new_equipment_ch
+    }
+    new_division_checked_visible = {
+      has_country_flag = new_division_ch
+    }
+    new_general_checked_visible = {
+      has_country_flag = new_general_ch
+    }
+    building_speed_checked_visible = {
+      has_country_flag = building_speed_ch
+    }
+    stability_boost_checked_visible = {
+      has_country_flag = stability_boost_ch
+    }
+    abort_mission_checked_visible = {
+      has_country_flag = abort_mission_ch
+    }
+    # Cabanos
+    belem_cabanos_visible = {
+      has_country_flag = belem_selected
     }
   }
 

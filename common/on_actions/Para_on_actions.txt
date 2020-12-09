@@ -1,0 +1,17 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			BEM = {
+				set_variable = {
+					var = BEM_Prestige
+					value = 25
+				}
+				# Cabanos Impact
+				set_variable = {
+					var = BEM_belem_cabanos
+					value = 1
+				}
+			}
+		}
+	}
+}
