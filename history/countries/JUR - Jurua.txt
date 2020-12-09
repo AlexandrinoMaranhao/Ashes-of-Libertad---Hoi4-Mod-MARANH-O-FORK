@@ -35,16 +35,15 @@ add_ideas = {
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Juruá Tribes"
+	picture = "gfx/leaders/JUR/Portrait_JUR_Tribal_Leader.dds"
+	expire = "1999.1.1"
+	ideology = tribal
+	traits = {
+		#
+	}
+}
 
 
 }

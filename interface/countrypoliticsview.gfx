@@ -462,8 +462,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_tribal_federation"
-		texturefile = "gfx/interface/ideologies/tribal_federation.dds"
+		name = "GFX_ideology_tribald"
+		texturefile = "gfx/interface/ideologies/tribal.dds"
 	}
 
 	spriteType = {
