@@ -8,8 +8,20 @@ on_actions = {
 				}
 				# Cabanos Impact
 				set_variable = {
+					var = BEM_max_impact
+					value = 10
+				}
+				set_variable = {
 					var = BEM_belem_cabanos
-					value = 1
+					value = 0
+				}
+				set_variable = {
+					var = BEM_portel_cabanos
+					value = 4
+				}
+				set_variable = {
+					var = BEM_kayapo_cabanos
+					value = 2
 				}
 			}
 		}

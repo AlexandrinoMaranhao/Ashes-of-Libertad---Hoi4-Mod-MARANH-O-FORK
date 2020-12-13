@@ -412,6 +412,12 @@ scripted_gui = {
     belem_cabanos_visible = {
       has_country_flag = belem_selected
     }
+    portel_cabanos_visible = {
+      has_country_flag = portel_selected
+    }
+    kayapo_cabanos_visible = {
+      has_country_flag = kayapo_selected
+    }
   }
 
     dynamic_lists = {
