@@ -31,6 +31,7 @@ add_ideas = {
 	integrated_society
 	war_economy
 	closed_economy
+	deni_tribe
 }
 
 set_country_flag = is_amazonian
@@ -41,7 +42,7 @@ create_country_leader = {
 	name = "Patarahú Ubiratã"
 	picture = ""
 	expire = "1999.1.1"
-	ideology = tribal_federation
+	ideology = tribal
 	traits = {
 		#
 	}

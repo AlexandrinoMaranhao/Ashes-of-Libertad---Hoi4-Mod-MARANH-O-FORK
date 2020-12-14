@@ -30,6 +30,7 @@ add_ideas = {
 	integrated_society
 	war_economy
 	closed_economy
+	trombetas_tribe
 }
 
 set_country_flag = is_amazonian

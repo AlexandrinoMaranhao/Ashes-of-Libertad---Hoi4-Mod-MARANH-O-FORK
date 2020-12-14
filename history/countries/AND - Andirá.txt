@@ -32,6 +32,7 @@ add_ideas = {
 	war_economy
 	closed_economy
 
+    andira_tribe
 	defenders_of_parintins
 }
 

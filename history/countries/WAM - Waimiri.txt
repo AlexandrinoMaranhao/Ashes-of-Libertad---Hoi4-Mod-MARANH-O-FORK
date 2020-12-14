@@ -31,6 +31,8 @@ add_ideas = {
 	racial_oligarchy
 	war_economy
 	closed_economy
+
+	waimiri_tribe
 }
 
 set_country_flag = is_amazonian

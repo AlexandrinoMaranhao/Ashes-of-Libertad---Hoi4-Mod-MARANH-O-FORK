@@ -218,9 +218,6 @@ ideologies = {
 			mormon_theocracy = {
 			}
 			
-			moderatism = {
-			}
-			
 			centrism = {
 			}
 

@@ -31,6 +31,8 @@ total_segregation
 bonded_labor
 low_economic_mobilisation
 free_trade
+
+muduruku_tribe
 }
 
 set_country_flag = is_amazonian

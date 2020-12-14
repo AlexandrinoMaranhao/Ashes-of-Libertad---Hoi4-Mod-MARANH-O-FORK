@@ -31,6 +31,8 @@ add_ideas = {
 	racial_oligarchy
 	undisturbed_isolation
 	closed_economy
+
+	himerima_tribe
 }
 
 set_country_flag = is_amazonian

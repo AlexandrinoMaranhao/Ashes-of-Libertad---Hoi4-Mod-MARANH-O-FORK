@@ -30,6 +30,8 @@ add_ideas = {
 	total_segregation
 	war_economy
 	closed_economy
+
+	bia_tribe
 }
 
 set_country_flag = is_amazonian

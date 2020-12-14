@@ -4,7 +4,107 @@ SpriteTypes = {
 #    name = "GFX_idea_"
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
+   ###TRIBES
+spriteType ={
+    name = "GFX_idea_zoe_tribe"
+    texturefile = "gfx/interface/ideas/zoecocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_jutai_tribe"
+    texturefile = "gfx/interface/ideas/jutaicocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_himerima_tribe"
+    texturefile = "gfx/interface/ideas/himerimacocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_javari_tribe"
+    texturefile = "gfx/interface/ideas/javaricocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_jurua_tribe"
+    texturefile = "gfx/interface/ideas/JuruaCocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_bia_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_yanomami_tribe"
+    texturefile = "gfx/interface/ideas/yanomamicocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_waiapi_tribe"
+    texturefile = "gfx/interface/ideas/waiapicocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_andira_tribe"
+    texturefile = "gfx/interface/ideas/andiracocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_coata_tribe"
+    texturefile = "gfx/interface/ideas/coatacocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_caititu_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_muduruku_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_mapuera_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_deni_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_waimiri_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_trombetas_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_atroari_tribe"
+    texturefile = "gfx/interface/ideas/.dds"
+} 
+     ####TRIBES
+spriteType ={
+    name = "GFX_idea_administration_in_chaos"
+    texturefile = "gfx/interface/ideas/VanishingCasteloBranco.dds"
+} 
     
+spriteType ={
+    name = "GFX_idea_militia_army"
+    texturefile = "gfx/interface/ideas/militiaArmyAcre.dds"
+} 
+    
+spriteType ={
+    name = "GFX_idea_support_from_down_south"
+    texturefile = "gfx/interface/ideas/supportfromsouth.dds"
+} 
+
 spriteType ={
     name = "GFX_idea_cachimbo_military_base"
     texturefile = "gfx/interface/ideas/.dds"
