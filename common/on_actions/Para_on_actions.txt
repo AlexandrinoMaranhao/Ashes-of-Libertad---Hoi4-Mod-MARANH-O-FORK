@@ -26,4 +26,11 @@ on_actions = {
 			}
 		}
 	}
+	on_daily = {
+		effect = {
+			BEM = {
+				add_to_variable = { BEM_portel_cabanos = modifier@BEM_cabanos_altamira }
+			}
+		}
+	}
 }
