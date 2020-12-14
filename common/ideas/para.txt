@@ -22,7 +22,7 @@ ideas = {
 			}
 			
 			modifier = {
-				#Will be added after prestige gui is done
+				BEM_cabanos_altamira = 4
 			}
 		}
 

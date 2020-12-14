@@ -1,0 +1,11 @@
+BEM_cabanos_initial = {
+	add_to_array = { cabanos_array = BEM_belem_cabanos }
+	add_to_array = { cabanos_array = BEM_portel_cabanos }
+	add_to_array = { cabanos_array = BEM_kayapo_cabanos }
+
+		clamp_variable = {
+			var = BEM_belem_cabanos
+			min = 0
+			max = BEM_max_impact
+		}
+}
