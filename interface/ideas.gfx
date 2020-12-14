@@ -32,7 +32,7 @@ spriteType ={
    
 spriteType ={
     name = "GFX_idea_bia_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/biacocar.dds"
 } 
    
 spriteType ={
@@ -57,22 +57,22 @@ spriteType ={
    
 spriteType ={
     name = "GFX_idea_caititu_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/caititucocar.dds"
 } 
    
 spriteType ={
     name = "GFX_idea_muduruku_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/mundurukucocar.dds"
 } 
    
 spriteType ={
     name = "GFX_idea_mapuera_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/mapueracocar.dds"
 } 
    
 spriteType ={
     name = "GFX_idea_deni_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/denicocar.dds"
 } 
    
 spriteType ={

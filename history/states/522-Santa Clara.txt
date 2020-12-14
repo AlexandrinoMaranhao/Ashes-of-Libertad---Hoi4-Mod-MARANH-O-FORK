@@ -10,8 +10,8 @@ state={
 	state_category=town
 
 	history={
-		owner = WAS
-		add_core_of = WAS
+		owner = SCR
+		add_core_of = SCR
 
 	}
 
