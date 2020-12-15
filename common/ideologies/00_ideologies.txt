@@ -230,9 +230,6 @@ ideologies = {
 			tribal = {
 			}
 
-			mercantile_state = {
-			}
-
             chile_starting_ideology = {
             }
 

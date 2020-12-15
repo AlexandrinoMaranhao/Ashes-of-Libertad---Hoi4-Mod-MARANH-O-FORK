@@ -14,12 +14,12 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 40
+	democratic = 0
 	fascism = 0
-	communism = 60
+	communism = 100
 	neutrality = 0
 	reactionary = 0
 
@@ -29,16 +29,16 @@ add_ideas = {
 	
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Anatoly Gribkov"
+	picture = "gfx/leaders/CUP/.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+		#
+	}
+}
 
 
 }

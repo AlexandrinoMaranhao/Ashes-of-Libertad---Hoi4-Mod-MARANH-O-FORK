@@ -14,11 +14,11 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 40
-	fascism = 0
+	democratic = 0
+	fascism = 40
 	communism = 60
 	neutrality = 0
 	reactionary = 0
@@ -29,16 +29,16 @@ add_ideas = {
 	
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Célia Sanchez"
+	picture = "gfx/leaders/CDR/Portrait_CDR_Celia_Sanchez.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		#
+	}
+}
 
 
 }
