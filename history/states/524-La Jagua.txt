@@ -9,8 +9,8 @@ state={
 	state_category=pastoral
 
 	history={
-		owner = WAS
-		add_core_of = WAS
+		owner = RUM
+		add_core_of = RUM
 
 	}
 

@@ -1,4 +1,25 @@
 ﻿l_english:
+ ACC:0 "Anti-Communist League of the Caribbean"
+
+ CUP:0 "Havana Pirates"
+
+ NEH:0 "New Havana"
+
+ SCR:0 "Santa-Cruz"
+
+ CDR:0 "Cuban Revolution Defense"
+
+ ECR:0 "Escambray Rebellion"
+
+ BTA:0 "Batista's Army"
+
+ DRE:0 "Directorio Revolucionario Estudiantil"
+
+ RED:0 "The Red Army"
+
+ RUM:0 "José Arechabala S.A."
+
+
  CFD_fascism:0 "Confederação Sertaneja"
  CFD_fascism_DEF:0 "Confederação Sertaneja"
  CFD_democratic:0 "Confederação Sertaneja"

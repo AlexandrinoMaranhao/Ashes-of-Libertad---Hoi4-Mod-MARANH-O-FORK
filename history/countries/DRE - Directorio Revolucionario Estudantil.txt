@@ -1,0 +1,44 @@
+﻿capital = 1
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 40
+	fascism = 0
+	communism = 60
+	neutrality = 0
+	reactionary = 0
+
+}
+
+add_ideas = {
+	
+}
+
+create_country_leader = {
+	
+	name = "Rolando Cubela Secades"
+	picture = "gfx/leaders/DRE/.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+		#
+	}
+}
+
+
+}

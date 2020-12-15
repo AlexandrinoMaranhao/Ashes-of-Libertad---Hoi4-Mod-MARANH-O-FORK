@@ -1,4 +1,54 @@
 
+ACC = {
+	color = rgb { 55 20 136 }
+	color_ui = rgb { 55 20 136 }
+}
+
+CUP = {
+	color = rgb { 255 233 127 }
+	color_ui = rgb { 255 233 127 }
+}
+
+NEH = {
+	color = rgb { 0 61 6 }
+	color_ui = rgb { 0 61 6 }
+}
+
+SCR = {
+	color = rgb { 143 163 209 }
+	color_ui = rgb { 143 163 209 }
+}
+
+CDR = {
+	color = rgb { 40 0 51 }
+	color_ui = rgb { 40 0 51 }
+}
+
+ECR = {
+	color = rgb { 124 111 42 }
+	color_ui = rgb { 124 111 42 }
+}
+
+BTA = {
+	color = rgb { 76 114 40 }
+	color_ui = rgb { 76 114 40 }
+}
+
+DRE = {
+	color = rgb { 120 20 30 }
+	color_ui = rgb { 120 20 30 }
+}
+
+RED = {
+	color = rgb { 170 0 0 }
+	color_ui = rgb { 170 0 0 }
+}
+
+RUM = {
+	color = rgb { 175 175 130 }
+	color_ui = rgb { 175 175 130 }
+}
+
 CFD = {
 	color = rgb { 255 142 5 }
 	color_ui = rgb { 255 142 5 }
