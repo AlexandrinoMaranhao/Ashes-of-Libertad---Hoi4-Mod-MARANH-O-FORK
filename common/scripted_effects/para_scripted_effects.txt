@@ -7,5 +7,5 @@ BEM_cabanos_initial = {
 			var = BEM_belem_cabanos
 			min = 0
 			max = BEM_max_impact
-		}
+		}	
 }

@@ -23,12 +23,6 @@ on_actions = {
 					var = BEM_kayapo_cabanos
 					value = 2
 				}
-			}
-		}
-	}
-	on_daily = {
-		effect = {
-			BEM = {
 				add_to_variable = { BEM_portel_cabanos = modifier@BEM_cabanos_altamira }
 			}
 		}
