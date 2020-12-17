@@ -32,6 +32,8 @@ add_ideas = {
 	closed_economy
 
 	bia_tribe
+	tappers
+	fonte_boa_influence
 }
 
 set_country_flag = is_amazonian

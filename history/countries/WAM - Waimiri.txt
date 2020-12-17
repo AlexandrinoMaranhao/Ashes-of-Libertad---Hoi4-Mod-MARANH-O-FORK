@@ -32,22 +32,25 @@ add_ideas = {
 	war_economy
 	closed_economy
 
-	waimiri_tribe
+	waimiri_tribe	
+    neblina_exploited
+    waimiri_atroari
 }
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Waimiri Tribe"
+	picture = "gfx/leaders/WAM/Portrait_WAM_Tribe_Leader.dds"
+	expire = "1999.1.1"
+	ideology = tribal
+	traits = {
+		#
+	}
+}
+
 
 
 }

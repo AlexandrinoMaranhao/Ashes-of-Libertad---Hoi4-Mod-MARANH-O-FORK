@@ -31,23 +31,25 @@ add_ideas = {
 	racist_society
 	war_economy
 	closed_economy
-
-	waiapi_tribe
+	waiapi_tribe	
+    displaced_tribe
+    the_cabanos
 }
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Waiãpi Tribe"
+	picture = "gfx/leaders/WAP/Portrait_WAP_Tribe_Leader.dds"
+	expire = "1999.1.1"
+	ideology = tribal
+	traits = {
+		#
+	}
+}
+
 
 
 }

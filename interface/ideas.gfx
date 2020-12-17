@@ -1,10 +1,78 @@
 SpriteTypes = {
-    
+
+#    
 #spriteType ={
 #    name = "GFX_idea_"
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
+# 
    ###TRIBES
+    
+spriteType ={
+    name = "GFX_idea_neblina_exploited"
+    texturefile = "gfx/interface/ideas/neblina_exploited.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_loggers"
+    texturefile = "gfx/interface/ideas/loggers.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_civilized"
+    texturefile = "gfx/interface/ideas/civilized.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_unnexplored_land"
+    texturefile = "gfx/interface/ideas/unnexplored_land.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_uncontacted"
+    texturefile = "gfx/interface/ideas/uncontacted.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_fonte_boa_influence"
+    texturefile = "gfx/interface/ideas/fonte_boa_influence.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_staunch_isolationists"
+    texturefile = "gfx/interface/ideas/staunch_isolationists.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_displaced_tribe"
+    texturefile = "gfx/interface/ideas/displaced_tribe.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_tappers"
+    texturefile = "gfx/interface/ideas/tappers.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_military_oppression"
+    texturefile = "gfx/interface/ideas/military_oppression.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_tribal_wars"
+    texturefile = "gfx/interface/ideas/tribal_wars.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_native_white_cooperation"
+    texturefile = "gfx/interface/ideas/native_white_cooperation.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_waimiri_atroari"
+    texturefile = "gfx/interface/ideas/waimiri_atroari.dds"
+} 
+
 spriteType ={
     name = "GFX_idea_zoe_tribe"
     texturefile = "gfx/interface/ideas/zoecocar.dds"
@@ -77,17 +145,22 @@ spriteType ={
    
 spriteType ={
     name = "GFX_idea_waimiri_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/waimiricocar.dds"
 } 
    
 spriteType ={
     name = "GFX_idea_trombetas_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/trombetascocar.dds"
 } 
    
 spriteType ={
     name = "GFX_idea_atroari_tribe"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/atroaricocar.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_aripuana_tribe"
+    texturefile = "gfx/interface/ideas/aripuanacocar.dds"
 } 
      ####TRIBES
 spriteType ={
@@ -107,7 +180,7 @@ spriteType ={
 
 spriteType ={
     name = "GFX_idea_cachimbo_military_base"
-    texturefile = "gfx/interface/ideas/.dds"
+    texturefile = "gfx/interface/ideas/cachimbo_military_base.dds"
 } 
       
 spriteType ={

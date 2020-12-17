@@ -32,6 +32,9 @@ add_ideas = {
 
 	the_kayapo
 	cachimbo_military_base
+	tribal_wars
+	displaced_tribe
+    the_cabanos
 }
 
 set_country_flag = has_unique_advisors

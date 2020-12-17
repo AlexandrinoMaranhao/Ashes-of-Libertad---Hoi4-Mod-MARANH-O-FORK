@@ -32,6 +32,9 @@ add_ideas = {
 	closed_economy
 
 	atroari_tribe
+    tribal_wars
+    neblina_exploited
+	waimiri_atroari    
 }
 
 set_country_flag = is_amazonian

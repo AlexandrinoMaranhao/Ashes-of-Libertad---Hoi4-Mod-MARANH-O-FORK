@@ -34,6 +34,7 @@ add_ideas = {
 
     andira_tribe
 	defenders_of_parintins
+	native_white_cooperation
 }
 
 set_country_flag = is_amazonian

@@ -30,22 +30,25 @@ add_ideas = {
 	integrated_society
 	war_economy
 	closed_economy
+	
 	trombetas_tribe
+	displaced_tribe
+    tribal_wars
 }
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Trombetas Tribe"
+	picture = "gfx/leaders/TRO/.dds"
+	expire = "1999.1.1"
+	ideology = tribal
+	traits = {
+		#
+	}
+}
 
 
 }

@@ -32,6 +32,8 @@ add_ideas = {
 	closed_economy
 
 	javari_tribe
+	uncontacted
+    unnexplored_land
 }
 
 set_country_flag = is_amazonian

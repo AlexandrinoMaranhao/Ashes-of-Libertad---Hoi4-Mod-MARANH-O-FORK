@@ -29,6 +29,10 @@ add_ideas = {
 	racist_society
 	war_economy
 	closed_economy
+	aripuana_tribe
+	tappers
+	loggers
+	military_oppression
 }
 
 set_country_flag = is_amazonian
@@ -39,7 +43,7 @@ create_country_leader = {
 	name = "Araras do Rio Branco"
 	picture = ""
 	expire = "1999.1.1"
-	ideology = tribal_chiefdom
+	ideology = tribal
 	traits = {
 		#
 	}

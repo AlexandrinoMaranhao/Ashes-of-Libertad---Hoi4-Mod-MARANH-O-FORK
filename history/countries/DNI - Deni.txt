@@ -32,6 +32,9 @@ add_ideas = {
 	war_economy
 	closed_economy
 	deni_tribe
+	tappers
+	civilized
+
 }
 
 set_country_flag = is_amazonian
@@ -40,7 +43,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Patarahú Ubiratã"
-	picture = ""
+	picture = "gfx/leaders/DNI/Portrait_DNI_Tribe_Leader.dds"
 	expire = "1999.1.1"
 	ideology = tribal
 	traits = {

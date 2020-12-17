@@ -32,6 +32,8 @@ add_ideas = {
 	closed_economy
 
 	coata_tribe
+	native_white_cooperation
+	tappers
 }
 
 set_country_flag = is_amazonian
@@ -39,14 +41,15 @@ set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "Cinta Larga"
-	picture = ""
+	name = "Coatá Tribe"
+	picture = "gfx/leaders/COA/Portrait_COA_Tribe_Leader.dds"
 	expire = "1999.1.1"
-	ideology = tribal_chiefdom
+	ideology = tribal
 	traits = {
 		#
 	}
 }
+
 
 
 }

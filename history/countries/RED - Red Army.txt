@@ -32,7 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Anatoly Gribkov"
-	picture = "gfx/leaders/CUP/.dds"
+	picture = "gfx/leaders/RED/Portrait_RED_Anatoly_Gribkov.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
 	traits = {

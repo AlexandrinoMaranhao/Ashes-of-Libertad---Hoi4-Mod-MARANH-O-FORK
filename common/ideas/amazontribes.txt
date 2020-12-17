@@ -22,6 +22,7 @@ ideas = {
 
 			}
 		}
+
 		jutai_tribe = {
 			
 			allowed = {
@@ -44,6 +45,7 @@ ideas = {
 
 			}
 		}
+
 		    himerima_tribe = {
 			
 			allowed = {
@@ -66,6 +68,7 @@ ideas = {
 
 			}
 		}
+
 		javari_tribe = {
 			
 			allowed = {
@@ -88,6 +91,7 @@ ideas = {
 
 			}
 		}
+
 		    jurua_tribe = {
 			
 			allowed = {
@@ -110,6 +114,7 @@ ideas = {
 
 			}
 		}
+
 		bia_tribe = {
 			
 			allowed = {
@@ -132,6 +137,7 @@ ideas = {
 
 			}
 		}
+
 		    yanomami_tribe = {
 			
 			allowed = {
@@ -154,6 +160,7 @@ ideas = {
 
 			}
 		}
+
 		waiapi_tribe = {
 			
 			allowed = {
@@ -176,6 +183,7 @@ ideas = {
 
 			}
 		}
+
 		    andira_tribe = {
 			
 			allowed = {
@@ -198,6 +206,7 @@ ideas = {
 
 			}
 		}
+
 		coata_tribe = {
 			
 			allowed = {
@@ -220,6 +229,7 @@ ideas = {
 
 			}
 		}
+
 		    caititu_tribe = {
 			
 			allowed = {
@@ -242,6 +252,7 @@ ideas = {
 
 			}
 		}
+
 		muduruku_tribe = {
 			
 			allowed = {
@@ -264,6 +275,7 @@ ideas = {
 
 			}
 		}
+
 		    mapuera_tribe = {
 			
 			allowed = {
@@ -286,6 +298,7 @@ ideas = {
 
 			}
 		}
+
 		deni_tribe = {
 			
 			allowed = {
@@ -308,6 +321,7 @@ ideas = {
 
 			}
 		}
+
 		    waimiri_tribe = {
 			
 			allowed = {
@@ -330,6 +344,7 @@ ideas = {
 
 			}
 		}
+
 		trombetas_tribe = {
 			
 			allowed = {
@@ -352,6 +367,30 @@ ideas = {
 
 			}
 		}
+
+		    aripuana_tribe = {
+			
+			allowed = {
+				tag = ARI
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+
+			}
+		}
+		
 		    atroari_tribe = {
 			
 			allowed = {
@@ -372,6 +411,162 @@ ideas = {
 			
 			modifier = {
 
+			}
+		}
+		
+		    tappers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+
+			}
+		}
+		
+		    fonte_boa_influence = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    displaced_tribe = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    waimiri_atroari = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    staunch_isolationists = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    uncontacted = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    unnexplored_land = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    civilized = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    tribal_wars = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    military_oppression = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    loggers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    native_white_cooperation = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
+			}
+		}
+		
+		    neblina_exploited = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+            
+            
 			}
 		}
 

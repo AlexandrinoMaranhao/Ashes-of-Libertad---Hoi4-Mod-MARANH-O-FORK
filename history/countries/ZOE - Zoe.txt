@@ -33,22 +33,25 @@ add_ideas = {
 	closed_economy
 
 	zoe_tribe
+	native_white_cooperation
+	the_cabanos
 
 }
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Zoe Tribe"
+	picture = "gfx/leaders/ZOE/Portrait_ZOE_Tribe_Leader.dds"
+	expire = "1999.1.1"
+	ideology = tribal
+	traits = {
+		#
+	}
+}
+
 
 
 }

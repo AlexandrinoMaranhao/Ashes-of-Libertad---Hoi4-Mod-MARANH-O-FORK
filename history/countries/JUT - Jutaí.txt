@@ -32,6 +32,8 @@ add_ideas = {
 	closed_economy
 
 	jutai_tribe
+	tappers
+    civilized
 }
 
 set_country_flag = is_amazonian
