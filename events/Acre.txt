@@ -689,6 +689,23 @@ country_event = {
 	}
 }
 
+#########################################################################
+# ACR_the_university_of_rio_branco
+#########################################################################
+country_event = {
+	id = ACR.18
+	title = ACR.18.t
+	desc = ACR.18.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.18.A
+	}
+}
+
 
 ######### CHE GUEVARA STRIKES!!!!!!!! ###########
 

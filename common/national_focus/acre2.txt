@@ -1052,98 +1052,77 @@ focus_tree = {
 	
     }
 }
-##UNIVERSITY
+	##UNIVERSITY
 	focus = {
 		id = ACR_the_university_of_rio_branco
 		icon = GFX_goal_first_step_republic
-		prerequisite = { focus = }
 		x = 2
 		y = 1
-
-
 		cost = 1
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 		
-		bypass = {
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-
+		
 		completion_reward = {	
-	
-    }
-}
+			country_event = {
+				id = ACR.18
+				days = 0
+			}
+		}
+	}
 	focus = {
 		id = ACR_lay_down_the_groundwork
 		icon = GFX_goal_first_step_republic
 		prerequisite = { focus = ACR_the_university_of_rio_branco }
 		relative_position_id = ACR_the_university_of_rio_branco
-
 		x = -1
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
-		completion_reward = {	
-	
-    }
-}
+		completion_reward = {
+			89 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_gather_engineers
 		icon = GFX_goal_first_step_republic
 		prerequisite = { focus = ACR_the_university_of_rio_branco }
 		relative_position_id = ACR_the_university_of_rio_branco
-
 		x = 1
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = engineers_tech
+			}
+		}
+	}
 	focus = {
 		id = ACR_begin_construction
 		prerequisite = { focus = ACR_gather_engineers }
@@ -1153,29 +1132,26 @@ focus_tree = {
 
 		x = 0
 		y = 2
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_the_university_completed
 		prerequisite = { focus = ACR_begin_construction }
@@ -1184,29 +1160,37 @@ focus_tree = {
 
 		x = 0
 		y = 3
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = ACR_rio_branco_academy
+			every_other_country = {
+				limit = {
+					has_government = ROOT
+				}
+				add_opinion_modifier = {
+					tag = ACR
+					modifier = same_ruling_party 
+				}
+			}
+			set_rule = { can_send_volunteers = yes }
+		}
+	}
 	focus = {
 		id = ACR_east_wing_expansion
 		prerequisite = { focus = ACR_the_university_completed }
@@ -1215,29 +1199,31 @@ focus_tree = {
 
 		x = 1
 		y = 4
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = engineers_tech
+			}
+		}
+	}
 	focus = {
 		id = ACR_west_wing_expansion
 		prerequisite = { focus = ACR_the_university_completed }
@@ -1246,29 +1232,26 @@ focus_tree = {
 
 		x = -1
 		y = 4
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_art_of_thought
 		prerequisite = { focus = ACR_west_wing_expansion}
@@ -1278,29 +1261,29 @@ focus_tree = {
 
 		x = -1
 		y = 5
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = engineers_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			acre_senate_add_technocrat_seats_1 = yes
+		}
+	}
 	focus = {
 		id = ACR_art_of_war
 		prerequisite = { focus = ACR_west_wing_expansion}
@@ -1310,19 +1293,10 @@ focus_tree = {
 
 		x = -3
 		y = 5
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1330,9 +1304,14 @@ focus_tree = {
 
 
 		completion_reward = {	
-	
-    }
-}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_tech
+			}
+			acre_senate_add_militarist_seats_1 = yes
+		}
+	}
 	focus = {
 		id = ACR_platos_cave
 		prerequisite = { focus = ACR_art_of_thought}
@@ -1341,29 +1320,19 @@ focus_tree = {
 
 		x = -1
 		y = 6
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			
+		}
+	}
 	focus = {
 		id = ACR_war_academy
 		prerequisite = { focus = ACR_art_of_war}
@@ -1372,29 +1341,19 @@ focus_tree = {
 
 		x = -3
 		y = 6
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			
+		}
+	}
 
 	focus = {
 		id = ACR_education_for_all
@@ -1405,29 +1364,19 @@ focus_tree = {
 
 		x = 3
 		y = 5
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_ideas = a80_literacy
+		}
+	}
 	focus = {
 		id = ACR_education_for_the_elite
 		prerequisite = { focus = ACR_east_wing_expansion}
@@ -1437,29 +1386,19 @@ focus_tree = {
 
 		x = 1
 		y = 5
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_ideas = a50_literacy
+		}
+	}
 	focus = {
 		id = ACR_the_elites_elite
 		prerequisite = { focus = ACR_education_for_the_elite}
@@ -1468,29 +1407,22 @@ focus_tree = {
 
 		x = 1
 		y = 6
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			swap_ideas = {
+				remove_idea = ACR_rio_branco_academy
+				add_idea = ACR_rio_branco_academy_2
+			}
+		}
+	}
 	focus = {
 		id = ACR_tappers_no_more
 		prerequisite = { focus = ACR_education_for_all }
@@ -1499,29 +1431,22 @@ focus_tree = {
 
 		x = 3
 		y = 6
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			swap_ideas = {
+				remove_idea = ACR_rio_branco_academy
+				add_idea = ACR_rio_branco_academy_3
+			}
+		}
+	}
 	focus = {
 		id = ACR_extra_research_slot_1
 		prerequisite = { focus = ACR_the_elites_elite focus = ACR_tappers_no_more }
@@ -1530,29 +1455,19 @@ focus_tree = {
 
 		x = 2
 		y = 7
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_research_slot = 1
+		}
+	}
 	focus = {
 		id = ACR_extra_research_slot_2
 		prerequisite = { focus = ACR_war_academy focus = ACR_platos_cave }
@@ -1561,29 +1476,19 @@ focus_tree = {
 
 		x = -2
 		y = 7
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_research_slot = 1
+		}
+	}
 	focus = {
 		id = ACR_mr_carneiros_class
 		prerequisite = { focus = ACR_extra_research_slot_2 }
@@ -1593,29 +1498,36 @@ focus_tree = {
 
 		x = 0
 		y = 8
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			if = {
+				limit = {
+					has_idea = ACR_rio_branco_academy_2
+				}
+				swap_ideas = {
+					remove_idea = ACR_rio_branco_academy_2
+					add_idea = ACR_rio_branco_academy_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ACR_rio_branco_academy_3
+				}
+				swap_ideas = {
+					remove_idea = ACR_rio_branco_academy_3
+					add_idea = ACR_rio_branco_academy_4
+				}
+			}
+		}
+	}
 
 ##CAPITAL
 	focus = {
@@ -1623,28 +1535,25 @@ focus_tree = {
 		icon = GFX_goal_first_step_republic
 		x = 10
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-}
+			89 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = ACR_fix_the_roads
@@ -1654,29 +1563,25 @@ focus_tree = {
 
 		x = -4
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_reestore_public_buildings
 		prerequisite = { focus = ACR_building_a_capital }
@@ -1685,29 +1590,25 @@ focus_tree = {
 
 		x = -2
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_bring_light_to_the_city
 		prerequisite = { focus = ACR_building_a_capital }
@@ -1716,29 +1617,26 @@ focus_tree = {
 
 		x = 2
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = radar_station
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_revive_the_gameleira_street
 		prerequisite = { focus = ACR_building_a_capital }
@@ -1747,29 +1645,32 @@ focus_tree = {
 
 		x = 4
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 223
+					instant_build = yes
+				}
+			}
+			add_stability = 0.05
+		}
+	}
 	focus = {
 		id = ACR_revive_beirut_square
 		prerequisite = { focus = ACR_fix_the_roads }
@@ -1779,29 +1680,23 @@ focus_tree = {
 
 		x = -3
 		y = 2
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			add_stability = 0.1
+			acre_senate_add_militarist_seats_1 = yes
+		}
+	}
 	focus = {
 		id = ACR_revive_the_cassinos
 		prerequisite = { focus = ACR_revive_the_gameleira_street }
@@ -1811,29 +1706,19 @@ focus_tree = {
 
 		x = 3
 		y = 2
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_ideas = ACR_cassinos_rio_branco
+		}
+	}
 	focus = {
 		id = ACR_casas_aviadoras
 		prerequisite = { focus = ACR_reestore_public_buildings }
@@ -1843,29 +1728,25 @@ focus_tree = {
 
 		x = 0
 		y = 2
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
-		completion_reward = {	
-	
-    }
-}
+		completion_reward = {
+			89 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_map_the_rivers
 		prerequisite = { focus = ACR_casas_aviadoras }
@@ -1874,29 +1755,27 @@ focus_tree = {
 
 		x = -1
 		y = 3
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
-		completion_reward = {	
-	
-    }
-}
+		completion_reward = {
+			89 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			107 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			106 = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
 	focus = {
 		id = ACR_connect_the_cities
 		prerequisite = { focus = ACR_casas_aviadoras }
@@ -1906,29 +1785,39 @@ focus_tree = {
 
 		x = 1
 		y = 3
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
-		completion_reward = {	
-	
-    }
-}
+		completion_reward = {
+			89 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			107 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			106 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 	focus = {
 		id = ACR_acre_united
 		prerequisite = { focus = ACR_map_the_rivers }
@@ -1938,28 +1827,17 @@ focus_tree = {
 
 		x = 0
 		y = 5
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
-		completion_reward = {	
-	
-    }
-}
-
+		completion_reward = {
+			add_ideas = ACR_placidos_dream
+		}
+	}
 }

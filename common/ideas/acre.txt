@@ -86,5 +86,105 @@ ideas = {
 
 			}
 		}
+		ACR_rio_branco_academy = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				
+			}
+		}
+		ACR_rio_branco_academy_2 = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory	= 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		ACR_rio_branco_academy_3 = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory	= -0.05
+				industrial_capacity_dockyard = -0.05
+				local_resources_factor = 0.1
+			}
+		}
+		ACR_rio_branco_academy_4 = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory	= -0.05
+				industrial_capacity_dockyard = -0.05
+				local_resources_factor = 0.1
+				research_speed_factor = 0.1
+			}
+		}
+		ACR_cassinos_rio_branco = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription = -0.01
+			}
+		}
+		ACR_placidos_dream = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05
+			}
+		}
 	}
 }
