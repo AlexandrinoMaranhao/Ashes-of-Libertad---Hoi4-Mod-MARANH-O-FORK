@@ -706,6 +706,48 @@ country_event = {
 	}
 }
 
+#########################################################################
+# ACR_glancing_into_the_milita
+#########################################################################
+country_event = {
+	id = ACR.19
+	title = ACR.19.t
+	desc = ACR.19.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.19.A
+		army_experience = 20
+	}
+}
+
+#########################################################################
+# ACR_glancing_into_the_milita
+#########################################################################
+country_event = {
+	id = ACR.20
+	title = ACR.20.t
+	desc = ACR.20.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.20.A
+		89 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
 
 ######### CHE GUEVARA STRIKES!!!!!!!! ###########
 

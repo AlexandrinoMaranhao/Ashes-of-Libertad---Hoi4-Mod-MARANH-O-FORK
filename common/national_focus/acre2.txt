@@ -25,29 +25,22 @@ focus_tree = {
 
 		x = 4
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			swap_ideas = {
+				remove_idea = ACR_rio_branco_academy
+				add_idea = ACR_rio_branco_academy_2
+			}
+		}
+	}
 	focus = {
 		id = ACR_learn_from_the_reds
 		icon = GFX_goal_first_step_republic
@@ -720,59 +713,41 @@ focus_tree = {
 
 		x = 1
 		y = 9
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			
+		}
+	}
 
 	focus = {
 		id = ACR_glancing_into_the_milita
 		icon = GFX_goal_first_step_republic
-		prerequisite = { focus = }
 		x = 20
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			country_event = {
+				id = ACR.19
+				days = 0
+			}
+		}
+	}
 	focus = {
 		id = ACR_the_industrial_part_of_militarization
 		icon = GFX_goal_first_step_republic
@@ -780,29 +755,22 @@ focus_tree = {
 		relative_position_id = ACR_glancing_into_the_milita
 		x = -3
 		y = 1
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			country_event = {
+				id = ACR.20
+				days = 0
+			}
+		}
+	}
 	focus = {
 		id = ACR_the_workshops
 		icon = GFX_goal_first_step_republic
@@ -810,29 +778,25 @@ focus_tree = {
 		relative_position_id = ACR_glancing_into_the_milita
 		x = -4
 		y = 2
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			89 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 
 	focus = {
 		id = ACR_avenues_of_modernization
@@ -841,29 +805,18 @@ focus_tree = {
 		relative_position_id = ACR_glancing_into_the_milita
 		x = -2
 		y = 2
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+		}
+	}
 	focus = {
 		id = ACR_no_time_for_quality
 		icon = GFX_goal_first_step_republic
@@ -871,29 +824,19 @@ focus_tree = {
 		relative_position_id = ACR_glancing_into_the_milita
 		x = -5
 		y = 3
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+			add_ideas = ACR_no_time_for_quality
+		}
+	}
 	focus = {
 		id = ACR_a_national_fire_stick
 		icon = GFX_goal_first_step_republic
@@ -903,29 +846,18 @@ focus_tree = {
 		relative_position_id = ACR_glancing_into_the_milita
 		x = -3
 		y = 3
-
-
 		cost = 1
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
+		ai_will_do = { factor = 1 }
+		available = {	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {	
-	
-    }
-}
+		}
+	}
 	focus = {
 		id = ACR_grasp_abbandoned_trucks
 		icon = GFX_goal_first_step_republic
@@ -1330,7 +1262,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {	
-			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = engineers_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+			}
 		}
 	}
 	focus = {
@@ -1351,7 +1297,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {	
-			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cat_superior_firepower
+			}
 		}
 	}
 

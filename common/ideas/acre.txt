@@ -186,5 +186,19 @@ ideas = {
 				army_core_defense_factor = 0.05
 			}
 		}
+		ACR_no_time_for_quality = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				army_attack_factor = -0.1
+			}
+		}
 	}
 }
