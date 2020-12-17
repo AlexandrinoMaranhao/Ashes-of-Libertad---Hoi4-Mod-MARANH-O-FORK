@@ -421,8 +421,8 @@ ideas = {
 			}
 			
 			modifier = {
-            
-
+				local_resources_factor = -0.1
+				stability_factor = -0.05
 			}
 		}
 		
@@ -433,7 +433,7 @@ ideas = {
 			}
 			
 			modifier = {
-            
+				communism_drift = 0.02
             
 			}
 		}
@@ -445,7 +445,7 @@ ideas = {
 			}
 			
 			modifier = {
-            
+				war_support_factor = 0.1
             
 			}
 		}
@@ -457,7 +457,7 @@ ideas = {
 			}
 			
 			modifier = {
-            
+				war_support_factor = 0.1
             
 			}
 		}
@@ -469,7 +469,7 @@ ideas = {
 			}
 			
 			modifier = {
-            
+				opinion_gain_monthly_factor = -0.9
             
 			}
 		}
@@ -481,8 +481,8 @@ ideas = {
 			}
 			
 			modifier = {
-            
-            
+				trade_opinion_factor = -0.5
+				opinion_gain_monthly_factor = -0.6
 			}
 		}
 		
@@ -493,20 +493,20 @@ ideas = {
 			}
 			
 			modifier = {
-            
-            
+				recon_factor = -0.05
+				political_power_gain = -0.2
 			}
 		}
 		
-		    civilized = {
+			civilized = {
 
 			allowed_civil_war = {
 				always = yes
 			}
 			
 			modifier = {
-            
-            
+				stability_factor = -0.05
+				political_power_gain = 0.2
 			}
 		}
 		
@@ -517,7 +517,8 @@ ideas = {
 			}
 			
 			modifier = {
-            
+				weekly_manpower = -100
+				war_support_factor = 0.05
             
 			}
 		}
@@ -529,7 +530,8 @@ ideas = {
 			}
 			
 			modifier = {
-            
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.3
             
 			}
 		}
@@ -541,8 +543,8 @@ ideas = {
 			}
 			
 			modifier = {
-            
-            
+				stability_factor = -0.05
+				weekly_manpower = -100
 			}
 		}
 		
@@ -553,8 +555,8 @@ ideas = {
 			}
 			
 			modifier = {
-            
-            
+             	political_power_gain = 0.1
+				
 			}
 		}
 		
@@ -565,8 +567,9 @@ ideas = {
 			}
 			
 			modifier = {
-            
-            
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.3
+				local_resources_factor = -0.4
 			}
 		}
 
