@@ -34,6 +34,7 @@ add_ideas = {
 
 	mapuera_tribe
 	displaced_tribe
+	military_oppression
 
 }
 

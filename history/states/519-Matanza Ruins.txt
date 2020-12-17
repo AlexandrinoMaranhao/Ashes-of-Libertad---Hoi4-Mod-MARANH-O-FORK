@@ -1,12 +1,7 @@
+
 state={
 	id=519
 	name="STATE_519"
-	provinces={
-		454 1230 6315 6321 
-	}
-	manpower=4086
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 
 	history={
 		owner = CDR
@@ -14,4 +9,10 @@ state={
 
 	}
 
+	provinces={
+		1230 6315 
+	}
+	manpower=4086
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

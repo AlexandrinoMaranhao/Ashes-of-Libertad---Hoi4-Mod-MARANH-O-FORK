@@ -34,6 +34,7 @@ add_ideas = {
 
 	waimiri_tribe	
     neblina_exploited
+    staunch_isolationists
     waimiri_atroari
 }
 

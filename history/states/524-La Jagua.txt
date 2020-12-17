@@ -1,12 +1,7 @@
+
 state={
 	id=524
 	name="STATE_524"
-	provinces={
-		1549 2391 2848 6326 6340 
-	}
-	manpower=4086
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 
 	history={
 		owner = RUM
@@ -14,4 +9,10 @@ state={
 
 	}
 
+	provinces={
+		1549 6338 6339 6340 
+	}
+	manpower=4086
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
