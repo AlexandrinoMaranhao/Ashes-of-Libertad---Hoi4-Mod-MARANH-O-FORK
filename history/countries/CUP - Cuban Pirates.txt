@@ -32,7 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "The Havana Pirate Council"
-	picture = "gfx/leaders/CUP/.dds"
+	picture = "gfx/leaders/CUP/Portrait_CUP_Pirate_Council_Havana.dds"
 	expire = "1999.1.1"
 	ideology = pirate_federation
 	traits = {

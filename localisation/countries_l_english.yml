@@ -1,23 +1,43 @@
 ﻿l_english:
  ACC:0 "Anti-Communist League of the Caribbean"
+ ACC_DEF:0 "the Anti-Communist League of the Caribbean"
+ ACC_ADJ:0 "Caribbean"
 
  CUP:0 "Havana Pirates"
+ CUP_DEF:0 "the Havana Pirates"
+ CUP_ADJ:0 "Cuban"
 
  NEH:0 "New Havana"
+ NEH_DEF:0 "New Havanan"
+ NEH_ADJ:0 "Cuban"
 
  SCR:0 "Santa-Cruz"
+ SCR_DEF:0 "Santa-Cruz"
+ SCR_ADJ:0 "Cuban"
 
  CDR:0 "Cuban Revolution Defense"
+ CDR_DEF:0 "the Cuban Revolution Defense"
+ CDR_ADJ:0 "Cuban"
 
  ECR:0 "Escambray Rebellion"
+ ECR_DEF:0 "the Escambray Rebellion"
+ ECR_ADJ:0 "Cuban"
 
  BTA:0 "Batista's Army"
+ BTA_DEF:0 "Batistan"
+ BTA_ADJ:0 "Cuban"
 
  DRE:0 "Directorio Revolucionario Estudiantil"
+ DRE_DEF:0 "the Directorio Revolucionario Estudiantil"
+ DRE_ADJ:0 "Cuban"
 
  RED:0 "The Red Army"
+ RED_DEF:0 "the Red Army"
+ RED_ADJ:0 "Soviet"
 
  RUM:0 "José Arechabala S.A."
+ RUM_DEF:0 "the José Arechabala S.A."
+ RUM_ADJ:0 "Cuban"
 
 
  CFD_fascism:0 "Confederação Sertaneja"
@@ -1332,18 +1352,9 @@
  URG_neutrality_ADJ:0 "Uruguayan"
  URG_communism_ADJ:0 "Uruguayan"
 
- DOM_fascism:0 "Dominican Republic"
- DOM_fascism_DEF:0 "the Dominican Republic"
- DOM_democratic:0 "Representative Dominican Republic"
- DOM_democratic_DEF:0 "the Representative Dominican Republic"
- DOM_neutrality:0 "Santo Domingo"
- DOM_neutrality_DEF:0 "Santo Domingo"
- DOM_communism:0 "Dominican People's Republic"
- DOM_communism_DEF:0 "the Dominican People's Republic"
- DOM_fascism_ADJ:0 "Dominican"
- DOM_democratic_ADJ:0 "Dominican"
- DOM_neutrality_ADJ:0 "Dominican"
- DOM_communism_ADJ:0 "Dominican"
+ DOM:0 "Dominican Republic"
+ DOM_DEF:0 "the Dominican Republic"
+ DOM_ADJ:0 "Dominican"
 
  HAI_fascism:0 "Third Empire of Haiti"
  HAI_fascism_DEF:0 "the Third Empire of Haiti"
