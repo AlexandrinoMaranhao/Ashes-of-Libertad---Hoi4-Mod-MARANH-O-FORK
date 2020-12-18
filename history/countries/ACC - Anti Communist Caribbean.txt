@@ -32,7 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Anastasio ''Tachito'' Somoza Debayle"
-	picture = "gfx/leaders/ACC/.dds"
+	picture = "gfx/leaders/ACC/Portrait_ACC_Tachito.dds"
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {

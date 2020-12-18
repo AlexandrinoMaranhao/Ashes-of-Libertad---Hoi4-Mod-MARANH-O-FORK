@@ -31,7 +31,7 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Eloy Gutiérrez Menoy"
+	name = "Eloy Gutiérrez Menoyo"
 	picture = "gfx/leaders/ECR/Portrait_ECR_Eloy_Gutierrez_Menoy.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
