@@ -18,7 +18,7 @@ ideas = {
 
         }
 
-        the_sertão = {
+        the_sertao = {
 
         }
 

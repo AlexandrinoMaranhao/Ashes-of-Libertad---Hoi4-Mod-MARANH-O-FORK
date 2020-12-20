@@ -3,6 +3,12 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 
+
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_adress_militia"
+	texturefile = "gfx/interface/goals/focus_ACRE_adress_militia.dds"
+	}	
+
 	SpriteType = {
 	name = "GFX_goal_PetitionBelem"
 	texturefile = "gfx/interface/goals/PetitionBelem.dds"

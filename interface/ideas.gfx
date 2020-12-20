@@ -6,7 +6,67 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-    
+            
+spriteType ={
+    name = "GFX_idea_last_stand_of_the_republic"
+    texturefile = "gfx/interface/ideas/last_stand_of_the_republic.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_overdue_elections"
+    texturefile = "gfx/interface/ideas/overdue_elections.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_second_constitutionalist_revolution"
+    texturefile = "gfx/interface/ideas/constitution.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_a_dream_of_revolution"
+    texturefile = "gfx/interface/ideas/a_dream_of_revolution.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_royal_navy"
+    texturefile = "gfx/interface/ideas/the_royal_navy.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_international_guerrilla"
+    texturefile = "gfx/interface/ideas/international_guerrilla.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_mountain_strongholds"
+    texturefile = "gfx/interface/ideas/mountain_strongholds.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_man_in_the_white_castle"
+    texturefile = "gfx/interface/ideas/the_man_in_the_white_castle.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_red_democracy"
+    texturefile = "gfx/interface/ideas/red_democracy.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_old_world_dichotomy"
+    texturefile = "gfx/interface/ideas/old_world_dichotomy.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_naval_bias"
+    texturefile = "gfx/interface/ideas/naval_bias.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_the_paulista_betrayal"
+    texturefile = "gfx/interface/ideas/the_paulista_betrayal.dds"
+} 
+
 spriteType ={
     name = "GFX_idea_jau_national_park"
     texturefile = "gfx/interface/ideas/jau_national_park.dds"

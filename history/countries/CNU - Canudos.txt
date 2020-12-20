@@ -30,7 +30,7 @@ add_ideas = {
 	civilian_economy
 
     provisional_government_of_bahia
-    the_sertão
+    the_sertao
 	cangaceiros_medium
 }
 
