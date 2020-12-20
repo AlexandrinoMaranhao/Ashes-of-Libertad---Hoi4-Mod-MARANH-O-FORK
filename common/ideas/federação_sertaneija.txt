@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+
+			nebulous_independence = {
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+
+			loose_federation = {
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+
+			cangaceiros_and_commies = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+
+		}
+	}
+}

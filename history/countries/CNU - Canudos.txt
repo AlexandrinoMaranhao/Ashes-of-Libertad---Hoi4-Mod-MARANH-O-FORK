@@ -28,6 +28,10 @@ add_ideas = {
 	subsistence_economy
 	disarmed_nation
 	civilian_economy
+
+    provisional_government_of_bahia
+    the_sertão
+	cangaceiros_medium
 }
 
 set_country_flag = is_brazilian

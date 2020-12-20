@@ -32,6 +32,10 @@ add_ideas = {
 	limited_conscription
 	limited_exports
 	partial_economic_mobilisation
+
+	the_paulista_betrayal
+overdue_elections
+last_stand_of_the_republic
 }
 
 set_country_flag = is_brazilian

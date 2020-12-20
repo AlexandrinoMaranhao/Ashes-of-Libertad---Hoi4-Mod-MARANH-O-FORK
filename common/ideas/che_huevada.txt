@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		a_dream_of_revolution = {
+
+		}
+
+		international_guerrilla = {
+
+		}
+		
+	}
+}

@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+
+		permanent_military_economy = {
+
+		}
+
+		the_silver_deal = {
+
+		}
+
+		the_argentinan_facade = {
+
+		}
+		
+	}
+}

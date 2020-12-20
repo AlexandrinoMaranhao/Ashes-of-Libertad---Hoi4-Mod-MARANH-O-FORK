@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+
+        6_military_region = {
+
+        }
+
+        revengist_spirit = {
+
+        }
+
+        mercenary_army_LAM = {
+
+        }
+#
+
+        provisional_government_of_bahia = {
+
+        }
+
+        the_sertão = {
+
+        }
+
+        return_of_the_advisor = {
+
+        }
+
+	}
+}

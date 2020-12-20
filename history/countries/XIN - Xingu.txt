@@ -27,6 +27,8 @@ set_popularities = {
 
 add_ideas = {
 	tribal_mobilization
+
+	the_xingu_national_park
 }
 
 set_country_flag = is_brazilian

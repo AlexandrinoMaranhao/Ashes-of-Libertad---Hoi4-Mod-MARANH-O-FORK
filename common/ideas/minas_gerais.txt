@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+
+		christian_communism = {
+
+		}
+
+		stagnated_revolution = {
+
+		}
+		#
+
+		the_vale_company = {
+		
+		}
+
+
+	    #
+	    trabalhismo_mineiro = {
+
+	    }
+
+	}
+}

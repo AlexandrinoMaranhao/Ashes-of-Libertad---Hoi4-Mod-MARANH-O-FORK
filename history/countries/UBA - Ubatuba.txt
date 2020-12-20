@@ -26,7 +26,9 @@ set_popularities = {
 }
 
 add_ideas = {
-
+the_triangle_battalion
+shady_bussiness
+trabalhismo_mineiro
 }
 
 set_country_flag = is_brazilian

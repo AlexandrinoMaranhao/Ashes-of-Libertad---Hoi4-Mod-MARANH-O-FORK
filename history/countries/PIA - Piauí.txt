@@ -28,13 +28,15 @@ add_ideas = {
 	volunteer_only
 	free_trade
 	low_economic_mobilisation
+
+	cangaceiros_total
 }
 
 set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "Colapsed Government"
+	name = "Collapsed Government"
 	picture = ""
 	expire = "1999.1.1"
 	ideology = coronelism

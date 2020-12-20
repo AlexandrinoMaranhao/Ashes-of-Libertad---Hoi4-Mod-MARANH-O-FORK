@@ -29,6 +29,9 @@ add_ideas = {
 	extensive_conscription
 	closed_economy
 	partial_economic_mobilisation
+
+	argentine_bullying
+	the_ghost_of_franco
 }
 
 create_country_leader = {

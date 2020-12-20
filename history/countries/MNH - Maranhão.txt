@@ -29,6 +29,9 @@ add_ideas = {
 	export_focus
 	low_economic_mobilisation
 	limited_conscription
+
+	sarneys_feud
+	cangaceiros_light
 }
 
 set_country_flag = is_brazilian

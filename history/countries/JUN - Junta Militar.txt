@@ -36,6 +36,9 @@ add_ideas = {
 	closed_economy
 	partial_economic_mobilisation
 	extensive_conscription
+
+	the_man_in_the_white_castle
+dutra
 }
 
 set_country_flag = is_brazilian

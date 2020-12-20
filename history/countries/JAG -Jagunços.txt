@@ -28,6 +28,10 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 	limited_exports
+
+	unsustainable_army
+filinto_is_an_ass
+gambiarra_army
 }
 
 set_country_flag = is_brazilian

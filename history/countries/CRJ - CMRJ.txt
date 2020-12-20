@@ -26,9 +26,9 @@ set_popularities = {
 }
 
 add_ideas = {
-admiral_rademaker
-losers_of_guanabara
-navy_priority
+scars_of_guanabara
+one_last_effort
+naval_bias
 	closed_economy
 	partial_economic_mobilisation
 	extensive_conscription

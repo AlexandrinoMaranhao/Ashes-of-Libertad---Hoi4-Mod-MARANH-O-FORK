@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+
+		red_democracy = {
+
+		}
+
+		old_world_dichotomy = {
+
+		}
+
+        pacific_overtures = {
+
+        }
+		
+		the_famae = {
+
+		}
+		
+	}
+}

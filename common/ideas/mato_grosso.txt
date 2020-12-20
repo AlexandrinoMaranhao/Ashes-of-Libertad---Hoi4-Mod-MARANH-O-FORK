@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+			unsustainable_army = {
+			picture = GFX_idea_defenders_of_parintins
+			
+			allowed = {
+				tag = JAG
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+                stability_factor = -0.10
+                mobilization_speed = -0.08
+                weekly_manpower	= 100
+			}
+		}
+			filinto_is_an_ass = {
+			picture = GFX_idea_defenders_of_parintins
+			
+			allowed = {
+				tag = JAG
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+                MONTHLY_POPULATION = -0.3
+                stability_factor = -0.20
+ 				war_support_factor = 0.5
+ 				max_command_power = 100
+ 				command_power_gain_mult = 0.5
+                surrender_limit = 1
+                enemy_partisan_effect = -0.8
+
+
+			}
+		}
+			gambiarra_army = {
+			picture = GFX_idea_defenders_of_parintins
+			
+			allowed = {
+				tag = JAG
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+            	supply_consumption_factor = -0.20    
+                experience_loss_factor = -0.3
+                no_supply_grace = 24
+                out_of_supply_factor = -0.3
+			}
+		}
+	}
+}

@@ -6,6 +6,30 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
+    
+spriteType ={
+    name = "GFX_idea_jau_national_park"
+    texturefile = "gfx/interface/ideas/jau_national_park.dds"
+} 
+ 
+
+spriteType ={
+    name = "GFX_idea_unsustainable_army"
+    texturefile = "gfx/interface/ideas/unsustainable_army.dds"
+} 
+ 
+
+spriteType ={
+    name = "GFX_idea_gambiarra_army"
+    texturefile = "gfx/interface/ideas/gambiarra_army.dds"
+} 
+ 
+     
+spriteType ={
+    name = "GFX_idea_filinto_is_an_ass"
+    texturefile = "gfx/interface/ideas/filinto_is_an_ass.dds"
+} 
+ 
    ###TRIBES
     
 spriteType ={

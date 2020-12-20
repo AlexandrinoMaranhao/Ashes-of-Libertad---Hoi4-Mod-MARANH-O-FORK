@@ -28,6 +28,9 @@ add_ideas = {
 	undisturbed_isolation
 	subsistence_economy
 	limited_conscription
+
+	time_of_rebuilding
+de_la_puentes_blessed_guidance
 }
 
 create_country_leader = {

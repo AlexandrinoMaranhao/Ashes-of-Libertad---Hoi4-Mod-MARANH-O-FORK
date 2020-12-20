@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		
+		the_paulista_betrayal = {
+
+		}
+
+		overdue_elections = {
+
+		}
+
+		last_stand_of_the_republic = {
+
+		}
+		
+	}
+}

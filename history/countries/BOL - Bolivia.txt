@@ -25,6 +25,9 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+
+	this_is_fine
+mountain_strongholds
 }
 
 create_country_leader = {
