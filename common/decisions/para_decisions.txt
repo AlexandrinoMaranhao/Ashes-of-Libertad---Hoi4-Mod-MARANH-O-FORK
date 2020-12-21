@@ -19,6 +19,7 @@ para_gui_missions = {
 					random_owned_controlled_state = {
 						set_variable = { ROOT.mission_target = THIS.id }
 						set_variable = { mission_check = arms_factory_level }
+						THIS = {save_global_event_target_as  = target_state }
 						set_state_flag = {
 							flag = new_state
 							value = 1
@@ -32,7 +33,7 @@ para_gui_missions = {
 					random_owned_controlled_state = {
 						set_variable = { ROOT.mission_target = THIS.id }
 						set_variable = { mission_check = industrial_complex_level }
-						#save_global_event_target_as = { target_state = THIS }
+						THIS = {save_global_event_target_as  = target_state }
 						set_state_flag = {
 							flag = new_state
 							value = 1
@@ -46,7 +47,7 @@ para_gui_missions = {
 					random_owned_controlled_state = {
 						set_variable = { ROOT.mission_target = THIS.id }
 						set_variable = { mission_check = infrastructure_level }
-						#save_global_event_target_as = { target_state = THIS }
+						THIS = {save_global_event_target_as  = target_state }
 						set_state_flag = {
 							flag = new_state
 							value = 1

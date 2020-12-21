@@ -463,7 +463,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "mil_factory_mission"
 			position = { x = -80 y = -292 }
-			font = "hoi_36header"
+			font = "hoi_24header"
 			text = "Build a Military Factory in [target_state.GetName]"
 			maxWidth = 400
 			maxHeight = 20
@@ -471,18 +471,18 @@ guiTypes = {
 			}
 		instantTextboxType = {
 			name = "civ_factory_mission"
-			position = { x = -85 y = -292 }
-			font = "hoi_36header"
-			text = "Build a Civilian Factory in "
-			maxWidth = 400
-			maxHeight = 20
+			position = { x = -110 y = -286 }
+			font = "hoi_24header"
+			text = "Build a Civilian Factory in [target_state.GetName] "
+			maxWidth = 800
+			maxHeight = 0
 			fixedsize = yes
 			}
 		instantTextboxType = {
 			name = "infrastructure_mission"
-			position = { x = -60 y = -292 }
-			font = "hoi_36header"
-			text = "Build Infrastructure in "
+			position = { x = -80 y = -287 }
+			font = "hoi_24header"
+			text = "Build Infrastructure in [target_state.GetName]"
 			maxWidth = 400
 			maxHeight = 20
 			fixedsize = yes

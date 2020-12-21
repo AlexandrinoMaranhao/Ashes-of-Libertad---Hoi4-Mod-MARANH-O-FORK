@@ -14,4 +14,4 @@
  para_build_military:0 "Build a Military Factory"
  para_build_civilian:0 "Build a Civilian Factory"
  para_build_infrastructure:0 "Build Infrastructure"
- #state_name:0 "[target_state.GetName]"
+ state_name:0 "[target_state.GetName]"
