@@ -418,6 +418,15 @@ scripted_gui = {
     kayapo_cabanos_visible = {
       has_country_flag = kayapo_selected
     }
+    mil_factory_mission_visible = {
+      has_country_flag = para_mission0
+    }
+    civ_factory_mission_visible = {
+      has_country_flag = para_mission1
+    }
+    infrastructure_mission_visible = {
+      has_country_flag = para_mission2
+    }
   }
 
     dynamic_lists = {

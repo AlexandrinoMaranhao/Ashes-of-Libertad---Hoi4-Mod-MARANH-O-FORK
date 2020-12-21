@@ -6,3 +6,12 @@
  BEM_portel_list_tt:0 "Portel, Altamira, Boca do Xingu"
  BEM_santarem_list_tt:0 "Santarém, Rio Paru Deste, Tumucumaque Park, Zoe, Alenquer, Oriximina, Óbidos, Monte Alegre, Jarauçu"
  BEM_tapajos_list_tt:0 "Jamanxim, Crepori, Tapajós, Itaituba, Juruti"
+ # Para GUI Decisions
+ para_gui_missions:0 "The Junta's Assignments"
+ para_pick_mission:0 "Ask the Junta for an Assignment"
+ para_pick_mission_desc:0 "A request will be made to the Junta so they can give as an assignment."
+ para_pick_mission_tt:0 "Current Assignment Completed"
+ para_build_military:0 "Build a Military Factory"
+ para_build_civilian:0 "Build a Civilian Factory"
+ para_build_infrastructure:0 "Build Infrastructure"
+ #state_name:0 "[target_state.GetName]"
