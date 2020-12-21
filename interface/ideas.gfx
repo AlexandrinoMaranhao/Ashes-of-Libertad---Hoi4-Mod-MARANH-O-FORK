@@ -6,7 +6,52 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-            
+                
+spriteType ={
+    name = "GFX_idea_the_vale_company"
+    texturefile = "gfx/interface/ideas/the_vale_company.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_stagnated_revolution"
+    texturefile = "gfx/interface/ideas/stagnated_revolution.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_argentine_bullying"
+    texturefile = "gfx/interface/ideas/argentine_bullying.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_permanent_military_economy"
+    texturefile = "gfx/interface/ideas/permanent_military_economy.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_christian_communism"
+    texturefile = "gfx/interface/ideas/christian_communism.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_shady_bussiness"
+    texturefile = "gfx/interface/ideas/shady_bussiness.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_this_is_fine"
+    texturefile = "gfx/interface/ideas/this_is_fine.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_the_silver_deal"
+    texturefile = "gfx/interface/ideas/the_silver_deal.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_the_argentinan_facade"
+    texturefile = "gfx/interface/ideas/the_argentinan_facade.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_last_stand_of_the_republic"
     texturefile = "gfx/interface/ideas/last_stand_of_the_republic.dds"
