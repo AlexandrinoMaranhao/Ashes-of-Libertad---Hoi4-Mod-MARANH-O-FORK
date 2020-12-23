@@ -6,7 +6,107 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-                
+                   
+spriteType ={
+    name = "GFX_idea_the_triangle_battalion"
+    texturefile = "gfx/interface/ideas/the_triangle_battalion.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_6_military_region"
+    texturefile = "gfx/interface/ideas/6_military_region.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_dutra"
+    texturefile = "gfx/interface/ideas/dutra.dds"
+} 
+       
+spriteType ={
+    name = "GFX_idea_the_ghost_of_franco"
+    texturefile = "gfx/interface/ideas/the_ghost_of_franco.dds"
+} 
+          
+spriteType ={
+    name = "GFX_idea_sarneys_feud"
+    texturefile = "gfx/interface/ideas/sarneys_feud.dds"
+} 
+        
+spriteType ={
+    name = "GFX_idea_de_la_puentes_blessed_guidance"
+    texturefile = "gfx/interface/ideas/de_la_puentes_blessed_guidance.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_gateway_of_south_america"
+    texturefile = "gfx/interface/ideas/gateway_of_south_america.dds"
+} 
+                  
+spriteType ={
+    name = "GFX_idea_free_port_of_salvador"
+    texturefile = "gfx/interface/ideas/free_port_of_salvador.dds"
+} 
+                  
+spriteType ={
+    name = "GFX_idea_nebulous_independence"
+    texturefile = "gfx/interface/ideas/nebulous_independence.dds"
+} 
+                  
+spriteType ={
+    name = "GFX_idea_revengist_spirit"
+    texturefile = "gfx/interface/ideas/revengist_spirit.dds"
+} 
+                  
+spriteType ={
+    name = "GFX_idea_cangaceiros_and_commies"
+    texturefile = "gfx/interface/ideas/cangaceiros_and_commies.dds"
+} 
+                  
+spriteType ={
+    name = "GFX_idea_loose_federation"
+    texturefile = "gfx/interface/ideas/loose_federation.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_time_of_rebuilding"
+    texturefile = "gfx/interface/ideas/time_of_rebuilding.dds"
+} 
+            
+spriteType ={
+    name = "GFX_idea_pirates_of_the_caribbean"
+    texturefile = "gfx/interface/ideas/pirates_of_the_caribbean.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_cangaceiros_heavy"
+    texturefile = "gfx/interface/ideas/cangaceiros_heavy.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_cangaceiros_medium"
+    texturefile = "gfx/interface/ideas/cangaceiros_medium.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_cangaceiros_light"
+    texturefile = "gfx/interface/ideas/cangaceiros_light.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_baiana_revolt"
+    texturefile = "gfx/interface/ideas/the_baiana_revolt.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_anarchist_powerkeg"
+    texturefile = "gfx/interface/ideas/anarchist_powerkeg.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_trabalhismo_mineiro"
+    texturefile = "gfx/interface/ideas/trabalhismo_mineiro.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_the_vale_company"
     texturefile = "gfx/interface/ideas/the_vale_company.dds"
