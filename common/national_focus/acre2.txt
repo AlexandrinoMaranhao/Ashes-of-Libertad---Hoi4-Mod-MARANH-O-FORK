@@ -35,10 +35,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {	
-			swap_ideas = {
-				remove_idea = ACR_rio_branco_academy
-				add_idea = ACR_rio_branco_academy_2
-			}
+
 		}
 	}
 	focus = {

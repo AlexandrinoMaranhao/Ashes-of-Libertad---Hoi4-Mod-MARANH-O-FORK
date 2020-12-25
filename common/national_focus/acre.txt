@@ -700,7 +700,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_involvement_of_the_army_in_politics
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_involvement_of_the_army_in_politics
 		x = -4
 		y = 6
 
@@ -876,7 +876,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_economy_law
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACRE_Rubber_trade
 		x = 4
 		y = 4
 		relative_position_id = ACR_intro_one
@@ -909,7 +909,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_censorship
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACR_censorship
 		x = 3
 		y = 5
 		relative_position_id = ACR_intro_one
@@ -943,7 +943,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_anticensorship
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACR_anticensorship
 		x = 5
 		y = 5
 		relative_position_id = ACR_intro_one
@@ -977,7 +977,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_power_of_the_senate
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACR_who_is_the_senate
 		x = 4
 		y = 6
 		relative_position_id = ACR_intro_one
@@ -1013,7 +1013,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_right_of_vote
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACR_the_right_to_vote
 		x = 2
 		y = 7
 		relative_position_id = ACR_intro_one
@@ -1048,7 +1048,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_no_rest_for_the_sick
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACR_no_rest_for_the_sick
 		x = -2
 		y = 7
 		relative_position_id = ACR_intro_one
@@ -1083,7 +1083,7 @@ focus_tree = {
 
 	focus = {
 		id = ACR_finish_the_constitution
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_ACR_sign_the_constitution
 		x = 0
 		y = 8
 		relative_position_id = ACR_intro_one
@@ -1106,6 +1106,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_idea = the_acrean_constitution
 			custom_effect_tooltip = acre_elections_tt
 			hidden_effect = {
 				if = { # Militarists Elected
