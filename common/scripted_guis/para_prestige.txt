@@ -1,6 +1,7 @@
 scripted_gui = {
   para_prestige = {
     window_name = "para_prestige_gui_window"
+	parent_window_token = politics_tab
     context_type = player_context
 
 

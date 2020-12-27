@@ -9,7 +9,7 @@ guiTypes = {
 		buttonType ={
 			name = "open_gui"
 			spriteType = "GFX_open_gui"
-			position = { x = 1350 y = 750 }
+			position = { x = -265 y = 150 }
 			scale = 0.65
 		}
 	}	
@@ -150,7 +150,10 @@ guiTypes = {
 			position = { x= -69 y = 23}
 			Orientation = "CENTER"
 		}
-	}	
+	}
+##################
+# Lists
+##################	
 	containerWindowType = {
 		name = "para_lists"
 		position = { x = 0 y = 0 }
@@ -206,6 +209,9 @@ guiTypes = {
 			pdx_tooltip = "BEM_tapajos_list_tt"
 		}	
 	}
+##########################
+# Textboxes for Each State
+##########################	
 	containerWindowType = {
 		name = "para_names"
 		position = { x = 0 y = 0 }
