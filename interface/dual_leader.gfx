@@ -55,23 +55,45 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_BRA_BRAZIL"
-		texturefile = "gfx/dual_leaders/BRA/Portrait_BRA_brasao.dds"
+		name = "GFX_PAT_GARANTIDO"
+		texturefile = "gfx/dual_leaders/PAT/Portrait_PAT_Garantido.dds"
 	}
 
 	spriteType = {
-		name = "GFX_JUN_JUNTA"
-		texturefile = "gfx/dual_leaders/JUN/Portrait_JUN_brasao.dds"
+		name = "GFX_STR_DUAL_WERBEL"
+		texturefile = "gfx/dual_leaders/STR/.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ACR_ACRE"
-		texturefile = "gfx/dual_leaders/ACR/Portrait_ACR_brasao.dds"
+		name = "GFX_XIN_CLAUDIO"
+		texturefile = "gfx/dual_leaders/XIN/Portrait_XIN_Villas_Boas_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SAO_SAO_PAULO"
-		texturefile = "gfx/dual_leaders/SAO/Portrait_BRA_brasao.dds"
+		name = "GFX_DRE_FAURE"
+		texturefile = "gfx/dual_leaders/DRE/Portrait_DRE_Faure.dds"
 	}
+
+	spriteType = {
+		name = "GFX_COR_HIRSCH"
+		texturefile = "gfx/dual_leaders/COR/.dds"
+	}
+
+	spriteType = {
+		name = "GFX_COR_ACRIS"
+		texturefile = "gfx/dual_leaders/COR/Portrait_COR_Fatima_Acris.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JRM_MEDICI"
+		texturefile = "gfx/dual_leaders/JRM/Portrait_JRM_Medici.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CRJ_MOURAO"
+		texturefile = "gfx/dual_leaders/CRJ/Portrait_CRJ_Olimpio_Mourao.dds"
+	}
+
+
 
 }

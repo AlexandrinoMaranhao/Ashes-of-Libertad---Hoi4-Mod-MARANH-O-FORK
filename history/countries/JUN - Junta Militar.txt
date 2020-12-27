@@ -45,7 +45,7 @@ set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "Castelo Branco"
+	name = "Humberto de Alencar Castelo Branco"
 	picture = "gfx/leaders/JUN/Portrait_JUN_Castelo_Branco.dds"
 	expire = "1937.1.1"
 	ideology = military_junta
