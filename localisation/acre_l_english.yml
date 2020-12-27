@@ -37,3 +37,10 @@
   acrean_senate_nationalist_remove_3_seat_tt:0 "Will remove three Seats from the §YNationalists§!"
 
   debug_add_militarists_1:0 "Debug - Add 1 Militarist Seat"
+
+  ACR_compensation_trade_category:0 "The Rubber Trade"
+  trade_steel:0 "Buy Steel"
+  trade_oil:0 "Buy Oil"
+  trade_ammunition:0 "Buy Ammunition"
+  trade_motors:0 "Buy Motor Parts"
+  trade_technology:0 "Buy Technology"

@@ -1,0 +1,349 @@
+ACR_compensation_trade_category = {
+
+	trade_steel = {
+		icon = GFX_decision_steel_decision
+		visible = {
+			tag = ACR
+		}
+		available = {
+			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation }
+			any_controlled_state = {
+				has_resources_amount = {
+					resource = rubber
+					amount > 7
+					delivered = yes
+				}
+			}
+		}
+		complete_effect  = {
+			capital_scope = {
+				if = {
+					limit = {
+						has_resources_amount = {
+							resource = rubber
+							amount > 7
+							delivered = yes
+						}
+					}
+					add_resource = {
+						type = rubber
+						amount = -8
+						days = 120
+					}
+					add_resource = {
+						type = steel
+						amount = 10
+						days = 120
+					}
+				} else = {
+					ACR = {
+						random_controlled_state = {
+							limit = {
+								has_resources_amount = {
+									resource = rubber
+									amount > 7
+									delivered = yes
+								}
+							}
+							add_resource = {
+								type = rubber
+								amount = -8
+								days = 120
+							}
+							add_resource = {
+								type = steel
+								amount = 10
+								days = 120
+							}
+						}
+					}
+				}
+			}
+		}
+		days_remove = 120
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	trade_oil = {
+		icon = GFX_decision_oil_decision
+		visible = {
+			tag = ACR
+		}
+		available = {
+			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation }
+			any_controlled_state = {
+				has_resources_amount = {
+					resource = rubber
+					amount > 7
+					delivered = yes
+				}
+			}
+		}
+		complete_effect  = {
+			capital_scope = {
+				if = {
+					limit = {
+						has_resources_amount = {
+							resource = rubber
+							amount > 7
+							delivered = yes
+						}
+					}
+					add_resource = {
+						type = rubber
+						amount = -8
+						days = 120
+					}
+					add_resource = {
+						type = oil
+						amount = 10
+						days = 120
+					}
+				} else = {
+					ACR = {
+						random_controlled_state = {
+							limit = {
+								has_resources_amount = {
+									resource = rubber
+									amount > 7
+									delivered = yes
+								}
+							}
+							add_resource = {
+								type = rubber
+								amount = -8
+								days = 120
+							}
+							add_resource = {
+								type = oil
+								amount = 10
+								days = 120
+							}
+						}
+					}
+				}
+			}
+		}
+		days_remove = 120
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 250
+				has_army_size = {
+					size > 0
+					type = armor
+				}
+			}
+			modifier = {
+				add = 250
+				has_deployed_air_force_size = {	size > 0 }
+			}
+			modifier = {
+				add = 250
+				has_war = yes
+			}
+		}
+	}
+
+	trade_ammunition = {
+		icon = GFX_decision_ammo_decision
+		visible = {
+			tag = ACR
+		}
+		available = {
+			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation has_idea = subsistence_economy has_idea = limited_exports 
+}
+			any_controlled_state = {
+				has_resources_amount = {
+					resource = rubber
+					amount > 7
+					delivered = yes
+				}
+			}
+		}
+		complete_effect  = {
+			capital_scope = {
+				if = {
+					limit = {
+						has_resources_amount = {
+							resource = rubber
+							amount > 7
+							delivered = yes
+						}
+					}
+					add_resource = {
+						type = rubber
+						amount = -8
+						days = 120
+					}
+					add_resource = {
+						type = ammunition
+						amount = 10
+						days = 120
+					}
+				} else = {
+					ACR = {
+						random_controlled_state = {
+							limit = {
+								has_resources_amount = {
+									resource = rubber
+									amount > 7
+									delivered = yes
+								}
+							}
+							add_resource = {
+								type = rubber
+								amount = -8
+								days = 120
+							}
+							add_resource = {
+								type = ammunition
+								amount = 10
+								days = 120
+							}
+						}
+					}
+				}
+			}
+		}
+		days_remove = 120
+	}
+	trade_motors = {
+		available = {
+			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation  has_idea = subsistence_economy has_idea = export_focus has_idea = limited_exports }	
+			}
+		icon = GFX_decision_motors_decision
+		visible = {
+			tag = ACR
+		}
+		available = {
+
+			any_controlled_state = {
+				has_resources_amount = {
+					resource = rubber
+					amount > 7
+					delivered = yes
+				}
+			}
+		}
+		complete_effect  = {
+			capital_scope = {
+				if = {
+					limit = {
+						has_resources_amount = {
+							resource = rubber
+							amount > 7
+							delivered = yes
+						}
+					}
+					add_resource = {
+						type = rubber
+						amount = -8
+						days = 120
+					}
+					add_resource = {
+						type = motors
+						amount = 10
+						days = 120
+					}
+				} else = {
+					ACR = {
+						random_controlled_state = {
+							limit = {
+								has_resources_amount = {
+									resource = rubber
+									amount > 7
+									delivered = yes
+								}
+							}
+							add_resource = {
+								type = rubber
+								amount = -8
+								days = 120
+							}
+							add_resource = {
+								type = motors
+								amount = 10
+								days = 120
+							}
+						}
+					}
+				}
+			}
+		}
+		days_remove = 120
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 250
+				has_template_containing_unit = heavy_armor
+			}
+		}
+	}
+
+	trade_technology = {
+		icon = GFX_decision_tech_decision
+		available = {
+			has_idea = monopoly
+		
+		visible = {
+			tag = ACR
+		}
+
+			any_controlled_state = {
+				has_resources_amount = {
+					resource = rubber
+					amount > 7
+					delivered = yes
+				}
+			}
+		}
+		complete_effect  = {
+			capital_scope = {
+				if = {
+					limit = {
+						has_resources_amount = {
+							resource = rubber
+							amount > 7
+							delivered = yes
+						}
+					}
+					add_resource = {
+						type = rubber
+						amount = -8
+						days = 120
+					}
+					add_resource = {
+						type = technology
+						amount = 10
+						days = 120
+					}
+				} else = {
+					ACR = {
+						random_controlled_state = {
+							limit = {
+								has_resources_amount = {
+									resource = rubber
+									amount > 7
+									delivered = yes
+								}
+							}
+							add_resource = {
+								type = rubber
+								amount = -8
+								days = 120
+							}
+							add_resource = {
+								type = technology
+								amount = 10
+								days = 120
+							}
+						}
+					}
+				}
+			}
+		}
+		days_remove = 120
+	}
+}

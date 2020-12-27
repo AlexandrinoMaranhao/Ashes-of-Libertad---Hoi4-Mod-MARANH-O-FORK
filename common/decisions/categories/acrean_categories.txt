@@ -5,3 +5,11 @@ acrean_senate = {
     priority = 300
 	scripted_gui = acre_senate_category
 }
+
+ACR_compensation_trade_category = {
+	icon = GFX_decision_category_decision_category_acrean_rubber_trade
+	allowed = {
+		tag = ACR
+	}	
+}
+

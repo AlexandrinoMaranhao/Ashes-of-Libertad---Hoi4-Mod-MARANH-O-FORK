@@ -61,7 +61,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_STR_DUAL_WERBEL"
-		texturefile = "gfx/dual_leaders/STR/.dds"
+		texturefile = "gfx/dual_leaders/STR/Portraits_STR_Werbell.dds"
 	}
 
 	spriteType = {
@@ -76,7 +76,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_COR_HIRSCH"
-		texturefile = "gfx/dual_leaders/COR/.dds"
+		texturefile = "gfx/dual_leaders/COR/Portrait_COR_Hirsch.dds"
 	}
 
 	spriteType = {

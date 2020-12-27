@@ -41,8 +41,8 @@ set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "Council of the Bull"
-	picture = "gfx/leaders/PAT/Portrait_PAT_Bull_Council.dds"
+	name = "Caprichoso"
+	picture = "gfx/leaders/PAT/Portrait_PAT_Caprichoso.dds"
 	expire = "1999.1.1"
 	ideology = city_state
 	traits = {
