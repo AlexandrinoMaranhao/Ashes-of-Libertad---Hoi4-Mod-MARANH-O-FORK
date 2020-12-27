@@ -32,7 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Carlos Fonseca"
-	picture = "gfx/leaders/BEM/Portrait_NIC_Carlos_Fonseca.dds"
+	picture = "gfx/leaders/NIC/Portrait_NIC_Carlos_Fonseca.dds"
 	expire = "1999.1.1"
 	ideology = marxism
 	traits = {
