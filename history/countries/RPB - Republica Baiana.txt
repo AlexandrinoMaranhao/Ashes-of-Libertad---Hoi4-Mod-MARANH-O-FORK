@@ -38,17 +38,6 @@ add_ideas = {
 set_country_flag = is_brazilian
 
 create_country_leader = {
-
-	name = "Unorganized Revolt"
-	picture = "gfx/leaders/RPB/Portrait_RPB_Baiana_Revolt.dds"
-	expire = "1999.1.1"
-	ideology = anarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	
 	name = "Arlindo Veiga dos Santos"
 	picture = "gfx/leaders/RPB/Portrait_RPB_Arlindo_Veira.dds"
@@ -76,6 +65,17 @@ create_country_leader = {
 	picture = "gfx/leaders/RPB/Portrait_RPB_Francisco_Juliao.dds"
 	expire = "1999.1.1"
 	ideology = marxism 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+
+	name = "Unorganized Revolt"
+	picture = "gfx/leaders/RPB/Portrait_RPB_Baiana_Revolt.dds"
+	expire = "1999.1.1"
+	ideology = anarchism
 	traits = {
 		#
 	}
