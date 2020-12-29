@@ -40,8 +40,8 @@ SCR = {
 }
 
 CDR = {
-	color = rgb { 40 0 51 }
-	color_ui = rgb { 40 0 51 }
+	color = rgb { 68 40 73 }
+	color_ui = rgb { 68 40 73 }
 }
 
 ECR = {

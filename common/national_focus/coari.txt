@@ -318,7 +318,7 @@
 			add_stability = -0.2
 			add_war_support = 0.1
 			add_popularity = {
-				ideology = neutrality
+				ideology = reactionary
 				popularity = 0.1
 			}
 		}

@@ -6,7 +6,137 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-                   
+         
+spriteType ={
+    name = "GFX_idea_mateus_satanawa_theorist"
+    texturefile = "gfx/interface/ideas/mateus.dds"
+} 
+       
+spriteType ={
+    name = "GFX_idea_maria_de_fatima_de_souza_acris_miss"
+    texturefile = "gfx/interface/ideas/acris.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_father_hirsch_high_command"
+    texturefile = "gfx/interface/ideas/hirsch.dds"
+} 
+             
+spriteType ={
+    name = "GFX_idea_father_hirsch_theorist"
+    texturefile = "gfx/interface/ideas/hirsch.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_father_hirsch_advisor_cor"
+    texturefile = "gfx/interface/ideas/hirsch.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_moacyr_grechi_political_advisor"
+    texturefile = "gfx/interface/ideas/priest.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_pedro_augusto_da_silva_political_advisor"
+    texturefile = "gfx/interface/ideas/joses_caelho.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_mateus_satanawa_air_chief"
+    texturefile = "gfx/interface/ideas/mateus.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_mateus_satanawa_political_advisor"
+    texturefile = "gfx/interface/ideas/mateus.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_jose_augusto_political_advisor"
+    texturefile = "gfx/interface/ideas/araujo.dds"
+} 
+                        
+spriteType ={
+    name = "GFX_idea_eneas_carneiro_high_command"
+    texturefile = "gfx/interface/ideas/eneas.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_eneas_carneiro_theorist"
+    texturefile = "gfx/interface/ideas/eneas.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_eneas_carneiro_political_advisor"
+    texturefile = "gfx/interface/ideas/eneas.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_jonas_kalume_navy_chief"
+    texturefile = "gfx/interface/ideas/Herbert_Czaja.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_jonas_kalume_high_command"
+    texturefile = "gfx/interface/ideas/Herbert_Czaja.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_jonas_kalume_theorist"
+    texturefile = "gfx/interface/ideas/Herbert_Czaja.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_jonas_kalume_political_advisor"
+    texturefile = "gfx/interface/ideas/Herbert_Czaja.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_jorge_kalume_political_advisor"
+    texturefile = "gfx/interface/ideas/jorge_kalume.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_jorge_kalume_high_command"
+    texturefile = "gfx/interface/ideas/jorge_kalume.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_jorge_kalume_army_chief"
+    texturefile = "gfx/interface/ideas/jorge_kalume.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_edgar_cerqueira_army_chief"
+    texturefile = "gfx/interface/ideas/edgar.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_edgar_cerqueira_high_command"
+    texturefile = "gfx/interface/ideas/edgar.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_edgar_cerqueira_theorist"
+    texturefile = "gfx/interface/ideas/edgar.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_edgar_cerqueira_political_advisor"
+    texturefile = "gfx/interface/ideas/edgar.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_marques_de_souza_political_advisor"
+    texturefile = "gfx/interface/ideas/marques.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_helio_cury_political_advisor"
+    texturefile = "gfx/interface/ideas/helio.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_the_triangle_battalion"
     texturefile = "gfx/interface/ideas/the_triangle_battalion.dds"
