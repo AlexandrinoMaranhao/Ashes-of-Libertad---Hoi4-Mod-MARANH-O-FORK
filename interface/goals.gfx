@@ -5,6 +5,11 @@ spriteTypes = {
 
 
 	SpriteType = {
+	name = "GFX_goal_COR_burn_rio_branco_to_the_ground"
+	texturefile = "gfx/interface/goals/COR_burn_rio_branco_to_the_ground.dds"
+	}	
+
+	SpriteType = {
 	name = "GFX_goal_ACRE_Rubber_trade"
 	texturefile = "gfx/interface/goals/ACRE_Rubber_trade.dds"
 	}	

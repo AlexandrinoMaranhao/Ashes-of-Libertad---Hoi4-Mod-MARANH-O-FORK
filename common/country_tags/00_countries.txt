@@ -87,6 +87,11 @@ JEG= "countries/Geisel's Brazil.txt"
 JGD= "countries/Dutra's Brazil.txt" 
 JRM= "countries/Mazzilli's Brazil.txt" 
 
+BMF = "countries/Brazilian Monarchist Front.txt"
+MAL = "countries/Male Revolt.txt"
+PCR = "countries/PCR.txt"
+CAN = "countries/Cangaceiros.txt"
+
 ACC = "countries/Anti Communist Caribbean.txt"
 CUP = "countries/Cuban Pirates.txt"
 NEH = "countries/New Havana.txt"

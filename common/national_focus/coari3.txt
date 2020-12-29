@@ -635,7 +635,7 @@ focus_tree = {
 
 		focus = {
 		id = COR_burn_rio_branco_to_the_ground
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_COR_burn_rio_branco_to_the_ground
 		x = 11
 		y = 8
 		prerequisite = { focus = COR_the_last_stand_of_the_republic }

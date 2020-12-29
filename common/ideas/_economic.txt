@@ -254,7 +254,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				min_export = 0.1
+				min_export = 0.15
 				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.05
 			}
@@ -287,7 +287,7 @@ ideas = {
 			}
 
 			modifier = {
-				min_export = 0.9
+				min_export = 0.7
 				industrial_capacity_factory = 0.20
 				industrial_capacity_dockyard = 0.30
 				production_speed_buildings_factor = 0.20
@@ -322,7 +322,7 @@ ideas = {
 			}
 
 			modifier = {
-				min_export = 0.7
+				min_export = 0.5
 				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15
 				production_speed_buildings_factor = 0.15
@@ -358,7 +358,7 @@ ideas = {
 			}
 
 			modifier = {
-				min_export = 0.6
+				min_export = 0.35
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
 				production_speed_buildings_factor = 0.1

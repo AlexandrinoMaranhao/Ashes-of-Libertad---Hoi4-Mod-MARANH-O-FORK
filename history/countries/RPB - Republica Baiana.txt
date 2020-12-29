@@ -47,12 +47,35 @@ create_country_leader = {
 		#
 	}
 }
+
 create_country_leader = {
 	
-	name = "Arlindo Veira"
+	name = "Arlindo Veiga dos Santos"
 	picture = "gfx/leaders/RPB/Portrait_RPB_Arlindo_Veira.dds"
 	expire = "1999.1.1"
-	ideology = constitutional_monarchy
+	ideology = constitutional_monarchy 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Volta Seca"
+	picture = "gfx/leaders/RPB/Portrait_RPB_Volta_Seca.dds"
+	expire = "1999.1.1"
+	ideology = coronelism 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Francisco Julião Arruda de Paula"
+	picture = "gfx/leaders/RPB/Portrait_RPB_Francisco_Juliao.dds"
+	expire = "1999.1.1"
+	ideology = marxism 
 	traits = {
 		#
 	}
