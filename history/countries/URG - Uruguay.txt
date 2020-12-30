@@ -41,8 +41,8 @@ create_country_leader = {
 		#
 	}
 
-	name = "Greater ANZAC Council"
-	picture = "gfx/leaders/URG/Portrait_URG_ANZAC_Pirates.dds"
+	name = "Charles Miller"
+	picture = "gfx/leaders/URG/Portrait_URG_Miller.dds"
 	expire = "1999.1.1"
 	ideology = pirate_federation
 	traits = {
