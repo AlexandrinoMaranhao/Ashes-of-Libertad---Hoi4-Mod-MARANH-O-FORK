@@ -76,8 +76,12 @@ country_event = {
 
     option = {
         name = CFD.1.a
+
         release = PEB
+        
         PEB = { country_event = { id = PEB.1 days = 7 } }
+        MNH = { country_event = { id = MNH.1 hours = 3 } }
+
         country_event = { id = CFD.2 days = 14 }
     }
 }
