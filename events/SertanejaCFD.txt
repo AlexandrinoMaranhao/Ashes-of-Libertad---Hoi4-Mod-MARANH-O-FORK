@@ -65,3 +65,199 @@ country_event = {
         add_state_core = 475
     }
 }
+
+country_event = {
+    id = CFD.1 # PEB breaks away from CFD
+    title = CFD.1.t
+    desc = CFD.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD.1.a
+        release = PEB
+        PEB = { country_event = { id = PEB.1 days = 7 } }
+        country_event = { id = CFD.2 days = 14 }
+    }
+}
+
+country_event = {
+    id = CFD.2 # CEA breaks away from CFD
+    title = CFD.2.t
+    desc = CFD.2.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD.2.a
+        CEA = {
+            transfer_state  = 14
+            transfer_state  = 12
+            declare_war_on = {
+                target = CFD 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+        }
+        country_event = { id = CFD.3 days = 7 }
+    }
+}
+
+country_event = {
+    id = CFD.3 # RGN breaks away from CFD
+    title = CFD.3.t
+    desc = CFD.3.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD.3.a
+        RGN = {
+            transfer_state  = 3
+            transfer_state  = 4
+            transfer_state  = 5
+            declare_war_on = {
+                target = CFD
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = CEA
+                type = annex_everything
+            }
+
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+        }
+        country_event = { id = CFD.4 days = 7 }
+    }
+}
+
+country_event = {
+    id = CFD.4 # PAI breaks away from CFD
+    title = CFD.4.t
+    desc = CFD.4.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD.4.a
+        PAI = {
+            transfer_state  = 6
+            declare_war_on = {
+                target = CFD
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = CEA
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = RGN
+                type = annex_everything
+            }
+
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+        }
+        country_event = { id = CFD.5 days = 7 }
+    }
+}
+
+country_event = {
+    id = CFD.5 # ALA breaks away from CFD
+    title = CFD.5.t
+    desc = CFD.5.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD.5.a
+        ALA = {
+            transfer_state  = 10
+            declare_war_on = {
+                target = CFD
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = CEA
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = RGN
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PAI
+                type = annex_everything
+            }
+            
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+        }
+    }
+}

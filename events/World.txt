@@ -1,0 +1,54 @@
+add_namespace = world
+
+news_event = { # Carlos Prestes comes back on April 23rd 1969
+	id = world.1
+	title = world.1.t
+	desc = world.1.d
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = world.1.a # Positive national spirit
+		trigger = {
+			OR = {
+				tag = ROR
+				tag = RMI
+				tag = FBO
+				tag = BIA
+				tag = PCR
+				AND = { # DO THIS WHEN SAO CIVIL WAR STARTS
+					tag = SAO
+					has_government = communism
+				}
+			}
+		}
+		add_timed_idea = { idea = good_carlos_prestes_return  days = 365 }
+	}
+
+	option = {
+		name = world.1.b # Negative national spirit
+		trigger = {
+			OR = {
+				tag = BEM
+				tag = JUN
+				tag = CFD
+				tag = JAG
+				tag = CRJ
+				tag = VAL
+				tag = UBA
+				tag = MNS
+				tag = JCL
+				tag = JCS
+				tag = JEG
+				tag = JGD
+				tag = JRM
+				AND = {
+					tag = ACR
+					has_government = fascism
+				}
+			}
+		}
+		add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 }
+	}
+}
