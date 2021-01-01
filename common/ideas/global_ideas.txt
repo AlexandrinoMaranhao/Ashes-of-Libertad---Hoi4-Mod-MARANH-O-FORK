@@ -106,4 +106,31 @@ ideas = {
 			}
 		}
 	}
+
+	#######################
+    # National Spirits
+	#######################
+	
+	country = {
+		
+		good_carlos_prestes_return = {
+			picture = generic_intel_bonus
+				modifier = {
+					army_org = 0.10
+					army_morale_factor = 0.05
+					stability_weekly = 0.02
+					army_attack_factor = 0.10
+				}
+		}
+
+		bad_carlos_prestes_return = {
+			picture = generic_intel_bonus
+				modifier = {
+					army_org = -0.15
+					army_morale_factor = -0.05
+					stability_weekly = -0.02
+					army_attack_factor = -0.10
+				}
+		}
+	}
 }
