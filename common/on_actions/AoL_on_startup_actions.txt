@@ -1,0 +1,19 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			news_event = {
+				id = world.1 # Carlos Prestes comes back on April 23rd 1969
+				days = 843
+			}
+		}
+
+		effect = {
+            CFD = {
+                country_event = {
+                    id = CFD.1 # Beginning of the CFD collapse
+                    days = 3
+                }
+            }
+		}
+	}
+}
