@@ -261,8 +261,9 @@ scripted_gui = {
     clr_country_flag = building_speed_ch
   }
   stability_boost_click = {
-    set_country_flag = stability_boost_ch
     clr_country_flag = stability_boost
+    set_country_flag = stability_boost_ch
+    
   }
   stability_boost_checked_click = {
     set_country_flag = stability_boost
@@ -271,6 +272,21 @@ scripted_gui = {
   abort_mission_click = {
     set_country_flag = abort_mission_ch
     clr_country_flag = abort_mission
+    if = {
+      limit = { has_active_mission = para_build_military }
+      remove_mission = para_build_military
+      clr_country_flag = para_mission0
+    }
+    if = {
+      limit = { has_active_mission = para_build_civilian }
+      remove_mission = para_build_civilian
+      clr_country_flag = para_mission1 
+    }
+    if = {
+      limit = { has_active_mission = para_build_infrastructure }
+      remove_mission = para_build_infrastructure
+      clr_country_flag = para_mission2
+    }
   }
   abort_mission_checked_click = {
     set_country_flag = abort_mission
