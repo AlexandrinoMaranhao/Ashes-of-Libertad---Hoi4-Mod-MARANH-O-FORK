@@ -15,5 +15,14 @@ on_actions = {
                 }
             }
 		}
+
+		effect = {
+            SAO = {
+                country_event = {
+                    id = SAO.1 # SAO civil war
+                    days = 956
+                }
+            }
+		}
 	}
 }
