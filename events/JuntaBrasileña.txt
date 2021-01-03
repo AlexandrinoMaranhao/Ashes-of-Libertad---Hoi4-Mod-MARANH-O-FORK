@@ -34,9 +34,10 @@ country_event = {
         hidden_effect = { JUN = { country_event = { id = JUN_collapse.2 days = 21 } } }
         hidden_effect = { 69 = { set_demilitarized_zone = yes } }
             }
+            #fecha
         }
-    }
-}
+    
+
 country_event = {
     id = JUN_collapse.2
     title = JUN_collapse.2.t
