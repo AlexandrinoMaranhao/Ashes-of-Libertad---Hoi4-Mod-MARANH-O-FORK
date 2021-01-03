@@ -5,6 +5,248 @@
 add_namespace = ParaFocusEvent
 add_namespace = ParaTutorial
 add_namespace = ParaCabanos
+add_namespace = ParaIntroduction
+add_namespace = Para
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = ParaIntroduction.1
+	title = ParaIntroduction.1.t
+	desc = ParaIntroduction.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ParaIntroduction.1.A
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = ParaIntroduction.2
+	title = ParaIntroduction.2.t
+	desc = ParaIntroduction.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ParaIntroduction.2.A
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = ParaIntroduction.3
+	title = ParaIntroduction.3.t
+	desc = ParaIntroduction.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ParaIntroduction.3.A
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.1
+	title = Para.1.t
+	desc = Para.1.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.1.A
+		add_stability = -0.1
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.2
+	title = Para.2.t
+	desc = Para.2.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.2.A
+		add_stability = -0.2
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.3
+	title = Para.3.t
+	desc = Para.3.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.3.A
+		add_stability = -0.1
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.4
+	title = Para.4.t
+	desc = Para.4.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.4.A
+		add_stability = 0.05
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.5
+	title = Para.5.t
+	desc = Para.5.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.5.A
+		add_war_support = -0.05
+	}
+}
+
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.6
+	title = Para.6.t
+	desc = Para.6.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.6.A
+		army_experience = 55
+	}
+}
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.7
+	title = Para.7.t
+	desc = Para.7.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.7.A
+		add_equipment_to_stockpile = {
+    type = support_equipment
+    amount = 500
+    producer = BEM
+}
+	}
+	
+	option = {
+		name = Para.7.B
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 500
+    producer = BRM
+}
+add_equipment_to_stockpile = {
+    type = support_equipment
+    amount = 500
+    producer = BEM
+}
+	}
+}
+#########################################################################
+# 
+#########################################################################
+country_event = {
+	id = Para.8
+	title = Para.8.t
+	desc = Para.8.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.8.A
+		random_list = {
+    50 = {
+        
+        modifier = {
+            factor = 1.5
+			BEM = {
+            has_completed_focus = BEM_send_a_funai_diplomat
+				  }
+					}
+		BEM= {
+		annex_country = {
+    target = KAY
+    transfer_troops = no
+}
+		}
+    }
+    50 = {
+        declare_war_on = {
+    target = BEM
+    type = annex_everything
+}
+    }
+}
+	}
+}
+
+
+
+
+
+
+
 
 ####################################
 # Focus Tree Events
