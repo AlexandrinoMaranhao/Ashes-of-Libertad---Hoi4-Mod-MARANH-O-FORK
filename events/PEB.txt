@@ -1,0 +1,52 @@
+add_namespace = PEB
+
+country_event = {
+    id = PEB.1 # PEB declares war on CFD a week after breaking away
+    title = PEB.1.t
+    desc = PEB.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.1.a
+
+      declare_war_on = {
+        target = CFD
+        type = annex_everything
+      }
+
+      country_event = { id = PEB.2 days = 3 }
+    }
+}
+
+country_event = {
+    id = PEB.2
+    title = PEB.2.t
+    desc = PEB.2.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.2.a
+      
+      start_civil_war = {
+        ruling_party = neutrality
+        ideology = communism
+        size = 0.9
+      }
+
+      random_country_with_original_tag = {
+        original_tag_to_check = PEB
+        limit = {
+            has_government = communism
+        }
+
+        declare_war_on = {
+          target = CFD
+          type = annex_everything
+        }
+      }
+    } 
+}

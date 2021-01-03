@@ -25,13 +25,6 @@ set_popularities = {
 
 }
 
-create_faction = federacao_sertaneja
-add_to_faction = ALA
-add_to_faction = SEG
-add_to_faction = PAI
-add_to_faction = RGN
-add_to_faction = CEA
-
 add_ideas = {
 	low_economic_mobilisation
 	limited_exports

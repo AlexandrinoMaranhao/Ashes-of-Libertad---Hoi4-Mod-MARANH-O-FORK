@@ -37,3 +37,25 @@ country_event = {
         add_state_core = 474
     }
 }
+
+country_event = {
+    id = MNH.1
+    title = MNH.1.t
+    desc = MNH.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = MNH.1.a
+
+        annex_country = {
+            target = PIA
+            transfer_troops = no
+        }
+
+        set_politics = {
+            ruling_party = fascism
+        }
+    }
+}
