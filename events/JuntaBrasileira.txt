@@ -1,0 +1,142 @@
+###### LOL fuck you castelo #######
+
+
+add_namespace = JUN
+add_namespace = JUN_collapse
+
+
+
+country_event = {
+    id = JUN_collapse.1
+    title = JUN_collapse.1.t
+    desc = JUN_collapse.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = JUN_collapse.1.a
+        kill_country_leader = yes
+        create_country_leader = {
+            name = "Junta Military Council"
+            desc = "POLITICS_JUNTA_MILITARY_COUNCIL_DESC"
+            picture = "Portrait_JUN_Junta_Military_Council.dds"
+            expire = "2000.1.1"
+            ideology = military_junta
+            traits = {
+                ensuing_collapse
+            }
+        }
+        add_stability = -0.3
+        swap_ideas = { 
+          remove_idea = the_man_in_the_white_castle 
+          add_idea = administration_in_chaos 
+        }
+        custom_effect_tooltip = collapsingjunta_tt
+        set_cosmetic_tag = JUN_COUNCIL
+        hidden_effect = { JUN = { country_event = { id = JUN_collapse.2 days = 21 } } }
+        hidden_effect = { 69 = { set_demilitarized_zone = yes } }
+            }
+            #fecha
+        }
+    
+
+country_event = {
+    id = JUN_collapse.2
+    title = JUN_collapse.2.t
+    desc = JUN_collapse.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = JUN_collapse.2.a
+        71 = { set_demilitarized_zone = yes }
+        70 = { set_demilitarized_zone = yes }
+        497 = { set_demilitarized_zone = yes }
+        hidden_effect = { JUN = { country_event = { id = JUN_collapse.3 days = 14 } } }
+    }
+}
+country_event = {
+    id = JUN_collapse.3
+    title = JUN_collaspe.3.t
+    desc = JUN_collapse.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = JUN_collapse.3.a
+        73 = { set_demilitarized_zone = yes }
+        76 = { set_demilitarized_zone = yes }
+        hidden_effect = { JUN = { country_event = { id = JUN_collapse.4 days = 14 } } }
+        hidden_effect = { JAG = { country_event = { id = JAG.10 days = 5 } } }
+    }
+}
+country_event = {
+    id = JUN_collapse.4
+    title = JUN_collapse.4.t
+    desc = JUN_collapse.4.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = JUN_collapse.4.a
+        74 = { set_demilitarized_zone = yes }
+        75 = { set_demilitarized_zone = yes }
+        72 = { set_demilitarized_zone = yes }
+        hidden_effect = { JUN = { country_event = { id = JUN_collapse.5 days = 14 } } }
+    }
+}
+country_event = {
+    id = JUN_collapse.5
+    title = JUN_collapse.5.t
+    desc = JUN_collapse.5.t
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+       name = JUN_collapse.5.a
+       JUN = { dismantle_faction = yes }
+       hidden_effect = {
+       release = JGD
+       release = JEG
+       release = JCL
+       release = JRM
+       release = JCS
+       74 = { set_demilitarized_zone = no }
+       75 = { set_demilitarized_zone = no }
+       72 = { set_demilitarized_zone = no }
+       73 = { set_demilitarized_zone = no }
+       76 = { set_demilitarized_zone = no }
+       71 = { set_demilitarized_zone = no }
+       70 = { set_demilitarized_zone = no }
+       497 = { set_demilitarized_zone = no }
+       69 = { set_demilitarized_zone = no }
+       SAO = { country_event = { id = SAO.200 days = 24 } }
+       RMI = { country_event = { id = RMI.200 days = 100 } }
+       BRA = { country_event = { id = BRA_opportunity.1 days = 50 } }
+       JGD = { country_event = { id = JGD_breakuowar.1 days = 31 } }
+       JEG = { country_event = { id = JEG_breakupwar.1 days = 31 } }
+       JCL = { country_event = { id = JCL_breakupwar.1 days = 31 } }
+       JRM = { country_event = { id = JRM_breakupwar.1 days = 31 } }
+       JCS = { country_event = { id = JCS_breakupwar.1 days = 31 } }
+       }
+       JEG = { change_tag_from = JUN }
+    }
+}
+
+country_event = {
+    id = JUN.10
+    title = JUN.10.t
+    desc = JUN.10.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = JUN.10.a
+    }
+}

@@ -18,8 +18,17 @@ country_event = {
     option = {
         declare_war_on = {
             target = JCL
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JGD
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JRM
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JCS
             type = annex_everything
         }
@@ -36,9 +45,18 @@ country_event = {
 
     option = {
         declare_war_on = {
-            target = JEG
+            target = JCL
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JGD
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JRM
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JCS
             type = annex_everything
         }
@@ -55,9 +73,18 @@ country_event = {
 
     option = {
         declare_war_on = {
-            target = JEG
             target = JCL
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = JGD
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JRM
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JCS
             type = annex_everything
         }
@@ -74,13 +101,21 @@ country_event = {
 
     option = {
         declare_war_on = {
-            target = JEG
             target = JCL
-            target = JGD
-            target = JCS
             type = annex_everything
         }
-    }
+        declare_war_on = {
+            target = JGD
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = JRM
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = JCS
+            type = annex_everything
+        }    }
 }
 
 country_event = {
@@ -93,10 +128,19 @@ country_event = {
 
     option = {
         declare_war_on = {
-            target = JEG
             target = JCL
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JGD
+            type = annex_everything
+        }
+        declare_war_on = {
             target = JRM
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = JCS
             type = annex_everything
         }
     }

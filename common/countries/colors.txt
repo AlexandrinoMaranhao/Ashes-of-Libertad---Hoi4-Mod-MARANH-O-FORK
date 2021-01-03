@@ -385,7 +385,7 @@ COR = {
 }
 
 PAI = {
-	color = rgb { 255 142 5 }
+	color = rgb { 196 97 5 }
 	color_ui = rgb { 204 110 4 }
 }
 
@@ -395,18 +395,18 @@ XIN = {
 }
 
 CEA = {
-	color = rgb { 255 200 38 }
-	color_ui = rgb { 198 153 29 }
+	color = rgb { 127 120 0 }
+	color_ui = rgb { 127 120 0 }
 }
 
 RGN = {
-	color = rgb { 211 206 85 }
+	color = rgb { 193 166 141 }
 	color_ui = rgb { 150 144 61 }
 }
 
 PEB = {
-	color = rgb { 201 159 13 }
-	color_ui = rgb { 133 135 9 }
+	color = rgb { 127 51 13 }
+	color_ui = rgb { 127 51 13 }
 }
 
 ALA = {
