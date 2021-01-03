@@ -10,11 +10,12 @@ on_actions = {
             }
         }
     }
-
+}
 
 
 ######## Che Huevada
 
+on_actions = {
     on_startup = {
         effect = {
             ERN = {
@@ -28,6 +29,7 @@ on_actions = {
 
 #### MNH and CFD scripted peace deal
 
+on_actions = {
     on_startup = {
         effect = {
             CFD = {
@@ -114,5 +116,5 @@ on_actions = {
             }
         }
     }
-
 }
+
