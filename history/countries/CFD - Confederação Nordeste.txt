@@ -25,7 +25,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	nebulous_independence
+    loose_federation
+    cangaceiros_and_commies
+    gateway_of_south_america
 }
 
 set_country_flag = is_brazilian

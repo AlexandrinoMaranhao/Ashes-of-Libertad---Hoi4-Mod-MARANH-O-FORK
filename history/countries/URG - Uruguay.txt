@@ -40,6 +40,151 @@ create_country_leader = {
 	traits = {
 		#
 	}
+
+	name = "Charles Miller"
+	picture = "gfx/leaders/URG/Portrait_URG_Miller.dds"
+	expire = "1999.1.1"
+	ideology = pirate_federation
+	traits = {
+		#
+	}
+
+	name = "Consejo Militar de Gobierno"
+	picture = "gfx/leaders/URG/Portrait_URG_Totally_not_the_secret_sect.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		#
+	}
+
+	name = "Nelsa Gadea"
+	picture = "gfx/leaders/URG/Portrait_URG_Nelsa_Gadea.dds"
+	expire = "1999.1.1"
+	ideology = posadism
+	traits = {
+		#
+	}
+
+	name = ""
+	picture = ""
+	expire = "1999.1.1"
+	ideology = merchantile_oligarchy
+	traits = {
+		#
+	}
+
+	name = "Martin Echegoyen"
+	picture = "gfx/leaders/URG/Portrait_URG_Martin_Echegoyen.dds"
+	expire = "1999.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+
+	name = "Jorge Pacheco Areco"
+	picture = "gfx/leaders/URG/Portrait_URG_Jorge_Pacheco_Areco.dds
+	expire = "1999.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+
+	name = "Aguirre Gonzalez Pastorino"
+	picture = "gfx/leaders/URG/Portrait_URG_Aguirre_el_zurdo.dds"
+	expire = "1999.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+
+	name = "Consejo de Transicion"
+	picture = "gfx/leaders/URG/Portrait_big_building.dds"
+	expire = "1999.1.1"
+	ideology = provisional_government
+	traits = {
+		#
+	}
+
+	name = "Consejo del Comando Caza Tupamaros"
+	picture = "gfx/leaders/URG/Portrait_URG_CCCT.dds"
+	expire = "1999.1.1"
+	ideology = coronelism
+	traits = {
+		#
+	}
+
+	name = "Jose Pedro Cardozo"
+	picture = "gfx/leaders/URG/Portrait_URG_JP_Cardozo.dds"
+	expire = "1999.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+
+	name = "The most loyal Lodge of the Leutenants of Artigas"
+	picture = "gfx/leaders/URG/Portrait_URG_Based_secret_sect.dds"
+	expire = "1999.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+
+	name = "Miguel Sofia"
+	picture = "gfx/leaders/URG/Portrait_URG_Miguel_Sofia.dds"
+	expire = "1999.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+
+	name = "Consejo Uruguayo de la Iglesia de los Ultimos Dias"
+	picture = "gfx/leaders/URG/Portrait_URG_Mormons.dds"
+	expire = "1999.1.1"
+	ideology = mormon_theocracy
+	traits = {
+		#
+	}
+
+	name = "Consejo de la Nacion Charrua"
+	picture = "gfx/leaders/URG/Portrait_URG_LARPers.dds"
+	expire = "1999.1.1"
+	ideology = tribal_federation
+	traits = {
+		#
+	}
+
+	name = "Alberto Heber Usher"
+	picture = "gfx/leaders/URG/Portrait_URG_Alberto_Heber.dds"
+	expire = "1999.1.1"
+	ideology = corporate_state
+	traits = {
+		#
+	}
+
+	name = "Alberto Arcos Perez"
+	picture = "gfx/leaders/URG/Portrait_URG_Alberto_Arcos.dds"
+	expire = "1999.1.1"
+	ideology = christian_theocracy
+	traits = {
+		#
+	}
+
+	name = "Raul Sendic"
+	picture = "gfx/leaders/URG/Portrait_URG_Raul_Sendic.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+		#
+	}
+
+	name = "Consejo de la Falange"
+	picture = "gfx/leaders/URG/Portrait_URG_Falange.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+
 }
 
 

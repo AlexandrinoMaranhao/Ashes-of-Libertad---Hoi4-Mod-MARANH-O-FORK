@@ -29,6 +29,9 @@ add_ideas = {
 	free_trade
 	civilian_economy
 	volunteer_only
+
+	the_vale_company
+trabalhismo_mineiro
 }
 
 set_country_flag = is_brazilian

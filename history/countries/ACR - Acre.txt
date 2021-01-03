@@ -41,6 +41,9 @@ set_variable = { senate_neutral_seats = 22 }
 add_ideas = {
 undisturbed_isolation
 subsistence_economy
+militia_troop_training
+no_officer_training
+no_tradition
 
 country_of_seringueiros
 militia_army
@@ -125,6 +128,16 @@ create_country_leader = {
 	picture = "gfx/leaders/ACR/Portrait_ACR_Provisional Government.dds"
 	expire = "1999.1.1"
 	ideology = provisional_government
+	traits = {
+	}
+}
+
+create_country_leader = {
+	
+	name = "Edgar Cerqueira"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+	expire = "1999.1.1"
+	ideology = coronelism 
 	traits = {
 	}
 }

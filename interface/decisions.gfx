@@ -2,8 +2,38 @@ spriteTypes = {
 
 	### categories
 	
-	##SAM
+	##AoL
 	
+	spriteType = {
+		name = "GFX_decision_ammo_decision"
+		texturefile = "gfx/interface/decisions/ammo_decision.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_decision_motors_decision"
+		texturefile = "gfx/interface/decisions/motors_decision.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_decision_oil_decision"
+		texturefile = "gfx/interface/decisions/oil_decision.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_decision_steel_decision"
+		texturefile = "gfx/interface/decisions/steel_decision.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_decision_tech_decision"
+		texturefile = "gfx/interface/decisions/tech_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_category_decision_category_acrean_rubber_trade"
+		texturefile = "gfx/interface/decisions/decision_category_acrean_rubber_trade.dds"
+	}
+			
 	spriteType = {
 		name = "GFX_decision_category_coari_formable_nation"
 		texturefile = "gfx/interface/decisions/decision_category_coari_formable_nation.dds"

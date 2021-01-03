@@ -3,6 +3,62 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 
+
+	SpriteType = {
+	name = "GFX_goal_COR_burn_rio_branco_to_the_ground"
+	texturefile = "gfx/interface/goals/COR_burn_rio_branco_to_the_ground.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACRE_Rubber_trade"
+	texturefile = "gfx/interface/goals/ACRE_Rubber_trade.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACRE_natives"
+	texturefile = "gfx/interface/goals/ACRE_natives.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACR_censorship"
+	texturefile = "gfx/interface/goals/ACR_censorship.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACR_who_is_the_senate"
+	texturefile = "gfx/interface/goals/ACR_who_is_the_senate.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACR_the_right_to_vote"
+	texturefile = "gfx/interface/goals/ACR_the_right_to_vote.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACR_no_rest_for_the_sick"
+	texturefile = "gfx/interface/goals/ACR_no_rest_for_the_sick.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACR_anticensorship"
+	texturefile = "gfx/interface/goals/ACR_anticensorship.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ACR_sign_the_constitution"
+	texturefile = "gfx/interface/goals/ACR_sign_the_constitution.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_involvement_of_the_army_in_politics"
+	texturefile = "gfx/interface/goals/involvement_of_the_army_in_politics.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_focus_ACRE_adress_militia"
+	texturefile = "gfx/interface/goals/focus_ACRE_adress_militia.dds"
+	}	
+
 	SpriteType = {
 	name = "GFX_goal_PetitionBelem"
 	texturefile = "gfx/interface/goals/PetitionBelem.dds"

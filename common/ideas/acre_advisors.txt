@@ -1,0 +1,283 @@
+ideas = {
+	
+    ###############################
+	# Military Staff
+	###############################
+    army_chief = {
+
+        jorge_kalume_army_chief = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        edgar_cerqueira_army_chief = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jose_guiomard_army_chief = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+    }
+
+    navy_chief = {
+
+        jonas_kalume_navy_chief = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+    }
+
+    air_chief = {
+
+        nabor_junior_air_chief = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+        
+        mateus_satanawa_air_chief = { #AIR
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+    }
+
+    ###############################
+	# High Command
+	###############################
+        
+        high_command = {
+
+        jorge_kalume_high_command = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        edgar_cerqueira_high_command = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jonas_kalume_high_command = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        eneas_carneiro_high_command = {
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jose_guiomard_high_command = { #militarist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        }
+
+    ###############################
+	# Theorists
+	###############################
+        
+        theorist = {
+
+        edgar_cerqueira_theorist = { #ARMY
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+ 
+        jose_guiomard_theorist = { #ARMY
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jonas_kalume_theorist = { #NAVY
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+        
+        mateus_satanawa_theorist = { #AIR
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        eneas_carneiro_theorist = {
+        
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+
+
+        }
+
+    ###############################
+	# Political Advisors
+	###############################
+        
+        political_advisor = {
+
+        helio_cury_political_advisor = { #nationalist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        marques_de_souza_political_advisor = { #technocrat
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        edgar_cerqueira_political_advisor = { #militarist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jorge_kalume_political_advisor = { #militarist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jonas_kalume_political_advisor = { #nationalist 
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        eneas_carneiro_political_advisor = { #technocrat
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jose_augusto_political_advisor = { #nationalist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        adalberto_sena_political_advisor = { #technocrat
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        nilson_mourao_political_advisor = { #technocrat
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        nabor_junior_political_advisor = { #militarist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        jose_guiomard_political_advisor = { #militarist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        mateus_satanawa_political_advisor = { #nationalist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        pedro_augusto_da_silva_political_advisor = { #nationalist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+        moacyr_grechi_political_advisor = { #priest
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
+
+        }
+}

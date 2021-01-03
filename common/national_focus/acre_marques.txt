@@ -1,0 +1,590 @@
+shared_focus = {
+	id = ACR_marques_presidency
+	#icon = 
+
+	x = 30
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_worker_cause
+	prerequisite = { focus = ACR_marques_presidency }
+	relative_position_id = ACR_marques_presidency
+	#icon = 
+
+	x = -3
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_compromise_with_nationalists
+	prerequisite = { focus = ACR_worker_cause }
+	relative_position_id = ACR_worker_cause
+	mutually_exclusive = { focus = ACR_compromise_with_militarists_two }
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_compromise_with_militarists_two
+	prerequisite = { focus = ACR_worker_cause }
+	relative_position_id = ACR_worker_cause
+	mutually_exclusive = { focus = ACR_compromise_with_nationalists }
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_promise_to_limit_reforms
+	prerequisite = { focus = ACR_compromise_with_nationalists }
+	prerequisite = { focus = ACR_compromise_with_militarists_two }
+	relative_position_id = ACR_compromise_with_nationalists
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_haha_sike
+	prerequisite = { focus = ACR_promise_to_limit_reforms }
+	relative_position_id = ACR_promise_to_limit_reforms
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_revise_worker_rights
+	prerequisite = { focus = ACR_haha_sike }
+	relative_position_id = ACR_haha_sike
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_medicare_for_all
+	prerequisite = { focus = ACR_revise_worker_rights }
+	relative_position_id = ACR_revise_worker_rights
+	#icon = 
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_placido_castro_hospital
+	prerequisite = { focus = ACR_medicare_for_all }
+	relative_position_id = ACR_medicare_for_all
+	mutually_exclusive = { focus = ACR_jungle_hospitals }
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_jungle_hospitals
+	prerequisite = { focus = ACR_medicare_for_all }
+	relative_position_id = ACR_medicare_for_all
+	mutually_exclusive = { focus = ACR_placido_castro_hospital }
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_education_for_common_man
+	prerequisite = { focus = ACR_jungle_hospitals }
+	prerequisite = { focus = ACR_placido_castro_hospital }
+	relative_position_id = ACR_jungle_hospitals
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_generic_education	
+	prerequisite = { focus = ACR_education_for_common_man }
+	relative_position_id = ACR_education_for_common_man
+	mutually_exclusive = { focus = ACR_selected_books }
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_selected_books
+	prerequisite = { focus = ACR_education_for_common_man }
+	prerequisite = { focus = ACR_make_manaus_beg  }
+	relative_position_id = ACR_education_for_common_man
+	mutually_exclusive = { focus = ACR_generic_education }
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_make_changes_last
+	prerequisite = { focus = ACR_generic_education }
+	prerequisite = { focus = ACR_selected_books }
+	relative_position_id = ACR_generic_education
+	#icon = 
+
+	x = 1
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_battle_manaus_monopoly
+	prerequisite = { focus = ACR_revise_worker_rights }
+	relative_position_id = ACR_revise_worker_rights
+	#icon = 
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_starve_them_out
+	prerequisite = { focus = ACR_battle_manaus_monopoly }
+	relative_position_id = ACR_battle_manaus_monopoly
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_make_manaus_beg
+	prerequisite = { focus = ACR_starve_them_out }
+	relative_position_id = ACR_starve_them_out
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_capitalism_for_communism_sake
+	prerequisite = { focus = ACR_make_manaus_beg }
+	relative_position_id = ACR_make_manaus_beg
+	#icon = 
+
+	x = 0
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_desperate_negotiations
+	prerequisite = { focus = ACR_marques_presidency }
+	relative_position_id = ACR_marques_presidency
+	#icon = 
+
+	x = 3
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_flirt_with_communists
+	prerequisite = { focus = ACR_desperate_negotiations }
+	relative_position_id = ACR_desperate_negotiations
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_write_cute_letter
+	prerequisite = { focus = ACR_flirt_with_communists }
+	relative_position_id = ACR_flirt_with_communists
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_order_patrols_to_halt
+	prerequisite = { focus = ACR_desperate_negotiations }
+	relative_position_id = ACR_desperate_negotiations
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_red_flags_in_border
+	prerequisite = { focus = ACR_order_patrols_to_halt }
+	relative_position_id = ACR_order_patrols_to_halt
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_hotline_guevara
+	prerequisite = { focus = ACR_red_flags_in_border }
+	prerequisite = { focus = ACR_write_cute_letter }
+	relative_position_id = ACR_red_flags_in_border
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_show_our_intentions
+	prerequisite = { focus = ACR_hotline_guevara }
+	relative_position_id = ACR_hotline_guevara
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_combined_efforts
+	prerequisite = { focus = ACR_show_our_intentions }
+	relative_position_id = ACR_show_our_intentions
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_talk_business
+	prerequisite = { focus = ACR_combined_efforts }
+	relative_position_id = ACR_combined_efforts
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_keep_relationship_professional
+	prerequisite = { focus = ACR_talk_business }
+	relative_position_id = ACR_talk_business
+	mutually_exclusive = { focus = ACR_mutual_love_for_working_class }
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_holding_hands_with_che
+	prerequisite = { focus = ACR_hotline_guevara }
+	relative_position_id = ACR_hotline_guevara
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_ask_for_a_kiss
+	prerequisite = { focus = ACR_holding_hands_with_che }
+	relative_position_id = ACR_holding_hands_with_che
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_ask_for_permission_to_go_deeper
+	prerequisite = { focus = ACR_ask_for_a_kiss }
+	relative_position_id = ACR_ask_for_a_kiss
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_mutual_love_for_working_class
+	prerequisite = { focus = ACR_ask_for_permission_to_go_deeper }
+	relative_position_id = ACR_ask_for_permission_to_go_deeper
+	mutually_exclusive = { focus = ACR_keep_relationship_professional }
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_keep_relationship_secret
+	prerequisite = { focus = ACR_keep_relationship_professional }
+	prerequisite = { focus = ACR_mutual_love_for_working_class }
+	relative_position_id = ACR_keep_relationship_professional
+	#icon = 
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_deal_with_parents_against_it
+	prerequisite = { focus = ACR_keep_relationship_secret }
+	relative_position_id = ACR_keep_relationship_secret
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_promises_of_independence
+	prerequisite = { focus = ACR_deal_with_parents_against_it }
+	prerequisite = { focus = ACR_capitalism_for_communism_sake }
+	relative_position_id = ACR_deal_with_parents_against_it
+	#icon = 
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}
+shared_focus = {
+	id = ACR_make_love_not_war
+	prerequisite = { focus = ACR_promises_of_independence }
+	prerequisite = { focus = ACR_make_changes_last } 
+	relative_position_id = ACR_promises_of_independence
+	#icon = 
+
+	x = -3
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+
+	}
+}

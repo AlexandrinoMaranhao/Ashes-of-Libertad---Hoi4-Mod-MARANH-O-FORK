@@ -13,8 +13,7 @@ state={
 rubber = 20
 steel = 7
 ammunition = 3
-technology = 1
-motors = 2 
+
 }
             history = {
         buildings = {

@@ -25,7 +25,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	red_democracy
+    old_world_dichotomy
+    pacific_overtures
+    the_famae
 }
 
 create_country_leader = {

@@ -29,6 +29,10 @@ add_ideas = {
 	limited_exports
 	partial_economic_mobilisation
 	limited_conscription
+
+	the_second_constitutionalist_revolution
+stolen_institutions
+the_devil_in_the_bottle
 }
 
 set_country_flag = is_brazilian

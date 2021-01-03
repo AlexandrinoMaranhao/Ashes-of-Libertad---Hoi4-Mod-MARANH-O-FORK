@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		the_man_in_the_white_castle = {
+
+		}
+
+		dutra = {
+
+		}
+
+	}
+}

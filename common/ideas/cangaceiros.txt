@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+
+        cangaceiros_light = {
+
+        }
+
+        cangaceiros_medium = {
+
+        }
+
+        cangaceiros_heavy = {
+
+        }
+
+        cangaceiros_total = {
+
+        }
+	}
+}

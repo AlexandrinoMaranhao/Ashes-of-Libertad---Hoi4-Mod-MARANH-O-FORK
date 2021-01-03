@@ -29,6 +29,12 @@ add_ideas = {
 	extensive_conscription
 	low_economic_mobilisation
 	subsistence_economy
+
+	6_military_region
+    revengist_spirit
+    mercenary_army_LAM
+	cangaceiros_light
+    
 }
 
 set_country_flag = is_brazilian

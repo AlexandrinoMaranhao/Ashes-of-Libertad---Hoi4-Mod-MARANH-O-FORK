@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+
+		scars_of_guanabara = {
+
+		}
+
+        one_last_effort = {
+
+        }
+
+        naval_bias = {
+
+        }
+	}
+}

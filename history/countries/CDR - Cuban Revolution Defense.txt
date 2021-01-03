@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	the_cuban_revolution_defense_force
+pro_castro
 }
 
 create_country_leader = {

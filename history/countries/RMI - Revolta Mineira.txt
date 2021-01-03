@@ -28,6 +28,10 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 	closed_economy
+
+	christian_communism
+    stagnated_revolution
+    trabalhismo_mineiro
 }
 
 set_country_flag = is_brazilian

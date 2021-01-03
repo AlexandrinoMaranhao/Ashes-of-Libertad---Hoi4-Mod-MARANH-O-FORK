@@ -9,7 +9,7 @@ guiTypes = {
 		buttonType ={
 			name = "open_gui"
 			spriteType = "GFX_open_gui"
-			position = { x = 1350 y = 750 }
+			position = { x = -265 y = 150 }
 			scale = 0.65
 		}
 	}	
@@ -150,7 +150,10 @@ guiTypes = {
 			position = { x= -69 y = 23}
 			Orientation = "CENTER"
 		}
-	}	
+	}
+##################
+# Lists
+##################	
 	containerWindowType = {
 		name = "para_lists"
 		position = { x = 0 y = 0 }
@@ -206,6 +209,9 @@ guiTypes = {
 			pdx_tooltip = "BEM_tapajos_list_tt"
 		}	
 	}
+##########################
+# Textboxes for Each State
+##########################	
 	containerWindowType = {
 		name = "para_names"
 		position = { x = 0 y = 0 }
@@ -461,14 +467,32 @@ guiTypes = {
 			fixedsize = yes
 			}
 		instantTextboxType = {
-			name = "general_request"
-			position = { x = -40 y = -292 }
-			font = "hoi_36header"
-			text = "New General in Route"
+			name = "mil_factory_mission"
+			position = { x = -80 y = -292 }
+			font = "hoi_24header"
+			text = "Build a Military Factory in [target_state.GetName]"
 			maxWidth = 400
 			maxHeight = 20
 			fixedsize = yes
-			}						
+			}
+		instantTextboxType = {
+			name = "civ_factory_mission"
+			position = { x = -110 y = -286 }
+			font = "hoi_24header"
+			text = "Build a Civilian Factory in [target_state.GetName] "
+			maxWidth = 800
+			maxHeight = 0
+			fixedsize = yes
+			}
+		instantTextboxType = {
+			name = "infrastructure_mission"
+			position = { x = -80 y = -287 }
+			font = "hoi_24header"
+			text = "Build Infrastructure in [target_state.GetName]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			}										
 		instantTextboxType = {
 			name = "prestige_penalty"
 			position = { x = -282 y = -42 }

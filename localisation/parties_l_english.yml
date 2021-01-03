@@ -191,3 +191,16 @@ JUN_neutrality_party:0 "Junta Militar - R"
 JUN_neutrality_party_long:0 "Junta Militar - Reformistas"
 JUN_reactionary_party_long:0 "Junta Militar - Dutra's Clique"
 JUN_reactionary_party:0 "Junta Militar - Dutra's Clique"
+
+
+#Uruguay things
+URG_fascism_party:0 "M-I C"
+URG_fascism_party_long:0 "Military-Industrial Complex"
+URG_communism_party:0 "MLN-T"
+URG_communism_party_long:0 "Movimiento de Liberacion Nacional - Tupamaros"
+URG_democratic_party:0 "DPU"
+URG_democratic_party_long:0 "Democratic parties of Uruguay"
+URG_neutrality_party:0 "TP"
+URG_neutrality_party_long:0 "Traditional Parties"
+URG_reactionary_party:0 "TFM"
+URG_reactionary_party_long:0 "The Fringe Movements"

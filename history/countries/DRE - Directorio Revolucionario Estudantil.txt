@@ -26,13 +26,14 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	split_leadership
+anti_castro
 }
 
 create_country_leader = {
 	
 	name = "Rolando Cubela Secades"
-	picture = "gfx/leaders/DRE/.dds"
+	picture = "gfx/leaders/DRE/Portrait_DRE_Rolando_Cubela_Secades.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
 	traits = {

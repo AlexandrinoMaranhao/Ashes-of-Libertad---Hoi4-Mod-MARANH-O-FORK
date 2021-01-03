@@ -1,0 +1,9 @@
+ideas = {
+	country = {
+	
+		the_xingu_national_park = {
+
+		}
+
+	}
+}

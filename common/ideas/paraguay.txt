@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		argentine_bullying = {
+
+		}
+        
+        the_ghost_of_franco = {
+
+       }
+       
+	}
+}

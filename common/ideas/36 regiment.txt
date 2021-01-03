@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		the_triangle_battalion = {
+
+		}
+
+		shady_bussiness = {
+
+		}
+		
+	}
+}

@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+
+        the_baiana_revolt = {
+
+        }
+
+        anarchist_powerkeg = {
+
+        }
+
+        free_port_of_salvador = {
+
+        }
+#
+
+        the_male_revolt = {
+
+        }
+
+        the_brazilian_monarquist_front = {
+
+        }
+
+        the_women_revolt = {
+
+        }
+
+        the_PCR = {
+
+        }
+
+	}
+}

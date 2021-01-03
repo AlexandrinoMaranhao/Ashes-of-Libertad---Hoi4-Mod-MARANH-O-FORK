@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		this_is_fine = {
+
+		}
+
+		mountain_strongholds = {
+
+		}
+		
+	}
+}

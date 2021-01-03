@@ -1,4 +1,24 @@
 
+BMF = {
+	color = rgb { 50 80 35 }
+	color_ui = rgb { 50 80 35 }
+}
+
+PCR = {
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }
+}
+
+MAL = {
+	color = rgb { 80 69 0 }
+	color_ui = rgb { 80 69 0 }
+}
+
+CAN = {
+	color = rgb { 168 135 0 }
+	color_ui = rgb { 168 135 0 }
+}
+
 ACC = {
 	color = rgb { 55 20 136 }
 	color_ui = rgb { 55 20 136 }
@@ -20,8 +40,8 @@ SCR = {
 }
 
 CDR = {
-	color = rgb { 40 0 51 }
-	color_ui = rgb { 40 0 51 }
+	color = rgb { 68 40 73 }
+	color_ui = rgb { 68 40 73 }
 }
 
 ECR = {

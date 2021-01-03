@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		time_of_rebuilding = {
+
+		}
+
+		de_la_puentes_blessed_guidance = {
+
+		}
+		
+	}
+}

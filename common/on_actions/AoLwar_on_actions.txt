@@ -26,8 +26,6 @@ on_actions = {
             }
         }
     }
-}
-
 
 #### MNH and CFD scripted peace deal
 
@@ -42,13 +40,9 @@ on_actions = {
             }
         }
     }
-}
 
+    ####GUANABARA#####
 
-####GUANABARA#####
-
-
-on_actions = {
     on_startup = {
         effect = {
             CRJ = {
@@ -59,32 +53,11 @@ on_actions = {
             }
         }
     }
-}
-
-
-on_actions = {
-    on_declare_war = {
-        effect = {
-            if = {
-                limit = {
-                    ROOT = { tag = CRJ }
-                    has_global_flag = guanabara_battle
-                }
-            }
-            BRA = {
-                country_event = {
-                    id = BRA_guanabara.1
-                    days = 1
-                }
-            }
-        }
-    }
-
     on_state_control_changed = {
         effect = {
             if = {
                 limit = {
-                    has_global_flag = guanabara_battle
+                    has_country_flag = S_guanabara_battle
                     AND = {
                         24 = {
                             is_owned_by = BRA
@@ -98,44 +71,41 @@ on_actions = {
                     country_event = {
                         id = CRJ_guanabara.3
                     }
-                    BRA = {
-                        country_event = {
-                            id = BRA_guanabara.3
-                        }
+                }
+                BRA = {
+                    country_event = {
+                        id = BRA_guanabara.3
                     }
                 }
             }
         }
     }
-
     on_declare_war = {
         effect = {
             if = {
                 limit = {
-                    has_global_flag = guanabara_battle
+                    has_country_flag = S_guanabara_battle
                 }
                 CRJ = {
                     country_event = {
                         id = CRJ_guanabara.2
-                        days = 45
+                        days = 5
                     }
                 }
                 BRA = {
                     country_event = {
                         id = BRA_guanabara.2
-                        days = 45
+                        days = 5
                     }
                 }
             }
         }
     }
 
+  #### JUNTA BREAK UP #####
 
-#### JUNTA BREAK UP #####
+  ###1-CASTELODEATH###
 
-###1-CASTELODEATH###
-
-on_actions = {
     on_startup = {
         effect = {
             JUN = {

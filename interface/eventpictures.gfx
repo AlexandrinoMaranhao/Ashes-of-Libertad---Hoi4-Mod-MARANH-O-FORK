@@ -1,6 +1,121 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_report_event_acre_jornal"
+		texturefile = "gfx/event_pictures/report_event_acre_jornal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_acrean_natives"
+		texturefile = "gfx/event_pictures/report_event_acrean_natives.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_aeroporto_de_altamira"
+		texturefile = "gfx/event_pictures/report_event_aeroporto_de_altamira.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horses_vs_natives"
+		texturefile = "gfx/event_pictures/report_event_horses_vs_natives.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_report_event_acre_selo"
+		texturefile = "gfx/event_pictures/report_event_acre_selo.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_report_event_tapper_syndicate_2"
+		texturefile = "gfx/event_pictures/report_event_tapper_syndicate_2.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_report_event_tapper_syndicate"
+		texturefile = "gfx/event_pictures/report_event_tapper_syndicate.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_report_event_tapper_5"
+		texturefile = "gfx/event_pictures/report_event_tapper_5.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_report_event_tapper_2"
+		texturefile = "gfx/event_pictures/report_event_tapper_2.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_report_event_tapper_3"
+		texturefile = "gfx/event_pictures/report_event_tapper_3.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_report_event_tapper_1"
+		texturefile = "gfx/event_pictures/report_event_tapper_1.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_report_event_election_vote"
+		texturefile = "gfx/event_pictures/report_event_election_vote.dds"
+	}
+									
+	spriteType = {
+		name = "GFX_report_event_acre_flag_waving"
+		texturefile = "gfx/event_pictures/report_event_acre_flag_waving.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_report_event_acre_flag"
+		texturefile = "gfx/event_pictures/report_event_acre_flag.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_report_event_guerrilla"
+		texturefile = "gfx/event_pictures/report_event_guerrilla.dds"
+	}
+								
+	spriteType = {
+		name = "GFX_report_event_ce_pointing"
+		texturefile = "gfx/event_pictures/report_event_ce_pointing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_acre_flag"
+		texturefile = "gfx/event_pictures/report_event_acre_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_Jonas1"
+		texturefile = "gfx/event_pictures/report_event_Jonas1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_Jonas2"
+		texturefile = "gfx/event_pictures/report_event_Jonas2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_natives_speaking_on_mic"
+		texturefile = "gfx/event_pictures/report_event_natives_speaking_on_mic.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_report_event_nego_brabo"
+		texturefile = "gfx/event_pictures/report_event_nego_brabo.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_report_event_senate_of_rio_branco"
+		texturefile = "gfx/event_pictures/report_event_senate_of_rio_branco.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_report_event_weird_ruins"
+		texturefile = "gfx/event_pictures/report_event_weird_ruins.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_event_fishing_in_the_amazon"
 		texturefile = "gfx/event_pictures/report_event_fishing_in_the_amazon.dds"
 	}

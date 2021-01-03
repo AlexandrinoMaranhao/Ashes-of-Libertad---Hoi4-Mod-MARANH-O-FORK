@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		the_royal_navy = {
+
+		}
+
+		castaway_nation = {
+
+		}
+		
+	}
+}

@@ -31,6 +31,9 @@ add_ideas = {
 	isolation
 	closed_economy
 	extensive_conscription
+
+	a_dream_of_revolution
+international_guerrilla
 }
 
 create_country_leader = {

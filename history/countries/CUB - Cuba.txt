@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	true_heir_of_cuba
+pro_castro
 }
 
 create_country_leader = {

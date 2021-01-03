@@ -18,7 +18,7 @@ country_event = {
     
     option = {
         name = BRA_guanabara.1.a
-        set_global_flag = guanabara_battle
+        set_country_flag = S_guanabara_battle
     }
 }
 
@@ -35,7 +35,7 @@ country_event = {
         name = BRA_guanabara.2.a
         add_stability = 0.2
         add_political_power = 150
-        clr_global_flag = guanabara_battle
+        clr_country_flag = S_guanabara_battle
     }
 }
 ## Defeat ##
@@ -51,7 +51,7 @@ country_event = {
         name = BRA_guanabara.3.a
         add_stability = -0.3
         add_political_power = -150
-        clr_global_flag = guanabara_battle
+        clr_country_flag = S_guanabara_battle
     }
 }
 

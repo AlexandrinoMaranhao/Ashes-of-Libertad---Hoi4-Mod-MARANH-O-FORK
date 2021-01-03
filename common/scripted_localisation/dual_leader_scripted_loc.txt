@@ -17,9 +17,7 @@ defined_text = {
 		}
 		localization_key = ENG_PRIME_MINISTER_TITLE
 	}
-	text = {
-		localization_key = DEFAULT_FIRST_TITLE
-	}
+
 		text = {
 		trigger = {
 			tag = ROR
@@ -29,13 +27,65 @@ defined_text = {
 	}
 		text = {
 		trigger = {
-			original_tag = COR
-			has_government = democratic
+			tag = COR
+   		 has_government = democratic
+
 		}
 		localization_key = COR_FIRST_TITLE
 	}
-}
 
+	text = {
+   	 trigger = {
+   		 tag = PAT
+   		 has_government = neutrality
+   	 }
+   	 localization_key = PAT_FIRST_TITLE
+    }
+
+	text = {
+   	 trigger = {
+   		 tag = STR
+   		 has_government = neutrality
+   	 }
+   	 localization_key = STR_FIRST_TITLE
+    }
+
+	text = {
+   	 trigger = {
+   		 tag = XIN
+   		 has_government = neutrality
+   	 }
+   	 localization_key = XIN_FIRST_TITLE
+    }
+
+	text = {
+   	 trigger = {
+   		 tag = CRJ
+   		 has_government = fascism
+   	 }
+   	 localization_key = CRJ_FIRST_TITLE
+    }
+
+	text = {
+   	 trigger = {
+   		 tag = DRE
+   		 has_government = communism
+   	 }
+   	 localization_key = DRE_FIRST_TITLE
+    }
+
+	text = {
+   	 trigger = {
+   		 tag = JRM
+   		 has_government = democratic
+   	 }
+   	 localization_key = JRM_FIRST_TITLE
+    }
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+###########################
 defined_text = {
 	name = GetSecondTitle
 	text = {
@@ -59,8 +109,73 @@ defined_text = {
 		}
 		localization_key = ROR_SECOND_TITLE
 	}
-}
+		text = {
+		trigger = {
+			tag = PAT
+			has_government = neutrality
+		}
+		localization_key = PAT_SECOND_TITLE
+	}
 
+		text = {
+		trigger = {
+			tag = STR
+			has_government = neutrality
+		}
+		localization_key = STR_SECOND_TITLE
+	}
+
+		text = {
+		trigger = {
+			tag = XIN
+			has_government = neutrality
+		}
+		localization_key = XIN_SECOND_TITLE
+	}
+
+		text = {
+		trigger = {
+			tag = JRM
+			has_government = democratic
+		}
+		localization_key = JRM_SECOND_TITLE
+	}
+	
+		text = {
+		trigger = {
+			tag = CRJ
+			has_government = fascism
+		}
+		localization_key = CRJ_SECOND_TITLE
+	}
+	
+		text = {
+		trigger = {
+			tag = DRE
+			has_government = communism
+		}
+		localization_key = DRE_SECOND_TITLE
+	}
+	
+		text = {
+		trigger = {
+			tag = COR
+			has_government = democratic
+		}
+		localization_key = COR_SECOND_TITLE
+	}
+	
+		text = {
+		trigger = {
+			tag = COR
+			has_government = reactionary
+		}
+		localization_key = COR_SECOND_TITLE_TWO
+	}
+
+	
+}
+#########################
 defined_text = {
 	name = GetDualLeaderName
 	text = {
@@ -86,13 +201,73 @@ defined_text = {
 		}
 		localization_key = ROR_ONOFRE_PINTO
 	}	
+    text = {
+		trigger = {
+			tag = PAT
+			has_government = neutrality
+		}
+		localization_key = PAT_GARANTIDO
+	}	
+    text = {
+		trigger = {
+			tag = STR
+			has_government = neutrality
+		}
+		localization_key = STR_WERBEL
+	}
+    text = {
+		trigger = {
+			tag = XIN
+			has_government = neutrality
+		}
+		localization_key = XIN_CLAUDIO
+	}
+    text = {
+		trigger = {
+			tag = CRJ
+			has_government = fascism
+		}
+		localization_key = CRJ_DUAL_LEADER_NAME
+	}  
+	  text = {
+		trigger = {
+			tag = JRM
+			has_government = democratic
+		}
+		localization_key = JRM_DUAL_LEADER_NAME
+	}  
+
+	  text = {
+		trigger = {
+			tag = DRE
+			has_government = communism
+		}
+		localization_key = DRE_SECOND_LEADER
+	}
+	
+	  text = {
+		trigger = {
+			tag = COR
+			has_government = democratic
+		}
+		localization_key = COR_SECOND_LEADER
+	}
+	
+	  text = {
+		trigger = {
+			tag = COR
+			has_government = reactionary
+		}
+		localization_key = COR_SECOND_LEADER_TWO
+	}
+
 
 	text = {
 		localization_key = DEFAULT_TITLE
 	}
 
 }
-
+##############################
 defined_text = {
     name = GetDualLeaderPortrait
 	text = {
@@ -118,11 +293,78 @@ defined_text = {
 		}
 		localization_key = "GFX_ROR_ONOFRE_PINTO"
 	}	
+
+		text = {
+		trigger = {
+			tag = PAT
+			has_government = neutrality
+		}
+		localization_key = "GFX_PAT_GARANTIDO"
+	}	
+	
+		text = {
+		trigger = {
+			tag = STR
+			has_government = neutrality
+		}
+		localization_key = "GFX_STR_DUAL_WERBEL"
+	}	
+	
+		text = {
+		trigger = {
+			tag = XIN
+			has_government = neutrality
+		}
+		localization_key = "GFX_XIN_CLAUDIO"
+	}	
+	
+		text = {
+		trigger = {
+			tag = DRE
+			has_government = communism
+		}
+		localization_key = "GFX_DRE_FAURE"
+	}	
+	
+		text = {
+		trigger = {
+			tag = COR
+			has_government = democratic
+		}
+		localization_key = "GFX_COR_HIRSCH"
+	}	
+	
+		text = {
+		trigger = {
+			tag = COR
+			has_government = reactionary
+		}
+		localization_key = "GFX_COR_ACRIS"
+	}	
+	
+		text = {
+		trigger = {
+			tag = JRM
+			has_government = democratic
+		}
+		localization_key = "GFX_JRM_MEDICI"
+	}	
+	
+		text = {
+		trigger = {
+			tag = CRJ
+			has_government = fascism
+			
+		}
+		localization_key = "GFX_CRJ_MOURAO"
+	}	
+
+
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
 }
-
+#############################
 defined_text = {
     name = GetDualLeaderDesc
     
@@ -143,7 +385,7 @@ defined_text = {
         localization_key = "ROR_ONOFRE_DESC"
 	}
 }
-
+###################################
 defined_text = {
     name = GetFirstLeaderDesc
     
@@ -162,13 +404,6 @@ defined_text = {
 			original_tag = ROR
         }
         localization_key = "ROR_WILSON_DESC"
-	}
-
-    text = {
-        trigger = {
-			original_tag = COR
-        }
-        localization_key = "COR_MONTORIL_DESC"
 	}
 
 }
