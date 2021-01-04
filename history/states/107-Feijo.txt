@@ -1,38 +1,37 @@
+
 state={
 	id=107
 	name="STATE_107"
+	resources={
+		rubber=20.000
+		steel=8.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		victory_points = {
+			1256 5 
+		}
+		victory_points = {
+			1855 5 
+		}
+		victory_points = {
+			2084 5 
+		}
+		owner = ACR
+		add_core_of = ACR
+
+	}
+
 	provinces={
-		374 412 1120 1256 1451 1855 1930 2084 2248 2409 2477 4106 4122 4136 4165 4178 4195 4201 4228 
+		412 1120 1256 1451 1855 1930 2084 2248 2409 2477 4106 4122 4136 4178 4195 4201 4228 
 	}
 	manpower=29384
-	buildings_max_level_factor=1.000    
-        state_category=town
-
-        resources = {
-rubber = 20
-steel = 8
- 
-}
-            history = {
-            
-            buildings = {
-            infrastructure = 4
-            industrial_complex = 1
-            arms_factory = 2
-}
-		victory_points = {
-                1256 5
-		}
-
-		victory_points = {
-                1855 5
-		}
-
-		victory_points = {
-                2084 5
-		}
-
-        owner = ACR
-        add_core_of = ACR
-}
+	buildings_max_level_factor=1.000
+	state_category=town
 }

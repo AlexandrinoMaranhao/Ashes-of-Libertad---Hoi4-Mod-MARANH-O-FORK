@@ -1,0 +1,14 @@
+state={
+	id=534
+	name="STATE_534"
+	provinces={
+		223 2089 2414 4246 4251 
+	}
+	manpower=493
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+history = {
+owner=ACR
+add_core_of = ACR
+}
+}

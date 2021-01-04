@@ -1,0 +1,32 @@
+state={
+	id=533
+	name="STATE_533"
+	provinces={
+		758 1217 1813 1927 2029 2408 4191 4202 4215 4285 4305 
+	}
+	manpower=2033
+        state_category=rural
+	buildings_max_level_factor=1.000
+
+
+history = {
+		victory_points = {
+			4305 5 
+		}
+		victory_points = {
+			2029 5 
+		}
+			1813 = {
+				bunker = 2
+
+			}
+			2029 = {
+				bunker = 2
+
+			}
+
+
+		owner = ACR
+		add_core_of = ACR
+}
+}
