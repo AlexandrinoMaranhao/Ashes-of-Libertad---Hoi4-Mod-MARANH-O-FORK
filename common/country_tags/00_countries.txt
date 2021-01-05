@@ -103,6 +103,15 @@ DRE = "countries/Directorio Revolucionario Estudiantil.txt"
 RED = "countries/Red Army.txt"
 RUM = "countries/Rum.txt"
 
+HIE = "countries/Holy Inca Empire.txt"
+INC = "countries/Inca Empire.txt"
+NCA = "countries/New Castille.txt"
+RPE = "countries/Republican Peru.txt"
+PMI = "countries/Peruvian Armed Forces.txt"
+UFO = "countries/UFO People.txt"
+NLA = "countries/National Liberation Army.txt"
+FCP = "countries/Federacion Campesina del Peru.txt"
+
 #####################################
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"

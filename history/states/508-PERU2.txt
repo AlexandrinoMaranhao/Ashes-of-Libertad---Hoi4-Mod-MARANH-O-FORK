@@ -5,8 +5,8 @@ state={
 		337 1799 2006 6294 6297 
 	}
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = PMI
+		add_core_of = PMI
 
 	}
 	manpower=39487

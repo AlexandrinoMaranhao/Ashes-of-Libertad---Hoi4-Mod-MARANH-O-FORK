@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = RPE
+		add_core_of = RPE
 
 	}
 	manpower=294394

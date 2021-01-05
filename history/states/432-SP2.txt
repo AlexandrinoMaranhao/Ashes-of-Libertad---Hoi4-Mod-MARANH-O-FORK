@@ -4,11 +4,11 @@ state={
 	provinces={
 		343 612 964 1112 1248 1783 1989 2407 3739 3745 3768 3769 3783 3799 3800 3801 3816 3819 3827 3851 
 	}
-	manpower=5000
+	manpower=4893
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
-             owner=PRU
-             add_core_of = PRU
+             owner=INC
+             add_core_of = INC
 }
 }

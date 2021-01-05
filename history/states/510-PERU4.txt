@@ -5,8 +5,8 @@ state={
 		53 298 1878 4351 4359 4362 4369 6291 
 	}
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = NCA
+		add_core_of = NCA
 
 	}
 	manpower=384338

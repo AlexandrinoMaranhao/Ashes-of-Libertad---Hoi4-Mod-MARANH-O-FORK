@@ -4,15 +4,15 @@ state={
 	name="STATE_328"
 
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = INC
+		add_core_of = INC
 
 	}
 
 	provinces={
 		251 628 1095 1098 1231 2431 3880 3929 3974 3989 3990 4021 4022 4041 4042 4065 4066 
 	}
-	manpower=5000
+	manpower=3972
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

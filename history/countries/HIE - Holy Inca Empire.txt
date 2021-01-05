@@ -1,4 +1,4 @@
-﻿capital = 321
+﻿capital = 333
 
 #oob = ""
 
@@ -11,31 +11,31 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
 	fascism = 0
 	communism = 0
-	neutrality = 0
-	reactionary = 100
+	neutrality = 100
+	reactionary = 0
 
 }
 
 add_ideas = {
-	limited_conscription
+	subsistence_economy
 	civilian_economy
+	volunteer_only
 }
 
 create_country_leader = {
 	
-	name = "Ramón Casto Jijón"
-	picture = "gfx/leaders/ECU/Portrait_ECU_Ramon_Casto_Jijon.dds"
+	name = "Alfredo Inca Roca"
 	expire = "1999.1.1"
-	ideology = guerrilla 
+	ideology = city_state
 	traits = {
 		#
 	}
