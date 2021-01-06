@@ -10,5 +10,15 @@ state={
             history = {
              owner=UFO
              add_core_of = UFO
+        victory_points = {
+83 5
+        }
+
+        victory_points = {
+2376 5
+        }
+
+        
+        
 }
 }

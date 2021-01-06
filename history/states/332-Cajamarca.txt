@@ -10,5 +10,17 @@ state={
             history = {
              owner=INC
              add_core_of = INC
+
+        victory_points = {
+1075 30
+        }
+
+        
+
+        victory_points = {
+3998 10
+        }
+
+        
 }
 }

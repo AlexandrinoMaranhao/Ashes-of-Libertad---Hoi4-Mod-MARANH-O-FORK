@@ -8,6 +8,16 @@ state={
 		add_core_of = PRU
              add_core_of = ECU
 
+        victory_points = {
+722 5
+        }
+
+        
+        victory_points = {
+1002 5
+        }
+
+        
 	}
 
 	provinces={

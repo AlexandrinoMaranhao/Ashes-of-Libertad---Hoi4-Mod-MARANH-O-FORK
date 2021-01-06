@@ -10,11 +10,16 @@ state={
 	}
 
 	history={
-		owner = NHA
-		add_core_of = NHA
+		owner = MAP
+		add_core_of = MAP
 		buildings = {
 			arms_factory = 2
 			infrastructure = 3
+
+        victory_points = {
+3530 5
+        }
+
 
 		}
 

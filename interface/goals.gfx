@@ -5,6 +5,26 @@ spriteTypes = {
 
 
 	SpriteType = {
+	name = "GFX_goal_Learn_from_the_Reds"
+	texturefile = "gfx/interface/goals/Learn from the Reds.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Army_Doctrine_Evaluation"
+	texturefile = "gfx/interface/goals/Army_Doctrine_Evaluation.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_From_Before_the_War"
+	texturefile = "gfx/interface/goals/From_Before_the_War.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_Intervene_in_Tapper_Rallies"
+	texturefile = "gfx/interface/goals/Intervene_in_Tapper_Rallies.dds"
+	}	
+
+	SpriteType = {
 	name = "GFX_goal_COR_burn_rio_branco_to_the_ground"
 	texturefile = "gfx/interface/goals/COR_burn_rio_branco_to_the_ground.dds"
 	}	

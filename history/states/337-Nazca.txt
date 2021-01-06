@@ -7,8 +7,23 @@ state={
 		owner = NCA
 		add_core_of = NCA
 
+        victory_points = {
+6289 5
+        }
+
+        victory_points = {
+475 5
+        }
+
+        victory_points = {
+297 5
+        }
+
+        
 	}
 
+        
+        
 	provinces={
 		297 475 2147 2319 2550 6289 6290 6293 
 	}

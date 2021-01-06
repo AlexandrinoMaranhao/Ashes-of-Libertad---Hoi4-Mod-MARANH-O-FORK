@@ -7,6 +7,11 @@ state={
 		owner = PMI
 		add_core_of = PMI
 
+        victory_points = {
+900 5
+        }
+
+        
 	}
 
 	provinces={

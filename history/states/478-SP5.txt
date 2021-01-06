@@ -10,5 +10,15 @@ state={
             history = {
              owner=PMI
              add_core_of = PMI
+        victory_points = {
+4312 5
+        }
+
+        victory_points = {
+4343 10
+        }
+
+        
+        
 }
 }

@@ -8,6 +8,20 @@ state={
 		owner = PMI
 		add_core_of = PMI
 
+        victory_points = {
+337 5
+        }
+
+        victory_points = {
+1799 5
+        }
+
+        victory_points = {
+6297 5
+        }
+
+        
+        
 	}
 	manpower=39487
 	buildings_max_level_factor=1.000

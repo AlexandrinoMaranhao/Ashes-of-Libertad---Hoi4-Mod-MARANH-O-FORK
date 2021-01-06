@@ -11,5 +11,20 @@ state={
              owner=ECU
              add_core_of = PRU
              add_core_of = ECU
+        victory_points = {
+3630 5
+        }
+
+        
+        victory_points = {
+1619 10
+        }
+
+        victory_points = {
+2583 5
+        }
+
+        
+        
 }
 }

@@ -78,7 +78,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_intervene_seringalist_rallies
-	#icon = 
+	icon = GFX_goal_Intervene_in_Tapper_Rallies
 	prerequisite = { focus = ACR_compromise_with_militarists }
 	relative_position_id = ACR_compromise_with_militarists
 

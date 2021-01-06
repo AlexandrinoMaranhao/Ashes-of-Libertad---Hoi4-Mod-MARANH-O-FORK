@@ -8,6 +8,21 @@ state={
 		owner = NCA
 		add_core_of = NCA
 
+        victory_points = {
+1878 5
+        }
+
+        
+        victory_points = {
+4362 10
+        }
+
+     
+        victory_points = {
+6291 5
+        }
+
+           
 	}
 	manpower=384338
 	buildings_max_level_factor=1.000

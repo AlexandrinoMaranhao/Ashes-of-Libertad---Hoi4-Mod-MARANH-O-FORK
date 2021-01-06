@@ -7,6 +7,30 @@ state={
 		owner = INC
 		add_core_of = INC
 
+        victory_points = {
+3999 5
+        }
+
+        
+        victory_points = {
+4034 5
+        }
+
+        
+        victory_points = {
+760 5 
+        }
+
+        victory_points = {
+154 5 
+        }
+        victory_points = {
+1150 5 
+        }
+
+        
+        
+        
 	}
 
 	provinces={

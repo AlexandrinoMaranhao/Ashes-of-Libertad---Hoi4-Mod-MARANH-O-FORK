@@ -11,5 +11,15 @@ state={
              owner=INC
              add_core_of = PRU
              add_core_of = INC
+        victory_points = {
+2125 5
+        }
+
+        
+        victory_points = {
+3846 5
+        }
+
+        
 }
 }

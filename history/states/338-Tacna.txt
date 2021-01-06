@@ -12,5 +12,15 @@ state={
             history = {
              owner=RPE
              add_core_of = RPE
+        victory_points = {
+4461 5
+        }
+
+        victory_points = {
+4492 5
+        }
+
+        
+        
 }
 }

@@ -7,6 +7,16 @@ state={
 		owner = FCP
 		add_core_of = FCP
 
+        victory_points = {
+4302 5
+        }
+
+        
+        victory_points = {
+1750 5
+        }
+
+        
 	}
 
 	provinces={

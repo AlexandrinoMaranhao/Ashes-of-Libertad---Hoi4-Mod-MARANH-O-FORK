@@ -8,7 +8,7 @@ state={
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
-             owner=CLA
-             add_core_of = CLA
+             owner=FAR
+             add_core_of = FAR
 }
 }
