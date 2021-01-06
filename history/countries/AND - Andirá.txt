@@ -43,7 +43,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Tuxaua Manoelzinho"
-	picture = ""
+	picture = "gfx/leaders/AND/Portrait_AND_Tuxuara_Manuelzinho.dds"
 	expire = "1999.1.1"
 	ideology = tribal_federation
 	traits = {

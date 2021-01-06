@@ -13,7 +13,7 @@ state={
         add_core_of = PIA
 
 		victory_points = {
-		3737 50 
+		3737 20
 		}
 
 }

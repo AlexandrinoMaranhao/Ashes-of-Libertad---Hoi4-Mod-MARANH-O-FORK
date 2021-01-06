@@ -10,7 +10,9 @@ state={
 
             history = {
 
-        owner = TRI
+        owner = FRA
+
+        add_core_of = FRA
         add_core_of = TRI
 }
 }

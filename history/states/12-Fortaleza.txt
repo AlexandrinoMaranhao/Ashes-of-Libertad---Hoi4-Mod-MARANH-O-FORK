@@ -14,7 +14,7 @@ state={
         add_core_of = CEA
 
 		victory_points = {
-		3795 50	 
+		3795 30
 		}
 		victory_points = {
 		2352 5	 

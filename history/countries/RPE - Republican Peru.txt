@@ -31,7 +31,7 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "José Luis Bustamante y Rivero"
+	name = "Fernando Belaúnde Terry"
 	expire = "1999.1.1"
 	ideology = provisional_government
 	traits = {
