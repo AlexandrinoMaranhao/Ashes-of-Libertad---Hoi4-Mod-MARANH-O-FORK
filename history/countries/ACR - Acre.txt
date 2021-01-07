@@ -141,6 +141,171 @@ create_country_leader = {
 	traits = {
 	}
 }
+###############GENERALS
+
+create_field_marshal = {
+	name = "José Guiomard dos Santos"
+		picture = "Portrait_Soviet_Grigory_Kulik.dds"
+	traits = { old_guard career_officer politically_connected inflexible_strategist }
+	skill = 1	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Geraldo Gurgel de Mesquita Júnior"
+		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
+	traits = { trait_reckless infantry_officer politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Romildo Magalhães da Silva"
+		picture = "Portrait_Soviet_Filipp_Golikov.dds"
+	traits = { career_officer politically_connected }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mauri Sérgio Moura de Oliveira"
+		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
+	traits = { trait_reckless politically_connected }
+	skill = 2 
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joaquim Falcão Macedo"
+		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
+	traits = { career_officer offensive_doctrine politically_connected }
+	skill = 1 
+
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "José Rui da Silveira Lino"
+		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
+	traits = { cavalry_officer politically_connected }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Nabor Teles da Rocha Júnior"
+		picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
+	traits = { trickster brilliant_strategist trait_cautious politically_connected }
+	skill = 3
+
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Chicão Brígido"
+		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
+	traits = { commando infantry_officer offensive_doctrine politically_connected }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Wildy Viana das Neves"
+		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+	traits = { infantry_officer media_personality }
+	skill = 2
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Aluísio Bezerra de Oliveira"
+		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
+	traits = { infantry_officer armor_officer politically_connected }
+	skill = 1 
+	
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mateus Satanawa"
+		picture = "Portrait_Soviet_Maksim_Purkayev.dds"
+	traits = { career_officer trait_cautious }
+	skill = 2
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Jonas Kalume"
+		picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
+	traits = { green_water_expert navy_career_officer bold }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "José Guiomard dos Santos"
+		picture = "Portrait_Soviet_Gordey_Levchenko.dds"
+	traits = { green_water_expert }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Sérgio Petecão"
+		picture = "Portrait_Soviet_Filipp_Oktyabrsky.dds"
+	traits = { green_water_expert ground_pounder ironside }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
 
 #create_country_leader = {
 #	
