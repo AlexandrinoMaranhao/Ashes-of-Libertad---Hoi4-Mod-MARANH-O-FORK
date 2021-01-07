@@ -1,0 +1,114 @@
+add_namespace = RPB
+
+country_event = {
+    id = RPB.1 # RPB Revolt
+    title = RPB.1.t
+    desc = RPB.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+	  name = RPB.1.a
+	  
+		set_politics = {
+			ruling_party = reactionary
+		}
+
+		BMF = {
+			transfer_state  = 52
+
+			declare_war_on = {
+				target = RPB 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CAN 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = MAL 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = PCR 
+				type = annex_everything
+			}
+		}
+
+		CAN = {
+			transfer_state  = 463
+
+			declare_war_on = {
+				target = RPB 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = BMF 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = MAL 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = PCR 
+				type = annex_everything
+			}
+		}
+
+		MAL = {
+			transfer_state  = 53
+
+			declare_war_on = {
+				target = RPB 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = BMF 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CAN 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = PCR 
+				type = annex_everything
+			}
+		}
+
+		PCR = {
+			transfer_state  = 57
+
+			declare_war_on = {
+				target = RPB 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = BMF 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CAN 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = MAL 
+				type = annex_everything
+			}
+		}
+    }
+}
