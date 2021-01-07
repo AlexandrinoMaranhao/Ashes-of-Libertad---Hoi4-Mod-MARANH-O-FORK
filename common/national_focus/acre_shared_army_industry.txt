@@ -45,7 +45,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_army_doctrine_evaluation
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_Army_Doctrine_Evaluation
 	prerequisite = { focus = ACR_glancing_into_the_milita }
 	relative_position_id = ACR_glancing_into_the_milita
 	x = 4
@@ -68,7 +68,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_learn_from_the_reds
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_Learn_from_the_Reds
 	prerequisite = { focus = ACR_army_doctrine_evaluation }
 	relative_position_id = ACR_army_doctrine_evaluation
 	x = -2
@@ -88,7 +88,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_from_before_the_war
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_From_Before_the_War
 	prerequisite = { focus = ACR_army_doctrine_evaluation }
 	relative_position_id = ACR_army_doctrine_evaluation
 	x = 0

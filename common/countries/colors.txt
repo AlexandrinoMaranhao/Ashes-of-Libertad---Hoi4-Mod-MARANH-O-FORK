@@ -1,3 +1,49 @@
+HIE = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+
+INC = {
+	color = rgb { 242 44 0 }
+	color_ui = rgb { 242 44 0 }
+}
+
+
+NCA = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 242 205 94 }
+}
+
+
+RPE = {
+	color = rgb { 196 189 204 }
+	color_ui = rgb { 196 189 204 }
+}
+
+
+PMI = {
+	color = rgb { 41 123 73 }
+	color_ui = rgb { 41 123 73 }
+}
+
+
+UFO = {
+	color = rgb { 157 199 224 }
+	color_ui = rgb { 157 199 224 }
+}
+
+
+NLA = {
+	color = rgb { 229 64 64 }
+	color_ui = rgb { 229 64 64 }
+}
+
+
+FCP = {
+	color = rgb { 165 10 35 }
+	color_ui = rgb { 165 10 35 }
+}
+
 
 BMF = {
 	color = rgb { 50 80 35 }
@@ -491,8 +537,8 @@ SOV = {
 }
 
 ECU = {
-	color = rgb { 42 140 83 }
-	color_ui = rgb { 2 76 45 }
+	color = rgb { 39 123 126 }
+	color_ui = rgb { 39 123 126 }
 }
 
 RMT = {

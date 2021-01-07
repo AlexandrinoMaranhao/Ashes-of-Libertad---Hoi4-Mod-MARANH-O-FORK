@@ -17,11 +17,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
+	democratic = 0
 	fascism = 10
-	communism = 60
+	communism = 50
 	neutrality = 0
-	reactionary = 20
+	reactionary = 40
 }
 
 add_ideas = {
@@ -30,13 +30,12 @@ add_ideas = {
 	limited_conscription
 
 	time_of_rebuilding
-de_la_puentes_blessed_guidance
+
 }
 
 create_country_leader = {
 	
-	name = "Luis de la Puente Uceda"
-	picture = "gfx/leaders/PRU/Portrait_PRU_Luis_de_la_Puente_Uceda.dds"
+	name = "Víctor Raúl Haya de la Torre"
 	expire = "1999.1.1"
 	ideology = marxism  
 	traits = {

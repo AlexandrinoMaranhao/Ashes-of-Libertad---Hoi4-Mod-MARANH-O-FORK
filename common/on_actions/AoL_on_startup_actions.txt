@@ -22,7 +22,14 @@ on_actions = {
                     id = SAO.1 # SAO civil war
                     days = 956
                 }
-            }
+			}
+			
+			RPB = {
+				country_event = {
+					id = RPB.1 # Baiana Revolt
+					days = 980
+				}
+			}
 		}
 	}
 }

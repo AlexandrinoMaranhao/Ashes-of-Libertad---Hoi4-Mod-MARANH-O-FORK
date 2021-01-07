@@ -14,7 +14,7 @@ state={
         add_core_of = RGN
 
 		victory_points = {
-		3959 50	 
+		3959 30
 		}
 		victory_points = {
 		3987 5	 

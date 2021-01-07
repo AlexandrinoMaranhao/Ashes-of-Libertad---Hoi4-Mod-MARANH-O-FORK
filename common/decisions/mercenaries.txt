@@ -119,3 +119,156 @@ hire_santarem = {
 	}
 
 }
+
+buy_mercenary_companies_category = {
+
+    santarem_dummydecision = {
+        available = {
+            always = no
+        }
+    }
+
+    santarem_manpower = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            add_manpower = 400
+        }
+    }
+
+    santarem_leunit = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            any_owned_state = {
+                create_unit = {
+                    division = "name = \"Divisao lol\" division_template = \"theres no fucking template for units\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
+                    owner = ROOT
+                }
+            }
+        }
+    }
+
+    santarem_general = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            create_corps_commander = {
+                name = "PLACEHOLDER GENERAL"
+                picture = "Portrait_ACR_Edgar_Cerqueira.dds"
+                traits = { trickster brilliant_strategist }
+                skill = 4
+                attack_skill = 4
+                defense_skill = 2
+                planning_skill = 4
+                logistics_skill = 3
+            }
+        }
+    }
+
+    neblinad_dummy = {
+        cost = 50
+        available = {
+            always = no 
+        }
+        days_re_enable = 30
+        complete_effect = {
+            #
+        }
+    }
+
+    neblinad_guns = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = 50
+                producer = ROOT
+            }
+        }
+    }
+
+    neblinad_support = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = 10
+                producer = ROOT
+            }
+        }
+    }
+
+    CIAd_dummy = {
+        cost = 50
+        available = {
+            always = no
+        }
+        days_re_enable = 30
+        complete_effect = {
+            #
+        }
+    }
+
+    CIAd_air_doctrine = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+        }
+    }
+
+    CIAd_air_prod_idea = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            add_timed_idea = {
+                idea = CIAd_air_production
+                days = 30
+            }
+        }
+    }
+
+    CIAd_air_add_planes = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        days_re_enable = 30
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_0
+                amount = 20
+                producer = ROOT
+            }
+        }
+    }
+}

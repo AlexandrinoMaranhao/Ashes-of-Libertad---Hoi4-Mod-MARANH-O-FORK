@@ -4,9 +4,14 @@ state={
 	name="STATE_334"
 
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = FCP
+		add_core_of = FCP
 
+        victory_points = {
+4271 5
+        }
+
+        
 	}
 
 	provinces={

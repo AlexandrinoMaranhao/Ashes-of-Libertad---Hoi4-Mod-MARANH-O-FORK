@@ -6,9 +6,19 @@ state={
 	}
 
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = RPE
+		add_core_of = RPE
 
+        victory_points = {
+6298 5
+        }
+
+        victory_points = {
+4408 5
+        }
+
+        
+        
 	}
 	manpower=294394
 	buildings_max_level_factor=1.000

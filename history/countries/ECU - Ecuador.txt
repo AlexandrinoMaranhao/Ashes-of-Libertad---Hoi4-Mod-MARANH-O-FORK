@@ -19,9 +19,9 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 100
+	communism = 0
 	neutrality = 0
-	reactionary = 0
+	reactionary = 100
 
 }
 
@@ -35,7 +35,7 @@ create_country_leader = {
 	name = "Ramón Casto Jijón"
 	picture = "gfx/leaders/ECU/Portrait_ECU_Ramon_Casto_Jijon.dds"
 	expire = "1999.1.1"
-	ideology = marxism 
+	ideology = guerrilla 
 	traits = {
 		#
 	}

@@ -4,11 +4,27 @@ state={
 	provinces={
 		1613 1619 2583 3620 3630 3646 3675 3682 3683 3684 3694 3707 3718 3729 
 	}
-	manpower=5000
+	manpower=2372
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
-             owner=PRU
+             owner=ECU
              add_core_of = PRU
+             add_core_of = ECU
+        victory_points = {
+3630 5
+        }
+
+        
+        victory_points = {
+1619 10
+        }
+
+        victory_points = {
+2583 5
+        }
+
+        
+        
 }
 }

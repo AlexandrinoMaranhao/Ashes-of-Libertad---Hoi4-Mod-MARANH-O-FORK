@@ -15,7 +15,7 @@ state={
         add_core_of = ALA
         add_core_of = CFD
 		victory_points = {
-		4219 50	 
+		4219 30
 		}
 		victory_points = {
 		4244 10	 

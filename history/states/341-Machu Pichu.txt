@@ -8,7 +8,17 @@ state={
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
-             owner=PRU
-             add_core_of = PRU
+             owner=UFO
+             add_core_of = UFO
+        victory_points = {
+83 5
+        }
+
+        victory_points = {
+2376 5
+        }
+
+        
+        
 }
 }

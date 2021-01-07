@@ -10,7 +10,17 @@ state={
 	buildings_max_level_factor=1.000
 
             history = {
-             owner=PRU
-             add_core_of = PRU
+             owner=RPE
+             add_core_of = RPE
+        victory_points = {
+4461 5
+        }
+
+        victory_points = {
+4492 5
+        }
+
+        
+        
 }
 }

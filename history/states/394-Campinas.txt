@@ -7,7 +7,9 @@ state={
 		owner = SAO
 		add_core_of = SAO
 
-
+		victory_points = {
+			605 20 
+		}
 	}
 
 	provinces={

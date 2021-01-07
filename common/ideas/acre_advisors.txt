@@ -166,6 +166,14 @@ ideas = {
         
         political_advisor = {
 
+        geraldo_mesquita_advisor = { #nationalist
+
+            allowed = {
+            original_tag = ACR
+            }
+
+        }
+
         helio_cury_political_advisor = { #nationalist
 
             allowed = {

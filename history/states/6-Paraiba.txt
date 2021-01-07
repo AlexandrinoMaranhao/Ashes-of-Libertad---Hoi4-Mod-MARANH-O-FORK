@@ -8,7 +8,7 @@ state={
         add_core_of = CFD
 		add_core_of = PAI
 		victory_points = {
-			6279 50 
+			6279 30
 		}
 
 
