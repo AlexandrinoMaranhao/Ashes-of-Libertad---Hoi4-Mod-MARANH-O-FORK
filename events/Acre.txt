@@ -725,7 +725,7 @@ country_event = {
 }
 
 #########################################################################
-# ACR_glancing_into_the_milita
+# ACR_industrial_part_of_militarization
 #########################################################################
 country_event = {
 	id = ACR.20
@@ -749,6 +749,83 @@ country_event = {
 	}
 }
 
+#########################################################################
+# ACR_we_did_what_we_could
+#########################################################################
+country_event = {
+	id = ACR.21
+	title = ACR.21.t
+	desc = ACR.21.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.21.A
+		89 = {
+			add_extra_state_shared_building_slots = 3
+		}
+	}
+}
+
+#########################################################################
+# ACR_army_doctrine_evaluation
+#########################################################################
+country_event = {
+	id = ACR.22
+	title = ACR.22.t
+	desc = ACR.22.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.22.A
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+}
+
+#########################################################################
+# ACR_an_acrean_army
+#########################################################################
+country_event = {
+	id = ACR.22
+	title = ACR.22.t
+	desc = ACR.22.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.22.A
+		add_war_support = 0.15
+		add_stability = 0.10
+	}
+}
+
+#########################################################################
+# ACR_but_most_importantly
+#########################################################################
+country_event = {
+	id = ACR.23
+	title = ACR.23.t
+	desc = ACR.23.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.23.A
+	}
+}
 ######### CHE GUEVARA STRIKES!!!!!!!! ###########
 
 country_event = { 

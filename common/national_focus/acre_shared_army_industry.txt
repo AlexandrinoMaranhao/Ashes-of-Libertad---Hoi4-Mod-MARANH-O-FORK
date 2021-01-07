@@ -48,7 +48,6 @@ shared_focus = {
 	icon = GFX_goal_first_step_republic
 	prerequisite = { focus = ACR_glancing_into_the_milita }
 	relative_position_id = ACR_glancing_into_the_milita
-
 	x = 4
 	y = 1
 	cost = 1
@@ -61,7 +60,10 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {	
-
+		country_event = {
+			id = ACR.22
+			days = 5
+		}
 	}
 }
 shared_focus = {
@@ -69,93 +71,64 @@ shared_focus = {
 	icon = GFX_goal_first_step_republic
 	prerequisite = { focus = ACR_army_doctrine_evaluation }
 	relative_position_id = ACR_army_doctrine_evaluation
-
 	x = -2
 	y = 1
-
-
 	cost = 1
 
-	ai_will_do = {
-		factor = 1
-	}
-
-	available = {
-	}
-	
-	bypass = {
-	}
+	ai_will_do = { factor = 1 }
+	available = {	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-
 	completion_reward = {	
-
-}
+		army_experience = 10
+	}
 }
 shared_focus = {
 	id = ACR_from_before_the_war
 	icon = GFX_goal_first_step_republic
 	prerequisite = { focus = ACR_army_doctrine_evaluation }
 	relative_position_id = ACR_army_doctrine_evaluation
-
 	x = 0
 	y = 1
-
-
 	cost = 1
 
-	ai_will_do = {
-		factor = 1
-	}
-
-	available = {
-	}
-	
-	bypass = {
-	}
+	ai_will_do = { factor = 1 }
+	available = {	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-
 	completion_reward = {	
-
-}
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = land_doctrine
+		}
+	}
 }
 shared_focus = {
 	id = ACR_and_past_the_amazonia
 	icon = GFX_goal_first_step_republic
 	prerequisite = { focus = ACR_army_doctrine_evaluation }
 	relative_position_id = ACR_army_doctrine_evaluation
-
 	x = 2
 	y = 1
-
-
 	cost = 1
 
-	ai_will_do = {
-		factor = 1
-	}
-
-	available = {
-	}
-	
-	bypass = {
-	}
+	ai_will_do = { factor = 1 }
+	available = {	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-
 	completion_reward = {	
-
-}
+		army_experience = 10
+	}
 }
 shared_focus = {
 	id = ACR_keep_the_militia_structure
@@ -835,7 +808,7 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {	
-		add_ideas = ACR_no_time_for_quality
+		add_ideas = ACR_no_time_4_quality
 	}
 }
 shared_focus = {
@@ -898,28 +871,21 @@ shared_focus = {
 	relative_position_id = ACR_glancing_into_the_milita
 	x = -6
 	y = 4
-
-
 	cost = 1
 
-	ai_will_do = {
-		factor = 1
-	}
-
-	available = {
-	}
-	
-	bypass = {
-	}
+	ai_will_do = { factor = 1 }
+	available = {	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-
 	completion_reward = {	
-
-}
+		add_timed_idea = {
+			idea = ACR_stocking_up_idea
+			days = 365
+		}
+	}
 }
 shared_focus = {
 	id = ACR_the_way_of_the_technical
@@ -958,32 +924,24 @@ shared_focus = {
 	prerequisite = { focus = ACR_a_national_fire_stick }
 	prerequisite = { focus = ACR_stocking_up }
 	prerequisite = { focus = ACR_the_way_of_the_technical }
-
 	relative_position_id = ACR_glancing_into_the_milita
 	x = -3
 	y = 5
-
-
 	cost = 1
 
-	ai_will_do = {
-		factor = 1
-	}
-
-	available = {
-	}
-	
-	bypass = {
-	}
+	ai_will_do = { factor = 1 }
+	available = {	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-
 	completion_reward = {	
-
-}
+		country_event = {
+			id = ACR.21
+			days = 5
+		}
+	}
 }
 ##UNIVERSITY
 shared_focus = {
