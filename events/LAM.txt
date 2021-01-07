@@ -1,0 +1,324 @@
+add_namespace = LAM
+
+#########################################################################
+# LAM border war events
+#########################################################################
+country_event = {
+	id = LAM.1
+	title = LAM.1.t
+	desc = LAM.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.1.a
+		transfer_state = 56
+	}
+}
+
+country_event = {
+	id = LAM.2
+	title = LAM.2.t
+	desc = LAM.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.2.a
+	}
+}
+
+country_event = {
+	id = LAM.3
+	title = LAM.3.t
+	desc = LAM.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.3.a
+	}
+}
+
+country_event = {
+	id = LAM.4
+	title = LAM.4.t
+	desc = LAM.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.4.a
+	}
+}
+
+country_event = {
+	id = LAM.5
+	title = LAM.5.t
+	desc = LAM.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.5.a
+	}
+}
+
+country_event = {
+	id = LAM.6
+	title = LAM.6.t
+	desc = LAM.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.6.a
+	}
+}
+
+country_event = {
+	id = LAM.7
+	title = LAM.7.t
+	desc = LAM.7.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.7.a
+		transfer_state = 58
+	}
+}
+
+country_event = {
+	id = LAM.8
+	title = LAM.8.t
+	desc = LAM.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.8.a
+	}
+}
+
+country_event = {
+	id = LAM.9
+	title = LAM.9.t
+	desc = LAM.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.9.a
+	}
+}
+
+country_event = {
+	id = LAM.10
+	title = LAM.10.t
+	desc = LAM.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.10.a
+	}
+}
+
+country_event = {
+	id = LAM.11
+	title = LAM.11.t
+	desc = LAM.11.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.11.a
+	}
+}
+
+country_event = {
+	id = LAM.12
+	title = LAM.12.t
+	desc = LAM.12.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.12.a
+	}
+}
+
+country_event = {
+	id = LAM.13
+	title = LAM.13.t
+	desc = LAM.13.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.13.a
+		transfer_state = 461
+	}
+}
+
+country_event = {
+	id = LAM.14
+	title = LAM.14.t
+	desc = LAM.14.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.14.a
+	}
+}
+
+country_event = {
+	id = LAM.15
+	title = LAM.15.t
+	desc = LAM.15.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.15.a
+	}
+}
+
+country_event = {
+	id = LAM.16
+	title = LAM.16.t
+	desc = LAM.16.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.16.a
+	}
+}
+
+country_event = {
+	id = LAM.17
+	title = LAM.17.t
+	desc = LAM.17.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.17.a
+	}
+}
+
+country_event = {
+	id = LAM.18
+	title = LAM.18.t
+	desc = LAM.18.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.18.a
+	}
+}
+
+country_event = {
+	id = LAM.19
+	title = LAM.19.t
+	desc = LAM.19.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.19.a
+		transfer_state = 59
+		declare_war_on = {
+            target = CNU
+            type = annex_everything
+        }
+	}
+}
+
+country_event = {
+	id = LAM.20
+	title = LAM.20.t
+	desc = LAM.20.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.20.a
+	}
+}
+
+country_event = {
+	id = LAM.21
+	title = LAM.21.t
+	desc = LAM.21.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.21.a
+	}
+}
+
+country_event = {
+	id = LAM.22
+	title = LAM.22.t
+	desc = LAM.22.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.22.a
+	}
+}
+
+country_event = {
+	id = LAM.23
+	title = LAM.23.t
+	desc = LAM.23.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.23.a
+	}
+}
+
+country_event = {
+	id = LAM.24
+	title = LAM.24.t
+	desc = LAM.24.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAM.24.a
+	}
+}
