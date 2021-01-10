@@ -1,0 +1,27 @@
+add_namespace = IQU_foreign
+
+country_event = {
+	id = IQU_foreign.1  ### Acre Demands
+	title = IQU_foreign.1.t
+	desc = IQU_foreign.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = IQU_foreign.1.a ### Give in
+		ACR = {
+			country_event = ACR_cury.11
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = IQU_foreign.1.b ### Fight for it
+		ACR = {
+			country_event = ACR_cury.12
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

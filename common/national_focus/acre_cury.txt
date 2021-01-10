@@ -9,7 +9,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.1
 	}
 }
 shared_focus = {
@@ -25,7 +25,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.2
+		add_ideas = ACR_tappers_protest
 	}
 }
 shared_focus = {
@@ -41,7 +42,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.3
 	}
 }
 shared_focus = {
@@ -57,7 +58,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_war_support = 0.1
+		add_stability = 0.1
+		swap_ideas = {
+			remove_idea = country_of_seringueiros
+			add_idea = country_of_seringueiros1
+		}
 	}
 }
 shared_focus = {
@@ -73,7 +79,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.4
 	}
 }
 shared_focus = {
@@ -89,7 +95,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.5
 	}
 }
 shared_focus = {
@@ -106,7 +112,11 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		remove_ideas = ACR_tappers_protest1
+		swap_ideas = {
+			remove_idea = country_of_seringueiros1
+			add_idea = country_of_seringueiros2
+		}
 	}
 }
 shared_focus = {
@@ -122,7 +132,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.6
 	}
 }
 shared_focus = {
@@ -138,7 +148,18 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		532 = {
+			set_demilitarized_zone = yes
+			add_manpower = 100
+		}
+		533 = {
+			set_demilitarized_zone = yes
+			add_manpower = 100
+		}
+		534 = {
+			set_demilitarized_zone = yes
+			add_manpower = 100
+		}
 	}
 }
 shared_focus = {
@@ -154,7 +175,19 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		532 = {
+			add_manpower = 200
+		}
+		533 = {
+			add_manpower = 200
+		}
+		534 = {
+			add_manpower = 200
+		}
+		swap_ideas = {
+			remove_idea = the_red_menace
+			add_idea = the_red_menace1
+		}
 	}
 }
 shared_focus = {
@@ -170,7 +203,14 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_manpower = 500
+		add_ideas = ACR_recpop_buff
+		89 = {
+			create_unit = {
+				division = "name = \"Native Battalion\" division_template = \"Native Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
+				owner = ACR
+			}
+		}
 	}
 }
 shared_focus = {
@@ -187,7 +227,11 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		swap_ideas = {
+			remove_idea = country_of_seringueiros2
+			add_idea = ACR_country_of_acreans
+		}
+		add_ideas = integrated_society
 	}
 }
 shared_focus = {
@@ -203,7 +247,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.7
 	}
 }
 shared_focus = {
@@ -219,7 +263,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.8
+		add_ideas = ACR_funai
 	}
 }
 shared_focus = {
@@ -235,7 +280,15 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		89 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		533 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		107 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -267,7 +320,32 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		random_owned_controlled_state = {
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			add_extra_state_shared_building_slots = 1					
+		}
+		89 = {
+			add_resource = { type = motors amount = 2 }	
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }			
+		}
+		534 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		533 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		107 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		532 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		106 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		535 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -283,7 +361,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		533 = {
+			add_building_construction = { type = bunker province = 1813 level = 3 instant_build = yes }
+			add_building_construction = { type = bunker province = 2029 level = 3 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -299,7 +380,11 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		random_owned_controlled_state = {
+			add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			add_extra_state_shared_building_slots = 2				
+		}
+		add_ideas = ACR_para_nut_exports
 	}
 }
 shared_focus = {
@@ -316,7 +401,18 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_tech_bonus = {
+			name = air_bonus
+			bonus = 1.0
+			uses = 3
+			category = air_equipment
+		}
+		add_tech_bonus = {
+			name = air_doctrine
+			bonus = 1.0
+			uses = 3
+			category = air_doctrine
+		}
 	}
 }
 shared_focus = {
@@ -332,7 +428,63 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		125 = {
+			add_core_of = ACR
+		}
+		110 = {
+			add_core_of = ACR
+		}
+		98 = {
+			add_core_of = ACR
+		} 
+		97 = {
+			add_core_of = ACR
+		} 
+		450 = {
+			add_core_of = ACR
+		} 
+		90 = {
+			add_core_of = ACR
+		} 
+		428 = {
+			add_core_of = ACR
+		} 
+		427 = {
+			add_core_of = ACR
+		} 
+		414 = {
+			add_core_of = ACR
+		} 
+		426 = {
+			add_core_of = ACR
+		} 
+		412 = {
+			add_core_of = ACR
+		} 
+		415 = {
+			add_core_of = ACR
+		} 
+		416 = {
+			add_core_of = ACR
+		} 
+		411 = {
+			add_core_of = ACR
+		} 
+		417 = {
+			add_core_of = ACR
+		} 
+		413 = {
+			add_core_of = ACR
+		} 
+		419 = {
+			add_core_of = ACR
+		} 
+		460 = {
+			add_core_of = ACR
+		} 
+		423 = {
+			add_core_of = ACR
+		}
 	}
 }
 shared_focus = {
@@ -348,7 +500,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		swap_ideas = {
+			remove_idea = ACR_country_of_acreans
+			add_idea = ACR_country_of_acreans1
+		}
 	}
 }
 shared_focus = {
@@ -364,7 +519,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.9
 	}
 }
 shared_focus = {
@@ -380,7 +535,14 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_ideas = free_trade
+		add_opinion_modifier = {
+			target = MNS
+			modifier = ACR_established_relations
+		}
+		MNS = {
+			add_political_power = 100
+		}
 	}
 }
 shared_focus = {
@@ -389,6 +551,13 @@ shared_focus = {
 	prerequisite = { focus = ACR_establish_relations_with_manaus }
 	relative_position_id = ACR_establish_relations_with_manaus
 
+	available = {
+		has_country_flag = ACR_rubber_crisis_flag
+	}
+	bypass = {
+		has_country_flag = ACR_rubber_crisis_flag
+	}
+
 	x = 0
 	y = 1
 	cost = 1
@@ -396,7 +565,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_political_power = 100
 	}
 }
 shared_focus = {
@@ -412,7 +581,23 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_ideas = ACR_defense_fleet
+		create_ship = {
+			type = destroyer_1
+			equipment_variant = screen_ship
+		}
+		create_ship = {
+			type = destroyer_1
+			equipment_variant = screen_ship
+		}
+		create_ship = {
+			type = destroyer_1
+			equipment_variant = screen_ship
+		}
+		create_ship = {
+			type = destroyer_1
+			equipment_variant = screen_ship
+		}
 	}
 }
 shared_focus = {
@@ -428,7 +613,9 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		IQU = {
+			country_event = IQU_foreign.1
+		}
 	}
 }
 shared_focus = {
@@ -445,7 +632,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		ACR = {
+			give_guarantee = MNS
+		}
+		MNS = {
+			give_guarantee = ACR
+		}
 	}
 }
 shared_focus = {
@@ -461,7 +653,13 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+		}
+		MNS = {
+			add_political_power = 75
+		}
 	}
 }
 shared_focus = {
@@ -477,7 +675,13 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 150
+		}
+		MNS = {
+			add_political_power = 75
+		}
 	}
 }
 shared_focus = {
@@ -493,7 +697,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		89 = {
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		}
+		96 = {
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -509,7 +718,43 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		if = {
+			limit = {
+				OR = {
+					has_idea = country_of_seringueiros2
+					has_idea = country_of_seringueiros1
+					has_idea = country_of_seringueiros
+				}
+			}
+			swap_ideas = {
+				remove_idea = country_of_seringueiros2
+				add_idea = country_of_seringueiros3
+			}
+			swap_ideas = {
+				remove_idea = country_of_seringueiros1
+				add_idea = country_of_seringueiros3
+			}
+			swap_ideas = {
+				remove_idea = country_of_seringueiros
+				add_idea = country_of_seringueiros3
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_idea = ACR_country_of_acreans1
+					has_idea = ACR_country_of_acreans
+				}
+			}
+			swap_ideas = {
+				remove_idea = ACR_country_of_acreans1
+				add_idea = ACR_country_of_acreans2
+			}
+			swap_ideas = {
+				remove_idea = ACR_country_of_acreans
+				add_idea = ACR_country_of_acreans2
+			}
+		}
 	}
 }
 shared_focus = {
@@ -525,7 +770,16 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		89 = {
+			add_extra_state_shared_building_slots = 1
+		}
+		add_tech_bonus = {
+			name = industry
+			bonus = 0.5
+			uses = 1
+			category = industry
+		}
+		
 	}
 }
 shared_focus = {
@@ -541,7 +795,22 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -200
+		}
+		MNS = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -200
+			}
+		}
+		COR = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 400
+			}
+		}
 	}
 }
 shared_focus = {
@@ -557,7 +826,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.14
+		MNS = {
+			country_event = MNS_cury_event.2
+		}
 	}
 }
 shared_focus = {
@@ -573,7 +845,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		country_event = ACR_cury.15
 	}
 }
 shared_focus = {
@@ -590,7 +862,39 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		random_owned_controlled_state = {
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		}
+		if = {
+			limit = {
+				has_idea = country_of_seringueiros3
+			}
+			swap_ideas = {
+				remove_idea = country_of_seringueiros3
+				add_idea = country_of_seringueiros4
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_idea = ACR_country_of_acreans2
+					has_idea = ACR_country_of_acreans1
+					has_idea = ACR_country_of_acreans
+				}
+			}
+			swap_ideas = {
+				remove_idea = ACR_country_of_acreans1
+				add_idea = ACR_country_of_acreans2
+			}
+			swap_ideas = {
+				remove_idea = ACR_country_of_acreans
+				add_idea = ACR_country_of_acreans2
+			}
+			swap_ideas = {
+				remove_idea = ACR_country_of_acreans2
+				add_idea = ACR_country_of_acreans3
+			}
+		}
 	}
 }
 shared_focus = {
@@ -606,7 +910,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		89 = {
+			add_manpower = 15000
+		}
+		random_owned_controlled_state = {
+			add_manpower = 5000
+		}
 	}
 }
 shared_focus = {
@@ -623,7 +932,20 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		add_political_power = -100
+		add_manpower = 5000
+		if = {
+			limit = {
+				has_idea = ACR_recpop_buff
+			}
+			swap_ideas = {
+				remove_idea = ACR_recpop_buff
+				add_idea = ACR_recpop_buff1
+			}
+		}
+		else = {
+			add_ideas = ACR_recpop_buff1
+		}
 	}
 }
 shared_focus = {
@@ -640,6 +962,13 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+		swap_ideas = {
+			remove_idea = ACR_country_of_acreans3
+			add_idea = ACR_country_of_acreans4
+		}
+		swap_ideas = {
+			remove_idea = the_red_menace1
+			add_idea = the_red_menace2
+		}
 	}
 }

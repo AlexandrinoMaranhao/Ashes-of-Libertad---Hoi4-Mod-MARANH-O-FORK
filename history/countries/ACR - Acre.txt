@@ -30,6 +30,7 @@ set_variable = {
     var = raid_success_percentage
     value = 0
 }
+load_oob = "ACR_1967"
 
 # senate #
 set_variable = { senate_seats = 22 }

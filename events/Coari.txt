@@ -6,6 +6,18 @@ add_namespace = CoariIntroduction
 add_namespace = Coari
 add_namespace = MontorilGoesFishing
 add_namespace = MontorilReturnsFromFishing
+add_namespace = COR_cury_event
+
+country_event = {
+	id = COR_cury_event.1  ### Meet our Neighbours Acre Focus
+	title = COR_cury_event.1.t
+	desc = COR_cury_event.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = COR_cury_event.1.a
+	}
+}
 
 #########################################################################
 # How did we get here?
