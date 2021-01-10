@@ -1041,7 +1041,6 @@ country_event = {
 		controls_state = 125
 	}
 	fire_only_once = yes
-	is_triggered_only = yes
 	option = {
 		name = ACR_cury.13.a
 		acre_wins_caititu_war = yes
