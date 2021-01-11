@@ -1,12 +1,37 @@
 SpriteTypes = {
-military_nabor
+
 #    
 #spriteType ={
 #    name = "GFX_idea_"
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-        
+         
+spriteType ={
+    name = "GFX_idea_guerrilla_training"
+    texturefile = "gfx/interface/ideas/guerrilla_training.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_no_training"
+    texturefile = "gfx/interface/ideas/no_training.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_militia_troop_training"
+    texturefile = "gfx/interface/ideas/militia_troop_training.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_mercenary_troop_training"
+    texturefile = "gfx/interface/ideas/mercenary_troop_training.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_military_troop_training"
+    texturefile = "gfx/interface/ideas/military_troop_training.dds"
+} 
+
 spriteType ={
     name = "GFX_idea_nabor_junior_air_chief"
     texturefile = "gfx/interface/ideas/military_nabor.dds"

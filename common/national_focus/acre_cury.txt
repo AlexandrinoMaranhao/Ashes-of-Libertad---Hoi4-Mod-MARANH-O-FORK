@@ -1,6 +1,6 @@
 shared_focus = {
 	id = ACR_cury_presidency
-	#icon = 
+	icon = GFX_goal_ACR_cury_presidency
 
 	x = 30
 	y = 2
@@ -31,7 +31,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_compromise_with_technocrats
-	#icon = 
+	icon = GFX_goal_ACR_regulate_expansion_rubber_plantations
 	prerequisite = { focus = ACR_regulate_expansion_rubber_plantations }
 	relative_position_id = ACR_regulate_expansion_rubber_plantations
 

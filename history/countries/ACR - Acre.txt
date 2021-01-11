@@ -178,19 +178,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mauri Sérgio Moura de Oliveira"
-		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
-	traits = { trait_reckless politically_connected }
-	skill = 2 
-
-	
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
 	name = "Joaquim Falcão Macedo"
 		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
 	traits = { career_officer offensive_doctrine politically_connected }
