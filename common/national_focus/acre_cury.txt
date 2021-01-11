@@ -14,7 +14,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_regulate_expansion_rubber_plantations
-	#icon = 
+	icon = GFX_goal_ACR_regulate_expansion_rubber_plantations
 	prerequisite = { focus = ACR_cury_presidency }
 	relative_position_id = ACR_cury_presidency
 
@@ -31,7 +31,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_compromise_with_technocrats
-	icon = GFX_goal_ACR_regulate_expansion_rubber_plantations
+	#icon = GFX_goal_ACR_regulate_expansion_rubber_plantations
 	prerequisite = { focus = ACR_regulate_expansion_rubber_plantations }
 	relative_position_id = ACR_regulate_expansion_rubber_plantations
 
