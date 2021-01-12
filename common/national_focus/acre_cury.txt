@@ -60,10 +60,13 @@ shared_focus = {
 	completion_reward = {
 		add_war_support = 0.1
 		add_stability = 0.1
-		swap_ideas = {
-			remove_idea = country_of_seringueiros
-			add_idea = country_of_seringueiros1
-		}
+		#remove_ideas = country_of_seringueiros
+		#add_dynamic_modifier = {
+		#	modifier = ACR_country_of_seringueiros
+		#}
+		#add_to_variable = { ACR_industrial_capacity_factory = -0.1 }
+		#add_to_variable = { ACR_research_speed_factor = -0.1 }
+		#custom_effect_tooltip = ACR_end_correrias_tt
 	}
 }
 shared_focus = {
@@ -113,10 +116,10 @@ shared_focus = {
 
 	completion_reward = {
 		remove_ideas = ACR_tappers_protest1
-		swap_ideas = {
-			remove_idea = country_of_seringueiros1
-			add_idea = country_of_seringueiros2
-		}
+		#add_to_variable = { var = ACR_industrial_capacity_factory value = -0.05 }
+		#add_to_variable = { var = ACR_stability_factor value = 0.075 }
+		#custom_effect_tooltip = ACR_compromise_with_tappers_tt
+		#custom_effect_tooltip = ACR_compromise_with_tappers_1_tt
 	}
 }
 shared_focus = {
@@ -227,9 +230,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		swap_ideas = {
-			remove_idea = country_of_seringueiros2
-			add_idea = ACR_country_of_acreans
+		remove_dynamic_modifier = {
+			modifier = ACR_country_of_seringueiros
 		}
 		add_ideas = integrated_society
 	}
@@ -543,6 +545,9 @@ shared_focus = {
 		MNS = {
 			add_political_power = 100
 		}
+		hidden_effect = {
+			country_event = { id = ACR_cury.16 days = 14 } 
+		}
 	}
 }
 shared_focus = {
@@ -552,10 +557,10 @@ shared_focus = {
 	relative_position_id = ACR_establish_relations_with_manaus
 
 	available = {
-		has_country_flag = ACR_rubber_crisis_flag
+		has_idea = ACR_idea_rubber_crisis
 	}
 	bypass = {
-		has_country_flag = ACR_rubber_crisis_flag
+		has_idea = ACR_idea_rubber_crisis
 	}
 
 	x = 0
@@ -565,7 +570,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = ACR_idea_rubber_crisis
+		hidden_effect = {
+			country_event = { id = ACR_cury.17 days = 7 }
+			country_event = { id = ACR_cury.18 days = 28 }
+			country_event = { id = ACR_cury.19 days = 42 }
+		}
 	}
 }
 shared_focus = {
@@ -718,27 +728,15 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		if = {
-			limit = {
-				OR = {
-					has_idea = country_of_seringueiros2
-					has_idea = country_of_seringueiros1
-					has_idea = country_of_seringueiros
-				}
-			}
-			swap_ideas = {
-				remove_idea = country_of_seringueiros2
-				add_idea = country_of_seringueiros3
-			}
-			swap_ideas = {
-				remove_idea = country_of_seringueiros1
-				add_idea = country_of_seringueiros3
-			}
-			swap_ideas = {
-				remove_idea = country_of_seringueiros
-				add_idea = country_of_seringueiros3
-			}
-		}
+		#if = {
+			#limit = {
+				#has_dynamic_modifier = {
+				#	modifier = ACR_country_of_seringueiros
+				#}
+			#}
+			#add_to_variable = { var = ACR_trade_opinion_factor value = 0.5  }
+			#custom_effect_tooltip = ACR_lower_cost_of_everything_tt
+		#}
 		if = {
 			limit = {
 				OR = {
@@ -827,8 +825,8 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = ACR_cury.14
-		MNS = {
-			country_event = MNS_cury_event.2
+		COR = {
+			country_event = { id = COR_cury_event.2 days = 3 }
 		}
 	}
 }

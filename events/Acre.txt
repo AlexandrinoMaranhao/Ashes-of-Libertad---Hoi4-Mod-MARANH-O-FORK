@@ -1054,23 +1054,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = ACR_cury.14.a
-		89 = {
-			add_extra_state_shared_building_slots = -1
-		}
-	}
-	option = {
-		name = ACR_cury.14.b
-		COR = {
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = -100
-			}
-		}
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = 100
-		}
+		name = ACR_cury.14.a ### Send Compromise Attempt
 	}
 }
 
@@ -1097,3 +1081,80 @@ country_event = {
 		name = ACR_cury.15.c ### Nothing
 	}
 }
+
+country_event = {
+	id = ACR_cury.16 ### Establish Relations (Starts Rubber Crisis)
+	title = ACR_cury.16.t
+	desc = ACR_cury.16.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.16.a ### Adds Rubber Crisis Natspirit
+		complete_national_focus = ACR_rubber_crisis
+	}
+}
+
+country_event = {
+	id = ACR_cury.17 ### First Rubber Crisis Event
+	title = ACR_cury.17.t
+	desc = ACR_cury.17.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.17.a 
+	}
+}
+
+country_event = {
+	id = ACR_cury.18 ### Second Rubber Crisis Event
+	title = ACR_cury.18.t
+	desc = ACR_cury.18.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.18.a 
+	}
+}
+
+country_event = {
+	id = ACR_cury.19 ### Third Rubber Crisis Event
+	title = ACR_cury.19.t
+	desc = ACR_cury.19.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.19.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.20 ### Coari Accepts Compromise
+	title = ACR_cury.20.t
+	desc = ACR_cury.20.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.20.a
+		remove_ideas = ACR_idea_rubber_crisis
+	}
+}
+
+country_event = {
+	id = ACR_cury.21 ### Coari went down the middle
+	title = ACR_cury.21.t
+	desc = ACR_cury.21.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.21.a
+		add_opinion_modifier = {
+			target = COR
+			modifier = ACR_rejected_compromise
+		}
+	}
+	option = {
+		name = ACR_cury.21.b
+		create_wargoal = { target = COR type = annex_everything }
+	}
+}
+

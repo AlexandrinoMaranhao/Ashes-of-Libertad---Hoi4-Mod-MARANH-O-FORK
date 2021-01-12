@@ -19,6 +19,32 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = COR_cury_event.2  ### Meet our Neighbours Acre Focus
+	title = COR_cury_event.2.t
+	desc = COR_cury_event.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = COR_cury_event.2.a ### Accept Compromise
+		ACR = {
+			country_event = { id = ACR_cury.20 days = 3 }
+		}
+	}
+	option = {
+		name = COR_cury_event.2.b ### Down the Middle
+		ACR = {
+			country_event = { id = ACR_cury.21 days = 3 }
+		}
+	}
+	option = {
+		name = COR_cury_event.2.c ### Outright Disagree
+		ACR = {
+			create_wargoal = { target = COR type = annex_everything }
+		}
+	}
+}
+
 #########################################################################
 # How did we get here?
 #########################################################################

@@ -8,7 +8,7 @@ ideas = {
 
             available = {
 
-            }
+         	}
 
             cancel = {
 
@@ -21,76 +21,6 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = -0.2
 				research_speed_factor = -0.1
-			}
-		}
-		country_of_seringueiros1 = {
-			
-			allowed = {
-				tag = ACR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				industrial_capacity_factory = -0.10
-				research_speed_factor = -0.1
-			}
-		}
-		country_of_seringueiros2 = {
-			allowed = {
-				tag = ACR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				industrial_capacity_factory = -0.15
-				research_speed_factor = -0.1
-				stability_factor = 0.075
-			}
-		}
-		country_of_seringueiros3 = {
-			allowed = {
-				tag = ACR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				industrial_capacity_factory = -0.15
-				research_speed_factor = -0.1
-				stability_factor = 0.075
-				trade_opinion_factor = 0.5
 			}
 		}
 		country_of_seringueiros4 = {
@@ -573,6 +503,26 @@ ideas = {
 			}
 			research_bonus = {
 				naval_equipment = 0.15
+			}
+		}
+		ACR_idea_rubber_crisis = {
+			allowed = {
+				tag = ACR
+			}
+			cancel = {
+				NOT = {
+					country_exists = COR	
+				}	
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+				trade_opinion_factor = -1
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.25
 			}
 		}		
 	}

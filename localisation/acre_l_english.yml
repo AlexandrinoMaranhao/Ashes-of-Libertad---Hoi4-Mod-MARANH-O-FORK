@@ -1,6 +1,10 @@
 ﻿l_english:
 # Focus Tree
   acre_elections_tt:0 "§KElections will be held...§!"
+  ACR_end_correrias_tt:0 "A Country of Tappers - Factory Output §G+10%§!"
+  ACR_compromise_with_tappers_tt:0 "A Country of Tappers - Factory Output §R-10%§!"
+  ACR_compromise_with_tappers_1_tt:0 "A Country of Tappers - Stability §G+7.5%§!"
+  ACR_lower_cost_of_everything_tt:0 "A Country of Tappers - Trade Deal Opinion Factor §G+50%§!"
 
 # Decisions
   acrean_senate:0 "The Senate of Acre"
@@ -47,9 +51,6 @@
 ################
 # Ideas
 ################
- country_of_seringueiros1:0 "Country of Seringueiros"
- country_of_seringueiros2:0 "Country of Seringueiros"
- country_of_seringueiros3:0 "Country of Seringueiros"
  country_of_seringueiros4:0 "Country of Seringueiros"
  ACR_tappers_protest:0 "Tappers Protest"
  ACR_tappers_protest1:0 "Tappers Protest"
@@ -66,3 +67,5 @@
  ACR_para_nut_exports:0 "Pará-Nut Exports"
  ACR_continental_trade:0 "Continental Trade"
  ACR_defense_fleet:0 "Fluvial Defense Fleet"
+ ACR_idea_rubber_crisis:0 "Rubber Crisis"
+ ACR_country_of_seringueiros:0 "Country of Seringueiros"
