@@ -30,6 +30,11 @@ set_variable = {
     var = raid_success_percentage
     value = 0
 }
+set_variable = { ACR_industrial_capacity_factory = -0.2 }
+set_variable = { ACR_research_speed_factor = -0.1 }
+add_dynamic_modifier = {
+	modifier = ACR_country_of_seringueiros
+}
 load_oob = "ACR_1967"
 
 # senate #
@@ -46,7 +51,6 @@ militia_troop_training
 no_officer_training
 no_tradition
 
-country_of_seringueiros
 militia_army
 }
 
