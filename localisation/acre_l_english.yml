@@ -5,6 +5,12 @@
   ACR_compromise_with_tappers_tt:0 "A Country of Tappers - Factory Output §R-10%§!"
   ACR_compromise_with_tappers_1_tt:0 "A Country of Tappers - Stability §G+7.5%§!"
   ACR_lower_cost_of_everything_tt:0 "A Country of Tappers - Trade Deal Opinion Factor §G+50%§!"
+  ACR_end_acre_stagnation_tt:0 "A Country of Tappers - Monthly Population §G+10%§!"
+  ACR_pass_native_defence_act_tt:0 "Replace A Country of Tappers with A Country of Acreans, removing all debuffs."
+  ACR_acre_fortune_for_acre_alone_tt:0 "A Country of Acreans - Monthly Population §G+10%§!, Political Power Gain §G+15%§! and Stability Factor §G+5%§!"
+  ACR_lower_cost_of_everything_1_tt:0 "A Country of Acreans - Trade Deal Opinion Factor §G+50%§!"
+  ACR_end_acre_stagnation_1_tt:0 "A Country of Acreans - Monthly Population §G+10%§!"
+  ACR_acre_for_acreans_tt:0 "A Country of Acreans - Monthly Population §G+10%§! and Weekly Manpower §G+100%§!"
 
 # Decisions
   acrean_senate:0 "The Senate of Acre"

@@ -4,6 +4,18 @@ ACR_country_of_seringueiros = { # Country of Tappers
 
 	industrial_capacity_factory = ACR_industrial_capacity_factory
 	research_speed_factor = ACR_research_speed_factor
-	#stability_factor = ACR_stability_factor
-	#trade_opinion_factor = ACR_trade_opinion_factor
+	stability_factor = ACR_stability_factor
+	trade_opinion_factor = ACR_trade_opinion_factor
+	monthly_population = ACR_monthly_population
+}
+
+ACR_country_of_acreans = { # Country of Acreans
+	icon = GFX_idea_country_of_seringueiros
+	enable = { always = yes }
+
+	stability_factor = ACR_stability_factor_1
+	trade_opinion_factor = ACR_trade_opinion_factor_1
+	monthly_population = ACR_monthly_population_1
+	political_power_gain = ACR_political_power_gain
+	weekly_manpower = ACR_weekly_manpower
 }
