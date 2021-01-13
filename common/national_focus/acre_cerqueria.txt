@@ -1,6 +1,6 @@
 shared_focus = {
 	id = ACR_cerqueria_presidency
-	#icon = 
+	icon = GFX_goal_the_cerqueira_presidency
 
 	x = 30
 	y = 2

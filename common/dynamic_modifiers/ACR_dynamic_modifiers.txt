@@ -1,0 +1,9 @@
+ACR_country_of_seringueiros = { # Country of Tappers
+	icon = GFX_idea_country_of_seringueiros
+	enable = { always = yes }
+
+	industrial_capacity_factory = ACR_industrial_capacity_factory
+	research_speed_factor = ACR_research_speed_factor
+	#stability_factor = ACR_stability_factor
+	#trade_opinion_factor = ACR_trade_opinion_factor
+}
