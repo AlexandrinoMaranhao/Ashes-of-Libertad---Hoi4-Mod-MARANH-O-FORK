@@ -2,41 +2,11 @@ spriteTypes = {
 
 	#### Generic continuous goal icons
 
-#  
-#	SpriteType = {
-#	name = "GFX_goal_"
-#	texturefile = "gfx/interface/goals/.dds"
-#	}	
-#  
-    
-	SpriteType = {
-	name = "GFX_goal_ACR_mr_carneiros_class"
-	texturefile = "gfx/interface/goals/mr_carneiros_class.dds"
-	}	
-  
-	SpriteType = {
-	name = "GFX_goal_the_cerqueira_presidency"
-	texturefile = "gfx/interface/goals/the_cerqueira_presidency.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_ACR_regulate_expansion_rubber_plantations"
-	texturefile = "gfx/interface/goals/ACR_regulate_expansion_rubber_plantations.dds"
-	}	
-  
-	SpriteType = {
-	name = "GFX_goal_ACR_cury_presidency"
-	texturefile = "gfx/interface/goals/the_helio_presidency.dds"
-	}	
-  
-	SpriteType = {
-	name = "GFX_goal_ACR_marques_presidency"
-	texturefile = "gfx/interface/goals/the_marques_presidency.dds"
-	}	
- 
+
+
 	SpriteType = {
 	name = "GFX_goal_Learn_from_the_Reds"
-	texturefile = "gfx/interface/goals/Learn_from_the_Reds.dds"
+	texturefile = "gfx/interface/goals/Learn from the Reds.dds"
 	}	
 
 	SpriteType = {

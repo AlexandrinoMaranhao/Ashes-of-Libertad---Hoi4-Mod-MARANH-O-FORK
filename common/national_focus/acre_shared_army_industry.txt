@@ -1425,7 +1425,7 @@ shared_focus = {
 	id = ACR_mr_carneiros_class
 	prerequisite = { focus = ACR_extra_research_slot_2 }
 	prerequisite = { focus = ACR_extra_research_slot_1 }
-	icon = GFX_goal_ACR_mr_carneiros_class
+	icon = GFX_goal_first_step_republic
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 0
