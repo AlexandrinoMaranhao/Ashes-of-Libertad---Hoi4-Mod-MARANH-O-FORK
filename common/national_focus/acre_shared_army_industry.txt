@@ -263,7 +263,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_extra_autonomous_units
 	prerequisite = { focus = ACR_keep_the_militia_structure }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_extra_autonomous_units
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = -2

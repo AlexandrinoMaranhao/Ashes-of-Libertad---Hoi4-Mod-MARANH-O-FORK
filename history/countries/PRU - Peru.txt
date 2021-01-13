@@ -36,6 +36,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Víctor Raúl Haya de la Torre"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Haya.dds"
 	expire = "1999.1.1"
 	ideology = marxism  
 	traits = {

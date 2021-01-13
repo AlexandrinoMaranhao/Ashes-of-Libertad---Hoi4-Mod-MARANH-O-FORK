@@ -8,7 +8,12 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-         
+          
+	SpriteType = {
+	name = "GFX_goal_extra_autonomous_units"
+	texturefile = "gfx/interface/goals/extra_autonomous_units.dds"
+	}	
+ 
 	SpriteType = {
 	name = "GFX_goal_arrest_communist_sympathizers"
 	texturefile = "gfx/interface/goals/arrest_communist_sympathizers.dds"

@@ -1,4 +1,5 @@
 add_namespace = PERU
+add_namespace = PERUNORTE
 
 country_event = { #FUCK THE NLA REP
     id = PERU.1  
@@ -15,7 +16,9 @@ country_event = { #FUCK THE NLA REP
         target = NLA
         type = annex_everything
       }
-
+        340 = {
+    add_core_of = RPE
+}
     }
 }
 
@@ -34,7 +37,9 @@ country_event = { #FUCK THE NLA MIL
         target = NLA
         type = annex_everything
       }
-
+        340 = {
+    add_core_of = PMI
+}
       country_event = { id = PERU.3 days = 157 }
     }
 }
@@ -54,7 +59,9 @@ country_event = {
         target = HIE
         type = annex_everything
       }
-
+        333 = {
+    add_core_of = NCA
+}
       country_event = { id = PERU.6 days = 40 }
     }
 }
@@ -74,11 +81,33 @@ country_event = {
         target = RPE
         type = annex_everything
       }
-
-      country_event = { id = PERU.4 days = 120 }
-    }
+        336 = {
+    add_core_of = PMI
+}
+        507 = {
+    add_core_of = PMI
+}
+        339 = {
+    add_core_of = PMI
+}
+        338 = {
+    add_core_of = PMI
+}
+         478 = {
+    add_core_of = RPE
+}
+        335 = {
+    add_core_of = RPE
+}
+        509 = {
+    add_core_of = RPE
+}
+        508 = {
+    add_core_of = RPE
 }
 
+}
+}
 country_event = {
     id = PERU.6
     title = PERU.6.t
@@ -94,7 +123,12 @@ country_event = {
         target = UFO
         type = annex_everything
       }
-
+        341 = {
+    add_core_of = NCA
+}
+        340 = {
+    add_core_of = NCA
+}
       country_event = { id = PERU.8 days = 125 }
     }
 }
@@ -114,18 +148,30 @@ country_event = {
         target = FCP
         type = annex_everything
       }
-
+        334 = {
+    add_core_of = INC
+}
+        342 = {
+    add_core_of = INC
+}
+      country_event = { id = PERU.9 days = 125 }
     }
+    
 
     option = {
       name = PERU.7.b
-
-      annex = {
-        target = FCP
-      }
-
-    }
+    INC = 
+    { annex = FCP }
+        334 = {
+    add_core_of = INC
 }
+        342 = {
+    add_core_of = INC
+}
+      country_event = { id = PERU.9 days = 90 }
+    }
+    }
+
 
 country_event = {
     id = PERU.8
@@ -148,6 +194,255 @@ country_event = {
         type = annex_everything
       }
 
-      country_event = { id = PERU.9 days = 195 }
+        336 = {
+    add_core_of = NCA
+}
+        507 = {
+    add_core_of = NCA
+}
+        339 = {
+    add_core_of = NCA
+}
+        338 = {
+    add_core_of = NCA
+}
+         478 = {
+    add_core_of = NCA
+}
+        335 = {
+    add_core_of = NCA
+}
+        509 = {
+    add_core_of = NCA
+}
+        508 = {
+    add_core_of = NCA
+}
+        337 = {
+    add_core_of = RPE
+}
+        510 = {
+    add_core_of = RPE
+}
+        511 = {
+    add_core_of = RPE
+}
+        341 = {
+    add_core_of = RPE
+}
+        333 = {
+    add_core_of = RPE
+}
+         337 = {
+    add_core_of = PMI
+}
+        510 = {
+    add_core_of = PMI
+}
+        511 = {
+    add_core_of = PMI
+}
+        341 = {
+    add_core_of = PMI
+}
+        333 = {
+    add_core_of = PMI
+}
+    }
+}
+
+country_event = {
+    id = PERUNORTE.1
+    title = PERUNORTE.1.t
+    desc = PERUNORTE.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+
+   option = {
+        name = PERUNORTE.1.a
+
+        SEC = { transfer_state = 322 }
+        SEC = { transfer_state = 321 }
+        SEC = { transfer_state = 320 }
+        SEC = { transfer_state = 323 }
+        327 = {
+    add_core_of = ECU
+}
+        325 = {
+    add_core_of = SEC
+}
+        431 = {
+    add_core_of = SEC
+}
+        477 = {
+    add_core_of = SEC
+}
+        326 = {
+    add_core_of = SEC
+}
+        327 = {
+    add_core_of = SEC
+}
+
+        UNO = { transfer_state = 331 }
+        UNO = { transfer_state = 330 }
+        UNO = {
+            declare_war_on = {
+                target = PRU
+                type = annex_everything
+            }
+        }
+        ECU = {
+            declare_war_on = {
+                target = SEC
+                type = annex_everything
+            }
+        }
+
+        331 = {
+    add_core_of = UNO
+}
+        330 = {
+    add_core_of = UNO
+}
+        476 = {
+    add_core_of = UNO
+}
+        324 = {
+    add_core_of = UNO
+}
+
+        UNO = {
+          country_event = { id = PERUNORTE.2 days = 120 }
+        }
+        PRU = {
+          country_event = { id = PERUNORTE.2 days = 120 }
+        }
+    }
+}
+
+country_event = {
+    id = PERU.9
+    title = PERU.9.t
+    desc = PERU.9.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PERU.9.a
+
+      declare_war_on = {
+        target = PRU
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = PRU
+                }
+                add_core_of = ROOT
+            }
+
+      declare_war_on = {
+        target = UNO
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = UNO
+                }
+                add_core_of = ROOT
+            }
+      country_event = { id = PERU.10 days = 90 }
+    }
+}
+
+country_event = {
+    id = PERU.10
+    title = PERU.10.t
+    desc = PERU.10.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PERU.10.a
+
+      declare_war_on = {
+        target = RPE
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = RPE
+                }
+                add_core_of = ROOT
+            }
+      declare_war_on = {
+        target = PMI
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = PMI
+                }
+                add_core_of = ROOT
+            }
+      declare_war_on = {
+        target = NCA
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = NCA
+                }
+                add_core_of = ROOT
+            }
+    }
+}
+
+country_event = {
+    id = PERUNORTE.2
+    title = PERUNORTE.2.t
+    desc = PERUNORTE.2.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PERUNORTE.2.a
+
+      declare_war_on = {
+        target = RPE
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = RPE
+                }
+                add_core_of = ROOT
+            }
+      declare_war_on = {
+        target = PMI
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = PMI
+                }
+                add_core_of = ROOT
+            }
+      declare_war_on = {
+        target = NCA
+        type = annex_everything
+      }
+            every_state = {
+                limit = {
+                    is_owned_by = NCA
+                }
+                add_core_of = ROOT
+            }
     }
 }

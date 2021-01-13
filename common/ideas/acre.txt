@@ -356,7 +356,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.15
-				stability_weekly = -0.08
+				stability_weekly = -0.03
 				trade_opinion_factor = -1
 				production_speed_buildings_factor = -0.25
 				industrial_capacity_factory = -0.25

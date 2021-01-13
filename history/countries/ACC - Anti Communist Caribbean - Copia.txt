@@ -1,4 +1,4 @@
-﻿capital = 12
+﻿capital = 1
 
 #oob = ""
 
@@ -19,25 +19,26 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 50
+	communism = 100
 	neutrality = 0
-	reactionary = 50
+	reactionary = 0
+
 }
 
 add_ideas = {
-	
+
 }
 
-create_country_leader = {
-	
-	name = "Father Almeida Lustosa"
-	picture = "gfx/leaders/CEA/Portrait_CEA_Antonio_de_Almeida_lustosa.dds"
-	expire = "1999.1.1"
-	ideology = cristian_theocracy
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Anastasio ''Tachito'' Somoza Debayle"
+#	picture = "gfx/leaders/ACC/Portrait_ACC_Tachito.dds"
+#	expire = "1999.1.1"
+#	ideology = military_government
+#	traits = {
+#		#
+#	}
+#}
 
 
 }
