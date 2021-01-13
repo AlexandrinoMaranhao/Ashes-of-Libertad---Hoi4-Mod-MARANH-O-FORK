@@ -853,3 +853,308 @@ country_event = {
 		add_stability = -0.05
 	}
 }
+
+#####################################################
+# Cury Presidency
+#####################################################
+
+add_namespace = ACR_cury
+
+country_event = {   #### Cury Presidency
+	id = ACR_cury.1
+	title = ACR_cury.1.t
+	desc = ACR.cury.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.1.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.2  ### Regulate Tappers Event messing with Cerqueria's Mechanic, once implemented
+	title = ACR_cury.2.t
+	desc = ACR_cury.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.2.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.3  ### Compromise with Technocrats
+	title = ACR_cury.3.t
+	desc = ACR_cury.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.3.a
+	}
+	option = {
+		name = ACR_cury.3.b
+	}
+	option = {
+		name = ACR_cury.3.c
+	}
+}
+
+country_event = {
+	id = ACR_cury.4  ### Compromise with Militarists
+	title = ACR_cury.4.t
+	desc = ACR_cury.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.4.a
+	}
+	option = {
+		name = ACR_cury.4.b
+	}
+	option = {
+		name = ACR_cury.4.c
+	}
+}
+
+country_event = {
+	id = ACR_cury.5  ### Intervene in Seringalist Rallies
+	title = ACR_cury.5.t
+	desc = ACR_cury.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.5.a
+		swap_ideas = {
+			remove_idea = ACR_tappers_protest
+			add_idea = ACR_tappers_protest1
+		}
+	}
+}
+
+country_event = {
+	id = ACR_cury.6  ### Buying Votes in Senate
+	title = ACR_cury.6.t
+	desc = ACR_cury.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.6.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.7  ### Give them a Voice
+	title = ACR_cury.7.t
+	desc = ACR_cury.7.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.7.a
+		add_ideas = idea_AOL_free_press
+	}
+}
+
+country_event = {
+	id = ACR_cury.8  ### Found the FUNAI
+	title = ACR_cury.8.t
+	desc = ACR_cury.8.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.8.a
+		89 = {
+			add_building_construction = { type = air_base level = 2 instant_build = yes }
+			add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+
+country_event = {
+	id = ACR_cury.9  ### Meet our Neighbours
+	title = ACR_cury.9.t
+	desc = ACR_cury.9.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.9.a
+		QPM = {
+			country_event = QPM_cury_event.1
+		}
+		COR = {
+			country_event = COR_cury_event.1
+		}
+		MNS = {
+			country_event = MNS_cury_event.1
+		}
+	}
+}
+
+country_event = {
+	id = ACR_cury.10 ### Rubber Crisis
+	title = ACR_cury.10.t
+	desc = ACR_cury.10.d
+	trigger = {
+		has_idea = closed_economy
+	}
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.10.a
+		set_country_flag = ACR_rubber_crisis_flag
+	}
+}
+
+country_event = {
+	id = ACR_cury.11 ### Caititu Accepts
+	title = ACR_cury.11.t
+	desc = ACR_cury.11.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.11.a
+
+		set_state_owner = 419
+		set_state_controller = 419	
+	}
+}
+
+country_event = {
+	id = ACR_cury.12 ### Caititu Will Fight
+	title = ACR_cury.12.t
+	desc = ACR_cury.12.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.12.a
+		declare_war_on = { type = annex_everything target = IQU }
+	}
+}
+
+country_event = {
+	id = ACR_cury.13 ### Caititu Surrenders
+	title = ACR_cury.13.t
+	desc = ACR_cury.13.d
+	trigger = {
+		has_war_with = IQU
+		controls_state = 419
+		controls_state = 125
+	}
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.13.a
+		acre_wins_caititu_war = yes
+	}
+}
+
+country_event = {
+	id = ACR_cury.14 ### Compromise with Coari
+	title = ACR_cury.14.t
+	desc = ACR_cury.14.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.14.a  ### Send a Compromise
+	}
+}
+
+country_event = {
+	id = ACR_cury.15 ### Coarnese Soneth
+	title = ACR_cury.15.t
+	desc = ACR_cury.15.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.15.a ### War 
+		create_wargoal = { target = COR type = annex_everything }
+	}
+	option = {
+		name = ACR_cury.15.b ### Peace Deal
+		89 = {
+			add_building_construction = { type = industrial_complex level = -1 instant_build = yes }
+		}
+		398 = {
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		}
+	}
+	option = {
+		name = ACR_cury.15.c ### Nothing
+	}
+}
+
+country_event = {
+	id = ACR_cury.16 ### Establish Relations (Starts Rubber Crisis)
+	title = ACR_cury.16.t
+	desc = ACR_cury.16.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.16.a ### Adds Rubber Crisis Natspirit
+		complete_national_focus = ACR_rubber_crisis
+	}
+}
+
+country_event = {
+	id = ACR_cury.17 ### First Rubber Crisis Event
+	title = ACR_cury.17.t
+	desc = ACR_cury.17.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.17.a 
+	}
+}
+
+country_event = {
+	id = ACR_cury.18 ### Second Rubber Crisis Event
+	title = ACR_cury.18.t
+	desc = ACR_cury.18.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.18.a 
+	}
+}
+
+country_event = {
+	id = ACR_cury.19 ### Third Rubber Crisis Event
+	title = ACR_cury.19.t
+	desc = ACR_cury.19.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.19.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.20 ### Coari Accepts Compromise
+	title = ACR_cury.20.t
+	desc = ACR_cury.20.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.20.a
+		remove_ideas = ACR_idea_rubber_crisis
+	}
+}
+
+country_event = {
+	id = ACR_cury.21 ### Coari went down the middle
+	title = ACR_cury.21.t
+	desc = ACR_cury.21.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.21.a
+		add_opinion_modifier = {
+			target = COR
+			modifier = ACR_rejected_compromise
+		}
+	}
+	option = {
+		name = ACR_cury.21.b
+		create_wargoal = { target = COR type = annex_everything }
+	}
+}
