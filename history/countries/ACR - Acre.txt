@@ -30,6 +30,7 @@ set_variable = {
     var = raid_success_percentage
     value = 0
 }
+load_oob = "ACR_1967"
 
 # senate #
 set_variable = { senate_seats = 22 }
@@ -173,19 +174,6 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Mauri Sérgio Moura de Oliveira"
-		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
-	traits = { trait_reckless politically_connected }
-	skill = 2 
-
-	
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
 	logistics_skill = 1
 }
 
