@@ -29,14 +29,6 @@ ideas = {
 
         }
 
-        nabor_junior_army_chief = {
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
     }
 
     navy_chief = {
@@ -116,13 +108,6 @@ ideas = {
 
         }
 
-        nabor_junior_high_command = { #militarist
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
         }
 
     ###############################

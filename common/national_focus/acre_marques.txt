@@ -1,6 +1,6 @@
 shared_focus = {
 	id = ACR_marques_presidency
-	icon = GFX_goal_ACR_marques_presidency
+	#icon = 
 
 	x = 30
 	y = 2

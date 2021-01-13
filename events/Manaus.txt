@@ -5,40 +5,7 @@
 add_namespace = CaetanoVeloso
 add_namespace = Caetano
 add_namespace = OpeningShow
-add_namespace = YmaSumac
-add_namespace = MNS_cury_event
-
-country_event = {
-	id = MNS_cury_event.1  ### Meet our Neighbours Acre Focus
-	title = MNS_cury_event.1.t
-	desc = MNS_cury_event.1.d
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = MNS_cury_event.1.a
-	}
-}
-
-country_event = {
-	id = MNS_cury_event.2  ### Coari Compromise Attempt
-	title = MNS_cury_event.2.t
-	desc = MNS_cury_event.2.d
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = MNS_cury_event.2.a
-		COR = {
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = -100
-			}
-		}
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = 100
-		}
-	}
-} 
+add_namespace = YmaSumac 
 
 
 #########################################################################
