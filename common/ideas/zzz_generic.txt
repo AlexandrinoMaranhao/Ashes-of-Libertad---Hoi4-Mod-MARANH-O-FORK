@@ -2246,7 +2246,7 @@ ideas = {
 
 		resistance_target = 0.1
 		compliance_gain = -0.1
-        stability_factor = 0.5
+        stability_factor = 0.2
         war_support_factor = -0.2
         political_power_factor = -0.01
     }

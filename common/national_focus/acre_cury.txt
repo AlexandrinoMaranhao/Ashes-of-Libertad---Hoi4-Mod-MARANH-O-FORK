@@ -47,7 +47,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_end_correrias
-	#icon = 
+	icon = GFX_goal_end_the_correrias
 	prerequisite = { focus = ACR_compromise_with_technocrats }
 	relative_position_id = ACR_compromise_with_technocrats
 
@@ -103,7 +103,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_compromise_with_tappers
-	#icon = 
+	icon = GFX_goal_Compromise_helio
 	prerequisite = { focus = ACR_end_correrias }
 	prerequisite = { focus = ACR_intervene_seringalist_rallies }
 	relative_position_id = ACR_end_correrias
@@ -155,7 +155,7 @@ shared_focus = {
 			set_demilitarized_zone = yes
 			add_manpower = 100
 		}
-		533 = {
+		535 = {
 			set_demilitarized_zone = yes
 			add_manpower = 100
 		}
@@ -626,6 +626,10 @@ shared_focus = {
 		IQU = {
 			country_event = IQU_foreign.1
 		}
+        ACR = {
+           set_state_owner = 417
+           set_state_controller = 417
+        }
 	}
 }
 shared_focus = {

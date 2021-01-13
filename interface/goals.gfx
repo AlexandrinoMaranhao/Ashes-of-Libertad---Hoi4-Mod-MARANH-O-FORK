@@ -8,7 +8,72 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
+         
+	SpriteType = {
+	name = "GFX_goal_arrest_communist_sympathizers"
+	texturefile = "gfx/interface/goals/arrest_communist_sympathizers.dds"
+	}	
     
+	SpriteType = {
+	name = "GFX_goal_sike"
+	texturefile = "gfx/interface/goals/sike.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_promise_to_limit_the_reforms"
+	texturefile = "gfx/interface/goals/promise_to_limit_the_reforms.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Compromise_helio"
+	texturefile = "gfx/interface/goals/Compromise_helio.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_lay_down_the_groundwork"
+	texturefile = "gfx/interface/goals/lay_down_the_groundwork.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_connect_the_cities"
+	texturefile = "gfx/interface/goals/connect_the_cities.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_keep_the_militia_structure"
+	texturefile = "gfx/interface/goals/keep_the_militia_structure.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_look_for_options"
+	texturefile = "gfx/interface/goals/look_for_options.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_acre_united"
+	texturefile = "gfx/interface/goals/acre_united.dds"
+	}	
+   
+	SpriteType = {
+	name = "GFX_goal_sideline_the_tappers"
+	texturefile = "gfx/interface/goals/sideline_the_tappers.dds"
+	}	
+       
+	SpriteType = {
+	name = "GFX_goal_the_workers_cause"
+	texturefile = "gfx/interface/goals/the_workers_cause.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_end_the_correrias"
+	texturefile = "gfx/interface/goals/end_the_correrias.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_and_pass_the_amazon"
+	texturefile = "gfx/interface/goals/and_pass_the_amazon.dds"
+	}	
+  
 	SpriteType = {
 	name = "GFX_goal_ACR_mr_carneiros_class"
 	texturefile = "gfx/interface/goals/mr_carneiros_class.dds"

@@ -112,7 +112,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_and_past_the_amazonia
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_and_pass_the_amazon
 	prerequisite = { focus = ACR_army_doctrine_evaluation }
 	relative_position_id = ACR_army_doctrine_evaluation
 	x = 2
@@ -134,7 +134,7 @@ shared_focus = {
 	id = ACR_keep_the_militia_structure
 	prerequisite = { focus = ACR_from_before_the_war }
 	prerequisite = { focus = ACR_learn_from_the_reds }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_keep_the_militia_structure
 	relative_position_id = ACR_army_doctrine_evaluation
 	mutually_exclusive = { focus = ACR_look_for_options}
 
@@ -167,7 +167,7 @@ shared_focus = {
 	id = ACR_look_for_options
 	prerequisite = { focus = ACR_from_before_the_war }
 	prerequisite = { focus = ACR_and_past_the_amazonia }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_look_for_options
 	relative_position_id = ACR_army_doctrine_evaluation
 	mutually_exclusive = { focus = ACR_keep_the_militia_structure }
 
@@ -989,7 +989,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_lay_down_the_groundwork
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_lay_down_the_groundwork
 	prerequisite = { focus = ACR_the_university_of_rio_branco }
 	relative_position_id = ACR_the_university_of_rio_branco
 	x = -1
@@ -1512,7 +1512,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_fix_the_roads
 	prerequisite = { focus = ACR_building_a_capital }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_connect_the_cities
 	relative_position_id = ACR_building_a_capital
 
 	x = -4
@@ -1776,7 +1776,7 @@ shared_focus = {
 	id = ACR_acre_united
 	prerequisite = { focus = ACR_map_the_rivers }
 	prerequisite = { focus = ACR_connect_the_cities }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_acre_united
 	relative_position_id = ACR_building_a_capital
 
 	x = 0

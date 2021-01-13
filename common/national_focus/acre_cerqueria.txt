@@ -16,7 +16,7 @@ shared_focus = {
 	id = ACR_sideline_tappers
 	prerequisite = { focus = ACR_cerqueria_presidency }
 	relative_position_id = ACR_cerqueria_presidency
-	#icon = 
+	icon = GFX_goal_sideline_the_tappers
 
 	x = -3
 	y = 1
@@ -32,7 +32,7 @@ shared_focus = {
 	id = ACR_arrest_communist_sympathisers
 	prerequisite = { focus = ACR_sideline_tappers }
 	relative_position_id = ACR_sideline_tappers
-	#icon = 
+	icon = GFX_goal_arrest_communist_sympathizers
 
 	x = -1
 	y = 1
