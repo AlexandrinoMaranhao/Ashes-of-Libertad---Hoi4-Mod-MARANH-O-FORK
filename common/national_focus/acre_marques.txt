@@ -8,11 +8,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-		country_event = {
-			id = ACRMarques.1
-			days = 0
-		}
+	completion_reward = {	
+
 	}
 }
 shared_focus = {
@@ -27,11 +24,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-		swap_ideas = {
-					remove_idea = country_of_seringueiros
-					add_idea = country_of_seringueiros_2
-				}
+	completion_reward = {	
+
 	}
 }
 shared_focus = {
@@ -47,11 +41,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-		country_event = {
-			id = ACRMarques.2
-			days = 0
-		}
+	completion_reward = {	
+
 	}
 }
 shared_focus = {
@@ -67,11 +58,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-		country_event = {
-			id = ACRIntroduction.1
-			days = 0
-		}
+	completion_reward = {	
+
 	}
 }
 shared_focus = {
@@ -87,11 +75,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-		country_event = {
-			id = ACRIntroduction.1
-			days = 0
-		}
+	completion_reward = {	
+
 	}
 }
 shared_focus = {
@@ -106,9 +91,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-		add_ideas = limited_exports
-		add_ideas = idea_AOL_total_censorship
+	completion_reward = {	
+
 	}
 }
 shared_focus = {
@@ -123,8 +107,8 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {
-	    add_ideas = slavery_banned
+	completion_reward = {	
+
 	}
 }
 shared_focus = {

@@ -22,32 +22,6 @@ ideas = {
 
 			}
 		}
-		
-		country_of_seringueiros_2 = {
-			
-			allowed = {
-				tag = ACR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-			
-			stability_factor = 0.1
-			production_speed_industrial_complex_factor = -0.05
-			production_speed_arms_factory_factor = -0.05
-			}
-		}
 		the_red_menace = {
 			
 			allowed = {
@@ -247,22 +221,6 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
-		}
-		ACR_banana_bread_and_theater = {
-		
-		    allowed = {
-		        tag = ACR
-		    }
-		    
-		    allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				stability_factor = 0.05
-				conscription_factor = -0.1
-			}
-		
 		}
 	}
 }
