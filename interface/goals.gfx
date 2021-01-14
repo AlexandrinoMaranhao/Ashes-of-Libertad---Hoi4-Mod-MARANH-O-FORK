@@ -57,6 +57,46 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/arrest_communist_sympathizers.dds"
 	}	
     
+		SpriteType = {
+	name = "GFX_goal_ROR_Agriculture"
+	texturefile = "gfx/interface/goals/ROR_Agriculture.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Convincing_The_Officers"
+	texturefile = "gfx/interface/goals/ROR_Convincing_The_Officers.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Drafting_A_Plan"
+	texturefile = "gfx/interface/goals/ROR_Drafting_A_Plan.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_flyby"
+	texturefile = "gfx/interface/goals/ROR_flyby.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Keep_It_Clean"
+	texturefile = "gfx/interface/goals/ROR_Keep_It_Clean.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Martyrs_For_Revolution"
+	texturefile = "gfx/interface/goals/ROR_Martyrs_For_Revolution.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Pardon_Ex_Governors"
+	texturefile = "gfx/interface/goals/ROR_Pardon_Ex_Governors.dds"
+	}	
+	SpriteType = {
+	name = "GFX_goal_ROR_Reaching_Out"
+	texturefile = "gfx/interface/goals/ROR_Reaching_Out.dds"
+	}	
+	
+	
 	SpriteType = {
 	name = "GFX_goal_sike"
 	texturefile = "gfx/interface/goals/sike.dds"
