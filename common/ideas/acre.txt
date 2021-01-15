@@ -392,5 +392,21 @@ ideas = {
 				conscription_factor = 0.15
 			}
 		}
+		ACR_banana_bread_and_theater = {
+		
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				conscription_factor = -0.1
+			}
+		
+		}
 	}	
 }
