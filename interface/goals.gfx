@@ -47,6 +47,67 @@ spriteTypes = {
 	name = "GFX_goal_ROR_Reaching_Out"
 	texturefile = "gfx/interface/goals/ROR_Reaching_Out.dds"
 	}	
+       
+	SpriteType = {
+	name = "GFX_goal_the_bosque_correctional_facility"
+	texturefile = "gfx/interface/goals/the_bosque_correctional_facility.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_centralize_the_command"
+	texturefile = "gfx/interface/goals/centralize_the_command.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_to_the_highest_bidder"
+	texturefile = "gfx/interface/goals/to_the_highest_bidder.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_government_buildings"
+	texturefile = "gfx/interface/goals/government_buildings.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_gather_engineers"
+	texturefile = "gfx/interface/goals/gather_engineers.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_buying_votes_in_the_senate"
+	texturefile = "gfx/interface/goals/buying_votes_in_the_senate.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_revise_workers_rights"
+	texturefile = "gfx/interface/goals/revise_workers_rights.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_arrest_nationalists"
+	texturefile = "gfx/interface/goals/arrest_nationalists.dds"
+	}	
+     
+	SpriteType = {
+	name = "GFX_goal_helio_compromise_militarists"
+	texturefile = "gfx/interface/goals/helio_compromise_militarists.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_helio_compromise_technocrats"
+	texturefile = "gfx/interface/goals/helio_compromise_technocrats.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_marques_compromise_militarists"
+	texturefile = "gfx/interface/goals/marques_compromise_militarists.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_marques_compromise_nationalists"
+	texturefile = "gfx/interface/goals/marques_compromise_nationalists.dds"
+	}	
+      
 	SpriteType = {
 	name = "GFX_goal_extra_autonomous_units"
 	texturefile = "gfx/interface/goals/extra_autonomous_units.dds"

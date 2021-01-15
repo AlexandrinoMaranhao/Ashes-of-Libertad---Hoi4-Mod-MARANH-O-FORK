@@ -31,7 +31,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_compromise_with_technocrats
-	#icon = GFX_goal_ACR_regulate_expansion_rubber_plantations
+	icon = GFX_goal_helio_compromise_technocrats
 	prerequisite = { focus = ACR_regulate_expansion_rubber_plantations }
 	relative_position_id = ACR_regulate_expansion_rubber_plantations
 
@@ -66,7 +66,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_compromise_with_militarists
-	#icon = 
+	icon = GFX_goal_helio_compromise_militarists
 	prerequisite = { focus = ACR_regulate_expansion_rubber_plantations }
 	relative_position_id = ACR_regulate_expansion_rubber_plantations
 
@@ -119,7 +119,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_buying_votes_senate
-	#icon = 
+	icon = GFX_goal_buying_votes_in_the_senate
 	prerequisite = { focus = ACR_compromise_with_tappers }
 	relative_position_id = ACR_compromise_with_tappers
 

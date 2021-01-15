@@ -22,7 +22,7 @@ set_popularities = {
 	communism = 0
 	neutrality = 100
 	reactionary = 0
-s
+
 }
 
 add_ideas = {
@@ -31,7 +31,7 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = ""
+	name = "Bernard Hayot"
 	expire = "1999.1.1"
 	ideology = corporate_state_status_quo
 	traits = {

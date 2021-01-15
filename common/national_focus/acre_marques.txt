@@ -33,7 +33,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_worker_cause }
 	relative_position_id = ACR_worker_cause
 	mutually_exclusive = { focus = ACR_compromise_with_militarists_two }
-	#icon = 
+	icon = GFX_goal_marques_compromise_nationalists
 
 	x = -1
 	y = 1
@@ -50,7 +50,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_worker_cause }
 	relative_position_id = ACR_worker_cause
 	mutually_exclusive = { focus = ACR_compromise_with_nationalists }
-	#icon = 
+	icon = GFX_goal_marques_compromise_militarists
 
 	x = 1
 	y = 1
@@ -99,7 +99,7 @@ shared_focus = {
 	id = ACR_revise_worker_rights
 	prerequisite = { focus = ACR_haha_sike }
 	relative_position_id = ACR_haha_sike
-	#icon = 
+	icon = GFX_goal_revise_workers_rights
 
 	x = 0
 	y = 1

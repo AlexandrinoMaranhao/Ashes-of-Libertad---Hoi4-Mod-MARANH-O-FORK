@@ -64,7 +64,7 @@ shared_focus = {
 	id = ACR_forge_charges_against_nationalists
 	prerequisite = { focus = ACR_sideline_tappers }
 	relative_position_id = ACR_sideline_tappers
-	#icon = 
+	icon = GFX_goal_arrest_nationalists
 
 	x = 1
 	y = 1
@@ -97,7 +97,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_assassinate_helio_cury }
 	prerequisite = { focus = ACR_arrest_marques_for_reason }
 	relative_position_id = ACR_assassinate_helio_cury
-	#icon = 
+	icon = GFX_goal_the_bosque_correctional_facility
 
 	x = -1
 	y = 1

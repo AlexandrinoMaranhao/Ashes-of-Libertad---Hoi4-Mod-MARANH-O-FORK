@@ -29,16 +29,16 @@ add_ideas = {
 	
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Aimé Fernand David Césaire"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Aime_Fernand_David_Cesaire.dds"
+	expire = "1999.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
 
 
 }

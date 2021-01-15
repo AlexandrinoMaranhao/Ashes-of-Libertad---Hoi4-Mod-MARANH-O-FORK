@@ -199,7 +199,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_centralize_the_command_structure
 	prerequisite = { focus = ACR_look_for_options }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_centralize_the_command
 	relative_position_id = ACR_army_doctrine_evaluation
 	mutually_exclusive = { focus = ACR_to_the_highest_bidder}
 
@@ -231,7 +231,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_to_the_highest_bidder
 	prerequisite = { focus = ACR_look_for_options }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_to_the_highest_bidder
 	relative_position_id = ACR_army_doctrine_evaluation
 	mutually_exclusive = { focus = ACR_centralize_the_command_structure}
 
@@ -1015,7 +1015,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_gather_engineers
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_gather_engineers
 	prerequisite = { focus = ACR_the_university_of_rio_branco }
 	relative_position_id = ACR_the_university_of_rio_branco
 	x = 1
@@ -1539,7 +1539,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_reestore_public_buildings
 	prerequisite = { focus = ACR_building_a_capital }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_government_buildings
 	relative_position_id = ACR_building_a_capital
 
 	x = -2

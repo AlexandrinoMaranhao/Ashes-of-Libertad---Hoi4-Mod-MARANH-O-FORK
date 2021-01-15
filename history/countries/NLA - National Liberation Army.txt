@@ -32,7 +32,8 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Juan Pablo Chang Navarro"
+	name = "Héctor Béjar"
+	picture = "gfx/leaders/PRU/Portrait_PRU_ELN_dude.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
 	traits = {
