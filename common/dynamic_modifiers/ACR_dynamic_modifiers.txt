@@ -8,6 +8,9 @@ ACR_country_of_seringueiros = { # Country of Tappers
 	trade_opinion_factor = ACR_trade_opinion_factor
 	monthly_population = ACR_monthly_population
 	army_org_regain = ACR_army_org_regain
+	production_speed_buildings_factor = ACR_production_speed_buildings_factor
+	line_change_production_efficiency_factor = ACR_line_change_production_efficiency_factor
+	trade_opinion_factor = ACR_trade_opinion_factor
 }
 
 ACR_country_of_acreans = { # Country of Acreans

@@ -91,5 +91,28 @@ ideas = {
 
 			}
 		}
+		MNS_rubber_crisis = {
+			picture = GFX_idea_MNS_rubber_crisis
+			
+			allowed = {
+				tag = MNS
+			}
+			
+			available = {
+			
+			}
+			
+			cancel = {
+			
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				
+			}
+		}
 	}
 }

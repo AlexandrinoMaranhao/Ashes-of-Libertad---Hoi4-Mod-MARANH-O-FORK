@@ -40,6 +40,42 @@ country_event = {
 	}
 } 
 
+country_event = {
+	id = MNS_Marques.1
+	title = MNS_Marques.1.t
+	desc = MNS_Marques.1.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = MNS_Marques.1.A
+		declare_war_on = {
+   			target = ACR
+    		type = annex_everything
+		}
+	}
+	option = {
+		name = MNS_Marques.1.B
+		89 = {
+			add_resource = { type = ammunition amount = 4 }
+		}
+		89 = {
+			add_resource = { type = motors amount = 4 }
+		}
+		89 = {
+			add_resource = { type = technology amount = 2 }
+		}
+		96 = {
+			add_resource = { type = rubber amount = 12 }
+		}
+		remove_ideas = MNS_rubber_crisis
+	}
+	option = {
+		name = MNS_Marques.1.C
+	}
+}
 
 #########################################################################
 # 1967 Opening Show

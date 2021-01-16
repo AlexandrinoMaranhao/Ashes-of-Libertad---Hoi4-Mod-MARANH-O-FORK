@@ -28,7 +28,9 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		
+		set_variable = { var = ACR_stability_factor = 0.1 }
+		subtract_from_variable = { var = ACR_industrial_capacity_factory = 0.05 }
+		set_variable = { var = ACR_production_speed_buildings_factor = -0.05 }
 	}
 }
 shared_focus = {
@@ -122,6 +124,14 @@ shared_focus = {
 
 	completion_reward = {
 	    add_ideas = slavery_banned
+	    destroy_resource = {
+    		type = rubber
+    		amount = 8
+    		state = 106
+		}
+		89 = {
+			add_resource = { type = rubber amount = -8 }
+		}	
 	}
 }
 shared_focus = {
@@ -137,7 +147,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		set_variable = { ACR_army_org_regain = 0.15 }
+		set_variable = { var = ACR_army_org_regain = 0.15 }
 	}
 }
 shared_focus = {
@@ -158,12 +168,14 @@ shared_focus = {
 			bonus = 0.5
 			uses = 1
 			category = hospital_tech
+		}
 		89 = {
 			add_building_construction = {
 				type = industrial_complex
 				level = 2
 				instant_build = yes
 			}
+		}
 	}
 }
 shared_focus = {
@@ -184,8 +196,10 @@ shared_focus = {
 			bonus = 1
 			uses = 2
 			category = hospital_tech
+		}
 	}
 }
+
 shared_focus = {
 	id = ACR_education_for_common_man
 	prerequisite = { focus = ACR_jungle_hospitals }
@@ -200,7 +214,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		add_variable = { ACR_research_speed_factor = 0.05 }
+		add_to_variable = { var = ACR_research_speed_factor = 0.05 }
 	}
 }
 shared_focus = {
@@ -217,7 +231,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		add_ideas = a20_literacy
+		add_ideas = a50_literacy
 	}
 }
 shared_focus = {
@@ -235,7 +249,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {		
-		add_ideas = a20_literacy
+		add_ideas = a50_literacy
 		add_popularity = {
     		ideology = communism
     		popularity = 0.15
@@ -256,7 +270,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_to_variable = { var = ACR_production_speed_buildings_factor = 0.1 }
+		add_to_variable = { var = ACR_industrial_capacity_factory = 0.05 }
+		set_variable = { var = ACR_line_change_production_efficiency_factor = 0.05 }
+		set_variable = { var = ACR_trade_opinion_factor = 0.5 }
 	}
 }
 shared_focus = {
@@ -276,6 +293,9 @@ shared_focus = {
 			id = ACRMarques.5
 			days = 0
 		}
+		MNS = {
+			add_ideas = MNS_rubber_crisis
+		}
 	}
 }
 shared_focus = {
@@ -291,7 +311,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = {
+			id = ACRMarques.6
+			days = 0
+		}
 	}
 }
 shared_focus = {
@@ -307,7 +330,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		MNS = {
+			country_event = {
+				id = MNS_Marques.1
+				days = 0
+			}
+		}
 	}
 }
 shared_focus = {

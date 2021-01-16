@@ -1256,3 +1256,29 @@ country_event = {
 		name = ACRMarques.5.A
 	}
 }
+
+country_event = {
+	id = ACRMarques.6
+	title = ACRMarques.6.t
+	desc = ACRMarques.6.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.6.A
+		89 = {
+			add_resource = { type = ammunition amount = -3 }
+		}
+		96 = {
+			add_resource = { type = rubber amount = -12 }
+		}
+		89 = {
+			add_resource = { type = rubber amount = 12 }
+		}
+		96 = {
+			add_resource = { type = ammunition amount = 3 }
+		}
+	}
+}
