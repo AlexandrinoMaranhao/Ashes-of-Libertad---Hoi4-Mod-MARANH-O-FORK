@@ -137,7 +137,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		set_variable = { ACR_army_org_regain = 0.15 }
 	}
 }
 shared_focus = {
@@ -154,7 +154,16 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = hospital_tech
+		89 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
 	}
 }
 shared_focus = {
@@ -171,7 +180,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = hospital_tech
 	}
 }
 shared_focus = {
@@ -188,7 +200,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_variable = { ACR_research_speed_factor = 0.05 }
 	}
 }
 shared_focus = {
@@ -205,7 +217,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = a20_literacy
 	}
 }
 shared_focus = {
@@ -222,8 +234,12 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {	
-
+	completion_reward = {		
+		add_ideas = a20_literacy
+		add_popularity = {
+    		ideology = communism
+    		popularity = 0.15
+		}
 	}
 }
 shared_focus = {
@@ -256,7 +272,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = {
+			id = ACRMarques.5
+			days = 0
+		}
 	}
 }
 shared_focus = {

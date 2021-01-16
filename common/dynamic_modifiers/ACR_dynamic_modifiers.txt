@@ -7,6 +7,7 @@ ACR_country_of_seringueiros = { # Country of Tappers
 	stability_factor = ACR_stability_factor
 	trade_opinion_factor = ACR_trade_opinion_factor
 	monthly_population = ACR_monthly_population
+	army_org_regain = ACR_army_org_regain
 }
 
 ACR_country_of_acreans = { # Country of Acreans

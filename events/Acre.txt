@@ -5,6 +5,7 @@
 add_namespace = ACRIntroduction
 add_namespace = ACR
 add_namespace = ACR_ERN
+add_namespace = ACRMarques
 
 #########################################################################
 # ACR_intro_one
@@ -1242,3 +1243,16 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = ACRMarques.5
+	title = ACRMarques.5.t
+	desc = ACRMarques.5.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.5.A
+	}
+}
