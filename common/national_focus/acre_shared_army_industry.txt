@@ -139,29 +139,18 @@ shared_focus = {
 	mutually_exclusive = { focus = ACR_look_for_options}
 
 	x = -1
-	y = 2
+	y = 	cost = 1
 
-
-	cost = 1
-
-	ai_will_do = {
-		factor = 1
-	}
-
-	available = {
-	}
-	
-	bypass = {
-	}
+	ai_will_do = { factor = 1 }
+	available = {	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-
 	completion_reward = {	
-
-}
+		army_experience = 10
+	}
 }
 shared_focus = {
 	id = ACR_look_for_options
