@@ -12,4 +12,3 @@ ACR_compensation_trade_category = {
 		tag = ACR
 	}	
 }
-

@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_Convincing_The_Officers
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		icon = GFX_goal_ROR_Convincing_The_Officers
 		prerequisite = { focus = ROR_A_Merry_Band_Of_Misfits }
 		x = -1
 		y = 1
@@ -88,7 +88,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_Drafting_A_Plan
-		icon = GFX_focus_ger_bulwark_against_bolshevism
+		icon = GFX_goal_ROR_Drafting_A_Plan
 		prerequisite = { focus = ROR_A_Merry_Band_Of_Misfits }
 		x = 1
 		y = 1
@@ -159,7 +159,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_reaching_out
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_ROR_Reaching_Out
 		prerequisite = { focus = ROR_Making_A_List }
 		x = -2
 		y = 3
@@ -369,7 +369,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_fly_by
-		icon = GFX_goal_Naughty_or_nice
+		icon = GFX_goal_ROR_flyby
 		mutually_exclusive = { focus = ROR_by_boat }
 		prerequisite = { focus = ROR_fonte_boa }
 		x = -3
@@ -523,7 +523,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_keep_it_bloodless
-		icon = GFX_goal_Naughty_or_nice
+		icon = GFX_goal_ROR_Keep_It_Clean
 		prerequisite = { focus = ROR_boa_vista_reorganization }
 		x = 2
 		y = 4
@@ -555,7 +555,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_revolutions_need_martyrs
-		icon = GFX_goal_Naughty_or_nice
+		icon = GFX_goal_ROR_Martyrs_For_Revolution
 		prerequisite = { focus = ROR_boa_vista_reorganization }
 		x = 6
 		y = 4
@@ -587,7 +587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROR_pardon_ex_governors
-		icon = GFX_goal_Naughty_or_nice
+		icon = GFX_goal_ROR_Pardon_Ex_Governors
 		prerequisite = { focus = ROR_keep_it_bloodless }
 		mutually_exclusive = { focus = ROR_wilsons_new_cabinet }
 

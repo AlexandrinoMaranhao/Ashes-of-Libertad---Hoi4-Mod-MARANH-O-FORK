@@ -8,6 +8,8 @@
  UFO:0 "Akashic Society"
  NLA:0 "Ejército de Liberación Nacional"
  FCP:0 "Federación Campesina del Perú"
+ UNO:0 "UNO"
+ SEC:0 "Socialist Republic of Ecuador"
 
  HIE_neutrality_DEF:0 "the city State of Lima"
  HIE_DEF:0 "the Holy Inca Empire"
@@ -18,6 +20,8 @@
  UFO_DEF:0 "the Akashic Society"
  NLA_DEF:0 "the Ejército de Liberación Nacional"
  FCP_DEF:0 "the Federación Campesina del Perú"
+ UNO_DEF:0 "the UNO"
+ SEC_DEF:0 "the Socialist Republic of Ecuador"
 
  MAL:0 "2nd Malê Revolt"
  PCR:0 "PCR"
@@ -44,6 +48,8 @@
  UFO_ADJ:0 "Peruvian"
  NLA_ADJ:0 "Peruvian"
  FCP_ADJ:0 "Peruvian"
+ UNO_ADJ:0 "Peruvian"
+ SEC_ADJ:0 "Ecuadorian"
 
  ACC:0 "Anti-Communist League of the Caribbean"
  ACC_DEF:0 "the Anti-Communist League of the Caribbean"

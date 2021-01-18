@@ -32,6 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Fernando Belaúnde Terry"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Belaude.dds"
 	expire = "1999.1.1"
 	ideology = provisional_government
 	traits = {

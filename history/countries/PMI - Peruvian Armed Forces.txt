@@ -32,6 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Velasco Alvarado"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Alvarado.dds"
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {

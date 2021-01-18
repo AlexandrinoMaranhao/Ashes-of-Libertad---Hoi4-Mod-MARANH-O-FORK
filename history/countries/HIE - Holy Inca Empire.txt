@@ -33,7 +33,8 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Alfredo Inca Roca"
+	name = "Nicomedes Santa Cruz Gamarra"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Inca_Roca.dds"
 	expire = "1999.1.1"
 	ideology = city_state
 	traits = {
@@ -41,5 +42,15 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	
+	name = "Alfredo Inca Roca"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Inca_Roca.dds"
+	expire = "1999.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		#
+	}
+}
 
 }

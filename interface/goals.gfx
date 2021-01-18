@@ -2,11 +2,250 @@ spriteTypes = {
 
 	#### Generic continuous goal icons
 
+#  
+#	SpriteType = {
+#	name = "GFX_goal_"
+#	texturefile = "gfx/interface/goals/.dds"
+#	}	
+#  
+          
+		SpriteType = {
+	name = "GFX_goal_ROR_Agriculture"
+	texturefile = "gfx/interface/goals/ROR_Agriculture.dds"
+	}	
 
+		SpriteType = {
+	name = "GFX_goal_ROR_Convincing_The_Officers"
+	texturefile = "gfx/interface/goals/ROR_Convincing_The_Officers.dds"
+	}	
 
+		SpriteType = {
+	name = "GFX_goal_ROR_Drafting_A_Plan"
+	texturefile = "gfx/interface/goals/ROR_Drafting_A_Plan.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_flyby"
+	texturefile = "gfx/interface/goals/ROR_flyby.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Keep_It_Clean"
+	texturefile = "gfx/interface/goals/ROR_Keep_It_Clean.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Martyrs_For_Revolution"
+	texturefile = "gfx/interface/goals/ROR_Martyrs_For_Revolution.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Pardon_Ex_Governors"
+	texturefile = "gfx/interface/goals/ROR_Pardon_Ex_Governors.dds"
+	}	
+	SpriteType = {
+	name = "GFX_goal_ROR_Reaching_Out"
+	texturefile = "gfx/interface/goals/ROR_Reaching_Out.dds"
+	}	
+       
+	SpriteType = {
+	name = "GFX_goal_the_bosque_correctional_facility"
+	texturefile = "gfx/interface/goals/the_bosque_correctional_facility.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_centralize_the_command"
+	texturefile = "gfx/interface/goals/centralize_the_command.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_to_the_highest_bidder"
+	texturefile = "gfx/interface/goals/to_the_highest_bidder.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_government_buildings"
+	texturefile = "gfx/interface/goals/government_buildings.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_gather_engineers"
+	texturefile = "gfx/interface/goals/gather_engineers.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_buying_votes_in_the_senate"
+	texturefile = "gfx/interface/goals/buying_votes_in_the_senate.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_revise_workers_rights"
+	texturefile = "gfx/interface/goals/revise_workers_rights.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_arrest_nationalists"
+	texturefile = "gfx/interface/goals/arrest_nationalists.dds"
+	}	
+     
+	SpriteType = {
+	name = "GFX_goal_helio_compromise_militarists"
+	texturefile = "gfx/interface/goals/helio_compromise_militarists.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_helio_compromise_technocrats"
+	texturefile = "gfx/interface/goals/helio_compromise_technocrats.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_marques_compromise_militarists"
+	texturefile = "gfx/interface/goals/marques_compromise_militarists.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_marques_compromise_nationalists"
+	texturefile = "gfx/interface/goals/marques_compromise_nationalists.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_extra_autonomous_units"
+	texturefile = "gfx/interface/goals/extra_autonomous_units.dds"
+	}	
+ 
+	SpriteType = {
+	name = "GFX_goal_arrest_communist_sympathizers"
+	texturefile = "gfx/interface/goals/arrest_communist_sympathizers.dds"
+	}	
+    
+		SpriteType = {
+	name = "GFX_goal_ROR_Agriculture"
+	texturefile = "gfx/interface/goals/ROR_Agriculture.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Convincing_The_Officers"
+	texturefile = "gfx/interface/goals/ROR_Convincing_The_Officers.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Drafting_A_Plan"
+	texturefile = "gfx/interface/goals/ROR_Drafting_A_Plan.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_flyby"
+	texturefile = "gfx/interface/goals/ROR_flyby.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Keep_It_Clean"
+	texturefile = "gfx/interface/goals/ROR_Keep_It_Clean.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Martyrs_For_Revolution"
+	texturefile = "gfx/interface/goals/ROR_Martyrs_For_Revolution.dds"
+	}	
+
+		SpriteType = {
+	name = "GFX_goal_ROR_Pardon_Ex_Governors"
+	texturefile = "gfx/interface/goals/ROR_Pardon_Ex_Governors.dds"
+	}	
+	SpriteType = {
+	name = "GFX_goal_ROR_Reaching_Out"
+	texturefile = "gfx/interface/goals/ROR_Reaching_Out.dds"
+	}	
+	
+	
+	SpriteType = {
+	name = "GFX_goal_sike"
+	texturefile = "gfx/interface/goals/sike.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_promise_to_limit_the_reforms"
+	texturefile = "gfx/interface/goals/promise_to_limit_the_reforms.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Compromise_helio"
+	texturefile = "gfx/interface/goals/Compromise_helio.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_lay_down_the_groundwork"
+	texturefile = "gfx/interface/goals/lay_down_the_groundwork.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_connect_the_cities"
+	texturefile = "gfx/interface/goals/connect_the_cities.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_keep_the_militia_structure"
+	texturefile = "gfx/interface/goals/keep_the_militia_structure.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_look_for_options"
+	texturefile = "gfx/interface/goals/look_for_options.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_acre_united"
+	texturefile = "gfx/interface/goals/acre_united.dds"
+	}	
+   
+	SpriteType = {
+	name = "GFX_goal_sideline_the_tappers"
+	texturefile = "gfx/interface/goals/sideline_the_tappers.dds"
+	}	
+       
+	SpriteType = {
+	name = "GFX_goal_the_workers_cause"
+	texturefile = "gfx/interface/goals/the_workers_cause.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_end_the_correrias"
+	texturefile = "gfx/interface/goals/end_the_correrias.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_and_pass_the_amazon"
+	texturefile = "gfx/interface/goals/and_pass_the_amazon.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_ACR_mr_carneiros_class"
+	texturefile = "gfx/interface/goals/mr_carneiros_class.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_the_cerqueira_presidency"
+	texturefile = "gfx/interface/goals/the_cerqueira_presidency.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_regulate_expansion_rubber_plantations"
+	texturefile = "gfx/interface/goals/ACR_regulate_expansion_rubber_plantations.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_ACR_cury_presidency"
+	texturefile = "gfx/interface/goals/the_helio_presidency.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_ACR_marques_presidency"
+	texturefile = "gfx/interface/goals/the_marques_presidency.dds"
+	}	
+ 
 	SpriteType = {
 	name = "GFX_goal_Learn_from_the_Reds"
-	texturefile = "gfx/interface/goals/Learn from the Reds.dds"
+	texturefile = "gfx/interface/goals/Learn_from_the_Reds.dds"
 	}	
 
 	SpriteType = {

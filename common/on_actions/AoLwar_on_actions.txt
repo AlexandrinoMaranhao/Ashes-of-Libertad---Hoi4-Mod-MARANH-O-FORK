@@ -81,9 +81,9 @@ on_actions = {
     on_declare_war = {
         effect = {
             if = {
-                limit = {
-                    has_country_flag = S_guanabara_battle
-                }
+               #limit = {
+               #    has_country_flag = S_guanabara_battle
+               #}
                 CRJ = {
                     country_event = {
                         id = CRJ_guanabara.2
@@ -99,6 +99,43 @@ on_actions = {
             }
         }
     }
+    #### PERUVIAN SENGOKU JIDAI
+    on_startup = {
+        effect = {
+            RPE = {
+                country_event = {
+                    id = PERU.1
+                    days = 40
+                }
+            }
+            PMI = {
+                country_event = {
+                    id = PERU.5
+                    days = 40
+                    }
+            }
+            NCA = {
+                country_event = {
+                    id = PERU.2
+                    days = 69 #nice
+                    }
+            }
+            INC = {
+                country_event = {
+                    id = PERU.7
+                    days = 353 
+                    }
+            }
+            PRU = {
+                country_event = {
+                    id = PERUNORTE.1
+                    days = 320 
+                    }
+            }
+
+        }
+    }
+
 
   #### JUNTA BREAK UP #####
 

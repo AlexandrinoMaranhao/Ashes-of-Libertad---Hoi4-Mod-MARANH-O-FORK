@@ -1,3 +1,13 @@
+UNO = {
+	color = rgb { 160 90 0 }
+	color_ui = rgb { 160 90 0 }
+}
+
+SEC = {
+	color = rgb { 132 78 78 }
+	color_ui = rgb { 132 78 78 }
+}
+
 HIE = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
@@ -663,7 +673,7 @@ GDL = {
 }
 
 JCL = {
-	color = rgb { 128 32 33 }
+	color = rgb { 123 74 74 }
 	color_ui = rgb { 30 7 8 }
 }
 

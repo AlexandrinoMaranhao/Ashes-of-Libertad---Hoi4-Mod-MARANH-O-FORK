@@ -1062,7 +1062,7 @@ custom_effect_tooltip = army_org_t
 	#37
 		focus = {
 		id = ROR_And_The_Fields
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_ROR_Agriculture
 		prerequisite = { focus = ROR_Addressing_Our_Shortages }
 		x = 0
 		y = 1
