@@ -31,7 +31,8 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Cesar Galvez Velarde"
+	name = "Eye Spinning Thing idk"
+	picture = "GFX_Portrait_UFO_leader"
 	expire = "1999.1.1"
 	ideology = posadism
 	traits = {

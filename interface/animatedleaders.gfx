@@ -1,0 +1,10 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_Portrait_UFO_leader"
+		texturefile = "gfx/leaders/UFO/Portrait_Sprite_Sheet.dds"
+		noOfFrames = 54
+		animation_rate_fps = 18
+		looping = yes
+		play_on_show = yes
+	}
+}
