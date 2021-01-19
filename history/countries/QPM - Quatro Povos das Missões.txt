@@ -32,6 +32,7 @@ add_ideas = {
 
 	antas
 	modern_missiones
+	neblina_exploited
 }
 
 set_country_flag = has_unique_advisors

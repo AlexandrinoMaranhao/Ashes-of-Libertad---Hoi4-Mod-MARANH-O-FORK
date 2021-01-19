@@ -53,6 +53,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Alexandre Montoril"
+	desc = "COR_MONTORIL_DESC"
 	picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
 	expire = "1999.1.1"
 	ideology = pirate_federation

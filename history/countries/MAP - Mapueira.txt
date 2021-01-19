@@ -1,4 +1,4 @@
-﻿capital = 118
+﻿capital = 119
 
 #oob = ""
 
@@ -33,7 +33,6 @@ add_ideas = {
 	closed_economy
 
 	mapuera_tribe
-	displaced_tribe
 	military_oppression
 
 }

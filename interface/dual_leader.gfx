@@ -94,6 +94,16 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/CRJ/Portrait_CRJ_Olimpio_Mourao.dds"
 	}
 
+	spriteType = {
+		name = "GFX_HIE_BLANCA"
+		texturefile = "gfx/dual_leaders/PRU/Portrait_PRU_Blanca.dds"
+	}
+
+	spriteType = {
+		name = "GFX_PRU_ODRIA"
+		texturefile = "gfx/dual_leaders/PRU/Portrait_PRU_Odria.dds"
+	}
+
 
 
 }

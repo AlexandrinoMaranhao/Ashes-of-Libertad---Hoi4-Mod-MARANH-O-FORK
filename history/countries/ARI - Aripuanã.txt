@@ -14,7 +14,7 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
@@ -41,7 +41,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Araras do Rio Branco"
-	picture = ""
+	picture = "gfx/leaders/ARI/Portrait_ARI_Araras.dds"
 	expire = "1999.1.1"
 	ideology = tribal
 	traits = {
@@ -52,7 +52,7 @@ create_country_leader = {
 create_country_leader = {
 	
 	name = "Alejandro Lopes"
-	picture = ""
+	picture = "gfx/leaders/ARI/Portrait_ARI_Alejandro_Lopes.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state
 	traits = {
@@ -63,7 +63,7 @@ create_country_leader = {
 create_country_leader = {
 	
 	name = "Olegário Vela"
-	picture = ""
+	picture = "gfx/leaders/ARI/Portrait_ARI_Vela.dds"
 	expire = "1999.1.1"
 	ideology = socialism
 	traits = {

@@ -467,6 +467,8 @@ focus = NHA_petition_belem
 						}
 		}
 		}
+        NHA = { transfer_state = 119 }
+        MAP = { add_ideas = displaced_tribe }
 	}
 
 	focus = {

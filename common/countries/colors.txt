@@ -1,3 +1,11 @@
+
+
+
+D01 = {
+	color = rgb { 182 28 0 }
+	color_ui = rgb { 182 28 0 }
+}
+
 UNO = {
 	color = rgb { 160 90 0 }
 	color_ui = rgb { 160 90 0 }
@@ -183,11 +191,6 @@ JAM = {
 CUB = {
 	color = rgb { 127 0 55 }
 	color_ui = rgb { 206 0 89 }
-}
-
-MEX = {
-	color = rgb { 0 196 0 }
-	color_ui = rgb { 0 96 0 }
 }
 
 GUA = {

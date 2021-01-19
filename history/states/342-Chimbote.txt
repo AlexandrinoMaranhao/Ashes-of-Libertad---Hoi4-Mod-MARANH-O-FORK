@@ -6,21 +6,17 @@ state={
 	history={
 		owner = FCP
 		add_core_of = FCP
+		victory_points = {
+			4302 5 
+		}
+		victory_points = {
+			1750 5 
+		}
 
-        victory_points = {
-4302 5
-        }
-
-        
-        victory_points = {
-1750 5
-        }
-
-        
 	}
 
 	provinces={
-		37 732 826 1482 1750 4257 4262 4297 4302 
+		37 826 1482 1750 4210 4257 4262 4297 4302 
 	}
 	manpower=98330
 	buildings_max_level_factor=1.000

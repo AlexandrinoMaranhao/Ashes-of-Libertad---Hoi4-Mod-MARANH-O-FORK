@@ -6,21 +6,17 @@ state={
 	history={
 		owner = PRU
 		add_core_of = PRU
+		victory_points = {
+			4036 30 
+		}
+		victory_points = {
+			4058 10 
+		}
 
-        victory_points = {
-4036 30
-        }
-
-        
-        victory_points = {
-4058 10
-        }
-
-        
 	}
 
 	provinces={
-		127 132 689 1172 2232 4036 4058 4103 4112 
+		127 132 689 1172 2232 4058 4103 4112 
 	}
 	manpower=394884
 	buildings_max_level_factor=1.000

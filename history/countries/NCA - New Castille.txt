@@ -32,7 +32,8 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "PLACEHOLDER"
+	name = "Regency Council of Nueva Castilla"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Regency_Council.dds"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {

@@ -39,7 +39,7 @@ create_country_leader = {
 	name = "Collapsed Government"
 	picture = "gfx/leaders/PIA/Portrait_PIA_Collapsed_Government.dds"
 	expire = "1999.1.1"
-	ideology = anarchy
+	ideology = anarchism
 	traits = {
 		#
 	}

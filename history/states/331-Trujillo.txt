@@ -7,37 +7,20 @@ state={
 		owner = PRU
 		add_core_of = PRU
 
-        victory_points = {
-1356 20
-        }
+		victory_points = {
+			4190 5 
+		}
+		victory_points = {
+			4267 5 
+		}
 
-        
-        victory_points = {
-4190 5
-        }
 
-        
-        victory_points = {
-4267 5
-        }
-
-        
-        victory_points = {
-226 5
-       }
-
-        
-        victory_points = {
-4298 20
-        }
-
-        
 	}
 
 	provinces={
-		226 262 593 1356 1955 2005 2241 4190 4267 4298 
+		262 593 1955 4190 4267 
 	}
-	manpower=239887
+	manpower=39887
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -9,8 +9,8 @@ state={
         state_category=rural
 	buildings_max_level_factor=1.000
             history = {
-             owner=RRG
-             add_core_of = RRG
+             owner=WAS
+             add_core_of = WAS
              victory_points = {
              2739 5
              }

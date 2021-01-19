@@ -34,7 +34,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Nicomedes Santa Cruz Gamarra"
-	picture = "gfx/leaders/PRU/Portrait_PRU_Inca_Roca.dds"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Nicomedes.dds"
 	expire = "1999.1.1"
 	ideology = city_state
 	traits = {

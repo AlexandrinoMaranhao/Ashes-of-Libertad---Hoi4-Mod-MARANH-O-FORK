@@ -20,7 +20,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2647;5060;sea;6048;-1;-1;-1;-1;;Matanzas
 1045;5069;sea;6052;-1;-1;-1;-1;;Matanzas
 2484;5066;sea;6049;-1;-1;-1;-1;;Havana
-2837;1692;sea;5723;-1;-1;-1;-1;;Isla de la Juventud
+6310;5066;sea;6049;-1;-1;-1;-1;;Havana
+2837;6311;sea;5723;-1;-1;-1;-1;;Isla de la Juventud
 5073;5074;sea;6052;-1;-1;-1;-1;;Isla de la Juventud
 5073;2847;sea;6052;-1;-1;-1;-1;;Isla de la Juventud
 5074;5069;sea;6052;-1;-1;-1;-1;;Isla de la Juventud
@@ -219,6 +220,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1748;2715;sea;5635;-1;-1;-1;-1;;Marajó
 1748;3521;sea;5635;-1;-1;-1;-1;;Marajó
 3395;2651;sea;5910;-1;-1;-1;-1;;Mapuera
+3506;3479;sea;6115;-1;-1;-1;-1;;Nhamundá
+3506;2082;sea;6115;-1;-1;-1;-1;;Nhamundá
+
 #
 4048;628;impassable;-1;-1;-1;-1;-1;;Amazonia
 4013;1231;impassable;-1;-1;-1;-1;-1;;Amazonia

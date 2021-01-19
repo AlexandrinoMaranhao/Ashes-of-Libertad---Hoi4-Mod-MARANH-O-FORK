@@ -135,7 +135,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_creation_native_reserves
-	#icon = 
+	icon = GFX_goal_create_native_reserves
 	prerequisite = { focus = ACR_buying_votes_senate }
 	relative_position_id = ACR_buying_votes_senate
 
@@ -162,7 +162,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_create_native_militias
-	#icon = 
+	icon = GFX_goal_form_native_militias
 	prerequisite = { focus = ACR_creation_native_reserves }
 	relative_position_id = ACR_creation_native_reserves
 
@@ -190,7 +190,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_natives_in_army
-	#icon = 
+	icon = GFX_goal_natives_in_the_army
 	prerequisite = { focus = ACR_creation_native_reserves }
 	relative_position_id = ACR_creation_native_reserves
 

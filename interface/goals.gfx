@@ -8,7 +8,62 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-          
+         
+	SpriteType = {
+	name = "GFX_goal_arrest_marques"
+	texturefile = "gfx/interface/goals/arrest_marques.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_assassinate_helio"
+	texturefile = "gfx/interface/goals/assassinate_helio.dds"
+	}	
+ 
+	SpriteType = {
+	name = "GFX_goal_bring_electricity_to_the_city"
+	texturefile = "gfx/interface/goals/bring_electricity_to_the_city.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_the_best_there_is"
+	texturefile = "gfx/interface/goals/the_best_there_is.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_building_a_capital"
+	texturefile = "gfx/interface/goals/building_a_capital.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_bosque_correctional_facility"
+	texturefile = "gfx/interface/goals/bosque_correctional_facility.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_jungle_hospitals"
+	texturefile = "gfx/interface/goals/jungle_hospitals.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_the_placido_castro_hospital"
+	texturefile = "gfx/interface/goals/the_placido_castro_hospital.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_natives_in_the_army"
+	texturefile = "gfx/interface/goals/natives_in_the_army.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_form_native_militias"
+	texturefile = "gfx/interface/goals/form_native_militias.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_create_native_reserves"
+	texturefile = "gfx/interface/goals/create_native_reserves.dds"
+	}	
+ 
 		SpriteType = {
 	name = "GFX_goal_ROR_Agriculture"
 	texturefile = "gfx/interface/goals/ROR_Agriculture.dds"
@@ -43,6 +98,7 @@ spriteTypes = {
 	name = "GFX_goal_ROR_Pardon_Ex_Governors"
 	texturefile = "gfx/interface/goals/ROR_Pardon_Ex_Governors.dds"
 	}	
+
 	SpriteType = {
 	name = "GFX_goal_ROR_Reaching_Out"
 	texturefile = "gfx/interface/goals/ROR_Reaching_Out.dds"

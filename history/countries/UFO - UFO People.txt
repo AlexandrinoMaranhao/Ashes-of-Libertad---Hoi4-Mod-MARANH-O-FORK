@@ -31,7 +31,7 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Eye Spinning Thing idk"
+	name = "Velarde"
 	picture = "GFX_Portrait_UFO_leader"
 	expire = "1999.1.1"
 	ideology = posadism

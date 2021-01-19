@@ -1,26 +1,24 @@
+
 state={
 	id=332
 	name="STATE_332"
+
+	history={
+		owner = INC
+		add_core_of = INC
+		victory_points = {
+			1075 30 
+		}
+		victory_points = {
+			3998 10 
+		}
+
+	}
+
 	provinces={
-		296 422 729 862 1019 1075 1212 1663 1694 1889 2330 2421 2463 2529 3899 3942 3965 3988 3998 4005 4010 4020 4033 
+		296 422 729 862 1019 1075 1663 1694 1889 2421 2463 3899 3942 3965 3988 3998 4005 4010 4020 4033 
 	}
 	manpower=29873
-	state_category=rural
 	buildings_max_level_factor=1.000
-            history = {
-             owner=INC
-             add_core_of = INC
-
-        victory_points = {
-1075 30
-        }
-
-        
-
-        victory_points = {
-3998 10
-        }
-
-        
-}
+	state_category=rural
 }

@@ -136,10 +136,11 @@ shared_focus = {
 	prerequisite = { focus = ACR_learn_from_the_reds }
 	icon = GFX_goal_keep_the_militia_structure
 	relative_position_id = ACR_army_doctrine_evaluation
-	mutually_exclusive = { focus = ACR_look_for_options}
+	mutually_exclusive = { focus = ACR_look_for_options }
 
 	x = -1
-	y = 	cost = 1
+	y = 2	
+	cost = 1
 
 	ai_will_do = { factor = 1 }
 	available = {	}
@@ -283,7 +284,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_the_best_there_is
 	prerequisite = { focus = ACR_centralize_the_command_structure }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_the_best_there_is
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = 1
@@ -1453,7 +1454,7 @@ shared_focus = {
 ##CAPITAL
 shared_focus = {
 	id = ACR_building_a_capital
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_building_a_capital
 	x = 10
 	y = 1
 	cost = 1
@@ -1555,7 +1556,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_bring_light_to_the_city
 	prerequisite = { focus = ACR_building_a_capital }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_bring_electricity_to_the_city
 	relative_position_id = ACR_building_a_capital
 
 	x = 2

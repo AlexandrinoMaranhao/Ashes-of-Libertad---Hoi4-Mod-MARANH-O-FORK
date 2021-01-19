@@ -81,6 +81,22 @@ defined_text = {
    	 }
    	 localization_key = JRM_FIRST_TITLE
     }
+
+	text = {
+   	 trigger = {
+   		 tag = PRU
+   		 has_government = democratic
+   	 }
+   	 localization_key = PRU_FIRST_TITLE
+    }
+
+	text = {
+   	 trigger = {
+   		 tag = HIE
+   		 has_government = neutrality
+   	 }
+   	 localization_key = HIE_FIRST_TITLE
+    }
 	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
@@ -172,8 +188,22 @@ defined_text = {
 		}
 		localization_key = COR_SECOND_TITLE_TWO
 	}
-
 	
+		text = {
+		trigger = {
+			tag = PRU
+			has_government = democratic
+		}
+		localization_key = PRU_SECOND_TITLE
+	}
+		
+		text = {
+		trigger = {
+			tag = HIE
+			has_government = neutrality
+		}
+		localization_key = HIE_SECOND_TITLE
+	}
 }
 #########################
 defined_text = {
@@ -260,7 +290,22 @@ defined_text = {
 		}
 		localization_key = COR_SECOND_LEADER_TWO
 	}
+	
+	  text = {
+		trigger = {
+			tag = PRU
+			has_government = democratic
+		}
+		localization_key = PRU_SECOND_LEADER
+	}	
 
+	  text = {
+		trigger = {
+			tag = HIE
+			has_government = neutrality
+		}
+		localization_key = HIE_SECOND_LEADER
+	}
 
 	text = {
 		localization_key = DEFAULT_TITLE
@@ -358,7 +403,24 @@ defined_text = {
 		}
 		localization_key = "GFX_CRJ_MOURAO"
 	}	
+	
+		text = {
+		trigger = {
+			tag = PRU
+			has_government = democratic
+			
+		}
+		localization_key = "GFX_PRU_ODRIA"
+	}		
 
+		text = {
+		trigger = {
+			tag = HIE
+			has_government = neutrality
+			
+		}
+		localization_key = "GFX_HIE_BLANCA"
+	}	
 
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
@@ -406,4 +468,10 @@ defined_text = {
         localization_key = "ROR_WILSON_DESC"
 	}
 
+    text = {
+        trigger = {
+			original_tag = COR
+        }
+        localization_key = "COR_MONTORIL_DESC"
+	}
 }

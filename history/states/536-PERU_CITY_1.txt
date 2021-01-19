@@ -1,0 +1,19 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		4036 
+	}
+	manpower=79502
+	buildings_max_level_factor=1.000
+        state_category = city
+
+history = {
+		victory_points = {
+			4036 30 
+		}
+		owner = PRU
+		add_core_of = PRU
+
+}
+}

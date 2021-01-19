@@ -286,8 +286,10 @@ country_event = {
     add_core_of = SEC
 }
 
-        UNO = { transfer_state = 331 }
-        UNO = { transfer_state = 330 }
+        UNO = { transfer_state = 324 }
+        UNO = { transfer_state = 536 }
+        UNO = { transfer_state = 537 }
+        UNO = { transfer_state = 358 }
         UNO = {
             declare_war_on = {
                 target = PRU
@@ -301,6 +303,18 @@ country_event = {
             }
         }
 
+        539 = {
+    add_core_of = UNO
+}
+        538 = {
+    add_core_of = UNO
+}
+        537 = {
+    add_core_of = UNO
+}
+        536 = {
+    add_core_of = UNO
+}
         331 = {
     add_core_of = UNO
 }

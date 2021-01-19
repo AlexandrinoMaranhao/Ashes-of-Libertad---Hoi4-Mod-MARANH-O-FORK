@@ -48,7 +48,7 @@ shared_focus = {
 	id = ACR_arrest_marques_for_reason
 	prerequisite = { focus = ACR_arrest_communist_sympathisers }
 	relative_position_id = ACR_arrest_communist_sympathisers
-	#icon = 
+	icon = GFX_goal_arrest_marques
 
 	x = 0
 	y = 1
@@ -80,7 +80,7 @@ shared_focus = {
 	id = ACR_assassinate_helio_cury
 	prerequisite = { focus = ACR_forge_charges_against_nationalists }
 	relative_position_id = ACR_forge_charges_against_nationalists
-	#icon = 
+	icon = GFX_goal_assassinate_helio
 
 	x = 0
 	y = 1
@@ -97,7 +97,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_assassinate_helio_cury }
 	prerequisite = { focus = ACR_arrest_marques_for_reason }
 	relative_position_id = ACR_assassinate_helio_cury
-	icon = GFX_goal_the_bosque_correctional_facility
+	icon = GFX_goal_bosque_correctional_facility
 
 	x = -1
 	y = 1
@@ -113,7 +113,7 @@ shared_focus = {
 	id = ACR_hostile_takeover_of_rubber_trade
 	prerequisite = { focus = ACR_bosque_correctional_facility }
 	relative_position_id = ACR_bosque_correctional_facility
-	#icon = 
+	icon = GFX_goal_the_bosque_correctional_facility
 
 	x = 0
 	y = 1
