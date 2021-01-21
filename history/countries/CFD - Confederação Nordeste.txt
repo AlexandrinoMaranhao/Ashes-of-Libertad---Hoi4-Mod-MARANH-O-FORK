@@ -44,5 +44,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	
+	name = "Collapsed Government"
+	picture = "gfx/leaders/CFD/Portrait_CFD_Collapsed_Government.dds"
+	expire = "1999.1.1"
+	ideology = anarchism
+	traits = {
+		#
+	}
+}
+
 
 }
