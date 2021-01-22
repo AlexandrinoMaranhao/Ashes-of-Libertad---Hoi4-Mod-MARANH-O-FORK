@@ -7,6 +7,7 @@ add_namespace = Caetano
 add_namespace = OpeningShow
 add_namespace = YmaSumac
 add_namespace = MNS_cury_event
+add_namespace = MNS_Marques
 
 country_event = {
 	id = MNS_cury_event.1  ### Meet our Neighbours Acre Focus
@@ -51,9 +52,11 @@ country_event = {
 	#Answer
 	option = {
 		name = MNS_Marques.1.A
-		declare_war_on = {
-   			target = ACR
-    		type = annex_everything
+		MNS = {
+			declare_war_on = {
+   				target = ACR
+    			type = annex_everything
+    		}
 		}
 	}
 	option = {

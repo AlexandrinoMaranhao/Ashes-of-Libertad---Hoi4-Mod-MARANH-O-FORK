@@ -63,6 +63,48 @@ ideas = {
         targeted_modifier = { tag = ERN attack_bonus_against = 0.15 defense_bonus_against = 0.35 }
 
 		}
+		the_red_menacedemil = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+        targeted_modifier = { tag = ERN attack_bonus_against = 0.1 }
+
+		}
+		the_red_menacedemil2 = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+        targeted_modifier = { tag = ERN attack_bonus_against = 0.15 }
+
+		}
 		militia_army = {
 			allowed = {
 				tag = ACR

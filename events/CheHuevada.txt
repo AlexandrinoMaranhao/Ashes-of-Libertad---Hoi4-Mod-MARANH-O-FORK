@@ -3,6 +3,7 @@
 add_namespace = ERN
 add_namespace = ERN_aiwar
 add_namespace = ERN_intro
+add_namespace = ERN_Marques
 
 
 #### INTRO events (there arent any yet)
@@ -54,4 +55,17 @@ country_event = {
         }
         ACR = { country_event = { id = ACR_ERN.2 } }
     }
+}
+
+###ERN_Marques
+
+country_event = {
+	id = ERN_Marques.1  
+	title = ERN_Marques.1.t
+	desc = ERN_Marques.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ERN_Marques.1.a
+	}
 }
