@@ -203,12 +203,7 @@ shared_focus = {
 	completion_reward = {
 		add_manpower = 500
 		add_ideas = ACR_recpop_buff
-		89 = {
-			create_unit = {
-				division = "name = \"Native Battalion\" division_template = \"Native Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-				owner = ACR
-			}
-		}
+		load_oob = "ACR_natives"
 	}
 }
 shared_focus = {
@@ -557,10 +552,10 @@ shared_focus = {
 	relative_position_id = ACR_establish_relations_with_manaus
 
 	available = {
-		has_idea = ACR_idea_rubber_crisis
+		has_idea = idea_rubber_crisis
 	}
 	bypass = {
-		has_idea = ACR_idea_rubber_crisis
+		has_idea = idea_rubber_crisis
 	}
 
 	x = 0

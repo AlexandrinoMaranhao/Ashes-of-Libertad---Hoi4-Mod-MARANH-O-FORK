@@ -1,6 +1,7 @@
 acrean_senate = {
 	icon = acrean_raids
-    allowed = { tag = ACR }
+	allowed = { tag = ACR }
+	visible = { NOT = { has_completed_focus = ACR_siege_senate } }
     visible_when_empty = yes
     priority = 300
 	scripted_gui = acre_senate_category

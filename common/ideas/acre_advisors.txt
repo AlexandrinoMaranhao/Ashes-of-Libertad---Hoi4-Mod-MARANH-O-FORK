@@ -193,7 +193,15 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_assassinate_helio_cury
             }
+            }
+            visible = {
+                NOT = {
+                    has_completed_focus = ACR_assassinate_helio_cury
+                }
+                }
 
         }
 
@@ -201,6 +209,14 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_arrest_marques_for_reason
+            }
+            }
+            visible = {
+            NOT = {
+                    has_completed_focus = ACR_arrest_marques_for_reason
+            } 
             }
 
         }
@@ -241,7 +257,15 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_forge_charges_against_nationalists
             }
+            }
+            visible = {
+                NOT = {
+                    has_completed_focus = ACR_forge_charges_against_nationalists
+                }
+                }
 
         }
 
@@ -249,7 +273,16 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_arrest_communist_sympathisers
             }
+            }
+            visible = {
+                NOT = {
+                    has_completed_focus = ACR_arrest_communist_sympathisers
+                }
+                }
+            
 
         }
 
@@ -257,7 +290,15 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_arrest_communist_sympathisers
             }
+            }
+            visible = {
+                NOT = {
+                    has_completed_focus = ACR_arrest_communist_sympathisers
+                }
+                }
 
         }
 
@@ -281,7 +322,15 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_forge_charges_against_nationalists
             }
+            }
+            visible = {
+                NOT = {
+                    has_completed_focus = ACR_forge_charges_against_nationalists
+                }
+                }
 
         }
 
@@ -289,7 +338,15 @@ ideas = {
 
             allowed = {
             original_tag = ACR
+            NOT = {
+                has_completed_focus = ACR_forge_charges_against_nationalists
             }
+            }
+            visible = {
+                NOT = {
+                    has_completed_focus = ACR_forge_charges_against_nationalists
+                }
+                }
 
         }
 

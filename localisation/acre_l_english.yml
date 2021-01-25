@@ -11,6 +11,10 @@
   ACR_lower_cost_of_everything_1_tt:0 "A Country of Acreans - Trade Deal Opinion Factor §G+50%§!"
   ACR_end_acre_stagnation_1_tt:0 "A Country of Acreans - Monthly Population §G+10%§!"
   ACR_acre_for_acreans_tt:0 "A Country of Acreans - Monthly Population §G+10%§! and Weekly Manpower §G+100%§!"
+  ACR_national_conscription_act_tt:0 "Unlocks a decision allowing us to recruit more manpower"
+  ACR_national_rearment_act_tt:0 "Unlocks a decision allowing us to gain Infantry Equipment and Military Factories."
+  ACR_siege_senate_tt:0 "§RDisables the Senate§!"
+  ACR_tappers_no_tt:0 "Removes the Tappers Protest Idea"
 
 # Decisions
   acrean_senate:0 "The Senate of Acre"
@@ -47,6 +51,10 @@
   acrean_senate_nationalist_remove_3_seat_tt:0 "Will remove three Seats from the §YNationalists§!"
 
   debug_add_militarists_1:0 "Debug - Add 1 Militarist Seat"
+  national_conscription_act:0 "National Conscription Act"
+  national_disarmament_act:0 "National Disarmament Act"
+  national_conscription_act_tt:0 "We have at least 12 Militarist Seats."
+  national_disarmament_act_tt:0 "We have at least 20 Militarist Seats."
 
   ACR_compensation_trade_category:0 "The Rubber Trade"
   trade_steel:0 "Buy Steel"
@@ -57,21 +65,23 @@
 ################
 # Ideas
 ################
- country_of_seringueiros4:0 "Country of Seringueiros"
  ACR_tappers_protest:0 "Tappers Protest"
  ACR_tappers_protest1:0 "Tappers Protest"
+ ACR_tappers_protest2:0 "Tappers Protest"
  the_red_menace1:0 "The Red Menace"
  the_red_menace2:0 "The Red Menace"
  ACR_recpop_buff:0 "Natives in the Army"
  ACR_recpop_buff1:0 "Natives in the Army"
  ACR_country_of_acreans:0 "A Country for Acreans"
- ACR_country_of_acreans1:0 "A Country for Acreans"
- ACR_country_of_acreans2:0 "A Country for Acreans"
- ACR_country_of_acreans3:0 "A Country for Acreans"
- ACR_country_of_acreans4:0 "A Country for Acreans"
  ACR_funai:0 "FUNAI"
  ACR_para_nut_exports:0 "Pará-Nut Exports"
  ACR_continental_trade:0 "Continental Trade"
  ACR_defense_fleet:0 "Fluvial Defense Fleet"
  ACR_idea_rubber_crisis:0 "Rubber Crisis"
  ACR_country_of_seringueiros:0 "Country of Seringueiros"
+ ACR_proving_our_worth:0 "Proving Our Worth"
+ ACR_junta_dependent:0 "Junta Dependent"
+ ACR_country_of_soldiers:0 "A Country of Soldiers"
+ ACR_anti_bolivian_propaganda:0 "Anti Bolivian Propaganda"
+ ACR_state_of_emergency_declared:0 "A State of Emergency"
+ ACR_the_brazilian_constitution:0 "The Brazilian Constitution"

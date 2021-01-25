@@ -22,7 +22,7 @@ acrean_raids = {
 	}
 
 	give_boats_to_raiders = {
-		avilable = {
+		available = {
 
 		check_variable = {
 				var = raid_success_percentage
@@ -41,7 +41,7 @@ acrean_raids = {
 	give_them_extra_supplies = {
 
 		available = {
-			has_political_power = 99
+			has_political_power > 99
 		}
 
 		complete_effect = {
@@ -73,7 +73,7 @@ acrean_raids = {
 	send_mercenary_advisor = {
 		available = {
 			has_army_experience > 9.99
-			has_political_power = 24
+			has_political_power > 24
 		}
 
 		complete_effect = {
@@ -87,7 +87,7 @@ acrean_raids = {
 
 	send_negotiator = {
 		available = {
-			has_political_power = 24
+			has_political_power > 24
 		}
 
 		complete_effect = {
@@ -100,7 +100,7 @@ acrean_raids = {
 
 	draft_plan = {
 		available = {
-			has_political_power = 24
+			has_political_power > 24
 			has_army_experience > 4.99
 		}
 
@@ -115,7 +115,7 @@ acrean_raids = {
 
 	motivational_speech = {
 		available = {
-			command_power = 25
+			command_power > 25
 		}
 
 		complete_effect = {

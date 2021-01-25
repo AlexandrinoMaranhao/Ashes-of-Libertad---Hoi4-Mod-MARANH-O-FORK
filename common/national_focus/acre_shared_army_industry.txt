@@ -33,8 +33,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		country_event = {
@@ -56,8 +54,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		country_event = {
@@ -79,8 +75,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		army_experience = 10
@@ -99,8 +93,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_tech_bonus = {
@@ -123,8 +115,7 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
+
 
 	completion_reward = {	
 		army_experience = 10
@@ -146,8 +137,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		army_experience = 10
@@ -178,8 +167,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -210,8 +197,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -242,8 +227,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -273,8 +256,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -304,8 +285,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -335,8 +314,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -366,8 +343,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -397,8 +372,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -428,8 +401,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -460,8 +431,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -492,8 +461,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -525,8 +492,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -557,8 +522,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -588,8 +551,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -619,8 +580,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -650,8 +609,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -683,8 +640,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -705,8 +660,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		
@@ -725,8 +678,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		country_event = {
@@ -748,8 +699,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -775,8 +724,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 	}
@@ -794,8 +741,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_ideas = ACR_no_time_4_quality
@@ -816,8 +761,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 	}
@@ -845,8 +788,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -867,8 +808,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_timed_idea = {
@@ -900,8 +839,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -923,8 +860,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		country_event = {
@@ -967,8 +902,6 @@ shared_focus = {
 	available = {	}
 	
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	
 	completion_reward = {	
 		country_event = {
@@ -990,8 +923,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		89 = {
@@ -1016,8 +947,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_tech_bonus = {
@@ -1042,8 +971,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1070,8 +997,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1109,8 +1034,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1142,8 +1065,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1171,8 +1092,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_tech_bonus = {
@@ -1203,8 +1122,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -1230,8 +1147,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_tech_bonus = {
@@ -1265,8 +1180,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_tech_bonus = {
@@ -1292,8 +1205,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_ideas = a80_literacy
@@ -1314,8 +1225,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_ideas = a50_literacy
@@ -1335,8 +1244,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		swap_ideas = {
@@ -1359,8 +1266,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		swap_ideas = {
@@ -1383,8 +1288,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_research_slot = 1
@@ -1404,8 +1307,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_research_slot = 1
@@ -1426,8 +1327,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		if = {
@@ -1485,8 +1384,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1513,8 +1410,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1540,8 +1435,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1567,8 +1460,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1595,8 +1486,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1630,8 +1519,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		89 = {
@@ -1656,8 +1543,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {	
 		add_ideas = ACR_cassinos_rio_branco
@@ -1678,8 +1563,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		89 = {
@@ -1705,8 +1588,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		89 = {
@@ -1735,8 +1616,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		89 = {
@@ -1777,8 +1656,6 @@ shared_focus = {
 	available = {	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		add_ideas = ACR_placidos_dream

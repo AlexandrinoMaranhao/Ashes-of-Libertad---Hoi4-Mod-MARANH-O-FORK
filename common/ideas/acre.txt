@@ -246,7 +246,7 @@ ideas = {
 			
 			modifier = {
 				army_core_attack_factor = 0.05
-				army_core_defense_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		ACR_no_time_4_quality = {
@@ -313,6 +313,21 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				industrial_capacity_factory = -0.05
+			}
+		}
+		ACR_tappers_protest2 = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = -0.1
 			}
 		}
 		ACR_funai = {
@@ -383,9 +398,10 @@ ideas = {
 				naval_equipment = 0.15
 			}
 		}
-		ACR_idea_rubber_crisis = {
+		idea_rubber_crisis = {
 			allowed = {
 				tag = ACR
+				tag = MNS
 			}
 			cancel = {
 				NOT = {
@@ -402,6 +418,101 @@ ideas = {
 				trade_opinion_factor = -1
 				production_speed_buildings_factor = -0.25
 				industrial_capacity_factory = -0.25
+			}
+		}
+		ACR_proving_our_worth = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				war_support_weekly = 0.0025
+				industrial_capacity_factory = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		ACR_junta_dependent = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				war_stability_factor = 0.05
+				weekly_manpower = 100
+			}
+		}
+		ACR_country_of_soldiers = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		ACR_country_of_soldiers1 = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		ACR_anti_bolivian_propaganda = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			
+			targeted_modifier = {
+				tag = BOL
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = ERN
+				attack_bonus_against = 0.1
+			}
+		}
+		ACR_state_of_emergency_declared = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				surrender_limit = 0.4
+			}
+		}
+		ACR_the_brazilian_constitution = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				ai_call_ally_desire_factor = -1000
+				ai_join_ally_desire_factor = -1000
+				stability_factor = 0.1
 			}
 		}
 	}

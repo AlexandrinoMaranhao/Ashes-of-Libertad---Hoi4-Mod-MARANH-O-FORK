@@ -9,7 +9,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = ACR_cerqueira.1
 	}
 }
 shared_focus = {
@@ -20,12 +20,12 @@ shared_focus = {
 
 	x = -3
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = ACR_tappers_protest
 	}
 }
 shared_focus = {
@@ -36,12 +36,14 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		acre_senate_remove_technocrat_seats_2 = yes
+		remove_ideas = adalberto_sena_political_advisor
+		remove_ideas = nilson_mourao_political_advisor
 	}
 }
 shared_focus = {
@@ -52,12 +54,14 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		acre_senate_remove_technocrat_seats_1 = yes
+		remove_ideas = marques_de_souza_political_advisor
+		country_event = ACR_cerqueira.2
 	}
 }
 shared_focus = {
@@ -68,12 +72,15 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		acre_senate_remove_nationalist_seats_2 = yes
+		remove_ideas = jose_augusto_political_advisor
+		remove_ideas = mateus_satanawa_political_advisor
+		remove_ideas = pedro_augusto_da_silva_political_advisor
 	}
 }
 shared_focus = {
@@ -84,12 +91,14 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		acre_senate_remove_nationalist_seats_1 = yes
+		remove_ideas = helio_cury_political_advisor
+		country_event = ACR_cerqueira.3
 	}
 }
 shared_focus = {
@@ -101,12 +110,16 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_war_support = 0.05
+		add_stability = 0.05
+		89 = {
+			add_building_construction = { type = bunker level = 1 instant_build = yes province = 4230 }
+		}
 	}
 }
 shared_focus = {
@@ -117,12 +130,16 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = subsistence_economy
+		swap_ideas = {
+			remove_idea = ACR_tappers_protest
+			add_idea = ACR_tappers_protest2
+		}
 	}
 }
 shared_focus = {
@@ -133,12 +150,12 @@ shared_focus = {
 
 	x = -2
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = war_economy
 	}
 }
 shared_focus = {
@@ -150,12 +167,18 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = ACR_proving_our_worth
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 1
+			uses = 1
+			category = infantry_weapons
+		}
 	}
 }
 shared_focus = {
@@ -167,12 +190,21 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = ACR_junta_dependent
+		add_opinion_modifier = {
+			target = JUN
+			modifier = ACR_depend_on_greater_state
+		}
+		country_event = ACR_cerqueira.4
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+		}
 	}
 }
 shared_focus = {
@@ -184,12 +216,13 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = military_troop_training
+		add_stability = -0.1
 	}
 }
 shared_focus = {
@@ -200,12 +233,13 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		army_experience = 50
+		load_oob = "ACR_frontier"
 	}
 }
 shared_focus = {
@@ -217,12 +251,78 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		remove_unit_leader = 2
+		remove_unit_leader = 3
+		remove_unit_leader = 4
+		remove_unit_leader = 5
+		remove_unit_leader = 6
+		remove_unit_leader = 7
+		remove_unit_leader = 8
+		remove_unit_leader = 9
+		remove_unit_leader = 10
+		remove_unit_leader = 12
+		remove_unit_leader = 13
+		create_corps_commander = {
+			name = "Placeholder 1"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 15
+		}
+		create_corps_commander = {
+			name = "Placeholder 2"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 16
+		}
+		create_corps_commander = {
+			name = "Placeholder 3"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 17
+		}
+		create_corps_commander = {
+			name = "Placeholder 4"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 18
+		}
+		create_corps_commander = {
+			name = "Placeholder 5"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 19
+		}
+		country_event = ACR_cerqueira.5
 	}
 }
 shared_focus = {
@@ -234,12 +334,15 @@ shared_focus = {
 
 	x = -1
 	y = 2
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		load_oob = "ACR_shitties"
+		random_owned_controlled_state = {
+			add_building_construction = { type = arms_factory level = 3 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -250,12 +353,19 @@ shared_focus = {
 
 	x = 2
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		MNS = {
+			add_ideas = idea_rubber_crisis
+		}
+		country_event = ACR_cerqueira.6
+		add_opinion_modifier = {
+			target = MNS
+			modifier = ACR_fuck_you_manaus
+		}
 	}
 }
 shared_focus = {
@@ -266,12 +376,31 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_opinion_modifier = {
+			target = JUN
+			modifier = ACR_waifuing_junta
+		}
+		add_opinion_modifier = {
+			target = BEM
+			modifier = ACR_waifuing_junta
+		}
+		add_opinion_modifier = {
+			target = UBA
+			modifier = ACR_waifuing_junta
+		}
+		add_opinion_modifier = {
+			target = CRJ
+			modifier = ACR_waifuing_junta
+		}
+		add_opinion_modifier = {
+			target = JAG
+			modifier = ACR_waifuing_junta
+		}
 	}
 }
 shared_focus = {
@@ -282,12 +411,17 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		89 = {
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			add_building_construction = { type = air_base level = 1 instant_build = yes }
+			add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+			add_building_construction = { type = radar_station level = 1 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -298,12 +432,12 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = ACR_country_of_soldiers
 	}
 }
 shared_focus = {
@@ -314,12 +448,12 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = ACR_anti_bolivian_propaganda
 	}
 }
 shared_focus = {
@@ -330,12 +464,12 @@ shared_focus = {
 
 	x = 3
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = ACR_cerqueira.7
 	}
 }
 shared_focus = {
@@ -346,12 +480,16 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_remove_technocrat_seats_1 = yes
+		acre_senate_add_militarist_seats_2 = yes
+		add_ideas = nabor_junior_political_advisor
+		add_ideas = jose_guiomard_political_advisor
 	}
 }
 shared_focus = {
@@ -362,12 +500,12 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		custom_effect_tooltip = ACR_national_conscription_act_tt
 	}
 }
 shared_focus = {
@@ -378,12 +516,12 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		custom_effect_tooltip = ACR_national_rearment_act_tt
 	}
 }
 shared_focus = {
@@ -394,12 +532,16 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = ACR_state_of_emergency_declared
+		random_owned_controlled_state = {
+			add_building_construction = { type = industrial_complex level = -1 instant_build = yes }
+			add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+		}
 	}
 }
 shared_focus = {
@@ -411,12 +553,12 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = ACR_cerqueira.8
 	}
 }
 shared_focus = {
@@ -427,12 +569,12 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = ACR_cerqueira.9
 	}
 }
 shared_focus = {
@@ -443,12 +585,15 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		swap_ideas = {
+			remove_idea = ACR_country_of_soldiers
+			add_idea = ACR_country_of_soldiers1
+		}
 	}
 }
 shared_focus = {
@@ -459,12 +604,16 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {	
-
+	completion_reward = {
+	hidden_effect = {
+		remove_ideas = ACR_tappers_protest
+		remove_ideas = ACR_tappers_protest2
+	}				
+		custom_effect_tooltip = ACR_tappers_no_tt
 	}
 }
 shared_focus = {
@@ -475,12 +624,17 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {	
-
+	completion_reward = {
+	89 = {
+		create_unit = {
+			division = "name = \"Acrean Infantry\" division_template = \"Acrean Infantry\" start_experience_factor = 0.5 start_equipment_factor = 1"
+			owner = ACR
+		  }
+		}			
 	}
 }
 shared_focus = {
@@ -491,12 +645,12 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_stability = 0.2
 	}
 }
 shared_focus = {
@@ -507,12 +661,12 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = ACR_cerqueira.10
 	}
 }
 shared_focus = {
@@ -523,12 +677,28 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		JAG = {
+			add_manpower = 1000
+		}
+		ACR = {
+			add_manpower = -1000
+		}
+		random_owned_controlled_state = {
+			add_building_construction = { type = industrial_complex level = -1 instant_build = yes }
+			add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+		}
+		add_tech_bonus = {
+			name = support_equipment_bonus
+			bonus = 0.5
+			uses = 1
+			category = support_tech
+		}
+		country_event = { id = ACR_cerqueira.11 days = 60 }
 	}
 }
 shared_focus = {
@@ -540,12 +710,12 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		remove_ideas = the_acrean_constitution
 	}
 }
 shared_focus = {
@@ -556,12 +726,39 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		JUN = {
+			add_to_faction = ACR
+		}
+		add_opinion_modifier = {
+			target = JUN
+			modifier = ACR_became_the_juntas_bitch
+		}
+		add_opinion_modifier = {
+			target = JAG
+			modifier = ACR_became_the_juntas_bitch
+		}
+		add_opinion_modifier = {
+			target = UBA
+			modifier = ACR_became_the_juntas_bitch
+		}
+		add_opinion_modifier = {
+			target = CRJ
+			modifier = ACR_became_the_juntas_bitch
+		}
+		add_opinion_modifier = {
+			target = LAM
+			modifier = ACR_became_the_juntas_bitch
+		}
+		add_opinion_modifier = {
+			target = BEM
+			modifier = ACR_became_the_juntas_bitch
+		}
+		add_ideas = ACR_the_brazilian_constitution
 	}
 }
 shared_focus = {
@@ -573,12 +770,12 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		set_cosmetic_tag = AMC_ACR
 	}
 }
 shared_focus = {
@@ -590,11 +787,13 @@ shared_focus = {
 
 	x = -3
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		declare_war_on = {
+			target = ERN
+		}
 	}
 }

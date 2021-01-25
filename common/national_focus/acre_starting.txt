@@ -671,6 +671,7 @@ acre_senate_add_militarist_seats_2 = yes
 			defense_skill = 4
 			planning_skill = 5
 			logistics_skill = 2
+			id = 14
 		}
 		
 		add_popularity = {

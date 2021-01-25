@@ -157,6 +157,7 @@ create_field_marshal = {
 	defense_skill = 1
 	planning_skill = 3
 	logistics_skill = 4
+	id = 1
 }
 
 create_corps_commander = {
@@ -168,6 +169,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
+	id = 2
 }
 
 create_corps_commander = {
@@ -179,6 +181,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 1
+	id = 3
 }
 
 create_corps_commander = {
@@ -192,6 +195,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 1
+	id = 4
 }
 
 create_corps_commander = {
@@ -204,6 +208,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
+	id = 5
 }
 create_corps_commander = {
 	name = "Nabor Teles da Rocha Júnior"
@@ -216,6 +221,7 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
+	id = 6
 }
 create_corps_commander = {
 	name = "Chicão Brígido"
@@ -227,6 +233,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 5
+	id = 7
 }
 
 create_corps_commander = {
@@ -239,6 +246,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 3
+	id = 8
 }
 
 create_corps_commander = {
@@ -251,6 +259,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 2
+	id = 9
 }
 
 create_corps_commander = {
@@ -264,6 +273,7 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+	id = 10
 }
 
 create_navy_leader = {
@@ -275,6 +285,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 3
 	coordination_skill = 2
+	id = 11
 }
 
 create_navy_leader = {
@@ -286,6 +297,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 1
 	coordination_skill = 2
+	id = 12
 }
 
 create_navy_leader = {
@@ -297,6 +309,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 1
 	coordination_skill = 1
+	id = 13
 }
 
 #create_country_leader = {

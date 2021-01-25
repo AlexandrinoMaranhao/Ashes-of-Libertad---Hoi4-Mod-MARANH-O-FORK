@@ -286,6 +286,7 @@ ACR_compensation_trade_category = {
 		icon = GFX_decision_tech_decision
 		available = {
 			has_idea = monopoly
+		}	
 		
 		visible = {
 			tag = ACR

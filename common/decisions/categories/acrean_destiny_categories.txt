@@ -1,7 +1,0 @@
-acrean_senate = {
-	icon = acrean_raids
-    allowed = { tag = ACR }
-    visible_when_empty = yes
-    priority = 300
-	scripted_gui = acre_senate_category
-}
