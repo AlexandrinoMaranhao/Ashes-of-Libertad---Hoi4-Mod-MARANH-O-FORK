@@ -397,7 +397,21 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-	
+		every_country = {
+  			limit = {
+    			has_government = communist
+  			}
+  			add_opinion_modifier = {
+    			target = ACR
+    			modifier = ACR_marques_flirt
+  			}
+  			ACR = {
+    			add_opinion_modifier = {
+      				target = PREV
+      				modifier = ACR_marques_flirt
+    			}
+  			}
+		}
 	}
 }
 shared_focus = {
@@ -468,8 +482,22 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {	
-	
+	completion_reward = {
+        every_owned_state = {
+            limit = {
+                any_neighbor_state = {
+                    is_controlled_by = ERN
+                }
+            }
+            set_building_level = {
+    			type = bunker
+    			level = 0
+    			province = {
+        			all_provinces = yes
+        			limit_to_border = yes
+    			}
+			}
+        }
 	}
 }
 shared_focus = {
@@ -508,6 +536,12 @@ shared_focus = {
 		add_opinion_modifier = {
     		target = ERN
    			modifier = ACR_marques_show_intentions
+		}
+		ERN = {
+			add_opinion_modifier = {
+    			target = ACR
+   				modifier = ACR_marques_show_intentions
+			}
 		}
 		if = {
 			limit = {
@@ -673,7 +707,16 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_opinion_modifier = {
+			target = ERN
+			modifier = ACR_marques_public_relationship
+		}
+		ERN = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_public_relationship
+			}
+		}
 	}
 }
 shared_focus = {
@@ -689,7 +732,10 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		country_event = {
+			id = ACRMarques.13
+			days = 0
+		}
 	}
 }
 shared_focus = {

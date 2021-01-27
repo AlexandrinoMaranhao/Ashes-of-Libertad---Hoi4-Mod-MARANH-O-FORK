@@ -1376,6 +1376,65 @@ country_event = { #rejected generic
 	}
 }
 
+country_event = { #decides which seat remove
+	id = ACRMarques.13
+	title = ACRMarques.13.t
+	desc = ACRMarques.13.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.13.A
+		acre_senate_remove_nationalist_seats_1 = yes
+		set_variable = { marques_parents_seat = 0 }
+		country_event = {
+			id = ACRMarques.14
+			days = 1
+		}
+	}
+	option = {
+		name = ACRMarques.13.B
+		acre_senate_remove_militarist_seats_1 = yes
+		set_variable = { marques_parents_seat = 1 }
+		country_event = {
+			id = ACRMarques.14
+			days = 1
+		}
+	}
+}
+
+country_event = { #decides which seat remove
+	id = ACRMarques.14
+	title = ACRMarques.14.t
+	desc = ACRMarques.14.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.14.A
+		acre_senate_add_technocrat_seats_1 = yes
+	}
+	option = {
+		name = ACRMarques.14.B
+		if = {
+			limit = {
+				marques_parents_seat = 0
+			}
+			acre_senate_add_militarist_seats_1 = yes
+		}
+		if = {
+			limit = {
+				marques_parents_seat = 1
+			}
+			acre_senate_add_nationalist_seats_1 = yes
+		}
+	}
+}
+
 #################
 # Cerqueira
 #################
