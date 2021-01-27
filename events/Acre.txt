@@ -1297,6 +1297,43 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = ACRMarques.8
+	title = ACRMarques.8.t
+	desc = ACRMarques.8.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.8.A
+		ERN = {
+			country_event = {
+				id = ERN_Marques.2
+				days = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ACRMarques.9
+	title = ACRMarques.9.t
+	desc = ACRMarques.9.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.9.A
+		add_manpower = -2000
+		add_political_power = -200
+		add_command_power = -100
+	}
+}s
+
 #################
 # Cerqueira
 #################

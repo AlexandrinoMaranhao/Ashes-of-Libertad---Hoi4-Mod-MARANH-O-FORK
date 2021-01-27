@@ -10,6 +10,9 @@ opinion_modifiers = {
 	}
 	ACR_marques_flirt = {
 		value = 25
+	}
+	ACR_marques_show_intentions = {
+		value = 25
 	}	
 	ACR_depend_on_greater_state = {
 		value = 25

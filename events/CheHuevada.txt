@@ -69,3 +69,14 @@ country_event = {
 		name = ERN_Marques.1.a
 	}
 }
+
+country_event = {
+	id = ERN_Marques.2  
+	title = ERN_Marques.2.t
+	desc = ERN_Marques.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ERN_Marques.2.a
+	}
+}
