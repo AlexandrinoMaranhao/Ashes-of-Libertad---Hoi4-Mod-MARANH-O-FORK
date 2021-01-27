@@ -80,3 +80,82 @@ country_event = {
 		name = ERN_Marques.2.a
 	}
 }
+
+country_event = { #trade on rivers with acre?
+	id = ERN_Marques.3  
+	title = ERN_Marques.3.t
+	desc = ERN_Marques.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ERN_Marques.3.a
+		89 = {
+			add_resource = { type = rubber amount = -4 }
+		}
+		335 = {
+			add_resource = { type = rubber amount = 4 }
+		}
+		89 = {
+			add_resource = { type = motors amount = 2 }
+		}
+		89 = {
+			add_resource = { type = ammunition amount = 3 }
+		}
+		add_ideas = export_focus
+		ACR = {
+			add_ideas = export_focus
+			country_event = {
+				id = ACRMarques.10
+				days = 0
+			}
+		}
+	}
+	option = {
+		name = ERN_Marques.3.b
+		country_event = {
+			id = ACRMarques.12
+			days = 0
+		}
+	}
+}
+
+country_event = { #deeper oh yeah
+	id = ERN_Marques.4  
+	title = ERN_Marques.4.t
+	desc = ERN_Marques.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ERN_Marques.4.a
+		89 = {
+			add_resource = { type = rubber amount = -8 }
+		}
+		335 = {
+			add_resource = { type = rubber amount = 8 }
+		}
+		89 = {
+			add_resource = { type = motors amount = 2 }
+		}
+		89 = {
+			add_resource = { type = ammunition amount = 3 }
+		}
+		89 = {
+			add_resource = { type = technology amount = 1 }
+		}
+		add_ideas = free_trade
+		ACR = {
+			add_ideas = free_trade
+			country_event = {
+				id = ACRMarques.11
+				days = 0
+			}
+		}
+	}
+	option = {
+		name = ERN_Marques.3.b
+		country_event = {
+			id = ACRMarques.12
+			days = 0
+		}
+	}
+}

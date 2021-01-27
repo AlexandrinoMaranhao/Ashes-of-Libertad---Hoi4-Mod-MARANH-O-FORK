@@ -1317,7 +1317,8 @@ country_event = {
 	}
 }
 
-country_event = {
+
+country_event = { #favors
 	id = ACRMarques.9
 	title = ACRMarques.9.t
 	desc = ACRMarques.9.d
@@ -1332,7 +1333,48 @@ country_event = {
 		add_political_power = -200
 		add_command_power = -100
 	}
-}s
+}
+country_event = { #initial accepted
+	id = ACRMarques.10
+	title = ACRMarques.10.t
+	desc = ACRMarques.10.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.10.A
+	}
+}
+
+country_event = { #deeper accepted
+	id = ACRMarques.11
+	title = ACRMarques.11.t
+	desc = ACRMarques.11.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.11.A
+	}
+}
+
+country_event = { #rejected generic
+	id = ACRMarques.12
+	title = ACRMarques.12.t
+	desc = ACRMarques.12.d
+	picture = GFX_report_event_tapper_syndicate
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACRMarques.12.A
+	}
+}
 
 #################
 # Cerqueira

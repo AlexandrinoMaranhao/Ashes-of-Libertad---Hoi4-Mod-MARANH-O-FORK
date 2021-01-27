@@ -576,7 +576,9 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = guerrilla_training
+		add_ideas = foreign_training
+		add_ideas = ussr_tradition
 	}
 }
 shared_focus = {
@@ -592,7 +594,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		add_ideas = marques_ern_political_advisor
+		add_ideas = marques_ern_high_command
 	}
 }
 shared_focus = {
@@ -608,7 +611,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		ERN = {
+			country_event = {
+				id = ERN_Marques.3
+				days = 0
+			}
+		}
 	}
 }
 shared_focus = {
@@ -624,7 +632,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		ERN = {
+			country_event = {
+				id = ERN_Marques.4
+				days = 0
+			}
+		}
 	}
 }
 shared_focus = {
@@ -641,7 +654,9 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		ERN = {
+			give_guarantee = ACR
+		}
 	}
 }
 shared_focus = {

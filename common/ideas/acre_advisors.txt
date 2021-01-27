@@ -123,6 +123,14 @@ ideas = {
             }
 
         }
+        
+        marques_ern_high_command = { #marques with ern
+        
+        
+        	allowed = {
+        	original_tag = ACR
+        	}
+        }
         }
 
     ###############################
@@ -357,7 +365,13 @@ ideas = {
             }
 
         }
-
+        
+        marques_ern_political_advisor = { #ERN representative        
+        	allowed = {
+        	original_tag = ACR
+        	}
+        	
+        }
 
         }
 }
