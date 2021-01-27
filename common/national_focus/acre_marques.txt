@@ -752,7 +752,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		set_variable = { var = acre_ern_peace_marques = 1 }
 	}
 }
 shared_focus = {
@@ -769,6 +769,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-
+		set_variable { var = ACR_political_power_gain_1 = 0.1 }
+		add_to_variable { var = ACR_stability_factor = 0.1 }
 	}
 }

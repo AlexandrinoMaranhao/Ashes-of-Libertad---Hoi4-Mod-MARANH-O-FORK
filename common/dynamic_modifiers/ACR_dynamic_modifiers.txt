@@ -11,6 +11,7 @@ ACR_country_of_seringueiros = { # Country of Tappers
 	production_speed_buildings_factor = ACR_production_speed_buildings_factor
 	line_change_production_efficiency_factor = ACR_line_change_production_efficiency_factor
 	trade_opinion_factor = ACR_trade_opinion_factor
+	political_power_gain = ACR_political_power_gain_1
 }
 
 ACR_country_of_acreans = { # Country of Acreans
