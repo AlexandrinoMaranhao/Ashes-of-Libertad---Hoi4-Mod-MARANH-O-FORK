@@ -207,6 +207,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3044;1157;sea;5629;-1;-1;-1;-1;;Ciudad Bolivar
 3045;3023;sea;5970;-1;-1;-1;-1;;Ciudad Guayana
 1945;2192;sea;5926;-1;-1;-1;-1;;Ciudad Guayana
+
+3248;2578;sea;6108;-1;-1;-1;-1;;Neblina
+3222;2578;sea;6108;-1;-1;-1;-1;;Neblina
+3278;3307;sea;6109;-1;-1;-1;-1;;Neblina
+3322;3307;sea;6109;-1;-1;-1;-1;;Neblina
+
+2384;1167;sea;6105;-1;-1;-1;-1;;Libertadores
+3169;3192;sea;5780;-1;-1;-1;-1;;Libertadores
 #
 4898;4885;sea;5661;-1;-1;-1;-1;;Argentina
 225;848;sea;5995;-1;-1;-1;-1;;Argentina

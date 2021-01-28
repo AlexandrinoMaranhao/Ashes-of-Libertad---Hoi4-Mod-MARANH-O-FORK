@@ -620,8 +620,8 @@ CLA = {
 }
 
 LLA = {
-	color = rgb { 255 76 36 }
-	color_ui = rgb { 255 76 36 }
+	color = rgb { 204 47 28 }
+	color_ui = rgb { 204 47 28 }
 }
 
 LHA = {
@@ -640,8 +640,8 @@ FAR = {
 }
 
 ELD = {
-	color = rgb { 255 255 0 }
-	color_ui = rgb { 255 255 0 }
+	color = rgb { 161 127 255 }
+	color_ui = rgb { 161 127 255 }
 }
 
 VEC = {
@@ -650,8 +650,8 @@ VEC = {
 }
 
 VEJ = {
-	color = rgb { 93 104 25 }
-	color_ui = rgb { 183 204 48 }
+	color = rgb { 183 78 78 }
+	color_ui = rgb { 183 78 78 }
 }
 
 PAM = {

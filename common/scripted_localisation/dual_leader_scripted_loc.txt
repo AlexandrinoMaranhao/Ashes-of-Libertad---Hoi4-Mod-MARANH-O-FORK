@@ -97,6 +97,15 @@ defined_text = {
    	 }
    	 localization_key = HIE_FIRST_TITLE
     }
+
+	text = {
+   	 trigger = {
+   		 tag = VEN
+   		 has_government = fascism
+   	 }
+   	 localization_key = VEN_FIRST_TITLE
+    }
+
 	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
@@ -204,6 +213,14 @@ defined_text = {
 		}
 		localization_key = HIE_SECOND_TITLE
 	}
+		
+		text = {
+		trigger = {
+			tag = VEN
+			has_government = fascism
+		}
+		localization_key = VEN_SECOND_TITLE
+	}
 }
 #########################
 defined_text = {
@@ -305,6 +322,14 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = HIE_SECOND_LEADER
+	}
+
+	  text = {
+		trigger = {
+			tag = VEN
+			has_government = fascism
+		}
+		localization_key = VEN_SECOND_LEADER
 	}
 
 	text = {
@@ -422,6 +447,14 @@ defined_text = {
 		localization_key = "GFX_HIE_BLANCA"
 	}	
 
+		text = {
+		trigger = {
+			tag = VEN
+			has_government = fascism
+			
+		}
+		localization_key = "GFX_HIE_BLANCA"
+	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}

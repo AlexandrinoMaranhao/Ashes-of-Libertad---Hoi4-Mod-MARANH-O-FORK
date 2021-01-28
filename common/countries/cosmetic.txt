@@ -1,4 +1,19 @@
 
+
+
+VEN_UNION = {
+	color = rgb { 232  155  116 }
+	color_ui = rgb { 232  155  116 }
+}
+VEJ_UNION = {
+	color = rgb { 232  155  116 }
+	color_ui = rgb { 232  155  116 }
+}
+NEB_UNION = {
+	color = rgb { 232  155  116 }
+	color_ui = rgb { 232  155  116 }
+}
+
 AMZ_COR = {
 	color = rgb { 99  70  99 }
 	color_ui = rgb { 99  70  99 }
