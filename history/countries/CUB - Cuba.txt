@@ -30,6 +30,9 @@ add_ideas = {
 pro_castro
 }
 
+create_faction = CUBA
+add_to_faction = CDR
+
 create_country_leader = {
 	
 	name = "Juan Almeida Bosque"

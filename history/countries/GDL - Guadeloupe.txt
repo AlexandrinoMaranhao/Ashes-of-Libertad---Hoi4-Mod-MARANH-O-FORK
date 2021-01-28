@@ -32,6 +32,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Bernard Hayot"
+	picture = "gfx/leaders/GDL/Portrait_GDL_Sex.dds.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state_status_quo
 	traits = {

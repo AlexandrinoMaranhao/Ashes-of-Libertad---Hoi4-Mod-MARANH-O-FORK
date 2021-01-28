@@ -208,7 +208,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_pass_native_defence_act
-	#icon = 
+	icon = GFX_goal_Native_protection_act
 	prerequisite = { focus = ACR_create_native_militias }
 	prerequisite = { focus = ACR_natives_in_army }
 	relative_position_id = ACR_create_native_militias
@@ -233,7 +233,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_give_them_voice
-	#icon = 
+	icon = GFX_goal_give_them_a_voice
 	prerequisite = { focus = ACR_pass_native_defence_act }
 	relative_position_id = ACR_pass_native_defence_act
 
@@ -249,7 +249,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_found_funai
-	#icon = 
+	icon = GFX_goal_found_the_funai
 	prerequisite = { focus = ACR_give_them_voice }
 	relative_position_id = ACR_give_them_voice
 
@@ -266,7 +266,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_railroad_to_heaven
-	#icon = 
+	icon = GFX_goal_railroad_to_heaven
 	prerequisite = { focus = ACR_buying_votes_senate }
 	relative_position_id = ACR_buying_votes_senate
 
@@ -290,7 +290,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_passing_through_hell
-	#icon = 
+	icon = GFX_goal_passing_through_hell
 	prerequisite = { focus = ACR_railroad_to_heaven }
 	relative_position_id = ACR_railroad_to_heaven
 

@@ -17,8 +17,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 90
+	democratic = 26
+	fascism = 74
 	communism = 0
 	neutrality = 0
 	reactionary = 0
@@ -27,6 +27,8 @@ set_popularities = {
 
 create_faction = NATO
 add_to_faction = DOM
+add_to_faction = BTA
+add_to_faction = ACC
 
 add_ideas = {
     volunteer_only
@@ -34,16 +36,27 @@ add_ideas = {
 	subsistence_economy
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Edward J. O'Donnell"
+	picture = "gfx/leaders/USA/Portrait_USA_Odonnel.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "José Luis Alberto Muñoz Marín"
+	picture = "gfx/leaders/USA/Portrait_USA_Munoz_Marin.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		#
+	}
+}
 
 
 }

@@ -3,7 +3,7 @@
 ######################
 shared_focus = {
 	id = ACR_glancing_into_the_milita
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_glancing_into_the_militia
 	x = 20
 	y = 1
 	cost = 1
@@ -323,7 +323,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_bonafide_officers
 	prerequisite = { focus = ACR_the_best_there_is }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_bonafide_officers
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = 1
@@ -352,7 +352,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_dipping_our_wallets
 	prerequisite = { focus = ACR_soldados_da_fortuna }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_dipping_our_wallets
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = 3
@@ -381,7 +381,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_relax_standards
 	prerequisite = { focus = ACR_extra_autonomous_units }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_relax_standards
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = -2
@@ -410,7 +410,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_lawful_militias
 	prerequisite = { focus = ACR_relax_standards}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_loyal_militias
 	mutually_exclusive = { focus = ACR_grabbing_the_paramilitaries }
 	relative_position_id = ACR_army_doctrine_evaluation
 
@@ -441,7 +441,7 @@ shared_focus = {
 	id = ACR_grabbing_the_paramilitaries
 	prerequisite = { focus = ACR_relax_standards }
 	mutually_exclusive = { focus = ACR_lawful_militias }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_paramilitaries
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = -3
@@ -471,7 +471,7 @@ shared_focus = {
 	id = ACR_a_protection_force
 	prerequisite = { focus = ACR_lawful_militias focus = ACR_grabbing_the_paramilitaries }
 	prerequisite = { focus = ACR_bonafide_officers focus = ACR_dipping_our_wallets}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_a_protection_force_2_idk
 	relative_position_id = ACR_army_doctrine_evaluation
 	mutually_exclusive = { focus = ACR_an_army_capable_of_expanding }
 
@@ -502,7 +502,7 @@ shared_focus = {
 	id = ACR_an_army_capable_of_expanding
 	prerequisite = { focus = ACR_lawful_militias focus = ACR_grabbing_the_paramilitaries }
 	prerequisite = { focus = ACR_bonafide_officers focus = ACR_dipping_our_wallets}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_an_army_capable_of_expading
 	relative_position_id = ACR_army_doctrine_evaluation
 	mutually_exclusive = { focus = ACR_a_protection_force }
 	x = 2
@@ -560,7 +560,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_an_academy_to_boot
 	prerequisite = { focus = ACR_a_protection_force focus = ACR_an_army_capable_of_expanding }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_an_academy_to_boot
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = 1
@@ -589,7 +589,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_a_contingency_plan
 	prerequisite = { focus = ACR_a_protection_force focus = ACR_an_army_capable_of_expanding }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_a_contingency_plan
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = 3
@@ -649,7 +649,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_an_acrean_army
 	prerequisite = { focus = ACR_most_importantly }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_A_protection_force
 	relative_position_id = ACR_army_doctrine_evaluation
 
 	x = 1
@@ -667,7 +667,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_the_industrial_part_of_militarization
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_the_industrial_part_of_militarization
 	prerequisite = { focus = ACR_glancing_into_the_milita }
 	relative_position_id = ACR_glancing_into_the_milita
 	x = -3
@@ -688,7 +688,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_the_workshops
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_The_workshops
 	prerequisite = { focus = ACR_the_industrial_part_of_militarization }
 	relative_position_id = ACR_glancing_into_the_milita
 	x = -4
@@ -767,7 +767,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_grasp_abbandoned_trucks
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_grabbing_abbandoned_trucks
 	prerequisite = { focus = ACR_avenues_of_modernization }
 
 	relative_position_id = ACR_glancing_into_the_milita
@@ -796,7 +796,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_stocking_up
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_stocking_up
 	prerequisite = { focus = ACR_no_time_for_quality }
 
 	relative_position_id = ACR_glancing_into_the_milita
@@ -986,7 +986,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_the_university_completed
 	prerequisite = { focus = ACR_begin_construction }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_the_university_completed
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 0
@@ -1194,7 +1194,7 @@ shared_focus = {
 	id = ACR_education_for_all
 	prerequisite = { focus = ACR_east_wing_expansion}
 	mutually_exclusive = { focus = ACR_education_for_the_elite }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_education_for_all
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 3
@@ -1214,7 +1214,7 @@ shared_focus = {
 	id = ACR_education_for_the_elite
 	prerequisite = { focus = ACR_east_wing_expansion}
 	mutually_exclusive = { focus = ACR_education_for_all }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_education_for_the_elite
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 1
@@ -1277,7 +1277,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_extra_research_slot_1
 	prerequisite = { focus = ACR_the_elites_elite focus = ACR_tappers_no_more }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_extra_research_slot_acre_1
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 2
@@ -1475,7 +1475,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_revive_the_gameleira_street
 	prerequisite = { focus = ACR_building_a_capital }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_revive_the_gameleira_street
 	relative_position_id = ACR_building_a_capital
 
 	x = 4
@@ -1508,7 +1508,7 @@ shared_focus = {
 	id = ACR_revive_beirut_square
 	prerequisite = { focus = ACR_fix_the_roads }
 	prerequisite = { focus = ACR_reestore_public_buildings }	
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_revive_beirut_square
 	relative_position_id = ACR_building_a_capital
 
 	x = -3
@@ -1532,7 +1532,7 @@ shared_focus = {
 	id = ACR_revive_the_cassinos
 	prerequisite = { focus = ACR_revive_the_gameleira_street }
 	prerequisite = { focus = ACR_bring_light_to_the_city }	
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_revive_the_casinos_alt
 	relative_position_id = ACR_building_a_capital
 
 	x = 3
@@ -1552,7 +1552,7 @@ shared_focus = {
 	id = ACR_casas_aviadoras
 	prerequisite = { focus = ACR_reestore_public_buildings }
 	prerequisite = { focus = ACR_bring_light_to_the_city }	
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_casa_aviadoras
 	relative_position_id = ACR_building_a_capital
 
 	x = 0
@@ -1577,7 +1577,8 @@ shared_focus = {
 shared_focus = {
 	id = ACR_map_the_rivers
 	prerequisite = { focus = ACR_casas_aviadoras }
-	prerequisite = { focus = ACR_revive_beirut_square }		icon = GFX_goal_first_step_republic
+	prerequisite = { focus = ACR_revive_beirut_square }		
+	icon = GFX_goal_map_the_rivers
 	relative_position_id = ACR_building_a_capital
 
 	x = -1
@@ -1605,7 +1606,7 @@ shared_focus = {
 	id = ACR_connect_the_cities
 	prerequisite = { focus = ACR_casas_aviadoras }
 	prerequisite = { focus = ACR_revive_the_cassinos }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_connect_the_cities_1
 	relative_position_id = ACR_building_a_capital
 
 	x = 1

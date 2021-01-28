@@ -8,7 +8,158 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
+           
+           
+	SpriteType = {
+	name = "GFX_goal_railroad_to_heaven"
+	texturefile = "gfx/interface/goals/railroad_to_heaven.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_passing_through_hell"
+	texturefile = "gfx/interface/goals/passing_through_hell.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Native_protection_act"
+	texturefile = "gfx/interface/goals/Native_protection_act.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_found_the_funai"
+	texturefile = "gfx/interface/goals/found_the_funai.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_give_them_a_voice"
+	texturefile = "gfx/interface/goals/give_them_a_voice.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_stocking_up"
+	texturefile = "gfx/interface/goals/stocking_up.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_extra_research_slot_acre_1"
+	texturefile = "gfx/interface/goals/extra_research_slot_acre_1.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_education_for_the_elite"
+	texturefile = "gfx/interface/goals/ACR_education_for_the_elite.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_education_for_all"
+	texturefile = "gfx/interface/goals/ACR_education_for_all.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_the_university_completed"
+	texturefile = "gfx/interface/goals/ACR_the_university_completed.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_The_workshops"
+	texturefile = "gfx/interface/goals/The_workshops.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_glancing_into_the_militia"
+	texturefile = "gfx/interface/goals/glancing_into_the_militia.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_the_industrial_part_of_militarization"
+	texturefile = "gfx/interface/goals/ACR_the_industrial_part_of_militarization.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_an_army_capable_of_expading"
+	texturefile = "gfx/interface/goals/ACR_an_army_capable_of_expading.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_A_protection_force"
+	texturefile = "gfx/interface/goals/A_protection_force.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_a_contingency_plan"
+	texturefile = "gfx/interface/goals/a_contingency_plan.dds"
+	}	
+        
+	SpriteType = {
+	name = "GFX_goal_grabbing_abbandoned_trucks"
+	texturefile = "gfx/interface/goals/grabbing_abbandoned_trucks.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_an_academy_to_boot"
+	texturefile = "gfx/interface/goals/an_academy_to_boot.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_relax_standards"
+	texturefile = "gfx/interface/goals/relax_standards.dds"
+	}	
          
+	SpriteType = {
+	name = "GFX_goal_loyal_militias"
+	texturefile = "gfx/interface/goals/loyal_militias.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_dipping_our_wallets"
+	texturefile = "gfx/interface/goals/dipping_our_wallets.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_a_protection_force_2_idk"
+	texturefile = "gfx/interface/goals/a_protection_force_2_idk.dds"
+	}	
+         
+	SpriteType = {
+	name = "GFX_goal_bonafide_officers"
+	texturefile = "gfx/interface/goals/bonafide_officers.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_paramilitaries"
+	texturefile = "gfx/interface/goals/paramilitaries.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_revive_the_gameleira_street"
+	texturefile = "gfx/interface/goals/revive_the_gameleira_street.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_revive_the_casinos_alt"
+	texturefile = "gfx/interface/goals/revive_the_casinos_alt.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_casa_aviadoras"
+	texturefile = "gfx/interface/goals/casa_aviadoras.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_map_the_rivers"
+	texturefile = "gfx/interface/goals/map_the_rivers.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_connect_the_cities_1"
+	texturefile = "gfx/interface/goals/connect_the_cities_1.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_revive_beirut_square"
+	texturefile = "gfx/interface/goals/revive_beirut_square.dds"
+	}	
+ 
 	SpriteType = {
 	name = "GFX_goal_arrest_marques"
 	texturefile = "gfx/interface/goals/arrest_marques.dds"
