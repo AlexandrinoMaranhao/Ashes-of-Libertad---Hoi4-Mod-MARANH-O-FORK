@@ -565,7 +565,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		add_ideas = ACR_idea_rubber_crisis
+		add_ideas = idea_rubber_crisis
 		hidden_effect = {
 			country_event = { id = ACR_cury.17 days = 7 }
 			country_event = { id = ACR_cury.18 days = 28 }

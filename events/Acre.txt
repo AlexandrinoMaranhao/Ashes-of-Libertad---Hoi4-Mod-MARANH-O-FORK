@@ -1137,7 +1137,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.20.a
-		remove_ideas = ACR_idea_rubber_crisis
+		remove_ideas = idea_rubber_crisis
 	}
 }
 
