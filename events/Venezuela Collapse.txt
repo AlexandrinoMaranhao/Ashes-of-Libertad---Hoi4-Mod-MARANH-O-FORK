@@ -1,0 +1,57 @@
+add_namespace = VEN_Bettancourt_Assassination_Fails
+add_namespace = VEN_Bettancourt_Assassination_Gun
+add_namespace = VEN_Bettancourt_Assassination_Explosion
+add_namespace = VEN_Bettancourt_Assassination_Aiplane
+
+country_event = {
+    id = VEN_Bettancourt_Assassination_Fails.1
+    title = VEN_Bettancourt_Assassination_Fails.1.t
+    desc = VEN_Bettancourt_Assassination_Fails.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = VEN_Bettancourt_Assassination_Fails.1.A
+    }
+}
+
+country_event = {
+    id = VEN_Bettancourt_Assassination_Gun.1
+    title = VEN_Bettancourt_Assassination_Gun.1.t
+    desc = VEN_Bettancourt_Assassination_Gun.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = VEN_Bettancourt_Assassination_Gun.1.A
+    }
+}
+
+country_event = {
+    id = VEN_Bettancourt_Assassination_Explosion.1
+    title = VEN_Bettancourt_Assassination_Explosion.1.t
+    desc = VEN_Bettancourt_Assassination_Explosion.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = VEN_Bettancourt_Assassination_Explosion.1.A
+    }
+}
+
+country_event = {
+    id = VEN_Bettancourt_Assassination_Aiplane.1
+    title = VEN_Bettancourt_Assassination_Aiplane.1.t
+    desc = VEN_Bettancourt_Assassination_Aiplane.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = VEN_Bettancourt_Assassination_Aiplane.1.A
+    }
+}
+#Bettancourt is out of the way

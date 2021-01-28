@@ -1,0 +1,34 @@
+on_actions = {
+	on_startup = {
+       effect = {
+       VEN = {
+       random_list = {
+                50 = {
+                country_event = {
+                    id = VEN_Bettancourt_Assassination_Fails.1 # Bettancourt Assassiantion Attempt
+                    days = 270
+                }
+                }
+               16 = {
+                country_event = {
+                    id = VEN_Bettancourt_Assassination_Gun.1 # Bettancourt Assassiantion Attempt
+                    days = 270
+                }
+                }
+               17 = {
+                country_event = {
+                    id = VEN_Bettancourt_Assassination_Explosion.1 # Bettancourt Assassiantion Attempt
+                    days = 270
+                }
+                }
+                17 = {
+                country_event = {
+                    id = VEN_Bettancourt_Assassination_Aiplane.1 # Bettancourt Assassiantion Attempt
+                    days = 270
+                }
+                }
+                }
+            }
+        }
+	}
+}
