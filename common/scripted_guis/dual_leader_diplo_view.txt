@@ -12,11 +12,8 @@ scripted_gui = {
 		}
 		
 		visible = {
-			THIS = {
-				exists = yes
-			}
 			OR = {
-				tag = ROR tag = STR tag = PAT tag = XIN tag = DRE tag = CRJ tag = JRM tag = COR tag = PRU tag = HIE
+				tag = ROR tag = STR tag = PAT tag = XIN tag = DRE tag = CRJ tag = JRM tag = COR tag = PRU tag = HIE VEN = { has_government = fascism }	
 			}
 		}
 		
