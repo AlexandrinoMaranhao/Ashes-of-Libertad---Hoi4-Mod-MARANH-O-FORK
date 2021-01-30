@@ -22,5 +22,7 @@ technology = 1
         }
         owner = NEB
         add_core_of = NEB
+
+             add_core_of = VEN
 }
 }

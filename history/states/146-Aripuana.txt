@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ARI
 		add_core_of = ARI
-
+		add_core_of = JAG
 victory_points = {
 4280 5            
 }

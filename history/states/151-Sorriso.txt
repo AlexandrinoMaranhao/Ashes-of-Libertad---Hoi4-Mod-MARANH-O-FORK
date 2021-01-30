@@ -6,7 +6,7 @@ state={
 	history={
 		owner = XIN
 		add_core_of = XIN
-
+		add_core_of = JAG
 victory_points = {
 723 5            
 }

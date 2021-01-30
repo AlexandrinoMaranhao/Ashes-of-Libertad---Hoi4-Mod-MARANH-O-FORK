@@ -12,5 +12,6 @@ state={
 
         owner = FAR
         add_core_of = FAR
+        add_core_of = COL
 }
 }

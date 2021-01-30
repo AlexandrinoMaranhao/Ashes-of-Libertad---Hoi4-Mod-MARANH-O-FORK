@@ -12,5 +12,6 @@ state={
 		owner = FAK
 		add_core_of = FAK
 
+        add_core_of = ARG
 	}
 }

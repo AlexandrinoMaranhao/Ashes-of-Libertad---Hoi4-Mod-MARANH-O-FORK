@@ -6,7 +6,8 @@ state={
 	history={
 		owner = KAY
 		add_core_of = KAY
-
+		add_core_of = XIN
+		add_core_of = JAG
         buildings = {
             arms_factory = 1
             infrastructure = 2

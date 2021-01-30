@@ -6,7 +6,37 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-         
+             
+spriteType ={
+    name = "GFX_idea_cangaceiros_total"
+    texturefile = "gfx/interface/ideas/cangaceiros_total.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_scars_of_guanabara"
+    texturefile = "gfx/interface/ideas/scars_of_guanabara.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_famae"
+    texturefile = "gfx/interface/ideas/the_famae.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_mercenary_army_LAM"
+    texturefile = "gfx/interface/ideas/mercenary_army_LAM.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_xingu_national_park"
+    texturefile = "gfx/interface/ideas/the_xingu_national_park.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_castaway_nation"
+    texturefile = "gfx/interface/ideas/castaway_nation.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_guerrilla_training"
     texturefile = "gfx/interface/ideas/guerrilla_training.dds"

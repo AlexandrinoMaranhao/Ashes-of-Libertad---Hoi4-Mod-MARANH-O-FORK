@@ -6,6 +6,9 @@ state={
 	history={
 		owner = RPB
 		add_core_of = RPB
+        add_core_of = CNU
+        add_core_of = LAM
+
 		victory_points = {
 			4466 30 
 		}

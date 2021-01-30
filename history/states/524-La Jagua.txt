@@ -6,6 +6,7 @@ state={
 	history={
 		owner = RUM
 		add_core_of = RUM
+		add_core_of = CUB
 
 	}
 

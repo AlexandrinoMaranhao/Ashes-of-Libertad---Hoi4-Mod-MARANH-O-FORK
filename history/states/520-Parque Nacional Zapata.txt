@@ -11,6 +11,7 @@ state={
 	history={
 		owner = BTA
 		add_core_of = BTA
+		add_core_of = CUB
 
 	}
 

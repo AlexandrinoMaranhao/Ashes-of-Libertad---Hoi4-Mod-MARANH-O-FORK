@@ -16,7 +16,7 @@ motors = 4
 
         owner = ARI
         add_core_of = ARI
-
+		add_core_of = JAG
 victory_points = {
 1887 5            
 }

@@ -12,5 +12,7 @@ state={
 
         owner = ELN
         add_core_of = ELN
+
+        add_core_of = COL
 }
 }

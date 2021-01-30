@@ -230,6 +230,7 @@ country_event = {
     transfer_troops = no
 }
 		}
+        XIN = { transfer_state = 149 }
     }
     50 = {
         declare_war_on = {

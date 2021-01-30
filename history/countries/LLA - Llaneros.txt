@@ -11,17 +11,17 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 60
-	communism = 0
-	neutrality = 40
-	reactionary = 0
+	fascism = 0
+	communism = 88
+	neutrality = 0
+	reactionary = 12
 
 }
 
@@ -31,16 +31,16 @@ add_ideas = {
 	limited_exports
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "José Vicente Abreu"	
+	picture = "gfx/leaders/LLA/Portrait_LLA_Jose.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+		#
+	}
+}
 
 
 }

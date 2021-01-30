@@ -27,7 +27,7 @@ set_popularities = {
 
 add_ideas = {
 	the_royal_navy
-castaway_nation
+    castaway_nation
 }
 
 create_country_leader = {

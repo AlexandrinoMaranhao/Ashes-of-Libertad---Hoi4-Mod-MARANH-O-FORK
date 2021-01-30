@@ -10,7 +10,7 @@ state={
             history = {
              owner=FAK
              add_core_of = FAK
-
+        add_core_of = ARG
         victory_points = {
            712 10
         }

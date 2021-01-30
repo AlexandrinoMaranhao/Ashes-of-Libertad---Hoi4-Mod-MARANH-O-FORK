@@ -15,7 +15,7 @@ rubber = 2
 	history={
 		owner = WAM
 		add_core_of = WAM
-
+        add_core_of = ROR
         buildings = {
             arms_factory = 1
             dockyard = 1

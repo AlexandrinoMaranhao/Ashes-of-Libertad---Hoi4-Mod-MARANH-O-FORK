@@ -10,5 +10,6 @@ state={
             history = {
              owner=GDL
              add_core_of = GDL
+        add_core_of = FRA
 }
 }

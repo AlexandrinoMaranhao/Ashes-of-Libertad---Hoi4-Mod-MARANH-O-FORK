@@ -29,5 +29,6 @@ steel = 1
 
         owner = YAN
         add_core_of = YAN
+        add_core_of = ROR
 }
 }

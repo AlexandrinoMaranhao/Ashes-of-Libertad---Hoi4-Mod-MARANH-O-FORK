@@ -6,6 +6,7 @@ state={
 	history={
 		owner = ACC
 		add_core_of = ACC
+		add_core_of = CUB
 
 	}
 

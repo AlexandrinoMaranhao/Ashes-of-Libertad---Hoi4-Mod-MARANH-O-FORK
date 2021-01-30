@@ -14,7 +14,7 @@ steel = 1
 }
         history = {
 	owner = NEB
-	add_core_of = NEB
+        add_core_of = JAU
 
         buildings = {
             arms_factory = 1

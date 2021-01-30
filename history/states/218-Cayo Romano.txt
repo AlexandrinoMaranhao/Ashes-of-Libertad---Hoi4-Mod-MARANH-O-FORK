@@ -10,5 +10,6 @@ state={
             history = {
              owner= CUP
              add_core_of = CUP
+		add_core_of = CUB
 }
 }

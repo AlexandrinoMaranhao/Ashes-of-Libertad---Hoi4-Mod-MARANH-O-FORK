@@ -10,5 +10,7 @@ state={
             history = {
              owner=CIA
              add_core_of = CIA
+
+             add_core_of = VEN
 }
 }

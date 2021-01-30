@@ -11,17 +11,17 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 0
-	fascism = 100
+	democratic = 28
+	fascism = 23
 	communism = 0
 	neutrality = 0
-	reactionary = 0
+	reactionary = 49
 }
 
 add_ideas = {
@@ -50,6 +50,17 @@ create_country_leader = {
 	picture = "gfx/leaders/COL/Portrait_COL_Guillermo_Leon_Valencia.dds"
 	expire = "1999.1.1"
 	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	
+	name = "Carlos Lleras Restrepo"
+	picture = "gfx/leaders/COL/Portrait_COL_Carlos_Lleras_Restrepo.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democracy 
 	traits = {
 		
 	}

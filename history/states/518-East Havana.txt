@@ -11,6 +11,7 @@ state={
 	history={
 		owner = WAS
 		add_core_of = WAS
+		add_core_of = CUB
 
 	}
 

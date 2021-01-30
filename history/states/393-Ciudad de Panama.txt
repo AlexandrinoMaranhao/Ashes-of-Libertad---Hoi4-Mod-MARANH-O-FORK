@@ -10,6 +10,8 @@ state={
             history = {
              owner=PAM
              add_core_of = PAM
+        add_core_of = PAN
+        add_core_of = USR
              victory_points = {
              3011 50
              }

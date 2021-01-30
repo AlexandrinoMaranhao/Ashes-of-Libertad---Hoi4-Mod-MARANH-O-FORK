@@ -10,5 +10,6 @@ state={
             history = {
              owner=LBT
              add_core_of = LBT
+        add_core_of = COL
 }
 }

@@ -11,6 +11,7 @@ state={
             history = {
              owner=PAM
              add_core_of = PAM
+        add_core_of = PAN
              victory_points = {
              1787 10
              }

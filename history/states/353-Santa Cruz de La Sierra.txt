@@ -11,6 +11,7 @@ state={
 
         owner = ERN
         add_core_of = ERN
+        add_core_of = BOL
         victory_points = {
 4490 20
         }

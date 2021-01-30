@@ -38,8 +38,8 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Edward J. O'Donnell"
-	picture = "gfx/leaders/USA/Portrait_USA_Odonnel.dds"
+	name = "Juan César Cordero Dávila"
+	picture = "gfx/leaders/USA/Portrait_USA_Juan_Cordero.dds"
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {
@@ -49,14 +49,25 @@ create_country_leader = {
 
 create_country_leader = {
 	
-	name = "José Luis Alberto Muñoz Marín"
-	picture = "gfx/leaders/USA/Portrait_USA_Munoz_Marin.dds"
+	name = "Edward J. O'Donnell"
+	picture = "gfx/leaders/USA/Portrait_USA_Odonnel.dds"
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {
 		#
 	}
 }
+#
+#create_country_leader = {
+#	
+#	name = "José Luis Alberto Muñoz Marín"
+#	picture = "gfx/leaders/USA/Portrait_USA_Munoz_Marin.dds"
+#	expire = "1999.1.1"
+#	ideology = military_government
+#	traits = {
+#		#
+#	}
+#}
 
 
 }

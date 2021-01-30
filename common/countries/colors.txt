@@ -2,8 +2,8 @@
 
 
 MEX = {
-	color = rgb { 50 60 10 }
-	color_ui = rgb { 50 60 10 }
+	color = rgb { 73 84 39 }
+	color_ui = rgb { 73 84 39 }
 }
 
 D01 = {

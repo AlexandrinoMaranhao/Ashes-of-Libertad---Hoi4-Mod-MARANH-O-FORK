@@ -24,16 +24,16 @@ set_popularities = {
 	reactionary = 100
 
 }
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Chukwuemeka ''Emeka'' Odumegwu-Ojukwu"
+	picture = "gfx/leaders/ACR/Portrait_RPB_Male.dds"
+	expire = "1999.1.1"
+	ideology = islamist_theocracy 
+	traits = {
+		#
+	}
+}
 
 
 }
