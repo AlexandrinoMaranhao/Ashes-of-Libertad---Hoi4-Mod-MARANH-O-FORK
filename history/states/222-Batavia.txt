@@ -5,11 +5,20 @@ state={
 	provinces={
 		905 979 1276 1287 1670 2079 2378 2534 3114 3149 3166 3181 6242 
 	}
-	manpower=100000
+	manpower=150433
         state_category=rural
 	buildings_max_level_factor=1.000
 
             history = {
+        victory_points = {
+1670 5
+        }
+        victory_points = {
+1287 5
+        }
+        victory_points = {
+979 5
+        }
 
         owner = HOL
         add_core_of = HOL

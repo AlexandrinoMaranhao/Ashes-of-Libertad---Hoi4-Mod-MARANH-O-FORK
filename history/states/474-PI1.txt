@@ -10,6 +10,7 @@ state={
 		owner = PIA
 		add_core_of = PIA
 
+		add_core_of = CFD
 		victory_points = {
 		1306 30	 
 		}

@@ -10,5 +10,6 @@ state={
             history = {
              owner=PRU
              add_core_of = ECU
+		add_core_of = SEC
 }
 }

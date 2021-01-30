@@ -12,7 +12,7 @@ state={
 
             owner = JUN
             add_core_of = JUN
-            add_core_of = JEG
+		add_core_of = RMI
         victory_points = {
            328 5
         }

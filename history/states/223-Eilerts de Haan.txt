@@ -4,11 +4,14 @@ state={
 	provinces={
 		525 916 1414 2201 2501 2537 2559 3187 3194 3212 3218 3240 3246 3272 
 	}
-	manpower=10000
+	manpower=2943
         state_category=pastoral
 	buildings_max_level_factor=1.000
 
             history = {
+        victory_points = {
+3240 5
+        }
 
         owner = HOL
         add_core_of = HOL

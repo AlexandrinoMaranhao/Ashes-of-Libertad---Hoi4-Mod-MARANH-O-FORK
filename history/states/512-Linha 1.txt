@@ -12,5 +12,6 @@ state={
 history = {
 		owner = UBA
 		add_core_of = UBA
+		add_core_of = RMI
 }
 }

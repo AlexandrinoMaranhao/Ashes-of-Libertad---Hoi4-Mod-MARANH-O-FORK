@@ -11,5 +11,29 @@ state={
             history = {
              owner=PRU
              add_core_of = ECU
+        victory_points = {
+2283 30
+        }
+
+        victory_points = {
+3452 1
+        }
+
+        victory_points = {
+3552 5
+        }
+
+        victory_points = {
+3619 5
+        }
+
+        victory_points = {
+471 5
+        }
+
+        victory_points = {
+2733 5
+        }
+
 }
 }

@@ -7,7 +7,7 @@ state={
 		owner = VAL
 		add_core_of = VAL
         add_core_of = CRJ
-
+		add_core_of = RMI
 		victory_points = {
 			121 10 
 		}

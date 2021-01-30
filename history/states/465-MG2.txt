@@ -14,7 +14,7 @@ history = {
 
 		owner = VAL
 		add_core_of = VAL
-
+		add_core_of = RMI
 		victory_points = {
 			762 5 
 		}

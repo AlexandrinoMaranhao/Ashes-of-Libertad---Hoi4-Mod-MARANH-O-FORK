@@ -4,11 +4,20 @@ state={
 	provinces={
 		599 2356 3111 3115 3123 3133 
 	}
-	manpower=200000
+	manpower=223283
         state_category=large_town
 	buildings_max_level_factor=1.000
 
             history = {
+        victory_points = {
+2356 30
+        }
+        victory_points = {
+3115 10
+        }
+        victory_points = {
+599 5
+        }
 
         owner = HOL
         add_core_of = HOL

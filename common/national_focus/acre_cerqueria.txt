@@ -41,7 +41,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		acre_senate_remove_technocrat_seats_2 = yes
+		acre_senate_remove_technocrat_seats_1 = yes
+		acre_senate_remove_technocrat_seats_1 = yes
 		remove_ideas = adalberto_sena_political_advisor
 		remove_ideas = nilson_mourao_political_advisor
 	}
@@ -77,7 +78,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		acre_senate_remove_nationalist_seats_2 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
 		remove_ideas = jose_augusto_political_advisor
 		remove_ideas = mateus_satanawa_political_advisor
 		remove_ideas = pedro_augusto_da_silva_political_advisor
@@ -209,8 +211,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_force_discipline_in_militias
-	prerequisite = { focus = ACR_depend_on_greater_state }
-	prerequisite = { focus = ACR_prove_our_worth }
+	prerequisite = { focus = ACR_depend_on_greater_state  focus = ACR_prove_our_worth }
 	relative_position_id = ACR_prove_our_worth
 	#icon = 
 
@@ -269,7 +270,7 @@ shared_focus = {
 		remove_unit_leader = 13
 		create_corps_commander = {
 			name = "Placeholder 1"
-			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 			traits = { }
 			skill = 1
 			attack_skill = 1
@@ -280,7 +281,7 @@ shared_focus = {
 		}
 		create_corps_commander = {
 			name = "Placeholder 2"
-			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 			traits = { }
 			skill = 1
 			attack_skill = 1
@@ -291,7 +292,7 @@ shared_focus = {
 		}
 		create_corps_commander = {
 			name = "Placeholder 3"
-			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 			traits = { }
 			skill = 1
 			attack_skill = 1
@@ -302,7 +303,7 @@ shared_focus = {
 		}
 		create_corps_commander = {
 			name = "Placeholder 4"
-			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 			traits = { }
 			skill = 1
 			attack_skill = 1
@@ -313,7 +314,7 @@ shared_focus = {
 		}
 		create_corps_commander = {
 			name = "Placeholder 5"
-			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 			traits = { }
 			skill = 1
 			attack_skill = 1

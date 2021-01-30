@@ -14,7 +14,8 @@ state={
 			4521 5 
 		}
 		owner = UBA
-		add_core_of = UBA
+		add_core_of = UBA		
+		add_core_of = RMI
 
 	}
 

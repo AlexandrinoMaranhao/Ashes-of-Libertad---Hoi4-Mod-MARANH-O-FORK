@@ -12,7 +12,7 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1971.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -80,12 +80,12 @@ declare_war_on = {
 }
 
 
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	set_autonomy = { target = CLA autonomy_state = autonomy_isolated_military_district }
-	else = {
-		puppet = CLA
-	}
-}
-
+#
+#if = {
+#	limit = { has_dlc = "Together for Victory" }
+#	set_autonomy = { target = CLA autonomy_state = autonomy_isolated_military_district }
+#	else = {
+#		puppet = CLA
+#	}
+#}
+#

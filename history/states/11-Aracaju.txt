@@ -14,7 +14,7 @@ state={
 
         owner = SEG
         add_core_of = SEG
-
+		add_core_of = CFD
         victory_points = {
            1398 30
         }

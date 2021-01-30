@@ -10,11 +10,8 @@ state={
 
             history = {
 
-        owner = CLA
-        add_core_of = CLA
-
+        owner = COL
         add_core_of = ELN
-
         add_core_of = COL
 }
 }

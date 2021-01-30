@@ -4,11 +4,17 @@ state={
 	provinces={
 		1061 1699 2054 2101 2572 3245 3249 3253 3295 3296 3297 3314 3315 3318 3319 3340 
 	}
-	manpower=40000
+	manpower=39204
         state_category=pastoral
 	buildings_max_level_factor=1.000
 
             history = {
+        victory_points = {
+3249 5
+        }
+        victory_points = {
+3296 5
+        }
 
         owner = ENG
         add_core_of = ENG
