@@ -41,6 +41,16 @@ create_country_leader = {
 	}
 }
 
+declare_war_on = {
+	target = CUB
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = CDR
+	type = annex_everything
+}
+
 create_country_leader = {
 	
 	name = "Fulgencio Batista Zaldívar"

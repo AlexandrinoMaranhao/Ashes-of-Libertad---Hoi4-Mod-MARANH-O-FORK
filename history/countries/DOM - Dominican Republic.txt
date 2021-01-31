@@ -25,6 +25,26 @@ set_popularities = {
 
 }
 
+declare_war_on = {
+	target = DRE
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = CUB
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = CRD
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = RED
+	type = annex_everything
+}
+
 add_ideas = {
 	
 }

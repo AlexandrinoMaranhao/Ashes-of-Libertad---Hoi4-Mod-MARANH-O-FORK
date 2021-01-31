@@ -25,6 +25,11 @@ set_popularities = {
 
 }
 
+declare_war_on = {
+	target = CRD
+	type = annex_everything
+}
+
 add_ideas = {
 	the_old_rebellion
 anti_castro

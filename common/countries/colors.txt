@@ -650,8 +650,8 @@ ELD = {
 }
 
 VEC = {
-	color = rgb { 217 163 101 }
-	color_ui = rgb { 217 163 101 }
+	color = rgb { 190 82 31 }
+	color_ui = rgb { 190 82 31 }
 }
 
 VEJ = {

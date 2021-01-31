@@ -30,6 +30,11 @@ add_ideas = {
 
 }
 
+declare_war_on = {
+	target = ENG
+	type = annex_everything
+}
+
 #create_country_leader = {
 #	
 #	name = ""

@@ -25,6 +25,16 @@ set_popularities = {
 
 }
 
+declare_war_on = {
+	target = RED
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = DRE
+	type = annex_everything
+}
+
 add_ideas = {
 	anti_communist_army
 old_world_blues
