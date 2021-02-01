@@ -1,6 +1,6 @@
-﻿capital = 1
+﻿capital = 213
 
-#oob = ""
+oob = "ACC_DEMO"
 
 # Starting tech
 set_technology = {
@@ -38,6 +38,8 @@ declare_war_on = {
 add_ideas = {
 	anti_communist_army
 old_world_blues
+
+scraping_the_barrel
 }
 
 create_country_leader = {

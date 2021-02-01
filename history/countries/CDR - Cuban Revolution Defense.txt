@@ -1,6 +1,6 @@
-﻿capital = 1
+﻿capital = 519
 
-#oob = ""
+oob = "BTA_DEMO"
 
 # Starting tech
 set_technology = {
@@ -27,7 +27,12 @@ set_popularities = {
 
 add_ideas = {
 	the_cuban_revolution_defense_force
-pro_castro
+	pro_castro
+}
+
+declare_war_on = {
+	target = BTA
+	type = annex_everything
 }
 
 create_country_leader = {

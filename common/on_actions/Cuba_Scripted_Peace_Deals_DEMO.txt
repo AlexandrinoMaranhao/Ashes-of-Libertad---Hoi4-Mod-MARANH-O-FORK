@@ -1,0 +1,150 @@
+on_actions = {
+
+      on_capitulation = {
+ 
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = CUB #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = BTA #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     }
+  
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = BTA #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = CUB #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+            annex_country = {
+              target = CDR
+              transfer_troops = no
+            }
+          }
+        }
+     }
+ 
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = BTA #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = CDR #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     }
+ 
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = ACC #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = RED #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     }
+ 
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = ACC #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = DRE #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     }
+ 
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = DRE #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = ACC #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     }
+ 
+        effect = {
+           if = { #### To show which war this entails, all peace deals are in one on_capitulation block
+            limit = {
+              FROM = { #### Winner
+                original_tag = REM #### Tag
+            }
+            ROOT = { #### Loser/country which capitulated
+              original_tag = ACC #### Tag
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     }
+ 
+  }
+} 

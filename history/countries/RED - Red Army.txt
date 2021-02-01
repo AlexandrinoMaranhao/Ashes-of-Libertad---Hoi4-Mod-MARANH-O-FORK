@@ -1,6 +1,6 @@
-﻿capital = 1
+﻿capital = 525
 
-#oob = ""
+oob = "RED_DEMO"
 
 # Starting tech
 set_technology = {
@@ -28,6 +28,8 @@ set_popularities = {
 add_ideas = {
 	the_red_army
 anti_castro
+
+scraping_the_barrel
 }
 
 create_country_leader = {

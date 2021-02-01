@@ -1,6 +1,6 @@
-﻿capital = 1
+﻿capital = 211
 
-#oob = ""
+oob = "DRE_DEMO"
 
 # Starting tech
 set_technology = {
@@ -24,10 +24,15 @@ set_popularities = {
 	reactionary = 0
 
 }
+create_faction = South_CUBA
+add_to_faction = RED
+add_to_faction = DRE
 
 add_ideas = {
 	split_leadership
 anti_castro
+
+scraping_the_barrel
 }
 
 create_country_leader = {
