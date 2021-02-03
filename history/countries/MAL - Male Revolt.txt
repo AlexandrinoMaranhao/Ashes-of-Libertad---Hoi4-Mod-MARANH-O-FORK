@@ -27,7 +27,7 @@ set_popularities = {
 create_country_leader = {
 	
 	name = "Chukwuemeka ''Emeka'' Odumegwu-Ojukwu"
-	picture = "gfx/leaders/ACR/Portrait_RPB_Male.dds"
+	picture = "gfx/leaders/RPB/Portrait_RPB_Male.dds"
 	expire = "1999.1.1"
 	ideology = islamist_theocracy 
 	traits = {

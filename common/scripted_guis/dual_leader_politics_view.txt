@@ -13,7 +13,7 @@ scripted_gui = {
 		
 		visible = {
 				OR = {
-				tag = ROR tag = STR tag = PAT tag = XIN tag = DRE tag = CRJ tag = JRM tag = COR	tag = PRU tag = HIE	VEN = { has_government = fascism }	
+				tag = ROR tag = STR tag = PAT tag = XIN tag = DRE tag = CRJ tag = JRM tag = COR	tag = PRU tag = HIE	
 			}	
 		}
 		

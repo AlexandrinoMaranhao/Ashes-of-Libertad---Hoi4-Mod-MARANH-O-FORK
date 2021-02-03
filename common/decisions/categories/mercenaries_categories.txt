@@ -6,7 +6,19 @@ buy_mercenary_companies_category = {
 
 	allowed = {
 	}
-    
+    visible = {
+		if = {
+			OR = {
+				tag = ACR
+				tag = COR
+				tag = MNS
+				tag = ROR
+				tag = KAY
+				tag = NHA
+				tag = BEM
+			}
+		}
+}
     available = {
 		if = {
 			OR = {
@@ -15,7 +27,7 @@ buy_mercenary_companies_category = {
 				tag = MNS
 				tag = ROR
 				tag = KAY
-				tag = AMC
+				tag = NHA
 				tag = BEM
 			}
 		}

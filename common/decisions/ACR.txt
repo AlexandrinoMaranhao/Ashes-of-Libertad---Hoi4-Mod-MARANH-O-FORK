@@ -299,7 +299,7 @@ ACR_compensation_trade_category = {
 					delivered = yes
 				}
 			}
-		}
+		
 		complete_effect  = {
 			capital_scope = {
 				if = {
@@ -347,4 +347,3 @@ ACR_compensation_trade_category = {
 		}
 		days_remove = 120
 	}
-}

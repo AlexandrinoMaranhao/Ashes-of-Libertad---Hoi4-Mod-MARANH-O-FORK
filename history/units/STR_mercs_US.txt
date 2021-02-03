@@ -1,0 +1,31 @@
+division_template = {
+	name = "Saint Harem Merc Battalion"
+	division_names_group = STR_merc_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Saint Harem Mercenary Company"
+		division_template = "Saint Harem Merc Battalion"
+		location = 3632
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+}

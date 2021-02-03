@@ -86,7 +86,39 @@ country_event = {
         74 = { set_demilitarized_zone = yes }
         75 = { set_demilitarized_zone = yes }
         72 = { set_demilitarized_zone = yes }
-        hidden_effect = { JUN = { country_event = { id = JUN_collapse.5 days = 14 } } }
+        hidden_effect = { JUN = { country_event = { id = JUN_collapse.5 days = 14 } }
+        
+            every_state = {
+                limit = {
+                    is_owned_by = JUN
+                }
+                add_core_of = JRM
+            }
+                        every_state = {
+                limit = {
+                    is_owned_by = JUN
+                }
+                add_core_of = JEG
+            }
+                        every_state = {
+                limit = {
+                    is_owned_by = JUN
+                }
+                add_core_of = JCL
+            }
+                        every_state = {
+                limit = {
+                    is_owned_by = JUN
+                }
+                add_core_of = JCS
+            }
+                        every_state = {
+                limit = {
+                    is_owned_by = JUN
+                }
+                add_core_of = JGD
+            }
+ }
     }
 }
 country_event = {
@@ -101,11 +133,18 @@ country_event = {
        name = JUN_collapse.5.a
        JUN = { dismantle_faction = yes }
        hidden_effect = {
-       release = JGD
-       release = JEG
-       release = JCL
-       release = JRM
-       release = JCS
+       JRM = { transfer_state = 70 }
+       JRM = { transfer_state = 497 }
+       JEG = { transfer_state = 62 }
+       JEG = { transfer_state = 63 }
+       JEG = { transfer_state = 71 }
+       JCL = { transfer_state = 76 }
+       JCL = { transfer_state = 73 }
+       JCS = { transfer_state = 74 }
+       JCS = { transfer_state = 75 }
+       JCS = { transfer_state = 72 }
+       JGD = { transfer_state = 69 }
+
        74 = { set_demilitarized_zone = no }
        75 = { set_demilitarized_zone = no }
        72 = { set_demilitarized_zone = no }

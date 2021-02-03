@@ -1,0 +1,30 @@
+division_template = {
+	name = "Saint Francis Merc Battalion"
+	division_names_group = STR_merc_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Companhia Mercenária São Francisco"
+		division_template = "Saint Francis Merc Battalion"
+		location = 3632
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+}

@@ -1,130 +1,57 @@
-hire_fonte_boa = {
+#hire_fonte_boa = {
+#    open_up = {}
+#    embrace_language = {}
+#    embrace_firearms = {}
+#    embrace_medicine = {}
+#    embrace_military_structure = {}
+#	military_training = {}
+#    guns_shipment = {}
+#    create_guarrison = {}
+#    embrace_ideals = {}
+#}
+#
+#hire_neblina = {
+#	 buy_slaves = {allowed = { tag = MNS }}
+#}
+#
+#hire_cia = {
+#	hire_interrogation_experts = {}
+#    hire_infiltration_experts = {}
+#	hire_spy = {}
+#	hire_elite_unit = {}
+#}
+#
 
-    open_up = {
-
-    }
-
-    embrace_language = {
-
-    }
-
-    embrace_firearms = {
-
-    }
-
-    embrace_medicine = {
-
-    }
-
-    embrace_military_structure = {
-
-    }
-
-	military_training = {
-
-	}
-    
-    guns_shipment = {
-
-    }
-
-    create_guarrison = {
-
-    }
-
-    embrace_ideals = {
-
-    }
-
-}
-
-hire_neblina = {
-	
-	buy_slaves = {
-	allowed = { tag = MNS }
-	}
-    
-    hire_military_advisor = {
-
-    }
-
-    hire_admiral = {
-
-    }
-
-    hire_mercenary_army = {
-
-    }
-
-    buy_military_grade_equipment = {
-
-    }
-
-}
-
-hire_cia = {
-	
-	hire_interrogation_experts = {
-
-	}
-
-	hire_infiltration_experts = {
-
-	}
-
-	hire_spy = {
-
-	}
-
-	hire_elite_unit = {
-
-	}
-
-}
-
-hire_santarem = {
-	
-	hire_general_attack = {
-	    available = {
-        
-        }
-
-	}
-
-	hire_general_defence = {
-	    available = {
-        
-        }
-
-	}
-
-	hire_general_mixed = {
-	    available = {
-        
-        }
-
-	}
-
-	hire_mercenary_group_BR = {
-	    available = {
-        
-        }
-
-	}
-
-	hire_mercenary_gropu_US = {
-        available = {
-
-        }
-	}
-
-}
+#########Actual stuff
 
 buy_mercenary_companies_category = {
 
-    santarem_dummydecision = {
+    santarem_open_decisions = { #Shows up Santarém Decisions
         available = {
-            always = no
+            always = yes
+        }
+        visible = {
+        NOT = {
+        has_country_flag = santarem_open
+        }
+        }
+        complete_effect = {
+        set_country_flag = santarem_open
+        clr_country_flag = santarem_close
+        }
+    }
+
+    santarem_close_decisions = { #Closes up Santarém Decisions
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = santarem_open
+        }
+        
+        complete_effect = {
+        set_country_flag = santarem_close
+        clr_country_flag = santarem_open
         }
     }
 
@@ -133,56 +60,179 @@ buy_mercenary_companies_category = {
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = santarem_open
+        }
         days_re_enable = 30
         complete_effect = {
             add_manpower = 400
+            STR = { add_manpower = -400 }
+        }
+        hidden_effect = {
+            country_event = { id = manpower_merc_time_ends.1 days = 30 } 
         }
     }
-
-    santarem_leunit = {
-        cost = 50
+ 
+   santarem_leunit_US = {
+       cost = 125
+       available = {
+           always = yes
+       }
+       visible = {
+       has_country_flag = santarem_open
+       }
+       days_re_enable = 30
+       complete_effect = {
+       hidden_effect = {
+           country_event = { id = us_merc_time_ends.1 days = 90 } 
+       }
+           STR = { add_political_power = 125 }
+           ROOT = {
+               load_oob = "STR_mercs_US"
+               create_unit = {
+                   division = "name = \"Saint Harem Mercenary Company\" division_template = \"Saint Harem Merc Battalion\" 
+                   start_experience_factor = 0.5 start_equipment_factor = 0.8"
+               }  
+           } 
+       }
+   }
+  
+    santarem_leunit_BR = {
+        cost = 100
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = santarem_open
+        }
         days_re_enable = 30
         complete_effect = {
-            any_owned_state = {
+        hidden_effect = {
+            country_event = { id = br_merc_time_ends.1 days = 90 } 
+        }
+            STR = { add_political_power = 100 }
+            ROOT = {
+                load_oob = "STR_mercs_BR"
                 create_unit = {
-                    division = "name = \"Divisao lol\" division_template = \"theres no fucking template for units\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
-                    owner = ROOT
-                }
-            }
+                    division = "name = \"Companhia Mercenária São Francisco\" division_template = \"Saint Francis Merc Battalion\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
+                }     
+            } 
         }
     }
-
-    santarem_general = {
-        cost = 50
+ 
+    santarem_general_mixed = {
+        cost = 100
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = santarem_open
+        }
         days_re_enable = 30
         complete_effect = {
+            STR = { add_political_power = 100 }
+
             create_corps_commander = {
                 name = "PLACEHOLDER GENERAL"
-                picture = "Portrait_ACR_Edgar_Cerqueira.dds"
-                traits = { trickster brilliant_strategist }
-                skill = 4
-                attack_skill = 4
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 2
                 defense_skill = 2
-                planning_skill = 4
+                planning_skill = 3
                 logistics_skill = 3
+                id = 14
+            }
+        hidden_effect = {
+            country_event = { id = mixed_merc_time_ends.1 days = 30 } 
+        }
+        }
+    }
+
+    santarem_general_attack = {
+        cost = 100
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = santarem_open
+        }
+        days_re_enable = 30
+        complete_effect = {
+            STR = { add_political_power = 100 }
+
+            create_corps_commander = {
+                name = "PLACEHOLDER GENERAL"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 4
+                defense_skill = 1
+                planning_skill = 2
+                logistics_skill = 3
+                id = 15
+            }
+        hidden_effect = {
+            country_event = { id = attack_merc_time_ends.1 days = 30 } 
+        }
+        }
+    }
+
+    santarem_general_defense = {
+        cost = 100
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = santarem_open
+        }
+        days_re_enable = 30
+        complete_effect = {
+            STR = { add_political_power = 100 }
+
+            create_corps_commander = {
+                name = "PLACEHOLDER GENERAL"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 1
+                defense_skill = 4
+                planning_skill = 3
+                logistics_skill = 2
+                id = 16
+            }
+        hidden_effect = {
+            country_event = { id = defense_merc_time_ends.1 days = 30 } 
             }
         }
     }
 
-    neblinad_dummy = {
-        cost = 50
+    neblina_open_decisions = { #Shows up Neblina Decisions
         available = {
-            always = no 
+            always = yes
         }
-        days_re_enable = 30
+        visible = {
+        NOT = {
+        has_country_flag = neblina_mercenary_open
+        }
+        }
         complete_effect = {
-            #
+        set_country_flag = neblina_mercenary_open
+        clr_country_flag = neblina_mercenary_close
+        }
+    }
+
+    neblina_close_decisions = { #Closes up Neblina Decisions
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = neblina_mercenary_open
+        }
+        
+        complete_effect = {
+        set_country_flag = neblina_mercenary_close
+        clr_country_flag = neblina_mercenary_open
         }
     }
 
@@ -191,11 +241,16 @@ buy_mercenary_companies_category = {
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = neblina_mercenary_open
+        }
         days_re_enable = 30
         complete_effect = {
+            NEB = { add_political_power = 50 }
+
             add_equipment_to_stockpile = {
                 type = infantry_equipment
-                amount = 50
+                amount = 250
                 producer = ROOT
             }
         }
@@ -206,24 +261,100 @@ buy_mercenary_companies_category = {
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = neblina_mercenary_open
+        }
         days_re_enable = 30
         complete_effect = {
+            NEB = { add_political_power = 50 }
+
             add_equipment_to_stockpile = {
                 type = support_equipment
-                amount = 10
+                amount = 100
                 producer = ROOT
             }
         }
     }
 
-    CIAd_dummy = {
-        cost = 50
+   neblina_leunit = {
+       cost = 150
+       available = {
+           always = yes
+       }
+       visible = {
+       has_country_flag = neblina_mercenary_open
+       }
+       days_re_enable = 30
+       complete_effect = {
+       hidden_effect = {
+           country_event = { id = neblina_merc_time_ends.1 days = 90 } 
+       }
+           NEB = { add_political_power = 150 }
+           ROOT = {
+               load_oob = "NEB_mercs"
+               create_unit = {
+                   division = "name = \"La Neblina Mercenary Company\" division_template = \"Neblina Mercenary Battalion\" 
+                   start_experience_factor = 1 start_equipment_factor = 1"
+               }  
+           } 
+       }
+   }
+  
+    neblina_admiral = {
+        cost = 200
         available = {
-            always = no
+            always = yes
         }
-        days_re_enable = 30
+        visible = {
+        has_country_flag = neblina_mercenary_open
+        }
+        days_re_enable = 231
         complete_effect = {
-            #
+            NEB = { add_political_power = 200 }
+
+            create_navy_leader = {
+                name = "Carlos Larrazabál"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { green_water_expert ground_pounder ironside }
+                skill = 6
+                attack_skill = 6
+                defense_skill = 4
+                maneuvering_skill = 5
+                coordination_skill = 5
+                id = 17
+            }
+        hidden_effect = {
+            country_event = { id = navy_merc_time_ends.1 days = 230 } 
+        }
+        }
+    }
+
+    cia_open_decisions = { #Shows up CIA Decisions
+        available = {
+            always = yes
+        }
+        visible = {
+        NOT = {
+        has_country_flag = cia_mercenary_open
+        }
+        }
+        complete_effect = {
+        set_country_flag = cia_mercenary_open
+        clr_country_flag = cia_mercenary_close
+        }
+    }
+
+    cia_close_decisions = { #Closes up CIA Decisions
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
+        complete_effect = {
+        set_country_flag = cia_mercenary_close
+        clr_country_flag = cia_mercenary_open
         }
     }
 
@@ -232,6 +363,10 @@ buy_mercenary_companies_category = {
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
         days_re_enable = 30
         complete_effect = {
             add_tech_bonus = {
@@ -248,8 +383,20 @@ buy_mercenary_companies_category = {
         available = {
             always = yes
         }
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
         days_re_enable = 30
         complete_effect = {
+                add_ace = {
+            name = "PLACEHOLDER"
+            surname = "PLACEHOLDER"
+            callsign = "PLACEHOLDER"
+            type = fighter_genius
+            is_female = no
+        }
+        air_experience = 10
             add_timed_idea = {
                 idea = CIAd_air_production
                 days = 30
@@ -262,13 +409,55 @@ buy_mercenary_companies_category = {
         available = {
             always = yes
         }
-        days_re_enable = 30
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
+        days_re_enable = 60
         complete_effect = {
             add_equipment_to_stockpile = {
-                type = fighter_equipment_0
+                type = fighter_equipment_2 
                 amount = 20
-                producer = ROOT
+                producer = CIA
             }
+        }                
+    }
+
+    CIAd_air_add_cas = {
+        cost = 50
+        available = {
+            always = yes
         }
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
+        days_re_enable = 60
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = CAS_equipment_2 
+                amount = 20
+                producer = CIA
+            }
+        }                
+    }
+
+    CIAd_air_add_bombers = {
+        cost = 50
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
+        days_re_enable = 60
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = strat_bomber_equipment_2 
+                amount = 20
+                producer = CIA
+            }
+        }                
     }
 }
