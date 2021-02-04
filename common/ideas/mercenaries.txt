@@ -26,11 +26,9 @@ ideas = {
 			}
 			
 			modifier = {
-				equipment_bonus = {
-					fighter_equipment = {
-						build_cost_ic = -0.25 instant = yes
-					}
-				}
+			experience_gain_air = 0.5
+			air_ace_generation_chance_factor = 0.5
+			production_factory_efficiency_gain_factor = 0.05 
 			}
 		}
 	}

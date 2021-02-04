@@ -1,6 +1,6 @@
 division_template = {
 	name = "Neblina Mercenary Battalion"
-	division_names_group = STR_merc_INF_02
+	division_names_group = NEB_merc_INF
 
 
 	regiments = {
@@ -17,7 +17,7 @@ division_template = {
 
 units = {
 	division = {
-		name = "La Neblina Mercenary Company"
+		name = "Nublados"
 		division_template = "Neblina Mercenary Battalion"
 		location = 3441
 		start_experience_factor = 1

@@ -4,7 +4,7 @@
 #    embrace_firearms = {}
 #    embrace_medicine = {}
 #    embrace_military_structure = {}
-#	military_training = {}
+#	 military_training = {}
 #    guns_shipment = {}
 #    create_guarrison = {}
 #    embrace_ideals = {}
@@ -16,7 +16,7 @@
 #
 #hire_cia = {
 #	hire_interrogation_experts = {}
-#    hire_infiltration_experts = {}
+#   hire_infiltration_experts = {}
 #	hire_spy = {}
 #	hire_elite_unit = {}
 #}
@@ -67,6 +67,8 @@ buy_mercenary_companies_category = {
         complete_effect = {
             add_manpower = 400
             STR = { add_manpower = -400 }
+            STR = { add_political_power = 50 }
+
         }
         hidden_effect = {
             country_event = { id = manpower_merc_time_ends.1 days = 30 } 
@@ -86,7 +88,9 @@ buy_mercenary_companies_category = {
        hidden_effect = {
            country_event = { id = us_merc_time_ends.1 days = 90 } 
        }
+       custom_effect_tooltip = santarem_leunit_US_tt
            STR = { add_political_power = 125 }
+           hidden_effect = {
            ROOT = {
                load_oob = "STR_mercs_US"
                create_unit = {
@@ -96,7 +100,7 @@ buy_mercenary_companies_category = {
            } 
        }
    }
-  
+}
     santarem_leunit_BR = {
         cost = 100
         available = {
@@ -110,7 +114,9 @@ buy_mercenary_companies_category = {
         hidden_effect = {
             country_event = { id = br_merc_time_ends.1 days = 90 } 
         }
+        custom_effect_tooltip = santarem_leunit_BR_tt
             STR = { add_political_power = 100 }
+            hidden_effect = {
             ROOT = {
                 load_oob = "STR_mercs_BR"
                 create_unit = {
@@ -119,7 +125,7 @@ buy_mercenary_companies_category = {
             } 
         }
     }
- 
+}
     santarem_general_mixed = {
         cost = 100
         available = {
@@ -131,18 +137,102 @@ buy_mercenary_companies_category = {
         days_re_enable = 30
         complete_effect = {
             STR = { add_political_power = 100 }
-
+            hidden_effect = {
+random_list = {
+        15 = {
             create_corps_commander = {
-                name = "PLACEHOLDER GENERAL"
+                name = "Moura"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = {  }
+                skill = 1
+                attack_skill = 1
+                defense_skill = 1
+                planning_skill = 1
+                logistics_skill = 1
+                id = 100
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Paulo Roberto"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
-                skill = 3
+                skill = 6
                 attack_skill = 2
                 defense_skill = 2
-                planning_skill = 3
-                logistics_skill = 3
-                id = 14
+                planning_skill = 2
+                logistics_skill = 8
+                id = 101
             }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Tovica  "
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 4
+                attack_skill = 4
+                defense_skill = 4
+                planning_skill = 1
+                logistics_skill = 1
+                id = 102
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Guajara"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 5
+                attack_skill = 7
+                defense_skill = 6
+                planning_skill = 1
+                logistics_skill = 5
+                id = 103
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Pão Doce"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 6
+                attack_skill = 7
+                defense_skill = 2
+                planning_skill = 5
+                logistics_skill = 4
+                id = 104
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Xambregas"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 5
+                attack_skill = 6
+                defense_skill = 4
+                planning_skill = 5
+                logistics_skill = 4
+                id = 105
+            }
+        }
+        10 = {
+            create_corps_commander = {
+                name = "Werbell IV"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 10
+                attack_skill = 10
+                defense_skill = 10
+                planning_skill = 10
+                logistics_skill = 3
+                id = 106
+            }
+        }
+    }
+}
+custom_effect_tooltip = santarem_general_mixed_tt
         hidden_effect = {
             country_event = { id = mixed_merc_time_ends.1 days = 30 } 
         }
@@ -160,9 +250,11 @@ buy_mercenary_companies_category = {
         days_re_enable = 30
         complete_effect = {
             STR = { add_political_power = 100 }
-
+            hidden_effect = {
+random_list = {
+        15 = {
             create_corps_commander = {
-                name = "PLACEHOLDER GENERAL"
+                name = "''Leopold'' Black Jack"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 3
@@ -170,8 +262,90 @@ buy_mercenary_companies_category = {
                 defense_skill = 1
                 planning_skill = 2
                 logistics_skill = 3
-                id = 15
+                id = 107
             }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Mad Mike"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 4
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 3
+                id = 108
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Miguel Coruja"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 4
+                attack_skill = 4
+                defense_skill = 3
+                planning_skill = 4
+                logistics_skill = 4
+                id = 109
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Pedrinho Araújo"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 4
+                defense_skill = 2
+                planning_skill = 4
+                logistics_skill = 3
+                id = 110
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Zé Aurélio"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 4
+                defense_skill = 1
+                planning_skill = 4
+                logistics_skill = 1
+                id = 111
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Chico Imbiriba"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 3
+                attack_skill = 4
+                defense_skill = 1
+                planning_skill = 2
+                logistics_skill = 4
+                id = 112
+            }
+        }
+        10 = {
+            create_corps_commander = {
+                name = "Afonso Monte Alegre"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 4
+                attack_skill = 5
+                defense_skill = 2
+                planning_skill = 4
+                logistics_skill = 3
+                id = 113
+            }
+        }
+    }
+}
+custom_effect_tooltip = santarem_general_attack_tt
         hidden_effect = {
             country_event = { id = attack_merc_time_ends.1 days = 30 } 
         }
@@ -189,18 +363,102 @@ buy_mercenary_companies_category = {
         days_re_enable = 30
         complete_effect = {
             STR = { add_political_power = 100 }
-
+custom_effect_tooltip = santarem_general_defense_tt
+hidden_effect = {
+random_list = {
+        15 = {
             create_corps_commander = {
-                name = "PLACEHOLDER GENERAL"
+                name = "Helvécio"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
-                skill = 3
+                skill = 6
                 attack_skill = 1
-                defense_skill = 4
-                planning_skill = 3
-                logistics_skill = 2
-                id = 16
+                defense_skill = 7
+                planning_skill = 2
+                logistics_skill = 3
+                id = 114
             }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Cuiú"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 6
+                attack_skill = 1
+                defense_skill = 7
+                planning_skill = 1
+                logistics_skill = 1
+                id = 115
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Maromba"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 6
+                attack_skill = 1
+                defense_skill = 6
+                planning_skill = 3
+                logistics_skill = 4
+                id = 116
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Cabecinha"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 6
+                attack_skill = 1
+                defense_skill = 6
+                planning_skill = 1
+                logistics_skill = 4
+                id = 117
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Carlitinho"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 5
+                attack_skill = 1
+                defense_skill = 6
+                planning_skill = 2
+                logistics_skill = 1
+                id = 118
+            }
+        }
+        15 = {
+            create_corps_commander = {
+                name = "Jeremias"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 5
+                attack_skill = 2
+                defense_skill = 6
+                planning_skill = 2
+                logistics_skill = 4
+                id = 119
+            }
+        }
+        10 = {
+            create_corps_commander = {
+                name = "Bob Baguette"
+                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                traits = { trickster }
+                skill = 8
+                attack_skill = 4
+                defense_skill = 8
+                planning_skill = 4
+                logistics_skill = 3
+                id = 120
+            }
+        }
+    }
+}
         hidden_effect = {
             country_event = { id = defense_merc_time_ends.1 days = 30 } 
             }
@@ -248,10 +506,17 @@ buy_mercenary_companies_category = {
         complete_effect = {
             NEB = { add_political_power = 50 }
 
+           VEN = { 
+           add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -250
+                producer = VEN
+            }
+        }
             add_equipment_to_stockpile = {
                 type = infantry_equipment
                 amount = 250
-                producer = ROOT
+                producer = VEN
             }
         }
     }
@@ -268,15 +533,22 @@ buy_mercenary_companies_category = {
         complete_effect = {
             NEB = { add_political_power = 50 }
 
+           VEN = { 
+           add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = -100
+                producer = VEN
+            }
+        }
             add_equipment_to_stockpile = {
                 type = support_equipment
                 amount = 100
-                producer = ROOT
+                producer = VEN
             }
         }
     }
 
-   neblina_leunit = {
+    neblina_leunit = {
        cost = 150
        available = {
            always = yes
@@ -290,18 +562,21 @@ buy_mercenary_companies_category = {
            country_event = { id = neblina_merc_time_ends.1 days = 90 } 
        }
            NEB = { add_political_power = 150 }
+           custom_effect_tooltip = neblina_leunit_tt
+           hidden_effect = {
            ROOT = {
                load_oob = "NEB_mercs"
                create_unit = {
-                   division = "name = \"La Neblina Mercenary Company\" division_template = \"Neblina Mercenary Battalion\" 
+                   division = "name = \"Nublados\" division_template = \"Neblina Mercenary Battalion\" 
                    start_experience_factor = 1 start_equipment_factor = 1"
                }  
            } 
        }
    }
+}
   
     neblina_admiral = {
-        cost = 200
+        cost = 300
         available = {
             always = yes
         }
@@ -314,13 +589,13 @@ buy_mercenary_companies_category = {
 
             create_navy_leader = {
                 name = "Carlos Larrazabál"
-                portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
+                portrait_path = "gfx/leaders/NEB/Portrait_NEB_Carlos_Larrazabal.dds"
                 traits = { green_water_expert ground_pounder ironside }
-                skill = 6
-                attack_skill = 6
-                defense_skill = 4
-                maneuvering_skill = 5
-                coordination_skill = 5
+                skill = 8
+                attack_skill = 8
+                defense_skill = 8
+                maneuvering_skill = 10
+                coordination_skill = 8
                 id = 17
             }
         hidden_effect = {
@@ -390,9 +665,9 @@ buy_mercenary_companies_category = {
         days_re_enable = 30
         complete_effect = {
                 add_ace = {
-            name = "PLACEHOLDER"
-            surname = "PLACEHOLDER"
-            callsign = "PLACEHOLDER"
+            name = "[REDACTED]"
+            surname = "[REDACTED]"
+            callsign = "Perry"
             type = fighter_genius
             is_female = no
         }
@@ -458,6 +733,23 @@ buy_mercenary_companies_category = {
                 amount = 20
                 producer = CIA
             }
-        }                
+        }
     }
+
+    CIAd_la_resistance_shit = {
+        cost = 300
+        available = {
+            always = yes
+        }
+        visible = {
+        has_country_flag = cia_mercenary_open
+        }
+        
+        days_re_enable = 60
+        complete_effect = {
+        #La Resistance Shit
+        }
+    }
+
+
 }

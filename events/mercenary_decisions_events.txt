@@ -19,8 +19,14 @@ country_event = {
 	option = {
 		name = mixed_merc_time_ends.1.A
 		ROOT = {
-      remove_unit_leader = 14
-}
+        remove_unit_leader = 100
+        remove_unit_leader = 101
+        remove_unit_leader = 102
+        remove_unit_leader = 103
+        remove_unit_leader = 104
+        remove_unit_leader = 105
+        remove_unit_leader = 106
+     }
 	}
 	option = {
 		name = mixed_merc_time_ends.1.B
@@ -65,8 +71,14 @@ country_event = {
 	option = {
 		name = attack_merc_time_ends.1.A
 		ROOT = {
-      remove_unit_leader = 15
-}
+        remove_unit_leader = 107
+        remove_unit_leader = 108
+        remove_unit_leader = 109
+        remove_unit_leader = 110
+        remove_unit_leader = 111
+        remove_unit_leader = 112
+        remove_unit_leader = 113
+        }
 	}
 	option = {
 		name = attack_merc_time_ends.1.B
@@ -88,8 +100,14 @@ country_event = {
 	option = {
 		name = defense_merc_time_ends.1.A
 		ROOT = {
-      remove_unit_leader = 16
-}
+        remove_unit_leader = 114
+        remove_unit_leader = 115
+        remove_unit_leader = 116
+        remove_unit_leader = 117
+        remove_unit_leader = 118
+        remove_unit_leader = 119
+        remove_unit_leader = 120
+        }
 	}
 	option = {
 		name = defense_merc_time_ends.1.B

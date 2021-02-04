@@ -1,0 +1,32 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		45 232 767 931 1101 1263 1790 1903 1911 2051 2260 2433 2527 3893 3950 4054 4208 4248 4328 4347 
+	}
+	manpower=53284
+	buildings_max_level_factor=1.000
+        state_category=pastoral
+
+        history = {
+       
+            owner = JUN
+            add_core_of = JUN
+
+		victory_points = {
+                1263 30
+		}
+		victory_points = {
+                2433 5
+		}
+		victory_points = {
+                4248 5
+		}
+		victory_points = {
+                767 5
+		}
+		victory_points = {
+                3950 5 
+		}
+     }
+}
