@@ -8,7 +8,111 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-           
+            
+	SpriteType = {
+	name = "GFX_goal_"
+	texturefile = "gfx/interface/goals/.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_"
+	texturefile = "gfx/interface/goals/.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_"
+	texturefile = "gfx/interface/goals/.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_"
+	texturefile = "gfx/interface/goals/.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_"
+	texturefile = "gfx/interface/goals/.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_soldados_da_fortuna"
+	texturefile = "gfx/interface/goals/soldados_da_fortuna.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_Make_Love_not_War"
+	texturefile = "gfx/interface/goals/Make_Love_not_War.dds"
+	}	
+               
+	SpriteType = {
+	name = "GFX_goal_buy_mechanization"
+	texturefile = "gfx/interface/goals/buy_mechanization.dds"
+	}	
+   
+	SpriteType = {
+	name = "GFX_goal_ease_the_bringing_of_equipment"
+	texturefile = "gfx/interface/goals/ease_the_bringing_of_equipment.dds"
+	}	
+       
+	SpriteType = {
+	name = "GFX_goal_manauan_gun_market"
+	texturefile = "gfx/interface/goals/manauan_gun_market.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_the_rio_branco_manaus_axis"
+	texturefile = "gfx/interface/goals/the_rio_branco_manaus_axis.dds"
+	}	
+     
+	SpriteType = {
+	name = "GFX_goal_invesgate_the_sni"
+	texturefile = "gfx/interface/goals/invesgate_the_sni.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Xapuri_acre_pride"
+	texturefile = "gfx/interface/goals/Xapuri_acre_pride.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_the_rubber_crisis"
+	texturefile = "gfx/interface/goals/the_rubber_crisis.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Close_the_door"
+	texturefile = "gfx/interface/goals/Close_the_door.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_relations_with_manaus"
+	texturefile = "gfx/interface/goals/relations_with_manaus.dds"
+	}	
+   
+	SpriteType = {
+	name = "GFX_goal_create_the_fluvial_defense_fleet"
+	texturefile = "gfx/interface/goals/create_the_fluvial_defense_fleet.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_meeting_our_neighboors"
+	texturefile = "gfx/interface/goals/meeting_our_neighboors.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_acres_wealth"
+	texturefile = "gfx/interface/goals/acres_wealth.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_dream_big"
+	texturefile = "gfx/interface/goals/dream_big.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_protect_acres_little_princess"
+	texturefile = "gfx/interface/goals/protect_acres_little_princess.dds"
+	}	
            
 	SpriteType = {
 	name = "GFX_goal_railroad_to_heaven"

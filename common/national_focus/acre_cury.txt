@@ -347,7 +347,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_defend_acre_little_princess
-	#icon = 
+	icon = GFX_goal_protect_acres_little_princess
 	prerequisite = { focus = ACR_bringing_electricity_to_acre }
 	relative_position_id = ACR_bringing_electricity_to_acre
 
@@ -366,7 +366,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_xapuri_acre_pride
-	#icon = 
+	icon = GFX_goal_Xapuri_acre_pride
 	prerequisite = { focus = ACR_defend_acre_little_princess }
 	relative_position_id = ACR_defend_acre_little_princess
 
@@ -386,7 +386,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_revise_sni_actions_acre
-	#icon = 
+	icon = GFX_goal_invesgate_the_sni
 	prerequisite = { focus = ACR_xapuri_acre_pride }
 	prerequisite = { focus = ACR_found_funai }
 	relative_position_id = ACR_xapuri_acre_pride
@@ -414,7 +414,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_dream_big
-	#icon = 
+	icon = GFX_goal_dream_big
 	prerequisite = { focus = ACR_bringing_electricity_to_acre }
 	relative_position_id = ACR_bringing_electricity_to_acre
 
@@ -482,11 +482,14 @@ shared_focus = {
 		423 = {
 			add_core_of = ACR
 		}
+		418 = {
+			add_core_of = ACR
+		}
 	}
 }
 shared_focus = {
 	id = ACR_acre_fortune_for_acre_alone
-	#icon = 
+	icon = GFX_goal_acres_wealth
 	prerequisite = { focus = ACR_dream_big }
 	relative_position_id = ACR_dream_big
 
@@ -505,7 +508,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_meeting_our_neighbours
-	#icon = 
+	icon = GFX_goal_meeting_our_neighboors
 	prerequisite = { focus = ACR_cury_presidency }
 	relative_position_id = ACR_cury_presidency
 
@@ -521,7 +524,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_establish_relations_with_manaus
-	#icon = 
+	icon = GFX_goal_relations_with_manaus
 	prerequisite = { focus = ACR_meeting_our_neighbours }
 	relative_position_id = ACR_meeting_our_neighbours
 
@@ -547,7 +550,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_rubber_crisis
-	#icon = 
+	icon = GFX_goal_the_rubber_crisis
 	prerequisite = { focus = ACR_establish_relations_with_manaus }
 	relative_position_id = ACR_establish_relations_with_manaus
 
@@ -575,7 +578,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_create_fluvial_defense_fleet
-	#icon = 
+	icon = GFX_goal_create_the_fluvial_defense_fleet
 	prerequisite = { focus = ACR_meeting_our_neighbours }
 	relative_position_id = ACR_meeting_our_neighbours
 
@@ -607,7 +610,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_close_doors
-	#icon = 
+	icon = GFX_goal_Close_the_door
 	prerequisite = { focus = ACR_create_fluvial_defense_fleet }
 	relative_position_id = ACR_create_fluvial_defense_fleet
 
@@ -629,7 +632,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_manaus_rio_branco_pact
-	#icon = 
+	icon = GFX_goal_the_rio_branco_manaus_axis
 	prerequisite = { focus = ACR_close_doors }
 	prerequisite = { focus = ACR_rubber_crisis }
 	relative_position_id = ACR_close_doors
@@ -651,7 +654,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_buy_guns_from_manaus
-	#icon = 
+	icon = GFX_goal_manauan_gun_market
 	prerequisite = { focus = ACR_manaus_rio_branco_pact }
 	relative_position_id = ACR_manaus_rio_branco_pact
 
@@ -673,7 +676,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_ease_bringing_of_equipment
-	#icon = 
+	icon = GFX_goal_ease_the_bringing_of_equipment
 	prerequisite = { focus = ACR_buy_guns_from_manaus }
 	relative_position_id = ACR_buy_guns_from_manaus
 
@@ -695,7 +698,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_buy_mechanization
-	#icon = 
+	icon = GFX_goal_buy_mechanization
 	prerequisite = { focus = ACR_ease_bringing_of_equipment }
 	relative_position_id = ACR_ease_bringing_of_equipment
 

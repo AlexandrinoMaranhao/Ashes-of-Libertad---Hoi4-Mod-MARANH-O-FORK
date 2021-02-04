@@ -6,7 +6,72 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-             
+           
+spriteType ={
+    name = "GFX_idea_ACR_placidos_dream"
+    texturefile = "gfx/interface/ideas/ACR_placidos_dream.dds"
+} 
+           
+spriteType ={
+    name = "GFX_idea_batistas_unfounded_ego"
+    texturefile = "gfx/interface/ideas/batistas_unfounded_ego.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_PCR"
+    texturefile = "gfx/interface/ideas/the_PCR.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_pro_castro"
+    texturefile = "gfx/interface/ideas/pro_castro.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_anti_castro"
+    texturefile = "gfx/interface/ideas/anti_castro.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ACR_tappers_protest"
+    texturefile = "gfx/interface/ideas/ACR_tappers_protest.dds"
+} 
+       
+spriteType ={
+    name = "GFX_idea_ACR_tappers_protest1"
+    texturefile = "gfx/interface/ideas/ACR_tappers_protest.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_ACR_tappers_protest2"
+    texturefile = "gfx/interface/ideas/ACR_tappers_protest.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_the_american_deal"
+    texturefile = "gfx/interface/ideas/the_american_deaL_1.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_ACR_para_nut_exports"
+    texturefile = "gfx/interface/ideas/ACR_para_nut_exports.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ACR_defense_fleet"
+    texturefile = "gfx/interface/ideas/ACR_defense_fleet.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_idea_rubber_crisis"
+    texturefile = "gfx/interface/ideas/idea_rubber_crisis.dds"
+} 
+   
+spriteType ={
+    name = "GFX_idea_ACR_funai"
+    texturefile = "gfx/interface/ideas/FUNAI.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_cangaceiros_total"
     texturefile = "gfx/interface/ideas/cangaceiros_total.dds"
@@ -869,6 +934,16 @@ spriteType ={
 
 spriteType ={
     name = "GFX_idea_the_red_menace"
+    texturefile = "gfx/interface/ideas/the_red_menace.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_the_red_menace2"
+    texturefile = "gfx/interface/ideas/the_red_menace.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_the_red_menace1"
     texturefile = "gfx/interface/ideas/the_red_menace.dds"
 } 
 

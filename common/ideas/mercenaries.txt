@@ -1,7 +1,6 @@
 ideas = {
 	country = {
 		CIAd_air_production = {
-			picture = GFX_idea_the_fog
 			
 			allowed = {
 				tag = ACR
@@ -24,11 +23,23 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
-			
+			equipment_bonus = {
+				cas = {
+					build_cost_ic = -0.2
+				}
+				fighter = {
+					build_cost_ic = -0.2
+				}
+				naval_bomber = {
+					build_cost_ic = -0.2
+				}
+				interceptor = {
+					build_cost_ic = -0.2
+				}
+			}			
 			modifier = {
 			experience_gain_air = 0.5
 			air_ace_generation_chance_factor = 0.5
-			production_factory_efficiency_gain_factor = 0.05 
 			}
 		}
 	}

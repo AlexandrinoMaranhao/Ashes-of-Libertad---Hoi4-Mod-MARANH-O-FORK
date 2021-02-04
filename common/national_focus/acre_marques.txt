@@ -760,7 +760,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_promises_of_independence }
 	prerequisite = { focus = ACR_make_changes_last } 
 	relative_position_id = ACR_promises_of_independence
-	#icon = 
+	icon = GFX_goal_Make_Love_not_War
 
 	x = -3
 	y = 1
