@@ -111,6 +111,8 @@ shared_focus = {
 
 	completion_reward = {
 		remove_ideas = ACR_tappers_protest1
+		hidden_effect = {
+		remove_ideas = ACR_tappers_protest2 }
 		add_to_variable = { var = ACR_industrial_capacity_factory value = -0.05 }
 		set_variable = { var = ACR_stability_factor value = 0.075 }
 		custom_effect_tooltip = ACR_compromise_with_tappers_tt
@@ -204,6 +206,8 @@ shared_focus = {
 		add_manpower = 500
 		add_ideas = ACR_recpop_buff
 		load_oob = "ACR_natives"
+		country_event = ACR_cury.22
+
 	}
 }
 shared_focus = {
@@ -377,7 +381,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		random_owned_controlled_state = {
+		533 = {
 			add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
 			add_extra_state_shared_building_slots = 2				
 		}
@@ -667,7 +671,7 @@ shared_focus = {
 	completion_reward = {
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = 1000
+			amount = 500
 		}
 		MNS = {
 			add_political_power = 75
@@ -689,7 +693,7 @@ shared_focus = {
 	completion_reward = {
 		add_equipment_to_stockpile = {
 			type = support_equipment
-			amount = 150
+			amount = 250
 		}
 		MNS = {
 			add_political_power = 75

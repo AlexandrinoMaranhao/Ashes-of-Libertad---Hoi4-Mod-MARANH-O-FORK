@@ -864,7 +864,7 @@ add_namespace = ACR_cury
 country_event = {   #### Cury Presidency
 	id = ACR_cury.1
 	title = ACR_cury.1.t
-	desc = ACR.cury.1.d
+	desc = ACR_cury.1.d
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -928,6 +928,13 @@ country_event = {
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
 			add_idea = ACR_tappers_protest1
+		}
+	}
+	option = {
+		name = ACR_cury.5.b
+		swap_ideas = {
+			remove_idea = ACR_tappers_protest
+			add_idea = ACR_tappers_protest2
 		}
 	}
 }
@@ -1044,6 +1051,8 @@ country_event = {
 	option = {
 		name = ACR_cury.13.a
 		acre_wins_caititu_war = yes
+		125 = { add_manpower = -3492}
+		460 = { add_manpower = 3492}
 	}
 }
 
@@ -1076,6 +1085,8 @@ country_event = {
 		398 = {
 			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 		}
+
+		remove_ideas = idea_rubber_crisis
 	}
 	option = {
 		name = ACR_cury.15.c ### Nothing
@@ -1155,6 +1166,17 @@ country_event = {
 	option = {
 		name = ACR_cury.21.b
 		create_wargoal = { target = COR type = annex_everything }
+	}
+}
+
+country_event = {
+	id = ACR_cury.22 ### Katukina
+	title = ACR_cury.22.t
+	desc = ACR_cury.22.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.22.a
 	}
 }
 

@@ -15,7 +15,7 @@
   ACR_national_rearment_act_tt:0 "Unlocks a decision allowing us to gain Infantry Equipment and Military Factories."
   ACR_siege_senate_tt:0 "§RDisables the Senate§!"
   ACR_tappers_no_tt:0 "Removes the Tappers Protest Idea"
-
+  ACR_natives:0 "1st Katukina Regiment"
 # Decisions
   acrean_senate:0 "The Senate of Acre"
   acrean_senate_desc_gui:0 "The Senate of Acre was created as a solution to the difficulties in creating a modern Republican system in such a primitive location as the deep Amazon rainforest.\n\nAfter years of uncertainty and trial and error the many settlements have finally sent their representatives who now organize themselves into their political cliques with like minded individuals and together shall write and sign the new Constitution, solidifying the Republic as a legitimate democracy, and electing the first president in an indirect election made by the senators."
