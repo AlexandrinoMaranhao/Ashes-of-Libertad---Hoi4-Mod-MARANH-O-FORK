@@ -310,7 +310,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_bringing_electricity_to_acre
-	#icon = 
+	icon = GFX_goal_bring_electricity_to_acre
 	prerequisite = { focus = ACR_passing_through_hell }
 	relative_position_id = ACR_passing_through_hell
 
@@ -723,7 +723,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_lower_cost_of_everything
-	#icon = 
+	icon = GFX_goal_lower_the_price_on_everything
 	prerequisite = { focus = ACR_buy_mechanization }
 	relative_position_id = ACR_buy_mechanization
 
@@ -756,7 +756,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_buy_medicine
-	#icon = 
+	icon = GFX_goal_helio_cares
 	prerequisite = { focus = ACR_manaus_rio_branco_pact }
 	relative_position_id = ACR_manaus_rio_branco_pact
 
@@ -780,7 +780,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_medicine_crisis
-	#icon = 
+	icon = GFX_goal_the_medic_crisis
 	prerequisite = { focus = ACR_buy_medicine }
 	relative_position_id = ACR_buy_medicine
 
@@ -811,7 +811,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_compromise_with_coari
-	#icon = 
+	icon = GFX_goal_compromise_with_coari
 	prerequisite = { focus = ACR_medicine_crisis }
 	relative_position_id = ACR_medicine_crisis
 
@@ -830,7 +830,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_coarense_soneth
-	#icon = 
+	icon = GFX_goal_the_coarense_soneth
 	prerequisite = { focus = ACR_compromise_with_coari }
 	relative_position_id = ACR_compromise_with_coari
 
@@ -904,7 +904,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_forgotten_piracinhas
-	#icon = 
+	icon = GFX_goal_the_forgotten_pracinhas
 	prerequisite = { focus = ACR_remember_rubber_battle }
 	prerequisite = { focus = ACR_acre_fortune_for_acre_alone }
 	relative_position_id = ACR_remember_rubber_battle
@@ -934,7 +934,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_acre_for_acreans
-	#icon = 
+	icon = GFX_goal_Acre_for_acreans
 	prerequisite = { focus = ACR_forgotten_piracinhas }
 	prerequisite = { focus = ACR_revise_sni_actions_acre }
 	relative_position_id = ACR_forgotten_piracinhas

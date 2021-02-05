@@ -1,5 +1,5 @@
 buy_mercenary_companies_category = {
-	icon = decision_category_generic_political_actions
+	icon = GFX_decision_decision_category_mercenary_buffet
 	visible_when_empty = yes
 
 	picture = x
@@ -15,7 +15,6 @@ buy_mercenary_companies_category = {
 				tag = ROR
 				tag = KAY
 				tag = NHA
-				tag = BEM
 			}
 		}
 }
@@ -28,7 +27,6 @@ buy_mercenary_companies_category = {
 				tag = ROR
 				tag = KAY
 				tag = NHA
-				tag = BEM
 			}
 		}
     }

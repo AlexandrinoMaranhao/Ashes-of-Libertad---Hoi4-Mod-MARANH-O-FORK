@@ -3,7 +3,102 @@ spriteTypes = {
 	### categories
 	
 	##AoL
+		
+	spriteType = {
+		name = "GFX_decision_cia_bomber_decision"
+		texturefile = "gfx/interface/decisions/cia_bomber_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_cia_cas_decision"
+		texturefile = "gfx/interface/decisions/cia_cas_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_cia_fighter_decision"
+		texturefile = "gfx/interface/decisions/cia_fighter_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_neblina_el_almirante_decision"
+		texturefile = "gfx/interface/decisions/neblina_el_almirante_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_neblina_equipment_decision"
+		texturefile = "gfx/interface/decisions/neblina_equipment_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_neblina_guns_decision"
+		texturefile = "gfx/interface/decisions/neblina_guns_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_nublosos_decision"
+		texturefile = "gfx/interface/decisions/nublosos_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_santarem_attack_decision"
+		texturefile = "gfx/interface/decisions/santarem_attack_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_santarem_defense_decision"
+		texturefile = "gfx/interface/decisions/santarem_defense_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_santarem_mapower_decision"
+		texturefile = "gfx/interface/decisions/santarem_mapower_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_santarem_mixed_decision"
+		texturefile = "gfx/interface/decisions/santarem_mixed_decision.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_decision_santarem_quarentinha_decision"
+		texturefile = "gfx/interface/decisions/santarem_quarentinha_decision.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_decision_santarem_werbell_decision"
+		texturefile = "gfx/interface/decisions/santarem_werbell_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_decision_category_neblina"
+		texturefile = "gfx/interface/decisions/decision_category_neblina.dds"
+	}
 	
+	spriteType = {
+	name = "GFX_decision_decision_category_cia"
+	texturefile = "gfx/interface/decisions/decision_category_cia.dds"
+	}
+		
+		spriteType = {
+	name = "GFX_decision_decision_category_santarem"
+	texturefile = "gfx/interface/decisions/decision_category_santarem.dds"
+	}
+				
+		spriteType = {
+	name = "GFX_decision_decision_category_mercenary_buffet"
+	texturefile = "gfx/interface/decisions/decision_category_mercenary_buffet.dds"
+	}
+						
+		spriteType = {
+	name = "GFX_decision_cia_instructor_2_decision"
+	texturefile = "gfx/interface/decisions/cia_instructor_2_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_cia_instructor_decision"
+		texturefile = "gfx/interface/decisions/cia_instructor_decision.dds"
+	}
+					
 	spriteType = {
 		name = "GFX_decision_ammo_decision"
 		texturefile = "gfx/interface/decisions/ammo_decision.dds"

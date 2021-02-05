@@ -8,30 +8,45 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-            
+             
 	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
+	name = "GFX_goal_Acre_for_acreans"
+	texturefile = "gfx/interface/goals/Acre_for_acreans.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_the_coarense_soneth"
+	texturefile = "gfx/interface/goals/the_coarense_soneth.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_the_medic_crisis"
+	texturefile = "gfx/interface/goals/the_medic_crisis.dds"
+	}	
+ 
+	SpriteType = {
+	name = "GFX_goal_helio_cares"
+	texturefile = "gfx/interface/goals/helio_cares.dds"
 	}	
                
 	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
+	name = "GFX_goal_compromise_with_coari"
+	texturefile = "gfx/interface/goals/compromise_with_coari.dds"
 	}	
                
 	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
+	name = "GFX_goal_the_forgotten_pracinhas"
+	texturefile = "gfx/interface/goals/the_forgotten_pracinhas.dds"
 	}	
                
 	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
+	name = "GFX_goal_lower_the_price_on_everything"
+	texturefile = "gfx/interface/goals/lower_the_price_on_everything.dds"
 	}	
                
 	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
+	name = "GFX_goal_bring_electricity_to_acre"
+	texturefile = "gfx/interface/goals/bring_electricity_to_acre.dds"
 	}	
                
 	SpriteType = {

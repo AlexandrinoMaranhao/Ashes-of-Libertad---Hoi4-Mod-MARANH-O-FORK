@@ -858,7 +858,8 @@ country_event = {
 #####################################################
 # Cury Presidency
 #####################################################
-
+add_namespace = ACR_cury_marques_protest_event
+add_namespace = ACR_cury_cerqueira_protest_event
 add_namespace = ACR_cury
 
 country_event = {   #### Cury Presidency
@@ -928,6 +929,7 @@ country_event = {
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
 			add_idea = ACR_tappers_protest1
+			country_event = ACR_cury_marques_protest_event.1
 		}
 	}
 	option = {
@@ -935,6 +937,8 @@ country_event = {
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
 			add_idea = ACR_tappers_protest2
+			country_event = ACR_cury_cerqueira_protest_event.1
+
 		}
 	}
 }
@@ -947,6 +951,29 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.6.a
+	}
+}
+
+country_event = {
+	id = ACR_cury_cerqueira_protest_event.1  ### Cerqueira's Plan
+	title = ACR_cury_cerqueira_protest_event.1.t
+	desc = ACR_cury_cerqueira_protest_event.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury_cerqueira_protest_event.1.a
+		89 = {add_manpower = -172}
+	}
+}
+
+country_event = {
+	id = ACR_cury_marques_protest_event.1  ### Marques's Plan
+	title = ACR_cury_marques_protest_event.1.t
+	desc = ACR_cury_marques_protest_event.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury_marques_protest_event.1.a
 	}
 }
 

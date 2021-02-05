@@ -27,6 +27,8 @@
 buy_mercenary_companies_category = {
 
     santarem_open_decisions = { #Shows up Santarém Decisions
+        icon = GFX_decision_decision_category_santarem
+
         available = {
             always = yes
         }
@@ -42,6 +44,8 @@ buy_mercenary_companies_category = {
     }
 
     santarem_close_decisions = { #Closes up Santarém Decisions
+        icon = GFX_decision_decision_category_santarem
+
         available = {
             always = yes
         }
@@ -56,6 +60,8 @@ buy_mercenary_companies_category = {
     }
 
     santarem_manpower = {
+        icon = GFX_decision_santarem_mapower_decision
+
         cost = 50
         available = {
             always = yes
@@ -76,6 +82,8 @@ buy_mercenary_companies_category = {
     }
  
    santarem_leunit_US = {
+        icon = GFX_decision_santarem_werbell_decision
+
        cost = 125
        available = {
            always = yes
@@ -102,6 +110,8 @@ buy_mercenary_companies_category = {
    }
 }
     santarem_leunit_BR = {
+        icon = GFX_decision_santarem_quarentinha_decision
+
         cost = 100
         available = {
             always = yes
@@ -127,6 +137,8 @@ buy_mercenary_companies_category = {
     }
 }
     santarem_general_mixed = {
+        icon = GFX_decision_santarem_mixed_decision
+
         cost = 100
         available = {
             always = yes
@@ -240,6 +252,8 @@ custom_effect_tooltip = santarem_general_mixed_tt
     }
 
     santarem_general_attack = {
+        icon = GFX_decision_santarem_attack_decision
+
         cost = 100
         available = {
             always = yes
@@ -353,6 +367,8 @@ custom_effect_tooltip = santarem_general_attack_tt
     }
 
     santarem_general_defense = {
+        icon = GFX_decision_santarem_defense_decision
+
         cost = 100
         available = {
             always = yes
@@ -465,7 +481,9 @@ random_list = {
         }
     }
 
-    neblina_open_decisions = { #Shows up Neblina Decisions
+    neblina_open_decisions = {
+        icon = GFX_decision_decision_category_neblina
+ #Shows up Neblina Decisions
         available = {
             always = yes
         }
@@ -480,7 +498,9 @@ random_list = {
         }
     }
 
-    neblina_close_decisions = { #Closes up Neblina Decisions
+    neblina_close_decisions = {
+        icon = GFX_decision_decision_category_neblina
+ #Closes up Neblina Decisions
         available = {
             always = yes
         }
@@ -495,6 +515,8 @@ random_list = {
     }
 
     neblinad_guns = {
+        icon = GFX_decision_neblina_guns_decision
+
         cost = 50
         available = {
             always = yes
@@ -522,6 +544,8 @@ random_list = {
     }
 
     neblinad_support = {
+        icon = GFX_decision_neblina_equipment_decision
+
         cost = 50
         available = {
             always = yes
@@ -549,6 +573,8 @@ random_list = {
     }
 
     neblina_leunit = {
+        icon = GFX_decision_nublosos_decision
+
        cost = 150
        available = {
            always = yes
@@ -576,6 +602,8 @@ random_list = {
 }
   
     neblina_admiral = {
+        icon = GFX_decision_neblina_el_almirante_decision
+
         cost = 300
         available = {
             always = yes
@@ -604,7 +632,9 @@ random_list = {
         }
     }
 
-    cia_open_decisions = { #Shows up CIA Decisions
+    cia_open_decisions = {
+        icon = GFX_decision_decision_category_cia
+ #Shows up CIA Decisions
         available = {
             always = yes
         }
@@ -619,7 +649,9 @@ random_list = {
         }
     }
 
-    cia_close_decisions = { #Closes up CIA Decisions
+    cia_close_decisions = {
+        icon = GFX_decision_decision_category_cia
+ #Closes up CIA Decisions
         available = {
             always = yes
         }
@@ -634,6 +666,8 @@ random_list = {
     }
 
     CIAd_air_doctrine = {
+        icon = GFX_decision_cia_instructor_2_decision
+
         cost = 50
         available = {
             always = yes
@@ -654,6 +688,8 @@ random_list = {
     }
 
     CIAd_air_prod_idea = {
+        icon = GFX_decision_cia_instructor_decision
+
         cost = 50
         available = {
             always = yes
@@ -680,6 +716,8 @@ random_list = {
     }
 
     CIAd_air_add_planes = {
+        icon = GFX_decision_cia_fighter_decision
+
         cost = 50
         available = {
             always = yes
@@ -699,6 +737,8 @@ random_list = {
     }
 
     CIAd_air_add_cas = {
+        icon = GFX_decision_cia_cas_decision
+
         cost = 50
         available = {
             always = yes
@@ -718,6 +758,8 @@ random_list = {
     }
 
     CIAd_air_add_bombers = {
+        icon = GFX_decision_cia_bomber_decision
+
         cost = 50
         available = {
             always = yes
@@ -737,6 +779,8 @@ random_list = {
     }
 
     CIAd_la_resistance_shit = {
+        icon = 
+
         cost = 300
         available = {
             always = yes
