@@ -1087,6 +1087,20 @@ shared_focus = {
 	}
 
 	available = {
+		OR = {
+	NOT = {
+		check_variable = { senate_nationalist_seats = 9 }
+		check_variable = { senate_militarist_seats = 9 }
+	}
+	NOT = {
+		check_variable = { senate_technocrats_seats = 9 }
+		check_variable = { senate_militarist_seats = 9 } 
+	}
+	NOT = {
+		check_variable = { senate_technocrats_seats = 9 }
+		check_variable = { senate_nationalist_seats = 9 }
+	}
+		}
 	}
 	
 	bypass = {

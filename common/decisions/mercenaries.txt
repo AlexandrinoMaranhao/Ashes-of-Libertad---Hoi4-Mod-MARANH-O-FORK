@@ -29,6 +29,10 @@ buy_mercenary_companies_category = {
     santarem_open_decisions = { #Shows up Santarém Decisions
         icon = GFX_decision_decision_category_santarem
 
+    allowed = {
+    ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+    }
+    
         available = {
             always = yes
         }
@@ -484,6 +488,11 @@ random_list = {
     neblina_open_decisions = {
         icon = GFX_decision_decision_category_neblina
  #Shows up Neblina Decisions
+
+    allowed = {
+    ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+    }
+    
         available = {
             always = yes
         }
@@ -635,6 +644,11 @@ random_list = {
     cia_open_decisions = {
         icon = GFX_decision_decision_category_cia
  #Shows up CIA Decisions
+
+    allowed = {
+    ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+    }
+    
         available = {
             always = yes
         }

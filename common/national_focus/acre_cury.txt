@@ -385,7 +385,6 @@ shared_focus = {
 			add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
 			add_extra_state_shared_building_slots = 2				
 		}
-		add_ideas = ACR_para_nut_exports
 	}
 }
 shared_focus = {
@@ -775,6 +774,7 @@ shared_focus = {
 			uses = 1
 			category = industry
 		}
+		add_ideas = moacyr_grechi_political_advisor
 		
 	}
 }
@@ -795,7 +795,7 @@ shared_focus = {
 			type = support_equipment
 			amount = -200
 		}
-		MNS = {
+		QPM = {
 			add_equipment_to_stockpile = {
 				type = support_equipment
 				amount = -200
@@ -846,7 +846,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_end_acre_stagnation
-	#icon = 
+	icon = GFX_goal_end_acres_stagnation
 	prerequisite = { focus = ACR_coarense_soneth }
 	prerequisite = { focus = ACR_lower_cost_of_everything }
 	relative_position_id = ACR_coarense_soneth
@@ -883,7 +883,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_remember_rubber_battle
-	#icon = 
+	icon = GFX_goal_remember_the_rubber_battle
 	prerequisite = { focus = ACR_end_acre_stagnation }
 	relative_position_id = ACR_end_acre_stagnation
 

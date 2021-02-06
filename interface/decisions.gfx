@@ -5,6 +5,36 @@ spriteTypes = {
 	##AoL
 		
 	spriteType = {
+		name = "GFX_decision_senate_generic_decision"
+		texturefile = "gfx/interface/decisions/senate_generic_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_senate_defense_decision.dds"
+		texturefile = "gfx/interface/decisions/senate_defense_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_senate_nut_decision"
+		texturefile = "gfx/interface/decisions/senate_nut_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_senate_nationalists_decision"
+		texturefile = "gfx/interface/decisions/senate_nationalists_decision.dds"
+	}
+				
+	spriteType = {
+		name = "GFX_decision_senate_technocrats_decision"
+		texturefile = "gfx/interface/decisions/senate_technocrats_decision.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_decision_senate_militarists_decision"
+		texturefile = "gfx/interface/decisions/senate_militarists_decision.dds"
+	}
+		
+	spriteType = {
 		name = "GFX_decision_cia_bomber_decision"
 		texturefile = "gfx/interface/decisions/cia_bomber_decision.dds"
 	}

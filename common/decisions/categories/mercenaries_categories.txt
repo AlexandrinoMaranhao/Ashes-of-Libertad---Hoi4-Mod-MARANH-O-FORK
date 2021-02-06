@@ -6,10 +6,11 @@ buy_mercenary_companies_category = {
 
 	allowed = {
 	}
+	
     visible = {
 		if = {
 			OR = {
-				tag = ACR
+	ACR = { has_completed_focus = ACR_to_the_highest_bidder }
 				tag = COR
 				tag = MNS
 				tag = ROR

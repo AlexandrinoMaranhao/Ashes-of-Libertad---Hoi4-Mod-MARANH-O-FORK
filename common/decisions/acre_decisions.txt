@@ -1,29 +1,30 @@
 acrean_senate = {
-	debug_add_militarists_1 = { #only a debug decision to test the system, will remove eventually
-		allowed = {
-			always = yes
-		}
-		visible = {
-			always = yes
-			is_debug = yes
-		}
-		complete_effect = {
-			acre_senate_add_militarist_seats_1 = yes
-		}
-	}
-	debug_add_seats_1 = { #only a debug decision to test the system, will remove eventually
-		allowed = {
-			always = yes
-		}
-		visible = {
-			always = yes
-			is_debug = yes
-		}
-		complete_effect = {
-			acre_senate_add_seats_1 = yes
-		}
-	}
+	#debug_add_militarists_1 = { #only a debug decision to test the system, will remove eventually
+	#	allowed = {
+	#		always = yes
+	#	}
+	#	visible = {
+	#		always = yes
+	#		is_debug = yes
+	#	}
+	#	complete_effect = {
+	#		acre_senate_add_militarist_seats_1 = yes
+	#	}
+	#}
+	#debug_add_seats_1 = { #only a debug decision to test the system, will remove eventually
+	#	allowed = {
+	#		always = yes
+	#	}
+	#	visible = {
+	#		always = yes
+	#		is_debug = yes
+	#	}
+	#	complete_effect = {
+	#		acre_senate_add_seats_1 = yes
+	#	}
+	#}
 	national_conscription_act = { 
+	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			tag = ACR
 		}
@@ -35,12 +36,19 @@ acrean_senate = {
 			has_completed_focus = ACR_national_conscription_act
 		}
 		cost = 50
-		days_re_enable = 120
+		fire_only_once = yes
 		complete_effect = {
 			add_manpower = 24000
+
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+
 		}
 	}
 	national_disarmament_act = { 
+	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			tag = ACR
 		}
@@ -52,15 +60,441 @@ acrean_senate = {
 			has_completed_focus = ACR_national_rearment_act
 		}
 		cost = 50
-		days_re_enable = 180
+		fire_only_once = yes
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 10000
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			
 			random_owned_controlled_state = {
 				add_building_construction = { type = arms_factory level = 2 instant_build = yes }
 			}
 		}
 	}
-}
+	native_protection_act = { 
+	icon = GFX_decision_senate_nationalists_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_nationalist_seats > 15 }
+			custom_trigger_tooltip = { tooltip = native_protection_tt }
+		}
+		visible = {
+			has_completed_focus = ACR_pass_native_defence_act
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_technocrat_seats_1 = yes
+
+			add_manpower = 10000
+			add_base_stability = 0.05
+		
+		532 = {
+			add_manpower = 500
+		}
+		533 = {
+			add_manpower = 500
+		}
+		534 = {
+			add_manpower = 500
+		}
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
+	}
+
+	worker_rights_act = { 
+	icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_technocrat_seats > 15 }
+			custom_trigger_tooltip = { tooltip = worker_right_tt }
+		}
+		visible = {
+			has_completed_focus = ACR_revise_worker_rights
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+		add_tech_bonus = {
+			name = assembly_bonus
+			bonus = 0.5
+			uses = 2
+			technology = improved_machine_tools	
+			technology = advanced_machine_tools
+			technology = assembly_line_production
+			technology = flexible_line
+			technology = streamlined_line
+		}
+			add_tech_bonus = {
+			name = electronics_bonus
+			bonus = 0.5
+    		ahead_reduction = 1
+			uses = 1
+			category = electronics
+		}
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+
+			random_owned_controlled_state = {
+				add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			}
+		}
+	}
+
+	nut_act = { 
+	icon = GFX_decision_senate_nut_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_nationalist_seats > 8 }
+			custom_trigger_tooltip = { tooltip = nut_right_tt }
+		}
+		visible = {
+			has_completed_focus = ACR_xapuri_acre_pride
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+
+		add_ideas = ACR_para_nut_exports
+
+		}
+	}
+
+	mercenary_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_militarist_seats > 8  }
+			custom_trigger_tooltip = { tooltip = mercenary_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+        days_re_enable = 30
+		complete_effect = {
+
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_add_technocrat_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+
+		complete_national_focus = ACR_to_the_highest_bidder
+        random_list = {
+        33 = {
+			add_ideas = mercenary_auxiliaries
+        }
+        34 = {
+			add_ideas = mercenary_battalions
+        }
+        33 = {
+			add_ideas = mercenary_army
+        }
+        }
+
+		}
+	}
+
+	labor_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_technocrat_seats > 8 }
+			custom_trigger_tooltip = { tooltip = labor_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+			add_ideas = slavery_banned
+		}
+	}
+
+	press_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_nationalist_seats > 8  senate_technocrat_seats > 8 }
+			custom_trigger_tooltip = { tooltip = press_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+        days_re_enable = 30
+		complete_effect = {
+
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+
+        random_list = {
+        33 = {
+			add_ideas = idea_AOL_total_censorship
+        }
+        34 = {
+			add_ideas = idea_AOL_state_press
+        }
+        33 = {
+			add_ideas = idea_AOL_light_censorship
+        }
+        }
+		}
+	}
+
+	trade_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_militarist_seats > 8  senate_technocrat_seats > 8 }
+			custom_trigger_tooltip = { tooltip = trade_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+        days_re_enable = 30
+		complete_effect = {
+
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+
+        random_list = {
+        33 = {
+			add_ideas = free_trade
+        }
+        34 = {
+			add_ideas = limited_exports
+        }
+        33 = {
+			add_ideas = export_focus
+        }
+        }
+		}
+	}
+
+	military_factory_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_militarist_seats > 8  senate_nationalist_seats > 8 }
+			custom_trigger_tooltip = { tooltip = military_factory_act_tt }
+		}
+		visible = {
+			has_completed_focus = ACR_a_national_fire_stick
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_add_technocrat_seats_1 = yes
+			acre_senate_add_technocrat_seats_1 = yes
+
+ 
+			random_owned_controlled_state = {
+				add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+			}		
+		}
+	}
+
+	civilian_factory_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_militarist_seats > 8  senate_nationalist_seats > 8 }
+			custom_trigger_tooltip = { tooltip = civilian_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_add_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+
+ 
+			random_owned_controlled_state = {
+				add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			}		
+		}
+	}
+
+	defense_act = { 
+	icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_militarist_seats > 8  senate_nationalist_seats > 8 }
+			custom_trigger_tooltip = { tooltip = defense_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+			acre_senate_add_technocrat_seats_1 = yes
+
+ 
+			89 = {
+				add_building_construction = {
+	type = bunker
+		province = 4230
+			level = 2
+		}
+		}
+		
+			89 = {
+		add_building_construction = {
+			type = bunker
+				province = 4300
+			level = 2
+		}
+		}
+		
+			533 = {
+		add_building_construction = {
+			type = bunker
+				province = 2029
+			level = 2
+		}
+		}
+
+		}
+	}
+
+	end_gridlock_TN_act = { 
+	icon = GFX_decision_senate_militarists_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			always = yes
+			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
+		}
+		visible = {
+			check_variable = { senate_technocrats_seats = 9 }
+			check_variable = { senate_nationalist_seats = 9 }
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+
+		}
+	}
+
+	end_gridlock_TM_act = { 
+	icon = GFX_decision_senate_militarists_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			always = yes
+			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
+		}
+		visible = {
+			check_variable = { senate_technocrats_seats = 9 }
+			check_variable = { senate_militarist_seats = 9 } 
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+
+		}
+	}
+
+	end_gridlock_NM_act = { 
+	icon = GFX_decision_senate_militarists_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			always = yes
+			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
+		}
+		visible = {
+			check_variable = { senate_nationalist_seats = 9 }
+			check_variable = { senate_militarist_seats = 9 }
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+
+			acre_senate_remove_nationalist_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+
+		}
+	}
+}	
+	

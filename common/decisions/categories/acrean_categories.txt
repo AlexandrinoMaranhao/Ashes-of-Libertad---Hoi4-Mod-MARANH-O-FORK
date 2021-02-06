@@ -1,5 +1,5 @@
 acrean_senate = {
-	icon = acrean_raids
+	icon = GFX_decision_category_acrean_raids
 	allowed = { tag = ACR }
 	visible = { NOT = { has_completed_focus = ACR_siege_senate } }
     visible_when_empty = yes

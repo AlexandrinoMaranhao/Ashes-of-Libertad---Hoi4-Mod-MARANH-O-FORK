@@ -151,5 +151,17 @@ on_actions = {
             }
         }
     }
+  ### AMAZON DOING STUFF ###
+
+    on_startup = {
+        effect = {
+            ARI = {
+                country_event = {
+                    id = ARI.1 
+                    days = 810
+                }
+            }
+        }
+    }
 
 }

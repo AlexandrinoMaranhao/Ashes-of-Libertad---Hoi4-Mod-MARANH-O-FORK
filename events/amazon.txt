@@ -1,0 +1,51 @@
+add_namespace = ARI
+
+
+country_event = { #Aripuanã change of government
+    id = ARI.1  
+    title = ARI.1.t
+    desc = ARI.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = ARI.1.a
+    remove_ideas = { loggers tappers military_oppression }
+
+    set_politics = {
+                    ruling_party = democratic
+                    last_election = "1967.1.1"
+                    election_frequency = 48
+                    elections_allowed = no
+                        }
+                    set_popularities = {
+                    democratic = 100
+                    fascism = 0
+                    communism = 0
+                    neutrality = 0
+                    reactionary = 0
+                        }
+                    
+    }
+
+    option = {
+      name = ARI.1.b
+    remove_ideas = { aripuana_tribe military_oppression }
+
+    set_politics = {
+                    ruling_party = fascism
+                    last_election = "1967.1.1"
+                    election_frequency = 48
+                    elections_allowed = no
+                        }
+                    set_popularities = {
+                    democratic = 0
+                    fascism = 100
+                    communism = 0
+                    neutrality = 0
+                    reactionary = 0
+                        }
+                    
+    }
+}
