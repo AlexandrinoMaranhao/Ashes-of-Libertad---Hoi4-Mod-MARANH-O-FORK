@@ -496,5 +496,44 @@ acrean_senate = {
 
 		}
 	}
-}	
+}
+
+ACR_war_train_category = {
+	construct_railroad_acre = {
+		icon = GFX_decision_wartrain_railroad_acre
+		allowed = {
+			tag = ACR
+		}
+	}
+	construct_railroad_rondonia = {
+		icon = GFX_decision_wartrain_railroad_rondonia
+		allowed = {
+			tag = ACR
+		}
+	}
+	construct_railroad_acre_natives = {
+		icon = GFX_decision_wartrain_railroad_acre_natives
+		allowed = {
+			tag = ACR
+		}
+	}
+	construct_railroad_rondonia_natives = {
+		icon = GFX_decision_wartrain_railroad_rondonia_natives
+		allowed = {
+			tag = ACR
+		}
+	}
+	construct_railroad_bolivia = {
+		icon = GFX_decision_wartrain_railroad_bolivia
+		allowed = {
+			tag = ACR
+		}
+	}
+	lower_che_suspicion = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		allowed = {
+			tag = ACR
+		}
+	}
+}
 	
