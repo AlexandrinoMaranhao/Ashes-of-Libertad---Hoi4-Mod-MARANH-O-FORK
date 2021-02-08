@@ -25,7 +25,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	KEY_refugee_nation
+KEY_the_last_city_in_america
 }
 
 #create_country_leader = {

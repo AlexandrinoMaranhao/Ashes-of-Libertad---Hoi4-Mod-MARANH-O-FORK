@@ -26,6 +26,10 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+
+	CAY_carib_rouge
+CAY_vive_la_revolucion
+CAY_famine_fever_fear
 }
 
 create_country_leader = {

@@ -30,6 +30,8 @@ add_ideas = {
 	war_economy
 	closed_economy
 	all_adults_serve
+
+	CIA_cia
 }
 
 create_country_leader = {

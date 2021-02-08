@@ -28,6 +28,7 @@ set_popularities = {
 add_ideas = {
 	war_economy
 	limited_conscription
+	VEJ_venezuelan_national_guard
 }
 
 create_country_leader = {

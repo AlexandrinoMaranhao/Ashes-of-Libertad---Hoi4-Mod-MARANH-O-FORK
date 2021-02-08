@@ -29,7 +29,8 @@ add_ideas = {
 	subsistence_economy
 	limited_conscription
 
-
+PRU_apra_uno
+PRU_quito_clique
 }
 
 create_country_leader = {

@@ -28,6 +28,9 @@ set_popularities = {
 add_ideas = {
 	extensive_conscription
 	low_economic_mobilisation
+
+	VEC_MRD_refugees
+VEC_the_admirable_campaign
 }
 
 create_country_leader = {

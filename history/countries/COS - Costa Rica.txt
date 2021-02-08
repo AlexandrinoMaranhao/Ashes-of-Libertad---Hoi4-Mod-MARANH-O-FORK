@@ -25,7 +25,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	COS_anti_nicaraguan_sentiment
+COS_jimenezs_dark_sympathies
 }
 
 create_country_leader = {

@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	PMI_the_wall
+PMI_uncertain_loyalties
 }
 
 create_country_leader = {

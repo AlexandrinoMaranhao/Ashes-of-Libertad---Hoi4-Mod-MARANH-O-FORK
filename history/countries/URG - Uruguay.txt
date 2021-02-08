@@ -29,6 +29,10 @@ add_ideas = {
 	export_focus
 	civilian_economy
 	volunteer_only
+
+	URG_switzerland_of_south_america
+URG_armamentos_y_municiones_del_ejercito
+URG_political_militias
 }
 
 create_country_leader = {

@@ -30,6 +30,7 @@ add_ideas = {
 	closed_economy
 
 	colombian_war
+	the_farc
 }
 
 create_country_leader = {

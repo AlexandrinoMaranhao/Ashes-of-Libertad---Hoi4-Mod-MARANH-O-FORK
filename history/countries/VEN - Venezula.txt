@@ -27,6 +27,8 @@ set_popularities = {
 
 add_ideas = {
 	extensive_conscription
+	VEN_democratic_protests
+VEN_the_mir
 }
 
 create_country_leader = {

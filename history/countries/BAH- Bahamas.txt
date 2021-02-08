@@ -25,7 +25,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	BAH_soviet_cooexistence
+BAH_fallout
 }
 
 create_country_leader = {

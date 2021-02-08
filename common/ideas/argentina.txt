@@ -12,6 +12,10 @@ ideas = {
 		the_argentinan_facade = {
 
 		}
+
+		the_tupamaros = {
+
+		}
 		
 	}
 }

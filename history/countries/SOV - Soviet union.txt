@@ -28,6 +28,10 @@ add_ideas = {
 	extensive_conscription
 	undisturbed_isolation
 	subsistence_economy
+
+	SOV_the_submarine_fleet
+SOV_arkhipovs_remorse
+SOV_unwilling_occupation
 }
 
 create_country_leader = {

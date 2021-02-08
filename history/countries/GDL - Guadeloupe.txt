@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	GDL_hayot_corp
+GDL_lifestyle
 }
 
 create_country_leader = {

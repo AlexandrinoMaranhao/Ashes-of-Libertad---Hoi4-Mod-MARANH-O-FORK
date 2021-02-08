@@ -34,6 +34,10 @@ add_ideas = {
     volunteer_only
 	low_economic_mobilisation
 	subsistence_economy
+
+	USR_the_panama_question
+USR_shadow_of_america
+USR_leadership_struggles
 }
 
 create_country_leader = {

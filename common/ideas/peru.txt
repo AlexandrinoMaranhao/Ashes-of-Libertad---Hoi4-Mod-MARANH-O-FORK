@@ -90,5 +90,17 @@ ideas = {
 		ECU_onwards_to_guayaquil = {
 
 		}
+
+		black_death_light = {
+
+		}
+
+		black_death_medium = {
+
+		}
+
+		black_death_heavy = {
+
+		}
 	}
 }

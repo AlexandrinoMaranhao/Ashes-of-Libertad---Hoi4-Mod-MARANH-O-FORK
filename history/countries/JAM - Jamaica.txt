@@ -27,7 +27,7 @@ set_popularities = {
 add_ideas = {
 	partial_economic_mobilisation
 	closed_economy
-
+JAM_struggle_for_freedom
 }
 
 declare_war_on = {

@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	UFO_the_akashic_records
+UFO_the_think_tank
 }
 
 create_country_leader = {

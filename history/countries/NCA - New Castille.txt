@@ -27,7 +27,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	NCA_oligarchical_monarchy
+NCA_volatile_intentions
 }
 
 create_country_leader = {

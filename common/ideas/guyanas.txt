@@ -1,0 +1,42 @@
+ideas = {
+	country = {
+
+	CAY_carib_rouge = {
+
+	}
+
+	CAY_vive_la_revolucion = {
+
+	}
+
+	CAY_famine_fever_fear = {
+
+	}
+
+	HOL_his_magesty_contested = {
+
+	}
+
+	HOL_old_business = {
+
+	}
+
+	HOL_suriname_nationalism = {
+
+	}
+
+	ENG_struggling_federation = {
+
+	}
+
+	ENG_preassure_from_venezuela = {
+
+	}
+
+	ENG_the_sun_has_set = {
+
+	}
+
+
+	}
+}

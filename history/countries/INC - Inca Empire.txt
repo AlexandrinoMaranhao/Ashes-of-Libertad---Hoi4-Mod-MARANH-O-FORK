@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	INC_mama_huaco
+INC_poor_people
 }
 
 create_country_leader = {

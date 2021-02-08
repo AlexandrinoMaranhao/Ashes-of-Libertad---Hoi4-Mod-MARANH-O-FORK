@@ -29,6 +29,9 @@ add_ideas = {
 	subsistence_economy
 	war_economy
 	limited_conscription
+
+	PAM_pull_right
+the_panamanian_stalemate
 }
 
 create_country_leader = {

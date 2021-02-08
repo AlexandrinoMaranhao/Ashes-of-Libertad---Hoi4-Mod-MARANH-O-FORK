@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-
+SEC_hastetly_assembled_army
+SEC_unionists_vs_revengists
 }
 
 create_country_leader = {

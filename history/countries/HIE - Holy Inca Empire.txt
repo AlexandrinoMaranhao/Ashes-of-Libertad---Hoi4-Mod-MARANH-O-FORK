@@ -29,6 +29,9 @@ add_ideas = {
 	subsistence_economy
 	civilian_economy
 	volunteer_only
+
+	HIE_city_of_poets
+	HIE_limbo
 }
 
 create_country_leader = {

@@ -26,7 +26,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	FCP_federacion_campesina
 }
 
 create_country_leader = {

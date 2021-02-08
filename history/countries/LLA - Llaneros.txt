@@ -29,6 +29,9 @@ add_ideas = {
 	extensive_conscription
 	partial_economic_mobilisation
 	limited_exports
+
+	LLA_horseback_guerrilla
+LLA_the_MIR
 }
 
 create_country_leader = {

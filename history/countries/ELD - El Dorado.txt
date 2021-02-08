@@ -24,6 +24,10 @@ set_popularities = {
 	reactionary = 60
 
 }
+add_ideas = {
+	ELD_crusade_for_democracy
+}
+
 create_country_leader = {
 	
 	name = "El Motilón"

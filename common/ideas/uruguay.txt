@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+
+	URG_switzerland_of_south_america = {
+
+	}
+
+	URG_armamentos_y_municiones_del_ejercito = {
+
+	}
+
+	URG_political_militias = {
+
+	}
+	
+	}
+}

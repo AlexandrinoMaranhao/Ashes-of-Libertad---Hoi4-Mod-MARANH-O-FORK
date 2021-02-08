@@ -28,6 +28,9 @@ set_popularities = {
 add_ideas = {
 	limited_conscription
 	civilian_economy
+
+	ECU_the_huasipungos
+ECU_onwards_to_guayaquil
 }
 
 create_country_leader = {

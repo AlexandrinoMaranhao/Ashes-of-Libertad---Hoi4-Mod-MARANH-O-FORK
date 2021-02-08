@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+
+	HAI_papa_doc = {
+
+	}
+
+	DOM_trujillos_legacy = {
+
+	}
+
+	USR_the_panama_question = {
+
+	}
+
+	USR_shadow_of_america = {
+
+	}
+
+	USR_leadership_struggles = {
+	modifier = {
+	base_stability = -0.05
+	political_power_gain = -0.05
+	}
+
+	}
+
+	GDL_hayot_corp = {
+
+	}
+
+	GDL_lifestyle = {
+
+	}
+
+	JAM_struggle_for_freedom = {
+
+	}
+
+	SOV_the_submarine_fleet = {
+
+	}
+
+	SOV_arkhipovs_remorse = {
+
+	}
+
+	SOV_unwilling_occupation = {
+
+	}
+
+	BAH_soviet_cooexistence = {
+
+	}
+
+	BAH_fallout = {
+
+	}
+
+	KEY_refugee_nation = {
+
+	}
+
+	KEY_the_last_city_in_america = {
+
+	}
+
+	}
+}

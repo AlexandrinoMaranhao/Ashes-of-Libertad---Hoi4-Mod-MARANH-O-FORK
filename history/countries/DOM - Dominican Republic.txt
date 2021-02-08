@@ -46,7 +46,7 @@ declare_war_on = {
 }
 
 add_ideas = {
-	
+	DOM_trujillos_legacy
 }
 
 create_country_leader = {

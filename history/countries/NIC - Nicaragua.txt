@@ -26,7 +26,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	NIC_sandinos_martyrdom
+NIC_sorrounded_by_pigs
 }
 
 create_country_leader = {

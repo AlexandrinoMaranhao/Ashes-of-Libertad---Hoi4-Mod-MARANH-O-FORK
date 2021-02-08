@@ -70,5 +70,9 @@ ideas = {
                 democratic_drift = 0.01
             }
         }
+
+        the_farc = {
+        
+        }
     }
 }
