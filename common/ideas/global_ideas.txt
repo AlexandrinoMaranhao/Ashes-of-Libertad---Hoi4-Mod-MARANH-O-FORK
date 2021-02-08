@@ -8,7 +8,6 @@ ideas = {
 
     repurposed_civilian_crafts = {
 	
-    		designer = yes
 
 			allowed = {
 				always = yes
@@ -21,7 +20,6 @@ ideas = {
 
     manauan_made_crafts = {
 	
-    		designer = yes
 
 			allowed = {
 				always = yes
@@ -40,7 +38,6 @@ ideas = {
 
 		argentinian_made_weapons = {
 		
-			designer = yes
 
 			allowed ={
 				always = yes
@@ -56,7 +53,6 @@ ideas = {
 
 		uruguayan_made_equipment = {
 		
-			designer = yes
 
 			allowed = {
 				always = yes
@@ -72,7 +68,6 @@ ideas = {
 
 		neblina_weapons = {
 		
-			designer = yes
 			
 			allowed = {
 			}
@@ -90,7 +85,6 @@ ideas = {
 
 		brazilian_made_weapons = {
 		
-			designer = yes
 
 			allowed = {
 			}

@@ -6,7 +6,6 @@ ideas = {
 
 	naval_manufacturer = {
 			companhia_portuaria_chibatao = {
-    		designer = yes
 
 			allowed = {
 				original_tag = MNS

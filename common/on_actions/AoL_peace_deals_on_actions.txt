@@ -1,0 +1,261 @@
+on_actions = {
+
+      on_capitulation = {
+ 
+        effect = {  ##### Cuban Wars
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CUB 
+            }
+            ROOT = { 
+              original_tag = BTA 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+     
+  
+           if = { 
+            limit = {
+            FROM = {
+              original_tag = BTA 
+            }
+            ROOT = { 
+              original_tag = CUB 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+            annex_country = {
+              target = CDR
+              transfer_troops = no
+            }
+          }
+        }
+ 
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = BTA 
+            }
+            ROOT = { 
+              original_tag = CDR 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+ 
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = ACC 
+            }
+            ROOT = { 
+              original_tag = RED 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+ 
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = ACC 
+            }
+            ROOT = { 
+              original_tag = DRE 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+ 
+           if = {
+            limit = {
+            FROM = { 
+              original_tag = DRE 
+            }
+            ROOT = { 
+              original_tag = ACC 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+ 
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = RED 
+            }
+            ROOT = { 
+              original_tag = ACC 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+        
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = RED 
+          }
+          ROOT = { 
+            original_tag = ACC 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+     }
+  }
+  on_state_control_changed = { 
+    effect = {
+      if = { #### Jamaica vs West Indies
+        limit = {
+          ROOT = { original_tag = JAM }          
+          FROM = { original_tag = ENG } 
+          FROM.FROM = {
+            state = 181
+          }
+        }
+        JAM = {
+          transfer_state = 181
+        }
+      }
+      if = { #### West Indies vs Jamaica
+        limit = {
+          ROOT = { original_tag = ENG }
+          FROM = { original_tag = JAM }
+          FROM.FROM = {
+            state = 180
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Colombia vs ELN
+        limit = {
+          ROOT = { original_tag = COL }
+          FROM = { original_tag = ELN }
+          FROM.FROM = {
+            COL_la_violencia_trigger_ELN = yes              
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Colombia vs FARC
+        limit = {
+          ROOT = { original_tag = COL }
+          FROM = { original_tag = FAR }
+          FROM.FROM = {
+            COL_la_violencia_trigger_FAR = yes 
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Colombia vs Libertadores
+        limit = {
+          ROOT = { original_tag = COL }
+          FROM = { original_tag = LBT }
+          FROM.FROM = {
+            state = 300
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
+        }
+      }
+      if = {  #### 3 factions vs Colombia
+        limit = {
+          ROOT = { OR = { original_tag = LBT original_tag = ELN original_tag = FAR }  }
+          FROM = { original_tag = COL }
+          FROM.FROM = {
+            OR = {
+              FAR_la_violencia_trigger_COL = yes
+              FAR_la_violencia_trigger_COL1 = yes
+            }
+          }
+        }
+        FAR = {
+          transfer_state = 290
+          transfer_state = 291
+          transfer_state = 289
+          transfer_state = 293
+          annex_country = {
+            target = ELN
+            transfer_troops = no
+          }
+          set_cosmetic_tag = FAR_WINS
+        }
+        LBT = {
+          transfer_state = 295
+          transfer_state = 298
+          transfer_state = 439
+          transfer_state = 437
+        }
+      }
+    }
+  }
+} 

@@ -1278,20 +1278,17 @@ ideas = {
 		generic_head_of_intelligence = {
 			allowed = { 
 				has_dlc = "La Resistance"
-				# china gets a special one via focus
 			}
 			visible = {
 				OR = {
 					has_idea = generic_head_of_intelligence
 					NOT = {
 						OR = {
-							# ignore if a (historical) minister already available
 							has_allowed_idea_with_traits = { 
 								idea = head_of_intelligence 
 								limit = 1
 								ignore = generic_head_of_intelligence
 							}
-							# ignore if the other one is already taken
 							has_idea_with_trait = head_of_intelligence
 						}
 					}
@@ -1802,33 +1799,8 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
 				NOT = {
 					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = POR }
-						has_dlc = "La Resistance"
-					}
 				}
 				has_unique_manufacturers = no
 			}

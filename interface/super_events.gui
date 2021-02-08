@@ -4,8 +4,8 @@ guiTypes = {
 		name = "super_event_guanabara_frame"
 		size = { width = 1000 height = 755 }
 		position = { x=-60 y=-220 }
-		Orientation = left
-		Origo = left
+		orientation = "LEFT"
+		origo = "LEFT"
 		clipping = no
 
 		iconType = { # Background
@@ -20,8 +20,8 @@ guiTypes = {
 		name = "super_event_guanabara_pic"
 		size = { width = 1000 height = 755 }
 		position = { x=-60 y=-220 }
-		Orientation = left
-		Origo = left
+		orientation = "LEFT"
+		origo = "LEFT"
 		clipping = no
 		show_sound = guanabara_super
 

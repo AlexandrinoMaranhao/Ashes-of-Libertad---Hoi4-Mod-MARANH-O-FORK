@@ -8,7 +8,6 @@ ideas = {
 	
 		    brazilian_made_craft = {
 			
-            designer = yes
 
             allowed = {
                 original_tag = BEM

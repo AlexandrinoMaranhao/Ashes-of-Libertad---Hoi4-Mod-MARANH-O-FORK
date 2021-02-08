@@ -1,0 +1,270 @@
+COL_la_violencia_trigger_ELN = {
+	COL = {
+		controls_state = 289
+		controls_state = 288
+		controls_state = 287
+	}
+}
+
+COL_la_violencia_trigger_FAR = {
+	COL = {
+		controls_state = 444
+		controls_state = 294
+		controls_state = 292
+	}
+}
+
+FAR_la_violencia_trigger_COL = {
+	OR = {
+		FAR = {
+			controls_state = 291
+			controls_state = 290
+			controls_state = 293
+		}
+		ELN = {
+			controls_state = 291
+			controls_state = 290
+			controls_state = 293
+		}
+		LBT = {
+			controls_state = 291
+			controls_state = 290
+			controls_state = 293
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				OR = {
+					controls_state = 291
+					controls_state = 290
+					controls_state = 293
+				}
+			}
+			ELN = {
+				OR = {
+					controls_state = 291
+					controls_state = 290
+					controls_state = 293
+				}
+			}
+			LBT = {
+				OR = {
+					controls_state = 291
+					controls_state = 290
+					controls_state = 293
+				}
+			}
+		}
+	}
+}
+
+FAR_la_violencia_trigger_COL1 = {
+	OR = {
+		OR = {
+			AND = {
+				FAR = {
+					controls_state = 290
+					controls_state = 291
+				}
+				ELN = {
+					controls_state = 293
+				}
+			}
+		}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 290
+				controls_state = 293
+			}
+			ELN = {
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 293
+				controls_state = 291
+			}
+			ELN = {
+				controls_state = 290
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 290
+			}
+			ELN = {
+				controls_state = 293
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 291
+			}
+			ELN = {
+				controls_state = 293
+				controls_state = 290
+			}
+		}
+		
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 293
+			}
+			ELN = {
+				controls_state = 290
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 290
+				controls_state = 291
+			}
+			LBT = {
+				controls_state = 293
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 290
+				controls_state = 293
+			}
+			LBT = {
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 293
+				controls_state = 291
+			}
+			LBT = {
+				controls_state = 290
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 290
+			}
+			LBT = {
+				controls_state = 293
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 291
+			}
+			LBT = {
+				controls_state = 293
+				controls_state = 290
+			}
+		}
+	}
+	OR = {
+		AND = {
+			FAR = {
+				controls_state = 293
+			}
+			LBT = {
+				controls_state = 290
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			ELN = {
+				controls_state = 290
+				controls_state = 291
+			}
+			LBT = {
+				controls_state = 293
+			}
+		}
+	}
+	OR = {
+		AND = {
+			ELN = {
+				controls_state = 290
+				controls_state = 293
+			}
+			LBT = {
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			ELN = {
+				controls_state = 293
+				controls_state = 291
+			}
+			LBT = {
+				controls_state = 290
+			}
+		}
+	}
+	OR = {
+		AND = {
+			ELN = {
+				controls_state = 290
+			}
+			LBT = {
+				controls_state = 293
+				controls_state = 291
+			}
+		}
+	}
+	OR = {
+		AND = {
+			ELN = {
+				controls_state = 291
+			}
+			LBT = {
+				controls_state = 293
+				controls_state = 290
+			}
+		}
+	}
+	OR = {
+		AND = {
+			ELN = {
+				controls_state = 293
+			}
+			LBT = {
+				controls_state = 290
+				controls_state = 291
+				}
+			}
+		}
+	}
+}
+
+ENG_jamaica_trigger_JAM = {
+	ENG = {
+		controls_province = 2914
+	}
+}
