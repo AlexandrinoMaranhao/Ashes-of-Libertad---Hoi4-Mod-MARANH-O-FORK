@@ -24,6 +24,10 @@ set_popularities = {
 	reactionary = 0
 
 }
+
+add_ideas = {
+	the_brazilian_monarquist_front
+}
 create_country_leader = {
 	
 	name = "Arlindo Veiga dos Santos"

@@ -24,6 +24,14 @@ set_popularities = {
 	reactionary = 100
 
 }
+ideas = {
+	the_male_revolt
+	free_port_of_salvador
+
+	
+}
+set_country_flag = is_brazilian
+
 create_country_leader = {
 	
 	name = "Chukwuemeka ''Emeka'' Odumegwu-Ojukwu"

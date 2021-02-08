@@ -24,6 +24,9 @@ set_popularities = {
 	reactionary = 0
 
 }
+ideas = {
+	the_PCR
+}
 create_country_leader = {
 	
 	name = "Francisco Julião Arruda de Paula"

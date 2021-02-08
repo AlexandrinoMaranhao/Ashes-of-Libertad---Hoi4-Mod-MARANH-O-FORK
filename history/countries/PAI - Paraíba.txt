@@ -29,7 +29,12 @@ add_ideas = {
 	subsistence_economy
 	civilian_economy
 	volunteer_only
+
+	nebulous_independence
+	whale_hunting
+	cangaceiros_medium
 }
+set_country_flag = is_brazilian
 
 create_country_leader = {
 	

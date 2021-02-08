@@ -1,23 +1,27 @@
+
 state={
 	id=256
 	name="STATE_256"
-	provinces={
-		67 116 130 317 867 1135 1225 1739 1752 2071 2085 2926 2928 2930 2936 2937 2940 
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		victory_points = {
+			2085 30 
+		}
+		victory_points = {
+			317 5 
+		}
+		victory_points = {
+			1739 10 
+		}
+
 	}
-	manpower=1
-        state_category=rural
+
+	provinces={
+		67 116 130 317 769 867 1135 1225 1739 1752 2071 2085 2928 2930 2936 2937 2940 
+	}
+	manpower=19432
 	buildings_max_level_factor=1.000
-            history = {
-             owner=MEX
-             add_core_of = MEX
-             victory_points = {
-             2085 30
-             }
-             victory_points = {
-             317 5
-             }
-             victory_points = {
-             1739 10
-             }
-}
+	state_category=town
 }

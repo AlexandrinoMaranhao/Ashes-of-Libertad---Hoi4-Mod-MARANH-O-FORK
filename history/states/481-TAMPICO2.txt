@@ -5,9 +5,9 @@ state={
 	provinces={
 		326 509 673 1868 2105 2154 2449 2503 2558 2850 2865 
 	}
-	manpower=1
+	manpower=208663
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	history={
 		owner = MEX
 		add_core_of = MEX

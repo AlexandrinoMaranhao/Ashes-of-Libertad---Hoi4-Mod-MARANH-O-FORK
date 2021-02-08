@@ -4,8 +4,8 @@ state={
 	provinces={
 		97 411 1133 1219 1268 1730 2743 
 	}
-	manpower=1
-        state_category=rural
+	manpower=12943
+        state_category=wasteland
 	buildings_max_level_factor=1.000
             history = {
              owner=WAS

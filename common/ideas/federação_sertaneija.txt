@@ -42,5 +42,15 @@ ideas = {
 			}
 
 		    }
+
+		    whale_hunting = {
+
+		    }
+
+		    padre_cicero = {
+
+		    }
+
+		    
 	}
 }

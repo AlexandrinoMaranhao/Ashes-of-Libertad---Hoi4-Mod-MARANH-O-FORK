@@ -28,7 +28,12 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
+
+	gateway_of_south_america
+	nebulous_independence
+	cangaceiros_medium
 }
+set_country_flag = is_brazilian
 
 create_country_leader = {
 	

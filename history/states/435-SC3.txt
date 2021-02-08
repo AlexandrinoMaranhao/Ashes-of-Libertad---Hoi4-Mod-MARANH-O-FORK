@@ -4,7 +4,7 @@ state={
 	provinces={
 		682 2030 3467 3496 3501 3502 3529 3560 
 	}
-	manpower=5000
+	manpower=13943
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {

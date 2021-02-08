@@ -4,9 +4,9 @@ state={
 	provinces={
 		209 395 406 891 2916 2939 2945 
 	}
-	manpower=1
+	manpower=323953
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	history={
 		owner = ERG

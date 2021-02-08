@@ -4,9 +4,9 @@ state={
 	provinces={
 		20 440 880 2941 2946 2947 2952 
 	}
-	manpower=1
+	manpower=675326
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	history={
 		owner = HON
 		add_core_of = HON

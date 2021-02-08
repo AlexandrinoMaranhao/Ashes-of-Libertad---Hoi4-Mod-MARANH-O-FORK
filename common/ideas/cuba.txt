@@ -1,5 +1,9 @@
 ideas = {
 	country = {
+		
+		neutral_ground = {
+		
+		}
 
 		el_sortudo_69 = {
 

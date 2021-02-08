@@ -24,6 +24,11 @@ set_popularities = {
 	reactionary = 100
 
 }
+set_country_flag = is_brazilian
+
+ideas = {
+	cangaceiros_total
+}
 create_country_leader = {
 	
 	name = "Volta Seca"

@@ -10,7 +10,7 @@ owner=ACR
 
 		add_core_of = ACR
 }
-	manpower=604
+	manpower=304
 state_category=pastoral
 	buildings_max_level_factor=1.000
 }

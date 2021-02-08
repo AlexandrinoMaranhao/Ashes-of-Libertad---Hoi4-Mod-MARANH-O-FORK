@@ -5,7 +5,7 @@ state={
 	provinces={
 		754 1397 3258 3283 3330 3373 3382 3397 
 	}
-	manpower=299425
+	manpower=399425
 	state_category=town
 	buildings_max_level_factor=1.000
             history = {

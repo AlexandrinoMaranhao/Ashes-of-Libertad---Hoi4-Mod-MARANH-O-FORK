@@ -1,13 +1,94 @@
 ideas = {
 	country = {
 
-		time_of_rebuilding = {
+		PRU_apra_uno = {
 
 		}
 
-		de_la_puentes_blessed_guidance = {
+		PRU_quito_clique = {
+
+		}
+
+		NLA_eln_cornered_and_surrounded = {
 
 		}
 		
+		NCA_oligarchical_monarchy = {
+
+		}
+		
+		NCA_volatile_intentions = {
+
+		}
+
+		INC_mama_huaco = {
+
+		}
+
+		INC_poor_people = {
+
+		}
+
+		FCP_federacion_campesina = {
+
+		}
+
+		UFO_the_akashic_records = {
+
+		}
+
+		UFO_the_think_tank = {
+
+		}
+
+		HIE_city_of_poets = {
+
+		}
+
+		HIE_limbo = {
+
+		}
+
+		RPU_dependency = {
+
+		}
+
+		RPU_burn_marks_of_the_red_sun = {
+
+		}
+
+		PMI_the_wall = {
+
+		}
+
+		PMI_uncertain_loyalties = {
+
+		}
+
+		#############
+
+		PRU_the_apra = {
+
+		}
+
+		UNO_the_uno = {
+
+		}
+
+		SEC_hastetly_assembled_army = {
+
+		}
+
+		SEC_unionists_vs_revengists = {
+
+		}
+
+		ECU_the_huasipungos = {
+
+		}
+
+		ECU_onwards_to_guayaquil = {
+
+		}
 	}
 }
