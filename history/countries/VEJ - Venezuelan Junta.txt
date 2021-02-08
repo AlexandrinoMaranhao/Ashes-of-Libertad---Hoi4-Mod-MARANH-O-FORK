@@ -30,16 +30,16 @@ add_ideas = {
 	limited_conscription
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Venezuelan National Guard"
+	picture = "gfx/leaders/VEN/Portrait_VEN_National_Guard.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		#
+	}
+}
 
 
 }

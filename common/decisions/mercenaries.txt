@@ -157,7 +157,7 @@ buy_mercenary_companies_category = {
 random_list = {
         15 = {
             create_corps_commander = {
-                name = "Moura"
+                name = "\"Moura"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = {  }
                 skill = 1
@@ -183,7 +183,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Tovica  "
+                name = "\"Tovica"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 4
@@ -196,7 +196,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Guajara"
+                name = "\"Guajara"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 5
@@ -209,7 +209,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Pão Doce"
+                name = "\"Pão Doce"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 6
@@ -222,7 +222,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Xambregas"
+                name = "\"Xambregas"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 5
@@ -285,7 +285,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Mad Mike"
+                name = "\"Mad Mike"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 3
@@ -388,7 +388,7 @@ hidden_effect = {
 random_list = {
         15 = {
             create_corps_commander = {
-                name = "Helvécio"
+                name = "\"Helvécio"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 6
@@ -401,7 +401,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Cuiú"
+                name = "\"Cuiú"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 6
@@ -414,7 +414,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Maromba"
+                name = "\"Maromba"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 6
@@ -427,7 +427,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Cabecinha"
+                name = "\"Cabecinha"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 6
@@ -440,7 +440,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Carlitinho"
+                name = "\"Carlitinho"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 5
@@ -453,7 +453,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "Jeremias"
+                name = "\"Jeremias"\"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 5

@@ -30,16 +30,16 @@ add_ideas = {
 	support_from_down_south
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Alberto Granado Jimenéz"
+	picture = "gfx/leaders/LBT/Portrait_LBT_Arnaldo.dds"
+	expire = "1999.1.1"
+	ideology = guerrilla
+	traits = {
+		#
+	}
+}
 
 
 }
