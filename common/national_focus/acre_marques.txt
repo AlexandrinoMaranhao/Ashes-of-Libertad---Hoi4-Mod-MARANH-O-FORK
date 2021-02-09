@@ -75,8 +75,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_promise_to_limit_reforms
-	prerequisite = { focus = ACR_compromise_with_nationalists }
-	prerequisite = { focus = ACR_compromise_with_militarists_two }
+	prerequisite = { focus = ACR_compromise_with_nationalists focus = ACR_compromise_with_militarists_two  }
 	relative_position_id = ACR_compromise_with_nationalists
 	icon = GFX_goal_promise_to_limit_the_reforms
 

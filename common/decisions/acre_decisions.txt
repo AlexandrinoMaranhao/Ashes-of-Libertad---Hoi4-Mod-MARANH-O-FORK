@@ -82,7 +82,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_nationalist_seats > 15 }
+			check_variable = { senate_nationalist_seats > 14 }
 			custom_trigger_tooltip = { tooltip = native_protection_tt }
 		}
 		visible = {
@@ -122,7 +122,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_technocrat_seats > 15 }
+			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = worker_right_tt }
 		}
 		visible = {
@@ -172,7 +172,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_nationalist_seats > 8 }
+			check_variable = { senate_nationalist_seats > 7 }
 			custom_trigger_tooltip = { tooltip = nut_right_tt }
 		}
 		visible = {
@@ -198,14 +198,14 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 8  }
+			check_variable = { senate_militarist_seats > 7  }
 			custom_trigger_tooltip = { tooltip = mercenary_act_tt }
 		}
 		visible = {
 			always = yes
 		}
 		cost = 50
-        days_re_enable = 30
+		fire_only_once = yes
 		complete_effect = {
 
 			acre_senate_remove_militarist_seats_1 = yes
@@ -235,7 +235,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_technocrat_seats > 8 }
+			check_variable = { senate_technocrat_seats > 7 }
 			custom_trigger_tooltip = { tooltip = labor_act_tt }
 		}
 		visible = {
@@ -259,7 +259,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_nationalist_seats > 8  senate_technocrat_seats > 8 }
+			check_variable = { senate_nationalist_seats > 7  senate_technocrat_seats > 7 }
 			custom_trigger_tooltip = { tooltip = press_act_tt }
 		}
 		visible = {
@@ -294,14 +294,14 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 8  senate_technocrat_seats > 8 }
+			check_variable = { senate_militarist_seats > 7 senate_technocrat_seats > 7 }
 			custom_trigger_tooltip = { tooltip = trade_act_tt }
 		}
 		visible = {
 			always = yes
 		}
 		cost = 50
-        days_re_enable = 30
+        days_re_enable = 90
 		complete_effect = {
 
 			acre_senate_remove_militarist_seats_1 = yes
@@ -329,7 +329,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 8  senate_nationalist_seats > 8 }
+			check_variable = { senate_militarist_seats > 7  senate_nationalist_seats > 7 }
 			custom_trigger_tooltip = { tooltip = military_factory_act_tt }
 		}
 		visible = {
@@ -357,7 +357,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 8  senate_nationalist_seats > 8 }
+			check_variable = { senate_technocrat_seats > 7  senate_nationalist_seats > 7 }
 			custom_trigger_tooltip = { tooltip = civilian_act_tt }
 		}
 		visible = {
@@ -385,7 +385,7 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 8  senate_nationalist_seats > 8 }
+			check_variable = { senate_militarist_seats > 7  senate_nationalist_seats > 7 }
 			custom_trigger_tooltip = { tooltip = defense_act_tt }
 		}
 		visible = {

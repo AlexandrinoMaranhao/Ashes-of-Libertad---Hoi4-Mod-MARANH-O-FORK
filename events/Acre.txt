@@ -929,17 +929,16 @@ country_event = {
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
 			add_idea = ACR_tappers_protest1
-			country_event = ACR_cury_marques_protest_event.1
-		}
+		}			
+		country_event = ACR_cury_marques_protest_event.1
 	}
 	option = {
 		name = ACR_cury.5.b
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
 			add_idea = ACR_tappers_protest2
-			country_event = ACR_cury_cerqueira_protest_event.1
-
 		}
+		country_event = ACR_cury_cerqueira_protest_event.1
 	}
 }
 
