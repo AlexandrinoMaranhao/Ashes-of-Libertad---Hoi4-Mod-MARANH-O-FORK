@@ -260,7 +260,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_generic_education }
 	prerequisite = { focus = ACR_selected_books }
 	relative_position_id = ACR_generic_education
-	#icon = 
+	icon = GFX_goal_Make_the_Revolution_Last
 
 	x = 1
 	y = 2
@@ -279,7 +279,7 @@ shared_focus = {
 	id = ACR_battle_manaus_monopoly
 	prerequisite = { focus = ACR_revise_worker_rights }
 	relative_position_id = ACR_revise_worker_rights
-	#icon = 
+	icon = GFX_goal_Battle_Manauss_Monopoly
 
 	x = 2
 	y = 1
@@ -341,7 +341,7 @@ shared_focus = {
 	id = ACR_capitalism_for_communism_sake
 	prerequisite = { focus = ACR_make_manaus_beg }
 	relative_position_id = ACR_make_manaus_beg
-	#icon = 
+	icon = GFX_goal_capitalism_for_communisms_sake
 
 	x = 0
 	y = 2
@@ -417,7 +417,7 @@ shared_focus = {
 	id = ACR_write_cute_letter
 	prerequisite = { focus = ACR_flirt_with_communists }
 	relative_position_id = ACR_flirt_with_communists
-	#icon = 
+	icon = GFX_goal_Write_a_cute_letter_3
 
 	x = 0
 	y = 1
@@ -697,7 +697,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_keep_relationship_professional }
 	prerequisite = { focus = ACR_mutual_love_for_working_class }
 	relative_position_id = ACR_keep_relationship_professional
-	#icon = 
+	icon = GFX_goal_Che_guevara_what_are_you_doing
 
 	x = 1
 	y = 1

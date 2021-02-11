@@ -8,7 +8,47 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-               
+
+	SpriteType = {
+	name = "GFX_goal_Make_the_Revolution_Last"
+	texturefile = "gfx/interface/goals/Make_the_Revolution_Last.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Write_a_cute_letter_3"
+	texturefile = "gfx/interface/goals/Write_a_cute_letter_3.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_Che_guevara_what_are_you_doing"
+	texturefile = "gfx/interface/goals/Che_guevara_what_are_you_doing.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Force_Discipline_in_the_Militias"
+	texturefile = "gfx/interface/goals/Force_Discipline_in_the_Militias.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Prove_our_Worth"
+	texturefile = "gfx/interface/goals/Prove_our_Worth.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_All_Money_to_the_Army"
+	texturefile = "gfx/interface/goals/All_Money_to_the_Army.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Battle_Manauss_Monopoly"
+	texturefile = "gfx/interface/goals/Battle_Manauss_Monopoly.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_capitalism_for_communisms_sake"
+	texturefile = "gfx/interface/goals/capitalism_for_communisms_sake.dds"
+	}	
+            
 	SpriteType = {
 	name = "GFX_goal_remember_the_rubber_battle"
 	texturefile = "gfx/interface/goals/remember_the_rubber_battle.dds"
