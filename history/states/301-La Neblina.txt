@@ -16,13 +16,11 @@ technology = 1
 }
             history = {
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 			industrial_complex = 1
             arms_factory = 2
-			}
-        buildings = {
             dockyard = 2
-            infrastructure = 1
+
         }
         owner = NEB
         add_core_of = NEB
