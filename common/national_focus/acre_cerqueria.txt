@@ -1,4 +1,4 @@
-forshared_focus = {
+shared_focus = {
 	id = ACR_cerqueria_presidency
 	icon = GFX_goal_the_cerqueira_presidency
 
