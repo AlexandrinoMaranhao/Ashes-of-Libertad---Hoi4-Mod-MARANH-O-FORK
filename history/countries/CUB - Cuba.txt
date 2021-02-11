@@ -32,6 +32,10 @@ add_ideas = {
 
 create_faction = CUBA
 add_to_faction = CDR
+declare_war_on = {
+	target = ECR
+	type = annex_everything
+}
 
 create_country_leader = {
 	

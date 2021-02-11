@@ -1,6 +1,6 @@
-﻿capital = 1
+﻿capital = 216
 
-#oob = ""
+oob = "RUM_DEMO"
 
 # Starting tech
 set_technology = {

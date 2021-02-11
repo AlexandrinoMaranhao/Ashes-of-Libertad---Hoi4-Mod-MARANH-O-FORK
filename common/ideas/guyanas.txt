@@ -37,6 +37,14 @@ ideas = {
 
 	}
 
+	ENG_the_new_jewl_movement = {
+
+	}
+
+	ENG_friends_in_high_places = {
+	
+	}
+
 
 	}
 }

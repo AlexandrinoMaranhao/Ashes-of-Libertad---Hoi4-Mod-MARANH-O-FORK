@@ -45,6 +45,22 @@ ideas = {
 
 	}
 
+	GUA_unsustainable_finances = {
+
+	}
+
+	GUA_the_united_fruit_company = {
+
+	}
+
+	GUA_ERY_insurgency = {
+
+	}
+
+	GUA_the_diarchy = {
+	
+	}
+
 
 	}
 }

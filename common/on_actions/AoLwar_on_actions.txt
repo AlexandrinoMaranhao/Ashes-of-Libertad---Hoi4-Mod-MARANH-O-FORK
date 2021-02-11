@@ -163,5 +163,53 @@ on_actions = {
             }
         }
     }
-
+   ###CUBA LIBRE
+    on_startup = {
+        effect = {
+            BTA = {
+                country_event = {
+                    id = Castro.1 
+                    days = 220
+                }
+                country_event = {
+                    id = coresforbatista.1 
+                    days = 1
+                }
+            }
+            SCR = {
+                country_event = {
+                    id = SCR.1 
+                    days = 120
+                }
+            }
+            RED = {
+                country_event = {
+                    id = RED.1 
+                    days = 240
+                }
+            }
+            RUM = {
+                country_event = {
+                    id = RUM.1 
+                    days = 200
+                }
+            }
+            CUB = {
+                country_event = {
+                    id = CUB.1 
+                    days = 140
+                }
+                country_event = {
+                    id = Wasteland.1 
+                    days = 640
+                }
+            }
+            NEH = {
+                country_event = {
+                    id = NEH.1 
+                    days = 230
+                }
+             }
+        }
+    }
 }

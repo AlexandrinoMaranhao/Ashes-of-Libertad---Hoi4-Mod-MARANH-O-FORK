@@ -1,6 +1,6 @@
 ﻿capital = 519
 
-oob = "BTA_DEMO"
+oob = "CDR_DEMO"
 
 # Starting tech
 set_technology = {

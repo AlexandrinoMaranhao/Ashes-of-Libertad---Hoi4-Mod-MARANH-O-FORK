@@ -378,7 +378,10 @@ add_manpower = 2000
 		y = 10
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-
+        declare_war_on = {
+            target = KAY
+            type = annex_everything
+        }
 		}
 	}
 

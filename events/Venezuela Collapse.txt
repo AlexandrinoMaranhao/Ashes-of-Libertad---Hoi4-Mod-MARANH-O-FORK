@@ -138,12 +138,13 @@ country_event = {
 
     option = {
         name = VEN_Collapse_Invasion_of_Guyana.1.A
-       VEN = { country_event = { id = VEN_Collapse_Comes_Later_Path.2 days = 210 } }
-
-        VEN = { transfer_state = 227 }
-        VEN = { transfer_state = 228 }
-        VEN = { transfer_state = 229 }
-    }
+        VEN = { country_event = { id = VEN_Collapse_Comes_Later_Path.2 days = 210 } }
+          
+           declare_war_on = {
+                target = ENG 
+                type = annex_everything
+            } 
+       }
 }
 
 #THE COLLAPSE

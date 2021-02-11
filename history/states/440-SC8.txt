@@ -7,7 +7,11 @@ state={
 	manpower=2433
 	state_category=rural
 	buildings_max_level_factor=1.000
-            history = {
+            history = {		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+            arms_factory = 2
+			}
              owner=LBT
              add_core_of = LBT
         add_core_of = COL

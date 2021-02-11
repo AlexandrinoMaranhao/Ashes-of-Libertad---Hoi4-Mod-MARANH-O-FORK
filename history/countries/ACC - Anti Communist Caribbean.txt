@@ -35,6 +35,11 @@ declare_war_on = {
 	type = annex_everything
 }
 
+declare_war_on = {
+	target = CUB
+	type = annex_everything
+}
+
 add_ideas = {
 	anti_communist_army
 old_world_blues

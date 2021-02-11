@@ -6,7 +6,122 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-               
+        
+spriteType ={
+    name = "GFX_idea_FCP_federacion_campesina"
+    texturefile = "gfx/interface/ideas/FCP_federacion_campesina.dds"
+} 
+                
+spriteType ={
+    name = "GFX_idea_ELS_communist_sympathizers"
+    texturefile = "gfx/interface/ideas/ELS_communist_sympathizers.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PRU_quito_clique"
+    texturefile = "gfx/interface/ideas/PRU_the_quito_clique.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_NLA_eln_cornered_and_surrounded"
+    texturefile = "gfx/interface/ideas/NLA_eln_cornered_and_surrounded.dds"
+} 
+                        
+spriteType ={
+    name = "GFX_idea_NCA_oligarchical_monarchy"
+    texturefile = "gfx/interface/ideas/NCA_oligarchical_monarchy.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_BAH_fallout"
+    texturefile = "gfx/interface/ideas/BAH_fallout.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_fallout"
+    texturefile = "gfx/interface/ideas/fallout.dds"
+} 
+                        
+spriteType ={
+    name = "GFX_idea_black_death_light"
+    texturefile = "gfx/interface/ideas/black_death_light.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_black_death_medium"
+    texturefile = "gfx/interface/ideas/black_death_medium.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_black_death_heavy"
+    texturefile = "gfx/interface/ideas/black_death_heavy.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_NCA_volatile_intentions"
+    texturefile = "gfx/interface/ideas/NCA_volatile_intentions.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_INC_mama_huaco"
+    texturefile = "gfx/interface/ideas/INC_mama_huaco.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_INC_poor_people"
+    texturefile = "gfx/interface/ideas/INC_poor_people.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_CIA_cia"
+    texturefile = "gfx/interface/ideas/CIA_cia.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_UFO_the_akashic_records"
+    texturefile = "gfx/interface/ideas/UFO_the_akashic_records.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_UFO_the_think_tank"
+    texturefile = "gfx/interface/ideas/UFO_the_think_tank.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_HIE_city_of_poets"
+    texturefile = "gfx/interface/ideas/HIE_city_of_poets.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_HIE_limbo"
+    texturefile = "gfx/interface/ideas/HIE_limbo.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_RPU_dependency"
+    texturefile = "gfx/interface/ideas/RPU_dependency.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PMI_the_wall"
+    texturefile = "gfx/interface/ideas/PMI_the_wall.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PRU_apra_uno"
+    texturefile = "gfx/interface/ideas/PRU_apra_uno.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_UNO_the_uno"
+    texturefile = "gfx/interface/ideas/UNO_the_uno.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PRU_the_apra"
+    texturefile = "gfx/interface/ideas/PRU_the_apra.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_anti_communist_army"
     texturefile = "gfx/interface/ideas/anti_communist_army.dds"

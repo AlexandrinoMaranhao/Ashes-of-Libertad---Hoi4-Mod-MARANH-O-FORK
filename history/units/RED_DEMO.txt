@@ -14,10 +14,23 @@ division_template = {
 units = {
 	division = {
 		name = "Soviet Bastards"
+		location = 6345
+		division_template = "Cuban Bastards"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Soviet Bastards"
 		location = 6328
 		division_template = "Cuban Bastards"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-
+	division = {
+		name = "Soviet Bastards"
+		location = 6351
+		division_template = "Cuban Bastards"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
 }

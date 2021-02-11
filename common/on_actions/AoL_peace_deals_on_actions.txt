@@ -3,9 +3,335 @@ on_actions = {
       on_capitulation = {
  
         effect = {  ##### Cuban Wars
+
            if = { 
             limit = {
             FROM = { 
+              original_tag = BTA 
+            }
+            ROOT = { 
+              original_tag = JUV 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = JUV 
+            }
+            ROOT = { 
+              original_tag = BTA 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = ACC 
+            }
+            ROOT = { 
+              original_tag = JUV 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = JUV 
+            }
+            ROOT = { 
+              original_tag = ACC 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = ECR 
+            }
+            ROOT = { 
+              original_tag = CUB 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CUB 
+            }
+            ROOT = { 
+              original_tag = ECR 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = ACC 
+            }
+            ROOT = { 
+              original_tag = CUB 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CUB 
+            }
+            ROOT = { 
+              original_tag = ACC 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CUP 
+            }
+            ROOT = { 
+              original_tag = CUB 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CUB 
+            }
+            ROOT = { 
+              original_tag = CUP 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CUP 
+            }
+            ROOT = { 
+              original_tag = CDR 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = CDR 
+            }
+            ROOT = { 
+              original_tag = CUP 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+
+           if = { 
+            limit = {
+            FROM = { 
+              original_tag = ESC 
+            }
+            ROOT = { 
+              original_tag = CDR 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+             if = { 
+            limit = {
+            FROM = { 
+              original_tag = CDR 
+            }
+            ROOT = { 
+              original_tag = ESC 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+  
+           if = { 
+            limit = {
+            FROM = {
+              original_tag = DRE 
+            }
+            ROOT = { 
+              original_tag = BTA 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+   
+           if = { 
+            limit = {
+            FROM = {
+              original_tag = BTA 
+            }
+            ROOT = { 
+              original_tag = DRE 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+   
+           if = { 
+            limit = {
+            FROM = {
+              original_tag = RED 
+            }
+            ROOT = { 
+              original_tag = BTA 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+   
+           if = { 
+            limit = {
+            FROM = {
+              original_tag = BTA 
+            }
+            ROOT = { 
+              original_tag = RED 
+            }
+          }
+          FROM = {
+            white_peace = ROOT
+            annex_country = {
+              target = ROOT
+              transfer_troops = no
+            }
+          }
+        }
+ 
+
+  
+           if = { 
+            limit = {
+            FROM = {
               original_tag = CUB 
             }
             ROOT = { 
@@ -20,8 +346,7 @@ on_actions = {
             }
           }
         }
-     
-  
+   
            if = { 
             limit = {
             FROM = {
@@ -35,10 +360,6 @@ on_actions = {
             white_peace = ROOT
             annex_country = {
               target = ROOT
-              transfer_troops = no
-            }
-            annex_country = {
-              target = CDR
               transfer_troops = no
             }
           }
@@ -141,6 +462,330 @@ on_actions = {
           }
           ROOT = { 
             original_tag = ACC 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = RED 
+          }
+          ROOT = { 
+            original_tag = NEH 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+        
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = DRE 
+          }
+          ROOT = { 
+            original_tag = NEH 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = NEH 
+          }
+          ROOT = { 
+            original_tag = DRE 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = NEH 
+          }
+          ROOT = { 
+            original_tag = RED 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = CDR 
+          }
+          ROOT = { 
+            original_tag = CUB 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = CUB 
+          }
+          ROOT = { 
+            original_tag = CDR 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = DRE 
+          }
+          ROOT = { 
+            original_tag = RUM 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = RUM 
+          }
+          ROOT = { 
+            original_tag = DRE 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = ECR 
+          }
+          ROOT = { 
+            original_tag = RUM 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = RUM 
+          }
+          ROOT = { 
+            original_tag = ECR 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = ECR 
+          }
+          ROOT = { 
+            original_tag = CDR 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = CDR 
+          }
+          ROOT = { 
+            original_tag = ECR 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = RUM 
+          }
+          ROOT = { 
+            original_tag = CDR 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = CDR 
+          }
+          ROOT = { 
+            original_tag = RUM 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = NEH 
+          }
+          ROOT = { 
+            original_tag = CDR 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = CDR 
+          }
+          ROOT = { 
+            original_tag = NEH 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = RED 
+          }
+          ROOT = { 
+            original_tag = DRE 
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+
+        if = { 
+          limit = {
+          FROM = { 
+            original_tag = DRE 
+          }
+          ROOT = { 
+            original_tag = RED 
           }
         }
         FROM = {

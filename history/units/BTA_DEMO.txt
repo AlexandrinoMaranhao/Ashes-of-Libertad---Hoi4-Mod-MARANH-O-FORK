@@ -33,4 +33,11 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "4rd Volunteer Battalion"
+		location = 1045
+		division_template = "Cuban Bastards"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
 }
