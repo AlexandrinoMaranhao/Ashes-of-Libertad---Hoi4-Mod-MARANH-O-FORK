@@ -1,6 +1,6 @@
 shared_focus = {
 	id = ACR_marques_presidency
-	#icon = 
+	icon = GFX_goal_ACR_marques_presidency
 
 	x = 30
 	y = 2
@@ -19,7 +19,7 @@ shared_focus = {
 	id = ACR_worker_cause
 	prerequisite = { focus = ACR_marques_presidency }
 	relative_position_id = ACR_marques_presidency
-	#icon = 
+	icon = GFX_goal_the_workers_cause
 
 	x = -3
 	y = 1
@@ -201,8 +201,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_education_for_common_man
-	prerequisite = { focus = ACR_jungle_hospitals }
-	prerequisite = { focus = ACR_placido_castro_hospital }
+	prerequisite = { focus = ACR_jungle_hospitals  focus = ACR_placido_castro_hospital }
 	relative_position_id = ACR_jungle_hospitals
 	#icon = 
 
@@ -257,8 +256,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_make_changes_last
-	prerequisite = { focus = ACR_generic_education }
-	prerequisite = { focus = ACR_selected_books }
+	prerequisite = { focus = ACR_generic_education  focus = ACR_selected_books }
 	relative_position_id = ACR_generic_education
 	icon = GFX_goal_Make_the_Revolution_Last
 
@@ -694,8 +692,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_keep_relationship_secret
-	prerequisite = { focus = ACR_keep_relationship_professional }
-	prerequisite = { focus = ACR_mutual_love_for_working_class }
+	prerequisite = { focus = ACR_keep_relationship_professional focus = ACR_mutual_love_for_working_class  }
 	relative_position_id = ACR_keep_relationship_professional
 	icon = GFX_goal_Che_guevara_what_are_you_doing
 

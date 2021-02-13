@@ -30,7 +30,7 @@ shared_focus = {
 	}
 
 	ai_will_do = { factor = 1 }
-	available = {	}
+	available = {}
 
 	cancel_if_invalid = yes
 
@@ -899,7 +899,7 @@ shared_focus = {
 	}
 
 	ai_will_do = { factor = 1 }
-	available = {	}
+	available = { NOT = { has_country_flag = cerqueria_elected } }
 	
 	cancel_if_invalid = yes
 	
@@ -1381,7 +1381,7 @@ shared_focus = {
 	}
 
 	ai_will_do = { factor = 1 }
-	available = {	}
+	available = { NOT = { has_country_flag = cerqueria_elected } }
 
 	cancel_if_invalid = yes
 
