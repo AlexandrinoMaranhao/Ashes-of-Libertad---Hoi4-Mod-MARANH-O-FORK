@@ -1,4 +1,4 @@
-﻿capital = 289
+﻿capital = 287
 
 #oob = "COL_DEMO"
 

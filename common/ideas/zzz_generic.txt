@@ -1280,24 +1280,12 @@ ideas = {
 				has_dlc = "La Resistance"
 			}
 			visible = {
-				OR = {
-					has_idea = generic_head_of_intelligence
-					NOT = {
-						OR = {
-							has_allowed_idea_with_traits = { 
-								idea = head_of_intelligence 
-								limit = 1
-								ignore = generic_head_of_intelligence
-							}
-							has_idea_with_trait = head_of_intelligence
-						}
-					}
-				}
+				has_idea = generic_head_of_intelligence
 			}
 			available = {
 				has_intelligence_agency = yes
 			}
-			traits = { head_of_intelligence }
+			traits = { }
 
 			ai_will_do = {
 				factor = 1
@@ -1341,7 +1329,7 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = { generic_tank_manufacturer }
+			traits = { }
 		}
 	}
 
@@ -1451,7 +1439,7 @@ ideas = {
 				naval_equipment = 0.15
 			}
 			
-			traits = { generic_naval_manufacturer }
+			traits = { }
 		}
 	}
 
@@ -1871,7 +1859,6 @@ ideas = {
 			
 			traits = { army_chief_offensive_1 }
             
-            ledger = invalid
  		}
 
 		generic_army_chief_def = {
@@ -1885,7 +1872,6 @@ ideas = {
 			
 			traits = { army_chief_defensive_1 }
             
-            ledger = invalid
  		}
 	}
 
@@ -1902,7 +1888,6 @@ ideas = {
 
 			traits = { navy_chief_decisive_battle_2 }
             
-            ledger = invalid
  		}
 
 		generic_navy_anti_submarine = {
@@ -1916,7 +1901,6 @@ ideas = {
 			
 			traits = { navy_anti_submarine_2 }
             
-            ledger = invalid
  		}
 	}
 
@@ -1933,7 +1917,6 @@ ideas = {
 			
 			traits = { air_close_air_support_2 }
             
-            ledger = invalid
  		}
 	
 		generic_air_chief_all_weather = {
@@ -1947,7 +1930,6 @@ ideas = {
 		
 			traits = { air_chief_all_weather_2 }			
             
-            ledger = invalid
  		}
 	}
 

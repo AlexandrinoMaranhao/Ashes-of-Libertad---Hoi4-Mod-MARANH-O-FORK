@@ -31,7 +31,7 @@ buy_mercenary_companies_category = {
 
     allowed = {
     ACR = { has_completed_focus = ACR_to_the_highest_bidder }
-    }
+        }
     
         available = {
             always = yes
@@ -78,10 +78,9 @@ buy_mercenary_companies_category = {
             add_manpower = 400
             STR = { add_manpower = -400 }
             STR = { add_political_power = 50 }
-
-        }
-        hidden_effect = {
-            country_event = { id = manpower_merc_time_ends.1 days = 30 } 
+            hidden_effect = {
+                country_event = { id = manpower_merc_time_ends.1 days = 30 } 
+            }
         }
     }
  
@@ -104,12 +103,15 @@ buy_mercenary_companies_category = {
            STR = { add_political_power = 125 }
            hidden_effect = {
            ROOT = {
-               load_oob = "STR_mercs_US"
-               create_unit = {
-                   division = "name = \"Saint Harem Mercenary Company\" division_template = \"Saint Harem Merc Battalion\" 
-                   start_experience_factor = 0.5 start_equipment_factor = 0.8"
-               }  
+               load_oob = "STR_mercs_US"  
            } 
+           random_owned_controlled_state = {
+            create_unit = {
+                division = "name = \"Saint Harem Mercenary Company\" division_template = \"Saint Harem Merc Battalion\" 
+                start_experience_factor = 0.5 start_equipment_factor = 0.8"
+                owner = ROOT
+                }
+            }
        }
    }
 }
@@ -131,12 +133,15 @@ buy_mercenary_companies_category = {
         custom_effect_tooltip = santarem_leunit_BR_tt
             STR = { add_political_power = 100 }
             hidden_effect = {
-            ROOT = {
-                load_oob = "STR_mercs_BR"
+            random_owned_controlled_state = {
+                ROOT = {
+                    load_oob = "STR_mercs_BR"
+                } 
                 create_unit = {
                     division = "name = \"Companhia Mercenária São Francisco\" division_template = \"Saint Francis Merc Battalion\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
-                }     
-            } 
+                    owner = ROOT
+                }
+            }
         }
     }
 }
@@ -157,7 +162,7 @@ buy_mercenary_companies_category = {
 random_list = {
         15 = {
             create_corps_commander = {
-                name = "''Moura''"
+                name = "'Moura'"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = {  }
                 skill = 1
@@ -183,7 +188,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "''Tovica''"
+                name = "'Tovica'"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 4
@@ -196,7 +201,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "''Guajara''"
+                name = "'Guajara'"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 5
@@ -209,7 +214,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "''Pão Doce''"
+                name = "'Pão Doce'"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 6
@@ -222,7 +227,7 @@ random_list = {
         }
         15 = {
             create_corps_commander = {
-                name = "''Xambregas''"
+                name = "'Xambregas'"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
                 skill = 5
@@ -252,8 +257,8 @@ custom_effect_tooltip = santarem_general_mixed_tt
         hidden_effect = {
             country_event = { id = mixed_merc_time_ends.1 days = 30 } 
         }
-        }
     }
+}    
 
     santarem_general_attack = {
         icon = GFX_decision_santarem_attack_decision
@@ -491,7 +496,7 @@ random_list = {
 
     allowed = {
     ACR = { has_completed_focus = ACR_to_the_highest_bidder }
-    }
+        }
     
         available = {
             always = yes
@@ -499,7 +504,7 @@ random_list = {
         visible = {
         NOT = {
         has_country_flag = neblina_mercenary_open
-        }
+            }
         }
         complete_effect = {
         set_country_flag = neblina_mercenary_open
@@ -599,13 +604,16 @@ random_list = {
            NEB = { add_political_power = 150 }
            custom_effect_tooltip = neblina_leunit_tt
            hidden_effect = {
-           ROOT = {
-               load_oob = "NEB_mercs"
-               create_unit = {
-                   division = "name = \"Nublados\" division_template = \"Neblina Mercenary Battalion\" 
-                   start_experience_factor = 1 start_equipment_factor = 1"
-               }  
-           } 
+            random_owned_controlled_state = {
+                ROOT = {
+                    load_oob = "NEB_mercs"    
+                } 
+                create_unit = {
+                    division = "name = \"Nublados\" division_template = \"Neblina Mercenary Battalion\" 
+                    start_experience_factor = 1 start_equipment_factor = 1"
+                    owner = ROOT
+                }  
+            }
        }
    }
 }
@@ -647,7 +655,7 @@ random_list = {
 
     allowed = {
     ACR = { has_completed_focus = ACR_to_the_highest_bidder }
-    }
+        }
     
         available = {
             always = yes
@@ -719,7 +727,6 @@ random_list = {
             surname = "[REDACTED]"
             callsign = "Perry"
             type = fighter_genius
-            is_female = no
         }
         air_experience = 10
             add_timed_idea = {
@@ -793,7 +800,7 @@ random_list = {
     }
 
     CIAd_la_resistance_shit = {
-        icon = 
+        #icon = 
 
         cost = 300
         available = {

@@ -54,9 +54,6 @@ compliance_80 = {
 	visible = {
 		has_dlc = "La Resistance"
 	}
-	enabled = {
-		is_available_to_collaboration_government = yes
-	}
 	state_modifier = {
 	}
 	

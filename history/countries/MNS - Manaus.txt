@@ -27,7 +27,7 @@ set_popularities = {
 add_ideas = {
 bonded_labor
 racist_society
-light_censorship
+idea_AOL_light_censorship
 limited_conscription
 low_economic_mobilisation
 free_trade

@@ -45,7 +45,7 @@ create_country_leader = {
 	name = "Father Paolino Baldassari"
 	picture = "gfx/leaders/QPM/Portrait_QPM_Paolino_Baldassari.dds"
 	expire = "1999.1.1"
-	ideology = cristian_theocracy 
+	ideology = christian_theocracy 
 	traits = {
 		#
 	}

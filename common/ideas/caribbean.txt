@@ -19,7 +19,7 @@ ideas = {
 
 	USR_leadership_struggles = {
 	modifier = {
-	base_stability = -0.05
+	stability_factor = -0.05
 	political_power_gain = -0.05
 	}
 

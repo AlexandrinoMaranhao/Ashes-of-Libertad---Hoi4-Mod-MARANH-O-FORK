@@ -3,9 +3,9 @@ guiTypes = {
 	containerWindowType = { # GUANABARA
 		name = "super_event_guanabara_frame"
 		size = { width = 1000 height = 755 }
-		position = { x=-60 y=-220 }
-		orientation = "LEFT"
-		origo = "LEFT"
+		position = { x = -60 y = -220 }
+		Orientation = LEFT
+		origo = left
 		clipping = no
 
 		iconType = { # Background
@@ -20,8 +20,8 @@ guiTypes = {
 		name = "super_event_guanabara_pic"
 		size = { width = 1000 height = 755 }
 		position = { x=-60 y=-220 }
-		orientation = "LEFT"
-		origo = "LEFT"
+		Orientation = LEFT
+		origo = LEFT
 		clipping = no
 		show_sound = guanabara_super
 

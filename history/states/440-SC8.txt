@@ -5,7 +5,7 @@ state={
 		206 216 677 1560 3177 3192 3207 3213 3221 3231 3233 3242 3262 
 	}
 	manpower=2433
-	state_category=rural
+	state_category=town
 	buildings_max_level_factor=1.000
             history = {		buildings = {
 			infrastructure = 5

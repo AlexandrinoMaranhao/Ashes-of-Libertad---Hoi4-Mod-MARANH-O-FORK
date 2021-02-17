@@ -159,18 +159,20 @@ country_event = {
     
 
     option = {
-      name = PERU.7.b
-    INC = 
-    { annex = FCP }
+        name = PERU.7.b
+        INC = 
+            { annex_country = {
+                target = FCP
+            } }
         334 = {
-    add_core_of = INC
-}
+            add_core_of = INC
+            }
         342 = {
-    add_core_of = INC
-}
+            add_core_of = INC
+            }
       country_event = { id = PERU.9 days = 90 }
     }
-    }
+}
 
 
 country_event = {

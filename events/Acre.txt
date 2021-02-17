@@ -1468,13 +1468,13 @@ country_event = { #decides which seat remove
 		name = ACRMarques.14.B
 		if = {
 			limit = {
-				marques_parents_seat = 0
+				check_variable = { marques_parents_seat = 0 }
 			}
 			acre_senate_add_militarist_seats_1 = yes
 		}
 		if = {
 			limit = {
-				marques_parents_seat = 1
+				check_variable = { marques_parents_seat = 1 }
 			}
 			acre_senate_add_nationalist_seats_1 = yes
 		}

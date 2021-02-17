@@ -234,7 +234,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_war_with = GER
 				factor = 5
 			}
 			modifier = {
@@ -946,7 +945,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1005,7 +1003,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1062,7 +1059,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1129,7 +1125,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1194,7 +1189,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = GER
 				factor = 2
 			}
 			modifier = {
@@ -1270,7 +1264,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = GER
 				factor = 2
 			}
 			modifier = {
@@ -1799,8 +1792,6 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 2.5
 			}
@@ -1861,15 +1852,11 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -1931,15 +1918,11 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -2002,16 +1985,11 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
+				OR = { }
 				factor = 2
 			}
 			modifier = {
@@ -2081,8 +2059,6 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 2.5
 			}
@@ -2096,8 +2072,6 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -2150,15 +2124,11 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 4
 			}
 			modifier = {
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -2219,15 +2189,11 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -2292,7 +2258,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2345,7 +2310,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2408,7 +2372,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2464,7 +2427,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2527,7 +2489,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2588,7 +2549,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2652,7 +2612,6 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 			modifier = {

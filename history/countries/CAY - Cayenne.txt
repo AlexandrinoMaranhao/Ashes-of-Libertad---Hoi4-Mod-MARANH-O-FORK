@@ -36,7 +36,7 @@ create_country_leader = {
 	
 	name = "Léopold Héder"
 	picture = ""
-	expire = "12.9.1999"
+	expire = "1999.1.1"
 	ideology = marxism
 	traits = {
 		#

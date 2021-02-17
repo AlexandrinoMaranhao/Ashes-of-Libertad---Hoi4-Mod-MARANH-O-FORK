@@ -158,12 +158,10 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
 			}
 			
 			modifier = {
 				factor = 2
-				tag = JAP
 			}
 
 			modifier = {
@@ -228,7 +226,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				original_tag = GER
 			}
 			
 			modifier = {
@@ -277,19 +274,16 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
 			}
 			
 			modifier = {
 				factor = 2.5
-				tag = JAP
 			}
 
 			modifier = {
 				factor = 10
 				AND = {
 					is_historical_focus_on = yes
-					tag = JAP
 				}
 			}
 			modifier = {
@@ -393,12 +387,10 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
 			}
 			
 			modifier = {
 				factor = 2
-				tag = JAP
 			}
 			modifier = {
 				factor = 1.5
@@ -450,7 +442,6 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				tag = GER
 				factor = 2
 			}
 		}
@@ -515,7 +506,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = GER
 			}
 			
 			modifier = {
@@ -523,7 +513,6 @@ technologies = {
 				tag = SOV
 			}
 			modifier = {
-				has_war_with = GER
 				tag = SOV
 				factor = 2
 			}
@@ -557,15 +546,11 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -613,7 +598,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = GER
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -626,7 +610,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
-					has_war_with = GER
 					has_war_with = SOV
 				}
 			}
@@ -664,15 +647,11 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -719,7 +698,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = GER
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -731,7 +709,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
-					has_war_with = GER
 					has_war_with = SOV
 				}
 			}
@@ -761,15 +738,11 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -816,19 +789,15 @@ technologies = {
 			modifier = {
 				OR = {
 					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
 				}
 				factor = 3
 			}
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 			
 			modifier = {
 				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -860,15 +829,11 @@ technologies = {
 			modifier = {
 				factor = 2.5
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -915,8 +880,6 @@ technologies = {
 			modifier = {
 				OR = {
 					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
 				}
 				factor = 3
 			}
@@ -929,12 +892,10 @@ technologies = {
 			}
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 			
 			modifier = {
 				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -966,15 +927,11 @@ technologies = {
 			modifier = {
 				factor = 2.5
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 					has_war_with = ENG
 				}
 			}
@@ -1022,8 +979,6 @@ technologies = {
 			modifier = {
 				OR = {
 					has_war_with = ENG
-					has_war_with = USA
-					has_war_with = JAP
 				}
 				factor = 3
 			}
@@ -1036,12 +991,10 @@ technologies = {
 			}
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 			
 			modifier = {
 				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -1065,15 +1018,11 @@ technologies = {
 			modifier = {
 				factor = 2.5
 				OR = {
-					tag = USA
-					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					has_war_with = USA
-					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -1458,7 +1407,6 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 		}
 	}
@@ -1497,7 +1445,6 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 		}
 	}
@@ -1536,7 +1483,6 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 		}
 	}

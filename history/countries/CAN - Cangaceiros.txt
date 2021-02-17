@@ -26,7 +26,7 @@ set_popularities = {
 }
 set_country_flag = is_brazilian
 
-ideas = {
+add_ideas = {
 	cangaceiros_total
 }
 create_country_leader = {

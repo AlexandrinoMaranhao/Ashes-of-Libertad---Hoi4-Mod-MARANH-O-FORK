@@ -63,7 +63,7 @@ ideas = {
         targeted_modifier = { tag = ERN attack_bonus_against = 0.15 defense_bonus_against = 0.35 }
 
 		}
-		the_red_menacedemil = {
+		the_red_menace_demil = {
 			
 			allowed = {
 				tag = ACR
@@ -84,7 +84,7 @@ ideas = {
         targeted_modifier = { tag = ERN attack_bonus_against = 0.1 }
 
 		}
-		the_red_menacedemil2 = {
+		the_red_menace_demil2 = {
 			
 			allowed = {
 				tag = ACR

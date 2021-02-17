@@ -6,7 +6,7 @@ state={
 		491 569 745 1162 1188 1396 2015 2565 2578 2665 2680 3275 3279 3291 3292 3302 3307 3308 3312 3324 3331 3349 3361 
 	}
 	manpower=39273
-	state_category=rural
+	state_category=large_town
 	buildings_max_level_factor=1.000
 
         resources = {

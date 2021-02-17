@@ -1,4 +1,16 @@
 opinion_modifiers = {
+
+	small_increase = {
+		value = 25
+	}
+
+	medium_increase = {
+		value = 50
+	}
+	
+	large_increase = {
+		value = 75
+	}
 	
 	faction_traitor = {
 		value = -75
@@ -11,6 +23,10 @@ opinion_modifiers = {
 	faction_traitor_trade = {
 		trade = yes
 		value = -40
+	}
+
+	same_ruling_party = {
+		value = 10
 	}
 	
 	our_liberators = {

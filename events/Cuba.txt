@@ -480,9 +480,10 @@ country_event = { ## Starts War ##
             }
             add_core_of = ROOT
             }
-
         }
-        join_faction = NATO
+        USR = {
+            add_to_faction = RUM
+        }
 
     }
 
@@ -514,6 +515,8 @@ country_event = { ## Starts War ##
             }
             
         }
-        join_faction = NATO
+        USR = {
+            add_to_faction = RUM
+        }
     }
 }

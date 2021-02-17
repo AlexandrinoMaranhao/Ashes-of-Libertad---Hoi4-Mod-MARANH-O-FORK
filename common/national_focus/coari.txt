@@ -15,9 +15,6 @@
 		id = COR_intro_one
 		icon = GFX_goal_coat_of_arms_coari
 		cost = 1
-		prerequisite = {
-			focus = x
-		}
 		x = 9
 		y = 1
 		completion_reward = {
@@ -154,7 +151,7 @@
 			focus = COR_militia_question
 		}
 		mutually_exclusive = {
-			focus = COR_local_militia
+			focus = COR_mercenary_militia
 		}
 		x = 2
 		y = 1
@@ -238,9 +235,17 @@
 		y = 1
 		relative_position_id = COR_intro_final
 		completion_reward = {
+			if = {
+				limit = {
+					NOT = { COR = { has_tech = tech_support } }
+				}
+				set_technology = {
+					tech_support = 1
+				}
+			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 151
+				amount = 150
 				producer = COR
 			}
 		}
@@ -383,11 +388,13 @@
 				id = Coari.6
 				days = 7
 			}
-			add_building_construction = {
-				type = industrial_complex 
-				level = 2
-				instant_build = yes
-			}
+			398 = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 2
+					instant_build = yes
+				}
+			}	
 		}
 	}
 

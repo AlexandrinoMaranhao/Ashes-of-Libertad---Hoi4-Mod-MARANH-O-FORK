@@ -16,9 +16,6 @@ focus_tree = {
 		id = BEM_intro_one
 		icon = GFX_goal_losing_its_shine
 		cost = 1
-		prerequisite = {
-			focus = x
-		}
 		x = 9
 		y = 1
 		completion_reward = {
@@ -367,7 +364,7 @@ add_manpower = 2000
 	}
 
 	focus = {
-		id = BEM_operação_tabaco
+		id = BEM_operacao_tabaco
 		icon = GFX_goal_losing_its_shine
 		cost = 1
 
@@ -442,7 +439,7 @@ add_manpower = 2000
 KAY = {
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = huge_increase
+					modifier = large_increase
 				}
 				country_event = {
 				id = Para.7

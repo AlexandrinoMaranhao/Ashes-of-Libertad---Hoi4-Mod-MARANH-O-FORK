@@ -36,7 +36,7 @@ declare_war_on = {
 }
 
 declare_war_on = {
-	target = CRD
+	target = CDR
 	type = annex_everything
 }
 
@@ -58,7 +58,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-
 }

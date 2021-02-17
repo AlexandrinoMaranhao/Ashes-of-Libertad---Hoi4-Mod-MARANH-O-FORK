@@ -11,5 +11,8 @@ state={
              owner=JAM
              add_core_of = JAM
         add_core_of = ENG
+		victory_points = {
+			2914 50
+		}
 }
 }

@@ -16,7 +16,6 @@ steel = 1
             
             buildings = {
             infrastructure = 1
-            dockyard = 1
 }
         owner = ARI
         add_core_of = ARI

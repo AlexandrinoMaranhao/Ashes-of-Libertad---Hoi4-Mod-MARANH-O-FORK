@@ -108,7 +108,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
 				factor = 4
 			}
 		}
@@ -143,7 +142,7 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
+
 				}
 				factor = 5
 			}
@@ -194,7 +193,7 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
+
 				}
 				factor = 5
 			}
@@ -242,7 +241,7 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
+
 				}
 				factor = 4
 			}
@@ -288,7 +287,7 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
+
 				}
 				factor = 4
 			}
@@ -331,7 +330,7 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
+
 				}
 				factor = 5
 			}
@@ -472,7 +471,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = GER
 			}
 		}
 		
@@ -554,7 +552,6 @@ technologies = {
 			modifier = {
 				factor = 3
 
-				tag = GER
 			}
 			modifier = {
 				factor = 3
@@ -595,7 +592,6 @@ technologies = {
 			modifier = {
 				factor = 3
 
-				tag = GER
 			}
 			modifier = {
 				factor = 3
@@ -636,7 +632,6 @@ technologies = {
 			modifier = {
 				factor = 3
 
-				tag = GER
 			}
 			modifier = {
 				factor = 3
@@ -673,7 +668,6 @@ technologies = {
 			modifier = {
 				factor = 3
 
-				tag = GER
 			}
 			modifier = {
 				factor = 3
@@ -710,7 +704,6 @@ technologies = {
 			modifier = {
 				factor = 3
 
-				tag = GER
 			}
 			modifier = {
 				factor = 3
@@ -747,7 +740,6 @@ technologies = {
 			modifier = {
 				factor = 3
 
-				tag = GER
 			}
 			modifier = {
 				factor = 3
@@ -784,8 +776,6 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
-					tag = JAP
 				}
 				factor = 3
 			}
@@ -825,8 +815,6 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
-					tag = JAP
 				}
 				factor = 3
 			}
@@ -867,8 +855,6 @@ technologies = {
 			modifier = {
 				OR = {
 					tag = ENG
-					tag = USA
-					tag = JAP
 				}
 				factor = 3
 			}
@@ -1121,7 +1107,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
 			}
 		}
 		
@@ -1152,7 +1137,6 @@ technologies = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 		}

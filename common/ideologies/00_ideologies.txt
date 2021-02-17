@@ -25,6 +25,10 @@ ideologies = {
 		    authoritarian_democracy = {
 		    }
 
+			moderatism = {
+
+			}
+
 		}
 		
 		dynamic_faction_names = {
@@ -230,11 +234,17 @@ ideologies = {
 			tribal = {
 			}
 
-            chile_starting_ideology = {
-            }
-
             monarchy_status_quo = {
             }
+
+			evangelical_theocracy = {
+            }
+
+			tribal_chiefdom = {
+			}
+
+			christian_theocracy = {
+			}
 
 		}
 
@@ -303,7 +313,7 @@ ideologies = {
 			coronelism = {
 			}
 
-			cristian_theocracy = {
+			christian_theocracy = {
 			}
 
 		}

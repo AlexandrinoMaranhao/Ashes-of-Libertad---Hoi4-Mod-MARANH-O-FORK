@@ -16,9 +16,6 @@ focus_tree = {
 		id = KAY_intro_one
 		icon = GFX_goal_losing_its_shine
 		cost = 1
-		prerequisite = {
-			focus = x
-		}
 		x = 9
 		y = 1
 		completion_reward = {

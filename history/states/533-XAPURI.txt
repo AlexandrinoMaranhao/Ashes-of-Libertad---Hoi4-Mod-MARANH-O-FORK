@@ -16,6 +16,7 @@ history = {
 		victory_points = {
 			2029 5 
 		}
+		buildings = {
 			1813 = {
 				bunker = 2
 
@@ -24,8 +25,7 @@ history = {
 				bunker = 2
 
 			}
-
-
+		}
 		owner = ACR
 		add_core_of = ACR
 }

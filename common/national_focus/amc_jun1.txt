@@ -13,17 +13,13 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = NHA_
+		id = NHA_placeholder
 		icon = GFX_goal_losing_its_shine
 		cost = 1
-		prerequisite = {
-			focus = x
-		}
 		x = 0
 		y = 1
 		completion_reward = {
 
 		}
 	}
-
-	}
+}

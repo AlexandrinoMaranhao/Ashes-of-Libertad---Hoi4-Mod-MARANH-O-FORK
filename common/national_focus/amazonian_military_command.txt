@@ -15,9 +15,6 @@ focus_tree = {
 		id = NHA_intro_one
 		icon = GFX_goal_AMC
 		cost = 1
-		prerequisite = {
-			focus = x
-		}
 		x = 9
 		y = 0
 		completion_reward = {
@@ -144,13 +141,12 @@ focus_tree = {
 				amount = 300
 				producer = BRA
 			}
-random_owned_controlled_state = {
+		random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
 					instant_build = yes
-					
 				}
 			}
 		}
@@ -185,14 +181,14 @@ random_owned_controlled_state = {
 			country_event = {
 				id = AMC.3
 				days = 0
+			}
+			430 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-	430 = {
-			add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
-		}
+			}
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 0.5
@@ -268,7 +264,7 @@ random_owned_controlled_state = {
 			focus = NHA_renew_the_port
 		}
 		mutually_exclusive = {
-			focus = NHA_use_the_military
+			focus = NHA_use_the_military_AMC
 		}
 		x = -1
 		y = 5
@@ -386,20 +382,20 @@ random_owned_controlled_state = {
 		cost = 1
 		prerequisite = {
 			focus = NHA_use_the_civilians
-focus = NHA_use_the_military_AMC
+			focus = NHA_use_the_military_AMC
 		}
 		x = 0
 		y = 6
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-430 = {
-			add_building_construction = {
-							type = naval_base
-							level = 3
-							instant_build = yes
-							province = 3506
-						}
-		}
+			430 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 3506
+				}
+			}
 		}
 	}
 
@@ -459,19 +455,19 @@ focus = NHA_petition_belem
 		y = 7
 		relative_position_id = NHA_intro_one
 		completion_reward = {
-119 = {
+			119 = {
 			add_building_construction = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+			}
+			NHA = {
+           		set_state_owner = 119
+           		set_state_controller = 119
+        	}	
+        	MAP = { add_ideas = displaced_tribe }
 		}
-		}
-        NHA = {
-           set_state_owner = 119
-           set_state_controller = 119
-        }
-        MAP = { add_ideas = displaced_tribe }
 	}
 
 	focus = {

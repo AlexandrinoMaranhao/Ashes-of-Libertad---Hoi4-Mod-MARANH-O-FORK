@@ -41,7 +41,7 @@ create_country_leader = {
 	name = "Jim Jones"
 	picture = "gfx/leaders/RMI/Portrait_RMI_Jim_Jones.dds"
 	expire = "1999.1.1"
-	ideology = cristian_theocracy
+	ideology = christian_theocracy
 	traits = {
 		
 		

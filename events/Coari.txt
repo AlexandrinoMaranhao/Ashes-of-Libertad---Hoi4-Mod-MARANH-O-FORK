@@ -482,7 +482,6 @@ country_event = {
 	title = MontorilGoesFishing.1.t
 	desc = MontorilGoesFishing.1.d
 	picture = GFX_report_event_fishing_in_the_amazon
-	fixed_random_seed = no
     is_triggered_only = yes
 	#Answer
 	option = {

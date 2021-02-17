@@ -89,7 +89,7 @@ create_country_leader = {
 	name = "José Augusto de Araujo"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
 	expire = "1999.1.1"
-	ideology = moderatism
+	ideology = centrism
 	traits = {
 
 

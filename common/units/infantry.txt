@@ -48,14 +48,14 @@ sub_units = {
 	
 	tribal_infantry = {
 		sprite = infantry
-		map_icon_category = tribal_infantry
+		map_icon_category = infantry
 		
 		priority = 600
 		ai_priority = 200
 		active = no
 
 		type = {
-			tribal_infantry
+			infantry
 		}
 		
 		group = infantry

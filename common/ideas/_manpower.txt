@@ -9,10 +9,13 @@ ideas = {
 			cost = 0			
 			removal_cost = 900
 			level = 7
+
 			
 			allowed = {
             if = {
-                 original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
+				limit = {
+					original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
+				}
             }
 			}
 
@@ -29,8 +32,6 @@ ideas = {
 			}
 
 			default = yes
-            
-            ledger = invalid
 
 			cancel_if_invalid = no
 		}
@@ -79,7 +80,6 @@ ideas = {
 			
 			default = yes
             
-            ledger = invalid
   			
 			cancel_if_invalid = no
 		}
@@ -111,7 +111,6 @@ ideas = {
 			}
 			cancel_if_invalid = no
             
-            ledger = invalid
   		}
 		
 		extensive_conscription = {
@@ -163,7 +162,6 @@ ideas = {
 			
 			cancel_if_invalid = no
             
-            ledger = invalid
   
 		}
 		
@@ -220,7 +218,6 @@ ideas = {
 			
 			cancel_if_invalid = no
             
-            ledger = invalid
   		}
 		
 		all_adults_serve = {
@@ -271,7 +268,6 @@ ideas = {
 			
 			cancel_if_invalid = no
             
-            ledger = invalid
   		}
 		
 		scraping_the_barrel = {
@@ -326,7 +322,6 @@ ideas = {
 			
 			cancel_if_invalid = no
             
-            ledger = invalid
   		}
 	}
 }

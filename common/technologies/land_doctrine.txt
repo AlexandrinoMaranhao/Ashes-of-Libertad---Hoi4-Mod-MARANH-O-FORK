@@ -226,7 +226,6 @@ technologies = {
 			}
 
 			modifier = {
-				tag = GER
 				factor = 2
 			}
 		}
@@ -809,7 +808,6 @@ technologies = {
 				factor = 0.5
 			}
 			modifier = {
-				tag = GER
 				factor = 3
 			}
 		}
@@ -2781,13 +2779,6 @@ technologies = {
 				factor = 0.4
 
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 			modifier = {
@@ -3189,13 +3180,6 @@ technologies = {
 				factor = 0.6
 
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 

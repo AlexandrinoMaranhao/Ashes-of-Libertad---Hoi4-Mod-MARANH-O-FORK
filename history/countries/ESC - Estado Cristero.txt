@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Salvador Abascal"
 	picture = "gfx/leaders/ESC/Portrait_ESC_Salvador_Abascal.dds"
 	expire = "1999.1.1"
-	ideology = cristian_theocracy
+	ideology = christian_theocracy
 	traits = {
 		#
 	}

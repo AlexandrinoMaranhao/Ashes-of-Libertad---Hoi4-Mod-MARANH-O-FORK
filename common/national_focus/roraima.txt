@@ -34,10 +34,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		complete_tooltip = {
 
 		}
@@ -71,10 +67,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		complete_tooltip = {
 
 		}
@@ -107,10 +99,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		complete_tooltip = {
 
@@ -146,10 +134,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			country_event = {
 				id = roraima.4
@@ -178,17 +162,13 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			every_other_country = {
 				limit = {
 					has_government = ROOT
 				}
 				add_opinion_modifier = {
-					tag = ROR
+					target = ROR
 					modifier = same_ruling_party 
 				}
 			}
@@ -214,10 +194,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -250,10 +226,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			add_ideas = guerrilla_training
 		}
@@ -280,10 +252,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_ideas = {
@@ -315,10 +283,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			add_ideas = ussr_tradition
 		}
@@ -345,10 +309,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			109 = {
@@ -389,10 +349,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			set_technology = {
 				early_bomber = 1
@@ -426,10 +382,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -465,10 +417,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			set_autonomy = {
 				target = FBO
@@ -477,7 +425,7 @@ focus_tree = {
 			create_corps_commander = {
 				name = "Carlos Lamarca"
 				picture = ""
-				traits = { guerrilla }
+				traits = { guerilla_fighter }
 				skill = 2
 				attack_skill = 3
 				defense_skill = 1
@@ -506,10 +454,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			458 = {
@@ -542,10 +486,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			country_event = {
 				id = roraima.6
@@ -573,10 +513,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			country_event = {
@@ -608,10 +544,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = no_administration_roraima
@@ -641,10 +573,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			add_war_support = 0.2
@@ -680,10 +608,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			add_stability = -0.05
 			add_war_support = 0.1
@@ -716,10 +640,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			add_ideas = professional_military_training
 		}
@@ -744,10 +664,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			
@@ -774,10 +690,6 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 			add_stability = 0.1
 		}
@@ -802,10 +714,6 @@ focus_tree = {
 		bypass = {
 
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 			load_focus_tree = ROR_focus_2

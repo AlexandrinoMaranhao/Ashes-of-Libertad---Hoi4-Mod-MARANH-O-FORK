@@ -5,7 +5,7 @@ state={
 		894 1322 1485 2367 3204 3211 3234 3243 3248 3257 3278 
 	}
 	manpower=10483
-	state_category=rural
+	state_category=town
 	buildings_max_level_factor=1.000
             history = {
              owner = CIA

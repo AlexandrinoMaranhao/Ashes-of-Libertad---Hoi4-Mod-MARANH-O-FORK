@@ -227,16 +227,9 @@ defined_text = {
 	name = GetDualLeaderName
 	text = {
 		trigger = {
-			tag = ROM
-			has_government = neutrality
-		}
-		localization_key = ROM_CAROL_II
-	}
-	text = {
-		trigger = {
 			original_tag = ENG
 			ENG = {
-				has_idea = george_v
+				has_idea = ENG_george_v
 			}
 		}
 		localization_key = ENG_GEORGE_V
@@ -340,18 +333,11 @@ defined_text = {
 ##############################
 defined_text = {
     name = GetDualLeaderPortrait
-	text = {
-		trigger = {
-			tag = ROM
-			has_government = neutrality
-		}
-		localization_key = GFX_ROM_Carol_II
-	}
     text = {
         trigger = {
 			original_tag = ENG
 			ENG = {
-				has_idea = george_v
+				has_idea = ENG_george_v
 			}
         }
         localization_key = "GFX_ENG_George_V"
@@ -467,7 +453,7 @@ defined_text = {
         trigger = {
 			original_tag = ENG
 			ENG = {
-				has_idea = george_v
+				has_idea = ENG_george_v
 			}
         }
         localization_key = "DESCRIPTION_TEST"
@@ -488,7 +474,7 @@ defined_text = {
         trigger = {
 			original_tag = ENG
 			ENG = {
-				has_idea = george_v
+				has_idea = ENG_george_v
 			}
         }
         localization_key = "FIRST_LEADER_DESC_TEST"

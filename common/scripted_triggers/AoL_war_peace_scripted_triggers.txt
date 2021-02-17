@@ -268,3 +268,21 @@ ENG_jamaica_trigger_JAM = {
 		controls_province = 2914
 	}
 }
+
+#RPE_cuzco_war_trigger_NLA = {
+#	RPE = {
+#		controls_province = 4377
+#	}
+#}
+
+#PMI_cuzco_war_trigger_NLA = {
+#	PMI = {
+#		controls_province = 4377
+#	}
+#}
+
+#NCA_cuzco_war_trigger_HIE = {
+#	NCA = {
+#		controls_province = 1820
+#	}
+#}

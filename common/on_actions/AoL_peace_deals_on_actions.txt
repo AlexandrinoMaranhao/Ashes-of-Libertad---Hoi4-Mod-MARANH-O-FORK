@@ -326,9 +326,6 @@ on_actions = {
             }
           }
         }
- 
-
-  
            if = { 
             limit = {
             FROM = {
@@ -346,7 +343,6 @@ on_actions = {
             }
           }
         }
-   
            if = { 
             limit = {
             FROM = {
@@ -364,7 +360,6 @@ on_actions = {
             }
           }
         }
- 
            if = { 
             limit = {
             FROM = { 
@@ -382,7 +377,6 @@ on_actions = {
             }
           }
         }
- 
            if = { 
             limit = {
             FROM = { 
@@ -400,7 +394,6 @@ on_actions = {
             }
           }
         }
- 
            if = { 
             limit = {
             FROM = { 
@@ -817,7 +810,7 @@ on_actions = {
           ROOT = { original_tag = ENG }
           FROM = { original_tag = JAM }
           FROM.FROM = {
-            state = 180
+            ENG_jamaica_trigger_JAM = yes
           }
         }
         ROOT = {
@@ -899,6 +892,51 @@ on_actions = {
           transfer_state = 298
           transfer_state = 439
           transfer_state = 437
+        }
+      }
+      if = {  #### Republic of Peru vs ELN
+        limit = {
+          ROOT = { original_tag = RPE }
+          FROM = { original_tag = NLA }
+          FROM.FROM = {
+            #RPE_cuzco_war_trigger_NLA = yes
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Peruvian Armed Forces vs ELN
+        limit = {
+          ROOT = { original_tag = PMI }
+          FROM = { original_tag = NLA }
+          FROM.FROM = {
+            #PMI_cuzco_war_trigger_NLA = yes
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Nueva Castilla vs Lima
+        limit = {
+          ROOT = { original_tag = NCA }
+          FROM = { original_tag = HIE }
+          FROM.FROM = {
+            #NCA_cuzco_war_trigger_HIE = yes
+          }
+        }
+        ROOT = {
+          annex_country = {
+            target = FROM
+            transfer_troops = no
+          }
         }
       }
     }

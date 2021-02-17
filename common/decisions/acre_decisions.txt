@@ -97,7 +97,7 @@ acrean_senate = {
 		acre_senate_add_technocrat_seats_1 = yes
 
 			add_manpower = 10000
-			add_base_stability = 0.05
+			add_stability = 0.05
 		
 		532 = {
 			add_manpower = 500

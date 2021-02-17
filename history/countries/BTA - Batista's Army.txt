@@ -48,10 +48,10 @@ declare_war_on = {
 	type = annex_everything
 }
 
-declare_war_on = {
-	target = CDR
-	type = annex_everything
-}
+#declare_war_on = {
+#	target = CDR
+#	type = annex_everything
+#}
 
 create_country_leader = {
 	

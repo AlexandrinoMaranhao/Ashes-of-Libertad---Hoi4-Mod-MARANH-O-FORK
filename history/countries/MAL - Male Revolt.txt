@@ -24,7 +24,7 @@ set_popularities = {
 	reactionary = 100
 
 }
-ideas = {
+add_ideas = {
 	the_male_revolt
 	free_port_of_salvador
 

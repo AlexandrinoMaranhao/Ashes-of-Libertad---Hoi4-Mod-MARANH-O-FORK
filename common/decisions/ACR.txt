@@ -290,8 +290,6 @@ ACR_compensation_trade_category = {
 		
 		visible = {
 			tag = ACR
-		}
-
 			any_controlled_state = {
 				has_resources_amount = {
 					resource = rubber
@@ -299,6 +297,7 @@ ACR_compensation_trade_category = {
 					delivered = yes
 				}
 			}
+		}
 		
 		complete_effect  = {
 			capital_scope = {

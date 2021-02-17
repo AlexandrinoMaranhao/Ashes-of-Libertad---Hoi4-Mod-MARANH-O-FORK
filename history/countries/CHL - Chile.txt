@@ -47,7 +47,7 @@ create_country_leader = {
 	name = "Salvador Allende"
 	picture = "gfx/leaders/CHL/Portrait_CHL_Salvador_Allende.dds"
 	expire = "1999.1.1"
-	ideology = chile_starting_ideology
+	ideology = centrism
 	traits = {
 		#
 	}

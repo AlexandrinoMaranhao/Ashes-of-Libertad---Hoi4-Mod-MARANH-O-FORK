@@ -40,7 +40,7 @@ create_country_leader = {
 	name = "National Council of Government"
 	picture = "gfx/leaders/URG/Portrait_URG_Uruguayan_Council.dds"
 	expire = "1999.1.1"
-	ideology = mercantile_state
+	ideology = federation
 	traits = {
 		#
 	}
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = ""
 	picture = ""
 	expire = "1999.1.1"
-	ideology = merchantile_oligarchy
+	ideology = mercantile_oligarchy
 	traits = {
 		#
 	}
@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Martin Echegoyen"
 	picture = "gfx/leaders/URG/Portrait_URG_Martin_Echegoyen.dds"
 	expire = "1999.1.1"
-	ideology = moderatism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -98,7 +98,7 @@ create_country_leader = {
 create_country_leader = {
 
 	name = "Jorge Pacheco Areco"
-	picture = "gfx/leaders/URG/Portrait_URG_Jorge_Pacheco_Areco.dds
+	picture = "gfx/leaders/URG/Portrait_URG_Jorge_Pacheco_Areco.dds"
 	expire = "1999.1.1"
 	ideology = centrism
 	traits = {
@@ -180,7 +180,7 @@ create_country_leader = {
 	name = "Consejo de la Nacion Charrua"
 	picture = "gfx/leaders/URG/Portrait_URG_LARPers.dds"
 	expire = "1999.1.1"
-	ideology = tribal_federation
+	ideology = tribal_chiefdom
 	traits = {
 		#
 	}

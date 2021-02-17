@@ -221,7 +221,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "belem_state"
 			position = { x = -285 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Belém"
 			maxWidth = 400
 			maxHeight = 20
@@ -230,7 +230,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cachimbo_state"
 			position = { x = -300 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Cachimbo"
 			maxWidth = 400
 			maxHeight = 20
@@ -239,7 +239,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "kayapo_state"
 			position = { x = -290 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Kayapó"
 			maxWidth = 400
 			maxHeight = 20
@@ -248,7 +248,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "nhamunda_state"
 			position = { x = -280 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Zoe"
 			maxWidth = 400
 			maxHeight = 20
@@ -257,7 +257,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "portel_state"
 			position = { x = -290 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Portel"
 			maxWidth = 400
 			maxHeight = 20
@@ -266,7 +266,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "santarem_state"
 			position = { x = -300 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Santarém"
 			maxWidth = 400
 			maxHeight = 20
@@ -275,7 +275,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tapajos_state"
 			position = { x = -290 y = 50 }
-			font = "hoi_20header"
+			font = "hoi_24header"
 			text = "Tapajós"
 			maxWidth = 400
 			maxHeight = 20
