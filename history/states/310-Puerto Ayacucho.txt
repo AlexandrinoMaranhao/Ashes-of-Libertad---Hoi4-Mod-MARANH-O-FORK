@@ -7,12 +7,24 @@ state={
 		owner = VEN
 		add_core_of = VEN
 
+		victory_points = {
+                2072 10
+		}
+		
+		victory_points = {
+                3113 5
+		}
+		
+		victory_points = {
+                1402 5
+		}
+		
 	}
 
 	provinces={
 		327 700 893 1402 1768 2072 2341 2423 3050 3051 3055 3062 3067 3078 3091 3095 3100 3104 3113 3116 3128 
 	}
-	manpower=5000
+	manpower=18204
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

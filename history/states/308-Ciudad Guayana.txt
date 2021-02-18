@@ -6,7 +6,13 @@ state={
 	history={
 		owner = VEN
 		add_core_of = VEN
-
+		victory_points = {
+                3034 10
+		}
+		
+		victory_points = {
+                3097 5
+		}
 	}
 
 	provinces={

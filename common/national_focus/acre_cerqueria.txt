@@ -41,6 +41,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+
 		acre_senate_remove_technocrat_seats_1 = yes
 		acre_senate_remove_technocrat_seats_1 = yes
 		remove_ideas = adalberto_sena_political_advisor
@@ -60,6 +66,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+
 		acre_senate_remove_technocrat_seats_1 = yes
 		remove_ideas = marques_de_souza_political_advisor
 		country_event = ACR_cerqueira.2
@@ -78,6 +90,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+
 		acre_senate_remove_nationalist_seats_1 = yes
 		acre_senate_remove_nationalist_seats_1 = yes
 		remove_ideas = jose_augusto_political_advisor
@@ -98,6 +116,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+
 		acre_senate_remove_nationalist_seats_1 = yes
 		remove_ideas = helio_cury_political_advisor
 		country_event = ACR_cerqueira.3
@@ -117,6 +141,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+
 		add_war_support = 0.05
 		add_stability = 0.05
 		89 = {
@@ -137,6 +167,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+
 		add_ideas = subsistence_economy
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
@@ -491,6 +527,12 @@ shared_focus = {
 		acre_senate_add_militarist_seats_2 = yes
 		add_ideas = nabor_junior_political_advisor
 		add_ideas = jose_guiomard_political_advisor
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.2
+		}
+
 	}
 }
 shared_focus = {
@@ -760,7 +802,27 @@ shared_focus = {
 			modifier = ACR_became_the_juntas_bitch
 		}
 		add_ideas = ACR_the_brazilian_constitution
-	}
+	
+					set_politics = {
+					ruling_party = fascism
+					last_election = "1967.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+			hidden_effect = {
+			remove_unit_leader = 14 
+				kill_country_leader = yes
+				create_country_leader = {
+
+					name = "Edgar Cerqueira"
+					picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+					expire = "1999.1.1"
+					ideology = military_government
+					traits = {
+					}
+				}
+			}
+		}
 }
 shared_focus = {
 	id = ACR_acrean_military_command
@@ -777,6 +839,19 @@ shared_focus = {
 
 	completion_reward = {	
 		set_cosmetic_tag = AMC_ACR
+
+		create_field_marshal = {
+			name = "Edgar Cerqueira"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { defensive_doctrine old_guard }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 2
+			id = 140
+		}
+		
 	}
 }
 shared_focus = {
@@ -793,8 +868,9 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		declare_war_on = {
-			target = ERN
-		}
+        declare_war_on = {
+            target = ERN
+            type = annex_everything
+        }
 	}
 }

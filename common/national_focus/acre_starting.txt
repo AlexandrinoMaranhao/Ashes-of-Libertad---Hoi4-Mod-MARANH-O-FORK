@@ -664,7 +664,7 @@ acre_senate_add_militarist_seats_2 = yes
 
 		create_field_marshal = {
 			name = "Edgar Cerqueira"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira_Acre.dds"
 			traits = { defensive_doctrine old_guard politically_connected }
 			skill = 4
 			attack_skill = 3
@@ -1122,7 +1122,7 @@ shared_focus = {
 					}
 				} 
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = democratic
 					last_election = "1967.1.1"
 					election_frequency = 48
 					elections_allowed = no
@@ -1131,9 +1131,9 @@ shared_focus = {
 				create_country_leader = {
 
 					name = "Edgar Cerqueira"
-					picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+					picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira_Acre.dds"
 					expire = "1999.1.1"
-					ideology = military_government
+					ideology = authoritarian_democracy
 					traits = {
 					}
 				}

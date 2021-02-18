@@ -93,7 +93,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2969;5120;sea;6026;-1;-1;-1;-1;;Caracas
 1741;5125;sea;5729;-1;-1;-1;-1;;Puerto la Cruz
 1487;5124;sea;5698;-1;-1;-1;-1;;Puerto la Cruz
-5121;5124;sea;5729;-1;-1;-1;-1;;Puerto la Cruz
+5121;5124;sea;5698;-1;-1;-1;-1;;Puerto la Cruz
 #
 1557;3657;sea;6010;-1;-1;-1;-1;;São Luís
 #
@@ -141,7 +141,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 #
 4998;1190;sea;5935;-1;-1;-1;-1;;Puerto Montt
 #
-4630;4631;sea;150;-1;-1;-1;-1;;Rio de Janeiro
+4630;4631;sea;6150;-1;-1;-1;-1;;Rio de Janeiro
 #
 839;527;sea;6158;-1;-1;-1;-1;;Passo Fundo
 4716;100;sea;6025;-1;-1;-1;-1;;Santa Rosa
@@ -158,7 +158,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4493;1681;sea;5751;-1;-1;-1;-1;;
 1938;328;sea;5751;-1;-1;-1;-1;;
 4514;4516;sea;5908;-1;-1;-1;-1;;
-1102;4445;sea;5908;-1;-1;-1;-1;;
 #
 4358;2614;sea;6144;-1;-1;-1;-1;;Bom Jesus da Lapa
 2301;2698;sea;5968;-1;-1;-1;-1;;São Francisco
