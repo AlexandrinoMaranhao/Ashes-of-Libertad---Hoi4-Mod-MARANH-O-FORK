@@ -6,6 +6,7 @@ state={
 	history={
 		owner = MEX
 		add_core_of = MEX
+		add_core_of = EJR
 		victory_points = {
 		1412 5
 		}
@@ -18,7 +19,7 @@ state={
 	provinces={
 		50 1412 2058 2601 2895 2901 2911 6224 
 	}
-	manpower=45434
+	manpower=251556
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

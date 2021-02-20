@@ -38,6 +38,8 @@
  marxism:0 "Marxist Regime"
  leninism:0 "Leninist Regime"
  stalinism:0 "Stalinist Regime"
+ maoism:0 "Maoism"
+ maoism_desc:0 "maoism desc"
  #anti_revisionism:0 "Anti-Revisionism"
 # anarchist_communism:0 "Anarchist Communism"
  nazism:0 "Nazism"
@@ -204,3 +206,13 @@ URG_neutrality_party:0 "TP"
 URG_neutrality_party_long:0 "Traditional Parties"
 URG_reactionary_party:0 "TFM"
 URG_reactionary_party_long:0 "The Fringe Movements"
+
+## Mexico ##
+MEX_fascism_party:0 "PRI"
+MEX_fascism_party_long:0 "Partido Revolucionario Institucional"
+
+EJR_communism_party:0 "MCNR"
+EJR_communism_party_long:0 "Movimiento Cívico Nacional Revolucionario"
+
+ERG_communism_party:0 "FAR - Exile"
+ERG_communism_party_long:0 "Fuerzas Armadas Rebeldes - in Exile"

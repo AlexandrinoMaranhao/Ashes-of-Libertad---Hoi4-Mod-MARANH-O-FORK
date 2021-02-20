@@ -96,6 +96,9 @@ ideologies = {
 
 			posadism = {
 			}
+
+			maoism = {
+			}
 		}
 		
 		dynamic_faction_names = {

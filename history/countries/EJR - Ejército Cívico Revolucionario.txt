@@ -1,4 +1,4 @@
-﻿capital = 467
+﻿capital = 252
 
 #oob = ""
 
@@ -14,18 +14,19 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	democratic = 10
 	fascism = 0
-	communism = 80
-	neutrality = 5
-	reactionary = 10
+	communism = 75
+	neutrality = 10
+	reactionary = 5
 }
 
 create_country_leader = {
-	name = "Luis Turcios Lima"
-	picture = "gfx/leaders/ERG/Portrait_ERG_Luis_Turcios_Lima.dds"
+	
+	name = "Genaro Vázquez Rojas"
+	picture = "gfx/leaders/EJR/Portrait_EJR_Genaro_Vázquez.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla
+	ideology = maoism
 	traits = {
 		#
 	}
