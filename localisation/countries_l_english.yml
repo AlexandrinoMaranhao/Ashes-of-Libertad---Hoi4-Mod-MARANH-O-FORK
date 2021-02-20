@@ -1476,16 +1476,12 @@
  MEX_neutrality_ADJ:0 "Mexican"
  MEX_communism_ADJ:0 "Mexican"
 
- EJR_communism:1 "United Mexican States"
- EJR_communism_DEF:1 "the United Mexican States"
- EJR_communism_ADJ:0 "Mexican"
-
- EJR_communism:1 "Ejército Cívico Revolucionario"
- EJR_communism_DEF:1 "the Ejército Cívico Revolucionario"
+ EJR_communism:1 "Civic-Revolutionary Army
+ EJR_communism_DEF:1 "the Civic-Revolutionary Army"
  EJR_communism_ADJ:0 "Civic-Revolutionary"
 
- ERG_communism:0 "Fuerzas Armadas Rebeldes"
- ERG_communism_DEF:0 "the Fuerzas Armadas Rebeldes"
+ ERG_communism:0 "Rebel Armed Forces"
+ ERG_communism_DEF:0 "the Rebel Armed Forces"
  ERG_communism_ADJ:0 "Rebel Guatemalan"
 
  VEN_fascism:0 "Federal Republic of Venezuela"

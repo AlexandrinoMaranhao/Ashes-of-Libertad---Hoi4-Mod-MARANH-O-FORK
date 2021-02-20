@@ -21,6 +21,12 @@ set_popularities = {
 	reactionary = 5
 }
 
+add_ideas = {
+	EJR_mexican_civil_war
+	EJR_long_march_1
+	EJR_protracted_peoples_war_1
+}
+
 create_country_leader = {
 	
 	name = "Genaro Vázquez Rojas"

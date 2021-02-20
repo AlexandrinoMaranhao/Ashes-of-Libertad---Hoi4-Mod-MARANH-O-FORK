@@ -21,6 +21,12 @@ set_popularities = {
 	reactionary = 10
 }
 
+add_ideas = {
+	ERG_no_way_out
+	ERG_hostile_pop
+	ERG_exiles
+}
+
 create_country_leader = {
 	name = "Luis Turcios Lima"
 	picture = "gfx/leaders/ERG/Portrait_ERG_Luis_Turcios_Lima.dds"
