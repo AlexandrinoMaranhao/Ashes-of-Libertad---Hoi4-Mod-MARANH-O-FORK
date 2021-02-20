@@ -26,7 +26,7 @@ set_popularities = {
 add_ideas = {
 	MEX_mexican_civil_war
 	MEX_political_catastrophe
-	MEX_immigrant_crisis
+	MEX_refugee_crisis
 	MEX_looming_famine
 }
 
