@@ -9,10 +9,10 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_idea_MEX_the_mexican_civil_war
+			picture = MEX_the_mexican_civil_war
 			modifier = {
-				surrender_limit	= 0.50
 				consumer_goods_factor = 1.00
+				surrender_limit	= 0.5
 				monthly_population = -0.2
 				stability_factor = -0.25
 				custom_modifier_tooltip = MEX_civil_war_tt
@@ -26,11 +26,11 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_idea_MEX_political_cathastrophe
+			picture = MEX_political_cathastrophe
 			modifier = {
 				stability_factor = -0.5
-				war_support_factor = -0.5
-				recruitable_population_factor = -0.6
+				war_support_factor = -0.4
+				recruitable_population_factor = -0.3
 			}
 		}
 
@@ -42,12 +42,11 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_idea_MEX_refugee_crisis
+			picture = MEX_refugee_crisis
 			modifier = {
-				monthly_population = 10.00
+				monthly_population = 10
 				weekly_manpower = 5000
 				stability_weekly = -0.025
-				recruitable_population_factor = 0.2
 			}
 		}
 
@@ -59,7 +58,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_idea_MEX_looming_famine
+			picture = MEX_looming_famine
 			modifier = {
 				political_power_gain = -0.25
 				stability_factor = -0.05
@@ -79,8 +78,8 @@ ideas = {
 			removal_cost = -1
 			#picture =
 			modifier = {
+				consumer_goods_factor = 1
 				surrender_limit	= 1.00
-				consumer_goods_factor = 1.00
 				monthly_population = -0.4
 				stability_factor = -0.25
 				equipment_capture_factor = 0.4
@@ -100,7 +99,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.8
 				war_support_factor = -0.8
-				recruitable_population_factor = -1.00
+				recruitable_population_factor = -1
 			}
 		}
 		ERG_exiles = {
@@ -129,10 +128,10 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_idea_MEX_the_mexican_civil_war
+			picture = MEX_the_mexican_civil_war
 			modifier = {
-				surrender_limit	= 1.00
-				consumer_goods_factor = 1.00
+				consumer_goods_factor = 1
+				surrender_limit	= 1
 				monthly_population = -0.4
 				stability_factor = -0.25
 				custom_modifier_tooltip = MEX_civil_war_tt
