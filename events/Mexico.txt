@@ -21,7 +21,10 @@ country_event = { # American Invasion
                 }
             }
             every_country = {
-                news_event = { id = world.2 }
+                news_event = {
+                    id = world.2
+                    days = 1
+                }
             }
         }
     }

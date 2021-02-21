@@ -41,7 +41,6 @@ news_event = { # Americans invade Mexico
 	picture = "GFX_news_event_mexican_american_war"
 
 	is_triggered_only = yes
-	major = yes
 
 	option = {
 		name = world.2.a
