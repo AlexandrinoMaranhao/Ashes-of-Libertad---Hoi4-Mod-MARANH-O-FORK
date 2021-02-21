@@ -1,0 +1,28 @@
+add_namespace = MEX
+add_namespace = MEX_scripted #for scripted wars
+
+## Scripted ##
+country_event = { # American Invasion
+    id = MEX_scripted.1
+    title = MEX_scripted.1.t
+    desc = MEX_scripted.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = MEX_scripted.1.a
+        hidden_effect = {
+            USA = {
+                transfer_state = 248
+                declare_war_on = {
+                    target = MEX
+                    type = annex_everything
+                }
+            }
+            every_country = {
+                news_event = { id = world.2 }
+            }
+        }
+    }
+}

@@ -29,26 +29,27 @@ news_event = { # Carlos Prestes comes back on April 23rd 1969
 	option = {
 		name = world.1.b # Negative national spirit
 		trigger = {
-			OR = {
-				tag = BEM
-				tag = JUN
-				tag = CFD
-				tag = JAG
-				tag = CRJ
-				tag = VAL
-				tag = UBA
-				tag = MNS
-				tag = JCL
-				tag = JCS
-				tag = JEG
-				tag = JGD
-				tag = JRM
-				AND = {
-					tag = ACR
-					has_government = fascism
-				}
-			}
+
 		}
 		add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 }
+	}
+}
+news_event = { # Americans invade Mexico
+	id = world.2
+	title = world.2.t
+	desc = world.2.d
+	picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = world.2.a
+		trigger = { NOT = { tag = MEX } }
+	}
+
+	option = {
+		name = world.2.b
+		trigger = { tag = MEX }
 	}
 }

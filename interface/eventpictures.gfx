@@ -3091,4 +3091,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_tur_upheaval_celebration.dds"
 	}
 	
+	spriteType = { 
+		name = "GFX_news_event_mexican_american_war"
+		texturefile = "gfx/event_pictures/news_event_mexican_american_war.dds"
+	}
 }

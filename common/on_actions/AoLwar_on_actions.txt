@@ -163,7 +163,7 @@ on_actions = {
             }
         }
     }
-   ###CUBA LIBRE
+    ###CUBA LIBRE
     on_startup = {
         effect = {
             BTA = {
@@ -210,6 +210,17 @@ on_actions = {
                     days = 230
                 }
              }
+        }
+    }
+    # Mexico
+    on_startup = {
+        effect = {
+            MEX = {
+                country_event = {
+                    id = MEX_scripted.1
+                    days = 1220
+                }
+            }
         }
     }
 }

@@ -714,3 +714,8 @@ JRM = {
 	color = rgb { 62 91 61 }
 	color_ui = rgb { 34 89 33 }
 }
+
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
