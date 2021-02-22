@@ -24,7 +24,7 @@ ideas = {
 				original_tag = COR
 			}
 			available = {
-			has_completed_focus = COR_mercenary_militia
+				original_tag = COR
 			}
 			traits = {
 				army_commando_2
@@ -39,7 +39,7 @@ ideas = {
 				original_tag = COR
 			}
 			available = {
-			has_completed_focus = COR_local_militia
+				original_tag = COR
 			}
 			traits = {
 				algenor_g_nascimento_army_chief
@@ -103,7 +103,7 @@ ideas = {
 				original_tag = COR
 			}
 			available = {
-			has_completed_focus = COR_mercenary_militia
+				original_tag = COR
 			}
 			traits = {
 				army_chief_organizational_2
@@ -121,7 +121,7 @@ ideas = {
 				original_tag = COR
 			}
 			available = {
-			has_completed_focus = COR_local_militia
+				original_tag = COR
 			}
 			traits = {
 				army_chief_organizational_3
@@ -134,8 +134,7 @@ ideas = {
 		    ledger = army
 		    allowed = { original_tag = COR }
 			available = {
-			has_completed_focus = COR_the_american_priest
-			NOT = { has_completed_focus = COR_the_escapist_priest }
+				original_tag = COR
 			}
 			traits = {
 				the_american_priest_high_command
@@ -158,9 +157,7 @@ ideas = {
 				original_tag = COR
 			}
 			available = {
-			has_completed_focus = COR_the_american_priest
-			NOT = { has_completed_focus = COR_the_escapist_priest }
-
+				original_tag = COR
 			}
 			traits = {
 				the_american_priest_theorist
@@ -295,8 +292,7 @@ ideas = {
 			}		
 			
 			available = {
-			has_completed_focus = COR_the_american_priest
-			NOT = { has_completed_focus = COR_the_escapist_priest }
+				original_tag = COR
 			}
 			traits = {
 				the_american_priest_trait

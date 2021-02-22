@@ -51,54 +51,6 @@ on_actions = {
             }
         }
     }
-    on_state_control_changed = {
-        effect = {
-            if = {
-                limit = {
-                    has_country_flag = S_guanabara_battle
-                    AND = {
-                        24 = {
-                            is_owned_by = BRA
-                        }
-                        24 = {
-                            is_fully_controlled_by = CRJ
-                        }
-                    }
-                }
-                CRJ = {
-                    country_event = {
-                        id = CRJ_guanabara.3
-                    }
-                }
-                BRA = {
-                    country_event = {
-                        id = BRA_guanabara.3
-                    }
-                }
-            }
-        }
-    }
-    on_declare_war = {
-        effect = {
-            if = {
-               #limit = {
-               #    has_country_flag = S_guanabara_battle
-               #}
-                CRJ = {
-                    country_event = {
-                        id = CRJ_guanabara.2
-                        days = 5
-                    }
-                }
-                BRA = {
-                    country_event = {
-                        id = BRA_guanabara.2
-                        days = 5
-                    }
-                }
-            }
-        }
-    }
     #### PERUVIAN SENGOKU JIDAI
     on_startup = {
         effect = {
@@ -219,6 +171,17 @@ on_actions = {
                 country_event = {
                     id = MEX_scripted.1
                     days = 1220
+                }
+            }
+        }
+    }
+    # Kayapo - Para War
+    on_startup = {
+        effect = {
+            BEM = {
+                country_event = {
+                    id = Para.8
+                    days = 396
                 }
             }
         }

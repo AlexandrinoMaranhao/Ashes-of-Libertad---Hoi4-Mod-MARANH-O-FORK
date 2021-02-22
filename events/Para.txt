@@ -192,7 +192,7 @@ country_event = {
 		add_equipment_to_stockpile = {
     type = infantry_equipment
     amount = 500
-    producer = BRM
+    producer = BEM
 }
 add_equipment_to_stockpile = {
     type = support_equipment
@@ -215,30 +215,28 @@ country_event = {
 	#Answer
 	option = {
 		name = Para.8.A
-		random_list = {
-    50 = {
-        
-        modifier = {
-            factor = 1.5
-			BEM = {
-            has_completed_focus = BEM_send_a_funai_diplomat
-				  }
-					}
+		ai_chance = {
+			base = 300
+		}
 		BEM= {
 		annex_country = {
-    target = KAY
-    transfer_troops = no
-}
+    	target = KAY
+    	transfer_troops = no
+			}
 		}
-        XIN = { transfer_state = 149 }
-    }
-    50 = {
-        declare_war_on = {
-    target = BEM
-    type = annex_everything
-}
-    }
-}
+        JAG = { transfer_state = 149 }	
+	}
+	option = {
+		name = Para.8.B
+		ai_chance = {
+			base = 500
+		}
+		KAY = {
+			declare_war_on = {
+			target = BEM
+			type = annex_everything
+			}
+		}
 	}
 }
 

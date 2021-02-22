@@ -62,7 +62,7 @@ country_event = {
         333 = {
     add_core_of = NCA
 }
-      country_event = { id = PERU.6 days = 40 }
+      country_event = { id = PERU.6 days = 40 } 
     }
 }
 

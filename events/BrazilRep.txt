@@ -35,6 +35,7 @@ country_event = {
         name = BRA_guanabara.2.a
         add_stability = 0.2
         add_political_power = 150
+        remove_ideas = last_stand_of_the_republic
         clr_country_flag = S_guanabara_battle
     }
 }
@@ -45,12 +46,16 @@ country_event = {
     desc = BRA_guanabara.3.d
     picture = x
     fire_only_once = yes
-    is_triggered_only = yes
+    trigger = {
+        has_country_flag = S_guanabara_battle
+        CRJ = { has_full_control_of_state = 24 }
+    }
     
     option = {
         name = BRA_guanabara.3.a
         add_stability = -0.3
         add_political_power = -150
+        remove_ideas = last_stand_of_the_republic
         clr_country_flag = S_guanabara_battle
     }
 }
