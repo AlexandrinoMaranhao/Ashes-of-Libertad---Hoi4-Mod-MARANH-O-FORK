@@ -1,6 +1,0 @@
-para_gui_missions = {
-	icon = generic_construction
-	allowed = { tag = BEM }
-	visible_when_empty = yes
-	priority = 1000
-}

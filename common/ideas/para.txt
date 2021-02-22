@@ -22,7 +22,6 @@ ideas = {
 			}
 			
 			modifier = {
-				BEM_cabanos_altamira = 4
 			}
 		}
 

@@ -42,9 +42,6 @@ bookmarks = {
                         coari_desperation 
                   }
                   focuses = {
-                        COR_intro_one
-                        COR_steal_from_monastery
-                        COR_go_hunting
                   }
 		}
 
@@ -57,9 +54,6 @@ bookmarks = {
                         the_cabanos
                   }
                   focuses = {
-                        BEM_the_new_problem
-                        BEM_the_older_problem
-                        BEM_the_old_problem
                   }
 		}
 
@@ -98,9 +92,6 @@ bookmarks = {
                         no_administration_roraima
                   }
                   focuses = {
-                        ROR_No_Cause_Greater
-                        ROR_Were_Gonna_Find_Out_Whos_Naughty_Or_Nice
-                        ROR_A_Truely_Marxist_Army
                   }
 		}
 

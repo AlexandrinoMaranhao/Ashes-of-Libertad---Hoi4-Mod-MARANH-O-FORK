@@ -27,55 +27,6 @@ ideas = {
 				army_org_factor = -0.5
 			}
 		}
-		misfits_1 = {
-		
-			allowed = {
-				tag = ROR
-			}
-
-			available = {
-
-			}
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				conscription_factor = 0.05
-				training_time_factor = 1
-				max_planning = -0.5
-				experience_gain_army_factor = -0.5
-				army_org_factor = -0.5
-				army_morale_factor = -0.45
-			}
-		}
-		the_northen_star = {
-			
-			allowed = {
-				tag = ROR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
 		no_administration_roraima = {
 			
 			allowed = {
@@ -97,50 +48,6 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.05
 				stability_weekly = -0.1
-			}
-		}
-		unloyal_administration_roraima = {
-			
-			allowed = {
-				tag = ROR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-
-			}
-		}
-		incompetent_administration_roraima = {
-			
-			allowed = {
-				tag = ROR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				
 			}
 		}
 	}
