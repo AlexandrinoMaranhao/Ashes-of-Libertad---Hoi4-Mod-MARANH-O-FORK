@@ -131,7 +131,11 @@
  ACR_communism_party:0 "Technocrats"
  ACR_democratic_party:0 "Provisional Government of Acre"
  ACR_neutrality_party:0 "Nationalists"
- ACR_reactionary_party:0 "Cerqueira's Supporters"
+ ACR_reactionary_party:0 "Cerqueira's Clique"
+ ACR_fascism_party_cerqueira_long:0 "Militarists - Lealistas"
+ ACR_democratic_party_cerqueira_long:0 "Militarists - Patriotas"
+ ACR_fascism_party_cerqueira:0 "Militarists - L"
+ ACR_democratic_party_cerqueira:0 "Militarists - P"
 
  KAY_fascism_party_long:0 "The Kayapó - Caciquists"
  KAY_communism_party_long:0 "The Kayapó - Revolutionaries"

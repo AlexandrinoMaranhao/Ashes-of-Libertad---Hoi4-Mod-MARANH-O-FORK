@@ -46,11 +46,12 @@ shared_focus = {
 			ideology = fascism
 			popularity = 0.1
 		}
+hidden_effect = {
+		acre_senate_remove_technocrat_seats_1 = yes
+		acre_senate_remove_technocrat_seats_1 = yes	
+}
 
-		acre_senate_remove_technocrat_seats_1 = yes
-		acre_senate_remove_technocrat_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_2 = yes
 		remove_ideas = adalberto_sena_political_advisor
 		remove_ideas = nilson_mourao_political_advisor
 	}
@@ -76,6 +77,8 @@ shared_focus = {
 
 		acre_senate_remove_technocrat_seats_1 = yes
 		remove_ideas = marques_de_souza_political_advisor
+		acre_senate_add_militarist_seats_1 = yes
+
 		country_event = ACR_cerqueira.2
 	}
 }
@@ -97,13 +100,13 @@ shared_focus = {
 			ideology = fascism
 			popularity = 0.1
 		}
+hidden_effect = {
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes	
+}
 
-		acre_senate_remove_nationalist_seats_1 = yes
-		acre_senate_remove_nationalist_seats_1 = yes
-		acre_senate_remove_nationalist_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_3 = yes
 		remove_ideas = jose_augusto_political_advisor
 		remove_ideas = mateus_satanawa_political_advisor
 		remove_ideas = pedro_augusto_da_silva_political_advisor
@@ -129,6 +132,8 @@ shared_focus = {
 		}
 
 		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
+
 		remove_ideas = helio_cury_political_advisor
 		country_event = ACR_cerqueira.3
 	}
@@ -282,7 +287,9 @@ shared_focus = {
 
 	completion_reward = {	
 		army_experience = 50
-		load_oob = "ACR_frontier"
+		custom_effect_tooltip = ACR_emergency_army_reforms_tt
+	hidden_effect = {	load_oob = "ACR_frontier"
+		}
 	}
 }
 shared_focus = {
@@ -310,56 +317,57 @@ shared_focus = {
 		create_corps_commander = {
 			name = "Placeholder 1"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = {  armor_officer career_officer war_hero }
+	skill = 3
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 			id = 15
 		}
 		create_corps_commander = {
 			name = "Placeholder 2"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = {  trickster career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 			id = 16
 		}
 		create_corps_commander = {
 			name = "Placeholder 3"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { career_officer commando }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 			id = 17
 		}
 		create_corps_commander = {
 			name = "Placeholder 4"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { career_officer trait_cautious }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
 			id = 18
 		}
 		create_corps_commander = {
 			name = "Placeholder 5"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	traits = { career_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
 			id = 19
 		}
 		country_event = ACR_cerqueira.5
@@ -379,7 +387,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		load_oob = "ACR_shitties"
+	custom_effect_tooltip = ACR_makeshift_army_tt
+		hidden_effect = { load_oob = "ACR_shitties" }
 		random_owned_controlled_state = {
 			add_building_construction = { type = arms_factory level = 3 instant_build = yes }
 		}
@@ -412,7 +421,7 @@ shared_focus = {
 	id = ACR_reach_out_to_junta
 	prerequisite = { focus = ACR_cut_ties_with_outside_world }
 	relative_position_id = ACR_cut_ties_with_outside_world
-	#icon = 
+	icon = GFX_goal_political_discussion_with_soldiers_idk
 
 	x = 0
 	y = 1
@@ -516,7 +525,7 @@ shared_focus = {
 	id = ACR_give_seats_to_former_military
 	prerequisite = { focus = ACR_hide_our_true_colours }
 	relative_position_id = ACR_hide_our_true_colours
-	#icon = 
+	icon = GFX_goal_The_National_Disarment_Act
 
 	x = -1
 	y = 1
@@ -527,8 +536,7 @@ shared_focus = {
 	completion_reward = {	
 		acre_senate_remove_nationalist_seats_1 = yes
 		acre_senate_remove_technocrat_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
-		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_2 = yes
 
 		add_ideas = nabor_junior_political_advisor
 		add_ideas = jose_guiomard_political_advisor
@@ -576,7 +584,7 @@ shared_focus = {
 	id = ACR_force_a_stage_of_siege
 	prerequisite = { focus = ACR_national_rearment_act }
 	relative_position_id = ACR_national_rearment_act
-	#icon = 
+	icon = GFX_goal_Force_a_State_of_Siege
 
 	x = 0
 	y = 1
@@ -606,6 +614,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+	add_stability = -0.5
 		country_event = ACR_cerqueira.8
 	}
 }
@@ -613,7 +622,7 @@ shared_focus = {
 	id = ACR_siege_senate
 	prerequisite = { focus = ACR_show_our_true_colours }
 	relative_position_id = ACR_show_our_true_colours
-	#icon = 
+	icon = GFX_goal_Siege_the_Senate
 
 	x = 0
 	y = 1
@@ -629,7 +638,7 @@ shared_focus = {
 	id = ACR_strip_land_of_men
 	prerequisite = { focus = ACR_siege_senate }
 	relative_position_id = ACR_siege_senate
-	#icon = 
+	icon = GFX_goal_rattled_i_guess
 
 	x = -1
 	y = 1
@@ -648,7 +657,7 @@ shared_focus = {
 	id = ACR_tappers_no
 	prerequisite = { focus = ACR_strip_land_of_men }
 	relative_position_id = ACR_strip_land_of_men
-	#icon = 
+	icon = GFX_goal_tappers_no_2
 
 	x = 0
 	y = 1
@@ -668,7 +677,7 @@ shared_focus = {
 	id = ACR_soldiers
 	prerequisite = { focus = ACR_tappers_no }
 	relative_position_id = ACR_tappers_no
-	#icon = 
+	icon = GFX_goal_Tappers_no
 
 	x = 0
 	y = 1
@@ -705,7 +714,7 @@ shared_focus = {
 	id = ACR_erase_acrean_nationalism
 	prerequisite = { focus = ACR_jail_opposition }
 	relative_position_id = ACR_jail_opposition
-	#icon = 
+	icon = GFX_goal_political_discussion_with_soldiers_idk
 
 	x = 0
 	y = 1
@@ -721,7 +730,7 @@ shared_focus = {
 	id = ACR_join_war
 	prerequisite = { focus = ACR_erase_acrean_nationalism }
 	relative_position_id = ACR_erase_acrean_nationalism
-	#icon = 
+	icon = GFX_goal_join_the_war
 
 	x = 0
 	y = 1
@@ -754,7 +763,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_join_war }
 	prerequisite = { focus = ACR_soldiers }
 	relative_position_id = ACR_join_war
-	#icon = 
+	icon = GFX_goal_delete_the_constitution
 
 	x = -1
 	y = 1

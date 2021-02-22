@@ -50,7 +50,7 @@ subsistence_economy
 militia_troop_training
 no_officer_training
 no_tradition
-
+a20_literacy
 militia_army
 }
 
