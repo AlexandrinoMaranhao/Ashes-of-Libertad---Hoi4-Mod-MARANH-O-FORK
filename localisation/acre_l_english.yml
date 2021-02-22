@@ -111,3 +111,13 @@
  ACR_anti_bolivian_propaganda:0 "Anti-Bolivian Propaganda"
  ACR_state_of_emergency_declared:0 "State of Siege"
  ACR_the_brazilian_constitution:0 "The Brazilian Constitution"
+################
+# Tooltips
+################
+ ACR_worker_cause_tt:0 "We will get a bonus to stability for giving back to our workers in exchange for a loss in output."
+ ACR_medicare_tt:0 "A new healthcare system will be established to provide care to workers and tappers."
+ ACR_education_common_man_tt:0 "New public schools and universities will provide futures for our children and youth."
+ ACR_a_generation_of_thinkers_tt:0 "Our policies are finally bearing fruit - Acre is no longer just a nation of exploited workers but a nation of thinkers."
+ ACR_order_patrols_to_halt_tt:0 "As a gesture of our willingness to make peace with the ERN, we will stop our patrols on the border and withdraw our militias."
+ ACR_promises_of_independence_tt:0 "We have made peace with the ERN and secured our independence!"
+ ACR_make_love_not_war_tt:0 "We will join our comrades-in-arms in Che's army, and secure our future as a nation of the people!"

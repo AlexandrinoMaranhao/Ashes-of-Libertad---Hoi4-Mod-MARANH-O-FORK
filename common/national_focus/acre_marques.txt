@@ -28,6 +28,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
+		custom_effect_tooltip = "ACR_worker_cause_tt"
 		set_variable = { var = ACR_stability_factor value = 0.1 }
 		subtract_from_variable = { var = ACR_industrial_capacity_factory value = 0.05 }
 		set_variable = { var = ACR_production_speed_buildings_factor value = -0.05 }
@@ -146,6 +147,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		custom_effect_tooltip = "ACR_medicare_tt"
 		set_variable = { var = ACR_army_org_regain value = 0.15 }
 	}
 }
@@ -212,6 +214,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		custom_effect_tooltip = "ACR_education_common_man_tt"
 		add_to_variable = { var = ACR_research_speed_factor value = 0.05 }
 	}
 }
@@ -267,6 +270,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		custom_effect_tooltip = "ACR_a_generation_of_thinkers_tt"
 		add_to_variable = { var = ACR_production_speed_buildings_factor value = 0.1 }
 		add_to_variable = { var = ACR_industrial_capacity_factory value = 0.05 }
 		set_variable = { var = ACR_line_change_production_efficiency_factor value = 0.05 }
@@ -445,6 +449,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		custom_effect_tooltip = "ACR_order_patrols_to_halt_tt"
 		if = {
 			limit = {
 				OR = {
@@ -748,6 +753,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		custom_effect_tooltip = "ACR_promises_of_independence_tt"
 		set_variable = { var = acre_ern_peace_marques = 1 }
 	}
 }
@@ -765,6 +771,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		custom_effect_tooltip = "ACR_make_love_not_war_tt"
 		set_variable { var = ACR_political_power_gain_1 = 0.1 }
 		add_to_variable { var = ACR_stability_factor = 0.1 }
 	}
