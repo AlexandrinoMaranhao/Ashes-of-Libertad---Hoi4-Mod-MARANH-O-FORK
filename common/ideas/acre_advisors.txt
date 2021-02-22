@@ -29,7 +29,7 @@ ideas = {
 
         }
 
-        nabor_junior_army_chief_aaaa = {
+        nabor_junior_army_chief = {
 
             allowed = {
             original_tag = ACR

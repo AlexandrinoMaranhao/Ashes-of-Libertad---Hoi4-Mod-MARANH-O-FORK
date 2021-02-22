@@ -60,7 +60,7 @@ idea_categories = {
         removal_cost = 0
     }
 
-    military_staff_a = {
+    military_staff = {
         slot = theorist
         slot = army_chief
         slot = navy_chief

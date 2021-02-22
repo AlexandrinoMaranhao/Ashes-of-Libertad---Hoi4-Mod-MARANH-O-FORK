@@ -1114,16 +1114,6 @@ shared_focus = {
 	add_ideas = the_acrean_constitution
 		custom_effect_tooltip = acre_elections_tt
 		hidden_effect = {
-		set_party_name = { 
-    ideology = democratic 
-    long_name = ACR_democratic_party_cerqueira_long 
-    name = ACR_democratic_party_cerqueira 
-} 
-		set_party_name = { 
-		    ideology = fascism 
-		    long_name = ACR_fascism_party_cerqueira_long 
-		    name = ACR_fascism_party_cerqueira 
-} 
 			if = { # Militarists Elected
 				limit = { 
 					AND = {

@@ -8,57 +8,7 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-      
-	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
-	}	
     
-	SpriteType = {
-	name = "GFX_goal_delete_the_constitution"
-	texturefile = "gfx/interface/goals/delete_the_constitution.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_tappers_no_2"
-	texturefile = "gfx/interface/goals/tappers_no_2.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_join_the_war"
-	texturefile = "gfx/interface/goals/join_the_war.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_Force_a_State_of_Siege"
-	texturefile = "gfx/interface/goals/Force_a_State_of_Siege.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_The_National_Disarment_Act"
-	texturefile = "gfx/interface/goals/The_National_Disarment_Act.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_Siege_the_Senate"
-	texturefile = "gfx/interface/goals/Siege_the_Senate.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_political_discussion_with_soldiers_idk"
-	texturefile = "gfx/interface/goals/political_discussion_with_soldiers_idk.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_rattled_i_guess"
-	texturefile = "gfx/interface/goals/rattled_i_guess.dds"
-	}	
-    
-	SpriteType = {
-	name = "GFX_goal_Tappers_no"
-	texturefile = "gfx/interface/goals/Tappers_no.dds"
-	}	
-  
 	SpriteType = {
 	name = "GFX_goal_national_conscription_act"
 	texturefile = "gfx/interface/goals/national_conscription_act.dds"
