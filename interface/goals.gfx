@@ -8,7 +8,62 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-
+    
+	SpriteType = {
+	name = "GFX_goal_national_conscription_act"
+	texturefile = "gfx/interface/goals/national_conscription_act.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_national_rearmament_act"
+	texturefile = "gfx/interface/goals/national_rearmament_act.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_jail_the_opposition"
+	texturefile = "gfx/interface/goals/jail_the_opposition.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_makeshit_military_command"
+	texturefile = "gfx/interface/goals/makeshit_military_command.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_Hide_our_True_Colors"
+	texturefile = "gfx/interface/goals/Hide_our_True_Colors.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Show_our_True_Colors"
+	texturefile = "gfx/interface/goals/Show_our_True_Colors.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Renew_the_officer_staff"
+	texturefile = "gfx/interface/goals/Renew_the_officer_staff.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Emergency_army_reforms"
+	texturefile = "gfx/interface/goals/Emergency_army_reforms.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Depend_on_the_Junta"
+	texturefile = "gfx/interface/goals/Depend_on_the_Junta.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_promisses_of_independece"
+	texturefile = "gfx/interface/goals/promisses_of_independece.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_Red_Flags_in_the_Border"
+	texturefile = "gfx/interface/goals/Red_Flags_in_the_Border.dds"
+	}	
+  
 	SpriteType = {
 	name = "GFX_goal_Make_the_Revolution_Last"
 	texturefile = "gfx/interface/goals/Make_the_Revolution_Last.dds"

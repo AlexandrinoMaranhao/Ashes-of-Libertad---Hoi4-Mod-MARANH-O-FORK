@@ -224,7 +224,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_all_money_to_military }
 	relative_position_id = ACR_all_money_to_military
 	mutually_exclusive = { focus = ACR_prove_our_worth }
-	#icon = 
+	icon = GFX_goal_Depend_on_the_Junta
 
 	x = 1
 	y = 1
@@ -266,7 +266,7 @@ shared_focus = {
 	id = ACR_emergency_army_reforms
 	prerequisite = { focus = ACR_force_discipline_in_militias }
 	relative_position_id = ACR_force_discipline_in_militias
-	#icon = 
+	icon = GFX_goal_Emergency_army_reforms
 
 	x = -1
 	y = 1
@@ -284,7 +284,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_force_discipline_in_militias }
 	prerequisite = { focus = ACR_acre_exists }
 	relative_position_id = ACR_force_discipline_in_militias
-	#icon = 
+	icon = GFX_goal_Renew_the_officer_staff
 
 	x = 1
 	y = 1
@@ -367,7 +367,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_renew_officer_staff }
 	prerequisite = { focus = ACR_emergency_army_reforms }
 	relative_position_id = ACR_renew_officer_staff
-	#icon = 
+	icon = GFX_goal_makeshit_military_command
 
 	x = -1
 	y = 2
@@ -497,7 +497,7 @@ shared_focus = {
 	id = ACR_hide_our_true_colours
 	prerequisite = { focus = ACR_cerqueria_presidency }
 	relative_position_id = ACR_cerqueria_presidency
-	#icon = 
+	icon = GFX_goal_Hide_our_True_Colors
 
 	x = 3
 	y = 1
@@ -539,7 +539,7 @@ shared_focus = {
 	id = ACR_national_conscription_act
 	prerequisite = { focus = ACR_give_seats_to_former_military }
 	relative_position_id = ACR_give_seats_to_former_military
-	#icon = 
+	icon = GFX_goal_national_conscription_act
 
 	x = 0
 	y = 1
@@ -555,7 +555,7 @@ shared_focus = {
 	id = ACR_national_rearment_act
 	prerequisite = { focus = ACR_hide_our_true_colours }
 	relative_position_id = ACR_hide_our_true_colours
-	#icon = 
+	icon = GFX_goal_national_rearmament_act
 
 	x = 1
 	y = 1
@@ -592,7 +592,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_force_a_stage_of_siege }
 	prerequisite = { focus = ACR_national_conscription_act }
 	relative_position_id = ACR_national_conscription_act
-	#icon = 
+	icon = GFX_goal_Show_our_True_Colors
 
 	x = 1
 	y = 1
@@ -684,7 +684,7 @@ shared_focus = {
 	id = ACR_jail_opposition
 	prerequisite = { focus = ACR_siege_senate }
 	relative_position_id = ACR_siege_senate
-	#icon = 
+	icon = GFX_goal_jail_the_opposition
 
 	x = 1
 	y = 1

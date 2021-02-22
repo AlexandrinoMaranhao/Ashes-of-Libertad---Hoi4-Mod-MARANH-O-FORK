@@ -185,20 +185,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Joaquim Falcão Macedo"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Macedo.dds"
-	traits = { career_officer offensive_doctrine politically_connected }
-	skill = 1 
-
-	
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
-	id = 4
-}
-
-create_corps_commander = {
 	name = "José Rui da Silveira Lino"
 	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Rui_Lino.dds"
 	traits = { cavalry_officer politically_connected }
@@ -260,20 +246,6 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 	id = 9
-}
-
-create_corps_commander = {
-	name = "Mateus Satanawa"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Mateus.dds"
-	traits = { career_officer trait_cautious }
-	skill = 2
-
-	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-	id = 10
 }
 
 create_navy_leader = {

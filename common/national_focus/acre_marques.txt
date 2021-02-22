@@ -471,7 +471,7 @@ shared_focus = {
 	id = ACR_red_flags_in_border
 	prerequisite = { focus = ACR_order_patrols_to_halt }
 	relative_position_id = ACR_order_patrols_to_halt
-	#icon = 
+	icon = GFX_goal_Red_Flags_in_the_Border
 
 	x = 0
 	y = 1
@@ -739,7 +739,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_deal_with_parents_against_it }
 	prerequisite = { focus = ACR_capitalism_for_communism_sake }
 	relative_position_id = ACR_deal_with_parents_against_it
-	#icon = 
+	icon = GFX_goal_promisses_of_independece
 
 	x = -1
 	y = 1
