@@ -11,7 +11,7 @@ ideas = {
 			level = 7
 
 			
-			allowed = {
+			available = {
             if = {
 				limit = {
 					original_tag = ARI original_tag = JUT original_tag = IQU original_tag = JAV original_tag = JUR original_tag = YAN original_tag = WAI original_tag = ZOE original_tag = JAU original_tag = KAY original_tag = TRO original_tag = MAP original_tag = WAM original_tag = ATR original_tag = BIA original_tag = HIM original_tag = DNI original_tag = MUN original_tag = COA original_tag = AND
@@ -30,8 +30,6 @@ ideas = {
 			ai_will_do = {
    				factor = 0
 			}
-
-			default = yes
 
 			cancel_if_invalid = no
 		}
