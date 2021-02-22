@@ -49,6 +49,8 @@ shared_focus = {
 
 		acre_senate_remove_technocrat_seats_1 = yes
 		acre_senate_remove_technocrat_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
 		remove_ideas = adalberto_sena_political_advisor
 		remove_ideas = nilson_mourao_political_advisor
 	}
@@ -98,6 +100,10 @@ shared_focus = {
 
 		acre_senate_remove_nationalist_seats_1 = yes
 		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
 		remove_ideas = jose_augusto_political_advisor
 		remove_ideas = mateus_satanawa_political_advisor
 		remove_ideas = pedro_augusto_da_silva_political_advisor
@@ -295,14 +301,11 @@ shared_focus = {
 	completion_reward = {	
 		remove_unit_leader = 2
 		remove_unit_leader = 3
-		remove_unit_leader = 4
 		remove_unit_leader = 5
 		remove_unit_leader = 6
 		remove_unit_leader = 7
 		remove_unit_leader = 8
 		remove_unit_leader = 9
-		remove_unit_leader = 10
-		remove_unit_leader = 12
 		remove_unit_leader = 13
 		create_corps_commander = {
 			name = "Placeholder 1"
@@ -524,7 +527,9 @@ shared_focus = {
 	completion_reward = {	
 		acre_senate_remove_nationalist_seats_1 = yes
 		acre_senate_remove_technocrat_seats_1 = yes
-		acre_senate_add_militarist_seats_2 = yes
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_add_militarist_seats_1 = yes
+
 		add_ideas = nabor_junior_political_advisor
 		add_ideas = jose_guiomard_political_advisor
 
