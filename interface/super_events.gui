@@ -1,23 +1,41 @@
 guiTypes = {
-
-	containerWindowType = { # GUANABARA
-		name = "super_event_guanabara_frame"
+	containerWindowType = {
+		name = "super_event_frame_closed"
 		size = { width = 1000 height = 755 }
 		position = { x = -60 y = -220 }
+		show_position = { x=-6 y = -220 }
+		show_animation_type = decelerated
 		Orientation = LEFT
 		origo = left
 		clipping = no
 
-		iconType = { # Background
-			name ="pic"
-			spriteType = "GFX_se_background"
+		buttonType = { # Background Closed
+			name ="closed_folder"
+			spriteType = "GFX_se_closed"
 			position = { x= 0 y = 0 }
 			Orientation = center
 			alwaystransparent = yes
 		}
 	}
 	containerWindowType = {
-		name = "super_event_guanabara_pic"
+		name = "super_event_frame_open"
+		size = { width = 1000 height = 755 }
+		position = { x = -60 y = -220 }
+		Orientation = LEFT
+		origo = left
+		clipping = no
+
+		iconType = { # Background Open
+			name ="open_folder"
+			spriteType = "GFX_se_background"
+			position = { x= 0 y = 0 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = { # Guanabara
+		name = "super_event_guanabara"
 		size = { width = 1000 height = 755 }
 		position = { x=-60 y=-220 }
 		Orientation = LEFT
@@ -50,10 +68,48 @@ guiTypes = {
 			text = "se_guanabara_a"
 			shortcut = "ESCAPE"
 			position = { x=600 y=620 }
-			quadTextureSprite ="GFX_big_button_232"
+			spriteType = "GFX_se_button_underline"
 			buttonFont = "vic_22"
 			Orientation = center
 		}
 	}
+	containerWindowType = { # Mexican-American War
+		name = "super_event_maw"
+		size = { width = 1000 height = 755 }
+		position = { x=-60 y=-220 }
+		Orientation = LEFT
+		origo = LEFT
+		clipping = no
+		show_sound = maw_super
 
+		iconType = {
+			name ="pic"
+			spriteType = "GFX_se_maw"
+			position = { x= 0 y = 0 }
+			Orientation = center
+			alwaystransparent = no
+		}
+
+		instantTextBoxType = {
+			name = "description"
+			position = { x=990 y=120 }
+			font = "vic_22"
+			text = "se_maw_desc"
+			maxWidth = 415
+			maxHeight = 200
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+
+		buttonType = {
+			name = "button"
+			text = "se_maw_a"
+			shortcut = "ESCAPE"
+			position = { x=600 y=620 }
+			spriteType = "GFX_se_button_underline"
+			buttonFont = "vic_22"
+			Orientation = center
+		}
+	}
 }

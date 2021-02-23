@@ -2,6 +2,7 @@ category = { ### THIS USES SOUND EFFECTS, NOT SOUND
  	name = "TNO_SuperCustom_Effects"
 	soundeffects = {
 		guanabara_super
+		maw_super
 	}
  	compressor = {
 		enabled = yes

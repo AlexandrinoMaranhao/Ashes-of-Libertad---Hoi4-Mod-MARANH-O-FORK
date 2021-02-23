@@ -1,23 +1,57 @@
 scripted_gui = {
-
-	super_event_frame_guanabara = { # Guanabara
+	super_event_frame_closed = { # Background Open
 		context_type = player_context
-		window_name = "super_event_guanabara_frame"
+		window_name = "super_event_frame_closed"
 
 		visible = {
-			has_country_flag = se_guanabara_flag
+			has_country_flag = super_event_closed
+		}
+		effects = {
+			closed_folder_click = {
+				clr_country_flag = super_event_closed
+				set_country_flag = super_event_open
+			}
 		}
 	}
-	super_event_guanabara = {
+	super_event_frame_open = { # Background Open
 		context_type = player_context
-		window_name = "super_event_guanabara_pic"
+		window_name = "super_event_frame_open"
 
 		visible = {
-			has_country_flag = se_guanabara_flag
+			has_country_flag = super_event_open
+		}
+	}
+	super_event_guanabara = { # Battle of Guanabara
+		context_type = player_context
+		window_name = "super_event_guanabara"
+
+		visible = {
+			AND = {
+				has_country_flag = super_event_open
+				has_country_flag = se_guanabara_flag
+			}
 		}
 		effects = {
 			button_click = {
 				clr_country_flag = se_guanabara_flag
+				clr_country_flag = super_event_open
+			}
+		}
+	}
+	super_event_guanabara = { # Mexican-American War
+		context_type = player_context
+		window_name = "super_event_maw"
+
+		visible = {
+			AND = {
+				has_country_flag = super_event_open
+				has_country_flag = se_maw_flag
+			}
+		}
+		effects = {
+			button_click = {
+				clr_country_flag = se_maw_flag
+				clr_country_flag = super_event_open
 			}
 		}
 	}
