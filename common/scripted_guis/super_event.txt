@@ -38,7 +38,7 @@ scripted_gui = {
 			}
 		}
 	}
-	super_event_guanabara = { # Second Mexican-American War
+	super_event_maw = { # Second Mexican-American War
 		context_type = player_context
 		window_name = "super_event_maw"
 

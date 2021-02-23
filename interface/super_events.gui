@@ -2,9 +2,10 @@ guiTypes = {
 	containerWindowType = {
 		name = "super_event_frame_closed"
 		size = { width = 1000 height = 755 }
-		position = { x = 142 y = -220 }
-		show_position = { x=-6 y = -220 }
+		position = { x = -1500 y = -220 }
+		show_position = { x = 142 y = -220 }
 		show_animation_type = decelerated
+		animation_time = 400
 		Orientation = LEFT
 		origo = left
 		clipping = no
@@ -20,6 +21,9 @@ guiTypes = {
 		name = "super_event_frame_open"
 		size = { width = 1000 height = 755 }
 		position = { x = -60 y = -220 }
+		#hide_position = { x= -1500 y = -220 }
+		#hide_animation_type = accelerated
+		animation_time = 400
 		Orientation = LEFT
 		origo = left
 		clipping = no
@@ -36,7 +40,10 @@ guiTypes = {
 	containerWindowType = { # Guanabara
 		name = "super_event_guanabara"
 		size = { width = 1000 height = 755 }
-		position = { x=-60 y=-220 }
+		position = { x = -60 y = -220 }
+		#hide_position = { x= -1500 y = -220 }
+		#hide_animation_type = accelerated
+		animation_time = 400
 		Orientation = LEFT
 		origo = LEFT
 		clipping = no
@@ -75,7 +82,10 @@ guiTypes = {
 	containerWindowType = { # Mexican-American War
 		name = "super_event_maw"
 		size = { width = 1000 height = 755 }
-		position = { x=-60 y=-220 }
+		position = { x = -60 y = -220 }
+		#hide_position = { x= -1500 y = -220 }
+		#hide_animation_type = accelerated
+		animation_time = 400
 		Orientation = LEFT
 		origo = LEFT
 		clipping = no
@@ -91,10 +101,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "description"
-			position = { x=990 y=120 }
+			position = { x=1020 y=120 }
 			font = "vic_22"
 			text = "se_maw_desc"
-			maxWidth = 415
+			maxWidth = 395
 			maxHeight = 200
 			fixedsize = yes
 			format = right
