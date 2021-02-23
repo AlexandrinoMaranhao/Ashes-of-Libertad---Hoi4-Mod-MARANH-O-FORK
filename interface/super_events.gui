@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "super_event_frame_closed"
 		size = { width = 1000 height = 755 }
-		position = { x = -60 y = -220 }
+		position = { x = 142 y = -220 }
 		show_position = { x=-6 y = -220 }
 		show_animation_type = decelerated
 		Orientation = LEFT
@@ -14,7 +14,6 @@ guiTypes = {
 			spriteType = "GFX_se_closed"
 			position = { x= 0 y = 0 }
 			Orientation = center
-			alwaystransparent = yes
 		}
 	}
 	containerWindowType = {
