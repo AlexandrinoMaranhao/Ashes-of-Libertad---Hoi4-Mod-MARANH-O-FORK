@@ -4,7 +4,18 @@
 
 # Starting tech
 set_technology = {
+	# Infantry
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+}
+
+# Stockpiles
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 300
+	producer = ERG
 }
 
 set_politics = {
