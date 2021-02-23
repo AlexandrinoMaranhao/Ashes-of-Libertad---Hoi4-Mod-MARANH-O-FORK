@@ -193,21 +193,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1940.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1942.1.1"
-			}
 		}
 	}
 	
@@ -567,27 +552,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 0.5
-
-				OR = {
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
 		}
 		
 		categories = {
@@ -625,15 +589,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-				}
-				OR = {
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -669,15 +624,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-				}
-				OR = {
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -715,15 +661,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-				}
-				OR = {
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -761,15 +698,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-				}
-				OR = {
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -800,15 +728,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-				}
-				OR = {
-					has_war_with = ENG
-				}
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -838,47 +757,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 0.2
-
-				OR = {
-				}
-			}
-			modifier = {
-				not = {
-					OR = {
-						has_War_with = SOV
-
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {
@@ -918,35 +796,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
-			modifier = {
-				not = {
-					OR = {
-						has_War_with = SOV
-
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1939.1.6"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
 		}
 		
 		categories = {
@@ -982,47 +831,6 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.9"
-			}
-			modifier = {
-				not = {
-					OR = {
-						has_War_with = SOV
-
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1940.1.1"
-			}
-			modifier = {
-				has_War = no
-				factor = 0.5 #this tank nonsense will never catch on
-			}
-			modifier = {
-				factor = 5
-				date > "1940.1.6"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {
@@ -1062,40 +870,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.6"
-			}
-			modifier = {
-				not = {
-					OR = {
-						has_War_with = SOV
-
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1943.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {

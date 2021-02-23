@@ -1,30 +1,30 @@
 ideas = {
 	country = {
 
-        6_military_region = {
+                sixth_military_region = {
 
-        }
+                }
 
-        revengist_spirit = {
+                revengist_spirit = {
 
-        }
+                }
 
-        mercenary_army_LAM = {
+                mercenary_army_LAM = {
 
-        }
-#
+                }
+        #
 
-        provisional_government_of_bahia = {
+                provisional_government_of_bahia = {
 
-        }
+                }
 
-        the_sertao = {
+                the_sertao = {
 
-        }
+                }
 
-        return_of_the_advisor = {
+                return_of_the_advisor = {
 
-        }
+                }
 
 	}
 }

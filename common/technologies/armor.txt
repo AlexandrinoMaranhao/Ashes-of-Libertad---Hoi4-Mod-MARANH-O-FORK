@@ -176,21 +176,6 @@ technologies = {
 			factor = 0.5
 			
 			modifier = {
-				factor = 100
-				OR = {
-					tag = SOV
-				}
-				has_war = yes
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 25
-						}
-					}
-				}
-			}
-			modifier = {
 				has_template_containing_unit = light_tank_destroyer_brigade
 				factor = 2
 			}
@@ -325,25 +310,6 @@ technologies = {
 				has_war = yes
 				factor = 10 #you are embarassing yourself
 			}
-			modifier = {
-				tag = SOV
-				factor = 3
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
 		}
 		
 		categories = {
@@ -366,9 +332,6 @@ technologies = {
 
 			modifier = {
 				factor = 120
-				OR = {
-					tag = SOV
-				}
 				has_war = yes
 				any_enemy_country = {
 					ROOT = {
@@ -615,9 +578,6 @@ technologies = {
 			
 			modifier = {
 				factor = 130
-				OR = {
-					tag = SOV
-				}
 				has_war = yes
 				any_enemy_country = {
 					ROOT = {
@@ -707,24 +667,6 @@ technologies = {
 				}
 				date > "1938.1.1"
 			}
-			modifier = {
-				tag = SOV
-				factor = 1.5
-			}
-			modifier = {
-				factor = 1.1
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1942.1.1"
-			}
 		}
 		
 		categories = {
@@ -748,9 +690,6 @@ technologies = {
 			
 			modifier = {
 				factor = 140
-				OR = {
-					tag = SOV
-				}
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
@@ -905,33 +844,6 @@ technologies = {
 					num_of_military_factories < 50
 				}
 			}
-			modifier = {
-				date < "1941.1.1"
-				factor = 0.3
-			}
-			modifier = {
-				factor = 2
-			}
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1944.1.1"
-			}
 		}
 		
 		categories = {
@@ -954,9 +866,6 @@ technologies = {
 			
 			modifier = {
 				factor = 150
-				OR = {
-					tag = SOV
-				}
 				has_war = yes
 				any_enemy_country = {
 					ROOT = {
@@ -1146,9 +1055,6 @@ technologies = {
 			
 			modifier = {
 				factor = 160
-				OR = {
-					tag = SOV
-				}
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
