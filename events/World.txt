@@ -6,7 +6,6 @@ news_event = { # Carlos Prestes comes back on April 23rd 1969
 	desc = world.1.d
 
 	is_triggered_only = yes
-	major = yes
 
 	option = {
 		name = world.1.a # Positive national spirit
@@ -56,6 +55,22 @@ news_event = { # Americans invade Mexico
 		trigger = { tag = MEX }
 		hidden_effect = {
 			set_country_flag = se_maw_flag
+			set_country_flag = super_event_closed
+		}
+	}
+}
+news_event = { # Second Battle of Guanabara
+	id = world.3
+	title = world.3.t
+	desc = world.3.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.3.a
+		hidden_effect = {
+			set_country_flag = se_guanabara_flag
 			set_country_flag = super_event_closed
 		}
 	}

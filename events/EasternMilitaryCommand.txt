@@ -19,8 +19,16 @@ country_event = { ## Starts War ##
             type = annex_everything
         }
         set_country_flag = S_guanabara_battle
-        set_country_flag = se_guanabara_flag
-    BRA = { country_event = { id = BRA_guanabara.1 days = 1 }
+        BRA = {
+            country_event = { id = BRA_guanabara.1 days = 1 }
+        }
+        hidden_effect = {
+            every_country = {
+                news_event = {
+                    id = world.3
+                    days = 1
+                }
+            }
         }
     }
 }

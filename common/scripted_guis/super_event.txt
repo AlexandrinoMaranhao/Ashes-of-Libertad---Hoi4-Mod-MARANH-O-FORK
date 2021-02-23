@@ -56,5 +56,3 @@ scripted_gui = {
 		}
 	}
 }
-
-#set_country_flag se_guanabara_flag
