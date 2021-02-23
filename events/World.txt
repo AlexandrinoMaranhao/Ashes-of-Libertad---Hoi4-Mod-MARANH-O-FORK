@@ -45,10 +45,18 @@ news_event = { # Americans invade Mexico
 	option = {
 		name = world.2.a
 		trigger = { NOT = { tag = MEX } }
+		hidden_effect = {
+			set_country_flag = se_maw_flag
+			set_country_flag = super_event_closed
+		}
 	}
 
 	option = {
 		name = world.2.b
 		trigger = { tag = MEX }
+		hidden_effect = {
+			set_country_flag = se_maw_flag
+			set_country_flag = super_event_closed
+		}
 	}
 }
