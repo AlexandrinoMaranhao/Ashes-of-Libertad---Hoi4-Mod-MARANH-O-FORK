@@ -7,7 +7,13 @@ state={
 	manpower=3758739
 	state_category=city
 	buildings_max_level_factor=1.000
-            history = {
+            history = { 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+            arms_factory = 2
+			}
+ 
              owner=PRU
              add_core_of = ECU
         victory_points = {

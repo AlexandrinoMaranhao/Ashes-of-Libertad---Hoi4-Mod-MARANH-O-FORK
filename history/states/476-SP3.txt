@@ -4,10 +4,16 @@ state={
 	provinces={
 		945 1438 2136 2190 2606 3976 
 	}
-	manpower=5000
+	manpower=52749
 	state_category=rural
 	buildings_max_level_factor=1.000
-            history = {
+            history = { 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+            arms_factory = 2
+			}
+ 
              owner=PRU
              add_core_of = PRU
         victory_points = {
