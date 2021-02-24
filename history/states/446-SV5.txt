@@ -10,6 +10,18 @@ state={
 	state_category=rural
 
 	history={
+				
+		victory_points = {
+                3108 5
+		}
+				
+		victory_points = {
+                1645 20
+		}
+
+		victory_points = {
+                3094 5
+		}
              owner=VEN
              add_core_of = VEN
 

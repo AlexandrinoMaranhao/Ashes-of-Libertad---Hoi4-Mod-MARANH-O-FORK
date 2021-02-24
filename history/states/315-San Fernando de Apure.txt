@@ -4,6 +4,15 @@ state={
 	name="STATE_315"
 
 	history={
+				
+		victory_points = {
+                99 5
+		}
+				
+		victory_points = {
+                3017 10
+		}
+
 		owner = VEN
 		add_core_of = VEN
 		buildings = {
@@ -16,7 +25,7 @@ state={
 	provinces={
 		99 851 1383 1411 3017 3029 3035 3046 
 	}
-	manpower=5000
+	manpower=60793
 	buildings_max_level_factor=1.000
 	state_category=town
 }

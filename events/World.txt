@@ -9,30 +9,33 @@ news_event = { # Carlos Prestes comes back on April 23rd 1969
 
 	option = {
 		name = world.1.a # Positive national spirit
-		trigger = {
-			OR = {
-				tag = ROR
-				tag = RMI
-				tag = FBO
-				tag = BIA
-				tag = PCR
-				AND = { # DO THIS WHEN SAO CIVIL WAR STARTS
-					tag = SAO
-					has_government = communism
-				}
-			}
+			ROR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			RMI = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			FBO = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			BIA = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			PCR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			PAU = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+
+			JUN = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JEG = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JRM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JGD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JCL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JCS = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			BEM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JAG = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			ACR = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			LAM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			NHA = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			VAL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			SAO = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			CFD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+
+
 		}
-		add_timed_idea = { idea = good_carlos_prestes_return  days = 365 }
+		
 	}
 
-	option = {
-		name = world.1.b # Negative national spirit
-		trigger = {
-
-		}
-		add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 }
-	}
-}
 news_event = { # Americans invade Mexico
 	id = world.2
 	title = world.2.t

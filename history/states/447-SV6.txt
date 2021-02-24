@@ -1,16 +1,24 @@
+
 state={
 	id=447
 	name="STATE_447"
-	provinces={
-		44 1202 2254 2515 2611 3033 
-	}
-	manpower=40542
-	buildings_max_level_factor=1.000
-	state_category=rural
 
 	history={
 		owner = VEN
 		add_core_of = VEN
+		victory_points = {
+			2254 5 
+		}
+		victory_points = {
+			1202 10 
+		}
 
 	}
+
+	provinces={
+		44 1202 2254 2515 2611 3033 3102 
+	}
+	manpower=40542
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

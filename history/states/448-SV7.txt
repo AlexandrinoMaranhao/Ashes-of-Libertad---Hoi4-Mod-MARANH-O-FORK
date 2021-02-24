@@ -4,13 +4,16 @@ state={
 	provinces={
 		1006 1840 2304 3014 3018 3027 3031 3044 
 	}
-	manpower=18993
+	manpower=28993
 	buildings_max_level_factor=1.000
 	state_category=rural
 
 	history={
 		owner = VEN
 		add_core_of = VEN
-
+				
+		victory_points = {
+                3044 5
+		}
 	}
 }
