@@ -942,7 +942,92 @@ on_actions = {
         transfer_troops = no
         }
       }
-    }  
+    } 
+    if = { #### Fall of Nueva Castilla
+      limit = {
+      FROM = { 
+        OR = { original_tag = PRU original_tag = UNO original_tag = INC original_tag = RPE original_tag = PMI }
+      }
+      ROOT = { 
+        original_tag = NCA
+      }
+    }
+    FROM = {
+      white_peace = ROOT
+      annex_country = {
+        target = ROOT
+        transfer_troops = no
+        }
+      }
+    }
+    if = { #### Fall of Republic of Peru
+    limit = {
+    FROM = { 
+      OR = { original_tag = PRU original_tag = UNO original_tag = INC original_tag = NCA original_tag = PMI }
+    }
+    ROOT = { 
+      original_tag = RPE
+    }
+  }
+  FROM = {
+    white_peace = ROOT
+    annex_country = {
+      target = ROOT
+      transfer_troops = no
+       }
+      }
+    }
+    if = { #### Fall of Peruvian Armed Forces
+    limit = {
+    FROM = { 
+      OR = { original_tag = PRU original_tag = UNO original_tag = INC original_tag = NCA original_tag = RPE }
+    }
+    ROOT = { 
+      original_tag = PMI
+    }
+  }
+  FROM = {
+    white_peace = ROOT
+    annex_country = {
+      target = ROOT
+      transfer_troops = no
+       }
+      }
+    }
+    if = { #### Fall of UNO
+    limit = {
+    FROM = { 
+      OR = { original_tag = PRU original_tag = PMI original_tag = INC original_tag = NCA original_tag = RPE }
+    }
+    ROOT = { 
+      original_tag = UNO
+    }
+  }
+  FROM = {
+    white_peace = ROOT
+    annex_country = {
+      target = ROOT
+      transfer_troops = no
+       }
+      }
+    }
+    if = { #### Fall of Andean Union
+    limit = {
+    FROM = { 
+      OR = { original_tag = UNO original_tag = PMI original_tag = INC original_tag = NCA original_tag = RPE }
+    }
+    ROOT = { 
+      original_tag = PRU
+    }
+  }
+  FROM = {
+    white_peace = ROOT
+    annex_country = {
+      target = ROOT
+      transfer_troops = no
+       }
+      }
+    }      
   }
 }
   on_state_control_changed = { 
@@ -1050,6 +1135,438 @@ on_actions = {
       JAG = {
         transfer_state = 149
         }  
+      }
+      if = {  #### PMI vs RPE
+      limit = {
+        ROOT = { original_tag = PMI }
+        FROM = { original_tag = RPE }
+        FROM.FROM = {
+          state = 336
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### RPE vs PMI
+      limit = {
+        ROOT = { original_tag = RPE }
+        FROM = { original_tag = PMI }
+        FROM.FROM = {
+          RPE_war_trigger_PIM = yes
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Venezuela Invasion of Guyana
+      limit = {
+        ROOT = { original_tag = VEN }
+        FROM = { original_tag = ENG }
+        FROM.FROM = {
+          VEN_war_trigger_ENG = yes
+        }
+      }
+      VEN = {
+        transfer_state = 229
+        transfer_state = 227
+        transfer_state = 228
+        white_peace = ENG
+        }
+      }
+      if = {  #### Fall of Tawantinsuyu
+      limit = {
+        ROOT = { OR = { original_tag = PRU original_tag = UNO original_tag = NCA original_tag = RPE original_tag = PMI } }
+        FROM = { original_tag = INC }
+        FROM.FROM = {
+          state = 332
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### INC vs FCP
+      limit = {
+        ROOT = { original_tag = INC }
+        FROM = { original_tag = FCP }
+        FROM.FROM = {
+          state = 342
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### VEJ vs ELD
+      limit = {
+        ROOT = { original_tag = VEJ }
+        FROM = { original_tag = ELD }
+        FROM.FROM = {
+          state = 306
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### VEJ vs LLA
+      limit = {
+        ROOT = { original_tag = VEJ }
+        FROM = { original_tag = LLA }
+        FROM.FROM = {
+          state = 310
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### of Venezuela vs Libertadores/Colombia
+      limit = {
+        ROOT = { original_tag = NEB }
+        FROM = { OR = { original_tag = LBT original_tag = COL } }
+        FROM.FROM = {
+          state = 445
+        }
+      }
+      NEB = {
+        transfer_state = 445
+        }
+      }
+      if = {  #### Bolivarian vs Zulia
+      limit = {
+        ROOT = { original_tag = VEJ }
+        FROM = { original_tag = VEC }
+        FROM.FROM = {
+          state = 303
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Zulia vs Bolivarian
+      limit = {
+        ROOT = { original_tag = VEC }
+        FROM = { original_tag = VEJ }
+        FROM.FROM = {
+          state = 313
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Zulia vs Republic
+      limit = {
+        ROOT = { original_tag = VEC }
+        FROM = { original_tag = VEN }
+        FROM.FROM = {
+          state = 317
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Zulia vs of Venezuela
+      limit = {
+        ROOT = { original_tag = VEC }
+        FROM = { original_tag = NEB }
+        FROM.FROM = {
+          state = 301
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Miners Revolt vs Sweet River Vale Company
+      limit = {
+        ROOT = { original_tag = RMI }
+        FROM = { original_tag = VAL }
+        FROM.FROM = {
+          state = 68
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Pernambuco
+      limit = {
+        ROOT = { OR = { original_tag = D01 original_tag = CEA original_tag = RGN original_tag = PAI original_tag = ALA original_tag = CFD } }
+        FROM = { original_tag = PEB }
+        FROM.FROM = {
+          state = 7
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of 2nd Intentona Comunista 
+      limit = {
+        ROOT = { OR = { original_tag = PEB original_tag = CEA original_tag = RGN original_tag = PAI original_tag = ALA original_tag = CFD } }
+        FROM = { original_tag = D01 }
+        FROM.FROM = {
+          state = 8
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Ceara 
+      limit = {
+        ROOT = { OR = { original_tag = PEB original_tag = D01 original_tag = RGN original_tag = PAI original_tag = ALA original_tag = CFD } }
+        FROM = { original_tag = CEA }
+        FROM.FROM = {
+          state = 12
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Rio Grande do Norte
+      limit = {
+        ROOT = { OR = { original_tag = PEB original_tag = D01 original_tag = CEA original_tag = PAI original_tag = ALA original_tag = CFD } }
+        FROM = { original_tag = RGN }
+        FROM.FROM = {
+          state = 3
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Paraiba
+      limit = {
+        ROOT = { OR = { original_tag = PEB original_tag = D01 original_tag = CEA original_tag = RGN original_tag = ALA original_tag = CFD } }
+        FROM = { original_tag = PAI }
+        FROM.FROM = {
+          state = 6
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Alagoas
+      limit = {
+        ROOT = { OR = { original_tag = PEB original_tag = D01 original_tag = CEA original_tag = RGN original_tag = PAI original_tag = CFD } }
+        FROM = { original_tag = ALA }
+        FROM.FROM = {
+          state = 10
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of SertanejaCFD
+      limit = {
+        ROOT = { OR = { original_tag = PEB original_tag = D01 original_tag = CEA original_tag = RGN original_tag = PAI original_tag = ALA } }
+        FROM = { original_tag = CFD }
+        FROM.FROM = {
+          state = 13
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Paulista
+      limit = {
+        ROOT = { original_tag = SAO }
+        FROM = { original_tag = PAU }
+        FROM.FROM = {
+          state = 28
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Sao Paulo
+      limit = {
+        ROOT = { original_tag = PAU }
+        FROM = { original_tag = SAO }
+        FROM.FROM = {
+          PAU_war_trigger_SAO = yes
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Cangaceiros
+      limit = {
+        ROOT = { OR = { original_tag = PCR original_tag = RPB original_tag = BMF original_tag = MAL } }
+        FROM = { original_tag = CAN }
+        FROM.FROM = {
+          state = 463
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of PCR
+      limit = {
+        ROOT = { OR = { original_tag = CAN original_tag = RPB original_tag = BMF original_tag = MAL } }
+        FROM = { original_tag = PCR }
+        FROM.FROM = {
+          state = 57
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Women's Revolt
+      limit = {
+        ROOT = { OR = { original_tag = CAN original_tag = PCR original_tag = BMF original_tag = MAL } }
+        FROM = { original_tag = RPB }
+        FROM.FROM = {
+          state = 54
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of Brazilian Monarchist's Front
+      limit = {
+        ROOT = { OR = { original_tag = CAN original_tag = PCR original_tag = RPB original_tag = MAL } }
+        FROM = { original_tag = BMF }
+        FROM.FROM = {
+          state = 52
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Fall of 2nd Male Revolt
+      limit = {
+        ROOT = { OR = { original_tag = CAN original_tag = PCR original_tag = RPB original_tag = BMF } }
+        FROM = { original_tag = MAL }
+        FROM.FROM = {
+          state = 53
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Argentina vs Uruguay
+      limit = {
+        ROOT = { original_tag = ARG }
+        FROM = { original_tag = URG }
+        FROM.FROM = {
+          state = 80
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  #### Argentina vs Chile
+      limit = {
+        ROOT = { original_tag = ARG }
+        FROM = { original_tag = CHL }
+        FROM.FROM = {
+          ARG_war_trigger_CHL = yes
+        }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
       }
     }
   }

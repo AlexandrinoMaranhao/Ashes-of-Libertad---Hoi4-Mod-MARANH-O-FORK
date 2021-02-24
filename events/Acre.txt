@@ -827,6 +827,99 @@ country_event = {
 		name = ACR.23.A
 	}
 }
+
+#########################################################################
+# Second Round of Elections
+#########################################################################
+country_event = {
+	id = ACR.24
+	title = ACR.24.t
+	desc = ACR.24.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR.24.A
+		if = { # Militarists Elected
+				limit = { 
+					AND = {
+						check_variable = { senate_militarist_seats > senate_technocrat_seats }
+						check_variable = { senate_militarist_seats > senate_nationalist_seats }
+					}
+				} 
+				set_politics = {
+					ruling_party = fascism
+					last_election = "1967.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				kill_country_leader = yes
+				create_country_leader = {
+	
+					name = "Jorge Kalume"
+					picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
+					expire = "1999.1.1"
+					ideology = mercantile_oligarchy
+					traits = {
+					}
+				}
+				set_country_flag = kalume_elected
+			}
+			else_if = { # Technocrats Elected
+				limit = { 
+					AND = {
+						check_variable = { senate_technocrat_seats > senate_militarist_seats }
+						check_variable = { senate_technocrat_seats > senate_nationalist_seats }
+					}
+				} 
+				set_politics = {
+					ruling_party = communism
+					last_election = "1967.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				kill_country_leader = yes
+				create_country_leader = {
+	
+					name = "Enéas Carneiro"
+					picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro_Young.dds"
+					expire = "1999.1.1"
+					ideology = posadism 
+					traits = {
+					}
+				}
+				set_country_flag = eneas_elected
+			}
+			else_if = { # Nationalists Elected
+				limit = {
+					AND = {
+						check_variable = { senate_nationalist_seats > senate_militarist_seats }
+						check_variable = { senate_nationalist_seats > senate_technocrat_seats }
+					}
+				} 
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1967.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				kill_country_leader = yes
+				create_country_leader = {
+	
+					name = "José Augusto de Araujo"
+					picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
+					expire = "1999.1.1"
+					ideology = centrism
+					traits = {
+					}
+				}
+			set_country_flag = augusto_elected
+		}
+	}
+}
+
 ######### CHE GUEVARA STRIKES!!!!!!!! ###########
 
 country_event = { 

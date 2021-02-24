@@ -186,4 +186,67 @@ on_actions = {
             }
         }
     }
+    # Venezuela
+    on_startup = {
+        effect = {
+        VEN = {
+        random_list = {
+                 50 = {
+                 country_event = {
+                     id = VEN_Bettancourt_Assassination_Fails.1 # Bettancourt Assassiantion Attempt
+                     days = 203
+                 }
+                 }
+                16 = {
+                 country_event = {
+                     id = VEN_Bettancourt_Assassination_Gun.1 # Bettancourt Assassiantion Attempt
+                     days = 203
+                 }
+                 }
+                17 = {
+                 country_event = {
+                     id = VEN_Bettancourt_Assassination_Explosion.1 # Bettancourt Assassiantion Attempt
+                     days = 203
+                 }
+                 }
+                 17 = {
+                 country_event = {
+                     id = VEN_Bettancourt_Assassination_Aiplane.1 # Bettancourt Assassiantion Attempt
+                     days = 203
+                        }
+                    }
+                }
+            }
+        }
+    }
+    # 68 onwards stuff
+    on_startup = {
+		effect = {
+			every_country = {
+				news_event = {
+				id = world.1 # Carlos Prestes comes back on April 23rd 1969
+				days = 843
+				}
+			}
+            CFD = {
+                country_event = {
+                    id = CFD.1 # Beginning of the CFD collapse
+                    days = 926
+                }
+            }
+            SAO = {
+                country_event = {
+                    id = SAO.1 # SAO civil war
+                    days = 956
+                }
+			}
+			
+			RPB = {
+				country_event = {
+					id = RPB.1 # Baiana Revolt
+					days = 980
+				}
+			}
+		}
+	}
 }

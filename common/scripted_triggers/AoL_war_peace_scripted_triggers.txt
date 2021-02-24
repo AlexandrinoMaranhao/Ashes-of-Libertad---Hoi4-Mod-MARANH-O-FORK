@@ -36,3 +36,35 @@ BEM_war_trigger_KAY = {
 		controls_state= 471
 	}
 }
+
+RPE_war_trigger_PIM = {
+	RPE = {
+		controls_state= 509
+		controls_state= 508
+	}
+}
+
+VEN_war_trigger_ENG = {
+	VEN = {
+		controls_state= 227
+		controls_state= 228
+		controls_state= 229
+	}
+}
+
+PAU_war_trigger_SAO = {
+	PAU = {
+		controls_state= 27
+		controls_state= 500
+		controls_state= 31
+	}
+}
+
+ARG_war_trigger_CHL = {
+	ARG = {
+		controls_state= 364
+		controls_state= 365
+		controls_state= 362
+		controls_state= 363
+	}
+}

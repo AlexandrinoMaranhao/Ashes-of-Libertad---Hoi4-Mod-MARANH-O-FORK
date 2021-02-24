@@ -536,4 +536,56 @@ ACR_war_train_category = {
 		}
 	}
 }
+
+ACR_che_war_category = {
+	ACR_survive_the_war = {
+		allowed = { tag = ACR }                
+          available = {                           
+            89 = {
+				NOT = { is_fully_controlled_by = ACR }
+			}
+          }
+          activation = {
+			has_war_with = ERN
+          }
+          is_good = yes                                      
+          days_mission_timeout = 120           
+          timeout_effect = {   
+			white_peace = ERN
+			BOL = {
+				transfer_state = 355
+				transfer_state = 356
+				transfer_state = 353
+			}
+			PAR = {
+				transfer_state = 358
+				transfer_state = 466
+			}
+			BRA = {
+				transfer_state = 498
+			}
+			ERN = {
+				release = RON
+			}
+			RON = {
+				transfer_state = 142
+				transfer_state = 88
+				transfer_state = 141
+				transfer_state = 354
+				add_state_core = 354
+			}
+			ACR = {
+				puppet = RON
+				country_event = { id = ACR.24 days = 7 }
+			}
+          }
+          complete_effect = {                    
+			ERN = {
+				annex_country = {
+					target = ACR
+				}
+			}
+        }
+	}
+}
 	

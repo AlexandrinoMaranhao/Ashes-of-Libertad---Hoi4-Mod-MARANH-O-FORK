@@ -78,3 +78,29 @@ news_event = { # Second Battle of Guanabara
 		}
 	}
 }
+
+news_event = { # Second Battle of Guanabara won by Brazil
+	id = world.4
+	title = world.4.t
+	desc = world.4.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.4.a
+	}
+}
+
+news_event = { # Second Battle of Guanabara won by Eastern Military Command
+	id = world.5
+	title = world.5.t
+	desc = world.5.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.5.a
+	}
+}

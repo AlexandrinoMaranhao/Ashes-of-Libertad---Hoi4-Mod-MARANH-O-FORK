@@ -46,10 +46,7 @@ country_event = {
     desc = BRA_guanabara.3.d
     picture = x
     fire_only_once = yes
-    trigger = {
-        has_country_flag = S_guanabara_battle
-        CRJ = { has_full_control_of_state = 24 }
-    }
+    is_triggered_only = yes
     
     option = {
         name = BRA_guanabara.3.a

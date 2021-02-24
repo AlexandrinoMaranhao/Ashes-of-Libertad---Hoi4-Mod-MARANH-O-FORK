@@ -114,6 +114,8 @@ FCP = "countries/Federacion Campesina del Peru.txt"
 UNO = "countries/UNO.txt"
 SEC = "countries/Socialist Republic of Ecuador.txt"
 
+RON = "countries/Rondônia.txt"
+
 #####################################
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
