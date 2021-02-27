@@ -169,4 +169,206 @@ ideas = {
 			}
 		}
 	}
+
+	## Second Mexican-American War
+	country = {
+		MEX_war_of_resistance_idea_1 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.1
+				army_org_factor = 0.1
+				army_morale_factor = 0.1
+				army_core_defence_factor = 0.05
+				land_reinforce_rate = 0.05
+				industry_air_damage_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				war_support_factor = 0.05
+				training_time_army_factor = -0.05
+				conscription = 0.0025
+			}
+		}
+		MEX_war_of_resistance_idea_2 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.15
+				army_org_factor = 0.15
+				army_morale_factor = 0.15
+				army_core_defence_factor = 0.1
+				land_reinforce_rate = 0.1
+				industry_air_damage_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.1
+				war_support_factor = 0.1
+				training_time_army_factor = -0.1
+				conscription = 0.005
+				dig_in_speed_factor = 0.1
+			}
+		}
+		MEX_war_of_resistance_idea_3 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.2
+				army_org_factor = 0.2
+				army_morale_factor = 0.2
+				army_core_defence_factor = 0.2
+				land_reinforce_rate = 0.15
+				industry_air_damage_factor = -0.2
+				production_factory_efficiency_gain_factor = 0.2
+				war_support_factor = 0.15
+				training_time_army_factor = -0.2
+				conscription = 0.01
+				dig_in_speed_factor = 0.2
+			}
+		}
+		MEX_war_of_resistance_idea_4 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.3
+				army_org_factor = 0.3
+				army_morale_factor = 0.3
+				army_core_defence_factor = 0.3
+				land_reinforce_rate = 0.2
+				industry_air_damage_factor = -0.3
+				production_factory_efficiency_gain_factor = 0.3
+				war_support_factor = 0.2
+				training_time_army_factor = -0.3
+				conscription = 0.02
+				max_dig_in = 10
+				dig_in_speed_factor = 0.3
+			}
+		}
+		MEX_war_of_resistance_idea_5 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.35
+				army_org_factor = 0.35
+				army_morale_factor = 0.35
+				army_core_defence_factor = 0.35
+				army_core_attack_factor = 0.1
+				land_reinforce_rate = 0.25
+				industry_air_damage_factor = -0.35
+				production_factory_efficiency_gain_factor = 0.35
+				war_support_factor = 0.25
+				training_time_army_factor = -0.35
+				conscription = 0.04
+				max_dig_in = 20
+				dig_in_speed_factor = 0.35
+				industrial_capacity_factory = 0.1
+			}
+		}
+		MEX_war_of_resistance_idea_6 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.4
+				army_org_factor = 0.4
+				army_morale_factor = 0.4
+				army_core_defence_factor = 0.4
+				army_core_attack_factor = 0.2
+				land_reinforce_rate = 0.3
+				industry_air_damage_factor = -0.4
+				production_factory_efficiency_gain_factor = 0.4
+				war_support_factor = 0.3
+				training_time_army_factor = -0.4
+				conscription = 0.06
+				max_dig_in = 30
+				dig_in_speed_factor = 0.4
+				industrial_capacity_factory = 0.2
+			}
+		}
+		MEX_war_of_resistance_idea_7 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.5
+				army_org_factor = 0.5
+				army_morale_factor = 0.5
+				army_core_defence_factor = 0.5
+				army_core_attack_factor = 0.25
+				land_reinforce_rate = 0.35
+				industry_air_damage_factor = -0.5
+				production_factory_efficiency_gain_factor = 0.5
+				war_support_factor = 0.35
+				training_time_army_factor = -0.5
+				conscription = 0.06
+				max_dig_in = 40
+				dig_in_speed_factor = 0.5
+				industrial_capacity_factory = 0.2
+				recon_factor_while_entrenched = 0.2
+			}
+		}
+		MEX_war_of_resistance_idea_8 = {
+			picture = idea_mex_politicised_army_2
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				has_war_with = USA
+			}
+			modifier = {
+				cas_damage_reduction = 0.6
+				army_org_factor = 0.6
+				army_morale_factor = 0.6
+				army_core_defence_factor = 0.6
+				army_core_attack_factor = 0.3
+				land_reinforce_rate = 0.4
+				industry_air_damage_factor = -0.6
+				production_factory_efficiency_gain_factor = 0.6
+				war_support_factor = 0.5
+				training_time_army_factor = -0.6
+				conscription = 0.08
+				max_dig_in = 50
+				dig_in_speed_factor = 0.6
+				industrial_capacity_factory = 0.3
+				recon_factor_while_entrenched = 0.3
+			}
+		}
+	}
 }

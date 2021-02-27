@@ -1,0 +1,120 @@
+mexico_category = {
+	MEX_begin_war_of_resistance = {
+		cost = 10
+		visible = {
+			has_war_with = USA
+			NOT = {
+				OR = {
+					has_idea = MEX_war_of_resistance_idea_1
+					has_idea = MEX_war_of_resistance_idea_2
+					has_idea = MEX_war_of_resistance_idea_3
+					has_idea = MEX_war_of_resistance_idea_4
+					has_idea = MEX_war_of_resistance_idea_5
+					has_idea = MEX_war_of_resistance_idea_6
+					has_idea = MEX_war_of_resistance_idea_7
+					has_idea = MEX_war_of_resistance_idea_8
+				}
+			}
+		}
+		complete_effect = {
+			add_ideas = MEX_war_of_resistance_idea_1
+		}
+	}
+}
+mexican_ai_category = {
+	MEX_war_of_resistance_upgrade_decision = {#increase decision
+		cost = 0
+		target_trigger = {
+			FROM = {
+				OR = {
+					has_idea = MEX_war_of_resistance_idea_1
+					has_idea = MEX_war_of_resistance_idea_2
+					has_idea = MEX_war_of_resistance_idea_3
+					has_idea = MEX_war_of_resistance_idea_4
+					has_idea = MEX_war_of_resistance_idea_5
+					has_idea = MEX_war_of_resistance_idea_6
+					has_idea = MEX_war_of_resistance_idea_7
+					has_idea = MEX_war_of_resistance_idea_8
+				}
+			}
+		}
+		available = {
+			NOT = {
+				any_other_country = {
+					exists = yes
+					has_country_flag = MEX_war_of_resistance_decision_flag
+				}
+			}
+			FROM = {
+				MEX_war_of_resistance_upgrade_trigger = yes
+			}
+		}
+		visible = {
+			is_ai = yes
+			tag = WAS
+			NOT = {
+				any_other_country = {
+					exists = yes
+					has_country_flag = MEX_war_of_resistance_decision_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5000
+		}
+		complete_effect = {
+			set_country_flag = MEX_war_of_resistance_decision_flag
+			FROM = {
+				MEX_war_of_resistance_upgrade = yes
+			}
+		}
+	}
+	
+	MEX_war_of_resistance_downgrade_decision = {#decrease decision
+		cost = 0
+		target_trigger = {
+			FROM = {
+				OR = {
+					has_idea = MEX_war_of_resistance_idea_1
+					has_idea = MEX_war_of_resistance_idea_2
+					has_idea = MEX_war_of_resistance_idea_3
+					has_idea = MEX_war_of_resistance_idea_4
+					has_idea = MEX_war_of_resistance_idea_5
+					has_idea = MEX_war_of_resistance_idea_6
+					has_idea = MEX_war_of_resistance_idea_7
+					has_idea = MEX_war_of_resistance_idea_8
+				}
+			}
+		}
+		available = {
+			NOT = {
+				any_other_country = {
+					exists = yes
+					has_country_flag = MEX_war_of_resistance_decision_flag
+				}
+			}
+			FROM = {
+				MEX_war_of_resistance_downgrade_trigger = yes
+			}
+		}
+		visible = {
+			is_ai = yes
+			tag = WAS
+			NOT = {
+				any_other_country = {
+					exists = yes
+					has_country_flag = MEX_war_of_resistance_decision_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5000
+		}
+		complete_effect = {
+			set_country_flag = MEX_war_of_resistance_decision_flag
+			FROM = {
+				MEX_war_of_resistance_downgrade = yes
+			}
+		}
+	}
+}
