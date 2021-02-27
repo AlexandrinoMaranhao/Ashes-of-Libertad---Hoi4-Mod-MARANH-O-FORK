@@ -189,6 +189,42 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division = {
+		name = "11th Irregulars"
+		location = 1672
+		division_template = "Irregulars"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "12th Irregulars"
+		location = 1672
+		division_template = "Irregulars"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "13th Irregulars"
+		location = 1672
+		division_template = "Irregulars"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "14th Irregulars"
+		location = 1672
+		division_template = "Irregulars"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "15th Irregulars"
+		location = 1672
+		division_template = "Irregulars"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "16th Irregulars"
+		location = 1672
+		division_template = "Irregulars"
+		start_experience_factor = 0.1
+	}
+	division = {
 		name = "1st Mounted Infantry"
 		location = 2773
 		division_template = "Mounted Infantry"

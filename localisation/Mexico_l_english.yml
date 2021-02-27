@@ -16,7 +16,16 @@ MEX_refugee_crisis_desc:0 "PLACEHOLDER"
 MEX_looming_famine:0 "Looming Famine"
 MEX_looming_famine_desc:0 "PLACEHOLDER"
 
+MEX_overexcerted_army:0 "Overexcerted Army"
+MEX_overexcerted_army_desc:0 "PLACEHOLDER"
+
 MEX_civil_war_tt:0 "§RSkirmishes will periodically occur§!"
+
+# Decisions
+
+MEX_improve_army_logistics_cost:0 "£army_experience  §H50§!  £command_power  §H20§!"
+MEX_improve_army_logistics_cost_blocked:0 "£army_experience  §R50§! £command_power  §R20§!"
+MEX_improve_army_logistics_cost_tooltip:0 "£army_experience  §H50§! and £command_power §H20§! are needed to take the decision"
 
 ### ERG ###
 ERG_no_way_out:0 "No Way Out"
@@ -37,3 +46,6 @@ EJR_long_march_1_desc:0 "PLACEHOLDER"
 
 EJR_protracted_peoples_war_1:0 "Protracted People's War"
 EJR_protracted_peoples_war_1_desc:0 "PLACEHOLDER"
+
+### USA ###
+USA_desperate_push:0 "Desperate Push"

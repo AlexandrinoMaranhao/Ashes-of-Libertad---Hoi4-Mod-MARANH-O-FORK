@@ -20,6 +20,31 @@ mexico_category = {
 			add_ideas = MEX_war_of_resistance_idea_1
 		}
 	}
+	MEX_improve_army_logistics = {
+		cost = 100
+		custom_cost_trigger = {
+			command_power > 19
+			has_army_experience > 49
+		}
+		custom_cost_text = MEX_improve_army_logistics_cost
+		visible = {
+			OR = {
+				has_idea = MEX_overexcerted_army_1
+				has_idea = MEX_overexcerted_army_2
+				has_idea = MEX_overexcerted_army_3
+				has_idea = MEX_overexcerted_army_4
+				has_idea = MEX_overexcerted_army_5
+				has_idea = MEX_overexcerted_army_6
+				has_idea = MEX_overexcerted_army_7
+				has_idea = MEX_overexcerted_army_8
+				has_idea = MEX_overexcerted_army_9
+				has_idea = MEX_overexcerted_army_10
+			}
+		}
+		complete_effect = {
+			MEX_improve_army_logistics = yes
+		}
+	}
 }
 mexican_ai_category = {
 	MEX_war_of_resistance_upgrade_decision = {#increase decision

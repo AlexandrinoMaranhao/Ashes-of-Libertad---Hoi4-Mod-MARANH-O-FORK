@@ -138,6 +138,7 @@ add_ideas = {
 	MEX_political_catastrophe
 	MEX_refugee_crisis
 	MEX_looming_famine
+	MEX_overexcerted_army_1
 }
 
 create_country_leader = {
