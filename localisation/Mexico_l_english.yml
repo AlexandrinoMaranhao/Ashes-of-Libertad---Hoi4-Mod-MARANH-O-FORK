@@ -1,5 +1,8 @@
 ﻿l_english:
 ### Mexico ###
+# Opinion Modifiers
+MEX_mexican_civil_war_opinion:0 "The Mexican Civil War"
+
 # Ideas
 MEX_mexican_civil_war:0 "The Mexican Civil War"
 MEX_mexican_civil_war_desc:0 "PLACEHOLDER"

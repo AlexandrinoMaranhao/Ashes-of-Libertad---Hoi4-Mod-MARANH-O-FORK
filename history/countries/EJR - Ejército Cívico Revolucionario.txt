@@ -1,6 +1,6 @@
 ﻿capital = 252
 
-#oob = ""
+oob = "EJR_DEMO"
 
 # Starting tech
 set_technology = {

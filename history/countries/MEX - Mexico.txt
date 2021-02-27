@@ -1,6 +1,28 @@
 ﻿capital = 260
 
-#oob = ""
+oob = "MEX_DEMO"
+
+## Opinion Modifiers
+add_opinion_modifier = {
+    target = ERG
+    modifier = MEX_mexican_civil_war_opinion
+}
+add_opinion_modifier = {
+    target = EJR
+    modifier = MEX_mexican_civil_war_opinion
+}
+ERG = {
+	add_opinion_modifier = {
+		target = MEX
+		modifier = MEX_mexican_civil_war_opinion
+	}
+}
+EJR = {
+	add_opinion_modifier = {
+		target = MEX
+		modifier = MEX_mexican_civil_war_opinion
+	}
+}
 
 ## Starting tech ##
 set_technology = {
@@ -107,6 +129,9 @@ set_popularities = {
 	neutrality = 10
 	reactionary = 10
 }
+
+#clear_global_event_target = MEX_current_central_government
+save_global_event_target_as = MEX_current_central_government
 
 add_ideas = {
 	MEX_mexican_civil_war

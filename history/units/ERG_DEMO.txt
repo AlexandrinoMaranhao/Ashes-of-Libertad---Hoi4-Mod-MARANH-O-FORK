@@ -1,36 +1,41 @@
 division_template = {
-	name = "Milícia de Terra"
+	name = "Brigada Rebelde"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
 	}
 }
 
 units = {
 	division = {
-		name = "Milícia do Rio Branco"
-		location = 4230
-		division_template = "Milícia de Terra"
+		name = "1ra Brigada Rebelde"
+		location = 891
+		division_template = "Brigada Rebelde"
 		start_experience_factor = 0.7
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.48
 	}
 	division = {
-		name = "Guarnição de Manuel Urbano"
-		location = 811
-		division_template = "Milícia de Terra"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.25
+		name = "2da Brigada Rebelde"
+		location = 891
+		division_template = "Brigada Rebelde"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
 	}
 	division = {
-		name = "Batalhão da Fronteira Vermelha"
-		location = 4300
-		division_template = "Milícia de Terra"
-		start_experience_factor = 1
-		start_equipment_factor = 0.3
+		name = "3ra Brigada Rebelde"
+		location = 2929
+		division_template = "Brigada Rebelde"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "4ta Brigada Rebelde"
+		location = 2922
+		division_template = "Brigada Rebelde"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
 	}
 }	

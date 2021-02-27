@@ -19,6 +19,7 @@ country_event = { # American Invasion
                     target = MEX
                     type = annex_everything
                 }
+                load_oob = "USA_DEMO"
             }
             every_country = {
                 news_event = {
