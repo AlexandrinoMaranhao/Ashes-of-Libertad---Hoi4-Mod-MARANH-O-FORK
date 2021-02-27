@@ -1027,38 +1027,38 @@ on_actions = {
       transfer_troops = no
        }
       }
-    }      
-  }
-    ## Mexican Wars ##
-    if = {
-      limit = {
-        FROM = { original_tag = USA }
-        ROOT = { original_tag = MEX }
-      }
-      FROM = {
-        white_peace = ROOT
-        annex_country = {
-          target = ROOT
-          transfer_troops = no
-        }
-      }
     }
-    if = {
-      limit = {
-        FROM = { original_tag = MEX }
-        ROOT = { original_tag = USA }
-      }
-      FROM = {
-        white_peace = ROOT
-        annex_country = {
-          target = ROOT
-          transfer_troops = no
+      ## Mexican Wars ##
+      if = {
+        limit = {
+          FROM = { original_tag = USA }
+          ROOT = { original_tag = MEX }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
         }
       }
+      if = {
+        limit = {
+          FROM = { original_tag = MEX }
+          ROOT = { original_tag = USA }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      } 
     }
   }
 }
-  on_state_control_changed = { 
+  on_state_control_changed = {
     effect = {
       if = { #### Jamaica vs West Indies
         limit = {
@@ -1596,24 +1596,23 @@ on_actions = {
           }
         }
       }
-    }
-
-    ## Mexican Wars ##
-    if = {
-      limit = {
-        ROOT = { original_tag = USA }
-        FROM = { original_tag = MEX }
-        NOT = {
-          USA = { has_country_flag = maw_has_taken_land }
+      ## Mexican Wars ##
+      if = {
+        limit = {
+          ROOT = { original_tag = USA }
+          FROM = { original_tag = MEX }
+          NOT = {
+            USA = { has_country_flag = maw_has_taken_land }
+          }
         }
-      }
-      USA = {
-        set_country_flag = maw_has_taken_land
-        set_state_owner = FROM.FROM
-        set_capital = FROM.FROM
-      }
-      WAS = {
-        transfer_state = 248
+        USA = {
+          set_country_flag = maw_has_taken_land
+          set_state_owner = FROM.FROM
+          set_capital = FROM.FROM
+        }
+        WAS = {
+          transfer_state = 248
+        }
       }
     }
   }

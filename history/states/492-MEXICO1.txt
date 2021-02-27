@@ -1,4 +1,3 @@
-
 state={
 	id=492
 	name="STATE_492"
@@ -6,16 +5,16 @@ state={
 		236 366 386 448 674 796 1121 1423 1640 2256 2277 2505 2716 2742 2745 2747 2756 2758 2769 2770 2775 2777 
 	}
 	manpower=20544
-        state_category=pastoral
+	state_category=pastoral
 	buildings_max_level_factor=1.000
-            history = {
+	history = {
 		owner = MEX
 		add_core_of = MEX
-             victory_points = {
-             2716 3
-             }
-             victory_points = {
-             236 1
-             }
-}
+		victory_points = {
+			2716 3
+		}
+		victory_points = {
+			236 1
+		}
+	}
 }
