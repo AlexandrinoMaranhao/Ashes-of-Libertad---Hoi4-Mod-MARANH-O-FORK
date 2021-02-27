@@ -7,10 +7,16 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-		77 3
+			77 3
 		}
 		victory_points = {
-		1702 5
+			1702 5
+		}
+		buildings = {
+			infrastructure = 3
+			1702 = {
+				naval_base = 2
+			}
 		}
 	}
 

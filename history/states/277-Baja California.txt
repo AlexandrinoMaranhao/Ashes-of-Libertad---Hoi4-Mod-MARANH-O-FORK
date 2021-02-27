@@ -19,7 +19,13 @@ state={
 		owner = WAS
 		add_core_of = WAS
         add_core_of = MEX
-
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			1708 = {
+				naval_base = 2
+			}
+		}
 	}
 
 	provinces={

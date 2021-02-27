@@ -1,17 +1,27 @@
 state={
 	id=270
 	name="STATE_270"
+	resources={
+		oil = 5.000
+	}
 	provinces={
 		195 539 588 807 842 1566 1963 2097 2270 2318 2781 2782 2783 2788 2791 2792 2794 2798 
 	}
 	manpower=149342
-        state_category=rural
+    state_category=rural
 	buildings_max_level_factor=1.000
-            history = {
+    history = {
 		owner = MEX
 		add_core_of = MEX
-             victory_points = {
-             1963 5
-             }
-}
+        victory_points = {
+            1963 5
+        }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			2791 = {
+				naval_base = 2
+			}
+		}
+	}
 }

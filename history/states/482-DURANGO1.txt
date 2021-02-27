@@ -2,12 +2,18 @@
 state={
 	id=482
 	name="STATE_482"
-
+	resources = {
+		ammunition = 2.000
+	}
 	history={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-		1537 30
+			1537 30
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
 		}
 	}
 

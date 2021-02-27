@@ -2,18 +2,19 @@
 state={
 	id=255
 	name="STATE_255"
-
 	history={
 		owner = ERG
 		add_core_of = ERG
         add_core_of = MEX
 		victory_points = {
-		2929 10
+			2929 10
 		}
 		victory_points = {
-		1113 5
+			1113 5
 		}
-
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={

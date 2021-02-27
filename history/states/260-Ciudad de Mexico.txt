@@ -2,7 +2,12 @@
 state={
 	id=260
 	name="STATE_260"
-
+	resources={
+		steel = 12.000
+		ammunition = 12.000
+		technology = 4.000
+		motors = 2.000
+	}
 	history={
 		owner = MEX
 		add_core_of = MEX
@@ -12,6 +17,12 @@ state={
         victory_points = {
         2891 10
         }
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 7
+			air_base = 5
+		}
 	}
 
 	provinces={

@@ -5,10 +5,13 @@ state={
 		5081 
 	}
 	manpower=20448
-        state_category=city
+    state_category=city
 	buildings_max_level_factor=1.000
-            history = {
+    history = {
  		owner = MEX
 		add_core_of = MEX
-}
+		buildings = {
+			infrastructure = 1
+		}
+	}
 }

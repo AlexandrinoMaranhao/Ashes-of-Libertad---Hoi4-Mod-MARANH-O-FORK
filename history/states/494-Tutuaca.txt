@@ -5,13 +5,16 @@ state={
 		102 243 451 564 616 1316 2746 
 	}
 	manpower=3054
-        state_category=wasteland
+    state_category = wasteland
 	buildings_max_level_factor=1.000
-            history = {
+    history = {
  		owner = MEX
 		add_core_of = MEX
-             victory_points = {
-             616 1
-             }
-}
+        victory_points = {
+			616 1
+        }
+		buildings = {
+			infrastructure = 2
+		}
+	}
 }

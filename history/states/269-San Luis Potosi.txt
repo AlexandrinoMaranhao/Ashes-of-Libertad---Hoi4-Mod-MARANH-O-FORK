@@ -7,7 +7,11 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-		2834 30
+			2834 30
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
 		}
 	}
 

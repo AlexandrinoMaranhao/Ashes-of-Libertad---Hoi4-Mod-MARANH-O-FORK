@@ -1,12 +1,15 @@
 state={
 	id=272
 	name="STATE_272"
-
 	history={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
 		89 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
 
