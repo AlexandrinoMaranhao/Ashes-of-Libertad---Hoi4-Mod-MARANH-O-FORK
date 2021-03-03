@@ -11,6 +11,11 @@
  UNO:0 "U.N.O."
  SEC:0 "Socialist Republic of Ecuador"
 
+ ERP:0 "E.R.P."
+ DEA:0 "Escuadrones de la Muerte"
+ TUP:0 "MLN-T"
+ 
+
  HIE_neutrality_DEF:0 "the City State of Lima"
  HIE_DEF:0 "the Holy Inca Empire"
  INC_DEF:0 "the Tawantinsuyu"
@@ -24,7 +29,7 @@
  SEC_DEF:0 "the Socialist Republic of Ecuador"
 
  MAL:0 "2nd Malê Revolt"
- PCR:0 "PCR"
+ PCR:0 "P.C.R."
  BMF:0 "Brazilian Monarchist Front"
  CAN:0 "Cangaceiros"
  CAN_DEF:0 "the Cangaceiros"
@@ -134,10 +139,10 @@
  JUN_neutrality_ADJ:0 "Brazilian"
  JUN_communism_ADJ:0 "Brazilian"
 
- JRM_fascism:0 "3rd Brazilian Republic"
- JRM_fascism_DEF:0 "the 3rd Brazilian Republic"
- JRM_democratic:0 "3rd Brazilian Republic"
- JRM_democratic_DEF:0 "the 3rd Brazilian Republic"
+ JRM_fascism:0 "5th Brazilian Republic"
+ JRM_fascism_DEF:0 "the 5th Brazilian Republic"
+ JRM_democratic:0 "5th Brazilian Republic"
+ JRM_democratic_DEF:0 "the 5th Brazilian Republic"
  JRM_neutrality:1 "Brazilian Military Junta"
  JRM_neutrality_DEF:1 "the Brazilian Military Junta"
  JRM_communism:0 "New Brazilian Republic"

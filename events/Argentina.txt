@@ -6,7 +6,9 @@
 
 add_namespace = ARG
 add_namespace = ARG_aiwar ## FOR ALPHA RELEASE
+add_namespace = ARG_chile_war 
 add_namespace = ARG_intro
+add_namespace = ARG_URG_collapse
 
 ##### INTRO EVENTS
 ## ARGENTINA INTRO (theres not any yet LOL)
@@ -25,7 +27,7 @@ country_event = {
 
 
 ###### NOW TIME TO GET INTO THE GRITTY NITTY
-## ARGENTINA WAR CHAIN FOR ALPHA ##
+## ARGENTINA WAR CHAIN FOR DEMO ##
 country_event = { #### Falklands Reclamation
     id = ARG_aiwar.1
     title = ARG_aiwar.1.t
@@ -61,13 +63,53 @@ country_event = { ### Paraguay
             target = PAR
             type = annex_everything
         }
-        hidden_effect = { country_event = { id = ARG_aiwar.3 days = 371 } }
+        hidden_effect = { country_event = { id = ARG_aiwar.3 days = 371 }  country_event = { id = ARG_URG_collapse.1 days = 297 } }
     }
     option = {
         name = ARG.aiwar.2.b
         ai_chance = { factor = 0.5 }
         puppet = PAR
-        hidden_effect = { country_event = { id = ARG_aiwar.3 days = 371 } }
+        hidden_effect = { country_event = { id = ARG_aiwar.3 days = 371 }  country_event = { id = ARG_URG_collapse.1 days = 297 } }
+    }
+}
+country_event = { ### POCHI'S WET DREAM
+    id = ARG_URG_collapse.1
+    title = ARG_URG_collapse.1.t
+    desc = ARG_URG_collapse.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = ARG_URG_collapse.1.a
+        URG = {
+        80 = {add_core_of = DEA}
+        81 = {add_core_of = DEA}
+        82 = {add_core_of = DEA}
+        83 = {add_core_of = DEA}
+        84 = {add_core_of = DEA}
+
+        80 = {add_core_of = TUP}
+        81 = {add_core_of = TUP}
+        82 = {add_core_of = TUP}
+        83 = {add_core_of = TUP}
+        84 = {add_core_of = TUP}
+
+        DEA = { transfer_state = 81 }
+        DEA = { transfer_state = 82 }
+        TUP = { transfer_state = 83 }
+        TUP = { transfer_state = 84 }
+
+
+        declare_war_on = {
+            target = DEA
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = TUP
+            type = annex_everything
+        }
+    }
     }
 }
 country_event = { ### Uruguay 
@@ -78,26 +120,25 @@ country_event = { ### Uruguay
     fire_only_once = yes
     is_triggered_only = yes
 
+   
     option = {
-        name = ARG_aiwar.3.a
-        ai_chance = { factor = 0.3 }
+        name = ARG_aiwar.3.b
+        declare_war_on = {
+            target = TUP
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = DEA
+            type = annex_everything
+        }
         annex_country = {
             target = URG
             transfer_troops = yes
-        }
-        hidden_effect = { country_event = { id = ARG_aiwar.4 days = 356 } }
-    }
-    option = {
-        name = ARG_aiwar.3.b
-        ai_chance = { factor = 0.7 }
-        declare_war_on = {
-            target = URG
-            type = annex_everything
-        }
+        } 
         hidden_effect = { country_event = { id = ARG_aiwar.4 days = 356 } }
     }
 }
-country_event = {
+country_event = { #AZHADRON VS OVEJA WHO WILL WIN?????
     id = ARG_aiwar.4
     title = ARG.aiwar.4.t
     desc = ARG.aiwar.4.d
@@ -111,10 +152,93 @@ country_event = {
             target = CHL
             type = annex_everything
         }
+
+        hidden_effect = { country_event = { id = ARG_chile_war.1 days = 68 } }
+
+    }
+}
+country_event = { #ERP
+    id = ARG_chile_war.1
+    title = ARG_chile_war.1.t
+    desc = ARG_chile_war.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = ARG_chile_war.1.a
+        389 = {add_core_of = ERP}
+        390 = {add_core_of = ERP}
+
+        ERP = { transfer_state = 389 }
+        ERP = { transfer_state = 390 }
+
+        hidden_effect = { country_event = { id = ARG_chile_war.2 days = 38 } }
+
+    }
+}
+country_event = { #PARAGUAY COMES BACK FROM THE DEAD
+    id = ARG_chile_war.2
+    title = ARG_chile_war.2.t
+    desc = ARG_chile_war.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = ARG_chile_war.2.a
+        ai_chance = { factor = 1 }
+        379 = {add_core_of = PAR}
+
+        PAR = { transfer_state = 278 }
+        PAR = { declare_war_on = {
+            target = ARG
+            type = annex_everything
+            } 
+        }
+        hidden_effect = { country_event = { id = ARG_chile_war.3 days = 45 } }
+
+        set_autonomy = {
+            target = PAR
+            autonomy_state = autonomy_free
+        }
+    }
+}
+country_event = { #URUGUAY COMES BACK FROM THE DEAD
+    id = ARG_chile_war.3
+    title = ARG_chile_war.3.t
+    desc = ARG_chile_war.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = ARG_chile_war.3.a
+        URG = { set_cosmetic_tag = URU_PISSED }
+        URG = {    set_politics = {
+
+                    ruling_party = democratic
+                    last_election = "1967.1.1"
+                    election_frequency = 48
+                    elections_allowed = no
+                        }
+                    set_popularities = {
+                    democratic = 80
+                    fascism = 0
+                    communism = 0
+                    neutrality = 0
+                    reactionary = 20
+                        }
+        }
+
+        URG = { transfer_state = 81 }
+        URG = { transfer_state = 82 }
+        URG = { declare_war_on = {
+            target = ARG
+            type = annex_everything
+            } 
+        }
     }
 }
 
-country_event = {
+country_event = { #FALKLANDS MY ASS THIS IS MALVINAS BABY
     id = ARG_aiwar.5
     title = ARG.aiwar.5.t
     desc = ARG.aiwar.5.d

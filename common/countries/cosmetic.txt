@@ -1,6 +1,9 @@
 
 
-
+URU_PISSED = {
+	color = rgb { 130  80  0 }
+	color_ui = rgb { 130  80  0 }
+}
 VEN_UNION = {
 	color = rgb { 232  155  116 }
 	color_ui = rgb { 232  155  116 }

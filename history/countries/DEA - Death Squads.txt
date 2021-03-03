@@ -1,6 +1,6 @@
-﻿capital = 313
+﻿capital = 81
 
-#oob = ""
+oob = ""
 
 # Starting tech
 set_technology = {
@@ -18,23 +18,31 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 0
-	fascism = 100
+	fascism = 0
 	communism = 0
 	neutrality = 0
-	reactionary = 0
+	reactionary = 100
 
 }
 
+declare_war_on = {
+	target = DEA
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = URG
+	type = annex_everything
+}
+
 add_ideas = {
-	war_economy
-	limited_conscription
-	VEJ_venezuelan_national_guard
+
 }
 
 create_country_leader = {
 	
-	name = "Venezuelan National Guard"
-	picture = "gfx/leaders/VEN/Portrait_VEN_National_Guard.dds"
+	name = "Raul Sendic"
+	picture = "gfx/leaders/ACC/Portrait_ACC_Tachito.dds"
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {

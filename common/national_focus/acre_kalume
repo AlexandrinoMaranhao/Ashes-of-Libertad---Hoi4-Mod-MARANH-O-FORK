@@ -1,0 +1,428 @@
+shared_focus = {
+	id = ACR_kalume_presidency
+	icon = GFX_goal_the_cerqueira_presidency
+
+	x = 30
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		country_event = ACR_cerqueira.1
+	}
+}
+
+shared_focus = {
+	id = ACR_modernization_intro
+	prerequisite = { focus = ACR_kalume_presidency }
+	relative_position_id = ACR_kalume_presidency
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_rubber_barons_rom #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_modernization_intro }
+	relative_position_id = ACR_modernization_intro
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_the_rondon_deal_rom #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_modernization_intro }
+	relative_position_id = ACR_modernization_intro
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_revive_the_rubber_trade_in_rondonia #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_rubber_barons_rom }
+	relative_position_id = ACR_rubber_barons_rom
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_incentivize_cattle #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_the_rondon_deal_rom }
+	relative_position_id = ACR_incentivize_cattle
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_manifest_destiny
+	prerequisite = { focus = ACR_incentivize_cattle }
+	prerequisite = { focus = ACR_revive_the_rubber_trade_in_rondonia }
+	relative_position_id = ACR_modernization_intro
+	#icon = 
+
+	x = 0
+	y = 3
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_the_homestead_act
+	prerequisite = { focus = ACR_manifest_destiny }
+	relative_position_id = ACR_manifest_destiny
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_para_nut_republic #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_the_homestead_act }
+	relative_position_id = ACR_the_homestead_act
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_rondonian_western #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_the_homestead_act }
+	relative_position_id = ACR_the_homestead_act
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_the_southeast_secured
+	prerequisite = { focus = ACR_para_nut_republic }
+	prerequisite = { focus = ACR_rondonian_western }
+	relative_position_id = ACR_the_homestead_act
+	#icon = 
+
+	x = 0
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+#looking in the past
+
+shared_focus = {
+	id = ACR_looking_past
+	prerequisite = { focus = ACR_kalume_presidency }
+	relative_position_id = ACR_kalume_presidency
+	#icon = 
+
+	x = -6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_end_the_technocrats #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_looking_past }
+	relative_position_id = ACR_looking_past
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_healing_wounds #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_looking_past }
+	relative_position_id = ACR_looking_past
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_silence_the_native_lovers #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_healing_wounds }
+	relative_position_id = ACR_healing_wounds
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_war_heroes #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_end_the_technocrats }
+	relative_position_id = ACR_end_the_technocrats
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_the_cerqueira_clique
+	prerequisite = { focus = ACR_silence_the_native_lovers }
+	prerequisite = { focus = ACR_war_heroes }
+	relative_position_id = ACR_looking_past
+	#icon = 
+
+	x = 0
+	y = 3
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+#looking to the future
+shared_focus = {
+	id = ACR_looking_future
+	prerequisite = { focus = ACR_kalume_presidency }
+	relative_position_id = ACR_kalume_presidency
+	#icon = 
+
+	x = 6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_augustos_paranoia #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_looking_future }
+	relative_position_id = ACR_looking_future
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_eneas_ramblings #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_looking_future }
+	relative_position_id = ACR_looking_future
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_convert_him_into_the_party #AVAILABLE WITH MARQUES
+	prerequisite = { focus = ACR_eneas_ramblings }
+	relative_position_id = ACR_eneas_ramblings
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_put_him_to_use #AVAILABLE WITH HELIO
+	prerequisite = { focus = ACR_augustos_paranoia }
+	relative_position_id = ACR_augustos_paranoia
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_dominate_the_senate
+	prerequisite = { focus = ACR_convert_him_into_the_party }
+	prerequisite = { focus = ACR_put_him_to_use }
+	relative_position_id = ACR_looking_future
+	#icon = 
+
+	x = 0
+	y = 3
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+#War Plans
+shared_focus = {
+	id = ACR_wp_amazon
+	prerequisite = { focus = ACR_the_southeast_secured }
+	relative_position_id = ACR_the_southeast_secured
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_wp_bolivia
+	prerequisite = { focus = ACR_the_southeast_secured }
+	relative_position_id = ACR_the_southeast_secured
+	#icon = 
+
+	x = -5
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_wp_peru
+	prerequisite = { focus = ACR_the_southeast_secured }
+	relative_position_id = ACR_the_southeast_secured
+	#icon = 
+
+	x = -10
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_wp_colombia
+	prerequisite = { focus = ACR_the_southeast_secured }
+	relative_position_id = ACR_the_southeast_secured
+	#icon = 
+
+	x = 5
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+shared_focus = {
+	id = ACR_wp_venezuela
+	prerequisite = { focus = ACR_the_southeast_secured }
+	relative_position_id = ACR_the_southeast_secured
+	#icon = 
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
