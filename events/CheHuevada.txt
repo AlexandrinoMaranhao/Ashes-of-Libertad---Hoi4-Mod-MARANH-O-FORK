@@ -37,7 +37,9 @@ country_event = {
         name = ERN_aiwar.1.a
         if = {
         	limit = {
-        		#NOT = { acre_ern_peace_marques = 1 }
+        		NOT = {
+        			has_global_flag = ACR_marques_peace_che
+        		}
         	}
         	ACR = { country_event = { id = ACR_ERN.1 } }
         	hidden_effect = { country_event = { id = ERN_aiwar.2 days = 30 } }

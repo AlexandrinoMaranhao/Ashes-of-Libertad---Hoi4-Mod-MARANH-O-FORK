@@ -754,7 +754,7 @@ shared_focus = {
 
 	completion_reward = {	
 		custom_effect_tooltip = "ACR_promises_of_independence_tt"
-		set_variable = { var = acre_ern_peace_marques = 1 }
+		set_global_flag = ACR_marques_peace_che
 	}
 }
 shared_focus = {
