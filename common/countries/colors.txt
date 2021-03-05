@@ -1,4 +1,43 @@
 
+UEL = {
+	color = rgb { 125 137 92 }
+	color_ui = rgb { 125 137 92 }
+}
+
+BUE = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+CRR = {
+	color = rgb { 18 70 78 }
+	color_ui = rgb { 18 70 78 }
+}
+
+DEO = {
+	color = rgb { 0 0 60 }
+	color_ui = rgb { 0 0 60 }
+}
+
+GAU = {
+	color = rgb { 182 206 100 }
+	color_ui = rgb { 182 206 100 }
+}
+
+MON = {
+	color = rgb { 125 93 100 }
+	color_ui = rgb { 125 93 100 }
+}
+
+MAS = {
+	color = rgb { 0 150 255 }
+	color_ui = rgb { 0 150 255 }
+}
+
+ONG = {
+	color = rgb { 83 142 97 }
+	color_ui = rgb { 83 142 97 }
+}
 
 DEA = {
 	color = rgb { 30 30 20 }

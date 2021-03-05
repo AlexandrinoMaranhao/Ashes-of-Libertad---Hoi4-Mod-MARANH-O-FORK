@@ -1,4 +1,4 @@
-﻿capital = 83
+﻿capital = 381
 
 oob = ""
 
@@ -26,12 +26,32 @@ set_popularities = {
 }
 
 declare_war_on = {
-	target = DEA
+	target = UEL
 	type = annex_everything
 }
 
 declare_war_on = {
-	target = URG
+	target = CRR
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = GAU
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = DEO
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = MAS
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = ONG
 	type = annex_everything
 }
 

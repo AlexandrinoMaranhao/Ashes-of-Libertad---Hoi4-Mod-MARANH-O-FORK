@@ -1,4 +1,4 @@
-﻿capital = 83
+﻿capital = 285
 
 oob = ""
 
@@ -25,16 +25,6 @@ set_popularities = {
 
 }
 
-declare_war_on = {
-	target = DEA
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = URG
-	type = annex_everything
-}
-
 add_ideas = {
 
 }
@@ -44,7 +34,7 @@ create_country_leader = {
 	name = "Raul Sendic"
 	picture = "gfx/leaders/URG/Portrait_URG_Raul_Sendic.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla 
+	ideology = anarchism 
 	traits = {
 		#
 	}

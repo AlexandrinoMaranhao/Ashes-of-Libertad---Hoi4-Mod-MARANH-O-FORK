@@ -1,4 +1,4 @@
-﻿capital = 83
+﻿capital = 385
 
 oob = ""
 
@@ -11,27 +11,47 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 0
-	communism = 100
-	neutrality = 0
+	fascism = 30
+	communism = 20
+	neutrality = 50
 	reactionary = 0
 
 }
 
 declare_war_on = {
-	target = DEA
+	target = CRR
 	type = annex_everything
 }
 
 declare_war_on = {
-	target = URG
+	target = DEO
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = GAU
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = MON
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = MAS
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = ONG
 	type = annex_everything
 }
 
@@ -41,10 +61,10 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Raul Sendic"
+	name = "Ueltschi"
 	picture = "gfx/leaders/URG/Portrait_URG_Raul_Sendic.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla 
+	ideology = military_goverment 
 	traits = {
 		#
 	}

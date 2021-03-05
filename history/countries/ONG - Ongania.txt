@@ -1,4 +1,4 @@
-﻿capital = 83
+﻿capital = 384
 
 oob = ""
 
@@ -11,17 +11,17 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 0
-	communism = 100
+	fascism = 80
+	communism = 15
 	neutrality = 0
-	reactionary = 0
+	reactionary = 5
 
 }
 
@@ -44,7 +44,7 @@ create_country_leader = {
 	name = "Raul Sendic"
 	picture = "gfx/leaders/URG/Portrait_URG_Raul_Sendic.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla 
+	ideology = military_government  
 	traits = {
 		#
 	}
