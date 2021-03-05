@@ -146,7 +146,7 @@ ideas = {
 			}
 			
 			modifier = {
-stability_weekly = 0.01
+				stability_weekly = 0.005
 			}
 		}
 		ACR_rio_branco_academy = {
@@ -497,8 +497,8 @@ stability_weekly = 0.01
 				always = no
 			}
 			modifier = {
-				stability_factor = 0.1
-				war_support_factor = 0.1
+				stability_factor = -0.3
+				war_support_factor = 0.2
 				surrender_limit = 0.4
 			}
 		}
@@ -516,6 +516,25 @@ stability_weekly = 0.01
 			}
 		}
 	}
+		ACR_banana_bread_and_theater = {
+		
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				conscription_factor = -0.1
+				war_support_factor = -0.1
+				consumer_goods_factor = 0.05
+
+			}
+		
+		}
 	hidden_ideas = {
 		ACR_recpop_buff = {
 
@@ -545,21 +564,6 @@ stability_weekly = 0.01
 				conscription_factor = 0.15
 			}
 		}
-		ACR_banana_bread_and_theater = {
-		
-		    allowed = {
-		        tag = ACR
-		    }
-		    
-		    allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				stability_factor = 0.05
-				conscription_factor = -0.1
-			}
-		
-		}
+
 	}	
 }

@@ -31,3 +31,12 @@ ACR_che_war_category = {
 		has_war_with = ERN
 	}
 }
+
+ACR_marques_movies_category = {
+	icon = GFX_decision_category_acre_wartrain
+	allowed = {
+		tag = ACR
+	}
+   visible_when_empty = yes
+
+}

@@ -46,6 +46,9 @@ acrean_senate = {
 			}
 
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 	national_disarmament_act = { 
 	icon = GFX_decision_senate_militarists_decision
@@ -74,6 +77,9 @@ acrean_senate = {
 			random_owned_controlled_state = {
 				add_building_construction = { type = arms_factory level = 2 instant_build = yes }
 			}
+		}
+				ai_will_do = {
+			factor = 999
 		}
 	}
 	native_protection_act = { 
@@ -113,6 +119,9 @@ acrean_senate = {
 				ideology = neutrality
 				popularity = 0.1
 			}
+		}
+				ai_will_do = {
+			factor = 999
 		}
 	}
 
@@ -164,6 +173,9 @@ acrean_senate = {
 				add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
 			}
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 
 	nut_act = { 
@@ -189,6 +201,9 @@ acrean_senate = {
 
 		add_ideas = ACR_para_nut_exports
 
+		}
+				ai_will_do = {
+			factor = 999
 		}
 	}
 
@@ -227,6 +242,9 @@ acrean_senate = {
         }
 
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 
 	labor_act = { 
@@ -250,6 +268,9 @@ acrean_senate = {
 			acre_senate_add_militarist_seats_1 = yes
 			acre_senate_add_nationalist_seats_1 = yes
 			add_ideas = slavery_banned
+		}
+				ai_will_do = {
+			factor = 999
 		}
 	}
 
@@ -286,6 +307,9 @@ acrean_senate = {
         }
         }
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 
 	trade_act = { 
@@ -321,6 +345,9 @@ acrean_senate = {
         }
         }
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 
 	military_factory_act = { 
@@ -349,6 +376,9 @@ acrean_senate = {
 				add_building_construction = { type = arms_factory level = 2 instant_build = yes }
 			}		
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 
 	civilian_factory_act = { 
@@ -376,6 +406,9 @@ acrean_senate = {
 			random_owned_controlled_state = {
 				add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
 			}		
+		}
+				ai_will_do = {
+			factor = 999
 		}
 	}
 
@@ -426,6 +459,9 @@ acrean_senate = {
 		}
 
 		}
+				ai_will_do = {
+			factor = 999
+		}
 	}
 
 	end_gridlock_TN_act = { 
@@ -448,6 +484,9 @@ acrean_senate = {
 			acre_senate_remove_technocrat_seats_1 = yes
 			acre_senate_add_militarist_seats_1 = yes
 
+		}
+				ai_will_do = {
+			factor = 999
 		}
 	}
 
@@ -472,6 +511,9 @@ acrean_senate = {
 			acre_senate_add_militarist_seats_1 = yes
 
 		}
+					ai_will_do = {
+			factor = 999
+		}
 	}
 
 	end_gridlock_NM_act = { 
@@ -495,7 +537,47 @@ acrean_senate = {
 			acre_senate_add_militarist_seats_1 = yes
 
 		}
+			ai_will_do = {
+			factor = 999
+		}
 	}
+
+
+	join_the_libs_act = { #Join the LIBERTADORES Act
+	icon = GFX_decision_senate_technocrats_decision
+
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			check_variable = { senate_technocrat_seats > 14 }
+			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
+		}
+		visible = {
+			has_completed_focus = ACR_make_love_not_war
+		}
+		cost = 50
+		complete_effect = {
+			ERN = {
+				country_event = { id = ACR_join_lib.1 days = 7 }
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+
+		}
+		    ai_will_do = {
+			factor = 999
+		}
+	}
+
 }
 
 ACR_war_train_category = {
@@ -535,6 +617,7 @@ ACR_war_train_category = {
 			tag = ACR
 		}
 	}
+
 }
 
 ACR_che_war_category = {
@@ -587,5 +670,130 @@ ACR_che_war_category = {
 			}
         }
 	}
+
 }
+
+ACR_marques_movies_category = {
+
+
+	ACR_buy_filming_equipment = {
+#adds variable to filming equipment amount 
+	}
+
+
+	ACR_buy_edditing_equipment = {
+#allows captain jose to be made
+#adds tech to Rio Branco
+	}
+
+
+	ACR_begin_filming_captain_jose = {
+#captain alex like movie inspired by the male revolt in Bahia
+#adds war support
+	}
+
+
+	ACR_begin_filming_evangelic_tale = {
+#dramatized evangelic tale
+#adds stability and some token stuff related to the QPM why not, maybe Moacyr too fuck it
+	}
+
+
+	ACR_begin_filming_native_tale = {
+#dramatized popular native tale
+#adds stability
+	}
+
+
+	ACR_begin_filming_jungle_calling = {
+#film based on acrean culture, done irl by marques
+
+	}
+
+
+	ACR_begin_filming_jealously_that_destroys = {
+#film based on acrean culture, done irl by marques
+
+	}
+
+
+	ACR_begin_filming_dramatized_life_of_che = {
+#dramatized life of che 
+
+	}
+
+
+	ACR_begin_filming_dramatized_life_of_che_2 = {
+#dramatized life of che sequel
+
+	}
+
+#finished
+
+	ACR_finish_filming_captain_jose = {
+#captain alex like movie inspired by the male revolt in Bahia
+#adds war support
+	}
+
+
+	ACR_finish_filming_evangelic_tale = {
+#dramatized evangelic tale
+#adds stability and some token stuff related to the QPM why not, maybe Moacyr too fuck it
+	}
+
+
+	ACR_finish_filming_native_tale = {
+#dramatized popular native tale
+#adds stability
+	}
+
+
+	ACR_finish_filming_jungle_calling = {
+#film based on acrean culture, done irl by marques
+
+	}
+
+
+	ACR_finish_filming_jealously_that_destroys = {
+#film based on acrean culture, done irl by marques
+
+	}
+
+
+	ACR_finish_filming_dramatized_life_of_che = {
+#dramatized life of che 
+
+	}
+
+
+	ACR_finish_filming_dramatized_life_of_che_2 = {
+#dramatized life of che sequel
+
+	}
+
+#novelas
+
+	ACR_begin_filming_novela = {
+#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
+	}
+
 	
+	ACR_begin_filming_novela_2 = {
+#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
+	}
+	
+
+	ACR_begin_filming_novela_3 = {
+#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
+	}
+
+
+	ACR_begin_filming_novela_4 = {
+#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
+	}
+
+
+	ACR_begin_filming_novela_5 = {
+#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
+	}
+}

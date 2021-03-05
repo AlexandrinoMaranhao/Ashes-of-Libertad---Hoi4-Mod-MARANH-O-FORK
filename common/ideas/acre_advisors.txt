@@ -124,9 +124,10 @@ ideas = {
 
         }
         
-        marques_ern_high_command = { #marques with ern
-        
-        
+        marques_ern_high_command = { #marques with ERN
+            visible = {
+            has_completed_focus = ACR_holding_hands_with_che
+            }
         	allowed = {
         	original_tag = ACR
         	}
@@ -368,7 +369,11 @@ ideas = {
 
         }
         
-        marques_ern_political_advisor = { #ERN representative        
+        marques_ern_political_advisor = { #ERN representative 
+            visible = {
+                    has_completed_focus = ACR_holding_hands_with_che
+                }
+
         	allowed = {
         	original_tag = ACR
         	}

@@ -108,6 +108,7 @@ shared_focus = {
 	completion_reward = {
 		add_ideas = limited_exports
 		add_ideas = idea_AOL_total_censorship
+		add_ideas = ACR_banana_bread_and_theater
 	}
 }
 shared_focus = {
@@ -449,6 +450,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+
 		custom_effect_tooltip = "ACR_order_patrols_to_halt_tt"
 		if = {
 			limit = {
