@@ -1750,6 +1750,7 @@ country_event = {
 				ERN = {
 			add_to_faction = ACR
 		}
+
 	}
 	option = {
 		name = ACR_join_lib.1.B

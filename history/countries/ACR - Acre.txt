@@ -26,18 +26,14 @@ set_popularities = {
 }
 
 ## variables ##
-set_variable = { 
-	var = filming_equipment
-	value = 0 
-}
-set_variable = { 
-	var = editing_equipment
-	value = 0 
-}
-set_variable = {
-    var = raid_success_percentage
-    value = 0
-}
+
+# movies #
+
+set_variable = { var = filming_equipment value = 0 }
+set_variable = { var = editing_equipment value = 0 }
+set_variable = { var = cj_success_chance value = 0 }
+
+set_variable = { var = raid_success_percentage value = 0 }
 set_variable = { ACR_industrial_capacity_factory = -0.2 }
 set_variable = { ACR_research_speed_factor = -0.1 }
 add_dynamic_modifier = {

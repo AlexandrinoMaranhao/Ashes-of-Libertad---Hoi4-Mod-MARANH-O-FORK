@@ -330,6 +330,21 @@ ideas = {
 				industrial_capacity_factory = -0.1
 			}
 		}
+		ACR_suspicious_government = {
+			
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_weekly = -0.15
+				war_support_weekly = -0.05
+			}
+		}
 		ACR_funai = {
 			
 			allowed = {

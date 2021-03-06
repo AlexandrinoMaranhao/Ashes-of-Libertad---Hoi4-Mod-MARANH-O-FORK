@@ -1,0 +1,229 @@
+#########################################################################
+# Marques' Movies
+#########################################################################
+
+add_namespace = CaptainJose
+
+#########################################################################
+# Marques' Movies
+#########################################################################
+
+country_event = { #Main Actor Choosing
+	id = CaptainJose.1
+	title = CaptainJose.1.t
+	desc = CaptainJose.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.1.A
+	}
+
+	option = {
+		name = CaptainJose.1.B
+	}
+
+	option = {
+		name = CaptainJose.1.C
+	}
+}
+
+country_event = { #First Production Hickup
+	id = CaptainJose.2
+	title = CaptainJose.2.t
+	desc = CaptainJose.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.2.A
+	}
+
+	option = {
+		name = CaptainJose.2.B
+	}
+
+	option = {
+		name = CaptainJose.2.C
+	}
+}
+
+country_event = { #Second Production Hickup
+	id = CaptainJose.3
+	title = CaptainJose.3.t
+	desc = CaptainJose.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.3.A
+	}
+
+	option = {
+		name = CaptainJose.3.B
+	}
+
+	option = {
+		name = CaptainJose.3.C
+	}
+}
+
+country_event = { #Third Production Hickup
+	id = CaptainJose.4
+	title = CaptainJose.4.t
+	desc = CaptainJose.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.4.A
+	}
+
+	option = {
+		name = CaptainJose.4.B
+	}
+
+	option = {
+		name = CaptainJose.4.C
+	}
+}
+
+country_event = { #Failure
+	id = CaptainJose.5
+	title = CaptainJose.5.t
+	desc = CaptainJose.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.5.A
+	}
+
+	option = {
+		name = CaptainJose.5.B
+	}
+
+	option = {
+		name = CaptainJose.5.C
+	}
+}
+
+country_event = { #Movie Finalized 
+	id = CaptainJose.6
+	title = CaptainJose.6.t
+	desc = CaptainJose.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.6.A
+	}
+
+	option = {
+		name = CaptainJose.6.B
+	}
+
+	option = {
+		name = CaptainJose.6.C
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = CaptainJose.7
+	title = CaptainJose.7.t
+	desc = CaptainJose.7.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.7.A
+	}
+
+	option = {
+		name = CaptainJose.7.B
+	}
+
+	option = {
+		name = CaptainJose.7.C
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = CaptainJose.8
+	title = CaptainJose.8.t
+	desc = CaptainJose.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.8.A
+	}
+
+	option = {
+		name = CaptainJose.8.B
+	}
+
+	option = {
+		name = CaptainJose.8.C
+	}
+}
+
+country_event = { #Movie Released Mild Success
+	id = CaptainJose.9
+	title = CaptainJose.9.t
+	desc = CaptainJose.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.9.A
+	}
+
+	option = {
+		name = CaptainJose.9.B
+	}
+
+	option = {
+		name = CaptainJose.9.C
+	}
+}
+
+country_event = { #Movie Released No Success
+	id = CaptainJose.10
+	title = CaptainJose.10.t
+	desc = CaptainJose.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = CaptainJose.10.A
+	}
+
+	option = {
+		name = CaptainJose.10.B
+	}
+
+	option = {
+		name = CaptainJose.10.C
+	}
+}

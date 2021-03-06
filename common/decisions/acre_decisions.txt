@@ -723,7 +723,6 @@ ACR_marques_movies_category = {
 
 	ACR_buy_editing_equipment = {
 #allows captain jose to be made
-#adds tech to Rio Branco
 		complete_effect = {
 	add_to_variable = { var = editing_equipment value = 1 }
 		}
@@ -731,12 +730,15 @@ ACR_marques_movies_category = {
 
 
 	ACR_begin_filming_captain_jose = {
-#captain alex like movie inspired by the male revolt in Bahia
-#adds war support
+
 	remove_effect = {
 	set_country_flag = finished_making_captain_jose
 
 	}
+			complete_effect = {
+	subtract_from_variable = { var = editing_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
 	days_remove = 5
 	fire_only_once = yes 
 	}
@@ -746,13 +748,38 @@ ACR_marques_movies_category = {
 	ACR_finish_filming_captain_jose = {
 	#captain alex like movie inspired by the male revolt in Bahia
 	#adds war support
-	visible = {
-        has_country_flag = finished_making_captain_jose
-        }
+	#visible = {
+    #    has_country_flag = finished_making_captain_jose
+    #    }
 	complete_effect = {
+
 		clr_country_flag = finished_making_captain_jose
-
+		
+			 if = {
+      limit = {
+        check_variable = { cj_success_chance > 7 }
+  }
+  country_event = { id = CaptainJose.8 days= 7}
+  else_if = {
+    limit = {
+      AND = {
+        check_variable = { cj_success_chance > 4 }
+        check_variable = { cj_success_chance < 8 }
+      } 
+  }
+  country_event = { id = CaptainJose.9 days = 7 }
+  else_if = {
+    limit = {
+      check_variable = { cj_success_chance < 5 }
+    }
+  country_event = { id = CaptainJose.10 days = 7 }
+} 
 	}
+		}
 	}
-
 }
+	ACR_debug_add_cj_success_chance = {
+	complete_effect = {
+	add_to_variable = { var = cj_success_chance value = 1 }
+	}
+	}

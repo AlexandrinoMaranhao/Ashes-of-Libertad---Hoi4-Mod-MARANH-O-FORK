@@ -109,6 +109,7 @@ shared_focus = {
 		add_ideas = limited_exports
 		add_ideas = idea_AOL_total_censorship
 		add_ideas = ACR_banana_bread_and_theater
+		add_ideas = ACR_suspicious_government
 	}
 }
 shared_focus = {
