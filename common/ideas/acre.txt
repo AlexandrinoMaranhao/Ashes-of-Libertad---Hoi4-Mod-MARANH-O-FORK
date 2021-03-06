@@ -515,7 +515,6 @@ ideas = {
 				stability_factor = 0.1
 			}
 		}
-	}
 		ACR_banana_bread_and_theater = {
 		
 		    allowed = {
@@ -533,8 +532,8 @@ ideas = {
 				consumer_goods_factor = 0.05
 
 			}
-		
 		}
+	}	
 	hidden_ideas = {
 		ACR_recpop_buff = {
 
@@ -564,6 +563,5 @@ ideas = {
 				conscription_factor = 0.15
 			}
 		}
-
 	}	
 }

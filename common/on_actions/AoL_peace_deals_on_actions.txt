@@ -1057,7 +1057,6 @@ on_actions = {
       } 
     }
   }
-}
   on_state_control_changed = {
     effect = {
       if = { #### Jamaica vs West Indies
@@ -1616,4 +1615,4 @@ on_actions = {
       }
     }
   }
-} 
+}  

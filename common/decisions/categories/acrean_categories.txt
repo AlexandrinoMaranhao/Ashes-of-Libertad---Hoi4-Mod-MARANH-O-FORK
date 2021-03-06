@@ -37,6 +37,6 @@ ACR_marques_movies_category = {
 	allowed = {
 		tag = ACR
 	}
-   visible_when_empty = yes
+    visible_when_empty = yes
 
 }

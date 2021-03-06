@@ -1,0 +1,32 @@
+add_namespace = Para
+
+country_event = {
+	id = Para.8
+	title = Para.8.t
+	desc = Para.8.d
+	picture = x
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.8.A
+		random_list = {
+    		50 = {
+				BEM= {
+					annex_country = {
+    					target = KAY
+    					transfer_troops = no
+							}				
+						}
+        		XIN = { transfer_state = 149 }
+    			}
+    		50 = {
+        		declare_war_on = {
+    				target = BEM
+    				type = annex_everything
+				}
+    		}
+		}
+	}
+}

@@ -36,14 +36,11 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Charles Chandler"
-	picture = "gfx/leaders/CIA/Portrait_CIA_Charles_Chandler.dds"
+	name = "C?????? C??????"
+	picture = "GFX_Portrait_CIA_leader"
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {
 		#
 	}
-}
-
-
 }

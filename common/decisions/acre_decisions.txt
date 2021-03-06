@@ -280,7 +280,11 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_nationalist_seats > 7  senate_technocrat_seats > 7 }
+			AND = {
+				check_variable = { senate_technocrat_seats > 7 }
+				check_variable = { senate_nationalist_seats > 7 }
+			}	
+			
 			custom_trigger_tooltip = { tooltip = press_act_tt }
 		}
 		visible = {
@@ -318,7 +322,11 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 7 senate_technocrat_seats > 7 }
+			AND = {
+				check_variable = { senate_technocrat_seats > 7 }
+				check_variable = { senate_militarist_seats > 7 }
+			}
+			
 			custom_trigger_tooltip = { tooltip = trade_act_tt }
 		}
 		visible = {
@@ -356,7 +364,11 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 7  senate_nationalist_seats > 7 }
+			AND = {
+				check_variable = { senate_nationalist_seats > 7 }
+				check_variable = { senate_militarist_seats > 7 }
+			}
+			
 			custom_trigger_tooltip = { tooltip = military_factory_act_tt }
 		}
 		visible = {
@@ -387,7 +399,11 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_technocrat_seats > 7  senate_nationalist_seats > 7 }
+			AND = {
+				check_variable = { senate_nationalist_seats > 7 }
+				check_variable = { senate_technocrat_seats > 7 }
+			}
+			
 			custom_trigger_tooltip = { tooltip = civilian_act_tt }
 		}
 		visible = {
@@ -418,7 +434,11 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
-			check_variable = { senate_militarist_seats > 7  senate_nationalist_seats > 7 }
+			AND = {
+				check_variable = { senate_militarist_seats > 7 }
+				check_variable = { senate_nationalist_seats > 7 }
+			}
+			
 			custom_trigger_tooltip = { tooltip = defense_act_tt }
 		}
 		visible = {
@@ -474,7 +494,7 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
 		}
 		visible = {
-			check_variable = { senate_technocrats_seats = 9 }
+			check_variable = { senate_technocrat_seats = 9 }
 			check_variable = { senate_nationalist_seats = 9 }
 		}
 		cost = 50
@@ -500,7 +520,7 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
 		}
 		visible = {
-			check_variable = { senate_technocrats_seats = 9 }
+			check_variable = { senate_technocrat_seats = 9 }
 			check_variable = { senate_militarist_seats = 9 } 
 		}
 		cost = 50
@@ -563,7 +583,7 @@ acrean_senate = {
 		cost = 50
 		complete_effect = {
 			ERN = {
-				country_event = { id = ACR_join_lib.1 days = 7 }
+				country_event = { id = ERN_ACR_join_lib.1 days = 7 }
 			}
 			add_popularity = {
 				ideology = communism

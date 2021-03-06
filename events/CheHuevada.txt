@@ -4,6 +4,7 @@ add_namespace = ERN
 add_namespace = ERN_aiwar
 add_namespace = ERN_intro
 add_namespace = ERN_Marques
+add_namespace = ERN_ACR_join_lib
 
 
 #### INTRO events (there arent any yet)
@@ -163,6 +164,21 @@ country_event = { #deeper oh yeah
 		country_event = {
 			id = ACRMarques.12
 			days = 0
+		}
+	}
+}
+
+country_event = {
+	id = ERN_ACR_join_lib.1
+	title = ERN_ACR_join_lib.1.t
+	desc = ERN_ACR_join_lib.1.d
+	picture = GFX_report_event_acre_flag
+	
+	#Answer
+	option = {
+		name = ERN_ACR_join_lib.1.A
+			ACR = {
+				country_event = { id = ACR_join_lib.1 days = 2 }
 		}
 	}
 }
