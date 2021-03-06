@@ -93,6 +93,10 @@
   trade_ammunition:0 "Buy Ammunition"
   trade_motors:0 "Buy Motor Parts"
   trade_technology:0 "Buy Technology"
+
+  ACR_marques_movies_category:0 "Banana-Bread and Theater"
+  ACR_marques_movies_category_desc:0 "We currently have [?filming_equipment] filming equipment and [?editing_equipment] editing equipment in stock"
+
 ################
 # Ideas
 ################

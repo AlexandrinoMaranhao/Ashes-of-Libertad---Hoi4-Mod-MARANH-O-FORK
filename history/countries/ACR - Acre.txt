@@ -26,6 +26,14 @@ set_popularities = {
 }
 
 ## variables ##
+set_variable = { 
+	var = filming_equipment
+	value = 0 
+}
+set_variable = { 
+	var = editing_equipment
+	value = 0 
+}
 set_variable = {
     var = raid_success_percentage
     value = 0

@@ -548,10 +548,14 @@ acrean_senate = {
 
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_make_love_not_war
+
 		}
 		available = {
 			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
+			has_completed_focus = ACR_make_love_not_war
+
 		}
 		visible = {
 			has_completed_focus = ACR_make_love_not_war
@@ -639,6 +643,8 @@ ACR_che_war_category = {
 				transfer_state = 355
 				transfer_state = 356
 				transfer_state = 353
+				transfer_state = 354
+
 			}
 			PAR = {
 				transfer_state = 358
@@ -654,8 +660,6 @@ ACR_che_war_category = {
 				transfer_state = 142
 				transfer_state = 88
 				transfer_state = 141
-				transfer_state = 354
-				add_state_core = 354
 			}
 			ACR = {
 				puppet = RON
@@ -675,125 +679,60 @@ ACR_che_war_category = {
 
 ACR_marques_movies_category = {
 
+#	ACR_debug_add_filming_and_editing_equipment = {
+#			complete_effect = {
+#	add_to_variable = { var = filming_equipment value = 1 }
+#	add_to_variable = { var = editing_equipment value = 1 }
+#    	}
+#	}
+#
+#	ACR_debug_remove_filming_and_editing_equipment = {
+#			complete_effect = {
+#	subtract_from_variable = { var = filming_equipment value = 1 }
+#	subtract_from_variable = { var = editing_equipment value = 1 }
+#    	}
+#	}
 
 	ACR_buy_filming_equipment = {
 #adds variable to filming equipment amount 
+			complete_effect = { 
+	add_to_variable = { var = filming_equipment value = 1 }
+    	}
 	}
 
 
-	ACR_buy_edditing_equipment = {
+	ACR_buy_editing_equipment = {
 #allows captain jose to be made
 #adds tech to Rio Branco
+		complete_effect = {
+	add_to_variable = { var = editing_equipment value = 1 }
+		}
 	}
 
 
 	ACR_begin_filming_captain_jose = {
 #captain alex like movie inspired by the male revolt in Bahia
 #adds war support
-	}
-
-
-	ACR_begin_filming_evangelic_tale = {
-#dramatized evangelic tale
-#adds stability and some token stuff related to the QPM why not, maybe Moacyr too fuck it
-	}
-
-
-	ACR_begin_filming_native_tale = {
-#dramatized popular native tale
-#adds stability
-	}
-
-
-	ACR_begin_filming_jungle_calling = {
-#film based on acrean culture, done irl by marques
+	remove_effect = {
+	set_country_flag = finished_making_captain_jose
 
 	}
-
-
-	ACR_begin_filming_jealously_that_destroys = {
-#film based on acrean culture, done irl by marques
-
+	days_remove = 5
+	fire_only_once = yes 
 	}
 
-
-	ACR_begin_filming_dramatized_life_of_che = {
-#dramatized life of che 
-
-	}
-
-
-	ACR_begin_filming_dramatized_life_of_che_2 = {
-#dramatized life of che sequel
-
-	}
-
-#finished
+##finished
 
 	ACR_finish_filming_captain_jose = {
-#captain alex like movie inspired by the male revolt in Bahia
-#adds war support
-	}
-
-
-	ACR_finish_filming_evangelic_tale = {
-#dramatized evangelic tale
-#adds stability and some token stuff related to the QPM why not, maybe Moacyr too fuck it
-	}
-
-
-	ACR_finish_filming_native_tale = {
-#dramatized popular native tale
-#adds stability
-	}
-
-
-	ACR_finish_filming_jungle_calling = {
-#film based on acrean culture, done irl by marques
+	#captain alex like movie inspired by the male revolt in Bahia
+	#adds war support
+	visible = {
+        has_country_flag = finished_making_captain_jose
+        }
+	complete_effect = {
+		clr_country_flag = finished_making_captain_jose
 
 	}
-
-
-	ACR_finish_filming_jealously_that_destroys = {
-#film based on acrean culture, done irl by marques
-
 	}
 
-
-	ACR_finish_filming_dramatized_life_of_che = {
-#dramatized life of che 
-
-	}
-
-
-	ACR_finish_filming_dramatized_life_of_che_2 = {
-#dramatized life of che sequel
-
-	}
-
-#novelas
-
-	ACR_begin_filming_novela = {
-#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
-	}
-
-	
-	ACR_begin_filming_novela_2 = {
-#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
-	}
-	
-
-	ACR_begin_filming_novela_3 = {
-#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
-	}
-
-
-	ACR_begin_filming_novela_4 = {
-#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
-	}
-
-
-	ACR_begin_filming_novela_5 = {
-#generic novela, repeatable so the player has something to click on once he finishes all else, gets released immediately after completion
-	}
 }
