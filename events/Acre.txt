@@ -1738,21 +1738,21 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = ACR_join_lib.1
-	title = ACR_join_lib.1.t
-	desc = ACR_join_lib.1.d
-	picture = GFX_report_event_acre_flag
-	
-	#Answer
-	option = {
-		name = ACR_join_lib.1.A
-				ERN = {
-			add_to_faction = ACR
-		}
-
-	}
-	option = {
-		name = ACR_join_lib.1.B
-	}
-}
+#country_event = {
+#	id = ACR_join_lib.1
+#	title = ACR_join_lib.1.t
+#	desc = ACR_join_lib.1.d
+#	picture = GFX_report_event_acre_flag
+#	
+#	#Answer
+#	option = {
+#		name = ACR_join_lib.1.A
+#				ERN = {
+#			add_to_faction = ACR
+#		}
+#
+#	}
+#	option = {
+#		name = ACR_join_lib.1.B
+#	}
+#}

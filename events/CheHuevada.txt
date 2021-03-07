@@ -168,17 +168,17 @@ country_event = { #deeper oh yeah
 	}
 }
 
-country_event = {
-	id = ERN_ACR_join_lib.1
-	title = ERN_ACR_join_lib.1.t
-	desc = ERN_ACR_join_lib.1.d
-	picture = GFX_report_event_acre_flag
-	
-	#Answer
-	option = {
-		name = ERN_ACR_join_lib.1.A
-			ACR = {
-				country_event = { id = ACR_join_lib.1 days = 2 }
-		}
-	}
-}
+#country_event = {
+#	id = ERN_ACR_join_lib.1
+#	title = ERN_ACR_join_lib.1.t
+#	desc = ERN_ACR_join_lib.1.d
+#	picture = GFX_report_event_acre_flag
+#	
+#	#Answer
+#	option = {
+#		name = ERN_ACR_join_lib.1.A
+#			ACR = {
+#				country_event = { id = ACR_join_lib.1 days = 2 }
+#		}
+#	}
+#}

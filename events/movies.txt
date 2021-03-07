@@ -3,9 +3,14 @@
 #########################################################################
 
 add_namespace = CaptainJose
+add_namespace = evangelical_movie
+add_namespace = jungle_calling
+add_namespace = che_1
+add_namespace = selfishness
+add_namespace = che_2
 
 #########################################################################
-# Marques' Movies
+# Captain José
 #########################################################################
 
 country_event = { #Main Actor Choosing
@@ -17,16 +22,24 @@ country_event = { #Main Actor Choosing
 	is_triggered_only = yes
 	
 	#Answer
-	option = {
+	option = { #Abrahim Farhat
 		name = CaptainJose.1.A
+			add_to_variable = { var = cj_success_chance value = 1 }
+				country_event = { id = CaptainJose.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
 	}
 
-	option = {
+	option = { #João Eduardo
 		name = CaptainJose.1.B
+			add_to_variable = { var = cj_success_chance value = 2 }
+				country_event = { id = CaptainJose.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
 	}
 
 	option = {
 		name = CaptainJose.1.C
+				country_event = { id = CaptainJose.2 days = 20 }
+
 	}
 }
 
@@ -41,14 +54,25 @@ country_event = { #First Production Hickup
 	#Answer
 	option = {
 		name = CaptainJose.2.A
+			add_to_variable = { var = cj_success_chance value = 1 }
+				country_event = { id = CaptainJose.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+
 	}
 
 	option = {
 		name = CaptainJose.2.B
+			add_to_variable = { var = cj_success_chance value = 2 }
+				country_event = { id = CaptainJose.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
 	}
 
 	option = {
 		name = CaptainJose.2.C
+				country_event = { id = CaptainJose.3 days = 20 }
+
 	}
 }
 
@@ -63,14 +87,24 @@ country_event = { #Second Production Hickup
 	#Answer
 	option = {
 		name = CaptainJose.3.A
+			add_to_variable = { var = cj_success_chance value = 1 }
+				country_event = { id = CaptainJose.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
 	}
 
 	option = {
 		name = CaptainJose.3.B
+			add_to_variable = { var = cj_success_chance value = 2 }
+				country_event = { id = CaptainJose.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
 	}
 
 	option = {
 		name = CaptainJose.3.C
+				country_event = { id = CaptainJose.4 days = 20 }
+
 	}
 }
 
@@ -85,15 +119,23 @@ country_event = { #Third Production Hickup
 	#Answer
 	option = {
 		name = CaptainJose.4.A
+			add_to_variable = { var = cj_success_chance value = 1 }
+				country_event = { id = CaptainJose.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
 	}
 
 	option = {
 		name = CaptainJose.4.B
+			add_to_variable = { var = cj_success_chance value = 2 }
+				country_event = { id = CaptainJose.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
 	}
 
 	option = {
 		name = CaptainJose.4.C
+				country_event = { id = CaptainJose.5 }
 	}
+
 }
 
 country_event = { #Failure
@@ -108,14 +150,6 @@ country_event = { #Failure
 	option = {
 		name = CaptainJose.5.A
 	}
-
-	option = {
-		name = CaptainJose.5.B
-	}
-
-	option = {
-		name = CaptainJose.5.C
-	}
 }
 
 country_event = { #Movie Finalized 
@@ -129,36 +163,18 @@ country_event = { #Movie Finalized
 	#Answer
 	option = {
 		name = CaptainJose.6.A
+			add_to_variable = { var = cj_success_chance value = 1 }
+	subtract_from_variable = { var = editing_equipment value = 1 }
 	}
 
 	option = {
 		name = CaptainJose.6.B
+			add_to_variable = { var = cj_success_chance value = 2 }
+	subtract_from_variable = { var = editing_equipment value = 2 }
 	}
 
 	option = {
 		name = CaptainJose.6.C
-	}
-}
-
-country_event = { #Movie Released Great Success
-	id = CaptainJose.7
-	title = CaptainJose.7.t
-	desc = CaptainJose.7.d
-	picture = GFX_report_event_acre_flag
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	#Answer
-	option = {
-		name = CaptainJose.7.A
-	}
-
-	option = {
-		name = CaptainJose.7.B
-	}
-
-	option = {
-		name = CaptainJose.7.C
 	}
 }
 
@@ -175,13 +191,6 @@ country_event = { #Movie Released Great Success
 		name = CaptainJose.8.A
 	}
 
-	option = {
-		name = CaptainJose.8.B
-	}
-
-	option = {
-		name = CaptainJose.8.C
-	}
 }
 
 country_event = { #Movie Released Mild Success
@@ -197,13 +206,6 @@ country_event = { #Movie Released Mild Success
 		name = CaptainJose.9.A
 	}
 
-	option = {
-		name = CaptainJose.9.B
-	}
-
-	option = {
-		name = CaptainJose.9.C
-	}
 }
 
 country_event = { #Movie Released No Success
@@ -219,11 +221,1092 @@ country_event = { #Movie Released No Success
 		name = CaptainJose.10.A
 	}
 
-	option = {
-		name = CaptainJose.10.B
+}
+
+#########################################################################
+# Evangelical Movie
+#########################################################################
+
+country_event = { #Main Actor Choosing
+	id = evangelical_movie.1
+	title = evangelical_movie.1.t
+	desc = evangelical_movie.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = { #Abrahim Farhat
+		name = evangelical_movie.1.A
+			add_to_variable = { var = ev_success_chance value = 1 }
+				country_event = { id = evangelical_movie.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = { #João Eduardo
+		name = evangelical_movie.1.B
+			add_to_variable = { var = ev_success_chance value = 2 }
+				country_event = { id = evangelical_movie.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
 	}
 
 	option = {
-		name = CaptainJose.10.C
+		name = evangelical_movie.1.C
+				country_event = { id = evangelical_movie.2 days = 20 }
+
 	}
+}
+
+country_event = { #First Production Hickup
+	id = evangelical_movie.2
+	title = evangelical_movie.2.t
+	desc = evangelical_movie.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.2.A
+			add_to_variable = { var = ev_success_chance value = 1 }
+				country_event = { id = evangelical_movie.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+
+	}
+
+	option = {
+		name = evangelical_movie.2.B
+			add_to_variable = { var = ev_success_chance value = 2 }
+				country_event = { id = evangelical_movie.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = evangelical_movie.2.C
+				country_event = { id = evangelical_movie.3 days = 20 }
+
+	}
+}
+
+country_event = { #Second Production Hickup
+	id = evangelical_movie.3
+	title = evangelical_movie.3.t
+	desc = evangelical_movie.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.3.A
+			add_to_variable = { var = ev_success_chance value = 1 }
+				country_event = { id = evangelical_movie.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+	}
+
+	option = {
+		name = evangelical_movie.3.B
+			add_to_variable = { var = ev_success_chance value = 2 }
+				country_event = { id = evangelical_movie.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = evangelical_movie.3.C
+				country_event = { id = evangelical_movie.4 days = 20 }
+
+	}
+}
+
+country_event = { #Third Production Hickup
+	id = evangelical_movie.4
+	title = evangelical_movie.4.t
+	desc = evangelical_movie.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.4.A
+			add_to_variable = { var = ev_success_chance value = 1 }
+				country_event = { id = evangelical_movie.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = {
+		name = evangelical_movie.4.B
+			add_to_variable = { var = ev_success_chance value = 2 }
+				country_event = { id = evangelical_movie.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = evangelical_movie.4.C
+				country_event = { id = evangelical_movie.5 }
+	}
+
+}
+
+country_event = { #Failure
+	id = evangelical_movie.5
+	title = evangelical_movie.5.t
+	desc = evangelical_movie.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.5.A
+	}
+}
+
+country_event = { #Movie Finalized 
+	id = evangelical_movie.6
+	title = evangelical_movie.6.t
+	desc = evangelical_movie.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.6.A
+			add_to_variable = { var = ev_success_chance value = 1 }
+	subtract_from_variable = { var = editing_equipment value = 1 }
+	}
+
+	option = {
+		name = evangelical_movie.6.B
+			add_to_variable = { var = ev_success_chance value = 2 }
+	subtract_from_variable = { var = editing_equipment value = 2 }
+	}
+
+	option = {
+		name = evangelical_movie.6.C
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = evangelical_movie.8
+	title = evangelical_movie.8.t
+	desc = evangelical_movie.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.8.A
+	}
+
+}
+
+country_event = { #Movie Released Mild Success
+	id = evangelical_movie.9
+	title = evangelical_movie.9.t
+	desc = evangelical_movie.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.9.A
+	}
+
+}
+
+country_event = { #Movie Released No Success
+	id = evangelical_movie.10
+	title = evangelical_movie.10.t
+	desc = evangelical_movie.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = evangelical_movie.10.A
+	}
+
+}
+
+#########################################################################
+# Jungle Calling Movie
+#########################################################################
+
+country_event = { #Main Actor Choosing
+	id = jungle_calling.1
+	title = jungle_calling.1.t
+	desc = jungle_calling.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = { #Abrahim Farhat
+		name = jungle_calling.1.A
+			add_to_variable = { var = jc_success_chance value = 1 }
+				country_event = { id = jungle_calling.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = { #João Eduardo
+		name = jungle_calling.1.B
+			add_to_variable = { var = jc_success_chance value = 2 }
+				country_event = { id = jungle_calling.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = jungle_calling.1.C
+				country_event = { id = jungle_calling.2 days = 20 }
+
+	}
+}
+
+country_event = { #First Production Hickup
+	id = jungle_calling.2
+	title = jungle_calling.2.t
+	desc = jungle_calling.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.2.A
+			add_to_variable = { var = jc_success_chance value = 1 }
+				country_event = { id = jungle_calling.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+
+	}
+
+	option = {
+		name = jungle_calling.2.B
+			add_to_variable = { var = jc_success_chance value = 2 }
+				country_event = { id = jungle_calling.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = jungle_calling.2.C
+				country_event = { id = jungle_calling.3 days = 20 }
+
+	}
+}
+
+country_event = { #Second Production Hickup
+	id = jungle_calling.3
+	title = jungle_calling.3.t
+	desc = jungle_calling.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.3.A
+			add_to_variable = { var = jc_success_chance value = 1 }
+				country_event = { id = jungle_calling.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+	}
+
+	option = {
+		name = jungle_calling.3.B
+			add_to_variable = { var = jc_success_chance value = 2 }
+				country_event = { id = jungle_calling.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = jungle_calling.3.C
+				country_event = { id = jungle_calling.4 days = 20 }
+
+	}
+}
+
+country_event = { #Third Production Hickup
+	id = jungle_calling.4
+	title = jungle_calling.4.t
+	desc = jungle_calling.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.4.A
+			add_to_variable = { var = jc_success_chance value = 1 }
+				country_event = { id = jungle_calling.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = {
+		name = jungle_calling.4.B
+			add_to_variable = { var = jc_success_chance value = 2 }
+				country_event = { id = jungle_calling.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = jungle_calling.4.C
+				country_event = { id = jungle_calling.5 }
+	}
+
+}
+
+country_event = { #Failure
+	id = jungle_calling.5
+	title = jungle_calling.5.t
+	desc = jungle_calling.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.5.A
+	}
+}
+
+country_event = { #Movie Finalized 
+	id = jungle_calling.6
+	title = jungle_calling.6.t
+	desc = jungle_calling.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.6.A
+			add_to_variable = { var = jc_success_chance value = 1 }
+	subtract_from_variable = { var = editing_equipment value = 1 }
+	}
+
+	option = {
+		name = jungle_calling.6.B
+			add_to_variable = { var = jc_success_chance value = 2 }
+	subtract_from_variable = { var = editing_equipment value = 2 }
+	}
+
+	option = {
+		name = jungle_calling.6.C
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = jungle_calling.8
+	title = jungle_calling.8.t
+	desc = jungle_calling.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.8.A
+	}
+
+}
+
+country_event = { #Movie Released Mild Success
+	id = jungle_calling.9
+	title = jungle_calling.9.t
+	desc = jungle_calling.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.9.A
+	}
+
+}
+
+country_event = { #Movie Released No Success
+	id = jungle_calling.10
+	title = jungle_calling.10.t
+	desc = jungle_calling.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = jungle_calling.10.A
+	}
+
+}
+
+#########################################################################
+# Selfishness that Enslaves and Destroys Movie
+#########################################################################
+
+country_event = { #Main Actor Choosing
+	id = selfishness.1
+	title = selfishness.1.t
+	desc = selfishness.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = { #Abrahim Farhat
+		name = selfishness.1.A
+			add_to_variable = { var = ek_success_chance value = 1 }
+				country_event = { id = selfishness.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = { #João Eduardo
+		name = selfishness.1.B
+			add_to_variable = { var = ek_success_chance value = 2 }
+				country_event = { id = selfishness.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = selfishness.1.C
+				country_event = { id = selfishness.2 days = 20 }
+
+	}
+}
+
+country_event = { #First Production Hickup
+	id = selfishness.2
+	title = selfishness.2.t
+	desc = selfishness.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.2.A
+			add_to_variable = { var = ek_success_chance value = 1 }
+				country_event = { id = selfishness.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+
+	}
+
+	option = {
+		name = selfishness.2.B
+			add_to_variable = { var = ek_success_chance value = 2 }
+				country_event = { id = selfishness.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = selfishness.2.C
+				country_event = { id = selfishness.3 days = 20 }
+
+	}
+}
+
+country_event = { #Second Production Hickup
+	id = selfishness.3
+	title = selfishness.3.t
+	desc = selfishness.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.3.A
+			add_to_variable = { var = ek_success_chance value = 1 }
+				country_event = { id = selfishness.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+	}
+
+	option = {
+		name = selfishness.3.B
+			add_to_variable = { var = ek_success_chance value = 2 }
+				country_event = { id = selfishness.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = selfishness.3.C
+				country_event = { id = selfishness.4 days = 20 }
+
+	}
+}
+
+country_event = { #Third Production Hickup
+	id = selfishness.4
+	title = selfishness.4.t
+	desc = selfishness.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.4.A
+			add_to_variable = { var = ek_success_chance value = 1 }
+				country_event = { id = selfishness.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = {
+		name = selfishness.4.B
+			add_to_variable = { var = ek_success_chance value = 2 }
+				country_event = { id = selfishness.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = selfishness.4.C
+				country_event = { id = selfishness.5 }
+	}
+
+}
+
+country_event = { #Failure
+	id = selfishness.5
+	title = selfishness.5.t
+	desc = selfishness.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.5.A
+	}
+}
+
+country_event = { #Movie Finalized 
+	id = selfishness.6
+	title = selfishness.6.t
+	desc = selfishness.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.6.A
+			add_to_variable = { var = ek_success_chance value = 1 }
+	subtract_from_variable = { var = editing_equipment value = 1 }
+	}
+
+	option = {
+		name = selfishness.6.B
+			add_to_variable = { var = ek_success_chance value = 2 }
+	subtract_from_variable = { var = editing_equipment value = 2 }
+	}
+
+	option = {
+		name = selfishness.6.C
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = selfishness.8
+	title = selfishness.8.t
+	desc = selfishness.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.8.A
+	}
+
+}
+
+country_event = { #Movie Released Mild Success
+	id = selfishness.9
+	title = selfishness.9.t
+	desc = selfishness.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.9.A
+	}
+
+}
+
+country_event = { #Movie Released No Success
+	id = selfishness.10
+	title = selfishness.10.t
+	desc = selfishness.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = selfishness.10.A
+	}
+
+}
+
+#########################################################################
+# Che Movie 1
+#########################################################################
+
+country_event = { #Main Actor Choosing
+	id = che_1.1
+	title = che_1.1.t
+	desc = che_1.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = { #Abrahim Farhat
+		name = che_1.1.A
+			add_to_variable = { var = c1_success_chance value = 1 }
+				country_event = { id = che_1.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = { #João Eduardo
+		name = che_1.1.B
+			add_to_variable = { var = c1_success_chance value = 2 }
+				country_event = { id = che_1.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = che_1.1.C
+				country_event = { id = che_1.2 days = 20 }
+
+	}
+}
+
+country_event = { #First Production Hickup
+	id = che_1.2
+	title = che_1.2.t
+	desc = che_1.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.2.A
+			add_to_variable = { var = c1_success_chance value = 1 }
+				country_event = { id = che_1.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+
+	}
+
+	option = {
+		name = che_1.2.B
+			add_to_variable = { var = c1_success_chance value = 2 }
+				country_event = { id = che_1.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = che_1.2.C
+				country_event = { id = che_1.3 days = 20 }
+
+	}
+}
+
+country_event = { #Second Production Hickup
+	id = che_1.3
+	title = che_1.3.t
+	desc = che_1.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.3.A
+			add_to_variable = { var = c1_success_chance value = 1 }
+				country_event = { id = che_1.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+	}
+
+	option = {
+		name = che_1.3.B
+			add_to_variable = { var = c1_success_chance value = 2 }
+				country_event = { id = che_1.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = che_1.3.C
+				country_event = { id = che_1.4 days = 20 }
+
+	}
+}
+
+country_event = { #Third Production Hickup
+	id = che_1.4
+	title = che_1.4.t
+	desc = che_1.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.4.A
+			add_to_variable = { var = c1_success_chance value = 1 }
+				country_event = { id = che_1.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = {
+		name = che_1.4.B
+			add_to_variable = { var = c1_success_chance value = 2 }
+				country_event = { id = che_1.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = che_1.4.C
+				country_event = { id = che_1.5 }
+	}
+
+}
+
+country_event = { #Failure
+	id = che_1.5
+	title = che_1.5.t
+	desc = che_1.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.5.A
+	}
+}
+
+country_event = { #Movie Finalized 
+	id = che_1.6
+	title = che_1.6.t
+	desc = che_1.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.6.A
+			add_to_variable = { var = c1_success_chance value = 1 }
+	subtract_from_variable = { var = editing_equipment value = 1 }
+	}
+
+	option = {
+		name = che_1.6.B
+			add_to_variable = { var = c1_success_chance value = 2 }
+	subtract_from_variable = { var = editing_equipment value = 2 }
+	}
+
+	option = {
+		name = che_1.6.C
+		hidden_effect = {
+			set_country_flag = che_the_sequel
+		}
+
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = che_1.8
+	title = che_1.8.t
+	desc = che_1.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.8.A
+		hidden_effect = {
+			set_country_flag = che_the_sequel
+		}
+
+	}
+
+}
+
+country_event = { #Movie Released Mild Success
+	id = che_1.9
+	title = che_1.9.t
+	desc = che_1.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.9.A
+
+	}
+
+}
+
+country_event = { #Movie Released No Success
+	id = che_1.10
+	title = che_1.10.t
+	desc = che_1.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_1.10.A
+	}
+
+}
+
+#########################################################################
+# Che Movie 2
+#########################################################################
+
+country_event = { #Main Actor Choosing
+	id = che_2.1
+	title = che_2.1.t
+	desc = che_2.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = { #Abrahim Farhat
+		name = che_2.1.A
+			add_to_variable = { var = c2_success_chance value = 1 }
+				country_event = { id = che_2.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = { #João Eduardo
+		name = che_2.1.B
+			add_to_variable = { var = c2_success_chance value = 2 }
+				country_event = { id = che_2.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = che_2.1.C
+				country_event = { id = che_2.2 days = 20 }
+
+	}
+}
+
+country_event = { #First Production Hickup
+	id = che_2.2
+	title = che_2.2.t
+	desc = che_2.2.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.2.A
+			add_to_variable = { var = c2_success_chance value = 1 }
+				country_event = { id = che_2.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+
+	}
+
+	option = {
+		name = che_2.2.B
+			add_to_variable = { var = c2_success_chance value = 2 }
+				country_event = { id = che_2.3 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = che_2.2.C
+				country_event = { id = che_2.3 days = 20 }
+
+	}
+}
+
+country_event = { #Second Production Hickup
+	id = che_2.3
+	title = che_2.3.t
+	desc = che_2.3.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.3.A
+			add_to_variable = { var = c2_success_chance value = 1 }
+				country_event = { id = che_2.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+
+	}
+
+	option = {
+		name = che_2.3.B
+			add_to_variable = { var = c2_success_chance value = 2 }
+				country_event = { id = che_2.4 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+
+	}
+
+	option = {
+		name = che_2.3.C
+				country_event = { id = che_2.4 days = 20 }
+
+	}
+}
+
+country_event = { #Third Production Hickup
+	id = che_2.4
+	title = che_2.4.t
+	desc = che_2.4.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.4.A
+			add_to_variable = { var = c2_success_chance value = 1 }
+				country_event = { id = che_2.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 1 }
+	}
+
+	option = {
+		name = che_2.4.B
+			add_to_variable = { var = c2_success_chance value = 2 }
+				country_event = { id = che_2.6 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 2 }
+	}
+
+	option = {
+		name = che_2.4.C
+				country_event = { id = che_2.5 }
+	}
+
+}
+
+country_event = { #Failure
+	id = che_2.5
+	title = che_2.5.t
+	desc = che_2.5.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.5.A
+	}
+}
+
+country_event = { #Movie Finalized 
+	id = che_2.6
+	title = che_2.6.t
+	desc = che_2.6.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.6.A
+			add_to_variable = { var = c2_success_chance value = 1 }
+	subtract_from_variable = { var = editing_equipment value = 1 }
+	}
+
+	option = {
+		name = che_2.6.B
+			add_to_variable = { var = c2_success_chance value = 2 }
+	subtract_from_variable = { var = editing_equipment value = 2 }
+	}
+
+	option = {
+		name = che_2.6.C
+		hidden_effect = {
+			set_country_flag = che_the_sequel
+		}
+
+	}
+}
+
+country_event = { #Movie Released Great Success
+	id = che_2.8
+	title = che_2.8.t
+	desc = che_2.8.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.8.A
+		hidden_effect = {
+			set_country_flag = che_the_sequel
+		}
+
+	}
+
+}
+
+country_event = { #Movie Released Mild Success
+	id = che_2.9
+	title = che_2.9.t
+	desc = che_2.9.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.9.A
+
+	}
+
+}
+
+country_event = { #Movie Released No Success
+	id = che_2.10
+	title = che_2.10.t
+	desc = che_2.10.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = che_2.10.A
+	}
+
 }

@@ -27,12 +27,6 @@ set_popularities = {
 
 ## variables ##
 
-# movies #
-
-set_variable = { var = filming_equipment value = 0 }
-set_variable = { var = editing_equipment value = 0 }
-set_variable = { var = cj_success_chance value = 0 }
-
 set_variable = { var = raid_success_percentage value = 0 }
 set_variable = { ACR_industrial_capacity_factory = -0.2 }
 set_variable = { ACR_research_speed_factor = -0.1 }
@@ -48,6 +42,18 @@ set_variable = { senate_technocrat_seats = 0 }
 set_variable = { senate_nationalist_seats = 0 }
 set_variable = { senate_neutral_seats = 22 }
 
+# movies #
+set_variable = { var = filming_equipment value = 0 }
+set_variable = { var = editing_equipment value = 0 }
+set_variable = { var = cj_success_chance value = 0 }
+set_variable = { var = ev_success_chance value = 0 }
+set_variable = { var = c1_success_chance value = 0 }
+set_variable = { var = c2_success_chance value = 0 }
+set_variable = { var = jc_success_chance value = 0 }
+set_variable = { var = ek_success_chance value = 0 }
+set_variable = { var = no_success_chance value = 0 }
+
+#
 add_ideas = {
 undisturbed_isolation
 subsistence_economy

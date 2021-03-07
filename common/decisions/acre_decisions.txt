@@ -681,9 +681,12 @@ ACR_che_war_category = {
 				transfer_state = 88
 				transfer_state = 141
 			}
+
 			ACR = {
 				puppet = RON
 				country_event = { id = ACR.24 days = 7 }
+				transfer_state = 125
+
 			}
           }
           complete_effect = {                    
@@ -730,16 +733,96 @@ ACR_marques_movies_category = {
 
 
 	ACR_begin_filming_captain_jose = {
+	available = { check_variable = { filming_equipment > 0 } }
 
 	remove_effect = {
 	set_country_flag = finished_making_captain_jose
-
 	}
 			complete_effect = {
-	subtract_from_variable = { var = editing_equipment value = 1 }
+				country_event = { id = CaptainJose.1 }
+
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
-	days_remove = 5
+	days_remove = 90
+	fire_only_once = yes 
+	}
+
+	ACR_begin_filming_evangelical_movie = {
+	available = { check_variable = { filming_equipment > 0 } }
+
+	remove_effect = {
+	set_country_flag = finished_making_evangelical_movie
+	}
+			complete_effect = {
+				country_event = { id = evangelical_movie.1 }
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
+	days_remove = 90
+	fire_only_once = yes 
+	}
+
+	ACR_begin_filming_jungle_calling_movie = {
+	available = { check_variable = { filming_equipment > 0 } }
+
+	remove_effect = {
+	set_country_flag = finished_making_jungle_calling_movie
+	}
+			complete_effect = {
+				country_event = { id = jungle_calling.1 }
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
+	days_remove = 90
+	fire_only_once = yes 
+	}
+
+	ACR_begin_filming_selfishness_movie = {
+	available = { check_variable = { filming_equipment > 0 } }
+
+	remove_effect = {
+	set_country_flag = finished_making_selfishness_movie
+	}
+			complete_effect = {
+				country_event = { id = selfishness.1 }
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
+	days_remove = 90
+	fire_only_once = yes 
+	}
+
+	ACR_begin_filming_che_1_movie = {
+	available = { check_variable = { filming_equipment > 0 } }
+
+	remove_effect = {
+	set_country_flag = finished_making_che_1_movie
+	}
+			complete_effect = {
+				country_event = { id = che_1.1 }
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
+	days_remove = 90
+	fire_only_once = yes 
+	}
+
+	ACR_begin_filming_che_2_movie = {
+	available = { check_variable = { filming_equipment > 0 } }
+
+	visible = {
+		has_country_flag = che_the_sequel
+	}
+
+	remove_effect = {
+	set_country_flag = finished_making_che_2_movie
+	}
+			complete_effect = {
+				country_event = { id = che_2.1 }
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
+	days_remove = 90
 	fire_only_once = yes 
 	}
 
@@ -748,9 +831,9 @@ ACR_marques_movies_category = {
 	ACR_finish_filming_captain_jose = {
 	#captain alex like movie inspired by the male revolt in Bahia
 	#adds war support
-	#visible = {
-    #    has_country_flag = finished_making_captain_jose
-    #    }
+	visible = {
+        has_country_flag = finished_making_captain_jose
+        }
 	complete_effect = {
 
 		clr_country_flag = finished_making_captain_jose
@@ -759,7 +842,7 @@ ACR_marques_movies_category = {
       limit = {
         check_variable = { cj_success_chance > 7 }
   }
-  country_event = { id = CaptainJose.8 days= 7}
+  country_event = { id = CaptainJose.8 days= 5 }
   else_if = {
     limit = {
       AND = {
@@ -767,19 +850,179 @@ ACR_marques_movies_category = {
         check_variable = { cj_success_chance < 8 }
       } 
   }
-  country_event = { id = CaptainJose.9 days = 7 }
+  country_event = { id = CaptainJose.9 days = 5 }
   else_if = {
     limit = {
       check_variable = { cj_success_chance < 5 }
     }
-  country_event = { id = CaptainJose.10 days = 7 }
+  country_event = { id = CaptainJose.10 days = 5 }
 } 
 	}
 		}
 	}
 }
-	ACR_debug_add_cj_success_chance = {
+#
+	ACR_finish_filming_evangelical_movie = {
+
+	visible = {
+        has_country_flag = finished_making_evangelical_movie
+        }
 	complete_effect = {
-	add_to_variable = { var = cj_success_chance value = 1 }
+
+		clr_country_flag = finished_making_evangelical_movie
+		
+			 if = {
+      limit = {
+        check_variable = { ev_success_chance > 7 }
+  }
+  country_event = { id = evangelical_movie.8 days= 5 }
+  else_if = {
+    limit = {
+      AND = {
+        check_variable = { ev_success_chance > 4 }
+        check_variable = { ev_success_chance < 8 }
+      } 
+  }
+  country_event = { id = evangelical_movie.9 days = 5 }
+  else_if = {
+    limit = {
+      check_variable = { ev_success_chance < 5 }
+    }
+  country_event = { id = evangelical_movie.10 days = 5 }
+} 
 	}
+		}
 	}
+}
+#
+	ACR_finish_filming_jungle_calling_movie = {
+
+	visible = {
+        has_country_flag = finished_making_jungle_calling_movie
+        }
+	complete_effect = {
+
+		clr_country_flag = finished_making_jungle_calling_movie
+		
+			 if = {
+      limit = {
+        check_variable = { jc_success_chance > 7 }
+  }
+  country_event = { id = jungle_calling.8 days= 5 }
+  else_if = {
+    limit = {
+      AND = {
+        check_variable = { jc_success_chance > 4 }
+        check_variable = { jc_success_chance < 8 }
+      } 
+  }
+  country_event = { id = jungle_calling.9 days = 5 }
+  else_if = {
+    limit = {
+      check_variable = { jc_success_chance < 5 }
+    }
+  country_event = { id = jungle_calling.10 days = 5 }
+} 
+	}
+		}
+	}
+}
+#
+	ACR_finish_filming_selfishness_movie = {
+
+	visible = {
+        has_country_flag = finished_making_selfishness_movie
+        }
+	complete_effect = {
+
+		clr_country_flag = finished_making_selfishness_movie
+		
+			 if = {
+      limit = {
+        check_variable = { ek_success_chance > 7 }
+  }
+  country_event = { id = selfishness.8 days= 5 }
+  else_if = {
+    limit = {
+      AND = {
+        check_variable = { ek_success_chance > 4 }
+        check_variable = { ek_success_chance < 8 }
+      } 
+  }
+  country_event = { id = selfishness.9 days = 5 }
+  else_if = {
+    limit = {
+      check_variable = { ek_success_chance < 5 }
+    }
+  country_event = { id = selfishness.10 days = 5 }
+} 
+	}
+		}
+	}
+}
+#
+	ACR_finish_filming_che_1_movie = {
+
+	visible = {
+        has_country_flag = finished_making_che_1_movie
+        }
+	complete_effect = {
+
+		clr_country_flag = finished_making_che_1_movie
+		
+			 if = {
+      limit = {
+        check_variable = { c1_success_chance > 7 }
+  }
+  country_event = { id = che_1.8 days= 5 }
+  else_if = {
+    limit = {
+      AND = {
+        check_variable = { c1_success_chance > 4 }
+        check_variable = { c1_success_chance < 8 }
+      } 
+  }
+  country_event = { id = che_1.9 days = 5 }
+  else_if = {
+    limit = {
+      check_variable = { c1_success_chance < 5 }
+    }
+  country_event = { id = che_1.10 days = 5 }
+} 
+	}
+		}
+	}
+}
+	ACR_finish_filming_che_2_movie = {
+
+	visible = {
+        has_country_flag = finished_making_che_2_movie
+        }
+	complete_effect = {
+
+		clr_country_flag = finished_making_che_2_movie
+		
+			 if = {
+      limit = {
+        check_variable = { c2_success_chance > 7 }
+  }
+  country_event = { id = che_2.8 days= 5 }
+  else_if = {
+    limit = {
+      AND = {
+        check_variable = { c2_success_chance > 4 }
+        check_variable = { c2_success_chance < 8 }
+      } 
+  }
+  country_event = { id = che_2.9 days = 5 }
+  else_if = {
+    limit = {
+      check_variable = { c2_success_chance < 5 }
+    }
+  country_event = { id = che_2.10 days = 5 }
+} 
+	}
+		}
+	}
+}
+}

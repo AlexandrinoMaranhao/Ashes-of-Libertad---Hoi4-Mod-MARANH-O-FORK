@@ -25,36 +25,6 @@ set_popularities = {
 
 }
 
-declare_war_on = {
-	target = UEL
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = CRR
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = GAU
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = MON
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = MAS
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = ONG
-	type = annex_everything
-}
-
 add_ideas = {
 
 }

@@ -25,16 +25,6 @@ set_popularities = {
 
 }
 
-declare_war_on = {
-	target = DEA
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = URG
-	type = annex_everything
-}
-
 add_ideas = {
 
 }
