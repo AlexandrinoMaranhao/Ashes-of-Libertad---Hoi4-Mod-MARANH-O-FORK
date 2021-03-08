@@ -26,19 +26,20 @@ country_event = { #Main Actor Choosing
 		name = CaptainJose.1.A
 			add_to_variable = { var = cj_success_chance value = 1 }
 				country_event = { id = CaptainJose.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = { #João Eduardo
 		name = CaptainJose.1.B
 			add_to_variable = { var = cj_success_chance value = 2 }
 				country_event = { id = CaptainJose.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
 		name = CaptainJose.1.C
 				country_event = { id = CaptainJose.2 days = 20 }
+	subtract_from_variable = { var = filming_equipment value = 4 }
 
 	}
 }
@@ -56,7 +57,7 @@ country_event = { #First Production Hickup
 		name = CaptainJose.2.A
 			add_to_variable = { var = cj_success_chance value = 1 }
 				country_event = { id = CaptainJose.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 
 	}
@@ -65,7 +66,7 @@ country_event = { #First Production Hickup
 		name = CaptainJose.2.B
 			add_to_variable = { var = cj_success_chance value = 2 }
 				country_event = { id = CaptainJose.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -89,7 +90,7 @@ country_event = { #Second Production Hickup
 		name = CaptainJose.3.A
 			add_to_variable = { var = cj_success_chance value = 1 }
 				country_event = { id = CaptainJose.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 	}
 
@@ -97,7 +98,7 @@ country_event = { #Second Production Hickup
 		name = CaptainJose.3.B
 			add_to_variable = { var = cj_success_chance value = 2 }
 				country_event = { id = CaptainJose.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -121,14 +122,14 @@ country_event = { #Third Production Hickup
 		name = CaptainJose.4.A
 			add_to_variable = { var = cj_success_chance value = 1 }
 				country_event = { id = CaptainJose.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = {
 		name = CaptainJose.4.B
 			add_to_variable = { var = cj_success_chance value = 2 }
 				country_event = { id = CaptainJose.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -162,6 +163,7 @@ country_event = { #Movie Finalized
 	
 	#Answer
 	option = {
+
 		name = CaptainJose.6.A
 			add_to_variable = { var = cj_success_chance value = 1 }
 	subtract_from_variable = { var = editing_equipment value = 1 }
@@ -175,6 +177,8 @@ country_event = { #Movie Finalized
 
 	option = {
 		name = CaptainJose.6.C
+			add_to_variable = { var = cj_success_chance value = 3 }
+	subtract_from_variable = { var = editing_equipment value = 3 }
 	}
 }
 
@@ -189,6 +193,9 @@ country_event = { #Movie Released Great Success
 	#Answer
 	option = {
 		name = CaptainJose.8.A
+		add_to_variable = { var = filming_equipment value = 15 }
+		add_to_variable = { var = editing_equipment value = 2 }
+
 	}
 
 }
@@ -204,6 +211,8 @@ country_event = { #Movie Released Mild Success
 	#Answer
 	option = {
 		name = CaptainJose.9.A
+		add_to_variable = { var = filming_equipment value = 7 }
+		add_to_variable = { var = editing_equipment value = 1 }
 	}
 
 }
@@ -219,6 +228,7 @@ country_event = { #Movie Released No Success
 	#Answer
 	option = {
 		name = CaptainJose.10.A
+		add_to_variable = { var = filming_equipment value = 2 }
 	}
 
 }
@@ -240,14 +250,14 @@ country_event = { #Main Actor Choosing
 		name = evangelical_movie.1.A
 			add_to_variable = { var = ev_success_chance value = 1 }
 				country_event = { id = evangelical_movie.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = { #João Eduardo
 		name = evangelical_movie.1.B
 			add_to_variable = { var = ev_success_chance value = 2 }
 				country_event = { id = evangelical_movie.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -270,7 +280,7 @@ country_event = { #First Production Hickup
 		name = evangelical_movie.2.A
 			add_to_variable = { var = ev_success_chance value = 1 }
 				country_event = { id = evangelical_movie.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 
 	}
@@ -279,7 +289,7 @@ country_event = { #First Production Hickup
 		name = evangelical_movie.2.B
 			add_to_variable = { var = ev_success_chance value = 2 }
 				country_event = { id = evangelical_movie.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -303,7 +313,7 @@ country_event = { #Second Production Hickup
 		name = evangelical_movie.3.A
 			add_to_variable = { var = ev_success_chance value = 1 }
 				country_event = { id = evangelical_movie.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 	}
 
@@ -311,7 +321,7 @@ country_event = { #Second Production Hickup
 		name = evangelical_movie.3.B
 			add_to_variable = { var = ev_success_chance value = 2 }
 				country_event = { id = evangelical_movie.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -335,14 +345,14 @@ country_event = { #Third Production Hickup
 		name = evangelical_movie.4.A
 			add_to_variable = { var = ev_success_chance value = 1 }
 				country_event = { id = evangelical_movie.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = {
 		name = evangelical_movie.4.B
 			add_to_variable = { var = ev_success_chance value = 2 }
 				country_event = { id = evangelical_movie.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -389,6 +399,8 @@ country_event = { #Movie Finalized
 
 	option = {
 		name = evangelical_movie.6.C
+			add_to_variable = { var = ev_success_chance value = 3 }
+	subtract_from_variable = { var = editing_equipment value = 3 }
 	}
 }
 
@@ -403,6 +415,9 @@ country_event = { #Movie Released Great Success
 	#Answer
 	option = {
 		name = evangelical_movie.8.A
+		add_to_variable = { var = filming_equipment value = 15 }
+		add_to_variable = { var = editing_equipment value = 2 }
+
 	}
 
 }
@@ -418,6 +433,9 @@ country_event = { #Movie Released Mild Success
 	#Answer
 	option = {
 		name = evangelical_movie.9.A
+		add_to_variable = { var = filming_equipment value = 7 }
+		add_to_variable = { var = editing_equipment value = 1 }
+
 	}
 
 }
@@ -433,6 +451,7 @@ country_event = { #Movie Released No Success
 	#Answer
 	option = {
 		name = evangelical_movie.10.A
+		add_to_variable = { var = filming_equipment value = 2 }
 	}
 
 }
@@ -454,14 +473,14 @@ country_event = { #Main Actor Choosing
 		name = jungle_calling.1.A
 			add_to_variable = { var = jc_success_chance value = 1 }
 				country_event = { id = jungle_calling.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = { #João Eduardo
 		name = jungle_calling.1.B
 			add_to_variable = { var = jc_success_chance value = 2 }
 				country_event = { id = jungle_calling.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -484,7 +503,7 @@ country_event = { #First Production Hickup
 		name = jungle_calling.2.A
 			add_to_variable = { var = jc_success_chance value = 1 }
 				country_event = { id = jungle_calling.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 
 	}
@@ -493,7 +512,7 @@ country_event = { #First Production Hickup
 		name = jungle_calling.2.B
 			add_to_variable = { var = jc_success_chance value = 2 }
 				country_event = { id = jungle_calling.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -517,7 +536,7 @@ country_event = { #Second Production Hickup
 		name = jungle_calling.3.A
 			add_to_variable = { var = jc_success_chance value = 1 }
 				country_event = { id = jungle_calling.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 	}
 
@@ -525,7 +544,7 @@ country_event = { #Second Production Hickup
 		name = jungle_calling.3.B
 			add_to_variable = { var = jc_success_chance value = 2 }
 				country_event = { id = jungle_calling.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -549,14 +568,14 @@ country_event = { #Third Production Hickup
 		name = jungle_calling.4.A
 			add_to_variable = { var = jc_success_chance value = 1 }
 				country_event = { id = jungle_calling.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = {
 		name = jungle_calling.4.B
 			add_to_variable = { var = jc_success_chance value = 2 }
 				country_event = { id = jungle_calling.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -603,6 +622,8 @@ country_event = { #Movie Finalized
 
 	option = {
 		name = jungle_calling.6.C
+			add_to_variable = { var = jc_success_chance value = 3 }
+	subtract_from_variable = { var = editing_equipment value = 3 }
 	}
 }
 
@@ -617,6 +638,9 @@ country_event = { #Movie Released Great Success
 	#Answer
 	option = {
 		name = jungle_calling.8.A
+		add_to_variable = { var = filming_equipment value = 15 }
+		add_to_variable = { var = editing_equipment value = 2 }
+
 	}
 
 }
@@ -632,6 +656,9 @@ country_event = { #Movie Released Mild Success
 	#Answer
 	option = {
 		name = jungle_calling.9.A
+		add_to_variable = { var = filming_equipment value = 7 }
+		add_to_variable = { var = editing_equipment value = 1 }
+
 	}
 
 }
@@ -647,6 +674,7 @@ country_event = { #Movie Released No Success
 	#Answer
 	option = {
 		name = jungle_calling.10.A
+		add_to_variable = { var = filming_equipment value = 2 }
 	}
 
 }
@@ -668,14 +696,14 @@ country_event = { #Main Actor Choosing
 		name = selfishness.1.A
 			add_to_variable = { var = ek_success_chance value = 1 }
 				country_event = { id = selfishness.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = { #João Eduardo
 		name = selfishness.1.B
 			add_to_variable = { var = ek_success_chance value = 2 }
 				country_event = { id = selfishness.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -698,7 +726,7 @@ country_event = { #First Production Hickup
 		name = selfishness.2.A
 			add_to_variable = { var = ek_success_chance value = 1 }
 				country_event = { id = selfishness.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 
 	}
@@ -707,7 +735,7 @@ country_event = { #First Production Hickup
 		name = selfishness.2.B
 			add_to_variable = { var = ek_success_chance value = 2 }
 				country_event = { id = selfishness.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -731,7 +759,7 @@ country_event = { #Second Production Hickup
 		name = selfishness.3.A
 			add_to_variable = { var = ek_success_chance value = 1 }
 				country_event = { id = selfishness.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 	}
 
@@ -739,7 +767,7 @@ country_event = { #Second Production Hickup
 		name = selfishness.3.B
 			add_to_variable = { var = ek_success_chance value = 2 }
 				country_event = { id = selfishness.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -763,14 +791,14 @@ country_event = { #Third Production Hickup
 		name = selfishness.4.A
 			add_to_variable = { var = ek_success_chance value = 1 }
 				country_event = { id = selfishness.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = {
 		name = selfishness.4.B
 			add_to_variable = { var = ek_success_chance value = 2 }
 				country_event = { id = selfishness.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -817,6 +845,8 @@ country_event = { #Movie Finalized
 
 	option = {
 		name = selfishness.6.C
+			add_to_variable = { var = ek_success_chance value = 3 }
+	subtract_from_variable = { var = editing_equipment value = 3 }
 	}
 }
 
@@ -831,6 +861,9 @@ country_event = { #Movie Released Great Success
 	#Answer
 	option = {
 		name = selfishness.8.A
+		add_to_variable = { var = filming_equipment value = 15 }
+		add_to_variable = { var = editing_equipment value = 2 }
+
 	}
 
 }
@@ -846,6 +879,9 @@ country_event = { #Movie Released Mild Success
 	#Answer
 	option = {
 		name = selfishness.9.A
+		add_to_variable = { var = filming_equipment value = 7 }
+		add_to_variable = { var = editing_equipment value = 1 }
+
 	}
 
 }
@@ -861,6 +897,7 @@ country_event = { #Movie Released No Success
 	#Answer
 	option = {
 		name = selfishness.10.A
+		add_to_variable = { var = filming_equipment value = 2 }
 	}
 
 }
@@ -882,14 +919,14 @@ country_event = { #Main Actor Choosing
 		name = che_1.1.A
 			add_to_variable = { var = c1_success_chance value = 1 }
 				country_event = { id = che_1.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = { #João Eduardo
 		name = che_1.1.B
 			add_to_variable = { var = c1_success_chance value = 2 }
 				country_event = { id = che_1.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -912,7 +949,7 @@ country_event = { #First Production Hickup
 		name = che_1.2.A
 			add_to_variable = { var = c1_success_chance value = 1 }
 				country_event = { id = che_1.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 
 	}
@@ -921,7 +958,7 @@ country_event = { #First Production Hickup
 		name = che_1.2.B
 			add_to_variable = { var = c1_success_chance value = 2 }
 				country_event = { id = che_1.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -945,7 +982,7 @@ country_event = { #Second Production Hickup
 		name = che_1.3.A
 			add_to_variable = { var = c1_success_chance value = 1 }
 				country_event = { id = che_1.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 	}
 
@@ -953,7 +990,7 @@ country_event = { #Second Production Hickup
 		name = che_1.3.B
 			add_to_variable = { var = c1_success_chance value = 2 }
 				country_event = { id = che_1.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -977,14 +1014,14 @@ country_event = { #Third Production Hickup
 		name = che_1.4.A
 			add_to_variable = { var = c1_success_chance value = 1 }
 				country_event = { id = che_1.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = {
 		name = che_1.4.B
 			add_to_variable = { var = c1_success_chance value = 2 }
 				country_event = { id = che_1.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -1031,6 +1068,8 @@ country_event = { #Movie Finalized
 
 	option = {
 		name = che_1.6.C
+			add_to_variable = { var = c1_success_chance value = 3 }
+	subtract_from_variable = { var = editing_equipment value = 3 }
 		hidden_effect = {
 			set_country_flag = che_the_sequel
 		}
@@ -1049,6 +1088,9 @@ country_event = { #Movie Released Great Success
 	#Answer
 	option = {
 		name = che_1.8.A
+		add_to_variable = { var = filming_equipment value = 15 }
+		add_to_variable = { var = editing_equipment value = 2 }
+
 		hidden_effect = {
 			set_country_flag = che_the_sequel
 		}
@@ -1068,6 +1110,9 @@ country_event = { #Movie Released Mild Success
 	#Answer
 	option = {
 		name = che_1.9.A
+		add_to_variable = { var = filming_equipment value = 7 }
+		add_to_variable = { var = editing_equipment value = 1 }
+
 
 	}
 
@@ -1084,6 +1129,7 @@ country_event = { #Movie Released No Success
 	#Answer
 	option = {
 		name = che_1.10.A
+		add_to_variable = { var = filming_equipment value = 2 }
 	}
 
 }
@@ -1105,14 +1151,14 @@ country_event = { #Main Actor Choosing
 		name = che_2.1.A
 			add_to_variable = { var = c2_success_chance value = 1 }
 				country_event = { id = che_2.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = { #João Eduardo
 		name = che_2.1.B
 			add_to_variable = { var = c2_success_chance value = 2 }
 				country_event = { id = che_2.2 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -1135,7 +1181,7 @@ country_event = { #First Production Hickup
 		name = che_2.2.A
 			add_to_variable = { var = c2_success_chance value = 1 }
 				country_event = { id = che_2.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 
 	}
@@ -1144,7 +1190,7 @@ country_event = { #First Production Hickup
 		name = che_2.2.B
 			add_to_variable = { var = c2_success_chance value = 2 }
 				country_event = { id = che_2.3 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -1168,7 +1214,7 @@ country_event = { #Second Production Hickup
 		name = che_2.3.A
 			add_to_variable = { var = c2_success_chance value = 1 }
 				country_event = { id = che_2.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 
 	}
 
@@ -1176,7 +1222,7 @@ country_event = { #Second Production Hickup
 		name = che_2.3.B
 			add_to_variable = { var = c2_success_chance value = 2 }
 				country_event = { id = che_2.4 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 
 	}
 
@@ -1200,14 +1246,14 @@ country_event = { #Third Production Hickup
 		name = che_2.4.A
 			add_to_variable = { var = c2_success_chance value = 1 }
 				country_event = { id = che_2.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 1 }
+	subtract_from_variable = { var = filming_equipment value = 6 }
 	}
 
 	option = {
 		name = che_2.4.B
 			add_to_variable = { var = c2_success_chance value = 2 }
 				country_event = { id = che_2.6 days = 20 }
-	subtract_from_variable = { var = filming_equipment value = 2 }
+	subtract_from_variable = { var = filming_equipment value = 8 }
 	}
 
 	option = {
@@ -1254,6 +1300,9 @@ country_event = { #Movie Finalized
 
 	option = {
 		name = che_2.6.C
+			add_to_variable = { var = c2_success_chance value = 3 }
+	subtract_from_variable = { var = editing_equipment value = 3 }
+
 		hidden_effect = {
 			set_country_flag = che_the_sequel
 		}
@@ -1272,6 +1321,9 @@ country_event = { #Movie Released Great Success
 	#Answer
 	option = {
 		name = che_2.8.A
+		add_to_variable = { var = filming_equipment value = 15 }
+		add_to_variable = { var = editing_equipment value = 2 }
+
 		hidden_effect = {
 			set_country_flag = che_the_sequel
 		}
@@ -1292,6 +1344,13 @@ country_event = { #Movie Released Mild Success
 	option = {
 		name = che_2.9.A
 
+		hidden_effect = {
+			set_country_flag = che_the_sequel
+		add_to_variable = { var = filming_equipment value = 7 }
+		add_to_variable = { var = editing_equipment value = 1 }
+
+		}
+
 	}
 
 }
@@ -1307,6 +1366,7 @@ country_event = { #Movie Released No Success
 	#Answer
 	option = {
 		name = che_2.10.A
+		add_to_variable = { var = filming_equipment value = 2 }
 	}
 
 }

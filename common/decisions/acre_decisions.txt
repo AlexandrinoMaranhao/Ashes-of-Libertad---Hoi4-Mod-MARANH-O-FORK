@@ -23,6 +23,81 @@ acrean_senate = {
 	#		acre_senate_add_seats_1 = yes
 	#	}
 	#}
+	press_act = { 
+	icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			has_completed_focus = ACR_promise_to_limit_reforms
+		}
+
+		available = {
+			AND = {
+				check_variable = { senate_technocrat_seats > 7 }
+				check_variable = { senate_militarist_seats > 3 }
+			}	
+			
+			custom_trigger_tooltip = { tooltip = press_act_tt }
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+        days_re_enable = 30
+		complete_effect = {
+			set_country_flag = passed_the_mordaca_act
+			acre_senate_remove_militarist_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			add_ideas = limited_exports
+			add_ideas = idea_AOL_total_censorship
+			add_ideas = ACR_banana_bread_and_theater
+			add_ideas = ACR_suspicious_government
+		}
+				ai_will_do = {
+			factor = 999
+		}
+	}
+
+	join_the_libs_act = { #Join the LIBERTADORES Act
+	icon = GFX_decision_senate_technocrats_decision
+
+		allowed = {
+			tag = ACR
+
+		}
+		available = {
+			check_variable = { senate_technocrat_seats > 14 }
+			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
+			has_war_support < 0.1
+
+		}
+		visible = {
+			has_completed_focus = ACR_make_love_not_war
+		}
+		cost = 50
+		complete_effect = {
+		ERN = {
+			add_to_faction = ACR
+		}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+			acre_senate_add_nationalist_seats_1 = yes
+
+		}
+		    ai_will_do = {
+			factor = 999
+		}
+	}
 	national_conscription_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
@@ -274,48 +349,6 @@ acrean_senate = {
 		}
 	}
 
-	press_act = { 
-	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			tag = ACR
-		}
-		available = {
-			AND = {
-				check_variable = { senate_technocrat_seats > 7 }
-				check_variable = { senate_nationalist_seats > 7 }
-			}	
-			
-			custom_trigger_tooltip = { tooltip = press_act_tt }
-		}
-		visible = {
-			always = yes
-		}
-		cost = 50
-        days_re_enable = 30
-		complete_effect = {
-
-			acre_senate_remove_nationalist_seats_1 = yes
-			acre_senate_remove_technocrat_seats_1 = yes
-			acre_senate_add_militarist_seats_1 = yes
-			acre_senate_add_militarist_seats_1 = yes
-
-        random_list = {
-        33 = {
-			add_ideas = idea_AOL_total_censorship
-        }
-        34 = {
-			add_ideas = idea_AOL_state_press
-        }
-        33 = {
-			add_ideas = idea_AOL_light_censorship
-        }
-        }
-		}
-				ai_will_do = {
-			factor = 999
-		}
-	}
-
 	trade_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
@@ -561,47 +594,6 @@ acrean_senate = {
 			factor = 999
 		}
 	}
-
-
-	join_the_libs_act = { #Join the LIBERTADORES Act
-	icon = GFX_decision_senate_technocrats_decision
-
-		allowed = {
-			tag = ACR
-			has_completed_focus = ACR_make_love_not_war
-
-		}
-		available = {
-			check_variable = { senate_technocrat_seats > 14 }
-			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
-			has_completed_focus = ACR_make_love_not_war
-
-		}
-		visible = {
-			has_completed_focus = ACR_make_love_not_war
-		}
-		cost = 50
-		complete_effect = {
-			ERN = {
-				country_event = { id = ERN_ACR_join_lib.1 days = 7 }
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.2
-			}
-			acre_senate_remove_technocrat_seats_1 = yes
-			acre_senate_remove_technocrat_seats_1 = yes
-			acre_senate_remove_technocrat_seats_1 = yes
-			acre_senate_add_militarist_seats_1 = yes
-			acre_senate_add_nationalist_seats_1 = yes
-			acre_senate_add_nationalist_seats_1 = yes
-
-		}
-		    ai_will_do = {
-			factor = 999
-		}
-	}
-
 }
 
 ACR_war_train_category = {
@@ -697,35 +689,54 @@ ACR_che_war_category = {
 			}
         }
 	}
+}
 
+ACR_cerqueira_couping_marques = {
+
+	ACR_fuck_fuck_fuck = {
+	visible = { has_country_flag = cerqueira_couping_marques }
+
+		allowed = { tag = ACR }  
+		available = {  
+	stability > 0.3 }  
+	            
+          activation = { has_country_flag = cerqueira_couping_marques }
+          is_good = no
+          selectable_mission = yes 
+          days_mission_timeout = 20    
+		  complete_effect = { clr_country_flag = cerqueira_couping_marques }
+          timeout_effect = {  } #add Cerqueira Here
+	}
 }
 
 ACR_marques_movies_category = {
 
-#	ACR_debug_add_filming_and_editing_equipment = {
-#			complete_effect = {
-#	add_to_variable = { var = filming_equipment value = 1 }
-#	add_to_variable = { var = editing_equipment value = 1 }
-#    	}
-#	}
-#
-#	ACR_debug_remove_filming_and_editing_equipment = {
-#			complete_effect = {
-#	subtract_from_variable = { var = filming_equipment value = 1 }
-#	subtract_from_variable = { var = editing_equipment value = 1 }
-#    	}
-#	}
+	ACR_pro_acrean_propaganda = {
+	cost = 50
+			complete_effect = { 
+	add_stability = 0.15
+	add_war_support = -0.1
+    	}
+	}
+
+	ACR_pro_che_propaganda = {
+	cost = 50
+			complete_effect = { 
+	add_stability = -0.1
+	add_war_support = 0.15
+    	}
+	}
 
 	ACR_buy_filming_equipment = {
-#adds variable to filming equipment amount 
+	cost = 100
 			complete_effect = { 
-	add_to_variable = { var = filming_equipment value = 1 }
+	add_to_variable = { var = filming_equipment value = 10 }
     	}
 	}
 
 
 	ACR_buy_editing_equipment = {
-#allows captain jose to be made
+	cost = 200
 		complete_effect = {
 	add_to_variable = { var = editing_equipment value = 1 }
 		}
@@ -733,13 +744,17 @@ ACR_marques_movies_category = {
 
 
 	ACR_begin_filming_captain_jose = {
-	available = { check_variable = { filming_equipment > 0 } }
+	available = { check_variable = { filming_equipment > 0 } 
+	NOT = { has_country_flag = is_making_movie }
+	}
 
 	remove_effect = {
 	set_country_flag = finished_making_captain_jose
+	clr_country_flag = is_making_movie
 	}
 			complete_effect = {
 				country_event = { id = CaptainJose.1 }
+				set_country_flag = is_making_movie
 
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
@@ -748,13 +763,17 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_evangelical_movie = {
-	available = { check_variable = { filming_equipment > 0 } }
+	available = { check_variable = { filming_equipment > 0 } 
+	NOT = { has_country_flag = is_making_movie }
+}
 
 	remove_effect = {
 	set_country_flag = finished_making_evangelical_movie
+	clr_country_flag = is_making_movie
 	}
 			complete_effect = {
 				country_event = { id = evangelical_movie.1 }
+				set_country_flag = is_making_movie
 
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
@@ -763,13 +782,17 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_jungle_calling_movie = {
-	available = { check_variable = { filming_equipment > 0 } }
+	available = { check_variable = { filming_equipment > 0 }
+	NOT = { has_country_flag = is_making_movie }
+ }
 
 	remove_effect = {
 	set_country_flag = finished_making_jungle_calling_movie
+	clr_country_flag = is_making_movie
 	}
 			complete_effect = {
 				country_event = { id = jungle_calling.1 }
+				set_country_flag = is_making_movie
 
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
@@ -778,13 +801,17 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_selfishness_movie = {
-	available = { check_variable = { filming_equipment > 0 } }
+	available = { check_variable = { filming_equipment > 0 }
+	NOT = { has_country_flag = is_making_movie }
+ }
 
 	remove_effect = {
 	set_country_flag = finished_making_selfishness_movie
+	clr_country_flag = is_making_movie
 	}
 			complete_effect = {
 				country_event = { id = selfishness.1 }
+				set_country_flag = is_making_movie
 
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
@@ -793,13 +820,17 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_che_1_movie = {
-	available = { check_variable = { filming_equipment > 0 } }
+	available = { check_variable = { filming_equipment > 0 }
+	NOT = { has_country_flag = is_making_movie }
+ }
 
 	remove_effect = {
 	set_country_flag = finished_making_che_1_movie
+	clr_country_flag = is_making_movie
 	}
 			complete_effect = {
 				country_event = { id = che_1.1 }
+				set_country_flag = is_making_movie
 
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
@@ -808,7 +839,9 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_che_2_movie = {
-	available = { check_variable = { filming_equipment > 0 } }
+	available = { check_variable = { filming_equipment > 0 }
+	NOT = { has_country_flag = is_making_movie }
+ }
 
 	visible = {
 		has_country_flag = che_the_sequel
@@ -816,9 +849,11 @@ ACR_marques_movies_category = {
 
 	remove_effect = {
 	set_country_flag = finished_making_che_2_movie
+	clr_country_flag = is_making_movie
 	}
 			complete_effect = {
 				country_event = { id = che_2.1 }
+				set_country_flag = is_making_movie
 
 	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
@@ -830,12 +865,11 @@ ACR_marques_movies_category = {
 
 	ACR_finish_filming_captain_jose = {
 	#captain alex like movie inspired by the male revolt in Bahia
-	#adds war support
 	visible = {
         has_country_flag = finished_making_captain_jose
         }
 	complete_effect = {
-
+  add_timed_idea = { idea = ACR_captain_jose_in_theaters  days = 60 }
 		clr_country_flag = finished_making_captain_jose
 		
 			 if = {
@@ -868,6 +902,7 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_evangelical_movie
         }
 	complete_effect = {
+  add_timed_idea = { idea = ACR_evangelical_in_theaters  days = 60 }
 
 		clr_country_flag = finished_making_evangelical_movie
 		
@@ -901,6 +936,8 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_jungle_calling_movie
         }
 	complete_effect = {
+  add_timed_idea = { idea = ACR_jungle_calling_in_theaters  days = 60 }
+
 
 		clr_country_flag = finished_making_jungle_calling_movie
 		
@@ -934,6 +971,9 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_selfishness_movie
         }
 	complete_effect = {
+  add_timed_idea = { idea = ACR_selfishness_in_theaters  days = 60 }
+
+
 
 		clr_country_flag = finished_making_selfishness_movie
 		
@@ -967,6 +1007,8 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_che_1_movie
         }
 	complete_effect = {
+  add_timed_idea = { idea = ACR_che_1_in_theaters  days = 60 }
+
 
 		clr_country_flag = finished_making_che_1_movie
 		
@@ -999,6 +1041,7 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_che_2_movie
         }
 	complete_effect = {
+  add_timed_idea = { idea = ACR_che_2_in_theaters  days = 60 }
 
 		clr_country_flag = finished_making_che_2_movie
 		
@@ -1025,4 +1068,5 @@ ACR_marques_movies_category = {
 		}
 	}
 }
+
 }

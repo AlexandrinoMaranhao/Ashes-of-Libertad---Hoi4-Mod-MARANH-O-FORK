@@ -1738,21 +1738,18 @@ country_event = {
 	}
 }
 
-#country_event = {
-#	id = ACR_join_lib.1
-#	title = ACR_join_lib.1.t
-#	desc = ACR_join_lib.1.d
-#	picture = GFX_report_event_acre_flag
-#	
-#	#Answer
-#	option = {
-#		name = ACR_join_lib.1.A
-#				ERN = {
-#			add_to_faction = ACR
-#		}
-#
-#	}
-#	option = {
-#		name = ACR_join_lib.1.B
-#	}
-#}
+country_event = {
+	id = ACRMarques.15
+	title = ACRMarques.15.t
+	desc = ACRMarques.15.d
+	picture = GFX_report_event_acre_flag
+	trigger = { 
+	stability > 0.4
+	has_country_flag = marques_elected } 
+
+	#Answer
+	option = {
+		name = ACRMarques.15.A
+		set_country_flag = cerqueira_couping_marques
+	}
+}

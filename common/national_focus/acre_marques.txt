@@ -99,6 +99,10 @@ shared_focus = {
 	relative_position_id = ACR_promise_to_limit_reforms
 	icon = GFX_goal_sike
 
+	available = {
+		has_country_flag = passed_the_mordaca_act
+	}
+
 	x = 0
 	y = 1
 	cost = 1
@@ -106,10 +110,8 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		add_ideas = limited_exports
-		add_ideas = idea_AOL_total_censorship
-		add_ideas = ACR_banana_bread_and_theater
-		add_ideas = ACR_suspicious_government
+		#This is all added by the senate decision now
+
 	}
 }
 shared_focus = {
@@ -758,6 +760,7 @@ shared_focus = {
 	completion_reward = {	
 		custom_effect_tooltip = "ACR_promises_of_independence_tt"
 		set_global_flag = ACR_marques_peace_che
+		remove_ideas = ACR_suspicious_government
 	}
 }
 shared_focus = {

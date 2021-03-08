@@ -77,7 +77,7 @@
   nut_right_tt:0 "We have at least 8 §YNationalist§! Seats"
   mercenary_act_tt:0 "We have at least 8 §GMilitarist§! Seats"
   labor_act_tt:0 "We have at least 8 §RTechnocrat§! Seats"
-  press_act_tt:0 "We have at least 8 §YNationalist§! and 8 §RTechnocrat§! Seats"
+  press_act_tt:0 "We have at least 4 §GMilitarist§! and 8 §RTechnocrat§! Seats"
   trade_act_tt:0 "We have at least 8 §RTechnocrat§! and 8 §GMilitarist§! Seats"
   military_factory_act_tt:0 "We have at least 8 §GMilitarist§! and 8 §YNationalist§! Seats"
   civilian_act_tt:0 "We have at least 8 §GMilitarist§! and 8 §YNationalist§! Seats"

@@ -39,4 +39,12 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "5rd Battalion"
+		location = 6349
+		division_template = "Cuban Bastards"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
 }

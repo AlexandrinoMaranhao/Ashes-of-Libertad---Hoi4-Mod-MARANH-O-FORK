@@ -105,13 +105,6 @@ buy_mercenary_companies_category = {
            ROOT = {
                load_oob = "STR_mercs_US"  
            } 
-           random_owned_controlled_state = {
-            create_unit = {
-                division = "name = \"Saint Harem Mercenary Company\" division_template = \"Saint Harem Merc Battalion\" 
-                start_experience_factor = 0.5 start_equipment_factor = 0.8"
-                owner = ROOT
-                }
-            }
        }
    }
 }
@@ -137,10 +130,6 @@ buy_mercenary_companies_category = {
                 ROOT = {
                     load_oob = "STR_mercs_BR"
                 } 
-                create_unit = {
-                    division = "name = \"Companhia Mercenária São Francisco\" division_template = \"Saint Francis Merc Battalion\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
-                    owner = ROOT
-                }
             }
         }
     }

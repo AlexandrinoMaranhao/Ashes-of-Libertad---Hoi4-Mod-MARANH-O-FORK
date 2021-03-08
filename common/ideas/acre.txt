@@ -341,8 +341,9 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_weekly = -0.15
-				war_support_weekly = -0.05
+				stability_weekly = -0.02
+				
+				war_support_weekly = -0.02
 			}
 		}
 		ACR_funai = {
@@ -358,6 +359,26 @@ ideas = {
 			modifier = {
 				decryption_factor = 0.1
 				encryption_factor = 0.1
+				#add_opinion_modifier = { target = ARI modifier = medium_increase }
+				#add_opinion_modifier = { target = JUT modifier = medium_increase }
+				#add_opinion_modifier = { target = IQU modifier = medium_increase }
+				#add_opinion_modifier = { target = JAV modifier = medium_increase }
+				#add_opinion_modifier = { target = JUR modifier = medium_increase }
+				#add_opinion_modifier = { target = YAN modifier = medium_increase }
+				#add_opinion_modifier = { target = WAI modifier = medium_increase }
+				#add_opinion_modifier = { target = ZOE modifier = medium_increase }
+				#add_opinion_modifier = { target = JAU modifier = medium_increase }
+				#add_opinion_modifier = { target = KAY modifier = medium_increase }
+				#add_opinion_modifier = { target = TRO modifier = medium_increase }
+				#add_opinion_modifier = { target = MAP modifier = medium_increase }
+				#add_opinion_modifier = { target = WAM modifier = medium_increase }
+				#add_opinion_modifier = { target = ATR modifier = medium_increase }
+				#add_opinion_modifier = { target = BIA modifier = medium_increase }
+				#add_opinion_modifier = { target = HIM modifier = medium_increase }
+				#add_opinion_modifier = { target = DNI modifier = medium_increase }
+				#add_opinion_modifier = { target = MUN modifier = medium_increase }
+				#add_opinion_modifier = { target = COA modifier = medium_increase }
+				#add_opinion_modifier = { target = AND modifier = medium_increase }
 			}
 			equipment_bonus = {
 				cas = {
@@ -494,7 +515,11 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
-			
+			modifier = {
+				#add_opinion_modifier = { target = ERN modifier = large_decrease }
+				#add_opinion_modifier = { target = BOL modifier = small_decrease }
+				}
+
 			targeted_modifier = {
 				tag = BOL
 				attack_bonus_against = 0.1
@@ -541,14 +566,149 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = 0.05
-				conscription_factor = -0.1
-				war_support_factor = -0.1
+				conscription_factor = -0.2
+				war_support_factor = -0.2
 				consumer_goods_factor = 0.05
+				encryption_factor = 0.1
+			}
+		}
+		ACR_captain_jose_in_theaters = {
+
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+						
+			modifier = {
+				stability_weekly = 0.08
+				conscription_factor = 0.1
+				weekly_manpower = 50
+				war_support_weekly = 0.07
+				consumer_goods_factor = 0.05
+			}
+		}
+		ACR_evangelical_in_theaters = {
+
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+						
+			modifier = {
+				stability_weekly = 0.07
+				war_support_weekly = 0.07
+				consumer_goods_factor = 0.02
+			}
+		}
+		ACR_jungle_calling_in_theaters = {
+
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+						
+			modifier = {
+				stability_weekly = 0.08
+				consumer_goods_factor = 0.03
+			#targeted_modifier = {add_opinion_modifier = { target = ARI modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = JUT modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = IQU modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = JAV modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = JUR modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = YAN modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = WAI modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = ZOE modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = JAU modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = KAY modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = TRO modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = MAP modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = WAM modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = ATR modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = BIA modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = HIM modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = DNI modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = MUN modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = COA modifier = small_increase }}
+			#targeted_modifier = {add_opinion_modifier = { target = AND modifier = small_increase }}
 
 			}
 		}
-	}	
+		ACR_selfishness_in_theaters = {
+
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+						
+			modifier = {
+				stability_weekly = 0.08
+				war_support_weekly = 0.07
+				consumer_goods_factor = 0.02
+				targeted_modifier = {add_opinion_modifier = { target = MNS modifier = large_decrease }}
+			}
+
+			targeted_modifier = {
+				tag = MNS
+				attack_bonus_against = 0.1
+			}
+		}
+		ACR_che_1_in_theaters = {
+
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+						
+			modifier = {
+				stability_weekly = 0.08
+				war_support_weekly = -0.02
+				consumer_goods_factor = 0.03
+				targeted_modifier = {add_opinion_modifier = { target = ERN modifier = medium_increase }}
+				communism_drift = 0.1
+			targeted_modifier = {
+				tag = BTA
+				attack_bonus_against = 0.1
+			}
+			}
+		}
+		ACR_che_2_in_theaters = {
+
+		    allowed = {
+		        tag = ACR
+		    }
+		    
+		    allowed_civil_war = {
+				always = no
+			}
+						
+			modifier = {
+				stability_weekly = 0.1
+				war_support_weekly = -0.04
+				consumer_goods_factor = 0.05
+				#targeted_modifier = {add_opinion_modifier = { target = ERN modifier = large_increase }}
+
+			targeted_modifier = {
+				tag = BOL
+				attack_bonus_against = 0.1
+			}
+		}
+	}
+}
 	hidden_ideas = {
 		ACR_recpop_buff = {
 
