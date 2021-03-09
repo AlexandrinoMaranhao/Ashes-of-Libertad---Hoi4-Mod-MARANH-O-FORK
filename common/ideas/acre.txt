@@ -105,6 +105,20 @@ ideas = {
         targeted_modifier = { tag = ERN attack_bonus_against = 0.15 }
 
 		}
+		ACR_wounds_healed = {
+
+			allowed = {
+				tag = ACR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+					
+			modifier = {
+			stability_weekly = 0.02
+			}
+		}
 		militia_army = {
 			allowed = {
 				tag = ACR
@@ -342,8 +356,8 @@ ideas = {
 			
 			modifier = {
 				stability_weekly = -0.02
-				
-				war_support_weekly = -0.02
+				reactionary_drift = 0.02
+				war_support_weekly = 0.005
 			}
 		}
 		ACR_funai = {

@@ -1090,6 +1090,11 @@ country_event = { #Movie Released Great Success
 		name = che_1.8.A
 		add_to_variable = { var = filming_equipment value = 15 }
 		add_to_variable = { var = editing_equipment value = 2 }
+		add_ideas = ACR_wounds_healed
+			remove_ideas = {
+				the_red_menace
+				the_red_menace1
+			}		
 
 		hidden_effect = {
 			set_country_flag = che_the_sequel
@@ -1323,7 +1328,11 @@ country_event = { #Movie Released Great Success
 		name = che_2.8.A
 		add_to_variable = { var = filming_equipment value = 15 }
 		add_to_variable = { var = editing_equipment value = 2 }
-
+		add_ideas = ACR_wounds_healed
+			remove_ideas = {
+				the_red_menace
+				the_red_menace1
+			}		
 		hidden_effect = {
 			set_country_flag = che_the_sequel
 		}
@@ -1343,6 +1352,11 @@ country_event = { #Movie Released Mild Success
 	#Answer
 	option = {
 		name = che_2.9.A
+		add_ideas = ACR_wounds_healed
+			remove_ideas = {
+				the_red_menace
+				the_red_menace1
+			}		
 
 		hidden_effect = {
 			set_country_flag = che_the_sequel

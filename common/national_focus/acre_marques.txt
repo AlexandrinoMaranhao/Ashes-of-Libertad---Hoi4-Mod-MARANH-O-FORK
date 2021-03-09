@@ -38,7 +38,6 @@ shared_focus = {
 	id = ACR_compromise_with_nationalists
 	prerequisite = { focus = ACR_worker_cause }
 	relative_position_id = ACR_worker_cause
-	mutually_exclusive = { focus = ACR_compromise_with_militarists_two }
 	icon = GFX_goal_marques_compromise_nationalists
 
 	x = -1
@@ -58,7 +57,6 @@ shared_focus = {
 	id = ACR_compromise_with_militarists_two
 	prerequisite = { focus = ACR_worker_cause }
 	relative_position_id = ACR_worker_cause
-	mutually_exclusive = { focus = ACR_compromise_with_nationalists }
 	icon = GFX_goal_marques_compromise_militarists
 
 	x = 1
@@ -76,7 +74,8 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_promise_to_limit_reforms
-	prerequisite = { focus = ACR_compromise_with_nationalists focus = ACR_compromise_with_militarists_two  }
+	prerequisite = { focus = ACR_compromise_with_nationalists  }
+	prerequisite = { focus = ACR_compromise_with_militarists_two }
 	relative_position_id = ACR_compromise_with_nationalists
 	icon = GFX_goal_promise_to_limit_the_reforms
 

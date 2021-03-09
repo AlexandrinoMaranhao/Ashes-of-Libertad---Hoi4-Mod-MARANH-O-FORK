@@ -78,7 +78,35 @@ acrean_senate = {
 			has_completed_focus = ACR_make_love_not_war
 		}
 		cost = 50
+		fire_only_once = yes
+
 		complete_effect = {
+		hidden_effect = {
+		if = {
+		limit = {
+		has_stability < 0.8
+		NOT = {
+		has_idea = ACR_wounds_healed
+		}
+		}
+		start_civil_war = {
+			ideology = reactionary
+		}
+
+		remove_unit_leader = 1
+		remove_unit_leader = 11
+		remove_unit_leader = 12
+		remove_unit_leader = 4
+		remove_unit_leader = 14
+
+		set_country_flag = cerqueira_is_couping
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.5
+			}
+		}
+		}
+		
 		ERN = {
 			add_to_faction = ACR
 		}
@@ -98,6 +126,7 @@ acrean_senate = {
 			factor = 999
 		}
 	}
+
 	national_conscription_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
@@ -698,14 +727,29 @@ ACR_cerqueira_couping_marques = {
 
 		allowed = { tag = ACR }  
 		available = {  
-	stability > 0.3 }  
+	has_stability > 0.3 }  
 	            
           activation = { has_country_flag = cerqueira_couping_marques }
           is_good = no
-          selectable_mission = yes 
-          days_mission_timeout = 20    
+          days_mission_timeout = 30    
 		  complete_effect = { clr_country_flag = cerqueira_couping_marques }
-          timeout_effect = {  } #add Cerqueira Here
+          timeout_effect = { 
+		start_civil_war = {
+			ideology = reactionary
+		}
+
+		remove_unit_leader = 1
+		remove_unit_leader = 11
+		remove_unit_leader = 12
+		remove_unit_leader = 4
+		remove_unit_leader = 14
+
+		set_country_flag = cerqueira_is_couping
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.5
+			} 
+			} 
 	}
 }
 
@@ -715,7 +759,7 @@ ACR_marques_movies_category = {
 	cost = 50
 			complete_effect = { 
 	add_stability = 0.15
-	add_war_support = -0.1
+	add_war_support = 0.1
     	}
 	}
 
@@ -723,7 +767,7 @@ ACR_marques_movies_category = {
 	cost = 50
 			complete_effect = { 
 	add_stability = -0.1
-	add_war_support = 0.15
+	add_war_support = -0.15
     	}
 	}
 
@@ -869,6 +913,10 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_captain_jose
         }
 	complete_effect = {
+				add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
   add_timed_idea = { idea = ACR_captain_jose_in_theaters  days = 60 }
 		clr_country_flag = finished_making_captain_jose
 		
@@ -902,6 +950,10 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_evangelical_movie
         }
 	complete_effect = {
+				add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
   add_timed_idea = { idea = ACR_evangelical_in_theaters  days = 60 }
 
 		clr_country_flag = finished_making_evangelical_movie
@@ -936,6 +988,10 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_jungle_calling_movie
         }
 	complete_effect = {
+				add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
   add_timed_idea = { idea = ACR_jungle_calling_in_theaters  days = 60 }
 
 
@@ -971,6 +1027,10 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_selfishness_movie
         }
 	complete_effect = {
+				add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
   add_timed_idea = { idea = ACR_selfishness_in_theaters  days = 60 }
 
 
@@ -1007,6 +1067,10 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_che_1_movie
         }
 	complete_effect = {
+				add_popularity = {
+				ideology = communism
+				popularity = 0.3
+			}
   add_timed_idea = { idea = ACR_che_1_in_theaters  days = 60 }
 
 
@@ -1041,6 +1105,10 @@ ACR_marques_movies_category = {
         has_country_flag = finished_making_che_2_movie
         }
 	complete_effect = {
+				add_popularity = {
+				ideology = communism
+				popularity = 0.3
+			}
   add_timed_idea = { idea = ACR_che_2_in_theaters  days = 60 }
 
 		clr_country_flag = finished_making_che_2_movie

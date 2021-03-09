@@ -1343,13 +1343,10 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.2.A
+			acre_senate_add_technocrat_seats_1 = yes
+			acre_senate_remove_nationalist_seats_1 = yes
 	}
-	option = {
-		name = ACRMarques.2.B
-	}
-	option = {
-		name = ACRMarques.2.C
-	}
+
 }
 
 country_event = {
@@ -1363,13 +1360,15 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.3.A
+			acre_senate_add_technocrat_seats_1 = yes
+			acre_senate_remove_militarist_seats_1 = yes			
 	}
 	option = {
-		name = ACRMarques.3.B
+		name = ACRMarques.3.A
+			acre_senate_remove_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes			
 	}
-	option = {
-		name = ACRMarques.3.C
-	}
+
 }
 
 country_event = {
@@ -1743,9 +1742,8 @@ country_event = {
 	title = ACRMarques.15.t
 	desc = ACRMarques.15.d
 	picture = GFX_report_event_acre_flag
-	trigger = { 
-	stability > 0.4
-	has_country_flag = marques_elected } 
+	trigger = { AND = { has_stability < 0.3 has_country_flag = marques_elected has_civil_war = no 
+	NOT = { has_country_flag = cerqueira_is_couping } } } 
 
 	#Answer
 	option = {
