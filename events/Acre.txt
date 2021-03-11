@@ -596,7 +596,15 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.15.A
-
+    acre_senate_add_militarist_seats_1 = yes
+	}
+	option = {
+		name = ACR.15.B
+    acre_senate_add_nationalist_seats_1 = yes
+	}
+	option = {
+		name = ACR.15.C
+	acre_senate_add_technocrat_seats_1 = yes
 	}
 }
 
@@ -1343,10 +1351,38 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.2.A
-			acre_senate_add_technocrat_seats_1 = yes
+			acre_senate_add_militarist_seats_1 = yes
 			acre_senate_remove_nationalist_seats_1 = yes
+			if = {
+			limit = {
+				check_variable = { senate_nationalist_seats = 0 }
+			}
+				add_to_variable = { var = senate_seats value = 1 }
+
+			}
+			ai_will_do = {
+			if = {
+			limit = {
+				check_variable = { senate_nationalist_seats > 0 }
+			}
+			factor = 999
+			}
+			}
 	}
 
+	option = {
+		name = ACRMarques.2.A
+			acre_senate_add_militarist_seats_1 = yes
+			acre_senate_remove_technocrat_seats_1 = yes
+			ai_will_do = {
+			if = {
+			limit = {
+				check_variable = { senate_technocrat_seats > 15 }
+			}
+			factor = 999
+			}
+			}
+	}
 }
 
 country_event = {
@@ -1360,13 +1396,29 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.3.A
-			acre_senate_add_technocrat_seats_1 = yes
-			acre_senate_remove_militarist_seats_1 = yes			
+			acre_senate_remove_technocrat_seats_2 = yes
+			acre_senate_add_militarist_seats_2 = yes	
+			ai_will_do = {
+			if = {
+			limit = {
+				check_variable = { senate_technocrat_seats > 8 }
+			}
+			factor = 999
+			}
+			}
 	}
 	option = {
 		name = ACRMarques.3.A
 			acre_senate_remove_technocrat_seats_1 = yes
-			acre_senate_add_militarist_seats_1 = yes			
+			acre_senate_add_militarist_seats_1 = yes	
+			ai_will_do = {
+			if = {
+			limit = {
+				check_variable = { senate_technocrat_seats > 7 }
+			}
+			factor = 999
+			}
+			}
 	}
 
 }

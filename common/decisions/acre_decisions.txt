@@ -623,6 +623,30 @@ acrean_senate = {
 			factor = 999
 		}
 	}
+
+	ACR_buy_filming_equipment = {
+	icon = GFX_decision_senate_technocrats_decision
+	visible = { has_completed_focus = ACR_haha_sike }
+	available = {
+	NOT = {
+	check_variable = { senate_technocrat_seats = 0 }
+	}
+	}
+	cost = 75
+		complete_effect = { 
+	acre_senate_remove_technocrat_seats_1 = yes
+	random_list = {
+	50 = {
+	acre_senate_add_militarist_seats_1 = yes
+	}
+	50 = {
+	acre_senate_add_nationalist_seats_1 = yes
+	}
+	}
+	add_to_variable = { var = filming_equipment value = 10 }
+    	}
+	}
+
 }
 
 ACR_war_train_category = {
@@ -756,38 +780,39 @@ ACR_cerqueira_couping_marques = {
 ACR_marques_movies_category = {
 
 	ACR_pro_acrean_propaganda = {
-	cost = 50
+	icon = GFX_decision_marques_acre_propaganda
+	cost = 100
 			complete_effect = { 
+	subtract_from_variable = { var = filming_equipment value = 5 }
+
 	add_stability = 0.15
 	add_war_support = 0.1
     	}
 	}
 
 	ACR_pro_che_propaganda = {
+	icon = GFX_decision_marques_che_propaganda
 	cost = 50
 			complete_effect = { 
+	subtract_from_variable = { var = filming_equipment value = 5 }
+
 	add_stability = -0.1
 	add_war_support = -0.15
     	}
 	}
 
-	ACR_buy_filming_equipment = {
-	cost = 100
-			complete_effect = { 
-	add_to_variable = { var = filming_equipment value = 10 }
-    	}
-	}
-
 
 	ACR_buy_editing_equipment = {
-	cost = 200
-		complete_effect = {
+	icon = GFX_decision_marques_buy_editing_equipment
+	cost = 125
+		complete_effect = { 
 	add_to_variable = { var = editing_equipment value = 1 }
 		}
 	}
 
 
 	ACR_begin_filming_captain_jose = {
+	icon = GFX_decision_marques_make_movie
 	available = { check_variable = { filming_equipment > 0 } 
 	NOT = { has_country_flag = is_making_movie }
 	}
@@ -807,6 +832,7 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_evangelical_movie = {
+	icon = GFX_decision_marques_make_movie
 	available = { check_variable = { filming_equipment > 0 } 
 	NOT = { has_country_flag = is_making_movie }
 }
@@ -826,6 +852,7 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_jungle_calling_movie = {
+	icon = GFX_decision_marques_make_movie
 	available = { check_variable = { filming_equipment > 0 }
 	NOT = { has_country_flag = is_making_movie }
  }
@@ -845,6 +872,7 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_selfishness_movie = {
+	icon = GFX_decision_marques_make_movie
 	available = { check_variable = { filming_equipment > 0 }
 	NOT = { has_country_flag = is_making_movie }
  }
@@ -864,6 +892,7 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_che_1_movie = {
+	icon = GFX_decision_marques_make_movie
 	available = { check_variable = { filming_equipment > 0 }
 	NOT = { has_country_flag = is_making_movie }
  }
@@ -883,6 +912,7 @@ ACR_marques_movies_category = {
 	}
 
 	ACR_begin_filming_che_2_movie = {
+	icon = GFX_decision_marques_make_movie
 	available = { check_variable = { filming_equipment > 0 }
 	NOT = { has_country_flag = is_making_movie }
  }
@@ -908,6 +938,8 @@ ACR_marques_movies_category = {
 ##finished
 
 	ACR_finish_filming_captain_jose = {
+	icon = GFX_decision_marques_release_movie
+
 	#captain alex like movie inspired by the male revolt in Bahia
 	visible = {
         has_country_flag = finished_making_captain_jose
@@ -945,6 +977,7 @@ ACR_marques_movies_category = {
 }
 #
 	ACR_finish_filming_evangelical_movie = {
+	icon = GFX_decision_marques_release_movie
 
 	visible = {
         has_country_flag = finished_making_evangelical_movie
@@ -983,6 +1016,7 @@ ACR_marques_movies_category = {
 }
 #
 	ACR_finish_filming_jungle_calling_movie = {
+	icon = GFX_decision_marques_release_movie
 
 	visible = {
         has_country_flag = finished_making_jungle_calling_movie
@@ -1022,6 +1056,7 @@ ACR_marques_movies_category = {
 }
 #
 	ACR_finish_filming_selfishness_movie = {
+	icon = GFX_decision_marques_release_movie
 
 	visible = {
         has_country_flag = finished_making_selfishness_movie
@@ -1062,6 +1097,7 @@ ACR_marques_movies_category = {
 }
 #
 	ACR_finish_filming_che_1_movie = {
+	icon = GFX_decision_marques_release_movie
 
 	visible = {
         has_country_flag = finished_making_che_1_movie
@@ -1100,6 +1136,7 @@ ACR_marques_movies_category = {
 	}
 }
 	ACR_finish_filming_che_2_movie = {
+	icon = GFX_decision_marques_release_movie
 
 	visible = {
         has_country_flag = finished_making_che_2_movie

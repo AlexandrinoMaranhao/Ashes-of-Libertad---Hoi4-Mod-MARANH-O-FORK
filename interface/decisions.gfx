@@ -1,9 +1,38 @@
 spriteTypes = {	
 
 	### categories
-	
 	##AoL
+			
+	spriteType = {
+		name = "GFX_decision_marques_che_propaganda"
+		texturefile = "gfx/interface/decisions/marques_che_propaganda.dds"
+	}
 		
+	spriteType = {
+		name = "GFX_decision_marques_acre_propaganda"
+		texturefile = "gfx/interface/decisions/marques_acre_propaganda.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_decision_marques_buy_editing_equipment"
+		texturefile = "gfx/interface/decisions/marques_buy_editing_equipment.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_decision_marques_make_movie"
+		texturefile = "gfx/interface/decisions/marques_make_movie.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_decision_marques_release_movie"
+		texturefile = "gfx/interface/decisions/marques_release_movie.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_decision_category_acrean_theater"
+		texturefile = "gfx/interface/decisions/decision_category_acrean_theater.dds"
+	}
+			
 	spriteType = {
 		name = "GFX_decision_senate_generic_decision"
 		texturefile = "gfx/interface/decisions/senate_generic_decision.dds"
