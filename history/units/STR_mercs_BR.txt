@@ -16,14 +16,3 @@ division_template = {
 		artillery = { x = 0 y = 1 }
 	}
 }
-
-units = {
-	division = {
-		name = "Companhia Mercenária São Francisco"
-		division_template = "Saint Francis Merc Battalion"
-		location = 3632
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-
-}

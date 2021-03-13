@@ -792,36 +792,45 @@ country_event = {
 	
 	#Answer
 	option = {
-		name = ACR.22.A
+		name = ACR.22.A 
 		add_tech_bonus = {
 			bonus = 0.5
 			uses = 1
-			category = land_doctrine
+			category = cat_mobile_warfare
+			name = land_doctrine
+		}
+	}
+	option = {
+		name = ACR.22.B
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = cat_superior_firepower
+			name = land_doctrine
+		}
+	}
+	option = {
+		name = ACR.22.C
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = cat_grand_battle_plan
+			name = land_doctrine
+		}
+	}
+	option = {
+		name = ACR.22.D
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = cat_mass_assault
+			name = land_doctrine
 		}
 	}
 }
 
 #########################################################################
-# ACR_an_acrean_army
-#########################################################################
-country_event = {
-	id = ACR.22
-	title = ACR.22.t
-	desc = ACR.22.d
-	picture = x
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	#Answer
-	option = {
-		name = ACR.22.A
-		add_war_support = 0.15
-		add_stability = 0.10
-	}
-}
-
-#########################################################################
-# ACR_but_most_importantly
+# ACR_soldados_da_fortuna
 #########################################################################
 country_event = {
 	id = ACR.23
@@ -834,6 +843,36 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.23.A
+		load_oob = "NEB_mercs"
+		set_country_flag = ACR_picked_NEB
+		89 = {
+			create_unit = {
+				division = "name = \"Nublados\" division_template = \"Neblina Mercenary Battalion\" start_experience_factor = 1 start_equipment_factor = 1"
+				owner = ROOT
+			}  
+		}
+	}
+	option = {
+		name = ACR.23.B
+		load_oob = "STR_mercs_BR"
+		set_country_flag = ACR_picked_STR_BR
+		89 = {
+			create_unit = {
+				division = "name = \"Companhia Mercenária São Francisco\" division_template = \"Saint Francis Merc Battalion\" start_experience_factor = 0.2 start_equipment_factor = 1"
+				owner = ROOT
+			}  
+		}
+	}
+	option = {
+		name = ACR.23.C
+		load_oob = "STR_mercs_US"
+		set_country_flag = ACR_picked_STR_US
+		89 = {
+            create_unit = {
+                division = "name = \"Saint Harem Mercenary Company\" division_template = \"Saint Harem Merc Battalion\" start_experience_factor = 0.3 start_equipment_factor = 1"
+                owner = ROOT
+            } 
+		}
 	}
 }
 

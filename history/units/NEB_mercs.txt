@@ -13,14 +13,3 @@ division_template = {
 	}
 
 }
-
-units = {
-	division = {
-		name = "Nublados"
-		division_template = "Neblina Mercenary Battalion"
-		location = 3441
-		start_experience_factor = 1
-
-	}
-
-}

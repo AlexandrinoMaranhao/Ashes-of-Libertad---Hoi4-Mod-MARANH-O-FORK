@@ -119,28 +119,6 @@ ideas = {
 			stability_weekly = 0.02
 			}
 		}
-		militia_army = {
-			allowed = {
-				tag = ACR
-			}
-
-            available = {
-
-            }
-
-            cancel = {
-
-            }
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
-			}
-		}
 		the_acrean_constitution = {
 			
 			allowed = {
@@ -692,13 +670,15 @@ ideas = {
 				stability_weekly = 0.08
 				war_support_weekly = -0.02
 				consumer_goods_factor = 0.03
-				targeted_modifier = {add_opinion_modifier = { target = ERN modifier = medium_increase }}
 				communism_drift = 0.1
+					}
+				targeted_modifier = { add_opinion_modifier = { tag = ERN modifier = medium_increase }}
+				
 			targeted_modifier = {
 				tag = BTA
 				attack_bonus_against = 0.1
 			}
-			}
+			
 		}
 		ACR_che_2_in_theaters = {
 
@@ -715,11 +695,100 @@ ideas = {
 				war_support_weekly = -0.04
 				consumer_goods_factor = 0.05
 				#targeted_modifier = {add_opinion_modifier = { target = ERN modifier = large_increase }}
+			}	
 
 			targeted_modifier = {
 				tag = BOL
 				attack_bonus_against = 0.1
 			}
+	}
+	ACR_trained_civilians = {
+
+		allowed = {
+			tag = ACR
+		}
+		
+		allowed_civil_war = {
+			always = no
+		}
+					
+		modifier = {
+			conscription_factor = 0.01
+			army_org_regain = 0.05
+		}
+	}
+	ACR_civilian_militias = {
+
+		allowed = {
+			tag = ACR
+		}
+		
+		allowed_civil_war = {
+			always = no
+		}
+					
+		modifier = {
+			industrial_capacity_factory = -0.1
+			production_factory_efficiency_gain_factor = -0.1
+		}
+	}
+	ACR_old_war_tactics = {
+
+		allowed = {
+			tag = ACR
+		}
+		
+		allowed_civil_war = {
+			always = no
+		}
+					
+		modifier = {
+			army_org_Factor = 0.05
+			breakthrough_factor = 0.1
+		}
+	}
+	ACR_guerilla_tactics = {
+
+		allowed = {
+			tag = ACR
+		}
+		
+		allowed_civil_war = {
+			always = no
+		}
+					
+		modifier = {
+			pocket_penalty = -0.15
+			acclimatization_hot_climate_gain_factor = 0.15
+			heat_attrition = -0.1
+		}
+	}
+	ACR_learning_from_the_land = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		modifier = {
+			experience_gain_army_factor = 0.15
+			out_of_supply_factor = -0.1
+		}
+	}
+	ACR_river_assault_training = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		modifier = {
+			amphibious_invasion = 0.15
+			invasion_preparation = -0.1
 		}
 	}
 }

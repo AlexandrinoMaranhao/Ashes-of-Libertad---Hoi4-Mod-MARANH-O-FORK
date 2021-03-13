@@ -624,6 +624,90 @@ acrean_senate = {
 		}
 	}
 
+	contingency_plan_act = {
+		icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			has_completed_focus = ACR_a_contingency_plan
+			has_war = yes
+			NOT = { has_country_flag = ACR_conscripted_civilians }
+		}
+		visible = {
+			has_completed_focus = ACR_a_contingency_plan
+		}
+		cost = 75
+		days_remove = 14
+		complete_effect = {
+			add_stability = -0.1
+			add_war_support = -0.2
+			add_ideas = ACR_civilian_militias
+			set_country_flag = ACR_conscripted_civilians	
+		}
+		remove_effect = {
+			load_oob = "ACR_war_time_militia"
+			89 = {
+				create_unit = {
+					division = "name = \"Milícia\" division_template = \"Milícia\" start_experience_factor = 0.1 start_equipment_factor = 0.75"
+					owner = ACR
+				}
+				create_unit = {
+					division = "name = \"Milícia\" division_template = \"Milícia\" start_experience_factor = 0.1 start_equipment_factor = 0.75"
+					owner = ACR
+				}
+			}
+			533 = {
+				create_unit = {
+					division = "name = \"Milícia\" division_template = \"Milícia\" start_experience_factor = 0.1 start_equipment_factor = 0.75"
+					owner = ACR
+				}
+				create_unit = {
+					division = "name = \"Milícia\" division_template = \"Milícia\" start_experience_factor = 0.1 start_equipment_factor = 0.75"
+					owner = ACR
+				}
+			}
+			107 = {
+				create_unit = {
+					division = "name = \"Milícia\" division_template = \"Milícia\" start_experience_factor = 0.1 start_equipment_factor = 0.75"
+					owner = ACR
+				}
+			}
+		}
+	}
+
+	ACR_deconscript_civilian_militias = {
+		icon = GFX_decision_senate_generic_decision
+		allowed = {
+			tag = ACR
+		}
+		activation = {
+			has_country_flag = ACR_conscripted_civilians
+			has_war = no
+		}
+		visible = {
+			has_country_flag = ACR_conscripted_civilians
+			has_war = no
+		}
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 7
+		timeout_effect = {
+			add_stability = -0.25
+			clr_country_flag = ACR_conscripted_civilians
+		}
+		complete_effect = {
+			delete_unit_template_and_units = {
+				division_template = "Milícia"
+				disband = yes
+			}
+			remove_ideas = ACR_civilian_militias
+			add_stability = 0.1
+			add_war_support = 0.2
+			clr_country_flag = ACR_conscripted_civilians
+		}
+	}
+
 	ACR_buy_filming_equipment = {
 	icon = GFX_decision_senate_technocrats_decision
 	visible = { has_completed_focus = ACR_haha_sike }

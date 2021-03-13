@@ -66,6 +66,8 @@
   end_gridlock_TM_act:0 "End Gridlock"
   end_gridlock_NM_act:0 "End Gridlock"
   end_gridlock_tt:0 "The Senate is in a gridlock, the senators can't reach a vote to decide who the president will be, therefore General Edgar Cerqueira has decided to interveene...\n \n §Rit is crucial that this is done before the Constitution is signed.§!"
+  contingency_plan_act:0 "The Contingency Plan Act"
+  ACR_conscripted_civilians:0 "Conscripted Civilians"
 
   ACR_compensation_trade_category:0 "The Rubber Trade"
   trade_steel:0 "Buy Steel"

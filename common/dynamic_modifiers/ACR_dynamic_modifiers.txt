@@ -24,3 +24,25 @@ ACR_country_of_acreans = { # Country of Acreans
 	political_power_gain = ACR_political_power_gain
 	weekly_manpower = ACR_weekly_manpower
 }
+
+ACR_militia_army = { # Country of Acreans
+	icon = GFX_idea_militia_army
+	enable = { always = yes }
+
+	army_attack_factor = ACR_army_attack_factor
+	army_defence_factor = ACR_army_defence_factor
+	army_org_factor	= ACR_army_org_factor	
+	training_time_factor = ACR_training_time_factor
+	army_morale_factor = ACR_army_morale_factor
+	no_supply_grace = ACR_no_supply_grace
+	conscription_factor = ACR_conscription_factor
+	army_org_regain = ACR_army_org_regain1
+	breakthrough_factor = ACR_breakthrough_factor
+	pocket_penalty = ACR_pocket_penalty
+	acclimatization_hot_climate_gain_factor = ACR_acclimatization_hot_climate_gain_factor
+	heat_attrition = ACR_heat_attrition
+	experience_gain_army_factor = ACR_experience_gain_army_factor
+	out_of_supply_factor = ACR_out_of_supply_factor
+	amphibious_invasion = ACR_amphibious_invasion
+	invasion_preparation = ACR_invasion_preparation
+}

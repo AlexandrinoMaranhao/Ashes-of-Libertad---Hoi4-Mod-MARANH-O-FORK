@@ -27,6 +27,9 @@
 ################
 # Ideas
 ################
+ country_of_seringueiros:0 "A Country of Seringueiros"
+ the_red_menace:0 "§RThe Red Menace§!"
+ ACR_militia_army:0 "Militia Army"
  ACR_tappers_protest:0 "Tappers Protest"
  ACR_tappers_protest1:0 "Tappers Protest"
  ACR_tappers_protest2:0 "Tappers Protest"
@@ -49,6 +52,12 @@
  ACR_the_brazilian_constitution:0 "The §GBrazilian§! Constitution"
  ACR_banana_bread_and_theater:0 "Banana-Bread and Theater"
  ACR_suspicious_government:0 "Wispers of Collaborationism"
+ ACR_trained_civilians:0 "Trained Civilians"
+ ACR_civilian_militias:0 "Conscripted Civilian Militias"
+ ACR_old_war_tactics:0 "Old War Tactics"
+ ACR_guerilla_tactics:0 "Guerilla Tactics"
+ ACR_learning_from_the_land:0 "Learning from the Land"
+ ACR_river_assault_training:0 "River Assault Training"
 ################
 # Tooltips
 ################
@@ -59,3 +68,11 @@
  ACR_order_patrols_to_halt_tt:0 "As a gesture of our willingness to make peace with the §RERN§!, we will stop our patrols on the border and withdraw our militias."
  ACR_promises_of_independence_tt:0 "We have made peace with the §RERN§! and secured our independence!"
  ACR_make_love_not_war_tt:0 "We will join our comrades-in-arms in §RChe's army§!, and secure our future as a nation of the people!"
+ ACR_the_best_there_is_tt:0 "We will gain a bonus to our §GArmy Morale Factor§!"
+ ACR_keep_the_militia_structure_tt:0 "We will gain a bonus to our unit §GTraining Time§!"
+ ACR_learn_from_the_reds_tt:0 "Our §Gattack§! and §Gdefence§! shall be increased"
+ ACR_look_for_options_tt:0 "Completing this focus will unlock a decision to conscript the civilians during a war at a §Rcost§!"
+ ACR_centralize_the_command_structure_tt:0 "We will gain a bonus to our §GDivision Organisation§!"
+ ACR_extra_autonomous_units_tt:0 "We will gain a bonus to our §GSupply Grace§!"
+ ACR_to_the_highest_bidder_tt:0 "§GUnlocks access to the Mercenary decisions§!"
+ ACR_an_acrean_army_tt:0 "All our previous national spirits shall be merged into one"

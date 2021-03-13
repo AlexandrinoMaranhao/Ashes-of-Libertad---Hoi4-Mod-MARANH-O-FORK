@@ -29,8 +29,8 @@ buy_mercenary_companies_category = {
     santarem_open_decisions = { #Shows up Santarém Decisions
         icon = GFX_decision_decision_category_santarem
 
-    allowed = {
-    ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+        allowed = {
+            ACR = { has_completed_focus = ACR_to_the_highest_bidder }
         }
     
         available = {
@@ -39,11 +39,11 @@ buy_mercenary_companies_category = {
         visible = {
         NOT = {
         has_country_flag = santarem_open
-        }
+            }
         }
         complete_effect = {
-        set_country_flag = santarem_open
-        clr_country_flag = santarem_close
+            set_country_flag = santarem_open
+            clr_country_flag = santarem_close
         }
     }
 
@@ -89,7 +89,9 @@ buy_mercenary_companies_category = {
 
        cost = 125
        available = {
-           always = yes
+           NOT = {
+               has_country_flag = ACR_picked_STR_US
+           }
        }
        visible = {
        has_country_flag = santarem_open
@@ -104,6 +106,12 @@ buy_mercenary_companies_category = {
            hidden_effect = {
            ROOT = {
                load_oob = "STR_mercs_US"  
+           }
+           random_owned_controlled_state = {
+            create_unit = {
+                division = "name = \"Saint Harem Mercenary Company\" division_template = \"Saint Harem Merc Battalion\" start_experience_factor = 0.3 start_equipment_factor = 1"
+                owner = ROOT
+            } 
            } 
        }
    }
@@ -113,7 +121,9 @@ buy_mercenary_companies_category = {
 
         cost = 100
         available = {
-            always = yes
+            NOT = {
+                has_country_flag = ACR_picked_STR_BR
+            }
         }
         visible = {
         has_country_flag = santarem_open
@@ -126,9 +136,13 @@ buy_mercenary_companies_category = {
         custom_effect_tooltip = santarem_leunit_BR_tt
             STR = { add_political_power = 100 }
             hidden_effect = {
-            random_owned_controlled_state = {
                 ROOT = {
                     load_oob = "STR_mercs_BR"
+                }
+            random_owned_controlled_state = {
+                create_unit = {
+                    division = "name = \"Companhia Mercenária São Francisco\" division_template = \"Saint Francis Merc Battalion\" start_experience_factor = 0.2 start_equipment_factor = 1"
+                    owner = ROOT
                 } 
             }
         }
@@ -580,7 +594,9 @@ random_list = {
 
        cost = 150
        available = {
-           always = yes
+        NOT = {
+            has_country_flag = ACR_picked_NEB
+        }
        }
        visible = {
        has_country_flag = neblina_mercenary_open
@@ -593,13 +609,12 @@ random_list = {
            NEB = { add_political_power = 150 }
            custom_effect_tooltip = neblina_leunit_tt
            hidden_effect = {
-            random_owned_controlled_state = {
-                ROOT = {
-                    load_oob = "NEB_mercs"    
-                } 
+            ROOT = {
+                load_oob = "NEB_mercs"    
+            }
+            random_owned_controlled_state = { 
                 create_unit = {
-                    division = "name = \"Nublados\" division_template = \"Neblina Mercenary Battalion\" 
-                    start_experience_factor = 1 start_equipment_factor = 1"
+                    division = "name = \"Nublados\" division_template = \"Neblina Mercenary Battalion\" start_experience_factor = 1 start_equipment_factor = 1"
                     owner = ROOT
                 }  
             }
