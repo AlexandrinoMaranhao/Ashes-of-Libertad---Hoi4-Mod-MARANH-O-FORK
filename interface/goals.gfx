@@ -8,10 +8,65 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-      
+             
 	SpriteType = {
-	name = "GFX_goal_"
-	texturefile = "gfx/interface/goals/.dds"
+	name = "GFX_goal_the_acrean_military_command"
+	texturefile = "gfx/interface/goals/the_acrean_military_command.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_education_for_the_common_man"
+	texturefile = "gfx/interface/goals/education_for_the_common_man.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_selected_education"
+	texturefile = "gfx/interface/goals/selected_education.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_generic_education"
+	texturefile = "gfx/interface/goals/generic_education.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_hotline_guevara"
+	texturefile = "gfx/interface/goals/hotline_guevara.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_flirt_with_the_commies"
+	texturefile = "gfx/interface/goals/flirt_with_the_commies.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_Acre_Ameo_ou_deixe_o"
+	texturefile = "gfx/interface/goals/Acre_Ameo_ou_deixe_o.dds"
+	}	
+ 
+	SpriteType = {
+	name = "GFX_goal_RETURN_TO_BRAZIL"
+	texturefile = "gfx/interface/goals/RETURN_TO_BRAZIL.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_anti_bolivian_sentiment"
+	texturefile = "gfx/interface/goals/anti_bolivian_sentiment.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_joao_get_your_gun"
+	texturefile = "gfx/interface/goals/joao_get_your_gun.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_acre_existe"
+	texturefile = "gfx/interface/goals/acre_existe.dds"
+	}	
+  
+	SpriteType = {
+	name = "GFX_goal_the_cerqueira_dictatorship"
+	texturefile = "gfx/interface/goals/the_cerqueira_dictatorship.dds"
 	}	
     
 	SpriteType = {

@@ -208,7 +208,7 @@ shared_focus = {
 	id = ACR_education_for_common_man
 	prerequisite = { focus = ACR_jungle_hospitals  focus = ACR_placido_castro_hospital }
 	relative_position_id = ACR_jungle_hospitals
-	#icon = 
+	icon = GFX_goal_education_for_the_common_man 
 
 	x = -1
 	y = 1
@@ -226,7 +226,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_education_for_common_man }
 	relative_position_id = ACR_education_for_common_man
 	mutually_exclusive = { focus = ACR_selected_books }
-	#icon = 
+	icon = GFX_goal_generic_education
 
 	x = -1
 	y = 1
@@ -244,7 +244,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_make_manaus_beg  }
 	relative_position_id = ACR_education_for_common_man
 	mutually_exclusive = { focus = ACR_generic_education }
-	#icon = 
+	icon = GFX_goal_selected_education
 
 	x = 1
 	y = 1
@@ -392,7 +392,7 @@ shared_focus = {
 	id = ACR_flirt_with_communists
 	prerequisite = { focus = ACR_desperate_negotiations }
 	relative_position_id = ACR_desperate_negotiations
-	#icon = 
+	icon = GFX_goal_flirt_with_the_commies
 
 	x = -1
 	y = 1
@@ -511,7 +511,7 @@ shared_focus = {
 	prerequisite = { focus = ACR_red_flags_in_border }
 	prerequisite = { focus = ACR_write_cute_letter }
 	relative_position_id = ACR_red_flags_in_border
-	#icon = 
+	icon = GFX_goal_hotline_guevara
 
 	x = -1
 	y = 1
