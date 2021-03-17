@@ -231,8 +231,8 @@ country_event = { #URUGUAY COMES BACK FROM THE DEAD
 
         URG = { transfer_state = 81 }
         URG = { transfer_state = 82 }
-        URG = { declare_war_on = {
-            target = ARG
+        ARG = { declare_war_on = {
+            target = URG
             type = annex_everything
             } 
         }

@@ -114,6 +114,62 @@ on_actions = {
                 }
             }
         }
+        effect = {
+            MNS = {
+                country_event = {
+                    id = MNS.1 
+                    days = 329
+                }
+            }
+        }
+        effect = {
+            COR = {
+                country_event = {
+                    id = COR.1 
+                    days = 400
+                }
+            }
+        }
+        effect = {
+            ROR = {
+                country_event = {
+                    id = ROR.1 
+                    days = 399
+                }
+            }
+        }
+        effect = {
+            NHA = {
+                country_event = {
+                    id = NHA.1 
+                    days = 230
+                }
+            }
+        }
+        effect = {
+            FBO = {
+                country_event = {
+                    id = FBO.1 
+                    days = 150
+                }
+            }
+        }
+        effect = {
+            BEM = {
+                country_event = {
+                    id = BEM.1 
+                    days = 180
+                }
+            }
+        }
+        effect = {
+            JAU = {
+                country_event = {
+                    id = JAU.1 
+                    days = 530
+                }
+            }
+        }
     }
     ###CUBA LIBRE
     on_startup = {

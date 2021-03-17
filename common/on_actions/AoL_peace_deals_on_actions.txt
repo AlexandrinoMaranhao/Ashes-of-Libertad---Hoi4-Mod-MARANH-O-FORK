@@ -1613,6 +1613,214 @@ on_actions = {
           transfer_state = 248
         }
       }
+      #### Amazonian Military Command
+      if = {  
+      limit = {
+        ROOT = { original_tag = NHA }
+        FROM = { original_tag = PAT }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = NHA }
+        FROM = { original_tag = MNS }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = MNS }
+        FROM = { original_tag = NHA }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = FBO }
+        FROM = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = COR }
+        FROM = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = BIA }
+        FROM = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = JAV }
+        FROM = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = JUT }
+        FROM = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      #
+
+      if = {  
+      limit = {
+        FROM = { original_tag = FBO }
+        ROOT = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        FROM = { original_tag = COR }
+        ROOT = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        FROM = { original_tag = BIA }
+        ROOT = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        FROM = { original_tag = JAV }
+        ROOT = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        FROM = { original_tag = JUT }
+        ROOT = { original_tag = QPM }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        FROM = { original_tag = WAM }
+        ROOT = { original_tag = MNS }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        FROM = { original_tag = ATR }
+        ROOT = { original_tag = MNS }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = WAM }
+        FROM = { original_tag = MNS }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      if = {  
+      limit = {
+        ROOT = { original_tag = ATR }
+        FROM = { original_tag = MNS }
+      }
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
+      #
     }
   }
 }  

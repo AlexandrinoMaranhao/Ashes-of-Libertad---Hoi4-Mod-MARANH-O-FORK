@@ -457,18 +457,24 @@ country_event = { ## Starts War ##
 
     option = {
         name = RUM.1.a
+        if = { 
+        limit = {
+        ECR = {exists = yes}
+        RUM = {exists = yes}
+        }
         ECR = { 
         declare_war_on = {
             target = RUM
             type = annex_everything
         }
-		        every_state = {
+                every_state = {
             limit = {
                 is_owned_by = RUM
             }
             add_core_of = ROOT
             }
         }
+    }
         CDR = { 
         declare_war_on = {
             target = RUM
