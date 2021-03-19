@@ -111,3 +111,43 @@ focus_tree = {
 	shared_focus = ACR_cerqueria_presidency
 }
 
+focus_tree = {
+	id = ACR_focus_6 # Kalume
+	
+	country = {
+		factor = 0	
+
+		modifier = {
+			add = 10
+			tag = ACR
+
+		}
+
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+	shared_focus = ACR_kalume_presidency
+}
+
+focus_tree = {
+	id = ACR_focus_7 # Carneiro Eneas
+	
+	country = {
+		factor = 0	
+
+		modifier = {
+			add = 10
+			tag = ACR
+
+		}
+
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+	shared_focus = ACR_carneiro_presidency
+}
+

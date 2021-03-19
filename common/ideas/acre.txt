@@ -648,7 +648,7 @@ ideas = {
 				stability_weekly = 0.08
 				war_support_weekly = 0.07
 				consumer_goods_factor = 0.02
-				targeted_modifier = {add_opinion_modifier = { target = MNS modifier = large_decrease }}
+				#targeted_modifier = {add_opinion_modifier = { target = MNS modifier = large_decrease }}
 			}
 
 			targeted_modifier = {
@@ -672,12 +672,13 @@ ideas = {
 				consumer_goods_factor = 0.03
 				communism_drift = 0.1
 					}
-				targeted_modifier = { add_opinion_modifier = { tag = ERN modifier = medium_increase }}
+				#targeted_modifier = { add_opinion_modifier = { tag = ERN modifier = medium_increase }}
 				
 			targeted_modifier = {
 				tag = BTA
 				attack_bonus_against = 0.1
 			}
+
 			
 		}
 		ACR_che_2_in_theaters = {

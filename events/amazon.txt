@@ -612,8 +612,9 @@ country_event = {
         if = { 
         limit = {
         PAT = {exists = no}
+            }
         }
-    }
+    }   
     #Answer
     option = {
     name = NHA.4.a                  
@@ -703,11 +704,11 @@ country_event = {
     JAV = { 
     remove_ideas = uncontacted 
     set_politics = {
-                    ruling_party = communism
-                    last_election = "1967.1.1"
-                    election_frequency = 48
-                    elections_allowed = no
-                        }
+        ruling_party = communism
+        last_election = "1967.1.1"
+        election_frequency = 48
+        elections_allowed = no
+        }
     set_cosmetic_tag = JAV_COMMIE
     }
     puppet = JAV 

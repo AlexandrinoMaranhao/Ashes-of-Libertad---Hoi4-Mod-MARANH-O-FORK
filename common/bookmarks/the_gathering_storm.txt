@@ -38,7 +38,7 @@ bookmarks = {
                   ideology = democratic
                   ideas = {
                         the_white_linned_mayor 
-                        pearl_of_solimoes 
+                        #pearl_of_solimoes 
                         coari_desperation 
                   }
                   focuses = {
@@ -88,7 +88,7 @@ bookmarks = {
                   ideology = communism
 			ideas = {
                         misfits
-                        the_northen_star
+                        #the_northen_star
                         no_administration_roraima
                   }
                   focuses = {

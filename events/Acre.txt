@@ -913,6 +913,7 @@ country_event = {
 					traits = {
 					}
 				}
+				load_focus_tree = ACR_focus_6
 				set_country_flag = kalume_elected
 			}
 			else_if = { # Technocrats Elected
@@ -938,6 +939,7 @@ country_event = {
 					traits = {
 					}
 				}
+				load_focus_tree = ACR_focus_7
 				set_country_flag = eneas_elected
 			}
 			else_if = { # Nationalists Elected
@@ -1399,13 +1401,12 @@ country_event = {
 				add_to_variable = { var = senate_seats value = 1 }
 
 			}
-			ai_will_do = {
-			if = {
-			limit = {
-				check_variable = { senate_nationalist_seats > 0 }
-			}
-			factor = 999
-			}
+			ai_chance = {
+				base = 1
+				modifier = {
+					check_variable = { senate_nationalist_seats > 0 }
+					factor = 999
+				}
 			}
 	}
 
@@ -1413,14 +1414,13 @@ country_event = {
 		name = ACRMarques.2.A
 			acre_senate_add_militarist_seats_1 = yes
 			acre_senate_remove_technocrat_seats_1 = yes
-			ai_will_do = {
-			if = {
-			limit = {
-				check_variable = { senate_technocrat_seats > 15 }
+			ai_chance = {
+				base = 1
+				modifier = {
+					check_variable = { senate_technocrat_seats > 15 }
+					factor = 999
 			}
-			factor = 999
-			}
-			}
+		}
 	}
 }
 
@@ -1437,26 +1437,24 @@ country_event = {
 		name = ACRMarques.3.A
 			acre_senate_remove_technocrat_seats_2 = yes
 			acre_senate_add_militarist_seats_2 = yes	
-			ai_will_do = {
-			if = {
-			limit = {
-				check_variable = { senate_technocrat_seats > 8 }
-			}
-			factor = 999
-			}
+			ai_chance = {
+				base = 1
+				modifier = {
+					check_variable = { senate_technocrat_seats > 8 }
+					factor = 999
+				}
 			}
 	}
 	option = {
 		name = ACRMarques.3.A
 			acre_senate_remove_technocrat_seats_1 = yes
 			acre_senate_add_militarist_seats_1 = yes	
-			ai_will_do = {
-			if = {
-			limit = {
-				check_variable = { senate_technocrat_seats > 7 }
-			}
-			factor = 999
-			}
+			ai_chance = {
+				base = 1
+				modifier = {
+					check_variable = { senate_technocrat_seats > 7 }
+					factor = 999
+				}
 			}
 	}
 

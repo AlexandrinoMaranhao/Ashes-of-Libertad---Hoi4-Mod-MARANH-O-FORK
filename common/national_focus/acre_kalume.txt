@@ -76,7 +76,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_incentivize_cattle #AVAILABLE WITH MARQUES
 	prerequisite = { focus = ACR_the_rondon_deal_rom }
-	relative_position_id = ACR_incentivize_cattle
+	relative_position_id = ACR_the_rondon_deal_rom
 	#icon = 
 
 	x = 0

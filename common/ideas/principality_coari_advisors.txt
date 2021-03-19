@@ -310,7 +310,6 @@ ideas = {
 			}
 
 			available = {
-			has_completed_focus = COR_mercenary_militia
 			}
     }
 
@@ -323,7 +322,6 @@ ideas = {
 			}
 
 			available = {
-			has_completed_focus = COR_local_militia
 			}
     	}
     }

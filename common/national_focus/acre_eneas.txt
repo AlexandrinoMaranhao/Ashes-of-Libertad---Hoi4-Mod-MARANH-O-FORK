@@ -1,0 +1,773 @@
+shared_focus = {
+	id = ACR_carneiro_presidency
+	icon = GFX_goal_the_cerqueira_presidency
+
+	x = 30
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_rebuild_the_nation
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_carneiro_presidency }
+	relative_position_id = ACR_carneiro_presidency
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_celebrate_with_militarists
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_rebuild_the_nation }
+	relative_position_id = ACR_rebuild_the_nation
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_deal_with_cerqueira
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_celebrate_with_militarists }
+	relative_position_id = ACR_celebrate_with_militarists
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_to_the_victor_the_spoils
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_carneiro_presidency }
+	relative_position_id = ACR_carneiro_presidency
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_show_a_light_to_the_nationalists
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_to_the_victor_the_spoils }
+	prerequisite = { focus = ACR_rebuild_the_nation }
+	relative_position_id = ACR_to_the_victor_the_spoils
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_reviving_helios_dream
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_show_a_light_to_the_nationalists }
+	relative_position_id = ACR_show_a_light_to_the_nationalists
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_taking_over_the_technocrats
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_to_the_victor_the_spoils }
+	relative_position_id = ACR_to_the_victor_the_spoils
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_deciding_marques_fate_in_history
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_taking_over_the_technocrats }
+	relative_position_id = ACR_taking_over_the_technocrats
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_found_the_prona
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_deal_with_cerqueira }
+	prerequisite = { focus = ACR_reviving_helios_dream }
+	prerequisite = { focus = ACR_deciding_marques_fate_in_history }
+	relative_position_id = ACR_reviving_helios_dream
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_matters_of_national_reedification
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_found_the_prona }
+	relative_position_id = ACR_found_the_prona
+
+	x = -6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_nationalize_rondonia
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_matters_of_national_reedification }
+	relative_position_id = ACR_matters_of_national_reedification
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_rondonia_testing_grounds
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_nationalize_rondonia }
+	relative_position_id = ACR_nationalize_rondonia
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_fake_smiles_and_hand_shakes
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_matters_of_national_reedification }
+	relative_position_id = ACR_matters_of_national_reedification
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_ears_on_manaus
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_fake_smiles_and_hand_shakes }
+	relative_position_id = ACR_fake_smiles_and_hand_shakes
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_hands_on_mato_grosso
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_rondonia_testing_grounds }
+	prerequisite = { focus = ACR_ears_on_manaus }
+	relative_position_id = ACR_ears_on_manaus
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_secure_the_upper_amazon
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_matters_of_national_reedification }
+	relative_position_id = ACR_matters_of_national_reedification
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_fluvial_supremacy
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_secure_the_upper_amazon }
+	relative_position_id = ACR_secure_the_upper_amazon
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_buy_out_the_neblina
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_ears_on_manaus }
+	prerequisite = { focus = ACR_fluvial_supremacy }
+	relative_position_id = ACR_fluvial_supremacy
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_economy_and_army
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_found_the_prona }
+	relative_position_id = ACR_found_the_prona
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_triple_the_army_size
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_economy_and_army }
+	relative_position_id = ACR_economy_and_army
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_army_whatever
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_triple_the_army_size }
+	relative_position_id = ACR_triple_the_army_size
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_riverines
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_fluvial_supremacy }
+	prerequisite = { focus = ACR_army_whatever }
+	relative_position_id = ACR_army_whatever
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_nationalize_the_rubber_industry
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_economy_and_army }
+	relative_position_id = ACR_economy_and_army
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_the_state_controls_all
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_nationalize_the_rubber_industry }
+	relative_position_id = ACR_nationalize_the_rubber_industry
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_soldiers_heroes_leaders
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_army_whatever }
+	prerequisite = { focus = ACR_the_state_controls_all }
+	relative_position_id = ACR_the_state_controls_all
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_the_greatest_log_house
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_found_the_prona }
+	relative_position_id = ACR_found_the_prona
+
+	x = 6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_anthropology_lessons
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_greatest_log_house }
+	relative_position_id = ACR_the_greatest_log_house
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_uphold_anthropophagic_ideals
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_anthropology_lessons }
+	relative_position_id = ACR_anthropology_lessons
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_carlos_drummond_de_andrade
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_state_controls_all }
+	prerequisite = { focus = ACR_uphold_anthropophagic_ideals }
+	relative_position_id = ACR_uphold_anthropophagic_ideals
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_attract_intellectuals
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_greatest_log_house }
+	relative_position_id = ACR_the_greatest_log_house
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_eneas_inner_circle
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_attract_intellectuals }
+	relative_position_id = ACR_attract_intellectuals
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_the_silver_library
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_uphold_anthropophagic_ideals }
+	prerequisite = { focus = ACR_eneas_inner_circle }
+	relative_position_id = ACR_eneas_inner_circle
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_new_research_facilities
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_greatest_log_house }
+	relative_position_id = ACR_the_greatest_log_house
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_the_best_of_the_best
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_new_research_facilities }
+	relative_position_id = ACR_new_research_facilities
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_a_state_run_by_reason
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_eneas_inner_circle }
+	prerequisite = { focus = ACR_the_best_of_the_best }
+	relative_position_id = ACR_the_best_of_the_best
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_the_race_for_equity
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_hands_on_mato_grosso }
+	prerequisite = { focus = ACR_buy_out_the_neblina }
+	prerequisite = { focus = ACR_riverines }
+	prerequisite = { focus = ACR_soldiers_heroes_leaders }
+	prerequisite = { focus = ACR_carlos_drummond_de_andrade }
+	prerequisite = { focus = ACR_the_silver_library }
+	prerequisite = { focus = ACR_a_state_run_by_reason }
+	relative_position_id = ACR_soldiers_heroes_leaders
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_pirarucu
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -8
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_arara
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_tarantula
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -4
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_jaguatirica
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_mapinguari
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_boto
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_boitata
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 4
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_anta
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_caititu
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 8
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_amazons_overseer
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_project_pirarucu }
+	prerequisite = { focus = ACR_project_arara }
+	prerequisite = { focus = ACR_project_tarantula }
+	prerequisite = { focus = ACR_project_jaguatirica }
+	prerequisite = { focus = ACR_project_mapinguari }
+	prerequisite = { focus = ACR_project_boto }
+	prerequisite = { focus = ACR_project_boitata }
+	prerequisite = { focus = ACR_project_anta }
+	prerequisite = { focus = ACR_project_caititu }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 0
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
