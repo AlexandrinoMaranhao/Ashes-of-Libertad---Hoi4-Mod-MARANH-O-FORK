@@ -150,9 +150,43 @@ random_list = {
 
     
 }
-        #hidden_effect = { country_event = { id = JAU.2 days = 50 } }
+        #hidden_effect = { country_event = { id = JAU.2 days = 350 } }
 
 }
+
+country_event = {
+    id = JAU.2
+    title = JAU.2.t
+    desc = JAU.2.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = JAU.2.a
+
+random_list = { 
+33 = {
+        93 = { add_core_of = COR }
+        COR = { transfer_state = 93 }
+}
+
+33 = {
+        93 = { add_core_of = MNS }
+        MNS = { transfer_state = 93 }
+}
+
+34 = {
+        93 = { add_core_of = ROR }
+        ROR = { transfer_state = 93 }
+}
+
+}
+
+    }
+}
+
 
 
 country_event = {
@@ -441,10 +475,114 @@ country_event = {
         416 = { add_core_of = COR }
 
         COR = { transfer_state = 416 }
-        #hidden_effect = { country_event = { id = COR.6 days = 10 } }
+        hidden_effect = { country_event = { id = COR.6 days = 120 } }
 
     }
 }
+country_event = {
+    id = COR.6
+    title = COR.6.t
+    desc = COR.6.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = COR.6.a
+
+        126 = { add_core_of = COR }
+        460 = { add_core_of = COR }
+
+        COR = { transfer_state = 126 }
+        COR = { transfer_state = 460 }
+        #hidden_effect = { country_event = { id = COR.7 days = 76 } }
+
+    }
+}
+country_event = {
+    id = COR.7
+    title = COR.7.t
+    desc = COR.7.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = COR.7.a
+
+        111 = { add_core_of = COR }
+
+        COR = { transfer_state = 111 }
+        hidden_effect = { country_event = { id = COR.8 days = 80 } }
+    }
+
+    option = {
+    name = COR.7.b
+
+        declare_war_on = {
+            target = HIM
+            type = annex_everything
+            } 
+
+        hidden_effect = { country_event = { id = COR.8 days = 80 } }
+    }
+    
+}
+
+country_event = {
+    id = COR.8
+    title = COR.8.t
+    desc = COR.8.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = COR.8.a
+
+        112 = { add_core_of = COR }
+
+        COR = { transfer_state = 112 }
+        hidden_effect = { country_event = { id = COR.9 days = 80 } }
+    }
+
+    option = {
+    name = COR.8.b
+
+        declare_war_on = {
+            target = DNI
+            type = annex_everything
+            } 
+
+        hidden_effect = { country_event = { id = COR.9 days = 100 } }
+    }
+    
+}
+
+country_event = {
+    id = COR.9
+    title = COR.9.t
+    desc = COR.9.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = COR.9.a
+
+        98 = { add_core_of = COR }
+        110 = { add_core_of = COR }
+
+        COR = { transfer_state = 98 }
+        COR = { transfer_state = 110 }
+    }
+    
+}
+
 
 country_event = {
     id = ROR.1
@@ -460,7 +598,7 @@ country_event = {
         104 = { add_core_of = ROR }
 
         ROR = { transfer_state = 104 }
-        hidden_effect = { country_event = { id = ROR.2 days = 40 } }
+        hidden_effect = { country_event = { id = ROR.2 days = 80 } }
 
     }
 }
@@ -480,7 +618,7 @@ country_event = {
         94 = { add_core_of = ROR }
 
         ROR = { transfer_state = 94 }
-        hidden_effect = { country_event = { id = ROR.3 days = 79 } }
+        hidden_effect = { country_event = { id = ROR.3 days = 90 } }
 
     }
 }
@@ -520,7 +658,35 @@ country_event = {
         117 = { add_core_of = ROR }
 
         ROR = { transfer_state = 117 }
-        #hidden_effect = { country_event = { id = ROR.4 days = 10 } }
+        hidden_effect = { country_event = { id = ROR.5 days = 100 } }
+    }
+}
+
+country_event = {
+    id = ROR.5
+    title = ROR.5.t
+    desc = ROR.5.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = ROR.5.a
+
+        530 = { add_core_of = ROR }
+
+        ROR = { transfer_state = 530 }
+        #hidden_effect = { country_event = { id = ROR.5 days = 100 } }
+    }
+
+    option = {
+    name = ROR.5.b
+
+    declare_war_on = {
+        target = ATR
+        type = annex_everything
+        } 
     }
 }
 country_event = {
@@ -614,7 +780,7 @@ country_event = {
         PAT = {exists = no}
             }
         }
-    }   
+        }
     #Answer
     option = {
     name = NHA.4.a                  
@@ -811,7 +977,7 @@ country_event = {
             type = annex_everything
             }  
 
-        hidden_effect = { country_event = { id = BEM.2 days = 40 } }
+        hidden_effect = { country_event = { id = BEM.2 days = 90 } }
     }
     option = {
     name = BEM.1.a
@@ -864,11 +1030,11 @@ country_event = {
     option = {
     name = BEM.3.a
 
-        hidden_effect = { country_event = { id = BEM.4 days = 69 } }
+        hidden_effect = { country_event = { id = BEM.4 days = 99 } }
 
     }
 }
-
+ 
 country_event = {
     id = BEM.4
     title = BEM.4.t
@@ -888,7 +1054,7 @@ country_event = {
         BEM = { transfer_state = 485 }
         BEM = { transfer_state = 124 }
         BEM = { transfer_state = 486 }
-        hidden_effect = { country_event = { id = BEM.5 days = 98 } }
+        hidden_effect = { country_event = { id = BEM.5 days = 120 } }
     }
 }
 
@@ -920,5 +1086,33 @@ country_event = {
         BEM = { transfer_state = 491 }
         BEM = { transfer_state = 135 }
         BEM = { transfer_state = 95  }
+
+        hidden_effect = { country_event = { id = BEM.6 days = 150 } }
     }
 }
+
+country_event = {
+    id = BEM.6
+    title = BEM.6.t
+    desc = BEM.6.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = BEM.6.a
+
+        491 = { add_core_of = BEM }
+        135 = { add_core_of = BEM }
+        95 = { add_core_of = BEM }
+
+        BEM = { transfer_state = 491 }
+        BEM = { transfer_state = 135 }
+        BEM = { transfer_state = 95  }
+
+        hidden_effect = { country_event = { id = BEM.4 days = 69 } }
+
+    }
+}
+ 

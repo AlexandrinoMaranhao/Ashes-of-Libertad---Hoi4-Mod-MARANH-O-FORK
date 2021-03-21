@@ -24,6 +24,14 @@ on_actions = {
                 }
             }
         }
+        effect = {
+            BOL = {
+                country_event = {
+                    id = BOL_aiwar.1 # Acre War
+                    days = 1521 ## 26 of January
+                }
+            }
+        }
     }
 
 #### MNH and CFD scripted peace deal

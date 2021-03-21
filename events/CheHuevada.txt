@@ -5,6 +5,7 @@ add_namespace = ERN_aiwar
 add_namespace = ERN_intro
 add_namespace = ERN_Marques
 add_namespace = ERN_ACR_join_lib
+add_namespace = BOL_aiwar
 
 
 #### INTRO events (there arent any yet)
@@ -166,4 +167,21 @@ country_event = { #deeper oh yeah
 			days = 0
 		}
 	}
+}
+#Bolivia
+
+country_event = {
+    id = BOL_aiwar.1
+    title = BOL_aiwar.1.t
+    desc = BOL_aiwar.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = BOL_aiwar.1.a
+        declare_war_on = {
+            target = ERN
+            type = annex_everything
+        }
+    }
 }

@@ -39,8 +39,8 @@ set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "José Vicente Faria Lima"
-	picture = "gfx/leaders/SAO/Portrait_SAO_José_Vicente.dds"
+	name = "Adhemar de Barros"
+	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
