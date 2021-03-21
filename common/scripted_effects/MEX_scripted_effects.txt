@@ -214,6 +214,24 @@ MEX_improve_army_logistics = {
 		limit = {
 			has_idea = MEX_overexcerted_army_10
 		}
-		remove_idea = MEX_overexcerted_army_10
+		swap_ideas = {
+			remove_idea = MEX_overexcerted_army_10
+			add_idea = MEX_overexcerted_army_11
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_overexcerted_army_11
+		}
+		swap_ideas = {
+			remove_idea = MEX_overexcerted_army_11
+			add_idea = MEX_overexcerted_army_12
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_overexcerted_army_12
+		}
+		remove_ideas = MEX_overexcerted_army_12
 	}
 }

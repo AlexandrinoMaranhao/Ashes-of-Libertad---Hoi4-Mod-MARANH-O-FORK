@@ -30,7 +30,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.5
 				war_support_factor = -0.4
-				recruitable_population_factor = -0.3
+				recruitable_population = -0.3
 			}
 		}
 
@@ -129,7 +129,7 @@ ideas = {
 				war_support_factor = -0.07
 			}
 		}
-		MEX_overexcerted_army_4 = {
+		MEX_overexcerted_army_5 = {
 			allowed = {
 				always = no
 			}
@@ -145,7 +145,7 @@ ideas = {
 				war_support_factor = -0.06
 			}
 		}
-		MEX_overexcerted_army_5 = {
+		MEX_overexcerted_army_6 = {
 			allowed = {
 				always = no
 			}
@@ -161,7 +161,7 @@ ideas = {
 				war_support_factor = -0.05
 			}
 		}
-		MEX_overexcerted_army_6 = {
+		MEX_overexcerted_army_7 = {
 			allowed = {
 				always = no
 			}
@@ -177,7 +177,7 @@ ideas = {
 				war_support_factor = -0.04
 			}
 		}
-		MEX_overexcerted_army_6 = {
+		MEX_overexcerted_army_8 = {
 			allowed = {
 				always = no
 			}
@@ -193,7 +193,7 @@ ideas = {
 				war_support_factor = -0.04
 			}
 		}
-		MEX_overexcerted_army_7 = {
+		MEX_overexcerted_army_9 = {
 			allowed = {
 				always = no
 			}
@@ -209,7 +209,7 @@ ideas = {
 				war_support_factor = -0.03
 			}
 		}
-		MEX_overexcerted_army_8 = {
+		MEX_overexcerted_army_10 = {
 			allowed = {
 				always = no
 			}
@@ -225,7 +225,7 @@ ideas = {
 				war_support_factor = -0.02
 			}
 		}
-		MEX_overexcerted_army_9 = {
+		MEX_overexcerted_army_11 = {
 			allowed = {
 				always = no
 			}
@@ -241,7 +241,7 @@ ideas = {
 				war_support_factor = -0.02
 			}
 		}
-		MEX_overexcerted_army_10 = {
+		MEX_overexcerted_army_12 = {
 			allowed = {
 				always = no
 			}

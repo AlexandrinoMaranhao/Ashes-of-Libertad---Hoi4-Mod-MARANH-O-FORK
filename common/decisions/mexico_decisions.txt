@@ -39,6 +39,8 @@ mexico_category = {
 				has_idea = MEX_overexcerted_army_8
 				has_idea = MEX_overexcerted_army_9
 				has_idea = MEX_overexcerted_army_10
+				has_idea = MEX_overexcerted_army_11
+				has_idea = MEX_overexcerted_army_12
 			}
 		}
 		complete_effect = {
