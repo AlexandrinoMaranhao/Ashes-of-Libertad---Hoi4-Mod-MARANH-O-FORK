@@ -1253,3 +1253,109 @@ form_para_para_category = {
 		}
 	}
 }
+
+form_united_peru_category = {
+	form_united_peru = {
+		visible = {
+			OR = {
+              original_tag = HIE
+			  original_tag = INC
+			  original_tag = NCA
+			  original_tag = RPE
+			  original_tag = PMI
+			  original_tag = UFO
+			  original_tag = NLA
+			  original_tag = FCP
+			  original_tag = UNO
+			  original_tag = SEC
+			}
+		}
+		available = {
+			is_subject = no
+			controls_state = 333
+			controls_state = 328
+			controls_state = 329
+			controls_state = 332
+			controls_state = 337
+			controls_state = 510
+			controls_state = 511
+			controls_state = 336
+			controls_state = 339
+			controls_state = 507
+			controls_state = 335
+			controls_state = 508
+			controls_state = 509
+			controls_state = 340
+			controls_state = 334
+			controls_state = 342
+			controls_state = 320
+			controls_state = 321
+			controls_state = 322
+			controls_state = 323
+			controls_state = 324
+			controls_state = 325
+			controls_state = 326
+			controls_state = 327
+			controls_state = 330
+			controls_state = 331
+			controls_state = 343
+			controls_state = 431
+			controls_state = 476
+			controls_state = 477
+			controls_state = 536
+			controls_state = 537
+			controls_state = 538
+			controls_state = 539
+			controls_state = 341
+		}
+		complete_effect = {
+			set_peru_unification_costemic_tags = yes
+			set_global_tag = PERU_UNIFICATION
+			every_state = {
+				limit = {
+					OR = {
+						state = 333
+			            state = 328
+			            state = 329
+			            state = 332
+			            state = 337
+			            state = 510
+			            state = 511
+			            state = 336
+			            state = 339
+			            state = 507
+			            state = 335
+			            state = 508
+			            state = 509
+			            state = 340
+			            state = 334
+			            state = 342
+			            state = 320
+			            state = 321
+			            state = 322
+			            state = 323
+			            state = 324
+			            state = 325
+			            state = 326
+			            state = 327
+			            state = 330
+			            state = 331
+			            state = 343
+			            state = 431
+			            state = 476
+			            state = 477
+			            state = 536
+			            state = 537
+			            state = 538
+			            state = 539
+						state = 341
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 9999
+		}
+	}
+}

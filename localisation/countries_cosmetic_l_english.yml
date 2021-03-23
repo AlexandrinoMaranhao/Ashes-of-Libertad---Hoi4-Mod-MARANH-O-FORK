@@ -38,3 +38,17 @@
  FAR_WINS:0 "Colombia"
  FAR_WINS_ADJ:0 "Colombian"
  FAR_WINS_DEF:0 "Colombia"
+ 
+ #peru unification
+ HIE_peru_unification_neutrality:0 "República Neoplatónica Peruana"
+ HIE_peru_unification_reactionary:0 "Unión Sagrada de las Cuatro Partes"
+ INC_peru_unification:0 "Piruw Ripublika"
+ NCA_peru_unification:0 "Reino de Nueva Castilla"
+ RPE_peru_unification:0 "República del Perú"
+ PMI_peru_unification:0 "Unión Nacional Peruana"
+ UFO_peru_unification:0 "Comunión de Despiertos Extraespaciales"
+ NLA_peru_unification:0 "Unión de las Comunas del Perú"
+ FCP_peru_unification:0 "República Popular del Perú"
+ UCO_peru_unification:0 "Unión Nacional Peruana"
+ SEC_peru_unification:0 "Unión Andina"
+ 

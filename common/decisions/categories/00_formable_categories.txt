@@ -80,3 +80,18 @@ form_amazonian_papal_states_category = {
 
 }
 
+form_united_peru_category = {
+
+	icon = generic_formable_nations
+
+	picture = 
+
+}
+
+form_united_cuba_category = {
+
+	icon = generic_formable_nations
+
+	picture = 
+
+}

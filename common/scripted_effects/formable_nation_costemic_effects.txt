@@ -1,0 +1,62 @@
+set_peru_unification_costemic_tags = {
+	if = {
+		limit = {
+			original_tag = HIE
+		}
+		set_cosmetic_tag = HIE_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = INC
+		}
+		set_cosmetic_tag = INC_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = NCA
+		}
+		set_cosmetic_tag = NCA_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = RPE
+		}
+		set_cosmetic_tag = RPE_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = PMI
+		}
+		set_cosmetic_tag = PMI_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = UFO
+		}
+		set_cosmetic_tag = UFO_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = NLA
+		}
+		set_cosmetic_tag = NLA_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = FCP
+		}
+		set_cosmetic_tag = FCP_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = UNO
+		}
+		set_cosmetic_tag = UNO_peru_unification
+	}
+	if = {
+		limit = {
+			original_tag = SEC
+		}
+		set_cosmetic_tag = SEC_peru_unification
+	}
+}
