@@ -1,0 +1,42 @@
+capital = 397
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 10
+	communism = 90
+	neutrality = 0
+	reactionary = 0
+}
+
+add_ideas = {
+	low_economic_mobilisation
+	limited_exports
+	volunteer_only
+
+}
+
+set_country_flag = is_amazonian
+set_country_flag = is_brazilian
+
+
+create_country_leader = {
+	
+	name = "Placeholder"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = marxism
+}

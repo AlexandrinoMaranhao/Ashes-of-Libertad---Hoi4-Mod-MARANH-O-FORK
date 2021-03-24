@@ -1285,5 +1285,5 @@ acre_senate_remove_nationalist_seats_3 = {
 	}
 }
 acre_wins_caititu_war = {
-	ACR = { set_state_owner = 419 set_state_controller = 419 set_state_owner = 125 set_state_controller = 125 white_peace = IQU }
+	ACR = { transfer_state = 419 transfer_state = 125 white_peace = IQU }
 }

@@ -8,10 +8,12 @@ ideas = {
         jorge_kalume_army_chief = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge 
+                    has_country_flag = cerqueira_is_couping 
+                    }
+                }
             }
-
-
             allowed = {
             original_tag = ACR
             }
@@ -21,10 +23,13 @@ ideas = {
         edgar_cerqueira_army_chief = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping 
+                    has_country_flag = ACR_cerqueira_kill
+                    has_country_flag = ACR_eneas_advisor_purge 
+                    }
+                }
             }
-
-
             allowed = {
             original_tag = ACR
             }
@@ -34,7 +39,11 @@ ideas = {
         jose_guiomard_army_chief = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping 
+                    has_country_flag = ACR_eneas_advisor_purge 
+                    }
+                }
             }
 
 
@@ -47,7 +56,11 @@ ideas = {
         nabor_junior_army_chief_aaaa = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping 
+                    has_country_flag = ACR_eneas_advisor_purge
+                    }
+                }
             }
 
 
@@ -64,7 +77,11 @@ ideas = {
         jonas_kalume_navy_chief = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping
+                    has_country_flag = ACR_eneas_advisor_purge
+                    }
+                }
             }
 
 
@@ -81,7 +98,11 @@ ideas = {
         nabor_junior_air_chief = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -92,7 +113,9 @@ ideas = {
         }
         
         mateus_satanawa_air_chief = { #AIR
-
+        visible = {
+            NOT = { has_country_flag = ACR_eneas_advisor_purge }
+        }
             allowed = {
             original_tag = ACR
             }
@@ -109,7 +132,11 @@ ideas = {
         jorge_kalume_high_command = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -122,10 +149,13 @@ ideas = {
         edgar_cerqueira_high_command = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping 
+                    has_country_flag = ACR_cerqueira_kill
+                    has_country_flag = ACR_eneas_advisor_purge
+                    }
+                }
             }
-
-
             allowed = {
             original_tag = ACR
             }
@@ -135,7 +165,11 @@ ideas = {
         jonas_kalume_high_command = {
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping
+                    has_country_flag = ACR_eneas_advisor_purge
+                }
+             }
             }
 
 
@@ -156,7 +190,11 @@ ideas = {
         jose_guiomard_high_command = { #militarist
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
             allowed = {
@@ -168,7 +206,11 @@ ideas = {
         nabor_junior_high_command = { #militarist
             visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
             allowed = {
             original_tag = ACR
@@ -178,7 +220,10 @@ ideas = {
         
         marques_ern_high_command = { #marques with ERN
             visible = {
-            has_completed_focus = ACR_holding_hands_with_che
+                AND = {
+                    NOT = { has_country_flag = ACR_marques_kill }
+                    has_completed_focus = ACR_holding_hands_with_che
+                }
             }
         	allowed = {
         	original_tag = ACR
@@ -195,10 +240,13 @@ ideas = {
         edgar_cerqueira_theorist = { #ARMY
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = cerqueira_is_couping 
+                    has_country_flag = ACR_cerqueira_kill
+                    has_country_flag = ACR_eneas_advisor_purge
+                    }
+                }
             }
-
-
             allowed = {
             original_tag = ACR
             }
@@ -208,7 +256,11 @@ ideas = {
         jose_guiomard_theorist = { #ARMY
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -221,7 +273,11 @@ ideas = {
         jonas_kalume_theorist = { #NAVY
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -232,7 +288,9 @@ ideas = {
         }
         
         mateus_satanawa_theorist = { #AIR
-
+        visible = {
+            NOT = { has_country_flag = ACR_eneas_advisor_purge }
+        }
             allowed = {
             original_tag = ACR
             }
@@ -258,7 +316,9 @@ ideas = {
         political_advisor = {
 
         geraldo_mesquita_advisor = { #nationalist
-
+        visible = {
+            NOT = { has_country_flag = ACR_eneas_advisor_purge }
+        }
             allowed = {
             original_tag = ACR
             }
@@ -275,7 +335,11 @@ ideas = {
             }
             visible = {
                 NOT = {
-                    has_completed_focus = ACR_assassinate_helio_cury
+                    OR = {
+                        has_country_flag = ACR_eneas_advisor_purge
+                        has_completed_focus = ACR_assassinate_helio_cury
+                    }
+                    
                 }
                 }
 
@@ -290,9 +354,14 @@ ideas = {
             }
             }
             visible = {
-            NOT = {
-                    has_completed_focus = ACR_arrest_marques_for_reason
-            } 
+                NOT = {
+                   OR = {
+                        has_completed_focus = ACR_arrest_marques_for_reason 
+                        has_country_flag = ACR_marques_kill
+                        has_country_flag = ACR_eneas_advisor_purge
+                    }  
+                }    
+                
             }
 
         }
@@ -300,10 +369,13 @@ ideas = {
         edgar_cerqueira_political_advisor = { #militarist
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
-            }
-
-
+                OR = {
+                    has_country_flag = cerqueira_is_couping 
+                    has_country_flag = ACR_cerqueira_kill
+                    has_country_flag = ACR_eneas_advisor_purge
+                    }
+                }
+            }    
             allowed = {
             original_tag = ACR
             }
@@ -313,7 +385,11 @@ ideas = {
         jorge_kalume_political_advisor = { #militarist
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -326,7 +402,11 @@ ideas = {
         jonas_kalume_political_advisor = { #nationalist 
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -356,7 +436,11 @@ ideas = {
             }
             visible = {
                 NOT = {
-                    has_completed_focus = ACR_forge_charges_against_nationalists
+                    OR = {
+                        has_country_flag = ACR_eneas_advisor_purge
+                        has_completed_focus = ACR_forge_charges_against_nationalists
+                    }
+                    
                 }
                 }
 
@@ -372,7 +456,11 @@ ideas = {
             }
             visible = {
                 NOT = {
-                    has_completed_focus = ACR_arrest_communist_sympathisers
+                    OR = {
+                        has_country_flag = ACR_eneas_advisor_purge
+                        has_completed_focus = ACR_arrest_communist_sympathisers
+                    }
+                    
                 }
                 }
             
@@ -389,7 +477,11 @@ ideas = {
             }
             visible = {
                 NOT = {
-                    has_completed_focus = ACR_arrest_communist_sympathisers
+                    OR = {
+                        has_country_flag = ACR_eneas_advisor_purge
+                        has_completed_focus = ACR_arrest_communist_sympathisers
+                    }
+                    
                 }
                 }
 
@@ -398,7 +490,11 @@ ideas = {
         nabor_junior_political_advisor = { #militarist
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping 
+                }
+            }
             }
 
 
@@ -411,7 +507,11 @@ ideas = {
         jose_guiomard_political_advisor = { #militarist
         visible = {
             NOT = {
-            has_country_flag = cerqueira_is_couping }
+                OR = {
+                    has_country_flag = ACR_eneas_advisor_purge
+                    has_country_flag = cerqueira_is_couping
+                }
+             }
             }
 
 
@@ -431,7 +531,11 @@ ideas = {
             }
             visible = {
                 NOT = {
-                    has_completed_focus = ACR_forge_charges_against_nationalists
+                    OR = {
+                        has_country_flag = ACR_eneas_advisor_purge
+                        has_completed_focus = ACR_forge_charges_against_nationalists
+                    }
+                    
                 }
                 }
 
@@ -447,14 +551,20 @@ ideas = {
             }
             visible = {
                 NOT = {
-                    has_completed_focus = ACR_forge_charges_against_nationalists
+                    OR = {
+                        has_country_flag = ACR_eneas_advisor_purge
+                        has_completed_focus = ACR_forge_charges_against_nationalists
+                    }
+                    
                 }
                 }
 
         }
 
         moacyr_grechi_political_advisor = { #priest
-
+        visible = {
+            NOT = { has_country_flag = ACR_eneas_advisor_purge }
+        }
             allowed = {
             original_tag = ACR
             }
@@ -463,13 +573,118 @@ ideas = {
         
         marques_ern_political_advisor = { #ERN representative 
             visible = {
+                AND = {
                     has_completed_focus = ACR_holding_hands_with_che
+                    NOT = { has_country_flag = ACR_marques_kill }
+                }
+                    
                 }
 
         	allowed = {
         	original_tag = ACR
         	}
         	
+        }
+
+        carlos_drummond_de_andrade_advisor = { 
+            visible = {
+                has_country_flag = ACR_carlos_drummond_advisor
+                }
+
+        	allowed = {
+        	original_tag = ACR
+        	}
+        	
+            }
+         
+        placeholder_1_advisor = {
+            visible = {
+                has_country_flag = ACR_silver_library_advisors
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_2_advisor = {
+            visible = {
+                has_country_flag = ACR_silver_library_advisors
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_3_advisor = {
+            visible = {
+                has_country_flag = ACR_silver_library_advisors
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_4_advisor = {
+            visible = {
+                has_country_flag = ACR_silver_library_advisors
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+        
+        placeholder_5_advisor = {
+            visible = {
+                has_completed_focus = ACR_eneas_inner_circle
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_6_advisor = {
+            visible = {
+                has_completed_focus = ACR_eneas_inner_circle
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_7_advisor = {
+            visible = {
+                has_completed_focus = ACR_eneas_inner_circle
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_8_advisor = {
+            visible = {
+                has_completed_focus = ACR_eneas_inner_circle
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_9_advisor = {
+            visible = {
+                has_completed_focus = ACR_eneas_inner_circle
+            }
+            allowed = {
+                original_tag = ACR
+            }
+        }
+
+        placeholder_10_advisor = {
+            visible = {
+                has_completed_focus = ACR_eneas_inner_circle
+            }
+            allowed = {
+                original_tag = ACR
+            }
         }
 
         }

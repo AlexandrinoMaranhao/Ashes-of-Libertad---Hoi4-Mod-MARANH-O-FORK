@@ -941,6 +941,11 @@ country_event = {
 				}
 				load_focus_tree = ACR_focus_7
 				set_country_flag = eneas_elected
+				set_variable = { senate_seats = 21 }
+				set_variable = { senate_technocrat_seats = 5 }
+				set_variable = { senate_nationalist_seats = 5 }
+				set_variable = { senate_militarist_seats = 5 }
+				set_variable = { senate_neutral_seats = 6 }
 			}
 			else_if = { # Nationalists Elected
 				limit = {
@@ -1191,8 +1196,8 @@ country_event = {
 	option = {
 		name = ACR_cury.11.a
 
-		set_state_owner = 419
-		set_state_controller = 419	
+		transfer_state = 419
+		transfer_state = 125	
 	}
 }
 
@@ -1838,5 +1843,190 @@ country_event = {
 	option = {
 		name = ACRMarques.15.A
 		set_country_flag = cerqueira_couping_marques
+	}
+}
+
+#########
+# Eneas #
+#########
+
+add_namespace = ACR_eneas
+
+country_event = {
+	id = ACR_eneas.1 ## Eneas Presidency
+	title = ACR_eneas.1.t
+	desc = ACR_eneas.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.1.a
+	}
+}
+
+country_event = {
+	id = ACR_eneas.2 ## Dealing with Cerqueira
+	title = ACR_eneas.2.t
+	desc = ACR_eneas.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.2.a
+		create_country_leader = {
+			name = "Edgar Cerqueira"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			expire = "1999.1.1"
+			ideology = military_government
+		}
+		create_corps_commander = {
+			name = "Edgar Cerqueira"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			traits = { defensive_doctrine old_guard }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 2
+			id = 140
+		}
+	}
+	option = {
+		name = ACR_eneas.2.b
+		kill_ideology_leader = fascism
+		create_country_leader = {
+	
+			name = "Jorge Kalume"
+			picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
+			expire = "1999.1.1"
+			ideology = mercantile_oligarchy
+			traits = {
+			}
+		}
+		set_country_flag = ACR_cerqueira_kill
+		custom_effect_tooltip = ACR_eneas.2_tt
+	}
+}
+
+country_event = {
+	id = ACR_eneas.3 ## Dealing with Marques
+	title = ACR_eneas.3.t
+	desc = ACR_eneas.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.3.a
+		set_country_flag = ACR_marques_kill
+		custom_effect_tooltip = ACR_eneas.3_tt
+		add_war_support = 0.1
+		add_stability = -0.1
+	}
+	option = {
+		name = ACR_eneas.3.b
+		set_country_flag = ACR_marques_kill
+		custom_effect_tooltip = ACR_eneas.3_tt
+		add_war_support = -0.1
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	id = ACR_eneas.4 ## Eneas Presidency
+	title = ACR_eneas.4.t
+	desc = ACR_eneas.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.4.a
+		hidden_effect = {
+			add_state_core = 125
+			add_state_core = 419
+			add_state_core = 460
+			add_state_core = 126
+			add_state_core = 423
+			add_state_core = 112
+			add_state_core = 111
+			add_state_core = 110
+			add_state_core = 418
+			add_state_core = 415
+			add_state_core = 413
+			add_state_core = 451
+			add_state_core = 417
+			add_state_core = 416
+			add_state_core = 109
+			add_state_core = 108
+			add_state_core = 428
+			add_state_core = 90
+			add_state_core = 427
+			add_state_core = 426
+			add_state_core = 450
+			add_state_core = 97
+			add_state_core = 412
+			add_state_core = 98
+			add_state_core = 457
+			add_state_core = 398
+			add_state_core = 422
+			add_state_core = 421
+			add_state_core = 99
+			add_state_core = 100
+			add_state_core = 425
+			add_state_core = 102
+			add_state_core = 101
+			add_state_core = 411
+		}
+		custom_effect_tooltip = ACR_eneas.4_tt
+	}
+}
+
+country_event = {
+	id = ACR_eneas.5 ## The Greatest Log House
+	title = ACR_eneas.5.t
+	desc = ACR_eneas.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.5.a
+	}
+}
+
+country_event = {
+	id = ACR_eneas.6 ## Champion the Anthropophagic Movement
+	title = ACR_eneas.6.t
+	desc = ACR_eneas.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.6.a
+		add_research_slot = 1
+	}
+}
+
+country_event = {
+	id = ACR_eneas.7 ## The Poet and the Dictator
+	title = ACR_eneas.7.t
+	desc = ACR_eneas.7.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.7.a
+		set_country_flag = ACR_carlos_drummond_advisor
+		custom_effect_tooltip = ACR_poet_and_dictator_tt
+	}
+}
+
+country_event = {
+	id = ACR_eneas.8 ## The Race for Equity
+	title = ACR_eneas.8.t
+	desc = ACR_eneas.8.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_eneas.8.a
 	}
 }

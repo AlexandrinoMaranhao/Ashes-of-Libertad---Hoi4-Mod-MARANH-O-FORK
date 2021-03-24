@@ -1,0 +1,17 @@
+add_namespace = JUR_eneas
+
+country_event = {
+	id = JUR_eneas.1 ### Eneas' Offer
+	title = JUR_eneas.1.t
+	desc = JUR_eneas.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JUR_eneas.1.a
+		ACR = { annex_country = { target = JUR } }
+	}
+	option = {
+		name = JUR_eneas.1.b
+		ACR = { create_wargoal = { target = JUR type = annex_everything } }
+	}
+}

@@ -1054,7 +1054,111 @@ on_actions = {
             transfer_troops = no
           }
         }
-      } 
+      }
+      if = { ### Acre vs Cinta-Larga
+        limit = {
+          FROM = { original_tag = ACR }
+          ROOT = { original_tag = ARI }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Jurua
+        limit = {
+          FROM = { original_tag = ACR }
+          ROOT = { original_tag = JUR }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Hi-Merima
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = HIM }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Deni
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = DNI }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Javari
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = JAV }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Jutai
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = JUT }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Bia
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = BIA }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }
+      if = { ### Acre vs Fonte Boa
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = FBO }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }   
     }
   }
   on_state_control_changed = {

@@ -1,3 +1,44 @@
+ACR_debug = {
+	ACR_load_eneas_focus = {
+		icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			NOT = { has_country_flag = ACR_eneas_debug }
+		}
+        days_re_enable = 0
+		complete_effect = {
+			set_country_flag = ACR_eneas_debug
+			clr_country_flag = ACR_kalume_debug
+			load_focus_tree = ACR_focus_7
+		}
+	}
+	ACR_load_kalume_focus = {
+		icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			NOT = { has_country_flag = ACR_kalume_debug }
+		}
+        days_re_enable = 0
+		complete_effect = {
+			set_country_flag = ACR_kalume_debug
+			clr_country_flag = ACR_eneas_debug
+			load_focus_tree = ACR_focus_6
+		}
+	}
+}
+
 acrean_senate = {
 	#debug_add_militarists_1 = { #only a debug decision to test the system, will remove eventually
 	#	allowed = {
@@ -123,6 +164,28 @@ acrean_senate = {
 
 		}
 		    ai_will_do = {
+			factor = 999
+		}
+	}
+
+	foundation_of_the_prona = {
+		icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		available = {
+			always = yes
+		}
+		visible = {
+			has_completed_focus = ACR_found_the_prona
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_cosmetic_tag = ACR_PRONA
+			custom_effect_tooltip = foundation_of_the_prona_tt
+		}
+		ai_will_do = {
 			factor = 999
 		}
 	}
@@ -815,7 +878,6 @@ ACR_che_war_category = {
 				puppet = RON
 				country_event = { id = ACR.24 days = 7 }
 				transfer_state = 125
-
 			}
           }
           complete_effect = {                    
@@ -859,6 +921,150 @@ ACR_cerqueira_couping_marques = {
 			} 
 			} 
 	}
+}
+
+ACR_fluvial_supremancy = {
+
+	ACR_build_destroyer = {
+
+		cost = 75
+
+		days_remove = 120
+
+		days_re_enable = 90
+
+		remove_effect = {
+		if = {
+			limit = { NOT = { has_tech = early_destroyer } }
+			create_ship = {
+				type = destroyer_1
+				equipment_variant = x
+				}
+			}	
+		else_if = {
+			limit = { OR = { } has_tech = early_destroyer }
+			create_ship = {
+				type = destroyer_1
+				equipment_variant = x
+				}
+			}
+		else_if = {
+			limit = { has_tech = basic_destroyer }
+			create_ship = {
+				type = destroyer_2
+				equipment_variant = x
+				}
+			}		 	
+		else_if = {
+			limit = { has_tech = improved_destroyer }
+			create_ship = {
+				type = destroyer_3
+				equipment_variant = x
+				}
+			}		 	
+		else_if = {
+			limit = { has_tech = advanced_destroyer }
+			create_ship = {
+				type = destroyer_4
+				equipment_variant = x
+				}
+			}
+		}			 	
+  	}
+	 
+	ACR_build_light_cruiser = {
+
+		cost = 125
+
+		days_remove = 210
+
+		days_re_enable = 90
+
+		remove_effect = {
+		if = {
+			limit = { NOT = { has_tech = early_light_cruiser } }
+			create_ship = {
+				type = light_cruiser_1
+				equipment_variant = x
+				}
+			}	
+		else_if = {
+			limit = { has_tech = early_light_cruiser }
+			create_ship = {
+				type = light_cruiser_1
+				equipment_variant = x
+				}
+			}
+		else_if = {
+			limit = { has_tech = basic_light_cruiser }
+			create_ship = {
+				type = light_cruiser_2
+				equipment_variant = x
+				}
+			}		 	
+		else_if = {
+			limit = { has_tech = improved_light_cruiser }
+			create_ship = {
+				type = light_cruiser_3
+				equipment_variant = x
+				}
+			}		 	
+		else_if = {
+			limit = { has_tech = advanced_light_cruiser }
+			create_ship = {
+				type = light_cruiser_4
+				equipment_variant = x
+				}
+			}
+		}			 	
+  	}
+	 
+	ACR_build_heavy_cruiser = {
+
+		cost = 200
+
+		days_remove = 270
+
+		days_re_enable = 90
+
+		remove_effect = {
+		if = {
+			limit = { NOT = { has_tech = early_heavy_cruiser } }
+			create_ship = {
+				type = heavy_cruiser_1
+				equipment_variant = x
+				}
+			}	
+		else_if = {
+			limit = { has_tech = early_heavy_cruiser }
+			create_ship = {
+				type = heavy_cruiser_1
+				equipment_variant = x
+				}
+			}
+		else_if = {
+			limit = { has_tech = basic_heavy_cruiser }
+			create_ship = {
+				type = heavy_cruiser_2
+				equipment_variant = x
+				}
+			}		 	
+		else_if = {
+			limit = { has_tech = improved_heavy_cruiser }
+			create_ship = {
+				type = heavy_cruiser_3
+				equipment_variant = x
+				}
+			}		 	
+		else_if = {
+			limit = { has_tech = advanced_heavy_cruiser }
+			create_ship = {
+				type = heavy_cruiser_4
+				equipment_variant = x
+				}
+			}
+		}			 	
+  	}
 }
 
 ACR_marques_movies_category = {

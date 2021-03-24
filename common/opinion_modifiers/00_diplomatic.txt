@@ -11,6 +11,18 @@ opinion_modifiers = {
 	large_increase = {
 		value = 75
 	}
+
+	small_decrease = {
+		value = -25
+	}
+
+	medium_decrease = {
+		value = -50
+	}
+	
+	large_decrease = {
+		value = -75
+	}
 	
 	faction_traitor = {
 		value = -75

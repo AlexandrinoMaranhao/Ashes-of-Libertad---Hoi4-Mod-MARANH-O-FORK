@@ -30,7 +30,7 @@ buy_mercenary_companies_category = {
         icon = GFX_decision_decision_category_santarem
 
         allowed = {
-            ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+            has_completed_focus = ACR_to_the_highest_bidder
         }
     
         available = {
@@ -246,7 +246,7 @@ random_list = {
                 name = "Werbell IV"
                 portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
                 traits = { trickster }
-                skill = 10
+                skill = 9
                 attack_skill = 10
                 defense_skill = 10
                 planning_skill = 10
@@ -498,7 +498,7 @@ random_list = {
  #Shows up Neblina Decisions
 
     allowed = {
-    ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+        has_completed_focus = ACR_to_the_highest_bidder 
         }
     
         available = {
@@ -658,7 +658,7 @@ random_list = {
  #Shows up CIA Decisions
 
     allowed = {
-    ACR = { has_completed_focus = ACR_to_the_highest_bidder }
+        has_completed_focus = ACR_to_the_highest_bidder
         }
     
         available = {

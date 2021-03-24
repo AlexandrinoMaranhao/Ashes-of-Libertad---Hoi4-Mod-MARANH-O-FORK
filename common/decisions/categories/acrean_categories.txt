@@ -1,7 +1,14 @@
+ACR_debug = {
+	icon = GFX_decision_category_acrean_raids
+	allowed = { tag = ACR }
+	visible = { is_debug = yes is_ai = no }
+    visible_when_empty = yes
+}
+
 acrean_senate = {
 	icon = GFX_decision_category_acrean_raids
 	allowed = { tag = ACR }
-	visible = { NOT = { has_completed_focus = ACR_siege_senate } }
+	visible = { NOT = { OR = { has_completed_focus = ACR_siege_senate has_cosmetic_tag = ACR_PRONA } } }
     visible_when_empty = yes
     priority = 300
 	scripted_gui = acre_senate_category
@@ -44,6 +51,16 @@ ACR_marques_movies_category = {
 
 ACR_cerqueira_couping_marques = {
 	visible = { has_country_flag = cerqueira_couping_marques }
+
+	icon = GFX_decision_category_acre_wartrain
+	allowed = {
+		tag = ACR
+	}
+}
+
+ACR_fluvial_supremancy = {
+	visible = { has_completed_focus = ACR_fluvial_supremacy }
+	visible_when_empty = yes
 
 	icon = GFX_decision_category_acre_wartrain
 	allowed = {

@@ -792,6 +792,78 @@ ideas = {
 			invasion_preparation = -0.1
 		}
 	}
+	ACR_ears_on_manaus_idea_MNS = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		targeted_modifier = {
+			tag = MNS
+			attack_bonus_against = 0.05
+		}
+	}
+	ACR_ears_on_manaus_idea_NHA = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		targeted_modifier = {
+			tag = NHA
+			attack_bonus_against = 0.05
+		}
+	}
+	ACR_expanded_frogmen_corps = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		modifier = {
+			special_forces_training_time_factor = -0.1
+			special_forces_out_of_supply_factor = -0.2
+			special_forces_no_supply_grace = 120
+		}
+	}
+	ACR_fighting_neoliberalism = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		modifier = {
+			stability_weekly_factor = -0.01
+			war_support_weekly = 0.01
+		}
+	}
+	ACR_last_university_on_earth = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		
+		modifier = {
+			weekly_manpower = 50
+			monthly_population = 0.15
+			research_speed_factor = 0.05
+		}
+	}
 }
 	hidden_ideas = {
 		ACR_recpop_buff = {

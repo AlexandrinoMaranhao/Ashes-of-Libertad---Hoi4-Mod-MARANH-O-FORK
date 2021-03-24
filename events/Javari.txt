@@ -1,0 +1,17 @@
+add_namespace = JAV_eneas
+
+country_event = {
+	id = JAV_eneas.1 ### Eneas' Offer
+	title = JAV_eneas.1.t
+	desc = JAV_eneas.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JAV_eneas.1.a
+		ACR = { annex_country = { target = JAV } }
+	}
+	option = {
+		name = JAV_eneas.1.b
+		ACR = { create_wargoal = { target = JAV type = annex_everything } }
+	}
+}

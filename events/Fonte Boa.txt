@@ -1,0 +1,17 @@
+add_namespace = FBO_eneas
+
+country_event = {
+	id = FBO_eneas.1 ### Eneas' Offer
+	title = FBO_eneas.1.t
+	desc = FBO_eneas.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = FBO_eneas.1.a
+		ACR = { annex_country = { target = FBO } }
+	}
+	option = {
+		name = FBO_eneas.1.b
+		ACR = { create_wargoal = { target = FBO type = annex_everything } }
+	}
+}

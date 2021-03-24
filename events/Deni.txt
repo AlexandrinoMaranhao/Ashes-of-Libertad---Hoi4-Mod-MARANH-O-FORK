@@ -1,0 +1,17 @@
+add_namespace = DNI_eneas
+
+country_event = {
+	id = DNI_eneas.1 ### Eneas' Offer
+	title = DNI_eneas.1.t
+	desc = DNI_eneas.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = DNI_eneas.1.a
+		ACR = { annex_country = { target = DNI } }
+	}
+	option = {
+		name = DNI_eneas.1.b
+		ACR = { create_wargoal = { target = DNI type = annex_everything } }
+	}
+}

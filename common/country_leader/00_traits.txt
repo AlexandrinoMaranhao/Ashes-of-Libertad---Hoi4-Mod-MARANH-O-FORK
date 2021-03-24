@@ -886,6 +886,13 @@ leader_traits = {
 		industrial_capacity_factory = 0.05
 	}
 
+	anthropologist = {
+		random = no
+		political_power_gain = 0.2
+		stability_factor = 0.05
+		army_morale_factor = 0.1
+	}
+
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly

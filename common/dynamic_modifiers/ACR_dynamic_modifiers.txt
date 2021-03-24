@@ -46,3 +46,16 @@ ACR_militia_army = { # Country of Acreans
 	amphibious_invasion = ACR_amphibious_invasion
 	invasion_preparation = ACR_invasion_preparation
 }
+
+ACR_matters_of_national_rectification = {
+	enable = { always = yes }
+	icon = GFX_idea_militia_army
+
+	production_speed_bunker_factor = ACR_production_speed_bunker_factor
+	decryption_factor = ACR_decryption_factor
+	industrial_capacity_dockyard = ACR_industrial_capacity_dockyard
+	conscription = ACR_conscription
+	industrial_capacity_factory = ACR_industrial_capacity_factory1
+	research_speed_factor = ACR_research_speed_factor1
+	stability_factor = ACR_stability_factor
+}
