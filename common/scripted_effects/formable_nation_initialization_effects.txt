@@ -1,4 +1,4 @@
-set_peru_unification_costemic_tags = {
+peru_unification_initialization = {
 	if = {
 		limit = {
 			original_tag = HIE
@@ -61,7 +61,7 @@ set_peru_unification_costemic_tags = {
 	}
 }
 
-set_cuba_unification_costemic_tags = {
+cuba_unification_initialization = {
 	if = {
 		limit = {
 			original_tag = ACC

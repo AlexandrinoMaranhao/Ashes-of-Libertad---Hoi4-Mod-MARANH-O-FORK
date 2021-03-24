@@ -1310,7 +1310,7 @@ form_united_peru_category = {
 			controls_state = 341
 		}
 		complete_effect = {
-			set_peru_unification_costemic_tags = yes
+			peru_unification_initialization = yes
 			set_global_flag = PERU_UNIFICATION
 			every_state = {
 				limit = {
@@ -1407,7 +1407,7 @@ form_united_cuba_category = {
 			controls_state = 213
 		}
 		complete_effect = {
-			set_cuba_unification_costemic_tags = yes
+			cuba_unification_initialization = yes
 			set_global_flag = CUBA_UNIFICATION
 			every_state = {
 				limit = {
