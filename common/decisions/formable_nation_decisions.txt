@@ -1259,6 +1259,7 @@ form_united_peru_category = {
 		visible = {
 			OR = {
               original_tag = HIE
+			  original_tag = PRU
 			  original_tag = INC
 			  original_tag = NCA
 			  original_tag = RPE
@@ -1310,7 +1311,7 @@ form_united_peru_category = {
 		}
 		complete_effect = {
 			set_peru_unification_costemic_tags = yes
-			set_global_tag = PERU_UNIFICATION
+			set_global_flag = PERU_UNIFICATION
 			every_state = {
 				limit = {
 					OR = {
@@ -1349,6 +1350,93 @@ form_united_peru_category = {
 			            state = 538
 			            state = 539
 						state = 341
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 9999
+		}
+	}
+}
+
+form_united_cuba_category = {
+	form_united_cuba = {
+		visible = {
+			OR = {
+				original_tag = ACC
+				original_tag = CUB
+				original_tag = CUP
+				original_tag = NEH
+				original_tag = SCR
+				original_tag = CDR
+				original_tag = ECR
+				original_tag = BTA
+				original_tag = DRE
+				original_tag = RED
+				original_tag = RUM
+			}
+		}
+		available = {
+			is_subject = no
+			controls_state = 209
+			controls_state = 517
+			controls_state = 518
+			controls_state = 516
+			controls_state = 207
+			controls_state = 208
+			controls_state = 519
+			controls_state = 210
+			controls_state = 520
+			controls_state = 521
+			controls_state = 523
+			controls_state = 217
+			controls_state = 522
+			controls_state = 218
+			controls_state = 215
+			controls_state = 219
+			controls_state = 524
+			controls_state = 216
+			controls_state = 211
+			controls_state = 526
+			controls_state = 525
+			controls_state = 528
+			controls_state = 214
+			controls_state = 527
+			controls_state = 213
+		}
+		complete_effect = {
+			set_cuba_unification_costemic_tags = yes
+			set_global_flag = CUBA_UNIFICATION
+			every_state = {
+				limit = {
+					OR = {
+						state = 209
+						state = 517
+						state = 518
+						state = 516
+						state = 207
+						state = 208
+						state = 519
+						state = 210
+						state = 520
+						state = 521
+						state = 523
+						state = 217
+						state = 522
+						state = 218
+						state = 215
+						state = 219
+						state = 524
+						state = 216
+						state = 211
+						state = 526
+						state = 525
+						state = 528
+						state = 214
+						state = 527
+						state = 213
 					}
 				}
 				add_core_of = ROOT

@@ -60,3 +60,66 @@ set_peru_unification_costemic_tags = {
 		set_cosmetic_tag = SEC_peru_unification
 	}
 }
+
+set_cuba_unification_costemic_tags = {
+	if = {
+		limit = {
+			original_tag = ACC
+		}
+		set_cosmetic_tag = ACC_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = CUP
+		}
+		set_cosmetic_tag = CUP_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = NEH
+		}
+		set_cosmetic_tag = NEH_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = SCR
+		}
+		set_cosmetic_tag = SCR_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = CDR
+		}
+		set_cosmetic_tag = CDR_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = ECR
+		}
+		set_cosmetic_tag = ECR_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = BTA
+		}
+		set_cosmetic_tag = BTA_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = DRE
+		}
+		set_cosmetic_tag = DRE_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = RED
+		}
+		set_cosmetic_tag = RED_cuba_unification
+	}
+	if = {
+		limit = {
+			original_tag = RUM
+		}
+		set_cosmetic_tag = RUM_cuba_unification
+	}
+}

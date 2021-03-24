@@ -46,9 +46,21 @@
  NCA_peru_unification:0 "Reino de Nueva Castilla"
  RPE_peru_unification:0 "República del Perú"
  PMI_peru_unification:0 "Unión Nacional Peruana"
- UFO_peru_unification:0 "Comunión de Despiertos Extraespaciales"
+ UFO_peru_unification:0 "Comunion de los Iluminados Extraespaciales"
  NLA_peru_unification:0 "Unión de las Comunas del Perú"
  FCP_peru_unification:0 "República Popular del Perú"
- UCO_peru_unification:0 "Unión Nacional Peruana"
+ UNO_peru_unification:0 "Unión Nacional Peruana"
  SEC_peru_unification:0 "Unión Andina"
+ 
+ #cuba unification
+ ACC_cuba_unification:0 "Provisional-Government of Liberated Cuba"
+ CUP_cuba_unification:0 "Cuban Pirates"
+ NEH_cuba_unification:0 "Nueva República Cubana"
+ SCR_cuba_unification:0 "Sindicatos Unidos de Cuba"
+ CDR_cuba_unification:0 "República Castrista Cubana"
+ ECR_cuba_unification:0 "Transitional Government of Cuba"
+ BTA_cuba_unification:0 "Cuban State"
+ DRE_cuba_unification:0 "Unión Cubana"
+ RED_cuba_unification:0 "Unión de Islas Socialistas de Cuba"
+ RUM_cuba_unification:0 "Unión Andina"
  
