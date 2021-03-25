@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		set_variable = { ACR_railroad_progress = 10 }
+		set_variable = { ACR_acrean_railroad_progress = 0 }
+		set_variable = { ACR_train_engine_progress = 0 }
+		set_variable = { ACR_base_wagons_progress = 0 }
+		set_variable = { ACR_coal_wagon_progress = 0 }
+		set_variable = { ACR_reinforced_hull_progress = 0 }
+		set_variable = { ACR_mobile_base_progress = 0 }
+		set_variable = { ACR_mortar_progress = 0 }
+		set_variable = { ACR_troop_transport_wagon_progress = 0 }
+		set_variable = { ACR_secondary_turret_progress = 0 }
+		set_variable = { ACR_guevara_suspicion = 0 }
+		set_variable = { ACR_native_revolt_progress = 0 }
+	}
+}

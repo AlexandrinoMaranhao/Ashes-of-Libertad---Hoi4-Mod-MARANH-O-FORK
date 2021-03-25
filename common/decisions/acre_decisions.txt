@@ -799,8 +799,20 @@ acrean_senate = {
 ACR_war_train_category = {
 	construct_railroad_acre = {
 		icon = GFX_decision_wartrain_railroad_acre
-		allowed = {
+		visible = {
 			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		cost = 50
+		complete_effect = {
+			add_to_variable = { ACR_acrean_railroad_progress = 1 }
+			if = {
+				limit = {
+					check_variable = { ACR_acrean_railroad_progress > 2 }
+				}
+				add_to_variable = { ACR_railroad_progress = 23.3 }
+				set_country_flag = ACR_acrean_railroad_finished
+			}
 		}
 	}
 	construct_railroad_rondonia = {
