@@ -1,0 +1,15 @@
+spriteTypes = {
+	#### PICTURES ####
+	spriteType = {
+		name = GFX_ACR_train_empty
+		texturefile = "gfx/interface/GUIs/acre/war_train/Train_Empty.dds"
+	}
+	spriteType = {
+		name = GFX_ACR_train_full
+		texturefile = "gfx/interface/GUIs/acre/war_train/Train_Full.dds"
+	}
+	spriteType = {
+		name = GFX_ACR_train_outline
+		texturefile = "gfx/interface/GUIs/acre/war_train/Train_Outline.dds"
+	}
+}
