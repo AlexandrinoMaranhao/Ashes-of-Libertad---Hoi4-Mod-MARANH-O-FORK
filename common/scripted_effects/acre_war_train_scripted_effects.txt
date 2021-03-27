@@ -6,14 +6,14 @@ ACR_war_train_generator = {
 		limit = {
 			check_variable = { full_trains > 0 }
 		}
-		add_to_array = { ACR_war_train_array = 3 }
+		add_to_array = { ACR_war_train_array = 2 }
 		subtract_from_temp_variable = { full_trains = 1 }
 	}
 	while_loop_effect = {
 		limit = {
 			check_variable = { empty_trains > 0 }
 		}
-		add_to_array = { ACR_war_train_array = 2 }
+		add_to_array = { ACR_war_train_array = 1 }
 		subtract_from_temp_variable = { empty_trains = 1 }
 	}
 }
