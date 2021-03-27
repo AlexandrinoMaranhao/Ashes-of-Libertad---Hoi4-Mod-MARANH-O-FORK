@@ -1,0 +1,33 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "ACR_war_train_gui"
+		size = { width = 600 height = 200 }
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "ACR_war_train_container"
+			size = { width = 600 height = 100 }
+			position = { x = 80 y = 0 }
+			orientation = UPPER_LEFT
+
+			gridBoxType = {
+				name = "ACR_war_train_gridbox"
+				slotsize = { width = 116 height = 42 }
+				add_horizontal = yes
+				max_slots_horizontal = 4
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "ACR_war_train_list"
+		position = { x = 0 y = 0 }
+		size = { width = 116 height = 42 }
+
+		iconType = {
+			name = "ACR_war_train_list_box"
+			spriteType = "GFX_ACR_war_train_list"
+		}
+	}
+}

@@ -797,52 +797,77 @@ acrean_senate = {
 }
 
 ACR_war_train_category = {
-	construct_railroad_acre = {
+	ACR_construct_railroad_acre = {
 		icon = GFX_decision_wartrain_railroad_acre
 		visible = {
+			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		available = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
 		}
 		cost = 50
 		complete_effect = {
 			add_to_variable = { ACR_acrean_railroad_progress = 1 }
-			if = {
-				limit = {
-					check_variable = { ACR_acrean_railroad_progress > 2 }
-				}
-				add_to_variable = { ACR_railroad_progress = 23.3 }
-				set_country_flag = ACR_acrean_railroad_finished
+			add_to_variable = { ACR_railroad_progress = 10 }
+			69 = {
+				add_manpower = -50
 			}
 		}
 	}
-	construct_railroad_rondonia = {
+	ACR_construct_railroad_rondonia = {
 		icon = GFX_decision_wartrain_railroad_rondonia
-		allowed = {
+		visible = {
 			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress > 2 }
 		}
 	}
-	construct_railroad_acre_natives = {
+	ACR_construct_railroad_acre_natives = {
 		icon = GFX_decision_wartrain_railroad_acre_natives
-		allowed = {
+		visible = {
 			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		available = {
+			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		cost = 50
+		complete_effect = {
+			add_to_variable = { ACR_acrean_railroad_progress = 1 }
+			add_to_variable = { ACR_railroad_progress = 10 }
+			add_to_variable = { ACR_guevara_suspicion = 1 }#TODO
 		}
 	}
-	construct_railroad_rondonia_natives = {
+	ACR_construct_railroad_rondonia_natives = {
 		icon = GFX_decision_wartrain_railroad_rondonia_natives
 		allowed = {
 			tag = ACR
 		}
 	}
-	construct_railroad_bolivia = {
+	ACR_construct_railroad_bolivia = {
 		icon = GFX_decision_wartrain_railroad_bolivia
 		allowed = {
 			tag = ACR
 		}
 	}
-	lower_che_suspicion = {
+	ACR_lower_che_suspicion = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		allowed = {
 			tag = ACR
+		}
+	}
+	ACR_build_train_engine = {
+		icon = 
+		visible = {
+			tag = ACR
+		}
+		allowed = {
+			tag = ACR
+		}
+		complete_effect = {
+			ACR_war_train_filling = yes
 		}
 	}
 

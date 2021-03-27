@@ -1,0 +1,29 @@
+scripted_gui = {
+
+	ACR_war_train_category = {
+		context_type = decision_category
+		window_name = "ACR_war_train_gui"
+		parent_window_token = decision_tab
+		visible = { 
+			always = yes 
+		}
+
+		effects = {
+		}
+
+		properties = {
+			ACR_war_train_list_box = {
+				frame = ACR_war_train_array^ACR_war_train_array_i
+			}
+		}
+
+		dynamic_lists = {
+			ACR_war_train_gridbox = {
+				array = ACR_war_train_array
+				index = ACR_war_train_array_i
+				change_scope = no
+				entry_container = ACR_war_train_list
+			}
+		}
+	}
+}
