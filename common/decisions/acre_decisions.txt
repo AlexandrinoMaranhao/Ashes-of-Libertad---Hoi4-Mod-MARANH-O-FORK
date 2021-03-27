@@ -867,7 +867,7 @@ ACR_war_train_category = {
 			tag = ACR
 		}
 		complete_effect = {
-			ACR_war_train_filling = yes
+			#ACR_war_train_filling = yes
 		}
 	}
 
