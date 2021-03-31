@@ -63,7 +63,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "I-Tawari Tukano"
-	picture = "gfx/leaders/JUT/Portrait_JUT_Tribal_Leader.dds"
+	picture = "gfx/leaders/QPM/Portrait_QPM_Tukano.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
 	traits = {
