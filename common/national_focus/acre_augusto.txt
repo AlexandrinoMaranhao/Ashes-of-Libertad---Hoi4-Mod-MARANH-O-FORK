@@ -1,0 +1,872 @@
+shared_focus = {
+	id = ACR_augusto_presidency
+	x = 10
+	y = 0
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_devil_of_solimoes
+	x = 0
+	y = 1
+	relative_position_id = ACR_augusto_presidency
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_augusto_presidency
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_intervention_in_upper_jurua
+	x = -1
+	y = 2
+	relative_position_id = ACR_augusto_presidency
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_devil_of_solimoes
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_not_one_step_back
+	x = 1
+	y = 2
+	relative_position_id = ACR_augusto_presidency
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_devil_of_solimoes
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_fate_of_coari
+	x = 0
+	y = 3
+	relative_position_id = ACR_augusto_presidency
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_intervention_in_upper_jurua
+	}
+	prerequisite = {
+		focus = ACR_not_one_step_back
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_intervene_in_coari
+	x = -1
+	y = 1
+	relative_position_id = ACR_the_fate_of_coari
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_fate_of_coari
+	}
+	mutually_exclusive = {
+		focus = ACR_offer_coari_a_place_in_the_republic
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_offer_coari_a_place_in_the_republic
+	x = 1
+	y = 1
+	relative_position_id = ACR_the_fate_of_coari
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_fate_of_coari
+	}
+	mutually_exclusive = {
+		focus = ACR_intervene_in_coari
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_coari_solved
+	x = 0
+	y = 2
+	relative_position_id = ACR_the_fate_of_coari
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_intervene_in_coari
+		focus = ACR_offer_coari_a_place_in_the_republic
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_dealing_with_lamarca
+	x = -2
+	y = 1
+	relative_position_id = ACR_coari_solved
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_coari_solved
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_base_reforms
+	x = 0
+	y = 1
+	relative_position_id = ACR_coari_solved
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_coari_solved
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_mopping_up_the_pirate_holdouts
+	x = 2
+	y = 1
+	relative_position_id = ACR_coari_solved
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_coari_solved
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_congress_of_xapuri
+	x = 0
+	y = 2
+	relative_position_id = ACR_coari_solved
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_dealing_with_lamarca
+	}
+	prerequisite = {
+		focus = ACR_the_base_reforms
+	}
+	prerequisite = {
+		focus = ACR_mopping_up_the_pirate_holdouts
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_adopt_guerrilla_tactics
+	x = -1
+	y = 1
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_congress_of_xapuri
+	}
+	mutually_exclusive = {
+		focus = ACR_brazilian_style_army
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_brazilian_style_army
+	x = 1
+	y = 1
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_congress_of_xapuri
+	}
+	mutually_exclusive = {
+		focus = ACR_adopt_guerrilla_tactics
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_use_che_as_a_backing
+	x = -1
+	y = 2
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_adopt_guerrilla_tactics
+		focus = ACR_brazilian_style_army
+	}
+	mutually_exclusive = {
+		focus = ACR_trade_favors_with_the_militarists
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_continue_the_embargo_on_manaus
+	x = -1
+	y = 3
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_use_che_as_a_backing
+		focus = ACR_trade_favors_with_the_militarists
+	}
+	mutually_exclusive = {
+		focus = ACR_end_the_manauan_embargo
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_get_che_trained_officers
+	x = -4
+	y = 2
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_adopt_guerrilla_tactics
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_preempt_land_redistribution_in_the_upper_jurua
+	x = -4
+	y = 3
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_use_che_as_a_backing
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_create_ties_with_roraima
+	x = -4
+	y = 4
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_continue_the_embargo_on_manaus
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_trade_favors_with_the_militarists
+	x = 1
+	y = 2
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_adopt_guerrilla_tactics
+		focus = ACR_brazilian_style_army
+	}
+	mutually_exclusive = {
+		focus = ACR_use_che_as_a_backing
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_end_the_manauan_embargo
+	x = 1
+	y = 3
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_use_che_as_a_backing
+		focus = ACR_trade_favors_with_the_militarists
+	}
+	mutually_exclusive = {
+		focus = ACR_continue_the_embargo_on_manaus
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_get_reactionaries_in_the_officer_core
+	x = 4
+	y = 2
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_brazilian_style_army
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_grant_exclusive_monopolies
+	x = 4
+	y = 3
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_trade_favors_with_the_militarists
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_make_our_demands
+	x = 4
+	y = 4
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_end_the_manauan_embargo
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_publish_the_reforms
+	x = 0
+	y = 4
+	relative_position_id = ACR_the_congress_of_xapuri
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_continue_the_embargo_on_manaus
+		focus = ACR_end_the_manauan_embargo
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_be_a_bridge
+	x = -2
+	y = 1
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_create_ties_with_roraima
+	}
+	prerequisite = {
+		focus = ACR_publish_the_reforms
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_pardon_wilson
+	x = -2
+	y = 2
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_be_a_bridge
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_guerrilla_wall
+	x = -2
+	y = 3
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_pardon_wilson
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_reestablish_relations_with_manaus
+	x = 2
+	y = 1
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_make_our_demands
+	}
+	prerequisite = {
+		focus = ACR_publish_the_reforms
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_open_up_old_markets
+	x = 2
+	y = 2
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_reestablish_relations_with_manaus
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_intervention_in_roraima
+	x = 2
+	y = 3
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_open_up_old_markets
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_rogue_general_augusto
+	x = 4
+	y = 12
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_blockade_coari
+	x = -1
+	y = 1
+	relative_position_id = ACR_the_rogue_general_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_rogue_general_augusto
+	}
+	mutually_exclusive = {
+		focus = ACR_a_meeting_with_the_general
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_old_wounds_still_bleeding
+	x = -1
+	y = 2
+	relative_position_id = ACR_the_rogue_general_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_blockade_coari
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_a_meeting_with_the_general
+	x = 1
+	y = 1
+	relative_position_id = ACR_the_rogue_general_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_rogue_general_augusto
+	}
+	mutually_exclusive = {
+		focus = ACR_blockade_coari
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_arrange_cerqueiras_exile
+	x = 1
+	y = 2
+	relative_position_id = ACR_the_rogue_general_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_a_meeting_with_the_general
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_crisis_solved_left
+	x = 0
+	y = 3
+	relative_position_id = ACR_the_rogue_general_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_old_wounds_still_bleeding
+		focus = ACR_arrange_cerqueiras_exile
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_red_menace_augusto
+	x = 16
+	y = 12
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_send_ches_embassadors_back
+	x = -1
+	y = 1
+	relative_position_id = ACR_the_red_menace_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_red_menace_augusto
+	}
+	mutually_exclusive = {
+		focus = ACR_send_marques_to_negotiate
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_challenge_che
+	x = -1
+	y = 2
+	relative_position_id = ACR_the_red_menace_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_send_ches_embassadors_back
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_send_marques_to_negotiate
+	x = 1
+	y = 1
+	relative_position_id = ACR_the_red_menace_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_red_menace_augusto
+	}
+	mutually_exclusive = {
+		focus = ACR_send_ches_embassadors_back
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_kneel_before_che
+	x = 1
+	y = 2
+	relative_position_id = ACR_the_red_menace_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_send_marques_to_negotiate
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_crisis_solved_right
+	x = 0
+	y = 3
+	relative_position_id = ACR_the_red_menace_augusto
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_challenge_che
+		focus = ACR_kneel_before_che
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_no_time_to_waste
+	x = 0
+	y = 4
+	relative_position_id = ACR_publish_the_reforms
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_crisis_solved_left
+	}
+	prerequisite = {
+		focus = ACR_crisis_solved_right
+	}
+	prerequisite = {
+		focus = ACR_the_guerrilla_wall
+		focus = ACR_intervention_in_roraima
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_the_green_menace
+	x = 0
+	y = 1
+	relative_position_id = ACR_no_time_to_waste
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_no_time_to_waste
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_secure_ches_backing
+	x = -1
+	y = 2
+	relative_position_id = ACR_no_time_to_waste
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_green_menace
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_secure_the_militarists_backing
+	x = 1
+	y = 2
+	relative_position_id = ACR_no_time_to_waste
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_the_green_menace
+	}
+
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ACR_call_the_belem_conference
+	x = 0
+	y = 3
+	relative_position_id = ACR_no_time_to_waste
+	cost = 1
+	ai_will_do = { 
+		factor = 1 
+	}
+	prerequisite = {
+		focus = ACR_secure_ches_backing
+	}
+	prerequisite = {
+		focus = ACR_secure_the_militarists_backing
+	}
+
+	completion_reward = {
+	}
+}

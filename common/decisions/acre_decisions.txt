@@ -15,6 +15,7 @@ ACR_debug = {
 		complete_effect = {
 			set_country_flag = ACR_eneas_debug
 			clr_country_flag = ACR_kalume_debug
+			clr_country_flag = ACR_augusto_debug
 			load_focus_tree = ACR_focus_7
 		}
 	}
@@ -34,7 +35,28 @@ ACR_debug = {
 		complete_effect = {
 			set_country_flag = ACR_kalume_debug
 			clr_country_flag = ACR_eneas_debug
+			clr_country_flag = ACR_augusto_debug
 			load_focus_tree = ACR_focus_6
+		}
+	}
+	ACR_load_augusto_focus = {
+		icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			NOT = { has_country_flag = ACR_augusto_debug }
+		}
+        days_re_enable = 0
+		complete_effect = {
+			set_country_flag = ACR_augusto_debug
+			clr_country_flag = ACR_kalume_debug
+			clr_country_flag = ACR_eneas_debug
+			load_focus_tree = ACR_focus_8
 		}
 	}
 }
