@@ -865,13 +865,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_ammo_wagon_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 2
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 2 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_ammo_wagon_finished
 		}
 	}
 	ACR_build_coal_wagon = {
@@ -882,13 +884,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_coal_wagon_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 3
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 3 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_coal_wagon_finished
 		}
 	}
 	ACR_build_mobile_base = {
@@ -899,13 +903,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_mobile_base_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 4
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 4 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_mobile_base_finished
 		}
 	}
 	ACR_build_troop_transport = {
@@ -916,13 +922,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_troop_transport_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 5
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 5 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_troop_transport_finished
 		}
 	}
 	ACR_build_primary_turret = {
@@ -933,13 +941,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_primary_turret_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 6
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 6 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_primary_turret_finished
 		}
 	}
 	ACR_build_secondary_turret = {
@@ -950,13 +960,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_secondary_turret_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 7
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 7 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_secondary_turret_finished
 		}
 	}
 	ACR_build_train_engine = {
@@ -967,13 +979,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_train_engine_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 8
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 8 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_train_engine_finished
 		}
 	}
 	ACR_build_mortar = {
@@ -984,13 +998,15 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			NOT = {
-				has_country_flag = ACR_mortar_finished
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 9
+				}
 			} 
 		}
 		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 9 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			set_country_flag = ACR_mortar_finished
 		}
 	}
 }
