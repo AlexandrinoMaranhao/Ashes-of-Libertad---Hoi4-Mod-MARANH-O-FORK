@@ -811,7 +811,7 @@ ACR_war_train_category = {
 		complete_effect = {
 			add_to_variable = { ACR_acrean_railroad_progress = 1 }
 			add_to_variable = { ACR_railroad_progress = 10 }
-			69 = {
+			89 = {
 				add_manpower = -50
 			}
 		}
@@ -820,7 +820,6 @@ ACR_war_train_category = {
 		icon = GFX_decision_wartrain_railroad_rondonia
 		visible = {
 			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 2 }
 		}
 	}
 	ACR_construct_railroad_acre_natives = {
@@ -842,35 +841,158 @@ ACR_war_train_category = {
 	}
 	ACR_construct_railroad_rondonia_natives = {
 		icon = GFX_decision_wartrain_railroad_rondonia_natives
-		allowed = {
+		visible = {
 			tag = ACR
 		}
 	}
 	ACR_construct_railroad_bolivia = {
 		icon = GFX_decision_wartrain_railroad_bolivia
-		allowed = {
+		visible = {
 			tag = ACR
 		}
 	}
 	ACR_lower_che_suspicion = {
 		icon = GFX_decision_wartrain_lower_suspicion
-		allowed = {
-			tag = ACR
-		}
-	}
-	ACR_build_train_engine = {
-		icon = 
 		visible = {
 			tag = ACR
 		}
-		allowed = {
+	}
+	ACR_build_ammo_wagon = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
 			tag = ACR
 		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_ammo_wagon_finished
+			} 
+		}
 		complete_effect = {
-			#ACR_war_train_filling = yes
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 2 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_ammo_wagon_finished
 		}
 	}
-
+	ACR_build_coal_wagon = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_coal_wagon_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 3 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_coal_wagon_finished
+		}
+	}
+	ACR_build_mobile_base = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_mobile_base_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 4 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_mobile_base_finished
+		}
+	}
+	ACR_build_troop_transport = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_troop_transport_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 5 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_troop_transport_finished
+		}
+	}
+	ACR_build_primary_turret = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_primary_turret_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 6 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_primary_turret_finished
+		}
+	}
+	ACR_build_secondary_turret = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_secondary_turret_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 7 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_secondary_turret_finished
+		}
+	}
+	ACR_build_train_engine = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_train_engine_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 8 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_train_engine_finished
+		}
+	}
+	ACR_build_mortar = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				has_country_flag = ACR_mortar_finished
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 9 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_mortar_finished
+		}
+	}
 }
 
 ACR_che_war_category = {

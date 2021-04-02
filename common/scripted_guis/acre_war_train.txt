@@ -1,5 +1,14 @@
 scripted_gui = {
 
+	#1 - Empty Train
+	#2 - Ammo Wagon
+	#3 - Coal Wagon
+	#4 - Mobile Base
+	#5 - Troop Transport
+	#6 - Primary Turret
+	#7 - Secondary Turret
+	#8 - Engine
+	#9 - Mortar
 	ACR_war_train_category = {
 		context_type = decision_category
 		window_name = "ACR_war_train_gui"

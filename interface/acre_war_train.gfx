@@ -15,6 +15,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ACR_war_train_list"
 		texturefile = "gfx/interface/GUIs/acre/war_train/Train_List.dds"
-		noOfFrames = 2
+		noOfFrames = 9
 	}
 }
