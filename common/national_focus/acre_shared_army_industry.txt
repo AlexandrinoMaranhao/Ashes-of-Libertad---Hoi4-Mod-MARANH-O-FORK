@@ -988,6 +988,15 @@ shared_focus = {
 			category = industry
 		}
 		acre_senate_add_technocrat_seats_1 = yes
+		
+	random_list = {
+	    50 = {
+	    	acre_senate_remove_militarist_seats_1 = yes
+	    }
+	    50 = {
+	    	acre_senate_remove_nationalist_seats_1 = yes
+	    }
+	}
 	}
 }
 shared_focus = {
@@ -1014,6 +1023,15 @@ shared_focus = {
 			category = infantry_tech
 		}
 		acre_senate_add_militarist_seats_1 = yes
+
+	random_list = {
+	    50 = {
+	    	acre_senate_remove_technocrat_seats_1 = yes
+	    }
+	    50 = {
+	    	acre_senate_remove_nationalist_seats_1 = yes
+	    }
+	}
 	}
 }
 shared_focus = {
@@ -1415,6 +1433,16 @@ shared_focus = {
 		}
 		add_stability = 0.1
 		acre_senate_add_militarist_seats_1 = yes
+
+	random_list = {
+	    50 = {
+	    	acre_senate_remove_technocrat_seats_1 = yes
+	    }
+	    50 = {
+	    	acre_senate_remove_nationalist_seats_1 = yes
+	    }
+	}
+
 	}
 }
 shared_focus = {
