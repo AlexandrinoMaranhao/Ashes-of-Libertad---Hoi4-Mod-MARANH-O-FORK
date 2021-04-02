@@ -29,6 +29,7 @@ guiTypes = {
 		iconType = {
 			name = "ACR_war_train_list_box"
 			spriteType = "GFX_ACR_war_train_list"
+			pdx_tooltip_delayed = "ACR_war_train_tt"
 		}
 	}
 }

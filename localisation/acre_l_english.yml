@@ -98,3 +98,7 @@
  ACR_poet_and_dictator_tt:0 "Carlos Drummond de Andrade becomes an available advisor"
  ACR_the_silver_library_tt:0 "A few advisors shall become available"
  ACR_a_state_run_by_reason_tt:0 "We will gain a bigger bonus to our §GResearch Speed§! and a bonus to our §GStability Factor§!"
+ 
+ ACR_war_train_tt:0 "Primary Turret - [GetPrimaryTurretSituation]\nSecondary Turret - [GetSecondaryTurretSituation]\nMortar - [GetMortarSituation]\nMobile Base of Operations - [GetMobileBaseSituation]\nTroop Transport - [GetTroopTransportSituation]\nAmmo Wagon - [GetAmmoWagonSituation]\nCoal Wagon - [GetCoalWagonSituation]\nEngine - [GetEngineSituation]"
+ ACR_war_train_unfilled:0 "§RUnfilled§!"
+ ACR_war_train_filled:0 "§GFilled§!"
