@@ -970,6 +970,7 @@ country_event = {
 					traits = {
 					}
 				}
+				load_focus_tree = ACR_focus_8
 			set_country_flag = augusto_elected
 		}
 	}
