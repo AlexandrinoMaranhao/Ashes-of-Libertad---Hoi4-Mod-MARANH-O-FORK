@@ -50,7 +50,7 @@ create_country_leader = {
 
 create_country_leader = {
 	
-	name = "Gilney Viana"
+	name = "Sinval de Oliveira Bambirra"
 	picture = "gfx/leaders/RMI/Portrait_RMI_Gilney_Viana.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla

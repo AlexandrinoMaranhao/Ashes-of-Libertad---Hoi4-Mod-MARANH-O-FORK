@@ -6,7 +6,32 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-        
+                        
+spriteType ={
+    name = "GFX_idea_the_camaguey_distillery"
+    texturefile = "gfx/interface/ideas/the_camaguey_distillery.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_the_cuban_revolution_defense_force"
+    texturefile = "gfx/interface/ideas/the_cuban_revolution_defense_force.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_split_leadership"
+    texturefile = "gfx/interface/ideas/split_leadership.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_the_old_rebellion"
+    texturefile = "gfx/interface/ideas/the_old_rebellion.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_pacific_overtures"
+    texturefile = "gfx/interface/ideas/pacific_overtures.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_FCP_federacion_campesina"
     texturefile = "gfx/interface/ideas/FCP_federacion_campesina.dds"

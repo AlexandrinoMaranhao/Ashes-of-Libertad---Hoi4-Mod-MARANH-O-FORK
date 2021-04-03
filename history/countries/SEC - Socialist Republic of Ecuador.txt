@@ -11,7 +11,7 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,7 +33,7 @@ SEC_unionists_vs_revengists
 create_country_leader = {
 	
 	name = "Carlos Julio Arosemena Monroy"
-	picture = "gfx/leaders/ECU/Portrait_ACC_Carlos_Julio.dds"
+	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
 	expire = "1999.1.1"
 	ideology = marxism
 	traits = {
