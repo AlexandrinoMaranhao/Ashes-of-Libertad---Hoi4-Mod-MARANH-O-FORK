@@ -104,6 +104,11 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/PRU/Portrait_PRU_Odria.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ERN_JOAQUIN"
+		texturefile = "gfx/dual_leaders/ERN/Portrait_ERN_Juan_Vitalio_Acuña_Núñez.dds"
+	}
+
 
 
 }

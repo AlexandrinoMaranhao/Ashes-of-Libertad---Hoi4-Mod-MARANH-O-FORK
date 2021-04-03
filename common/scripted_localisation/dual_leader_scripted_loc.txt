@@ -326,6 +326,14 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = ERN
+			has_government = communism
+		}
+		localization_key = ERN_SECOND_LEADER
+	}
+
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 
@@ -440,6 +448,14 @@ defined_text = {
 			
 		}
 		localization_key = "GFX_HIE_BLANCA"
+	}
+	text = {
+		trigger = {
+			tag = ERN
+			has_government = communism
+			
+		}
+		localization_key = "GFX_ERN_JOAQUIN"
 	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"

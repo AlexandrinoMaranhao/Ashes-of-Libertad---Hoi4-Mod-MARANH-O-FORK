@@ -220,3 +220,7 @@ EJR_communism_party_long:0 "Movimiento Cívico Nacional Revolucionario"
 
 ERG_communism_party:0 "FAR - Exile"
 ERG_communism_party_long:0 "Fuerzas Armadas Rebeldes - in Exile"
+
+## ERN ##
+ERN_communism_party:0 "ERN"
+ERN_communism_party_long:0 "Ejército Revolucionario del Norte"
