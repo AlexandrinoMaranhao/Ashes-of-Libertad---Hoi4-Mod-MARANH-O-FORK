@@ -198,6 +198,12 @@ JUN_neutrality_party_long:0 "Junta Militar - Reformistas"
 JUN_reactionary_party_long:0 "Junta Militar - Dutra's Clique"
 JUN_reactionary_party:0 "Junta Militar - Dutra's Clique"
 
+BRA_democratic_party:0 "PTB"
+BRA_democratic_party_long:0 "Partido Trabalhista Brasileiro"
+BRA_communism_party:0 "PTB"
+BRA_communism_party_long:0 "Partido Trabalhista Brasileiro"
+BRA_fascism_party:0 "FAB"
+BRA_fascism_party_long:0 "Forças Armadas Brasileiras"
 
 #Uruguay things
 URG_fascism_party:0 "M-I C"
@@ -224,3 +230,78 @@ ERG_communism_party_long:0 "Fuerzas Armadas Rebeldes - in Exile"
 ## ERN ##
 ERN_communism_party:0 "ERN"
 ERN_communism_party_long:0 "Ejército Revolucionario del Norte"
+
+## Central America ##
+GUA_fascism_party:0 "FAG"
+GUA_fascism_party_long:0 "Fuerzas Armadas de Guatemala"
+
+HON_fascism_party:0 "Board of Directors"
+HON_fascism_party_long:0 "Standard Fruit & Steamship Company's Board of Directors"
+
+ELS_fascism_party:0 "PCN"
+ELS_fascism_party_long:0 "Partido de Concertación Nacional"
+
+NIC_communism_party:0 "FSLN"
+NIC_communism_party:0 "Frente Sandinista de Liberación Nacional"
+
+COS_reactionary_party:0 "UCR"
+COS_reactionary_party_long:0 "Unión Cívica Revolucionaria"
+
+PAN_democratic_party:0 "PLN"
+PAN_democratic_party_long:0 "Partido Liberal Nacional"
+
+PAM_fascism_party:0 "GRP"
+PAM_fascism_party:0 "Gobierno de la Revolución Panameña"
+
+## Colombia ##
+COL_democratic_party:0 "FN-PLC"
+COL_democratic_party_long:0 "Frente Nacional - Partido Liberal Colombiano"
+COL_democratic_party_conservative:0 "FN-PCC"
+COL_democratic_party_conservative_long:0 "Frente Nacional - Partido Conservador Colombiano"
+COL_fascism_party:0 "ANAPO"
+COL_fascism_party_long:0 "Alianza Nacional Popular"
+
+## Bolivia ##
+BOL_democratic_party:0 "MPC"
+BOL_democratic_party_long:0 "Movimiento Popular Cristiano"
+
+## Peru ##
+PRU_democratic_party:0 "Coalición APRA-UNO"
+PRU_democratic_party:0 "Coalición de Alianza Popular Revolucionaria Americana y Unión Nacional Odriista"
+PRU_communism_party:0 "APRA"
+PRU_communism_party_long:0 "Alianza Popular Revolucionaria Americana"
+PRU_reactionary_party:0 "UNO"
+PRU_reactionary_party_long:0 "Unión Nacional Odriista"
+
+UNO_fascism_party:0 "UNO"
+UNO_fascism_party_long:0 "Unión Nacional Odriista"
+
+RPE_democratic_party:0 "AP"
+RPE_democratic_party_long:0 "Acción Popular"
+
+UFO_communism_party:0 "SA"
+UFO_communism_party:0 "Sociedad Akáshica"
+
+PMI_fascism_party:0 "FAP"
+PMI_fascism_party_long:0 "Fuerzas Armadas del Perú"
+
+NLA_communism_party:0 "ELN"
+NLA_communism_party_long:0 "Ejército de Liberación Nacional"
+
+FCP_communism_party:0 "FCP"
+FCP_communism_party_long:0 "Federación Campesina del Perú"
+
+HIE_reactionary_party:0 "USCP"
+HIE_reactionary_party_long:0 "Unión Sagrada de las Cuatro Partes"
+
+## Paraguay ##
+PAR_fascism_party:0 "ANR-PC"
+PAR_fascism_party_long:0 "Asociación Nacional Republicana – Partido Colorado"
+
+## Argentina ##
+PAR_fascism_party:0 "UCRI"
+PAR_fascism_party_long:0 "Unión Cívica Radical Intransigente"
+
+## Chile ##
+PAR_neutrality_party:0 "FRAP-PS"
+PAR_neutrality_party_long:0 "Frente de Acción Popular - Partido Socialista de Chile"
