@@ -15,6 +15,7 @@ ACR_debug = {
 		complete_effect = {
 			set_country_flag = ACR_eneas_debug
 			clr_country_flag = ACR_kalume_debug
+			clr_country_flag = ACR_augusto_debug
 			load_focus_tree = ACR_focus_7
 		}
 	}
@@ -34,7 +35,28 @@ ACR_debug = {
 		complete_effect = {
 			set_country_flag = ACR_kalume_debug
 			clr_country_flag = ACR_eneas_debug
+			clr_country_flag = ACR_augusto_debug
 			load_focus_tree = ACR_focus_6
+		}
+	}
+	ACR_load_augusto_focus = {
+		icon = GFX_decision_senate_technocrats_decision
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			NOT = { has_country_flag = ACR_augusto_debug }
+		}
+        days_re_enable = 0
+		complete_effect = {
+			set_country_flag = ACR_augusto_debug
+			clr_country_flag = ACR_kalume_debug
+			clr_country_flag = ACR_eneas_debug
+			load_focus_tree = ACR_focus_8
 		}
 	}
 }
@@ -797,43 +819,218 @@ acrean_senate = {
 }
 
 ACR_war_train_category = {
-	construct_railroad_acre = {
+	ACR_construct_railroad_acre = {
 		icon = GFX_decision_wartrain_railroad_acre
-		allowed = {
+		visible = {
 			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		available = {
+			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		cost = 50
+		complete_effect = {
+			add_to_variable = { ACR_acrean_railroad_progress = 1 }
+			add_to_variable = { ACR_railroad_progress = 10 }
+			89 = {
+				add_manpower = -50
+			}
 		}
 	}
-	construct_railroad_rondonia = {
+	ACR_construct_railroad_rondonia = {
 		icon = GFX_decision_wartrain_railroad_rondonia
-		allowed = {
+		visible = {
 			tag = ACR
 		}
 	}
-	construct_railroad_acre_natives = {
+	ACR_construct_railroad_acre_natives = {
 		icon = GFX_decision_wartrain_railroad_acre_natives
-		allowed = {
+		visible = {
 			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		available = {
+			tag = ACR
+			check_variable = { ACR_acrean_railroad_progress < 3 }
+		}
+		cost = 50
+		complete_effect = {
+			add_to_variable = { ACR_acrean_railroad_progress = 1 }
+			add_to_variable = { ACR_railroad_progress = 10 }
+			add_to_variable = { ACR_guevara_suspicion = 1 }#TODO
 		}
 	}
-	construct_railroad_rondonia_natives = {
+	ACR_construct_railroad_rondonia_natives = {
 		icon = GFX_decision_wartrain_railroad_rondonia_natives
-		allowed = {
+		visible = {
 			tag = ACR
 		}
 	}
-	construct_railroad_bolivia = {
+	ACR_construct_railroad_bolivia = {
 		icon = GFX_decision_wartrain_railroad_bolivia
-		allowed = {
+		visible = {
 			tag = ACR
 		}
 	}
-	lower_che_suspicion = {
+	ACR_lower_che_suspicion = {
 		icon = GFX_decision_wartrain_lower_suspicion
-		allowed = {
+		visible = {
 			tag = ACR
 		}
 	}
-
+	ACR_build_ammo_wagon = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 2
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 2 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_coal_wagon = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 3
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 3 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_mobile_base = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 4
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 4 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_troop_transport = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 5
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 5 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_primary_turret = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 6
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 6 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_secondary_turret = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 7
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 7 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_train_engine = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 8
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 8 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_mortar = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 9
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 9 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
 }
 
 ACR_che_war_category = {

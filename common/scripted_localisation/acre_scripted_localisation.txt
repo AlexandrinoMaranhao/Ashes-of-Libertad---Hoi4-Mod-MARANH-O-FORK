@@ -5,3 +5,139 @@ defined_text = {
 		localization_key = acrean_senate_neutral_seats
 	}
 }
+
+defined_text = {
+	name = GetPrimaryTurretSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 6
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetSecondaryTurretSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 7
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetMortarSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 9
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetMobileBaseSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 4
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetTroopTransportSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 5
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetAmmoWagonSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 2
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetCoalWagonSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 3
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}
+
+defined_text = {
+	name = GetEngineSituation
+	text = {
+		trigger = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 8
+			}
+		}
+		localization_key = ACR_war_train_filled
+	}
+	text = {
+		trigger = {}#default
+		localization_key = ACR_war_train_unfilled
+	}
+}

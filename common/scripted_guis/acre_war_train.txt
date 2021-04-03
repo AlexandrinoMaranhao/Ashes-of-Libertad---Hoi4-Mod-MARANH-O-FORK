@@ -1,0 +1,38 @@
+scripted_gui = {
+
+	#1 - Empty Train
+	#2 - Ammo Wagon
+	#3 - Coal Wagon
+	#4 - Mobile Base
+	#5 - Troop Transport
+	#6 - Primary Turret
+	#7 - Secondary Turret
+	#8 - Engine
+	#9 - Mortar
+	ACR_war_train_category = {
+		context_type = decision_category
+		window_name = "ACR_war_train_gui"
+		parent_window_token = decision_tab
+		visible = { 
+			always = yes 
+		}
+
+		effects = {
+		}
+
+		properties = {
+			ACR_war_train_list_box = {
+				frame = ACR_war_train_array^ACR_war_train_array_i
+			}
+		}
+
+		dynamic_lists = {
+			ACR_war_train_gridbox = {
+				array = ACR_war_train_array
+				index = ACR_war_train_array_i
+				change_scope = no
+				entry_container = ACR_war_train_list
+			}
+		}
+	}
+}

@@ -26,6 +26,7 @@ ACR_war_train_category = {
 	allowed = {
 		tag = ACR
 	}
+	scripted_gui = ACR_war_train_category
 }
 
 ACR_che_war_category = {

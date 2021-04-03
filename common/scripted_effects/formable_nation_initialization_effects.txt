@@ -59,6 +59,12 @@ peru_unification_initialization = {
 		}
 		set_cosmetic_tag = SEC_peru_unification
 	}
+	if = {
+		limit = {
+			original_tag = PRU
+		}
+		set_cosmetic_tag = PRU_peru_unification
+	}
 }
 
 cuba_unification_initialization = {

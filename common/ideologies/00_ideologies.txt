@@ -316,7 +316,7 @@ ideologies = {
 			coronelism = {
 			}
 
-			christian_theocracy = {
+			christian_theocracy_reactionary = {
 			}
 
 		}
