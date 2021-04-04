@@ -174,7 +174,7 @@ on_actions = {
             JAU = {
                 country_event = {
                     id = JAU.1 
-                    days = 530
+                    days = 730
                 }
             }
         }

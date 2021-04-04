@@ -31,16 +31,16 @@ ENG_preassure_from_venezuela
 ENG_the_sun_has_set
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Federal Parliament of the W.I.F."
+	picture = "gfx/leaders/ENG/Portrait_ENG_Federation.dds"
+	expire = "1999.1.1"
+	ideology = federation
+	traits = {
+		#
+	}
+}
 
 
 }

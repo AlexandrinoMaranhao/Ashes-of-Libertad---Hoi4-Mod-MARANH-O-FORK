@@ -29,16 +29,16 @@ add_ideas = {
 KEY_the_last_city_in_america
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Richard A. Heyman"
+	picture = "gfx/leaders/KEY/Portrait_KEY_Richard_A.dds"
+	expire = "1999.1.1"
+	ideology = city_state
+	traits = {
+		#
+	}
+}
 
 
 }

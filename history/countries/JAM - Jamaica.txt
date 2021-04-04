@@ -19,9 +19,9 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 100
+	communism = 30
 	neutrality = 0
-	reactionary = 0
+	reactionary = 70
 }
 
 add_ideas = {
@@ -35,16 +35,16 @@ declare_war_on = {
 	type = annex_everything
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Sir William Alexander Bustamante"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Federation.dds"
+	expire = "1999.1.1"
+	ideology = anarchism
+	traits = {
+		#
+	}
+}
 
 
 }
