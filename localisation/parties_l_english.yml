@@ -261,6 +261,28 @@ COL_democratic_party_conservative_long:0 "Frente Nacional - Partido Conservador 
 COL_fascism_party:0 "ANAPO"
 COL_fascism_party_long:0 "Alianza Nacional Popular"
 
+ELN_communism_party:0 "ELN"
+ELN_communism_party_long:0 "Ejército de Liberación Nacional"
+
+FAR_communism_party:0 "FARC"
+FAR_communism_party_long:0 "Fuerzas Armadas Revolucionarias de Colombia"
+
+LBT_communism_party:0 "Libertadores"
+LBT_communism_party_long:0 "Libertadores"
+
+## Venezuela ##
+VEN_democratic_party:0 "AD"
+VEN_democratic_party_long:0 "Acción Democrática"
+
+CIA_fascism_party:0 "[REDACTED]"
+CIA_fascism_party_long:0 "[REDACTED]"
+
+NEB_fascism_party:0 "Mercenario Neblina"
+NEB_fascism_party_long:0 "Mercenario Neblina"
+
+ELD_democratic_party:0 "MRD"
+ELD_democratic_party_long:0 "Movimiento de Recuperación Democrática"
+
 ## Bolivia ##
 BOL_democratic_party:0 "MPC"
 BOL_democratic_party_long:0 "Movimiento Popular Cristiano"
@@ -299,9 +321,9 @@ PAR_fascism_party:0 "ANR-PC"
 PAR_fascism_party_long:0 "Asociación Nacional Republicana – Partido Colorado"
 
 ## Argentina ##
-PAR_fascism_party:0 "UCRI"
-PAR_fascism_party_long:0 "Unión Cívica Radical Intransigente"
+ARG_fascism_party:0 "UCRI"
+ARG_fascism_party_long:0 "Unión Cívica Radical Intransigente"
 
 ## Chile ##
-PAR_neutrality_party:0 "FRAP-PS"
-PAR_neutrality_party_long:0 "Frente de Acción Popular - Partido Socialista de Chile"
+CHL_neutrality_party:0 "FRAP-PS"
+CHL_neutrality_party_long:0 "Frente de Acción Popular - Partido Socialista de Chile"
