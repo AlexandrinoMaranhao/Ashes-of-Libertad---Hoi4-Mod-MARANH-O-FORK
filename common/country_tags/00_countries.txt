@@ -115,7 +115,7 @@ UNO = "countries/UNO.txt"
 SEC = "countries/Socialist Republic of Ecuador.txt"
 
 RON = "countries/Rondônia.txt"
-MAN = "countres/La Manada.txt"
+MAN = "countries/La Manada.txt"
 DEA = "countries/Death Squads.txt"
 TUP = "countries/Tupamaros.txt"
 ERP = "countries/ERP.txt"

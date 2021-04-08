@@ -357,20 +357,20 @@ country_event = {
 
 }
 country_event = { ## Starts War ##
-    id = CUB.2
-    title = CUB.2.t
-    desc = CUB.2.d
+    id = CUB.3
+    title = CUB.3.t
+    desc = CUB.3.d
     picture = x
     fire_only_once = yes
     is_triggered_only = yes
 
     option = {
-        name = CUB.2.a
+        name = CUB.3.a
 		CUB = { annex_country = { target = CDR transfer_troops = yes } }
     }
 
     option = {
-        name = CUB.2.b
+        name = CUB.3.b
 
 		CDR = {
 		        every_state = {
