@@ -1662,3 +1662,48 @@ ACR_marques_movies_category = {
 }
 
 }
+
+ACR_eneas_insanity_category = {#Be sure to clamp the variable every time you modify it!
+	ACR_increase_sanity_debug = {
+		icon = GFX_decision_wartrain_railroad_acre
+		visible = {
+			tag = ACR
+			is_debug = yes
+			NOT = {
+				check_variable = { ACR_eneas_sanity < 0 }
+			}
+		}
+		available = {
+			tag = ACR
+			is_debug = yes
+			NOT = {
+				check_variable = { ACR_eneas_sanity < 0 }
+			}
+		}
+		complete_effect = {
+			add_to_variable = { ACR_eneas_sanity = 10 }
+			ACR_clamp_eneas_sanity = yes
+		}
+	}
+	ACR_decrease_sanity_debug = {
+		icon = GFX_decision_wartrain_railroad_acre
+		visible = {
+			tag = ACR
+			is_debug = yes
+			NOT = {
+				check_variable = { ACR_eneas_sanity > 100 }
+			}
+		}
+		available = {
+			tag = ACR
+			is_debug = yes
+			NOT = {
+				check_variable = { ACR_eneas_sanity > 100 }
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = { ACR_eneas_sanity = 10 }
+			ACR_clamp_eneas_sanity = yes
+		}
+	}
+}

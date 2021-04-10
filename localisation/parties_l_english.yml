@@ -177,7 +177,8 @@
  NHA_fascism_party_long:0 "Amazonian Military Command - Junta Loyalists"
  NHA_democratic_party_long:0 "Amazonian Military Command - Republican Loyalists"
 
- BEM_fascism_party:0 "Junta Loyalists"
+ BEM_fascism_party:0 "ARENA - P"
+ BEM_fascism_party_long:0 "Aliança Renovadora Nacional - Pará"
  BEM_communism_party:0 "The Cabanos"
  BEM_democratic_party:0 "Republican Loyalists"
  BEM_neutrality_party:0 "-------"
@@ -189,14 +190,26 @@
  MNS_neutrality_party:0 "Companhia Portuária Chibatão"
  MNS_reactionary_party:0 "Seringal Vilas Paraíso e Cícero"
 
-JUN_fascism_party:0 "Junta Militar - CO"
-JUN_fascism_party_long:0 "Junta Militar - Clique dos Oficiais"
+JUN_fascism_party:0 "ARENA - CO"
+JUN_fascism_party_long:0 "Aliança Renovadora Nacional - Clique dos Oficiais"
 JUN_communism_party:0 "Leftist Dissidents"
 JUN_democratic_party:0 "Liberal Movements"
-JUN_neutrality_party:0 "Junta Militar - R"
-JUN_neutrality_party_long:0 "Junta Militar - Reformistas"
-JUN_reactionary_party_long:0 "Junta Militar - Dutra's Clique"
-JUN_reactionary_party:0 "Junta Militar - Dutra's Clique"
+JUN_neutrality_party:0 "ARENA - R"
+JUN_neutrality_party_long:0 "Aliança Renovadora Nacional - Reformistas"
+JUN_reactionary_party:0 "ARENA - Dutra's Clique"
+JUN_reactionary_party_long:0 "Aliança Renovadora Nacional - Dutra's Clique"
+
+JCS_fascism_party:0 "ARENA - L"
+JCS_fascism_party_long:0 "Aliança Renovadora Nacional - Linhas-duras"
+
+JEG_democratic_party:0 "ARENA - M"
+JEG_democratic_party_long:0 "Aliança Renovadora Nacional - Moderados"
+
+JGD_reactionary_party:0 "ARENA - Dutra's Clique"
+JGD_reactionary_party_long:0 "Aliança Renovadora Nacional - Dutra's Clique"
+
+JCL_communism_party:0 "FA"
+JCL_communism_party_long:0 "Frente Ampla"
 
 BRA_democratic_party:0 "PTB"
 BRA_democratic_party_long:0 "Partido Trabalhista Brasileiro"
@@ -204,6 +217,33 @@ BRA_communism_party:0 "PTB"
 BRA_communism_party_long:0 "Partido Trabalhista Brasileiro"
 BRA_fascism_party:0 "FAB"
 BRA_fascism_party_long:0 "Forças Armadas Brasileiras"
+
+JAG_fascism_party:0 "ARENA - MG"
+JAG_fascism_party_long:0 "Aliança Renovadora Nacional - Mato Grosso"
+
+CML_fascism_party:0 "CML"
+CML_fascism_party_long:0 "Comando Militar do Leste"
+
+LAM_fascism_party:0 "6º RM"
+LAM_fascism_party_long:0 "6º Região Militar"
+
+UBA_fascism_party:0 "36º B I Mtz"
+UBA_fascism_party_long:0 "36º Batalhão de Infantaria Mecanizado"
+
+SAO_reactionary_party:0 "PSP"
+SAO_reactionary_party_long:0 "Partido Social Progressista"
+
+RMI_communism_party:0 "COLINA"
+RMI_communism_party_long:0 "Comando de Libertação Nacional"
+
+VAL_neutrality_party:0 "CVRD"
+VAL_neutrality_party_long:0 "Companhia Vale do Rio Doce"
+
+CNU_democratic_party:0 "PSD - B"
+CNU_democratic_party_long:0 "Partido Social Democrático - Bahia"
+
+AMA_democratic_party:0 "PSB - A"
+AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
 
 #Uruguay things
 URG_fascism_party:0 "M-I C"

@@ -1287,3 +1287,11 @@ acre_senate_remove_nationalist_seats_3 = {
 acre_wins_caititu_war = {
 	ACR = { transfer_state = 419 transfer_state = 125 white_peace = IQU }
 }
+
+ACR_clamp_eneas_sanity = {
+	clamp_variable = {
+		var = ACR_eneas_sanity
+		min = 0
+		max = 100
+	}
+}

@@ -1,0 +1,15 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_ACR_Eneas_Insanity_Progressbar"
+		texturefile1 = "gfx/interface/GUIs/acre/eneas_insanity/eneas_insanity_meter_empty.dds"
+		texturefile2 = "gfx/interface/GUIs/acre/eneas_insanity/eneas_insanity_meter_full.dds"
+		color = { 0.0 0.0 0.0 }
+        colortwo = { 0.0 0.0 0.0 }
+		size = { 
+            x = 265
+            y = 370
+        }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+}

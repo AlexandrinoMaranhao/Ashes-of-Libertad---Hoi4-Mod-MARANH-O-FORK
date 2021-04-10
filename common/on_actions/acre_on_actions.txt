@@ -7,9 +7,10 @@ on_actions = {
 				set_variable = { ACR_guevara_suspicion = 0 }
 				set_variable = { ACR_native_revolt_progress = 0 }
 				set_variable = { ACR_first_empty_train = 0 }
-				set_variable = { ACR_cerqueira_che_power = 0 }
-				#Initialize the war train
+				set_variable = { ACR_cerqueira_che_power = 50 }
+				set_variable = { ACR_eneas_sanity = 100 }
 				set_temp_variable = { ACR_train_number = 8 }
+				#Initialize the war train
 				while_loop_effect = {
 					limit = {
 						check_variable  = { ACR_train_number > 0 }

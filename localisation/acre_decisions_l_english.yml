@@ -102,6 +102,16 @@
   ACR_finish_filming_che_1_movie:0 "Release “Motorcycle Diaries” in Theaters"
   ACR_finish_filming_che_2_movie:0 "Release “Motorcycle Diaries 2: The Chequel” in Theaters"
 
+  ACR_eneas_insanity_category:0 "Enéas' Insanity"
+  ACR_eneas_insanity_desc_gui:0 "The current sanity level is [GetEneasSanity]."
+  ACR_eneas_sanity_crazy:0 "§RAlright Crazy§!"
+  ACR_eneas_sanity_dangerous:0 "§EDangerous§!"
+  ACR_eneas_sanity_strange:0 "§BStrange§!"
+  ACR_eneas_sanity_pensative:0 "§YPensative§!"
+  ACR_eneas_sanity_quirky:0 "§PQuirky§!"
+  ACR_eneas_sanity_genuine:0 "§CGenuine§!"
+  ACR_eneas_sanity_normal:0 "§GNormal§!"
+
 ################
 # Tooltips
 ################

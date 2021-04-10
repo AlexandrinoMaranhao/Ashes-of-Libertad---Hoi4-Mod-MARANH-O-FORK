@@ -141,3 +141,47 @@ defined_text = {
 		localization_key = ACR_war_train_unfilled
 	}
 }
+
+defined_text = {
+	name = GetEneasSanity
+	text = {
+		trigger = {
+			check_variable = { ACR_eneas_sanity < 15 }
+		}
+		localization_key = ACR_eneas_sanity_crazy
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_eneas_sanity < 30 }
+		}
+		localization_key = ACR_eneas_sanity_dangerous
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_eneas_sanity < 45 }
+		}
+		localization_key = ACR_eneas_sanity_strange
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_eneas_sanity < 55 }
+		}
+		localization_key = ACR_eneas_sanity_pensative
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_eneas_sanity < 70 }
+		}
+		localization_key = ACR_eneas_sanity_quirky
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_eneas_sanity < 85 }
+		}
+		localization_key = ACR_eneas_sanity_genuine
+	}
+	text = {
+		trigger = {#default, which means over 70
+		}
+		localization_key = ACR_eneas_sanity_normal
+}

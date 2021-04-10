@@ -68,3 +68,30 @@ ACR_fluvial_supremancy = {
 		tag = ACR
 	}
 }
+
+ACR_cerqueira_che_power = {
+	visible = { 
+		OR = {
+			has_country_flag = ACR_augusto_debug
+			has_country_flag = augusto_elected
+		}
+	}
+	visible_when_empty = yes
+    icon = GFX_decision_category_acre_wartrain
+	scripted_gui = ACR_cerqueira_che_power
+	allowed = {
+		tag = ACR
+	}
+}
+
+ACR_eneas_insanity_category = {
+	icon = GFX_decision_category_acre_wartrain
+	visible = { 
+		OR = {
+			has_country_flag = ACR_eneas_debug
+			has_country_flag = eneas_elected
+		}
+	}
+	scripted_gui = ACR_eneas_insanity_category
+	visible_when_empty = yes
+}

@@ -1,0 +1,20 @@
+scripted_gui = {
+	ACR_cerqueira_che_power = {
+		window_name = ACR_cerqueira_che_power_gui
+		context_type = decision_category
+		parent_window_token = decision_tab
+
+		visible = {
+			OR = {
+				has_country_flag = ACR_augusto_debug
+				has_country_flag = augusto_elected
+			}
+		}
+
+		properties = {
+			ACR_cerqueira_che_power_progressbar = {
+				frame = var:ACR_cerqueira_che_power
+			}
+		}
+	}
+}
