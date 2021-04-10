@@ -18,8 +18,8 @@ oil = 3
             infrastructure = 2
 
 }
-		owner = COR
-		add_core_of = COR
+		owner = TEF
+		add_core_of = TEF
 
 	}
 }

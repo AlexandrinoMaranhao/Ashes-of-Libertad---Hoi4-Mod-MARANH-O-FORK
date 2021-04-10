@@ -2,16 +2,17 @@
 state={
 	id=205
 	name="STATE_205"
+
+	history={
+		owner = WAS
+		add_core_of = WAS
+
+	}
+
 	provinces={
-		1158 2481 2741 2748 2750 2755 6211 
+		29 1158 2481 2741 2748 2750 2755 6211 
 	}
 	manpower=8324
-        state_category=rural
 	buildings_max_level_factor=1.000
-
-            history = {
-
-        owner = WAS
-        add_core_of = WAS
-}
+	state_category=rural
 }

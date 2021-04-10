@@ -13,8 +13,8 @@ steel = 4
 motors = 4
 }
         history = {
-	owner = COR
-	add_core_of = COR
+	owner = TEF
+	add_core_of = TEF
 
         buildings = {
 

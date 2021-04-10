@@ -43,6 +43,7 @@ create_country_leader = {
 	
 	name = "Carlos Lamarca"
 	picture = "gfx/leaders/FBO/Portrait_FBO_Lamarca_Portrait.dds"
+	desc = "FBO_LAMARCA_DESC"
 	expire = "1999.1.1"
 	ideology = guerrilla 
 	traits = {
@@ -51,7 +52,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Dinalva Oliveira Teixeira"
-	picture = ""
+	portrait_path = ""
 	traits = {  }
 	skill = 2
 	attack_skill = 3
@@ -61,7 +62,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Adriano Fonseca"
-	picture = ""
+	portrait_path = ""
 	traits = {  }
 	skill = 1
 	attack_skill = 1
@@ -72,7 +73,7 @@ create_country_leader = {
 
         create_field_marshal = {
 	name = "Carlos Lamarca"
-	picture = "gfx/leaders/ROR/.dds"
+	portrait_path = "gfx/leaders/FBO/Portrait_FBO_Lamarca_Portrait.dds"
 	traits = {  }
 	skill = 3
 	attack_skill = 3

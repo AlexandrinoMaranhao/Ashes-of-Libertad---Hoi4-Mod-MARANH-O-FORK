@@ -6,7 +6,37 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-                        
+           
+spriteType ={
+    name = "GFX_idea_HOL_suriname_nationalism"
+    texturefile = "gfx/interface/ideas/HOL_suriname_nationalism.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_COS_jimenezs_dark_sympathies"
+    texturefile = "gfx/interface/ideas/COS_jimenezs_dark_sympathies.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_COS_anti_nicaraguan_sentiment"
+    texturefile = "gfx/interface/ideas/COS_anti_nicaraguan_sentiment.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_NIC_sandinos_martyrdom"
+    texturefile = "gfx/interface/ideas/NIC_sandinos_martyrdom.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_NIC_sorrounded_by_pigs"
+    texturefile = "gfx/interface/ideas/NIC_sorrounded_by_pigs.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_american_deal"
+    texturefile = "gfx/interface/ideas/the_american_deal.dds"
+} 
+                  
 spriteType ={
     name = "GFX_idea_the_camaguey_distillery"
     texturefile = "gfx/interface/ideas/the_camaguey_distillery.dds"

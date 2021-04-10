@@ -8,7 +8,32 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-             
+               
+	SpriteType = {
+	name = "GFX_goal_deal_with_the_parents_against_it"
+	texturefile = "gfx/interface/goals/deal_with_the_parents_against_it.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_health_for_the_common_man"
+	texturefile = "gfx/interface/goals/health_for_the_common_man.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_make_manaus_beg"
+	texturefile = "gfx/interface/goals/make_manaus_beg.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_make_manaus_starve"
+	texturefile = "gfx/interface/goals/make_manaus_starve.dds"
+	}	
+    
+	SpriteType = {
+	name = "GFX_goal_declare_our_love"
+	texturefile = "gfx/interface/goals/declare_our_love.dds"
+	}	
+  
 	SpriteType = {
 	name = "GFX_goal_the_acrean_military_command"
 	texturefile = "gfx/interface/goals/the_acrean_military_command.dds"

@@ -141,7 +141,7 @@ shared_focus = {
 	id = ACR_medicare_for_all
 	prerequisite = { focus = ACR_revise_worker_rights }
 	relative_position_id = ACR_revise_worker_rights
-	#icon = 
+	icon = GFX_goal_health_for_the_common_man
 
 	x = -2
 	y = 1
@@ -306,7 +306,7 @@ shared_focus = {
 	id = ACR_starve_them_out
 	prerequisite = { focus = ACR_battle_manaus_monopoly }
 	relative_position_id = ACR_battle_manaus_monopoly
-	#icon = 
+	icon = GFX_goal_make_manaus_starve
 
 	x = 0
 	y = 1
@@ -325,7 +325,7 @@ shared_focus = {
 	id = ACR_make_manaus_beg
 	prerequisite = { focus = ACR_starve_them_out }
 	relative_position_id = ACR_starve_them_out
-	#icon = 
+	icon = GFX_goal_make_manaus_beg
 
 	x = 0
 	y = 1
@@ -530,7 +530,7 @@ shared_focus = {
 	id = ACR_show_our_intentions
 	prerequisite = { focus = ACR_hotline_guevara }
 	relative_position_id = ACR_hotline_guevara
-	#icon = 
+	icon = GFX_goal_declare_our_love
 
 	x = -1
 	y = 1
@@ -606,7 +606,6 @@ shared_focus = {
 	id = ACR_keep_relationship_professional
 	prerequisite = { focus = ACR_talk_business }
 	relative_position_id = ACR_talk_business
-	mutually_exclusive = { focus = ACR_mutual_love_for_working_class }
 	#icon = 
 
 	x = 0
@@ -684,7 +683,6 @@ shared_focus = {
 	id = ACR_mutual_love_for_working_class
 	prerequisite = { focus = ACR_ask_for_permission_to_go_deeper }
 	relative_position_id = ACR_ask_for_permission_to_go_deeper
-	mutually_exclusive = { focus = ACR_keep_relationship_professional }
 	#icon = 
 
 	x = 0
@@ -728,7 +726,7 @@ shared_focus = {
 	id = ACR_deal_with_parents_against_it
 	prerequisite = { focus = ACR_keep_relationship_secret }
 	relative_position_id = ACR_keep_relationship_secret
-	#icon = 
+	icon = GFX_goal_deal_with_the_parents_against_it
 
 	x = 0
 	y = 1

@@ -140,6 +140,10 @@
  RUM_DEF:0 "the José Arechabala S.A."
  RUM_ADJ:0 "Cuban"
 
+ TEF:0 "Tefé"
+ TEF_DEF:0 "the town of Tefé"
+ TEF_ADJ:0 "Tefense"
+
 
  CFD_fascism:0 "Confederação Sertaneja"
  CFD_fascism_DEF:0 "Confederação Sertaneja"
@@ -1311,8 +1315,8 @@
  GUA_neutrality_ADJ:0 "Guatemalan"
  GUA_communism_ADJ:0 "Guatemalan"
 
- HON_fascism:0 "Corporatist Honduras"
- HON_fascism_DEF:0 "Corporatist Honduras"
+ HON_fascism:0 "Corporate Republic of Honduras"
+ HON_fascism_DEF:0 "Corporate Republic of Honduras"
  HON_democratic:0 "Honduras"
  HON_democratic_DEF:0 "Honduras"
  HON_neutrality:0 "Honduras"
@@ -1506,8 +1510,8 @@
 
  MEX_fascism:1 "United Mexican States"
  MEX_fascism_DEF:1 "the United Mexican States"
- MEX_democratic:0 "United United Mexican States"
- MEX_democratic_DEF:0 "the United United Mexican States"
+ MEX_democratic:0 "United Mexican States"
+ MEX_democratic_DEF:0 "the United Mexican States"
  MEX_neutrality:0 "United Mexican States"
  MEX_neutrality_DEF:0 "United Mexican States"
  MEX_communism:1 "United Mexican States"
@@ -1625,8 +1629,8 @@
  JAM_democratic_DEF:0 "Jamaica"
  JAM_neutrality:1 "Jamaican Monarchy"
  JAM_neutrality_DEF:1 "the Jamaican Monarchy"
- JAM_communism:1 "Commune of Jamaica"
- JAM_communism_DEF:1 "the Commune of Jamaica"
+ JAM_communism:1 "Kingston Uprising"
+ JAM_communism_DEF:1 "the Kingston Uprising"
  JAM_fascism_ADJ:1 "Xaymacan"
  JAM_democratic_ADJ:0 "Jamaican"
  JAM_neutrality_ADJ:0 "Jamaican"

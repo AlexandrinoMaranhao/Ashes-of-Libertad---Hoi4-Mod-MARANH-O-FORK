@@ -824,7 +824,7 @@ country_event = {
     JUT = { add_ideas = fonte_boa_influence }
     JAV = { add_ideas = fonte_boa_influence }
 
-        hidden_effect = { country_event = { id = FBO.2 days = 90 } }
+        hidden_effect = { country_event = { id = FBO.2 days = 190 } }
     }
 }
 
@@ -851,7 +851,7 @@ country_event = {
     }
     puppet = JUT 
     JAU = { add_ideas = fonte_boa_influence }
-        hidden_effect = { country_event = { id = FBO.3 days = 90 } }
+        hidden_effect = { country_event = { id = FBO.3 days = 190 } }
     }
 }
 
@@ -882,7 +882,7 @@ country_event = {
     DNI = { add_ideas = fonte_boa_influence }
     QPM = { add_ideas = fonte_boa_influence }
 
-        hidden_effect = { country_event = { id = FBO.4 days = 90 } }
+        hidden_effect = { country_event = { id = FBO.4 days = 190 } }
 
     }
 }
