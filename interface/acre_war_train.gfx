@@ -1,12 +1,19 @@
 spriteTypes = {
-	#### PICTURES ####
-	spriteType = {
-		name = "GFX_ACR_train_outline"
-		texturefile = "gfx/interface/GUIs/acre/war_train/Train_Outline.dds"
-	}
 	spriteType = {
 		name = "GFX_ACR_war_train_list"
 		texturefile = "gfx/interface/GUIs/acre/war_train/Train_List.dds"
 		noOfFrames = 9
+	}
+	progressbartype = {
+		name = "GFX_ACR_war_train_railroad_progressbar"
+		texturefile1 = "gfx/interface/GUIs/acre/war_train/Train_Outline.dds"
+		texturefile2 = "gfx/interface/GUIs/acre/war_train/Train_Outline_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+        colortwo = { 0.0 0.0 0.0 }
+		size = { 
+            x = 480
+            y = 60
+        }
+		effectFile = "gfx/FX/progress.lua"
 	}
 }

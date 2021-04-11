@@ -1,25 +1,77 @@
-#ACR_war_train_generator = {
-#	clear_array = ACR_war_train_array #clear the array before filling
-#	set_temp_variable = { empty_trains = ACR_empty_train_number }
-#	set_temp_variable = { full_trains = ACR_full_train_number }
-#	while_loop_effect = {
-#		limit = {
-#			check_variable = { full_trains > 0 }
-#		}
-#		add_to_array = { ACR_war_train_array = 2 }
-#		subtract_from_temp_variable = { full_trains = 1 }
-#	}
-#	while_loop_effect = {
-#		limit = {
-#			check_variable = { empty_trains > 0 }
-#		}
-#		add_to_array = { ACR_war_train_array = 1 }
-#		subtract_from_temp_variable = { empty_trains = 1 }
-#	}
-#}
+ACR_increase_che_suspicion = {#add 1
+	custom_effect_tooltip = ACR_increase_che_suspicion_tt
+	hidden_effect = {
+		add_to_variable = { ACR_guevara_suspicion = 1 }
+		ACR_clamp_che_suspicion = yes
+	}
+}
 
-#ACR_war_train_filling = {
-#	add_to_variable = { ACR_full_train_number = 1 }
-#	subtract_from_variable = { ACR_empty_train_number = 1 }
-#	ACR_war_train_generator = yes
-#}
+ACR_increase_more_che_suspicion = {#add 3
+	custom_effect_tooltip = ACR_increase_more_che_suspicion_tt
+	hidden_effect = {
+		add_to_variable = { ACR_guevara_suspicion = 3 }
+		ACR_clamp_che_suspicion = yes
+	}
+}
+
+ACR_decrease_che_suspicion = {#add -1
+	custom_effect_tooltip = ACR_decrease_che_suspicion_tt
+	hidden_effect = {
+		subtract_from_variable = { ACR_guevara_suspicion = 1 }
+		ACR_clamp_che_suspicion = yes
+	}
+}
+
+ACR_decrease_more_che_suspicion = {#add -3
+	custom_effect_tooltip = ACR_decrease_more_che_suspicion_tt
+	hidden_effect = {
+		subtract_from_variable = { ACR_guevara_suspicion = 3 }
+		ACR_clamp_che_suspicion = yes
+	}
+}
+
+ACR_clamp_che_suspicion = {
+	clamp_variable = {
+		var = ACR_guevara_suspicion
+		min = 1
+		max = 10
+	}
+}
+
+ACR_construct_railroad_natives = {
+	random_list = {
+		1 = {
+			534 = {
+				add_manpower = -100
+			}
+			modifier = {
+				factor = 0
+				534 = {
+					state_population > 100
+				}
+			}
+		}
+		1 = {
+			532 = {
+				add_manpower = -100
+			}
+			modifier = {
+				factor = 0
+				532 = {
+					state_population > 100
+				}
+			}
+		}
+		1 = {
+			535 = {
+				add_manpower = -100
+			}
+			modifier = {
+				factor = 0
+				535 = {
+					state_population > 100
+				}
+			}
+		}
+	}
+}

@@ -24,6 +24,9 @@ scripted_gui = {
 			ACR_war_train_list_box = {
 				frame = ACR_war_train_array^ACR_war_train_array_i
 			}
+			ACR_war_train_railroad_progress = {
+				frame = var:ACR_railroad_progress
+			}
 		}
 
 		dynamic_lists = {

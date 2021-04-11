@@ -7,6 +7,51 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetCheSuspicion
+	text = {
+		trigger = {
+			check_variable = { ACR_guevara_suspicion < 3 }
+		}
+		localization_key = ACR_che_suspicion_suspicious
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_guevara_suspicion < 5 }
+		}
+		localization_key = ACR_che_suspicion_cautious
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_guevara_suspicion < 7 }
+		}
+		localization_key = ACR_che_suspicion_wary
+	}
+	text = {
+		trigger = {
+			check_variable = { ACR_guevara_suspicion < 9 }
+		}
+		localization_key = ACR_che_suspicion_watchful
+	}
+	text = {
+		trigger = {#default, which means 9 and 10
+		}
+		localization_key = ACR_che_suspicion_skeptical
+	}
+}
+
+defined_text = {
+	name = GetCerqueiraNativeRevolt
+	text = {
+		trigger = {
+			has_country_leader = {
+				name = "Edgar Cerqueira"
+			}
+		}
+		localization_key = ACR_cerqueira_native_revolt_data_desc
+	}
+}
+
+defined_text = {
 	name = GetPrimaryTurretSituation
 	text = {
 		trigger = {
