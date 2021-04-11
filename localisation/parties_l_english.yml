@@ -221,8 +221,8 @@ BRA_fascism_party_long:0 "Forças Armadas Brasileiras"
 JAG_fascism_party:0 "ARENA - MG"
 JAG_fascism_party_long:0 "Aliança Renovadora Nacional - Mato Grosso"
 
-CRJ_fascism_party:0 "CML"
-CRJ_fascism_party_long:0 "Comando Militar do Leste"
+CML_fascism_party:0 "CML"
+CML_fascism_party_long:0 "Comando Militar do Leste"
 
 LAM_fascism_party:0 "6º RM"
 LAM_fascism_party_long:0 "6º Região Militar"

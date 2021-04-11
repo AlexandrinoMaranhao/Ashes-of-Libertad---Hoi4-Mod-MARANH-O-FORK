@@ -12,7 +12,7 @@ guiTypes = {
 
 			iconType = {
 				name = "ACR_cerqueira_che_power_progressbar"
-				position = { x = 10 y = 10 }
+				postion = { x = 10 y = 10 }
 				orientation = UPPER_LEFT
 				spriteType = "GFX_ACR_cerqueira_che_power_progressbar"
 			}

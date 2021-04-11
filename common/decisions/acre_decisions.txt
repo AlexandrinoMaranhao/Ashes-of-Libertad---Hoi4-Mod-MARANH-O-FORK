@@ -828,23 +828,22 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
-			NOT = {
-				has_decision = ACR_construct_railroad_acre_natives
-			}
 		}
 		cost = 50
-		days_remove = 1
 		complete_effect = {
+			add_to_variable = { ACR_acrean_railroad_progress = 1 }
+			add_to_variable = { ACR_railroad_progress = 10 }
 			89 = {
 				add_manpower = -50
 			}
 		}
-		remove_effect = {
-			add_to_variable = { ACR_acrean_railroad_progress = 1 }
-			add_to_variable = { ACR_railroad_progress = 10 }
+	}
+	ACR_construct_railroad_rondonia = {
+		icon = GFX_decision_wartrain_railroad_rondonia
+		visible = {
+			tag = ACR
 		}
 	}
-
 	ACR_construct_railroad_acre_natives = {
 		icon = GFX_decision_wartrain_railroad_acre_natives
 		visible = {
@@ -854,207 +853,33 @@ ACR_war_train_category = {
 		available = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
-			has_country_leader = {
-				name = "Edgar Cerqueira"
-			}
-			NOT = {
-				has_decision = ACR_construct_railroad_acre
-			}
-		}
-		cost = 10
-		days_remove = 1
-		complete_effect = {
-			ACR_construct_railroad_natives = yes
-			ACR_increase_che_suspicion = yes
-		}
-		remove_effect = {
-			add_to_variable = { ACR_acrean_railroad_progress = 1 }
-			add_to_variable = { ACR_railroad_progress = 10 }
-		}
-	}
-
-	ACR_construct_railroad_rondonia = {
-		icon = GFX_decision_wartrain_railroad_rondonia
-		visible = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			NOT = {
-				has_country_flag = ACR_railroad_rondonia_finished
-			}
-		}
-		available = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			NOT = {
-				OR = {
-					has_country_flag = ACR_railroad_rondonia_finished
-					has_decision = ACR_construct_railroad_rondonia_natives
-				}
-			}
 		}
 		cost = 50
-		days_remove = 1
 		complete_effect = {
-			89 = {
-				add_manpower = -50
-			}
-			ACR_increase_che_suspicion = yes
-		}
-		remove_effect = {
-			add_to_variable = { ACR_railroad_progress = 15 }
-			set_country_flag = ACR_railroad_rondonia_finished
+			add_to_variable = { ACR_acrean_railroad_progress = 1 }
+			add_to_variable = { ACR_railroad_progress = 10 }
+			add_to_variable = { ACR_guevara_suspicion = 1 }#TODO
 		}
 	}
-
 	ACR_construct_railroad_rondonia_natives = {
 		icon = GFX_decision_wartrain_railroad_rondonia_natives
 		visible = {
 			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			NOT = {
-				has_country_flag = ACR_railroad_rondonia_finished
-			}
-		}
-		available = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			has_country_leader = {
-				name = "Edgar Cerqueira"
-			}
-			NOT = {
-				OR = {
-					has_country_flag = ACR_railroad_rondonia_finished
-					has_decision = ACR_construct_railroad_rondonia
-				}
-			}
-		}
-		cost = 10
-		days_remove = 1
-		complete_effect = {
-			ACR_construct_railroad_natives = yes
-			ACR_increase_che_suspicion = yes
-		}
-		remove_effect = {
-			add_to_variable = { ACR_railroad_progress = 15 }
-			set_country_flag = ACR_railroad_rondonia_finished
 		}
 	}
-
 	ACR_construct_railroad_bolivia = {
 		icon = GFX_decision_wartrain_railroad_bolivia
 		visible = {
 			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			NOT = {
-				has_country_flag = ACR_railroad_bolivia_finished
-			}
-		}
-		available = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			NOT = {
-				OR = {
-					has_country_flag = ACR_railroad_bolivia_finished
-					has_decision = ACR_construct_railroad_bolivia_natives
-				}
-			}
-		}
-		cost = 50
-		days_remove = 1
-		complete_effect = {
-			89 = {
-				add_manpower = -50
-			}
-			ACR_increase_che_suspicion = yes
-		}
-		remove_effect = {
-			add_to_variable = { ACR_railroad_progress = 15 }
-			set_country_flag = ACR_railroad_bolivia_finished
 		}
 	}
-
-	ACR_construct_railroad_bolivia_natives = {
-		icon = GFX_decision_wartrain_railroad_bolivia_natives
-		visible = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			NOT = {
-				has_country_flag = ACR_railroad_bolivia_finished
-			}
-		}
-		available = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			has_country_leader = {
-				name = "Edgar Cerqueira"
-			}
-			NOT = {
-				OR = {
-					has_country_flag = ACR_railroad_bolivia_finished
-					has_decision = ACR_construct_railroad_bolivia
-				}
-			}
-		}
-		cost = 10
-		days_remove = 1
-		complete_effect = {
-			ACR_construct_railroad_natives = yes
-			ACR_increase_che_suspicion = yes
-		}
-		remove_effect = {
-			add_to_variable = { ACR_railroad_progress = 15 }
-			set_country_flag = ACR_railroad_bolivia_finished
-		}
-	}
-
 	ACR_lower_che_suspicion = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		visible = {
 			tag = ACR
 		}
-		days_remove = 1
-		cost = 10
-		remove_effect = {
-			ACR_decrease_che_suspicion = yes
-		}
 	}
-
-	ACR_distract_che_with_a_raid = {
-		icon = GFX_decision_wartrain_distract_che_with_a_raid
-		visible = {
-			tag = ACR
-		}
-		available = {
-			tag = ACR
-			has_manpower > 200
-		}
-		days_remove = 1
-		cost = 10
-		complete_effect = {
-			add_manpower = -200
-		}
-		remove_effect = {
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = 89
-					num_provinces = 1
-					on_win = ACR_border_conflict.1
-					on_lose = ACR_border_conflict.2
-					on_cancel = ACR_border_conflict.2
-				}
-				defender = {
-					state = 354
-					num_provinces = 1
-					on_win = ACR_border_conflict.3
-					on_lose = ACR_border_conflict.4
-					on_cancel = ACR_border_conflict.4
-				}
-			}
-		}
-	}
-
-	ACR_build_train_engine = {
+	ACR_build_ammo_wagon = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		visible = {
 			tag = ACR
@@ -1064,60 +889,15 @@ ACR_war_train_category = {
 			NOT = {
 				is_in_array = {
 					array = ACR_war_train_array
-					value = 8
+					value = 2
 				}
-			}
-			has_resources_amount = {
-				resource = motors
-				amount > 0
-				state = 89
 			} 
 		}
-		cost = 50
-		days_remove = 1
 		complete_effect = {
-			custom_effect_tooltip = ACR_build_train_engine_tt
-			hidden_effect = {
-				add_resource = {
-					type = motors
-					amount = -1
-					state = 89
-				}
-			}
-		}
-		remove_effect = {
-			set_variable = { ACR_war_train_array^ACR_first_empty_train = 8 }
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 2 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			hidden_effect = {
-				add_resource = {
-					type = motors
-					amount = 1
-					state = 89
-				}
-			}
 		}
 	}
-
-	ACR_build_base_wagons = {
-		icon = GFX_decision_wartrain_lower_suspicion
-		visible = {
-			tag = ACR
-		}
-		available = {
-			tag = ACR
-			hidden_trigger = {
-				NOT = {
-					has_country_flag = ACR_base_wagons_built
-				}
-			}
-		}
-		cost = 50
-		days_remove = 1
-		remove_effect = {
-			set_country_flag = ACR_base_wagons_built
-		}
-	}
-
 	ACR_build_coal_wagon = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		visible = {
@@ -1132,119 +912,113 @@ ACR_war_train_category = {
 				}
 			} 
 		}
-		cost = 50
-		days_remove = 1
-		remove_effect = {
+		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 3 }
 			add_to_variable = { ACR_first_empty_train = 1 }
 		}
 	}
-
-	ACR_build_reinforced_hull = {
-		icon = GFX_decision_wartrain_lower_suspicion
-		visible = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-		}
-		available = {
-			tag = ACR
-			hidden_trigger = {
-				NOT = {
-					has_country_flag = ACR_reinforced_hull_built
-				}
-			}
-			ACR_can_build_other_wagons = yes
-		}
-		cost = 50
-		days_remove = 1
-		remove_effect = {
-			set_country_flag = ACR_reinforced_hull_built
-		}
-	}
-
 	ACR_build_mobile_base = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		visible = {
 			tag = ACR
-			ACR_can_build_other_wagons = yes
 		}
 		available = {
 			tag = ACR
-			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
 					array = ACR_war_train_array
 					value = 4
 				}
-			}
-			command_power > 50
+			} 
 		}
-		cost = 50
-		days_remove = 1
 		complete_effect = {
-			add_command_power = -50
-		}
-		remove_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 4 }
 			add_to_variable = { ACR_first_empty_train = 1 }
 		}
 	}
-
-	ACR_build_ammo_wagon = {
+	ACR_build_troop_transport = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		visible = {
 			tag = ACR
-			ACR_can_build_other_wagons = yes
 		}
 		available = {
 			tag = ACR
-			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
 					array = ACR_war_train_array
-					value = 2
+					value = 5
 				}
-			}
-			has_resources_amount = {
-				resource = ammunition
-				amount > 3
-				state = 89
-			}  
+			} 
 		}
-		cost = 50
-		days_remove = 1
 		complete_effect = {
-			custom_effect_tooltip = ACR_build_ammo_wagon_tt
-			hidden_effect = {
-				add_resource = {
-					type = ammunition
-					amount = -4
-					state = 89
-				}
-			}
-		}
-		remove_effect = {
-			set_variable = { ACR_war_train_array^ACR_first_empty_train = 2 }
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 5 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-			hidden_effect = {
-				add_resource = {
-					type = ammunition
-					amount = 4
-					state = 89
-				}
-			}
 		}
 	}
-	
+	ACR_build_primary_turret = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 6
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 6 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_secondary_turret = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 7
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 7 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
+	ACR_build_train_engine = {
+		icon = GFX_decision_wartrain_lower_suspicion
+		visible = {
+			tag = ACR
+		}
+		available = {
+			tag = ACR
+			NOT = {
+				is_in_array = {
+					array = ACR_war_train_array
+					value = 8
+				}
+			} 
+		}
+		complete_effect = {
+			set_variable = { ACR_war_train_array^ACR_first_empty_train = 8 }
+			add_to_variable = { ACR_first_empty_train = 1 }
+		}
+	}
 	ACR_build_mortar = {
 		icon = GFX_decision_wartrain_lower_suspicion
 		visible = {
 			tag = ACR
-			ACR_can_build_other_wagons = yes
 		}
 		available = {
 			tag = ACR
-			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
 					array = ACR_war_train_array
@@ -1252,147 +1026,9 @@ ACR_war_train_category = {
 				}
 			} 
 		}
-		cost = 50
-		days_remove = 1
-		remove_effect = {
+		complete_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 9 }
 			add_to_variable = { ACR_first_empty_train = 1 }
-		}
-	}
-
-	ACR_build_troop_transport = {
-		icon = GFX_decision_wartrain_lower_suspicion
-		visible = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-		}
-		available = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-			NOT = {
-				is_in_array = {
-					array = ACR_war_train_array
-					value = 5
-				}
-			}
-			has_manpower > 200 
-		}
-		cost = 50
-		days_remove = 1
-		complete_effect = {
-			add_manpower = -200
-		}
-		remove_effect = {
-			set_variable = { ACR_war_train_array^ACR_first_empty_train = 5 }
-			add_to_variable = { ACR_first_empty_train = 1 }
-		}
-	}
-
-	ACR_build_primary_turret = {
-		icon = GFX_decision_wartrain_lower_suspicion
-		visible = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-		}
-		available = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-			NOT = {
-				is_in_array = {
-					array = ACR_war_train_array
-					value = 6
-				}
-			}
-			has_resources_amount = {
-				resource = ammunition
-				amount > 0
-				state = 89
-			} 
-		}
-		cost = 50
-		days_remove = 1
-		complete_effect = {
-			custom_effect_tooltip = ACR_build_turrets_tt
-			hidden_effect = {
-				add_resource = {
-					type = ammunition
-					amount = -1
-					state = 89
-				}
-			}
-		}
-		remove_effect = {
-			set_variable = { ACR_war_train_array^ACR_first_empty_train = 6 }
-			add_to_variable = { ACR_first_empty_train = 1 }
-			hidden_effect = {
-				add_resource = {
-					type = ammunition
-					amount = 1
-					state = 89
-				}
-			}
-		}
-	}
-
-	ACR_build_secondary_turret = {
-		icon = GFX_decision_wartrain_lower_suspicion
-		visible = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-		}
-		available = {
-			tag = ACR
-			ACR_can_build_other_wagons = yes
-			NOT = {
-				is_in_array = {
-					array = ACR_war_train_array
-					value = 7
-				}
-			}
-			has_resources_amount = {
-				resource = ammunition
-				amount > 0
-				state = 89
-			} 
-		}
-		cost = 50
-		days_remove = 1
-		complete_effect = {
-			custom_effect_tooltip = ACR_build_turrets_tt
-			hidden_effect = {
-				add_resource = {
-					type = ammunition
-					amount = -1
-					state = 89
-				}
-			}
-		}
-		remove_effect = {
-			set_variable = { ACR_war_train_array^ACR_first_empty_train = 7 }
-			add_to_variable = { ACR_first_empty_train = 1 }
-			hidden_effect = {
-				add_resource = {
-					type = ammunition
-					amount = 1
-					state = 89
-				}
-			}
-		}
-	}
-
-	ACR_reveal_the_war_train = {
-		icon = GFX_decision_wartrain_reveal_the_war_train
-		visible = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-		}
-		available = {
-			tag = ACR
-			check_variable = { ACR_acrean_railroad_progress > 0 }
-			has_war = yes
-		}
-		days_remove = 1
-		remove_effect = {
 		}
 	}
 }
@@ -1631,113 +1267,115 @@ ACR_fluvial_supremancy = {
 ACR_marques_movies_category = {
 
 	ACR_pro_acrean_propaganda = {
-	    icon = GFX_decision_marques_acre_propaganda
-	    cost = 100
-	    complete_effect = { 
-	        subtract_from_variable = { var = filming_equipment value = 5 }
-	        add_stability = 0.15
-	        add_war_support = 0.1
-        }
-	}
+	icon = GFX_decision_marques_acre_propaganda
+	cost = 100
+			complete_effect = { 
+	subtract_from_variable = { var = filming_equipment value = 5 }
 
-	ACR_pro_che_propaganda = {
-	    icon = GFX_decision_marques_che_propaganda
-	    cost = 50
-	    complete_effect = { 
-		    subtract_from_variable = { var = filming_equipment value = 5 }
-		    add_stability = -0.1
-		    add_war_support = -0.15
+	add_stability = 0.15
+	add_war_support = 0.1
     	}
 	}
 
+	ACR_pro_che_propaganda = {
+	icon = GFX_decision_marques_che_propaganda
+	cost = 50
+			complete_effect = { 
+	subtract_from_variable = { var = filming_equipment value = 5 }
+
+	add_stability = -0.1
+	add_war_support = -0.15
+    	}
+	}
+
+
 	ACR_buy_editing_equipment = {
-	    icon = GFX_decision_marques_buy_editing_equipment
-	    cost = 125
-	    complete_effect = { 
-		    add_to_variable = { var = editing_equipment value = 1 }
+	icon = GFX_decision_marques_buy_editing_equipment
+	cost = 125
+		complete_effect = { 
+	add_to_variable = { var = editing_equipment value = 1 }
 		}
 	}
 
-	ACR_begin_filming_captain_jose = {
-	    icon = GFX_decision_marques_make_movie
-	    available = { 
-		    check_variable = { filming_equipment > 0 } 
-		    NOT = { 
-			    has_country_flag = is_making_movie 
-		    }
-	    }
 
-	    remove_effect = {
-		    set_country_flag = finished_making_captain_jose
-		    clr_country_flag = is_making_movie
-	    }
-	    complete_effect = {
-		    country_event = { id = CaptainJose.1 }
-		    set_country_flag = is_making_movie
-		    subtract_from_variable = { var = filming_equipment value = 1 }
-	    }
-	    days_remove = 90
-	    fire_only_once = yes 
+	ACR_begin_filming_captain_jose = {
+	icon = GFX_decision_marques_make_movie
+	available = { check_variable = { filming_equipment > 0 } 
+	NOT = { has_country_flag = is_making_movie }
+	}
+
+	remove_effect = {
+	set_country_flag = finished_making_captain_jose
+	clr_country_flag = is_making_movie
+	}
+			complete_effect = {
+				country_event = { id = CaptainJose.1 }
+				set_country_flag = is_making_movie
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
+		}
+	days_remove = 90
+	fire_only_once = yes 
 	}
 
 	ACR_begin_filming_evangelical_movie = {
-	    icon = GFX_decision_marques_make_movie
-	    available = { 
-			check_variable = { filming_equipment > 0 } 
-			NOT = { has_country_flag = is_making_movie }
-		}
+	icon = GFX_decision_marques_make_movie
+	available = { check_variable = { filming_equipment > 0 } 
+	NOT = { has_country_flag = is_making_movie }
+}
 
-	    remove_effect = {
-			set_country_flag = finished_making_evangelical_movie
-			clr_country_flag = is_making_movie
-	    }
-		complete_effect = {
-			country_event = { id = evangelical_movie.1 }
-			set_country_flag = is_making_movie
-			subtract_from_variable = { var = filming_equipment value = 1 }
+	remove_effect = {
+	set_country_flag = finished_making_evangelical_movie
+	clr_country_flag = is_making_movie
+	}
+			complete_effect = {
+				country_event = { id = evangelical_movie.1 }
+				set_country_flag = is_making_movie
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
-	    days_remove = 90
-	    fire_only_once = yes 
+	days_remove = 90
+	fire_only_once = yes 
 	}
 
 	ACR_begin_filming_jungle_calling_movie = {
-		icon = GFX_decision_marques_make_movie
-		available = { 
-			check_variable = { filming_equipment > 0 }
-			NOT = { has_country_flag = is_making_movie }
-		}
+	icon = GFX_decision_marques_make_movie
+	available = { check_variable = { filming_equipment > 0 }
+	NOT = { has_country_flag = is_making_movie }
+ }
 
-		remove_effect = {
-			set_country_flag = finished_making_jungle_calling_movie
-			clr_country_flag = is_making_movie
+	remove_effect = {
+	set_country_flag = finished_making_jungle_calling_movie
+	clr_country_flag = is_making_movie
+	}
+			complete_effect = {
+				country_event = { id = jungle_calling.1 }
+				set_country_flag = is_making_movie
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
-		complete_effect = {
-			country_event = { id = jungle_calling.1 }
-			set_country_flag = is_making_movie
-			subtract_from_variable = { var = filming_equipment value = 1 }
-		}
-		days_remove = 90
-		fire_only_once = yes 
+	days_remove = 90
+	fire_only_once = yes 
 	}
 
 	ACR_begin_filming_selfishness_movie = {
-		icon = GFX_decision_marques_make_movie
-		available = { 
-			check_variable = { filming_equipment > 0 }
-		    NOT = { has_country_flag = is_making_movie }
-	    }
+	icon = GFX_decision_marques_make_movie
+	available = { check_variable = { filming_equipment > 0 }
+	NOT = { has_country_flag = is_making_movie }
+ }
 
-		remove_effect = {
-			set_country_flag = finished_making_selfishness_movie
-			clr_country_flag = is_making_movie
+	remove_effect = {
+	set_country_flag = finished_making_selfishness_movie
+	clr_country_flag = is_making_movie
+	}
+			complete_effect = {
+				country_event = { id = selfishness.1 }
+				set_country_flag = is_making_movie
+
+	subtract_from_variable = { var = filming_equipment value = 1 }
 		}
-		complete_effect = {
-			country_event = { id = selfishness.1 }
-			set_country_flag = is_making_movie
-			subtract_from_variable = { var = filming_equipment value = 1 }
-		}
-		days_remove = 90
-		fire_only_once = yes 
+	days_remove = 90
+	fire_only_once = yes 
 	}
 
 	ACR_begin_filming_che_1_movie = {

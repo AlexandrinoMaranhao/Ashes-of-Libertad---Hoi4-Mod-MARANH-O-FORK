@@ -18,7 +18,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "acre_eneas_insanity_description"
+				name = "category_description"
 				position = { x = -20 y = 370 }
 				maxWidth = 300
 				maxHeight = 200
