@@ -7,6 +7,7 @@ add_namespace = ACR
 add_namespace = ACR_ERN
 add_namespace = ACRMarques
 add_namespace = ACR_join_lib
+add_namespace = ACR_border_conflict
 
 #########################################################################
 # ACR_intro_one
@@ -2029,5 +2030,59 @@ country_event = {
 	
 	option = {
 		name = ACR_eneas.8.a
+	}
+}
+
+country_event = {#ACR-ERN border war - ACR wins
+	id = ACR_border_conflict.1
+	title = ACR_border_conflict.1.t
+	desc = ACR_border_conflict.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_border_conflict.1.a
+		add_manpower = 200
+		ACR_decrease_more_che_suspicion = yes
+	}
+}
+
+country_event = {#ACR-ERN border war - ACR loses
+	id = ACR_border_conflict.2
+	title = ACR_border_conflict.2.t
+	desc = ACR_border_conflict.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = ACR_border_conflict.2.a
+		random_list = {
+			1 = {
+				add_manpower = 200
+				ACR_increase_more_che_suspicion = yes
+			}
+			1 = {
+			}
+		}
+	}
+}
+
+country_event = {#ACR-ERN border war - ERN wins
+	id = ACR_border_conflict.3
+	title = ACR_border_conflict.3.t
+	desc = ACR_border_conflict.3.d
+	is_triggered_only = yes
+
+	option = {#TODO
+		name = ACR_border_conflict.3.a
+	}
+}
+
+country_event = {#ACR-ERN border war - ERN loses
+	id = ACR_border_conflict.4
+	title = ACR_border_conflict.4.t
+	desc = ACR_border_conflict.4.d
+	is_triggered_only = yes
+
+	option = {#TODO
+		name = ACR_border_conflict.4.a
 	}
 }

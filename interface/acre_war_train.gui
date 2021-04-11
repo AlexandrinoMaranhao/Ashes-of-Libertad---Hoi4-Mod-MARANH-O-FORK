@@ -2,21 +2,46 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ACR_war_train_gui"
-		size = { width = 600 height = 200 }
+		size = { width = 600 height = 250 }
 		position = { x = 0 y = 0 }
 
 		containerWindowType = {
 			name = "ACR_war_train_container"
-			size = { width = 600 height = 100 }
+			size = { width = 480 height = 120 }
 			position = { x = 70 y = 0 }
 			orientation = UPPER_LEFT
-			moveable = no
 
 			gridBoxType = {
 				name = "ACR_war_train_gridbox"
 				slotsize = { width = 120 height = 60 }
 				add_horizontal = yes
 				max_slots_horizontal = 4
+			}
+		}
+
+		containerWindowType = {
+			name = "ACR_war_train_railroad_progressbar"
+			size = { width = 480 height = 200 }
+			position = { x = 10 y = 120 }
+			orientation = UPPER_LEFT
+			
+			iconType = {
+				name = "ACR_war_train_railroad_progress"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_railroad_progressbar"
+				orientation = UPPER_LEFT
+				pdx_tooltip_delayed = "ACR_war_train_railroad_progressbar_tt"
+			}
+
+			instantTextBoxType = {
+				name = "ACR_war_train_datas"
+				position = { x = 90 y = 80 }
+				maxWidth = 300
+				maxHeight = 200
+				format = center
+				font = "vic_18"
+				text = ACR_war_train_datas_desc
+				alwaystransparent = yes
 			}
 		}
 	}
