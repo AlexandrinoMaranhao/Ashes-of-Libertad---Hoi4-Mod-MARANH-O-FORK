@@ -38,7 +38,7 @@ declare_war_on = {
 create_country_leader = {
 	
 	name = "Sir William Alexander Bustamante"
-	picture = "gfx/leaders/ENG/Portrait_ENG_Federation.dds"
+	picture = "gfx/leaders/JAM/Portrait_JAM_William_Alexander.dds"
 	expire = "1999.1.1"
 	ideology = anarchism
 	traits = {
