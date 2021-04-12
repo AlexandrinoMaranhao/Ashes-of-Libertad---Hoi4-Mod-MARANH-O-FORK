@@ -60,5 +60,48 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Jurandir Bizarria Mamede"
+	portrait_path = "gfx/leaders/BEM/Portrait_BEM_Jurandir_Bizarria_Mamede.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Olavo Viana Moog"
+	portrait_path = "gfx/leaders/BEM/Portrait_BEM_Olavo_Viana_Moog.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Carlos Alberto Cabral Ribeiro"
+	portrait_path = "gfx/leaders/BEM/Portrait_BEM_Carlos_Alberto_Cabral_Ribeiro.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Liciel Maciel"
+	portrait_path = "gfx/leaders/BEM/Portrait_BEM_Lício_Maciel.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 }
