@@ -820,7 +820,7 @@ acrean_senate = {
 
 ACR_war_train_category = {
 	ACR_construct_railroad_acre = {
-		icon = GFX_decision_wartrain_railroad_acre
+		icon = GFX_decision_build_acre_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
@@ -846,7 +846,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_construct_railroad_acre_natives = {
-		icon = GFX_decision_wartrain_railroad_acre_natives
+		icon = GFX_decision_build_cerqueira_acre_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
@@ -874,7 +874,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_construct_railroad_rondonia = {
-		icon = GFX_decision_wartrain_railroad_rondonia
+		icon = GFX_decision_build_rondonia_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
@@ -907,7 +907,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_construct_railroad_rondonia_natives = {
-		icon = GFX_decision_wartrain_railroad_rondonia_natives
+		icon = GFX_decision_build_cerqueira_rondonia_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
@@ -941,7 +941,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_construct_railroad_bolivia = {
-		icon = GFX_decision_wartrain_railroad_bolivia
+		icon = GFX_decision_build_bolivia_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
@@ -974,7 +974,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_construct_railroad_bolivia_natives = {
-		icon = GFX_decision_wartrain_railroad_bolivia_natives
+		icon = GFX_decision_build_cerqueira_bolivia_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
@@ -1008,7 +1008,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_lower_che_suspicion = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_lower_che_suspicion_wartrain_decision
 		visible = {
 			tag = ACR
 		}
@@ -1020,7 +1020,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_distract_che_with_a_raid = {
-		icon = GFX_decision_wartrain_distract_che_with_a_raid
+		icon = GFX_decision_lower_che_suspicion_raid_wartrain_decision
 		visible = {
 			tag = ACR
 		}
@@ -1055,7 +1055,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_train_engine = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_engine_wartrain_decision
 		visible = {
 			tag = ACR
 		}
@@ -1099,7 +1099,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_base_wagons = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 		}
@@ -1119,7 +1119,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_coal_wagon = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_coal_wartrain_decision
 		visible = {
 			tag = ACR
 		}
@@ -1141,7 +1141,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_reinforced_hull = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1163,7 +1163,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_mobile_base = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1191,7 +1191,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_ammo_wagon = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1237,7 +1237,7 @@ ACR_war_train_category = {
 	}
 	
 	ACR_build_mortar = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1261,7 +1261,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_troop_transport = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1289,7 +1289,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_primary_turret = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1335,7 +1335,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_build_secondary_turret = {
-		icon = GFX_decision_wartrain_lower_suspicion
+		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			tag = ACR
 			ACR_can_build_other_wagons = yes
@@ -1381,7 +1381,7 @@ ACR_war_train_category = {
 	}
 
 	ACR_reveal_the_war_train = {
-		icon = GFX_decision_wartrain_reveal_the_war_train
+		icon = GFX_decision_reveal_wartrain_decision
 		visible = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
@@ -1399,6 +1399,7 @@ ACR_war_train_category = {
 
 ACR_che_war_category = {
 	ACR_survive_the_war = {
+	icon = GFX_decision_acre_survival_decision
 		allowed = { tag = ACR }                
           available = {                           
             89 = {

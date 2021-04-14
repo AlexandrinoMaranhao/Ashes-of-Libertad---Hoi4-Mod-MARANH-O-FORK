@@ -2,6 +2,91 @@ spriteTypes = {
 
 	### categories
 	##AoL
+				
+	spriteType = {
+		name = "GFX_decision_category_eneas_insanity"
+		texturefile = "gfx/interface/decisions/decision_category_eneas_insanity.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_category_war_train_acre"
+		texturefile = "gfx/interface/decisions/decision_category_war_train_acre.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_build_generic_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_generic_wartrain_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_reveal_wartrain_decision"
+		texturefile = "gfx/interface/decisions/reveal_wartrain_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_build_base_wagon_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_base_wagon_wartrain_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_build_engine_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_engine_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_coal_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_coal_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_cerqueira_acre_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_cerqueira_acre_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_cerqueira_bolivia_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_cerqueira_bolivia_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_acre_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_acre_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_cerqueira_rondonia_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_cerqueira_rondonia_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_rondonia_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_rondonia_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_build_bolivia_wartrain_decision"
+		texturefile = "gfx/interface/decisions/build_bolivia_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_lower_che_suspicion_wartrain_decision"
+		texturefile = "gfx/interface/decisions/lower_che_suspicion_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_lower_che_suspicion_raid_wartrain_decision"
+		texturefile = "gfx/interface/decisions/lower_che_suspicion_raid_wartrain_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_acre_survival_decision"
+		texturefile = "gfx/interface/decisions/acre_survival_decision.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_decision_category_che_attacking_acre"
+		texturefile = "gfx/interface/decisions/decision_category_che_attacking_acre.dds"
+	}
 			
 	spriteType = {
 		name = "GFX_decision_marques_che_propaganda"
