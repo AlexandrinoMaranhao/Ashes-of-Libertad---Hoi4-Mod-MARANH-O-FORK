@@ -567,7 +567,7 @@ shared_focus = {
 	id = ACR_combined_efforts
 	prerequisite = { focus = ACR_show_our_intentions }
 	relative_position_id = ACR_show_our_intentions
-	#icon = 
+	icon = GFX_goal_offer_each_other_hand
 
 	x = 0
 	y = 1
@@ -587,7 +587,7 @@ shared_focus = {
 	id = ACR_talk_business
 	prerequisite = { focus = ACR_combined_efforts }
 	relative_position_id = ACR_combined_efforts
-	#icon = 
+	icon = GFX_goal_make_some_favors
 
 	x = 0
 	y = 1
@@ -606,7 +606,7 @@ shared_focus = {
 	id = ACR_keep_relationship_professional
 	prerequisite = { focus = ACR_talk_business }
 	relative_position_id = ACR_talk_business
-	#icon = 
+	icon = GFX_goal_keep_it_professional
 
 	x = 0
 	y = 1
@@ -624,7 +624,7 @@ shared_focus = {
 	id = ACR_holding_hands_with_che
 	prerequisite = { focus = ACR_hotline_guevara }
 	relative_position_id = ACR_hotline_guevara
-	#icon = 
+	icon = GFX_goal_holding_hands_with_che
 
 	x = 1
 	y = 1
@@ -641,7 +641,7 @@ shared_focus = {
 	id = ACR_ask_for_a_kiss
 	prerequisite = { focus = ACR_holding_hands_with_che }
 	relative_position_id = ACR_holding_hands_with_che
-	#icon = 
+	icon = GFX_goal_ask_for_a_kiss
 
 	x = 0
 	y = 1
@@ -662,7 +662,7 @@ shared_focus = {
 	id = ACR_ask_for_permission_to_go_deeper
 	prerequisite = { focus = ACR_ask_for_a_kiss }
 	relative_position_id = ACR_ask_for_a_kiss
-	#icon = 
+	icon = GFX_goal_ask_to_go_deeper
 
 	x = 0
 	y = 1
@@ -683,7 +683,7 @@ shared_focus = {
 	id = ACR_mutual_love_for_working_class
 	prerequisite = { focus = ACR_ask_for_permission_to_go_deeper }
 	relative_position_id = ACR_ask_for_permission_to_go_deeper
-	#icon = 
+	icon = GFX_goal_mutual_love
 
 	x = 0
 	y = 1

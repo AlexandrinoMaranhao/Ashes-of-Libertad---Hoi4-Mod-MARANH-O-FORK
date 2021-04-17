@@ -6,7 +6,7 @@ ideas = {
 	}
 
 	DOM_trujillos_legacy = {
-
+		picture = GFX_idea_DOM_trujillo_legacy
 	}
 
 	USR_the_panama_question = {

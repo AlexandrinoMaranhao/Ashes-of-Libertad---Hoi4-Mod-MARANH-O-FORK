@@ -8,7 +8,41 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #  
-               
+    SpriteType = {
+	name = "GFX_goal_ask_for_a_kiss"
+	texturefile = "gfx/interface/goals/ACR_ask_for_a_kiss.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_goal_ask_to_go_deeper"
+	texturefile = "gfx/interface/goals/ACR_ask_to_go_deeper.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_holding_hands_with_che"
+		texturefile = "gfx/interface/goals/ACR_holding_hands_with_che.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_make_some_favors"
+		texturefile = "gfx/interface/goals/ACR_make_some_favors.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_mutual_love"
+		texturefile = "gfx/interface/goals/ACR_mutual_love.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_keep_it_professional"
+		texturefile = "gfx/interface/goals/ACR_keep_it_professional.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_offer_each_other_hand"
+		texturefile = "gfx/interface/goals/ACR_offer_each_other_hand.dds"
+	}
+
 	SpriteType = {
 	name = "GFX_goal_deal_with_the_parents_against_it"
 	texturefile = "gfx/interface/goals/deal_with_the_parents_against_it.dds"
