@@ -866,6 +866,7 @@ ACR_war_train_category = {
 		complete_effect = {
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
+			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
 			add_to_variable = { ACR_acrean_railroad_progress = 1 }
@@ -933,6 +934,7 @@ ACR_war_train_category = {
 		complete_effect = {
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
+			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
 			add_to_variable = { ACR_railroad_progress = 15 }
@@ -1000,6 +1002,7 @@ ACR_war_train_category = {
 		complete_effect = {
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
+			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
 			add_to_variable = { ACR_railroad_progress = 15 }
@@ -1095,6 +1098,7 @@ ACR_war_train_category = {
 					state = 89
 				}
 			}
+			set_country_flag = ACR_can_reveal_the_war_train
 		}
 	}
 
@@ -1115,6 +1119,7 @@ ACR_war_train_category = {
 		days_remove = 1
 		remove_effect = {
 			set_country_flag = ACR_base_wagons_built
+			set_country_flag = ACR_can_reveal_the_war_train
 		}
 	}
 
@@ -1137,6 +1142,7 @@ ACR_war_train_category = {
 		remove_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 3 }
 			add_to_variable = { ACR_first_empty_train = 1 }
+			set_country_flag = ACR_can_reveal_the_war_train
 		}
 	}
 
@@ -1390,9 +1396,11 @@ ACR_war_train_category = {
 			tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			has_war = yes
+			has_country_flag = ACR_can_reveal_the_war_train
 		}
 		days_remove = 1
 		remove_effect = {
+			ACR_reveal_the_train = yes
 		}
 	}
 }

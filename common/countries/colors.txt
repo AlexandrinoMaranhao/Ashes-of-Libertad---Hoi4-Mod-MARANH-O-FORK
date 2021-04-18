@@ -787,3 +787,8 @@ MAN = {
 	color = rgb { 181 176 41 }
 	color_ui = rgb { 181 176 41 }
 }
+
+KAT = {
+	color = rgb { 252 209 9 }
+	color_ui = rgb { 252 209 9 }
+}

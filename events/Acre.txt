@@ -8,6 +8,7 @@ add_namespace = ACR_ERN
 add_namespace = ACRMarques
 add_namespace = ACR_join_lib
 add_namespace = ACR_border_conflict
+add_namespace = ACR_native_revolt
 
 #########################################################################
 # ACR_intro_one
@@ -2084,5 +2085,26 @@ country_event = {#ACR-ERN border war - ERN loses
 
 	option = {#TODO
 		name = ACR_border_conflict.4.a
+	}
+}
+
+country_event = {#native revolt
+	id = ACR_native_revolt.1
+	title = ACR_native_revolt.1.t
+	desc = ACR_native_revolt.1.d
+	is_triggered_only = yes
+
+	option = {#TODO
+		name = ACR_native_revolt.1.a
+		KAT = {
+			transfer_state = 107
+			transfer_state = 534
+			transfer_state = 535
+			load_oob = "KAT_acrean_native_revolt"
+			declare_war_on = {
+				target = ACR
+				type = civil_war
+			}
+		}
 	}
 }

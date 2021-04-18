@@ -132,6 +132,8 @@ CRR = "countries/Corrientes.txt"
 EJR = "countries/Ejército Cívico Revolucionario.txt"
 USA = "countries/American Military Command.txt"
 TEF = "countries/Tefé.txt"
+
+KAT = "countries/Acrean Natives.txt"
 #####################################
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
