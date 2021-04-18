@@ -1,0 +1,267 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Artilharia de Campanha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Cavalaria Mecanizado"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infantaria Motorizado"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+        motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4276
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 2544
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 2544
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 2258
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4477
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 876
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1263
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1102
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1777
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 2433
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4294
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1470
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 708
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 516
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4440
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4437
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4248
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 767
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 3950
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 2544
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 2544
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 328
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4364
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1290
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 485
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1094
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 378
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 2258
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 4477
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Esquadrão de Cavalaria Mecanizado"
+		location = 2544
+		division_template = "Cavalaria Mecanizado"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}

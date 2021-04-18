@@ -43,4 +43,70 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Ademar de Queirós"
+	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Ademar_de_Queirós.dds"
+	traits = { cavalry_officer }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Otávio Aguiar de Medeiros"
+	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Otávio_Aguiar_de_Medeiros.dds"
+	traits = { career_officer inflexible_strategist }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Moacir Barcelos Potiguara"
+	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Moacir_Barcelos_Potiguara.dds"
+	traits = { trickster armor_officer career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Samuel Augusto Alves Corrêa"
+	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Samuel_Augusto_Alves_Corrêa.dds"
+	traits = { armor_officer trait_cautious }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Zenildo Gonzaga Zoroastro de Lucena"
+	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Zenildo_Gonzaga_Zoroastro_de_Lucena.dds"
+	traits = { defensive_doctrine politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sérgio Etchegoyen"
+	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Sérgio_Etchegoyen.dds"
+	traits = { harsh_leader trait_cautious }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 }

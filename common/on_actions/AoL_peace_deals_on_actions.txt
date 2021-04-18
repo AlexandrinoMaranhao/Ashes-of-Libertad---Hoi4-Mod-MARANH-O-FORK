@@ -2,7 +2,39 @@ on_actions = {
 
       on_capitulation = {
  
-        effect = {  ##### Cuban Wars
+        effect = {
+          ##### Junta Civilwar
+          if = {
+            limit = {
+              FROM = {
+                OR = {
+                  original_tag = JGD
+                  original_tag = JCL
+                  original_tag = JCS
+                  original_tag = JEG
+                  original_tag = JRM
+                }
+              }
+              ROOT = {
+                OR = {
+                  original_tag = JGD
+                  original_tag = JCL
+                  original_tag = JCS
+                  original_tag = JEG
+                  original_tag = JRM
+                }
+              }
+            }
+            FROM = {
+              white_peace = ROOT
+              annex_country = {
+                target = ROOT
+                transfer_troops = no
+              }
+            }
+          }
+
+          ##### Cuban Wars
 
            if = { 
             limit = {

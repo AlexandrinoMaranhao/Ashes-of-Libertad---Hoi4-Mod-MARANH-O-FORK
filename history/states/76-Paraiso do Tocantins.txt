@@ -14,19 +14,25 @@ state={
             add_core_of = JUN
 
 		victory_points = {
-                1263 30
+            1263 30
 		}
 		victory_points = {
-                2433 5
+            2433 5
 		}
 		victory_points = {
-                4248 5
+            4248 5
 		}
 		victory_points = {
-                767 5
+            767 5
 		}
 		victory_points = {
-                3950 5 
+            3950 5 
+		}
+		victory_points = {
+            2527 5 
+		}
+		victory_points = {
+            1903 5 
 		}
      }
 }

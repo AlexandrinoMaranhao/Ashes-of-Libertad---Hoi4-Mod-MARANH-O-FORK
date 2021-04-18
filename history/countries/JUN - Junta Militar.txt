@@ -1,6 +1,6 @@
 ﻿capital = 69
 
-#oob = ""
+oob = "JUN_1967"
 
 # Starting tech
 set_technology = {

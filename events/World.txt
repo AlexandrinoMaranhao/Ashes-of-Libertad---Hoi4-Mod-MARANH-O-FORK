@@ -104,3 +104,224 @@ news_event = { # Second Battle of Guanabara won by Eastern Military Command
 		name = world.5.a
 	}
 }
+
+news_event = { # PRU Reunification
+	id = world.6
+	title = world.6.t
+	desc = world.6.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.6.a
+	}
+}
+
+news_event = { # UNO Reunification
+	id = world.7
+	title = world.7.t
+	desc = world.7.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.7.a
+	}
+}
+
+news_event = { # SEC Reunification
+	id = world.8
+	title = world.8.t
+	desc = world.8.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.8.a
+	}
+}
+
+news_event = { # Lima Reunification
+	id = world.9
+	title = world.9.t
+	desc = world.9.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.9.a
+	}
+}
+
+news_event = { # HIE Reunification
+	id = world.10
+	title = world.10.t
+	desc = world.10.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.10.a
+	}
+}
+
+news_event = { # INC Reunification
+	id = world.11
+	title = world.11.t
+	desc = world.11.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.11.a
+	}
+}
+
+news_event = { # NCA Reunification
+	id = world.12
+	title = world.12.t
+	desc = world.12.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.12.a
+	}
+}
+
+news_event = { # RPE Reunification
+	id = world.13
+	title = world.13.t
+	desc = world.13.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.13.a
+	}
+}
+
+news_event = { # PMI Reunification
+	id = world.14
+	title = world.14.t
+	desc = world.14.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.14.a
+	}
+}
+
+news_event = { # UFO Reunification
+	id = world.15
+	title = world.15.t
+	desc = world.15.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.15.a
+	}
+}
+
+news_event = { # NLA Reunification
+	id = world.16
+	title = world.16.t
+	desc = world.16.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.16.a
+	}
+}
+
+news_event = { # FCP Reunification
+	id = world.17
+	title = world.17.t
+	desc = world.17.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.17.a
+	}
+}
+
+news_event = { # Silva wins
+	id = world.30
+	title = world.30.t
+	desc = world.30.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.30.a
+	}
+}
+
+news_event = { # Geisel wins
+	id = world.31
+	title = world.31.t
+	desc = world.31.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.31.a
+	}
+}
+
+news_event = { # Mazzilli wins
+	id = world.32
+	title = world.32.t
+	desc = world.32.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.32.a
+	}
+}
+
+news_event = { # Lacerda wins
+	id = world.33
+	title = world.33.t
+	desc = world.33.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.33.a
+	}
+}
+
+news_event = { # Dutra wins
+	id = world.34
+	title = world.34.t
+	desc = world.34.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.34.a
+	}
+}

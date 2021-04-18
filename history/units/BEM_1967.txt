@@ -1,0 +1,52 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria de Selva"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "2º Batalhão de Infantaria de Selva"
+		location = 3523
+		division_template = "Infantaria de Selva"
+		start_experience_factor = 1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "50º Batalhão de Infantaria de Selva"
+		location = 3523
+		division_template = "Infantaria de Selva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "51º Batalhão de Infantaria de Selva"
+		location = 3693
+		division_template = "Infantaria de Selva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "52º Batalhão de Infantaria de Selva"
+		location = 1349
+		division_template = "Infantaria de Selva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "53º Batalhão de Infantaria de Selva"
+		location = 4019
+		division_template = "Infantaria de Selva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+}

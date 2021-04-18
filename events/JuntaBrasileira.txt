@@ -86,39 +86,37 @@ country_event = {
         74 = { set_demilitarized_zone = yes }
         75 = { set_demilitarized_zone = yes }
         72 = { set_demilitarized_zone = yes }
-        hidden_effect = { JUN = { country_event = { id = JUN_collapse.5 days = 14 } }
-        
-            every_state = {
-                limit = {
-                    is_owned_by = JUN
-                }
-                add_core_of = JRM
+        every_state = {
+            limit = {
+                is_owned_by = JUN
             }
-                        every_state = {
-                limit = {
-                    is_owned_by = JUN
-                }
-                add_core_of = JEG
+            add_core_of = JRM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = JUN
             }
-                        every_state = {
-                limit = {
-                    is_owned_by = JUN
-                }
-                add_core_of = JCL
+            add_core_of = JEG
+        }
+        every_state = {
+            limit = {
+                is_owned_by = JUN
             }
-                        every_state = {
-                limit = {
-                    is_owned_by = JUN
-                }
-                add_core_of = JCS
+            add_core_of = JCL
+        }
+        every_state = {
+            limit = {
+                is_owned_by = JUN
             }
-                        every_state = {
-                limit = {
-                    is_owned_by = JUN
-                }
-                add_core_of = JGD
+            add_core_of = JCS
+        }
+        every_state = {
+            limit = {
+                is_owned_by = JUN
             }
- }
+            add_core_of = JGD
+        }
+        hidden_effect = { JUN = { country_event = { id = JUN_collapse.5 days = 14 } } }
     }
 }
 country_event = {
@@ -132,38 +130,134 @@ country_event = {
     option = {
        name = JUN_collapse.5.a
        JUN = { dismantle_faction = yes }
-       hidden_effect = {
-       JRM = { transfer_state = 70 }
-       JRM = { transfer_state = 497 }
-       JEG = { transfer_state = 62 }
-       JEG = { transfer_state = 63 }
-       JEG = { transfer_state = 71 }
-       JCL = { transfer_state = 76 }
-       JCL = { transfer_state = 73 }
-       JCS = { transfer_state = 74 }
-       JCS = { transfer_state = 75 }
-       JCS = { transfer_state = 72 }
-       JGD = { transfer_state = 69 }
-
-       74 = { set_demilitarized_zone = no }
-       75 = { set_demilitarized_zone = no }
-       72 = { set_demilitarized_zone = no }
-       73 = { set_demilitarized_zone = no }
-       76 = { set_demilitarized_zone = no }
-       71 = { set_demilitarized_zone = no }
-       70 = { set_demilitarized_zone = no }
-       497 = { set_demilitarized_zone = no }
-       69 = { set_demilitarized_zone = no }
-       SAO = { country_event = { id = SAO.200 days = 24 } }
-       RMI = { country_event = { id = RMI.200 days = 100 } }
-       BRA = { country_event = { id = BRA_opportunity.1 days = 50 } }
-       JGD = { country_event = { id = JGD_breakuowar.1 days = 31 } }
-       JEG = { country_event = { id = JEG_breakupwar.1 days = 31 } }
-       JCL = { country_event = { id = JCL_breakupwar.1 days = 31 } }
-       JRM = { country_event = { id = JRM_breakupwar.1 days = 31 } }
-       JCS = { country_event = { id = JCS_breakupwar.1 days = 31 } }
+        hidden_effect = {
+            74 = { set_demilitarized_zone = no }
+            75 = { set_demilitarized_zone = no }
+            72 = { set_demilitarized_zone = no }
+            73 = { set_demilitarized_zone = no }
+            76 = { set_demilitarized_zone = no }
+            71 = { set_demilitarized_zone = no }
+            70 = { set_demilitarized_zone = no }
+            497 = { set_demilitarized_zone = no }
+            69 = { set_demilitarized_zone = no }
+            JRM = { transfer_state = 70 }
+            JRM = { transfer_state = 497 }
+            JEG = { transfer_state = 62 }
+            JEG = { transfer_state = 63 }
+            JEG = { transfer_state = 71 }
+            JCL = { transfer_state = 76 }
+            JCL = { transfer_state = 73 }
+            JCS = { transfer_state = 74 }
+            JCS = { transfer_state = 75 }
+            JCS = { transfer_state = 72 }
+            JGD = { transfer_state = 69 }
+            JCL = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 5000
+                    producer = JUN
+                }
+                load_oob = "JCL_civilwar"
+                add_ideas = JUN_junta_civilwar_1
+            }
+            JEG = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 10000
+                    producer = JUN
+                }
+                add_equipment_to_stockpile = {
+                    type = artillery_equipment
+                    amount = 1000
+                    producer = JUN
+                }
+                load_oob = "JEG_civilwar"
+                add_ideas = JUN_junta_civilwar_1
+            }
+            JGD = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 10000
+                    producer = JUN
+                }
+                add_equipment_to_stockpile = {
+                    type = mechanized_equipment
+                    amount = 200
+                    producer = JUN
+                }
+                add_equipment_to_stockpile = {
+                    type = artillery_equipment
+                    amount = 1000
+                    producer = JUN
+                }
+                load_oob = "JGD_civilwar"
+                add_ideas = JUN_junta_civilwar_1
+            }
+            JCS = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 10000
+                    producer = JUN
+                }
+                load_oob = "JCS_civilwar"
+                add_ideas = JUN_junta_civilwar_1
+            }
+            JRM = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 10000
+                    producer = JUN
+                }
+                add_equipment_to_stockpile = {
+                    type = artillery_equipment
+                    amount = 1000
+                    producer = JUN
+                }
+                load_oob = "JRM_civilwar"
+                add_ideas = JUN_junta_civilwar_1
+            }
+            SAO = { country_event = { id = SAO.200 days = 24 } }
+            RMI = { country_event = { id = RMI.200 days = 100 } }
+            BRA = { country_event = { id = BRA_opportunity.1 days = 50 } }
+            JGD = { 
+                country_event = { id = JGD_breakupwar.1 days = 31 }
+                country_event = { id = JUN_collapse.6 days = 387 }  
+            }
+            JEG = { 
+                country_event = { id = JEG_breakupwar.1 days = 31 } 
+                country_event = { id = JUN_collapse.6 days = 387 }  
+            }
+            JCL = { 
+                country_event = { id = JCL_breakupwar.1 days = 31 } 
+                country_event = { id = JUN_collapse.6 days = 387 }  
+            }
+            JRM = { 
+                country_event = { id = JRM_breakupwar.1 days = 31 } 
+                country_event = { id = JUN_collapse.6 days = 387 }  
+            }
+            JCS = { 
+                country_event = { id = JCS_breakupwar.1 days = 31 }
+                country_event = { id = JUN_collapse.6 days = 387 }  
+            }
+            JEG = { change_tag_from = JUN }
        }
-       JEG = { change_tag_from = JUN }
+    }
+}
+
+country_event = {#remove the debuffs
+    id = JUN_collapse.6
+    title = JUN_collapse.5.t
+    desc = JUN_collapse.5.t
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+        swap_ideas = {
+            remove_idea = JUN_junta_civilwar_1
+            add_idea = JUN_junta_civilwar_2
+        }
     }
 }
 

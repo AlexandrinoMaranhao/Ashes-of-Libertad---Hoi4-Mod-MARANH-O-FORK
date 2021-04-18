@@ -18,19 +18,19 @@ country_event = {
     option = {
         declare_war_on = {
             target = JCL
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JGD
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JRM
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JCS
-            type = annex_everything
+            type = civil_war
         }
     }
 }
@@ -46,19 +46,19 @@ country_event = {
     option = {
         declare_war_on = {
             target = JCL
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JGD
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JRM
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JCS
-            type = annex_everything
+            type = civil_war
         }
     }
 }
@@ -74,19 +74,19 @@ country_event = {
     option = {
         declare_war_on = {
             target = JCL
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JGD
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JRM
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JCS
-            type = annex_everything
+            type = civil_war
         }
     }
 }
@@ -102,19 +102,19 @@ country_event = {
     option = {
         declare_war_on = {
             target = JCL
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JGD
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JRM
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JCS
-            type = annex_everything
+            type = civil_war
         }    }
 }
 
@@ -129,19 +129,19 @@ country_event = {
     option = {
         declare_war_on = {
             target = JCL
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JGD
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JRM
-            type = annex_everything
+            type = civil_war
         }
         declare_war_on = {
             target = JCS
-            type = annex_everything
+            type = civil_war
         }
     }
 }

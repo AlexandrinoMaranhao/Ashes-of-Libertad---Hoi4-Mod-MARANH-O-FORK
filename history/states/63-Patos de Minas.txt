@@ -13,8 +13,14 @@ state={
             owner = JUN
             add_core_of = JUN
 		add_core_of = RMI
+		victory_points = {
+		   642 10
+		}
         victory_points = {
            328 5
         }
+		victory_points = {
+		   847 5
+		}
     }
 }

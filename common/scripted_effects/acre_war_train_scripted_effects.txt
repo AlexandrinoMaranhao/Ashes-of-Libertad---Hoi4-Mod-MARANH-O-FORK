@@ -75,3 +75,128 @@ ACR_construct_railroad_natives = {
 		}
 	}
 }
+
+ACR_trigger_native_revolt = {
+	custom_effect_tooltip = ACR_construct_railroad_natives_tt
+	hidden_effect = {
+		random_list = {
+			1 = {
+				country_event = {
+					id = ACR_native_revolt.1
+					hours = 1
+				}
+			}
+			9 = {#nothing happens
+			}
+		}
+	}
+}
+
+ACR_reveal_the_train = {
+	if = {
+		limit = {
+			check_variable = { ACR_railroad_progress < 40 }
+		}
+		set_variable = { ACR_war_train_ideas_time = 30 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { ACR_railroad_progress < 70 }
+		}
+		set_variable = { ACR_war_train_ideas_time = 60 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { ACR_railroad_progress < 100 }
+		}
+		set_variable = { ACR_war_train_ideas_time = 180 }
+	}
+	else = {
+		set_variable = { ACR_war_train_ideas_time = 365 }
+	}
+	if = {
+		limit = {
+			has_country_flag = ACR_reinforced_hull_built
+		}
+		add_timed_idea = {
+			idea = ACR_reinforced_hull
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	if = {
+		limit = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 2
+			}
+		}
+		add_timed_idea = {
+			idea = ACR_ammo_wagon
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	if = {
+		limit = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 4
+			}
+		}
+		add_timed_idea = {
+			idea = ACR_mobile_base
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	if = {
+		limit = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 9
+			}
+		}
+		add_timed_idea = {
+			idea = ACR_mortar
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	if = {
+		limit = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 5
+			}
+		}
+		add_timed_idea = {
+			idea = ACR_troop_transport
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	if = {
+		limit = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 6
+			}
+		}
+		add_timed_idea = {
+			idea = ACR_primary_turret
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	if = {
+		limit = {
+			is_in_array = {
+				array = ACR_war_train_array
+				value = 7
+			}
+		}
+		add_timed_idea = {
+			idea = ACR_secondary_turret
+			days = var:ACR_war_train_ideas_time
+		}
+	}
+	add_timed_idea = {
+		idea = ACR_war_train
+		days = var:ACR_war_train_ideas_time
+	}
+}
