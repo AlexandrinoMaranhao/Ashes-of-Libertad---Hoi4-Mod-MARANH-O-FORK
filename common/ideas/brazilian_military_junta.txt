@@ -42,7 +42,9 @@ ideas = {
 			modifier = {
 				ai_focus_aggressive_factor = 0.7
 				ai_focus_defense_factor = 0.3
-				surrender_limit = 0.5
+				army_org_factor = -0.1
+				army_org_regain = -0.1
+				war_support_factor = -0.1
 			}
 		}
 	}

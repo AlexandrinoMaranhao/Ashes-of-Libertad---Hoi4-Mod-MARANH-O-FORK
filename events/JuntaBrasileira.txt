@@ -254,9 +254,35 @@ country_event = {#remove the debuffs
     hidden = yes
 
     immediate = {
-        swap_ideas = {
-            remove_idea = JUN_junta_civilwar_1
-            add_idea = JUN_junta_civilwar_2
+        JGD = {
+            swap_ideas = {
+                remove_idea = JUN_junta_civilwar_1
+                add_idea = JUN_junta_civilwar_2
+            }
+        }
+        JEG = {
+            swap_ideas = {
+                remove_idea = JUN_junta_civilwar_1
+                add_idea = JUN_junta_civilwar_2
+            }
+        }
+        JCL = {
+            swap_ideas = {
+                remove_idea = JUN_junta_civilwar_1
+                add_idea = JUN_junta_civilwar_2
+            }
+        }
+        JCS = {
+            swap_ideas = {
+                remove_idea = JUN_junta_civilwar_1
+                add_idea = JUN_junta_civilwar_2
+            }
+        }
+        JRM = {
+            swap_ideas = {
+                remove_idea = JUN_junta_civilwar_1
+                add_idea = JUN_junta_civilwar_2
+            }
         }
     }
 }

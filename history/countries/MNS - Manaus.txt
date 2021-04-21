@@ -1,6 +1,6 @@
 ﻿capital = 96
 
-#oob = ""
+oob = "MNS_1967"
 
 # Starting tech
 set_technology = {
@@ -56,5 +56,15 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Jorge Teixeira de Oliveira"
+	portrait_path = "gfx/leaders/MNS/Portrait_MNS_Jorge_Teixeira_de_Oliveira.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
 
 }

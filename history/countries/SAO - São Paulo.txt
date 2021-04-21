@@ -60,4 +60,15 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Brasilio Taborda"
+	portrait_path = "gfx/leaders/JCL/Portrait_SAO_Brasílio_Taborda.dds"
+	traits = { trait_reckless }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 }
