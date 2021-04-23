@@ -4,33 +4,14 @@ news_event = { # Carlos Prestes comes back on April 23rd 1969
 	id = world.1
 	title = world.1.t
 	desc = world.1.d
+	picture = "GFX_news_event_prestes_1"
 
 	is_triggered_only = yes
 
 	option = {
 		name = world.1.a # Positive national spirit
-			ROR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
-			RMI = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
-			FBO = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
-			BIA = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
-			PCR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
-			PAU = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
 
-			JUN = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			JEG = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			JRM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			JGD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			JCL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			JCS = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			BEM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			JAG = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			ACR = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			LAM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			NHA = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			VAL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			SAO = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-			CFD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
-
+        hidden_effect = { news_event = { id = world.35 } }
 
 		}
 		
@@ -323,5 +304,39 @@ news_event = { # Dutra wins
 
 	option = {
 		name = world.34.a
+	}
+}
+
+news_event = { # Prestes Event Pt2
+	id = world.35
+	title = world.35.t
+	desc = world.35.d
+	picture = "GFX_news_event_prestes_2"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.35.a
+			ROR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			RMI = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			FBO = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			BIA = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			PCR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+			PAU = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
+
+			JUN = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JEG = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JRM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JGD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JCL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JCS = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			BEM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			JAG = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			ACR = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			LAM = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			NHA = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			VAL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			SAO = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			CFD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
 	}
 }
