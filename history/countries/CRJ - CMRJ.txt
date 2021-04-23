@@ -1,14 +1,25 @@
 ﻿capital = 36
 
-#oob = ""
+oob = "CRJ_1967"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
 }
 
 set_convoys = 5
 
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 10000
+	producer = CRJ
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 1000
+	producer = CRJ
+}
 
 set_politics = {
 	ruling_party = fascism
@@ -94,7 +105,7 @@ create_field_marshal = {
 	logistics_skill = 1
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "João Punaro Bley"
 	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Joao_Punaro.dds"
 	traits = { }
@@ -149,7 +160,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Raymundo Nonato de Cerqueira Filho"
 	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Raimundo_Nonato.dds"
 	traits = { }
