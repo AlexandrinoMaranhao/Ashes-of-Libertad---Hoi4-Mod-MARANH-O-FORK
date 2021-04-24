@@ -12,37 +12,44 @@ division_template = {
 units = {
 	division = {
 		name = "Batalhão de Infantaria de Selva"
-		location = 3523
+		location = 3506
 		division_template = "Infantaria de Selva"
-		start_experience_factor = 1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.2
 	}
 	division = {
 		name = "Batalhão de Infantaria de Selva"
-		location = 3523
+		location = 3506
 		division_template = "Infantaria de Selva"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.2
 	}
 	division = {
 		name = "Batalhão de Infantaria de Selva"
-		location = 3693
+		location = 3506
 		division_template = "Infantaria de Selva"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.2
 	}
 	division = {
 		name = "Batalhão de Infantaria de Selva"
-		location = 1349
+		location = 3506
 		division_template = "Infantaria de Selva"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.2
 	}
 	division = {
 		name = "Batalhão de Infantaria de Selva"
-		location = 4019
+		location = 3506
 		division_template = "Infantaria de Selva"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "Batalhão de Infantaria de Selva"
+		location = 3506
+		division_template = "Infantaria de Selva"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.2
 	}
 }

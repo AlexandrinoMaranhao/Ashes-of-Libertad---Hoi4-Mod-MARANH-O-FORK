@@ -1,6 +1,6 @@
 ﻿capital = 430
 
-#oob = ""
+oob = "NHA_1967"
 
 # Starting tech
 set_technology = {
@@ -53,10 +53,20 @@ create_country_leader = {
 	ideology = military_government
 	traits = {
 		capable_strategist
-divided_loyalties
-honest_man
+        divided_loyalties
+        honest_man
 	}
 }
 
+create_field_marshal = {
+	name = "Alberto Carlos Mendonça Lima"
+	portrait_path = "gfx/leaders/NHA/Portrait_NHA_Alberto_Carlos_Mendonça_Lima.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
 
 }
