@@ -3,18 +3,26 @@
 
 
 
+BRA_MONARCHY = {
+	color = rgb { 51 104 34 }
+	color_ui = rgb { 51 104 34 }
+}
+
 BIA_COMMIE = {
 	color = rgb { 177 62 8 }
 	color_ui = rgb { 177 62 8 }
 }
+
 JUT_COMMIE = {
 	color = rgb { 72  91  88 }
 	color_ui = rgb { 72  91  88 }
 }
+
 JAV_COMMIE = {
 	color = rgb { 154  66  20 }
 	color_ui = rgb { 154  66  20 }
 }
+
 QPM_COMMIE = {
 	color = rgb { 134  63  11 }
 	color_ui = rgb { 134  63  11 }

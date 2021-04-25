@@ -927,7 +927,7 @@ create_country_leader = {
     name = "Grand-Master Francis Hirsch"
     picture = "gfx/leaders/QPM/Portrait_QPM_Hirsch.dds"
     expire = "1999.1.1"
-    ideology = christian_theocracy 
+    ideology = christian_theocracy_reactionary 
     traits = {
         #
     }

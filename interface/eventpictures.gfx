@@ -1,4 +1,29 @@
 spriteTypes = {
+			
+	spriteType = {
+		name = "GFX_news_news_event_lott_president"
+		texturefile = "gfx/event_pictures/news_event_lott_president.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_news_news_event_jk_president"
+		texturefile = "gfx/event_pictures/news_event_jk_president.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_news_news_event_goulart_president"
+		texturefile = "gfx/event_pictures/news_event_goulart_president.dds"
+	}
+			
+	spriteType = {
+		name = "GFX_news_news_event_brizola_president"
+		texturefile = "gfx/event_pictures/news_event_brizola_president.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_news_news_event_monarchsit_brazil"
+		texturefile = "gfx/event_pictures/news_event_monarchsit_brazil.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_news_event_prestes_1"

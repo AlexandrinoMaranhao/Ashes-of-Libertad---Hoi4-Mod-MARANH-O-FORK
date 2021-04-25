@@ -54,10 +54,10 @@ set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "João Goulart"
+	name = "João Belchior Goulart"
 	picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
 	expire = "1999.1.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		cornered_fox
 		connected_citizen
@@ -66,7 +66,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Leonel Brizola"
+	name = "Leonel de Moura Brizola"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
 	expire = "1999.1.1"
 	ideology = marxism

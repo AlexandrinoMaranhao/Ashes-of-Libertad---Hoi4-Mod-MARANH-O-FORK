@@ -5,6 +5,7 @@
 add_namespace = BRA
 add_namespace = BRA_guanabara
 add_namespace = BRA_opportunity
+add_namespace = BRA_elections
 
 
 
@@ -66,9 +67,310 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+        name = BRA_opportunity.1.a
         declare_war_on = {
             target = JAG
             type = puppet_wargoal_focus 
         }
     }
+}
+
+country_event = {
+    id = BRA_elections.1
+    title = BRA_elections.1.t
+    desc = BRA_elections.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = { #regionals
+        name = BRA_elections.1.a
+        hidden_effect = { country_event = { id = BRA_elections.2 days = 5 } }
+
+        }
+
+    option = { #nationals
+        name = BRA_elections.1.b
+        hidden_effect = { country_event = { id = BRA_elections.3 days = 5 } }
+
+        }
+}
+
+
+country_event = {#regionals
+    id = BRA_elections.2
+    title = BRA_elections.2.t
+    desc = BRA_elections.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = BRA_elections.2.a
+
+random_list = { 
+30 = {# Goulart wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "João Belchior Goulart"
+    picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
+    expire = "1999.1.1"
+    ideology = liberalism 
+    traits = {
+        
+        cornered_fox
+        connected_citizen
+        social_reformer
+            }
+}
+
+set_popularities = {
+    democratic = 48
+    fascism = 30
+    communism = 22
+    neutrality = 0
+    reactionary = 0
+}
+ news_event = { id = world.36 } 
+
+}
+
+25 = {# JK wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Juscelino Kubitschek de Oliveira"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.dds"
+    expire = "1999.1.1"
+    ideology = liberalism 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 79
+    fascism = 11
+    communism = 10
+    neutrality = 0
+    reactionary = 0
+}
+ news_event = { id = world.37 } 
+
+}
+
+20 = {# Lott wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Henrique Teixeira Lott"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
+    expire = "1999.1.1"
+    ideology = authoritarian_democracy 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 60
+    fascism = 30
+    communism = 4
+    neutrality = 0
+    reactionary = 6
+}
+ news_event = { id = world.38 } 
+
+}
+
+20 = {# Brizola wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Leonel de Moura Brizola"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
+    expire = "1999.1.1"
+    ideology = socialism 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 40
+    fascism = 0
+    communism = 40
+    neutrality = 0
+    reactionary = 20
+}
+ news_event = { id = world.39 } 
+
+}
+
+5 = {# Monarchists wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Pedro Henrique de Orleães e Bragança"
+    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
+    expire = "1999.1.1"
+    ideology = constitutional_monarchy 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 14
+    fascism = 20
+    communism = 11
+    neutrality = 0
+    reactionary = 55
+}
+ news_event = { id = world.40 } 
+ set_cosmetic_tag = BRA_MONARCHY
+
+}
+
+}
+}
+}
+
+country_event = {#nationals
+    id = BRA_elections.3
+    title = BRA_elections.3.t
+    desc = BRA_elections.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = BRA_elections.3.a
+random_list = { 
+
+25 = {# Goulart wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "João Belchior Goulart"
+    picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
+    expire = "1999.1.1"
+    ideology = liberalism 
+    traits = {
+        
+        cornered_fox
+        connected_citizen
+        social_reformer
+            }
+}
+
+set_popularities = {
+    democratic = 48
+    fascism = 30
+    communism = 22
+    neutrality = 0
+    reactionary = 0
+}
+ news_event = { id = world.36 } 
+
+}
+
+20 = {# JK wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Juscelino Kubitschek de Oliveira"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.dds"
+    expire = "1999.1.1"
+    ideology = liberalism 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 79
+    fascism = 11
+    communism = 10
+    neutrality = 0
+    reactionary = 0
+}
+ news_event = { id = world.37 } 
+
+}
+
+25 = {# Lott wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Henrique Teixeira Lott"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
+    expire = "1999.1.1"
+    ideology = authoritarian_democracy 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 60
+    fascism = 30
+    communism = 4
+    neutrality = 0
+    reactionary = 6
+}
+ news_event = { id = world.38 } 
+
+}
+
+10 = {# Brizola wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Leonel de Moura Brizola"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
+    expire = "1999.1.1"
+    ideology = socialism 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 40
+    fascism = 0
+    communism = 40
+    neutrality = 0
+    reactionary = 20
+}
+ news_event = { id = world.39 } 
+
+}
+
+20 = {# Monarchists wins
+kill_country_leader = yes
+create_country_leader = {
+        
+    name = "Pedro Henrique de Orleães e Bragança"
+    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
+    expire = "1999.1.1"
+    ideology = constitutional_monarchy 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 14
+    fascism = 20
+    communism = 11
+    neutrality = 0
+    reactionary = 55
+}
+ set_cosmetic_tag = BRA_MONARCHY
+ news_event = { id = world.40 } 
+}
+}
+}
 }

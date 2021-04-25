@@ -65,7 +65,7 @@ on_actions = {
             RPE = {
                 country_event = {
                     id = PERU.1
-                    days = 40
+                    days = 5
                 }
             }
             PMI = {
@@ -311,6 +311,13 @@ on_actions = {
 					days = 980
 				}
 			}
+
+            BRA = {
+                country_event = {
+                    id = BRA_elections.1 # Elections
+                    days = 589
+                }
+            }
 		}
 	}
 }

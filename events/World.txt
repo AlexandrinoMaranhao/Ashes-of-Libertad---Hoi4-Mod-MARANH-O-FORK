@@ -340,3 +340,68 @@ news_event = { # Prestes Event Pt2
 			CFD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
 	}
 }
+
+news_event = { # Goulart wins
+	id = world.36
+	title = world.36.t
+	desc = world.36.d
+	picture = "GFX_news_news_event_goulart_president"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.36.a
+	}
+}
+
+news_event = { # JK wins
+	id = world.37
+	title = world.37.t
+	desc = world.37.d
+	picture = "GFX_news_news_event_jk_president"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.37.a
+	}
+}
+
+news_event = { # Lott wins
+	id = world.38
+	title = world.38.t
+	desc = world.38.d
+	picture = "GFX_news_news_event_lott_president"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.38.a
+	}
+}
+
+news_event = { # Brizola wins
+	id = world.39
+	title = world.39.t
+	desc = world.39.d
+	picture = "GFX_news_news_event_brizola_president"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.39.a
+	}
+}
+
+news_event = { # Monarchists wins
+	id = world.40
+	title = world.40.t
+	desc = world.40.d
+	picture = "GFX_news_news_event_monarchsit_brazil"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.40.a
+	}
+}
