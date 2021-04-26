@@ -111,6 +111,11 @@ country_event = {#regionals
 random_list = { 
 30 = {# Goulart wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_party
+    long_name = BRA_democratic_party_long
+}
 create_country_leader = {
         
     name = "João Belchior Goulart"
@@ -138,6 +143,11 @@ set_popularities = {
 
 25 = {# JK wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_psd_party
+    long_name = BRA_democratic_psd_party_long
+}
 create_country_leader = {
         
     name = "Juscelino Kubitschek de Oliveira"
@@ -162,6 +172,11 @@ set_popularities = {
 
 20 = {# Lott wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_psd_party
+    long_name = BRA_democratic_psd_party_long
+}
 create_country_leader = {
         
     name = "Henrique Teixeira Lott"
@@ -186,6 +201,11 @@ set_popularities = {
 
 20 = {# Brizola wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_party
+    long_name = BRA_democratic_party_long
+}
 create_country_leader = {
         
     name = "Leonel de Moura Brizola"
@@ -210,6 +230,11 @@ set_popularities = {
 
 5 = {# Monarchists wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_monarchist_party
+    long_name = BRA_democratic_monarchist_party_long
+}
 create_country_leader = {
         
     name = "Pedro Henrique de Orleães e Bragança"
@@ -251,6 +276,11 @@ random_list = {
 
 25 = {# Goulart wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_party
+    long_name = BRA_democratic_party_long
+}
 create_country_leader = {
         
     name = "João Belchior Goulart"
@@ -278,6 +308,11 @@ set_popularities = {
 
 20 = {# JK wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_psd_party
+    long_name = BRA_democratic_psd_party_long
+}
 create_country_leader = {
         
     name = "Juscelino Kubitschek de Oliveira"
@@ -302,6 +337,11 @@ set_popularities = {
 
 25 = {# Lott wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_psd_party
+    long_name = BRA_democratic_psd_party_long
+}
 create_country_leader = {
         
     name = "Henrique Teixeira Lott"
@@ -326,6 +366,11 @@ set_popularities = {
 
 10 = {# Brizola wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_party
+    long_name = BRA_democratic_party_long
+}
 create_country_leader = {
         
     name = "Leonel de Moura Brizola"
@@ -350,6 +395,11 @@ set_popularities = {
 
 20 = {# Monarchists wins
 kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_monarchist_party
+    long_name = BRA_democratic_monarchist_party_long
+}
 create_country_leader = {
         
     name = "Pedro Henrique de Orleães e Bragança"
