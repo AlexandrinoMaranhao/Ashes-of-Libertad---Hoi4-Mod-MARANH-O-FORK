@@ -165,7 +165,7 @@ kill_country_leader = yes
 create_country_leader = {
         
     name = "Henrique Teixeira Lott"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Henrique_Teixeira_Lott.dds"
     expire = "1999.1.1"
     ideology = authoritarian_democracy 
     traits = {
@@ -305,7 +305,7 @@ kill_country_leader = yes
 create_country_leader = {
         
     name = "Henrique Teixeira Lott"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Henrique_Teixeira_Lott.dds"
     expire = "1999.1.1"
     ideology = authoritarian_democracy 
     traits = {

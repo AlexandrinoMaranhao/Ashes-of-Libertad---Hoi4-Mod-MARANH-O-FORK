@@ -46,8 +46,8 @@ add_ideas = {
 	partial_economic_mobilisation
 
 	the_paulista_betrayal
-overdue_elections
-last_stand_of_the_republic
+    overdue_elections
+    last_stand_of_the_republic
 }
 
 set_country_flag = is_brazilian
@@ -62,7 +62,6 @@ create_country_leader = {
 		cornered_fox
 		connected_citizen
 		social_reformer
-
 	}
 }
 create_country_leader = {
@@ -97,4 +96,148 @@ create_country_leader = {
 		
 	}
 }
+
+create_field_marshal = {
+	name = "João de Segadas Viana"
+	#portrait_path = "gfx/leaders/BRA/Portrait_BRA_Ademar_de_Queirós.dds"
+	traits = {  }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "José Machado Lopes"
+	#portrait_path = "gfx/leaders/BRA/Portrait_BRA_Ademar_de_Queirós.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Henrique Teixeira Lott"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
+	traits = { politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Amaury Kruel"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Amaury_Kruel.dds"
+	traits = { trait_reckless }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hugo Panasco Alvim"
+	#portrait_path = "gfx/leaders/BRA/Portrait_BRA_Amaury_Kruel.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Osvino Ferreira Alves"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Osvino_Ferreira_Alves.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Peri Constant Bevilacqua"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Peri_Constant.dds"
+	traits = { politically_connected }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Argemiro de Assis Brasil"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Argemiro_de_Assis_Brasil.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Luís Tavares da Cunha Melo"
+	#portrait_path = "gfx/leaders/BRA/Portrait_BRA_Amaury_Kruel.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Euler Bentes Monteiro"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Euler_Bentes_Monteiro.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Euryale de Jesus Zerbini"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Euryale_Zerbini.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfeu de Alcântara Monteiro"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Alfeu_de_Alcântara_Monteiro.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Carlos Tinoco Ribeiro Gomes"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Carlos_Tinoco_Gomes.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 }
