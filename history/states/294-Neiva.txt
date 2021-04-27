@@ -5,11 +5,27 @@ state={
 	provinces={
 		60 675 819 879 974 1140 1178 1436 1632 1847 2127 2325 2358 3215 3220 3236 3273 3274 3357 3360 3363 
 	}
-	manpower=5000
+	manpower=7964
 	buildings_max_level_factor=1.000
 	state_category=town
 
             history = {
+
+        victory_points = {
+1178 5
+        }
+
+        victory_points = {
+2127 5
+        }
+
+        victory_points = {
+879 5
+        }
+
+        victory_points = {
+1847 5
+        }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

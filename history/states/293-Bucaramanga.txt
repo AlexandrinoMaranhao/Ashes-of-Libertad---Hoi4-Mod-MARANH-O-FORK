@@ -1,19 +1,27 @@
+
 state={
 	id=293
 	name="STATE_293"
-	provinces={
-		1555 2236 3042 3083 3112 
-	}
-	manpower=795766
-	state_category=town
-	buildings_max_level_factor=1.000
-            history = {
+
+	history={
+		victory_points = {
+			2236 5 
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-            arms_factory = 2
-			}
-        owner = COL
-        add_core_of = COL
-}
+			arms_factory = 2
+
+		}
+		owner = COL
+		add_core_of = COL
+
+	}
+
+	provinces={
+		1555 2236 3083 3112 
+	}
+	manpower=795766
+	buildings_max_level_factor=1.000
+	state_category=town
 }

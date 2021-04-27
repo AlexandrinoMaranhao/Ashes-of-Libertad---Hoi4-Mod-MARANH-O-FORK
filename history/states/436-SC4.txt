@@ -4,10 +4,14 @@ state={
 	provinces={
 		707 1462 1899 2732 3438 3445 3471 3507 
 	}
-	manpower=5000
+	manpower=2039
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
+
+        victory_points = {
+2732 1
+        }
              owner=QPM
              add_core_of = QPM
 }

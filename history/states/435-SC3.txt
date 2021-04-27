@@ -4,10 +4,14 @@ state={
 	provinces={
 		682 2030 3467 3496 3501 3502 3529 3560 
 	}
-	manpower=13943
+	manpower=1943
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
+
+        victory_points = {
+2030 1
+        }
              owner=FAR
              add_core_of = FAR
         add_core_of = COL

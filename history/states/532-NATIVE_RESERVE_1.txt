@@ -7,6 +7,15 @@ state={
 		owner = ACR
 		add_core_of = ACR
 
+        resources = {
+rubber = 20
+
+}
+		buildings = {
+			infrastructure = 1
+	
+
+		}
 	}
 
 	provinces={

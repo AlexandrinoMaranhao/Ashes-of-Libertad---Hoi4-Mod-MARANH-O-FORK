@@ -1,22 +1,31 @@
+
 state={
 	id=286
 	name="STATE_286"
-	provinces={
-		6 1859 2053 2630 2960 2981 
-	}
-	manpower=400438
-	state_category=town
-	buildings_max_level_factor=1.000
 
-            history = {
+	history={
+		victory_points = {
+			6 5 
+		}
+		victory_points = {
+			2630 5 
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-            arms_factory = 2
-			}
-        owner = ELN
-        add_core_of = ELN
+			arms_factory = 2
 
-        add_core_of = COL
-}
+		}
+		owner = ELN
+		add_core_of = ELN
+		add_core_of = COL
+
+	}
+
+	provinces={
+		6 908 1859 2053 2630 2960 2981 
+	}
+	manpower=400438
+	buildings_max_level_factor=1.000
+	state_category=town
 }

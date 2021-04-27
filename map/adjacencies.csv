@@ -229,7 +229,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3395;2651;sea;5910;-1;-1;-1;-1;;Mapuera
 3506;3479;sea;6115;-1;-1;-1;-1;;Nhamundá
 3506;2082;sea;6115;-1;-1;-1;-1;;Nhamundá
-
+877;3608;sea;6115;-1;-1;-1;-1;;Parintins
+3626;3635;sea;6115;-1;-1;-1;-1;;Parintins-Manaus
 #
 4048;628;impassable;-1;-1;-1;-1;-1;;Amazonia
 4013;1231;impassable;-1;-1;-1;-1;-1;;Amazonia

@@ -68,6 +68,8 @@ country_event = {
     #Answer
     option = {
     name = JAU.1.a
+        hidden_effect = { country_event = { id = JAU.2 days = 350 } }
+
 random_list = {
     90 = {
         113 = { add_core_of = MNS }
@@ -150,7 +152,6 @@ random_list = {
 
     
 }
-        hidden_effect = { country_event = { id = JAU.2 days = 350 } }
 
 }
 

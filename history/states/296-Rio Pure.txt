@@ -4,20 +4,24 @@ state={
 	name="STATE_296"
 
 	history={
+
+        victory_points = {
+255 1
+        }
              owner=FAR
              add_core_of = FAR
         add_core_of = COL
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-            arms_factory = 2
+			infrastructure = 1
+		
+            arms_factory = 1
 			}
 	}
 
 	provinces={
 		255 2002 2580 2697 3475 3486 3533 3573 3585 
 	}
-	manpower=29304
+	manpower=2304
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

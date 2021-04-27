@@ -8,6 +8,10 @@ state={
 	state_category=rural
 	buildings_max_level_factor=1.000
             history = {
+
+        victory_points = {
+3375 1
+        }
              owner=QPM
              add_core_of = QPM
 }

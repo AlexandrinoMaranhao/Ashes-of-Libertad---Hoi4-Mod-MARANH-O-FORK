@@ -4,12 +4,19 @@ state={
 	provinces={
 		1182 2080 2400 3404 3433 3437 
 	}
-	manpower=5000
-	state_category=town
+	manpower=2059
+	state_category=rural
 	buildings_max_level_factor=1.000
-            history = {		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+            history = {	
+
+        victory_points = {
+1182 1
+        }
+
+        
+buildings = {
+			infrastructure = 1
+			
             arms_factory = 2
 			}
 		owner = COL
