@@ -107,6 +107,14 @@ defined_text = {
     }
 
 	text = {
+   	    trigger = {
+   		    tag = HON
+   		    has_government = fascism
+   	}
+   	    localization_key = HON_FIRST_TITLE
+    }
+
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -221,6 +229,14 @@ defined_text = {
 		}
 		localization_key = VEN_SECOND_TITLE
 	}
+
+	text = {
+		trigger = {
+			tag = HON
+			has_government = fascism
+		}
+		localization_key = HON_SECOND_TITLE
+	}
 }
 #########################
 defined_text = {
@@ -331,6 +347,22 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = ERN_SECOND_LEADER
+	}
+
+	text = {
+		trigger = {
+			tag = RMI
+			has_government = communism
+		}
+		localization_key = RMI_SECOND_LEADER
+	}
+
+	text = {
+		trigger = {
+			tag = HON
+			has_government = fascism
+		}
+		localization_key = HON_SECOND_LEADER
 	}
 
 	text = {
@@ -456,6 +488,20 @@ defined_text = {
 			
 		}
 		localization_key = "GFX_ERN_JOAQUIN"
+	}
+	text = {
+		trigger = {
+			tag = RMI
+			has_government = communism	
+		}
+		localization_key = "GFX_RMI_ARANTES"
+	}
+	text = {
+		trigger = {
+			tag = HON
+			has_government = fascism	
+		}
+		localization_key = "GFX_HON_LOPEZ"
 	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
