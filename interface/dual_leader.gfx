@@ -109,6 +109,14 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/ERN/Portrait_ERN_Juan_Vitalio_Acuña_Núñez.dds"
 	}
 
+	spriteType = {
+		name = "GFX_RMI_ARANTES"
+		texturefile = "gfx/dual_leaders/RMI/Portrait_RMI_Aldo_Arantes.dds"
+	}
 
+	spriteType = {
+		name = "GFX_HON_LOPEZ"
+		texturefile = "gfx/dual_leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
+	}
 
 }
