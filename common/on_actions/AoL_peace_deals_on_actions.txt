@@ -3,7 +3,74 @@ on_actions = {
       on_capitulation = {
  
         effect = {
-          ##### Junta Civilwar
+          ##### Farmlands War
+          if = {
+            limit = {
+              FROM = {
+                original_tag = HON
+              }
+              ROOT = {
+                original_tag = ELS
+              }
+            }
+            FROM = {
+              white_peace = ROOT
+              annex_country = {
+                target = ROOT
+                transfer_troops = no
+              }
+            }
+          }
+
+          if = {
+            limit = {
+              FROM = {
+                original_tag = ELS
+              }
+              ROOT = {
+                original_tag = HON
+              }
+            }
+            FROM = {
+              white_peace = ROOT
+            }
+            ROOT = {
+              country_event = {
+                id = honduran_civilwar.1
+              }
+            }
+          }
+
+          ##### Honduran Civilwar
+          if = {
+            limit = {
+              FROM = {
+                OR = {
+                  original_tag = HNL
+                  original_tag = HNR
+                  original_tag = HNM
+                  original_tag = HON
+                }
+              }
+              ROOT = {
+                OR = {
+                  original_tag = HNL
+                  original_tag = HNR
+                  original_tag = HNM
+                  original_tag = HON
+                }
+              }
+            }
+            FROM = {
+              white_peace = ROOT
+              annex_country = {
+                target = ROOT
+                transfer_troops = no
+              }
+            }
+          }
+
+          ##### Junta Civil War
           if = {
             limit = {
               FROM = {
@@ -1755,9 +1822,9 @@ on_actions = {
         ROOT = { original_tag = NHA }
         FROM = { original_tag = PAT }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1767,9 +1834,9 @@ on_actions = {
         ROOT = { original_tag = NHA }
         FROM = { original_tag = MNS }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1779,9 +1846,9 @@ on_actions = {
         ROOT = { original_tag = MNS }
         FROM = { original_tag = NHA }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1791,9 +1858,9 @@ on_actions = {
         ROOT = { original_tag = FBO }
         FROM = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1803,9 +1870,9 @@ on_actions = {
         ROOT = { original_tag = COR }
         FROM = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1815,9 +1882,9 @@ on_actions = {
         ROOT = { original_tag = BIA }
         FROM = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1827,9 +1894,9 @@ on_actions = {
         ROOT = { original_tag = JAV }
         FROM = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1839,9 +1906,9 @@ on_actions = {
         ROOT = { original_tag = JUT }
         FROM = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1853,9 +1920,9 @@ on_actions = {
         FROM = { original_tag = FBO }
         ROOT = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1865,9 +1932,9 @@ on_actions = {
         FROM = { original_tag = COR }
         ROOT = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1877,9 +1944,9 @@ on_actions = {
         FROM = { original_tag = BIA }
         ROOT = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1889,9 +1956,9 @@ on_actions = {
         FROM = { original_tag = JAV }
         ROOT = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1901,9 +1968,9 @@ on_actions = {
         FROM = { original_tag = JUT }
         ROOT = { original_tag = QPM }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1913,9 +1980,9 @@ on_actions = {
         FROM = { original_tag = WAM }
         ROOT = { original_tag = MNS }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1925,9 +1992,9 @@ on_actions = {
         FROM = { original_tag = ATR }
         ROOT = { original_tag = MNS }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1937,9 +2004,9 @@ on_actions = {
         ROOT = { original_tag = WAM }
         FROM = { original_tag = MNS }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -1949,9 +2016,9 @@ on_actions = {
         ROOT = { original_tag = ATR }
         FROM = { original_tag = MNS }
       }
-      ROOT = {
+      FROM = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }

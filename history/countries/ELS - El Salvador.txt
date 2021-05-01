@@ -1,6 +1,6 @@
 ﻿capital = 242
 
-#oob = ""
+oob = "ELS_DEMO"
 
 # Starting tech
 set_technology = {
@@ -38,11 +38,6 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-country_event = {
-	id = ELS_election.1
-	days = 124
 }
 
 }

@@ -1,0 +1,131 @@
+add_namespace = farmlands_war
+add_namespace = honduran_civilwar
+
+## Farmlands War ##
+country_event = {
+    id = farmlands_war.1
+    title = farmlands_war.1.t
+    desc = farmlands_war.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = farmlands_war.1.a
+        HON = {
+            declare_war_on = {
+                target = ELS
+                type = annex_everything
+            }
+        }
+        ELS = {
+            declare_war_on = {
+                target = HON
+                type = annex_everything
+            }
+        } 
+    }
+}
+
+## Honduran Civil War ##
+country_event = {#Civil war erupts in HON after its defeat
+    id = honduran_civilwar.1
+    title = honduran_civilwar.1.t
+    desc = honduran_civilwar.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    trigger = {
+        date > 1974.1.1
+    }
+
+    option = {
+        name = honduran_civilwar.1.a
+        delete_unit = {
+            state = 240
+            disband = yes
+        }
+        delete_unit = {
+            state = 506
+            disband = yes
+        }
+        delete_unit = {
+            state = 505
+            disband = yes
+        }
+        delete_unit = {
+            state = 241
+            disband = yes
+        }
+        HNL = {
+            transfer_state = 240
+            load_oob = "HNL_civilwar_DEMO"
+        }
+        HNR = {
+            transfer_state = 506
+            load_oob = "HNR_civilwar_DEMO"
+        }
+        HNM = {
+            transfer_state = 505
+            load_oob = "HNM_civilwar_DEMO"
+        }
+        remove_unit_leader = 1111
+        load_oob = "HON_civilwar_DEMO"
+        HON = {
+            declare_war_on = {
+                target = HNL
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HNR
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HNM
+                type = civil_war
+            }
+        }
+        HNL = {
+            declare_war_on = {
+                target = HON
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HNR
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HNM
+                type = civil_war
+            }
+        }
+        HNR = {
+            declare_war_on = {
+                target = HNL
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HON
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HNM
+                type = civil_war
+            }
+        }
+        HNM = {
+            declare_war_on = {
+                target = HNL
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HNR
+                type = civil_war
+            }
+            declare_war_on = {
+                target = HON
+                type = civil_war
+            }
+        }
+    }
+}
