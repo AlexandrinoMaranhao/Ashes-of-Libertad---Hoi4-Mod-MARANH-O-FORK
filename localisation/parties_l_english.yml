@@ -293,6 +293,8 @@ ELS_fascism_party_long:0 "Partido de Concertación Nacional"
 NIC_communism_party:0 "FSLN"
 NIC_communism_party:0 "Frente Sandinista de Liberación Nacional"
 
+COS_communism_party:0 "PVP"
+COS_communism_party_long:0 "Partido Vanguardia Popular"
 COS_reactionary_party:0 "UCR"
 COS_reactionary_party_long:0 "Unión Cívica Revolucionaria"
 

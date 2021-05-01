@@ -14,6 +14,7 @@ country_event = { ## Starts War ##
 
     option = {
         name = CRJ_guanabara.1.a
+        add_ideas = CRJ_second_war_of_guanabara
         declare_war_on = {
             target = BRA
             type = annex_everything
@@ -21,6 +22,7 @@ country_event = { ## Starts War ##
         set_country_flag = S_guanabara_battle
         BRA = {
             country_event = { id = BRA_guanabara.1 days = 1 }
+            add_ideas = CRJ_second_war_of_guanabara
         }
         hidden_effect = {
             every_country = {
@@ -49,7 +51,11 @@ country_event = { ## Status Quo ##
         add_war_support = -0.2
         remove_ideas = scars_of_guanabara
         remove_ideas = one_last_effort
+        remove_ideas = CRJ_second_war_of_guanabara
         clr_country_flag = S_guanabara_battle
+        BRA = {
+            remove_ideas = CRJ_second_war_of_guanabara
+        }
     }
 }
 
@@ -72,9 +78,16 @@ country_event = { ## Victory! ##
         transfer_state = 24
         remove_ideas = scars_of_guanabara
         remove_ideas = one_last_effort
+        remove_ideas = CRJ_second_war_of_guanabara 
         clr_country_flag = S_guanabara_battle
         hidden_effect = {
-            BRA = { country_event = BRA_guanabara.3 }
+            BRA = { 
+                country_event = {
+                    id = BRA_guanabara.3
+                    days = 1
+                }
+                remove_ideas = CRJ_second_war_of_guanabara 
+            }
         }
     }
 }

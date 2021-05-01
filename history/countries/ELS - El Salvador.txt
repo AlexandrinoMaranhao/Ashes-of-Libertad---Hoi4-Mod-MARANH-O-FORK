@@ -1,6 +1,6 @@
 ﻿capital = 242
 
-#oob = ""
+oob = "ELS_DEMO"
 
 # Starting tech
 set_technology = {
@@ -27,19 +27,17 @@ set_popularities = {
 
 add_ideas = {
 	ELS_communist_sympathizers
-ELS_14_families
+    ELS_14_families
 }
 
 create_country_leader = {
-	
-	name = "Fidel Sánchez Hernández"
-	picture = "gfx/leaders/ELS/Portrait_ELS_Fidel_Sanchez.dds"
+	name = "Julio Adalberto Rivera"
+	picture = "gfx/leaders/ELS/Portrait_ELS_Julio_Adalberto_Rivera.dds"
 	expire = "1999.1.1"
 	ideology = military_junta
 	traits = {
 		#
 	}
 }
-
 
 }
