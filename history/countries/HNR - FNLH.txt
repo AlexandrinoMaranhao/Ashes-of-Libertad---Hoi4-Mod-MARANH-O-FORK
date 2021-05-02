@@ -14,7 +14,7 @@ set_politics = {
 	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
@@ -26,7 +26,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Juan Alberto Melgar Castro"
-	#picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
+	picture = "gfx/leaders/HON/Portrait_HON_Juan_Alberto_Melgar_Castro.dds"
 	expire = "1999.1.1"
 	ideology = fascism_ideology
 	traits = {

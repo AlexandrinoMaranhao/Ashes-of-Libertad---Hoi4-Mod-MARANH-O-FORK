@@ -119,4 +119,9 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
 	}
 
+	spriteType = {
+		name = "GFX_HON_RODAS"
+		texturefile = "gfx/dual_leaders/HON/Portrait_HON_Modesto_Rodas_Alvarado.dds"
+	}
+
 }

@@ -28,7 +28,8 @@ country_event = {
 }
 
 ## Honduran Civil War ##
-country_event = {#Civil war erupts in HON after its defeat
+
+country_event = {#FNLH rises up
     id = honduran_civilwar.1
     title = honduran_civilwar.1.t
     desc = honduran_civilwar.1.d
@@ -37,10 +38,130 @@ country_event = {#Civil war erupts in HON after its defeat
     is_triggered_only = yes
     trigger = {
         date > 1974.1.1
+        country_exists = ELS
+        NOT = {
+            has_war_with = ELS
+        }
     }
 
     option = {
         name = honduran_civilwar.1.a
+        HNR = {
+            transfer_state = 506
+            load_oob = "HNR_civilwar_DEMO"
+        }
+        country_event = {
+            id = honduran_civilwar.2
+            days = 5
+        }
+    }
+}
+
+country_event = {#FPRLZ rises up
+    id = honduran_civilwar.2
+    title = honduran_civilwar.2.t
+    desc = honduran_civilwar.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = honduran_civilwar.2.a
+        HNL = {
+            transfer_state = 240
+            load_oob = "HNL_civilwar_DEMO"
+        }
+        clr_country_flag = HON_allow_dual_leaders
+        random_list = {
+            1 = {#Four sides war
+                country_event = {
+                    id = honduran_civilwar.3
+                    days = 5
+                }
+                set_country_flag = HON_civil_war_four
+            }
+            1 = {#Corporatist wins
+                country_event = {
+                    id = honduran_civilwar.4
+                    days = 10
+                }
+                remove_unit_leader = 1111
+                set_country_flag = HON_civil_war_corp
+                set_popularities = {
+                    democratic = 0
+                    fascism = 80
+                    communism = 10
+                    neutrality = 0
+                    reactionary = 10
+                }
+            }
+            1 = {#Military wins
+                country_event = {
+                    id = honduran_civilwar.4
+                    days = 10
+                }
+                set_country_flag = HON_civil_war_mil
+                kill_country_leader = yes
+                create_country_leader = {
+                    name = "Oswaldo López Arellano"
+                    picture = "gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
+                    expire = "1999.1.1"
+                    ideology = military_junta
+                    traits = {
+                        #
+                    }
+                }
+                create_country_leader = {
+					name = "Gustavo Álvarez Martínez"
+					#picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
+					expire = "1999.1.1"
+					ideology = fascism_ideology
+					traits = {
+						#
+					}
+				}
+				create_country_leader = {
+					name = "Héctor Enrique Santos Hernández"
+					#picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
+					expire = "1999.1.1"
+					ideology = christian_theocracy
+					traits = {
+						#
+					}
+				}
+                set_popularities = {
+                    democratic = 0
+                    fascism = 50
+                    communism = 0
+                    neutrality = 20
+                    reactionary = 30
+                }
+                set_cosmetic_tag = HON_military
+                set_party_name = {
+                    ideology = fascism
+                    name = HON_military_fascism_party
+                    long_name = HON_military_fascism_party_long
+                }
+                set_party_name = {
+                    ideology = reactionary
+                    name = HON_military_reactionary_party
+                    long_name = HON_military_reactionary_party_long
+                }
+            }
+        }
+    }
+}
+
+country_event = {#NRC/Corporatists duel
+    id = honduran_civilwar.3
+    title = honduran_civilwar.3.t
+    desc = honduran_civilwar.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = honduran_civilwar.3.a
         delete_unit = {
             state = 240
             disband = yes
@@ -57,20 +178,36 @@ country_event = {#Civil war erupts in HON after its defeat
             state = 241
             disband = yes
         }
-        HNL = {
-            transfer_state = 240
-            load_oob = "HNL_civilwar_DEMO"
-        }
-        HNR = {
-            transfer_state = 506
-            load_oob = "HNR_civilwar_DEMO"
-        }
         HNM = {
             transfer_state = 505
             load_oob = "HNM_civilwar_DEMO"
         }
         remove_unit_leader = 1111
         load_oob = "HON_civilwar_DEMO"
+        set_popularities = {
+            democratic = 0
+            fascism = 80
+            communism = 10
+            neutrality = 0
+            reactionary = 10
+        }
+        country_event = {
+            id = honduran_civilwar.4
+            days = 5
+        }
+    }
+}
+
+country_event = {#Civil war erupts in HON after its defeat
+    id = honduran_civilwar.4
+    title = honduran_civilwar.4.t
+    desc = honduran_civilwar.4.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = honduran_civilwar.4.a
         HON = {
             declare_war_on = {
                 target = HNL
@@ -80,9 +217,14 @@ country_event = {#Civil war erupts in HON after its defeat
                 target = HNR
                 type = civil_war
             }
-            declare_war_on = {
-                target = HNM
-                type = civil_war
+            if = {
+                limit = {
+                    country_exists = HNM
+                }
+                declare_war_on = {
+                    target = HNM
+                    type = civil_war
+                }
             }
         }
         HNL = {
@@ -94,9 +236,14 @@ country_event = {#Civil war erupts in HON after its defeat
                 target = HNR
                 type = civil_war
             }
-            declare_war_on = {
-                target = HNM
-                type = civil_war
+            if = {
+                limit = {
+                    country_exists = HNM
+                }
+                declare_war_on = {
+                    target = HNM
+                    type = civil_war
+                }
             }
         }
         HNR = {
@@ -108,23 +255,33 @@ country_event = {#Civil war erupts in HON after its defeat
                 target = HON
                 type = civil_war
             }
-            declare_war_on = {
-                target = HNM
-                type = civil_war
+            if = {
+                limit = {
+                    country_exists = HNM
+                }
+                declare_war_on = {
+                    target = HNM
+                    type = civil_war
+                }
             }
         }
-        HNM = {
-            declare_war_on = {
-                target = HNL
-                type = civil_war
+        if = {
+            limit = {
+                country_exists = HNM
             }
-            declare_war_on = {
-                target = HNR
-                type = civil_war
-            }
-            declare_war_on = {
-                target = HON
-                type = civil_war
+            HNM = {
+                declare_war_on = {
+                    target = HNL
+                    type = civil_war
+                }
+                declare_war_on = {
+                    target = HNR
+                    type = civil_war
+                }
+                declare_war_on = {
+                    target = HON
+                    type = civil_war
+                }
             }
         }
     }

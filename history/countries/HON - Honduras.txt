@@ -14,7 +14,7 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 5
@@ -22,7 +22,6 @@ set_popularities = {
 	communism = 40
 	neutrality = 0
 	reactionary = 30
-
 }
 
 add_ideas = {
@@ -31,11 +30,40 @@ add_ideas = {
 }
 
 create_country_leader = {
-	
+	name = "Modesto Rodas Alvarado"
+	picture = "gfx/leaders/HON/Portrait_HON_Modesto_Rodas_Alvarado.dds"
+	expire = "1999.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ramón Amaya Amador"
+	picture = "gfx/leaders/HON/Portrait_HON_Ramón_Amaya_Amador.dds"
+	expire = "1999.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Standard Fruit & Steamship Company's Board of Directors"
 	picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan Alberto Melgar Castro"
+	picture = "gfx/leaders/HON/Portrait_HON_Juan_Alberto_Melgar_Castro.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

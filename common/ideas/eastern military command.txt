@@ -12,12 +12,20 @@ ideas = {
         naval_bias = {
 
         }
-
-		hidden_ideas = {
-			CRJ_second_war_of_guanabara = {#basically avoiding CRJ calling JUN into the war, for now
-				modifier = {
-					ai_call_ally_desire_factor = -10
+	}
+	hidden_ideas = {
+		CRJ_second_war_of_guanabara = {#basically avoiding CRJ calling JUN into the war, for now
+			allowed = {
+				OR = {
+					tag = CRJ
+					tag = BRA
 				}
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				ai_call_ally_desire_factor = -10
 			}
 		}
 	}

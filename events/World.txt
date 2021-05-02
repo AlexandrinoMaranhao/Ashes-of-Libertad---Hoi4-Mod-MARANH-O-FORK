@@ -405,3 +405,55 @@ news_event = { # Monarchists wins
 		name = world.40.a
 	}
 }
+
+news_event = { # Honduran Civil War - Corporists win
+	id = world.41
+	title = world.41.t
+	desc = world.41.d
+	#picture = "GFX_news_news_event_monarchsit_brazil"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.41.a
+	}
+}
+
+news_event = { # Honduran Civil War - Military wins
+	id = world.42
+	title = world.42.t
+	desc = world.42.d
+	#picture = "GFX_news_news_event_monarchsit_brazil"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.42.a
+	}
+}
+
+news_event = { # Honduran Civil War - FNLH wins
+	id = world.43
+	title = world.43.t
+	desc = world.43.d
+	#picture = "GFX_news_news_event_monarchsit_brazil"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.43.a
+	}
+}
+
+news_event = { # Honduran Civil War - FPRLZ wins
+	id = world.44
+	title = world.44.t
+	desc = world.44.d
+	#picture = "GFX_news_news_event_monarchsit_brazil"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.43.a
+	}
+}

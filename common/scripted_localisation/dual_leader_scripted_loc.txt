@@ -115,6 +115,13 @@ defined_text = {
     }
 
 	text = {
+		trigger = {
+			tag = HNL
+	    }
+		localization_key = HNL_FIRST_TITLE
+    }
+
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -237,6 +244,13 @@ defined_text = {
 		}
 		localization_key = HON_SECOND_TITLE
 	}
+
+	text = {
+		trigger = {
+			tag = HNL
+	    }
+		localization_key = HNL_SECOND_TITLE
+    }
 }
 #########################
 defined_text = {
@@ -364,6 +378,13 @@ defined_text = {
 		}
 		localization_key = HON_SECOND_LEADER
 	}
+
+	text = {
+		trigger = {
+			tag = HNL
+	    }
+		localization_key = HNL_SECOND_LEADER
+    }
 
 	text = {
 		localization_key = DEFAULT_TITLE
@@ -503,6 +524,12 @@ defined_text = {
 		}
 		localization_key = "GFX_HON_LOPEZ"
 	}
+	text = {
+		trigger = {
+			tag = HNL
+	    }
+		localization_key = "GFX_HON_RODAS"
+    }
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}

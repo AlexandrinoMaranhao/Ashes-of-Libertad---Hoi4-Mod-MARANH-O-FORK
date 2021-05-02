@@ -1,0 +1,180 @@
+HON_check_civil_war_winner = {
+	if = {
+		limit = {
+			NOT = {
+				has_war_with = HNL
+				has_war_with = HNR
+				has_war_with = HNM
+				has_war_with = HON
+			}
+		}
+		if = {
+			limit = {
+				original_tag = HNL
+			}
+			HON = {
+				create_country_leader = {
+                    name = "Regency Council"
+                    #picture = "gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
+                    expire = "1999.1.1"
+                    ideology = liberalism
+                    traits = {
+                        #
+                    }
+                }
+				create_country_leader = {
+                    name = "Regency Council"
+                    #picture = "gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
+                    expire = "1999.1.1"
+                    ideology = guerrilla
+                    traits = {
+                        #
+                    }
+                }
+				set_politics = {
+					ruling_party = communism
+					last_election = "1936.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				set_popularities = {
+					democratic = 50
+					fascism = 0
+					communism = 50
+					neutrality = 0
+					reactionary = 0
+				}
+			}
+			news_event = {
+				id = world.44
+				days = 1
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HNR
+			}
+			HON = {
+				set_politics = {
+					ruling_party = reactionary
+					last_election = "1936.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				set_popularities = {
+					democratic = 0
+					fascism = 0
+					communism = 0
+					neutrality = 0
+					reactionary = 100
+				}
+			}
+			news_event = {
+				id = world.43
+				days = 1
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HNM
+			}
+			HON = {
+				create_country_leader = {
+                    name = "Oswaldo López Arellano"
+                    picture = "gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
+                    expire = "1999.1.1"
+                    ideology = military_junta
+                    traits = {
+                        #
+                    }
+                }
+				create_country_leader = {
+					name = "Gustavo Álvarez Martínez"
+					#picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
+					expire = "1999.1.1"
+					ideology = fascism_ideology
+					traits = {
+						#
+					}
+				}
+				create_country_leader = {
+					name = "Héctor Enrique Santos Hernández"
+					#picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
+					expire = "1999.1.1"
+					ideology = christian_theocracy
+					traits = {
+						#
+					}
+				}
+                set_popularities = {
+                    democratic = 0
+                    fascism = 50
+                    communism = 0
+                    neutrality = 20
+                    reactionary = 30
+                }
+				create_field_marshal = {
+					name = "Oswaldo López Arellano"
+					portrait_path = "gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
+					traits = {  }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 4
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				set_cosmetic_tag = HON_military
+				set_party_name = {
+                    ideology = fascism
+                    name = HON_military_fascism_party
+                    long_name = HON_military_fascism_party_long
+                }
+                set_party_name = {
+                    ideology = reactionary
+                    name = HON_military_reactionary_party
+                    long_name = HON_military_reactionary_party_long
+                }
+			}
+			news_event = {
+				id = world.42
+				days = 1
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_country_flag = HON_civil_war_mil
+				}
+				news_event = {
+					id = world.42
+					days = 1
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_country_flag = HON_civil_war_mil
+					}
+				}
+				news_event = {
+					id = world.41
+					days = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					original_tag = HON
+				}
+			}
+			HON = {
+				annex_country = {
+					target = FROM
+					transfer_troops = yes
+				}
+				change_tag_from = FROM
+			}
+		}
+	}
+}

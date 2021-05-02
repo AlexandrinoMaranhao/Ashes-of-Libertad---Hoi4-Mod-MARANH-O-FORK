@@ -14,7 +14,11 @@ scripted_gui = {
 		visible = {
 				OR = {
 
-				tag = ROR tag = STR tag = PAT tag = XIN tag = DRE tag = CRJ tag = JRM tag = COR	tag = PRU tag = HIE	tag = ERN tag = RMI tag = HON
+				tag = ROR tag = STR tag = PAT tag = XIN tag = DRE tag = CRJ tag = JRM tag = COR	tag = PRU tag = HIE	tag = ERN tag = RMI tag = HNL
+				AND = {
+					tag = HON
+					has_country_flag = HON_allow_dual_leaders
+				}
 			}	
 		}
 		
