@@ -3,30 +3,6 @@ on_actions = {
       on_capitulation = {
  
         effect = {
-          ### BEM-STR
-          if = {
-            limit = {
-              FROM = {
-                OR = {
-                  original_tag = BEM
-                  original_tag = STR
-                }
-              }
-              ROOT = {
-                OR = {
-                  original_tag = BEM
-                  original_tag = STR
-                }
-              }
-            }
-            FROM = {
-              white_peace = ROOT
-              annex_country = {
-                target = ROOT
-                transfer_troops = no
-              }
-            }
-          }
           ##### Farmlands War
           if = {
             limit = {
@@ -1275,6 +1251,19 @@ on_actions = {
         annex_country = {
           target = ROOT
           transfer_troops = no
+          }
+        }
+      }
+      else_if = {#generic peace deal
+        limit = {
+          FROM = { always = yes }
+          ROOT = { always = yes }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
           }
         }
       }   
