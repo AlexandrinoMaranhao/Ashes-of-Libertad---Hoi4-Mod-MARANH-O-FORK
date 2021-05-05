@@ -2,22 +2,14 @@ state={
 	id=505
 	name="STATE_505"
 	provinces={
-		20 440 880 2941 2946 2947 2952 
+		20 440 2946 2947 2952 
 	}
-	manpower=675326
+	manpower=166951
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	history={
 		owner = HON
 		add_core_of = HON
-		victory_points =
-		{
-		20 10
-		}
-		victory_points =	
-		{
-		880 5
-		}
 		victory_points =
 		{
 		2952 5
