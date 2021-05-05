@@ -1,5 +1,25 @@
 spriteTypes = {
-								
+#								
+#	spriteType = {
+#		name = "GFX_"
+#		texturefile = "gfx/event_pictures/.dds"
+#	}
+#										
+	spriteType = {
+		name = "GFX_news_event_castelo_branco_ded"
+		texturefile = "gfx/event_pictures/news_event_castelo_branco_ded.dds"
+	}
+									
+	spriteType = {
+		name = "GFX_news_event_half_flag_brazil"
+		texturefile = "gfx/event_pictures/news_event_half_flag_brazil.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_news_event_soldier_standing_with_palmtrees"
+		texturefile = "gfx/event_pictures/news_event_soldier_standing_with_palmtrees.dds"
+	}
+												
 	spriteType = {
 		name = "GFX_news_event_soldier_standing_with_palmtrees"
 		texturefile = "gfx/event_pictures/news_event_soldier_standing_with_palmtrees.dds"

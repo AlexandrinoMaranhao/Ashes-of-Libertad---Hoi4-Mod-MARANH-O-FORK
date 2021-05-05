@@ -109,6 +109,10 @@ on_actions = {
                     days = 679
                 }
             }
+        effect = {
+            news_event = { id = world.46 
+            days = 679}
+            }
         }
     }
   ### AMAZON DOING STUFF ###

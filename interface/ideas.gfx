@@ -6,7 +6,42 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-    
+       
+spriteType ={
+    name = "GFX_idea_the_sertao"
+    texturefile = "gfx/interface/ideas/the_sertao.dds"
+} 
+          
+spriteType ={
+    name = "GFX_idea_fading_support"
+    texturefile = "gfx/interface/ideas/fading_support.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_CAY_carib_rouge"
+    texturefile = "gfx/interface/ideas/CAY_carib_rouge.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_CAY_vive_la_revolucion"
+    texturefile = "gfx/interface/ideas/CAY_vive_la_revolucion.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_CAY_famine_fever_fear"
+    texturefile = "gfx/interface/ideas/CAY_famine_fever_fear.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_devil_in_the_bottle"
+    texturefile = "gfx/interface/ideas/the_devil_in_the_bottle.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_red_army"
+    texturefile = "gfx/interface/ideas/the_red_army.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_true_heir_of_cuba"
     texturefile = "gfx/interface/ideas/true_heir_of_cuba.dds"

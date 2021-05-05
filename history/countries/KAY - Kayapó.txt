@@ -49,6 +49,7 @@ create_country_leader = {
 	
 	name = "Raoni Metuktir"
 	picture = "gfx/leaders/KAY/Portrait_KAY_Cacique_Raoni.dds"
+	desc = "RAONI_DESC"
 	expire = "1999.1.1"
 	ideology = tribal
 	traits = {

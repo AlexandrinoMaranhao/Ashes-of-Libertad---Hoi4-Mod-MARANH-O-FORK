@@ -472,3 +472,30 @@ news_event = { # Honduran Civil War - FPRLZ wins
 		name = world.43.a
 	}
 }
+
+news_event = { # Castelo Branco Dies lol
+	id = world.46
+	title = world.46.t
+	desc = world.46.d
+	picture = "GFX_news_event_castelo_branco_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.46.a
+        hidden_effect = { news_event = { id = world.47 } }
+	}
+}
+
+news_event = { # Castelo Branco Dies lol
+	id = world.47
+	title = world.47.t
+	desc = world.47.d
+	picture = "GFX_news_event_half_flag_brazil"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.47.a
+	}
+}
