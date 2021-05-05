@@ -47,12 +47,27 @@ news_event = { # Second Battle of Guanabara
 	id = world.3
 	title = world.3.t
 	desc = world.3.d
-	#picture = "GFX_news_event_mexican_american_war"
+	picture = "GFX_news_event_soldier_standing_with_palmtrees"
 
 	is_triggered_only = yes
 
 	option = {
 		name = world.3.a
+        hidden_effect = { news_event = { id = world.45 } }
+
+	}
+}
+
+news_event = { #Guanabara Event 2
+	id = world.45
+	title = world.45.t
+	desc = world.45.d
+	picture = "GFX_news_event_rio_bombing"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.45.a
 		hidden_effect = {
 			set_country_flag = se_guanabara_flag
 			set_country_flag = super_event_closed
@@ -64,7 +79,7 @@ news_event = { # Second Battle of Guanabara won by Brazil
 	id = world.4
 	title = world.4.t
 	desc = world.4.d
-	#picture = "GFX_news_event_mexican_american_war"
+	picture = "GFX_news_event_guanabara_palace_tanks"
 
 	is_triggered_only = yes
 
@@ -77,7 +92,7 @@ news_event = { # Second Battle of Guanabara won by Eastern Military Command
 	id = world.5
 	title = world.5.t
 	desc = world.5.d
-	#picture = "GFX_news_event_mexican_american_war"
+	picture = "GFX_news_event_boat_rio_in_background"
 
 	is_triggered_only = yes
 

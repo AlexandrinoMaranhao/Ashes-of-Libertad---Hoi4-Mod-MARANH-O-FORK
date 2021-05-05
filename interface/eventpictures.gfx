@@ -1,5 +1,30 @@
 spriteTypes = {
-			
+								
+	spriteType = {
+		name = "GFX_news_event_soldier_standing_with_palmtrees"
+		texturefile = "gfx/event_pictures/news_event_soldier_standing_with_palmtrees.dds"
+	}
+									
+	spriteType = {
+		name = "GFX_news_event_rio_bombing"
+		texturefile = "gfx/event_pictures/news_event_rio_bombing.dds"
+	}
+									
+	spriteType = {
+		name = "GFX_news_event_boat_rio_in_background"
+		texturefile = "gfx/event_pictures/news_event_boat_rio_in_background.dds"
+	}
+							
+	spriteType = {
+		name = "GFX_news_event_brazilian_tank_line"
+		texturefile = "gfx/event_pictures/news_event_brazilian_tank_line.dds"
+	}
+								
+	spriteType = {
+		name = "GFX_news_event_guanabara_palace_tanks"
+		texturefile = "gfx/event_pictures/news_event_guanabara_palace_tanks.dds"
+	}
+				
 	spriteType = {
 		name = "GFX_news_news_event_lott_president"
 		texturefile = "gfx/event_pictures/news_event_lott_president.dds"
