@@ -38,7 +38,7 @@ units = {
 	}
 	division = {
 		name = "Batalhão de Infantaria"
-		location = 4631
+		location = 2251
 		division_template = "Infantaria"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.7

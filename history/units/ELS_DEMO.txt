@@ -14,14 +14,14 @@ division_template = {
 units = {
 	division = {
 		name = "1st Battalion"
-		location = 2536
+		location = 6369
 		division_template = "Salvadoran Divisions"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
 	}
 	division = {
 		name = "2nd Battalion"
-		location = 213
+		location = 6376
 		division_template = "Salvadoran Divisions"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
@@ -35,7 +35,7 @@ units = {
 	}
 	division = {
 		name = "4rd Battalion"
-		location = 2954
+		location = 6359
 		division_template = "Salvadoran Divisions"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
