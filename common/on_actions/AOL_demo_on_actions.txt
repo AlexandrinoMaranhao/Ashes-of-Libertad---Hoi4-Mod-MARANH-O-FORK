@@ -6,7 +6,7 @@ on_actions = {
 				set_country_flag = HON_allow_dual_leaders
 				country_event = {
 					id = farmlands_war.1
-					days = 925
+					days = 390
 				}
 			}
 			ELS = {
