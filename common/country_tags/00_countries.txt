@@ -134,6 +134,7 @@ USA = "countries/American Military Command.txt"
 TEF = "countries/Tefé.txt"
 
 KAT = "countries/Acrean Natives.txt"
+INT = "countries/Intentona.txt"
 #####################################
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"

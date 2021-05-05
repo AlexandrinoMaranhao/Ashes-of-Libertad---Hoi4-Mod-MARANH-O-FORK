@@ -415,6 +415,10 @@
  PEB_neutrality_ADJ:0 "Pernambucan"
  PEB_communism_ADJ:0 "Pernambucan"
 
+ INT:0 "2nd Intentona Comunista"
+ INT_ADJ:0 "Intentona"
+ INT_DEF:0 "the 2nd Intentona Comunista"
+
  ALA_fascism:0 ""
  ALA_fascism_DEF:0 ""
  ALA_democratic:0 ""

@@ -15,9 +15,8 @@ country_event = {
         target = CFD
         type = annex_everything
       }
-
       country_event = { id = PEB.2 days = 3 }
-    }
+  }
 }
 
 country_event = {
@@ -30,23 +29,34 @@ country_event = {
 
     option = {
       name = PEB.2.a
-      
-      start_civil_war = {
-        ruling_party = neutrality
-        ideology = communism
-        size = 0.9
+      INT = {transfer_state = 8}
+
+      country_event = { id = PEB.3 }
+  }
+} 
+
+
+country_event = {
+    id = PEB.3
+    title = PEB.3.t
+    desc = PEB.3.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.3.a
+
+INT = {
+      declare_war_on = {
+        target = CFD
+        type = annex_everything
       }
 
-      random_country_with_original_tag = {
-        original_tag_to_check = PEB
-        limit = {
-            has_government = communism
-        }
-
-        declare_war_on = {
-          target = CFD
-          type = annex_everything
-        }
+      declare_war_on = {
+        target = PEB
+        type = annex_everything
       }
-    } 
+    }
+  } 
 }
