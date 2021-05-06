@@ -37,6 +37,14 @@ ideas = {
 
 	}
 
+	ELS_ANSESAL = {
+
+	}
+
+	ELS_fury_of_young_officers = {
+
+	}
+
 	ERG_the_far = {
 	
 	}

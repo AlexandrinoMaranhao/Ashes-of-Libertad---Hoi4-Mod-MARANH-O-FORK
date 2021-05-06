@@ -310,6 +310,12 @@ HNR_reactionary_party_long:0 "Frente Nacional para la Liberación Hondureña"
 
 ELS_fascism_party:0 "PCN"
 ELS_fascism_party_long:0 "Partido de Concertación Nacional"
+ELS_communism_party:0 "Left Guerrillas"
+ELS_communism_party_long:0 "Left Guerrillas"
+ELS_democratic_party:0 "PDC"
+ELS_democratic_party_long:0 "Partido Demócrata Cristiano"
+ELS_JRG_fascism_party:0 "JRG"
+ELS_JRG_fascism_party:0 "Junta Revolucionaria de Gobierno"
 
 NIC_communism_party:0 "FSLN"
 NIC_communism_party:0 "Frente Sandinista de Liberación Nacional"
@@ -399,3 +405,7 @@ ARG_fascism_party_long:0 "Unión Cívica Radical Intransigente"
 ## Chile ##
 CHL_neutrality_party:0 "FRAP-PS"
 CHL_neutrality_party_long:0 "Frente de Acción Popular - Partido Socialista de Chile"
+
+## Uruguay ##
+URG_neutrality_party:0 "PC(UCB)"
+URG_neutrality_party_long:0 "Partido Colorado(Unión Colorada y Batllista)"
