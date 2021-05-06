@@ -119,6 +119,7 @@ country_event = { ## JRG coup, leading to the civil war ##
                         #
                     }
                 }
+                remove_ideas = ELS_fury_of_young_officers
             }
             1 = {#
             }

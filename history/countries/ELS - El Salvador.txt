@@ -28,6 +28,8 @@ set_popularities = {
 add_ideas = {
 	ELS_communist_sympathizers
     ELS_14_families
+	ELS_ANSESAL
+	ELS_fury_of_young_officers
 }
 
 create_country_leader = {
