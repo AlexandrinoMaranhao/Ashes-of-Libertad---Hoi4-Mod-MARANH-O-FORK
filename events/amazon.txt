@@ -455,7 +455,12 @@ country_event = {
 
         COR = { transfer_state = 415 }
         COR = { transfer_state = 418 }
-
+    set_politics = {
+                    ruling_party = communism
+                    last_election = "1967.1.1"
+                    election_frequency = 48
+                    elections_allowed = no
+                        }
         hidden_effect = { country_event = { id = COR.5 days = 50 } }
 
     }
