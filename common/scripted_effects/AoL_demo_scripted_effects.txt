@@ -181,6 +181,7 @@ HON_check_civil_war_winner = {
 TEF_war_failed = {
 COR = {
 white_peace = TEF
+white_peace = QPM
 give_guarantee = TEF
 set_politics = {
 ruling_party = reactionary

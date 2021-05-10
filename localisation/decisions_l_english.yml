@@ -21,6 +21,7 @@
  form_amaru_mayu_category:0 "Unite the Amazon"
  form_amaru_mayu:0 "Form the Federation of the Amaru Mayu"
 
+
  form_amazon_free_state:0 "Unite the Amazon"
  form_amazon_free_state_desc:0 "No more pretenders, no more petty squabbles between city states, every boat now carries our flag, the rivers flow red with our fallen foe and even in the most remote valley of this dark jungle word of our ultimate victory was heard, a new age dawns upon the Amazon. \nTake the cities of §GManaus§!, §GRio Branco§!, §GBelém§!, §GNhamundá§!, §GParintins§!, §GCoari§!, §GBoa Vista§!, §GSantarém§! and §GJapurá§! to §YUnite the Amazon under your rule§!."
 
@@ -73,3 +74,6 @@
  Army_Morale:0 "Improve Unit Morale"
  Training_Time:0 "Streamline Bootcamp"
  Army_Exp_Gain:0 "Distribute Socialist Literature"
+ cor_conquer_tef:0 "Conquering Tefé"
+ conquer_tef:0 "Act Quickly!"
+ 
