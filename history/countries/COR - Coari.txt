@@ -1,6 +1,6 @@
 ﻿capital = 398
 
-#oob = ""
+oob = "COR_1967"
 
 # Starting tech
 set_technology = {
@@ -8,7 +8,10 @@ set_technology = {
 }
 
 set_convoys = 5
-
+country_event = {
+id = Coari.999
+days = 150
+}
 
 set_politics = {
 	ruling_party = democratic

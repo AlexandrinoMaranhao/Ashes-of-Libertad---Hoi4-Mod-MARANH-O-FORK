@@ -1,0 +1,23 @@
+cor_conquer_tef = {                               
+     conquer_tef = {                           
+          allowed = { tag = COR }                
+          available = {                          
+               controls_state = 422                    
+          }
+          activation = {                         
+               has_country_flag = coari_mission_war                   
+          }
+          is_good = yes                           # This mission is color coded to be a positive thing (not a crisis)
+          selectable_mission = no                # This mission will complete when the player selects the mission rather than completing automatically
+          days_mission_timeout = 150              # How many days before the mission fails?
+          timeout_effect = {                      # What happens when we fail the mission?
+               add_political_power = -100
+			   set_country_flag = coari_failed_war_tef
+			   TEF_war_failed = yes
+               # Lose 50 PP
+          }
+          complete_effect = {                    # What happens when we activate the mission i.e. mission success?
+               add_political_power = 50               # Gain 50 PP
+          }
+     }
+}

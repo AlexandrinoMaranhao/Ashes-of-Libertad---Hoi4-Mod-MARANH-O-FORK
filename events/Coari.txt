@@ -20,6 +20,23 @@ country_event = {
 }
 
 country_event = {
+	id = Coari.999
+	title = Coari.999.t
+	desc = Coari.999.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = Coari.999.a
+		COR = {
+		declare_war_on = {
+		target = TEF
+		type = annex_everything
+			}
+		set_country_flag = coari_mission_war
+		}
+	}
+}
+country_event = {
 	id = COR_cury_event.2  ### Meet our Neighbours Acre Focus
 	title = COR_cury_event.2.t
 	desc = COR_cury_event.2.d

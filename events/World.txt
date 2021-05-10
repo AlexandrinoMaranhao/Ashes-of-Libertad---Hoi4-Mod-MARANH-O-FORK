@@ -499,3 +499,15 @@ news_event = { # Castelo Branco Dies lol
 		name = world.47.a
 	}
 }
+news_event = { # QPM beats back COR
+	id = world.48
+	title = world.48.t
+	desc = world.48.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.48.a
+	}
+}

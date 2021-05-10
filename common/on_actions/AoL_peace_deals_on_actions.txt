@@ -1254,6 +1254,20 @@ on_actions = {
           }
         }
       }
+      if = { ### Coari vs Tefé proxy
+      limit = {
+        FROM = { original_tag = COR }
+        ROOT = { original_tag = TEF }
+      }
+      FROM = {
+        white_peace = ROOT
+		white_peace = QPM
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+        }
+      }
       else_if = {#generic peace deal
         limit = {
           FROM = { always = yes }

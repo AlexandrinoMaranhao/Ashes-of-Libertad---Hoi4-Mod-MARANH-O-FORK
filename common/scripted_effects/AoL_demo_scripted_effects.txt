@@ -178,3 +178,30 @@ HON_check_civil_war_winner = {
 		}
 	}
 }
+TEF_war_failed = {
+COR = {
+white_peace = TEF
+give_guarantee = TEF
+set_politics = {
+ruling_party = reactionary
+}
+create_country_leader = {
+	
+	name = "Francisco Hirsch"
+	picture = "gfx/leaders/COR/Portrait_COR_Hirsch.dds"
+	expire = "1999.1.1"
+	ideology = christian_theocracy_reactionary 
+	traits = {
+		#
+	}
+}
+add_stability = -0.25
+}
+QPM = {
+puppet = COR
+}
+news_event = {
+id = world.48
+days = 5
+}
+}

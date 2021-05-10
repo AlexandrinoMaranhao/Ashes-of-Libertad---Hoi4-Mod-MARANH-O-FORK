@@ -9,6 +9,10 @@ spriteTypes = {
 		name = "GFX_news_event_castelo_branco_ded"
 		texturefile = "gfx/event_pictures/news_event_castelo_branco_ded.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_coari_ded"
+		texturefile = "gfx/event_pictures/news_event_coari_ded.dds"
+	}
 									
 	spriteType = {
 		name = "GFX_news_event_half_flag_brazil"

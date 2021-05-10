@@ -1,6 +1,6 @@
 ﻿capital = 425
 
-#oob = ""
+oob = "QPM_1967"
 
 # Starting tech
 set_technology = {
@@ -22,7 +22,18 @@ set_popularities = {
 	neutrality = 0
 	reactionary = 100
 }
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = TEF
+		autonomous_state = autonomy_colony
+	}
+	else = {
+		puppet = TEF
+	}
+}
 add_ideas = {
 	disarmed_nation
 	subsistence_economy
