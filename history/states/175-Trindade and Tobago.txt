@@ -4,12 +4,20 @@ state={
 	provinces={
 		1673 2980 
 	}
-	manpower=40000
+	manpower=43854
         state_category=town
 	buildings_max_level_factor=1.000
 
             history = {
 
+		victory_points = {
+                1673 20
+		}
+		
+		victory_points = {
+                2980 5
+		}
+		
         owner = FRA
 
         add_core_of = FRA

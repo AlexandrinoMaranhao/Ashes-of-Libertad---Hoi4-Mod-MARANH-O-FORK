@@ -4,12 +4,28 @@ state={
 	provinces={
 		5112 5115 5116 5118 
 	}
-	manpower=10000
+	manpower=14394
         state_category=tiny_island
 	buildings_max_level_factor=1.000
 
             history = {
 
+		victory_points = {
+                5118 5
+		}
+		
+		victory_points = {
+                5112 5
+		}
+		
+		victory_points = {
+                5116 5
+		}
+		
+		victory_points = {
+                5115 5
+		}
+		
         owner = ENG
         add_core_of = ENG
 }

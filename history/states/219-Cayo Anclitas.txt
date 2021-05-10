@@ -8,6 +8,11 @@ state={
         state_category=small_island
 	buildings_max_level_factor=1.000
             history = {
+
+		victory_points = {
+                2861 5
+		}
+		
              owner= CUP
              add_core_of = CUP
 		add_core_of = CUB

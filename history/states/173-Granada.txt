@@ -4,11 +4,15 @@ state={
 	provinces={
 		5119 
 	}
-	manpower=20000
+	manpower=16394
         state_category=small_island
 	buildings_max_level_factor=1.000
             history = {
 
+		victory_points = {
+                5119 5
+		}
+		
         owner = FRA
         add_core_of = FRA
 }
