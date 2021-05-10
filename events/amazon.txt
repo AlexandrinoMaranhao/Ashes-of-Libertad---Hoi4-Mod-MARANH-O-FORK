@@ -745,34 +745,7 @@ country_event = {
         hidden_effect = { country_event = { id = NHA.3 days = 90 } }
     }
 }
-country_event = {
-    id = NHA.3
-    title = NHA.3.t
-    desc = NHA.3.d
-    picture = GFX_report_event_acre_flag
-    fire_only_once = yes
-    is_triggered_only = yes
-    
-    #Answer
-    option = {
-    name = NHA.3.a
 
-        JUN = {
-            add_to_faction = NHA
-        }
-
-        hidden_effect = { country_event = { id = NHA.4 days = 40 } }
-    }
-    option = {
-    name = NHA.3.b
-
-        BRA = {
-            add_to_faction = NHA
-        }
-
-        hidden_effect = { country_event = { id = NHA.4 days = 40 } }
-    }
-}
 country_event = {
     id = NHA.4
     title = NHA.4.t
