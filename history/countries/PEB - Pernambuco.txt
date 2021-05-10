@@ -39,6 +39,7 @@ create_country_leader = {
 	
 	name = "Luís Carlos Prestes"
 	picture = "gfx/leaders/PEB/Portrait_PEB_Luis_Carlos_Prestes.dds"
+	desc = "ARRAES_DESC"
 	expire = "1999.1.1"
 	ideology = marxism
 	traits = {

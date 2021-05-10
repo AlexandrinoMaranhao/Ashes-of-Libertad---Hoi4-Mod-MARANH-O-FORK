@@ -40,6 +40,7 @@ create_country_leader = {
 	
 	name = "Eliezer Batista"
 	picture = "gfx/leaders/VAL/Portrait_VAL_Elizer_Batista.dds"
+	desc = "ELIEZER_DESC"
 	expire = "1999.1.1"
 	ideology = corporate_state_status_quo
 	traits = {

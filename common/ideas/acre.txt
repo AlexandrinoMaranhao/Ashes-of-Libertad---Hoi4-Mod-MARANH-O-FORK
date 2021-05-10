@@ -81,7 +81,7 @@ ideas = {
 				always = no
 			}
 			
-        targeted_modifier = { tag = ERN attack_bonus_against = 0.1 }
+        targeted_modifier = { tag = ERN attack_bonus_against = -0.1 }
 
 		}
 		the_red_menace_demil2 = {

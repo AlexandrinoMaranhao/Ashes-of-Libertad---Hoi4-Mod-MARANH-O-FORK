@@ -494,7 +494,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.12.B
-		add_ideas = limited_exports
+		add_ideas = export_focus
     acre_senate_add_nationalist_seats_2 = yes
 
 			add_popularity = {
@@ -505,7 +505,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.12.C
-		add_ideas = export_focus
+		add_ideas = limited_exports
     acre_senate_add_technocrat_seats_2 = yes
 
 			add_popularity = {
@@ -1419,7 +1419,7 @@ country_event = {
 	}
 
 	option = {
-		name = ACRMarques.2.A
+		name = ACRMarques.2.B
 			acre_senate_add_militarist_seats_1 = yes
 			acre_senate_remove_technocrat_seats_1 = yes
 			ai_chance = {
@@ -1454,7 +1454,7 @@ country_event = {
 			}
 	}
 	option = {
-		name = ACRMarques.3.A
+		name = ACRMarques.3.B
 			acre_senate_remove_technocrat_seats_1 = yes
 			acre_senate_add_militarist_seats_1 = yes	
 			ai_chance = {

@@ -41,6 +41,7 @@ create_country_leader = {
 	
 	name = "Adhemar de Barros"
 	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	desc = "ADHEMAR_DESC"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
