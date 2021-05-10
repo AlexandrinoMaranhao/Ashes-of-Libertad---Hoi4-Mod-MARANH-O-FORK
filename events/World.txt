@@ -511,3 +511,15 @@ news_event = { # QPM beats back COR
 		name = world.48.a
 	}
 }
+news_event = { # COR seizes TEF
+	id = world.49
+	title = world.49.t
+	desc = world.49.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.49.a
+	}
+}
