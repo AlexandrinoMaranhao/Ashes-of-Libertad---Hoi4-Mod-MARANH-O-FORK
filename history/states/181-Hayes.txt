@@ -11,6 +11,16 @@ state={
              owner=ENG
              add_core_of = ENG
 
+        victory_points = {
+1978 5
+        }
+
+        victory_points = {
+2919 20
+        }
+        victory_points = {
+731 5
+        }
 		add_core_of = JAM
 }
 }

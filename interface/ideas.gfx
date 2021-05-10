@@ -6,7 +6,22 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-       
+           
+spriteType ={
+    name = "GFX_idea_PAN_pull_left"
+    texturefile = "gfx/interface/ideas/PAN_pull_left.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PAM_pull_right"
+    texturefile = "gfx/interface/ideas/PAM_pull_right.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_provisional_government_of_bahia"
+    texturefile = "gfx/interface/ideas/provisional_government_of_bahia.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_the_sertao"
     texturefile = "gfx/interface/ideas/the_sertao.dds"

@@ -10,5 +10,13 @@ state={
             history = {
              owner=HAI
              add_core_of = HAI
+
+        victory_points = {
+2050 10
+        }
+
+        victory_points = {
+1314 5
+        }
 }
 }

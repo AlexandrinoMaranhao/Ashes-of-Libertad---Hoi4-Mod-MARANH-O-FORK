@@ -31,8 +31,8 @@ add_ideas = {
 }
 create_country_leader = {
 	
-	name = "Volta Seca"
-	picture = "gfx/leaders/RPB/Portrait_RPB_Volta_Seca.dds"
+	name = "Benone de Arruda Albernaz"
+	picture = "gfx/leaders/RPB/Portrait_RPB_Benone.dds"
 	expire = "1999.1.1"
 	ideology = coronelism 
 	traits = {

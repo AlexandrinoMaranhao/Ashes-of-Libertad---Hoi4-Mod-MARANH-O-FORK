@@ -1212,6 +1212,18 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.12.a
+			country_event = ACR_cury.23
+	}
+}
+
+country_event = {
+	id = ACR_cury.23 ### Cerqueira being a Dick
+	title = ACR_cury.23.t
+	desc = ACR_cury.23.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.23.a
 		declare_war_on = { type = annex_everything target = IQU }
 	}
 }

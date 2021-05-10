@@ -8,7 +8,22 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #    
-  
+    
+	SpriteType = {
+	name = "GFX_goal_ACR_copy_brazilian_army_structure"
+	texturefile = "gfx/interface/goals/ACR_copy_brazilian_army_structure.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_national_firestick"
+	texturefile = "gfx/interface/goals/ACR_national_firestick.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_jungle_training"
+	texturefile = "gfx/interface/goals/ACR_jungle_training.dds"
+	}	
+    
 	SpriteType = {
 	name = "GFX_goal_ACR_desperate_negotiations"
 	texturefile = "gfx/interface/goals/ACR_desperate_negotiations.dds"

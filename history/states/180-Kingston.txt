@@ -8,11 +8,20 @@ state={
         state_category=city
 	buildings_max_level_factor=1.000
             history = {
+        victory_points = {
+2914 30
+        }
+
+        victory_points = {
+2910 5
+        }
+
+        victory_points = {
+2913 5
+        }
              owner=JAM
              add_core_of = JAM
         add_core_of = ENG
-		victory_points = {
-			2914 50
-		}
+
 }
 }

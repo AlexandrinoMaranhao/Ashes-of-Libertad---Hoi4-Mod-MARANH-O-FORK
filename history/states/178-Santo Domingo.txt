@@ -10,5 +10,14 @@ state={
             history = {
              owner=DOM
              add_core_of = DOM
+
+        victory_points = {
+2897 30
+        }
+
+        victory_points = {
+2899 5
+        }
+
 }
 }

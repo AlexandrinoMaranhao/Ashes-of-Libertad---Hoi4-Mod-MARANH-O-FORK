@@ -160,7 +160,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_amazonic_specialized_training
 	prerequisite = { focus = ACR_stocking_up }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_jungle_training
 	relative_position_id = ACR_glancing_into_the_milita
 
 	x = -3
@@ -424,7 +424,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = ACR_a_national_fire_stick
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_national_firestick
 	prerequisite = { focus = ACR_the_workshops }
 
 	relative_position_id = ACR_glancing_into_the_milita
@@ -621,7 +621,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_most_importantly
 	prerequisite = { focus = ACR_bonafide_officers }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_copy_brazilian_army_structure
 	relative_position_id = ACR_glancing_into_the_milita
 
 	x = 1
