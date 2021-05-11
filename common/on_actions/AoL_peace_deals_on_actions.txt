@@ -21,7 +21,6 @@ on_actions = {
               }
             }
           }
-		}
           if = {
             limit = {
               FROM = {
@@ -1268,7 +1267,7 @@ on_actions = {
           }
         }
       }
-      else_if = {#generic peace deal
+      if = {#generic peace deal
         limit = {
           FROM = { always = yes }
           ROOT = { always = yes }
