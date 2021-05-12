@@ -3,7 +3,7 @@ CRJ_second_battle_of_guanabara = {
 		allowed = { tag = CRJ }                
           available = {                           
             24 = {
-				is_fully_controlled_by = CRJ
+				is_controlled_by = CRJ
 			}                      
           }
           activation = {
