@@ -391,7 +391,7 @@ country_event = {
     option = {
     name = COR.1.a
         413 = { add_core_of = COR }
-
+        DNI = { add_ideas = acre_coari_naval_struggle }
         COR = { transfer_state = 413 }
         hidden_effect = { country_event = { id = COR.2 days = 40 } }
 
@@ -412,6 +412,8 @@ country_event = {
 
         424 = { add_core_of = COR }
 
+        IQU = { add_ideas = acre_coari_naval_struggle }
+
         COR = { transfer_state = 424 }
         hidden_effect = { country_event = { id = COR.3 days = 50 } }
 
@@ -431,6 +433,10 @@ country_event = {
     name = COR.3.a
 
         423 = { add_core_of = COR }
+
+        JAU = { add_ideas = acre_coari_naval_struggle }
+
+        COA = { add_ideas = acre_coari_naval_struggle }
 
         COR = { transfer_state = 423 }
         hidden_effect = { country_event = { id = COR.4 days = 50 } }
@@ -453,14 +459,19 @@ country_event = {
         415 = { add_core_of = COR }
         418 = { add_core_of = COR }
 
+        JUR = { add_ideas = acre_coari_naval_struggle }
+
+        QPM = { add_ideas = acre_coari_naval_struggle }
+
         COR = { transfer_state = 415 }
         COR = { transfer_state = 418 }
     set_politics = {
-                    ruling_party = communism
+                    ruling_party = reactionary
                     last_election = "1967.1.1"
                     election_frequency = 48
                     elections_allowed = no
                         }
+        add_ideas = the_white_linned_devil
         hidden_effect = { country_event = { id = COR.5 days = 50 } }
 
     }
@@ -479,6 +490,8 @@ country_event = {
     name = COR.5.a
 
         416 = { add_core_of = COR }
+
+        HIM = { add_ideas = acre_coari_naval_struggle }
 
         COR = { transfer_state = 416 }
         hidden_effect = { country_event = { id = COR.6 days = 120 } }
@@ -520,21 +533,11 @@ country_event = {
 
         111 = { add_core_of = COR }
 
+        FBO = { add_ideas = acre_coari_naval_struggle }
+
         COR = { transfer_state = 111 }
         hidden_effect = { country_event = { id = COR.8 days = 80 } }
     }
-
-    option = {
-    name = COR.7.b
-
-        declare_war_on = {
-            target = HIM
-            type = annex_everything
-            } 
-
-        hidden_effect = { country_event = { id = COR.8 days = 80 } }
-    }
-    
 }
 
 country_event = {
@@ -551,19 +554,10 @@ country_event = {
 
         112 = { add_core_of = COR }
 
+        BIA = { add_ideas = acre_coari_naval_struggle }
+
         COR = { transfer_state = 112 }
         hidden_effect = { country_event = { id = COR.9 days = 80 } }
-    }
-
-    option = {
-    name = COR.8.b
-
-        declare_war_on = {
-            target = DNI
-            type = annex_everything
-            } 
-
-        hidden_effect = { country_event = { id = COR.9 days = 100 } }
     }
     
 }
@@ -579,6 +573,10 @@ country_event = {
     #Answer
     option = {
     name = COR.9.a
+
+        JUT = { add_ideas = acre_coari_naval_struggle }
+
+        JAV = { add_ideas = acre_coari_naval_struggle }
 
         98 = { add_core_of = COR }
         110 = { add_core_of = COR }

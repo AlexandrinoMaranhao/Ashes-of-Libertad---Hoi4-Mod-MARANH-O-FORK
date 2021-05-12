@@ -1,4 +1,44 @@
 add_namespace = world
+add_namespace = world_acr
+
+news_event = { # Elected
+	id = world_acr.1
+	title = world_acr.1.t
+	desc = world_acr.1.d
+	picture = "GFX_news_event_prestes_1"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_acr.1.a 
+		}
+	}
+
+news_event = { # Elected
+	id = world_acr.2
+	title = world_acr.2.t
+	desc = world_acr.2.d
+	picture = "GFX_news_event_prestes_1"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_acr.2.a 
+		}
+	}
+
+news_event = { # Elected
+	id = world_acr.3
+	title = world_acr.3.t
+	desc = world_acr.3.d
+	picture = "GFX_news_event_prestes_1"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_acr.3.a 
+		}
+	}
 
 news_event = { # Carlos Prestes comes back on April 23rd 1969
 	id = world.1

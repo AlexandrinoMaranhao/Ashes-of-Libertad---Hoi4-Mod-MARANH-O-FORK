@@ -1,6 +1,24 @@
 ideas = {
 
 	country = {
+
+		pirates_of_the_jurua = {
+			
+			allowed = {
+				tag = COR
+			}
+
+			modifier = {
+
+			convoy_raiding_efficiency_factor = 0.5
+			naval_damage_factor = 0.3
+			naval_morale = 15
+			consumer_goods_factor = -0.5
+
+			}
+
+		}
+
 		coari_desperation = {
 			picture = GFX_idea_coari_desperation
 			
@@ -17,21 +35,19 @@ ideas = {
             }
 			
 			modifier = {
-		stability_factor = -0.5
+		stability_weekly = -0.5
 		industrial_capacity_factory = -0.5
 		production_speed_arms_factory_factor = -0.5
 		production_speed_dockyard_factor = -0.5
 		production_speed_infrastructure_factor = -0.5
 		consumer_goods_factor = 1
+		reactionary_drift = 0.03
 			}
 
 			allowed_civil_war = {
 				always = no
 			}
 			
-			modifier = {
-
-			}
 		}
 		
 		the_white_linned_mayor = {
@@ -54,9 +70,39 @@ ideas = {
 			}
 			
 			modifier = {
-
+			stability_factor = 0.5
 			}
 		}
+
+		the_white_linned_devil = {
+			picture = GFX_idea_the_white_linned_mayor
+			
+			allowed = {
+				tag = COR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			stability_factor = 0.3
+			resistance_decay_on_our_occupied_states = -0.5
+			offence = 0.25
+			amphibious_invasion = 0.25
+			war_support_weekly = 0.01
+			reactionary_drift = 0.03
+			}
+		}
+
 
 
 

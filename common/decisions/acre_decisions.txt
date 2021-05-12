@@ -90,6 +90,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_technocrats_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		visible = {
 			has_completed_focus = ACR_promise_to_limit_reforms
@@ -129,6 +130,7 @@ acrean_senate = {
 
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 
 		}
 		available = {
@@ -194,6 +196,7 @@ acrean_senate = {
 		icon = GFX_decision_senate_technocrats_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			always = yes
@@ -216,6 +219,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_militarist_seats > 11 }
@@ -243,6 +247,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_militarist_seats > 19 }
@@ -275,6 +280,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_nationalists_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_nationalist_seats > 14 }
@@ -291,7 +297,7 @@ acrean_senate = {
 		acre_senate_add_militarist_seats_1 = yes
 		acre_senate_add_technocrat_seats_1 = yes
 
-			add_manpower = 10000
+			add_manpower = 2000
 			add_stability = 0.05
 		
 		532 = {
@@ -318,6 +324,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_technocrats_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_technocrat_seats > 14 }
@@ -371,6 +378,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_nut_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_nationalist_seats > 7 }
@@ -400,6 +408,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_militarist_seats > 7  }
@@ -440,6 +449,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			check_variable = { senate_technocrat_seats > 7 }
@@ -467,6 +477,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			AND = {
@@ -509,6 +520,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			AND = {
@@ -544,6 +556,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			AND = {
@@ -579,6 +592,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			AND = {
@@ -635,6 +649,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			always = yes
@@ -687,6 +702,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			always = yes
@@ -713,6 +729,7 @@ acrean_senate = {
 		icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		available = {
 			has_completed_focus = ACR_a_contingency_plan
@@ -765,6 +782,7 @@ acrean_senate = {
 		icon = GFX_decision_senate_generic_decision
 		allowed = {
 			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 		}
 		activation = {
 			has_country_flag = ACR_conscripted_civilians

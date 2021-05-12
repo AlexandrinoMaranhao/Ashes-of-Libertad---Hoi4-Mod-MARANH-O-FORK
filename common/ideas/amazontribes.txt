@@ -1,5 +1,32 @@
 ideas = {
 	country = {
+	
+		acre_coari_naval_struggle = {
+
+			allowed = {
+				tag = ACR
+				tag = MNS
+			}
+			cancel = {
+				NOT = {
+					country_exists = COR	
+				}	
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+				stability_weekly = -0.005
+				trade_opinion_factor = -0.3
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.25
+			}
+		}
+
+
 		    zoe_tribe = {
 			
 			allowed = {

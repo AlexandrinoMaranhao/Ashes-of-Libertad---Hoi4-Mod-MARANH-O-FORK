@@ -1174,7 +1174,8 @@ shared_focus = {
 				}
 				set_country_flag = cerqueria_elected
 				load_focus_tree = ACR_focus_5
-			}
+ 				news_event = { id = world_acr.1 } 
+ 			}
 			else_if = { # Technocrats Elected
 				limit = { 
 					AND = {
@@ -1200,6 +1201,7 @@ shared_focus = {
 				}
 				set_country_flag = marques_elected
 				load_focus_tree = ACR_focus_4
+ 				news_event = { id = world_acr.2 } 
 			}
 			else_if = { # Nationalists Elected
 				limit = {
@@ -1226,6 +1228,7 @@ shared_focus = {
 				}
 			set_country_flag = cury_elected
 			load_focus_tree = ACR_focus_3
+ 			news_event = { id = world_acr.3 } 
 			}
 		}
 	}

@@ -1032,6 +1032,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.2.a
+		add_ideas = ACR_tappers_protest
 	}
 }
 
@@ -1043,9 +1044,17 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.3.a
+
+		acre_senate_add_technocrat_seats_2 = yes
+		acre_senate_remove_nationalist_seats_2 = yes
+
 	}
 	option = {
 		name = ACR_cury.3.b
+
+		acre_senate_add_technocrat_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+
 	}
 	option = {
 		name = ACR_cury.3.c
@@ -1060,9 +1069,17 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.4.a
+
+		acre_senate_add_militarist_seats_2 = yes
+		acre_senate_remove_nationalist_seats_2 = yes
+
 	}
 	option = {
 		name = ACR_cury.4.b
+
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+
 	}
 	option = {
 		name = ACR_cury.4.c
@@ -1112,7 +1129,9 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury_cerqueira_protest_event.1.a
-		89 = {add_manpower = -172}
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+		89 = {add_manpower = -12}
 	}
 }
 
@@ -1124,6 +1143,8 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury_marques_protest_event.1.a
+		acre_senate_add_technocrat_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
 	}
 }
 
@@ -1187,6 +1208,14 @@ country_event = {
 	option = {
 		name = ACR_cury.10.a
 		set_country_flag = ACR_rubber_crisis_flag
+
+    COR = {
+    	add_ideas = pirates_of_the_jurua 
+    }
+
+    MNS = {
+    	add_ideas = MNS_rubber_crisis 
+    }
 	}
 }
 
@@ -1213,18 +1242,6 @@ country_event = {
 	option = {
 		name = ACR_cury.12.a
 			country_event = ACR_cury.23
-	}
-}
-
-country_event = {
-	id = ACR_cury.23 ### Cerqueira being a Dick
-	title = ACR_cury.23.t
-	desc = ACR_cury.23.d
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = ACR_cury.23.a
-		declare_war_on = { type = annex_everything target = IQU }
 	}
 }
 
@@ -1263,8 +1280,15 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = ACR_cury.15.a ### War 
-		create_wargoal = { target = COR type = annex_everything }
+		name = ACR_cury.15.a ### "WAR"
+		swap_ideas = { 
+     		remove_idea = idea_rubber_crisis 
+     		add_idea = acre_coari_naval_struggle 
+   		}
+
+
+		acre_senate_add_militarist_seats_2 = yes
+		acre_senate_remove_nationalist_seats_2 = yes
 	}
 	option = {
 		name = ACR_cury.15.b ### Peace Deal
@@ -1276,10 +1300,10 @@ country_event = {
 		}
 
 		remove_ideas = idea_rubber_crisis
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
 	}
-	option = {
-		name = ACR_cury.15.c ### Nothing
-	}
+
 }
 
 country_event = {
@@ -1381,6 +1405,98 @@ create_corps_commander = {
 	id = 10
 }
 
+	}
+}
+
+country_event = {
+	id = ACR_cury.23 ### Cerqueira being a Dick
+	title = ACR_cury.23.t
+	desc = ACR_cury.23.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.23.a
+		acre_senate_add_militarist_seats_1 = yes
+		acre_senate_remove_nationalist_seats_1 = yes
+
+		declare_war_on = { type = annex_everything target = IQU }
+	}
+}
+
+country_event = {
+	id = ACR_cury.24 ### War Train Exposition
+	title = ACR_cury.24.t
+	desc = ACR_cury.24.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.24.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.25 ### Revising the SNI
+	title = ACR_cury.25.t
+	desc = ACR_cury.25.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.25.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.26 ### Relations with Manaus
+	title = ACR_cury.26.t
+	desc = ACR_cury.26.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.26.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.27 ### Medicine from the QPM
+	title = ACR_cury.27.t
+	desc = ACR_cury.27.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.27.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.28 ### The Medicine Crisis
+	title = ACR_cury.28.t
+	desc = ACR_cury.28.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.28.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.29 ### The Forgotten Pracinhas
+	title = ACR_cury.29.t
+	desc = ACR_cury.29.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.29.a
+	}
+}
+
+country_event = {
+	id = ACR_cury.30 ### Acre for Acreans
+	title = ACR_cury.30.t
+	desc = ACR_cury.30.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ACR_cury.30.a
 	}
 }
 
