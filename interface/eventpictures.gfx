@@ -6,6 +6,21 @@ spriteTypes = {
 #	}
 #										
 	spriteType = {
+		name = "GFX_news_event_Cury_president"
+		texturefile = "gfx/event_pictures/news_event_Cury_president.dds"
+	}
+																		
+	spriteType = {
+		name = "GFX_news_event_Marques_president"
+		texturefile = "gfx/event_pictures/news_event_Marques_president.dds"
+	}
+																		
+	spriteType = {
+		name = "GFX_news_event_Cerqueira_president"
+		texturefile = "gfx/event_pictures/news_event_Cerqueira_president.dds"
+	}
+																		
+	spriteType = {
 		name = "GFX_news_event_castelo_branco_ded"
 		texturefile = "gfx/event_pictures/news_event_castelo_branco_ded.dds"
 	}
