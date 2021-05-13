@@ -75,7 +75,6 @@ ideas = {
 		}
 
 		the_white_linned_devil = {
-			picture = GFX_idea_the_white_linned_mayor
 			
 			allowed = {
 				tag = COR

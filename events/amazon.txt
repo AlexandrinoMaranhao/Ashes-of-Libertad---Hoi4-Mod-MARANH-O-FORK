@@ -168,17 +168,12 @@ country_event = {
     name = JAU.2.a
 
 random_list = { 
-33 = {
+50 = {
         93 = { add_core_of = COR }
         COR = { transfer_state = 93 }
 }
 
-33 = {
-        93 = { add_core_of = MNS }
-        MNS = { transfer_state = 93 }
-}
-
-34 = {
+50 = {
         93 = { add_core_of = ROR }
         ROR = { transfer_state = 93 }
 }
@@ -376,6 +371,25 @@ country_event = { #Second Phase of expanding
         MNS = { transfer_state = 128 }
             
         hidden_effect = { country_event = { id = MNS.9 days = 80 } }
+    }
+}
+
+country_event = { #Second Phase of expanding
+    id = MNS.9
+    title = MNS.9.t
+    desc = MNS.9.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = MNS.9.a
+
+    #annex_country = { target = NHA transfer_troops = yes }
+    annex_country = { target = AND }
+
+        #hidden_effect = { country_event = { id = MNS.9 days = 80 } }
     }
 }
 
@@ -1088,8 +1102,41 @@ country_event = {
         BEM = { transfer_state = 135 }
         BEM = { transfer_state = 95  }
 
-        hidden_effect = { country_event = { id = BEM.4 days = 69 } }
+        hidden_effect = { country_event = { id = BEM.7 days = 200 } }
 
     }
 }
  
+country_event = { #Second Phase of expanding
+    id = BEM.7
+    title = BEM.7.t
+    desc = BEM.7.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = BEM.7.a
+
+    annex_country = { target = ZOE }
+    annex_country = { target = MAP }
+    annex_country = { target = WAI }
+
+random_list = {
+    33 = {
+    MNS = {annex_country = { target = TRO }}
+    }
+
+    34 = {
+    ROR = {annex_country = { target = TRO }}
+    }
+
+    33 = {
+    BEM = {annex_country = { target = TRO }}
+    }
+
+}
+        #hidden_effect = { country_event = { id = MNS.9 days = 80 } }
+    }
+}

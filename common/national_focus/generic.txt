@@ -215,7 +215,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = special_forces
+			#add_#ideas = special_forces
 			add_tech_bonus = {
 				name = special_forces_bonus
 				bonus = 1.0
@@ -1681,13 +1681,13 @@ focus_tree = {
 						is_historical_focus_on = yes
 						has_government = neutrality
 					}
-					has_idea = neutrality_idea
+					has_#idea = neutrality_#idea
 				}
 			}
 		}
 
 		completion_reward = {
-			add_timed_idea = { idea = collectivist_ethos_focus days = 1095 }
+			add_timed_#idea = { #idea = collectivist_ethos_focus days = 1095 }
 		}
 	}
 
@@ -1729,8 +1729,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = nationalism
+			add_timed_#idea = {
+				#idea = nationalism
 				days = 720
 			}
 		}
@@ -1780,8 +1780,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = internationalism
+			add_timed_#idea = {
+				#idea = internationalism
 				days = 720
 			}
 		}
@@ -1827,7 +1827,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = liberty_ethos_focus
+			#add_#ideas = liberty_ethos_focus
 		}
 	}
 
@@ -1844,10 +1844,10 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
+				limit = { has_#idea = neutrality_#idea }
+				remove_#ideas = neutrality_#idea
 			}			
-			add_ideas = militarism_focus
+			#add_#ideas = militarism_focus
 			army_experience = 20
 			set_rule = { can_send_volunteers = yes }
 		}
@@ -1866,11 +1866,11 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
+				limit = { has_#idea = neutrality_#idea }
+				remove_#ideas = neutrality_#idea
 			}		
 			add_political_power = 200
-			add_ideas = idea_political_correctness
+			#add_#ideas = #idea_political_correctness
 		}
 	}
 
@@ -1896,8 +1896,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { NOT = { has_idea = neutrality_idea } }
-				add_ideas = neutrality_idea
+				limit = { NOT = { has_#idea = neutrality_#idea } }
+				#add_#ideas = neutrality_#idea
 			}
 			add_political_power = 150
 		}
@@ -1920,14 +1920,14 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_idea = neutrality_idea
+				has_#idea = neutrality_#idea
 			}
 		}
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
+				limit = { has_#idea = neutrality_#idea }
+				remove_#ideas = neutrality_#idea
 			}	
 			set_rule = { can_send_volunteers = yes }
 			add_political_power = 150
@@ -1946,7 +1946,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = military_youth_focus
+			#add_#ideas = military_youth_focus
 			if = {
 				limit = { has_government = fascism }
 				add_popularity = {
@@ -1976,7 +1976,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = deterrence
+			#add_#ideas = deterrence
 		}
 	}
 
@@ -1992,7 +1992,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = volunteer_corps_focus
+			#add_#ideas = volunteer_corps_focus
 		}
 	}
 
@@ -2008,7 +2008,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = paramilitarism_focus
+			#add_#ideas = paramilitarism_focus
 		}
 	}
 
@@ -2024,7 +2024,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = indoctrination_focus
+			#add_#ideas = indoctrination_focus
 			add_political_power = 150
 		}
 	}
@@ -2041,7 +2041,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = foreign_expeditions_focus
+			#add_#ideas = foreign_expeditions_focus
 		}
 	}
 
@@ -2066,11 +2066,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = why_we_fight_focus
+			#add_#ideas = why_we_fight_focus
 			custom_effect_tooltip = why_we_fight_effect
 			hidden_effect = {
 				if = {
-					limit = { NOT = { has_idea = neutrality_idea } }
+					limit = { NOT = { has_#idea = neutrality_#idea } }
 					set_rule = { can_create_factions = yes }
 				}			
 			}
@@ -2091,7 +2091,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = political_commissars_focus
+			#add_#ideas = political_commissars_focus
 			if = {
 				limit = { has_government = fascism }
 				add_popularity = {
@@ -2122,7 +2122,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
+			#add_#ideas = ideological_fanaticism_focus
 			set_rule = {
 				can_create_factions = yes
 			}

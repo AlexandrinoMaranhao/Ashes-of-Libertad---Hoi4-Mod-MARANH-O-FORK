@@ -432,19 +432,9 @@
  ALA_neutrality_ADJ:0 "Alagoan"
  ALA_ADJ:0 "Alagoan"
 
- SEG_fascism:0 ""
- SEG_fascism_DEF:0 ""
- SEG_democratic:0 ""
- SEG_democratic_DEF:0 ""
- SEG:1 "Sergipe"
  SEG_DEF:1 "the State of Sergipe"
- SEG_communism:0 ""
- SEG_communism_DEF:0 ""
- SEG_fascism_ADJ:0 "Sergipan"
- SEG_democratic_ADJ:0 "Sergipan"
  SEG_ADJ:0 "Sergipan"
- SEG_communism_ADJ:0 "Sergipan"
- SEG_reactionary:0 "Sergipe"
+ SEG:0 "Sergipe"
 
  PIA_reactionary:0 "Piauí"
 
@@ -1764,10 +1754,10 @@
  ELD_DEF:0 "MRD"
 
  RON:0 "Rondônia"
- RON_ADJ:0 "the Rondônia"
- RON_DEF:0 "RON"
+ RON_ADJ:0 "Rondônian"
+ RON_DEF:0 "Rondônia"
 
  MAN:0 "La Manada"
- MAN_ADJ:0 "La Manadan
- MAN_DEF:0 "MAN"
+ MAN_ADJ:0 "La Manadan"
+ MAN_DEF:0 "La Manada"
  

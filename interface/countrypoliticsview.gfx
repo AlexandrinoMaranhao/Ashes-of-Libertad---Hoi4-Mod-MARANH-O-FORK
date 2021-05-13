@@ -562,6 +562,11 @@ spriteTypes = {
 	}
 				
 	spriteType = {
+		name = "GFX_ideology_christian_theocracy_reactionary"
+		texturefile = "gfx/interface/ideologies/christian_theocracy_reactionary.dds"
+	}
+					
+	spriteType = {
 		name = "GFX_ideology_christian_theocracy"
 		texturefile = "gfx/interface/ideologies/christian_theocracy.dds"
 	}

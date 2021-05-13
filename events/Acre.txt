@@ -1259,6 +1259,7 @@ country_event = {
 		acre_wins_caititu_war = yes
 		125 = { add_manpower = -3492}
 		460 = { add_manpower = 3492}
+		IQU = { add_ideas = displaced_tribe }
 	}
 }
 

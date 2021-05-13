@@ -6,7 +6,42 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
+      
+spriteType ={
+    name = "GFX_idea_acre_coari_naval_struggle"
+    texturefile = "gfx/interface/ideas/acre_coari_naval_struggle.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_ACR_banana_bread_and_theater"
+    texturefile = "gfx/interface/ideas/ACR_banana_bread_and_theater.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_the_brazilian_monarquist_front"
+    texturefile = "gfx/interface/ideas/the_brazilian_monarquist_front.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_male_revolt"
+    texturefile = "gfx/interface/ideas/male_revolt.dds"
+} 
            
+spriteType ={
+    name = "GFX_idea_ACR_the_brazilian_constitution"
+    texturefile = "gfx/interface/ideas/the_brazilian_constitution.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_BAH_soviet_cooexistence"
+    texturefile = "gfx/interface/ideas/BAH_soviet.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_white_linned_devil"
+    texturefile = "gfx/interface/ideas/the_white_linned_devil.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_PAN_pull_left"
     texturefile = "gfx/interface/ideas/PAN_pull_left.dds"
