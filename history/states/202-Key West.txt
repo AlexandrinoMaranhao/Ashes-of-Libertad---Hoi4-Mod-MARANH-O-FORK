@@ -11,5 +11,8 @@ state={
             history = {
              owner=KEY
              add_core_of = KEY
+        victory_points = {
+2810 5
+        }
 }
 }

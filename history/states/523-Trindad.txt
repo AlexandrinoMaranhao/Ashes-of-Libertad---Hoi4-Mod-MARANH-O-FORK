@@ -4,7 +4,7 @@ state={
 	provinces={
 		1547 2540 6334 6357 
 	}
-	manpower=4086
+	manpower=35086
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 
@@ -13,6 +13,9 @@ state={
 		add_core_of = ECR
 		add_core_of = CUB
 
+        victory_points = {
+6357 5
+        }
 	}
 
 }

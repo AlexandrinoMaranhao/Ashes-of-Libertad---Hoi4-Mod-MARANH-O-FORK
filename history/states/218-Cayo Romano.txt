@@ -4,10 +4,13 @@ state={
 	provinces={
 		524 2711 2827 2831 5062 
 	}
-	manpower=7420
+	manpower=3420
         state_category=rural
 	buildings_max_level_factor=1.000
             history = {
+        victory_points = {
+2831 5
+        }
              owner= CUP
              add_core_of = CUP
 		add_core_of = CUB

@@ -8,6 +8,9 @@ state={
 		add_core_of = RUM
 		add_core_of = CUB
 
+        victory_points = {
+6337 5
+        }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

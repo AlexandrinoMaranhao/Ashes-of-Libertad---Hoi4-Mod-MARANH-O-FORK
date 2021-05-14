@@ -7,6 +7,12 @@ state={
 		owner = USR
 		add_core_of = USR
 		add_core_of = CUB
+        victory_points = {
+6350 5
+        }
+        victory_points = {
+6358 5
+        }
 
 		buildings = {
 			infrastructure = 5

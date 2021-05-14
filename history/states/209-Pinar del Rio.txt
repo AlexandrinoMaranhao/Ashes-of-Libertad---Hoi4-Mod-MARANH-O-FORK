@@ -6,7 +6,7 @@ state={
 	provinces={
 		1116 1692 1823 2828 6307 6308 6309 6310 6311 6312 6314 
 	}
-	manpower=4086
+	manpower=14086
 	buildings_max_level_factor=1.000
 	state_category=rural
 
@@ -14,6 +14,15 @@ state={
 		owner = CUB
 		add_core_of = CUB
 
+        victory_points = {
+6311 5
+        }
+        victory_points = {
+6307 30
+        }
+        victory_points = {
+2828 5
+        }
 	}
 
 }

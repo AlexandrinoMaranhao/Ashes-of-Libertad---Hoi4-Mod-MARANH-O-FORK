@@ -4,7 +4,7 @@ state={
 	provinces={
 		268 6330 6331 
 	}
-	manpower=4086
+	manpower=47863
 	buildings_max_level_factor=1.000
 	state_category=city
 
@@ -13,6 +13,12 @@ state={
 		add_core_of = CDR
 		add_core_of = CUB
 
+        victory_points = {
+6330 20
+        }
+        victory_points = {
+268 5
+        }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

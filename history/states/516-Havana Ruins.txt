@@ -13,6 +13,9 @@ state={
 		add_core_of = CUP
 		add_core_of = CUB
 
+        victory_points = {
+6301 50
+        }
 	}
 
 }

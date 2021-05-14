@@ -7,6 +7,9 @@ state={
 		owner = WAS
 		add_core_of = WAS
 
+        victory_points = {
+2741 1
+        }
 	}
 
 	provinces={

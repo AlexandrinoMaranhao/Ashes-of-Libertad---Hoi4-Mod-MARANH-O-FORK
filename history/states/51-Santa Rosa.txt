@@ -4,7 +4,7 @@ state={
 	provinces={
 		137 1115 1249 1574 1636 1767 1976 2055 2118 2198 2693 4716 4719 4724 4729 4733 4737 4741 4744 4749 4750 4755 4757 4758 4765 
 	}
-	manpower=40000
+	manpower=41837
 	buildings_max_level_factor=1.000
         state_category=rural
 
@@ -12,6 +12,9 @@ state={
              owner=BRA
              add_core_of = BRA
 
+        victory_points = {
+           4741 5
+        }
         victory_points = {
            2055 5
         }

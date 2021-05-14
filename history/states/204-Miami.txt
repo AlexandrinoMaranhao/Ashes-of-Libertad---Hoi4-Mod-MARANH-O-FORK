@@ -7,6 +7,9 @@ state={
 		owner = DRE
 		add_core_of = DRE
 
+        victory_points = {
+2785 30
+        }
 	}
 
 	provinces={

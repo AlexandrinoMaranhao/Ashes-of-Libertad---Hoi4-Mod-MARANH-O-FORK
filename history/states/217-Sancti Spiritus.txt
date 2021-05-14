@@ -8,6 +8,9 @@ state={
 		add_core_of = ECR
 		add_core_of = CUB
 
+        victory_points = {
+6320 5
+        }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -19,7 +22,7 @@ state={
 	provinces={
 		6320 6322 6323 6324 6333 
 	}
-	manpower=2549
+	manpower=23549
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -7,6 +7,12 @@ state={
 		owner = CUB
 		add_core_of = CUB
 
+        victory_points = {
+6321 5
+        }
+        victory_points = {
+6318 5
+        }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -18,7 +24,7 @@ state={
 	provinces={
 		454 2647 2829 2830 5060 6316 6317 6318 6319 6321 
 	}
-	manpower=7865
+	manpower=75865
 	buildings_max_level_factor=1.000
 	state_category=town
 }

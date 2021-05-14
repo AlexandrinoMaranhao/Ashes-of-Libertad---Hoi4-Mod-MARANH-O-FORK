@@ -12,6 +12,12 @@ state={
 		owner = BTA
 		add_core_of = BTA
 		add_core_of = CUB
+        victory_points = {
+1045 5
+        }
+        victory_points = {
+5069 5
+        }
 
 		buildings = {
 			infrastructure = 5

@@ -7,6 +7,15 @@ state={
 		owner = NEH
 		add_core_of = NEH
 		add_core_of = CUB
+        victory_points = {
+6347 5
+        }
+        victory_points = {
+2874 30
+        }
+        victory_points = {
+844 5
+        }
 
 		buildings = {
 			infrastructure = 5
@@ -19,7 +28,7 @@ state={
 	provinces={
 		844 2867 2874 2875 2877 6347 
 	}
-	manpower=20386
+	manpower=60386
 	buildings_max_level_factor=1.000
 	state_category=city
 }

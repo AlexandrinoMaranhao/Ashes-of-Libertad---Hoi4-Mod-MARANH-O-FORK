@@ -6,6 +6,14 @@ state={
 	history={
 		owner = SAO
 		add_core_of = SAO
+
+        victory_points = {
+           6259 5
+        }
+
+        victory_points = {
+           4634 5
+        }
 		victory_points = {
 			4643 20 
 		}

@@ -13,6 +13,12 @@ state={
 		add_core_of = CDR
 
 		add_core_of = CUB
+        victory_points = {
+6030 5
+        }
+        victory_points = {
+6313 5
+        }
 	}
 
 }

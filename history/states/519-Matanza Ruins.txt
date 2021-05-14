@@ -8,12 +8,18 @@ state={
 		add_core_of = CDR
 		add_core_of = CUB
 
+        victory_points = {
+1230 5
+        }
+        victory_points = {
+6315 5
+        }
 	}
 
 	provinces={
 		1230 6315 
 	}
-	manpower=4086
+	manpower=23086
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
