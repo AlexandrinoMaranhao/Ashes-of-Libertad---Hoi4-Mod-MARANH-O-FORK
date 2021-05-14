@@ -1,0 +1,19 @@
+HON_farmlands_war_category = {
+	HON_conquer_el_salvador = {
+		allowed = {
+			original_tag = HON
+		}
+		available = {
+			NOT = {
+				country_exists = ELS
+			}
+		}
+		activation = {
+			has_war_with = ELS
+		}
+		days_mission_timeout = 180
+		timeout_effect = {
+			white_peace = ELS
+		}
+	}
+}
