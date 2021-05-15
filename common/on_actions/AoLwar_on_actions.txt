@@ -186,6 +186,13 @@ on_actions = {
     ###CUBA LIBRE
     on_startup = {
         effect = {
+            WAS = {
+                country_event = {
+                    id = cubaunification.1 
+                    days = 900
+                }
+
+            }
             BTA = {
                 country_event = {
                     id = Castro.1 

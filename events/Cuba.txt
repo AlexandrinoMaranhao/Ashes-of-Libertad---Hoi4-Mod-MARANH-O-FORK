@@ -6,6 +6,477 @@ add_namespace = Wasteland
 add_namespace = SCR
 add_namespace = Castro
 add_namespace = coresforbatista
+add_namespace = cubaunification
+
+country_event = { ## Unification ##
+    id = cubaunification.1
+    title = cubaunification.1.t
+    desc = cubaunification.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = cubaunification.1.a
+
+CUB = { 
+        declare_war_on = {
+            target = ACC
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = CUP
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = NEH
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = SCR
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = CDR
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = ECR
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = BTA
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+CUB = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+        #
+ACC = { 
+        declare_war_on = {
+            target = CUP
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = NEH
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = SCR
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = CDR
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = ECR
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = BTA
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = JUV
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+ACC = { 
+        declare_war_on = {
+            target = NEH
+            type = annex_everything
+        }            }
+        #
+CUP = { 
+        declare_war_on = {
+            target = SCR
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = JUV
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = CDR
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = ECR
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = BTA
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+CUP = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+        #
+SCR = { 
+        declare_war_on = {
+            target = CDR
+            type = annex_everything
+        }            }
+SCR = { 
+        declare_war_on = {
+            target = ECR
+            type = annex_everything
+        }            }
+SCR = { 
+        declare_war_on = {
+            target = BTA
+            type = annex_everything
+        }            }
+SCR = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+SCR = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+SCR = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+        #
+CDR = { 
+        declare_war_on = {
+            target = ECR
+            type = annex_everything
+        }            }
+CDR = { 
+        declare_war_on = {
+            target = BTA
+            type = annex_everything
+        }            }
+CDR = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+CDR = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+CDR = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+        #
+ECR = { 
+        declare_war_on = {
+            target = BTA
+            type = annex_everything
+        }            }
+ECR = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+ECR = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+ECR = { 
+        declare_war_on = {
+            target = JUV
+            type = annex_everything
+        }            }
+ECR = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+        #
+BTA = { 
+        declare_war_on = {
+            target = DRE
+            type = annex_everything
+        }            }
+BTA = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+BTA = { 
+        declare_war_on = {
+            target = JUV
+            type = annex_everything
+        }            }
+BTA = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+        #
+DRE = { 
+        declare_war_on = {
+            target = RED
+            type = annex_everything
+        }            }
+DRE = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+DRE = { 
+        declare_war_on = {
+            target = JUV
+            type = annex_everything
+        }            }
+        #
+RED = { 
+        declare_war_on = {
+            target = RUM
+            type = annex_everything
+        }            }
+RED = { 
+        declare_war_on = {
+            target = JUV
+            type = annex_everything
+        }            }
+
+        every_state = {
+            limit = {
+                is_owned_by = CUB
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = ACC
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = RUM
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = RED
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = DRE
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = BTA
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = ECR
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = SCR
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = NEH
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = CUP
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+        every_state = {
+            limit = {
+                is_owned_by = CDR
+            }
+            add_core_of = CUB
+            add_core_of = ACC
+            add_core_of = CUP
+            add_core_of = NEH
+            add_core_of = SCR
+            add_core_of = CDR
+            add_core_of = ECR
+            add_core_of = BTA
+            add_core_of = DRE
+            add_core_of = RED
+            add_core_of = RUM
+        }
+    }
+}
+
 
 country_event = { ## Starts War ##
     id = coresforbatista.1

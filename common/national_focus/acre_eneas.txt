@@ -1,6 +1,6 @@
 shared_focus = {
 	id = ACR_carneiro_presidency
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_the_eneas_presidency
 
 	x = 15
 	y = 2
@@ -15,7 +15,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_rebuild_the_nation
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_its_about_how_hard_you_can_get_hit
 	prerequisite = { focus = ACR_carneiro_presidency }
 	relative_position_id = ACR_carneiro_presidency
 
@@ -39,7 +39,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_celebrate_with_militarists
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_celebrate_with_the_militarists
 	prerequisite = { focus = ACR_rebuild_the_nation }
 	relative_position_id = ACR_rebuild_the_nation
 
@@ -56,7 +56,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_deal_with_cerqueira
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_deal_with_the_rogue_general
 	prerequisite = { focus = ACR_celebrate_with_militarists }
 	relative_position_id = ACR_celebrate_with_militarists
 
@@ -73,7 +73,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_to_the_victor_the_spoils
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_it_aint_about_how_hard_you_hit
 	prerequisite = { focus = ACR_carneiro_presidency }
 	relative_position_id = ACR_carneiro_presidency
 
@@ -103,7 +103,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_show_a_light_to_the_nationalists
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_one_sun_setting
 	prerequisite = { focus = ACR_to_the_victor_the_spoils }
 	prerequisite = { focus = ACR_rebuild_the_nation }
 	relative_position_id = ACR_to_the_victor_the_spoils
@@ -121,7 +121,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_reviving_helios_dream
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_another_sun_rising
 	prerequisite = { focus = ACR_show_a_light_to_the_nationalists }
 	relative_position_id = ACR_show_a_light_to_the_nationalists
 
@@ -139,7 +139,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_taking_over_the_technocrats
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_securing_the_party
 	prerequisite = { focus = ACR_to_the_victor_the_spoils }
 	relative_position_id = ACR_to_the_victor_the_spoils
 
@@ -156,7 +156,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_deciding_marques_fate_in_history
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_the_fate_of_marques
 	prerequisite = { focus = ACR_taking_over_the_technocrats }
 	relative_position_id = ACR_taking_over_the_technocrats
 
@@ -173,7 +173,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_found_the_prona
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_found_the_PRONA
 	prerequisite = { focus = ACR_deal_with_cerqueira }
 	prerequisite = { focus = ACR_reviving_helios_dream }
 	prerequisite = { focus = ACR_deciding_marques_fate_in_history }
