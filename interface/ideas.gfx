@@ -6,7 +6,12 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-      
+          
+spriteType ={
+    name = "GFX_idea_stolen_institutions"
+    texturefile = "gfx/interface/ideas/SAO_stolen_institutions.dds"
+} 
+ 
 spriteType ={
     name = "GFX_idea_URG_switzerland_of_south_america"
     texturefile = "gfx/interface/ideas/URG_switzerland_of_south_america.dds"
