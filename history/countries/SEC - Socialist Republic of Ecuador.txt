@@ -11,15 +11,15 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 100
+	democratic = 50
+	fascism = 40
+	communism = 10
 	neutrality = 0
 	reactionary = 0
 
@@ -31,11 +31,50 @@ SEC_unionists_vs_revengists
 }
 
 create_country_leader = {
-	
-	name = "Carlos Julio Arosemena Monroy"
+	name = "Andrés F. Córdova"
+	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
+	expire = "1999.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Camilo Ponce Enríquez"
+	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
+	expire = "1999.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Agustin Aguirre"
+	picture = "gfx/leaders/SEC/Portrait_SEC_Manuel_Agustin_Aguirre.dds"
+	expire = "1999.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro Saad"
 	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
 	expire = "1999.1.1"
 	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jose Maria Velasco Ibarra"
+	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
+	expire = "1999.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}

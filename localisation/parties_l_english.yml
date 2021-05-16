@@ -394,6 +394,17 @@ FCP_communism_party_long:0 "Federación Campesina del Perú"
 HIE_reactionary_party:0 "USCP"
 HIE_reactionary_party_long:0 "Unión Sagrada de las Cuatro Partes"
 
+## Ecuador ##
+SEC_fascism_party:0 "FASE"
+SEC_fascism_party_long:0 "Frente Amplio Socialista Ecuatoriano"
+SEC_communism_party:0 "FASE"
+SEC_communism_party_long:0 "Frente Amplio Socialista Ecuatoriano"
+SEC_democratic_party:1 "FASE"
+SEC_democratic_party_long:1 "Frente Amplio Socialista Ecuatoriano"
+
+ECU_reactionary_party:0 "Los Huasipungos"
+ECU_reactionary_party_long:0 "Los Huasipungos"
+
 ## Paraguay ##
 PAR_fascism_party:0 "ANR-PC"
 PAR_fascism_party_long:0 "Asociación Nacional Republicana – Partido Colorado"
