@@ -563,3 +563,147 @@ news_event = { # COR seizes TEF
 		name = world.49.a
 	}
 }
+news_event = { # Cuba Unified CUB
+	id = world.50
+	title = world.50.t
+	desc = world.50.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.50.a
+	}
+}
+news_event = { # Cuba Unified ACC
+	id = world.51
+	title = world.51.t
+	desc = world.51.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.51.a
+	}
+}
+news_event = { # Cuba Unified CUP
+	id = world.52
+	title = world.52.t
+	desc = world.52.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.52.a
+	}
+}
+news_event = { # Cuba Unified NEH
+	id = world.53
+	title = world.53.t
+	desc = world.53.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world..a
+	}
+}
+news_event = { # Cuba Unified SCR
+	id = world.54
+	title = world.54.t
+	desc = world.54.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world..a
+	}
+}
+news_event = { # Cuba Unified CDR
+	id = world.55
+	title = world.55.t
+	desc = world.55.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.55.a
+	}
+}
+news_event = { # Cuba Unified ECR
+	id = world.56
+	title = world.56.t
+	desc = world.56.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.56.a
+	}
+}
+news_event = { # Cuba Unified BTA
+	id = world.57
+	title = world.57.t
+	desc = world.57.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.57.a
+	}
+}
+news_event = { # Cuba Unified DRE
+	id = world.58
+	title = world.58.t
+	desc = world.58.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.58.a
+	}
+}
+news_event = { # Cuba Unified RED
+	id = world.59
+	title = world.59.t
+	desc = world.59.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.59.a
+	}
+}
+news_event = { # Cuba Unified RUM
+	id = world.60
+	title = world.60.t
+	desc = world.60.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.60.a
+	}
+}
+news_event = { # Cuba Unified JUV
+	id = world.61
+	title = world.61.t
+	desc = world.61.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.61.a
+	}
+}

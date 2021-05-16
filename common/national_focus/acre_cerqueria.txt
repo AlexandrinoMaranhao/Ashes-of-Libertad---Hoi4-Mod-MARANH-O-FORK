@@ -315,8 +315,8 @@ shared_focus = {
 		remove_unit_leader = 9
 		remove_unit_leader = 13
 		create_corps_commander = {
-			name = "Placeholder 1"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			name = "Gilberto Quintana"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Gilberto_Quitana.dds"
 	traits = {  armor_officer career_officer war_hero }
 	skill = 3
 	
@@ -327,8 +327,8 @@ shared_focus = {
 			id = 15
 		}
 		create_corps_commander = {
-			name = "Placeholder 2"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			name = "Jair Bolsonaro"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Bolsonaro.dds"
 	traits = {  trickster career_officer }
 	skill = 2
 	attack_skill = 1
@@ -338,8 +338,8 @@ shared_focus = {
 			id = 16
 		}
 		create_corps_commander = {
-			name = "Placeholder 3"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			name = "Domingos Botalho"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Domingos.dds"
 	traits = { career_officer commando }
 	skill = 3
 	attack_skill = 2
@@ -349,8 +349,8 @@ shared_focus = {
 			id = 17
 		}
 		create_corps_commander = {
-			name = "Placeholder 4"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			name = "Antonio Danelon"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Danelon.dds"
 	traits = { career_officer trait_cautious }
 	skill = 4
 	attack_skill = 4
@@ -360,8 +360,8 @@ shared_focus = {
 			id = 18
 		}
 		create_corps_commander = {
-			name = "Placeholder 5"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
+			name = "Carlos Tisser Machado"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Carlos_Tisser_Machado.dds"
 	traits = { career_officer }
 	skill = 4
 	attack_skill = 4
