@@ -1,0 +1,46 @@
+division_template = {
+	is_locked = yes
+	name = "Infanteria Republicana"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	is_locked = yes
+	name = "Montaneros"
+	regiments = {
+		mountaineer = { x = 0 y = 0 }
+		mountaineer = { x = 0 y = 1 }
+        mountaineer = { x = 1 y = 0 }
+		mountaineer = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Infanteria de la Republica 1"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la Republica 2"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Montaneros Republicanos"
+		location = 4461
+		division_template = "Montaneros"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
