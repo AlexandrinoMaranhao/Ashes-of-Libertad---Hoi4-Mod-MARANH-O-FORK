@@ -378,13 +378,13 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		JUR = { country_event = JUR_eneas.1 }
-		JAV = { country_event = JAV_eneas.1 }
-		DNI = { country_event = DNI_eneas.1 }	
-		HIM = { country_event = HIM_eneas.1 }
-		FBO = { country_event = FBO_eneas.1 }
-		JUT = { country_event = JUT_eneas.1 }
-		BIA = { country_event = BIA_eneas.1 }
+		JUR = { country_event = JUR_foreign.1 }
+		JAV = { country_event = JAV_foreign.1 }
+		DNI = { country_event = DNI_foreign.1 }	
+		HIM = { country_event = HIM_foreign.1 }
+		FBO = { country_event = FBO_foreign.1 }
+		JUT = { country_event = JUT_foreign.1 }
+		BIA = { country_event = BIA_foreign.1 }
 	}
 }
 

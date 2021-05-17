@@ -1,17 +1,35 @@
-add_namespace = BIA_eneas
+add_namespace = BIA_foreign
 
 country_event = {
-	id = BIA_eneas.1 ### Eneas' Offer
-	title = BIA_eneas.1.t
-	desc = BIA_eneas.1.d
+	id = BIA_foreign.1 ### Eneas' Offer
+	title = BIA_foreign.1.t
+	desc = BIA_foreign.1.d
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = BIA_eneas.1.a
+		name = BIA_foreign.1.a
 		ACR = { annex_country = { target = BIA } }
 	}
 	option = {
-		name = BIA_eneas.1.b
+		name = BIA_foreign.1.b
 		ACR = { create_wargoal = { target = BIA type = annex_everything } }
+	}
+}
+
+country_event = {
+	id = BIA_foreign.2 ### Augusto's Offer
+	title = BIA_foreign.2.t
+	desc = BIA_foreign.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = BIA_foreign.2.a
+		ACR = { annex_country = { target = BIA } }
+	}
+	option = {
+		name = BIA_foreign.2.b
+		ACR = { declare_war_on = {
+			target = BIA
+		} }
 	}
 }

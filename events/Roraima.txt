@@ -1,0 +1,103 @@
+add_namespace = ROR_foreign
+
+country_event = {
+	id = ROR_foreign.1 ## Acre Love Triangle Focus
+	title = ROR_foreign.1.t
+	desc = ROR_foreign.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ROR_foreign.1.a
+		add_opinion_modifier = {
+			target = ACR
+			modifier = small_increase
+		}
+		add_opinion_modifier = {
+			target = ERN
+			modifier = small_increase
+		}
+	}
+}
+
+country_event = {
+	id = ROR_foreign.2 ## Acre The Guerilla Wall
+	title = ROR_foreign.2.t
+	desc = ROR_foreign.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ROR_foreign.2.a
+		ROR = {
+			declare_war_on = {
+				target = MNS
+				type = puppet_wargoal_focus
+			}
+		}
+		
+		hidden_effect = {
+			ACR = { country_event = { id = ACR_augusto.16 days = 1 }  }
+		}
+	}
+}
+
+country_event = {
+	id = ROR_foreign.3 ## Acre Manaus offer
+	title = ROR_foreign.3.t
+	desc = ROR_foreign.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+			modifier = {
+				ACR = { has_country_flag = ACR_refused_to_join_manaus_war }
+				factor = 1
+			}
+		}
+		name = ROR_foreign.3.a
+		diplomatic_relation = {
+			country = ACR
+			relation = guarantee
+			active = no
+		}
+		reverse_add_opinion_modifier = {
+			target = ACR
+			modifier = small_increase
+		}
+		reverse_add_opinion_modifier = {
+			target = ACR
+			modifier = ACR_pardoned_wilson
+		}
+		add_opinion_modifier = {
+			target = ACR
+			modifier = large_decrease
+		}
+		ACR = {
+			remove_ideas = ACR_smuggler_problem
+			diplomatic_relation = {
+				country = ROR
+				relation = guarantee
+				active = no
+			}
+		}
+	}
+	option = {
+		name = ROR_foreign.3.b
+		ACR = {
+			transfer_state = 96
+			remove_ideas = ACR_smuggler_problem
+		}
+	}
+	option = {
+		name = ROR_foreign.3.c
+		ACR = {
+			annex_country = {
+				target = MNS
+				transfer_troops = no
+			}
+			remove_ideas = ACR_smuggler_problem
+		}
+	}
+}

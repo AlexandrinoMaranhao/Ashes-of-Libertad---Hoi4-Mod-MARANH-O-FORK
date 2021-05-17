@@ -1,17 +1,35 @@
-add_namespace = JUT_eneas
+add_namespace = JUT_foreign
 
 country_event = {
-	id = JUT_eneas.1 ### Eneas' Offer
-	title = JUT_eneas.1.t
-	desc = JUT_eneas.1.d
+	id = JUT_foreign.1 ### Eneas' Offer
+	title = JUT_foreign.1.t
+	desc = JUT_foreign.1.d
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = JUT_eneas.1.a
+		name = JUT_foreign.1.a
 		ACR = { annex_country = { target = JUT } }
 	}
 	option = {
-		name = JUT_eneas.1.b
+		name = JUT_foreign.1.b
 		ACR = { create_wargoal = { target = JUT type = annex_everything } }
+	}
+}
+
+country_event = {
+	id = JUT_foreign.2 ### Augusto's Offer
+	title = JUT_foreign.2.t
+	desc = JUT_foreign.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JUT_foreign.2.a
+		ACR = { annex_country = { target = JUT } }
+	}
+	option = {
+		name = JUT_foreign.2.b
+		ACR = { declare_war_on = {
+			target = JUT
+		} }
 	}
 }

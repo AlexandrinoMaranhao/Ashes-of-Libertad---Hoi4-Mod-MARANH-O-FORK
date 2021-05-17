@@ -9,6 +9,7 @@ add_namespace = ACRMarques
 add_namespace = ACR_join_lib
 add_namespace = ACR_border_conflict
 add_namespace = ACR_native_revolt
+add_namespace = ACR_augusto
 
 #########################################################################
 # ACR_intro_one
@@ -2160,6 +2161,251 @@ country_event = {
 	
 	option = {
 		name = ACR_eneas.8.a
+	}
+}
+
+###########
+# Augusto #
+###########
+
+country_event = {
+	id = ACR_augusto.1 ## The Augusto Presidency
+	title = ACR_augusto.1.t
+	desc = ACR_augusto.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.1.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.2 ## The Fate of Coari
+	title = ACR_augusto.2.t
+	desc = ACR_augusto.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.2.a
+		set_country_flag = ACR_intervene_in_coari
+		add_to_variable = { ACR_cerqueira_che_power = 2.5 }
+		custom_effect_tooltip = ACR_small_cerqueira
+	}
+	option = {
+		name = ACR_augusto.2.b
+		set_country_flag = ACR_offer_coari_a_place
+		subtract_from_variable = { ACR_cerqueira_che_power = 2.5 }
+		custom_effect_tooltip = ACR_small_che
+	}
+}
+
+country_event = {
+	id = ACR_augusto.3 ## The Base Reforms
+	title = ACR_augusto.3.t
+	desc = ACR_augusto.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.3.a
+		acre_senate_add_technocrat_seats_1 = yes
+		subtract_from_variable = { ACR_cerqueira_che_power = 2.5 }
+		custom_effect_tooltip = ACR_small_che
+	}
+
+	option = {
+		name = ACR_augusto.3.b
+		acre_senate_add_nationalist_seats_1 = yes
+	}
+
+	option = {
+		name = ACR_augusto.3.c
+		acre_senate_add_militarist_seats_1 = yes
+		add_to_variable = { ACR_cerqueira_che_power = 2.5 }
+		custom_effect_tooltip = ACR_small_cerqueira
+		set_country_flag = ACR_augusto_reforms_militarist
+	}
+}
+
+country_event = {
+	id = ACR_augusto.4 ## The Congress of Xapuri
+	title = ACR_augusto.4.t
+	desc = ACR_augusto.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.4.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.5 ## Reach out to Roraima
+	title = ACR_augusto.5.t
+	desc = ACR_augusto.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.5.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.6 ## Trade Favors with the Militarists
+	title = ACR_augusto.6.t
+	desc = ACR_augusto.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.6.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.7 ## 50/50 Congress End - Cerqueira Reaction
+	title = ACR_augusto.7.t
+	desc = ACR_augusto.7.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.7.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.8 ## 50/50 Congress End - Che Reaction
+	title = ACR_augusto.8.t
+	desc = ACR_augusto.8.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.8.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.9 ## 50/50 Congress End
+	title = ACR_augusto.9.t
+	desc = ACR_augusto.9.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.9.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.10 ## ## Cerqueira Dominant Congress End - Che Reaction
+	title = ACR_augusto.10.t
+	desc = ACR_augusto.10.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.10.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.11 ## Cerqueira Dominant Congress End - Che Aftermath
+	title = ACR_augusto.11.t
+	desc = ACR_augusto.11.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.11.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.12 ## Cerqueira Dominant Congress End (tree unlock)
+	title = ACR_augusto.12.t
+	desc = ACR_augusto.12.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.12.a
+		set_country_flag = ACR_cerqueira_congress_ending
+	}
+}
+
+country_event = {
+	id = ACR_augusto.13 ## ## Che Dominant Congress End - Cerqueira Reaction
+	title = ACR_augusto.13.t
+	desc = ACR_augusto.13.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.13.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.14 ## Che Dominant Congress End - Cerqueira Aftermath
+	title = ACR_augusto.14.t
+	desc = ACR_augusto.14.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.14.a
+	}
+}
+
+country_event = {
+	id = ACR_augusto.15 ## Che Dominant Congress End (tree unlock)
+	title = ACR_augusto.15.t
+	desc = ACR_augusto.15.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.15.a
+		set_country_flag = ACR_che_congress_ending
+	}
+}
+
+country_event = {
+	id = ACR_augusto.16 ## Roraima War on Manaus
+	title = ACR_augusto.16.t
+	desc = ACR_augusto.16.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.16.a
+		ACR = {
+			add_to_war = {
+				targeted_alliance = ROR
+				enemy = MNS
+			}
+		}
+	}
+	option = {
+		name =  ACR_augusto.16.b
+		set_country_flag = ACR_refused_to_join_manaus_war
+	}
+}
+
+country_event = {
+	id = ACR_augusto.17 ## Friends with Benefits
+	title = ACR_augusto.17.t
+	desc = ACR_augusto.17.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ACR_augusto.17.a
 	}
 }
 

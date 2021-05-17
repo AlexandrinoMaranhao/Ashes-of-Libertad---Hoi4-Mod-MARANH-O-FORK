@@ -33,6 +33,10 @@ opinion_modifiers = {
 		value = 100
 		trade = yes
 	}
+	ACR_pardoned_wilson = {
+		value = 50
+		trade = yes
+	}
 
 	MEX_mexican_civil_war_opinion = {
 		value = -200

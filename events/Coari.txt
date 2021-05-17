@@ -6,7 +6,7 @@ add_namespace = CoariIntroduction
 add_namespace = Coari
 add_namespace = MontorilGoesFishing
 add_namespace = MontorilReturnsFromFishing
-add_namespace = COR_cury_event
+add_namespace = COR_cury_event ## Change namespace later to COR_foreign
 
 country_event = {
 	id = COR_cury_event.1  ### Meet our Neighbours Acre Focus
@@ -58,6 +58,37 @@ country_event = {
 		name = COR_cury_event.2.c ### Outright Disagree
 		ACR = {
 			create_wargoal = { target = COR type = annex_everything }
+		}
+	}
+}
+
+country_event = {
+	id = COR_cury_event.3  ### Augusto Offer Coari a Place in the Republic
+	title = COR_cury_event.3.t
+	desc = COR_cury_event.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = COR_cury_event.3.a
+		ACR = { annex_country = {
+			target = COR
+		}
+		add_timed_idea = {
+			idea = ACR_healing_the_pearl
+			days = 365
+		} 
+		add_ideas = ACR_pirate_hideouts
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_che 
+	}
+		ai_chance = {
+			factor = 1000
+		}
+	}
+	option = {
+		name = COR_cury_event.3.b
+		ai_chance = {
+			factor = 1
 		}
 	}
 }

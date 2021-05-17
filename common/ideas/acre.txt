@@ -875,6 +875,77 @@ ideas = {
 		modifier = {
 		}
 	}
+
+	ACR_pirate_hideouts = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		modifier = {
+			stability_factor = -0.05
+			compliance_gain = -0.05
+		}
+	}
+
+	ACR_healing_the_pearl = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.15
+			consumer_goods_factor = 0.1
+		}
+	}
+
+	ACR_smuggler_problem = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		modifier = {
+			consumer_goods_factor = 0.05
+			production_factory_max_efficiency_factor = -0.075
+			industrial_capacity_factory = -0.05
+			encryption_factor = -0.2
+		}
+	}
+
+	ACR_land_reforms_taking_place = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		modifier = {
+			stability_weekly_factor = -0.001
+		}
+	}
+
+	ACR_all_wounds_healed = {
+		allowed = {
+			tag = ACR
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+		modifier = {
+			stability_weekly_factor = 0.0025
+			war_support_weekly = -0.0025
+		}
+	}
 }
 	hidden_ideas = {
 		ACR_recpop_buff = {
@@ -984,6 +1055,17 @@ ideas = {
 			targeted_modifier = { 
 				tag = ERN 
 				attack_bonus_against = 0.025
+			}
+		}
+		ACR_manaus_consumer_bonus = {
+			allowed = {
+				tag = ACR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.025
 			}
 		}
 	}	
