@@ -24,19 +24,19 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.2
 	}
-	division = {
-		name = "Batalhão de Infantaria de Selva"
-		location = 3506
-		division_template = "Infantaria de Selva"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.2
-	}
-	division = {
-		name = "Batalhão de Infantaria de Selva"
-		location = 3506
-		division_template = "Infantaria de Selva"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.2
+	#division = {
+	#	name = "Batalhão de Infantaria de Selva"
+	#	location = 3506
+	#	division_template = "Infantaria de Selva"
+	#	start_experience_factor = 0.7
+	#	start_equipment_factor = 0.2
+	#}
+	#division = {
+	#	name = "Batalhão de Infantaria de Selva"
+	#	location = 3506
+	#	division_template = "Infantaria de Selva"
+	#	start_experience_factor = 0.7
+	#	start_equipment_factor = 0.2
 	}
 	#division = {
 	#	name = "Batalhão de Infantaria de Selva"

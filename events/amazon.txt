@@ -508,7 +508,7 @@ country_event = {
         HIM = { add_ideas = acre_coari_naval_struggle }
 
         COR = { transfer_state = 416 }
-        hidden_effect = { country_event = { id = COR.6 days = 120 } }
+        hidden_effect = { country_event = { id = COR.7 days = 120 } }
 
     }
 }
