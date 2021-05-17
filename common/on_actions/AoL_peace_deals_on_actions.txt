@@ -513,6 +513,57 @@ on_actions = {
           }
         }
       }
+      if = { ### Acre vs Manaus
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = MNS }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+          ACR = {
+            if = {
+              limit = { has_country_leader = { name = "José Augusto de Araujo" ruling_only = yes } }
+              country_event = ACR_augusto.11
+            }
+          }
+        }
+      }
+      if = { ### Acre vs Roraima
+      limit = {
+        FROM = { original_tag = ACR }
+        ROOT = { original_tag = ROR }
+      }
+      FROM = {
+        white_peace = ROOT
+        annex_country = {
+          target = ROOT
+          transfer_troops = no
+          }
+          ACR = {
+            if = {
+              limit = { has_country_leader = { name = "José Augusto de Araujo" ruling_only = yes } }
+              country_event = ACR_augusto.14
+            }
+          }
+        }
+      }
+      if = { ### Roraima vs Manaus
+      limit = {
+        FROM = { original_tag = ROR }
+        ROOT = { original_tag = MNS }
+      }
+      FROM = {
+        white_peace = ROOT
+          ROR = {
+            puppet = MNS
+            country_event = { id = ROR_foreign.3 days = 3 }
+          }
+        }
+      }
       if = { ### Coari vs Tefé proxy
       limit = {
         FROM = { original_tag = COR }

@@ -834,6 +834,172 @@ acrean_senate = {
     	}
 	}
 
+	ACR_fate_of_coari = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_the_fate_of_coari
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			country_event = ACR_augusto.2
+		}
+	}
+
+	ACR_offer_coari_a_place = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_offer_coari_a_place_in_the_republic
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			COR = {
+				country_event = COR_cury_event.3
+			}
+		}
+	}
+
+	ACR_lamarca_militarist_option = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_dealing_with_lamarca
+			NOT = { has_country_flag = ACR_dealing_with_lamarca }
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			set_country_flag = ACR_lamarca_option
+			declare_war_on = {
+				target = FBO
+			}
+			acre_senate_add_militarist_seats_3 = yes
+			add_to_variable = { ACR_cerqueira_che_power = 5 }
+			custom_effect_tooltip = ACR_medium_cerqueria
+		}
+	}
+
+	ACR_lamarca_technocrats_option = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_dealing_with_lamarca
+			NOT = { has_country_flag = ACR_dealing_with_lamarca }
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			set_country_flag = ACR_lamarca_option
+			FBO = { country_event = FBO_foreign.2 }
+			acre_senate_add_technocrat_seats_3 = yes
+			subtract_from_variable = { ACR_cerqueira_che_power = 5 }
+			custom_effect_tooltip = ACR_medium_che
+		}
+	}
+
+	ACR_lamarca_nationalist_option = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_dealing_with_lamarca
+			NOT = { has_country_flag = ACR_dealing_with_lamarca }
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			set_country_flag = ACR_lamarca_option
+			declare_war_on = {
+				target = FBO
+			}
+			JUT = { country_event = JUT_foreign.2 }
+			JAV = { country_event = JAV_foreign.2 }
+			BIA = { country_event = BIA_foreign.2 }
+			if = { 
+				limit = {
+					QPM = { has_government = communism }
+				}
+				QPM = { country_event = QPM_foreign.1 }
+			}
+			acre_senate_add_nationalist_seats_3 = yes
+		}
+	}
+
+	ACR_pass_the_base_reforms = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_the_base_reforms
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 150
+		complete_effect = {
+			add_state_core = 97
+			add_state_core = 412
+			add_state_core = 450
+			add_state_core = 426
+			add_state_core = 427
+			add_state_core = 90
+			add_state_core = 414
+			add_state_core = 428
+			add_state_core = 108
+			add_state_core = 109
+			custom_effect_tooltip = ACR_pass_the_base_reforms_tt
+			add_stability = 0.075
+			country_event = ACR_augusto.3
+		}
+	}
+
+	ACR_pardon_wilson = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_pardon_wilson
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			add_opinion_modifier = {
+				target = ROR
+				modifier = ACR_pardoned_wilson
+			}
+			add_timed_idea = {
+				idea = ACR_all_wounds_healed
+				days = 60
+			}
+		}
+	}
+
+	ACR_propose_intervention_in_roraima = {
+		#icon =
+		visible = {
+			has_completed_focus = ACR_intervention_in_roraima
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			MNS = { country_event = MNS_foreign.3 }
+		}
+	}
 }
 
 ACR_war_train_category = {
@@ -2093,6 +2259,335 @@ ACR_eneas_insanity_category = {#Be sure to clamp the variable every time you mod
 		complete_effect = {
 			subtract_from_variable = { ACR_eneas_sanity = 10 }
 			ACR_clamp_eneas_sanity = yes
+		}
+	}
+}
+
+ACR_coring_decisions = { 
+	ACR_core_JUR = {
+		#icon =
+		visible = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = JUR
+			}
+		}
+		allowed = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = JUR
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = 60
+		complete_effect = {
+			hidden_effect = {
+				ACR = {
+					add_state_core = 411
+					add_state_core = 98
+					add_state_core = 417
+					add_state_core = 416
+					add_state_core = 110
+					add_state_core = 418
+					add_state_core = 415
+				}
+			}
+			custom_effect_tooltip = ACR_core_JUR_tt
+		}
+	}
+
+	ACR_core_DNI = {
+		#icon =
+		visible = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = DNI
+			}
+		}
+		allowed = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = DNI
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = 60
+		complete_effect = {
+			hidden_effect = {
+				ACR = {
+					add_state_core = 111
+					add_state_core = 413
+				}
+			}
+			custom_effect_tooltip = ACR_core_DNI_tt
+		}
+	}
+
+	ACR_core_IQU = {
+		#icon =
+		visible = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = IQU
+			}
+		}
+		allowed = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = IQU
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = 60
+		complete_effect = {
+			hidden_effect = {
+				ACR = {
+					add_state_core = 125
+					add_state_core = 419
+					add_state_core = 460
+					add_state_core = 126
+					add_state_core = 423
+					add_state_core = 424
+				}
+			}
+			custom_effect_tooltip = ACR_core_IQU_tt
+		}
+	}
+
+	ACR_core_HIM = {
+		#icon =
+		visible = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = HIM
+			}
+		}
+		allowed = {
+			tag = ACR
+			any_owned_state = {
+				is_core_of = HIM
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = 60
+		complete_effect = {
+			hidden_effect = {
+				ACR = {
+					add_state_core = 112
+				}
+			}
+			custom_effect_tooltip = ACR_core_HIM_tt
+		}
+	}
+}
+
+ACR_fighting_coari = {
+	ACR_take_pauini = {
+		#icon =
+		visible = {
+			tag = ACR
+			has_completed_focus = ACR_not_one_step_back
+			NOT = { owns_state = 418 }
+		}
+		allowed = {
+			tag = ACR
+			418 = { is_controlled_by = COR }
+			has_war = no
+			divisions_in_border_state = {
+				size = 6
+				state = 110
+				border_state = 418
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 7
+		remove_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = { 
+					state = 110
+					num_provinces = 4
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+				defender = {
+					state = 418
+					num_provinces = 1
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+			}
+		}
+	}
+	
+	ACR_take_itamarati = {
+		#icon =
+		visible = {
+			tag = ACR
+			has_completed_focus = ACR_not_one_step_back
+			NOT = { owns_state = 415 }
+		}
+		allowed = {
+			tag = ACR
+			415 = { is_controlled_by = COR }
+			has_war = no
+			divisions_in_border_state = {
+				size = 6
+				state = 110
+				border_state = 415
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 7
+		remove_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = { 
+					state = 110
+					num_provinces = 4
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+				defender = {
+					state = 415
+					num_provinces = 1
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+			}
+		}
+	}
+
+	ACR_take_jurua = {
+		#icon =
+		visible = {
+			tag = ACR
+			has_completed_focus = ACR_not_one_step_back
+			NOT = { owns_state = 413 }
+		}
+		allowed = {
+			tag = ACR
+			413 = { is_controlled_by = COR }
+			has_war = no
+			divisions_in_border_state = {
+				size = 6
+				state = 111
+				border_state = 413
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 7
+		remove_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = { 
+					state = 111
+					num_provinces = 4
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+				defender = {
+					state = 413
+					num_provinces = 1
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+			}
+		}
+	}
+
+	ACR_take_labrea = {
+		#icon =
+		visible = {
+			tag = ACR
+			has_completed_focus = ACR_not_one_step_back
+			NOT = { owns_state = 423 }
+		}
+		allowed = {
+			tag = ACR
+			423 = { is_controlled_by = COR }
+			has_war = no
+			divisions_in_border_state = {
+				size = 6
+				state = 126
+				border_state = 423
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 7
+		remove_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = { 
+					state = 126
+					num_provinces = 4
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+				defender = {
+					state = 423
+					num_provinces = 1
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+			}
+		}
+	}
+
+	ACR_take_canutama = {
+		#icon =
+		visible = {
+			tag = ACR
+			has_completed_focus = ACR_not_one_step_back
+			NOT = { owns_state = 424 }
+		}
+		allowed = {
+			tag = ACR
+			424 = { is_controlled_by = COR }
+			has_war = no
+			divisions_in_border_state = {
+				size = 6
+				state = 126
+				border_state = 424
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 7
+		remove_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = { 
+					state = 126
+					num_provinces = 4
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+				defender = {
+					state = 424
+					num_provinces = 1
+					on_win = border_war.1
+					on_cancel = border_war.2
+					on_lose = border_war.3
+				}
+			}
 		}
 	}
 }

@@ -8,6 +8,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		country_event = ACR_augusto.1
 	}
 }
 
@@ -25,6 +26,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		#### Empty for now, add later when the decision cat is done.
 	}
 }
 
@@ -42,6 +44,10 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		JUR = { country_event = JUR_foreign.2 }
+		DNI = { country_event = DNI_foreign.2 }
+		IQU = { country_event = IQU_foreign.2 }
+		HIM = { country_event = HIM_foreign.2 }
 	}
 }
 
@@ -59,6 +65,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_not_one_step_back_tt
 	}
 }
 
@@ -79,6 +86,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_the_fate_of_coari_tt
 	}
 }
 
@@ -97,8 +105,16 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = ACR_offer_coari_a_place_in_the_republic
 	}
+	available = {
+		has_country_flag = ACR_intervene_in_coari
+	}
 
 	completion_reward = {
+		declare_war_on = {
+			target = COR
+		}
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_cerqueira
 	}
 }
 
@@ -117,8 +133,12 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = ACR_intervene_in_coari
 	}
+	available = {
+		has_country_flag = ACR_offer_coari_a_place
+	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_the_fate_of_coari_tt
 	}
 }
 
@@ -137,6 +157,12 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_state_core = 91
+		add_state_core = 398
+		add_state_core = 406
+		add_ideas = ACR_smuggler_problem
+		add_to_variable = { senate_seats = 7 }
+		custom_effect_tooltip = ACR_coari_solved_tt
 	}
 }
 
@@ -154,6 +180,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_dealing_with_lamarca_tt
 	}
 }
 
@@ -169,8 +196,14 @@ shared_focus = {
 	prerequisite = {
 		focus = ACR_coari_solved
 	}
+	available = {
+		has_completed_focus = ACR_dealing_with_lamarca
+		has_war = no
+	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_the_base_reforms_tt
+		add_ideas = ACR_land_reforms_taking_place
 	}
 }
 
@@ -188,6 +221,8 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		remove_ideas = ACR_pirate_hideouts
+		add_manpower = -100
 	}
 }
 
@@ -211,6 +246,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_the_congress_of_xapuri_tt
 	}
 }
 
@@ -231,6 +267,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_ideas = guerrilla_training
+		subtract_from_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_che
 	}
 }
 
@@ -251,6 +290,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_ideas = military_troop_training
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_cerqueria
 	}
 }
 
@@ -272,6 +314,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		remove_ideas = ACR_land_reforms_taking_place
+		subtract_from_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_che
 	}
 }
 
@@ -293,6 +338,13 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_stability = -0.05
+		MNS = { 
+			add_stability = -0.05
+			remove_ideas = what_apocalypse
+		}
+		subtract_from_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_che
 	}
 }
 
@@ -305,11 +357,35 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		NOT = { has_country_flag = ACR_congress_over }
+	}
 	prerequisite = {
 		focus = ACR_adopt_guerrilla_tactics
 	}
 
 	completion_reward = {
+		add_ideas = foreign_training
+		create_corps_commander = {
+			name = ACR_augusto_placeholder
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { }
+		}
+		create_corps_commander = {
+			name = ACR_augusto_placeholder_1
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			traits = { }
+		}
+		subtract_from_variable = { ACR_cerqueira_che_power = 2.5 }
+		custom_effect_tooltip = ACR_small_che
 	}
 }
 
@@ -322,11 +398,18 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		NOT = { has_country_flag = ACR_congress_over }
+	}
 	prerequisite = {
 		focus = ACR_use_che_as_a_backing
 	}
 
 	completion_reward = {
+		add_stability = -0.075
+		add_political_power = 75
+		subtract_from_variable = { ACR_cerqueira_che_power = 2.5 }
+		custom_effect_tooltip = ACR_small_che
 	}
 }
 
@@ -344,6 +427,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		country_event = ACR_augusto.5
+		subtract_from_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_che
 	}
 }
 
@@ -365,6 +451,12 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_political_power = -75
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_cerqueria
+		hidden_effect = {
+			country_event = { id = ACR_augusto.6 days = 4 }
+		}
 	}
 }
 
@@ -386,6 +478,10 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_ideas = monopoly
+		add_stability = -0.05
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_cerqueria
 	}
 }
 
@@ -398,11 +494,34 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		NOT = { has_country_flag = ACR_congress_over }
+	}
 	prerequisite = {
 		focus = ACR_brazilian_style_army
 	}
 
 	completion_reward = {
+		create_corps_commander = {
+			name = ACR_augusto_placeholder_2
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { }
+		}
+		create_corps_commander = {
+			name = ACR_augusto_placeholder_3
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			traits = { }
+		}
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_cerqueria
 	}
 }
 
@@ -418,8 +537,47 @@ shared_focus = {
 	prerequisite = {
 		focus = ACR_trade_favors_with_the_militarists
 	}
+	available = {
+		has_country_flag = ACR_augusto_reforms_militarist
+		NOT = { has_country_flag = ACR_congress_over }
+	}
 
 	completion_reward = {
+		hidden_effect = {
+			419 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			125 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			460 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			126 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			423 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			424 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			411 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			98 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			417 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			416 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			110 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			415 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			418 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			112 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			111 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			413 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			451 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			421 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			422 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			91 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			108 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			109 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			428 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			427 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			414 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			90 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			426 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			450 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			412 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } add_manpower = 2000 }
+			97 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } add_manpower = 1000 }
+			}
+		custom_effect_tooltip = ACR_grant_exclusive_monopolies_tt
+		add_to_variable = { ACR_cerqueira_che_power = 10 }
+		custom_effect_tooltip = ACR_large_cerqueria
 	}
 }
 
@@ -437,6 +595,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		MNS = { country_event = MNS_foreign.1 }
+		add_to_variable = { ACR_cerqueira_che_power = 5 }
+		custom_effect_tooltip = ACR_medium_cerqueria
 	}
 }
 
@@ -455,6 +616,23 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		set_country_flag = ACR_congress_over
+		if = {
+			limit = { check_variable = { ACR_cerqueira_che_power = 50 } }
+			country_event = { id = ACR_augusto.7 days = 42 }
+			country_event = { id = ACR_augusto.8 days = 56 }
+			country_event = { id = ACR_augusto.9 days = 90 }
+		}
+		if = {
+			limit = { check_variable = { ACR_cerqueira_che_power > 50 } }
+			country_event = { id = ACR_augusto.10 days = 42 }
+			country_event = { id = ACR_augusto.12 days = 90 }
+		}
+		if = {
+			limit = { check_variable = { ACR_cerqueira_che_power < 50 } }
+			country_event = { id = ACR_augusto.13 days = 42 }
+			country_event = { id = ACR_augusto.15 days = 90 }
+		}
 	}
 }
 
@@ -475,6 +653,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		ROR = {
+			country_event = ROR_foreign.1
+		}
 	}
 }
 
@@ -492,6 +673,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_pardon_wilson_tt
 	}
 }
 
@@ -509,6 +691,13 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		ACR = {
+			give_guarantee = ROR
+		}
+		ROR = {
+			give_guarantee = ACR
+		}
+		country_event = { id = ROR_foreign.2 days = 30 }
 	}
 }
 
@@ -529,6 +718,9 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		country_event = ACR_augusto.17
+		MNS = { country_event = MNS_foreign.2 remove_ideas = MNS_rubber_crisis }
+		add_ideas = ACR_manaus_consumer_bonus
 	}
 }
 
@@ -546,6 +738,25 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		96 = {
+			add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		}
+		remove_ideas = ACR_smuggler_problem
+		add_resource = {
+			type = rubber
+			amount = 6
+			state = 96
+		}
+		add_resource = {
+			type = ammunition
+			amount = 4
+			state = 89
+		}
+		add_resource = {
+			type = steel
+			amount = 8
+			state = 398
+		}
 	}
 }
 
@@ -563,6 +774,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = ACR_intervention_in_roraima_tt
 	}
 }
 
@@ -573,6 +785,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_che_congress_ending
 	}
 
 	completion_reward = {
@@ -587,6 +802,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_che_congress_ending
 	}
 	prerequisite = {
 		focus = ACR_the_rogue_general_augusto
@@ -608,6 +826,9 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		has_country_flag = ACR_che_congress_ending
+	}
 	prerequisite = {
 		focus = ACR_blockade_coari
 	}
@@ -624,6 +845,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_che_congress_ending
 	}
 	prerequisite = {
 		focus = ACR_the_rogue_general_augusto
@@ -645,6 +869,9 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		has_country_flag = ACR_che_congress_ending
+	}
 	prerequisite = {
 		focus = ACR_a_meeting_with_the_general
 	}
@@ -661,6 +888,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_che_congress_ending
 	}
 	prerequisite = {
 		focus = ACR_old_wounds_still_bleeding
@@ -679,6 +909,9 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		has_country_flag = ACR_cerqueira_congress_ending
+	}
 
 	completion_reward = {
 	}
@@ -692,6 +925,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_cerqueira_congress_ending
 	}
 	prerequisite = {
 		focus = ACR_the_red_menace_augusto
@@ -713,6 +949,9 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		has_country_flag = ACR_cerqueira_congress_ending
+	}
 	prerequisite = {
 		focus = ACR_send_ches_embassadors_back
 	}
@@ -729,6 +968,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_cerqueira_congress_ending
 	}
 	prerequisite = {
 		focus = ACR_the_red_menace_augusto
@@ -750,6 +992,9 @@ shared_focus = {
 	ai_will_do = { 
 		factor = 1 
 	}
+	available = {
+		has_country_flag = ACR_cerqueira_congress_ending
+	}
 	prerequisite = {
 		focus = ACR_send_marques_to_negotiate
 	}
@@ -766,6 +1011,9 @@ shared_focus = {
 	cost = 1
 	ai_will_do = { 
 		factor = 1 
+	}
+	available = {
+		has_country_flag = ACR_cerqueira_congress_ending
 	}
 	prerequisite = {
 		focus = ACR_challenge_che

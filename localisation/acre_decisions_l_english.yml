@@ -141,6 +141,13 @@
   ACR_build_train_engine_tt:0 "§YOne amount of Motor Parts from §PRio Branco§! shall be in use until the construction is over.§!"
   ACR_build_ammo_wagon_tt:0 "§YFour amounts of Ammunition from §PRio Branco§! shall be in use until the construction is over.§!"
   ACR_build_turrets_tt:0 "§YOne amounts of Ammunition from §PRio Branco§! shall be in use until the construction is over.§!"
+
+  ACR_coring_decisions:0 "Coring Decisions"
+  ACR_core_JUR:0 "Core Juruá"
+  ACR_core_DNI:0 "Core Deni"
+  ACR_core_IQU:0 "Core Caititu"
+  ACR_core_HIM:0 "Core Hi-Merima"
+
   
 #Eneas' Insanity
   ACR_eneas_insanity_category:0 "Enéas' Insanity"
@@ -157,3 +164,7 @@
 # Tooltips
 ################
 is_making_movie:0 " Making a movie"
+ACR_core_JUR_tt:0 "Gains cores on every Juruá core state"
+ACR_core_DNI_tt:0 "Gains cores on every Deni core state"
+ACR_core_IQU_tt:0 "Gains cores on every Caititu core state"
+ACR_core_HIM_tt:0 "Gains cores on every Hi-Merima core state"

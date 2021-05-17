@@ -1,17 +1,35 @@
-add_namespace = JAV_eneas
+add_namespace = JAV_foreign
 
 country_event = {
-	id = JAV_eneas.1 ### Eneas' Offer
-	title = JAV_eneas.1.t
-	desc = JAV_eneas.1.d
+	id = JAV_foreign.1 ### Eneas' Offer
+	title = JAV_foreign.1.t
+	desc = JAV_foreign.1.d
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = JAV_eneas.1.a
+		name = JAV_foreign.1.a
 		ACR = { annex_country = { target = JAV } }
 	}
 	option = {
-		name = JAV_eneas.1.b
+		name = JAV_foreign.1.b
 		ACR = { create_wargoal = { target = JAV type = annex_everything } }
+	}
+}
+
+country_event = {
+	id = JAV_foreign.2 ### Augusto's Offer
+	title = JAV_foreign.2.t
+	desc = JAV_foreign.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JAV_foreign.2.a
+		ACR = { annex_country = { target = JAV } }
+	}
+	option = {
+		name = JAV_foreign.2.b
+		ACR = { declare_war_on = {
+			target = JAV
+		} }
 	}
 }

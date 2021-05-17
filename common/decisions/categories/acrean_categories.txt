@@ -95,3 +95,19 @@ ACR_eneas_insanity_category = {
 	scripted_gui = ACR_eneas_insanity_category
 	visible_when_empty = yes
 }
+
+ACR_coring_decisions = {
+	#icon =
+	visible = { 
+		always = yes
+	}
+	visible_when_empty = yes
+}
+
+ACR_fighting_coari = {
+	#icon =
+	visible = { 
+		always = yes
+	}
+	visible_when_empty = yes
+}

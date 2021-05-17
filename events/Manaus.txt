@@ -8,6 +8,7 @@ add_namespace = OpeningShow
 add_namespace = YmaSumac
 add_namespace = MNS_cury_event
 add_namespace = MNS_Marques
+add_namespace = MNS_foreign ### Replace the Cury and Marques events to this namespace later please
 
 country_event = {
 	id = MNS_cury_event.1  ### Meet our Neighbours Acre Focus
@@ -77,6 +78,66 @@ country_event = {
 	}
 	option = {
 		name = MNS_Marques.1.C
+	}
+}
+
+country_event = {
+	id = MNS_foreign.1  ### Make our Demands (Acre-Augusto)
+	title = MNS_foreign.1.t
+	desc = MNS_foreign.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = MNS_foreign.1.a # No lol
+	}
+
+	option = {
+		name = MNS_foreign.1.b # Small Agreement
+		add_ideas = domestic_servitude
+		add_resource = { type = motors amount = 4 state = 89 }
+		add_resource = { type = steel amount = 4 state = 89 }
+		add_resource = { type = rubber amount = 12 state = 89 }
+	}
+
+	option = {
+		name = MNS_foreign.1.c
+		add_ideas = slavery_banned
+		add_resource = { type = motors amount = 8 state = 89 }
+		add_resource = { type = steel amount = 8 state = 89 }
+		add_resource = { type = rubber amount = 24 state = 89 }
+	}
+}
+
+country_event = {
+	id = MNS_foreign.2  ### Friends with Benefits Acre
+	title = MNS_foreign.2.t
+	desc = MNS_foreign.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = MNS_foreign.2.a
+	}
+}
+
+country_event = {
+	id = MNS_foreign.3  ### Intervention in Acre Manaus
+	title = MNS_foreign.3.t
+	desc = MNS_foreign.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = MNS_foreign.3.a
+		ACR = { declare_war_on = { target = ROR } }
+		MNS = {
+			add_to_war = {
+				targeted_alliance = ACR
+				enemy = ROR
+			}
+		}
+	}
+	option = {
+		name = MNS_foreign.3.b
+		ACR = { declare_war_on = { target = ROR } }
 	}
 }
 
