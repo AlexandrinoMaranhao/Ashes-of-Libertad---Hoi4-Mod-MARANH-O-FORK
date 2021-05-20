@@ -19,6 +19,12 @@ shared_focus = {
 	prerequisite = { focus = ACR_carneiro_presidency }
 	relative_position_id = ACR_carneiro_presidency
 
+	available = {
+		RON = {
+			exists = yes
+		}
+	}
+
 	x = -1
 	y = 1
 	cost = 1
@@ -178,6 +184,9 @@ shared_focus = {
 	prerequisite = { focus = ACR_reviving_helios_dream }
 	prerequisite = { focus = ACR_deciding_marques_fate_in_history }
 	relative_position_id = ACR_reviving_helios_dream
+		custom_trigger_tooltip = {
+			tooltip = ACR_matters_of_national_reedification_tt
+		}
 
 	x = 0
 	y = 1
@@ -186,7 +195,13 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
+		add_dynamic_modifier = {
+			modifier = ACR_matters_of_national_rectification
+		}
+
 		custom_effect_tooltip = ACR_found_the_prona_tt
+		set_cosmetic_tag = ACR_PRONA
+
 	}
 }
 
@@ -198,9 +213,6 @@ shared_focus = {
 
 	available = {
 		has_cosmetic_tag = ACR_PRONA
-		custom_trigger_tooltip = {
-			tooltip = ACR_matters_of_national_reedification_tt
-		}
 	}
 
 	x = -6
@@ -210,16 +222,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		country_event = ACR_eneas.4
-		add_dynamic_modifier = {
-			modifier = ACR_matters_of_national_rectification
-		}
-	}
+		country_event = ACR_eneas.4	}
 }
 
 shared_focus = {
 	id = ACR_nationalize_rondonia
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_nationalise_roraima
 	prerequisite = { focus = ACR_matters_of_national_reedification }
 	relative_position_id = ACR_matters_of_national_reedification
 
@@ -320,7 +328,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_ears_on_manaus
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_listen_to_your_heart
 	prerequisite = { focus = ACR_fake_smiles_and_hand_shakes }
 	relative_position_id = ACR_fake_smiles_and_hand_shakes
 
@@ -367,7 +375,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_secure_the_upper_amazon
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_welcome_to_the_jungle
 	prerequisite = { focus = ACR_matters_of_national_reedification }
 	relative_position_id = ACR_matters_of_national_reedification
 
@@ -390,7 +398,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_fluvial_supremacy
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_fun_and_games
 	prerequisite = { focus = ACR_secure_the_upper_amazon }
 	relative_position_id = ACR_secure_the_upper_amazon
 
@@ -421,7 +429,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_buy_out_the_neblina
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_see_through_the_fog
 	prerequisite = { focus = ACR_ears_on_manaus }
 	prerequisite = { focus = ACR_fluvial_supremacy }
 	relative_position_id = ACR_fluvial_supremacy

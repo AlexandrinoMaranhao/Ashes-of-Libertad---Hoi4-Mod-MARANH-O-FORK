@@ -8,7 +8,32 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #    
+        
+	SpriteType = {
+	name = "GFX_goal_ACR_nationalise_roraima"
+	texturefile = "gfx/interface/goals/ACR_nationalise_roraima.dds"
+	}	
       
+	SpriteType = {
+	name = "GFX_goal_ACR_welcome_to_the_jungle"
+	texturefile = "gfx/interface/goals/ACR_welcome_to_the_jungle.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_see_through_the_fog"
+	texturefile = "gfx/interface/goals/ACR_see_through_the_fog.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_listen_to_your_heart"
+	texturefile = "gfx/interface/goals/ACR_listen_to_your_heart.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_fun_and_games"
+	texturefile = "gfx/interface/goals/ACR_fun_and_games.dds"
+	}	
+    
 	SpriteType = {
 	name = "GFX_goal_ACR_found_the_PRONA"
 	texturefile = "gfx/interface/goals/ACR_found_the_PRONA.dds"

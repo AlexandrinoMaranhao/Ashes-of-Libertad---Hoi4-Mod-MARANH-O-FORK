@@ -10,14 +10,14 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 10
-	communism = 90
+	fascism = 100
+	communism = 0
 	neutrality = 0
 	reactionary = 0
 }
@@ -35,8 +35,8 @@ set_country_flag = is_brazilian
 
 create_country_leader = {
 	
-	name = "Placeholder"
-	picture = ""
+	name = "Carlos Larrazábal"
+	picture = "gfx/leaders/NEB/Portrait_NEB_Carlos_Larrazabal.dds"
 	expire = "1999.1.1"
-	ideology = marxism
+	ideology = military_government 
 }

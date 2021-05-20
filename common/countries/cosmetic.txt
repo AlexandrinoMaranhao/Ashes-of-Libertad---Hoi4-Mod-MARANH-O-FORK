@@ -2,6 +2,10 @@
 
 
 
+ACR_PRONA = {
+	color = rgb { 97 127 0 }
+	color_ui = rgb { 97 127 0 }
+}
 
 BRA_MONARCHY = {
 	color = rgb { 51 104 34 }

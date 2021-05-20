@@ -92,7 +92,7 @@ create_country_leader = {
 	name = "Enéas Carneiro"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro_Young.dds"
 	expire = "1999.1.1"
-	ideology = posadism 
+	ideology = despotism  
 	traits = {
 
 

@@ -1,6 +1,6 @@
 ﻿capital = 508
 
-#oob = ""
+oob = "PMI_1967"
 
 # Starting tech
 set_technology = {

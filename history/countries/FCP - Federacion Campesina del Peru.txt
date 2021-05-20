@@ -1,6 +1,6 @@
 ﻿capital = 342
 
-#oob = ""
+oob = "FCP_1967"
 
 # Starting tech
 set_technology = {
