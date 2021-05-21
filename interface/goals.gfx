@@ -8,7 +8,32 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #    
-        
+          
+	SpriteType = {
+	name = "GFX_goal_ACR_trimming_the_thick_bush"
+	texturefile = "gfx/interface/goals/ACR_trimming_the_thick_bush.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_post_war_reforms"
+	texturefile = "gfx/interface/goals/ACR_post_war_reforms.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_matters_of_national_rectification"
+	texturefile = "gfx/interface/goals/ACR_matters_of_national_rectification.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_marechal_rondon_mb"
+	texturefile = "gfx/interface/goals/ACR_marechal_rondon_mb.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_fake_smiles_and_handshakes"
+	texturefile = "gfx/interface/goals/ACR_fake_smiles_and_handshakes.dds"
+	}	
+    
 	SpriteType = {
 	name = "GFX_goal_ACR_nationalise_roraima"
 	texturefile = "gfx/interface/goals/ACR_nationalise_roraima.dds"

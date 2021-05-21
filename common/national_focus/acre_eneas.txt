@@ -207,7 +207,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_matters_of_national_reedification
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_matters_of_national_rectification
 	prerequisite = { focus = ACR_found_the_prona }
 	relative_position_id = ACR_found_the_prona
 
@@ -261,7 +261,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_rondonia_testing_grounds
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_marechal_rondon_mb
 	prerequisite = { focus = ACR_nationalize_rondonia }
 	relative_position_id = ACR_nationalize_rondonia
 
@@ -354,7 +354,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_hands_on_mato_grosso
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_trimming_the_thick_bush
 	prerequisite = { focus = ACR_rondonia_testing_grounds }
 	prerequisite = { focus = ACR_ears_on_manaus }
 	relative_position_id = ACR_ears_on_manaus
@@ -447,7 +447,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_economy_and_army
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_post_war_reforms
 	prerequisite = { focus = ACR_found_the_prona }
 	relative_position_id = ACR_found_the_prona
 
