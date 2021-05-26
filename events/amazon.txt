@@ -358,9 +358,9 @@ country_event = { #Second Phase of expanding
     name = MNS.8.a
 
                    
-        457 = { add_core_of = COR }
+        457 = { add_core_of = MNS }
 
-        COR = { transfer_state = 457 }
+        MNS = { transfer_state = 457 }
                       
         129 = { add_core_of = MNS }
 
@@ -485,7 +485,10 @@ country_event = {
                     election_frequency = 48
                     elections_allowed = no
                         }
-        add_ideas = the_white_linned_devil
+                        swap_ideas = { 
+  remove_idea = the_white_linned_mayor 
+  add_idea = the_white_linned_devil 
+}
         hidden_effect = { country_event = { id = COR.5 days = 50 } }
 
     }
@@ -549,7 +552,6 @@ country_event = {
 
         FBO = { add_ideas = acre_coari_naval_struggle }
 
-        COR = { transfer_state = 111 }
         hidden_effect = { country_event = { id = COR.8 days = 80 } }
     }
 }
@@ -570,7 +572,6 @@ country_event = {
 
         BIA = { add_ideas = acre_coari_naval_struggle }
 
-        COR = { transfer_state = 112 }
         hidden_effect = { country_event = { id = COR.9 days = 80 } }
     }
     
@@ -594,9 +595,6 @@ country_event = {
 
         98 = { add_core_of = COR }
         110 = { add_core_of = COR }
-
-        COR = { transfer_state = 98 }
-        COR = { transfer_state = 110 }
     }
     
 }

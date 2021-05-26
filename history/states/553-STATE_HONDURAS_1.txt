@@ -1,0 +1,16 @@
+
+state={
+	id=553
+	name="STATE_553"
+	history={
+		owner = HON
+		add_core_of = HON
+
+	}
+	provinces={
+		20 2933 6394 6395 
+	}
+	manpower=12933
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

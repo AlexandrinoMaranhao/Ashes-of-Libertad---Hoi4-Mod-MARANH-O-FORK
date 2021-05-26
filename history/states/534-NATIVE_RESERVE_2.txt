@@ -4,15 +4,15 @@ state={
 	provinces={
 		223 2089 2414 4246 4251 
 	}
+        resources = {
+rubber = 27
+
+}
 	manpower=643
         state_category=pastoral
 	buildings_max_level_factor=1.000
 history = {
 
-        resources = {
-rubber = 27
-
-}
 		buildings = {
 			infrastructure = 1
 

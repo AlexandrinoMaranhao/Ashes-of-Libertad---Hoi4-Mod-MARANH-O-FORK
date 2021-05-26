@@ -8,7 +8,52 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #    
-          
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_the_silver_library"
+	texturefile = "gfx/interface/goals/ACR_the_silver_library.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_champion_the_anthropofafafafafa"
+	texturefile = "gfx/interface/goals/ACR_champion_the_anthropofafafafafa.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_attract_intelectuals"
+	texturefile = "gfx/interface/goals/ACR_attract_intelectuals.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_the_inner_circle"
+	texturefile = "gfx/interface/goals/ACR_the_inner_circle.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_expand_wing_x"
+	texturefile = "gfx/interface/goals/ACR_expand_wing_x.dds"
+	}	
+            
+	SpriteType = {
+	name = "GFX_goal_ACR_expand_the_frogmen_corps"
+	texturefile = "gfx/interface/goals/ACR_expand_the_frogmen_corps.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_the_greatest_loghouse"
+	texturefile = "gfx/interface/goals/ACR_the_greatest_loghouse.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_nationalize_the_rubber_industry"
+	texturefile = "gfx/interface/goals/ACR_nationalize_the_rubber_industry.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_the_state_above_all"
+	texturefile = "gfx/interface/goals/ACR_the_state_above_all.dds"
+	}	
+    
 	SpriteType = {
 	name = "GFX_goal_ACR_trimming_the_thick_bush"
 	texturefile = "gfx/interface/goals/ACR_trimming_the_thick_bush.dds"

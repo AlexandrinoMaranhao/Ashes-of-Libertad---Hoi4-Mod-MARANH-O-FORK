@@ -2,19 +2,23 @@
 state={
 	id=241
 	name="STATE_241"
-	provinces={
-		285 1682 2953 2955 
+
+	history={
+		owner = HON
+		add_core_of = HON
+		victory_points = {
+			2955 10 
+		}
+		victory_points = {
+			285 5 
+		}
+
 	}
-	manpower=89504
-        state_category=large_city
+
+	provinces={
+		2952 6416 6417 6418 6419 6420 
+	}
+	manpower=349504
 	buildings_max_level_factor=1.000
-            history = {
-             owner=HON
-             add_core_of = HON
-             victory_points = {
-             2955 10
-             }
-             victory_points =  {
-             285 5
-             }
+	state_category=large_city
 }

@@ -5,13 +5,12 @@ state={
 		186 4072 
 	}
 
-history = {
-owner=ACR
-
         resources = {
 rubber = 24
 
 }
+history = {
+owner=ACR
 		buildings = {
 			infrastructure = 1
 

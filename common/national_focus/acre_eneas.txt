@@ -274,7 +274,7 @@ shared_focus = {
 	completion_reward = {	
 		88 = {
 			set_state_name = "Test Zone M.R"
-			add_manpower = -30000
+			add_manpower = -35382
 			add_building_construction = { type = arms_factory level = 1 instant_build = yes }
 			add_building_construction = { type = bunker level = 2 instant_build = yes province = { all_provinces = yes limit_to_border = yes } }
 			add_victory_points = { province = 1211 value = -5 }
@@ -285,7 +285,7 @@ shared_focus = {
 			}
 		}
 		141 = {
-			add_manpower = 30000
+			add_manpower = 35382
 		}
 		set_variable = { ACR_production_speed_bunker_factor = 0.2 }
 		custom_effect_tooltip = ACR_rondonia_testing_grounds_tt
@@ -294,7 +294,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_fake_smiles_and_hand_shakes
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_fake_smiles_and_handshakes
 	prerequisite = { focus = ACR_matters_of_national_reedification }
 	relative_position_id = ACR_matters_of_national_reedification
 
@@ -574,7 +574,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_riverines
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_expand_the_frogmen_corps
 	prerequisite = { focus = ACR_fluvial_supremacy }
 	prerequisite = { focus = ACR_army_whatever }
 	relative_position_id = ACR_army_whatever
@@ -586,22 +586,24 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
+		hidden_effect = {
 		load_oob = ACR_frogmen
+		}
 		107 = {
 			create_unit = {
-				division = "name = \"Acrean Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 2409"
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 2409"
 				owner = ACR
 			}
 			create_unit = {
-				division = "name = \"Acrean Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4228"
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4228"
 				owner = ACR
 			}
 			create_unit = {
-				division = "name = \"Acrean Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 1120"
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 1120"
 				owner = ACR
 			}
 			create_unit = {
-				division = "name = \"Acrean Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4201"
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4201"
 				owner = ACR
 			}
 		}
@@ -611,7 +613,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_nationalize_the_rubber_industry
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_nationalize_the_rubber_industry
 	prerequisite = { focus = ACR_economy_and_army }
 	relative_position_id = ACR_economy_and_army
 
@@ -631,7 +633,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_the_state_controls_all
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_the_state_above_all
 	prerequisite = { focus = ACR_nationalize_the_rubber_industry }
 	relative_position_id = ACR_nationalize_the_rubber_industry
 
@@ -692,7 +694,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_the_greatest_log_house
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_the_greatest_loghouse
 	prerequisite = { focus = ACR_found_the_prona }
 	relative_position_id = ACR_found_the_prona
 
@@ -726,7 +728,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_uphold_anthropophagic_ideals
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_champion_the_anthropofafafafafa
 	prerequisite = { focus = ACR_anthropology_lessons }
 	relative_position_id = ACR_anthropology_lessons
 
@@ -763,7 +765,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_attract_intellectuals
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_attract_intelectuals
 	prerequisite = { focus = ACR_the_greatest_log_house }
 	relative_position_id = ACR_the_greatest_log_house
 
@@ -780,7 +782,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_eneas_inner_circle
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_the_inner_circle
 	prerequisite = { focus = ACR_attract_intellectuals }
 	relative_position_id = ACR_attract_intellectuals
 
@@ -798,7 +800,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_the_silver_library
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_the_silver_library
 	prerequisite = { focus = ACR_uphold_anthropophagic_ideals }
 	prerequisite = { focus = ACR_eneas_inner_circle }
 	relative_position_id = ACR_eneas_inner_circle
@@ -821,7 +823,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ACR_new_research_facilities
-	icon = GFX_goal_the_cerqueira_presidency
+	icon = GFX_goal_ACR_expand_wing_x
 	prerequisite = { focus = ACR_the_greatest_log_house }
 	relative_position_id = ACR_the_greatest_log_house
 

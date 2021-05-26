@@ -31,7 +31,7 @@ add_ideas = {
 
 	SOV_the_submarine_fleet
 SOV_arkhipovs_remorse
-SOV_unwilling_occupation
+
 }
 
 create_country_leader = {

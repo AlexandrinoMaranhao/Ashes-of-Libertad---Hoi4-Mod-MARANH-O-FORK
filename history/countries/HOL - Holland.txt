@@ -29,8 +29,8 @@ add_ideas = {
 	limited_exports
 	civilian_economy
 	volunteer_only
-	HOL_his_magesty_contested
-HOL_old_business
+	#HOL_his_magesty_contested
+#HOL_old_business
 HOL_suriname_nationalism
 }
 

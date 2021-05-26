@@ -38,7 +38,7 @@ set_popularities = {
 
 add_ideas = {
 scars_of_guanabara
-one_last_effort
+
 naval_bias
 	closed_economy
 	partial_economic_mobilisation
@@ -62,7 +62,7 @@ create_country_leader = {
 
 create_country_leader = {
 	
-	name = "Emperor Rademaker"
+	name = "Emperor Rademaker I"
 	picture = "gfx/leaders/CRJ/Portrait_CRJ_Imperial_Rademaker.dds"
 	expire = "1999.1.1"
 	ideology = monarchy_status_quo

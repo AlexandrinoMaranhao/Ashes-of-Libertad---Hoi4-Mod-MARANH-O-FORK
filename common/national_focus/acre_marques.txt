@@ -375,6 +375,10 @@ shared_focus = {
 	relative_position_id = ACR_marques_presidency
 	icon = GFX_goal_ACR_desperate_negotiations
 
+	available = {
+		has_country_flag = passed_the_mordaca_act
+	}
+
 	x = 3
 	y = 1
 	cost = 1
@@ -713,6 +717,7 @@ shared_focus = {
 		add_opinion_modifier = {
 			target = ERN
 			modifier = ACR_marques_public_relationship
+			stability_factor = -0.1
 		}
 		ERN = {
 			add_opinion_modifier = {

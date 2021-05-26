@@ -1,0 +1,16 @@
+state={
+	id=555
+	name="STATE_555"
+
+	history={
+		owner = HON
+		add_core_of = HON
+
+	}
+	provinces={
+		285 440 2947 2953 2955 6427 6446 6449 6450 6462 
+	}
+	manpower=514759
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

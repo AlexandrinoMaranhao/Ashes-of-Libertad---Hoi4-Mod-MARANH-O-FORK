@@ -1,18 +1,21 @@
+
 state={
 	id=505
 	name="STATE_505"
+
+	history={
+		owner = HON
+		add_core_of = HON
+		victory_points = {
+			2952 5 
+		}
+
+	}
+
 	provinces={
-		20 440 2946 2947 2952 
+		2946 6413 6414 6415 6421 6422 6423 6424 6425 6426 
 	}
 	manpower=166951
 	buildings_max_level_factor=1.000
 	state_category=town
-	history={
-		owner = HON
-		add_core_of = HON
-		victory_points =
-		{
-		2952 5
-		}
-	}
 }

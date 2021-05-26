@@ -3,14 +3,14 @@ state={
 	id=532
 	name="STATE_532"
 
-	history={
-		owner = ACR
-		add_core_of = ACR
-
         resources = {
 rubber = 20
 
 }
+	history={
+		owner = ACR
+		add_core_of = ACR
+
 		buildings = {
 			infrastructure = 1
 	

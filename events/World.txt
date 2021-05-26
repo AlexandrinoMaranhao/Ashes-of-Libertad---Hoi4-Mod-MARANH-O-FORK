@@ -372,6 +372,7 @@ news_event = { # Prestes Event Pt2
 
 	option = {
 		name = world.35.a
+		hidden_effect = {
 			ROR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
 			RMI = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
 			FBO = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
@@ -393,6 +394,8 @@ news_event = { # Prestes Event Pt2
 			VAL = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
 			SAO = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
 			CFD = { add_timed_idea = { idea = bad_carlos_prestes_return  days = 365 } }
+			}
+			
 	}
 }
 
@@ -406,6 +409,7 @@ news_event = { # Goulart wins
 
 	option = {
 		name = world.36.a
+		BRA = {remove_ideas = overdue_elections}
 	}
 }
 
@@ -419,6 +423,7 @@ news_event = { # JK wins
 
 	option = {
 		name = world.37.a
+		BRA = {remove_ideas = overdue_elections}
 	}
 }
 
@@ -432,6 +437,7 @@ news_event = { # Lott wins
 
 	option = {
 		name = world.38.a
+		BRA = {remove_ideas = overdue_elections}
 	}
 }
 
@@ -445,6 +451,7 @@ news_event = { # Brizola wins
 
 	option = {
 		name = world.39.a
+		BRA = {remove_ideas = overdue_elections}
 	}
 }
 
@@ -458,6 +465,7 @@ news_event = { # Monarchists wins
 
 	option = {
 		name = world.40.a
+		BRA = {remove_ideas = overdue_elections}
 	}
 }
 

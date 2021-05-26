@@ -27,7 +27,7 @@ set_popularities = {
 
 add_ideas = {
 	RPU_dependency
-RPU_burn_marks_of_the_red_sun
+
 }
 
 create_country_leader = {
