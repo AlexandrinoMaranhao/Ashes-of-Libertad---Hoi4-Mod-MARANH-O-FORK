@@ -16,6 +16,14 @@ country_event = {
     fire_only_once = yes 
 
     option = {
+
+    every_country = {
+        news_event = {
+            id = world.74
+            days = 1
+        }
+    }
+
         declare_war_on = {
             target = JCL
             type = civil_war

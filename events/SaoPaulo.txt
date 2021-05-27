@@ -10,6 +10,13 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+
+    every_country = {
+        news_event = {
+            id = world.78
+            days = 1
+        }
+    }
         PAU = { transfer_state = 28 }
         PAU = { transfer_state = 502 }
         PAU = { transfer_state = 501 }

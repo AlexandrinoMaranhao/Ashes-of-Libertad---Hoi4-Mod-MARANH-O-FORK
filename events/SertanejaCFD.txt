@@ -249,6 +249,13 @@ country_event = {
 
     option = {
         name = CFD.5.a
+
+    every_country = {
+        news_event = {
+            id = world.79
+            days = 1
+        }
+    }
         ALA = {
             transfer_state  = 10
             declare_war_on = {

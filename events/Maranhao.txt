@@ -13,6 +13,13 @@ country_event = {
 
     option = {
         name = MNH_war.1.a
+
+    every_country = {
+        news_event = {
+            id = world.75
+            days = 1
+        }
+    }
         set_global_flag = SER_MNH_split_war
         declare_war_on = {
             target = PIA
@@ -30,6 +37,13 @@ country_event = {
 
     option = {
         name = MNH_war.2.a
+
+    every_country = {
+        news_event = {
+            id = world.75
+            days = 1
+        }
+    }
         clr_global_flag = SER_MNH_split_war
         transfer_state = 17
         transfer_state = 474
@@ -49,6 +63,12 @@ country_event = {
     option = {
         name = MNH.1.a
 
+    every_country = {
+        news_event = {
+            id = world.75
+            days = 1
+        }
+    }
         annex_country = {
             target = PIA
             transfer_troops = no

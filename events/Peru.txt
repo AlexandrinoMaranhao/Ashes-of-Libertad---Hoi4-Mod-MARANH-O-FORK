@@ -12,13 +12,20 @@ country_event = { #FUCK THE NLA REP
     option = {
       name = PERU.1.a
 
-      declare_war_on = {
+    every_country = {
+        news_event = {
+            id = world.62
+            days = 1
+        }
+    }
+ 
+    declare_war_on = {
         target = NLA
         type = annex_everything
       }
         340 = {
     add_core_of = RPE
-}
+        }
     }
 }
 
@@ -32,11 +39,12 @@ country_event = { #FUCK THE NLA MIL
 
     option = {
       name = PERU.5.a
-
+PMI = {
       declare_war_on = {
         target = NLA
         type = annex_everything
       }
+}
         340 = {
     add_core_of = PMI
 }
@@ -55,6 +63,13 @@ country_event = {
     option = {
       name = PERU.2.a
 
+    every_country = {
+        news_event = {
+            id = world.63
+            days = 1
+        }
+    }
+ 
       declare_war_on = {
         target = HIE
         type = annex_everything
@@ -264,6 +279,16 @@ country_event = {
 
    option = {
         name = PERUNORTE.1.a
+
+
+    every_country = {
+        news_event = {
+            id = world.68
+            days = 1
+        }
+    }
+ 
+
     PRU = {
     set_politics = {
                     ruling_party = communism

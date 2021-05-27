@@ -122,9 +122,26 @@ defined_text = {
     }
 
 	text = {
+   	    trigger = {
+   		    tag = USR
+   		    has_government = fascism
+   	}
+   	    localization_key = USR_FIRST_TITLE
+    }
+
+	text = {
+   	    trigger = {
+   		    tag = SAO
+   		    has_government = democratic
+   	}
+   	    localization_key = SAO_FIRST_TITLE
+    }
+
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
+
 ###########################
 defined_text = {
 	name = GetSecondTitle
@@ -244,6 +261,24 @@ defined_text = {
 		}
 		localization_key = HON_SECOND_TITLE
 	}
+
+	text = {
+		trigger = {
+			tag = SAO
+			has_government = democratic
+		}
+		localization_key = SAO_SECOND_TITLE
+	}
+
+
+	text = {
+		trigger = {
+			tag = USR
+			has_government = fascism
+		}
+		localization_key = USR_SECOND_TITLE
+	}
+
 
 	text = {
 		trigger = {
@@ -381,6 +416,22 @@ defined_text = {
 
 	text = {
 		trigger = {
+			tag = SAO
+			has_government = democratic
+		}
+		localization_key = SAO_SECOND_LEADER
+	}
+
+	text = {
+		trigger = {
+			tag = USR
+			has_government = fascism
+		}
+		localization_key = USR_SECOND_LEADER
+	}
+
+	text = {
+		trigger = {
 			tag = HNL
 	    }
 		localization_key = HNL_SECOND_LEADER
@@ -409,8 +460,7 @@ defined_text = {
 			has_government = communism
 		}
 		localization_key = "GFX_ROR_ONOFRE_PINTO"
-	}	
-
+	}
 		text = {
 		trigger = {
 			tag = PAT
@@ -418,7 +468,6 @@ defined_text = {
 		}
 		localization_key = "GFX_PAT_GARANTIDO"
 	}	
-	
 		text = {
 		trigger = {
 			tag = STR
@@ -426,7 +475,6 @@ defined_text = {
 		}
 		localization_key = "GFX_STR_DUAL_WERBEL"
 	}	
-	
 		text = {
 		trigger = {
 			tag = XIN
@@ -434,7 +482,6 @@ defined_text = {
 		}
 		localization_key = "GFX_XIN_CLAUDIO"
 	}	
-	
 		text = {
 		trigger = {
 			tag = DRE
@@ -442,7 +489,6 @@ defined_text = {
 		}
 		localization_key = "GFX_DRE_FAURE"
 	}	
-	
 		text = {
 		trigger = {
 			tag = COR
@@ -450,7 +496,6 @@ defined_text = {
 		}
 		localization_key = "GFX_COR_HIRSCH"
 	}	
-	
 		text = {
 		trigger = {
 			tag = COR
@@ -458,7 +503,6 @@ defined_text = {
 		}
 		localization_key = "GFX_COR_ACRIS"
 	}	
-	
 		text = {
 		trigger = {
 			tag = JRM
@@ -466,7 +510,6 @@ defined_text = {
 		}
 		localization_key = "GFX_JRM_MEDICI"
 	}	
-	
 		text = {
 		trigger = {
 			tag = CRJ
@@ -475,7 +518,6 @@ defined_text = {
 		}
 		localization_key = "GFX_CRJ_MOURAO"
 	}	
-	
 		text = {
 		trigger = {
 			tag = PRU
@@ -484,7 +526,6 @@ defined_text = {
 		}
 		localization_key = "GFX_PRU_ODRIA"
 	}		
-
 		text = {
 		trigger = {
 			tag = HIE
@@ -493,7 +534,6 @@ defined_text = {
 		}
 		localization_key = "GFX_HIE_BLANCA"
 	}	
-
 		text = {
 		trigger = {
 			tag = VEN
@@ -523,6 +563,20 @@ defined_text = {
 			has_government = fascism	
 		}
 		localization_key = "GFX_HON_LOPEZ"
+	}
+	text = {
+		trigger = {
+			tag = SAO
+			has_government = democratic	
+		}
+		localization_key = "GFX_SAO_QUADROS"
+	}
+	text = {
+		trigger = {
+			tag = USR
+			has_government = fascism	
+		}
+		localization_key = "GFX_USR_IDK"
 	}
 	text = {
 		trigger = {

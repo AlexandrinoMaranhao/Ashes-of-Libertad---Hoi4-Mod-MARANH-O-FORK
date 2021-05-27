@@ -750,3 +750,239 @@ country_event = { # Border war lose
 		add_political_power = -25
 	}
 }
+
+news_event = { # March on Cusco
+	id = world.62
+	title = world.62.t
+	desc = world.62.d
+	picture = "GFX_news_event_eln_cusco"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.62.a
+	}
+}
+
+news_event = { # March on Lima
+	id = world.63
+	title = world.63.t
+	desc = world.63.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.63.a
+	}
+}
+
+news_event = { # Falklands War
+	id = world.64
+	title = world.64.t
+	desc = world.64.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.64.a
+	}
+}
+
+news_event = { # QPM Crusade
+	id = world.65
+	title = world.65.t
+	desc = world.65.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.65.a
+	}
+}
+
+news_event = { # Carlos Lamarca
+	id = world.66
+	title = world.66.t
+	desc = world.66.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.66.a
+	}
+}
+
+news_event = { # Farmlands War
+	id = world.67
+	title = world.67.t
+	desc = world.67.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.67.a
+	}
+}
+
+news_event = { # APRA-UNO Breakup
+	id = world.68
+	title = world.68.t
+	desc = world.68.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.68.a
+	}
+}
+
+news_event = { # Battle for Manaus
+	id = world.69
+	title = world.69.t
+	desc = world.69.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.69.a
+	}
+}
+
+news_event = { # Amapá Intervention
+	id = world.70
+	title = world.70.t
+	desc = world.70.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.70.a
+	}
+}
+
+news_event = { # The Sertão War
+	id = world.71
+	title = world.71.t
+	desc = world.71.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.71.a
+	}
+}
+
+news_event = { # The Indian War
+	id = world.72
+	title = world.72.t
+	desc = world.72.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.72.a
+	}
+}
+
+news_event = { # Venezuelan Triumvirate
+	id = world.73
+	title = world.73.t
+	desc = world.73.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.73.a
+	}
+}
+
+news_event = { # the Junta Breakup
+	id = world.74
+	title = world.74.t
+	desc = world.74.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.74.a
+	}
+}
+
+news_event = { # Maranhão
+	id = world.75
+	title = world.75.t
+	desc = world.75.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.75.a
+	}
+}
+
+news_event = { # Rademaker
+	id = world.76
+	title = world.76.t
+	desc = world.76.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.76.a
+	}
+}
+
+news_event = { # Betancourt
+	id = world.77
+	title = world.77.t
+	desc = world.77.d
+	picture = "GFX_news_event_coari_ded"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.77.a
+	}
+}
+
+news_event = { # Paulista Uprising
+	id = world.78
+	title = world.78.t
+	desc = world.78.d
+	picture = "GFX_news_event_paulista_uprising"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.78.a
+	}
+}
+
+news_event = { # Collapse of the CFD
+	id = world.79
+	title = world.79.t
+	desc = world.79.d
+	picture = "GFX_news_event_prestes_3"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.79.a
+	}
+}
+
+

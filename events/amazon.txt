@@ -330,6 +330,13 @@ country_event = { #The Waimiri-Atroari-Manaus War
     #Answer
     option = {
     name = MNS.7.a
+
+    every_country = {
+        news_event = {
+            id = world.72
+            days = 1
+        }
+    }
         MNS = { declare_war_on = {
             target = WAM
             type = annex_everything
@@ -752,6 +759,14 @@ country_event = {
             type = annex_everything
             } 
         }
+
+    every_country = {
+        news_event = {
+            id = world.69
+            days = 1
+        }
+    }
+ 
         hidden_effect = { country_event = { id = NHA.3 days = 90 } }
     }
 }
@@ -888,6 +903,13 @@ country_event = {
     option = {
     name = FBO.4.a
 
+    every_country = {
+        news_event = {
+            id = world.66
+            days = 1
+        }
+    }
+ 
     QPM = { 
     remove_ideas = antas 
     remove_ideas = modern_missiones
@@ -905,6 +927,14 @@ country_event = {
     }
     option = {
     name = FBO.4.b
+
+    every_country = {
+        news_event = {
+            id = world.65
+            days = 1
+        }
+    }
+ 
     QPM = {
 remove_ideas = antas 
 remove_ideas = fonte_boa_influence
@@ -1076,6 +1106,7 @@ country_event = {
         BEM = { transfer_state = 135 }
         BEM = { transfer_state = 95  }
 
+        hidden_effect = { country_event = { id = BEM.8 days = 50 } }
         hidden_effect = { country_event = { id = BEM.6 days = 150 } }
     }
 }
@@ -1136,5 +1167,31 @@ random_list = {
 
 }
         #hidden_effect = { country_event = { id = MNS.9 days = 80 } }
+    }
+}
+
+country_event = { #Amapá
+    id = BEM.8
+    title = BEM.8.t
+    desc = BEM.8.d
+    picture = GFX_report_event_acre_flag
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    #Answer
+    option = {
+    name = BEM.8.a
+
+    every_country = {
+        news_event = {
+            id = world.70
+            days = 1
+        }
+    }
+    declare_war_on = {
+            target = AMA
+            type = annex_everything
+            }  
+
     }
 }

@@ -1,10 +1,26 @@
+
 spriteTypes = {
 #								
 #	spriteType = {
 #		name = "GFX_"
 #		texturefile = "gfx/event_pictures/.dds"
 #	}
-#										
+#									
+	spriteType = {
+		name = "GFX_news_event_prestes_3"
+		texturefile = "gfx/event_pictures/news_event_prestes_3.dds"
+	}
+																			
+	spriteType = {
+		name = "GFX_news_event_paulista_uprising"
+		texturefile = "gfx/event_pictures/news_event_paulista_uprising.dds"
+	}
+																																		
+	spriteType = {
+		name = "GFX_news_event_eln_cusco"
+		texturefile = "gfx/event_pictures/news_event_eln_cusco.dds"
+	}
+										
 	spriteType = {
 		name = "GFX_news_event_Cury_president"
 		texturefile = "gfx/event_pictures/news_event_Cury_president.dds"

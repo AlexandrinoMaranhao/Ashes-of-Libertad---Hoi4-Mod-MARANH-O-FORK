@@ -124,4 +124,15 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/HON/Portrait_HON_Modesto_Rodas_Alvarado.dds"
 	}
 
+	spriteType = {
+		name = "GFX_SAO_QUADROS"
+		texturefile = "gfx/dual_leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USR_IDK"
+		texturefile = "gfx/dual_leaders/USR/Portrait_USA_Juan_Cordero.dds"
+	}
+
+
 }

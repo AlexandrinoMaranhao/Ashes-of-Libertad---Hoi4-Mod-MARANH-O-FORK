@@ -18,6 +18,13 @@ country_event = {
 
     option = {
         name = VEN_Bettancourt_Assassination_Fails.1.A
+
+    every_country = {
+        news_event = {
+            id = world.67
+            days = 1
+        }
+    }
        VEN = { country_event = { id = VEN_Collapse_Comes_Later_Path.1 days = 0 } }
 
     }
@@ -33,6 +40,13 @@ country_event = {
 
     option = {
         name = VEN_Bettancourt_Assassination_Gun.1.A
+
+    every_country = {
+        news_event = {
+            id = world.77
+            days = 1
+        }
+    }
        VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.1 days = 0 } }
 
     }
@@ -48,6 +62,13 @@ country_event = {
 
     option = {
         name = VEN_Bettancourt_Assassination_Explosion.1.A
+
+    every_country = {
+        news_event = {
+            id = world.77
+            days = 1
+        }
+    }
        VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.1 days = 0 } }
 
     }
@@ -63,6 +84,13 @@ country_event = {
 
     option = {
         name = VEN_Bettancourt_Assassination_Aiplane.1.A
+
+    every_country = {
+        news_event = {
+            id = world.77
+            days = 1
+        }
+    }
        VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.1 days = 0 } }
 
     }
@@ -374,6 +402,14 @@ country_event = {
 
     option = {
         name = VEN_Collapse_End.1.A
+
+    every_country = {
+        news_event = {
+            id = world.73
+            days = 1
+        }
+    }
+
        VEN = { country_event = { id = VEN_Collapse_End.2 days = 120 } }
        VEN = { set_cosmetic_tag = VEN_UNION }
        VEJ = { set_cosmetic_tag = VEJ_UNION }

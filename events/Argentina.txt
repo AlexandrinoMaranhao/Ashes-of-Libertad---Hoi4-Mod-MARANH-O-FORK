@@ -44,6 +44,14 @@ country_event = { #### Falklands Reclamation
             target = FAK
             type = annex_everything
         }
+
+    every_country = {
+        news_event = {
+            id = world.64
+            days = 1
+        }
+    }
+ 
         add_state_core = 153
         add_state_core = 514
         hidden_effect = { country_event = { id = ARG_aiwar.2 days = 574 } country_event = { id = ARG_aiwar.5 days = 90 } }
