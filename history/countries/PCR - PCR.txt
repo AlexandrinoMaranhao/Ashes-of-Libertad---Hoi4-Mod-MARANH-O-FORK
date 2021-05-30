@@ -1,6 +1,6 @@
-﻿capital = 1
+﻿capital = 53
 
-#oob = ""
+oob = "PCB_Bahia"
 
 # Starting tech
 set_technology = {

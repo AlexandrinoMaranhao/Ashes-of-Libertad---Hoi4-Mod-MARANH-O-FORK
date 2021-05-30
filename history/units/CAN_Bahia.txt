@@ -1,0 +1,63 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Cangaceiros"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Artilharia de Campanha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Batalhão de Cangaceiros de Vitória"
+		location = 2542
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Cangaceiros de Guanambi"
+		location = 2307
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Cangaceiros de Bom Jesus"
+		location = 1253
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}

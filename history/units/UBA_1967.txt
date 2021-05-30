@@ -18,7 +18,7 @@ units = {
 		name = "36º Batalhão de Infantaria Motorizado"
 		location = 1371
 		division_template = "Infantaria Motorizado"
-		start_experience_factor = 0.6
+		start_experience_factor = 1
 		start_equipment_factor = 0.7
 	}
 }

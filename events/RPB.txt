@@ -17,6 +17,9 @@ country_event = {
             days = 1
         }
     }
+    load_oob = "RPB_Bahia"
+
+		remove_ideas = the_baiana_revolt
 		remove_ideas = free_port_of_salvador
 		remove_ideas = anarchist_powerkeg
 		remove_ideas = cangaceiros_heavy
@@ -24,6 +27,7 @@ country_event = {
 		BMF = {
 			transfer_state  = 52
 
+    load_oob = "BMF_Bahia"
 			declare_war_on = {
 				target = RPB 
 				type = annex_everything
@@ -47,6 +51,7 @@ country_event = {
 
 		CAN = {
 			transfer_state  = 463
+    load_oob = "CAN_Bahia"
 
 			declare_war_on = {
 				target = RPB 
@@ -71,6 +76,7 @@ country_event = {
 
 		MAL = {
 			transfer_state  = 53
+    load_oob = "MAL_Bahia"
 
 			declare_war_on = {
 				target = RPB 
@@ -95,6 +101,7 @@ country_event = {
 
 		PCR = {
 			transfer_state  = 57
+    load_oob = "PCB_Bahia"
 
 			declare_war_on = {
 				target = RPB 

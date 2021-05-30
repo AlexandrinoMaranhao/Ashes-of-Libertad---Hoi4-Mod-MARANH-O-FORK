@@ -1,6 +1,6 @@
 ﻿capital = 59
 
-#oob = ""
+oob = "CNU_1967"
 
 # Starting tech
 set_technology = {
