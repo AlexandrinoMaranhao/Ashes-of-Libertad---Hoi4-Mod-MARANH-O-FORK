@@ -937,7 +937,7 @@ news_event = { # Rademaker
 	id = world.76
 	title = world.76.t
 	desc = world.76.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_rademaker"
 
 	is_triggered_only = yes
 
@@ -984,5 +984,35 @@ news_event = { # Collapse of the CFD
 		name = world.79.a
 	}
 }
+
+news_event = { # Tea War
+	id = world.80
+	title = world.80.t
+	desc = world.80.d
+	picture = "GFX_news_event_tea_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.80.a
+	}
+}
+
+news_event = { # Bahian Anarchy
+	id = world.81
+	title = world.81.t
+	desc = world.81.d
+	picture = "GFX_news_event_bahia"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.81.a
+	}
+}
+
+
+
+
 
 

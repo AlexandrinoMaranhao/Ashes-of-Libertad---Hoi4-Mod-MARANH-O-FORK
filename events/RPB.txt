@@ -11,13 +11,16 @@ country_event = {
     option = {
 	  name = RPB.1.a
 	  
-		set_politics = {
-			ruling_party = reactionary
-		}
+    every_country = {
+        news_event = {
+            id = world.81
+            days = 1
+        }
+    }
 		remove_ideas = free_port_of_salvador
 		remove_ideas = anarchist_powerkeg
 		remove_ideas = cangaceiros_heavy
-
+		add_ideas = the_women_revolt
 		BMF = {
 			transfer_state  = 52
 

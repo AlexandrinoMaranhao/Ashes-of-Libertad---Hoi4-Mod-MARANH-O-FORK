@@ -162,6 +162,12 @@ country_event = { #AZHADRON VS OVEJA WHO WILL WIN?????
             type = annex_everything
         }
 
+    every_country = {
+        news_event = {
+            id = world.80
+            days = 1
+        }
+    }
         hidden_effect = { country_event = { id = ARG_chile_war.1 days = 68 } }
 
     }
