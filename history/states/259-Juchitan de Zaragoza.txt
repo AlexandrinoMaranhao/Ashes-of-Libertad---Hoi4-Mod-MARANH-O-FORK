@@ -8,11 +8,13 @@ state={
 		add_core_of = MEX
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
 	provinces={
-		189 242 1656 1667 2230 2924 2926 6230 6231 
+		67 116 130 189 769 867 1126 1135 1225 1534 1656 1687 1990 2085 2917 2924 2926 2928 
 	}
 	manpower=150293
 	buildings_max_level_factor=1.000

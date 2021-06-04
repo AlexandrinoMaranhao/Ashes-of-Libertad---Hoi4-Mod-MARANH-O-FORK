@@ -1,35 +1,41 @@
+
 state={
 	id=262
 	name="STATE_262"
-	provinces={
-		528 603 631 881 887 1003 1059 1122 1587 1620 1677 1732 2458 2560 2893 
+	resources={
+		ammunition=3.000
 	}
-        resources = {
-                ammunition = 3.000
-        }
-	manpower=143023
-        state_category=rural
-	buildings_max_level_factor=1.000
-        history = {
- 		owner = MEX
+
+	history={
+		owner = MEX
 		add_core_of = MEX
-                victory_points = {
-                        528 1
-                }
-                victory_points = {
-                        881 3
-                }
-                victory_points = {
-                        603 30
-                }
-                victory_points = {
-                        2560 3
-                }
+		victory_points = {
+			528 1 
+		}
+		victory_points = {
+			881 3 
+		}
+		victory_points = {
+			603 30 
+		}
+		victory_points = {
+			2560 3 
+		}
 		buildings = {
 			infrastructure = 4
-                        2560 = {
-                                naval_base = 2
-                        }
+			2560 = {
+				naval_base = 2
+
+			}
+
 		}
-        }
+
+	}
+
+	provinces={
+		881 1059 1587 1620 1677 1732 
+	}
+	manpower=143023
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

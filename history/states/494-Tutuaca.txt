@@ -1,20 +1,25 @@
+
 state={
 	id=494
 	name="STATE_494"
-	provinces={
-		102 243 451 564 616 1316 2746 
-	}
-	manpower=3054
-    state_category = wasteland
-	buildings_max_level_factor=1.000
-    history = {
- 		owner = MEX
+
+	history={
+		owner = MEX
 		add_core_of = MEX
-        victory_points = {
-			616 1
-        }
+		victory_points = {
+			616 1 
+		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
+	provinces={
+		102 243 356 451 532 564 615 616 683 983 1316 1548 2290 2374 2430 2738 2746 2749 2766 
+	}
+	manpower=3054
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

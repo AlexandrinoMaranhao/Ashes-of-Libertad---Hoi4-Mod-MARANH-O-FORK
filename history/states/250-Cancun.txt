@@ -9,11 +9,13 @@ state={
 		add_core_of = EJR
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		773 952 2271 2862 
+		928 952 1057 1684 1747 1849 1910 2271 2859 2862 
 	}
 	manpower=34958
 	buildings_max_level_factor=1.000

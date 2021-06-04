@@ -7,16 +7,18 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-			2834 30
+			2834 30 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
+
 	}
 
 	provinces={
-		28 618 706 989 1381 2038 2294 2355 2819 2832 2834 6212 
+		28 201 706 989 1381 2038 2294 2355 2589 2692 2822 2832 2834 6212 
 	}
 	manpower=54392
 	buildings_max_level_factor=1.000

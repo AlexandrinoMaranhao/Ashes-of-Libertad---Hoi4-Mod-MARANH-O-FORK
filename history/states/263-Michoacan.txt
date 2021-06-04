@@ -2,23 +2,27 @@
 state={
 	id=263
 	name="STATE_263"
-	provinces={
-		58 398 777 955 1023 1103 1471 1735 1754 2718 2866 2869 2870 2879 2881 2890 6222 6223 
+	resources={
+		ammunition=3.000
 	}
-	resources = {
-		ammunition = 3.000
-	}
-	manpower=120493
-    state_category=town
-	buildings_max_level_factor=1.000
-    history = {
+
+	history={
 		owner = MEX
 		add_core_of = MEX
-        victory_points = {
-            2718 5
-        }
+		victory_points = {
+			2718 5 
+		}
 		buildings = {
 			infrastructure = 4
+
 		}
+
 	}
+
+	provinces={
+		528 631 777 887 955 1023 1103 1735 1754 2718 2866 2869 2870 2879 2881 2890 6222 6223 
+	}
+	manpower=120493
+	buildings_max_level_factor=1.000
+	state_category=town
 }

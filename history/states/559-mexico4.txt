@@ -1,0 +1,24 @@
+state={
+	id=559
+	name="STATE_559"
+	provinces={
+		2521 2882 
+	}
+	history={
+		owner = MEX
+		add_core_of = MEX
+		victory_points = {
+			2882 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	manpower=39420
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

@@ -2,23 +2,28 @@
 state={
 	id=264
 	name="STATE_264"
-	provinces={
-		16 325 434 465 1280 1432 1664 1842 1913 2535 2582 2593 2860 2863 2883 6221 
-	}
-	manpower=69343
-    state_category=town
-	buildings_max_level_factor=1.000
-    history = {
+
+	history={
 		owner = MEX
 		add_core_of = MEX
-        victory_points = {
-            434 5
-        }
+		victory_points = {
+			434 5 
+		}
 		buildings = {
 			infrastructure = 3
 			434 = {
 				naval_base = 2
+
 			}
+
 		}
+
 	}
+
+	provinces={
+		16 434 465 1280 1432 1842 1913 2560 2860 2863 2883 
+	}
+	manpower=39343
+	buildings_max_level_factor=1.000
+	state_category=town
 }

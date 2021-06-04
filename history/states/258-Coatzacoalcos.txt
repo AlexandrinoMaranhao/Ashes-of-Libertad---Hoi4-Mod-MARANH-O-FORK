@@ -2,27 +2,30 @@
 state={
 	id=258
 	name="STATE_258"
-	resources = {
-		oil = 4.000
+	resources={
+		oil=4.000
 	}
+
 	history={
 		owner = MEX
 		add_core_of = MEX
-        victory_points = {
-        	587 10
-        }
-        victory_points = {
-        	2900 5
-        }
+		victory_points = {
+			587 10 
+		}
+		victory_points = {
+			2900 5 
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
+
 	}
 
 	provinces={
-		196 568 586 587 1126 1513 1534 1687 1990 2633 2900 2917 
+		326 797 1467 1916 1947 2105 2449 2503 2865 2873 
 	}
 	manpower=490234
 	buildings_max_level_factor=1.000

@@ -3,30 +3,33 @@ state={
 	id=260
 	name="STATE_260"
 	resources={
-		steel = 12.000
-		ammunition = 12.000
-		technology = 4.000
-		motors = 2.000
+		steel=12.000
+		ammunition=12.000
+		technology=4.000
+		motors=2.000
 	}
+
 	history={
 		owner = MEX
 		add_core_of = MEX
-        victory_points = {
-        2882 40
-        }
-        victory_points = {
-        2891 10
-        }
+		victory_points = {
+			2882 40 
+		}
+		victory_points = {
+			2891 10 
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 7
 			air_base = 5
+
 		}
+
 	}
 
 	provinces={
-		515 797 1467 1916 1947 2521 2873 2882 2885 2886 2888 2889 2891 2902 
+		2885 2888 2889 
 	}
 	manpower=2043353
 	buildings_max_level_factor=1.000

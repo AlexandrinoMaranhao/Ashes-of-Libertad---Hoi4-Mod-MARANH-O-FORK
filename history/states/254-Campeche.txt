@@ -8,18 +8,20 @@ state={
 		add_core_of = MEX
 		add_core_of = EJR
 		victory_points = {
-		1412 5
+			1412 5 
 		}
 		victory_points = {
-		2601 30
+			2601 30 
 		}
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
 	provinces={
-		50 1412 2058 2601 2895 2901 2911 6224 
+		163 292 1671 2895 
 	}
 	manpower=251556
 	buildings_max_level_factor=1.000

@@ -7,18 +7,21 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-			2734 1
+			2734 1 
 		}
 		buildings = {
 			infrastructure = 3
 			2734 = {
 				naval_base = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		120 140 721 1083 1543 1779 2734 2780 2786 2787 2801 2804 2805 
+		140 672 1031 1702 1984 2186 2734 2772 2805 5044 
 	}
 	manpower=39423
 	buildings_max_level_factor=1.000
