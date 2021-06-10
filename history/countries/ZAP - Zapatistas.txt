@@ -95,24 +95,24 @@ add_equipment_to_stockpile = {
 set_convoys = 150
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1963.7.4"
 	election_frequency = 72
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 40
-	communism = 20
-	neutrality = 10
-	reactionary = 10
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
+	reactionary = 0
 }
 
 create_country_leader = {
-	name = "Antonio Danelon"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Danelon.dds"
+	name = "Rubén Jaramillo"
+	picture = "Portrait_ZAP_Rubén_Jaramillo.dds"
 	expire = "1974.4.13"
-	ideology = military_junta
+	ideology = guerrilla
 	traits = {
 		#
 	}
