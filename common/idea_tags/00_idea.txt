@@ -74,17 +74,17 @@ idea_categories = {
         removal_cost = 0
     }
 
-    development = {
-        slot = industrial_concern
-        slot = industrial_concern
-        slot = material_manufacturer
-        slot = tank_manufacturer
-        slot = naval_manufacturer
-        slot = aircraft_manufacturer
-
-        ledger = civilian
-
-        cost = 500
-        removal_cost = 0
-    }
+#    development = {
+#        slot = industrial_concern
+#        slot = industrial_concern
+#        slot = material_manufacturer
+#        slot = tank_manufacturer
+#        slot = naval_manufacturer
+#        slot = aircraft_manufacturer
+#
+#        ledger = civilian
+#
+#        cost = 500
+#        removal_cost = 0
+#    }
 }

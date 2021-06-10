@@ -118,6 +118,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = centrism
 	traits = {
+	gala_tupiniquim
 	}
 }
 
@@ -128,6 +129,8 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = marxism
 	traits = {
+	playmaker
+	syndical_activist
 	}
 }
 
@@ -138,6 +141,8 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = military_government
 	traits = {
+	dictator
+	warrior_code
 	}
 }
 
@@ -149,6 +154,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = provisional_government
 	traits = {
+	cabinet_crisis
 	}
 }
 

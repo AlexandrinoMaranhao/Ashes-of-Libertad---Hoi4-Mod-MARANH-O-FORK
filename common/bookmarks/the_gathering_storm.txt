@@ -4,138 +4,21 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "MNS"
-
-		MNS={
-			history = "MNS_GATHERING_STORM_DESC"
-                  ideology = fascism
-			ideas = {
-                        amazonas_theater
-                        the_rubber_barons
-                        what_apocalypse
-            }
-            focuses = {
-                
-                  }
-		}
+		default_country = "ACR"
 
 		ACR={
 			history = "ACR_GATHERING_STORM_DESC"
                   ideology = democratic
 		      ideas = {
-                        the_red_menace
-                        the_acrean_constitution
+                ACR_anti_bolivian_propaganda 
+                ACR_funai 
+                ACR_banana_bread_and_theater 
                   }
             focuses = {
-                ACR_the_red_menace
-                ACR_intro_final
-                ACR_the_senate
+                ACR_force_a_stage_of_siege
+                ACR_pass_native_defence_act
+                ACR_talk_business
                   }
-		}
-
-		COR={
-			history = "COR_GATHERING_STORM_DESC"
-                  ideology = democratic
-                  ideas = {
-                        the_white_linned_mayor 
-                        #pearl_of_solimoes 
-                        coari_desperation 
-                  }
-                  focuses = {
-                  }
-		}
-
-		BEM={
-			history = "BEM_GATHERING_STORM_DESC"
-                  ideology = fascism
-			ideas = {
-                        the_siege_of_altamira
-                        the_juntas_favorite_pet
-                        the_cabanos
-                  }
-                  focuses = {
-                  }
-		}
-
-		NHA={
-			history = "NHA_GATHERING_STORM_DESC"
-                  ideology = fascism
-			ideas = {
-                        the_amazonian_military_command
-                        what_are_we_fighting_for
-                        overcrowded_island
-                  }
-                  focuses = {
-                        
-                  }
-		}
-
-		KAY={
-			history = "KAY_GATHERING_STORM_DESC"
-                  ideology = neutrality
-			ideas = {
-                        the_kayapo
-                        cachimbo_military_base
-                        quick_modernization
-                  }
-                  focuses = {
-                
-                  }
-		}
-
-		ROR={
-			history = "ROR_GATHERING_STORM_DESC"
-                  ideology = communism
-			ideas = {
-                        misfits
-                        #the_northen_star
-                        no_administration_roraima
-                  }
-                  focuses = {
-                  }
-		}
-
-		QPM={
-			history = "QPM_GATHERING_STORM_DESC"
-                  ideology = reactionary
-			ideas = {
-                        antas
-                        modern_missiones
-                        the_10th_crusade
-                  }
-                  focuses = {
-                
-                  }
-		}
-
-		PAT={
-            minor = yes
-			history = "PAT_GATHERING_STORM_DESC"
-                  ideology = neutrality
-		}
-
-		FBO={
-            minor = yes
-			history = "FBO_GATHERING_STORM_DESC"
-                  ideology = communism
-		}
-
-		AMA={
-            minor = yes
-			history = "AMA_GATHERING_STORM_DESC"
-                  ideology = democratic
-		}
-
-		STR={
-            minor = yes
-			history = "STR_GATHERING_STORM_DESC"
-                  ideology = neutrality
-		}
-
-		NEB={
-            minor = yes
-			history = "NEB_GATHERING_STORM_DESC"
-                  ideology = fascism
 		}
 
 		effect = {
