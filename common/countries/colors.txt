@@ -812,3 +812,38 @@ KAT = {
 	color = rgb { 252 209 9 }
 	color_ui = rgb { 252 209 9 }
 }
+
+AMG = {
+	color = rgb { 31 156 68 }
+	color_ui = rgb { 31 156 68 }
+}
+
+AMP = {
+	color = rgb { 122 157 17 }
+	color_ui = rgb { 122 157 17 }
+}
+
+ERE = {
+	color = rgb { 255 127 39 }
+	color_ui = rgb { 255 127 39 }
+}
+
+ESH = {
+	color = rgb { 163 73 164 }
+	color_ui = rgb { 163 73 164 }
+}
+
+NGA = {
+	color = rgb { 127 51 0 }
+	color_ui = rgb { 127 51 0 }
+}
+
+TAB = {
+	color = rgb { 255 216 0 }
+	color_ui = rgb { 255 216 0 }
+}
+
+ZAP = {
+	color = rgb { 217 17 27 }
+	color_ui = rgb { 217 17 27 }
+}

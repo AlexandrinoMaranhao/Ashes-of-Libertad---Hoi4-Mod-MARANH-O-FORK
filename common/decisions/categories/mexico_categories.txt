@@ -11,3 +11,12 @@ mexican_ai_category = {
 		is_ai = yes
 	}
 }
+mexico_debug_category = {
+	allowed = {
+		is_mexican_nation = yes
+	}
+	available = {
+		is_debug = yes
+		is_ai = no
+	}
+}
