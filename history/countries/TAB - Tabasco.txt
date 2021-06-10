@@ -1,0 +1,119 @@
+capital = 254
+
+#oob = "MEX_DEMO"
+
+## Starting tech ##
+set_technology = {
+	# Infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	tech_mountaineers = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	motorised_infantry = 1
+	mechanised_infantry = 1
+
+	# Support
+	tech_support = 1
+	tech_engineers = 1
+	tech_maintenance_company = 1
+	tech_signal_company = 1
+
+	# Artillery
+	gw_artillery = 1
+
+	antiair5 = 1
+
+	interwar_antitank = 1
+
+	# Tank
+	gwtank = 1
+	basic_light_tank = 1
+
+	# Doctrine
+	mass_assault = 1
+	pocket_defence = 1
+	defence_in_depth = 1
+	peoples_army = 1
+	human_infantry_offensive = 1
+}
+
+## Stockpiles ##
+# Infantry
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 5000
+	producer = MEX
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 8000
+	producer = MEX
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 1000
+	producer = MEX
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 2500
+	producer = MEX
+}
+add_equipment_to_stockpile = {
+	type = mechanized_equipment_1
+	amount = 200
+	producer = MEX
+}
+
+# Artillery
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 1000
+	producer = MEX
+}
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 120
+	producer = MEX
+}
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+	amount = 120
+	producer = MEX
+}
+
+# Armored
+add_equipment_to_stockpile = {
+	type = light_tank_equipment_1
+	amount = 400
+	producer = MEX
+}
+
+set_convoys = 150
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1963.7.4"
+	election_frequency = 72
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 40
+	communism = 20
+	neutrality = 10
+	reactionary = 10
+}
+
+create_country_leader = {
+	name = "Antonio Danelon"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Danelon.dds"
+	expire = "1974.4.13"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}

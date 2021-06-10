@@ -145,3 +145,11 @@ mexican_ai_category = {
 		}
 	}
 }
+
+mexico_debug_category = {
+	MEX_spawn_all_collapse_factions = {
+		complete_effect = {
+			MEX_spawn_all_collapse_factions = yes
+		}
+	}
+}
