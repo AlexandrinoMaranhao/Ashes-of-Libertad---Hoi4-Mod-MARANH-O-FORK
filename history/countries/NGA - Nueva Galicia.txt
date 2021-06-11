@@ -1,4 +1,4 @@
-﻿capital = 273
+﻿capital = 267
 
 #oob = "MEX_DEMO"
 

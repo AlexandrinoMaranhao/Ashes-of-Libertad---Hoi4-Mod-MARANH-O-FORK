@@ -101,16 +101,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 40
-	communism = 20
-	neutrality = 10
-	reactionary = 10
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
+	reactionary = 0
 }
 
 create_country_leader = {
-	name = "Antonio Danelon"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Danelon.dds"
+	name = "Marcelino García Barragán"
+	picture = "Portrait_AMP_Marcelino_García_Barragán.dds"
 	expire = "1974.4.13"
 	ideology = military_junta
 	traits = {

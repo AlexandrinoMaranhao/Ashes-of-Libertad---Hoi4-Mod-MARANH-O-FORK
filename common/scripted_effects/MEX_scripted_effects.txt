@@ -274,4 +274,20 @@ MEX_spawn_all_collapse_factions = {
 		transfer_state = 251
 		transfer_state = 557
 	}
+	WAS = {#lol
+		transfer_state = 276
+		transfer_state = 494
+		transfer_state = 272
+		transfer_state = 493
+		transfer_state = 271
+		transfer_state = 492
+		transfer_state = 275
+		transfer_state = 274
+		transfer_state = 484
+		transfer_state = 482
+		transfer_state = 270
+		transfer_state = 269
+		transfer_state = 480
+		transfer_state = 479
+	}
 }
