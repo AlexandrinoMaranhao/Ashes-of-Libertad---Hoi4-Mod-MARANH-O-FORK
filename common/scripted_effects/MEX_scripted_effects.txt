@@ -274,20 +274,42 @@ MEX_spawn_all_collapse_factions = {
 		transfer_state = 251
 		transfer_state = 557
 	}
-	WAS = {#lol
-		transfer_state = 276
-		transfer_state = 494
-		transfer_state = 272
-		transfer_state = 493
-		transfer_state = 271
-		transfer_state = 492
-		transfer_state = 275
+	ESC = {
+		transfer_state = 265
+	}
+	HAL = {
+		transfer_state = 483
+	}
+	PHF = {
+		transfer_state = 269
+	}
+	LEB = {
+		transfer_state = 479
+	}
+	NAM = {
+		transfer_state = 480
+	}
+	NNM = {
 		transfer_state = 274
-		transfer_state = 484
+		transfer_state = 275
+	}
+	USA = {
 		transfer_state = 482
 		transfer_state = 270
-		transfer_state = 269
-		transfer_state = 480
-		transfer_state = 479
+		transfer_state = 492
+		transfer_state = 248
+		set_cosmetic_tag = USA_EMC
+	}
+	MTR = {
+		transfer_state = 271
+		transfer_state = 484
+		transfer_state = 493
+		transfer_state = 272
+	}
+	USW = {
+		transfer_state = 494
+		transfer_state = 276
+		transfer_state = 495
+		transfer_state = 277
 	}
 }
