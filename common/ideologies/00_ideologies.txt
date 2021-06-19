@@ -319,6 +319,9 @@ ideologies = {
 			christian_theocracy_reactionary = {
 			}
 
+			ultranationalism = {
+			}
+
 		}
 		
 		color = { 130 80 0 }

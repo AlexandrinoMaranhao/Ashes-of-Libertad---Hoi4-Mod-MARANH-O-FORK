@@ -1291,10 +1291,13 @@
  ECU_neutrality_DEF:0 "Ecuador"
  ECU_communism:0 "Los Huasipungos"
  ECU_communism_DEF:0 "the Huasipungo Guerrilla"
+ ECU_reactionary:0 "Los Huasipungos"
+ ECU_reactionary_DEF:0 "the Huasipungo Guerrilla"
  ECU_fascism_ADJ:0 "Ecuadorian"
  ECU_democratic_ADJ:0 "Ecuadorian"
  ECU_neutrality_ADJ:0 "Ecuadorian"
  ECU_communism_ADJ:0 "Huasipungo"
+ ECU_reactionary_ADJ:0 "Huasipungo"
 
  ELS_fascism:0 "El Salvador"
  ELS_fascism_DEF:0 "El Salvador"

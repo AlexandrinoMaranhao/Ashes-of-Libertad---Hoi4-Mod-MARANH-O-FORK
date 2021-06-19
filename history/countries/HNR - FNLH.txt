@@ -28,7 +28,7 @@ create_country_leader = {
 	name = "Juan Alberto Melgar Castro"
 	picture = "gfx/leaders/HON/Portrait_HON_Juan_Alberto_Melgar_Castro.dds"
 	expire = "1999.1.1"
-	ideology = fascism_ideology
+	ideology = ultranationalism
 	traits = {
 		#
 	}

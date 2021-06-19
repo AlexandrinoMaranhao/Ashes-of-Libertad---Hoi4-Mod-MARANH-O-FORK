@@ -565,6 +565,11 @@ spriteTypes = {
 		name = "GFX_ideology_christian_theocracy_reactionary"
 		texturefile = "gfx/interface/ideologies/christian_theocracy_reactionary.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_ultranationalism"
+		texturefile = "gfx/interface/ideologies/ultranationalism.dds"
+	}
 					
 	spriteType = {
 		name = "GFX_ideology_christian_theocracy"
@@ -599,6 +604,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_monarchy_status_quo"
+		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_marxism"
+		texturefile = "gfx/interface/ideologies/marxism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_maoism"
+		texturefile = "gfx/interface/ideologies/maoism.dds"
 	}
 				
 	spriteType = {
