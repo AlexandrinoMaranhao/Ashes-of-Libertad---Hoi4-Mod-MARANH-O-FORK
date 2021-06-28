@@ -41,3 +41,12 @@ create_country_leader = {
 	traits = {
 	}
 }
+create_country_leader = {
+	
+	name = "José Manuel Luís da Cunha Meneses"
+	picture = "gfx/leaders/ACR/Portrait_ACR_Meneses.dds"
+	expire = "1999.1.1"
+	ideology = centrism 
+	traits = {
+	}
+}
