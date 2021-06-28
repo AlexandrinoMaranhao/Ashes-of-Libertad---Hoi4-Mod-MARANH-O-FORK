@@ -1,0 +1,46 @@
+division_template = {
+	is_locked = yes
+	name = "Infanteria APRA"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	is_locked = yes
+	name = "Montaneros"
+	regiments = {
+		mountaineer = { x = 0 y = 0 }
+		mountaineer = { x = 0 y = 1 }
+        mountaineer = { x = 1 y = 0 }
+		mountaineer = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Infanteria de la APRA 1"
+		location = 4036
+		division_template = "Infanteria APRA"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la APRA 2"
+		location = 4036
+		division_template = "Infanteria APRA"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Montaneros de la APRA 1"
+		location = 4036
+		division_template = "Montaneros"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}

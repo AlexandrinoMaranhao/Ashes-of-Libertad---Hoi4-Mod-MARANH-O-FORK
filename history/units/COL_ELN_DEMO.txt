@@ -1,0 +1,49 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria ELN"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Infantaria ELN 1"
+		location = 2088
+		division_template = "Infantaria ELN"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria ELN 2"
+		location = 2088
+		division_template = "Infanteria ELN"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria ELN 3"
+		location = 2088
+		division_template = "Infanteria ELN"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria ELN 4"
+		location = 2088
+		division_template = "Infanteria ELN"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria ELN 4"
+		location = 2088
+		division_template = "Infanteria ELN"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}

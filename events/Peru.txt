@@ -332,6 +332,7 @@ country_event = {
         UNO = { transfer_state = 537 }
         UNO = { transfer_state = 538 }
         UNO = {
+			load_oob = UNO_1967
             declare_war_on = {
                 target = PRU
                 type = annex_everything

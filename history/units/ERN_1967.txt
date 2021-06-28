@@ -1,0 +1,49 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria Del Norte"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Infantaria Del Norte 1"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 2"
+		location = 4205
+		division_template = "Infanteria Del Norte"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 3"
+		location = 4205
+		division_template = "Infanteria Del Norte"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 4"
+		location = 4205
+		division_template = "Infanteria Del Norte"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 4"
+		location = 4205
+		division_template = "Infanteria Del Norte"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
