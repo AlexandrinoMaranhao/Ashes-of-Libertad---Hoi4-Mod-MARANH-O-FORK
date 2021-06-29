@@ -1197,8 +1197,10 @@ shared_focus = {
 					name = "José Marques de Souza"
 					picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Marques_de_Souza.dds"
 					expire = "1999.1.1"
-					ideology = marxism
+					ideology = socialism
 					traits = {
+						playmaker
+						syndical_activist
 					}
 				}
 				set_country_flag = marques_elected

@@ -127,7 +127,7 @@ create_country_leader = {
 	name = "José Marques de Souza"
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Marques_de_Souza.dds"
 	expire = "1999.1.1"
-	ideology = marxism
+	ideology = socialism
 	traits = {
 	playmaker
 	syndical_activist

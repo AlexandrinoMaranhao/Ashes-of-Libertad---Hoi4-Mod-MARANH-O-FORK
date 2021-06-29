@@ -26,7 +26,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "political_title"
-			position = { x = 45 y = 8 }
+			position = { x = 285 y = 8 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
@@ -46,7 +46,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 24 y = 340 }
+			position = { x= 21 y = 342 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
@@ -153,7 +153,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 9 y = 4 }
+				position = { x = 20 y = 4 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -162,7 +162,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 32 }
+				position = { x = 20 y = 32 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
@@ -390,15 +390,15 @@ guiTypes = {
 			size = { width = 360 height = 100 }
 			clipping = no
 						
-			instantTextboxType = {
-				name = "title"
-				position = { x = 110 y = -2 }
-				font = "hoi_18mbs"
-				text = "POLITICS_NATIONAL_SPIRIT"
-				maxWidth = 200
-				maxHeight = 20
-				alwaystransparent = yes
-			}
+			#instantTextboxType = {
+			#	name = "title"
+			#	position = { x =  y = -2 }
+			#	font = "hoi_18mbs"
+			#	text = "POLITICS_NATIONAL_SPIRIT"
+			#	maxWidth = 200
+			#	maxHeight = 20
+			#	alwaystransparent = yes
+			#}
 			
 			
 			containerWindowType = {
