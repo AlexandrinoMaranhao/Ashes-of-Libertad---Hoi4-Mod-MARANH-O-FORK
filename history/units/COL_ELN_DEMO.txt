@@ -19,30 +19,30 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria ELN 2"
+		name = "Infantaria ELN 2"
 		location = 2088
-		division_template = "Infanteria ELN"
+		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria ELN 3"
+		name = "Infantaria ELN 3"
 		location = 2088
-		division_template = "Infanteria ELN"
+		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria ELN 4"
+		name = "Infantaria ELN 4"
 		location = 2088
-		division_template = "Infanteria ELN"
+		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria ELN 4"
+		name = "Infantaria ELN 4"
 		location = 2088
-		division_template = "Infanteria ELN"
+		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}

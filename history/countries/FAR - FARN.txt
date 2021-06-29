@@ -1,6 +1,6 @@
 ﻿capital = 444
 
-#oob = "COL_DEMO"
+#oob = "FAR_DEMO"
 
 # Starting tech
 set_technology = {

@@ -110,6 +110,7 @@ country_event = {#regionals
 
 random_list = { 
 30 = {# Goulart wins
+ news_event = { id = world.36 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -137,11 +138,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 0
 }
- news_event = { id = world.36 } 
 
 }
 
 25 = {# JK wins
+ news_event = { id = world.37 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -166,11 +167,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 0
 }
- news_event = { id = world.37 } 
 
 }
 
 20 = {# Lott wins
+ news_event = { id = world.38 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -195,11 +196,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 6
 }
- news_event = { id = world.38 } 
 
 }
 
 20 = {# Brizola wins
+ news_event = { id = world.39 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -224,11 +225,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 20
 }
- news_event = { id = world.39 } 
 
 }
 
 5 = {# Monarchists wins
+ news_event = { id = world.40 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -253,7 +254,6 @@ set_popularities = {
     neutrality = 0
     reactionary = 55
 }
- news_event = { id = world.40 } 
  set_cosmetic_tag = BRA_MONARCHY
 
 }
@@ -275,6 +275,7 @@ country_event = {#nationals
 random_list = { 
 
 25 = {# Goulart wins
+ news_event = { id = world.36 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -302,11 +303,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 0
 }
- news_event = { id = world.36 } 
 
 }
 
 20 = {# JK wins
+ news_event = { id = world.37 }
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -330,12 +331,12 @@ set_popularities = {
     communism = 10
     neutrality = 0
     reactionary = 0
-}
- news_event = { id = world.37 } 
+} 
 
 }
 
 25 = {# Lott wins
+ news_event = { id = world.38 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -360,11 +361,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 6
 }
- news_event = { id = world.38 } 
 
 }
 
 10 = {# Brizola wins
+ news_event = { id = world.39 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -389,11 +390,11 @@ set_popularities = {
     neutrality = 0
     reactionary = 20
 }
- news_event = { id = world.39 } 
 
 }
 
 20 = {# Monarchists wins
+ news_event = { id = world.40 } 
 kill_country_leader = yes
 set_party_name = {
     ideology = democratic
@@ -419,7 +420,6 @@ set_popularities = {
     reactionary = 55
 }
  set_cosmetic_tag = BRA_MONARCHY
- news_event = { id = world.40 } 
 }
 }
 }

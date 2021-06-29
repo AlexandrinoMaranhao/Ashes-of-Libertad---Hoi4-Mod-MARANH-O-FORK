@@ -1,6 +1,6 @@
 division_template = {
 	is_locked = yes
-	name = "Infantaria Colombia"
+	name = "Infantaria FARC"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -12,37 +12,37 @@ division_template = {
 
 units = {
 	division = {
-		name = "Infantaria Colombia 1"
-		location = 3189
-		division_template = "Infantaria Colombia"
+		name = "Infantaria FARC 1"
+		location = 3270
+		division_template = "Infantaria FARC"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Colombia 2"
-		location = 3189
-		division_template = "Infantaria Colombia"
+		name = "Infantaria FARC 2"
+		location = 3270
+		division_template = "Infantaria FARC"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Colombia 3"
-		location = 3189
-		division_template = "Infantaria Colombia"
+		name = "Infantaria FARC 3"
+		location = 3270
+		division_template = "Infantaria FARC"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Colombia 4"
-		location = 3189
-		division_template = "Infantaria Colombia"
+		name = "Infantaria FARC 4"
+		location = 3270
+		division_template = "Infantaria FARC"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Colombia 4"
-		location = 3189
-		division_template = "Infantaria Colombia"
+		name = "Infantaria FARC 4"
+		location = 3270
+		division_template = "Infantaria FARC"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
