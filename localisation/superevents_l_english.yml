@@ -1,9 +1,13 @@
 ﻿l_english:
 
 # Second Battle of Guanabara
-  se_guanabara_desc:0 "Go away from here! Nobody wants to kill anyone! But we won't let anyone kill and go unpunished! Long live freedom, long live Brazil! Long live Brazil's honor, long live Brazil's dignity!\n-Carlos Lacerda"
-  se_guanabara_a:0 "Que Deus salve a cidade de Deus."
+  se_guanabara_desc:0 "Go away from here! Nobody wants to kill anyone! But we won't let anyone kill and go unpunished! Long live freedom! Long live Brazil! Long live Brazil's honor! Long live Brazil's dignity!\n-Carlos Lacerda"
+  se_guanabara_a:0 "§bMay God Save the City of God.§!"
 
 # Second Mexican-American War
   se_maw_desc:0 "I have agreed with General Houston for an armistice until matters can be so regulated that the war will cease forever.\n-Antonio López de Santa Anna"
   se_maw_a:0 "§bThe Eagle has taken flight.§!"
+
+# Return of Carlos Prestes
+  se_prestes_desc:0 "There are no circumstances\n for a reactionary coup. \nIf the scammers try, they\n will have their heads hacked off. \n-Luís Carlos Prestes"
+  se_prestes_a:0 "§bThe Knight of§! §RHope§! §bRises.§!"

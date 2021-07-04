@@ -55,4 +55,21 @@ scripted_gui = {
 			}
 		}
 	}
+	super_event_prestes = { # Prestes Returns
+		context_type = player_context
+		window_name = "super_event_prestes"
+
+		visible = {
+			AND = {
+				has_country_flag = super_event_open
+				has_country_flag = se_prestes_flag
+			}
+		}
+		effects = {
+			button_click = {
+				clr_country_flag = se_prestes_flag
+				clr_country_flag = super_event_open
+			}
+		}
+	}
 }

@@ -1148,10 +1148,18 @@ country_event = { #Second Phase of expanding
     option = {
     name = BEM.7.a
 
-    annex_country = { target = ZOE }
-    annex_country = { target = MAP }
-    annex_country = { target = WAI }
-
+    declare_war_on = {
+            target = ZOE
+            type = annex_everything
+            }
+    declare_war_on = {
+            target = MAP
+            type = annex_everything
+            }
+    declare_war_on = {
+            target = WAI
+            type = annex_everything
+            }
 random_list = {
     33 = {
     MNS = {annex_country = { target = TRO }}

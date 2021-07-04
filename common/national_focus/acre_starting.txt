@@ -613,7 +613,7 @@ acre_senate_add_technocrat_seats_1 = yes
 
 		add_popularity = {
 			ideology = fascism
-			popularity = 0.1
+			popularity = 0.05
 		}
 
 		create_field_marshal = {
@@ -701,7 +701,7 @@ acre_senate_add_militarist_seats_2 = yes
 
 		add_popularity = {
 			ideology = communism
-			popularity = 0.1
+			popularity = 0.05
 		}
 		
 		add_popularity = {
@@ -810,7 +810,7 @@ acre_senate_add_nationalist_seats_1 = yes
 		
 		add_popularity = {
 			ideology = neutrality
-			popularity = 0.1
+			popularity = 0.05
 		}
 
 	}
@@ -847,7 +847,7 @@ acre_senate_add_militarist_seats_1 = yes
 		
 		add_popularity = {
 			ideology = fascism
-			popularity = 0.1
+			popularity = 0.05
 		}
 
 	}
@@ -884,7 +884,7 @@ acre_senate_add_technocrat_seats_1 = yes
 
 		add_popularity = {
 			ideology = communism
-			popularity = 0.1
+			popularity = 0.05
 		}
 
 	}
@@ -1144,6 +1144,10 @@ shared_focus = {
     long_name = ACR_democratic_party_cerqueira_long 
     name = ACR_democratic_party_cerqueira 
 } 
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.5
+		}
 		set_party_name = { 
 		    ideology = fascism 
 		    long_name = ACR_fascism_party_cerqueira_long 
@@ -1179,6 +1183,17 @@ shared_focus = {
  				news_event = { id = world_acr.1 } 
  			}
 			else_if = { # Technocrats Elected
+
+		set_party_name = { 
+		    ideology = democratic 
+		    long_name = ACR_democratic_party_marques_long 
+		    name = ACR_democratic_party_marques 
+} 
+		set_party_name = { 
+		    ideology = communism 
+		    long_name = ACR_communist_party_marques_long 
+		    name = ACR_communist_party_marques 
+} 
 				limit = { 
 					AND = {
 						check_variable = { senate_technocrat_seats > senate_militarist_seats }
@@ -1192,6 +1207,10 @@ shared_focus = {
 					elections_allowed = no
 				}
 				kill_country_leader = yes
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.5
+		}
 				create_country_leader = {
 
 					name = "José Marques de Souza"

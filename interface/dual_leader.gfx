@@ -40,6 +40,11 @@ spriteTypes = {
 	# Country Specific Portraits
 
 	spriteType = {
+		name = "GFX_ACR_ENEAS"
+		texturefile = "gfx/dual_leaders/ACR/Portrait_ACR_Eneas_Carneiro_Young.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ROR_ONOFRE_PINTO"
 		texturefile = "gfx/dual_leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	}

@@ -31,6 +31,10 @@ scripted_gui = {
 					tag = VEN
 					has_government = fascism
 				}
+				AND = {
+					tag = ACR
+					has_country_flag = marques_elected
+				}
 			}	
 		}
 		

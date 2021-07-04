@@ -20,4 +20,8 @@ spriteTypes = {
 		name = "GFX_se_maw"
 		textureFile = "gfx//se_picture//se_maw.tga"
 	}
+	spriteType = { # Prestes
+		name = "GFX_se_prestes"
+		textureFile = "gfx//se_picture//se_prestes.tga"
+	}
 }

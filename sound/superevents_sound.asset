@@ -8,3 +8,8 @@ sound = {
 	file = "customsound/maw.wav"
 	always_load = no
 }
+sound = {
+	name = "prestes_super_sound"
+	file = "customsound/cavaleiro.wav"
+	always_load = no
+}

@@ -3,6 +3,7 @@ category = { ### THIS USES SOUND EFFECTS, NOT SOUND
 	soundeffects = {
 		guanabara_super
 		maw_super
+		prestes_super
 	}
  	compressor = {
 		enabled = yes

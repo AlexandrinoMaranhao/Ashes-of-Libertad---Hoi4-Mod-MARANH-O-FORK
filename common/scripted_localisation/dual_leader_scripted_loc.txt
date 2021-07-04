@@ -138,6 +138,13 @@ defined_text = {
     }
 
 	text = {
+   	    trigger = {
+   		    tag = ACR
+			has_country_flag = marques_elected
+   	}
+   	    localization_key = ACR_FIRST_TITLE
+    }
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -279,12 +286,18 @@ defined_text = {
 		localization_key = USR_SECOND_TITLE
 	}
 
-
 	text = {
 		trigger = {
 			tag = HNL
 	    }
 		localization_key = HNL_SECOND_TITLE
+    }
+	text = {
+		trigger = {
+			tag = ACR
+			has_country_flag = marques_elected
+	    }
+		localization_key = ACR_SECOND_TITLE
     }
 }
 #########################
@@ -438,6 +451,13 @@ defined_text = {
     }
 
 	text = {
+		trigger = {
+			tag = ACR
+			has_country_flag = marques_elected
+	    }
+		localization_key = ACR_SECOND_LEADER
+    }
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 
@@ -583,6 +603,13 @@ defined_text = {
 			tag = HNL
 	    }
 		localization_key = "GFX_HON_RODAS"
+    }
+	text = {
+		trigger = {
+			tag = ACR
+			has_country_flag = marques_elected
+	    }
+		localization_key = "GFX_ACR_ENEAS"
     }
 	text = {
 		localization_key = "GFX_portrait_bg_blank"

@@ -1,5 +1,6 @@
 add_namespace = world
 add_namespace = world_acr
+add_namespace = world_inc
 
 news_event = { # Elected Cerqueira
 	id = world_acr.1
@@ -95,23 +96,6 @@ news_event = { # Second Battle of Guanabara
 		name = world.3.a
         hidden_effect = { news_event = { id = world.45 } }
 
-	}
-}
-
-news_event = { #Guanabara Event 2
-	id = world.45
-	title = world.45.t
-	desc = world.45.d
-	picture = "GFX_news_event_rio_bombing"
-
-	is_triggered_only = yes
-
-	option = {
-		name = world.45.a
-		hidden_effect = {
-			set_country_flag = se_guanabara_flag
-			set_country_flag = super_event_closed
-		}
 	}
 }
 
@@ -216,6 +200,22 @@ news_event = { # INC Reunification
 
 	option = {
 		name = world.11.a
+
+        hidden_effect = { news_event = { id = world_inc.1 } }
+
+	}
+}
+
+news_event = { # INC Reunification
+	id = world_inc.1
+	title = world_inc.1.t
+	desc = world_inc.1.d
+	#picture = "GFX_news_event_mexican_american_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_inc.1.a
 	}
 }
 
@@ -373,6 +373,10 @@ news_event = { # Prestes Event Pt2
 	option = {
 		name = world.35.a
 		hidden_effect = {
+
+			set_country_flag = se_prestes_flag
+			set_country_flag = super_event_closed
+		
 			ROR = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
 			RMI = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
 			FBO = { add_timed_idea = { idea = good_carlos_prestes_return  days = 365 } }
@@ -409,7 +413,6 @@ news_event = { # Goulart wins
 
 	option = {
 		name = world.36.a
-		BRA = {remove_ideas = overdue_elections}
 	}
 }
 
@@ -423,7 +426,7 @@ news_event = { # JK wins
 
 	option = {
 		name = world.37.a
-		BRA = {remove_ideas = overdue_elections}
+		
 	}
 }
 
@@ -437,7 +440,7 @@ news_event = { # Lott wins
 
 	option = {
 		name = world.38.a
-		BRA = {remove_ideas = overdue_elections}
+		
 	}
 }
 
@@ -451,7 +454,7 @@ news_event = { # Brizola wins
 
 	option = {
 		name = world.39.a
-		BRA = {remove_ideas = overdue_elections}
+		
 	}
 }
 
@@ -465,7 +468,7 @@ news_event = { # Monarchists wins
 
 	option = {
 		name = world.40.a
-		BRA = {remove_ideas = overdue_elections}
+		
 	}
 }
 
@@ -518,6 +521,23 @@ news_event = { # Honduran Civil War - FPRLZ wins
 
 	option = {
 		name = world.43.a
+	}
+}
+
+news_event = { #Guanabara Event 2
+	id = world.45
+	title = world.45.t
+	desc = world.45.d
+	picture = "GFX_news_event_rio_bombing"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.45.a
+		hidden_effect = {
+			set_country_flag = se_guanabara_flag
+			set_country_flag = super_event_closed
+		}
 	}
 }
 

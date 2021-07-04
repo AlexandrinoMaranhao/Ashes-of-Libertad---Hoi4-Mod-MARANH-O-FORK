@@ -121,4 +121,47 @@ guiTypes = {
 			Orientation = center
 		}
 	}
+
+	containerWindowType = { # Prestes
+		name = "super_event_prestes"
+		size = { width = 1000 height = 755 }
+		position = { x = -60 y = -220 }
+		#hide_position = { x= -1500 y = -220 }
+		#hide_animation_type = accelerated
+		animation_time = 400
+		Orientation = LEFT
+		origo = LEFT
+		clipping = no
+		show_sound = prestes_super
+
+		iconType = {
+			name ="pic"
+			spriteType = "GFX_se_prestes"
+			position = { x= 0 y = 0 }
+			Orientation = center
+			alwaystransparent = no
+		}
+
+		instantTextBoxType = {
+			name = "description"
+			position = { x=980 y=95 }
+			font = "vic_22"
+			text = "se_prestes_desc"
+			maxWidth = 415
+			maxHeight = 200
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+
+		buttonType = {
+			name = "button"
+			text = "se_prestes_a"
+			shortcut = "ESCAPE"
+			position = { x=600 y=620 }
+			spriteType = "GFX_se_button_underline"
+			buttonFont = "vic_22"
+			Orientation = center
+		}
+	}
 }

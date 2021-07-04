@@ -6,6 +6,11 @@ add_namespace = BRA
 add_namespace = BRA_guanabara
 add_namespace = BRA_opportunity
 add_namespace = BRA_elections
+add_namespace = BRA_elections_brizola
+add_namespace = BRA_elections_goulart
+add_namespace = BRA_elections_jk
+add_namespace = BRA_elections_lott
+add_namespace = BRA_elections_monarquia
 
 
 
@@ -83,344 +88,290 @@ country_event = {
     fire_only_once = yes
     is_triggered_only = yes
 
-    option = { #regionals
+    option = { #
         name = BRA_elections.1.a
-        hidden_effect = { country_event = { id = BRA_elections.2 days = 5 } }
+# Goulart wins
+
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.36 }
+
+        hidden_effect = { country_event = { id = BRA_elections_goulart.1 days = 5 } }
+kill_country_leader = yes
+
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_party
+    long_name = BRA_democratic_party_long
+}
+
+create_country_leader = {
+        
+    name = "João Belchior Goulart"
+    picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
+    expire = "1999.1.1"
+    ideology = liberalism 
+
+
+    traits = {
+        
+        cornered_fox
+        connected_citizen
+        social_reformer
+            }
+}
+
+set_popularities = {
+    democratic = 48
+    fascism = 30
+    communism = 22
+    neutrality = 0
+    reactionary = 0
+}
 
         }
 
-    option = { #nationals
+    option = { #
         name = BRA_elections.1.b
-        hidden_effect = { country_event = { id = BRA_elections.3 days = 5 } }
+# JK wins
+
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.37 }
+
+        hidden_effect = { country_event = { id = BRA_elections_jk.1 days = 5 } }
+kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_psd_party
+    long_name = BRA_democratic_psd_party_long
+}
+create_country_leader = {
+        
+    name = "Juscelino Kubitschek de Oliveira"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.dds"
+    expire = "1999.1.1"
+    ideology = liberalism 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 79
+    fascism = 11
+    communism = 10
+    neutrality = 0
+    reactionary = 0
+}
+
+        }
+
+    option = { #
+        name = BRA_elections.1.c
+# Lott wins
+
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.38 }
+
+        hidden_effect = { country_event = { id = BRA_elections_lott.1 days = 5 } }
+kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_psd_party
+    long_name = BRA_democratic_psd_party_long
+}
+create_country_leader = {
+        
+    name = "Henrique Teixeira Lott"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Henrique_Teixeira_Lott.dds"
+    expire = "1999.1.1"
+    ideology = authoritarian_democracy 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 60
+    fascism = 30
+    communism = 4
+    neutrality = 0
+    reactionary = 6
+}
+
+        }
+
+    option = { #
+        name = BRA_elections.1.d
+        # Brizola wins
+
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.39 }
+
+        hidden_effect = { country_event = { id = BRA_elections_brizola.1 days = 5 } }
+kill_country_leader = yes
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_party
+    long_name = BRA_democratic_party_long
+}
+create_country_leader = {
+        
+    name = "Leonel de Moura Brizola"
+    picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
+    expire = "1999.1.1"
+    ideology = socialism 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 40
+    fascism = 0
+    communism = 40
+    neutrality = 0
+    reactionary = 20
+}
+
+        }
+
+    option = { #
+        name = BRA_elections.1.e
+# Monarchists wins
+
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.40 }
+        
+ai_will_do = {
+  factor = 0
+  }
+        hidden_effect = { country_event = { id = BRA_elections_monarquia.1 days = 5 } }
+
+kill_country_leader = yes
+
+set_party_name = {
+    ideology = democratic
+    name = BRA_democratic_monarchist_party
+    long_name = BRA_democratic_monarchist_party_long
+}
+
+create_country_leader = {
+        
+    name = "Pedro Henrique de Orleães e Bragança"
+    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
+    expire = "1999.1.1"
+    ideology = constitutional_monarchy 
+    traits = {
+        #
+    }
+}
+
+set_popularities = {
+    democratic = 14
+    fascism = 20
+    communism = 11
+    neutrality = 0
+    reactionary = 55
+}
+
+ set_cosmetic_tag = BRA_MONARCHY
 
         }
 }
 
+##################################
 
-country_event = {#regionals
-    id = BRA_elections.2
-    title = BRA_elections.2.t
-    desc = BRA_elections.2.d
+add_namespace = BRA_elections_brizola
+add_namespace = BRA_elections_goulart
+add_namespace = BRA_elections_jk
+add_namespace = BRA_elections_lott
+add_namespace = BRA_elections_monarquia
+
+country_event = {
+    id = BRA_elections_brizola.1
+    title = BRA_elections_brizola.1.t
+    desc = BRA_elections_brizola.1.d
     picture = x
     fire_only_once = yes
     is_triggered_only = yes
 
-    option = {
-        name = BRA_elections.2.a
+    option = { #regionals
+        name = BRA_elections_brizola.1.a
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.39 }
 
-random_list = { 
-30 = {# Goulart wins
- news_event = { id = world.36 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_party
-    long_name = BRA_democratic_party_long
-}
-create_country_leader = {
-        
-    name = "João Belchior Goulart"
-    picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
-    expire = "1999.1.1"
-    ideology = liberalism 
-    traits = {
-        
-        cornered_fox
-        connected_citizen
-        social_reformer
-            }
-}
-
-set_popularities = {
-    democratic = 48
-    fascism = 30
-    communism = 22
-    neutrality = 0
-    reactionary = 0
-}
+        }
 
 }
 
-25 = {# JK wins
- news_event = { id = world.37 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_psd_party
-    long_name = BRA_democratic_psd_party_long
-}
-create_country_leader = {
-        
-    name = "Juscelino Kubitschek de Oliveira"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.dds"
-    expire = "1999.1.1"
-    ideology = liberalism 
-    traits = {
-        #
-    }
-}
 
-set_popularities = {
-    democratic = 79
-    fascism = 11
-    communism = 10
-    neutrality = 0
-    reactionary = 0
-}
-
-}
-
-20 = {# Lott wins
- news_event = { id = world.38 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_psd_party
-    long_name = BRA_democratic_psd_party_long
-}
-create_country_leader = {
-        
-    name = "Henrique Teixeira Lott"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Henrique_Teixeira_Lott.dds"
-    expire = "1999.1.1"
-    ideology = authoritarian_democracy 
-    traits = {
-        #
-    }
-}
-
-set_popularities = {
-    democratic = 60
-    fascism = 30
-    communism = 4
-    neutrality = 0
-    reactionary = 6
-}
-
-}
-
-20 = {# Brizola wins
- news_event = { id = world.39 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_party
-    long_name = BRA_democratic_party_long
-}
-create_country_leader = {
-        
-    name = "Leonel de Moura Brizola"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
-    expire = "1999.1.1"
-    ideology = socialism 
-    traits = {
-        #
-    }
-}
-
-set_popularities = {
-    democratic = 40
-    fascism = 0
-    communism = 40
-    neutrality = 0
-    reactionary = 20
-}
-
-}
-
-5 = {# Monarchists wins
- news_event = { id = world.40 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_monarchist_party
-    long_name = BRA_democratic_monarchist_party_long
-}
-create_country_leader = {
-        
-    name = "Pedro Henrique de Orleães e Bragança"
-    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
-    expire = "1999.1.1"
-    ideology = constitutional_monarchy 
-    traits = {
-        #
-    }
-}
-
-set_popularities = {
-    democratic = 14
-    fascism = 20
-    communism = 11
-    neutrality = 0
-    reactionary = 55
-}
- set_cosmetic_tag = BRA_MONARCHY
-
-}
-
-}
-}
-}
-
-country_event = {#nationals
-    id = BRA_elections.3
-    title = BRA_elections.3.t
-    desc = BRA_elections.3.d
+country_event = {
+    id = BRA_elections_goulart.1
+    title = BRA_elections_goulart.1.t
+    desc = BRA_elections_goulart.1.d
     picture = x
     fire_only_once = yes
     is_triggered_only = yes
 
-    option = {
-        name = BRA_elections.3.a
-random_list = { 
+    option = { #regionals
+        name = BRA_elections_goulart.1.a
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.36 }
 
-25 = {# Goulart wins
- news_event = { id = world.36 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_party
-    long_name = BRA_democratic_party_long
-}
-create_country_leader = {
-        
-    name = "João Belchior Goulart"
-    picture = "gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
-    expire = "1999.1.1"
-    ideology = liberalism 
-    traits = {
-        
-        cornered_fox
-        connected_citizen
-        social_reformer
-            }
-}
-
-set_popularities = {
-    democratic = 48
-    fascism = 30
-    communism = 22
-    neutrality = 0
-    reactionary = 0
-}
+        }
 
 }
 
-20 = {# JK wins
- news_event = { id = world.37 }
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_psd_party
-    long_name = BRA_democratic_psd_party_long
-}
-create_country_leader = {
-        
-    name = "Juscelino Kubitschek de Oliveira"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Juscelino_Kubitschek.dds"
-    expire = "1999.1.1"
-    ideology = liberalism 
-    traits = {
-        #
-    }
-}
 
-set_popularities = {
-    democratic = 79
-    fascism = 11
-    communism = 10
-    neutrality = 0
-    reactionary = 0
-} 
+country_event = {
+    id = BRA_elections_jk.1
+    title = BRA_elections_jk.1.t
+    desc = BRA_elections_jk.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = { #regionals
+        name = BRA_elections_jk.1.a
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.37 }
+
+        }
 
 }
 
-25 = {# Lott wins
- news_event = { id = world.38 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_psd_party
-    long_name = BRA_democratic_psd_party_long
-}
-create_country_leader = {
-        
-    name = "Henrique Teixeira Lott"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Henrique_Teixeira_Lott.dds"
-    expire = "1999.1.1"
-    ideology = authoritarian_democracy 
-    traits = {
-        #
-    }
-}
 
-set_popularities = {
-    democratic = 60
-    fascism = 30
-    communism = 4
-    neutrality = 0
-    reactionary = 6
-}
+country_event = {
+    id = BRA_elections_lott.1
+    title = BRA_elections_lott.1.t
+    desc = BRA_elections_lott.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = { #regionals
+        name = BRA_elections_lott.1.a
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.38 }
+
+        }
 
 }
 
-10 = {# Brizola wins
- news_event = { id = world.39 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_party
-    long_name = BRA_democratic_party_long
-}
-create_country_leader = {
-        
-    name = "Leonel de Moura Brizola"
-    picture = "gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
-    expire = "1999.1.1"
-    ideology = socialism 
-    traits = {
-        #
-    }
-}
 
-set_popularities = {
-    democratic = 40
-    fascism = 0
-    communism = 40
-    neutrality = 0
-    reactionary = 20
-}
+country_event = {
+    id = BRA_elections_monarquia.1
+    title = BRA_elections_monarquia.1.t
+    desc = BRA_elections_monarquia.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
 
-}
+    option = { #regionals
+        name = BRA_elections_monarquia.1.a
+        BRA = {remove_ideas = overdue_elections}
+        news_event = { id = world.40 }
 
-20 = {# Monarchists wins
- news_event = { id = world.40 } 
-kill_country_leader = yes
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_monarchist_party
-    long_name = BRA_democratic_monarchist_party_long
-}
-create_country_leader = {
-        
-    name = "Pedro Henrique de Orleães e Bragança"
-    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
-    expire = "1999.1.1"
-    ideology = constitutional_monarchy 
-    traits = {
-        #
-    }
-}
+        }
 
-set_popularities = {
-    democratic = 14
-    fascism = 20
-    communism = 11
-    neutrality = 0
-    reactionary = 55
-}
- set_cosmetic_tag = BRA_MONARCHY
-}
-}
-}
 }
