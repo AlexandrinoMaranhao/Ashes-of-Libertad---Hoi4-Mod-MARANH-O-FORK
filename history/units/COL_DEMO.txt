@@ -40,7 +40,42 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Colombia 4"
+		name = "Infantaria Colombia 5"
+		location = 3189
+		division_template = "Infantaria Colombia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Colombia 6"
+		location = 3189
+		division_template = "Infantaria Colombia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Colombia 7"
+		location = 3189
+		division_template = "Infantaria Colombia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Colombia 8"
+		location = 3189
+		division_template = "Infantaria Colombia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Colombia 9"
+		location = 3189
+		division_template = "Infantaria Colombia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Colombia 10"
 		location = 3189
 		division_template = "Infantaria Colombia"
 		start_experience_factor = 0.4

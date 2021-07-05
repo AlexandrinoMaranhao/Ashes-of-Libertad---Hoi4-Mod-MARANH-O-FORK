@@ -37,11 +37,12 @@ create_country_leader = {
 	
 	name = "Carlos Marighella"
 	picture = "gfx/leaders/PAU/Portrait_PAU_Carlos_Marighella.dds"
+	desc = "MARIGHELLA_DESC"
 	expire = "1999.1.1"
 	ideology = guerrilla
 	traits = {
-		veteran_communist
-		defeatist
+		boogieman_of_sp
+		
 	}
 }
 

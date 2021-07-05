@@ -41,6 +41,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
+	ensuing_collapse
 		#
 	}
 }
@@ -53,6 +54,7 @@ create_country_leader = {
 	ideology = anarchism
 	traits = {
 		#
+		abandoned_government
 	}
 }
 

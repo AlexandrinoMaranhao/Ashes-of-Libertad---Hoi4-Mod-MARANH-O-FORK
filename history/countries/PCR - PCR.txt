@@ -31,9 +31,11 @@ create_country_leader = {
 	
 	name = "Francisco Julião Arruda de Paula"
 	picture = "gfx/leaders/RPB/Portrait_RPB_Francisco_Juliao.dds"
+	desc = "JULIAO_DESC"
 	expire = "1999.1.1"
 	ideology = marxism 
 	traits = {
+	lawyer_of_the_people
 		#
 	}
 }

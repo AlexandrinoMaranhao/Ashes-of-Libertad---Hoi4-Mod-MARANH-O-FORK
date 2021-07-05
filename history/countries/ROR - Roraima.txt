@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "ROR_WILSON_DESC"
 	picture = "gfx/leaders/ROR/Portrait_ROR_Wilson.dds"
 	expire = "1999.1.1"
-	ideology = marxism
+	ideology = maoism
 	traits = {
 		syndical_activist
 	}

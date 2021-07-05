@@ -52,16 +52,18 @@ create_country_leader = {
 	
 	name = "Sinval de Oliveira Bambirra"
 	picture = "gfx/leaders/RMI/Portrait_RMI_Gilney_Viana.dds"
+	desc = "BAMBIRRA_DESC"
 	expire = "1999.1.1"
-	ideology = guerrilla
+	ideology = christian_communism 
 	traits = {
-		permanent_revolutionary
+		the_mount_weaver
 		
 	}
 }
 
 create_field_marshal = {
 	name = "Sinval de Oliveira Bambirra"
+	desc = "BAMBIRRA_DESC"
 	portrait_path = "gfx/leaders/RMI/Portrait_RMI_Gilney_Viana.dds"
 	traits = { defensive_doctrine trait_cautious infantry_officer }
 	skill = 2

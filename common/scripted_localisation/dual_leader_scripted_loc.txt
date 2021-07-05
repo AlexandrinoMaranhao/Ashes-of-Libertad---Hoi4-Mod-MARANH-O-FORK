@@ -560,7 +560,7 @@ defined_text = {
 			has_government = fascism
 			
 		}
-		localization_key = "GFX_HIE_BLANCA"
+		localization_key = "GFX_VEN_SECOND_LEADER"
 	}
 	text = {
 		trigger = {
@@ -635,6 +635,13 @@ defined_text = {
         }
         localization_key = "ROR_ONOFRE_DESC"
 	}
+
+    text = {
+        trigger = {
+			original_tag = RMI
+        }
+        localization_key = "ARANTES_DESC"
+	}
 }
 ###################################
 defined_text = {
@@ -662,5 +669,12 @@ defined_text = {
 			original_tag = COR
         }
         localization_key = "COR_MONTORIL_DESC"
+	}
+
+    text = {
+        trigger = {
+			original_tag = RMI
+        }
+        localization_key = "BAMBIRRA_DESC"
 	}
 }

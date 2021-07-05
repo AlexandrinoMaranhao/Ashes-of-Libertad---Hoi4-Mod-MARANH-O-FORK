@@ -39,6 +39,7 @@ create_country_leader = {
 	
 	name = "Aluízio Alves"
 	picture = "gfx/leaders/RGN/Portrait_RGN_Aluizio_Alves.dds"
+	desc = "ALUIZIO_DESC"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {

@@ -99,6 +99,9 @@ ideologies = {
 
 			maoism = {
 			}
+
+			christian_communism = {
+			}
 		}
 		
 		dynamic_faction_names = {

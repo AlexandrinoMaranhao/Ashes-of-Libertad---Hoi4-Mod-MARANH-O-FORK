@@ -1,0 +1,77 @@
+leader_traits = {
+	
+	abandoned_government = { #CFD collapses
+		random = no
+		army_attack_factor = -0.8
+		army_defence_factor = -0.8
+		army_org_factor = -0.35
+		army_morale_factor = -0.15
+		conscription_factor = -0.75
+		max_dig_in = -2
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	lawyer_of_the_people = { #Francisco Julião
+		random = no
+		conscription = 0.05
+		surrender_limit = 0.35
+		out_of_supply_factor = 0.45
+		army_defence_factor = -0.05
+		army_attack_factor = -0.05
+		planning_speed = -0.15
+		ai_will_do = { factor = 1 }
+	}
+
+	boogieman_of_sp = { #Marighella
+		random = no
+		political_power_gain = 0.10
+		surrender_limit = 1
+		stability_factor = -0.05
+		army_defence_factor = 0.25
+		attrition = -0.05
+		research_speed_factor = 0.15
+		min_export = -1
+		ai_will_do = { factor = 1 }
+	}
+
+	unlikely_indigenist = { #Lamarca
+		random = no
+		political_power_gain = -0.1
+		conscription = 0.15
+		stability_factor = 0.05
+		local_resources_factor = 0.2
+		out_of_supply_factor = -0.15
+		defense = 0.2
+		attrition = -0.05
+		custom_modifier_tooltip = unlikely_indigenist_tt
+	}
+
+	the_knight_of_hope = { #Prestes
+		random = no
+		stability_factor = 0.1
+		political_power_gain = 0.05
+		war_support_factor = 0.35
+		attrition = -0.05
+		army_attack_factor = 0.2
+		army_defence_factor = -0.2
+		max_dig_in = -2
+		army_org_factor = -0.08
+		army_morale_factor = 0.8
+		conscription_factor = 0.8
+		ai_badass_factor = 1.00
+		ai_desired_divisions_factor = 0.25
+		ai_focus_aggressive_factor = 1.00
+		custom_modifier_tooltip = the_knight_of_hope_tt
+	}
+
+	the_mount_weaver = { #Bambirra
+		random = no
+		production_factory_max_efficiency_factor = 0.03
+		political_power_gain = 0.05
+		production_speed_buildings_factor = 0.05
+		ai_focus_defense_factor = 1
+		max_dig_in = 2
+		consumer_goods_factor = 0.025
+	}
+}

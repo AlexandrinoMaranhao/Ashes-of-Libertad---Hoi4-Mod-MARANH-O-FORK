@@ -31,12 +31,14 @@ scraping_the_barrel
 
 create_country_leader = {
 	
-	name = "Luis Carlos Prestes"
+	name = "Luís Carlos Prestes"
 	picture = "gfx/leaders/PEB/Portrait_PEB_Luis_Carlos_Prestes.dds"
+	desc = "PRESTES_DESC"
 	expire = "1999.1.1"
 	ideology = marxism
 	traits = {
 		#
+		the_knight_of_hope
 	}
 }
 

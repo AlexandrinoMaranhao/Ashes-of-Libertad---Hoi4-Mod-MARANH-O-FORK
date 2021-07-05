@@ -96,7 +96,7 @@ country_event = {
                     }
         PEB = { country_event = { id = PEB.1 days = 7 } }
         MNH = { country_event = { id = MNH.1 hours = 3 } }
-
+        CFD = { remove_ideas = cangaceiros_and_commies }
         country_event = { id = CFD.2 days = 14 }
     }
 }
@@ -152,6 +152,9 @@ country_event = {
 
     option = {
         name = CFD.3.a
+
+        CFD = { remove_ideas = gateway_of_south_america }
+
         RGN = {
             transfer_state  = 3
             transfer_state  = 4

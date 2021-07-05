@@ -35,6 +35,7 @@ create_country_leader = {
 	
 	name = "Father Almeida Lustosa"
 	picture = "gfx/leaders/CEA/Portrait_CEA_Antonio_de_Almeida_lustosa.dds"
+	desc = "LUSTOSA_DESC"
 	expire = "1999.1.1"
 	ideology = christian_theocracy_reactionary
 	traits = {

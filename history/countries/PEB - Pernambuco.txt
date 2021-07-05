@@ -39,7 +39,7 @@ create_country_leader = {
 	
 	name = "Luís Carlos Prestes"
 	picture = "gfx/leaders/PEB/Portrait_PEB_Luis_Carlos_Prestes.dds"
-	desc = "ARRAES_DESC"
+	desc = "PRESTES_DESC"
 	expire = "1999.1.1"
 	ideology = marxism
 	traits = {
@@ -51,6 +51,7 @@ create_country_leader = {
 	
 	name = "Miguel Arraes"
 	picture = "gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+	desc = "ARRAES_DESC"
 	expire = "1999.1.1"
 	ideology = centrism
 	traits = {
@@ -62,6 +63,7 @@ create_country_leader = {
 	
 	name = "Miguel Arraes"
 	picture = "gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+	desc = "ARRAES_DESC"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
