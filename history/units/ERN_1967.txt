@@ -21,28 +21,28 @@ units = {
 	division = {
 		name = "Infanteria Del Norte 2"
 		location = 4205
-		division_template = "Infanteria Del Norte"
+		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Del Norte 3"
 		location = 4205
-		division_template = "Infanteria Del Norte"
+		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Del Norte 4"
 		location = 4205
-		division_template = "Infanteria Del Norte"
+		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Del Norte 4"
 		location = 4205
-		division_template = "Infanteria Del Norte"
+		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
