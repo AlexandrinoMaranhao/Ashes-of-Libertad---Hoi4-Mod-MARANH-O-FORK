@@ -74,4 +74,43 @@ leader_traits = {
 		max_dig_in = 2
 		consumer_goods_factor = 0.03
 	}
+	new_cicero = { #Lustosa
+		random = no		
+		political_power_gain = 0.13
+		stability_factor = 0.2
+		monthly_population = 0.3
+		max_dig_in = 2
+		consumer_goods_factor = 0.05
+		surrender_limit = 0.2
+	}
+	the_killer_senator = { #Mello
+		random = no
+		offence = 0.2
+		stability_factor = -0.1
+		war_support_factor = -0.1
+		acclimatization_hot_climate_gain_factor = 0.2
+		army_org_factor = 0.02
+		required_garrison_factor = 0.1
+		army_morale_factor = -0.1
+		conscription_factor = -0.1
+	}
+	the_thorned_rose = { #Gondim
+		random = no
+		war_support_factor = 0.1
+		stability_factor = 0.15
+		required_garisson_factor = 0.1
+		army_morale_factor = 0.07
+		command_power_gain = 0.3
+		production_factory_start_efficiency_factor = 0.3
+		production_lack_of_resource_penalty_factor = -0.3
+	}
+	merciless_dominator = {
+	land_reinforce_rate = 0.2
+	monthly_population = -0.2
+	political_power_cost = -0.25
+	industry_air_damage_factor = -0.2
+	global_building_slots = 1
+	stability_factor = 0.15
+	war_support_factor = -0.1
+	}
 }
