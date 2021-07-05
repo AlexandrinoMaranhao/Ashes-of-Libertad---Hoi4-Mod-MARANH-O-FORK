@@ -1,0 +1,74 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Artilharia de Campanha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Batalhão da Marinha Santista"
+		location = 4658
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Marinha Santista 2"
+		location = 4658
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital 1"
+		location = 6269
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital 2"
+		location = 6269
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital 3"
+		location = 6269
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital Artilharia"
+		location = 6269
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}
