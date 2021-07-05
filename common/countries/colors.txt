@@ -516,7 +516,7 @@ COA = {
 	color_ui = rgb { 182 151 170 }
 }
 
-AND = {
+ANI = {
 	color = rgb { 191 213 236 }
 	color_ui = rgb { 191 213 236 }
 }

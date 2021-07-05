@@ -20,7 +20,7 @@ rubber = 2
             infrastructure = 2
             dockyard = 1
 }
-        owner = AND
-        add_core_of = AND
+        owner = ANI
+        add_core_of = ANI
 }
 }
