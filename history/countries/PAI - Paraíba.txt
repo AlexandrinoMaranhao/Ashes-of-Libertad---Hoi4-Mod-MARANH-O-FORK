@@ -40,6 +40,7 @@ create_country_leader = {
 	
 	name = "Pedro Moreno Gondim"
 	picture = "gfx/leaders/PAI/Portrait_GUA_Pedro_Moreno_Gondim.dds"
+	desc = GONDIM_DESC
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {

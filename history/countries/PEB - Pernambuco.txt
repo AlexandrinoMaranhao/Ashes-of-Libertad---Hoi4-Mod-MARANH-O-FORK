@@ -55,6 +55,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = centrism
 	traits = {
+	social_reformer_aol
 		#
 	}
 }
@@ -67,6 +68,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
+	social_reformer_aol
 		#
 	}
 }

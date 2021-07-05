@@ -35,6 +35,7 @@ create_country_leader = {
 	
 	name = "Arnon Afonso de Farias Mello"
 	picture = "gfx/leaders/ALA/Portrait_ALA_Arnon_Afonso_de_Farias.dds"
+	desc = ARNON_DESC
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
