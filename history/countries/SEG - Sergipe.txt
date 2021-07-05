@@ -38,6 +38,7 @@ create_country_leader = {
 	
 	name = "Seixas Dória"
 	picture = "gfx/leaders/SEG/Portrait_SEG_Seixas.dds"
+	desc = SEIXAS_DORIA_DESC
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
