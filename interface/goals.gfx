@@ -8,7 +8,27 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #    
+        
+	SpriteType = {
+	name = "GFX_goal_east_wing_expansion"
+	texturefile = "gfx/interface/goals/east_wing_expansion.dds"
+	}	
       
+	SpriteType = {
+	name = "GFX_goal_ACR_the_university_completed_AAAAAA"
+	texturefile = "gfx/interface/goals/ACR_the_university_completed_AAAAAA.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_ACR_the_university_of_rio_branco"
+	texturefile = "gfx/interface/goals/ACR_the_university_of_rio_branco.dds"
+	}	
+      
+	SpriteType = {
+	name = "GFX_goal_west_wing_expansion"
+	texturefile = "gfx/interface/goals/west_wing_expansion.dds"
+	}	
+    
 	SpriteType = {
 	name = "GFX_goal_ACR_the_silver_library"
 	texturefile = "gfx/interface/goals/ACR_the_silver_library.dds"

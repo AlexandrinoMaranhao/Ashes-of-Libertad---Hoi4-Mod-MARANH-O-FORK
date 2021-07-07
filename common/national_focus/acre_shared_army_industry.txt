@@ -751,7 +751,7 @@ shared_focus = {
 ##UNIVERSITY
 shared_focus = {
 	id = ACR_the_university_of_rio_branco
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_the_university_of_rio_branco
 	x = 2
 	y = 1
 	cost = 1
@@ -846,7 +846,7 @@ shared_focus = {
 	id = ACR_begin_construction
 	prerequisite = { focus = ACR_gather_engineers }
 	prerequisite = { focus = ACR_lay_down_the_groundwork }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_the_university_completed
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 0
@@ -872,7 +872,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_the_university_completed
 	prerequisite = { focus = ACR_begin_construction }
-	icon = GFX_goal_ACR_the_university_completed
+	icon = GFX_goal_ACR_the_university_completed_AAAAAA
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 0
@@ -909,7 +909,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_east_wing_expansion
 	prerequisite = { focus = ACR_the_university_completed }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_east_wing_expansion
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 1
@@ -940,7 +940,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_west_wing_expansion
 	prerequisite = { focus = ACR_the_university_completed }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_west_wing_expansion
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = -1
