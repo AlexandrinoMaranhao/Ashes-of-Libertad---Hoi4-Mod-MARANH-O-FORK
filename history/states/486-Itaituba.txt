@@ -12,8 +12,8 @@ state={
 steel = 4 
 }
 	history={
-		owner = AND
-		add_core_of = AND
+		owner = ANI
+		add_core_of = ANI
 
         buildings = {
             arms_factory = 1

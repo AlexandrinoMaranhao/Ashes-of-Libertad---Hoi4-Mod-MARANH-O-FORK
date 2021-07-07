@@ -19,8 +19,8 @@ rubber = 2
             industrial_complex = 1
             dockyard = 1
 }
-        owner = AND
-        add_core_of = AND
+        owner = ANI
+        add_core_of = ANI
 
 		victory_points = {
                 3601 10
