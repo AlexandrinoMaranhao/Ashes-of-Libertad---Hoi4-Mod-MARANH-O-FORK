@@ -1,0 +1,52 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria Mineira"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Batalhão Mineiro"
+		location = 1773
+		division_template = "Infantaria Mineira"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão Mineiro"
+		location = 1773
+		division_template = "Infantaria Mineira"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital 1"
+		location = 1773
+		division_template = "Infantaria Mineira"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital 2"
+		location = 1773
+		division_template = "Infantaria Mineira"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão da Capital 3"
+		location = 1773
+		division_template = "Infantaria Mineira"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}
