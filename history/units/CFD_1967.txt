@@ -21,35 +21,35 @@ units = {
 	division = {
 		name = "Infanteria Nordeste 2"
 		location = 1793
-		division_template = "Infantaria Nordeste"
+		division_template = "Infanteria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Nordeste 3"
 		location = 1793
-		division_template = "Infantaria Nordeste"
+		division_template = "Infanteria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Nordeste 4"
 		location = 1793
-		division_template = "Infantaria Nordeste"
+		division_template = "Infanteria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Nordeste 5"
 		location = 1793
-		division_template = "Infantaria Nordeste"
+		division_template = "Infanteria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Nordeste 6"
 		location = 1793
-		division_template = "Infantaria Nordeste"
+		division_template = "Infanteria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}

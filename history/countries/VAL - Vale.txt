@@ -1,6 +1,6 @@
 ﻿capital = 68
 
-oob = "VAL_1967"
+#oob = ""
 
 # Starting tech
 set_technology = {

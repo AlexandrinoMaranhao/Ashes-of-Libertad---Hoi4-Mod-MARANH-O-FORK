@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "RMI_1967"
+#oob = ""
 
 # Starting tech
 set_technology = {
