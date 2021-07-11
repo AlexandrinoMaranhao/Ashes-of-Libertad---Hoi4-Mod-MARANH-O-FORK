@@ -1,6 +1,6 @@
 ﻿capital = 302
 
-#oob = ""
+oob = "CIA_1967"
 
 # Starting tech
 set_technology = {

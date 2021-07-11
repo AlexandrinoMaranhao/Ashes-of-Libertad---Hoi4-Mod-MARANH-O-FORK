@@ -1,0 +1,20 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria Jutai"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Infantaria Jutai 1"
+		location = 3757
+		division_template = "Infantaria Jutai"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}

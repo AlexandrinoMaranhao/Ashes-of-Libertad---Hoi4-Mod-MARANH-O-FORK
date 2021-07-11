@@ -1,0 +1,48 @@
+division_template = {
+	is_locked = yes
+	name = "Comando Militar do Maranhao"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Comando Militar do Maranhao 1"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 2"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 3"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 4"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 5"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

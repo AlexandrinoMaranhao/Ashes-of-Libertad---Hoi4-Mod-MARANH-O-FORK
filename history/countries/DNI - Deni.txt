@@ -1,6 +1,6 @@
 ﻿capital = 111
 
-#oob = ""
+oob = "DNI_1967"
 
 # Starting tech
 set_technology = {

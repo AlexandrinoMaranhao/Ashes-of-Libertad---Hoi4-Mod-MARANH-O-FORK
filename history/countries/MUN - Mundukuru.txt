@@ -1,6 +1,6 @@
 ﻿capital = 137
 
-#oob = ""
+oob = "MUN_1967"
 
 # Starting tech
 set_technology = {

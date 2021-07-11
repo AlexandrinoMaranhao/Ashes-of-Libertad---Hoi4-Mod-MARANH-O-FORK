@@ -1,0 +1,48 @@
+division_template = {
+	is_locked = yes
+	name = "Comando Militar de Chile"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Comando Militar de Chile 1"
+		location = 4911
+		division_template = "Comando Militar de Chile"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Chile 2"
+		location = 4911
+		division_template = "Comando Militar de Chile"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Chile 3"
+		location = 4911
+		division_template = "Comando Militar de Chile"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Chile 4"
+		location = 4911
+		division_template = "Comando Militar de Chile"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Chile 5"
+		location = 4911
+		division_template = "Comando Militar de Chile"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

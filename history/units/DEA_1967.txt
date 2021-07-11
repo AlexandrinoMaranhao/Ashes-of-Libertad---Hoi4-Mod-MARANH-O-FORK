@@ -1,0 +1,27 @@
+division_template = {
+	is_locked = yes
+	name = "Death Squads"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Death Squads 1"
+		location = 2229
+		division_template = "Death Squads"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Death Squads 2"
+		location = 2229
+		division_template = "Death Squads"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

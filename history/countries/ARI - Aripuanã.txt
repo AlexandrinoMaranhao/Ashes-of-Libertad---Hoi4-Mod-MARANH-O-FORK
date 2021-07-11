@@ -1,6 +1,6 @@
 ﻿capital = 146
 
-#oob = ""
+oob = "ARI_1967"
 
 # Starting tech
 set_technology = {

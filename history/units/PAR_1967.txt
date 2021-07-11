@@ -1,0 +1,48 @@
+division_template = {
+	is_locked = yes
+	name = "Comando Militar de Paraguay"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Comando Militar de Paraguay 1"
+		location = 861
+		division_template = "Comando Militar de Paraguay"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Paraguay 2"
+		location = 861
+		division_template = "Comando Militar de Paraguay"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Paraguay 3"
+		location = 861
+		division_template = "Comando Militar de Paraguay"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Paraguay 4"
+		location = 861
+		division_template = "Comando Militar de Paraguay"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Paraguay 5"
+		location = 861
+		division_template = "Comando Militar de Paraguay"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,48 @@
+division_template = {
+	is_locked = yes
+	name = "Comando Militar de Libertadores"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Comando Militar de Libertadores 1"
+		location = 1167
+		division_template = "Comando Militar de Libertadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Libertadores 2"
+		location = 1167
+		division_template = "Comando Militar de Libertadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Libertadores 3"
+		location = 1167
+		division_template = "Comando Militar de Libertadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Libertadores 4"
+		location = 1167
+		division_template = "Comando Militar de Libertadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar de Libertadores 5"
+		location = 1167
+		division_template = "Comando Militar de Libertadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}
