@@ -1,0 +1,1093 @@
+shared_focus = {
+	id = ACR_carneiro_presidency
+	icon = GFX_goal_ACR_the_eneas_presidency
+
+	x = 15
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		country_event = ACR_eneas.1	
+	}
+}
+
+shared_focus = {
+	id = ACR_rebuild_the_nation
+	icon = GFX_goal_ACR_its_about_how_hard_you_can_get_hit
+	prerequisite = { focus = ACR_carneiro_presidency }
+	relative_position_id = ACR_carneiro_presidency
+
+	available = {
+		RON = {
+			exists = yes
+		}
+	}
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		107 = {
+			remove_building = { type = arms_factory level = -2 }
+			add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+		}
+		106 = {
+			remove_building = { type = arms_factory level = -1 }
+			add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		}	
+	}
+}
+
+shared_focus = {
+	id = ACR_celebrate_with_militarists
+	icon = GFX_goal_ACR_celebrate_with_the_militarists
+	prerequisite = { focus = ACR_rebuild_the_nation }
+	relative_position_id = ACR_rebuild_the_nation
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		acre_senate_add_militarist_seats_2 = yes
+	}
+}
+
+shared_focus = {
+	id = ACR_deal_with_cerqueira
+	icon = GFX_goal_ACR_deal_with_the_rogue_general
+	prerequisite = { focus = ACR_celebrate_with_militarists }
+	relative_position_id = ACR_celebrate_with_militarists
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		country_event = ACR_eneas.2
+	}
+}
+
+shared_focus = {
+	id = ACR_to_the_victor_the_spoils
+	icon = GFX_goal_ACR_it_aint_about_how_hard_you_hit
+	prerequisite = { focus = ACR_carneiro_presidency }
+	relative_position_id = ACR_carneiro_presidency
+
+	available = {
+		RON = {
+			exists = yes
+		}
+	}
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 7500
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1500
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_show_a_light_to_the_nationalists
+	icon = GFX_goal_ACR_one_sun_setting
+	prerequisite = { focus = ACR_to_the_victor_the_spoils }
+	prerequisite = { focus = ACR_rebuild_the_nation }
+	relative_position_id = ACR_to_the_victor_the_spoils
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		acre_senate_add_nationalist_seats_2 = yes
+	}
+}
+
+shared_focus = {
+	id = ACR_reviving_helios_dream
+	icon = GFX_goal_ACR_another_sun_rising
+	prerequisite = { focus = ACR_show_a_light_to_the_nationalists }
+	relative_position_id = ACR_show_a_light_to_the_nationalists
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_stability = 0.05
+		add_political_power = 75
+	}
+}
+
+shared_focus = {
+	id = ACR_taking_over_the_technocrats
+	icon = GFX_goal_ACR_securing_the_party
+	prerequisite = { focus = ACR_to_the_victor_the_spoils }
+	relative_position_id = ACR_to_the_victor_the_spoils
+
+	x = 1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		acre_senate_add_technocrat_seats_2 = yes
+	}
+}
+
+shared_focus = {
+	id = ACR_deciding_marques_fate_in_history
+	icon = GFX_goal_ACR_the_fate_of_marques
+	prerequisite = { focus = ACR_taking_over_the_technocrats }
+	relative_position_id = ACR_taking_over_the_technocrats
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		country_event = ACR_eneas.3
+	}
+}
+
+shared_focus = {
+	id = ACR_found_the_prona
+	icon = GFX_goal_ACR_found_the_PRONA
+	prerequisite = { focus = ACR_deal_with_cerqueira }
+	prerequisite = { focus = ACR_reviving_helios_dream }
+	prerequisite = { focus = ACR_deciding_marques_fate_in_history }
+	relative_position_id = ACR_reviving_helios_dream
+		custom_trigger_tooltip = {
+			tooltip = ACR_matters_of_national_reedification_tt
+		}
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		add_dynamic_modifier = {
+			modifier = ACR_matters_of_national_rectification
+		}
+
+		custom_effect_tooltip = ACR_found_the_prona_tt
+		set_cosmetic_tag = ACR_PRONA
+
+	}
+}
+
+shared_focus = {
+	id = ACR_matters_of_national_reedification
+	icon = GFX_goal_ACR_matters_of_national_rectification
+	prerequisite = { focus = ACR_found_the_prona }
+	relative_position_id = ACR_found_the_prona
+
+	available = {
+		has_cosmetic_tag = ACR_PRONA
+	}
+
+	x = -6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		country_event = ACR_eneas.4	}
+}
+
+shared_focus = {
+	id = ACR_nationalize_rondonia
+	icon = GFX_goal_ACR_nationalise_roraima
+	prerequisite = { focus = ACR_matters_of_national_reedification }
+	relative_position_id = ACR_matters_of_national_reedification
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		annex_country = {
+			target = RON
+		}
+		add_state_core = 141
+		add_state_core = 88
+		add_state_core = 142
+		141 = {
+			add_manpower = 10000
+		}
+		88 = {
+			add_manpower = 5000
+		}
+		142 = {
+			add_manpower = 15000
+		}
+		IQU = {
+			country_event = IQU_foreign.1
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_rondonia_testing_grounds
+	icon = GFX_goal_ACR_marechal_rondon_mb
+	prerequisite = { focus = ACR_nationalize_rondonia }
+	relative_position_id = ACR_nationalize_rondonia
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		88 = {
+			set_state_name = "Test Zone M.R"
+			add_manpower = -35382
+			add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+			add_building_construction = { type = bunker level = 2 instant_build = yes province = { all_provinces = yes limit_to_border = yes } }
+			add_victory_points = { province = 1211 value = -5 }
+			add_victory_points = { province = 4299 value = -5 }
+			set_province_name = {
+				id = 1309
+				name = "Marechal Rondon Military Base"
+			}
+		}
+		141 = {
+			add_manpower = 35382
+		}
+		set_variable = { ACR_production_speed_bunker_factor = 0.2 }
+		custom_effect_tooltip = ACR_rondonia_testing_grounds_tt
+	}
+}
+
+shared_focus = {
+	id = ACR_fake_smiles_and_hand_shakes
+	icon = GFX_goal_ACR_fake_smiles_and_handshakes
+	prerequisite = { focus = ACR_matters_of_national_reedification }
+	relative_position_id = ACR_matters_of_national_reedification
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		if = {
+			limit = { MNS = { controls_state = 96 } }
+			add_opinion_modifier = {
+				target = MNS
+				modifier = small_increase 
+			}
+		}
+		else_if = {
+			limit = { NHA = { controls_state = 96 } }
+			add_opinion_modifier = {
+				target = NHA
+				modifier = small_increase
+			}
+		}
+		add_opinion_modifier = {
+			target = COR
+			modifier = small_decrease
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_ears_on_manaus
+	icon = GFX_goal_ACR_listen_to_your_heart
+	prerequisite = { focus = ACR_fake_smiles_and_hand_shakes }
+	relative_position_id = ACR_fake_smiles_and_hand_shakes
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		set_variable = { ACR_decryption_factor = 0.1 }
+		custom_effect_tooltip = ACR_ears_on_manaus_tt
+		if = {
+			limit = { MNS = { controls_state = 96 } }
+			add_ideas = ACR_ears_on_manaus_idea_MNS
+		}
+		else_if = {
+			limit = { NHA = { controls_state = 96 } }
+			add_ideas = ACR_ears_on_manaus_idea_NHA
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_hands_on_mato_grosso
+	icon = GFX_goal_ACR_trimming_the_thick_bush
+	prerequisite = { focus = ACR_rondonia_testing_grounds }
+	prerequisite = { focus = ACR_ears_on_manaus }
+	relative_position_id = ACR_ears_on_manaus
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		create_wargoal = {
+			target = ARI
+			type = annex_everything
+		}	
+	}
+}
+
+shared_focus = {
+	id = ACR_secure_the_upper_amazon
+	icon = GFX_goal_ACR_welcome_to_the_jungle
+	prerequisite = { focus = ACR_matters_of_national_reedification }
+	relative_position_id = ACR_matters_of_national_reedification
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		JUR = { country_event = JUR_foreign.1 }
+		JAV = { country_event = JAV_foreign.1 }
+		DNI = { country_event = DNI_foreign.1 }	
+		HIM = { country_event = HIM_foreign.1 }
+		FBO = { country_event = FBO_foreign.1 }
+		JUT = { country_event = JUT_foreign.1 }
+		BIA = { country_event = BIA_foreign.1 }
+	}
+}
+
+shared_focus = {
+	id = ACR_fluvial_supremacy
+	icon = GFX_goal_ACR_fun_and_games
+	prerequisite = { focus = ACR_secure_the_upper_amazon }
+	relative_position_id = ACR_secure_the_upper_amazon
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		custom_effect_tooltip = ACR_fluvial_supremacy_tt	
+		set_variable = { ACR_industrial_capacity_dockyard = 0.1 }
+		custom_effect_tooltip = ACR_fluvial_supremacy1_tt
+		add_tech_bonus = {
+			name = ship_bonus
+			bonus = 1
+    		uses = 3
+    		category = naval_equipment
+		}
+		add_tech_bonus = {
+			name = naval_bonus
+			bonus = 1
+    		uses = 1
+    		category = naval_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_buy_out_the_neblina
+	icon = GFX_goal_ACR_see_through_the_fog
+	prerequisite = { focus = ACR_ears_on_manaus }
+	prerequisite = { focus = ACR_fluvial_supremacy }
+	relative_position_id = ACR_fluvial_supremacy
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		NEB = { country_event = NEB_eneas.1 }	
+	}
+}
+
+shared_focus = {
+	id = ACR_economy_and_army
+	icon = GFX_goal_ACR_post_war_reforms
+	prerequisite = { focus = ACR_found_the_prona }
+	relative_position_id = ACR_found_the_prona
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		add_ideas = military_troop_training
+		add_tech_bonus = {
+			name = weapons_bonus
+			bonus = 1
+    		uses = 4
+    		category = infantry_tech
+		}
+		add_tech_bonus = {
+			name = doctrine_bonus
+			bonus = 1
+    		uses = 2
+    		category = land_doctrine
+		}
+		add_tech_bonus = {
+			name = doctrine_bonus
+			bonus = 1
+    		uses = 2
+    		category = air_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_triple_the_army_size
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_economy_and_army }
+	relative_position_id = ACR_economy_and_army
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		89 = {
+			create_unit = {
+				division = "name = \"Milícia de Terra 1\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4300"
+				owner = ACR 
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 2\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4230"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 3\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 811"
+				owner = ACR
+			}
+		}
+		533 = {
+			create_unit = {
+				division = "name = \"Milícia de Terra 4\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 2029"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 5\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4305"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 6\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 2408"
+				owner = ACR
+			}
+		}
+		107 = {
+			create_unit = {
+				division = "name = \"Milícia de Terra 7\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 1256"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 8\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 2084"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 9\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 1855"
+				owner = ACR
+			}
+		}
+		106 = {
+			create_unit = {
+				division = "name = \"Milícia de Terra 10\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4094"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 11\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4125"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Milícia de Terra 12\" division_template = \"Milícia de Terra\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4189"
+				owner = ACR
+			}
+		}
+		add_manpower = -8400
+	}
+}
+
+shared_focus = {
+	id = ACR_army_whatever
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_triple_the_army_size }
+	relative_position_id = ACR_triple_the_army_size
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		add_ideas = all_adults_serve
+		set_variable = { ACR_conscription = 0.015 }
+		custom_effect_tooltip = ACR_army_whatever_tt
+	}
+}
+
+shared_focus = {
+	id = ACR_riverines
+	icon = GFX_goal_ACR_expand_the_frogmen_corps
+	prerequisite = { focus = ACR_fluvial_supremacy }
+	prerequisite = { focus = ACR_army_whatever }
+	relative_position_id = ACR_army_whatever
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		hidden_effect = {
+		load_oob = ACR_frogmen
+		}
+		107 = {
+			create_unit = {
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 2409"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4228"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 1120"
+				owner = ACR
+			}
+			create_unit = {
+				division = "name = \"Frogmen\" division_template = \"Acrean Frogmen\" start_experience_factor = 0.6 start_equipment_factor = 1 province = 4201"
+				owner = ACR
+			}
+		}
+		add_ideas = ACR_expanded_frogmen_corps
+	}
+}
+
+shared_focus = {
+	id = ACR_nationalize_the_rubber_industry
+	icon = GFX_goal_ACR_nationalize_the_rubber_industry
+	prerequisite = { focus = ACR_economy_and_army }
+	relative_position_id = ACR_economy_and_army
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		add_ideas = {
+			closed_economy
+			war_economy
+		}	
+	}
+}
+
+shared_focus = {
+	id = ACR_the_state_controls_all
+	icon = GFX_goal_ACR_the_state_above_all
+	prerequisite = { focus = ACR_nationalize_the_rubber_industry }
+	relative_position_id = ACR_nationalize_the_rubber_industry
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_ideas = idea_AOL_state_press
+		set_variable = { ACR_industrial_capacity_factory1 = 0.05 }
+		custom_effect_tooltip = ACR_the_state_controls_all_tt
+		add_timed_idea = {
+			idea = ACR_fighting_neoliberalism
+			days = 365
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_soldiers_heroes_leaders
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_army_whatever }
+	prerequisite = { focus = ACR_the_state_controls_all }
+	relative_position_id = ACR_the_state_controls_all
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_ideas = professional_military_training
+		create_corps_commander = {
+			name = "Placeholder 1"
+			picture = ""
+			traits = { trait_engineer fortress_buster }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+		}
+		create_corps_commander = {
+			name = "Placeholder 2"
+			picture = ""
+			traits = { infantry_leader organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_the_greatest_log_house
+	icon = GFX_goal_ACR_the_greatest_loghouse
+	prerequisite = { focus = ACR_found_the_prona }
+	relative_position_id = ACR_found_the_prona
+
+	x = 6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		country_event = ACR_eneas.5
+	}
+}
+
+shared_focus = {
+	id = ACR_anthropology_lessons
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_greatest_log_house }
+	relative_position_id = ACR_the_greatest_log_house
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_country_leader_trait = anthropologist
+	}
+}
+
+shared_focus = {
+	id = ACR_uphold_anthropophagic_ideals
+	icon = GFX_goal_ACR_champion_the_anthropofafafafafa
+	prerequisite = { focus = ACR_anthropology_lessons }
+	relative_position_id = ACR_anthropology_lessons
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		set_variable = { ACR_research_speed_factor1 = 0.075 }
+		custom_effect_tooltip = ACR_uphold_anthropophagic_ideals_tt
+		country_event = ACR_eneas.6
+	}
+}
+
+shared_focus = {
+	id = ACR_carlos_drummond_de_andrade
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_state_controls_all }
+	prerequisite = { focus = ACR_uphold_anthropophagic_ideals }
+	relative_position_id = ACR_uphold_anthropophagic_ideals
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		country_event = ACR_eneas.7
+	}
+}
+
+shared_focus = {
+	id = ACR_attract_intellectuals
+	icon = GFX_goal_ACR_attract_intelectuals
+	prerequisite = { focus = ACR_the_greatest_log_house }
+	relative_position_id = ACR_the_greatest_log_house
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_ideas = ACR_last_university_on_earth
+	}
+}
+
+shared_focus = {
+	id = ACR_eneas_inner_circle
+	icon = GFX_goal_ACR_the_inner_circle
+	prerequisite = { focus = ACR_attract_intellectuals }
+	relative_position_id = ACR_attract_intellectuals
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_to_variable = { ACR_research_speed_factor1 = 0.075 }
+		custom_effect_tooltip = ACR_eneas_inner_circle_tt
+	}
+}
+
+shared_focus = {
+	id = ACR_the_silver_library
+	icon = GFX_goal_ACR_the_silver_library
+	prerequisite = { focus = ACR_uphold_anthropophagic_ideals }
+	prerequisite = { focus = ACR_eneas_inner_circle }
+	relative_position_id = ACR_eneas_inner_circle
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_opinion_modifier = {
+			target = ARG
+			modifier = medium_decrease
+		}
+		set_country_flag = ACR_silver_library_advisors
+		custom_effect_tooltip = ACR_the_silver_library_tt
+	}
+}
+
+shared_focus = {
+	id = ACR_new_research_facilities
+	icon = GFX_goal_ACR_expand_wing_x
+	prerequisite = { focus = ACR_the_greatest_log_house }
+	relative_position_id = ACR_the_greatest_log_house
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		add_tech_bonus = {
+			name = motorized_bonus
+			bonus = 0.5
+			uses = 1
+			category = motorized_equipment
+		}
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 0.75
+			uses = 3
+			category = infantry_tech
+		}
+		add_tech_bonus = {
+			name = support_bonus
+			bonus = 0.5
+			uses = 2
+			category = support_tech
+		}
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 0.5
+			uses = 3
+			category = industry
+		}
+	}
+}
+
+shared_focus = {
+	id = ACR_the_best_of_the_best
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_new_research_facilities }
+	relative_position_id = ACR_new_research_facilities
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		set_country_flag = ACR_eneas_advisor_purge
+		custom_effect_tooltip = ACR_the_silver_library_tt
+		add_stability = -0.25
+	}
+}
+
+shared_focus = {
+	id = ACR_a_state_run_by_reason
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_eneas_inner_circle }
+	prerequisite = { focus = ACR_the_best_of_the_best }
+	relative_position_id = ACR_the_best_of_the_best
+
+	x = -1
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+		add_to_variable = { ACR_research_speed_factor1 = 0.05 }
+		set_variable = { ACR_stability_factor = 0.1 }
+		custom_effect_tooltip = ACR_a_state_run_by_reason_tt
+	}
+}
+
+shared_focus = {
+	id = ACR_the_race_for_equity
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_hands_on_mato_grosso }
+	prerequisite = { focus = ACR_buy_out_the_neblina }
+	prerequisite = { focus = ACR_riverines }
+	prerequisite = { focus = ACR_soldiers_heroes_leaders }
+	prerequisite = { focus = ACR_carlos_drummond_de_andrade }
+	prerequisite = { focus = ACR_the_silver_library }
+	prerequisite = { focus = ACR_a_state_run_by_reason }
+	relative_position_id = ACR_soldiers_heroes_leaders
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+		country_event = ACR_eneas.8
+	}
+}
+
+shared_focus = {
+	id = ACR_project_pirarucu
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -8
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_arara
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_tarantula
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -4
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_jaguatirica
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = -2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_mapinguari
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 0
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_boto
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 2
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_boitata
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 4
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_anta
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 6
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_project_caititu
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_the_race_for_equity }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 8
+	y = 1
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {	
+	}
+}
+
+shared_focus = {
+	id = ACR_amazons_overseer
+	icon = GFX_goal_the_cerqueira_presidency
+	prerequisite = { focus = ACR_project_pirarucu }
+	prerequisite = { focus = ACR_project_arara }
+	prerequisite = { focus = ACR_project_tarantula }
+	prerequisite = { focus = ACR_project_jaguatirica }
+	prerequisite = { focus = ACR_project_mapinguari }
+	prerequisite = { focus = ACR_project_boto }
+	prerequisite = { focus = ACR_project_boitata }
+	prerequisite = { focus = ACR_project_anta }
+	prerequisite = { focus = ACR_project_caititu }
+	relative_position_id = ACR_the_race_for_equity
+
+	x = 0
+	y = 2
+	cost = 1
+
+	ai_will_do = { factor = 1 }
+
+	completion_reward = {
+
+	}
+}
