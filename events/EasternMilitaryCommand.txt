@@ -86,6 +86,8 @@ country_event = { ## Victory! ##
                     id = BRA_guanabara.3
                     days = 1
                 }
+			}
+			CRJ = {
             country_event = { id = CRJ.1 days = 430 }
                 remove_ideas = CRJ_second_war_of_guanabara 
             }

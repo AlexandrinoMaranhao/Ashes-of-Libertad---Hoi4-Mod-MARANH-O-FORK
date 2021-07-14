@@ -241,7 +241,17 @@ country_event = {
         306 = { set_demilitarized_zone = no }
         311 = { set_demilitarized_zone = yes }
         445 = { set_demilitarized_zone = yes }
-        ELD = { transfer_state = 315 }
+        ELD = {
+			transfer_state = 315
+			load_oob = ELD_1967
+			every_state = {
+				limit = {
+					is_owned_by = VEN
+					is_core_of = VEN
+				}
+				add_core_of = ELD
+			}
+			}
         ELD = { transfer_state = 306 }
         VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.5 days = 28 } }
 
@@ -292,7 +302,16 @@ country_event = {
         314 = { set_demilitarized_zone = yes }
         312 = { set_demilitarized_zone = yes }
         313 = { set_demilitarized_zone = no }
-        VEJ = { transfer_state = 313 }
+        VEJ = { 
+					load_oob = VEJ_1967
+			every_state = {
+				limit = {
+					is_owned_by = VEN
+					is_core_of = VEN
+				}
+				add_core_of = VEJ
+			}
+			transfer_state = 313 }
 
         VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.7 days = 24 } }
 
@@ -321,7 +340,16 @@ country_event = {
 
         VEJ = { transfer_state = 312 }
         VEJ = { transfer_state = 314 }
-        LLA = { transfer_state = 449 }
+        LLA = {
+					load_oob = LLA_1967
+			every_state = {
+				limit = {
+					is_owned_by = VEN
+					is_core_of = VEN
+				}
+				add_core_of = LLA
+			}
+		transfer_state = 449 }
         LLA = { transfer_state = 310 }
         LLA = { transfer_state = 446 }
 
@@ -368,7 +396,15 @@ country_event = {
         303 = { set_demilitarized_zone = no }
         447 = { set_demilitarized_zone = no }
 
-        VEC = { transfer_state = 304 }
+        VEC = { 
+					load_oob = VEC_1967
+			every_state = {
+				limit = {
+					is_owned_by = VEN
+					is_core_of = VEN
+				}
+				add_core_of = VEC
+			}transfer_state = 304 }
         VEC = { transfer_state = 305 }
         VEC = { transfer_state = 303 }
         VEC = { transfer_state = 447 }

@@ -29,7 +29,7 @@ country_event = {
 
     option = {
       name = PEB.2.a
-      INT = {transfer_state = 8}
+      INT = { load_oob = INT_1967 transfer_state = 8}
 
       country_event = { id = PEB.3 }
   }
