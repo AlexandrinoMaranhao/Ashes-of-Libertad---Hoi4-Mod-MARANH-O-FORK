@@ -39,4 +39,32 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
+	division = {
+		name = "Infantaria Intentona 5"
+		location = 4160
+		division_template = "Infantaria Intentona"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Intentona 6"
+		location = 4160
+		division_template = "Infantaria Intentona"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Intentona 7"
+		location = 4160
+		division_template = "Infantaria Intentona"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Intentona 8"
+		location = 4160
+		division_template = "Infantaria Intentona"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
 }
