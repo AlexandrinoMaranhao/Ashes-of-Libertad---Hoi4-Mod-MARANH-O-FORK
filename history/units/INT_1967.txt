@@ -19,23 +19,23 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Intentona 2"
+		name = "Infantaria Intentona 2"
 		location = 4160
-		division_template = "Infanteria Intentona"
+		division_template = "Infantaria Intentona"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Intentona 3"
+		name = "Infantaria Intentona 3"
 		location = 4160
-		division_template = "Infanteria Intentona"
+		division_template = "Infantaria Intentona"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Intentona 4"
+		name = "Infantaria Intentona 4"
 		location = 4160
-		division_template = "Infanteria Intentona"
+		division_template = "Infantaria Intentona"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
