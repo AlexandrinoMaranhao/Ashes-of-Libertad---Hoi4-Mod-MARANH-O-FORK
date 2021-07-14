@@ -394,7 +394,7 @@ country_event = { #Second Phase of expanding
     name = MNS.9.a
 
     annex_country = { target = NHA transfer_troops = yes }
-    annex_country = { target = AND }
+    annex_country = { target = ANI }
 
         #hidden_effect = { country_event = { id = MNS.9 days = 80 } }
     }

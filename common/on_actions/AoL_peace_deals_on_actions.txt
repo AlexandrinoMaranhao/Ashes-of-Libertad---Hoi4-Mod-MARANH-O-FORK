@@ -1172,6 +1172,7 @@ on_actions = {
         annex_country = {
           target = FROM
           transfer_troops = no
+          set_capital = 504
           }
         }
       }

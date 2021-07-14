@@ -42,11 +42,11 @@ units = {
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
-	division = {
-		name = "Batalhão da Capital 3"
-		location = 1773
-		division_template = "Infantaria Mineira"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1
-	}
+	#division = {
+	#	name = "Batalhão da Capital 3"
+	#	location = 1773
+	#	division_template = "Infantaria Mineira"
+	#	start_experience_factor = 0.7
+	#	start_equipment_factor = 1
+	#}
 }

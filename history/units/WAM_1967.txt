@@ -11,7 +11,25 @@ division_template = {
 
 units = {
 	division = {
-		name = "Infantaria Waimiri 1"
+		name = "Waimiri Tribe"
+		location = 3575
+		division_template = "Infantaria Waimiri"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
+units = {
+	division = {
+		name = "Waimiri Tribe"
+		location = 3575
+		division_template = "Infantaria Waimiri"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
+units = {
+	division = {
+		name = "Waimiri Tribe"
 		location = 3575
 		division_template = "Infantaria Waimiri"
 		start_experience_factor = 0.4

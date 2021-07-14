@@ -11,7 +11,25 @@ division_template = {
 
 units = {
 	division = {
-		name = "Infantaria Atroari 1"
+		name = "Atroari Tribe"
+		location = 3538
+		division_template = "Infantaria Atroari"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
+units = {
+	division = {
+		name = "Atroari Tribe"
+		location = 3538
+		division_template = "Infantaria Atroari"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
+units = {
+	division = {
+		name = "Atroari Tribe"
 		location = 3538
 		division_template = "Infantaria Atroari"
 		start_experience_factor = 0.4
