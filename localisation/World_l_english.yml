@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
 world.1.t:0 "The Return of Carlos Prestes"
 world.1.d:0 "Surprising news coming from the Brazilian northeast as historic revolutionary Luis Carlos Prestes is reported to have returned to the public and political life, having publicly announced his comeback on April 23rd, 1969, the 27th anniversary of the death of his late wife Olga Benário, executed in Germany after being deported during the Vargas regime. Once the most influential symbol of the Brazilian far-left Prestes disappeared from the public eye after being expelled from the PCB over conflicting opinions on armed struggle, on Preste’s returning speech, transmitted on a radio station reportedly operated by the ALN, he emphasized his personal abandonment of the concept of revolution through peace that he once defended and called for the divided worker parties of Brazil to rise together on what has been dubbed a “Second Intentona Comunista”."
@@ -127,10 +127,10 @@ world.62.d:0 "Gunfire erupted on the streets of Cusco as a long and dragging con
 world.62.a:0 "Héctor meets a Trojan fate..."
 
 world.63.t:0 "Lima Sieged by Private Mercenary Army."
-world.63.d:0 ""
-world.63.a:0 ""
+world.63.d:0 "Worrying news has escaped the increasingly tense atmosphere of Peru, as mercenary army forces answering as "The Regency of New Castille" have begun a siege of the neutral city of Lima, with sharp objection from the city’s armed militia. In a radio broadcast, a delegate from the Regency said that Lima is rightfully owned by New Castille as is the rest of the former territory of the Viceroyalty of Peru. Other Peruvian claimers are outraged, protesting that Lima is rightfully theirs while some are mad that this new party is attacking a neutral state, aggravating an already tense standoff in the nation. Regardless, fighting in the city is growing surprisingly quickly as citizens, many of them former artists, poets and journalists who fled from dictatorial regimes in other nations, gather up arms to defend the city's autonomy, ending the Poet City's neutrality in a short, bloody verse."
+world.63.a:0 "Censorship is to art as lynching is to justice."
 
-world.64.t:0 ""
+world.64.t:0 "Argentina Faces Resistance in the Malvinas"
 world.64.d:0 ""
 world.64.a:0 ""
 
@@ -142,7 +142,7 @@ world.66.t:0 ""
 world.66.d:0 ""
 world.66.a:0 ""
 
-world.67.t:0 "Argentina Faces Resistance in the Malvinas"
+world.67.t:0 ""
 world.67.d:0 ""
 world.67.a:0 ""
 
@@ -180,7 +180,7 @@ world.75.a:0 ""
 
 world.76.t:0 "Emperor Rademaker, The Brazilian Napoleon!"
 world.76.d:0 "Augusto Rademaker, de facto leader of the Eastern Military Command and one of, or if not the, most prestigious admirals of the Brazilian Junta, has proclaimed himself to be the heir of all former Brazilian territory through the Restoration of the Brazilian Empire. Although part of the coup that started the civil war, Rademaker stated in a speech that over the years of fighting on the Junta's side: “We lost our vision, our unity over petty political rivalries, and forgot about our own people.”, he also stated: “I looked at our rich past and found values worth fighting for: The intellect and progressiveness of our old Empire.” Remarks from the Junta came in the form of non-official torrents of loose speeches from its Presidential aspirants. The Legalists refused to give comments, presumably still licking their wounds after Rio's fall in the 2nd Battle of Guanabara."
-world.76.a:0 "The Admiral turned Emperor"
+world.76.a:0 "An Admiral turned Emperor"
 
 world.77.t:0 ""
 world.77.d:0 ""

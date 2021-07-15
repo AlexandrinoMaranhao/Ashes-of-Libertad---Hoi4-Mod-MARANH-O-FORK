@@ -891,7 +891,7 @@ country_event = {
     }
 }
 
-country_event = {
+country_event = { 
     id = FBO.4
     title = FBO.4.t
     desc = FBO.4.d
@@ -900,8 +900,11 @@ country_event = {
     is_triggered_only = yes
     
     #Answer
-    option = {
+    option = { #Peaceful ending
     name = FBO.4.a
+
+    create_faction = LACERDA_FACTION
+    FBO = { add_to_faction = BIA  add_to_faction = JUT add_to_faction = JAV  add_to_faction = QPM}
 
     every_country = {
         news_event = {
@@ -925,7 +928,7 @@ country_event = {
 
         #hidden_effect = { country_event = { id = FBO.4 days = 10 } }
     }
-    option = {
+    option = { #Not Peaceful Ending
     name = FBO.4.b
 
     every_country = {
@@ -935,7 +938,10 @@ country_event = {
         }
     }
  
-    QPM = {
+    create_faction = LACERDA_FACTION
+    FBO = { add_to_faction = BIA  add_to_faction = JUT add_to_faction = JAV }
+
+    QPM = { 
 remove_ideas = antas 
 remove_ideas = fonte_boa_influence
 add_ideas = the_10th_crusade 

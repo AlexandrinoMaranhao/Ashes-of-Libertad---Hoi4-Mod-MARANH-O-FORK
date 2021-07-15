@@ -10,7 +10,12 @@ spriteTypes = {
 		name = "GFX_"news_event_castelo_battle_of_manaus
 		texturefile = "gfx/event_pictures/news_event_castelo_battle_of_manaus.dds"
 	}
-																						
+													
+	spriteType = {
+		name = "GFX_news_event_lima"
+		texturefile = "gfx/event_pictures/news_event_lima.dds"
+	}
+																															
 	spriteType = {
 		name = "GFX_news_event_bahia"
 		texturefile = "gfx/event_pictures/news_event_bahia.dds"
