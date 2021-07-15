@@ -914,7 +914,7 @@ country_event = {
         expire = "1999.1.1"
         ideology = guerrilla 
         traits = {
-            #
+            unlikely_indigenist 
         }
     }
 }
@@ -962,7 +962,7 @@ country_event = {
         expire = "1999.1.1"
         ideology = guerrilla 
         traits = {
-            #
+            unlikely_indigenist 
         }
     }
 }
