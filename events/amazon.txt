@@ -904,7 +904,20 @@ country_event = {
     name = FBO.4.a
 
     create_faction = LACERDA_FACTION
-    FBO = { add_to_faction = BIA  add_to_faction = JUT add_to_faction = JAV  add_to_faction = QPM}
+    FBO = { add_to_faction = BIA  add_to_faction = JUT add_to_faction = JAV  add_to_faction = QPM
+
+    kill_country_leader = yes
+    create_country_leader = {
+            
+        name = "Capitão Lamarca"
+        picture = "gfx/leaders/FBO/Portrait_FBO_Lamarca_Indigenist.dds"
+        expire = "1999.1.1"
+        ideology = guerrilla 
+        traits = {
+            #
+        }
+    }
+}
 
     every_country = {
         news_event = {
@@ -939,8 +952,20 @@ country_event = {
     }
  
     create_faction = LACERDA_FACTION
-    FBO = { add_to_faction = BIA  add_to_faction = JUT add_to_faction = JAV }
+    FBO = { add_to_faction = BIA  add_to_faction = JUT add_to_faction = JAV 
 
+    kill_country_leader = yes
+    create_country_leader = {
+            
+        name = "Capitão Lamarca"
+        picture = "gfx/leaders/FBO/Portrait_FBO_Lamarca_Indigenist.dds"
+        expire = "1999.1.1"
+        ideology = guerrilla 
+        traits = {
+            #
+        }
+    }
+}
     QPM = { 
 remove_ideas = antas 
 remove_ideas = fonte_boa_influence
