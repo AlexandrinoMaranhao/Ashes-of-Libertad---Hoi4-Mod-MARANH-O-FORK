@@ -19,23 +19,23 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Paraiba 2"
+		name = "Infantaria Paraiba 2"
 		location = 6279
-		division_template = "Infanteria Paraiba"
+		division_template = "Infantaria Paraiba"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Paraiba 3"
+		name = "Infantaria Paraiba 3"
 		location = 6279
-		division_template = "Infanteria Paraiba"
+		division_template = "Infantaria Paraiba"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Paraiba 4"
+		name = "Infantaria Paraiba 4"
 		location = 6279
-		division_template = "Infanteria Paraiba"
+		division_template = "Infantaria Paraiba"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}

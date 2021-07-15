@@ -94,7 +94,7 @@ country_event = {
                     reactionary = 0
                         }
                     }
-        PEB = { load_oob = PEB_1967 country_event = { id = PEB.1 days = 7 } }
+        PEB = { load_oob = "PEB_1967" country_event = { id = PEB.1 days = 7 } }
         MNH = { country_event = { id = MNH.1 hours = 3 } }
         CFD = { remove_ideas = cangaceiros_and_commies }
         country_event = { id = CFD.2 days = 14 }
