@@ -40,8 +40,8 @@ ideas = {
 				always = no
 			}
 			
-			modifier = {
-
+			modifier = {#In case that Para declares war on Amapa
+				ai_call_ally_desire_factor = -1000
 			}
 		}
 	}

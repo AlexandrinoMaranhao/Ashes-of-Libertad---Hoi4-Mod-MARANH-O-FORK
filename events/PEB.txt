@@ -1,7 +1,7 @@
 add_namespace = PEB
 
 country_event = {
-    id = PEB.1 # PEB declares war on CFD a week after breaking away
+    id = PEB.1 # Prestes prepares to uprise at Petrolina
     title = PEB.1.t
     desc = PEB.1.d
     picture = x
@@ -10,10 +10,8 @@ country_event = {
 
     option = {
       name = PEB.1.a
-
-      declare_war_on = {
-        target = CFD
-        type = annex_everything
+      8 = {
+        set_demilitarized_zone = yes
       }
       country_event = { id = PEB.2 days = 3 }
   }
@@ -29,8 +27,18 @@ country_event = {
 
     option = {
       name = PEB.2.a
-      INT = { load_oob = INT_1967 transfer_state = 8}
-
+      8 = {
+        set_demilitarized_zone = no
+      }
+      INT = { 
+        transfer_state = 8
+        add_state_core = 8
+        load_oob = "INT_1967"
+      }
+      declare_war_on = {
+        target = CFD
+        type = annex_everything
+      }
       country_event = { id = PEB.3 }
   }
 } 
@@ -47,16 +55,16 @@ country_event = {
     option = {
       name = PEB.3.a
 
-INT = {
-      declare_war_on = {
-        target = CFD
-        type = annex_everything
-      }
+      INT = {
+        declare_war_on = {
+          target = CFD
+          type = annex_everything
+        }
 
-      declare_war_on = {
-        target = PEB
-        type = annex_everything
-      }
+        declare_war_on = {
+          target = PEB
+          type = annex_everything
+        }
     }
   } 
 }

@@ -33,7 +33,7 @@ add_ideas = {
 create_country_leader = {
 	
 	name = "Charles Manson"
-	picture = "gfx/leaders/AMC/Portrait_AMC_Charles_Manson.dds"
+	picture = "Portrait_AMC_Charles_Manson.dds"
 	expire = "1999.1.1"
 	ideology = nazism
 	traits = {
@@ -44,7 +44,7 @@ create_country_leader = {
 create_country_leader = {
 	
 	name = "Ervil LeBaron"
-	picture = "gfx/leaders/AMC/Portrait_AMC_Ervil_LeBaron.dds"
+	picture = "Portrait_LEB_Evril_LeBaron.dds"
 	expire = "1999.1.1"
 	ideology = mormon_theocracy
 	traits = {

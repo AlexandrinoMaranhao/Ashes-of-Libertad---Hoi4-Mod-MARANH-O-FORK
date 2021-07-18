@@ -37,7 +37,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Seixas Dória"
-	picture = "gfx/leaders/SEG/Portrait_SEG_Seixas.dds"
+	picture = "Portrait_SEG_Seixas_Dória.dds"
 	desc = SEIXAS_DORIA_DESC
 	expire = "1999.1.1"
 	ideology = coronelism

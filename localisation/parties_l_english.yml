@@ -258,6 +258,30 @@ CNU_democratic_party_long:0 "Partido Social Democrático - Bahia"
 AMA_democratic_party:0 "PSB - A"
 AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
 
+CFD_reactionary_party:0 "UFNB"
+CFD_reactionary_party:0 "União Federativa do Nordeste Brasileiro"
+
+PEB_reactionary_party:0 "GP"
+PEB_reactionary_party_long:0 "Governo do Pernambuco"
+
+RNG_reactionary_party:0 "GRNG"
+RNG_reactionary_party_long:0 "Governo do Rio Grande do Norte"
+
+PAI_reactionary_party:0 "GP"
+PAI_reactionary_party_long:0 "Governo da Paraíba"
+
+ALA_reactionary_party:0 "GA"
+ALA_reactionary_party_long:0 "Governo do Alagoas"
+
+SEG_reactionary_party:0 "GS"
+SEG_reactionary_party_long:0 "Governor do Sergipe"
+
+CEA_reactionary_party:0 "AF"
+CEA_reactionary_party_long:0 "Arquediocese de Fortaleza"
+
+INT_communism_party:0 "CP"
+INT_communism_party_long:0 "Coluna Prestes"
+
 #Uruguay things
 URG_fascism_party:0 "M-I C"
 URG_fascism_party_long:0 "Military-Industrial Complex"

@@ -76,24 +76,26 @@ country_event = {
 
     option = {
         name = CFD.1.a
-
+        delete_unit_template_and_units = {
+            division_template = "Infantaria Nordeste"
+            disband = yes
+        }
         release = PEB
         CFD = {
-
-    set_politics = {
-                    ruling_party = communism
-                    last_election = "1967.1.1"
-                    election_frequency = 48
-                    elections_allowed = no
-                        }
-                    set_popularities = {
-                    democratic = 0
-                    fascism = 0
-                    communism = 100
-                    neutrality = 0
-                    reactionary = 0
-                        }
-                    }
+            set_politics = {
+                ruling_party = communism
+                last_election = "1967.1.1"
+                election_frequency = 48
+                elections_allowed = no
+            }
+            set_popularities = {
+                democratic = 0
+                fascism = 0
+                communism = 100
+                neutrality = 0
+                reactionary = 0
+            }
+        }
         PEB = { load_oob = "PEB_1967" country_event = { id = PEB.1 days = 7 } }
         MNH = { country_event = { id = MNH.1 hours = 3 } }
         CFD = { remove_ideas = cangaceiros_and_commies }
@@ -112,9 +114,9 @@ country_event = {
     option = {
         name = CFD.2.a
         CEA = {
-		load_oob = CEA_1967
             transfer_state  = 14
             transfer_state  = 12
+            load_oob = "CEA_1967"
             declare_war_on = {
                 target = CFD 
                 type = annex_everything
@@ -139,7 +141,7 @@ country_event = {
                 }
             }
         }
-        country_event = { id = CFD.3 days = 7 }
+        country_event = { id = CFD.3 days = 3 }
     }
 }
 
@@ -157,10 +159,10 @@ country_event = {
         CFD = { remove_ideas = gateway_of_south_america }
 
         RGN = {
-		load_oob = RGN_1967
             transfer_state  = 3
             transfer_state  = 4
             transfer_state  = 5
+            load_oob = "RGN_1967"
             declare_war_on = {
                 target = CFD
                 type = annex_everything
@@ -190,7 +192,7 @@ country_event = {
                 }
             }
         }
-        country_event = { id = CFD.4 days = 7 }
+        country_event = { id = CFD.4 days = 3 }
     }
 }
 
@@ -205,8 +207,8 @@ country_event = {
     option = {
         name = CFD.4.a
         PAI = {
-		load_oob = PAI_1967
             transfer_state  = 6
+            load_oob = "PAI_1967"
             declare_war_on = {
                 target = CFD
                 type = annex_everything
@@ -241,7 +243,7 @@ country_event = {
                 }
             }
         }
-        country_event = { id = CFD.5 days = 7 }
+        country_event = { id = CFD.5 days = 3 }
     }
 }
 
@@ -263,8 +265,8 @@ country_event = {
         }
     }
         ALA = {
-		load_oob = ALA_1967
             transfer_state  = 10
+            load_oob = "ALA_1967"
             declare_war_on = {
                 target = CFD
                 type = annex_everything
