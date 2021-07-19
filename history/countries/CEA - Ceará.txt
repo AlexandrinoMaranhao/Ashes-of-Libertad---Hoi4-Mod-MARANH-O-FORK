@@ -34,7 +34,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Father Almeida Lustosa"
-	picture = "gfx/leaders/CEA/Portrait_CEA_Antonio_de_Almeida_lustosa.dds"
+	picture = "Portrait_CEA_Almeida_Lustosa.dds"
 	desc = "LUSTOSA_DESC"
 	expire = "1999.1.1"
 	ideology = christian_theocracy_reactionary
