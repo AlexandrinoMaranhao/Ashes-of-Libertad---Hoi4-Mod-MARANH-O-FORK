@@ -59,6 +59,23 @@ ACR_debug = {
 			load_focus_tree = ACR_focus_8
 		}
 	}
+	ACR_toggle_war_train_category = {
+		allowed = {
+			tag = ACR
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+        days_re_enable = 0
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = ACR_war_train_category_allowed }
+				clr_country_flag = ACR_war_train_category_allowed
+			}
+			else = { set_country_flag = ACR_war_train_category_allowed }
+		}
+	}
 }
 
 acrean_senate = {
@@ -1003,6 +1020,46 @@ acrean_senate = {
 }
 
 ACR_war_train_category = {
+	ACR_connect_arquimedes = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_arquimedes_connected
+		}
+	}
+	ACR_connect_cruzeiro = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_cruzeiro_connected
+		}
+	}
+	ACR_connect_feijo = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_feijo_connected
+		}
+	}
+	ACR_connect_guajara_mirim = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_guajara_mirim_connected
+		}
+	}
+	ACR_connect_porto_velho = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_porto_velho_connected
+		}
+	}
+	ACR_connect_riberalta = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_riberalta_connected
+		}
+	}
+	ACR_connect_rio_branco = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_rio_branco_connected
+		}
+	}
+	ACR_connect_xapuri = {
+		complete_effect = {
+			set_country_flag = ACR_war_train_xapuri_connected
+		}
+	}
 	ACR_construct_railroad_acre = {
 		icon = GFX_decision_build_acre_wartrain_decision
 		visible = {

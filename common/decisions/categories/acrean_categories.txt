@@ -27,6 +27,7 @@ ACR_war_train_category = {
 	allowed = {
 		tag = ACR
 	}
+	visible = { has_country_flag = ACR_war_train_category_allowed }
 	scripted_gui = ACR_war_train_category
 }
 

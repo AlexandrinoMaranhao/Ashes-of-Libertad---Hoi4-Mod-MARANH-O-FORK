@@ -1698,8 +1698,8 @@
 
 
 ## LOADING MESSAGES ##
-LOADING_GUI:0 "§BTurning the Key§!"
-LOADING_HISTORY:0 "§BPushing the Red Button§!"
+LOADING_GUI:0 "Turning the Key"
+LOADING_HISTORY:0 "Pushing the Red Button"
 LOADING_SAVEGAME:0 ""
 LOADING_SAVEGAME_NO_NAME:0 ""
 LOADING_DATABASES:0 ""
@@ -1712,8 +1712,8 @@ LOAD_GFX_PDXMAP_TREES:0 ""
 LOAD_GFX_PDXMAP_RIVERS:0 ""
 LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 ""
 LOAD_EVENTS:0 ""
-LOAD_GFX:0 "§BEmbracing the Apocalypse§!"
-LOADING_MAIN_MENU:0 "§BEmbracing the Apocalypse§!"
+LOAD_GFX:0 "Embracing the Apocalypse"
+LOADING_MAIN_MENU:0 "Embracing the Apocalypse"
 PRECALC_NAVAL_DIST:0 ""
 EXITING_TO_FRONTEND:0 ""
 LOAD_INIT:0 ""
