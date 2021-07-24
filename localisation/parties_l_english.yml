@@ -120,13 +120,162 @@
  GER_neutrality_party_civil_war:0 "Militärregierung"
  GER_neutrality_party_kaiserreich:0 "DNVP"
  GER_neutrality_party_kaiserreich_long:0 "Deutschnationale Volkspartei"
-
+  
 # XXX_fascism_party:0 ""
 # XXX_communism_party:0 ""
 # XXX_democratic_party:0 ""
 # XXX_neutrality_party:0 ""
 # XXX_reactionary_party:0 ""
+  
 
+
+
+
+  
+ JAU_fascism_party:0 "Parque Nacional do Jaú"
+ JAU_communism_party:0 "Parque Nacional do Jaú"
+ JAU_democratic_party:0 "Parque Nacional do Jaú"
+ JAU_neutrality_party:0 "Parque Nacional do Jaú"
+ JAU_reactionary_party:0 "Parque Nacional do Jaú"
+ 
+ XIN_fascism_party:0 "Parque Nacional do Xingú"
+ XIN_communism_party:0 "Parque Nacional do Xingú"
+ XIN_democratic_party:0 "Parque Nacional do Xingú"
+ XIN_neutrality_party:0 "Parque Nacional do Xingú"
+ XIN_reactionary_party:0 "Parque Nacional do Xingú"
+ 
+ PIA_fascism_party:0 "Collapsed Authority"
+ PIA_communism_party:0 "Collapsed Authority"
+ PIA_democratic_party:0 "Collapsed Authority"
+ PIA_neutrality_party:0 "Collapsed Authority"
+ PIA_reactionary_party:0 "Collapsed Authority"
+  
+ MNH_fascism_party:0 "ARENA - MNH"
+ MNH_communism_party:0 "ARENA - MNH"
+ MNH_democratic_party:0 "ARENA - MNH"
+ MNH_neutrality_party:0 "House of Sarney"
+ MNH_reactionary_party:0 "ARENA - MNH"
+  
+ RPB_fascism_party:0 "Revolta Bahiana"
+ RPB_communism_party:0 "Revolta Bahiana"
+ RPB_democratic_party:0 "Revolta Bahiana"
+ RPB_neutrality_party:0 "Revolta Bahiana"
+ RPB_reactionary_party:0 "Revolta Bahiana"
+ 
+ NCA_fascism_party:0 "Consejo de Regencia de Nueva Castilla"
+ NCA_communism_party:0 "Consejo de Regencia de Nueva Castilla"
+ NCA_democratic_party:0 "Consejo de Regencia de Nueva Castilla"
+ NCA_neutrality_party:0 "Consejo de Regencia de Nueva Castilla"
+ NCA_reactionary_party:0 "Consejo de Regencia de Nueva Castilla"
+ 
+ ANI_fascism_party:0 "Andirá Tribe Chiefdom"
+ ANI_communism_party:0 "Andirá Tribe Chiefdom"
+ ANI_democratic_party:0 "Andirá Tribe Chiefdom"
+ ANI_neutrality_party:0 "Andirá Tribe Chiefdom"
+ ANI_reactionary_party:0 "Andirá Tribe Chiefdom"
+
+ JUT_fascism_party:0 "Jutaí Tribe Chiefdom"
+ JUT_communism_party:0 "Jutaí River Guerrilla"
+ JUT_democratic_party:0 "Jutaí Tribe Chiefdom"
+ JUT_neutrality_party:0 "Jutaí Tribe Chiefdom"
+ JUT_reactionary_party:0 "Jutaí Tribe Chiefdom"
+ 
+ JAV_fascism_party:0 "Javarí Tribe Chiefdom"
+ JAV_communism_party:0 "Javarí Valley Guerrilla"
+ JAV_democratic_party:0 "Javarí Tribe Chiefdom"
+ JAV_neutrality_party:0 "Javarí Tribe Chiefdom"
+ JAV_reactionary_party:0 "Javarí Tribe Chiefdom"
+ 
+ JUR_fascism_party:0 "Juruá Tribe Chiefdom"
+ JUR_communism_party:0 "Juruá Tribe Chiefdom"
+ JUR_democratic_party:0 "Juruá Tribe Chiefdom"
+ JUR_neutrality_party:0 "Juruá Tribe Chiefdom"
+ JUR_reactionary_party:0 "Juruá Tribe Chiefdom"
+ 
+ BIA_fascism_party:0 "Biá River Tribe Chiefdom"
+ BIA_communism_party:0 "Biá River Guerrilla"
+ BIA_democratic_party:0 "Biá River Tribe Chiefdom"
+ BIA_neutrality_party:0 "Biá River Tribe Chiefdom"
+ BIA_reactionary_party:0 "Biá River Tribe Chiefdom"
+ 
+ IQU_fascism_party:0 "Caititu"
+ IQU_communism_party:0 "Caititu"
+ IQU_democratic_party:0 "Caititu"
+ IQU_neutrality_party:0 "Caititu"
+ IQU_reactionary_party:0 "Caititu"
+ 
+ YAN_fascism_party:0 "Yanomami Tribe Chiefdom"
+ YAN_communism_party:0 "Yanomami Tribe Chiefdom"
+ YAN_democratic_party:0 "Yanomami Tribe Chiefdom"
+ YAN_neutrality_party:0 "Yanomami Tribe Chiefdom"
+ YAN_reactionary_party:0 "Yanomami Tribe Chiefdom"
+  
+ DNI_fascism_party:0 "Deni Tribe Chiefdom"
+ DNI_communism_party:0 "Deni Tribe Chiefdom"
+ DNI_democratic_party:0 "Deni Tribe Chiefdom"
+ DNI_neutrality_party:0 "Deni Tribe Chiefdom"
+ DNI_reactionary_party:0 "Deni Tribe Chiefdom"
+  
+ HIM_fascism_party:0 "Himarimã Tribe Chiefdom"
+ HIM_communism_party:0 "Himarimã Tribe Chiefdom"
+ HIM_democratic_party:0 "Himarimã Tribe Chiefdom"
+ HIM_neutrality_party:0 "Himarimã Tribe Chiefdom"
+ HIM_reactionary_party:0 "Himarimã Tribe Chiefdom"
+  
+ COA_fascism_party:0 "Coatá Tribe Chiefdom"
+ COA_communism_party:0 "Coatá Tribe Chiefdom"
+ COA_democratic_party:0 "Coatá Tribe Chiefdom"
+ COA_neutrality_party:0 "Coatá Tribe Chiefdom"
+ COA_reactionary_party:0 "Coatá Tribe Chiefdom"
+  
+ WAM_fascism_party:0 "Waimiri Tribe Chiefdom"
+ WAM_communism_party:0 "Waimiri Tribe Chiefdom"
+ WAM_democratic_party:0 "Waimiri Tribe Chiefdom"
+ WAM_neutrality_party:0 "Waimiri Tribe Chiefdom"
+ WAM_reactionary_party:0 "Waimiri Tribe Chiefdom"
+   
+ ATR_fascism_party:0 "Atroari Tribe Chiefdom"
+ ATR_communism_party:0 "Atroari Tribe Chiefdom"
+ ATR_democratic_party:0 "Atroari Tribe Chiefdom"
+ ATR_neutrality_party:0 "Atroari Tribe Chiefdom"
+ ATR_reactionary_party:0 "Atroari Tribe Chiefdom"
+   
+ TRO_fascism_party:0 "Trombetas Tribe Chiefdom"
+ TRO_communism_party:0 "Trombetas Tribe Chiefdom"
+ TRO_democratic_party:0 "Trombetas Tribe Chiefdom"
+ TRO_neutrality_party:0 "Trombetas Tribe Chiefdom"
+ TRO_reactionary_party:0 "Trombetas Tribe Chiefdom"
+    
+ MAP_fascism_party:0 "Mapueira Tribe Chiefdom"
+ MAP_communism_party:0 "Mapueira Tribe Chiefdom"
+ MAP_democratic_party:0 "Mapueira Tribe Chiefdom"
+ MAP_neutrality_party:0 "Mapueira Tribe Chiefdom"
+ MAP_reactionary_party:0 "Mapueira Tribe Chiefdom"
+    
+ ZOE_fascism_party:0 "Zo'é Tribe Chiefdom"
+ ZOE_communism_party:0 "Zo'é Tribe Chiefdom"
+ ZOE_democratic_party:0 "Zo'é Tribe Chiefdom"
+ ZOE_neutrality_party:0 "Zo'é Tribe Chiefdom"
+ ZOE_reactionary_party:0 "Zo'é Tribe Chiefdom"
+     
+ WAI_fascism_party:0 "Waiãpi Tribe Chiefdom"
+ WAI_communism_party:0 "Waiãpi Tribe Chiefdom"
+ WAI_democratic_party:0 "Waiãpi Tribe Chiefdom"
+ WAI_neutrality_party:0 "Waiãpi Tribe Chiefdom"
+ WAI_reactionary_party:0 "Waiãpi Tribe Chiefdom"
+     
+ MUN_fascism_party:0 "Munduruku Tribe Chiefdom"
+ MUN_communism_party:0 "Munduruku Tribe Chiefdom"
+ MUN_democratic_party:0 "Munduruku Tribe Chiefdom"
+ MUN_neutrality_party:0 "Munduruku Tribe Chiefdom"
+ MUN_reactionary_party:0 "Munduruku Tribe Chiefdom"
+     
+ ARI_fascism_party:0 "Cinta-Larga Tribe Chiefdom"
+ ARI_communism_party:0 "Cinta-Larga Tribe Chiefdom"
+ ARI_democratic_party:0 "Cinta-Larga Tribe Chiefdom"
+ ARI_neutrality_party:0 "Cinta-Larga Tribe Chiefdom"
+ ARI_reactionary_party:0 "Cinta-Larga Tribe Chiefdom"
+ 
  ACR_fascism_party:0 "Militaristas"
  ACR_communism_party:0 "Technocratas"
  ACR_democratic_party:0 "Provisional Government of Acre"
@@ -193,7 +342,37 @@
  MNS_democratic_party:0 "Brazilian Loyalists"
  MNS_neutrality_party:0 "Companhia Portuária Chibatão"
  MNS_reactionary_party:0 "Seringal Vilas Paraíso e Cícero"
-
+    
+ PAT_fascism_party:0 "Conselho do Boi-Bumbá"
+ PAT_communism_party:0 "Conselho do Boi-Bumbá"
+ PAT_democratic_party:0 "Conselho do Boi-Bumbá"
+ PAT_neutrality_party:0 "Conselho do Boi-Bumbá"
+ PAT_reactionary_party:0 "Conselho do Boi-Bumbá"
+     
+ HIE_fascism_party:0 "Pléyades de Lima"
+ HIE_communism_party:0 "Pléyades de Lima"
+ HIE_democratic_party:0 "Pléyades de Lima"
+ HIE_neutrality_party:0 "Pléyades de Lima"
+ HIE_reactionary_party:0 "Pléyades de Lima"
+         
+ STR_fascism_party:0 "Mercenary Council of Saint-Harem"
+ STR_communism_party:0 "Concelho Mercenário de Santarém"
+ STR_democratic_party:0 "Concelho Mercenário de Santarém"
+ STR_neutrality_party:0 "Concelho Mercenário de Santarém"
+ STR_reactionary_party:0 "Concelho Mercenário de Santarém"
+ 
+ FBO_fascism_party:0 "Fonte Boa Guerrilla"
+ FBO_communism_party:0 "Fonte Boa Guerrilla"
+ FBO_democratic_party:0 "Fonte Boa Guerrilla"
+ FBO_neutrality_party:0 "Fonte Boa Guerrilla"
+ FBO_reactionary_party:0 "Fonte Boa Guerrilla"
+  
+ INC_fascism_party:0 "Revuelta Quechua"
+ INC_communism_party:0 "Revuelta Quechua"
+ INC_democratic_party:0 "Revuelta Quechua"
+ INC_neutrality_party:0 "Revuelta Quechua"
+ INC_reactionary_party:0 "Revuelta Quechua"
+ 
 JUN_fascism_party:0 "ARENA - C"
 JUN_fascism_party_long:0 "Aliança Renovadora Nacional - Castelistas"
 JUN_communism_party:0 "FA"
