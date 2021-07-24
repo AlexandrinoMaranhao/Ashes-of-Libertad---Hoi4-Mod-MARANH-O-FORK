@@ -16,4 +16,41 @@ spriteTypes = {
         }
 		effectFile = "gfx/FX/progress.lua"
 	}
+	# Map Assets
+	spriteType = {
+		name = "GFX_ACR_war_train_map"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Map.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_arquimedes"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Arquimedes.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_cruzeiro"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Cruzeiro.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_feijo"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Feijo.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_guajara_mirim"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Guajara_Mirim.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_porto_velho"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Porto_Velho.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_riberalta"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Riberalta.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_rio_branco"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Rio_Branco.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_war_train_xapuri"
+		texturefile = "gfx/interface/GUIs/acre/war_train/Xapuri.dds"
+	}
 }

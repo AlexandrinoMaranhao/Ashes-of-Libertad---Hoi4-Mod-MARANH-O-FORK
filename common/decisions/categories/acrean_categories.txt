@@ -22,6 +22,7 @@ ACR_compensation_trade_category = {
 }
 
 ACR_war_train_category = {
+	priority = 5000 # this is temporary
 	icon = GFX_decision_category_war_train_acre
 	allowed = {
 		tag = ACR

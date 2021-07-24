@@ -3,10 +3,11 @@ state={
 	id=557
 	name="STATE_557"
 	provinces={
-		50 1328 2901 
+		50 1328 
 	}
 	history={
-		owner = MEX
+		owner = EJR
+		add_core_of = EJR
 		add_core_of = MEX
 		victory_points = {
 			50 5

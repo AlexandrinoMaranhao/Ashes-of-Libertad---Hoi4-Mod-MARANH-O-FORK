@@ -2,7 +2,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ACR_war_train_gui"
-		size = { width = 600 height = 250 }
+		size = { width = 600 height = 540 }
 		position = { x = 0 y = 0 }
 
 		containerWindowType = {
@@ -22,7 +22,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "ACR_war_train_railroad_progressbar"
 			size = { width = 480 height = 200 }
-			position = { x = 10 y = 120 }
+			position = { x = 10 y = 420 }
 			orientation = UPPER_LEFT
 			
 			iconType = {
@@ -42,6 +42,68 @@ guiTypes = {
 				font = "vic_18"
 				text = ACR_war_train_datas_desc
 				alwaystransparent = yes
+			}
+		}
+
+		containerWindowType = { # Map
+			name = "ACR_war_train_map_container"
+			size = { width = 480 height = 200 }
+			position = { x = 10 y = 130 }
+			#orientation = UPPER_LEFT
+			
+			iconType = {
+				name = "ACR_war_train_map"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_map"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_arquimedes"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_arquimedes"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_cruzeiro"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_cruzeiro"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_feijo"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_feijo"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_guajara_mirim"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_guajara_mirim"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_porto_velho"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_porto_velho"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_riberalta"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_riberalta"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_rio_branco"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_rio_branco"
+				#orientation = UPPER_LEFT
+			}
+			iconType = {
+				name = "ACR_war_train_xapuri"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ACR_war_train_xapuri"
+				#orientation = UPPER_LEFT
 			}
 		}
 	}
