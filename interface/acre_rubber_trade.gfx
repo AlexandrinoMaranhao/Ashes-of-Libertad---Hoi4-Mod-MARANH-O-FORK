@@ -1,0 +1,50 @@
+spriteTypes = {
+	#### PICTURES ####
+	spriteType = {
+		name = "GFX_acre_rubber_trade_bg"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/RubberTradebg.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_PG"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Provisional_Government.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_Cerqueira"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Edgar_Cerqueira.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_Eneas"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Eneas_Carneiro_Young.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_Helio"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Helio_Cury.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_Augusto"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_Marques"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Jose_Marques_de_Souza.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_ACR_Kalume"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_ACR_Jorge_Kalume.dds"
+	}
+	spriteType = {
+		name = "GFX_acre_rubber_trade_MNS_Mestrinho"
+		texturefile = "gfx/interface/GUIs/acre/rubber_trade/Portrait_MNS_Gilberto_Mestrinho.dds"
+	}
+	progressbarType = {
+		name = "GFX_acre_rubber_trade_bar"
+		texturefile1 = "gfx/interface/GUIs/acre/rubber_trade/RubberTradePb.dds"
+		texturefile2 = "gfx/interface/GUIs/acre/rubber_trade/RubberTradePb_bg.dds"
+		size = { 
+			x = 228
+			y = 24
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

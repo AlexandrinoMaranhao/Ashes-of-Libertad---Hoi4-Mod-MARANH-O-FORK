@@ -316,4 +316,3 @@ create_navy_leader = {
 #
 #	}
 #}
-}

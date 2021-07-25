@@ -45,6 +45,7 @@ defined_text = {
 		trigger = {
 			has_country_leader = {
 				name = "Edgar Cerqueira"
+				ruling_only = yes
 			}
 		}
 		localization_key = ACR_cerqueira_native_revolt_data_desc
@@ -229,4 +230,79 @@ defined_text = {
 		trigger = {#default, which means over 70
 		}
 		localization_key = ACR_eneas_sanity_normal
+    }
+}
+
+defined_text = {
+	name = RubberTradeACRLeader
+	text = {
+		trigger = {
+			ACR = {
+				has_country_leader = {
+					name = "Edgar Cerqueira"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_acre_rubber_trade_ACR_Cerqueira
+	}
+	text = {
+		trigger = {
+			ACR = {
+				has_country_leader = {
+					name = "Jorge Kalume"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_acre_rubber_trade_ACR_Kalume
+	}
+	text = {
+		trigger = {
+			ACR = {
+				has_country_leader = {
+					name = "Enéas Carneiro"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_acre_rubber_trade_ACR_Eneas
+	}
+	text = {
+		trigger = {
+			ACR = {
+				has_country_leader = {
+					name = "José Augusto de Araujo"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_acre_rubber_trade_ACR_Augusto
+	}
+	text = {
+		trigger = {
+			ACR = {
+				has_country_leader = {
+					name = "Hélio Cury"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_acre_rubber_trade_ACR_Helio
+	}
+	text = {
+		trigger = {
+			ACR = {
+				has_country_leader = {
+					name = "José Marques de Souza"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_acre_rubber_trade_ACR_Marques
+	}
+	text = {
+		trigger = {}
+		localization_key = GFX_acre_rubber_trade_ACR_PG
+	}
 }

@@ -15,7 +15,7 @@ ACR_compensation_trade_category = {
 				}
 			}
 		}
-		complete_effect  = {
+		complete_effect = {
 			capital_scope = {
 				if = {
 					limit = {
@@ -35,7 +35,8 @@ ACR_compensation_trade_category = {
 						amount = 10
 						days = 120
 					}
-				} else = {
+				} 
+				else = {
 					ACR = {
 						random_controlled_state = {
 							limit = {
@@ -80,7 +81,7 @@ ACR_compensation_trade_category = {
 				}
 			}
 		}
-		complete_effect  = {
+		complete_effect = {
 			capital_scope = {
 				if = {
 					limit = {
@@ -100,7 +101,8 @@ ACR_compensation_trade_category = {
 						amount = 10
 						days = 120
 					}
-				} else = {
+				} 
+				else = {
 					ACR = {
 						random_controlled_state = {
 							limit = {
@@ -152,8 +154,7 @@ ACR_compensation_trade_category = {
 			tag = ACR
 		}
 		available = {
-			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation has_idea = subsistence_economy has_idea = limited_exports 
-}
+			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation has_idea = subsistence_economy has_idea = limited_exports }
 			any_controlled_state = {
 				has_resources_amount = {
 					resource = rubber
@@ -162,7 +163,7 @@ ACR_compensation_trade_category = {
 				}
 			}
 		}
-		complete_effect  = {
+		complete_effect = {
 			capital_scope = {
 				if = {
 					limit = {
@@ -182,7 +183,8 @@ ACR_compensation_trade_category = {
 						amount = 10
 						days = 120
 					}
-				} else = {
+				}
+				else = {
 					ACR = {
 						random_controlled_state = {
 							limit = {
@@ -212,7 +214,7 @@ ACR_compensation_trade_category = {
 	trade_motors = {
 		available = {
 			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation  has_idea = subsistence_economy has_idea = export_focus has_idea = limited_exports }	
-			}
+		}
 		icon = GFX_decision_motors_decision
 		visible = {
 			tag = ACR
@@ -227,7 +229,7 @@ ACR_compensation_trade_category = {
 				}
 			}
 		}
-		complete_effect  = {
+		complete_effect = {
 			capital_scope = {
 				if = {
 					limit = {
@@ -247,7 +249,8 @@ ACR_compensation_trade_category = {
 						amount = 10
 						days = 120
 					}
-				} else = {
+				}
+				else = {
 					ACR = {
 						random_controlled_state = {
 							limit = {
@@ -299,7 +302,7 @@ ACR_compensation_trade_category = {
 			}
 		}
 		
-		complete_effect  = {
+		complete_effect = {
 			capital_scope = {
 				if = {
 					limit = {
@@ -319,7 +322,8 @@ ACR_compensation_trade_category = {
 						amount = 10
 						days = 120
 					}
-				} else = {
+				}
+				else = {
 					ACR = {
 						random_controlled_state = {
 							limit = {

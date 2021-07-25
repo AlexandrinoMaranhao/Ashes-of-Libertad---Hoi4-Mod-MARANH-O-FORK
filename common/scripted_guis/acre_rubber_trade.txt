@@ -1,0 +1,26 @@
+scripted_gui = {
+
+	ACR_compensation_trade_category = {
+		context_type = decision_category
+		window_name = "acre_rubber_trade_gui"
+		parent_window_token = decision_tab
+		visible = { 
+			always = yes 
+		}
+
+		effects = {
+		}
+
+		triggers = {
+		}
+
+		properties = {
+			acre_rubber_trade_bar = {
+				frame = var:ACR_MNS_relationship
+			}
+			GFX_acre_rubber_trade_acr_leader = {
+				image = "[RubberTradeACRLeader]"
+			}
+		}
+	}
+}
