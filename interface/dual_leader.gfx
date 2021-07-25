@@ -144,5 +144,9 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/USR/Portrait_USA_Juan_Cordero.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ARG_PERETTE"
+		texturefile = "gfx/dual_leaders/ARG/Portrait_ARG_Carlos_Humberto_Perette.dds"
+	}
 
 }

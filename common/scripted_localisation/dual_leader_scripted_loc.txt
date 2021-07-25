@@ -18,14 +18,14 @@ defined_text = {
 		localization_key = ENG_PRIME_MINISTER_TITLE
 	}
 
-		text = {
+	text = {
 		trigger = {
 			tag = ROR
 			has_government = communism
 		}
 		localization_key = ROR_FIRST_TITLE
 	}
-		text = {
+	text = {
 		trigger = {
 			tag = COR
    		 has_government = democratic
@@ -35,19 +35,19 @@ defined_text = {
 	}
 
 	text = {
-   	 trigger = {
-   		 tag = PAT
-   		 has_government = neutrality
-   	 }
-   	 localization_key = PAT_FIRST_TITLE
+   	    trigger = {
+   		    tag = PAT
+   		    has_government = neutrality
+   	    }
+   	    localization_key = PAT_FIRST_TITLE
     }
 
 	text = {
-   	 trigger = {
-   		 tag = STR
-   		 has_government = neutrality
-   	 }
-   	 localization_key = STR_FIRST_TITLE
+   	    trigger = {
+   		    tag = STR
+   		    has_government = neutrality
+   	    }
+   	    localization_key = STR_FIRST_TITLE
     }
 
 	text = {
@@ -144,6 +144,15 @@ defined_text = {
    	}
    	    localization_key = ACR_FIRST_TITLE
     }
+
+	text = {
+		trigger = {
+			tag = ARG
+		    has_government = democratic
+	    }
+		localization_key = ARG_FIRST_TITLE
+    }
+
 	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
@@ -298,6 +307,13 @@ defined_text = {
 			has_country_flag = marques_elected
 	    }
 		localization_key = ACR_SECOND_TITLE
+    }
+	text = {
+		trigger = {
+			tag = ARG
+			has_government = democratic
+	    }
+		localization_key = ARG_SECOND_TITLE
     }
 }
 #########################
@@ -458,6 +474,13 @@ defined_text = {
 		localization_key = ACR_SECOND_LEADER
     }
 	text = {
+		trigger = {
+			tag = ARG
+			has_government = democratic
+	    }
+		localization_key = ARG_SECOND_LEADER
+    }
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 
@@ -610,6 +633,16 @@ defined_text = {
 			has_country_flag = marques_elected
 	    }
 		localization_key = "GFX_ACR_ENEAS"
+    }
+	text = {
+		trigger = {
+			tag = ARG
+		    has_country_leader = {
+				name = "Arturo Illia"
+				ruling_only = yes
+			}
+	    }
+		localization_key = "GFX_ARG_PERETTE"
     }
 	text = {
 		localization_key = "GFX_portrait_bg_blank"

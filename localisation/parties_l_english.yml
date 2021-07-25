@@ -431,8 +431,8 @@ RMI_communism_party_long:0 "Comando de Libertação Nacional"
 VAL_neutrality_party:0 "CVRD"
 VAL_neutrality_party_long:0 "Companhia Vale do Rio Doce"
 
-CNU_democratic_party:0 "PSD - B"
-CNU_democratic_party_long:0 "Partido Social Democrático - Bahia"
+CNU_democratic_party:0 "GPB"
+CNU_democratic_party_long:0 "Governo Provisório da Bahia"
 
 AMA_democratic_party:0 "PSB - A"
 AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
@@ -617,8 +617,10 @@ PAR_fascism_party:0 "ANR-PC"
 PAR_fascism_party_long:0 "Asociación Nacional Republicana – Partido Colorado"
 
 ## Argentina ##
-ARG_fascism_party:0 "UCRI"
-ARG_fascism_party_long:0 "Unión Cívica Radical Intransigente"
+ARG_democratic_party:0 "UCRP"
+ARG_democratic_party_long:0 "Unión Cívica Radical del Pueblo"
+ARG_fascism_party:0 "Fuerzas Armadas Argentinas"
+ARG_fascism_party_long:0 "Fuerzas Armadas de la República Argentina"
 
 ## Chile ##
 CHL_neutrality_party:0 "FRAP-PS"
@@ -627,3 +629,35 @@ CHL_neutrality_party_long:0 "Frente de Acción Popular - Partido Socialista de C
 ## Uruguay ##
 URG_neutrality_party:0 "PC(UCB)"
 URG_neutrality_party_long:0 "Partido Colorado(Unión Colorada y Batllista)"
+
+## Cuba ##
+CUB_communism_party:0 "PCC"
+CUB_communism_party_long:0 "Partido Comunista de Cuba"
+
+CDR_communism_party:0 "CDR"
+CDR_communism_party_long:0 "Comités de Defensa de la Revolución"
+
+CUP_reactionary_party:0 "CPH"
+CUP_reactionary_party_long:0 "Consejo Pirata de la Habana"
+
+BTA_fascism_party:0 "PAP"
+BTA_fascism_party_long:0 "Partido de Acción Progresista"
+
+ECR_communism_party:0 "Alfa 66"
+ECR_communism_party_party:0 "Alfa 66"
+
+RUM_neutrality_party:0 "José Arechabala S.A."
+RUM_neutrality_party_long:0 "José Arechabala S.A."
+
+DRE_communism_party:0 "DRE"
+DRE_communism_party:0 "Directorio Revolucionario Estudiantil"
+
+ACC_fascism_party:0 "LAC"
+ACC_fasciam_party_long:0 "Legión Anticomunista del Caribe"
+
+## Haiti ##
+HAI_reactionary_party:0 "PUN"
+HAI_reactionary_party:0 "Parti de l'Unité Nationale"
+
+DOM_democratic_party:0 "PRD"
+DOM_democratic_party:0 "Partido Revolucionario Dominicano"

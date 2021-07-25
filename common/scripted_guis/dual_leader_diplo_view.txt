@@ -34,6 +34,7 @@ scripted_gui = {
 					tag = ACR
 					has_country_flag = marques_elected
 				}
+				tag = ARG
 			}
 		}
 		
