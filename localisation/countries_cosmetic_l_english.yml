@@ -85,3 +85,11 @@
  HON_military_neutrality_ADJ:0 "Honduran"
  HON_military_communism_ADJ:0 "Honduran"
  HON_military_reactionary_ADJ:0 "Honduran"
+
+ USA_EMC:0 "Eastern Military Command"
+ USA_EMC_DEF:0 "the Eastern Military Command"
+ USA_EMC_ADJ:0 "American"
+
+ MEX_collapsed:0 "Distrito Federal"
+ MEX_collapsed_DEF:0 "the Distrito Federal"
+ MEX_collapsed_ADJ:0 "Mexican"

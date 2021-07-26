@@ -1,0 +1,61 @@
+division_template = {
+	name = "Zapatista"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Guerilla Zapatista"
+		location = 1990
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Guerilla Zapatista"
+		location = 189
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Guerilla Zapatista"
+		location = 1656
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Guerilla Zapatista"
+		location = 2917
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Guerilla Zapatista"
+		location = 1752
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Guerilla Zapatista"
+		location = 1687
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Guerilla Zapatista"
+		location = 130
+		division_template = "Zapatista"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+}	

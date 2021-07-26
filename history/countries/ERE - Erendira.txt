@@ -94,6 +94,10 @@ add_equipment_to_stockpile = {
 
 set_convoys = 150
 
+add_ideas = {
+	MEX_mexican_civil_war
+}
+
 set_politics = {
 	ruling_party = reactionary
 	last_election = "1963.7.4"

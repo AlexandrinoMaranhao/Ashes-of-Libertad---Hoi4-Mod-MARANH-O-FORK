@@ -152,4 +152,12 @@ mexico_debug_category = {
 			MEX_spawn_all_collapse_factions = yes
 		}
 	}
+	MEX_begin_collapse = {
+		complete_effect = {
+			country_event = {
+				id = MEX_scripted.1
+				days = 1
+			}
+		}
+	}
 }

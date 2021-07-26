@@ -11,17 +11,17 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 100
-	neutrality = 0
-	reactionary = 0
+	democratic = 15
+	fascism = 65
+	communism = 5
+	neutrality = 5
+	reactionary = 10
 
 }
 
@@ -30,16 +30,16 @@ add_ideas = {
 	extensive_conscription
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Manuel Díaz Escobar"
+	picture = "Portrait_HAL_Manuel_Díaz_Escobar.dds"
+	expire = "1999.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}
 
 
 }

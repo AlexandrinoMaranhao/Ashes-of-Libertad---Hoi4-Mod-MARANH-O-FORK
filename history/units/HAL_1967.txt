@@ -1,0 +1,37 @@
+division_template = {
+	name = "División de los Halcones"
+
+	#division_names_group =
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+
+	support = {
+		signal_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "División de los Halcones"
+		location = 2850
+		division_template = "División de los Halcones"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "División de los Halcones"
+		location = 2558
+		division_template = "División de los Halcones"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+}	

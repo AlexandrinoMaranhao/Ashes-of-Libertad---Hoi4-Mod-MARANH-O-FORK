@@ -3,6 +3,72 @@ on_actions = {
       on_capitulation = {
  
         effect = {
+          if = {
+            limit = {
+              FROM = {
+                OR = {
+                  original_tag = AMP
+                  original_tag = AMG
+                }
+              }
+              ROOT = {
+                original_tag = MEX
+              }
+            }
+            FROM = {
+              white_peace = ROOT
+              AMP = {
+                transfer_state = 481
+                transfer_state = 563
+                add_state_core = 481
+                add_state_core = 563
+              }
+              AMG = {
+                transfer_state = 560
+                transfer_state = 562
+                add_state_core = 560
+                add_state_core = 562
+              }
+              if = {
+                limit = {
+                  AND = {
+                    AMP = { controls_state = 260 }
+                    AMG = { controls_state = 559 }
+                  }
+                }
+                AMP = {
+                  transfer_state = 260
+                  add_state_core = 260
+                }
+                AMG = {
+                  transfer_state = 559
+                  add_state_core = 559
+                }
+              }
+              else_if = {
+                limit = {
+                  AMP = {
+                    controls_state = 260
+                    controls_state = 559
+                  }
+                }
+                AMP = {
+                  transfer_state = 260
+                  add_state_core = 260
+                  transfer_state = 559
+                  add_state_core = 559
+                }
+              }
+              else = {
+                AMG = {
+                  transfer_state = 260
+                  add_state_core = 260
+                  transfer_state = 559
+                  add_state_core = 559
+                }
+              }
+            }
+          }
           ##### Farmlands War
           if = {
             limit = {

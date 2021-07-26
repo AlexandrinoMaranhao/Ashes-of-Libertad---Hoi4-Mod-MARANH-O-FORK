@@ -245,7 +245,7 @@ on_actions = {
             MEX = {
                 country_event = {
                     id = MEX_scripted.1
-                    days = 1220
+                    days = 1170
                 }
             }
         }

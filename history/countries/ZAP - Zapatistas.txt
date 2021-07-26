@@ -92,6 +92,10 @@ add_equipment_to_stockpile = {
 	producer = MEX
 }
 
+add_ideas = {
+	MEX_mexican_civil_war
+}
+
 set_convoys = 150
 
 set_politics = {

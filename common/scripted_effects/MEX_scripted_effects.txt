@@ -273,6 +273,7 @@ MEX_spawn_all_collapse_factions = {
 		transfer_state = 250
 		transfer_state = 251
 		transfer_state = 557
+		transfer_state = 252
 	}
 	ESC = {
 		transfer_state = 265
@@ -297,7 +298,6 @@ MEX_spawn_all_collapse_factions = {
 		transfer_state = 482
 		transfer_state = 270
 		transfer_state = 492
-		transfer_state = 248
 		set_cosmetic_tag = USA_EMC
 	}
 	MTR = {

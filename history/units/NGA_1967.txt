@@ -1,0 +1,124 @@
+division_template = {
+	name = "Cristero"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Cristeros"
+		location = 1447
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 77
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 266
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2851
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 603
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2582
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 1122
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2151
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 1690
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2835
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2852
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 230
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2841
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2893
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 1122
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Cristeros"
+		location = 2458
+		division_template = "Cristero"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+}	
