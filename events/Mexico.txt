@@ -205,6 +205,15 @@ country_event = { # American Invasion
             257 = {
                 set_state_flag = MEX_outskirt_of_capital
             }
+            258 = {
+                set_state_flag = MEX_outskirt_of_capital
+            }
+            483 = {
+                set_state_flag = MEX_outskirt_of_capital
+            }
+            263 = {
+                set_state_flag = MEX_outskirt_of_capital
+            }
             AMG = {
                 load_oob = "AMG_American_Invasion"
             }
@@ -254,18 +263,7 @@ country_event = { # Cristeros secede
     desc = MEX_scripted.7.d
     picture = x
     fire_only_once = yes
-    mean_time_to_happen = { days = 1 }
-    trigger = {
-        original_tag = MEX
-        USA = {
-            OR = {
-                controls_state = 266
-                controls_state = 267
-                controls_state = 273
-                controls_state = 479
-            }
-        }
-    }
+    is_triggered_only = yes
     
     option = {
         name = MEX_scripted.7.a
@@ -283,7 +281,7 @@ country_event = { # Cristeros secede
                 add_state_core = 558
                 load_oob = "NGA_1967"
             }
-            country_event = { id = MEX_scripted.9 days = 5 }
+            country_event = { id = MEX_scripted.9 days = 10 }
         }
     }
 }
@@ -294,17 +292,7 @@ country_event = { # Hidalgo secede
     desc = MEX_scripted.8.d
     picture = x
     fire_only_once = yes
-    mean_time_to_happen = { days = 1 }
-    trigger = {
-        original_tag = MEX
-        USA = {
-            OR = {
-                controls_state = 268
-                controls_state = 483
-                controls_state = 265
-            }
-        }
-    }
+    is_triggered_only = yes
     
     option = {
         name = MEX_scripted.8.a
@@ -333,24 +321,18 @@ country_event = { # Erendira uprises
                 add_state_core = 263
                 load_oob = "ERE_1967"
             }
+            country_event = { id = MEX_scripted.10 days = 20 }
         }
     }
 }
 
-country_event = { # USA collapse begins
+country_event = { # Los Halcones Uprises
     id = MEX_scripted.10
     title = MEX_scripted.10.t
     desc = MEX_scripted.10.d
     picture = x
     fire_only_once = yes
-    mean_time_to_happen = { days = 1 }
-    trigger = {
-        original_tag = MEX
-        any_state = {
-            is_controlled_by = USA
-            has_state_flag = MEX_outskirt_of_capital
-        }
-    }
+    is_triggered_only = yes
     
     option = {
         name = MEX_scripted.10.a
@@ -358,22 +340,8 @@ country_event = { # USA collapse begins
             HAL = {
                 transfer_state = 483
                 add_state_core = 483
-                load_oob = "HAL_1967"
-                declare_war_on = {
-                    target = USA
-                    type = annex_everything
-                }
             }
-            ESC = {
-                transfer_state = 265
-                add_state_core = 265
-                load_oob = "ESC_1967"
-                declare_war_on = {
-                    target = USA
-                    type = annex_everything
-                }
-            }
-            country_event = { id = MEX_scripted.11 days = 3 }
+            country_event = { id = MEX_scripted.11 days = 10 }
         }
     }
 }
@@ -389,26 +357,16 @@ country_event = {
     option = {
         name = MEX_scripted.11.a
         hidden_effect = {
-            NNM = {
-                transfer_state = 274
-                transfer_state = 275
-                add_state_core = 274
-                add_state_core = 275
+            ESC = {
+                transfer_state = 265
+                add_state_core = 265
             }
-            LEB = {
-                transfer_state = 479
-                add_state_core = 479
-            }
-            USA = {
-                white_peace = HAL
-                white_peace = ESC
-            }
-            country_event = { id = MEX_scripted.12 days = 7 }
+            country_event = { id = MEX_scripted.12 days = 60 }
         }
     }
 }
 
-country_event = {
+country_event = { # The Perfect Dictatorship is no more
     id = MEX_scripted.12
     title = MEX_scripted.12.t
     desc = MEX_scripted.12.d
@@ -419,103 +377,6 @@ country_event = {
     option = {
         name = MEX_scripted.12.a
         hidden_effect = {
-            PHF = {
-                transfer_state = 269
-                add_state_core = 269
-            }
-            NAM = {
-                transfer_state = 480
-                add_state_core = 480
-            }
-            country_event = { id = MEX_scripted.13 days = 7 }
-            country_event = { id = MEX_scripted.14 days = 7 }
-        }
-    }
-}
-
-country_event = { # Total Collapse
-    id = MEX_scripted.13
-    title = MEX_scripted.13.t
-    desc = MEX_scripted.13.d
-    picture = x
-    fire_only_once = yes
-    is_triggered_only = yes
-    
-    option = {
-        name = MEX_scripted.13.a
-        hidden_effect = {
-            MTR = {
-                transfer_state = 271
-                transfer_state = 484
-                transfer_state = 493
-                transfer_state = 272
-                add_state_core = 271
-                add_state_core = 484
-                add_state_core = 493
-                add_state_core = 272
-            }
-            USW = {
-                transfer_state = 494
-                transfer_state = 276
-                transfer_state = 495
-                transfer_state = 277
-                add_state_core = 494
-                add_state_core = 276
-                add_state_core = 495
-                add_state_core = 277
-            }
-            USA = {
-                transfer_state = 482
-                transfer_state = 270
-                transfer_state = 492
-                add_state_core = 482
-		        add_state_core = 270
-		        add_state_core = 492
-                set_cosmetic_tag = USA_EMC
-            }
-            USA = {
-                white_peace = MEX
-                white_peace = AMP
-                white_peace = AMG
-                white_peace = HAL
-                white_peace = ESC
-            }
-        }
-    }
-}
-
-country_event = { # The Perfect Dictatorship is no more
-    id = MEX_scripted.14
-    title = MEX_scripted.14.t
-    desc = MEX_scripted.14.d
-    picture = x
-    fire_only_once = yes
-    is_triggered_only = yes
-    
-    option = {
-        name = MEX_scripted.14.a
-        hidden_effect = {
-            481 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
-            258 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
-            560 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
-            562 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
-            563 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
-            561 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
-            257 = {
-                clr_state_flag = MEX_outskirt_of_capital
-            }
             remove_ideas = MEX_mexican_civil_war
             set_cosmetic_tag = MEX_collapsed
             delete_unit_template_and_units = {
@@ -567,7 +428,259 @@ country_event = { # The Perfect Dictatorship is no more
                     type = annex_everything
                 }
             }
+            country_event = { id = MEX_scripted.8 days = 5 }
         }
     }
 }
 
+country_event = { # End of the American-Mexican War
+    id = MEX_scripted.13
+    title = MEX_scripted.13.t
+    desc = MEX_scripted.13.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 1 }
+    trigger = {
+        original_tag = MEX
+        any_state = {
+            is_controlled_by = USA
+            has_state_flag = MEX_outskirt_of_capital
+        }
+    }
+    
+    option = {
+        name = MEX_scripted.13.a
+        hidden_effect = {
+            USA = {
+                white_peace = MEX
+                white_peace = AMP
+                white_peace = AMG
+                transfer_state = 479
+                transfer_state = 480
+                transfer_state = 274
+		        transfer_state = 275
+                transfer_state = 482
+		        transfer_state = 270
+		        transfer_state = 492
+                transfer_state = 271
+		        transfer_state = 484
+		        transfer_state = 493
+		        transfer_state = 272
+                transfer_state = 494
+		        transfer_state = 276
+		        transfer_state = 495
+		        transfer_state = 277
+                transfer_state = 269
+                country_event = { id = MEX_scripted.16 days = 300 }#begin USA collapse
+            }
+            481 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            258 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            560 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            562 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            563 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            561 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            257 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            258 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            483 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            263 = {
+                clr_state_flag = MEX_outskirt_of_capital
+            }
+            country_event = { id = MEX_scripted.7 days = 30 }
+        }
+    }
+}
+
+country_event = { # Retreats North
+    id = MEX_scripted.14
+    title = MEX_scripted.14.t
+    desc = MEX_scripted.14.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = MEX_scripted.14.a
+        hidden_effect = {
+            479 = {
+                set_demilitarized_zone = yes
+            }
+            274 = {
+                set_demilitarized_zone = yes
+            }
+            269 = {
+                set_demilitarized_zone = yes
+            }
+            275 = {
+                set_demilitarized_zone = yes
+            }
+            country_event = { id = MEX_scripted.15 days = 30 }
+        }
+    }
+}
+
+country_event = { # New New Mexico
+    id = MEX_scripted.15
+    title = MEX_scripted.15.t
+    desc = MEX_scripted.15.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = MEX_scripted.15.a
+        hidden_effect = {
+            274 = {
+                set_demilitarized_zone = no
+            }
+            275 = {
+                set_demilitarized_zone = no
+            }
+            NNM = {
+                transfer_state = 274
+                transfer_state = 275
+                add_state_core = 274
+                add_state_core = 275
+            }
+            country_event = { id = MEX_scripted.16 days = 30 }
+        }
+    }
+}
+
+country_event = { # Mormons and Bandits
+    id = MEX_scripted.16
+    title = MEX_scripted.16.t
+    desc = MEX_scripted.16.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = MEX_scripted.16.a
+        hidden_effect = {
+            479 = {
+                set_demilitarized_zone = no
+            }
+            269 = {
+                set_demilitarized_zone = no
+            }
+            480 = {
+                set_demilitarized_zone = yes
+            }
+            272 = {
+                set_demilitarized_zone = yes
+            }
+            271 = {
+                set_demilitarized_zone = yes
+            }
+            484 = {
+                set_demilitarized_zone = yes
+            }
+            493 = {
+                set_demilitarized_zone = yes
+            }
+            LEB = {
+                transfer_state = 479
+                add_state_core = 479
+            PHF = {
+                transfer_state = 269
+                add_state_core = 269
+            }
+            country_event = { id = MEX_scripted.17 days = 30 }
+        }
+    }
+}
+
+country_event = { # Riches
+    id = MEX_scripted.17
+    title = MEX_scripted.17.t
+    desc = MEX_scripted.17.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = MEX_scripted.17.a
+        hidden_effect = {
+            480 = {
+                set_demilitarized_zone = no
+            }
+            272 = {
+                set_demilitarized_zone = no
+            }
+            271 = {
+                set_demilitarized_zone = no
+            }
+            484 = {
+                set_demilitarized_zone = no
+            }
+            493 = {
+                set_demilitarized_zone = no
+            }
+            NAM = {
+                transfer_state = 480
+                add_state_core = 480
+            }
+            MTR = {
+                transfer_state = 271
+                transfer_state = 484
+                transfer_state = 493
+                transfer_state = 272
+                add_state_core = 271
+                add_state_core = 484
+                add_state_core = 493
+                add_state_core = 272
+            }
+            country_event = { id = MEX_scripted.18 days = 5 }
+        }
+    }
+}
+
+country_event = { # Riches
+    id = MEX_scripted.18
+    title = MEX_scripted.18.t
+    desc = MEX_scripted.18.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = MEX_scripted.18.a
+        hidden_effect = {
+            USW = {
+                transfer_state = 494
+                transfer_state = 276
+                transfer_state = 495
+                transfer_state = 277
+                add_state_core = 494
+                add_state_core = 276
+                add_state_core = 495
+                add_state_core = 277
+            }
+            USA = {
+                add_state_core = 482
+                add_state_core = 270
+                add_state_core = 492
+                set_cosmetic_tag = USA_EMC
+            }
+        }
+    }
+}
