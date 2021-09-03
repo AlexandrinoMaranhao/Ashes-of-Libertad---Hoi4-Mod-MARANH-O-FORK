@@ -23,7 +23,7 @@ shared_focus = {
 
 	x = -3
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -42,7 +42,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -61,7 +61,7 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
@@ -81,7 +81,7 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -104,7 +104,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 
 	ai_will_do = { factor = 1 }
 
@@ -121,7 +121,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -145,7 +145,7 @@ shared_focus = {
 
 	x = -2
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -163,7 +163,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 5
 
 	ai_will_do = { factor = 1 }
 
@@ -191,7 +191,7 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 5
 
 	ai_will_do = { factor = 1 }
 
@@ -212,7 +212,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -230,7 +230,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -248,7 +248,7 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -268,7 +268,7 @@ shared_focus = {
 
 	x = 1
 	y = 2
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -288,7 +288,7 @@ shared_focus = {
 
 	x = 2
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -310,7 +310,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -329,7 +329,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -350,7 +350,7 @@ shared_focus = {
 
 	x = 0
 	y = 2
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -381,7 +381,7 @@ shared_focus = {
 
 	x = 3
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -400,7 +400,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -430,7 +430,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -451,7 +451,7 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -488,7 +488,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -519,7 +519,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -538,7 +538,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -575,7 +575,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -594,7 +594,7 @@ shared_focus = {
 	icon = GFX_goal_ACR_make_some_favors
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -613,7 +613,7 @@ shared_focus = {
 	icon = GFX_goal_ACR_keep_it_professional
 	x = 0
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -631,7 +631,7 @@ shared_focus = {
 	icon = GFX_goal_ACR_holding_hands_with_che
 	x = 1
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -647,7 +647,7 @@ shared_focus = {
 	icon = GFX_goal_ACR_ask_for_a_kiss_2
 	x = 0
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -669,7 +669,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
@@ -691,7 +691,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -709,7 +709,7 @@ shared_focus = {
 
 	x = 1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -735,7 +735,7 @@ shared_focus = {
 
 	x = 0
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -755,7 +755,7 @@ shared_focus = {
 
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 
 	ai_will_do = { factor = 1 }
 
@@ -774,7 +774,7 @@ shared_focus = {
 
 	x = -3
 	y = 1
-	cost = 1
+	cost = 4
 
 	ai_will_do = { factor = 1 }
 
