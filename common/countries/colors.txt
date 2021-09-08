@@ -648,8 +648,8 @@ PHF = {
 }
 
 ESC = {
-	color = rgb { 0 0 150 }
-	color_ui = rgb { 0 0 150 }
+	color = rgb { 190 12 0 }
+	color_ui = rgb { 190 12 0 }
 }
 
 ERG = {
@@ -748,8 +748,8 @@ PAM = {
 }
 
 HAL = {
-	color = rgb { 190 12 0 }
-	color_ui = rgb { 190 12 0 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 
 
@@ -824,8 +824,8 @@ AMP = {
 }
 
 ERE = {
-	color = rgb { 255 127 39 }
-	color_ui = rgb { 255 127 39 }
+	color = rgb { 56 196 128 }
+	color_ui = rgb { 56 196 128 }
 }
 
 ESH = {

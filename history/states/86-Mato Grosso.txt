@@ -4,6 +4,12 @@ state={
 	name="STATE_86"
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = JAG
 		add_core_of = JAG
 

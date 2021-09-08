@@ -4,6 +4,12 @@ state={
 	name="STATE_28"
 
 	history={
+		buildings = {
+
+			infrastructure = 10
+			industrial_complex = 2
+
+		}
 		owner = SAO
 		add_core_of = SAO
 

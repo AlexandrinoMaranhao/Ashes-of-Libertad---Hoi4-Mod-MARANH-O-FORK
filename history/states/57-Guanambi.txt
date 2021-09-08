@@ -19,6 +19,12 @@ state={
 			277 1 
 		}
 
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 	}
 
 	provinces={

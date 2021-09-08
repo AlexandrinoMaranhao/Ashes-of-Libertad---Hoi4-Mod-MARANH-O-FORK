@@ -7,6 +7,8 @@ add_namespace = VEN_Collapse_Comes_Quick_Path
 add_namespace = VEN_Collapse_Invasion_of_Guyana
 add_namespace = VEN_Collapse_End
 add_namespace = NEB_Fuck
+add_namespace = VEN_Democracy_Wins
+add_namespace = VEN_Communism_Wins
 
 country_event = {
     id = VEN_Bettancourt_Assassination_Fails.1
@@ -252,7 +254,8 @@ country_event = {
 				add_core_of = ELD
 			}
 			}
-        ELD = { transfer_state = 306 }
+        ELD = { transfer_state = 306 
+        315 = { add_core_of = ELD }
         VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.5 days = 28 } }
 
     }
@@ -303,7 +306,6 @@ country_event = {
         312 = { set_demilitarized_zone = yes }
         313 = { set_demilitarized_zone = no }
         VEJ = { 
-					load_oob = VEJ_1967
 			every_state = {
 				limit = {
 					is_owned_by = VEN
@@ -311,7 +313,8 @@ country_event = {
 				}
 				add_core_of = VEJ
 			}
-			transfer_state = 313 }
+			transfer_state = 313
+            load_oob = VEJ_1967 }
 
         VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.7 days = 24 } }
 
@@ -320,7 +323,7 @@ country_event = {
 
 country_event = {
     id = VEN_Collapse_Comes_Quick_Path.7
-    title = VEN_Collapse_Comes_Quick_Path.7.t
+    title = VEN_Collapse_Comes_Quick_Path.7.t 
     desc = VEN_Collapse_Comes_Quick_Path.7.d
     picture = x
     fire_only_once = yes
@@ -386,6 +389,12 @@ country_event = {
     title = VEN_Collapse_Comes_Quick_Path.8.t
     desc = VEN_Collapse_Comes_Quick_Path.8.d
     picture = x
+    trigger = {
+    if = {
+    NOT = { country_exists = ELD 
+            country_exists = LLA }
+        }
+    }
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -404,7 +413,8 @@ country_event = {
 					is_core_of = VEN
 				}
 				add_core_of = VEC
-			}transfer_state = 304 }
+			}
+            transfer_state = 304 }
         VEC = { transfer_state = 305 }
         VEC = { transfer_state = 303 }
         VEC = { transfer_state = 447 }
@@ -446,12 +456,12 @@ country_event = {
         }
     }
 
-       VEN = { country_event = { id = VEN_Collapse_End.2 days = 120 } }
+       VEN = { country_event = { id = VEN_Collapse_End.2 days = 30 } }
        VEN = { set_cosmetic_tag = VEN_UNION }
        VEJ = { set_cosmetic_tag = VEJ_UNION }
        NEB = { set_cosmetic_tag = NEB_UNION }
        NEB = { set_capital = 302 }
-       VEN = { transfer_state = 310 }
+       #VEN = { transfer_state = 310 }
 
        NEB = {
                         every_state = {
@@ -492,16 +502,32 @@ country_event = {
 
     option = {
         name = VEN_Collapse_End.2.A
-        VEJ = {
+        VEN = {
             declare_war_on = {
                 target = VEC
+                type = annex_everything
+            }
+
+        VEN = {
+            declare_war_on = {
+                target = LLA
+                type = annex_everything
+            }
+
+        VEN = {
+            declare_war_on = {
+                target = ELD
                 type = annex_everything
             }
                         every_state = {
                 limit = {
                     is_owned_by = VEC
+                    is_owned_by = LLA
+                    is_owned_by = ELD
                 }
                 add_core_of = VEJ
+                add_core_of = NEB
+                add_core_of = VEN
             }
         }
     }
@@ -517,12 +543,143 @@ country_event = {
 
     option = {
         name = NEB_Fuck.1.A
-       NEB = {
-       create_wargoal = {
-    type = take_state_focus
-    target = LBT
-    generator = { 445 }
-        }
-       }
+start_border_war = {
+    change_state_after_war = yes
+    attacker = {
+        state = 311
+        num_provinces = 4
+        on_win = NEB_LBT_border_conflict.1
+        on_lose = NEB_LBT_border_conflict.2
+        on_cancel = NEB_LBT_border_conflict.2
+    }
+                
+    defender = {
+        state = 445
+        num_provinces = 4
+        on_win = LBT_NEB_border_conflict.1
+        on_lose = LBT_NEB_border_conflict.2
+        on_cancel = LBT_NEB_border_conflict.2
+    }
+}
+    }
+}
+
+add_namespace = LBT_NEB_border_conflict
+add_namespace = NEB_LBT_border_conflict
+
+country_event = {
+    id = LBT_NEB_border_conflict.1
+    title = LBT_NEB_border_conflict.1.t
+    desc = LBT_NEB_border_conflict.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = LBT_NEB_border_conflict.1.A
+
+    }
+}
+
+country_event = {
+    id = NEB_LBT_border_conflict.1
+    title = NEB_LBT_border_conflict.1.t
+    desc = NEB_LBT_border_conflict.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = NEB_LBT_border_conflict.1.A
+
+    }
+}
+
+country_event = {
+    id = LBT_NEB_border_conflict.2
+    title = LBT_NEB_border_conflict.2.t
+    desc = LBT_NEB_border_conflict.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = LBT_NEB_border_conflict.2.A
+
+    }
+}
+
+country_event = {
+    id = NEB_LBT_border_conflict.2
+    title = NEB_LBT_border_conflict.2.t
+    desc = NEB_LBT_border_conflict.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = NEB_LBT_border_conflict.2.A
+
+    }
+}
+
+country_event = {
+    id = VEN_Democracy_Wins.1
+    title = VEN_Democracy_Wins.1.t
+    desc = VEN_Democracy_Wins.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = VEN_Democracy_Wins.1.A
+
+        ELD = {
+            declare_war_on = {
+                target = LLA
+                type = annex_everything
+            }
+        304 = { set_demilitarized_zone = no }
+        305 = { set_demilitarized_zone = no }
+        303 = { set_demilitarized_zone = no }
+        447 = { set_demilitarized_zone = no }
+
+        ELD = { transfer_state = 304 }
+        ELD = { transfer_state = 305 }
+        ELD = { transfer_state = 303 }
+        ELD = { transfer_state = 447 }
+    }
+
+        VEN = { country_event = { id = VEN_Collapse_End.1 days = 5 } }
+}
+
+country_event = {
+    id = VEN_Communism_Wins.1
+    title = VEN_Communism_Wins.1.t
+    desc = VEN_Communism_Wins.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = VEN_Communism_Wins.1.A
+
+        LLA = {
+            declare_war_on = {
+                target = ELD
+                type = annex_everything
+            }
+        304 = { set_demilitarized_zone = no }
+        305 = { set_demilitarized_zone = no }
+        303 = { set_demilitarized_zone = no }
+        447 = { set_demilitarized_zone = no }
+
+        LLA = { transfer_state = 304 }
+        LLA = { transfer_state = 305 }
+        LLA = { transfer_state = 303 }
+        LLA = { transfer_state = 447 }
+
+        VEN = { country_event = { id = VEN_Collapse_End.1 days = 5 } }
+    }
     }
 }

@@ -113,8 +113,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Antonio Danelon"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Danelon.dds"
+	name = "Oveja"
+	picture = "gfx/leaders/CHL/Portrait_CHL_Oveja.dds"
 	expire = "1974.4.13"
 	ideology = ultranationalism
 	traits = {

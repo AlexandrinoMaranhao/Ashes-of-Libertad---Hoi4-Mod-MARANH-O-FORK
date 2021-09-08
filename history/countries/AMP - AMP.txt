@@ -116,7 +116,7 @@ create_country_leader = {
 	name = "Marcelino García Barragán"
 	picture = "Portrait_AMP_Marcelino_García_Barragán.dds"
 	expire = "1974.4.13"
-	ideology = military_junta
+	ideology = military_government
 	traits = {
 		#
 	}

@@ -8,6 +8,12 @@ state={
 		add_core_of = JUN
 
 
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		victory_points = {
                 1094 5
 		}

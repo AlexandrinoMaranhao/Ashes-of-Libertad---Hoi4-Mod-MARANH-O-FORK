@@ -17,7 +17,7 @@ rubber = 2
 		add_core_of = COA
             
             buildings = {
-            infrastructure = 3
+            infrastructure = 1
             industrial_complex = 1
             dockyard = 1
 }

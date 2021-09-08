@@ -1,0 +1,29 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			## Brazilian Civil War ##
+			BRA = {
+				country_event = {
+					id = JuntavsBrazil.1
+					days = 1
+				}
+				country_event = {
+					id = JuntavsBrazil.4
+					days = 1
+				}
+			}
+			UBA = {
+				country_event = {
+					id = HugovsCommies.1
+					days = 60
+				}
+			}
+			JAG = {
+				country_event = {
+					id = XinguvsJagunco.1
+					days = 340
+				}
+			}
+		}
+	}
+}

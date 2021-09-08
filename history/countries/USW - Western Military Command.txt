@@ -11,33 +11,33 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 10
-	fascism = 0
+	fascism = 85
 	communism = 0
-	neutrality = 60
-	reactionary = 30
+	neutrality = 0
+	reactionary = 5
 }
 
 add_ideas = {
 	
 }
 
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = ""
-#	expire = ""
-#	ideology = 
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "John Knight Waters"
+	picture = "gfx/leaders/YUC/Portrait_YUC_Genaro_Vázques_Rojas.dds"
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = {
+		#
+	}
+}
 
 
 }

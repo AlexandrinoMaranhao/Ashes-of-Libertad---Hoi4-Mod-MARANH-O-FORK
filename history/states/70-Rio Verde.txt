@@ -9,6 +9,17 @@ state={
         state_category=town
         history = {
        
+		buildings = {
+
+			infrastructure = 4
+			632 = {
+				bunker = 2
+			}
+			1777= {
+				bunker = 2
+			}
+			
+		}
             owner = JUN
             add_core_of = JUN
 

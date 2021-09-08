@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Winston M. Scott"
 	picture = "Portrait_PHF_Winston_M_Scott.dds"
 	expire = "1999.1.1"
-	ideology = despotism
+	ideology = military_government
 	traits = {
 		#
 	}

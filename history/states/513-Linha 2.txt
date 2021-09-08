@@ -9,6 +9,25 @@ state={
 	state_category=rural
 
 history = {
+buildings = {
+
+			infrastructure = 4
+			843 = {
+				bunker = 2
+			}
+			1938 {
+				bunker = 2
+			}
+			4513 = {
+				bunker = 2
+			}
+			4523 {
+				bunker = 2
+			}
+			4552 {
+				bunker = 2
+			}
+		}
 		owner = UBA
 		add_core_of = UBA
 		add_core_of = RMI

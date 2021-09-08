@@ -13,6 +13,12 @@ steel = 4
 motors = 4
 }
             history = {
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 
         owner = ARI
         add_core_of = ARI

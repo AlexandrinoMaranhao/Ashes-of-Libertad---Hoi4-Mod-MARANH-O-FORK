@@ -4,6 +4,12 @@ state={
 	name="STATE_53"
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = RPB
 		add_core_of = RPB
         add_core_of = CNU

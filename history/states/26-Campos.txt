@@ -4,6 +4,12 @@ state={
 	name="STATE_26"
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = CRJ
 		add_core_of = CRJ
 		victory_points = {

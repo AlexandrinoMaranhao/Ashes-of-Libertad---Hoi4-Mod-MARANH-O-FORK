@@ -8,6 +8,12 @@ state={
 	buildings_max_level_factor=1.000
         state_category=pastoral
             history = {
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
         owner = CFD
         add_core_of = CFD
         add_core_of = RGN

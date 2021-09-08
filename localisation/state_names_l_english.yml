@@ -148,7 +148,7 @@
  STATE_147:2 "Água Boa"
  STATE_148:1 "Capoto"
  STATE_149:2 "Peixoto de Azevedo"
- STATE_150:1 "Xingu"
+ STATE_150:2 "Xingú"
  STATE_151:1 "Sorriso"
  STATE_152:1 "Japuira"
  STATE_153:1 "Falklands"
@@ -254,7 +254,7 @@
  STATE_253:1 "Cozumel"
  STATE_254:2 "Tabasco"
  STATE_255:1 "Chiapas"
- STATE_256:1 "Juchitan de Zaragoza"Juchitan de Zaragoza
+ STATE_256:1 "Juchitan de Zaragoza"
  STATE_257:1 "Vera Cruz"
  STATE_258:2 "Hidalgo"
  STATE_259:1 "Oaxaca"

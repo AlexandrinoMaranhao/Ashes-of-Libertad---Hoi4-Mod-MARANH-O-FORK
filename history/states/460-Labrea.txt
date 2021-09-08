@@ -17,7 +17,7 @@ rubber = 4
 		add_core_of = IQU
             
             buildings = {
-            infrastructure = 2
+            infrastructure = 1
             dockyard = 1
 }
 	}

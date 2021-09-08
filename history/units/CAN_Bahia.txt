@@ -41,21 +41,58 @@ division_template = {
 units = {
 	division = {
 		name = "Batalhão de Cangaceiros de Vitória"
-		location = 2542
+		location = 4358
 		division_template = "Cangaceiros"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Batalhão de Cangaceiros de Guanambi"
-		location = 2307
+		location = 4358
 		division_template = "Cangaceiros"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Batalhão de Cangaceiros de Bom Jesus"
-		location = 1253
+		location = 4332
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Batalhão de Cangaceiros"
+		location = 2595
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Cangaceiros"
+		location = 2475
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Cangaceiros"
+		location = 4273
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Cangaceiros"
+		location = 4226
+		division_template = "Cangaceiros"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Batalhão de Cangaceiros"
+		location = 166
 		division_template = "Cangaceiros"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1

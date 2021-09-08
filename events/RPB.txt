@@ -10,7 +10,12 @@ country_event = {
 
     option = {
 	  name = RPB.1.a
-	  
+	    LAM = {
+			declare_war_on = {
+				target = CNU 
+				type = annex_everything
+			}
+		}
     every_country = {
         news_event = {
             id = world.81
@@ -24,10 +29,31 @@ country_event = {
 		remove_ideas = anarchist_powerkeg
 		remove_ideas = cangaceiros_heavy
 		add_ideas = the_women_revolt
+
+			declare_war_on = {
+				target = LAM 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CNU 
+				type = annex_everything
+			}
+
 		BMF = {
 			transfer_state  = 52
 
     load_oob = "BMF_Bahia"
+			declare_war_on = {
+				target = LAM 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CNU 
+				type = annex_everything
+			}
+
 			declare_war_on = {
 				target = RPB 
 				type = annex_everything
@@ -47,6 +73,18 @@ country_event = {
 				target = PCR 
 				type = annex_everything
 			}
+
+                        every_state = {
+                limit = {
+                    is_owned_by = MAL
+                    is_owned_by = PCR
+                    is_owned_by = RPB
+                    is_owned_by = CAN
+                    is_owned_by = CNU
+                    is_owned_by = LAM
+                }
+                add_core_of = BFM 
+            }
 		}
 
 		CAN = {
@@ -54,6 +92,16 @@ country_event = {
     load_oob = "CAN_Bahia"
 
 			declare_war_on = {
+				target = LAM 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CNU 
+				type = annex_everything
+			}
+
+			declare_war_on = {
 				target = RPB 
 				type = annex_everything
 			}
@@ -72,6 +120,17 @@ country_event = {
 				target = PCR 
 				type = annex_everything
 			}
+                        every_state = {
+                limit = {
+                    is_owned_by = MAL
+                    is_owned_by = PCR
+                    is_owned_by = RPB
+                    is_owned_by = BFM
+                    is_owned_by = CNU
+                    is_owned_by = LAM
+                }
+                add_core_of = CAN
+            }
 		}
 
 		MAL = {
@@ -79,6 +138,16 @@ country_event = {
     load_oob = "MAL_Bahia"
 
 			declare_war_on = {
+				target = LAM 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CNU 
+				type = annex_everything
+			}
+
+			declare_war_on = {
 				target = RPB 
 				type = annex_everything
 			}
@@ -97,11 +166,32 @@ country_event = {
 				target = PCR 
 				type = annex_everything
 			}
+                        every_state = {
+                limit = {
+                    is_owned_by = BFM
+                    is_owned_by = PCR
+                    is_owned_by = RPB
+                    is_owned_by = CAN
+                    is_owned_by = CNU
+                    is_owned_by = LAM
+                }
+                add_core_of = MAL 
+            }
 		}
 
 		PCR = {
 			transfer_state  = 57
     load_oob = "PCB_Bahia"
+
+			declare_war_on = {
+				target = LAM 
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = CNU 
+				type = annex_everything
+			}
 
 			declare_war_on = {
 				target = RPB 
@@ -122,6 +212,17 @@ country_event = {
 				target = MAL 
 				type = annex_everything
 			}
+                        every_state = {
+                limit = {
+                    is_owned_by = MAL
+                    is_owned_by = BFM
+                    is_owned_by = RPB
+                    is_owned_by = CAN
+                    is_owned_by = CNU
+                    is_owned_by = LAM
+                }
+                add_core_of = PCR 
+            }
 		}
     }
 }

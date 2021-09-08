@@ -10,6 +10,12 @@ state={
 	state_category=pastoral
         history = {
        
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
             owner = JUN
             add_core_of = JUN
 

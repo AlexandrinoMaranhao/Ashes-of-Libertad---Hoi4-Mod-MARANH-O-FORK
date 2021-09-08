@@ -13,6 +13,32 @@ state={
              owner=BRA
              add_core_of = BRA
 		add_core_of = JAG
+		buildings = {
+
+			infrastructure = 4
+			1147 = {
+				bunker = 2
+			}
+			711= {
+				bunker = 2
+			}
+			114 = {
+				bunker = 2
+			}
+			863 = {
+				bunker = 2
+			}
+			1242 = {
+				bunker = 2
+			}
+			1738 = {
+				bunker = 2
+			}
+			1558 = {
+				bunker = 2
+			}
+		}
+
 victory_points = {
            1558 5
 }

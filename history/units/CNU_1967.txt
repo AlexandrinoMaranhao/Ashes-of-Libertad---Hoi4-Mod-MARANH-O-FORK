@@ -83,4 +83,25 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.3
 	}
+	division = {
+		name = "Milícia Legalista de Canudos"
+		location = 75
+		division_template = "Milicia"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Milícia Legalista de Jacobina"
+		location = 680
+		division_template = "Milicia"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Milícia Legalista de Juazeiro"
+		location = 1717
+		division_template = "Milicia"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.3
+	}
 }

@@ -1,6 +1,6 @@
 ﻿capital = 53
 
-oob = "RPB_Bahia"
+#oob = "RPB_Bahia"
 
 # Starting tech
 set_technology = {

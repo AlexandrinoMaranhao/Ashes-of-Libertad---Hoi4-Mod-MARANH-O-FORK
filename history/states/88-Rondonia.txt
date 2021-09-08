@@ -4,6 +4,12 @@ state={
 	name="STATE_88"
 
 	history={
+		buildings = {
+
+			infrastructure = 2
+			
+
+		}
 		owner = ERN
 		add_core_of = ERN
 

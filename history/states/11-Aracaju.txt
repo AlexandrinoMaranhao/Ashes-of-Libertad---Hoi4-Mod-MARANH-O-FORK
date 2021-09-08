@@ -12,6 +12,12 @@ state={
 
             history = {
 
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
         owner = SEG
         add_core_of = SEG
 		add_core_of = CFD

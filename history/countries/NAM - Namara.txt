@@ -11,17 +11,17 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 10
-	fascism = 0
-	communism = 78
-	neutrality = 12
-	reactionary = 0
+	fascism = 20
+	communism = 0
+	neutrality = 50
+	reactionary = 20
 
 }
 
@@ -32,10 +32,10 @@ add_ideas = {
 
 create_country_leader = {
 	
-	name = "Genaro Vázques Rojas"
+	name = "Henry Cabot Lodge Jr."
 	picture = "gfx/leaders/YUC/Portrait_YUC_Genaro_Vázques_Rojas.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla
+	ideology = corporate_state_status_quo
 	traits = {
 		#
 	}

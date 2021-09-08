@@ -1,0 +1,685 @@
+add_namespace = JuntavsBrazil
+add_namespace = BRA_JAG_border_conflict
+add_namespace = JAG_BRA_border_conflict
+
+#######################
+# Brazilian Civil War #
+#######################
+
+country_event = {
+    id = JuntavsBrazil.1
+    title = JuntavsBrazil.1.t
+    desc = JuntavsBrazil.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JuntavsBrazil.1.A
+
+
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 145
+        num_provinces = 5
+        on_win = BRA_JAG_border_conflict.1
+        on_lose = BRA_JAG_border_conflict.2
+        on_cancel = BRA_JAG_border_conflict.2
+    }
+                
+    defender = {
+        state = 85
+        num_provinces = 5
+        on_win = JAG_BRA_border_conflict.1
+        on_lose = JAG_BRA_border_conflict.2
+        on_cancel = JAG_BRA_border_conflict.2
+    }
+}
+    }
+}
+
+country_event = {
+    id = JAG_BRA_border_conflict.1
+    title = JAG_BRA_border_conflict.1.t
+    desc = JAG_BRA_border_conflict.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.1.A
+
+        BRA = { transfer_state = 85 }
+        BRA = { country_event = { id = JuntavsBrazil.1 days = 60 } }
+    }
+}
+country_event = {
+    id = JAG_BRA_border_conflict.2
+    title = JAG_BRA_border_conflict.2.t
+    desc = JAG_BRA_border_conflict.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.2.A
+
+        JAG = { transfer_state = 85 }
+        BRA = { country_event = { id = JuntavsBrazil.2 days = 60 } }
+    }
+}
+country_event = {
+    id = BRA_JAG_border_conflict.1
+    title = BRA_JAG_border_conflict.1.t
+    desc = BRA_JAG_border_conflict.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = BRA_JAG_border_conflict.1.A
+
+    }
+}
+country_event = {
+    id = BRA_JAG_border_conflict.2
+    title = BRA_JAG_border_conflict.2.t
+    desc = BRA_JAG_border_conflict.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.2.A
+
+    }
+}
+country_event = {
+    id = JuntavsBrazil.2
+    title = JuntavsBrazil.2.t
+    desc = JuntavsBrazil.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JuntavsBrazil.2.A
+
+
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 85
+        num_provinces = 6
+        on_win = BRA_JAG_border_conflict.3
+        on_lose = BRA_JAG_border_conflict.4
+        on_cancel = BRA_JAG_border_conflict.4
+    }
+                
+    defender = {
+        state = 144
+        num_provinces = 9
+        on_win = JAG_BRA_border_conflict.3
+        on_lose = JAG_BRA_border_conflict.4
+        on_cancel = JAG_BRA_border_conflict.4
+    }
+}
+    }
+}
+
+country_event = {
+    id = JAG_BRA_border_conflict.3
+    title = JAG_BRA_border_conflict.3.t
+    desc = JAG_BRA_border_conflict.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.3.A
+
+        BRA = { transfer_state = 144 }
+        BRA = { country_event = { id = JuntavsBrazil.2 days = 60 } }
+    }
+}
+country_event = {
+    id = JAG_BRA_border_conflict.4
+    title = JAG_BRA_border_conflict.4.t
+    desc = JAG_BRA_border_conflict.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.4.A
+
+        JAG = { transfer_state = 144 }
+        BRA = { country_event = { id = JuntavsBrazil.3 days = 60 } }
+    }
+}
+country_event = {
+    id = BRA_JAG_border_conflict.3
+    title = BRA_JAG_border_conflict.3.t
+    desc = BRA_JAG_border_conflict.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = BRA_JAG_border_conflict.3.A
+
+    }
+}
+country_event = {
+    id = BRA_JAG_border_conflict.4
+    title = BRA_JAG_border_conflict.4.t
+    desc = BRA_JAG_border_conflict.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.4.A
+
+    }
+}
+country_event = {
+    id = JuntavsBrazil.3
+    title = JuntavsBrazil.3.t
+    desc = JuntavsBrazil.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JuntavsBrazil.3.A
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 144
+        num_provinces = 6
+        on_win = BRA_JAG_border_conflict.5
+        on_lose = BRA_JAG_border_conflict.6
+        on_cancel = BRA_JAG_border_conflict.6
+    }
+                
+    defender = {
+        state = 143
+        num_provinces = 6
+        on_win = JAG_BRA_border_conflict.5
+        on_lose = JAG_BRA_border_conflict.6
+        on_cancel = JAG_BRA_border_conflict.6
+    }
+}
+    }
+}
+
+country_event = {
+    id = JAG_BRA_border_conflict.5
+    title = JAG_BRA_border_conflict.5.t
+    desc = JAG_BRA_border_conflict.5.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.5.A
+
+        BRA = { transfer_state = 143 }
+    }
+}
+country_event = {
+    id = JAG_BRA_border_conflict.6
+    title = JAG_BRA_border_conflict.6.t
+    desc = JAG_BRA_border_conflict.6.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.6.A
+
+        JAG = { transfer_state = 143 }
+    }
+}
+country_event = {
+    id = BRA_JAG_border_conflict.5
+    title = BRA_JAG_border_conflict.5.t
+    desc = BRA_JAG_border_conflict.5.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = BRA_JAG_border_conflict.5.A
+
+    }
+}
+country_event = {
+    id = BRA_JAG_border_conflict.6
+    title = BRA_JAG_border_conflict.6.t
+    desc = BRA_JAG_border_conflict.6.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = JAG_BRA_border_conflict.6.A
+
+    }
+}
+
+#######################
+# Brazilian Civil War #
+#    Minas Gerais     #
+#######################
+
+add_namespace = HugovsCommies
+add_namespace = UBA_RMI_border_conflict
+add_namespace = RMI_UBA_border_conflict
+
+country_event = { #Linha 1
+    id = HugovsCommies.1
+    title = HugovsCommies.1.t
+    desc = HugovsCommies.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = HugovsCommies.1.A
+
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 66
+        num_provinces = 5
+        on_win = UBA_RMI_border_conflict.1
+        on_lose = UBA_RMI_border_conflict.2
+        on_cancel = UBA_RMI_border_conflict.2
+    }
+                
+    defender = {
+        state = 512
+        num_provinces = 5
+        on_win = RMI_UBA_border_conflict.1
+        on_lose = RMI_UBA_border_conflict.2
+        on_cancel = RMI_UBA_border_conflict.2
+    }
+}
+    }
+}
+
+country_event = {
+    id = RMI_UBA_border_conflict.1
+    title = RMI_UBA_border_conflict.1.t
+    desc = RMI_UBA_border_conflict.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = RMI_UBA_border_conflict.1.A
+
+        UBA = { transfer_state = 512 }
+        UBA = { country_event = { id = HugovsCommies.1 days = 60 } }
+    }
+}
+country_event = {
+    id = RMI_UBA_border_conflict.2
+    title = RMI_UBA_border_conflict.2.t
+    desc = RMI_UBA_border_conflict.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = RMI_UBA_border_conflict.2.A
+
+        RMI = { transfer_state = 512 }
+        UBA = { country_event = { id = HugovsCommies.2 days = 60 } }
+    }
+}
+country_event = {
+    id = UBA_RMI_border_conflict.1
+    title = UBA_RMI_border_conflict.1.t
+    desc = UBA_RMI_border_conflict.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = UBA_RMI_border_conflict.1.A
+
+    }
+}
+country_event = {
+    id = UBA_RMI_border_conflict.2
+    title = UBA_RMI_border_conflict.2.t
+    desc = UBA_RMI_border_conflict.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = UBA_RMI_border_conflict.2.A
+
+    }
+}
+country_event = { #Linha 2
+    id = HugovsCommies.2
+    title = HugovsCommies.2.t
+    desc = HugovsCommies.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = HugovsCommies.2.A
+
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 512
+        num_provinces = 6
+        on_win = RMI_UBA_border_conflict.3
+        on_lose = RMI_UBA_border_conflict.4
+        on_cancel = RMI_UBA_border_conflict.4
+    }
+                
+    defender = {
+        state = 513
+        num_provinces = 9
+        on_win = UBA_RMI_border_conflict.3
+        on_lose = UBA_RMI_border_conflict.4
+        on_cancel = UBA_RMI_border_conflict.4
+    }
+}
+    }
+}
+
+country_event = {
+    id = RMI_UBA_border_conflict.3
+    title = RMI_UBA_border_conflict.3.t
+    desc = RMI_UBA_border_conflict.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = RMI_UBA_border_conflict.3.A
+
+        RMI = { transfer_state = 513 }
+        UBA = { country_event = { id = HugovsCommies.3 days = 30 } }
+    }
+}
+country_event = {
+    id = RMI_UBA_border_conflict.4
+    title = RMI_UBA_border_conflict.4.t
+    desc = RMI_UBA_border_conflict.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = RMI_UBA_border_conflict.4.A
+
+        UBA = { transfer_state = 513 }
+        UBA = { country_event = { id = HugovsCommies.2 days = 30 } }
+    }
+}
+country_event = {
+    id = UBA_RMI_border_conflict.3
+    title = UBA_RMI_border_conflict.3.t
+    desc = UBA_RMI_border_conflict.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = UBA_RMI_border_conflict.3.A
+
+    }
+}
+country_event = {
+    id = UBA_RMI_border_conflict.4
+    title = UBA_RMI_border_conflict.4.t
+    desc = UBA_RMI_border_conflict.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = UBA_RMI_border_conflict.4.A
+
+    }
+}
+
+country_event = { #Linha 2 Retaking
+    id = HugovsCommies.3
+    title = HugovsCommies.3.t
+    desc = HugovsCommies.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = HugovsCommies.3.A
+
+start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 61
+        num_provinces = 6
+        on_win = RMI_UBA_border_conflict.3
+        on_lose = RMI_UBA_border_conflict.4
+        on_cancel = RMI_UBA_border_conflict.4
+    }
+                
+    defender = {
+        state = 513
+        num_provinces = 9
+        on_win = UBA_RMI_border_conflict.3
+        on_lose = UBA_RMI_border_conflict.4
+        on_cancel = UBA_RMI_border_conflict.4
+    }
+}
+    }
+}
+
+country_event = {
+    id = RMI_UBA_border_conflict.3
+    title = RMI_UBA_border_conflict.3.t
+    desc = RMI_UBA_border_conflict.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = RMI_UBA_border_conflict.3.A
+
+        UBA = { transfer_state = 513 }
+
+        UBA = { country_event = { id = HugovsCommies.2 days = 60 } }
+    }
+}
+country_event = {
+    id = RMI_UBA_border_conflict.4
+    title = RMI_UBA_border_conflict.4.t
+    desc = RMI_UBA_border_conflict.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = RMI_UBA_border_conflict.4.A
+
+        UBA = { country_event = { id = HugovsCommies.3 days = 60 } }
+
+    }
+}
+country_event = {
+    id = UBA_RMI_border_conflict.3
+    title = UBA_RMI_border_conflict.3.t
+    desc = UBA_RMI_border_conflict.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = UBA_RMI_border_conflict.3.A
+
+    }
+}
+country_event = {
+    id = UBA_RMI_border_conflict.4
+    title = UBA_RMI_border_conflict.4.t
+    desc = UBA_RMI_border_conflict.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = UBA_RMI_border_conflict.4.A
+
+    }
+}
+
+#######################
+# Brazilian Civil War #
+# Xingú National Park #
+#######################
+add_namespace = XinguvsJagunco
+add_namespace = JAG_XIN_border_conflict
+add_namespace = XIN_JAG_border_conflict
+
+country_event = { #Sorriso
+    id = XinguvsJagunco.1
+    title = XinguvsJagunco.1.t
+    desc = XinguvsJagunco.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = XinguvsJagunco.1.A
+
+
+start_border_war = {
+    change_state_after_war = yes
+    attacker = {
+        state = 152
+        num_provinces = 5
+        on_win = XIN_JAG_border_conflict.1
+    }
+                
+    defender = {
+        state = 151
+        num_provinces = 5
+        on_win = JAG_XIN_border_conflict.1
+    }
+}
+
+        JAG = { country_event = { id = XinguvsJagunco.2 days = 90 } }
+    }
+}
+country_event = { #Xingú
+    id = XinguvsJagunco.2
+    title = XinguvsJagunco.2.t
+    desc = XinguvsJagunco.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = XinguvsJagunco.2.A
+
+
+start_border_war = {
+    change_state_after_war = yes
+    attacker = {
+        state = 151
+        num_provinces = 5
+    }
+                
+    defender = {
+        state = 150
+        num_provinces = 5
+    }
+}
+
+        JAG = { country_event = { id = XinguvsJagunco.3 days = 350 } }
+    }
+}
+country_event = {
+    id = XIN_JAG_border_conflict.1
+    title = XIN_JAG_border_conflict.1.t
+    desc = XIN_JAG_border_conflict.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = XIN_JAG_border_conflict.1.A
+
+        JAG = { transfer_state = 148 }
+        JAG = { transfer_state = 149 }
+    }
+}
+
+country_event = { #Alta Floresta
+    id = XinguvsJagunco.3
+    title = XinguvsJagunco.3.t
+    desc = XinguvsJagunco.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = XinguvsJagunco.3.A
+
+
+start_border_war = {
+    change_state_after_war = yes
+    attacker = {
+        state = 152
+        num_provinces = 5
+    }
+                
+    defender = {
+        state = 472
+        num_provinces = 5
+    }
+}
+
+        JAG = { country_event = { id = XinguvsJagunco.4 days = 1 } }
+    }
+}
+country_event = { #Aripuanã
+    id = XinguvsJagunco.4
+    title = XinguvsJagunco.4.t
+    desc = XinguvsJagunco.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = XinguvsJagunco.4.A
+
+
+start_border_war = {
+    change_state_after_war = yes
+    attacker = {
+        state = 86
+        num_provinces = 5
+    }
+                
+    defender = {
+        state = 502
+        num_provinces = 5
+    }
+}
+
+    }
+}

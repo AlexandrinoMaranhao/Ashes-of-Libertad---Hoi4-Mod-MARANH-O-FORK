@@ -41,14 +41,14 @@ division_template = {
 units = {
 	division = {
 		name = "1º Batalhão de Voluntários da Pátria"
-		location = 2717
+		location = 533
 		division_template = "Infantaria"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "2º Batalhão de Voluntários da Pátria"
-		location = 6275
+		location = 553
 		division_template = "Infantaria"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.3

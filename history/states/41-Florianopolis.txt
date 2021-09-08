@@ -9,6 +9,19 @@ state={
         state_category=large_city
 
             history = {
+
+		buildings = {
+
+			infrastructure = 7
+			air_base = 1
+			dockyard = 2
+			industrial_complex = 3
+
+            2161 = {
+                naval_base = 2
+            }
+		}
+
              owner=BRA
         victory_points = {
               2161 30           

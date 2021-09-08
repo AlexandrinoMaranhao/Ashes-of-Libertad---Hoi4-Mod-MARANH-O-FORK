@@ -4,25 +4,28 @@ state={
 	name="STATE_150"
 
 	history={
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = XIN
 		add_core_of = XIN
 		add_core_of = JAG
-victory_points = {
-1628 20            
-}
-
-victory_points = {
-1334 5            
-}
-
-victory_points = {
-4342 5            
-}
+		victory_points = {
+			1628 20 
+		}
+		victory_points = {
+			1334 5 
+		}
+		victory_points = {
+			4342 5 
+		}
 
 	}
 
 	provinces={
-		101 160 287 657 1334 1628 4231 4318 4333 4342 4354 4363 
+		101 160 287 657 1334 1628 4318 4333 4342 4363 
 	}
 	manpower=61987
 	buildings_max_level_factor=1.000

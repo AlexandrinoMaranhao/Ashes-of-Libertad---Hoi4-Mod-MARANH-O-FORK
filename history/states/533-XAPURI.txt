@@ -10,6 +10,10 @@ state={
 
 
 history = {
+
+
+			infrastructure = 1
+
 		victory_points = {
 			4305 5 
 		}
@@ -17,6 +21,8 @@ history = {
 			2029 5 
 		}
 		buildings = {
+
+			infrastructure = 2
 			1813 = {
 				bunker = 2
 

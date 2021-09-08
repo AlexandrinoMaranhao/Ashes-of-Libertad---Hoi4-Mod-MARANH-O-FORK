@@ -4,6 +4,12 @@ state={
 	name="STATE_469"
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = ARI
 		add_core_of = ARI
 		add_core_of = JAG

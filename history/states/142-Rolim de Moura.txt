@@ -10,6 +10,12 @@ state={
 
             history = {
 
+		buildings = {
+
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
 victory_points = {
 1553 5
 }

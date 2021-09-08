@@ -74,5 +74,33 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.7
 	}
+	division = {
+		name = "Batalhão de Guerrilheiros do PCB"
+		location = 658
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Batalhão de Guerrilheiros do PCB"
+		location = 277
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Guerrilheiros do PCB"
+		location = 334
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Batalhão de Guerrilheiros do PCB"
+		location = 190
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
 
 }

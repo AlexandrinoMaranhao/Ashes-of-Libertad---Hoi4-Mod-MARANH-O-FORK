@@ -14,28 +14,56 @@ units = {
 		name = "Comando Militar de Venezuela Linea Dura 1"
 		location = 2971
 		division_template = "Comando Militar de Venezuela Linea Dura"
-		start_experience_factor = 0.4
+		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Comando Militar de Venezuela Linea Dura 2"
 		location = 2971
 		division_template = "Comando Militar de Venezuela Linea Dura"
-		start_experience_factor = 0.4
+		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Comando Militar de Venezuela Linea Dura 3"
 		location = 2971
 		division_template = "Comando Militar de Venezuela Linea Dura"
-		start_experience_factor = 0.4
+		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Comando Militar de Venezuela Linea Dura 4"
 		location = 2971
 		division_template = "Comando Militar de Venezuela Linea Dura"
-		start_experience_factor = 0.4
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Guardia Presidencial"
+		location = 2971
+		division_template = "Comando Militar de Venezuela Linea Dura"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Guardia Municipal de Caracas"
+		location = 2971
+		division_template = "Comando Militar de Venezuela Linea Dura"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Guardia Municipal de Valencia"
+		location = 437
+		division_template = "Comando Militar de Venezuela Linea Dura"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Guardia Municipal de Tucupicos"
+		location = 309
+		division_template = "Comando Militar de Venezuela Linea Dura"
+		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 }

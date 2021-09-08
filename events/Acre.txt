@@ -10,6 +10,57 @@ add_namespace = ACR_join_lib
 add_namespace = ACR_border_conflict
 add_namespace = ACR_native_revolt
 add_namespace = ACR_augusto
+add_namespace = ACR_EdgarIntro
+add_namespace = ACR_MarquesIntro
+add_namespace = ACR_HelioIntro
+#########################################################################
+# ACR_EdgarIntro
+#########################################################################
+country_event = {
+	id = ACR_EdgarIntro.1
+	title = ACR_EdgarIntro.1.t
+	desc = ACR_EdgarIntro.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR_EdgarIntro.1.A
+	}
+}
+#########################################################################
+# ACR_MarquesIntro
+#########################################################################
+country_event = {
+	id = ACR_MarquesIntro.1
+	title = ACR_MarquesIntro.1.t
+	desc = ACR_MarquesIntro.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR_MarquesIntro.1.A
+	}
+}
+#########################################################################
+# ACR_HelioIntro
+#########################################################################
+country_event = {
+	id = ACR_HelioIntro.1
+	title = ACR_HelioIntro.1.t
+	desc = ACR_HelioIntro.1.d
+	picture = GFX_report_event_acre_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = ACR_HelioIntro.1.A
+	}
+}
 
 #########################################################################
 # ACR_intro_one

@@ -11,6 +11,26 @@ state={
 
             history = {
 
+		buildings = {
+
+			infrastructure = 4
+			4471 = {
+				bunker = 2
+			}
+			4468 = {
+				bunker = 2
+			}
+			4462 = {
+				bunker = 2
+			}
+			295 = {
+				bunker = 2
+			}
+			340 = {
+				bunker = 2
+			}
+			
+		}
         owner = JAG
         add_core_of = JAG
 

@@ -11,6 +11,12 @@ state={
 
             history = {
 
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
         owner = CFD
         add_core_of = ALA
         add_core_of = CFD

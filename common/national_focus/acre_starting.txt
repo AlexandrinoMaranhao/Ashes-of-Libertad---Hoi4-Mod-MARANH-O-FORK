@@ -122,6 +122,24 @@ shared_focus = {
 
 	completion_reward = {
 
+	completion_reward = {
+		country_event = {
+			id = ACR.1
+			days = 0
+		}
+		country_event = {
+			id = ACR_HelioIntro.1
+			days = 7
+		}
+		country_event = {
+			id = ACR_MarquesIntro.1
+			days = 14
+		}
+		country_event = {
+			id = ACR_EdgarIntro.1
+			days = 21
+		}
+	}
 	}
 }
 ####CONSTITUTION BRACH#####

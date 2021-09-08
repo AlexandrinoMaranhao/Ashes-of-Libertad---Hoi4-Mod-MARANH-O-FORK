@@ -1872,16 +1872,17 @@
  SIN_neutrality_ADJ:0 "Mexican"
  SIN_communism_ADJ:1 "Mexican"
 
- HAL_fascism:1 "Los Halcones"
+
+ HAL:1 "Los Halcones"
  HAL_fascism_DEF:1 "Los Halcones"
  HAL_democratic:1 "Los Halcones"
- HAL_democratic_DEF:1 "Los Halcones"
+ HAL_DEF:1 "Los Halcones"
  HAL_neutrality:0 "Los Halcones"
  HAL_neutrality_DEF:0 "Los Halcones"
  HAL_communism:1 "Los Halcones"
  HAL_communism_DEF:1 "Los Halcones"
  HAL_fascism_ADJ:0 "Los Halcones"
- HAL_democratic_ADJ:0 "Los Halcones"
+ HAL_ADJ:0 "Los Halcones"
  HAL_neutrality_ADJ:0 "Los Halcones"
  HAL_communism_ADJ:1 "Los Halcones"
 

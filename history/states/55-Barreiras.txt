@@ -4,6 +4,12 @@ state={
 	name="STATE_55"
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = LAM
 		add_core_of = LAM
         add_core_of = CNU

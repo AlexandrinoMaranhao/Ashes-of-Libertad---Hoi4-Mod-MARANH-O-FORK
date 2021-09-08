@@ -4,6 +4,12 @@ state={
 	name="STATE_6"
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
         owner = CFD
         add_core_of = CFD
 		add_core_of = PAI

@@ -9,6 +9,28 @@ state={
         state_category=pastoral
 
             history = {
+		buildings = {
+
+			infrastructure = 3
+			1408 = {
+				bunker = 2
+			}
+			4575= {
+				bunker = 2
+			}
+			850 = {
+				bunker = 2
+			}
+			4593 = {
+				bunker = 2
+			}
+			31 = {
+				bunker = 2
+			}
+			4622 = {
+				bunker = 2
+			}
+		}
              owner=BRA
              add_core_of = BRA
 		add_core_of = JAG

@@ -4,6 +4,16 @@ state={
 	name="STATE_24"
 
 	history={
+
+
+		buildings = {
+
+			infrastructure = 7
+			air_base = 1
+			dockyard = 2
+			industrial_complex = 3
+
+		}
 		owner = BRA
 		add_core_of = BRA
         add_core_of = CRJ

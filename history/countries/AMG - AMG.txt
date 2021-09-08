@@ -116,7 +116,7 @@ create_country_leader = {
 	name = "Hermenegildo Cuenca Díaz"
 	picture = "Portrait_AMG_Hermenegildo_Cuenca_Díaz.dds"
 	expire = "1974.4.13"
-	ideology = military_junta
+	ideology = military_government
 	traits = {
 		#
 	}

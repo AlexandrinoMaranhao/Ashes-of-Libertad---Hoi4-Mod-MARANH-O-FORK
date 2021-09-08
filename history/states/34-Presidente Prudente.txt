@@ -4,12 +4,18 @@ state={
 	provinces={
 		800 1038 1581 2216 2280 4571 4591 4596 4600 4615 4617 
 	}
-	manpower=100000
+	manpower=110182
 	buildings_max_level_factor=1.000
         state_category=rural
 
             history = {
 
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
           owner = SAO
           add_core_of = SAO
 

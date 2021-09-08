@@ -8,6 +8,12 @@ state={
 	buildings_max_level_factor=1.000
         state_category=city
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = ERN
 		add_core_of = ERN
         add_core_of = BRA

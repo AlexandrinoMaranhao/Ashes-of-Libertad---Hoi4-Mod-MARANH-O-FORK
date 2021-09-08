@@ -6,6 +6,12 @@ state={
 	}
 
 	history={
+		buildings = {
+
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
 		owner = CNU
         add_core_of = CNU
         add_core_of = LAM

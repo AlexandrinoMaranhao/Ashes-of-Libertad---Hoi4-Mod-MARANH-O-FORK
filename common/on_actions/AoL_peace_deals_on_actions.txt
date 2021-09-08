@@ -856,6 +856,23 @@ on_actions = {
           }
         }
       }
+      if = {  #### VEJ vs ELD
+      limit = {
+        ROOT = { original_tag = ELD }
+        FROM = { original_tag = VEJ }
+        FROM.FROM = {
+          state = 306
+        }
+      }
+VEN = { country_event = { id = VEN_Democracy_Wins.1 days = 0 } }
+
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+        }
+      }
       if = {  #### VEJ vs LLA
       limit = {
         ROOT = { original_tag = VEJ }
@@ -864,6 +881,8 @@ on_actions = {
           state = 310
         }
       }
+VEN = { country_event = { id = VEN_Communism_Wins.1 days = 0 } }
+
       ROOT = {
         annex_country = {
           target = FROM
