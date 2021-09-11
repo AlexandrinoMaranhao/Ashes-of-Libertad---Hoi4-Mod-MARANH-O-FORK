@@ -2,14 +2,10 @@ on_actions = {
 	on_startup = {
 		effect = {
 			## Brazilian Civil War ##
-			BRA = {
+			JAG = {
 				country_event = {
 					id = JuntavsBrazil.1
-					days = 1
-				}
-				country_event = {
-					id = JuntavsBrazil.4
-					days = 1
+					days = 10
 				}
 			}
 			UBA = {

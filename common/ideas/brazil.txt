@@ -13,5 +13,8 @@ ideas = {
 
 		}
 		
+		favelas_of_rio = {
+
+		}
 	}
 }

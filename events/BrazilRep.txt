@@ -93,7 +93,12 @@ country_event = {
 # Goulart wins
 
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.36 }
+    every_country = {
+        news_event = {
+            id = world.36
+            days = 1
+            }
+        }
 
         hidden_effect = { country_event = { id = BRA_elections_goulart.1 days = 5 } }
 kill_country_leader = yes
@@ -135,7 +140,12 @@ set_popularities = {
 # JK wins
 
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.37 }
+    every_country = {
+        news_event = {
+            id = world.37
+            days = 1
+            }
+        }
 
         hidden_effect = { country_event = { id = BRA_elections_jk.1 days = 5 } }
 kill_country_leader = yes
@@ -170,7 +180,12 @@ set_popularities = {
 # Lott wins
 
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.38 }
+    every_country = {
+        news_event = {
+            id = world.38
+            days = 1
+            }
+        }
 
         hidden_effect = { country_event = { id = BRA_elections_lott.1 days = 5 } }
 kill_country_leader = yes
@@ -205,7 +220,12 @@ set_popularities = {
         # Brizola wins
 
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.39 }
+    every_country = {
+        news_event = {
+            id = world.39
+            days = 1
+            }
+        }
 
         hidden_effect = { country_event = { id = BRA_elections_brizola.1 days = 5 } }
 kill_country_leader = yes
@@ -240,7 +260,12 @@ set_popularities = {
 # Monarchists wins
 
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.40 }
+    every_country = {
+        news_event = {
+            id = world.40
+            days = 1
+            }
+        }
         
 ai_will_do = {
   factor = 0
@@ -298,10 +323,14 @@ country_event = {
     option = { #regionals
         name = BRA_elections_brizola.1.a
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.39 }
-
+        
+    every_country = {
+        news_event = {
+            id = world.39
+            days = 1
+            }
         }
-
+    }
 }
 
 
@@ -316,10 +345,13 @@ country_event = {
     option = { #regionals
         name = BRA_elections_goulart.1.a
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.36 }
-
+    every_country = {
+        news_event = {
+            id = world.36
+            days = 1
+            }
         }
-
+    }
 }
 
 
@@ -334,10 +366,14 @@ country_event = {
     option = { #regionals
         name = BRA_elections_jk.1.a
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.37 }
-
+        
+    every_country = {
+        news_event = {
+            id = world.37
+            days = 1
+            }
         }
-
+    }
 }
 
 
@@ -352,10 +388,13 @@ country_event = {
     option = { #regionals
         name = BRA_elections_lott.1.a
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.38 }
-
+    every_country = {
+        news_event = {
+            id = world.38
+            days = 1
+            }
         }
-
+    }
 }
 
 
@@ -370,8 +409,12 @@ country_event = {
     option = { #regionals
         name = BRA_elections_monarquia.1.a
         BRA = {remove_ideas = overdue_elections}
-        news_event = { id = world.40 }
 
+    every_country = {
+        news_event = {
+            id = world.40
+            days = 1
+            }
         }
-
+    }
 }

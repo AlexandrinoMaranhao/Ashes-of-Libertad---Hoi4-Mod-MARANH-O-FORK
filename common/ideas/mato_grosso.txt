@@ -14,7 +14,7 @@ ideas = {
 			modifier = {
                 stability_factor = -0.10
                 mobilization_speed = -0.08
-                weekly_manpower	= 100
+                weekly_manpower	= 600
 			}
 		}
 			filinto_is_an_ass = {

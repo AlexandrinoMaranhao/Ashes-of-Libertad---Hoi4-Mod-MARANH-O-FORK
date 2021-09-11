@@ -258,6 +258,7 @@ country_event = {
         315 = { add_core_of = ELD }
         VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.5 days = 28 } }
 
+        }
     }
 }
 
@@ -344,10 +345,8 @@ country_event = {
         VEJ = { transfer_state = 312 }
         VEJ = { transfer_state = 314 }
         LLA = {
-					load_oob = LLA_1967
 			every_state = {
 				limit = {
-					is_owned_by = VEN
 					is_core_of = VEN
 				}
 				add_core_of = LLA
@@ -355,6 +354,7 @@ country_event = {
 		transfer_state = 449 }
         LLA = { transfer_state = 310 }
         LLA = { transfer_state = 446 }
+        LLA = { load_oob = LLA_1967 }
 
     VEJ = {
             declare_war_on = {
@@ -395,7 +395,7 @@ country_event = {
             country_exists = LLA }
         }
     }
-    fire_only_once = yes
+    fire_only_once = no
     is_triggered_only = yes
 
     option = {
@@ -548,78 +548,13 @@ start_border_war = {
     attacker = {
         state = 311
         num_provinces = 4
-        on_win = NEB_LBT_border_conflict.1
-        on_lose = NEB_LBT_border_conflict.2
-        on_cancel = NEB_LBT_border_conflict.2
     }
                 
     defender = {
         state = 445
         num_provinces = 4
-        on_win = LBT_NEB_border_conflict.1
-        on_lose = LBT_NEB_border_conflict.2
-        on_cancel = LBT_NEB_border_conflict.2
     }
 }
-    }
-}
-
-add_namespace = LBT_NEB_border_conflict
-add_namespace = NEB_LBT_border_conflict
-
-country_event = {
-    id = LBT_NEB_border_conflict.1
-    title = LBT_NEB_border_conflict.1.t
-    desc = LBT_NEB_border_conflict.1.d
-    picture = x
-    fire_only_once = yes
-    is_triggered_only = yes
-
-    option = {
-        name = LBT_NEB_border_conflict.1.A
-
-    }
-}
-
-country_event = {
-    id = NEB_LBT_border_conflict.1
-    title = NEB_LBT_border_conflict.1.t
-    desc = NEB_LBT_border_conflict.1.d
-    picture = x
-    fire_only_once = yes
-    is_triggered_only = yes
-
-    option = {
-        name = NEB_LBT_border_conflict.1.A
-
-    }
-}
-
-country_event = {
-    id = LBT_NEB_border_conflict.2
-    title = LBT_NEB_border_conflict.2.t
-    desc = LBT_NEB_border_conflict.2.d
-    picture = x
-    fire_only_once = yes
-    is_triggered_only = yes
-
-    option = {
-        name = LBT_NEB_border_conflict.2.A
-
-    }
-}
-
-country_event = {
-    id = NEB_LBT_border_conflict.2
-    title = NEB_LBT_border_conflict.2.t
-    desc = NEB_LBT_border_conflict.2.d
-    picture = x
-    fire_only_once = yes
-    is_triggered_only = yes
-
-    option = {
-        name = NEB_LBT_border_conflict.2.A
-
     }
 }
 
@@ -649,8 +584,8 @@ country_event = {
         ELD = { transfer_state = 303 }
         ELD = { transfer_state = 447 }
     }
-
         VEN = { country_event = { id = VEN_Collapse_End.1 days = 5 } }
+    }
 }
 
 country_event = {

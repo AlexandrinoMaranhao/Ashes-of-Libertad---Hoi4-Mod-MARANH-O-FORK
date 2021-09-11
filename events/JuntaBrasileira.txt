@@ -36,8 +36,16 @@ country_event = {
         set_cosmetic_tag = JUN_COUNCIL
         hidden_effect = { JUN = { country_event = { id = JUN_collapse.2 days = 21 } } }
         hidden_effect = { 69 = { set_demilitarized_zone = yes } }
-        hidden_effect = { news_event = { id = world.46 } }
+
+        hidden_effect = {
+    every_country = {
+        news_event = {
+            id = world.46
+            days = 1
             }
+        }   
+    }
+        }
             #fecha
         }
     

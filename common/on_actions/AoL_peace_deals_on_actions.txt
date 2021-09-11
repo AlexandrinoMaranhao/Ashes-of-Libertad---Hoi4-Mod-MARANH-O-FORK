@@ -854,6 +854,9 @@ on_actions = {
           target = FROM
           transfer_troops = no
           }
+
+VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
+
         }
       }
       if = {  #### VEJ vs ELD
@@ -864,13 +867,30 @@ on_actions = {
           state = 306
         }
       }
-VEN = { country_event = { id = VEN_Democracy_Wins.1 days = 0 } }
 
       ROOT = {
         annex_country = {
           target = FROM
           transfer_troops = no
           }
+VEN = { country_event = { id = VEN_Democracy_Wins.1 days = 0 } }
+        }
+      }
+      if = {  #### VEJ vs LLA
+      limit = {
+        ROOT = { original_tag = LLA }
+        FROM = { original_tag = VEJ }
+        FROM.FROM = {
+          state = 306
+        }
+      }
+
+      ROOT = {
+        annex_country = {
+          target = FROM
+          transfer_troops = no
+          }
+VEN = { country_event = { id = VEN_Communism_Wins.1 days = 0 } }
         }
       }
       if = {  #### VEJ vs LLA
@@ -881,15 +901,16 @@ VEN = { country_event = { id = VEN_Democracy_Wins.1 days = 0 } }
           state = 310
         }
       }
-VEN = { country_event = { id = VEN_Communism_Wins.1 days = 0 } }
 
       ROOT = {
         annex_country = {
           target = FROM
           transfer_troops = no
           }
+VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
         }
       }
+      
       if = {  #### of Venezuela vs Libertadores/Colombia
       limit = {
         ROOT = { original_tag = NEB }

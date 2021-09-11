@@ -1,0 +1,197 @@
+division_template = {
+	is_locked = yes
+	name = "Infantaria"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Artilharia de Campanha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Cavalaria Mecanizado"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infantaria Motorizado"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+        motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Guarnição de Cuiabá"
+		location = 1828
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Polícia Militar de Cuiabá"
+		location = 1828
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Rondonopolis"
+		location = 295
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Mirassol"
+		location = 4434
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4415
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4415
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 295
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 340
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4462
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4468
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 4471
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Comodoro"
+		location = 1037
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Fronteira"
+		location = 1068
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 2435
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Fronteira"
+		location = 666
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Fronteira"
+		location = 1109
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Guarnição de Fronteira"
+		location = 1109
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 4471
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 1828
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Esquadrão de Cavalaria Mecanizado"
+		location = 709
+		division_template = "Cavalaria Mecanizado"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}

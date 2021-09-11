@@ -347,6 +347,7 @@ country_event = { #The Waimiri-Atroari-Manaus War
             target = ATR
             type = annex_everything
             } 
+            load_oob = "MNS_1967"
         }
         hidden_effect = { country_event = { id = MNS.8 days = 46 } }
     }
