@@ -24,4 +24,19 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
+	division = {
+		name = "Comando Militar do Amapa 1"
+		location = 2571
+		division_template = "Comando Militar do Amapa"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Comando Militar do Amapa 2"
+		location = 2571
+		division_template = "Comando Militar do Amapa"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+
 }

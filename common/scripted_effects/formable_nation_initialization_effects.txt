@@ -189,3 +189,93 @@ cuba_unification_initialization = {
 		set_cosmetic_tag = RUM_cuba_unification
 	}
 }
+
+bahia_unification_initialization = {
+	if = {
+		limit = {
+			original_tag = LAM
+		}
+		set_cosmetic_tag = LAM_BAHIA_UNIFICATION
+		
+	}
+	if = {
+		limit = {
+			original_tag = CNU
+		}
+		set_cosmetic_tag = CNU_BAHIA_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = RPB
+		}
+		set_cosmetic_tag = RPB_BAHIA_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = MAL
+		}
+		set_cosmetic_tag = MAL_BAHIA_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = PCR
+		}
+		set_cosmetic_tag = PCR_BAHIA_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = CAN
+		}
+		set_cosmetic_tag = CAN_BAHIA_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = BMF
+		}
+		set_cosmetic_tag = BMF_BAHIA_UNIFICATION
+	}
+	
+}
+
+nordeste_unification_initialization = {
+	
+	if = {
+		limit = {
+			original_tag = CEA
+		}
+		set_cosmetic_tag = CEA_NORDESTE_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = PEB
+		}
+		set_cosmetic_tag = PEB_NORDESTE_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = RGN
+		}
+		set_cosmetic_tag = RGN_NORDESTE_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = ALA
+		}
+		set_cosmetic_tag = ALA_NORDESTE_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = PAI
+		}
+		set_cosmetic_tag = PAI_NORDESTE_UNIFICATION
+	}
+	if = {
+		limit = {
+			original_tag = INT
+		}
+		ROOT = {
+		set_capital = 7
+		}
+		set_cosmetic_tag = INT_NORDESTE_UNIFICATION
+	}
+}

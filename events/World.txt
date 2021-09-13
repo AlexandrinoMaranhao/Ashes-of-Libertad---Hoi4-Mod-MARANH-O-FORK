@@ -1,6 +1,20 @@
 add_namespace = world
 add_namespace = world_acr
 add_namespace = world_inc
+add_namespace = world_dutra
+
+news_event = { # Dutra declares himself president oh fuck oh shit
+	id = world_dutra.1
+	title = world_dutra.1.t
+	desc = world_dutra.1.d
+	picture = "GFX_news_event_dutra_president"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_dutra.1.a 
+		}
+	}
 
 news_event = { # Elected Cerqueira
 	id = world_acr.1

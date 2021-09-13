@@ -212,6 +212,34 @@ units = {
 		start_equipment_factor = 0.7
 	}
 	division = {
+		name = "Batalhão de Infantaria"
+		location = 982
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1571
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalhão de Infantaria"
+		location = 1242
+		division_template = "Infantaria"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Grupo de Artilharia de Campanha"
+		location = 1861
+		division_template = "Artilharia de Campanha"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+	division = {
 		name = "Grupo de Artilharia de Campanha"
 		location = 2161
 		division_template = "Artilharia de Campanha"

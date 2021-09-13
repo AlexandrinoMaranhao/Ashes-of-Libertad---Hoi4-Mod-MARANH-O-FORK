@@ -66,6 +66,23 @@
  RED_cuba_unification:0 "Unión de Islas Socialistas de Cuba"
  RUM_cuba_unification:0 "Unión Andina"
  
+ #bahia unification 
+ LAM_BAHIA_UNIFICATION:0 "Comando Militar do Nordeste"
+ CNU_BAHIA_UNIFICATION:0 "State of Bahia"
+ RPB_BAHIA_UNIFICATION:0 "República Popular Bahiana"
+ MAL_BAHIA_UNIFICATION:0 "Imalê Republic"
+ PCR_BAHIA_UNIFICATION:0 "Ligas Camponesas"
+ CAN_BAHIA_UNIFICATION:0 "Free State of Bahia"
+ BMF_BAHIA_UNIFICATION:0 "Brazilian Monarchist Front"
+
+ #Nordeste unifications
+ CEA_NORDESTE_UNIFICATION:0 "Archdiocese of Fortaleza"
+ PEB_NORDESTE_UNIFICATION:0 "Confederação Sertaneja"
+ RGN_NORDESTE_UNIFICATION:0 "Confederação do Equador"
+ ALA_NORDESTE_UNIFICATION:0 "Provisional Government of the Northeast"
+ PAI_NORDESTE_UNIFICATION:0 "Provisional Government of the Northeast"
+ INT_NORDESTE_UNIFICATION:0 "Coluna Prestes"
+
  ACR_PRONA:0 "Government of Rectification of the National Order"
  ACR_PRONA_ADJ:0 "Acrean"
  ACR_PRONA_DEF:0 "Government of Rectification of the National Order"

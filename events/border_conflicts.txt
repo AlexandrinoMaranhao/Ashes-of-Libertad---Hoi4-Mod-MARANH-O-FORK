@@ -641,21 +641,8 @@ country_event = { #Alta Floresta
     option = {
         name = XinguvsJagunco.3.A
 
-
-start_border_war = {
-    change_state_after_war = yes
-    attacker = {
-        state = 152
-        num_provinces = 5
-    }
-                
-    defender = {
-        state = 472
-        num_provinces = 5
-    }
-}
-
         JAG = { country_event = { id = XinguvsJagunco.4 days = 60 } }
+    annex_country = { target = XIN transfer_troops = yes }
     }
 }
 country_event = { #Aripuanã

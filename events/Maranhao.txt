@@ -63,6 +63,19 @@ country_event = {
     option = {
         name = MNH.1.a
 
+if = {
+    limit = {
+        CRJ = { is_faction_leader = yes }
+    }
+    
+    CRJ = { add_to_faction = MNH }
+    else = {
+    create_faction = Brazilian_empire_FACTION
+    }
+    
+}
+
+
     every_country = {
         news_event = {
             id = world.75

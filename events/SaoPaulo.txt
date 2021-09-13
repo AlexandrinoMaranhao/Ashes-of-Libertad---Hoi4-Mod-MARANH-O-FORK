@@ -17,16 +17,25 @@ country_event = {
             days = 1
         }
     }
-        PAU = { transfer_state = 28 }
-        PAU = { transfer_state = 502 }
-        PAU = { transfer_state = 501 }
-        PAU = { transfer_state = 30 }
         PAU = {
             declare_war_on = {
                 target = SAO
                 type = annex_everything
             }
+        load_oob = "PAU_DEMO"
+        transfer_state = 28 
+        transfer_state = 502
+        transfer_state = 501
+        transfer_state = 30 
         }
+
+        28 = { set_demilitarized_zone = no }
+        502 = { set_demilitarized_zone = no }
+        501 = { set_demilitarized_zone = no }
+        30 = { set_demilitarized_zone = no }
+
+        INT = {
+      add_to_faction = PAU }
     }
 }
 

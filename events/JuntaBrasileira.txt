@@ -32,6 +32,17 @@ country_event = {
           remove_idea = the_man_in_the_white_castle 
           add_idea = administration_in_chaos 
         }
+        JAG = {
+          add_idea = administration_in_chaos  }
+        LAM = {
+          add_idea = administration_in_chaos  }
+        BEM = {
+          add_idea = administration_in_chaos  }
+        CRJ = {
+          add_idea = administration_in_chaos  }
+        UBA = {
+          add_idea = administration_in_chaos  } 
+
         custom_effect_tooltip = collapsingjunta_tt
         set_cosmetic_tag = JUN_COUNCIL
         hidden_effect = { JUN = { country_event = { id = JUN_collapse.2 days = 21 } } }
@@ -250,6 +261,19 @@ country_event = {
             }
             JEG = { change_tag_from = JUN }
        }
+            JAG = {
+            create_faction = autonomy_isolated_military_district
+            add_to_faction = UBA
+            add_to_faction = BEM
+            add_to_faction = CRJ
+            add_to_faction = LAM
+            }
+    every_country = {
+        news_event = {
+            id = world_dutra.1
+            days = 5
+            }
+        }   
     }
 }
 

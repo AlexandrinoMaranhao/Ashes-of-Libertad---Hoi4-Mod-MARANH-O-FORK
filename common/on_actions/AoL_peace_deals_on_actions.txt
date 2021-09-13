@@ -258,6 +258,9 @@ on_actions = {
         transfer_state = 298
         transfer_state = 439
         transfer_state = 437
+
+        ERN = { puppet = LBT 
+        add_to_faction = LBT }
       }
     }
     #### Peru
@@ -810,6 +813,8 @@ on_actions = {
         transfer_state = 228
         white_peace = ENG
         }
+        ENG = {
+          remove_idea = ENG_preassure_from_venezuela }
       }
       if = {  #### Fall of Tawantinsuyu
       limit = {
@@ -821,7 +826,7 @@ on_actions = {
       }
       ROOT = {
         annex_country = {
-          target = FROM
+          target = ROOT
           transfer_troops = no
           }
         }
@@ -873,7 +878,7 @@ VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
           target = FROM
           transfer_troops = no
           }
-VEN = { country_event = { id = VEN_Democracy_Wins.1 days = 0 } }
+ country_event = { id = VEN_Democracy_Wins.1 days = 0 } 
         }
       }
       if = {  #### VEJ vs LLA
@@ -890,7 +895,7 @@ VEN = { country_event = { id = VEN_Democracy_Wins.1 days = 0 } }
           target = FROM
           transfer_troops = no
           }
-VEN = { country_event = { id = VEN_Communism_Wins.1 days = 0 } }
+ country_event = { id = VEN_Communism_Wins.1 days = 0 } 
         }
       }
       if = {  #### VEJ vs LLA
@@ -1301,7 +1306,7 @@ VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
       }
       ROOT = {
         annex_country = {
-          target = FROM
+          puppet = FROM
           transfer_troops = no
           }
         }

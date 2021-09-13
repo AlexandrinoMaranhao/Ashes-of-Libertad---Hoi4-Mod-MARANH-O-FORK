@@ -255,54 +255,54 @@ set_popularities = {
 
         }
 
-    option = { #
-        name = BRA_elections.1.e
-# Monarchists wins
-
-        BRA = {remove_ideas = overdue_elections}
-    every_country = {
-        news_event = {
-            id = world.40
-            days = 1
-            }
-        }
-        
-ai_will_do = {
-  factor = 0
-  }
-        hidden_effect = { country_event = { id = BRA_elections_monarquia.1 days = 5 } }
-
-kill_country_leader = yes
-
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_monarchist_party
-    long_name = BRA_democratic_monarchist_party_long
-}
-
-create_country_leader = {
-        
-    name = "Pedro Henrique de Orleães e Bragança"
-    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
-    expire = "1999.1.1"
-    ideology = constitutional_monarchy 
-    traits = {
-        #
-    }
-}
-
-set_popularities = {
-    democratic = 14
-    fascism = 20
-    communism = 11
-    neutrality = 0
-    reactionary = 55
-}
-
- set_cosmetic_tag = BRA_MONARCHY
-
-        }
-}
+#    option = { #
+#        name = BRA_elections.1.e
+## Monarchists wins
+#
+#        BRA = {remove_ideas = overdue_elections}
+#    every_country = {
+#        news_event = {
+#            id = world.40
+#            days = 1
+#            }
+#        }
+#        
+#ai_will_do = {
+#  factor = 0
+#  }
+#        hidden_effect = { country_event = { id = BRA_elections_monarquia.1 days = 5 } }
+#
+#kill_country_leader = yes
+#
+#set_party_name = {
+#    ideology = democratic
+#    name = BRA_democratic_monarchist_party
+#    long_name = BRA_democratic_monarchist_party_long
+#}
+#
+#create_country_leader = {
+#        
+#    name = "Pedro Henrique de Orleães e Bragança"
+#    picture = "gfx/leaders/BRA/Portrait_BRA_King.dds"
+#    expire = "1999.1.1"
+#    ideology = constitutional_monarchy 
+#    traits = {
+#        #
+#    }
+#}
+#
+#set_popularities = {
+#    democratic = 14
+#    fascism = 20
+#    communism = 11
+#    neutrality = 0
+#    reactionary = 55
+#}
+#
+# set_cosmetic_tag = BRA_MONARCHY
+#
+#        }
+#}
 
 ##################################
 
@@ -310,7 +310,7 @@ add_namespace = BRA_elections_brizola
 add_namespace = BRA_elections_goulart
 add_namespace = BRA_elections_jk
 add_namespace = BRA_elections_lott
-add_namespace = BRA_elections_monarquia
+#add_namespace = BRA_elections_monarquia
 
 country_event = {
     id = BRA_elections_brizola.1

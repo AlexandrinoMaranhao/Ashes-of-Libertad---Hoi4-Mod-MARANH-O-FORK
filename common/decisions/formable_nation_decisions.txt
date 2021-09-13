@@ -1447,3 +1447,124 @@ form_united_cuba_category = {
 		}
 	}
 }
+
+
+form_united_bahia_category = {
+	form_united_bahia = {
+		visible = {
+			OR = {
+				original_tag = LAM
+				original_tag = CNU
+				original_tag = RPB
+				original_tag = MAL
+				original_tag = PCR
+				original_tag = CAN
+				original_tag = BMF
+			}
+		}
+		available = {
+			
+			controls_state = 496
+			controls_state = 59
+			controls_state = 58
+			controls_state = 56
+			controls_state = 461
+			controls_state = 53
+			controls_state = 54
+			controls_state = 52
+			controls_state = 57
+			controls_state = 462
+			controls_state = 463
+			controls_state = 55
+		}
+		complete_effect = {
+			bahia_unification_initialization = yes
+			set_global_flag = BAHIA_UNIFICATION
+			every_state = {
+				limit = {
+					OR = {
+			controls_state = 496
+			controls_state = 59
+			controls_state = 58
+			controls_state = 56
+			controls_state = 461
+			controls_state = 53
+			controls_state = 54
+			controls_state = 52
+			controls_state = 57
+			controls_state = 462
+			controls_state = 463
+			controls_state = 55
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+		ROOT = {
+		set_capital = 53
+		}
+		ai_will_do = {
+			factor = 9999
+		}
+	}
+}
+
+form_united_nordeste_category = {
+	form_united_nordeste = {
+		visible = {
+			OR = {
+				original_tag = CEA
+				original_tag = PEB
+				original_tag = RGN
+				original_tag = ALA
+				original_tag = PAI
+				original_tag = INT
+			}
+		}
+		available = {
+			
+			controls_state = 14
+			controls_state = 12
+			controls_state = 13
+			controls_state = 5
+			controls_state = 4
+			controls_state = 3
+			controls_state = 6
+			controls_state = 503
+			controls_state = 8
+			controls_state = 9
+			controls_state = 7
+			controls_state = 10
+			controls_state = 2
+			controls_state = 11
+		}
+		complete_effect = {
+			nordeste_unification_initialization = yes
+			set_global_flag = nordeste_UNIFICATION
+			every_state = {
+				limit = {
+					OR = {
+			controls_state = 14
+			controls_state = 12
+			controls_state = 13
+			controls_state = 5
+			controls_state = 4
+			controls_state = 3
+			controls_state = 6
+			controls_state = 503
+			controls_state = 8
+			controls_state = 9
+			controls_state = 7
+			controls_state = 10
+			controls_state = 2
+			controls_state = 11
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 9999
+		}
+	}
+}

@@ -182,7 +182,6 @@ country_event = {
 		PCR = {
 			transfer_state  = 57
     load_oob = "PCB_Bahia"
-
 			declare_war_on = {
 				target = LAM 
 				type = annex_everything
@@ -224,5 +223,21 @@ country_event = {
                 add_core_of = PCR 
             }
 		}
+INT = {
+      add_to_faction = PCR
+      }
+
+if = {
+    limit = {
+        CRJ = { is_faction_leader = yes }
+    }
+    
+    CRJ = { add_to_faction = BMF }
+    }
+if = {
+    limit = {
+        MNH = { is_faction_leader = yes }
+    }
+    MNH = { add_to_faction = BMF }
     }
 }

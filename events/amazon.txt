@@ -53,6 +53,14 @@ country_event = { #Aripuanã change of government
                     neutrality = 0
                     reactionary = 0
                         }
+
+    JAG = {
+    puppet = ARI
+
+    transfer_state = 469 
+    transfer_state = 146
+    transfer_state = 468
+    }
                     
     }
 }
@@ -768,6 +776,9 @@ country_event = {
         }
     }
  
+        115 = { add_core_of = ROR }
+
+        MNS = { transfer_state = 115 }
         hidden_effect = { country_event = { id = NHA.3 days = 90 } }
     }
 }

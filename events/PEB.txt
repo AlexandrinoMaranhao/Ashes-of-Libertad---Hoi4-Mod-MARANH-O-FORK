@@ -65,6 +65,16 @@ country_event = {
           target = PEB
           type = annex_everything
         }
+
+            28 = { set_demilitarized_zone = yes }
+            502 = { set_demilitarized_zone = yes }
+            501 = { set_demilitarized_zone = yes }
+            30 = { set_demilitarized_zone = yes }
+
+      create_faction = partido_comunista_brasileiro_FACTION
+      add_to_faction = ROR
+      add_to_faction = RMI
+      add_to_faction = PCR
     }
   } 
 }

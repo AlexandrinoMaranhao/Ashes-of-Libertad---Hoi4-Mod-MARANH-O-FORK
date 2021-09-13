@@ -84,28 +84,7 @@ units = {
 	}
 	division = {
 		name = "Batalhão de Infantaria"
-		location = 4415
-		division_template = "Infantaria"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Batalhão de Infantaria"
-		location = 4415
-		division_template = "Infantaria"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Batalhão de Infantaria"
 		location = 295
-		division_template = "Infantaria"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "Batalhão de Infantaria"
-		location = 340
 		division_template = "Infantaria"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.7
