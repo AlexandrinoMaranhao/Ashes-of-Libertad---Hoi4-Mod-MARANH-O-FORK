@@ -13,7 +13,24 @@ news_event = { # Dutra declares himself president oh fuck oh shit
 
 	option = {
 		name = world_dutra.1.a 
+		trigger = { tag = JGD }
 		}
+
+	option = {
+		name = world_dutra.1.b 
+		trigger = { tag = BRA }
+		}
+
+	option = {
+		name = world_dutra.1.c
+		trigger = { tag = JRM tag = JEG tag = JCS tag = JCL } 
+		}
+
+	option = {
+		name = world_dutra.1.d
+		trigger = { NOT = { tag = JGD tag = BRA tag = JRM tag = JEG tag = JCS tag = JCL } }
+		}
+
 	}
 
 news_event = { # Elected Cerqueira
