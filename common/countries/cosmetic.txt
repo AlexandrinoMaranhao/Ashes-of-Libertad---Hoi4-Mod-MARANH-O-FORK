@@ -7,7 +7,7 @@ ACR_PRONA = {
 	color_ui = rgb { 97 127 0 }
 }
 
-BRA_MONARCHY = {
+BRA_REPUBLIC = {
 	color = rgb { 51 104 34 }
 	color_ui = rgb { 51 104 34 }
 }
