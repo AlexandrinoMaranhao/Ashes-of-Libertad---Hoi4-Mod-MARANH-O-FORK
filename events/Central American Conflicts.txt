@@ -51,6 +51,7 @@ country_event = {#FNLH rises up
     option = {
         name = honduran_civilwar.1.a
         HNR = {
+            transfer_state = 548
             transfer_state = 506
             load_oob = "HNR_civilwar_DEMO"
         }
@@ -73,6 +74,8 @@ country_event = {#FPRLZ rises up
         name = honduran_civilwar.2.a
         HNL = {
             transfer_state = 240
+            transfer_state = 553
+            transfer_state = 551
             load_oob = "HNL_civilwar_DEMO"
         }
         clr_country_flag = HON_allow_dual_leaders
@@ -184,6 +187,8 @@ country_event = {#NRC/Corporatists duel
         }
         HNM = {
             transfer_state = 505
+            transfer_state = 550
+            transfer_state = 549
             load_oob = "HNM_civilwar_DEMO"
         }
         remove_unit_leader = 1111
