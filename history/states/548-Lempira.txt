@@ -10,9 +10,9 @@ state={
 	}
 
 	provinces={
-		6286 6380 6381 6382 6383 6384 6385 6386 6451 6452 
+		6286 6380 6381 6382 6383 6452 
 	}
-	manpower=134291
+	manpower=134091
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

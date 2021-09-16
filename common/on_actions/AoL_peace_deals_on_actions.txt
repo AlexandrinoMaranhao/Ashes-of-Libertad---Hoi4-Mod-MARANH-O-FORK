@@ -99,6 +99,9 @@ on_actions = {
             }
             FROM = {
               white_peace = ROOT
+              transfer_state = 564
+              transfer_state = 565
+              transfer_state = 566
             }
           }
 

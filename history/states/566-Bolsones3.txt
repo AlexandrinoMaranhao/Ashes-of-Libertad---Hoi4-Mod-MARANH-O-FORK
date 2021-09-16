@@ -1,0 +1,15 @@
+state={
+	id=566
+	name="STATE_566"
+	provinces={
+		6439
+	}
+	history={
+		owner = HON
+		add_core_of = HON
+	}
+
+	manpower=50
+	buildings_max_level_factor=0
+	state_category=rural 
+}

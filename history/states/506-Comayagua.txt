@@ -13,9 +13,9 @@ state={
 	}
 
 	provinces={
-		558 743 1463 6445 6447 6453 6454 6455 6456 6457 6458 6459 6460 6461 6463 
+		558 743 1463 6445 6447 6453 6454 6455 6456 6457 6460 6461 6463 
 	}
-	manpower=456142
+	manpower=455942
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

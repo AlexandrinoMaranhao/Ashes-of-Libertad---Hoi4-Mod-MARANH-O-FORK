@@ -35,10 +35,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ramón Amaya Amador"
-	picture = "gfx/leaders/HON/Portrait_HON_Ramón_Amaya_Amador.dds"
+	name = "Agapito Robleda Castro"
+	picture = "gfx/leaders/HON/Portrait_HON_Agapito_Robleda_Castro.dds"
 	expire = "1999.1.1"
-	ideology = guerrilla
+	ideology = maoism
 	traits = {
 		#
 	}
