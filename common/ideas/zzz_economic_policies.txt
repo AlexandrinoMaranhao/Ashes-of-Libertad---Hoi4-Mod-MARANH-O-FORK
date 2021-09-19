@@ -1,0 +1,583 @@
+ideas = {
+	
+	economy_focus = {
+
+		law = yes
+		economic_focus_demilitarized_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_demilitarized_economy"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_arms_factory_factor = -1.50
+				production_speed_industrial_complex_factor = 0.30
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_factory_max_efficiency_factor = -0.40
+				political_power_gain = 0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		economic_focus_civilian_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_civilian_economy"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				production_speed_arms_factory_factor = -0.50
+				production_speed_industrial_complex_factor = 0.15
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				production_factory_max_efficiency_factor = -0.20
+				political_power_gain = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		economic_focus_early_mobilization = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_early_mobilization"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				production_speed_arms_factory_factor = -0.15
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				political_power_gain = -0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 1.8
+
+				modifier = {
+					factor = 20
+
+					is_major = yes
+				}
+			}
+		}
+		economic_focus_partial_mobilization = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_partial_mobilization"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_industrial_complex_factor = -0.25
+				political_power_gain = -0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 2
+
+				modifier = {
+					factor = 20
+
+					is_major = yes
+				}
+			}
+		}
+		economic_focus_war_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_war_economy"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_arms_factory_factor = 0.30
+				production_speed_industrial_complex_factor = -0.40
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				political_power_gain = -0.25
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 5
+
+				modifier = {
+					#High prio on production
+					factor = 20
+					manpower_per_military_factory >  1000
+				}
+			}
+		}
+		economic_focus_total_mobilization = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_total_mobilization"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_arms_factory_factor = 0.50
+				production_speed_industrial_complex_factor = -0.50
+				industrial_capacity_factory = 0.20
+				industrial_capacity_dockyard = 0.20
+				production_factory_max_efficiency_factor = 0.10
+				political_power_gain = -0.50
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 1
+
+				modifier = {
+					factor = 25
+					#Prio this if nation has a lot of manpower compared to MIC
+					manpower_per_military_factory >  10000
+				}
+
+				modifier = {
+					#Block  unless nation has a lot of manpower
+					factor = 0
+					manpower_per_military_factory <  3000
+				}
+
+			}
+		}
+	}
+
+	trade_scope = {
+		law = yes
+		trade_scope_intercontinental_exports = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_intercontinental_exports"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				min_export = 0.7
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				research_speed_factor = 0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		trade_scope_continental_exports = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_continental_exports"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				min_export = 0.6
+				production_speed_buildings_factor = 0.12
+				industrial_capacity_factory = 0.12
+				industrial_capacity_dockyard = 0.12
+				research_speed_factor = 0.0625
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		trade_scope_international_exports = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_international_exports"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				min_export = 0.5
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				research_speed_factor = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		trade_scope_regional_exports = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_regional_exports"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				min_export = 0.25
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				research_speed_factor = 0.025
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				modifier = {
+					factor = 0
+
+					is_major = no
+					has_war = no
+				}
+   			}
+		}
+		trade_scope_few_exports = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_few_exports"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				min_export = 0.15
+				production_speed_buildings_factor = 0.02
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+				research_speed_factor = 0.015
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				modifier = {
+					factor = 0
+
+					is_major = no
+					has_war = no
+				}
+   			}
+		}
+		trade_scope_closed_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_closed_economy"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				min_export = 0
+			}
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				modifier = {
+					factor = 0
+
+					is_major = no
+					has_war = no
+				}
+   			}
+		}
+	}
+
+	work_regulations = {
+		law = yes
+		WR_no_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WR_no_regulations"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = -0.10
+				stability_factor = -0.025
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = -0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		WR_minimal_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WR_minimal_regulations"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+				stability_factor = 0.025
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = 0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		WR_acceptable_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WR_acceptable_regulations"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = 0.1
+				stability_factor = 0.05
+				production_speed_buildings_factor = -0.075
+				industrial_capacity_factory = -0.075
+				production_factory_max_efficiency_factor = -0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		WR_excellent_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WR_excellent_regulations"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+				stability_factor = 0.075
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = -0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	taxation = {
+		law = yes
+		tax_rate_no_taxation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tax_rate_no_taxation"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				political_power_factor = -0.25
+				stability_factor = 0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		tax_rate_low_taxation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tax_rate_low_taxation"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		tax_rate_medium_taxation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tax_rate_medium_taxation"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.025
+				industrial_capacity_dockyard = -0.025
+				political_power_factor = 0.05
+				stability_factor = -0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		tax_rate_high_taxes = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tax_rate_high_taxes"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				political_power_factor = 0.25
+				stability_factor = -0.1
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		tax_rate_exploitative_taxation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tax_rate_exploitative_taxation"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				production_speed_buildings_factor = -0.20
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				political_power_factor = 0.50
+				stability_factor = -0.2
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	societal_investment = {
+		law = yes
+		SI_no_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SI_no_regulations"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = -0.10
+				stability_factor = -0.025
+				production_factory_max_efficiency_factor = 0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		SI_minimal_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SI_minimal_regulations"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = -0.05
+				stability_factor = 0.025
+				production_factory_max_efficiency_factor = 0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		SI_acceptable_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SI_acceptable_regulations"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+				stability_factor = 0.05
+				production_factory_max_efficiency_factor = -0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		SI_excellent_regulations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SI_excellent_regulations"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				MONTHLY_POPULATION = 0.10
+				stability_factor = 0.075
+				production_factory_max_efficiency_factor = -0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	slavery = {
+		law = yes
+		slavery_allowed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea slavery_allowed"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				political_power_gain = -0.15
+				research_speed_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				production_factory_max_efficiency_factor = -0.10
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		slavery_encomienda = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea slavery_encomienda"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.025
+				political_power_gain = -0.075
+				research_speed_factor = -0.025
+				production_speed_buildings_factor = 0.0125
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		slavery_bonded_labor = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea slavery_bonded_labor"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = -0.03
+				war_support_factor = -0.02
+				political_power_gain = -0.05
+				research_speed_factor = -0.015
+				production_speed_buildings_factor = 0.01
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		slavery_outlawed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea slavery_outlawed"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
