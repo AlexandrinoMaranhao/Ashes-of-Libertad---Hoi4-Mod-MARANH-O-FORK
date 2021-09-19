@@ -1,16 +1,35 @@
 idea_categories = { 
-
     hidden_ideas = {
         hidden = yes
 
         cost = 0
         removal_cost = -1
+
+        ledger = hidden
     }
 
     country = {
         national_spirit = yes
+
         cost = 0
         removal_cost = -1
+
+        ledger = hidden
+    }
+
+    policies = {
+        slot = economy
+        slot = trade_laws
+        slot = minorities
+        slot = slavery
+        slot = press
+        slot = education
+
+        ledger = civilian
+
+        cost = 500
+
+        removal_cost = 0
     }
 
     ministers = {
@@ -21,10 +40,27 @@ idea_categories = {
         slot = political_advisor
         slot = political_advisor
 
-        removal_cost = -1
+        ledger = civilian
+
+        cost = 500
+        removal_cost = 0
     }
 
-    military_staff = {
+    military = {
+        slot = mobilization_laws
+        slot = specialization
+        slot = training
+        slot = officer_training
+        slot = mercenaries
+        slot = tradition
+
+        ledger = army
+
+        cost = 500
+        removal_cost = 0
+    }
+
+    military_staff_a = {
         slot = theorist
         slot = army_chief
         slot = navy_chief
@@ -32,42 +68,11 @@ idea_categories = {
         slot = high_command
         slot = high_command
 
-        removal_cost = -1
+        ledger = army
+
+        cost = 500
+        removal_cost = 0
     }
-
-    social_policies = {
-        slot = state_religion
-        slot = poverty_rate
-        slot = political_parties
-        slot = racial_integration
-        slot = press_freedom
-        slot = education_rate
-
-        removal_cost = -1
-    }
-
-    economic_policies = {
-        slot = economy_focus
-        slot = trade_scope
-        slot = work_regulations
-        slot = taxation
-        slot = societal_investment
-        slot = slavery
-
-        removal_cost = -1
-    }
-
-    military_policies = {
-        slot = mobilization_laws
-        slot = specialization
-        slot = troop_training
-        slot = officer_training
-        slot = mercenaries
-        slot = draft_exemptions
-
-        removal_cost = -1
-    }
-
 
 #    development = {
 #        slot = industrial_concern
