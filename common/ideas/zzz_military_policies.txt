@@ -1,0 +1,583 @@
+ideas = {
+	
+	mobilization_laws = {
+		law = yes
+		conscription_scraping_the_barrel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_scraping_the_barrel"}
+			available = { always = no } 
+			level = 8
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				conscription = 0.2
+				stability_factor = -0.30
+				war_support_factor = -0.30
+				political_power_gain = -1.50
+				army_org_factor = -0.40
+				army_morale_factor = -0.40
+				research_speed_factor = -0.1
+				industrial_capacity_factory = -0.55
+				industrial_capacity_dockyard = -0.55
+				production_speed_buildings_factor = -0.60
+			
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_all_adults_serve = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_all_adults_serve"}
+			available = { always = no } 
+			level = 7
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				conscription = 0.1
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				political_power_gain = -1.0
+				army_org_factor = -0.25
+				army_morale_factor = -0.25
+				research_speed_factor = -0.075
+				industrial_capacity_factory = -0.40
+				industrial_capacity_dockyard = -0.40
+				production_speed_buildings_factor = -0.45
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_service_by_requirement = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_service_by_requirement"}
+			available = { always = no } 
+			level = 6
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				conscription = 0.055
+				stability_factor = -0.20
+				war_support_factor = -0.20
+				political_power_gain = -0.5
+				army_org_factor = -0.15
+				army_morale_factor = -0.15
+				research_speed_factor = -0.05
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_buildings_factor = -0.30
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_four_year_draft = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_four_year_draft"}
+			available = { always = no } 
+			level = 5
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				conscription = 0.040
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				political_power_gain = -0.20
+				army_org_factor = -0.10
+				army_morale_factor = -0.10
+				research_speed_factor = -0.025
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.20
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_two_year_draft = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_two_year_draft"}
+			available = { always = no } 
+			level = 4
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				 conscription = 0.025
+				 stability_factor = -0.1
+				 war_support_factor = -0.1
+				 political_power_gain = -0.1
+				 army_org_factor = -0.05
+				 army_morale_factor = -0.05
+				 industrial_capacity_factory = -0.05
+				 industrial_capacity_dockyard = -0.05
+				 production_speed_buildings_factor = -0.10
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_one_year_draft = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_one_year_draft"}
+			default = yes
+			available = { always = no } 
+			level = 3
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				 conscription = 0.020
+				 stability_factor = -0.05
+				 war_support_factor = -0.05
+				 political_power_gain = -0.05
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_volunteer_only = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_volunteer_only"}
+			available = { always = no } 
+			level = 2
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				 conscription = 0.012
+				 army_org_factor = -0.10
+				 army_morale_factor = -0.10
+				 stability_factor = 0.05
+				 war_support_factor = -0.05
+				 experience_gain_factor = -0.02
+
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_disarmed_nation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_disarmed_nation"}
+			available = { always = no } 
+			level = 1
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				conscription = 0.006
+				army_org_factor = -0.20
+				army_morale_factor = -0.20
+				political_power_gain = 0.25
+				stability_factor = 0.10
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		conscription_tribal_mobilisation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_tribal_mobilisation"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = { 
+				conscription = 0.7
+				army_org_factor = -0.50
+				army_morale_factor = -0.10
+				stability_factor = 0.10
+				industrial_capacity_factory = -0.85
+				industrial_capacity_dockyard = -0.5
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	specialization = {
+
+		tribal_specialization = {
+			available = { always = no } 
+
+		}
+		militia_specialization = {
+			available = { always = no } 
+
+		}
+		raider_specialization = {
+			available = { always = no } 
+
+		}
+		pirate_specialization = {
+			available = { always = no } 
+
+		}
+		traditional_army_specialization = {
+			available = { always = no } 
+
+		}
+		desert_specialization = {
+			available = { always = no } 
+
+		}
+		mountain_specialization = {
+			available = { always = no } 
+
+		}
+		offensive_specialization = {
+			available = { always = no } 
+
+		}
+		defensive_specialization = {
+			available = { always = no } 
+
+		}
+		guerrilla_specialization = {
+			available = { always = no } 
+
+		}
+		mercenary_specialization = {
+			available = { always = no } 
+
+		}
+		mechanical_specialization = {
+			available = { always = no } 
+
+		}
+	}
+
+	troop_training = {
+
+		law = yes
+		training_none = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea training_none"}
+			default = yes
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				army_org_factor = -0.20
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
+				minimum_training_level = -0.2
+				training_time_army_factor = -1.00
+				mobilization_speed = 2.00
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+		militia_training = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea militia_training"}
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				army_org_factor = -0.10
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				minimum_training_level = -0.1
+				training_time_army_factor = -0.50
+				mobilization_speed = 1.00
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+		mercenary_training = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea mercenary_training"}
+			
+			available = {
+			NOT = { has_idea = no_mercenaries }
+			}
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				army_org_factor = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				training_time_army_factor = -0.20
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+		guerrilla_training = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea guerrilla_training"}
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				army_org_factor = 0.01
+				army_attack_factor = 0.02
+				army_defence_factor = 0.125
+				minimum_training_level = -0.1
+				training_time_army_factor = -0.50
+				mobilization_speed = -0.20
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+		professional_training_methods = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea professional_training_methods"}
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.125
+				army_defence_factor = 0.125
+				minimum_training_level = 0.2
+				training_time_army_factor = 0.20
+				mobilization_speed = -0.40
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+	}
+
+	officer_training = {
+		law = yes
+		no_officer_training = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 5
+			modifier = {
+				military_leader_cost_factor = -0.5
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+		militia_officer_training = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 4
+			ai_will_do = {
+				factor = 1
+			}
+			modifier = {
+				special_forces_min = 1
+				max_command_power = 10
+				political_power_gain = 0.05
+				military_leader_cost_factor = -0.3
+			}
+			cancel_if_invalid = no
+		}
+		mercenary_officer_training = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 3
+			ai_will_do = {
+				factor = 1
+			}
+			available = {
+			NOT = { has_idea = no_mercenaries }
+			}
+			modifier = {
+				special_forces_min = 5
+				max_command_power = 15
+				military_leader_cost_factor = -0.2
+				army_leader_start_level = 1
+				army_leader_start_logistics_level = 1
+				army_leader_start_defense_level = 1
+				army_org_Factor = 0.01
+			}
+			cancel_if_invalid = no
+		}
+		guerrilla_officer_training = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 2
+			ai_will_do = {
+				factor = 1
+			}
+			modifier = {
+				special_forces_min = 7
+				special_forces_cap = 0.01
+				max_command_power = 20
+				political_power_gain = -0.05
+				military_leader_cost_factor = -0.1
+				army_leader_start_level = 1
+				army_leader_start_logistics_level = 1
+				army_leader_start_defense_level = 1
+				army_org_Factor = 0.02
+			}
+			cancel_if_invalid = no
+		}
+		professional_officer_training = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 1
+			ai_will_do = {
+				factor = 1
+			}
+			modifier = {
+				special_forces_min = 10
+				special_forces_cap = 0.02
+				max_command_power = 25
+				political_power_gain = -0.1
+				army_leader_start_level = 2
+				army_leader_start_attack_level = 1
+				army_leader_start_defense_level = 1
+				army_leader_start_planning_level = 1
+				army_leader_start_logistics_level = 1
+				army_org_Factor = 0.05
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	mercenaries = {
+		law = yes
+		no_mercenaries = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 5
+			modifier = {
+				stability_factor = 0.01
+				war_support_factor = 0.01
+				resistance_target = -0.02
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+			default = yes
+		}
+		instruction_roles_only = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 4
+			modifier = {
+				stability_factor = -0.01
+				war_support_factor = 0.01
+				research_speed_factor = 0.01
+
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+			default = yes
+		}
+		private_mercenaries_contractors = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 3
+			modifier = {
+				non_core_manpower = 0.05
+				planning_speed = -0.02
+				compliance_gain = 0.02
+				resistance_target = 0.025
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+		}
+		mercenaries_auxiliaries = {
+			available = { always = no } 
+			cost = 100
+			removal_cost = -1
+			level = 2
+			modifier = {
+				non_core_manpower = 0.1
+				stability_factor = -0.01
+				planning_speed = -0.04
+				compliance_gain = 0.04
+				resistance_target = 0.05
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+		}
+		mercenaries_batallions = {
+			available = { always = no } 
+			visible = {
+				use_generic_outsider_laws = yes
+			}
+			picture = outsider_battalions
+			cost = 100
+			removal_cost = -1
+			level = 1
+			modifier = {
+				non_core_manpower = 0.2
+				exodus_assimilation_proportion = 0.2
+				stability_factor = -0.02
+				planning_speed = -0.06
+				compliance_gain = 0.08
+				resistance_target = 0.075
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	draft_exemptions = {
+		law = yes
+		draft_exemptions_none = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_none"}
+			default = yes
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = 0.10
+				war_support_factor = -0.10
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+		draft_exemptions_educational_deferment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_educational_deferment"}
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = -0.10
+				research_speed_factor = 0.025
+				war_support_factor = -0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+		draft_exemptions_civil_service_deferment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_civil_service_deferment"}
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = -0.15
+				research_speed_factor = 0.025
+				political_power_gain = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+			default = yes
+		}
+		draft_exemptions_religious_deferment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_religious_deferment"}
+			available = { always = no }
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = -0.20
+				research_speed_factor = 0.025
+				political_power_gain = 0.05
+				stability_factor = 0.025
+				war_support_factor = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { }
+		}
+	}
+}

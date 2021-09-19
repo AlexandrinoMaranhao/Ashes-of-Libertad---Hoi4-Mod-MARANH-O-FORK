@@ -1,0 +1,372 @@
+ideas = {
+	
+	state_religion = {
+		law = yes
+		state_religion_enforced = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_religion_enforced"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				drift_defence_factor = 0.50
+				political_power_gain = -0.20
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		religious_pluralism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea religious_pluralism"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.10
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		religious_secularism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea religious_secularism"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.025
+			} 
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	poverty_rate = {
+		law = yes
+		wasteland_misery = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea wasteland_misery"}
+			available = {
+				NOT = { has_idea = slavery_outlawed }
+			}
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = 0.15
+				industry_free_repair_factor = -1.50
+				MONTHLY_POPULATION = -0.15
+				research_speed_factor = -0.15
+				stability_factor = -0.125
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		bellow_poverty_line = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea bellow_poverty_line"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = 0.10
+				industry_free_repair_factor = -1.00
+				MONTHLY_POPULATION = -0.05
+				research_speed_factor = -0.03
+				stability_factor = -0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		vital_needs_fulfilled = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea vital_needs_fulfilled"}
+			available = { always = no } 
+			default = yes
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				conscription_factor = 0.05
+				industry_free_repair_factor = -0.50
+				MONTHLY_POPULATION = 0.05
+				research_speed_factor = -0.01
+				stability_factor = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		confortable_living_standarts = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea confortable_living_standarts"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				industry_free_repair_factor = 0.25
+				stability_factor = 0.025
+				MONTHLY_POPULATION = 0.1
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		luxury_needs_fulfilled = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea luxury_needs_fulfilled"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	political_parties = {
+		law = yes
+		political_parties_one_party_state = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea political_parties_one_party_state"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_gain = 0.15
+				drift_defence_factor = 0.5
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		political_parties_controlled_opposition = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea political_parties_controlled_opposition"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_gain = 0.05
+				drift_defence_factor = 0.25
+				stability_factor = 0.025
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		political_parties_multiparty_system = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea political_parties_multiparty_system"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}	
+	}
+
+	racial_integration = {
+		law = yes
+		state_oppression = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_oppression"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				non_core_manpower = -0.1
+				political_power_gain = 0.15
+				stability_factor = 0.10
+				enemy_partisan_effect = 0.25
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		state_segregation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_segregation"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = 0.05
+				enemy_partisan_effect = 0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		equal_rights = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea equal_rights"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				non_core_manpower = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.025
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		minorities_protected = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea minorities_protected"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				non_core_manpower = 0.1
+				political_power_gain = -0.10
+				stability_factor = 0.075
+				enemy_partisan_effect = -0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	press_freedom = {
+		law = yes
+		state_press_only = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_press_only"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_factor = 0.15
+				drift_defence_factor = 0.50
+				research_speed_factor = -0.015
+				conscription = 0.01
+				war_support_factor = 0.05
+				stability_factor = -0.05
+				decryption_factor = 0.50
+				encryption_factor = 0.50
+				civilian_intel_to_others = -50.0
+				enemy_partisan_effect = -0.3
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		censored_press = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea censored_press"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_factor = 0.05
+				drift_defence_factor = 0.25
+				stability_factor = 0.05
+				decryption_factor = -0.10
+				encryption_factor = -0.10
+				civilian_intel_to_others = -10.0
+				enemy_partisan_effect = -0.1
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		free_press = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea free_press"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				political_power_factor = -0.10
+				stability_factor = 0.025
+				research_speed_factor = 0.015
+				war_support_factor = -0.05
+				stability_factor = 0.05
+				decryption_factor = -0.50
+				encryption_factor = -0.50
+				civilian_intel_to_others = 50.0
+				enemy_partisan_effect = 0.25
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
+
+	education_rate = {
+		law = yes
+		no_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea no_education"}
+			default = yes
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.15
+				stability_factor = -0.10
+				political_power_gain = -0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		primary_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea primary_education"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.075
+				political_power_gain = -0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		secondary_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea secondary_education"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.01
+				stability_factor = 0.025
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		tertiary_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tertiary_education"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+				political_power_gain = 0.075
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+		masters_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea masters_education"}
+			available = { always = no } 
+			
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.10
+				stability_factor = 0.075
+				political_power_gain = 0.15
+			}
+			cancel_if_invalid = no
+			ai_will_do = { } 
+		}
+	}
