@@ -296,6 +296,16 @@ ELS = {
 	color_ui = rgb { 161 127 255 }
 }
 
+FML = {
+	color = rgb { 211 37 47 }
+	color_ui = rgb { 211 37 47 }
+}
+
+SEP = {
+	color = rgb { 170 26 26 }
+	color_ui = rgb { 170 26 26 }
+}
+
 NIC = {
 	color = rgb { 255 94 94 }
 	color_ui = rgb { 255 94 94 }

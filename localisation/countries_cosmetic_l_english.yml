@@ -110,3 +110,7 @@
  MEX_collapsed:0 "Distrito Federal"
  MEX_collapsed_DEF:0 "the Distrito Federal"
  MEX_collapsed_ADJ:0 "Mexican"
+
+ FML_FPL:0 "FPL"
+ FML_FPL_DEF:0 "the Fuerzas Populares de Liberación "Farabundo Martí""
+ FML_FPL_ADJ:0 "Salvadoran"

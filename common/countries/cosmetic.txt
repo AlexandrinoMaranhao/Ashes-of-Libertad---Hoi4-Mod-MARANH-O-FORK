@@ -414,3 +414,8 @@ POR_empire = {
 	color = rgb { 128  160  15 }
 	color_ui = rgb { 19  83  180 }
 }
+
+FML_FPL = {
+	color = rgb { 172 26 26 }
+	color_ui = rgb { 172 26 26 }
+}

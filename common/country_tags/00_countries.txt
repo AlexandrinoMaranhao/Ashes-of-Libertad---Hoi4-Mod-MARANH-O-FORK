@@ -135,7 +135,6 @@ CHL = "countries/Chile.txt"
 COL = "countries/Colombia.txt"
 COS = "countries/Costa Rica.txt"
 ECU = "countries/Ecuador.txt"
-ELS = "countries/El Salvador.txt"
 GUA = "countries/Guatemla.txt"
 HON = "countries/Honduras.txt"
 HNL = "countries/FPRLZ.txt"
@@ -175,4 +174,8 @@ LEB = "countries/LeBaron.txt"
 HAL = "countries/Los Halcones.txt"
 NNM = "countries/New Mexico.txt"
 USA = "countries/American Military Command.txt"
-SIN = "countries/Sinaloa.txt"#Could be disused
+
+# El Salvador #
+ELS = "countries/El Salvador.txt"
+FML = "countries/FMLN.txt"
+SEP = "countries/Salvadoran ERP.txt"
