@@ -19,7 +19,10 @@ ideas = {
 			}
 			
 			modifier = {
-
+			consumer_goods_factor = -0.07
+			stability_factor = 0.10
+			surrender_limit = 0.05
+			political_power_gain = 0.05
 			}
 		}
 		northern_friend_of_the_republic = {

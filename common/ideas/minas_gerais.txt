@@ -2,7 +2,9 @@ ideas = {
 	country = {
 
 		christian_communism = {
-
+		modifier = {
+		
+		}
 		}
 
 		stagnated_revolution = {

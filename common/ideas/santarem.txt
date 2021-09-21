@@ -19,7 +19,8 @@ ideas = {
 			}
 			
 			modifier = {
-
+			justify_war_goal_time = -0.1
+			war_support = 0.1
 			}
 		}
 		mercenary_capital = {
@@ -42,7 +43,8 @@ ideas = {
 			}
 			
 			modifier = {
-
+			weekly_manpower = 100
+			defence = 0.2
 			}
 		}
 	}
