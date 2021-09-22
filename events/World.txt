@@ -1062,6 +1062,84 @@ news_event = { # Bahian Anarchy
 	}
 }
 
+news_event = { # Geisel wins the Junta Civil War
+	id = world.82
+	title = world.82.t
+	desc = world.82.d
+	picture = "GFX_news_event_bahia"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.82.a
+		hidden_effect = {
+			JEG = { annex_country = { target = JRM } annex_country = { target = JCS } set_cosmetic_tag = JUNTA_CW }
+			create_faction = brazilian_military_junta
+			add_to_faction = BEM
+			add_to_faction = UBA
+			add_to_faction = CRJ
+			add_to_faction = LAM
+			add_to_faction = JAG 
+		}
+	}
+}
+
+news_event = { # Mazzilli and Medici wins the Junta Civil War
+	id = world.83
+	title = world.83.t
+	desc = world.83.d
+	picture = "GFX_news_event_bahia"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.83.a
+		hidden_effect = {
+			JRM = { annex_country = { target = JEG } annex_country = { target = JCS } set_cosmetic_tag = JUNTA_CW }
+			create_faction = brazilian_military_junta
+			add_to_faction = BEM
+			add_to_faction = UBA
+			add_to_faction = CRJ
+			add_to_faction = LAM
+			add_to_faction = JAG 
+		}
+	}
+}
+
+news_event = { # Lacerda wins the Junta Civil War
+	id = world.84
+	title = world.84.t
+	desc = world.84.d
+	picture = "GFX_news_event_bahia"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.84.a
+	}
+}
+
+news_event = { # Silva wins the Junta Civil War
+	id = world.85
+	title = world.85.t
+	desc = world.85.d
+	picture = "GFX_news_event_bahia"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.85.a
+		hidden_effect = {
+			JCS = { annex_country = { target = JRM } annex_country = { target = JEG } set_cosmetic_tag = JUNTA_CW }
+			create_faction = brazilian_military_junta
+			add_to_faction = BEM
+			add_to_faction = UBA
+			add_to_faction = CRJ
+			add_to_faction = LAM
+			add_to_faction = JAG 
+		}
+	}
+}
 
 
 

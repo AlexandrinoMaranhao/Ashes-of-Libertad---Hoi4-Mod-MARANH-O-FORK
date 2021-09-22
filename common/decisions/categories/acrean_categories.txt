@@ -110,7 +110,7 @@ ACR_coring_decisions = {
 ACR_fighting_coari = {
 	#icon =
 	visible = { 
-		always = yes
+		tag = ACR
 	}
 	visible_when_empty = yes
 }

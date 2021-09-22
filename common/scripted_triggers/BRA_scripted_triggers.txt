@@ -49,9 +49,29 @@ is_literally_brazil = {
       original_tag = HIM
       original_tag = DNI
       original_tag = MUN
-      original_tag = AND
+      original_tag = ANI
       original_tag = COA
       original_tag = MRU
       original_tag = COR
        }
- }
+}
+
+JUNTA_CIVIL_WAR_MISSION_TRIGGER = { 
+      OR = {
+            AND = {
+                  JRM = { OR = { has_capitulated = yes exists = no }  }
+                  JCS = { OR = { has_capitulated = yes exists = no }  }
+                  JGD = { OR = { has_capitulated = yes exists = no }  }
+            }
+            AND = {
+                  JEG = { OR = { has_capitulated = yes exists = no }  }
+                  JCS = { OR = { has_capitulated = yes exists = no }  }
+                  JGD = { OR = { has_capitulated = yes exists = no }  }
+            } 
+            AND = {
+                  JEG = { OR = { has_capitulated = yes exists = no }  }
+                  JRM = { OR = { has_capitulated = yes exists = no }  }
+                  JGD = { OR = { has_capitulated = yes exists = no }  }
+            }
+      }
+}
