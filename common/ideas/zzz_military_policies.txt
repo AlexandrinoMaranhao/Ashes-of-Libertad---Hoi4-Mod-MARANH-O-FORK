@@ -3,6 +3,7 @@ ideas = {
 	mobilization_laws = {
 		law = yes
 		conscription_scraping_the_barrel = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_scraping_the_barrel"}
 			available = { always = no } 
 			level = 8
@@ -26,6 +27,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_all_adults_serve = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_all_adults_serve"}
 			available = { always = no } 
 			level = 7
@@ -48,6 +50,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_service_by_requirement = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_service_by_requirement"}
 			available = { always = no } 
 			level = 6
@@ -70,6 +73,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_four_year_draft = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_four_year_draft"}
 			available = { always = no } 
 			level = 5
@@ -92,6 +96,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_two_year_draft = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_two_year_draft"}
 			available = { always = no } 
 			level = 4
@@ -113,6 +118,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_one_year_draft = {
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_one_year_draft"}
 			default = yes
 			available = { always = no } 
@@ -130,6 +136,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_volunteer_only = {
+		picture = light_level_3
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_volunteer_only"}
 			available = { always = no } 
 			level = 2
@@ -149,6 +156,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_disarmed_nation = {
+		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_disarmed_nation"}
 			available = { always = no } 
 			level = 1
@@ -168,6 +176,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_tribal_mobilisation = {
+		picture = light_level_1
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_tribal_mobilisation"}
 			available = { always = no } 
 			
@@ -242,6 +251,7 @@ ideas = {
 
 		law = yes
 		training_none = {
+		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea training_none"}
 			default = yes
 			available = { always = no }
@@ -260,6 +270,7 @@ ideas = {
 			ai_will_do = { }
 		}
 		militia_training = {
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea militia_training"}
 			available = { always = no }
 			
@@ -277,6 +288,7 @@ ideas = {
 			ai_will_do = { }
 		}
 		mercenary_training = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea mercenary_training"}
 			
 			available = {
@@ -295,6 +307,7 @@ ideas = {
 			ai_will_do = { }
 		}
 		guerrilla_training = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea guerrilla_training"}
 			available = { always = no }
 			
@@ -312,6 +325,7 @@ ideas = {
 			ai_will_do = { }
 		}
 		professional_training_methods = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea professional_training_methods"}
 			available = { always = no }
 			
@@ -333,6 +347,7 @@ ideas = {
 	officer_training = {
 		law = yes
 		no_officer_training = {
+		picture = light_level_2
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -344,6 +359,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		militia_officer_training = {
+		picture = light_level_4
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -360,6 +376,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		mercenary_officer_training = {
+		picture = light_level_5
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -382,6 +399,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		guerrilla_officer_training = {
+		picture = light_level_6
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -403,6 +421,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		professional_officer_training = {
+		picture = light_level_7
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -429,6 +448,7 @@ ideas = {
 	mercenaries = {
 		law = yes
 		no_mercenaries = {
+		picture = light_level_2
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -445,6 +465,7 @@ ideas = {
 			default = yes
 		}
 		instruction_roles_only = {
+		picture = light_level_4
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -462,6 +483,7 @@ ideas = {
 			default = yes
 		}
 		private_mercenaries_contractors = {
+		picture = light_level_5
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -478,6 +500,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		mercenaries_auxiliaries = {
+		picture = light_level_6
 			available = { always = no } 
 			cost = 100
 			removal_cost = -1
@@ -495,6 +518,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		mercenaries_batallions = {
+		picture = light_level_7
 			available = { always = no } 
 			visible = {
 				use_generic_outsider_laws = yes
@@ -521,6 +545,7 @@ ideas = {
 	draft_exemptions = {
 		law = yes
 		draft_exemptions_none = {
+		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_none"}
 			default = yes
 			available = { always = no }
@@ -535,6 +560,7 @@ ideas = {
 			ai_will_do = { }
 		}
 		draft_exemptions_educational_deferment = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_educational_deferment"}
 			available = { always = no }
 			
@@ -549,6 +575,7 @@ ideas = {
 			ai_will_do = { }
 		}
 		draft_exemptions_civil_service_deferment = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_civil_service_deferment"}
 			available = { always = no }
 			
@@ -564,6 +591,7 @@ ideas = {
 			default = yes
 		}
 		draft_exemptions_religious_deferment = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea draft_exemptions_religious_deferment"}
 			available = { always = no }
 			

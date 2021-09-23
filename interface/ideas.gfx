@@ -6,7 +6,42 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-             
+         
+spriteType ={
+    name = "GFX_idea_light_level_1"
+    texturefile = "gfx/interface/ideas/light_tribal.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_light_level_2"
+    texturefile = "gfx/interface/ideas/light_broken.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_light_level_3"
+    texturefile = "gfx/interface/ideas/light_light_orange.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_light_level_4"
+    texturefile = "gfx/interface/ideas/light_yellow.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_light_level_5"
+    texturefile = "gfx/interface/ideas/light_orange.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_light_level_6"
+    texturefile = "gfx/interface/ideas/light_red.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_light_level_7"
+    texturefile = "gfx/interface/ideas/light_green.dds"
+} 
+           
 spriteType ={
     name = "GFX_idea_padre_cicero"
     texturefile = "gfx/interface/ideas/padre_cicero.dds"
