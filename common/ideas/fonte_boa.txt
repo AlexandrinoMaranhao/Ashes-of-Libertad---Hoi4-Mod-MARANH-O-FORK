@@ -22,7 +22,7 @@ ideas = {
 			}
 			
 			modifier = {
-
+			war_support_factor = 0.10
 			}
 		}
 
@@ -46,7 +46,9 @@ ideas = {
 			}
 			
 			modifier = {
-
+			stability_factor = -0.80
+			consumer_goods_factor = 0.5
+			production_speed_buildings_factor = -0.5 
 			}
 		}
 

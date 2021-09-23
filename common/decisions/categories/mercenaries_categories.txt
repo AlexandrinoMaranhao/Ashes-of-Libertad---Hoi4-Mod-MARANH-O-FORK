@@ -8,27 +8,23 @@ buy_mercenary_companies_category = {
 	}
 	
     visible = {
-		if = {
-			OR = {
-	ACR = { has_completed_focus = ACR_to_the_highest_bidder }
-				tag = COR
-				tag = MNS
-				tag = ROR
-				tag = KAY
-				tag = NHA
-			}
-		}
+	OR = {
+		AND = { ACR = { has_completed_focus = ACR_to_the_highest_bidder } tag =  ACR }
+		tag = COR
+		tag = MNS
+		tag = ROR
+		tag = KAY
+		tag = NHA
+	}	
 }
     available = {
-		if = {
-			OR = {
-				tag = ACR
-				tag = COR
-				tag = MNS
-				tag = ROR
-				tag = KAY
-				tag = NHA
-			}
-		}
+		OR = {
+			tag = ACR
+			tag = COR
+			tag = MNS
+			tag = ROR
+			tag = KAY
+			tag = NHA
+		}	
     }
 }

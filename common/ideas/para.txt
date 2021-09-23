@@ -22,6 +22,7 @@ ideas = {
 			}
 			
 			modifier = {
+			weekly_manpower = -10
 			}
 		}
 

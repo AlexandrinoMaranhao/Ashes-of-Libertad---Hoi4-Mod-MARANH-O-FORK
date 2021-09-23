@@ -1,0 +1,160 @@
+CRJ_second_battle_of_guanabara = {
+	CRJ_win_the_battle = {
+		allowed = { tag = CRJ }                
+          available = {                           
+            24 = {
+				is_controlled_by = CRJ
+			}                      
+          }
+          activation = {
+			has_war_with = BRA
+          }
+          is_good = no                                      
+          days_mission_timeout = 90            
+          timeout_effect = {                      
+            CRJ = { country_event = CRJ_guanabara.2 }
+			BRA = { country_event = BRA_guanabara.2 }
+			hidden_effect = {
+				every_country = {
+					news_event = {
+						id = world.4
+						days = 1
+					}
+				}
+			}              
+          }
+          complete_effect = {                    
+			CRJ = { country_event = CRJ_guanabara.3 }
+			hidden_effect = {
+				every_country = {
+					news_event = {
+						id = world.5
+						days = 1
+					}
+				}
+			}
+        }
+	}
+}
+
+JUNTA_civil_war = {
+	JUNTA_hold_brasilia = {
+	allowed = { OR = { tag = JEG tag = JRM tag = JCS tag = JCL } }
+	available = {
+	OR = { tag = JEG tag = JRM tag = JCS tag = JCL }
+		controls_province = 4438
+		controls_province = 2706
+		controls_province = 1936
+		controls_province = 4422
+		controls_province = 2544
+		#hidden_trigger = {
+			JUNTA_CIVIL_WAR_MISSION_TRIGGER = yes
+		#}
+	}
+	activation = {
+		has_global_flag = JUNTA_CIVIL_WAR
+	}
+	days_mission_timeout = 365
+	selectable_mission = no
+	timeout_effect = {
+	if = {
+		limit = {
+			JEG = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JEG = { news_event = world.82 }
+		}
+	if = {
+		limit = {
+			JRM = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JRM = { news_event = world.83 }
+		}
+	if = {
+		limit = {
+			JCL = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JCL = { news_event = world.84 }
+		}				
+	if = {
+		limit = {
+			JCS = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JCS = { news_event = world.85 }
+			}				
+		}
+		complete_effect = {
+	if = {
+		limit = {
+			JEG = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JEG = { news_event = world.82 }
+		}
+	if = {
+		limit = {
+			JRM = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JRM = { news_event = world.83 }
+		}
+	if = {
+		limit = {
+			JCL = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JCL = { news_event = world.84 }
+		}				
+	if = {
+		limit = {
+			JCS = {
+				controls_province = 4438
+				controls_province = 2706
+				controls_province = 1936
+				controls_province = 4422
+				controls_province = 2544
+			}	
+		}
+		JCS = { news_event = world.85 }
+			}			
+		}
+	}
+}
