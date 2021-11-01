@@ -12,7 +12,6 @@ ideas = {
 
 			convoy_raiding_efficiency_factor = 0.5
 			naval_damage_factor = 0.3
-			naval_morale = 15
 			consumer_goods_factor = -0.5
 
 			}
@@ -94,7 +93,7 @@ ideas = {
 			
 			modifier = {
 			stability_factor = 0.3
-			resistance_decay_on_our_occupied_states = -0.5
+			resistance_decay = -0.5
 			offence = 0.25
 			amphibious_invasion = 0.25
 			war_support_weekly = 0.01

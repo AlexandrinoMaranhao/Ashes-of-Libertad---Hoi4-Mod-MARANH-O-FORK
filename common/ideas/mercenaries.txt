@@ -8,7 +8,7 @@ ideas = {
 				tag = MNS
 				tag = ROR
 				tag = KAY
-				tag = AMC
+				tag = NHA
 				tag = BEM
 			}
 	

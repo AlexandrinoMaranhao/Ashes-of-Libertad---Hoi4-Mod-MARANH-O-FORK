@@ -26,13 +26,20 @@ set_popularities = {
 }
 
 add_ideas = {
-	subsistence_economy
-	civilian_economy
-	volunteer_only
+	trade_scope_regional_exports
+	economic_focus_civilian_economy
+	conscription_volunteer_only
 
 	HIE_city_of_poets
 	HIE_limbo
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -40,9 +47,6 @@ create_country_leader = {
 	picture = "gfx/leaders/PRU/Portrait_PRU_Nicomedes.dds"
 	expire = "1999.1.1"
 	ideology = city_state
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -51,9 +55,4 @@ create_country_leader = {
 	picture = "gfx/leaders/PRU/Portrait_PRU_Inca_Roca.dds"
 	expire = "1999.1.1"
 	ideology = absolute_monarchy
-	traits = {
-		#
-	}
-}
-
 }

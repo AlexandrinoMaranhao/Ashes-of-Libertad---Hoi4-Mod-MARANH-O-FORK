@@ -26,12 +26,19 @@ set_popularities = {
 }
 
 add_ideas = {
-	extensive_conscription
-	low_economic_mobilisation
+	conscription_two_year_draft
+	economic_focus_early_mobilization
 
 	VEC_MRD_refugees
 VEC_the_admirable_campaign
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -39,11 +46,4 @@ create_country_leader = {
 	picture = "gfx/leaders/VEN/Portrait_VEN_Caldera.dds"
 	expire = "1999.1.1"
 	ideology = conservatism 
-	traits = {
-		#
-	}
-}
-
-
-
 }

@@ -5,6 +5,9 @@ oob = "JUN_1967"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
+	mechanised_infantry = 1
+	motorised_infantry = 1
 }
 
 set_convoys = 5
@@ -33,15 +36,21 @@ add_to_faction = JAG
 
 add_ideas = {
 
-	closed_economy
-	partial_economic_mobilisation
-	extensive_conscription
+	trade_scope_closed_economy
+	economic_focus_partial_mobilization
+	conscription_two_year_draft
 
 	the_man_in_the_white_castle
 dutra
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -53,7 +62,6 @@ create_country_leader = {
 		dictator
 		warrior_code
 		anti_democrat
-
 	}
 }
 
@@ -156,6 +164,4 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 2
-}
-
 }

@@ -25,15 +25,21 @@ set_popularities = {
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
-	volunteer_only
+	economic_focus_civilian_economy
+	trade_scope_international_exports
+	conscription_volunteer_only
 
 	gateway_of_south_america
 	nebulous_independence
 	cangaceiros_medium
 }
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -42,11 +48,5 @@ create_country_leader = {
 	desc = "ALUIZIO_DESC"
 	expire = "1999.1.1"
 	ideology = coronelism
-	traits = {
-	merciless_dominator
-		#
-	}
-}
-
-
+	traits = { merciless_dominator }
 }

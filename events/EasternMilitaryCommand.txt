@@ -105,7 +105,10 @@ country_event = { ## Emperor Rademaker ##
 
     option = {
         name = CRJ.1.a
-    leave_faction = autonomy_isolated_military_district
+    release_autonomy = {
+        target = CRJ
+        autonomy_state = autonomy_isolated_military_district
+    }
     create_faction = Brazilian_empire_FACTION
 
                 hidden_effect = {

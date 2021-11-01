@@ -184,7 +184,7 @@ shared_focus = {
 			popularity = 0.1
 		}
 
-		add_ideas = subsistence_economy
+		add_ideas = trade_scope_regional_exports
 		swap_ideas = {
 			remove_idea = ACR_tappers_protest
 			add_idea = ACR_tappers_protest2
@@ -204,7 +204,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		add_ideas = war_economy
+		add_ideas = economic_focus_war_economy
 	}
 }
 shared_focus = {
@@ -269,7 +269,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		add_ideas = military_troop_training
+		add_ideas = professional_training_methods
 		add_stability = -0.1
 	}
 }
@@ -836,8 +836,7 @@ shared_focus = {
 					picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 					expire = "1999.1.1"
 					ideology = military_government
-					traits = {
-					}
+					#traits = { }
 				}
 			}
 		}

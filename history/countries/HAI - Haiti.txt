@@ -29,16 +29,17 @@ add_ideas = {
 	HAI_papa_doc
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "François Duvalier"
 	picture = "gfx/leaders/HAI/Portrait_HAI_Francois_Duvalier.dds"
 	expire = "1999.1.1"
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-
 }

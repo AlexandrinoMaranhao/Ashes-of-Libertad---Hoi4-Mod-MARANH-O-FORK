@@ -26,11 +26,11 @@ set_popularities = {
 }
 
 add_ideas = {
-tribal_mobilization
-total_segregation
-bonded_labor
-low_economic_mobilisation
-free_trade
+conscription_tribal_mobilisation
+state_oppression
+slavery_bonded_labor
+economic_focus_early_mobilization
+trade_scope_intercontinental_exports
 
 muduruku_tribe
 tribal_wars
@@ -39,6 +39,12 @@ the_cabanos
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -46,11 +52,4 @@ create_country_leader = {
 	picture = "gfx/leaders/Mun/Portrait_MUN_Tribe_Leader.dds"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
-}
-
-
-
 }

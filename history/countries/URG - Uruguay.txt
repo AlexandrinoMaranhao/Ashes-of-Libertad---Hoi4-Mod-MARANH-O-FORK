@@ -26,14 +26,21 @@ set_popularities = {
 }
 
 add_ideas = {
-	export_focus
-	civilian_economy
-	volunteer_only
+	trade_scope_international_exports
+	economic_focus_civilian_economy
+	conscription_volunteer_only
 
 	URG_switzerland_of_south_america
     URG_armamentos_y_municiones_del_ejercito
     URG_political_militias
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 #create_country_leader = {
 #	
@@ -101,9 +108,6 @@ create_country_leader = {
 	picture = "gfx/leaders/URG/Portrait_URG_Jorge_Pacheco_Areco.dds"
 	expire = "1999.1.1"
 	ideology = centrism
-	traits = {
-		#
-	}
 }
 #create_country_leader = {
 #
@@ -211,9 +215,6 @@ create_country_leader = {
 	picture = "gfx/leaders/URG/Portrait_URG_Raul_Sendic.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
-	traits = {
-		#
-	}
 }
 #create_country_leader = {
 #
@@ -226,6 +227,3 @@ create_country_leader = {
 #	}
 #
 #}
-
-
-}

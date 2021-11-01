@@ -126,21 +126,6 @@ acrean_raids = {
 		}
 	}
 
-	hire_extra_mercenaries = {
-		available = {
-		}
-
-		complete_effect = {
-		add_timed_idea = {
-			idea = paying_santarem
-			days = 30
-		}
-		add_to_variable = {
-			raid_success_percentage = 10
-			}
-		}
-	}
-	
 	test_percentage = {
 	fixed_random_seed = no
 		complete_effect = {

@@ -30,14 +30,18 @@ SEC_hastetly_assembled_army
 SEC_unionists_vs_revengists
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	name = "Andrés F. Córdova"
 	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
 	expire = "1999.1.1"
 	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -45,9 +49,6 @@ create_country_leader = {
 	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
 	expire = "1999.1.1"
 	ideology = conservatism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -55,9 +56,6 @@ create_country_leader = {
 	picture = "gfx/leaders/SEC/Portrait_SEC_Manuel_Agustin_Aguirre.dds"
 	expire = "1999.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -65,9 +63,6 @@ create_country_leader = {
 	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
 	expire = "1999.1.1"
 	ideology = marxism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -75,10 +70,4 @@ create_country_leader = {
 	picture = "gfx/leaders/SEC/Portrait_SEC_Carlos_Julio.dds"
 	expire = "1999.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-
 }

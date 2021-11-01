@@ -93,7 +93,7 @@ country_event = {
 
 	option = {
 		name = MNS_foreign.1.b # Small Agreement
-		add_ideas = domestic_servitude
+		add_ideas = slavery_bonded_labor
 		add_resource = { type = motors amount = 4 state = 89 }
 		add_resource = { type = steel amount = 4 state = 89 }
 		add_resource = { type = rubber amount = 12 state = 89 }

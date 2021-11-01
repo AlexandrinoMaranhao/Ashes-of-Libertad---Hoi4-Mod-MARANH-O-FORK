@@ -1,23 +1,23 @@
 has_unsupported_economic_law = {
 	if = {
 		limit = {
-			has_idea = low_economic_mobilisation
+			has_idea = economic_focus_early_mobilization
 		}
-		has_idea = low_economic_mobilisation
+		has_idea = economic_focus_early_mobilization
 		has_war_support < 0.15
 	}
 	else_if = {
 		limit = {
-			has_idea = partial_economic_mobilisation
+			has_idea = economic_focus_partial_mobilization
 		}
-		has_idea = partial_economic_mobilisation
+		has_idea = economic_focus_partial_mobilization
 		has_war_support < 0.25
 	}
 	else_if = {
 		limit = {
-			has_idea = war_economy
+			has_idea = economic_focus_war_economy
 		}
-		has_idea = war_economy
+		has_idea = economic_focus_war_economy
 		has_war_support < 0.5
 	}
 	else_if = {
@@ -34,16 +34,16 @@ has_unsupported_economic_law = {
 has_unsupported_manpower_law = {
 	if = {
 		limit = {
-			has_idea = limited_conscription
+			has_idea = conscription_one_year_draft
 		}
-			has_idea = limited_conscription
+			has_idea = conscription_one_year_draft
 			has_war_support < 0.1
 	}
 	else_if = {
 		limit = {
-			has_idea = extensive_conscription
+			has_idea = conscription_two_year_draft
 		}
-			has_idea = extensive_conscription
+			has_idea = conscription_two_year_draft
 			has_war_support < 0.2
 			NOT = { has_government = communism }
 			NOT = { has_government = fascism }
@@ -59,15 +59,15 @@ has_unsupported_manpower_law = {
 	}
 	else_if = {
 		limit = {
-			has_idea = all_adults_serve
+			has_idea = conscription_all_adults_serve
 		}
-		has_idea = all_adults_serve
+		has_idea = conscription_all_adults_serve
 	}
 	else_if = {
 		limit = {
-			has_idea = scraping_the_barrel
+			has_idea = conscription_scraping_the_barrel
 		}
-		has_idea = scraping_the_barrel
+		has_idea = conscription_scraping_the_barrel
 	}
 	else = {
 		always = no

@@ -26,9 +26,16 @@ set_popularities = {
 }
 
 add_ideas = {
-	subsistence_economy
-	extensive_conscription
+	trade_scope_regional_exports
+	conscription_two_year_draft
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -36,10 +43,4 @@ create_country_leader = {
 	picture = "gfx/leaders/LHA/Portrait_LHA_Carlos_Lehder.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state_status_quo
-	traits = {
-		#
-	}
-}
-
-
 }

@@ -26,13 +26,20 @@ set_popularities = {
 }
 
 add_ideas = {
-	subsistence_economy
-	war_economy
-	limited_conscription
+	trade_scope_regional_exports
+	economic_focus_war_economy
+	conscription_one_year_draft
 
 	PAM_pull_right
 the_panamanian_stalemate
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -40,10 +47,7 @@ create_country_leader = {
 	picture = "gfx/leaders/PAM/Portrait_PAM_Omar_Torrijos.dds"
 	expire = "1999.1.1"
 	ideology = military_junta
-	traits = {
-		dictator
-
-	}
+	traits = { dictator }
 }
 
 create_country_leader = {
@@ -52,8 +56,4 @@ create_country_leader = {
 	picture = "gfx/leaders/PAN/Portrait_PAN_Roberto_Chiari.dds"
 	expire = "1999.1.1"
 	ideology = conservatism
-	traits = {
-		
-	}
-}
 }

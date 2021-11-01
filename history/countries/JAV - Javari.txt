@@ -25,11 +25,11 @@ set_popularities = {
 }
 
 add_ideas = {
-	tribal_mobilization
-	domestic_servitude
-	integrated_society
-	war_economy
-	closed_economy
+	conscription_tribal_mobilisation
+	slavery_bonded_labor
+	equal_rights
+	economic_focus_war_economy
+	trade_scope_closed_economy
 
 	javari_tribe
 	uncontacted
@@ -39,27 +39,22 @@ add_ideas = {
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	name = "Javari Valley Tribes"
 	picture = "gfx/leaders/JAV/Portrait_JAV_Tribal_Leader.dds"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
 }
 create_country_leader = {
 	name = "I-Tawari Matis"
 	picture = "gfx/leaders/JAV/Portrait_JAV_Commie_Leader.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
-	traits = {
-		#
-	}
-}
-
-
-
-
-
 }

@@ -26,11 +26,11 @@ set_popularities = {
 }
 
 add_ideas = {
-slavery_banned
-integrated_society
-limited_conscription
-export_focus
-civilian_economy
+slavery_outlawed
+equal_rights
+conscription_one_year_draft
+trade_scope_intercontinental_exports
+economic_focus_civilian_economy
 
 the_port_of_macapa
 northern_friend_of_the_republic
@@ -39,15 +39,19 @@ northern_friend_of_the_republic
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Raul Monteiro Valdez"
 	picture = "gfx/leaders/AMA/Portrait_AMA_Raul_Valdez.dds"
 	expire = "1999.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -56,9 +60,4 @@ create_country_leader = {
 	picture = ""
 	expire = "1999.1.1"
 	ideology = military_junta
-	traits = {
-		#
-	}
-}
-
 }

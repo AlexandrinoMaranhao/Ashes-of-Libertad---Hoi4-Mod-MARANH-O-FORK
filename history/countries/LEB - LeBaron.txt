@@ -26,9 +26,16 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	limited_conscription
+	economic_focus_demilitarized_economy
+	conscription_one_year_draft
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -36,9 +43,6 @@ create_country_leader = {
 	picture = "Portrait_AMC_Charles_Manson.dds"
 	expire = "1999.1.1"
 	ideology = nazism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -47,9 +51,4 @@ create_country_leader = {
 	picture = "Portrait_LEB_Evril_LeBaron.dds"
 	expire = "1999.1.1"
 	ideology = mormon_theocracy
-	traits = {
-		
-	}
-}
-
 }

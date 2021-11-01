@@ -31,14 +31,21 @@ add_to_faction = BTA
 add_to_faction = ACC
 
 add_ideas = {
-    volunteer_only
-	low_economic_mobilisation
-	subsistence_economy
+    conscription_volunteer_only
+	economic_focus_early_mobilization
+	trade_scope_regional_exports
 
 	USR_the_panama_question
 USR_shadow_of_america
 USR_leadership_struggles
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -46,9 +53,6 @@ create_country_leader = {
 	picture = "gfx/leaders/USA/Portrait_USA_Juan_Cordero.dds"
 	expire = "1999.1.1"
 	ideology = military_government
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -57,9 +61,6 @@ create_country_leader = {
 	picture = "gfx/leaders/USA/Portrait_USA_Odonnel.dds"
 	expire = "1999.1.1"
 	ideology = military_government
-	traits = {
-		#
-	}
 }
 #
 #create_country_leader = {
@@ -72,6 +73,3 @@ create_country_leader = {
 #		#
 #	}
 #}
-
-
-}

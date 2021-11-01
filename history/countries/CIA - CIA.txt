@@ -27,12 +27,19 @@ set_popularities = {
 }
 
 add_ideas = {
-	war_economy
-	closed_economy
-	all_adults_serve
+	economic_focus_war_economy
+	trade_scope_closed_economy
+	conscription_all_adults_serve
 
 	CIA_cia
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -40,7 +47,4 @@ create_country_leader = {
 	picture = "GFX_Portrait_CIA_leader"
 	expire = "1999.1.1"
 	ideology = military_government
-	traits = {
-		#
-	}
 }

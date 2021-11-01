@@ -7,7 +7,7 @@ country_event = { # Zapatist unrest
     id = MEX_scripted.1
     title = MEX_scripted.1.t
     desc = MEX_scripted.1.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -29,7 +29,7 @@ country_event = { # Maoists border clash
     id = MEX_scripted.2
     title = MEX_scripted.2.t
     desc = MEX_scripted.2.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -72,7 +72,7 @@ country_event = { # hidden event in order not to fuck up the border war
     id = MEX_fake.1
     title = MEX_fake.1.t
     desc = MEX_fake.1.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     hidden = yes
@@ -86,7 +86,7 @@ country_event = { # Tabasco rebells
     id = MEX_scripted.3
     title = MEX_scripted.3.t
     desc = MEX_scripted.3.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -130,7 +130,7 @@ country_event = { # Zapatists rebell
     id = MEX_scripted.4
     title = MEX_scripted.4.t
     desc = MEX_scripted.4.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -177,7 +177,7 @@ country_event = { # American Invasion
     id = MEX_scripted.5
     title = MEX_scripted.5.t
     desc = MEX_scripted.5.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -240,7 +240,7 @@ country_event = { # Mexico is forced to sigh a truce with the civil war factions
     id = MEX_scripted.6
     title = MEX_scripted.6.t
     desc = MEX_scripted.6.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -261,7 +261,7 @@ country_event = { # Cristeros secede
     id = MEX_scripted.7
     title = MEX_scripted.7.t
     desc = MEX_scripted.7.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -290,7 +290,7 @@ country_event = { # Hidalgo secede
     id = MEX_scripted.8
     title = MEX_scripted.8.t
     desc = MEX_scripted.8.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -309,7 +309,7 @@ country_event = { # Erendira uprises
     id = MEX_scripted.9
     title = MEX_scripted.9.t
     desc = MEX_scripted.9.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -330,7 +330,7 @@ country_event = { # Los Halcones Uprises
     id = MEX_scripted.10
     title = MEX_scripted.10.t
     desc = MEX_scripted.10.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -350,7 +350,7 @@ country_event = {
     id = MEX_scripted.11
     title = MEX_scripted.11.t
     desc = MEX_scripted.11.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -370,7 +370,7 @@ country_event = { # The Perfect Dictatorship is no more
     id = MEX_scripted.12
     title = MEX_scripted.12.t
     desc = MEX_scripted.12.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -412,9 +412,7 @@ country_event = { # The Perfect Dictatorship is no more
                 #picture = "Portrait_HAL_Manuel_Díaz_Escobar.dds"
                 expire = "1999.1.1"
                 ideology = anarchism
-                traits = {
-                    #
-                }
+                #traits = { }
             }
             AMP = {
                 declare_war_on = {
@@ -437,7 +435,7 @@ country_event = { # End of the American-Mexican War
     id = MEX_scripted.13
     title = MEX_scripted.13.t
     desc = MEX_scripted.13.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     mean_time_to_happen = { days = 1 }
@@ -513,7 +511,7 @@ country_event = { # Retreats North
     id = MEX_scripted.14
     title = MEX_scripted.14.t
     desc = MEX_scripted.14.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -541,7 +539,7 @@ country_event = { # New New Mexico
     id = MEX_scripted.15
     title = MEX_scripted.15.t
     desc = MEX_scripted.15.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -569,7 +567,7 @@ country_event = { # Mormons and Bandits
     id = MEX_scripted.16
     title = MEX_scripted.16.t
     desc = MEX_scripted.16.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -600,6 +598,7 @@ country_event = { # Mormons and Bandits
             LEB = {
                 transfer_state = 479
                 add_state_core = 479
+            }
             PHF = {
                 transfer_state = 269
                 add_state_core = 269
@@ -613,7 +612,7 @@ country_event = { # Riches
     id = MEX_scripted.17
     title = MEX_scripted.17.t
     desc = MEX_scripted.17.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     
@@ -658,7 +657,7 @@ country_event = { # Riches
     id = MEX_scripted.18
     title = MEX_scripted.18.t
     desc = MEX_scripted.18.d
-    picture = x
+    #picture = x
     fire_only_once = yes
     is_triggered_only = yes
     

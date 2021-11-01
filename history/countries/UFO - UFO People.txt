@@ -30,16 +30,17 @@ add_ideas = {
 UFO_the_think_tank
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Velarde"
 	picture = "GFX_Portrait_UFO_leader"
 	expire = "1999.1.1"
 	ideology = posadism
-	traits = {
-		#
-	}
-}
-
-
 }

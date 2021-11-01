@@ -24,11 +24,11 @@ set_popularities = {
 }
 
 add_ideas = {
-slavery_banned
-racist_society
-limited_conscription
-civilian_economy
-closed_economy
+slavery_outlawed
+state_segregation
+conscription_one_year_draft
+economic_focus_civilian_economy
+trade_scope_closed_economy
 
 the_cabanos 
 the_juntas_favorite_pet 
@@ -41,6 +41,12 @@ set_country_flag = has_unique_advisors
 set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_brazilian
 set_country_flag = is_brazilian
@@ -102,6 +108,4 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-}
-
 }

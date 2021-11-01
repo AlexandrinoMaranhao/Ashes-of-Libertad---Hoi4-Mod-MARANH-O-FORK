@@ -7,17 +7,12 @@ ideas = {
 
         jorge_kalume_army_chief = {
         visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = ACR_eneas_advisor_purge 
-                    has_country_flag = cerqueira_is_couping 
-                    }
+            NOT = { 
+                has_country_flag = cerqueira_is_couping 
                 }
             }
 
-            traits = {
-
-            }
+            #traits = { }
             
             allowed = {
             original_tag = ACR
@@ -31,14 +26,11 @@ ideas = {
                 OR = {
                     has_country_flag = cerqueira_is_couping 
                     has_country_flag = ACR_cerqueira_kill
-                    has_country_flag = ACR_eneas_advisor_purge 
                     }
                 }
             }
 
-            traits = {
-
-            }
+            #traits = { }
             
             allowed = {
             original_tag = ACR
@@ -51,7 +43,6 @@ ideas = {
             NOT = {
                 OR = {
                     has_country_flag = cerqueira_is_couping 
-                    has_country_flag = ACR_eneas_advisor_purge 
                     }
                 }
             }
@@ -61,83 +52,54 @@ ideas = {
             original_tag = ACR
             }
 
-
-traits = {
-    
-}
+        #traits = {}
 
         }
 
-        nabor_junior_army_chief_aaaa = {
+    nabor_junior_army_chief_aaaa = {
         visible = {
             NOT = {
                 OR = {
                     has_country_flag = cerqueira_is_couping 
-                    has_country_flag = ACR_eneas_advisor_purge
                     }
                 }
             }
+    #traits = { }
 
-
-traits = {
-    
+    allowed = {
+        original_tag = ACR
+        }
+    }
 }
 
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-    }
-
     navy_chief = {
-
         jonas_kalume_navy_chief = {
         visible = {
             NOT = {
                 OR = {
                     has_country_flag = cerqueira_is_couping
-                    has_country_flag = ACR_eneas_advisor_purge
                     }
                 }
             }
-
-
-traits = {
-    
-}
-
-
-            allowed = {
-            original_tag = ACR
-            }
-
+    #traits = { }
+    allowed = {
+        original_tag = ACR
         }
+    }
 
-        sergio_petecao_navy_chief = {
+    sergio_petecao_navy_chief = {
         visible = {
             NOT = {
                 OR = {
                     has_country_flag = cerqueira_is_couping
-                    has_country_flag = ACR_eneas_advisor_purge
                     }
                 }
             }
-
-
-traits = {
-    
-}
-
-
-            allowed = {
+        #traits = { }
+        allowed = {
             original_tag = ACR
             }
-
         }
-
     }
 
     air_chief = {
@@ -146,37 +108,21 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
+                    }
                 }
-             }
             }
-
-
-traits = {
-    
-}
-
-
-            allowed = {
+        #traits = { }
+        allowed = {
             original_tag = ACR
             }
-
         }
         
         mateus_satanawa_air_chief = { #AIR
-        visible = {
-            NOT = { has_country_flag = ACR_eneas_advisor_purge }
-        }
-            allowed = {
+        allowed = {
             original_tag = ACR
-            }
-
-
-traits = {
-    
-}
-
+        }
+        #traits = { }
         }
     }
 
@@ -189,18 +135,9 @@ traits = {
         jorge_kalume_high_command = {
         visible = {
             NOT = {
-                OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
-             }
             }
-
-
-traits = {
-    
-}
-
 
             allowed = {
             original_tag = ACR
@@ -214,7 +151,6 @@ traits = {
                 OR = {
                     has_country_flag = cerqueira_is_couping 
                     has_country_flag = ACR_cerqueira_kill
-                    has_country_flag = ACR_eneas_advisor_purge
                     }
                 }
             }
@@ -223,10 +159,6 @@ traits = {
             }
 
 
-traits = {
-    
-}
-
         }
 
         jonas_kalume_high_command = {
@@ -234,15 +166,11 @@ traits = {
             NOT = {
                 OR = {
                     has_country_flag = cerqueira_is_couping
-                    has_country_flag = ACR_eneas_advisor_purge
                 }
              }
             }
 
 
-traits = {
-    
-}
 
 
             allowed = {
@@ -263,16 +191,12 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
             }
 
 
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -284,15 +208,11 @@ traits = {
             visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
             }
 
-            traits = {
-
-            }
             
             allowed = {
             original_tag = ACR
@@ -308,9 +228,6 @@ traits = {
                 }
             }
 
-            traits = {
-
-            }
             
         	allowed = {
         	original_tag = ACR
@@ -330,14 +247,10 @@ traits = {
                 OR = {
                     has_country_flag = cerqueira_is_couping 
                     has_country_flag = ACR_cerqueira_kill
-                    has_country_flag = ACR_eneas_advisor_purge
                     }
                 }
             }
 
-            traits = {
-
-            }
             
             allowed = {
             original_tag = ACR
@@ -349,16 +262,11 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
             }
 
-
-traits = {
-    
-}
 
 
             allowed = {
@@ -371,7 +279,6 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
@@ -379,9 +286,6 @@ traits = {
 
 
 
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -390,13 +294,7 @@ traits = {
         }
         
         mateus_satanawa_theorist = { #AIR
-        visible = {
-            NOT = { has_country_flag = ACR_eneas_advisor_purge }
-        }
 
-        traits = {
-
-        }
         
             allowed = {
             original_tag = ACR
@@ -405,11 +303,6 @@ traits = {
         }
 
         eneas_carneiro_theorist = {
-        
-
-        traits = {
-
-        }
         
             allowed = {
             original_tag = ACR
@@ -428,13 +321,6 @@ traits = {
         political_advisor = {
 
         geraldo_mesquita_advisor = { #nationalist
-        visible = {
-            NOT = { has_country_flag = ACR_eneas_advisor_purge }
-        }
-
-        traits = {
-
-        }
         
             allowed = {
             original_tag = ACR
@@ -445,9 +331,6 @@ traits = {
         helio_cury_political_advisor = { #nationalist
 
 
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -457,10 +340,7 @@ traits = {
             }
             visible = {
                 NOT = {
-                    OR = {
-                        has_country_flag = ACR_eneas_advisor_purge
                         has_completed_focus = ACR_assassinate_helio_cury
-                    }
                     
                 }
                 }
@@ -470,10 +350,6 @@ traits = {
         marques_de_souza_political_advisor = { #technocrat
 
 
-traits = {
-    
-}
-
             allowed = {
             original_tag = ACR
             NOT = {
@@ -482,11 +358,8 @@ traits = {
             }
             visible = {
                 NOT = {
-                   OR = {
                         has_completed_focus = ACR_arrest_marques_for_reason 
                         has_country_flag = ACR_marques_kill
-                        has_country_flag = ACR_eneas_advisor_purge
-                    }  
                 }    
                 
             }
@@ -499,14 +372,10 @@ traits = {
                 OR = {
                     has_country_flag = cerqueira_is_couping 
                     has_country_flag = ACR_cerqueira_kill
-                    has_country_flag = ACR_eneas_advisor_purge
-                    }
                 }
-            }    
+            } 
+        }    
 
-            traits = {
-
-            }
             
             allowed = {
             original_tag = ACR
@@ -518,17 +387,11 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
             }
 
-
-
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -540,7 +403,6 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
@@ -548,9 +410,6 @@ traits = {
 
 
 
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -560,10 +419,6 @@ traits = {
 
         eneas_carneiro_political_advisor = { #technocrat
 
-
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -576,10 +431,6 @@ traits = {
         jose_augusto_political_advisor = { #nationalist
 
 
-traits = {
-    
-}
-
             allowed = {
             original_tag = ACR
             NOT = {
@@ -589,7 +440,6 @@ traits = {
             visible = {
                 NOT = {
                     OR = {
-                        has_country_flag = ACR_eneas_advisor_purge
                         has_completed_focus = ACR_forge_charges_against_nationalists
                     }
                     
@@ -601,9 +451,6 @@ traits = {
         adalberto_sena_political_advisor = { #technocrat
 
 
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -614,7 +461,6 @@ traits = {
             visible = {
                 NOT = {
                     OR = {
-                        has_country_flag = ACR_eneas_advisor_purge
                         has_completed_focus = ACR_arrest_communist_sympathisers
                     }
                     
@@ -626,11 +472,6 @@ traits = {
 
         nilson_mourao_political_advisor = { #technocrat
 
-
-traits = {
-    
-}
-
             allowed = {
             original_tag = ACR
             NOT = {
@@ -640,7 +481,6 @@ traits = {
             visible = {
                 NOT = {
                     OR = {
-                        has_country_flag = ACR_eneas_advisor_purge
                         has_completed_focus = ACR_arrest_communist_sympathisers
                     }
                     
@@ -653,16 +493,10 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping 
                 }
             }
             }
-
-
-traits = {
-    
-}
 
 
             allowed = {
@@ -675,16 +509,11 @@ traits = {
         visible = {
             NOT = {
                 OR = {
-                    has_country_flag = ACR_eneas_advisor_purge
                     has_country_flag = cerqueira_is_couping
                 }
              }
             }
 
-
-traits = {
-    
-}
 
 
             allowed = {
@@ -696,10 +525,6 @@ traits = {
         mateus_satanawa_political_advisor = { #nationalist
 
 
-traits = {
-    
-}
-
             allowed = {
             original_tag = ACR
             NOT = {
@@ -709,7 +534,6 @@ traits = {
             visible = {
                 NOT = {
                     OR = {
-                        has_country_flag = ACR_eneas_advisor_purge
                         has_completed_focus = ACR_forge_charges_against_nationalists
                     }
                     
@@ -721,9 +545,6 @@ traits = {
         pedro_augusto_da_silva_political_advisor = { #nationalist
 
 
-traits = {
-    
-}
 
             allowed = {
             original_tag = ACR
@@ -734,7 +555,6 @@ traits = {
             visible = {
                 NOT = {
                     OR = {
-                        has_country_flag = ACR_eneas_advisor_purge
                         has_completed_focus = ACR_forge_charges_against_nationalists
                     }
                     
@@ -744,13 +564,7 @@ traits = {
         }
 
         moacyr_grechi_political_advisor = { #priest
-        visible = {
-            NOT = { has_country_flag = ACR_eneas_advisor_purge }
-        }
 
-        traits = {
-
-        }
         
             allowed = {
             original_tag = ACR
@@ -768,9 +582,6 @@ traits = {
                 }
 
 
-traits = {
-    
-}
 
         	allowed = {
         	original_tag = ACR
@@ -784,9 +595,6 @@ traits = {
                 }
 
 
-traits = {
-    
-}
 
         	allowed = {
         	original_tag = ACR
@@ -795,13 +603,7 @@ traits = {
             }
          
         placeholder_1_advisor = {
-            visible = {
-                has_country_flag = ACR_silver_library_advisors
-            }
 
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -809,13 +611,6 @@ traits = {
         }
 
         placeholder_2_advisor = {
-            visible = {
-                has_country_flag = ACR_silver_library_advisors
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -823,13 +618,6 @@ traits = {
         }
 
         placeholder_3_advisor = {
-            visible = {
-                has_country_flag = ACR_silver_library_advisors
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -837,13 +625,6 @@ traits = {
         }
 
         placeholder_4_advisor = {
-            visible = {
-                has_country_flag = ACR_silver_library_advisors
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -851,13 +632,6 @@ traits = {
         }
         
         placeholder_5_advisor = {
-            visible = {
-                has_completed_focus = ACR_eneas_inner_circle
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -865,13 +639,6 @@ traits = {
         }
 
         placeholder_6_advisor = {
-            visible = {
-                has_completed_focus = ACR_eneas_inner_circle
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -879,13 +646,6 @@ traits = {
         }
 
         placeholder_7_advisor = {
-            visible = {
-                has_completed_focus = ACR_eneas_inner_circle
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -893,13 +653,6 @@ traits = {
         }
 
         placeholder_8_advisor = {
-            visible = {
-                has_completed_focus = ACR_eneas_inner_circle
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -907,13 +660,6 @@ traits = {
         }
 
         placeholder_9_advisor = {
-            visible = {
-                has_completed_focus = ACR_eneas_inner_circle
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR
@@ -921,13 +667,6 @@ traits = {
         }
 
         placeholder_10_advisor = {
-            visible = {
-                has_completed_focus = ACR_eneas_inner_circle
-            }
-
-            traits = {
-
-            }
             
             allowed = {
                 original_tag = ACR

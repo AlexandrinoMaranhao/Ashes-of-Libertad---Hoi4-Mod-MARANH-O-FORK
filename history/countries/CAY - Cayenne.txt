@@ -25,12 +25,19 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_conscription
+	conscription_one_year_draft
 
 	CAY_carib_rouge
 CAY_vive_la_revolucion
 CAY_famine_fever_fear
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -38,10 +45,4 @@ create_country_leader = {
 	picture = "gfx/leaders/CAY/Portrait_CAY_Leopold_Heder.dds"
 	expire = "1999.1.1"
 	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-
 }

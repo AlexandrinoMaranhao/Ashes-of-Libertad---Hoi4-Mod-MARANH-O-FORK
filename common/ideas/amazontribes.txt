@@ -197,7 +197,7 @@ ideas = {
 		waiapi_tribe = {
 			
 			allowed = {
-				tag = WAP
+				tag = WAI
 			}
 
             available = {
@@ -221,7 +221,7 @@ ideas = {
 		    andira_tribe = {
 			
 			allowed = {
-				tag = AND
+				tag = ANI
 			}
 
             available = {

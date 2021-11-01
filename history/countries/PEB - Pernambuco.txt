@@ -26,14 +26,20 @@ set_popularities = {
 }
 
 add_ideas = {
-	low_economic_mobilisation
-	limited_exports
-	volunteer_only
+	economic_focus_early_mobilization
+	trade_scope_regional_exports
+	conscription_volunteer_only
 
 	nebulous_independence
 	cangaceiros_and_commies
 }
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -42,9 +48,6 @@ create_country_leader = {
 	desc = "PRESTES_DESC"
 	expire = "1999.1.1"
 	ideology = marxism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -54,10 +57,7 @@ create_country_leader = {
 	desc = "ARRAES_DESC"
 	expire = "1999.1.1"
 	ideology = centrism
-	traits = {
-	social_reformer_aol
-		#
-	}
+	traits = { social_reformer_aol }
 }
 
 create_country_leader = {
@@ -67,8 +67,5 @@ create_country_leader = {
 	desc = "ARRAES_DESC"
 	expire = "1999.1.1"
 	ideology = coronelism
-	traits = {
-	social_reformer_aol
-		#
-	}
+	traits = { social_reformer_aol }
 }

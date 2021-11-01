@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = ""
+#oob = ""
 
 # Starting tech
 set_technology = {
@@ -25,20 +25,17 @@ set_popularities = {
 
 }
 
-add_ideas = {
-
-}
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
 	name = "Raul Sendic"
 	picture = "gfx/leaders/URG/Portrait_URG_Raul_Sendic.dds"
 	expire = "1999.1.1"
-	ideology = fascism_ideology  
-	traits = {
-		#
-	}
-}
-
-
+	ideology = fascism_ideology
 }

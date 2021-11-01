@@ -26,36 +26,34 @@ set_popularities = {
 }
 
 add_ideas = {
-	export_focus
-	low_economic_mobilisation
-	limited_conscription
+	trade_scope_international_exports
+	economic_focus_early_mobilization
+	conscription_one_year_draft
 
 	sarneys_feud
 	cangaceiros_light
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
 	name = "José Sarney"
 	picture = "gfx/leaders/MNH/Portrait_MNH_Jose_Sarney.dds"
-	expire = "1999.1.1."
+	expire = "1999.1.1"
 	ideology = coronelism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
 	
 	name = "José I"
 	picture = "gfx/leaders/MNH/Portrait_MNH_Bolivar_Sarney.dds"
-	expire = "1999.1.1."
+	expire = "1999.1.1"
 	ideology = absolute_monarchy
-	traits = {
-		
-	}
-}
-
 }

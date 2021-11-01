@@ -25,9 +25,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	volunteer_only
-	civilian_economy
-	closed_economy
+	conscription_volunteer_only
+	economic_focus_civilian_economy
+	trade_scope_closed_economy
 
 	christian_communism
     stagnated_revolution
@@ -35,6 +35,12 @@ add_ideas = {
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -42,10 +48,6 @@ create_country_leader = {
 	picture = "gfx/leaders/RMI/Portrait_RMI_Jim_Jones.dds"
 	expire = "1999.1.1"
 	ideology = christian_theocracy
-	traits = {
-		
-		
-	}
 }
 
 create_country_leader = {
@@ -56,8 +58,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = christian_communism 
 	traits = {
-		the_mount_weaver
-		
+		the_mount_weaver	
 	}
 }
 
@@ -93,6 +94,4 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-}
-
 }

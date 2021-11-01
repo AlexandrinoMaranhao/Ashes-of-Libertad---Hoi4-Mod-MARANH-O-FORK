@@ -25,10 +25,17 @@ set_popularities = {
 }
 
 add_ideas = {
-	closed_economy
-	partial_economic_mobilisation
-	extensive_conscription
+	trade_scope_closed_economy
+	economic_focus_partial_mobilization
+	conscription_two_year_draft
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 
 create_country_leader = {
@@ -37,10 +44,6 @@ create_country_leader = {
 	picture = "gfx/leaders/JRM/Portrait_JUN_Ranieri_Mazzilli.dds"
 	expire = "1999.1.1"
 	ideology = conservatism
-	traits = {
-		
-
-	}
 }
 
 create_country_leader = {
@@ -49,10 +52,6 @@ create_country_leader = {
 	picture = "gfx/leaders/JRM/Portrait_JUN_Emilio_Garrastazu_Medici.dds"
 	expire = "1999.1.1"
 	ideology = fascism_ideology
-	traits = {
-		
-
-	}
 }
 
 create_field_marshal = {

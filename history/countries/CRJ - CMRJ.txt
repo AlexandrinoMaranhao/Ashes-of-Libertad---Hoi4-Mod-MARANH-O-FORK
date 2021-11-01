@@ -40,12 +40,18 @@ add_ideas = {
 scars_of_guanabara
 
 naval_bias
-	closed_economy
-	partial_economic_mobilisation
-	extensive_conscription
+	trade_scope_closed_economy
+	economic_focus_partial_mobilization
+	conscription_two_year_draft
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -66,9 +72,6 @@ create_country_leader = {
 	picture = "gfx/leaders/CRJ/Portrait_CRJ_Imperial_Rademaker.dds"
 	expire = "1999.1.1"
 	ideology = monarchy_status_quo
-	traits = {
-
-	}
 }
 
 
@@ -180,6 +183,4 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
-}
-
 }

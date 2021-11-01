@@ -24,11 +24,11 @@ set_popularities = {
 }
 
 add_ideas = {
-	tribal_mobilization
-	domestic_servitude
+	conscription_tribal_mobilisation
+	slavery_bonded_labor
 	state_segregation
-	war_economy
-	closed_economy
+	economic_focus_war_economy
+	trade_scope_closed_economy
 
 	the_kayapo
 	cachimbo_military_base
@@ -41,6 +41,12 @@ set_country_flag = has_unique_advisors
 set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
@@ -52,10 +58,4 @@ create_country_leader = {
 	desc = "RAONI_DESC"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
-}
-
-
 }

@@ -18,8 +18,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 
 	completion_reward = {	
@@ -53,8 +51,6 @@ shared_focus = {
 
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -86,8 +82,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -117,10 +111,7 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
-	completion_reward = {
 
 	completion_reward = {
 		country_event = {
@@ -139,7 +130,6 @@ shared_focus = {
 			id = ACR_EdgarIntro.1
 			days = 21
 		}
-	}
 	}
 }
 ####CONSTITUTION BRACH#####
@@ -165,8 +155,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -198,8 +186,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -231,8 +217,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -264,8 +248,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -297,8 +279,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -330,8 +310,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -363,8 +341,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -397,8 +373,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -430,11 +404,9 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
-	add_ideas = {urban_spe}
+	add_ideas = { traditional_army_specialization }
 	89 = {
 add_building_construction = {
 	type = bunker
@@ -490,11 +462,9 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
-	add_ideas = {jungle_spe}
+	add_ideas = { guerrilla_specialization }
 	89 = {
 add_building_construction = {
 	type = bunker
@@ -580,8 +550,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -614,8 +582,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 
@@ -684,8 +650,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 
@@ -752,8 +716,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -786,8 +748,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -819,8 +779,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 add_ideas = { helio_cury_political_advisor }
@@ -856,8 +814,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 	add_ideas = { edgar_cerqueira_political_advisor }
@@ -893,8 +849,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 	add_ideas = { marques_de_souza_political_advisor }
@@ -930,8 +884,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -963,8 +915,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -997,8 +947,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -1031,8 +979,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -1068,8 +1014,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -1103,8 +1047,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 		country_event = {
@@ -1136,11 +1078,11 @@ shared_focus = {
 		check_variable = { senate_militarist_seats = 9 }
 	}
 	NOT = {
-		check_variable = { senate_technocrats_seats = 9 }
+		check_variable = { senate_technocrat_seats = 9 }
 		check_variable = { senate_militarist_seats = 9 } 
 	}
 	NOT = {
-		check_variable = { senate_technocrats_seats = 9 }
+		check_variable = { senate_technocrat_seats = 9 }
 		check_variable = { senate_nationalist_seats = 9 }
 	}
 		}
@@ -1150,8 +1092,6 @@ shared_focus = {
 	}
 
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 
 	completion_reward = {
 	add_ideas = the_acrean_constitution
@@ -1173,10 +1113,8 @@ shared_focus = {
 } 
 			if = { # Militarists Elected
 				limit = { 
-					AND = {
-						check_variable = { senate_militarist_seats > senate_technocrat_seats }
-						check_variable = { senate_militarist_seats > senate_nationalist_seats }
-					}
+					check_variable = { senate_militarist_seats > senate_technocrat_seats }
+					check_variable = { senate_militarist_seats > senate_nationalist_seats }
 				} 
 				set_politics = {
 					ruling_party = democratic
@@ -1213,10 +1151,8 @@ shared_focus = {
 		    name = ACR_communist_party_marques 
 } 
 				limit = { 
-					AND = {
-						check_variable = { senate_technocrat_seats > senate_militarist_seats }
-						check_variable = { senate_technocrat_seats > senate_nationalist_seats }
-					}
+					check_variable = { senate_technocrat_seats > senate_militarist_seats }
+					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
 				} 
 				set_politics = {
 					ruling_party = democratic
@@ -1246,10 +1182,8 @@ shared_focus = {
 			}
 			else_if = { # Nationalists Elected
 				limit = {
-					AND = {
-						check_variable = { senate_nationalist_seats > senate_militarist_seats }
-						check_variable = { senate_nationalist_seats > senate_technocrat_seats }
-					}
+					check_variable = { senate_nationalist_seats > senate_militarist_seats }
+					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
 				} 
 				set_politics = {
 					ruling_party = neutrality
@@ -1264,8 +1198,7 @@ shared_focus = {
 					picture = "gfx/leaders/ACR/Portrait_ACR_Helio_Cury.dds"
 					expire = "1999.1.1"
 					ideology = centrism
-					traits = {
-					}
+					#traits = { }
 				}
 			set_country_flag = cury_elected
 			load_focus_tree = ACR_focus_3

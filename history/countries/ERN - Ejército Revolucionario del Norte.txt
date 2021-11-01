@@ -28,13 +28,20 @@ set_popularities = {
 create_faction = los_libertadores
 
 add_ideas = {
-	isolation
-	closed_economy
-	extensive_conscription
+	trade_scope_closed_economy
+	trade_scope_closed_economy
+	conscription_two_year_draft
 
 	a_dream_of_revolution
 international_guerrilla
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -42,7 +49,4 @@ create_country_leader = {
 	picture = "gfx/leaders/ERN/Portrait_ERN_Che_Guevara.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla 
-	traits = {
-		
-	}
 }

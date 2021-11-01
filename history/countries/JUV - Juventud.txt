@@ -28,16 +28,17 @@ add_ideas = {
 	castros_madness
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Fidel Castro"
 	picture = "gfx/leaders/JUV/Portrait_JUV_Fidel_Castro.dds"
 	expire = "1999.1.1"
 	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-
 }

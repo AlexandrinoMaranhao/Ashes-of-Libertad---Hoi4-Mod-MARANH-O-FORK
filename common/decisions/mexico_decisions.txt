@@ -4,16 +4,14 @@ mexico_category = {
 		visible = {
 			has_war_with = USA
 			NOT = {
-				OR = {
-					has_idea = MEX_war_of_resistance_idea_1
-					has_idea = MEX_war_of_resistance_idea_2
-					has_idea = MEX_war_of_resistance_idea_3
-					has_idea = MEX_war_of_resistance_idea_4
-					has_idea = MEX_war_of_resistance_idea_5
-					has_idea = MEX_war_of_resistance_idea_6
-					has_idea = MEX_war_of_resistance_idea_7
-					has_idea = MEX_war_of_resistance_idea_8
-				}
+				has_idea = MEX_war_of_resistance_idea_1
+				has_idea = MEX_war_of_resistance_idea_2
+				has_idea = MEX_war_of_resistance_idea_3
+				has_idea = MEX_war_of_resistance_idea_4
+				has_idea = MEX_war_of_resistance_idea_5
+				has_idea = MEX_war_of_resistance_idea_6
+				has_idea = MEX_war_of_resistance_idea_7
+				has_idea = MEX_war_of_resistance_idea_8
 			}
 		}
 		complete_effect = {

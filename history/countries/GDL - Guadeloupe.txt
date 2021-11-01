@@ -30,16 +30,17 @@ add_ideas = {
 GDL_lifestyle
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Bernard Hayot"
 	picture = "gfx/leaders/GDL/Portrait_GDL_Sex.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state_status_quo
-	traits = {
-		#
-	}
-}
-
-
 }

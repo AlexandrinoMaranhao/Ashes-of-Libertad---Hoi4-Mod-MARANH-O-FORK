@@ -29,16 +29,17 @@ add_ideas = {
 COS_jimenezs_dark_sympathies
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Frank Marshall Jiménez"
 	picture = "gfx/leaders/COS/Portrait_COS_Frank_Marshall_Jimenez.dds"
 	expire = "1999.1.1"
 	ideology = ultranationalism
-	traits = {
-		#
-	}
-}
-
-
 }

@@ -6,7 +6,7 @@ ACR_compensation_trade_category = {
 			tag = ACR
 		}
 		available = {
-			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation }
+			NOT = { has_idea = trade_scope_closed_economy has_idea = economic_focus_demilitarized_economy }
 			any_controlled_state = {
 				has_resources_amount = {
 					resource = rubber
@@ -25,16 +25,17 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					add_resource = {
-						type = rubber
-						amount = -8
-						days = 120
+					capital = {
+						add_resource = {
+							type = rubber
+							amount = -8
+						}
+						add_resource = {
+							type = steel
+							amount = 10
+						}
 					}
-					add_resource = {
-						type = steel
-						amount = 10
-						days = 120
-					}
+					
 				} 
 				else = {
 					ACR = {
@@ -49,12 +50,10 @@ ACR_compensation_trade_category = {
 							add_resource = {
 								type = rubber
 								amount = -8
-								days = 120
 							}
 							add_resource = {
 								type = steel
 								amount = 10
-								days = 120
 							}
 						}
 					}
@@ -72,7 +71,7 @@ ACR_compensation_trade_category = {
 			tag = ACR
 		}
 		available = {
-			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation }
+			NOT = { has_idea = trade_scope_closed_economy has_idea = economic_focus_demilitarized_economy }
 			any_controlled_state = {
 				has_resources_amount = {
 					resource = rubber
@@ -91,16 +90,17 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					add_resource = {
-						type = rubber
-						amount = -8
-						days = 120
+					capital = {
+						add_resource = {
+							type = rubber
+							amount = -8
+						}
+						add_resource = {
+							type = oil
+							amount = 10
+						}
 					}
-					add_resource = {
-						type = oil
-						amount = 10
-						days = 120
-					}
+					
 				} 
 				else = {
 					ACR = {
@@ -115,12 +115,10 @@ ACR_compensation_trade_category = {
 							add_resource = {
 								type = rubber
 								amount = -8
-								days = 120
 							}
 							add_resource = {
 								type = oil
 								amount = 10
-								days = 120
 							}
 						}
 					}
@@ -154,7 +152,7 @@ ACR_compensation_trade_category = {
 			tag = ACR
 		}
 		available = {
-			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation has_idea = subsistence_economy has_idea = limited_exports }
+			NOT = { has_idea = trade_scope_closed_economy has_idea = economic_focus_demilitarized_economy has_idea = trade_scope_regional_exports has_idea = trade_scope_regional_exports }
 			any_controlled_state = {
 				has_resources_amount = {
 					resource = rubber
@@ -173,16 +171,17 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					add_resource = {
-						type = rubber
-						amount = -8
-						days = 120
+					capital = {
+						add_resource = {
+							type = rubber
+							amount = -8
+						}
+						add_resource = {
+							type = ammunition
+							amount = 10
+						}
 					}
-					add_resource = {
-						type = ammunition
-						amount = 10
-						days = 120
-					}
+
 				}
 				else = {
 					ACR = {
@@ -197,12 +196,10 @@ ACR_compensation_trade_category = {
 							add_resource = {
 								type = rubber
 								amount = -8
-								days = 120
 							}
 							add_resource = {
 								type = ammunition
 								amount = 10
-								days = 120
 							}
 						}
 					}
@@ -213,7 +210,7 @@ ACR_compensation_trade_category = {
 	}
 	trade_motors = {
 		available = {
-			NOT = { has_idea = closed_economy has_idea = undisturbed_isolation  has_idea = subsistence_economy has_idea = export_focus has_idea = limited_exports }	
+			NOT = { has_idea = trade_scope_closed_economy has_idea = economic_focus_demilitarized_economy  has_idea = trade_scope_regional_exports has_idea = trade_scope_international_exports has_idea = trade_scope_regional_exports }	
 		}
 		icon = GFX_decision_motors_decision
 		visible = {
@@ -239,16 +236,17 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					add_resource = {
-						type = rubber
-						amount = -8
-						days = 120
+					capital = {
+						add_resource = {
+							type = rubber
+							amount = -8
+						}
+						add_resource = {
+							type = motors
+							amount = 10
+						}
 					}
-					add_resource = {
-						type = motors
-						amount = 10
-						days = 120
-					}
+					
 				}
 				else = {
 					ACR = {
@@ -263,12 +261,10 @@ ACR_compensation_trade_category = {
 							add_resource = {
 								type = rubber
 								amount = -8
-								days = 120
 							}
 							add_resource = {
 								type = motors
 								amount = 10
-								days = 120
 							}
 						}
 					}
@@ -288,7 +284,7 @@ ACR_compensation_trade_category = {
 	trade_technology = {
 		icon = GFX_decision_tech_decision
 		available = {
-			has_idea = monopoly
+			has_idea = trade_scope_international_exports
 		}	
 		
 		visible = {
@@ -312,15 +308,15 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					add_resource = {
-						type = rubber
-						amount = -8
-						days = 120
-					}
-					add_resource = {
-						type = technology
-						amount = 10
-						days = 120
+					capital = {
+						add_resource = {
+							type = rubber
+							amount = -8
+						}
+						add_resource = {
+							type = technology
+							amount = 10
+						}
 					}
 				}
 				else = {
@@ -332,16 +328,15 @@ ACR_compensation_trade_category = {
 									amount > 7
 									delivered = yes
 								}
+								
 							}
 							add_resource = {
 								type = rubber
 								amount = -8
-								days = 120
 							}
 							add_resource = {
 								type = technology
 								amount = 10
-								days = 120
 							}
 						}
 					}
@@ -350,3 +345,4 @@ ACR_compensation_trade_category = {
 		}
 		days_remove = 120
 	}
+}

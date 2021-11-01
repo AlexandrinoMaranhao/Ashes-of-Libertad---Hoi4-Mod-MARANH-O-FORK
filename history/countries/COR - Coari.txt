@@ -28,17 +28,16 @@ set_popularities = {
 }
 
 add_ideas = {
-slavery_banned
-integrated_society
-idea_AOL_free_press
-disarmed_nation
-subsistence_economy
-undisturbed_isolation
-a20_literacy
-no_training
+slavery_outlawed
+equal_rights
+free_press
+conscription_disarmed_nation
+trade_scope_regional_exports
+economic_focus_demilitarized_economy
+primary_education
+training_none
 no_officer_training
 no_mercenaries
-no_tradition
 
 coari_desperation
 the_white_linned_mayor
@@ -49,6 +48,12 @@ set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
 set_country_flag = has_unique_manufacturers
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
@@ -77,6 +82,4 @@ create_country_leader = {
 		the_white_linned_mayor_trait
 
 	}
-}
-
 }

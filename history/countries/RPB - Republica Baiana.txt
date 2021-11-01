@@ -25,9 +25,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	closed_economy
-	partial_economic_mobilisation
-	limited_conscription
+	trade_scope_closed_economy
+	economic_focus_partial_mobilization
+	conscription_one_year_draft
 
     the_baiana_revolt
     free_port_of_salvador
@@ -36,6 +36,12 @@ add_ideas = {
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -43,9 +49,6 @@ create_country_leader = {
 	picture = "gfx/leaders/RPB/Portrait_RPB_Arlindo_Veira.dds"
 	expire = "1999.1.1"
 	ideology = constitutional_monarchy 
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -54,9 +57,6 @@ create_country_leader = {
 	picture = "gfx/leaders/RPB/Portrait_RPB_Volta_Seca.dds"
 	expire = "1999.1.1"
 	ideology = coronelism 
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -64,10 +64,7 @@ create_country_leader = {
 	name = "Francisco Julião Arruda de Paula"
 	picture = "gfx/leaders/RPB/Portrait_RPB_Francisco_Juliao.dds"
 	expire = "1999.1.1"
-	ideology = marxism 
-	traits = {
-		#
-	}
+	ideology = marxism
 }
 
 create_country_leader = {
@@ -76,7 +73,4 @@ create_country_leader = {
 	picture = "gfx/leaders/RPB/Portrait_RPB_Baiana_Revolt.dds"
 	expire = "1999.1.1"
 	ideology = anarchism
-	traits = {
-		#
-	}
 }

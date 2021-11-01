@@ -171,7 +171,7 @@ shared_focus = {
 		factor = 1
 	}
 	completion_reward = {	
-		add_ideas = jungle_spe
+		add_ideas = guerrilla_specialization
 	}
 }
 shared_focus = {
@@ -514,7 +514,7 @@ shared_focus = {
 
 	completion_reward = {	
 		custom_effect_tooltip = ACR_to_the_highest_bidder_tt
-		add_ideas = mercenary_battalions
+		add_ideas = mercenaries_auxiliaries
 		add_ideas = mercenary_training
 	}
 }
@@ -836,6 +836,7 @@ shared_focus = {
 
 	completion_reward = {	
 		add_tech_bonus = {
+			name = engineering_bonus
 			bonus = 0.5
 			uses = 1
 			category = engineers_tech
@@ -931,6 +932,7 @@ shared_focus = {
 			}
 		}
 		add_tech_bonus = {
+			name = engineering_bonus
 			bonus = 0.5
 			uses = 1
 			category = engineers_tech
@@ -981,11 +983,13 @@ shared_focus = {
 
 	completion_reward = {	
 		add_tech_bonus = {
+			name = engineering_bonus
 			bonus = 0.5
 			uses = 2
 			category = engineers_tech
 		}
 		add_tech_bonus = {
+			name = engineering_bonus
 			bonus = 0.5
 			uses = 2
 			category = industry
@@ -1021,6 +1025,7 @@ shared_focus = {
 
 	completion_reward = {	
 		add_tech_bonus = {
+			name = infantry_bonus
 			bonus = 0.5
 			uses = 2
 			category = infantry_tech
@@ -1054,16 +1059,19 @@ shared_focus = {
 
 	completion_reward = {	
 		add_tech_bonus = {
+			name = industry_bonus
 			bonus = 0.5
 			uses = 1
 			category = industry
 		}
 		add_tech_bonus = {
+			name = engineering_bonus
 			bonus = 0.5
 			uses = 1
 			category = engineers_tech
 		}
 		add_tech_bonus = {
+			name = cruiser_bonus
 			bonus = 0.5
 			uses = 1
 			category = cl_tech
@@ -1087,6 +1095,7 @@ shared_focus = {
 
 	completion_reward = {	
 		add_tech_bonus = {
+			name = superior_firepower_bonus
 			bonus = 0.5
 			uses = 1
 			category = cat_superior_firepower
@@ -1111,7 +1120,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	completion_reward = {	
-		add_ideas = a80_literacy
+		add_ideas = tertiary_education
 	}
 }
 shared_focus = {
@@ -1131,7 +1140,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	completion_reward = {	
-		add_ideas = a50_literacy
+		add_ideas = secondary_education
 	}
 }
 shared_focus = {

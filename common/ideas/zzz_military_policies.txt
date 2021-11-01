@@ -118,7 +118,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_one_year_draft = {
-		picture = light_level_4
+		picture = GFX_idea_conscription_one_year_draft
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_one_year_draft"}
 			default = yes
 			available = { always = no } 
@@ -377,15 +377,12 @@ ideas = {
 		}
 		mercenary_officer_training = {
 		picture = light_level_5
-			available = { always = no } 
+			available = { always = no NOT = { has_idea = no_mercenaries } } 
 			cost = 100
 			removal_cost = -1
 			level = 3
 			ai_will_do = {
 				factor = 1
-			}
-			available = {
-			NOT = { has_idea = no_mercenaries }
 			}
 			modifier = {
 				special_forces_min = 5
@@ -523,13 +520,11 @@ ideas = {
 			visible = {
 				use_generic_outsider_laws = yes
 			}
-			picture = outsider_battalions
 			cost = 100
 			removal_cost = -1
 			level = 1
 			modifier = {
 				non_core_manpower = 0.2
-				exodus_assimilation_proportion = 0.2
 				stability_factor = -0.02
 				planning_speed = -0.06
 				compliance_gain = 0.08

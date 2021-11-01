@@ -26,11 +26,11 @@ set_popularities = {
 }
 
 add_ideas = {
-slavery_banned
-integrated_society
-limited_conscription
-free_trade
-partial_economic_mobilisation
+slavery_outlawed
+equal_rights
+conscription_one_year_draft
+trade_scope_intercontinental_exports
+economic_focus_partial_mobilization
 
 caprichoso
 garantido
@@ -38,6 +38,12 @@ garantido
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -45,10 +51,4 @@ create_country_leader = {
 	picture = "gfx/leaders/PAT/Portrait_PAT_Caprichoso.dds"
 	expire = "1999.1.1"
 	ideology = city_state
-	traits = {
-		#
-	}
-}
-
-
 }

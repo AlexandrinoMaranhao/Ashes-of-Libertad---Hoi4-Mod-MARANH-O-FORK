@@ -36,11 +36,17 @@ ideas = {
 	}
 
 	ENG_preassure_from_venezuela = {
-	stability_factor = -0.05
+		modifier = {
+			stability_factor = -0.05
+		}
+	
 	}
 
 	ENG_the_sun_has_set = {
-	war_support_factor = -0.15
+		modifier = {
+			war_support_factor = -0.15
+		}
+	
 	}
 
 	ENG_the_new_jewl_movement = {
