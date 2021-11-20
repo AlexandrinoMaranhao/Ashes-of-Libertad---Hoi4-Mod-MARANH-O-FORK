@@ -110,9 +110,9 @@ country_event = { #trade on rivers with acre?
 		89 = {
 			add_resource = { type = ammunition amount = 3 }
 		}
-		add_ideas = export_focus
+		add_ideas = trade_scope_international_exports
 		ACR = {
-			add_ideas = export_focus
+			add_ideas = trade_scope_international_exports
 			country_event = {
 				id = ACRMarques.10
 				days = 0
@@ -151,9 +151,9 @@ country_event = { #deeper oh yeah
 		89 = {
 			add_resource = { type = technology amount = 1 }
 		}
-		add_ideas = free_trade
+		add_ideas = trade_scope_intercontinental_exports
 		ACR = {
-			add_ideas = free_trade
+			add_ideas = trade_scope_intercontinental_exports
 			country_event = {
 				id = ACRMarques.11
 				days = 0

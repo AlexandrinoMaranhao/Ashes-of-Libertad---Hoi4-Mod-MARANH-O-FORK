@@ -61,18 +61,23 @@ set_variable = { var = no_success_chance value = 0 }
 
 #
 add_ideas = {
-undisturbed_isolation
-subsistence_economy
-militia_troop_training
+economic_focus_demilitarized_economy
+trade_scope_regional_exports
+militia_training
 no_officer_training
-no_tradition
-a20_literacy
+primary_education
 }
 
 set_country_flag = has_unique_advisors
 set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
@@ -83,8 +88,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
 	expire = "1999.1.1"
 	ideology = mercantile_oligarchy
-	traits = {
-	}
+	#traits = { }
 }
 
 create_country_leader = {
@@ -93,10 +97,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro_Young.dds"
 	expire = "1999.1.1"
 	ideology = posadism  
-	traits = {
-
-
-	}
+	#traits = { }
 }
 
 create_country_leader = {
@@ -105,10 +106,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
 	expire = "1999.1.1"
 	ideology = centrism
-	traits = {
-
-
-	}
+	#traits = { }
 }
 
 create_country_leader = {
@@ -164,8 +162,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
 	expire = "1999.1.1"
 	ideology = coronelism 
-	traits = {
-	}
+	#traits = { }
 }
 ###############GENERALS
 

@@ -25,14 +25,21 @@ set_popularities = {
 }
 
 add_ideas = {
-	extensive_conscription
-	undisturbed_isolation
-	subsistence_economy
+	conscription_two_year_draft
+	economic_focus_demilitarized_economy
+	trade_scope_regional_exports
 
 	SOV_the_submarine_fleet
 SOV_arkhipovs_remorse
 
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -40,10 +47,4 @@ create_country_leader = {
 	picture = "gfx/leaders/SOV/Portrait_SOV_Vasili_Arkhipov.dds"
 	expire = "1999.1.1"
 	ideology = marxism 
-	traits = {
-		#
-	}
-}
-
-
 }

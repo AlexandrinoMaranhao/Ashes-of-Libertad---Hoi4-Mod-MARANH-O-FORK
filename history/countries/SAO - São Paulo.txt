@@ -5,6 +5,7 @@ oob = "SAO_1967"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
 }
 
 set_convoys = 5
@@ -26,9 +27,9 @@ set_popularities = {
 
 add_ideas = {
 
-	limited_exports
-	partial_economic_mobilisation
-	limited_conscription
+	trade_scope_regional_exports
+	economic_focus_partial_mobilization
+	conscription_one_year_draft
 
 	the_second_constitutionalist_revolution
 stolen_institutions
@@ -36,6 +37,12 @@ the_devil_in_the_bottle
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -56,9 +63,6 @@ create_country_leader = {
 	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
 	expire = "1999.1.1"
 	ideology = conservatism 
-	traits = {
-
-	}
 }
 
 create_field_marshal = {
@@ -70,6 +74,4 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
-}
-
 }

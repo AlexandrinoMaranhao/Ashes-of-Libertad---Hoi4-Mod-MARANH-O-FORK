@@ -112,12 +112,16 @@ set_popularities = {
 	reactionary = 100
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	name = "Miguel Anguiano Márquez"
 	picture = "Portrait_NGA_Miguel_Anguiano_Márquez.dds"
 	expire = "1974.4.13"
 	ideology = christian_theocracy_reactionary
-	traits = {
-		#
-	}
 }

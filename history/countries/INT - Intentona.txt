@@ -26,8 +26,15 @@ set_popularities = {
 }
 
 add_ideas = {
-scraping_the_barrel
+conscription_scraping_the_barrel
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -36,11 +43,4 @@ create_country_leader = {
 	desc = "PRESTES_DESC"
 	expire = "1999.1.1"
 	ideology = marxism
-	traits = {
-		#
-		the_knight_of_hope
-	}
-}
-
-
 }

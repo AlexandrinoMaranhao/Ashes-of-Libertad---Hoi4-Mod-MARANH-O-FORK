@@ -141,13 +141,17 @@ add_ideas = {
 	MEX_overexcerted_army_1
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "José Agustín Olachea"
 	picture = "gfx/leaders/MEX/Portrait_MEX_Agustin_Olachea.dds"
 	expire = "1974.4.13"
 	ideology = military_junta
-	traits = {
-		#
-	}
 }

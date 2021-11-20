@@ -126,7 +126,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-	    add_ideas = slavery_banned
+	    add_ideas = slavery_outlawed
 	   	add_resource = {
     		type = rubber
     		amount = -8
@@ -235,7 +235,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		add_ideas = a50_literacy
+		add_ideas = secondary_education
 	}
 }
 shared_focus = {
@@ -253,7 +253,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {		
-		add_ideas = a50_literacy
+		add_ideas = secondary_education
 		add_popularity = {
     		ideology = communism
     		popularity = 0.15
@@ -619,8 +619,8 @@ shared_focus = {
 
 	completion_reward = {	
 		add_ideas = guerrilla_training
-		add_ideas = foreign_training
-		add_ideas = ussr_tradition
+		add_ideas = mercenary_officer_training
+		add_ideas = offensive_specialization
 	}
 }
 shared_focus = {
@@ -717,7 +717,6 @@ shared_focus = {
 		add_opinion_modifier = {
 			target = ERN
 			modifier = ACR_marques_public_relationship
-			stability_factor = -0.1
 		}
 		ERN = {
 			add_opinion_modifier = {
@@ -725,6 +724,7 @@ shared_focus = {
 				modifier = ACR_marques_public_relationship
 			}
 		}
+		add_stability = -0.1
 	}
 }
 shared_focus = {

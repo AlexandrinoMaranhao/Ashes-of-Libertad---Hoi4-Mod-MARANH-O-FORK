@@ -5,6 +5,7 @@ oob = "CNU_1967"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
 }
 
 set_convoys = 5
@@ -25,9 +26,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	subsistence_economy
-	disarmed_nation
-	civilian_economy
+	trade_scope_regional_exports
+	conscription_disarmed_nation
+	economic_focus_civilian_economy
 
     provisional_government_of_bahia
     the_sertao
@@ -35,6 +36,12 @@ add_ideas = {
 }
 
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -42,9 +49,7 @@ create_country_leader = {
 	picture = "gfx/leaders/CNU/Portrait_CNU_Luis_Viana_Filho.dds"
 	expire = "1999.1.1"
 	ideology = provisional_government
-	traits = {
-		#
-	}
+	#traits = { }
 }
 
 create_country_leader = {
@@ -53,7 +58,5 @@ create_country_leader = {
 	picture = "gfx/leaders/RGN/.dds"
 	expire = "1999.1.1"
 	ideology = evangelical_theocracy
-	traits = {
-		#
-	}
+	#traits = { }
 }

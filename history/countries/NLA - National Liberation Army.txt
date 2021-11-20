@@ -30,16 +30,17 @@ add_ideas = {
 	NLA_eln_cornered_and_surrounded
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Héctor Béjar"
 	picture = "gfx/leaders/PRU/Portrait_PRU_ELN_dude.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
-	traits = {
-		#
-	}
-}
-
-
 }

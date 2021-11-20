@@ -24,14 +24,18 @@ set_popularities = {
 	reactionary = 0
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	name = "Modesto Rodas Alvarado"
 	picture = "gfx/leaders/HON/Portrait_HON_Modesto_Rodas_Alvarado.dds"
 	expire = "1999.1.1"
 	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -39,9 +43,4 @@ create_country_leader = {
 	picture = "gfx/leaders/HON/Portrait_HON_Agapito_Robleda_Castro.dds"
 	expire = "1999.1.1"
 	ideology = maoism
-	traits = {
-		#
-	}
-}
-
 }

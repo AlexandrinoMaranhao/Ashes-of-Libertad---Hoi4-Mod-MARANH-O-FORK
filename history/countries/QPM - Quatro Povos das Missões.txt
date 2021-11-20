@@ -35,11 +35,11 @@ if = {
 	}
 }
 add_ideas = {
-	disarmed_nation
-	subsistence_economy
-	isolation
-	domestic_servitude
-	integrated_society
+	conscription_disarmed_nation
+	trade_scope_regional_exports
+	trade_scope_closed_economy
+	slavery_bonded_labor
+	equal_rights
 
 	antas
 	modern_missiones
@@ -50,6 +50,12 @@ set_country_flag = has_unique_advisors
 set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -57,9 +63,6 @@ create_country_leader = {
 	picture = "gfx/leaders/QPM/Portrait_QPM_Paolino_Baldassari.dds"
 	expire = "1999.1.1"
 	ideology = christian_theocracy_reactionary 
-	traits = {
-		#
-	}
 }
 create_country_leader = {
 	
@@ -67,9 +70,6 @@ create_country_leader = {
 	picture = "gfx/leaders/QPM/.dds"
 	expire = "1999.1.1"
 	ideology = military_junta 
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -77,8 +77,4 @@ create_country_leader = {
 	picture = "gfx/leaders/QPM/Portrait_QPM_Tukano.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
-	traits = {
-		#
-	}
-}
 }

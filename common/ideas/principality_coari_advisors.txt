@@ -195,8 +195,8 @@ ideas = {
            
             ROOT = {
             OR = {
-            has_idea = idea_AOL_free_press
-            has_idea = idea_AOL_light_censorship
+            has_idea = free_press
+            has_idea = censored_press
             }
             }
             }
@@ -213,9 +213,9 @@ ideas = {
             available = {
             ROOT = {
             OR = {
-            has_idea = idea_AOL_no_press
-            has_idea = idea_AOL_free_press
-            has_idea = idea_AOL_light_censorship
+            has_idea = state_press_only
+            has_idea = free_press
+            has_idea = censored_press
             }
             }
             }
@@ -231,9 +231,9 @@ ideas = {
             available = {
             ROOT = {
             OR = {
-            has_idea = idea_AOL_no_press
-            has_idea = idea_AOL_free_press
-            has_idea = idea_AOL_light_censorship
+            has_idea = state_press_only
+            has_idea = free_press
+            has_idea = censored_press
             }
             }
             }
@@ -248,8 +248,7 @@ ideas = {
             available = {
             ROOT = {
             OR = {
-            has_idea = idea_AOL_state_press
-            has_idea = idea_AOL_total_censorship
+            has_idea = state_press_only
             }
             }
             }
@@ -265,10 +264,9 @@ ideas = {
             available = {
             ROOT = {
             OR = {
-            has_idea = idea_AOL_no_press 
-            has_idea = idea_AOL_free_press
-            has_idea = idea_AOL_light_censorship
-            has_idea = idea_AOL_state_press      
+            has_idea = state_press_only 
+            has_idea = free_press
+            has_idea = censored_press    
             }      
             }
             }

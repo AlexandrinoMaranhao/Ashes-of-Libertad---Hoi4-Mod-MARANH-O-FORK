@@ -25,11 +25,11 @@ set_popularities = {
 }
 
 add_ideas = {
-slavery_banned
-integrated_society
-all_adults_serve
-war_economy
-subsistence_economy
+slavery_outlawed
+equal_rights
+conscription_all_adults_serve
+economic_focus_war_economy
+trade_scope_regional_exports
 
 overcrowded_island
 the_amazonian_military_command
@@ -43,6 +43,12 @@ set_country_flag = has_unique_high_command
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -67,6 +73,4 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
-}
-
 }

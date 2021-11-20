@@ -25,14 +25,21 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_conscription
-	partial_economic_mobilisation
-	free_trade
+	conscription_one_year_draft
+	economic_focus_partial_mobilization
+	trade_scope_intercontinental_exports
 
 	permanent_military_economy
 the_silver_deal
 the_argentinan_facade
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -40,10 +47,4 @@ create_country_leader = {
 	picture = "Portrait_ARG_Arturo_Illia.dds"
 	expire = "1999.1.1"
 	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-
 }

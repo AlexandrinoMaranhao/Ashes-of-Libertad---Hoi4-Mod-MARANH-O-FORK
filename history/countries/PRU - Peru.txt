@@ -25,13 +25,20 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	subsistence_economy
-	limited_conscription
+	economic_focus_demilitarized_economy
+	trade_scope_regional_exports
+	conscription_one_year_draft
 
 PRU_apra_uno
 PRU_quito_clique
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -39,9 +46,6 @@ create_country_leader = {
 	picture = "gfx/leaders/PRU/Portrait_PRU_Haya.dds"
 	expire = "1999.1.1"
 	ideology = socialism  
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -50,9 +54,4 @@ create_country_leader = {
 	picture = "gfx/leaders/PRU/Portrait_PRU_Haya.dds"
 	expire = "1999.1.1"
 	ideology = marxism  
-	traits = {
-		#
-	}
-}
-
 }

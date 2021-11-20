@@ -98,6 +98,13 @@ add_ideas = {
 
 set_convoys = 150
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1963.7.4"
@@ -117,7 +124,5 @@ create_country_leader = {
 	picture = "Portrait_ZAP_Rubén_Jaramillo.dds"
 	expire = "1974.4.13"
 	ideology = guerrilla
-	traits = {
-		#
-	}
+	#traits = { }
 }

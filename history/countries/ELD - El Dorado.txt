@@ -28,16 +28,17 @@ add_ideas = {
 	ELD_crusade_for_democracy
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "El Motilón"
 	picture = "gfx/leaders/ELD/Portrait_ELD_Jesus_Alberto_El_Motilon.dds"
 	expire = "1999.1.1"
 	ideology = authoritarian_democracy 
-	traits = {
-		#
-	}
-}
-
-
 }

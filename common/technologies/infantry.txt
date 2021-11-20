@@ -733,10 +733,10 @@ technologies = {
 				has_template_containing_unit = paratrooper
 				}
 			}
-		}	
 			hidden_effect = {
 				load_oob = "unlock_paratroopers"
 			}
+		}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}	
 		categories = {
@@ -815,10 +815,10 @@ technologies = {
 					has_template_containing_unit = marine
 				}
 			}
-		}	
 			hidden_effect = {
 				load_oob = "unlock_marines"
-			}			
+			}	
+		}			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}	
 		path = {
@@ -909,10 +909,10 @@ technologies = {
 					has_template_containing_unit = mountaineers
 				}
 			}
-		}
 			hidden_effect = {
 				load_oob = "unlock_mountineers"
 			}
+		}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
@@ -1657,10 +1657,10 @@ technologies = {
 					has_template_containing_unit = motorized
 				}
 			}
-		}	
 			hidden_effect = {
 				load_oob = "unlock_motorized"
-			}			
+			}	
+		}			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		

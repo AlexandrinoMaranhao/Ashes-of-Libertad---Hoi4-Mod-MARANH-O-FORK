@@ -26,11 +26,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	tribal_mobilization
-	domestic_servitude
-	racist_society
-	war_economy
-	closed_economy
+	conscription_tribal_mobilisation
+	slavery_bonded_labor
+	economic_focus_war_economy
+	trade_scope_closed_economy
 	waiapi_tribe	
     displaced_tribe
     the_cabanos
@@ -38,6 +37,12 @@ add_ideas = {
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -45,11 +50,4 @@ create_country_leader = {
 	picture = "gfx/leaders/WAP/Portrait_WAP_Tribe_Leader.dds"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
-}
-
-
-
 }

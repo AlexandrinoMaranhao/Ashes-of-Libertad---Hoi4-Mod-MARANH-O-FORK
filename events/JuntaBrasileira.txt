@@ -33,15 +33,15 @@ country_event = {
           add_idea = administration_in_chaos 
         }
         JAG = {
-          add_idea = administration_in_chaos  }
+          add_ideas = administration_in_chaos  }
         LAM = {
-          add_idea = administration_in_chaos  }
+          add_ideas = administration_in_chaos  }
         BEM = {
-          add_idea = administration_in_chaos  }
+          add_ideas = administration_in_chaos  }
         CRJ = {
-          add_idea = administration_in_chaos  }
+          add_ideas = administration_in_chaos  }
         UBA = {
-          add_idea = administration_in_chaos  } 
+          add_ideas = administration_in_chaos  } 
 
         custom_effect_tooltip = collapsingjunta_tt
         set_cosmetic_tag = JUN_COUNCIL

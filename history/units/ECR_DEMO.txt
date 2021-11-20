@@ -20,7 +20,7 @@ units = {
 	}
 	division = {
 		name = "2nd Volunteer Battalion"
-		location = 6322
+		location = 2540
 		division_template = "Cuban Bastards"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
@@ -34,7 +34,7 @@ units = {
 	}
 	division = {
 		name = "2nd Volunteer Battalion"
-		location = 6331
+		location = 2540
 		division_template = "Cuban Bastards"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1

@@ -26,15 +26,21 @@ set_popularities = {
 }
 
 add_ideas = {
-	subsistence_economy
-	civilian_economy
-	volunteer_only
+	trade_scope_regional_exports
+	economic_focus_civilian_economy
+	conscription_volunteer_only
 
 	nebulous_independence
 	whale_hunting
 	cangaceiros_medium
 }
 set_country_flag = is_brazilian
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -43,11 +49,5 @@ create_country_leader = {
 	desc = GONDIM_DESC
 	expire = "1999.1.1"
 	ideology = coronelism
-	traits = {
-	the_thorned_rose
-		#
-	}
-}
-
-
+	traits = { the_thorned_rose }
 }

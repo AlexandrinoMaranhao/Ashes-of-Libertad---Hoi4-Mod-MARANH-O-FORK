@@ -31,16 +31,17 @@ ENG_preassure_from_venezuela
 ENG_the_sun_has_set
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Federal Parliament of the W.I.F."
 	picture = "gfx/leaders/ENG/Portrait_ENG_Federation.dds"
 	expire = "1999.1.1"
 	ideology = federation
-	traits = {
-		#
-	}
-}
-
-
 }

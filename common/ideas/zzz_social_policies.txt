@@ -3,6 +3,7 @@ ideas = {
 	state_religion = {
 		law = yes
 		state_religion_enforced = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_religion_enforced"}
 			default = yes
 			available = { always = no } 
@@ -19,6 +20,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		religious_pluralism = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea religious_pluralism"}
 			available = { always = no } 
 			
@@ -32,6 +34,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		religious_secularism = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea religious_secularism"}
 			available = { always = no } 
 			
@@ -48,6 +51,7 @@ ideas = {
 	poverty_rate = {
 		law = yes
 		wasteland_misery = {
+		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea wasteland_misery"}
 			available = {
 				NOT = { has_idea = slavery_outlawed }
@@ -66,6 +70,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		bellow_poverty_line = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea bellow_poverty_line"}
 			available = { always = no } 
 			
@@ -82,6 +87,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		vital_needs_fulfilled = {
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea vital_needs_fulfilled"}
 			available = { always = no } 
 			default = yes
@@ -99,6 +105,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		confortable_living_standarts = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea confortable_living_standarts"}
 			available = { always = no } 
 			
@@ -113,6 +120,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		luxury_needs_fulfilled = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea luxury_needs_fulfilled"}
 			available = { always = no } 
 			
@@ -130,6 +138,7 @@ ideas = {
 	political_parties = {
 		law = yes
 		political_parties_one_party_state = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea political_parties_one_party_state"}
 			default = yes
 			available = { always = no } 
@@ -144,6 +153,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		political_parties_controlled_opposition = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea political_parties_controlled_opposition"}
 			available = { always = no } 
 			
@@ -158,6 +168,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		political_parties_multiparty_system = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea political_parties_multiparty_system"}
 			available = { always = no } 
 			
@@ -174,6 +185,7 @@ ideas = {
 	racial_integration = {
 		law = yes
 		state_oppression = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_oppression"}
 			default = yes
 			available = { always = no } 
@@ -190,6 +202,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		state_segregation = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_segregation"}
 			available = { always = no } 
 			
@@ -204,6 +217,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		equal_rights = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea equal_rights"}
 			available = { always = no } 
 			
@@ -218,6 +232,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		minorities_protected = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea minorities_protected"}
 			available = { always = no } 
 			
@@ -237,6 +252,7 @@ ideas = {
 	press_freedom = {
 		law = yes
 		state_press_only = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_press_only"}
 			default = yes
 			available = { always = no } 
@@ -259,6 +275,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		censored_press = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea censored_press"}
 			available = { always = no } 
 			
@@ -277,6 +294,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		free_press = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea free_press"}
 			available = { always = no } 
 			
@@ -301,6 +319,7 @@ ideas = {
 	education_rate = {
 		law = yes
 		no_education = {
+		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea no_education"}
 			default = yes
 			available = { always = no } 
@@ -316,6 +335,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		primary_education = {
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea primary_education"}
 			available = { always = no } 
 			
@@ -329,6 +349,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		secondary_education = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea secondary_education"}
 			available = { always = no } 
 			
@@ -342,6 +363,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		tertiary_education = {
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tertiary_education"}
 			available = { always = no } 
 			
@@ -356,6 +378,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		masters_education = {
+		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea masters_education"}
 			available = { always = no } 
 			
@@ -370,3 +393,4 @@ ideas = {
 			ai_will_do = { } 
 		}
 	}
+}

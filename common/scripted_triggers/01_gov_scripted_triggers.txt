@@ -46,6 +46,44 @@ is_amazonian = {
 	}
 }
 
+use_generic_outsider_laws = {
+	hidden_trigger = {
+		OR = {
+			has_country_flag = use_generic_outsider_laws
+		}
+	}
+}
+
+use_generic_draft_exemptions_laws = {
+	hidden_trigger = {
+		has_country_flag = use_generic_draft_exemptions_laws
+	}
+}
+
+use_generic_officer_training_laws = {
+	hidden_trigger = {
+		has_country_flag = use_generic_officer_training_laws
+	}
+}
+
+use_generic_troop_training_laws = {
+	hidden_trigger = {
+		has_country_flag = use_generic_troop_training_laws
+	}
+}
+
+use_generic_mobilization_laws = {
+	hidden_trigger = {
+		has_country_flag = use_generic_mobilization_laws
+	}
+}
+
+use_generic_economy_focus = {
+	hidden_trigger = {
+		has_country_flag = use_generic_economy_focus
+	}
+}
+
 is_brazilian = {
 	hidden_trigger = {
 		OR = {

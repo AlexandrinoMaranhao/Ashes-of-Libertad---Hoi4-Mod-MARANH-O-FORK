@@ -26,11 +26,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	tribal_mobilization
-	regulated_slavery
-	racial_oligarchy
-	undisturbed_isolation
-	closed_economy
+	conscription_tribal_mobilisation
+	slavery_encomienda
+	economic_focus_demilitarized_economy
+	trade_scope_closed_economy
 
 	himerima_tribe
 	staunch_isolationists
@@ -40,17 +39,17 @@ add_ideas = {
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Hi-Merimã Tribe"
 	picture = "gfx/leaders/HIM/Portrait_HIM_Tribe_Leader.dds"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
-}
-
-
-
 }

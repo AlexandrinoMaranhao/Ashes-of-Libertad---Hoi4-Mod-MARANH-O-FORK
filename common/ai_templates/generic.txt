@@ -1,11 +1,7 @@
 armor_generic = {
 
-	blocked_for = {
-
-	}
-
 	roles = {
-		
+		armor
 	}
 	
 	upgrade_prio = {

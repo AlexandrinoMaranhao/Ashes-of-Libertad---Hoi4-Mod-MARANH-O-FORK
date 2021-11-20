@@ -1,8 +1,0 @@
-CRJ_second_battle_of_guanabara = {
-	allowed = {
-		tag = CRJ
-	}
-	visible = {
-		has_war_with = BRA
-	}	
-}

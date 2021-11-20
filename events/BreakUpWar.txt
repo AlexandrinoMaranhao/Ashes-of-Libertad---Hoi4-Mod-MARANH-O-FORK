@@ -40,6 +40,7 @@ country_event = {
             target = JCS
             type = civil_war
         }
+        set_global_flag = JUNTA_CIVIL_WAR
     }
 }
 

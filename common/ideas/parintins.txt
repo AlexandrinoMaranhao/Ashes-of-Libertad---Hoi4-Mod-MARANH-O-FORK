@@ -19,7 +19,7 @@ ideas = {
 			}
 			
 			modifier = {
-
+			neutrality_drift = 0.02
 			}
 		}
 		garantido = {
@@ -41,7 +41,7 @@ ideas = {
 			}
 			
 			modifier = {
-
+			monthly_population = 0.2
 			}
 		}
 		the_other_manaus = {

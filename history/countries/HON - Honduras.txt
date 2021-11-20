@@ -25,18 +25,22 @@ set_popularities = {
 }
 
 add_ideas = {
-	export_focus
-	civilian_economy
+	trade_scope_international_exports
+	economic_focus_civilian_economy
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	name = "Modesto Rodas Alvarado"
 	picture = "gfx/leaders/HON/Portrait_HON_Modesto_Rodas_Alvarado.dds"
 	expire = "1999.1.1"
 	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -44,9 +48,6 @@ create_country_leader = {
 	picture = "gfx/leaders/HON/Portrait_HON_Agapito_Robleda_Castro.dds"
 	expire = "1999.1.1"
 	ideology = maoism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -54,9 +55,6 @@ create_country_leader = {
 	picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -64,9 +62,6 @@ create_country_leader = {
 	picture = "gfx/leaders/HON/Portrait_HON_Juan_Alberto_Melgar_Castro.dds"
 	expire = "1999.1.1"
 	ideology = ultranationalism
-	traits = {
-		#
-	}
 }
 
 create_field_marshal = {
@@ -79,6 +74,4 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 3
-}
-
 }

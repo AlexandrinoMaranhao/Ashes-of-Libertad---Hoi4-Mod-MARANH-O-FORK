@@ -26,11 +26,11 @@ set_popularities = {
 }
 
 add_ideas = {
-	tribal_mobilization
-	domestic_servitude
-	integrated_society
-	war_economy
-	closed_economy
+	conscription_tribal_mobilisation
+	slavery_bonded_labor
+	equal_rights
+	economic_focus_war_economy
+	trade_scope_closed_economy
 
     andira_tribe
 	defenders_of_parintins
@@ -40,18 +40,19 @@ add_ideas = {
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Tuxaua Manoelzinho"
 	picture = "gfx/leaders/ANI/Portrait_AND_Tuxuara_Manuelzinho.dds"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
-}
-
-
 }
 #Esta sociedade estrutura-se em clãs - os ywania - havendo uma hierarquia entre eles, onde o clã sateré (lagarta de fogo) sobrepuja-se aos demais, uma vez que indica os bons tuxauas. Os clãs estão presentes na cosmologia e são narrados nos mitos - saray potairia (as belas palavras dos Sateré-Mawé), e nos cantos do Waymat (ritual da tucandeira). Este ritual de passagem da puberdade para a vida adulta é o evento que tradicionalmente reúne os clãs.
 #

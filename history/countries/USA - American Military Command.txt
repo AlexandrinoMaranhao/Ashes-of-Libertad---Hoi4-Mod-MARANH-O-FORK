@@ -121,6 +121,13 @@ add_ideas = {
 	USA_desperate_push
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	name = "Robert McNamara"
 	picture = "gfx/leaders/USA/Portrait_USA_Robert_McNamara.dds"

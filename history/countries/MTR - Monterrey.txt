@@ -25,10 +25,17 @@ set_popularities = {
 }
 
 add_ideas = {
-	volunteer_only
-	civilian_economy
-	limited_exports
+	conscription_volunteer_only
+	economic_focus_civilian_economy
+	trade_scope_regional_exports
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -36,10 +43,4 @@ create_country_leader = {
 	picture = "Portrait_MTR_Nixon.dds"
 	expire = "1999.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-
 }

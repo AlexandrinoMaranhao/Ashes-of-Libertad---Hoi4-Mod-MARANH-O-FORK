@@ -241,7 +241,7 @@ shared_focus = {
 		}
 		set_variable = { ACR_stability_factor_1 = 0.075 }
 		custom_effect_tooltip = ACR_pass_native_defence_act_tt
-		add_ideas = integrated_society
+		add_ideas = equal_rights
 	}
 }
 shared_focus = {
@@ -552,7 +552,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		add_ideas = free_trade
+		add_ideas = trade_scope_intercontinental_exports
 		add_opinion_modifier = {
 			target = MNS
 			modifier = ACR_established_relations
@@ -607,11 +607,8 @@ shared_focus = {
 
 	completion_reward = {
 
-			add_building_construction = {
-				type = naval_base
-				level = 2
-				province = 223
-				instant_build = yes
+			89 = {
+				add_building_construction = { type = naval_base level = 2 province = 811 instant_build = yes }
 			}
 		random_owned_controlled_state = {
      add_extra_state_shared_building_slots = 1 }
@@ -664,8 +661,6 @@ shared_focus = {
 	prerequisite = { focus = ACR_close_doors }
 	prerequisite = { focus = ACR_rubber_crisis }
 	relative_position_id = ACR_close_doors
-		country_event = ACR_cury.26
-
 	x = -1
 	y = 1
 	cost = 3
@@ -679,6 +674,7 @@ shared_focus = {
 		MNS = {
 			give_guarantee = ACR
 		}
+		country_event = ACR_cury.26
 	}
 }
 shared_focus = {

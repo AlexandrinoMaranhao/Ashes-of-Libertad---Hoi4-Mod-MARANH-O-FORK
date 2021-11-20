@@ -25,11 +25,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	tribal_mobilization
-	regulated_slavery
-	racial_oligarchy
-	war_economy
-	closed_economy
+	conscription_tribal_mobilisation
+	slavery_encomienda
+	economic_focus_war_economy
+	trade_scope_closed_economy
     
     jau_national_park
 	neblina_exploited
@@ -38,16 +37,17 @@ add_ideas = {
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Unorganized Territory"
 	picture = "gfx/leaders/JAU/Portrait_JAU_Jau.dds"
 	expire = "1999.1.1"
 	ideology = tribal
-	traits = {
-		#
-	}
-}
-
-
 }

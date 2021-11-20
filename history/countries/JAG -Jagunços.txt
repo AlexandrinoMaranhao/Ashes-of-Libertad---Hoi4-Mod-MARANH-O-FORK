@@ -109,9 +109,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	volunteer_only
-	civilian_economy
-	limited_exports
+	conscription_volunteer_only
+	economic_focus_civilian_economy
+	trade_scope_regional_exports
 
 	unsustainable_army
 filinto_is_an_ass
@@ -120,15 +120,19 @@ gambiarra_army
 
 set_country_flag = is_brazilian
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Filinto Müller"
 	picture = "gfx/leaders/JAG/Portrait_JAG_Filinto_Muller.dds"
 	expire = "1999.1.1"
 	ideology = military_government 
-	traits = {
-		#
-	}
 }
 
 create_field_marshal = {

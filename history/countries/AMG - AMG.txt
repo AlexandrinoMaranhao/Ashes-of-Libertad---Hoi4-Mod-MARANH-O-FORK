@@ -112,12 +112,16 @@ set_popularities = {
 	reactionary = 0
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	name = "Hermenegildo Cuenca Díaz"
 	picture = "Portrait_AMG_Hermenegildo_Cuenca_Díaz.dds"
 	expire = "1974.4.13"
 	ideology = military_government
-	traits = {
-		#
-	}
 }

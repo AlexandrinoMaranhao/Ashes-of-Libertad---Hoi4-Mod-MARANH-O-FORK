@@ -409,10 +409,10 @@
 # total_segregation:0 "Segregated Society"
 # state_segregation:0 "Partially Segregated Society"
 # racist_society:0 "Racist Society"
-# integrated_society:0 "Integrated Society"
+# equal_rights:0 "Integrated Society"
 # slavery:0 "Slavery Law"
 # slavery_banned:0 "Banned Slavery"
 # bonded_labor:0 "Bonded Labor"
-# domestic_servitude:0 "Domestic Servitude"
+# slavery_bonded_labor:0 "Domestic Servitude"
 # regulated_slavery:0 "Regulated Slavery"
 # unregulated_slavery:0 "Unregulated Slavery"#

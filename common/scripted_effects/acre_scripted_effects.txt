@@ -10,28 +10,22 @@ acre_senate_add_seats_1 = {
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_militarist_seats > senate_technocrat_seats }
-					check_variable = { senate_militarist_seats > senate_nationalist_seats }
-				}
+				check_variable = { senate_militarist_seats > senate_technocrat_seats }
+				check_variable = { senate_militarist_seats > senate_nationalist_seats }
 			}
 			add_to_variable = { senate_militarist_seats = 1 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_technocrat_seats > senate_militarist_seats }
-					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
-				}
+				check_variable = { senate_technocrat_seats > senate_militarist_seats }
+				check_variable = { senate_technocrat_seats > senate_nationalist_seats }
 			}
 			add_to_variable = { senate_technocrat_seats = 1 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_nationalist_seats > senate_militarist_seats }
-					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
-				}
+				check_variable = { senate_nationalist_seats > senate_militarist_seats }
+				check_variable = { senate_nationalist_seats > senate_technocrat_seats }
 			}
 			add_to_variable = { senate_nationalist_seats = 1 }
 		}
@@ -51,28 +45,22 @@ acre_senate_add_seats_2 = {
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_militarist_seats > senate_technocrat_seats }
-					check_variable = { senate_militarist_seats > senate_nationalist_seats }
-				}
+				check_variable = { senate_militarist_seats > senate_technocrat_seats }
+				check_variable = { senate_militarist_seats > senate_nationalist_seats }
 			}
 			add_to_variable = { senate_militarist_seats = 2 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_technocrat_seats > senate_militarist_seats }
-					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
-				}
+				check_variable = { senate_technocrat_seats > senate_militarist_seats }
+				check_variable = { senate_technocrat_seats > senate_nationalist_seats }
 			}
 			add_to_variable = { senate_technocrat_seats = 2 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_nationalist_seats > senate_militarist_seats }
-					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
-				}
+				check_variable = { senate_nationalist_seats > senate_militarist_seats }
+				check_variable = { senate_nationalist_seats > senate_technocrat_seats }
 			}
 			add_to_variable = { senate_nationalist_seats = 2 }
 		}
@@ -92,28 +80,22 @@ acre_senate_add_seats_3 = {
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_militarist_seats > senate_technocrat_seats }
-					check_variable = { senate_militarist_seats > senate_nationalist_seats }
-				}
+				check_variable = { senate_militarist_seats > senate_technocrat_seats }
+				check_variable = { senate_militarist_seats > senate_nationalist_seats }
 			}
 			add_to_variable = { senate_militarist_seats = 3 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_technocrat_seats > senate_militarist_seats }
-					check_variable = { senate_technocrat_seats > senate_nationalist_seats }
-				}
+				check_variable = { senate_technocrat_seats > senate_militarist_seats }
+				check_variable = { senate_technocrat_seats > senate_nationalist_seats }
 			}
 			add_to_variable = { senate_technocrat_seats = 3 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_nationalist_seats > senate_militarist_seats }
-					check_variable = { senate_nationalist_seats > senate_technocrat_seats }
-				}
+				check_variable = { senate_nationalist_seats > senate_militarist_seats }
+				check_variable = { senate_nationalist_seats > senate_technocrat_seats }
 			}
 			add_to_variable = { senate_nationalist_seats = 3 }
 		}
@@ -133,28 +115,22 @@ acre_senate_remove_seats_1 = {
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_militarist_seats < senate_technocrat_seats }
-					check_variable = { senate_militarist_seats < senate_nationalist_seats }
-				}
+				check_variable = { senate_militarist_seats < senate_technocrat_seats }
+				check_variable = { senate_militarist_seats < senate_nationalist_seats }
 			}
 			subtract_from_variable = { senate_militarist_seats = 1 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_technocrat_seats < senate_militarist_seats }
-					check_variable = { senate_technocrat_seats < senate_nationalist_seats }
-				}
+				check_variable = { senate_technocrat_seats < senate_militarist_seats }
+				check_variable = { senate_technocrat_seats < senate_nationalist_seats }
 			}
 			subtract_from_variable = { senate_technocrat_seats = 1 }
 		}
 		else_if = {
 			limit = {
-				AND = {
-					check_variable = { senate_nationalist_seats < senate_militarist_seats }
-					check_variable = { senate_nationalist_seats < senate_technocrat_seats }
-				}
+				check_variable = { senate_nationalist_seats < senate_militarist_seats }
+				check_variable = { senate_nationalist_seats < senate_technocrat_seats }
 			}
 			subtract_from_variable = { senate_nationalist_seats = 1 }
 		}

@@ -107,8 +107,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	scraping_the_barrel
-	closed_economy
+	conscription_scraping_the_barrel
+	trade_scope_closed_economy
 	tot_economic_mobilisation
 
 	colombian_war
@@ -132,9 +132,6 @@ create_country_leader = {
 	picture = "gfx/leaders/COL/Portrait_COL_Guillermo_Leon_Valencia.dds"
 	expire = "1999.1.1"
 	ideology = conservatism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
@@ -143,9 +140,6 @@ create_country_leader = {
 	picture = "gfx/leaders/COL/Portrait_COL_Carlos_Lleras_Restrepo.dds"
 	expire = "1999.1.1"
 	ideology = authoritarian_democracy 
-	traits = {
-		
-	}
 }
 
 declare_war_on = {

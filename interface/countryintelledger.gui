@@ -2053,7 +2053,7 @@ guiTypes = {
 				}
 
 				iconType = {
-					name = "civilian_economy"
+					name = "economic_focus_civilian_economy"
 					position = { x = 43 y = 3 }
 					quadTextureSprite = "GFX_economy_tab"
 					alwaystransparent = yes

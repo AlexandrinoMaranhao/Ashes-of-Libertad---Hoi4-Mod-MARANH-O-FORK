@@ -25,8 +25,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	partial_economic_mobilisation
-	closed_economy
+	economic_focus_partial_mobilization
+	trade_scope_closed_economy
 JAM_struggle_for_freedom
 }
 
@@ -35,16 +35,17 @@ declare_war_on = {
 	type = annex_everything
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Sir William Alexander Bustamante"
 	picture = "gfx/leaders/JAM/Portrait_JAM_William_Alexander.dds"
 	expire = "1999.1.1"
 	ideology = anarchism
-	traits = {
-		#
-	}
-}
-
-
 }

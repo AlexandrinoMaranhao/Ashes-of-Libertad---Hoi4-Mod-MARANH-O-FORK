@@ -161,7 +161,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.2.C
-	add_ideas = total_segregation 
+	add_ideas = state_oppression 
     acre_senate_add_militarist_seats_2 = yes
 
 			add_popularity = {
@@ -186,7 +186,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.3.A
-		add_ideas = integrated_society
+		add_ideas = equal_rights
     acre_senate_add_technocrat_seats_2 = yes
 
 			add_popularity = {
@@ -197,7 +197,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.3.B
-		add_ideas = racist_society
+		add_ideas = state_segregation
 	acre_senate_add_militarist_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes	
 
@@ -228,7 +228,7 @@ country_event = {
 	#Answer
 	option = {
 	  	name = ACR.4.A
-	    add_ideas = idea_AOL_light_censorship
+	    add_ideas = censored_press
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
 
@@ -245,7 +245,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.4.B
-        add_ideas = idea_AOL_total_censorship
+        add_ideas = state_press_only
     acre_senate_add_militarist_seats_2 = yes
 
 			add_popularity = {
@@ -271,7 +271,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.5.A
-		add_ideas = idea_AOL_free_press
+		add_ideas = free_press
     acre_senate_add_nationalist_seats_1 = yes
     acre_senate_add_technocrat_seats_1 = yes
 			
@@ -288,7 +288,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.5.B
-		add_ideas = idea_AOL_light_censorship
+		add_ideas = censored_press
     acre_senate_add_militarist_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
 
@@ -320,7 +320,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.6.A
-		add_ideas = regulated_slavery
+		add_ideas = slavery_encomienda
     acre_senate_add_nationalist_seats_2 = yes
 
 			add_popularity = {
@@ -331,7 +331,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.6.B
-		add_ideas = bonded_labor
+		add_ideas = slavery_bonded_labor
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
 
@@ -363,7 +363,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.7.A
-		add_ideas = slavery_banned
+		add_ideas = slavery_outlawed
     acre_senate_add_technocrat_seats_2 = yes
 
 			add_popularity = {
@@ -374,7 +374,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.7.B
-		add_ideas = domestic_servitude
+		add_ideas = slavery_bonded_labor
     acre_senate_add_technocrat_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
 
@@ -426,7 +426,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.9.A
-		add_ideas = limited_conscription
+		add_ideas = conscription_one_year_draft
     acre_senate_add_technocrat_seats_2 = yes
 
 			add_popularity = {
@@ -438,7 +438,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.9.B
-		add_ideas = extensive_conscription
+		add_ideas = conscription_two_year_draft
     acre_senate_add_nationalist_seats_2 = yes
 
 			add_popularity = {
@@ -449,7 +449,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.9.C
-		add_ideas = all_adults_serve
+		add_ideas = conscription_all_adults_serve
 	acre_senate_add_militarist_seats_2 = yes
 
 			add_popularity = {
@@ -535,7 +535,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.12.A
-		add_ideas = closed_economy
+		add_ideas = trade_scope_closed_economy
     acre_senate_add_militarist_seats_2 = yes
 
 			add_popularity = {
@@ -546,7 +546,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.12.B
-		add_ideas = export_focus
+		add_ideas = trade_scope_international_exports
     acre_senate_add_nationalist_seats_2 = yes
 
 			add_popularity = {
@@ -557,7 +557,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.12.C
-		add_ideas = limited_exports
+		add_ideas = trade_scope_regional_exports
     acre_senate_add_technocrat_seats_2 = yes
 
 			add_popularity = {
@@ -720,7 +720,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.17.A
-		add_ideas = low_economic_mobilisation
+		add_ideas = economic_focus_early_mobilization
     acre_senate_add_technocrat_seats_2 = yes
 
 			add_popularity = {
@@ -731,7 +731,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.17.C
-		add_ideas = war_economy
+		add_ideas = economic_focus_war_economy
     acre_senate_add_nationalist_seats_2 = yes
 
 			add_popularity = {
@@ -742,7 +742,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.17.B
-		add_ideas = undisturbed_isolation
+		add_ideas = economic_focus_demilitarized_economy
     acre_senate_add_militarist_seats_2 = yes
 
 			add_popularity = {
@@ -967,7 +967,7 @@ country_event = {
 					traits = {
 					}
 				}
-				load_focus_tree = ACR_focus_6
+				#load_focus_tree = ACR_focus_6
 				set_country_flag = kalume_elected
 			}
 			else_if = { # Technocrats Elected
@@ -993,7 +993,7 @@ country_event = {
 					traits = {
 					}
 				}
-				load_focus_tree = ACR_focus_7
+				#load_focus_tree = ACR_focus_7
 				set_country_flag = eneas_elected
 				set_variable = { senate_seats = 21 }
 				set_variable = { senate_technocrat_seats = 5 }
@@ -1024,7 +1024,7 @@ country_event = {
 					traits = {
 					}
 				}
-				load_focus_tree = ACR_focus_8
+				#load_focus_tree = ACR_focus_8
 			set_country_flag = augusto_elected
 		}
 	}
@@ -1208,7 +1208,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.7.a
-		add_ideas = idea_AOL_free_press
+		add_ideas = free_press
 	}
 }
 
@@ -1253,7 +1253,7 @@ country_event = {
 	title = ACR_cury.10.t
 	desc = ACR_cury.10.d
 	trigger = {
-		has_idea = closed_economy
+		has_idea = trade_scope_closed_economy
 	}
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -1660,18 +1660,18 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.4.A
-		add_ideas = bonded_labor
+		add_ideas = slavery_bonded_labor
 		add_ideas = state_segregation
 	}
 	option = {
 		name = ACRMarques.4.B
-		add_ideas = limited_exports
-		add_ideas = domestic_servitude
+		add_ideas = trade_scope_regional_exports
+		add_ideas = slavery_encomienda
 	}
 	option = {
 		name = ACRMarques.4.C
-		add_ideas = integrated_society
-		add_ideas = export_focus
+		add_ideas = equal_rights
+		add_ideas = trade_scope_international_exports
 	}
 }
 

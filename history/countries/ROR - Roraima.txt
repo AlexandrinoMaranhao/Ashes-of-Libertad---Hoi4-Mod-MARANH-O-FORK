@@ -24,15 +24,15 @@ set_popularities = {
 }
 
 add_ideas = {
-slavery_banned 
-integrated_society 
-limited_conscription
-isolation
-closed_economy
-idea_AOL_state_press
-a50_literacy
-jungle_spe
-militia_troop_training
+slavery_outlawed 
+equal_rights 
+conscription_one_year_draft
+trade_scope_closed_economy
+trade_scope_closed_economy
+state_press_only
+secondary_education
+guerrilla_specialization
+militia_training
 no_mercenaries
 
 misfits
@@ -43,6 +43,12 @@ set_country_flag = has_unique_advisors
 set_country_flag = has_unique_chiefs
 set_country_flag = has_unique_theorists
 set_country_flag = has_unique_high_command
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
@@ -53,9 +59,6 @@ create_country_leader = {
 	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	expire = "1999.1.1"
 	ideology = military_junta
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -142,5 +145,4 @@ create_country_leader = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
-}
 }

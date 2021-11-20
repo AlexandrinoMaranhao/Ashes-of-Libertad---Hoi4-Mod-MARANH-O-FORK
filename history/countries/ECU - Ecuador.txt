@@ -26,12 +26,19 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_conscription
-	civilian_economy
+	conscription_one_year_draft
+	economic_focus_civilian_economy
 
 	ECU_the_huasipungos
 
 }
+
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -39,10 +46,4 @@ create_country_leader = {
 	picture = "gfx/leaders/ECU/Portrait_ECU_Ramon_Casto_Jijon.dds"
 	expire = "1999.1.1"
 	ideology = ultranationalism 
-	traits = {
-		#
-	}
-}
-
-
 }

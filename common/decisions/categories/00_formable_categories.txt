@@ -84,7 +84,7 @@ form_united_peru_category = {
 
 	icon = generic_formable_nations
 
-	picture = 
+	#picture = 
 
 }
 
@@ -92,7 +92,7 @@ form_united_cuba_category = {
 
 	icon = generic_formable_nations
 
-	picture = 
+	#picture = 
 
 }
 
@@ -100,7 +100,7 @@ form_united_bahia_category = {
 	
 	icon = generic_formable_nations
 
-	picture = 
+	#picture = 
 
 }
 
@@ -108,6 +108,6 @@ form_united_nordeste_category = {
 	
 	icon = generic_formable_nations
 
-	picture = 
+	#picture = 
 
 }

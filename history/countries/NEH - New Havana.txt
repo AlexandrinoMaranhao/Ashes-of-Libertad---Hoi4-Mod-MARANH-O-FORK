@@ -31,16 +31,17 @@ the_american_deal
 old_world_blues
 }
 
+set_country_flag = use_generic_outsider_laws
+set_country_flag = use_generic_draft_exemptions_laws
+set_country_flag = use_generic_officer_training_laws
+set_country_flag = use_generic_troop_training_laws
+set_country_flag = use_generic_mobilization_laws
+set_country_flag = use_generic_economy_focus
+
 create_country_leader = {
 	
 	name = "Señor Casa"
 	picture = "gfx/leaders/NEH/Portrait_NEH_Senor_Casa.dds"
 	expire = "1999.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-
 }
