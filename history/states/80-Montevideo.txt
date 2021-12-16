@@ -8,21 +8,24 @@ state={
 	buildings_max_level_factor=1.000
         state_category=metropolis
 
-            history = {
-             owner=URG
-             add_core_of = URG
+   history = {
+      owner=URG
+      add_core_of = URG
 
-        victory_points = {
-           4921 50
-        }
-        victory_points = {
-           4912 5
-        }
-        victory_points = {
-           464 5
-        }
-        victory_points = {
-           2266 5
-        }
-}
+      victory_points = {
+         4921 50
+      }
+      victory_points = {
+         1195 5
+      }
+      victory_points = {
+         4906 5
+      }
+      victory_points = {
+         4896 5
+      }
+      victory_points = {
+         4912 5
+      }
+   }
 }

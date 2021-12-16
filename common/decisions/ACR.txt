@@ -25,18 +25,16 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					capital = {
-						add_resource = {
-							type = rubber
-							amount = -8
-						}
-						add_resource = {
-							type = steel
-							amount = 10
-						}
-					}
-					
-				} 
+				}	
+				add_resource = {
+					type = rubber
+					amount = -8
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}	
+			}
 				else = {
 					ACR = {
 						random_controlled_state = {
@@ -59,7 +57,6 @@ ACR_compensation_trade_category = {
 					}
 				}
 			}
-		}
 		days_remove = 120
 		ai_will_do = {
 			factor = 999
@@ -90,7 +87,6 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					capital = {
 						add_resource = {
 							type = rubber
 							amount = -8
@@ -99,9 +95,9 @@ ACR_compensation_trade_category = {
 							type = oil
 							amount = 10
 						}
-					}
 					
 				} 
+			}	
 				else = {
 					ACR = {
 						random_controlled_state = {
@@ -123,7 +119,6 @@ ACR_compensation_trade_category = {
 						}
 					}
 				}
-			}
 		}
 		days_remove = 120
 		ai_will_do = {
@@ -171,7 +166,6 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					capital = {
 						add_resource = {
 							type = rubber
 							amount = -8
@@ -180,9 +174,9 @@ ACR_compensation_trade_category = {
 							type = ammunition
 							amount = 10
 						}
-					}
 
 				}
+			}	
 				else = {
 					ACR = {
 						random_controlled_state = {
@@ -205,7 +199,6 @@ ACR_compensation_trade_category = {
 					}
 				}
 			}
-		}
 		days_remove = 120
 	}
 	trade_motors = {
@@ -236,7 +229,6 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					capital = {
 						add_resource = {
 							type = rubber
 							amount = -8
@@ -245,9 +237,9 @@ ACR_compensation_trade_category = {
 							type = motors
 							amount = 10
 						}
-					}
 					
 				}
+			}	
 				else = {
 					ACR = {
 						random_controlled_state = {
@@ -269,7 +261,6 @@ ACR_compensation_trade_category = {
 						}
 					}
 				}
-			}
 		}
 		days_remove = 120
 		ai_will_do = {
@@ -308,7 +299,6 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-					capital = {
 						add_resource = {
 							type = rubber
 							amount = -8
@@ -342,7 +332,6 @@ ACR_compensation_trade_category = {
 					}
 				}
 			}
-		}
 		days_remove = 120
 	}
 }
