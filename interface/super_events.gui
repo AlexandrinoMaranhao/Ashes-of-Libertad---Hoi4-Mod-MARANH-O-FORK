@@ -6,8 +6,8 @@ guiTypes = {
 		show_position = { x = 142 y = -220 }
 		show_animation_type = decelerated
 		animation_time = 400
-		Orientation = LEFT
-		origo = left
+		Orientation = UPPER_RIGHT
+		origo = upper_right
 		clipping = no
 
 		buttonType = { # Background Closed
@@ -24,8 +24,8 @@ guiTypes = {
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
-		Orientation = LEFT
-		origo = left
+		Orientation = UPPER_RIGHT
+		origo = upper_right
 		clipping = no
 
 		iconType = { # Background Open
@@ -44,8 +44,8 @@ guiTypes = {
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
-		Orientation = LEFT
-		origo = LEFT
+		Orientation = UPPER_RIGHT
+		origo = UPPER_RIGHT
 		clipping = no
 		show_sound = guanabara_super
 
@@ -66,7 +66,7 @@ guiTypes = {
 			maxHeight = 200
 			fixedsize = yes
 			format = right
-			Orientation = lower_left
+			Orientation = lower_upper_right
 		}
 
 		buttonType = {
@@ -86,8 +86,8 @@ guiTypes = {
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
-		Orientation = LEFT
-		origo = LEFT
+		Orientation = UPPER_RIGHT
+		origo = UPPER_RIGHT
 		clipping = no
 		show_sound = maw_super
 
@@ -108,7 +108,7 @@ guiTypes = {
 			maxHeight = 200
 			fixedsize = yes
 			format = right
-			Orientation = lower_left
+			Orientation = lower_upper_right
 		}
 
 		buttonType = {
@@ -129,8 +129,8 @@ guiTypes = {
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
-		Orientation = LEFT
-		origo = LEFT
+		Orientation = UPPER_RIGHT
+		origo = UPPER_RIGHT
 		clipping = no
 		show_sound = prestes_super
 
@@ -151,7 +151,7 @@ guiTypes = {
 			maxHeight = 200
 			fixedsize = yes
 			format = right
-			Orientation = lower_left
+			Orientation = lower_upper_right
 		}
 
 		buttonType = {
