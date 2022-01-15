@@ -1,9 +1,6 @@
 state={
 	id=513
 	name="STATE_513"
-	provinces={
-		843 1938 4513 4523 4552 
-	}
 	manpower=28493
 	buildings_max_level_factor=1.000
 	state_category=rural
@@ -11,7 +8,7 @@ state={
 history = {
 buildings = {
 
-			infrastructure = 4
+			infrastructure = 2
 			843 = {
 				bunker = 2
 			}
@@ -21,15 +18,12 @@ buildings = {
 			4513 = {
 				bunker = 2
 			}
-			4523 {
-				bunker = 2
-			}
-			4552 {
-				bunker = 2
-			}
 		}
 		owner = UBA
 		add_core_of = UBA
 		add_core_of = RMI
 }
+	provinces={
+		843 1938 4513 4523 4552 
+	}
 }

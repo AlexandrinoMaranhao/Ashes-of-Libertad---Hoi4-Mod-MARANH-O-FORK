@@ -15,7 +15,7 @@ steel = 2
 
         buildings = {
             arms_factory = 1
-            infrastructure = 4
+            infrastructure = 2
         }
         owner = ZOE
         add_core_of = ZOE

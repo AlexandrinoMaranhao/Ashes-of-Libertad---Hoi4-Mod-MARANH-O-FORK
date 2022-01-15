@@ -18,7 +18,7 @@ motors = 4
 
         buildings = {
 
-            infrastructure = 4
+            infrastructure = 2
 
             3710 = {
                 naval_base = 1

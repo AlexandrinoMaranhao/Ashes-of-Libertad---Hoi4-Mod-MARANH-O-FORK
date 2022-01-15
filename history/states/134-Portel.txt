@@ -18,7 +18,7 @@ ammunition = 2
         buildings = {
             industrial_complex = 1
             dockyard = 1
-            infrastructure = 3
+            infrastructure = 2
         }
         owner = BEM
         add_core_of = BEM

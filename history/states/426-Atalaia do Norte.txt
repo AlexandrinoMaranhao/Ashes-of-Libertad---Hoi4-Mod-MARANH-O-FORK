@@ -18,7 +18,7 @@ steel = 3
 
         buildings = {
             arms_factory = 1
-            infrastructure = 4
+            infrastructure = 2
 
             2067 = {
                 naval_base = 1

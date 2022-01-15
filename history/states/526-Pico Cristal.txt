@@ -15,7 +15,7 @@ state={
 		add_core_of = CUB
 
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 
 6345 = {
 	bunker = 2

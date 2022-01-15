@@ -13,7 +13,7 @@ state={
 			1963 5 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			2791 = {
 				naval_base = 2

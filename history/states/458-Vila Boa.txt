@@ -19,7 +19,7 @@ ammunition = 6
 
         buildings = {
             arms_factory = 1
-            infrastructure = 5
+            infrastructure = 3
         }
 		victory_points = {
                 3264 20

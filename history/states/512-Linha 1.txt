@@ -1,9 +1,6 @@
 state={
 	id=512
 	name="STATE_512"
-	provinces={
-		1994 4524 
-	}
 
 	manpower=12937
 	buildings_max_level_factor=1.000
@@ -12,16 +9,13 @@ state={
 history = {
 buildings = {
 
-			infrastructure = 4
-			1994 = {
-				bunker = 2
-			}
-			4524 {
-				bunker = 2
-			}
+			infrastructure = 2
 		}
 		owner = UBA
 		add_core_of = UBA
 		add_core_of = RMI
 }
+	provinces={
+		1994 4524 
+	}
 }

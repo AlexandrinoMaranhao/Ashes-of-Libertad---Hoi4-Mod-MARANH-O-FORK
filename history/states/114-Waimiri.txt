@@ -9,7 +9,7 @@ state={
 	history={
 		buildings = {
 			arms_factory = 2
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		owner = WAM

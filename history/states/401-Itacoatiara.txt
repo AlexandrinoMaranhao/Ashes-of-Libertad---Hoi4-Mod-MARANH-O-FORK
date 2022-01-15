@@ -16,7 +16,7 @@ steel = 2
 	add_core_of = MNS
 
         buildings = {
-            infrastructure = 4
+            infrastructure = 2
         }
 		victory_points = {
                 3625 5

@@ -12,7 +12,7 @@ state={
                 add_core_of = BEM
 		buildings = {
 			arms_factory = 2
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		victory_points = {
