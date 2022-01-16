@@ -28,4 +28,5 @@ ammunition = 3
 		victory_points = {
                 537 5
 		}
+	}
 }

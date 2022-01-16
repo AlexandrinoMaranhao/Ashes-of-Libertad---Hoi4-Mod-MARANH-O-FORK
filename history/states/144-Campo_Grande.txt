@@ -50,5 +50,6 @@ victory_points = {
 
  victory_points = {
            2548 10       
+		}
+	}
 }
-

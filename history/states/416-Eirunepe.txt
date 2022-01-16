@@ -27,4 +27,5 @@ steel = 1
 		victory_points = {
                 1705 5
 		}
+	}
 }

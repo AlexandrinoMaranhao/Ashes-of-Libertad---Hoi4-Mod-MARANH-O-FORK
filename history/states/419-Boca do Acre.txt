@@ -6,31 +6,25 @@ state={
 	}
 
         resources = {
-rubber = 2
-steel = 1 
+rubber = 7
+steel = 2
+ammunition = 2
 }
 	manpower=1994
 	buildings_max_level_factor=1.000
         state_category=rural
-
-        resources = {
-rubber = 5
-steel = 1 
-ammunition = 2
-}
         history = {
 	owner = IQU
 	add_core_of = IQU
-
-        buildings = {
-            arms_factory = 1
-            infrastructure = 2
-
+buildings = {
+        arms_factory = 1
+        infrastructure = 2
             4168 = {
                 naval_base = 1
             }
         }
-		victory_points = {
+        victory_points = {
                 4168 5
-		}
+                }
+        }
 }

@@ -26,4 +26,5 @@ rubber = 10
 		victory_points = {
                 2273 1
 		}
+	}
 }

@@ -37,7 +37,7 @@ state={
 			1558 = {
 				bunker = 2
 			}
-		}
+		}	
 
 victory_points = {
            1558 5
@@ -50,4 +50,6 @@ victory_points = {
 }
 victory_points = {
            1738 10 
+		}
+	}
 }

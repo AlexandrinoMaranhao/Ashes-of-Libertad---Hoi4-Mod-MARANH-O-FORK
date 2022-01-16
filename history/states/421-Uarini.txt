@@ -27,5 +27,5 @@ motors = 4
 		victory_points = {
                 3710 5
 		}
-
+	}
 }
