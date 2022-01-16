@@ -181,10 +181,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ongoing_generic_glow_yellow.dds"
 		noOfFrames = 3
 		animation_rate_fps = 1
-		looping = yes
+		looping = no
 		play_on_show = yes
 		pause_on_loop = 0.0
-		alwaystransparent = yes
+		alwaystransparent = no
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}	
 	
@@ -193,10 +193,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ongoing_focus_goal_polview.dds"
 		noOfFrames = 3
 		animation_rate_fps = 1
-		looping = yes
+		looping = no
 		play_on_show = yes
 		pause_on_loop = 0.0
-		alwaystransparent = yes
+		alwaystransparent = no
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
