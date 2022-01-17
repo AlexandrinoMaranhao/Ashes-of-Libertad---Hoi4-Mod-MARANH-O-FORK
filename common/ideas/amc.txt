@@ -19,9 +19,8 @@ ideas = {
 			}
 			
 			modifier = {
-				attrition = 0.8
-				industrial_capacity_factory = -0.8
-				industrial_capacity_dockyard = -0.8
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
 				consumer_goods_factor = 0.3
 			}
 		}
@@ -44,11 +43,11 @@ ideas = {
 			}
 			
 			modifier = {
-				amphibious_invasion = 0.1
-				training_time_army_factor = 0.05
-				acclimatization_hot_climate_gain_factor = 0.3
-				out_of_supply_factor = -0.25
-				supply_consumption_factor = -0.2
+				amphibious_invasion = 0.05
+				training_time_army_factor = 0.02
+				acclimatization_hot_climate_gain_factor = 0.02
+				out_of_supply_factor = -0.05
+				supply_consumption_factor = -0.05
 
 			}
 		}
