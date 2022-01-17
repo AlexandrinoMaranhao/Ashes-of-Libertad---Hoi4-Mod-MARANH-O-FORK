@@ -762,45 +762,38 @@ HAL = {
 	color_ui = rgb { 0 0 0 }
 }
 
-
-SIN = {
-	color = rgb { 211 208 0 }
-	color_ui = rgb { 211 208 0 }
-}
-
 NNM = {
 	color = rgb { 0 127 70 }
 	color_ui = rgb { 0 127 70 }
 }
-
 GDL = {
 	color = rgb { 183 0 51 }
 	color_ui = rgb { 183 0 51 }
 }
 
 JCL = {
-	color = rgb { 252 209 9 }
-	color_ui = rgb { 252 209 9 }
+	color = rgb { 123 74 74 }
+	color_ui = rgb { 123 74 74 }
 }
 
 JCS = {
-	color = rgb { 252 209 9 }
-	color_ui = rgb { 252 209 9 }
+	color = rgb { 56 34 37 }
+	color_ui = rgb { 56 34 37 }
 }
 
 JEG = {
-	color = rgb { 252 209 9 }
-	color_ui = rgb { 252 209 9 }
+	color = rgb { 57 71 48 }
+	color_ui = rgb { 57 71 48 }
 }
 
 JGD = {
-	color = rgb { 252 209 9 }
-	color_ui = rgb { 252 209 9 }
+	color = rgb { 93 82 60 }
+	color_ui = rgb { 93 82 60 }
 }
 
 JRM = {
-	color = rgb { 252 209 9 }
-	color_ui = rgb { 252 209 9 }
+	color = rgb { 62 91 61 }
+	color_ui = rgb { 62 91 61 }
 }
 
 USA = {
