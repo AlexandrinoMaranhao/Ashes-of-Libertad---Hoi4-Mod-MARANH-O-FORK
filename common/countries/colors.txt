@@ -779,28 +779,28 @@ GDL = {
 }
 
 JCL = {
-	color = rgb { 123 74 74 }
-	color_ui = rgb { 123 74 74 }
+	color = rgb { 252 209 9 }
+	color_ui = rgb { 252 209 9 }
 }
 
 JCS = {
-	color = rgb { 56 34 37 }
-	color_ui = rgb { 56 34 37 }
+	color = rgb { 252 209 9 }
+	color_ui = rgb { 252 209 9 }
 }
 
 JEG = {
-	color = rgb { 57 71 48 }
-	color_ui = rgb { 57 71 48 }
+	color = rgb { 252 209 9 }
+	color_ui = rgb { 252 209 9 }
 }
 
 JGD = {
-	color = rgb { 93 82 60 }
-	color_ui = rgb { 93 82 60 }
+	color = rgb { 252 209 9 }
+	color_ui = rgb { 252 209 9 }
 }
 
 JRM = {
-	color = rgb { 62 91 61 }
-	color_ui = rgb { 62 91 61 }
+	color = rgb { 252 209 9 }
+	color_ui = rgb { 252 209 9 }
 }
 
 USA = {
