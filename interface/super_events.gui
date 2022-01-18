@@ -2,8 +2,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "super_event_frame_closed"
 		size = { width = 1000 height = 755 }
-		position = { x = -1500 y = -220 }
-		show_position = { x = 142 y = -220 }
+		position = { x = -1500 y = -250 }
+		show_position = { x = -650 y = -250 }
 		show_animation_type = decelerated
 		animation_time = 400
 		Orientation = UPPER_RIGHT
@@ -20,7 +20,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "super_event_frame_open"
 		size = { width = 1000 height = 755 }
-		position = { x = -60 y = -220 }
+		position = { x = -700 y = -250 }
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
@@ -40,7 +40,7 @@ guiTypes = {
 	containerWindowType = { # Guanabara
 		name = "super_event_guanabara"
 		size = { width = 1000 height = 755 }
-		position = { x = -60 y = -220 }
+		position = { x = -700 y = -250 }
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
@@ -82,7 +82,7 @@ guiTypes = {
 	containerWindowType = { # Mexican-American War
 		name = "super_event_maw"
 		size = { width = 1000 height = 755 }
-		position = { x = -60 y = -220 }
+		position = { x = -700 y = -250 }
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
@@ -125,7 +125,7 @@ guiTypes = {
 	containerWindowType = { # Prestes
 		name = "super_event_prestes"
 		size = { width = 1000 height = 755 }
-		position = { x = -60 y = -220 }
+		position = { x = -700 y = -250 }
 		#hide_position = { x= -1500 y = -220 }
 		#hide_animation_type = accelerated
 		animation_time = 400
