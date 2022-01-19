@@ -1,0 +1,17 @@
+spriteTypes = {
+	#### PICTURES ####
+	spriteType = {
+		name = "GFX_ACR_End_of_Demo"
+		texturefile = "gfx/interface/GUIs/acre/end_of_demo/end of demo.dds"
+	}
+	spriteType = {
+		name = "GFX_ACR_End_of_Demo_button"
+		texturefile = "gfx/interface/GUIs/acre/end_of_demo/end of demo button.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ACR_End_of_Demo_text"
+		texturefile = "gfx/interface/GUIs/acre/end_of_demo/end of demo text.dds"
+		transparencecheck = yes
+	}
+}

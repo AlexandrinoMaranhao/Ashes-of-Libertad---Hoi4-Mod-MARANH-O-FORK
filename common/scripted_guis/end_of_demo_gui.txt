@@ -1,0 +1,19 @@
+scripted_gui = {
+
+	end_of_demo = {
+		context_type = player_context
+		window_name = "end_of_demo_GUI"
+		visible = { has_country_flag = demo_end }
+
+		properties = {
+		}
+
+		effects = {
+		end_of_demo_button_click = {
+			TST = {
+			change_tag_from = ROOT
+			}
+			}
+		}
+	}
+}
