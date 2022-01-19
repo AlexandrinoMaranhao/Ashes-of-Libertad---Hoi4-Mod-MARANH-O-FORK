@@ -245,7 +245,7 @@ country_event = {
         445 = { set_demilitarized_zone = yes }
         ELD = {
 			transfer_state = 315
-			load_oob = ELD_1967
+			load_oob = "ELD_1967"
 			every_state = {
 				limit = {
 					is_owned_by = VEN
@@ -315,7 +315,7 @@ country_event = {
 				add_core_of = VEJ
 			}
 			transfer_state = 313
-            load_oob = VEJ_1967 }
+            load_oob = "VEJ_1967" }
 
         VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.7 days = 24 } }
 
@@ -354,7 +354,7 @@ country_event = {
 		transfer_state = 449 }
         LLA = { transfer_state = 310 }
         LLA = { transfer_state = 446 }
-        LLA = { load_oob = LLA_1967 }
+        LLA = { load_oob = "LLA_1967" }
 
     VEJ = {
             declare_war_on = {
@@ -406,14 +406,14 @@ country_event = {
         447 = { set_demilitarized_zone = no }
 
         VEC = { 
-					load_oob = VEC_1967
-			every_state = {
-				limit = {
-					is_owned_by = VEN
-					is_core_of = VEN
+				load_oob = "VEC_1967"
+				every_state = {
+					limit = {
+						is_owned_by = VEN
+						is_core_of = VEN
+					}
+					add_core_of = VEC
 				}
-				add_core_of = VEC
-			}
             transfer_state = 304 }
         VEC = { transfer_state = 305 }
         VEC = { transfer_state = 303 }
