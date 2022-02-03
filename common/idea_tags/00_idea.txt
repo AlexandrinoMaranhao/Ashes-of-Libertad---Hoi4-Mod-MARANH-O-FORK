@@ -7,11 +7,14 @@ idea_categories = {
         removal_cost = -1
     }
 
-    country = {
-        national_spirit = yes
-        cost = 0
-        removal_cost = -1
-    }
+	country = {
+		type = national_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
 
     ministers = {
         slot = political_advisor
