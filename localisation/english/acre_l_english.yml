@@ -70,7 +70,7 @@
  ACR_ears_on_manaus_idea_MNS:0 "Ears on Manaus"
  ACR_ears_on_manaus_idea_NHA:0 "Ears on Manaus"
  ACR_expanded_frogmen_corps:0 "Expanded Frogmen Corps"
- ACR_fighting_neoliberalism:0 "Fighting Neomalthusianism
+ ACR_fighting_neoliberalism:0 "Fighting Neomalthusianism"
  ACR_last_university_on_earth:0 "Last University on Earth"
 ################
 # Tooltips
@@ -106,7 +106,7 @@
  ACR_offer_coari_a_place:0 "Chose to Offer Coari a Place in the Republic"
  ACR_coari_solved_tt:0 "Adds empty seats to the Senate equal to the amount of cities taken from Coari"
  ACR_dealing_with_lamarca_tt:0 "Unlocks Senate decisions to deal with Lamarca"
- ACR_the_base_reforms_tt:0 "Unlocks a decision to "Pass Base Reforms" gaining cores across recently conquered land"
+ ACR_the_base_reforms_tt:0 "Unlocks a decision to ''Pass Base Reforms'' gaining cores across recently conquered land"
  ACR_pass_the_base_reforms_tt:0 "Gains cores on all land taken from Fonte Boa"
  ACR_augusto_reforms_militarist:0 "Chose the Militarist Option in the Base Reforms"
  ACR_the_congress_of_xapuri_tt:0 "§CThe Congress Shall be Held§!"
