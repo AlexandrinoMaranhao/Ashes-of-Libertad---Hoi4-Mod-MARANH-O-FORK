@@ -1,6 +1,8 @@
 technologies = {
 
 	fleet_in_being = {
+		doctrine_name = "TITLE_FLEET_IN_BEING"
+		
 		#Fleet in being is mainly focused on Battleships (and Battlecrusiers/Heavy cruisers) and ASW with carriers and submarines being used to a lesser extent. The fleet may not have to do anything at all to be useful - simply having a powerful fleet in a protected port forces your enemies to keep a fleet of their own nearby in order you fight you if you emerge
 		#Bonus org for BB/BC/CA
 		
@@ -43,8 +45,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -90,8 +91,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -145,8 +145,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -176,11 +175,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -215,8 +214,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -234,6 +232,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				has_war_with = GER
 				factor = 5
 			}
 			modifier = {
@@ -241,11 +240,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -275,8 +274,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -294,11 +292,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -325,8 +323,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -344,11 +341,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -381,8 +378,7 @@ technologies = {
 		mines_planting_by_fleets_factor = 0.1
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -408,11 +404,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -440,8 +436,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -498,8 +493,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -531,11 +525,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -563,8 +557,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -596,11 +589,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -636,8 +629,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -669,11 +661,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -702,8 +694,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -746,8 +737,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -766,11 +756,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -798,8 +788,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -818,11 +807,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -844,8 +833,7 @@ technologies = {
 		#######
 	
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -864,11 +852,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -880,6 +868,8 @@ technologies = {
 	}
 	
 	trade_interdiction = {
+		doctrine_name = "TITLE_TRADE_INTERDICTION"
+		
 		# This tree is focused on sinking convoys, and boosting Subs and all types of Cruiser. It has some boosts for CVs and Battleships, but the CVs should be a bit worse and the BBs a lot worse than Fleet in being's.
 
 		xp_research_type = navy
@@ -921,8 +911,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -945,6 +934,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -978,8 +968,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1003,6 +992,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1034,8 +1024,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1059,6 +1048,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1066,11 +1056,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1091,7 +1081,7 @@ technologies = {
 			surface_detection = 0.10
 		}
 
-		naval_torpedo_reveal_chance_factor = -0.15
+		naval_torpedo_reveal_chance_factor = -0.10
 		#######
 		
 		path = {
@@ -1100,8 +1090,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1125,6 +1114,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
 				factor = 3
 			}
 			modifier = {
@@ -1132,11 +1122,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1164,8 +1154,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1189,6 +1178,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
 				factor = 2
 			}
 			modifier = {
@@ -1196,11 +1186,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1239,8 +1229,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1264,6 +1253,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
 				factor = 2
 			}
 			modifier = {
@@ -1271,11 +1261,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1313,8 +1303,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1367,8 +1356,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1386,11 +1374,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1424,8 +1412,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1443,11 +1430,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1474,8 +1461,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1493,11 +1479,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1519,8 +1505,7 @@ technologies = {
 		########
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1538,11 +1523,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -1572,8 +1557,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1623,8 +1607,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1667,8 +1650,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1712,8 +1694,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1740,6 +1721,7 @@ technologies = {
 	}
 	
 	base_strike = {
+		doctrine_name = "TITLE_BASE_STRIKE"
 		#This tree is primarily focused on Carriers. It should have the best Carriers, Battleships that are better than Trade interdiction but worse than Fleet in being, and has the same Sub tree as FiB. Convoy defense is better than TI but worse than FiB
 		
 		xp_research_type = navy
@@ -1769,8 +1751,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1792,6 +1773,8 @@ technologies = {
 			}
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
@@ -1827,8 +1810,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1852,11 +1834,15 @@ technologies = {
 			}
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
 				OR = {
+					has_war_with = JAP
+					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -1893,8 +1879,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1918,16 +1903,20 @@ technologies = {
 			}
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
 				OR = {
+					has_war_with = JAP
+					has_war_with = USA
 				}
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
@@ -1960,8 +1949,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1985,11 +1973,16 @@ technologies = {
 			}
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
-				OR = { }
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
 				factor = 2
 			}
 			modifier = {
@@ -1997,11 +1990,11 @@ technologies = {
 				factor = 4
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2033,8 +2026,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2059,19 +2051,23 @@ technologies = {
 			}
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 			modifier = {
 				OR = {
+					has_war_with = JAP
+					has_war_with = USA
 				}
 				factor = 2
 			}
@@ -2104,8 +2100,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2124,20 +2119,24 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 4
 			}
 			modifier = {
 				OR = {
+					has_war_with = JAP
+					has_war_with = USA
 				}
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2164,8 +2163,7 @@ technologies = {
 		###########
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2189,20 +2187,24 @@ technologies = {
 			}
 			modifier = {
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
 				OR = {
+					has_war_with = JAP
+					has_war_with = USA
 				}
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 			modifier = {
@@ -2236,8 +2238,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2258,6 +2259,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2288,8 +2290,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2310,6 +2311,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2317,11 +2319,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2350,8 +2352,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2372,6 +2373,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2379,11 +2381,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2405,8 +2407,7 @@ technologies = {
 		#######
 
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2427,6 +2428,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2434,11 +2436,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2466,8 +2468,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2489,6 +2490,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2526,8 +2528,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2549,6 +2550,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2556,11 +2558,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2589,8 +2591,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2612,6 +2613,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2619,11 +2621,11 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				not = {  }
+				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
 			}
 			modifier = {
-				not = {}
+				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
 			}
 		}
@@ -2654,8 +2656,7 @@ technologies = {
 		#####
 	
 		xp_research_type = navy
-		xp_boost_cost = 100
-		xp_research_bonus = 1.00
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
