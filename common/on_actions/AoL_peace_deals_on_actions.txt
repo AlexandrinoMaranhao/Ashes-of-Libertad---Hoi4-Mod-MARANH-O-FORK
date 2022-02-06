@@ -494,6 +494,31 @@ on_actions = {
           }
         }
       }
+      if = { ### Acre vs Che Huevada
+        limit = {
+          FROM = { original_tag = ACR }
+          ROOT = { original_tag = ERN }
+        }
+        FROM = {
+          white_peace = ROOT
+		country_event = { id = ACR.696969 days = 10 }
+        }
+		RON = { 
+		transfer_state = 88
+		transfer_state = 498
+		transfer_state = 142
+		transfer_state = 141
+		}
+		BOL = { 
+		transfer_state = 466
+		transfer_state = 356
+		transfer_state = 357
+		transfer_state = 358
+		transfer_state = 353
+		transfer_state = 354
+		transfer_state = 355
+		}
+      }
       if = { ### Acre vs Jurua
         limit = {
           FROM = { original_tag = ACR }

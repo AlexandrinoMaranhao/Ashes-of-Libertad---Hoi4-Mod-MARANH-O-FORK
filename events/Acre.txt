@@ -968,6 +968,7 @@ country_event = {
 					}
 				}
 				#load_focus_tree = ACR_focus_6
+				country_event = { id = ACR.696969 days = 10 }
 				set_country_flag = kalume_elected
 			}
 			else_if = { # Technocrats Elected
@@ -994,6 +995,7 @@ country_event = {
 					}
 				}
 				#load_focus_tree = ACR_focus_7
+country_event = { id = ACR.696969 days = 10 }
 				set_country_flag = eneas_elected
 				set_variable = { senate_seats = 21 }
 				set_variable = { senate_technocrat_seats = 5 }
@@ -1025,6 +1027,7 @@ country_event = {
 					}
 				}
 				#load_focus_tree = ACR_focus_8
+country_event = { id = ACR.696969 days = 10 }
 			set_country_flag = augusto_elected
 		}
 	}
@@ -2532,5 +2535,14 @@ country_event = {#native revolt
 				type = civil_war
 			}
 		}
+	}
+}
+country_event = { 
+	id = ACR.696969
+	title = ACR.696969.t
+	desc = ACR.696969.desc
+	is_triggered_only = yes
+	option = {#end of demo
+	set_country_flag = demo_end
 	}
 }

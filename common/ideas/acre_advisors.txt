@@ -17,7 +17,7 @@ ideas = {
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         edgar_cerqueira_army_chief = {
@@ -35,7 +35,7 @@ ideas = {
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         jose_guiomard_army_chief = {
@@ -53,7 +53,7 @@ ideas = {
             }
 
         traits = { carm_doctrine_of_autonomy }
-
+cost = 50
         }
 
     nabor_junior_army_chief_aaaa = {
@@ -70,6 +70,7 @@ ideas = {
         original_tag = ACR
         }
     }
+cost = 50
 }
 
     navy_chief = {
@@ -85,6 +86,7 @@ ideas = {
     allowed = {
         original_tag = ACR
         }
+cost = 50
     }
 
     sergio_petecao_navy_chief = {
@@ -99,6 +101,7 @@ ideas = {
         allowed = {
             original_tag = ACR
             }
+cost = 50
         }
     }
 
@@ -116,6 +119,7 @@ ideas = {
         allowed = {
             original_tag = ACR
             }
+cost = 50
         }
         
         mateus_satanawa_air_chief = { #AIR
@@ -123,6 +127,7 @@ ideas = {
             original_tag = ACR
         }
         traits = { cair_battlefield_support_doctrine }
+cost = 50
         }
     }
 
@@ -143,6 +148,7 @@ ideas = {
             original_tag = ACR
             }
 		traits = { mhc_school_of_manoeuvre	}
+cost = 50
         }
 
         edgar_cerqueira_high_command = {
@@ -158,6 +164,7 @@ ideas = {
             original_tag = ACR
             }
 			traits = { mhc_school_of_fire_support }
+cost = 50
 
         }
 
@@ -173,6 +180,7 @@ ideas = {
 
 
 			traits = { mhc_school_of_mass_combat }
+cost = 50
             allowed = {
             original_tag = ACR
             }
@@ -185,6 +193,7 @@ ideas = {
             original_tag = ACR
             }
 		traits = { mhc_school_of_psychology }
+cost = 50
         }
 
         jose_guiomard_high_command = { #militarist
@@ -198,6 +207,7 @@ ideas = {
 
 
 traits = { mhc_school_of_commando_operations }
+cost = 50
             allowed = {
             original_tag = ACR
             }
@@ -214,6 +224,7 @@ traits = { mhc_school_of_commando_operations }
             }
 
             traits = { mhc_school_of_psychology }
+cost = 50
             allowed = {
             original_tag = ACR
             }
@@ -229,6 +240,7 @@ traits = { mhc_school_of_commando_operations }
             }
 
             traits = { mhc_school_of_fire_support }
+cost = 50
         	allowed = {
         	original_tag = ACR
         	}
@@ -345,6 +357,7 @@ traits = { mhc_school_of_commando_operations }
                 }
                 }
 traits = { hog_flamboyant_tough_guy }
+cost = 50
         }
 
         marques_de_souza_political_advisor = { #technocrat
@@ -364,6 +377,7 @@ traits = { hog_flamboyant_tough_guy }
                 
             }
 traits = { hog_ambitious_union_boss }
+cost = 50
         }
 
         edgar_cerqueira_political_advisor = { #militarist
@@ -380,7 +394,7 @@ traits = { hog_ambitious_union_boss }
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         jorge_kalume_political_advisor = { #militarist
@@ -396,7 +410,7 @@ traits = { hog_old_general }
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         jonas_kalume_political_advisor = { #nationalist 
@@ -409,7 +423,7 @@ traits = { hog_old_general }
             }
 
 
-
+cost = 50
 traits = { hog_silent_workhorse } 
             allowed = {
             original_tag = ACR
@@ -426,6 +440,7 @@ traits = { hog_silent_workhorse }
             visible = {
                     has_completed_focus = ACR_mr_carneiros_class
                 }
+cost = 50
 traits = { hog_intelligentsia }
         }
 
@@ -446,6 +461,7 @@ traits = { hog_intelligentsia }
                     
                 }
                 }
+cost = 50
 traits = { hog_sympathetic_to_natives }
         }
 
@@ -467,7 +483,7 @@ traits = { hog_sympathetic_to_natives }
                     
                 }
                 }
-            
+            cost = 50
 traits = { hog_reformist_soldier } 
         }
 
@@ -487,6 +503,7 @@ traits = { hog_reformist_soldier }
                     
                 }
                 }
+cost = 50
 traits = { hog_silent_workhorse } 
 
         }
@@ -504,6 +521,7 @@ traits = { hog_silent_workhorse }
             allowed = {
             original_tag = ACR
             }
+cost = 50
 traits = { hog_political_protege } 
         }
 
@@ -521,7 +539,7 @@ traits = { hog_political_protege }
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         mateus_satanawa_political_advisor = { #nationalist
@@ -542,6 +560,7 @@ traits = { hog_political_protege }
                 }
                 }
 traits = { hog_political_protege } 
+cost = 50
 
         }
 
@@ -564,7 +583,7 @@ traits = { hog_political_protege }
                 }
                 }
 traits = { hog_happy_amateur } 
-
+cost = 50
         }
 
         moacyr_grechi_political_advisor = { #priest
@@ -574,6 +593,7 @@ traits = { hog_happy_amateur }
             original_tag = ACR
             }
 traits = { hog_spiritual_leader } 
+cost = 50
         }
         
         marques_ern_political_advisor = { #ERN representative 
@@ -591,6 +611,7 @@ traits = { hog_spiritual_leader }
         	original_tag = ACR
         	}
         	traits = { hog_ambitious_union_boss }
+cost = 50
         }
 
         carlos_drummond_de_andrade_advisor = { 
