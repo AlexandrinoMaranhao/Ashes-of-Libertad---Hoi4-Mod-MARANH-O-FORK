@@ -158,10 +158,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
+				tag = USA
 			}
 			
 			modifier = {
 				factor = 2
+				tag = JAP
 			}
 
 			modifier = {
@@ -225,12 +227,9 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 2
-			}
-			
-			modifier = {
-				add = -3
-				original_tag = SOV
+				factor = 0
+				original_tag = GER
+				date < "1941.1.1"
 			}
 
 			modifier = {
@@ -274,16 +273,19 @@ technologies = {
 			
 			modifier = {
 				factor = 2
+				tag = USA
 			}
 			
 			modifier = {
 				factor = 2.5
+				tag = JAP
 			}
 
 			modifier = {
 				factor = 10
 				AND = {
 					is_historical_focus_on = yes
+					tag = JAP
 				}
 			}
 			modifier = {
@@ -387,10 +389,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
+				tag = USA
 			}
 			
 			modifier = {
 				factor = 2
+				tag = JAP
 			}
 			modifier = {
 				factor = 1.5
@@ -442,6 +446,7 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
+				tag = GER
 				factor = 2
 			}
 		}
@@ -506,6 +511,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
+				tag = GER
 			}
 			
 			modifier = {
@@ -513,6 +519,7 @@ technologies = {
 				tag = SOV
 			}
 			modifier = {
+				has_war_with = GER
 				tag = SOV
 				factor = 2
 			}
@@ -532,6 +539,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+			cas_bomber
 		}
 		
 		ai_will_do = {
@@ -546,11 +554,15 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -598,6 +610,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
+				tag = GER
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -610,6 +623,7 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
+					has_war_with = GER
 					has_war_with = SOV
 				}
 			}
@@ -633,6 +647,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+			cas_bomber
 		}
 		
 		ai_will_do = {
@@ -647,11 +662,15 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -698,6 +717,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
+				tag = GER
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -709,6 +729,7 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
+					has_war_with = GER
 					has_war_with = SOV
 				}
 			}
@@ -731,6 +752,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+			cas_bomber
 		}
 		
 		ai_will_do = {
@@ -738,11 +760,15 @@ technologies = {
 			modifier = {
 				factor = 2
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -789,15 +815,19 @@ technologies = {
 			modifier = {
 				OR = {
 					has_war_with = ENG
+					has_war_with = USA
+					has_war_with = JAP
 				}
 				factor = 3
 			}
 			modifier = {
 				factor = 5
+				tag = USA
 			}
 			
 			modifier = {
 				factor = 5
+				tag = JAP
 			}
 		}
 	}
@@ -829,11 +859,15 @@ technologies = {
 			modifier = {
 				factor = 2.5
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -880,6 +914,8 @@ technologies = {
 			modifier = {
 				OR = {
 					has_war_with = ENG
+					has_war_with = USA
+					has_war_with = JAP
 				}
 				factor = 3
 			}
@@ -892,10 +928,12 @@ technologies = {
 			}
 			modifier = {
 				factor = 5
+				tag = USA
 			}
 			
 			modifier = {
 				factor = 5
+				tag = JAP
 			}
 		}
 	}
@@ -927,11 +965,15 @@ technologies = {
 			modifier = {
 				factor = 2.5
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 					has_war_with = ENG
 				}
 			}
@@ -979,6 +1021,8 @@ technologies = {
 			modifier = {
 				OR = {
 					has_war_with = ENG
+					has_war_with = USA
+					has_war_with = JAP
 				}
 				factor = 3
 			}
@@ -991,10 +1035,12 @@ technologies = {
 			}
 			modifier = {
 				factor = 5
+				tag = USA
 			}
 			
 			modifier = {
 				factor = 5
+				tag = JAP
 			}
 		}
 	}
@@ -1018,11 +1064,15 @@ technologies = {
 			modifier = {
 				factor = 2.5
 				OR = {
+					tag = USA
+					tag = JAP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -1050,6 +1100,11 @@ technologies = {
 			leads_to_tech = tactical_bomber1
 			research_cost_coeff = 1
 		}
+
+		#path = {
+		#	leads_to_tech = scout_plane1
+		#	research_cost_coeff = 1
+		#}
 		
 		research_cost = 2
 		start_year = 1933
@@ -1153,6 +1208,91 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	scout_plane1 = {
+
+		enable_equipments = {
+			scout_plane_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = scout_plane2
+			research_cost_coeff = 1
+		}
+		allow_branch = { has_dlc = "La Resistance" }
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_scout_plane
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				has_war = yes
+				factor = 1.5
+			}
+			modifier = {
+				has_tech = fighter1
+				has_tech = tactical_bomber1
+				has_tech = CAS1
+				factor = 3
+			}
+			modifier = {
+				factor = 4
+				original_tag = GER
+			}
+		}
+	}
+	
+	scout_plane2 = {
+
+		enable_equipments = {
+			scout_plane_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_scout_plane
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				has_war = yes
+				factor = 1.5
+			}
+			modifier = {
+				has_tech = fighter2
+				has_tech = tactical_bomber2
+				has_tech = CAS2
+				factor = 3
+			}
 		}
 	}
 	
@@ -1407,6 +1547,7 @@ technologies = {
 			
 			modifier = {
 				factor = 5
+				tag = USA
 			}
 		}
 	}
@@ -1445,6 +1586,7 @@ technologies = {
 			
 			modifier = {
 				factor = 5
+				tag = USA
 			}
 		}
 	}
@@ -1483,6 +1625,7 @@ technologies = {
 			
 			modifier = {
 				factor = 5
+				tag = USA
 			}
 		}
 	}
