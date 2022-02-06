@@ -1,4 +1,4 @@
-﻿capital = 2578
+﻿capital = 1467
 
 oob = "MEX_DEMO"
 
