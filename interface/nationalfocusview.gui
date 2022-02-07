@@ -622,8 +622,6 @@ guiTypes = {
 			name = "statsarea"
 			position = { x=20 y=220 }
 			size = { width = 97%% height = 98%% }
-			horizontalScrollbar = "bottom_horizontal_slider"
-			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 4 left = 13 bottom = 0 right = 5}
 			clipping = yes
 			
@@ -641,8 +639,9 @@ guiTypes = {
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
-			maxHeight = 70
+			maxHeight = 110
 			format = center
+			scrollbarType = standardtext_slider
 		}
 
 		iconType = {
@@ -788,9 +787,6 @@ guiTypes = {
 			name = "statsarea"
 			position = { x=20 y=220 }
 			size = { width = 97%% height = 98%% }
-			horizontalScrollbar = "bottom_horizontal_slider"
-			scrollbarType = standardtext_slider
-			margin = { top = 4 left = 13 bottom = 0 right = 5}
 			clipping = yes
 			
 			background = {
@@ -807,9 +803,9 @@ guiTypes = {
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
-			maxHeight = 70
+			maxHeight = 0
 			format = center
-			verticalScrollbar = "right_vertical_slider"
+			scrollbarType = standardtext_slider
 		}
 
 		iconType = {
