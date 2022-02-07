@@ -75,5 +75,5 @@ ACR_fighting_coari = {
 	visible = { 
 		tag = ACR
 	}
-	visible_when_empty = yes
+	visible_when_empty = no
 }

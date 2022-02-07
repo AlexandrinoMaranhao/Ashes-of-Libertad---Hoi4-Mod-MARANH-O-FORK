@@ -20,7 +20,7 @@ on_actions = {
             ERN = {
                 country_event = {
                     id = ERN_aiwar.1 # Acre War
-                    days = 2886
+                    days = 2650
                 }
             }
         }
@@ -28,7 +28,7 @@ on_actions = {
             BOL = {
                 country_event = {
                     id = BOL_aiwar.1 # Acre War
-                    days = 2900
+                    days = 2660
                 }
             }
         }
