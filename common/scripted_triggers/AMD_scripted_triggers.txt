@@ -1,0 +1,6 @@
+is_literally_chad = {
+	OR = {
+		original_tag = CHA
+		NOT = { original_tag = CHA }
+	}
+}

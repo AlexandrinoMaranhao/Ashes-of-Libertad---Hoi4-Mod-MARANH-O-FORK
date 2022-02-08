@@ -1,0 +1,42 @@
+civilian_assimilation = {		#ID of category
+	priority = 10		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_category_icon	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	picture = GFX_civilianassimilation
+	
+	allowed = {
+		OR = {
+		any_owned_state = {NOT = {is_core_of = ROOT}}
+		is_debug = yes}
+	}
+	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+		OR = {
+		any_owned_state = {NOT = {is_core_of = ROOT}}
+		is_debug = yes}
+	}
+}
+
+scavenging = {		#ID of category
+	priority = 8		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_exploration	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	picture = GFX_scavengingimage
+	
+	allowed = {
+		always = yes
+	}
+	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+		is_subject = no
+	}
+}
+
+marketplace = {		#ID of category
+	priority = 9		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_category_buy_guns	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	picture = GFX_marketplace.dds
+	
+	allowed = {
+		always = yes
+	}
+	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+		is_subject = no
+	}
+}

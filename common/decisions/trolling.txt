@@ -1,0 +1,119 @@
+scavenging = {
+	raid_nearstate = {
+
+		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
+		
+		available = { 					#Maybe change 'every_neighbor_country' to smth more profecional?
+			ROOT = { is_subject = NO
+				NOT = {
+					has_idea = AMD_work_engaged_in_raid_war
+					has_idea = AMD_work_war_reparations
+					has_war = yes
+				}
+			}
+			every_neighbor_country = {
+				NOT = {
+					has_idea = AMD_work_engaged_in_raid_war
+					has_idea =  AMD_work_war_reparations
+					has_war = yes
+				}
+			}
+		}
+		
+		fire_only_once = no		#dont let this be Yes, unless u doin a crazy amount of Trolling.
+		days_remove = 1
+		days_re_enable = 25		#5 days before u know it is done. Less than a week, still usable tho.
+
+		visible = {
+			ROOT = {
+				is_ai = no
+			}		
+		}
+
+		cost = 10		#maybe increase it to 50? 70? 25?
+
+
+		complete_effect = {
+				ROOT = add_ideas = AMD_work_engaged_in_raid_war
+				country_event = {
+					id = sca_scavenging.7
+					days = 1
+				}	
+			}
+	
+		remove_effect = {
+				random_neighbor_country = {
+						add_ideas = AMD_work_engaged_in_raid_war
+						declare_war_on = {
+						target = ROOT
+						type = annex_everything
+						}
+					}
+		}
+
+		
+
+		ai_will_do = {	#dude, dont turn this up.
+			factor = 0
+		}
+	}
+	
+		raid_failure = {
+
+		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
+		
+		available = { 					#
+			ROOT = { is_subject = NO
+				NOT = {
+					has_idea = AMD_work_engaged_in_raid_war
+					has_idea = AMD_work_war_reparations
+					has_war = yes
+				}
+			}
+			every_neighbor_country = {
+				NOT = {
+					has_idea = AMD_work_engaged_in_raid_war
+					has_idea =  AMD_work_war_reparations
+					has_war = yes
+				}
+			}
+		}
+		
+		fire_only_once = no		#dont let this be Yes, unless u doin a crazy amount of Trolling.
+		days_remove = 1
+		days_re_enable = 25		#5 days before u know it is done. Less than a week, still usable tho.
+
+		visible = {
+			ROOT = {
+				is_ai = no
+			}		
+		}
+
+		cost = 10		#maybe increase it to 50? 70? 25?
+
+
+		complete_effect = {
+				ROOT = add_ideas = AMD_work_engaged_in_raid_war
+				country_event = {
+					id = sca_scavenging.7
+					days = 1
+				}	
+			}
+	
+		remove_effect = {
+				random_neighbor_country = {
+						add_ideas = AMD_work_engaged_in_raid_war
+						declare_war_on = {
+						target = ROOT
+						type = annex_everything
+						}
+					}
+		}
+
+		
+
+		ai_will_do = {	#dude, dont turn this up.
+			factor = 0
+		}
+	}
+}
