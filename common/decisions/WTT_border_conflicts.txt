@@ -1,7 +1,7 @@
 #If you change the values loc for WTT_border_incident_delay_until_new_incident_180 and WTT_border_incident_delay_until_new_incident_120 has to be changed
-@border_incident_escalation_countdown = 5
+@border_incident_escalation_countdown = 14
 @border_conflict_incident_forgotten_timer = 30
-@border_conflict_escalate_to_war_countdown = 60
+@border_conflict_escalate_to_war_countdown = 1
 @border_conflict_time_until_cancelled = 365
 
 CHI_border_clashes = {
@@ -90,7 +90,11 @@ CHI_border_clashes = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				
+				strength_ratio = {
+				tag = FROM
+				ratio > 1
+				}
+				factor = 100
 			}
 		}
 
@@ -293,7 +297,11 @@ CHI_border_clashes = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				
+				strength_ratio = {
+				tag = FROM
+				ratio > 1
+				}
+				factor = 100
 			}
 		}
 
@@ -428,7 +436,7 @@ CHI_border_clashes = {
 		cost = 25
 
 		ai_will_do = {
-			base = 0
+			base = 100
 			modifier = {
 				
 			}

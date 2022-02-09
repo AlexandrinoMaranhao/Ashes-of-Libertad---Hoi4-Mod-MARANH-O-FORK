@@ -1,6 +1,5 @@
 is_literally_chad = {
-	OR = {
-		original_tag = CHA
-		NOT = { original_tag = CHA }
-	}
+		ROOT = {
+			has_country_flag = allow_raid_operations
+		}
 }

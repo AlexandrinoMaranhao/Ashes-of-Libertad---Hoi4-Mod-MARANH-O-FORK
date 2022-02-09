@@ -26,7 +26,7 @@ country_event = {
 					FROM.FROM.num_owned_states > 1
 				}
 			}
-			transfer_state = FROM.FROM.FROM
+			#Add here
 		}
 		else = {
 			FROM.FROM = { ROOT = { annex_country = { target = PREV } } }
@@ -175,10 +175,10 @@ country_event = {
 							num_owned_states > 1
 						}
 					}
-					FROM.FROM = { transfer_state = FROM }
+					FROM.FROM = { #add here }
 				}
 				else = {
-					FROM.FROM = { annex_country = { target = ROOT } }
+					FROM.FROM = { #add here }
 				}				
 			}
 			clr_country_flag = show_effect_tooltips
