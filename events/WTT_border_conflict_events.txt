@@ -29,7 +29,7 @@ country_event = {
 			transfer_state = FROM.FROM.FROM
 		}
 		else = {
-			FROM.FROM = { ROOT = { add_political_power = 10 }
+			FROM.FROM = { ROOT = { annex_country = { target = PREV } } }
 		}
 	}	
 }
@@ -69,10 +69,11 @@ country_event = {
 		name = wtt_border_conflict_won_defender.1.a
 		add_political_power = 150
 		army_experience = 30
-		add_tech_bonus = {
+		add_doctrine_cost_reduction = {
 			name = defensive_border_conflict_won
+			cost_reduction = 0.25
+			uses = 1
 			category = land_doctrine
-			bonus = 1.0
 		}
 		if = {
 			limit = { has_country_flag = show_effect_tooltips }
@@ -118,10 +119,11 @@ country_event = {
 				effect_tooltip = {
 					add_political_power = 150
 					army_experience = 30
-					add_tech_bonus = {
+					add_doctrine_cost_reduction = {
 						name = defensive_border_conflict_won
+						cost_reduction = 0.25
+						uses = 1
 						category = land_doctrine
-						bonus = 1.0
 					}
 				}
 			}
@@ -173,10 +175,10 @@ country_event = {
 							num_owned_states > 1
 						}
 					}
-					FROM.FROM = { add_political_power = 10 }
+					FROM.FROM = { transfer_state = FROM }
 				}
 				else = {
-					FROM.FROM = { add_political_power = 10 }
+					FROM.FROM = { annex_country = { target = ROOT } }
 				}				
 			}
 			clr_country_flag = show_effect_tooltips
