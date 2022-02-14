@@ -1,0 +1,18 @@
+SpriteTypes = {
+    spriteType ={
+        name = "GFX_idea_MEX_the_mexican_civil_war"
+        texturefile = "gfx/interface/ideas/MEX_the_mexican_civil_war.dds"
+    }
+    spriteType ={
+        name = "GFX_idea_MEX_political_cathastrophe"
+        texturefile = "gfx/interface/ideas/MEX_political_cathastrophe.dds"
+    }
+    spriteType ={
+        name = "GFX_idea_MEX_refugee_crisis"
+        texturefile = "gfx/interface/ideas/MEX_refugee_crisis.dds"
+    }
+    spriteType ={
+        name = "GFX_idea_MEX_looming_famine"
+        texturefile = "gfx/interface/ideas/MEX_looming_famine.dds"
+    }
+}    

@@ -5,19 +5,52 @@ MEX_mexican_civil_war_opinion:0 "The Mexican Civil War"
 
 # Ideas
 MEX_mexican_civil_war:0 "The Mexican Civil War"
-MEX_mexican_civil_war_desc:0 "PLACEHOLDER"
+MEX_mexican_civil_war_desc:0 "Ever since the Great Uprising of 1965, which saw a simultaneous revolt from North to South, the United Mexican States have been in a state of Civil War.\n\nHaving fought through a sea of blood in Guerrero and Oaxaca, the Central Government managed to encircle the ECR, which broke through the blockade with all its remaining strengths in an act of desperation.\n\nBeing spent from the fighting around the country, the escalating refugee crisis, and the subsequent FAR incursion into Chiapas, the Central Government has reluctantly resigned itself to regain its strength and let the Marxists run wild in the Southeast. While skirmishes break out sporadically and acts of terrorism and streetfighting are an everyday story, the Civil War currently finds itself in an uneasy truce, though this situation could very well change with the slightest of sparks."
 
 MEX_political_catastrophe:0 "Political Catastrophe"
-MEX_political_catastrophe_desc:0 "PLACEHOLDER"
+MEX_political_catastrophe_desc:0 "Despite not being directly bombarded during the nuclear exchange, Mexico immediately found itself in a gigantic political crisis as President López Mateos was left stranded and presumed death in Eastern Asia at the time.\n\nWith his second-in-command Gustavo Díaz Ordaz disgraced, every political faction made their move simultaneously in a bid to take the reigns of the nation, which almost broke the Party apart and definitely crippled the PRI's legitimacy in the public eye. Only through the Army's intervention into the matter is that the initial situation could be stabilized. The military has been running the country as a de-facto Junta since.\n\nWith the Party in shambles, the government's legitimacy in question, and the chaos of the Civil War, Mexico is going through a political crisis not seen since the days of the Revolution, or worse."
 
 MEX_refugee_crisis:0 "Refugee Crisis"
-MEX_refugee_crisis_desc:0 "PLACEHOLDER"
+MEX_refugee_crisis_desc:0 "Nuclear War did not end life on Earth, but it did make life extremely hard and, in some cases, unsustainable. From what news we can scrape together, it appears the North is going through a progressively worsening nuclear winter.\n\nThankfully, Latin America was deemed too unimportant to target, but to our chagrin this has made us prime targets for those fleeing the devastation brought by nuclear warfare. While initially refugees were few, the situation has progressively worsened to the point that every day there's thousands of Americans crossing the Rio Grande on convoys stretching for miles. This situation has brought both great benefits and great problems.\n\nWith their immense hatred of Communism, enlisting Americans to assist public order in the North has virtually neutralized any Socialist activity in the region. On the other hand, they're now armed and organized, and they're not exactly keen on serving us. The situation becomes worse by the day as tensions mount and conditions worsen, and there is no easy solution in sight."
 
 MEX_looming_famine:0 "Looming Famine"
-MEX_looming_famine_desc:0 "PLACEHOLDER"
+MEX_looming_famine_desc:0 "While not directly targeted by nuclear bombardment, the effects of it had have also struck our nation, and the consequences grow clearer and worsen by each passing day.\n\nToxic rain, dropping temperatures, and winds carrying toxic ashes from the North have progressively worsened the soil quality in the worst affected areas, leading to widespread crop failure, coupled with the needs of several hundreds of thousands of refugees and the violence of the Civil War, it would seem that our country is headed towards a famine if the situation is not addressed soon."
 
-MEX_overexcerted_army:0 "Overexcerted Army"
-MEX_overexcerted_army_desc:0 "PLACEHOLDER"
+MEX_overexcerted_army_1:0 "Overexcerted Army"
+MEX_overexcerted_army_1_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_2:0 "Overexcerted Army"
+MEX_overexcerted_army_2_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_3:0 "Overexcerted Army"
+MEX_overexcerted_army_3_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_4:0 "Overexcerted Army"
+MEX_overexcerted_army_4_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_5:0 "Overexcerted Army"
+MEX_overexcerted_army_5_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_6:0 "Overexcerted Army"
+MEX_overexcerted_army_6_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_7:0 "Overexcerted Army"
+MEX_overexcerted_army_7_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_8:0 "Overexcerted Army"
+MEX_overexcerted_army_8_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_9:0 "Overexcerted Army"
+MEX_overexcerted_army_9_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_10:0 "Overexcerted Army"
+MEX_overexcerted_army_10_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_11:0 "Overexcerted Army"
+MEX_overexcerted_army_11_desc:0 "PLACEHOLDER"
+
+MEX_overexcerted_army_12:0 "Overexcerted Army"
+MEX_overexcerted_army_12_desc:0 "PLACEHOLDER"
 
 MEX_civil_war_tt:0 "§RSkirmishes will periodically occur§!"
 
@@ -29,7 +62,7 @@ MEX_improve_army_logistics_cost_tooltip:0 "£army_experience  §H50§! and £com
 
 ### ERG ###
 ERG_no_way_out:0 "No Way Out"
-ERG_no_way_out_desc:0 "PLACEHOLDER"
+ERG_no_way_out_desc:0 "We're trapped on all sides. We can't go anywhere and our enemies surround us. Having crossed Guatemala's borders in '66 in a desperate attempt at evading the pursuing Guatemalan Army, the FAR managed to catch the Central Mexican Government weak and off-guard, allowing us to take control of a large part of Chiapas and its surroundings. Despite initial successes, the situation has been far from ideal, as the Mexicans have given us a really hard fight, slowly pushing our strongholds deeper into the mountains and jungle, isolating us from supply and communications. Having nowhere to go, this will be our last stand and we'll fight to our last breath for our ideals and our people."
 
 ERG_hostile_pop:0 "Hostile Population"
 ERG_hostile_pop_desc:0 "PLACEHOLDER"

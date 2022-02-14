@@ -73,7 +73,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.8
 				army_attack_factor = -0.8
@@ -89,7 +89,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.75
 				army_attack_factor = -0.75
@@ -105,7 +105,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.7
 				army_attack_factor = -0.7
@@ -121,7 +121,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.6
 				army_attack_factor = -0.6
@@ -137,7 +137,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.5
 				army_attack_factor = -0.5
@@ -153,7 +153,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.45
 				army_attack_factor = -0.45
@@ -169,7 +169,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.4
 				army_attack_factor = -0.4
@@ -185,7 +185,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.35
 				army_attack_factor = -0.35
@@ -201,7 +201,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.3
 				army_attack_factor = -0.3
@@ -217,7 +217,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.2
 				army_attack_factor = -0.2
@@ -233,7 +233,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.1
 				army_attack_factor = -0.1
@@ -249,7 +249,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = idea_mex_politicised_army_2
+			picture = unsustainable_army
 			modifier = {
 				army_defence_factor = -0.05
 				army_attack_factor = -0.05
@@ -292,7 +292,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.8
 				war_support_factor = -0.8
-				conscription_factor = -1
+				conscription_factor = -0.95
 			}
 		}
 		ERG_exiles = {
@@ -382,7 +382,7 @@ ideas = {
 		
 		# Mexico
 		MEX_war_of_resistance_idea_1 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -404,7 +404,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_2 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -427,7 +427,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_3 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -450,7 +450,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_4 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -474,7 +474,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_5 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -500,7 +500,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_6 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -526,7 +526,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_7 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
@@ -553,7 +553,7 @@ ideas = {
 			}
 		}
 		MEX_war_of_resistance_idea_8 = {
-			picture = idea_mex_politicised_army_2
+			picture = idea_chi_war_of_resistance
 			allowed = {
 				always = no
 			}
