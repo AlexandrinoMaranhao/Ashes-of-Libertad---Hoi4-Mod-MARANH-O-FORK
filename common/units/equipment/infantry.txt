@@ -5,7 +5,7 @@ equipments = {
 	tribal_equipment = {
 		year = 0
 	
-		is_archetype = no
+		is_archetype = yes
 		picture = archetype_infantry_equipment		
 		is_buildable = yes
 		type = infantry
