@@ -40,10 +40,59 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Del Norte 4"
+		name = "Infanteria Del Norte 5"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 6"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 7"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 8"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 9"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 10"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Infanteria Del Norte 11"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Del Norte 12"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.9
 	}
 }

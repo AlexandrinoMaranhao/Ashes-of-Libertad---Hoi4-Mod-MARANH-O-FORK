@@ -29,11 +29,11 @@ create_faction = los_libertadores
 
 add_ideas = {
 	trade_scope_closed_economy
-	trade_scope_closed_economy
 	conscription_two_year_draft
-
-	a_dream_of_revolution
-international_guerrilla
+	che_ideas_overextended_and_disorganized
+	che_ideas_magnetic_personality
+	che_ideas_a_dream_of_revolution
+	international_guerrilla
 }
 
 set_country_flag = use_generic_outsider_laws
@@ -42,6 +42,7 @@ set_country_flag = use_generic_officer_training_laws
 set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
+set_country_flag = allow_raid_operations
 
 create_country_leader = {
 	
