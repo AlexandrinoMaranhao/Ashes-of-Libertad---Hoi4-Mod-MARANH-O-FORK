@@ -1867,6 +1867,21 @@ country_event = { #decides which seat remove
 	}
 }
 
+country_event = {
+	id = ACRMarques.15
+	title = ACRMarques.15.t
+	desc = ACRMarques.15.d
+	picture = GFX_report_event_acre_flag
+	trigger = { AND = { has_stability < 0.3 has_country_flag = marques_elected has_civil_war = no 
+	NOT = { has_country_flag = cerqueira_is_couping } } } 
+
+	#Answer
+	option = {
+		name = ACRMarques.15.A
+		set_country_flag = cerqueira_couping_marques
+	}
+}
+
 #################
 # Cerqueira
 #################
@@ -2012,21 +2027,6 @@ country_event = {
 			owner = ACR
 		  	}
 		}		
-	}
-}
-
-country_event = {
-	id = ACRMarques.15
-	title = ACRMarques.15.t
-	desc = ACRMarques.15.d
-	picture = GFX_report_event_acre_flag
-	trigger = { AND = { has_stability < 0.3 has_country_flag = marques_elected has_civil_war = no 
-	NOT = { has_country_flag = cerqueira_is_couping } } } 
-
-	#Answer
-	option = {
-		name = ACRMarques.15.A
-		set_country_flag = cerqueira_couping_marques
 	}
 }
 
