@@ -224,9 +224,9 @@
  ACR_cury.18.d:0 "The steamboat kept its uneventful course for most of the scheduled itinerary when suddenly, while the ship crossed from the Purus river to the Amazonas river, a squadron of pirates strategically ambushed it during the crossing, from all sides and nullified any chance of a effective defense, their presence well concealed by the dense vegetation. These however, weren't normal pirates, her captain acknowledged that very quickly, their semi-armoured tugs  bearing the colors and flag of Coari,  ''Everything carefully planned to catch us by surprise, not fruit of a random desire to amass wealth by some low-ranking officer but part of a masterminded plan to harass our shipping lines'' thought the captain. He had no other choice than surrendering the ship after a brief and hopeless fight, being allowed however, together a few of the surviving crewmen, to board a lifeboat with enough supplies to let them reach Manaus and relay the disastrous news to Rio Branco."
  ACR_cury.18.a:0 "Damn you Montoril!"
 
- ACR_cury.19.t:0 "Rubber Crisis Flavour Event 3"
- ACR_cury.19.d:0 "Rubber Crisis Flavour Event 3"
- ACR_cury.19.a:0 "Rubber Crisis Flavour Event 3"
+ ACR_cury.19.t:0 "The Dominique"
+ ACR_cury.19.d:0 "‘’ALVORADA!’’\n‘’Dawn’’, the servant went from room to room knocking on the doors and waking up the sailors, repeating the word each time he did so.\nThe boat was the Dominique, a converted passenger boat made into a commercial vessel bringing already smoked latex to Manaus, its capitain was Jonas Kalume Marciel prominent figure in the Beirut square of Rio Branco and pioneer of the rubber trade, coming from a humble background as a wandering mascate selling goods up and down the Acrean rivers in a lonely canoe to tappers living on stilt houses in the river banks, his knowledge of these hidden trade routes brought him much fortune in the early days of the 3rd rubber boom, affording him not only a good house in the renovated district but also the massive boat he now commanded, with a humble crew of 7.\n6\nThe commotion of jungle sounds went quiet cut sharply by the sound of sporadic gunfire, arrows with colorful feathers painted the sky studding the deck, Jonas’s brother was hit in the lower chest trying to reach his rifle, the other men either ran to their quarters or armed themselves the best they could, resistance however was clearly not a smart option, from the river banks another hail of arrows came.\n5, 4.\nOverwhelmed, they surrendered, canoes of bow wielding natives came meet the boat as if they were transported back to the 1500’s, each group led by a western dressed man armed with a firearm, the attack was organized, the sailors didn’t know yet by who but such thing was clear, the crew was rounded up and taken away along with the boat back down the Purus river, the natives being rewarded with metal tools and small trinkets from the boat."
+ ACR_cury.19.a:0 "Now for a stern talk."
 
  ACR_cury.20.t:0 "Coari Accepted Compromise"
  ACR_cury.20.d:0 "Coari Accepted Compromise"
@@ -283,7 +283,6 @@
 
  ###Marques
 
-
 ACRMarques.1.t:0 "Marques de Souza Elected As First President of Acre"
 ACRMarques.1.d:0 "With the drafting and signing of the new Acrean Constitution of 1967, nearly two dozen of the Senate's previously empty seats have been filled as each choice and amendment passed empowered its proposing faction. With a now full Senate and a Constitution enacted, a vote within the chamber has been held to elect the nation's President for the next 4 years.\n\nThe victor is Marques de Souza, a member of the country's technocratic faction. de Souza's base of support mainly comprises the urban workers and rubber tappers of the Republic, with his promises of enacting sweeping reforms to protect labor rights and large-scale social programs having appealed to the lower class. The most well-known of his proposals include a national public healthcare system, as well as increased funding to schools. He has also made a name for himself by supporting a peaceful solution to the conflict of Che Guevara rather than war against Guevara's brigades, the ERN."
 ACRMarques.1.a:0 "All behind comrade Marques!"
@@ -301,6 +300,8 @@ ACRMarques.3.B:0 "Secure their loyalty, for now."
 ACRMarques.10.t:0 "Che Approves!"
 ACRMarques.10.d:0 "Our proposition has been successfully approved by Che Guevara, and trade can now flow from the rivers under the control of the ERN, the first step towards a cordial relationship with our comrades in the south has been made, with resources arriving on a fast pace on Acre. Soon, let us hope that more trade agreements be made so our nations can thrive together."
 ACRMarques.10.A:0 "A Toast to our Southern Friends!"
+
+###Cerqueira 
 
 ACR_cerqueira.1.t:0 "Edgar Cerqueira Elected As First President of Acre"
 ACR_cerqueira.1.d:0 "With the drafting and signing of the new Acrean Constitution of 1967, nearly two dozen of the Senate's previously empty seats have been filled as each choice and amendment passed empowered its proposing faction. With a now full Senate and a Constitution enacted, a vote within the chamber has been held to elect the nation's President for the next 4 years.\n\nThe victor is Edgar Cerqueira, one of the nation's most prominent militarists and a former army commander. Extremely critical of communism and the Technocratic faction, who Cerqueria has decried as socialist sympathizers, the strongman has called for major military buildup and the formation of a professional Acrean army to fend off raids and destroy the ERN. Cerqueira is also seemingly more friendly to the Brazilian Military Junta than the other two candidates of the election, leading to fears amongst opposition members that he will sell out the Republic to Brasilia - claims that the new President has fiercely denied."

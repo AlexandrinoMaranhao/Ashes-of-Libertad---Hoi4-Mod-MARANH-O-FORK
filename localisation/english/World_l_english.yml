@@ -134,11 +134,11 @@ world.64.t:0 "Argentina Faces Resistance in the Malvinas"
 world.64.d:0 "As the old world falls into nothingness, the Argentinian Government has retaken its historical claim on the Falklands with minor resistance from the remnants of the United Kingdom. The Garrison in question was occupying the island since the fall of the British Government, and although the exile royal navy protected it for some time, the island’s and even the west indies navy ports were not equipped to maintain such mighty ships, so most of the navy was lost from breakdowns in its equipments. The militaristic leader of Argentina, Carlos Juan, saw this as a perfect opportunity and took the archipelago by force. The garrison, being called by the argentinians as the “Sheepherders”, were applauded by their bravery from what they call “Their useless defense”. Civilians say they are grateful to the Argentinians, appreciating an actual government going into the island after years of isolation."
 world.64.a:0 "The tides will eat away the remnants."
 
-world.65.t:0 ""
+world.65.t:0 "QPM Crusade"
 world.65.d:0 ""
 world.65.a:0 ""
 
-world.66.t:0 ""
+world.66.t:0 "Carlos Lamarca Indian Faction"
 world.66.d:0 ""
 world.66.a:0 ""
 
@@ -157,8 +157,11 @@ world.69.a:0 "Brazil's Artery Blocked"
 world.70.t:0 "Junta Cracks Down on Sympathizers on Amapá."
 world.70.d:0 "The Northern Military Command (NMC) has intervened in the republican government of Amapá, causing major resignations in its administration that has disrupted its economy. In recent times it seemed that the leader of Amapá, Raul Monteiro, wanted to forge an alliance with the Legalists, and when the rumors were confirmed to be true, the NMC came in quickly to shut them down before any backup arrived. Now with their puppet restated, many of the former government staff have been replaced with Junta Loyalists. With this sudden change, much of its rubber trade has been broken up due to new policies by the new president."
 world.70.a:0 "It's only getting worse"
+world.70.t:0 "Junta Cracks Down on Amapá."
+world.70.d:0 ""
+world.70.a:0 ""
 
-world.71.t:0 ""
+world.71.t:0 "Blood in the Sand."
 world.71.d:0 ""
 world.71.a:0 ""
 
@@ -166,13 +169,15 @@ world.72.t:0 "Natives Rise Up Against ''The Rubber Barons''!"
 world.72.d:0 "The tribes of the Waimiri-Atroari rose up against the rubber barons of manaus, who had been expelled from their ancestral lands by the baron owners. Although some have said that in the event of nuclear war, places that had the lowest development would fall first, some states from the former Brazilian Republic in the Amazon have been doing better than ever after its breakup into the civil-war, like Manaus and Acre for exemple. Manaus, for example, became the industrious heart of the rainforest, building infrastructure and encouraging investments for business in the city, improving the quality of life like never before seen. Although this meant expanding its need for natural resources, like rubber for the car business. Tired of being pressured by the barons with death threats, all the tribes have united to, in a collective effort, to reclaim their homes back. Although Manaus has better gear and technology, the indians know the forest from the back of their hand."
 world.72.a:0 "Well they had it comming..."
 
-world.73.t:0 "Order Restored in Venezuela under Thriumvirate."
+world.73.t:0 "Thriumvirate Restores Order in Venezuela."
 world.73.d:0 ""
 world.73.a:0 ""
 
 world.74.t:0 "Radio Silence from Brasília."
 world.74.d:0 "Eurico Gaspar Dutra, 16th president of the Brazilian Republic and a current Marshal of the Junta army, has just proclaimed himself as President of Brazil in Brasília. After the former leader of the Brazilian Army and Junta leader Castelo Branco died in an airplane crash, the power vacuum left behind caused an administrative crisis throughout its lands. Until the issue was resolved, all of the Junta high command came into an agreement that all army personnel in Brasília, except the Presidential Guard, would be removed and so eliminating any chance of anyone coupling the coupists. Until Dutra broke this by marching into the capital. His army took the only garrison in the city decisively, taking out the barely defended military center and using its supplies to coordinate and take out the remaining patrols in the streets. The army itself is composed of the ''Pracinhas'': World War 2 veterans in the Italian Front of the War, that have battle hardened against the Nazis, that follow Dutra like a demigod. After finally reaching the Planalto Palace, the takeover was finished and the city was his. In the National Congress broadcasted nation-wide, he conducted a voting to grant him the presidency of Brazil, where only himself voted and won. There hasn’t been a word from the Junta, but an insider reports that the high command are in utter shock and plans for retaking the city by force are being commissioned if Dutra doesn’t give up power and surrender. Meanwhile, rumors of rivalries put aside to fight the Legalists and the transition of power after Castelo’s death are beginning to circulate again, as the bounding force that united the armed forces into a cause are beginning to fracture apart."
 world.74.a:0 "Alea iacta est"
+world.74.d:0 "The consequences of the passing of Castelo Branco have reached their climax as the Brazilian Military Junta collapses into complete disorder. All radio communications and broadcasts from Brasília have halted; the last piece of news from the capital was General Eurico Dutra's self-proclamation as President. The few remaining journalists have reported a breakdown of public order and open infighting between army brigades - It seems that not even a facade of civil government remains in Brasília. Outside of the capital, ongoing events are even murkier. The myriad autonomous military commands comprising the Junta's army appear to be openly defying central command, vanishing and reappearing across the countryside with no rhyme or reason. Though engagement between these units has not been noted yet, observers fear the Junta may be defeated from within."
+world.74.a:0 "What's going on in Brasília?"
 
 world.75.t:0 "José Sarney Crowned Duke of Maranhão!"
 world.75.d:0 "Elected in 1960 as Governor of Maranhão in a surprising turn of events that saw a heavy blow to Vitorinismo's iron grip over maranhense political scene, the apex point of Sarney's meteoric rise mere 8 years since his first debut. A phase of massive federal-funded investments to repair decades of neglect on everything made the ''Maranhão Novo'' imagined by Sarney a near reality, however things were to change with the fast collapse of Brazil into a collection of independent fiefdoms such as Maranhão. With his position threatened, Sarney made a swift crackdown on any opposition and at the same time delivering a Pronunciamento from the balcony of Palácio dos Leões flanked by top brass police officers. In such, Sarney replaced the former states of Maranhão and Piauí as federate states with the Grand Duchy of Maranhão-Piauí, a hereditary monarchy under the House of Sarney."
@@ -182,7 +187,7 @@ world.76.t:0 "Emperor Rademaker, The Brazilian Napoleon!"
 world.76.d:0 "Augusto Rademaker, de facto leader of the Eastern Military Command and one of, or if not the, most prestigious admirals of the Brazilian Junta, has proclaimed himself to be the heir of all former Brazilian territory through the Restoration of the Brazilian Empire. Although part of the coup that started the civil war, Rademaker stated in a speech that over the years of fighting on the Junta's side: ''We lost our vision, our unity over petty political rivalries, and forgot about our own people.'', he also stated: ''I looked at our rich past and found values worth fighting for: The intellect and progressiveness of our old Empire.'' Remarks from the Junta came in the form of non-official torrents of loose speeches from its Presidential aspirants. The Legalists refused to give comments, presumably still licking their wounds after Rio's fall in the 2nd Battle of Guanabara."
 world.76.a:0 "An Admiral turned Emperor"
 
-world.77.t:0 ""
+world.77.t:0 "Betancourt ded"
 world.77.d:0 ""
 world.77.a:0 ""
 
