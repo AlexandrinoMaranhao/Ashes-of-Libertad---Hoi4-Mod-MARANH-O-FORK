@@ -109,8 +109,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-		#This is all added by the senate decision now
-
+		add_political_power = 50
 	}
 }
 shared_focus = {
@@ -252,7 +251,7 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {		
+	completion_reward = {
 		add_ideas = secondary_education
 		add_popularity = {
     		ideology = communism
@@ -292,7 +291,7 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {	
+	completion_reward = {
 		country_event = {
 			id = ACRMarques.5
 			days = 0
@@ -405,21 +404,136 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {	
-		every_country = {
-  			limit = {
-    			has_government = communism
-  			}
-  			add_opinion_modifier = {
-    			target = ACR
-    			modifier = ACR_marques_flirt
-  			}
-  			ACR = {
-    			add_opinion_modifier = {
-      				target = PREV
-      				modifier = ACR_marques_flirt
-    			}
-  			}
+		NIC = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
 		}
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = NIC
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		#NIC
+		ROR = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = ROR
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		#ROR
+		DRE = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+		ACR = {
+			add_opinion_modifier = {
+				target = DRE
+				modifier = ACR_marques_flirt
+			}
+		}
+		#DRE
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = RED
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		RED = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+		#RED
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = CUB
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		CUB = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+		#CUB
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = NLA
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		NLA = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+		#NLA
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = FBO
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+  		FBO = {
+    		add_opinion_modifier = {
+      			target = ACR
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		#FBO
+		RMI = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = RMI
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		#RMI
+		ERN = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = ERN
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		#ERN
+		CHL = {
+			add_opinion_modifier = {
+				target = ACR
+				modifier = ACR_marques_flirt
+			}
+		}
+  		ACR = {
+    		add_opinion_modifier = {
+      			target = CHL
+      			modifier = ACR_marques_flirt
+    		}
+  		}
+		#Chile
 	}
 }
 shared_focus = {
@@ -501,7 +615,7 @@ shared_focus = {
             }
             set_building_level = {
     			type = bunker
-    			level = 0
+    			level = 1
     			province = {
         			all_provinces = yes
         			limit_to_border = yes
