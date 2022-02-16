@@ -2,7 +2,7 @@ ACR_debug = {
 	icon = GFX_decision_category_acrean_raids
 	allowed = { tag = ACR }
 	visible = { is_debug = yes is_ai = no }
-    visible_when_empty = yes
+    visible_when_empty = no
 }
 
 acrean_senate = {
@@ -67,7 +67,7 @@ ACR_coring_decisions = {
 	visible = { 
 		always = yes
 	}
-	visible_when_empty = yes
+	visible_when_empty = no
 }
 
 ACR_fighting_coari = {
