@@ -1,4 +1,4 @@
-﻿capital = 141
+﻿capital = 357
 
 oob = "ERN_1967"
 
@@ -14,7 +14,7 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
@@ -28,12 +28,28 @@ set_popularities = {
 create_faction = los_libertadores
 
 add_ideas = {
-	trade_scope_closed_economy
-	trade_scope_closed_economy
-	conscription_two_year_draft
+religious_secularism
+bellow_poverty_line
+political_parties_one_party_state
+equal_rights
+state_press_only
+no_education
+economic_focus_total_mobilization
+trade_scope_closed_economy
+WR_no_regulations
+tax_rate_no_taxation
+SI_minimal_regulations
+slavery_outlawed
+conscription_all_adults_serve
+guerrilla_specialization
+training_none
+guerrilla_officer_training
+no_mercenaries
+draft_exemptions_none
 
-	a_dream_of_revolution
-international_guerrilla
+a_dream_of_revolution
+magnetic_personality
+overextended_and_disorganized
 }
 
 set_country_flag = use_generic_outsider_laws
@@ -45,8 +61,14 @@ set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
-	name = "Ernesto Guevara"
+	name = "Ernesto ''Che'' Guevara"
+	desc = "CHE_DESC"
 	picture = "gfx/leaders/ERN/Portrait_ERN_Che_Guevara.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla 
+	traits = {
+	legendary_guerrilla_fighter
+	shitty_strategist
+
+	}
 }

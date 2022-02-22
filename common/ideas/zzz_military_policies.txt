@@ -118,7 +118,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		conscription_one_year_draft = {
-		picture = GFX_idea_conscription_one_year_draft
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_one_year_draft"}
 			default = yes
 			available = { always = no } 
