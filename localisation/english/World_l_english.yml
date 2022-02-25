@@ -5,10 +5,6 @@ world.1.d:0 "Surprising news coming from the Brazilian northeast as historic rev
 world.1.a:0 "Next Page"
 world.1.b:0 "Next Page"
 
-world.35.t:0 "The Return of Carlos Prestes"
-world.35.d:0 "News of his return has been received with shock by authorities and revolutionaries alike many of who believed his years-long silence to be evidence of his death, capture, or self-exile; nonetheless, it heavily impacted the Brazilian communist sphere sparking a tirade of retributory speeches and demonstrations from leaderships on both sides, most notably the increasingly daring actions of dissidents in the states of São Paulo, Bahia, and Pernambuco from groups like the ALN, COLINA and the Peasant Leagues. Prestes’s location and previous or current associations are so far unknown but it is expected that he has renewed ties with revolutionary leaderships from across the country and beyond, concrete reactions from both sides of the political spectrum remain to be seen but retaliatory actions from both governments are to be expected in the coming months."
-world.35.a:0 "What breaks first, a man or his ideals?"
-
 world.2.t:0 "The Second Mexican-American War"
 world.2.d:0 "The Second Mexican-American War Mexico had become a bit of an El-Dorado for the American people, fleeing as fast as possible from the ravaging nuclear horrors that exist beyond the Rio Grande. Despite the attempts by Mexico to handle the refugee stream, an announcement had been made from the usually very quiet United States Government - at least what are believed to be its remnants in the mainland. Considering Americans have been in a profound state of horror ever since the bombings of 1962, it's been clear that an inevitable conflict would occur - but nothing in this scale could ever have been envisioned: As millions of American citizens run towards newly-gained territory against Mexico, some desperate enough to run right into the frontlines and try their luck at staying alive, the hungry and sick soldiers of the United States invade Mexico with ravaging resolve."
 world.2.a:0 "One Last Showdown."
@@ -17,10 +13,6 @@ world.2.b:0 "Time to teach these gringos, Viva México!"
 world.3.t:0 "The Second Battle of Guanabara"
 world.3.d:0 "The Fluminenses woke up today to the sounds of gunfire in the streets, as the Eastern Military Command started their second advance on Rio de Janeiro. The first battle in ‘63, at the beginning of the civil war, was a major success for the Legalists, driving the EMC out of Rio de Janeiro and forcing them to retreat to the gates of Vitória. After their defeat, the Brazilians took their time to greatly fortify entire city as they slowly were pushed backward, every block in the city of God is prepared for the inevitable counter-attack. Many doubt if the Legalists can hold on to the city, given what they describe as the ''Precarious state of the administrative and military sectors'' and ''Lack of leadership present in Rio'', made worse by the recent defection of the Southeastern Military Command and the State of São Paulo, the same however can be said of their foe."
 world.3.a:0 "Next Page"
-
-world.45.t:0 "The Second Battle of Guanabara"
-world.45.d:0 "For the last years, Rio has been plagued with a constant barrage of refugees pushed south by the impending Junta forces and coastal and aerial bombardments targeting the Legalist’s makeshift and pre-war fortifications, such as the Copacabana, São João, and Duque de Caxias Fortresses. Admiral Rademaker (De Facto leader of the EMC’s military) did not spare the wonderful city from the awe of war, the 2nd Battle of Guanabara will forever be remembered as a turning point in the Brazilian Civil war marking the moment when a dragging and ''indifferent'' war characterized by chaotic skirmishes with low fatalities climaxed into modern warfare the likes of which were last seen in the Second World War. Brazil and Christ both wait in horror to see who’ll be the winner of this irredeemable fratricide."
-world.45.a:0 "No Carnaval this year."
 
 world.4.t:0 "Legalists hold on to Rio de Janeiro!"
 world.4.d:0 "After months of gruesome warfare and street-to-street struggle, the fighting in Rio de Janeiro has come to an end as forces from the Brazilian Junta abruptly ceased after what is now considered a final, desperate push aiming to retake the once capital of Brazil. While both sides lay exhausted the Legalist forces have managed to hold on to the City of God against all odds, a much-needed breath of relief for Goulart’s supporters and a blow to Castelo Branco's junta's moral. Although the fighting has stopped reconstruction efforts are not expected to happen shortly as Admiral Rademaker’s navy continues to bombard the now ruins of Rio, it seems that for the foreseeable future many of its inhabitants will be forced to leave or live among the ruins of a once wonderful city or literally run to the hills in makeshift communities under the watch of the Republican army."
@@ -54,9 +46,105 @@ world.11.t:0 "Tupac Avenged! Peru is Reunited by the Inca!"
 world.11.d:0 "Shocking news have escaped the war-filled Peruvian nation as in an unlikely turn of events the Tawantinsuyu rebellion have achieved victory in the Peruvian civil war! The Tawantinsuyu, led by its figurehead Yma Sumac – famous singer thought to be descendant from the last Inca – started their journey in the resistance as an opposition to the oppression by the upper classes of Peru. Now it seems they are taking the country into a new direction, with the rebirth of Incan culture. However, their goals of bringing peace and equality back to these lands are still far from achieved, as now more than ever before it becomes clear that the Tawantinsuyu are only united due to their strong ethnic and historical ties and common struggler against foreign intruders and threats."
 world.11.a:0 "Next Page"
 
+world.12.t:0 "New Castille Unifies Peru"
+world.12.d:0 ""
+world.12.a:0 ""
+
+world.13.t:0 "Peruvian Republic Unifies Peru"
+world.13.d:0 ""
+world.13.a:0 ""
+
+world.14.t:0 "Peruvian Military Reunifies Peru"
+world.14.d:0 ""
+world.14.a:0 ""
+
+world.15.t:0 "Akashic Society Unifies Peru"
+world.15.d:0 ""
+world.15.a:0 ""
+
+world.16.t:0 "NLA Reunification"
+world.16.d:0 ""
+world.16.a:0 ""
+
+world.17.t:0 "FCP Reunification"
+world.17.d:0 ""
+world.17.a:0 ""
+
+world.18.t:0 ""
+world.18.d:0 ""
+world.18.a:0 ""
+
+world.19.t:0 ""
+world.19.d:0 ""
+world.19.a:0 ""
+
+world.20.t:0 ""
+world.20.d:0 ""
+world.20.a:0 ""
+
+world.21.t:0 ""
+world.21.d:0 ""
+world.21.a:0 ""
+
+world.22.t:0 ""
+world.22.d:0 ""
+world.22.a:0 ""
+
+world.23.t:0 ""
+world.23.d:0 ""
+world.23.a:0 ""
+
+world.24.t:0 ""
+world.24.d:0 ""
+world.24.a:0 ""
+
+world.25.t:0 ""
+world.25.d:0 ""
+world.25.a:0 ""
+
+world.26.t:0 ""
+world.26.d:0 ""
+world.26.a:0 ""
+
+world.27.t:0 ""
+world.27.d:0 ""
+world.27.a:0 ""
+
+world.28.t:0 ""
+world.28.d:0 ""
+world.28.a:0 ""
+
+world.29.t:0 ""
+world.29.d:0 ""
+world.29.a:0 ""
+
+world.30.t:0 "Junta ''Elects'' Costa e Silva"
+world.30.d:0 ""
+world.30.a:0 ""
+
+world.31.t:0 "Junta ''Elects'' Ernesto Geisel"
+world.31.d:0 ""
+world.31.a:0 ""
+
+world.32.t:0 "Junta ''Elects'' Mazzilli"
+world.32.d:0 ""
+world.32.a:0 ""
+
+world.33.t:0 "Junta ''Elects'' Carlos Lacerda"
+world.33.d:0 ""
+world.33.a:0 "The Crow on"
+
+world.34.t:0 "Junta ''Elects'' Dutra"
+world.34.d:0 ""
+world.34.a:0 "No fucking way"
+
 world_inc.1.t:0 "Tupac Avenged! Peru is Reunited by the Inca!"
 world_inc.1.d:0 "Meanwhile, the government has made this ''cultural rebirth'' as the state’s top priority through actions such as restoring Quechuan as the country’s official language and spreading old native folklore, while the cabinet organizes itself and decide truly what direction the state will pursue. \nIt is still to be seen who will bring order to Peru, it is clear that with no external force to deal with, the internal politics of what now constitutes the government of ''Piruw Ripublika'' lay strongly divided between Incan Empire hardliners, democratic reformers and even the strongest of revolutionaries struggling for power. Rumors have spread that they may even seek the unification of the whole Incan Empire; maybe a war is the only thing that can keep them together. "
 world_inc.1.a:0 "Suck on this, Pizzaro!"
+
+world.35.t:0 "The Return of Carlos Prestes"
+world.35.d:0 "News of his return has been received with shock by authorities and revolutionaries alike many of who believed his years-long silence to be evidence of his death, capture, or self-exile; nonetheless, it heavily impacted the Brazilian communist sphere sparking a tirade of retributory speeches and demonstrations from leaderships on both sides, most notably the increasingly daring actions of dissidents in the states of São Paulo, Bahia, and Pernambuco from groups like the ALN, COLINA and the Peasant Leagues. Prestes’s location and previous or current associations are so far unknown but it is expected that he has renewed ties with revolutionary leaderships from across the country and beyond, concrete reactions from both sides of the political spectrum remain to be seen but retaliatory actions from both governments are to be expected in the coming months."
+world.35.a:0 "What breaks first, a man or his ideals?"
 
 world.36.t:0 "Jango Wins Re-election!"
 world.36.d:0 "The 5th Republic of Brazil, or ''The Legalists'', President João ''Jango'' Goulart, has won its re-election despite unpopular support. Vice-president until JK stepped down, he was guiding his country throughout its first civil war with the Junta and the aftermath of the Great War, a situation of uncalculated stress. With successes diminishing by time, he has done everything he can with his power to win the war while providing the basic needs of his people, but after 5 years things are becoming more delicate, with the public demanding and rioting for elections, something that they are nervous to do while in civil war. Despite popular opinion, Jango was re-elected for his second term. Although he had some backing, few thought he would win. Some have been saying he rigged the ballots and rumors are spreading around. Other politicians are saying the democracy of the country is ''damaged''."
@@ -94,6 +182,10 @@ world.44.t:0 "FPRLZ Wins"
 world.44.d:0 "PLACEHOLDER"
 world.44.a:0 "PLACEHOLDER"
 
+world.45.t:0 "The Second Battle of Guanabara"
+world.45.d:0 "For the last years, Rio has been plagued with a constant barrage of refugees pushed south by the impending Junta forces and coastal and aerial bombardments targeting the Legalist’s makeshift and pre-war fortifications, such as the Copacabana, São João, and Duque de Caxias Fortresses. Admiral Rademaker (De Facto leader of the EMC’s military) did not spare the wonderful city from the awe of war, the 2nd Battle of Guanabara will forever be remembered as a turning point in the Brazilian Civil war marking the moment when a dragging and ''indifferent'' war characterized by chaotic skirmishes with low fatalities climaxed into modern warfare the likes of which were last seen in the Second World War. Brazil and Christ both wait in horror to see who’ll be the winner of this irredeemable fratricide."
+world.45.a:0 "No Carnaval this year."
+
 world.46.t:0 "Castelo Branco Dies in Plane Accident!"
 world.46.d:0 "Grieving and desperation recked Brasília as the death of Castelo Branco was made public. In a tragic and mysterious crash during a flight to the state of Ceará, the President of the Brazilian Military Junta, Humberto de Alencar Castelo Branco, has passed away. His remains, charred by what is speculated to have been an explosion, have been recovered and sent back to Brasília. The Junta, incapacitated by his sudden death, has declared a three-day period of mourning - the capital has been turned into a de facto demilitarized zone, with the army having retreated into the provinces and often into thin air altogether. The world has responded in a myriad of different ways. Many reacted with plain shock, the strongman's larger-than-life persona having seemed an indomitable force, and his absence bringing great uncertainty to the geopolitical landscape of Brazil."
 world.46.a:0 "Next Page"
@@ -109,6 +201,54 @@ world.48.a:0 "The Amazon doesn't stop surprising."
 world.49.t:0 "''The Rape of Tefé!''"
 world.49.d:0 "Horrifying news coming from the heart of the Brazilian amazon as scattered reports of priests and refugees paint a terrifying picture of violence and barbarity. With the luck of bandits, the Municipality of Coari has managed to seize the city-state of Tefé, once under the protection of the Quatro Povos das Missões. The small riverside city, reorganized under the local Christian authorities after the collapse of the Federal Government, had managed to make itself a prosperous center of trade in the region. That came to an end when it became the staging ground of a proxy war between Coari and the QPM, helping further deliminate Coari's influence in the area. The sheer isolation of the battleground makes it difficult to pinpoint the motivations of such a barbaric act or the exact nature of the war, nonetheless, is sure to be a boon to the Coarense people."
 world.49.a:0 "Vivo tranquilo e mangueira..."
+
+world.50.t:0 "Cuba Unified CUB"
+world.50.d:0 ""
+world.50.a:0 ""
+
+world.51.t:0 "Cuba Unified ACC"
+world.51.d:0 ""
+world.51.a:0 ""
+
+world.52.t:0 "Cuba Unified CUP"
+world.52.d:0 ""
+world.52.a:0 ""
+
+world.53.t:0 "Cuba Unified NEH"
+world.53.d:0 ""
+world.53.a:0 ""
+
+world.54.t:0 "Cuba Unified SCR"
+world.54.d:0 ""
+world.54.a:0 ""
+
+world.55.t:0 "Cuba Unified CDR"
+world.55.d:0 ""
+world.55.a:0 ""
+
+world.56.t:0 "Cuba Unified ECR"
+world.56.d:0 ""
+world.56.a:0 ""
+
+world.57.t:0 "Cuba Unified BTA"
+world.57.d:0 ""
+world.57.a:0 ""
+
+world.58.t:0 "Cuba Unified DRE"
+world.58.d:0 ""
+world.58.a:0 ""
+
+world.59.t:0 "Cuba Unified RED"
+world.59.d:0 ""
+world.59.a:0 ""
+
+world.60.t:0 "Cuba Unified RUM"
+world.60.d:0 ""
+world.60.a:0 ""
+
+world.61.t:0 "Cuba Unified JUV"
+world.61.d:0 ""
+world.61.a:0 ""
 
 world_acr.1.t:0 "Cerqueira Elected As First President of Acre!"
 world_acr.1.d:0 "With the signing of the Acrean Constitution, nearly two dozen of the Senate's previously empty seats have been filled and with it, a vote within the chamber has been held to elect the nation's first president, Edgar Cerqueira, one of the heads of the Militarist Party. The victor is Edgar Cerqueira, one of the nation's most prominent militarists and a former army commander. Extremely critical of communism and the Technocratic faction, who Cerqueira has decried as socialist sympathizers, the strongman has called for major military buildup and the formation of a professional Acrean army to fend off raids and destroy the ERN. Edgar is also seemingly more friendly to the Brazilian Military Junta than the other candidates, leading to fears amongst opposition members that he will sell out the Republic to Brasília - claims that the new President has fiercely denied."
@@ -131,14 +271,14 @@ world.63.d:0 "Worrying news has escaped the increasingly tense atmosphere of Per
 world.63.a:0 "Censorship is to art as lynching is to justice."
 
 world.64.t:0 "Argentina Faces Resistance in the Malvinas"
-world.64.d:0 "As the old world falls into nothingness, the Argentinian Government has retaken its historical claim on the Falklands with minor resistance from the remnants of the United Kingdom. The Garrison in question was occupying the island since the fall of the British Government, and although the exile royal navy protected it for some time, the island’s and even the west indies navy ports were not equipped to maintain such mighty ships, so most of the navy was lost from breakdowns in its equipments. The militaristic leader of Argentina, Carlos Juan, saw this as a perfect opportunity and took the archipelago by force. The garrison, being called by the argentinians as the “Sheepherders”, were applauded by their bravery from what they call “Their useless defense”. Civilians say they are grateful to the Argentinians, appreciating an actual government going into the island after years of isolation."
+world.64.d:0 "As the old world falls into nothingness, the Argentinian Government has retaken its historical claim on the Falklands with minor but brave resistance from the remnants of the United Kingdom. The Garrison in question was occupying the island since the fall of the British Government, and although the exiled royal navy protected it for some time, the island's navy ports were not equipped to maintain such mighty ships. The President of Argentina, Carlos Juan, annexed the Archipelago as a publicity stunt to boost government support amongst the Argentinian people. The British garrison, called “Sheepherders” by the Argentinians, were applauded for their bravery after holding out for days inside their old navy's shipwrecks. Civilians are said to be grateful to the Argentinians, appreciating an actual government going into the island after years of isolation and neglect."
 world.64.a:0 "The tides will eat away the remnants."
 
-world.65.t:0 "QPM Crusade"
+world.65.t:0 "QPM Crusade against native american communism"
 world.65.d:0 ""
 world.65.a:0 ""
 
-world.66.t:0 "Carlos Lamarca Indian Faction"
+world.66.t:0 "Carlos Lamarca becoming an indigenist"
 world.66.d:0 ""
 world.66.a:0 ""
 
@@ -157,9 +297,6 @@ world.69.a:0 "Brazil's Artery Blocked"
 world.70.t:0 "Junta Cracks Down on Sympathizers on Amapá."
 world.70.d:0 "The Northern Military Command (NMC) has intervened in the republican government of Amapá, causing major resignations in its administration that has disrupted its economy. In recent times it seemed that the leader of Amapá, Raul Monteiro, wanted to forge an alliance with the Legalists, and when the rumors were confirmed to be true, the NMC came in quickly to shut them down before any backup arrived. Now with their puppet restated, many of the former government staff have been replaced with Junta Loyalists. With this sudden change, much of its rubber trade has been broken up due to new policies by the new president."
 world.70.a:0 "It's only getting worse"
-world.70.t:0 "Junta Cracks Down on Amapá."
-world.70.d:0 ""
-world.70.a:0 ""
 
 world.71.t:0 "Blood in the Sand."
 world.71.d:0 ""
@@ -174,10 +311,11 @@ world.73.d:0 ""
 world.73.a:0 ""
 
 world.74.t:0 "Radio Silence from Brasília."
-world.74.d:0 "Eurico Gaspar Dutra, 16th president of the Brazilian Republic and a current Marshal of the Junta army, has just proclaimed himself as President of Brazil in Brasília. After the former leader of the Brazilian Army and Junta leader Castelo Branco died in an airplane crash, the power vacuum left behind caused an administrative crisis throughout its lands. Until the issue was resolved, all of the Junta high command came into an agreement that all army personnel in Brasília, except the Presidential Guard, would be removed and so eliminating any chance of anyone coupling the coupists. Until Dutra broke this by marching into the capital. His army took the only garrison in the city decisively, taking out the barely defended military center and using its supplies to coordinate and take out the remaining patrols in the streets. The army itself is composed of the ''Pracinhas'': World War 2 veterans in the Italian Front of the War, that have battle hardened against the Nazis, that follow Dutra like a demigod. After finally reaching the Planalto Palace, the takeover was finished and the city was his. In the National Congress broadcasted nation-wide, he conducted a voting to grant him the presidency of Brazil, where only himself voted and won. There hasn’t been a word from the Junta, but an insider reports that the high command are in utter shock and plans for retaking the city by force are being commissioned if Dutra doesn’t give up power and surrender. Meanwhile, rumors of rivalries put aside to fight the Legalists and the transition of power after Castelo’s death are beginning to circulate again, as the bounding force that united the armed forces into a cause are beginning to fracture apart."
-world.74.a:0 "Alea iacta est"
-world.74.d:0 "The consequences of the passing of Castelo Branco have reached their climax as the Brazilian Military Junta collapses into complete disorder. All radio communications and broadcasts from Brasília have halted; the last piece of news from the capital was General Eurico Dutra's self-proclamation as President. The few remaining journalists have reported a breakdown of public order and open infighting between army brigades - It seems that not even a facade of civil government remains in Brasília. Outside of the capital, ongoing events are even murkier. The myriad autonomous military commands comprising the Junta's army appear to be openly defying central command, vanishing and reappearing across the countryside with no rhyme or reason. Though engagement between these units has not been noted yet, observers fear the Junta may be defeated from within."
-world.74.a:0 "What's going on in Brasília?"
+world.74.d:0 "Eurico Gaspar Dutra, 16th president of Brazil, has proclaimed himself President of Brazil after marching on Brasília. After the former president, Humberto Castelo Branco, died in an airplane crash the Junta High Command agreed to expel army personnel from Brasília, excepting the Presidential Guard, during the mourning period in an effort to smooth out the power transition. His column, composed of ''Pracinhas'' (WW2 veterans, battle-hardened remarkably loyal to Dutra.), paraded peacefully towards the National Congress, where after reaching it a voting session was broadcasted nationwide, composed of only himself, with foreseen results. Brazil was left in utter shock, an armed struggle is to be expected if Dutra doesn’t give up his claim, radio ways remain flooded by counterclaims from in and out the Junta and Loyalist forces are sure to exploit the growing cracks."
+world.74.a:0 "Alea iacta est."
+world.74.b:0 "Hominibus in universum id \nquod verum esse volunt credunt."
+world.74.c:0 "Veni, vidi, vici."
+world.74.d:0 "Shit hit the fan."
 
 world.75.t:0 "José Sarney Crowned Duke of Maranhão!"
 world.75.d:0 "Elected in 1960 as Governor of Maranhão in a surprising turn of events that saw a heavy blow to Vitorinismo's iron grip over maranhense political scene, the apex point of Sarney's meteoric rise mere 8 years since his first debut. A phase of massive federal-funded investments to repair decades of neglect on everything made the ''Maranhão Novo'' imagined by Sarney a near reality, however things were to change with the fast collapse of Brazil into a collection of independent fiefdoms such as Maranhão. With his position threatened, Sarney made a swift crackdown on any opposition and at the same time delivering a Pronunciamento from the balcony of Palácio dos Leões flanked by top brass police officers. In such, Sarney replaced the former states of Maranhão and Piauí as federate states with the Grand Duchy of Maranhão-Piauí, a hereditary monarchy under the House of Sarney."
@@ -187,7 +325,7 @@ world.76.t:0 "Emperor Rademaker, The Brazilian Napoleon!"
 world.76.d:0 "Augusto Rademaker, de facto leader of the Eastern Military Command and one of, or if not the, most prestigious admirals of the Brazilian Junta, has proclaimed himself to be the heir of all former Brazilian territory through the Restoration of the Brazilian Empire. Although part of the coup that started the civil war, Rademaker stated in a speech that over the years of fighting on the Junta's side: ''We lost our vision, our unity over petty political rivalries, and forgot about our own people.'', he also stated: ''I looked at our rich past and found values worth fighting for: The intellect and progressiveness of our old Empire.'' Remarks from the Junta came in the form of non-official torrents of loose speeches from its Presidential aspirants. The Legalists refused to give comments, presumably still licking their wounds after Rio's fall in the 2nd Battle of Guanabara."
 world.76.a:0 "An Admiral turned Emperor"
 
-world.77.t:0 "Betancourt ded"
+world.77.t:0 "Betancourt is Assassinated"
 world.77.d:0 ""
 world.77.a:0 ""
 

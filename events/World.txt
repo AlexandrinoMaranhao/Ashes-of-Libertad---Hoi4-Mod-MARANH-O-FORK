@@ -489,11 +489,11 @@ news_event = { # Brizola wins
 	}
 }
 
-news_event = { # Monarchists wins
+news_event = { # Janio wins
 	id = world.40
 	title = world.40.t
 	desc = world.40.d
-	picture = "GFX_news_news_event_monarchsit_brazil"
+	#picture = "GFX_news_news_event_monarchsit_brazil"
 
 	is_triggered_only = yes
 

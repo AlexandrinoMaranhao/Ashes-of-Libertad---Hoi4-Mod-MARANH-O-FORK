@@ -1736,7 +1736,7 @@ country_event = {
 	id = ACRMarques.8
 	title = ACRMarques.8.t
 	desc = ACRMarques.8.d
-	picture = GFX_report_event_tapper_syndicate
+	picture = GFX_report_event_che_with_microphone
 	fire_only_once = yes
 	is_triggered_only = yes
 	

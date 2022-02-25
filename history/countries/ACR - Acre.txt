@@ -127,7 +127,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = socialism
 	traits = {
-	playmaker
+	Playmaker
 	syndical_activist
 	}
 }

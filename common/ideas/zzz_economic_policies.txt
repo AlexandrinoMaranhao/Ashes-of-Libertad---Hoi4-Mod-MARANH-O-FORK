@@ -158,7 +158,7 @@ ideas = {
 	trade_scope = {
 		law = yes
 		trade_scope_intercontinental_exports = {
-		picture = idea_generic_free_trade
+		picture = light_level_1
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_intercontinental_exports"}
 			default = yes
 			available = { always = no } 
@@ -193,7 +193,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		trade_scope_international_exports = {
-		picture = GFX_idea_trade_scope_international_exports
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_international_exports"}
 			available = { always = no } 
 			
@@ -210,7 +210,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		trade_scope_regional_exports = {
-		picture = GFX_idea_trade_scope_regional_exports
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea trade_scope_regional_exports"}
 			available = { always = no } 
 			

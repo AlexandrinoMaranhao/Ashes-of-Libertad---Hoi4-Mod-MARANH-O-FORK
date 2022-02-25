@@ -1,5 +1,29 @@
 leader_traits = {
 	
+	shitty_strategist = {
+        random = no
+        planning_speed = -0.15
+        army_chief_cost_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+			
+	legendary_guerrilla_fighter = {
+        random = no
+
+		stability_factor = 0.05
+		political_power_factor = 0.25
+		war_support_factor = 0.05
+        command_power_gain = 1
+        monthly_population = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	gala_tupiniquim = {
         random = no
 
@@ -13,7 +37,7 @@ leader_traits = {
 		}
 	}
 
-	playmaker = {
+	Playmaker = {
         random = no
         political_advisor_cost_factor = -0.1
         subversive_activites_upkeep = -0.1
