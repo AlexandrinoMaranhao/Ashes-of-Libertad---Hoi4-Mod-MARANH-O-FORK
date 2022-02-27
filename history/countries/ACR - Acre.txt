@@ -24,6 +24,21 @@ set_popularities = {
 	reactionary = 0
 
 }
+###Military Advisors###
+recruit_character = jorge_kalume_AC
+recruit_character = edgar_cerqueira_AC
+recruit_character = jose_guiomard
+recruit_character = nabor_junior
+recruit_character = jorge_kalume_NC
+recruit_character = sergio_petecao
+recruit_character = nabor_junior_AC
+recruit_character = mateus_satanawa
+recruit_character = jorge_kalume_HC
+recruit_character = edgar_cerqueira
+recruit_character = eneas_carneiro
+recruit_character = jose_guiomard_HC
+recruit_character = nabor_junior_HC
+
 
 ## variables ##
 
