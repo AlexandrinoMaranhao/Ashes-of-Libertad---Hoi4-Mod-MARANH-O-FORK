@@ -1660,18 +1660,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.4.A
-		add_ideas = slavery_bonded_labor
-		add_ideas = state_segregation
-	}
-	option = {
-		name = ACRMarques.4.B
-		add_ideas = trade_scope_regional_exports
-		add_ideas = slavery_encomienda
-	}
-	option = {
-		name = ACRMarques.4.C
-		add_ideas = equal_rights
-		add_ideas = trade_scope_international_exports
+	custom_effect_tooltip = ACR_Marques4A_tt
 	}
 }
 
@@ -1686,6 +1675,8 @@ country_event = {
 	#Answer
 	option = {
 		name = ACRMarques.5.A
+		custom_effect_tooltip = ACRMarques5_tt
+
 	}
 }
 
@@ -1719,13 +1710,14 @@ country_event = {
 	id = ACRMarques.7
 	title = ACRMarques.7.t
 	desc = ACRMarques.7.d
-	picture = GFX_report_event_tapper_syndicate
+	picture = GFX_report_event_che_with_microphone
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	#Answer
 	option = {
 		name = ACRMarques.7.A
+		custom_effect_tooltip = ACR_love_at_first_sight_tt
 	}
 }
 
@@ -1733,7 +1725,7 @@ country_event = {
 	id = ACRMarques.8
 	title = ACRMarques.8.t
 	desc = ACRMarques.8.d
-	picture = GFX_report_event_che_with_microphone
+	picture = GFX_report_event_red_telephone
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -1746,6 +1738,7 @@ country_event = {
 				days = 0
 			}
 		}
+		custom_effect_tooltip = ACR_hotline_guevara_tt
 	}
 }
 
