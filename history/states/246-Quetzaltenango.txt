@@ -1,17 +1,22 @@
+
 state={
 	id=246
 	name="STATE_246"
+
+	history={
+		owner = GUA
+		add_core_of = GUA
+		victory_points = {
+			630 3 
+		}
+
+	}
+
 	provinces={
-		452 630 1341 1798 2931 2942 
+		452 630 1798 2931 2942 
 	}
 	manpower=405032
-        state_category=town
 	buildings_max_level_factor=1.000
-            history = {
-             owner=GUA
-             add_core_of = GUA
-             victory_points = {
-             630 3
-             }
-}
+	state_category=town
+	local_supplies=0.000
 }
