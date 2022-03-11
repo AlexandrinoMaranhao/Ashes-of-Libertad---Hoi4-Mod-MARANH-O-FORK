@@ -28,14 +28,6 @@ set_popularities = {
 create_faction = los_libertadores
 
 add_ideas = {
-religious_secularism
-bellow_poverty_line
-political_parties_one_party_state
-equal_rights
-state_press_only
-no_education
-economic_focus_total_mobilization
-trade_scope_closed_economy
 WR_no_regulations
 tax_rate_no_taxation
 SI_minimal_regulations
@@ -52,6 +44,7 @@ magnetic_personality
 overextended_and_disorganized
 }
 
+set_country_flag = special_volunteers
 set_country_flag = use_generic_outsider_laws
 set_country_flag = use_generic_draft_exemptions_laws
 set_country_flag = use_generic_officer_training_laws

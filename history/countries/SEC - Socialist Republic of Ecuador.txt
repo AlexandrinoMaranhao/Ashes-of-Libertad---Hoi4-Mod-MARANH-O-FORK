@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 477
 
 oob = "ECU_1967"
 

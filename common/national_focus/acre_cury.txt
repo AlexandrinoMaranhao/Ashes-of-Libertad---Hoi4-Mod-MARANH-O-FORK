@@ -318,7 +318,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-
+	custom_effect_tooltip="Sorry, this specific mechanic could not be finished in time. A future hotfix will bring the War Train mechanic!"
 	}
 }
 shared_focus = {

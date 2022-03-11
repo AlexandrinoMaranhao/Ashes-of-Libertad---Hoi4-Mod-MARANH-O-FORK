@@ -181,11 +181,11 @@ country_event = { #ERP
     is_triggered_only = yes
     option = {
         name = ARG_chile_war.1.a
-        389 = {add_core_of = ERP}
-        390 = {add_core_of = ERP}
-
-        ERP = { transfer_state = 389 }
-        ERP = { transfer_state = 390 }
+       # 389 = {add_core_of = ERP}
+       # 390 = {add_core_of = ERP}
+	   #
+       # ERP = { transfer_state = 389 }
+       # ERP = { transfer_state = 390 }
 
         hidden_effect = { country_event = { id = ARG_chile_war.2 days = 38 } }
 
@@ -209,12 +209,7 @@ country_event = { #PARAGUAY COMES BACK FROM THE DEAD
             type = annex_everything
             } 
         }
-        hidden_effect = { country_event = { id = ARG_chile_war.3 days = 45 } }
-
-        set_autonomy = {
-            target = PAR
-            autonomy_state = autonomy_free
-        }
+        hidden_effect = { country_event = { id = ARG_chile_war.3 days = 45 } 
     }
 }
 country_event = { #URUGUAY COMES BACK FROM THE DEAD

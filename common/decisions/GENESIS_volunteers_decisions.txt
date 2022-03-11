@@ -1,0 +1,239 @@
+GNIS_volunteers = {
+
+	GNIS_volunteers_ERN = {
+
+		icon = GFX_decision_icon_default
+		
+		
+		available = {
+			has_country_flag = special_volunteers
+			original_tag = ERN
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = special_volunteers
+			original_tag = ERN
+		}
+
+		custom_cost_trigger = {
+			command_power > 15
+		}
+
+
+		complete_effect = {
+			ROOT = {
+				add_ideas = zzz_massive_volunteer_campaing
+			}
+			custom_effect_tooltip = ERN_send_volunteers_completed
+			
+			hidden_effect = {
+				INT = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				PCR = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				PAU = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				ROR = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				FBO = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				FAR = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				CHL = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+				NIC = {	add_ideas = zzz_volunteers_from_the_ejercito_revolucionario }
+			}
+		}
+		
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				INT = { has_war = yes }
+				factor = 100
+			}
+			modifier = { PCR = { has_war = yes }
+				factor = 100
+			}
+			modifier = { PAU = { has_war = yes }
+				factor = 100
+			}
+			modifier = { ROR = { has_war = yes }
+				factor = 100
+			}
+			modifier = { FBO = { has_war = yes }
+				factor = 100
+			}
+			modifier = { FAR = { has_war = yes }
+				factor = 100
+			}
+			modifier = { CHL = { has_war = yes }
+				factor = 100
+			}
+			modifier = { NIC = { has_war = yes }
+				factor = 100
+			}
+			factor = 0
+		}
+	}
+	
+	GNIS_volunteers_JUN = {
+
+		icon = GFX_decision_icon_default
+		
+		
+		available = {
+			has_country_flag = special_volunteers
+			original_tag = JUN
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = special_volunteers
+			original_tag = JUN
+		}
+
+		custom_cost_trigger = {
+			command_power > 15
+		}
+
+		complete_effect = {
+			ROOT = {
+				add_ideas = zzz_massive_volunteer_campaing
+			}
+			custom_effect_tooltip = JUN_send_volunteers_completed
+			
+			hidden_effect = {
+				CAN = {	add_ideas = zzz_volunteers_from_jun }
+				BEM = {	add_ideas = zzz_volunteers_from_jun }
+				ALA = {	add_ideas = zzz_volunteers_from_jun }
+				NHA = {	add_ideas = zzz_volunteers_from_jun }
+			}
+		}
+		
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				CAN = { has_war = yes }
+				factor = 100
+			}
+			modifier = { BEM = { has_war = yes }
+				factor = 100
+			}
+			modifier = { ALA = { has_war = yes }
+				factor = 100
+			}
+			modifier = { NHA = { has_war = yes }
+				factor = 100
+			}
+			factor = 0
+		}
+	}
+	
+	GNIS_volunteers_BRA = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			has_country_flag = special_volunteers
+			original_tag = BRA
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = special_volunteers
+			original_tag = BRA
+		}
+
+		custom_cost_trigger = {
+			command_power > 15
+		}
+
+
+		complete_effect = {
+			ROOT = {
+				add_ideas = zzz_massive_volunteer_campaing
+			}
+			custom_effect_tooltip = BRA_send_volunteers_completed
+			
+			hidden_effect = {
+				NHA = {	add_ideas = zzz_volunteers_from_the_republic }
+				AMA = {	add_ideas = zzz_volunteers_from_the_republic }
+				CNU = {	add_ideas = zzz_volunteers_from_the_republic }
+				PEB = {	add_ideas = zzz_volunteers_from_the_republic }
+			}
+		}
+		
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				NHA = { has_war = yes }
+				factor = 100
+			}
+			modifier = { AMA = { has_war = yes }
+				factor = 100
+			}
+			modifier = { CNU = { has_war = yes }
+				factor = 100
+			}
+			modifier = { PEB = { has_war = yes }
+				factor = 100
+			}
+			factor = 0
+		}
+	}
+	
+	GNIS_volunteers_CRJ = {
+
+		icon = GFX_decision_icon_default
+		
+		
+		available = {
+			has_country_flag = special_volunteers
+			original_tag = CRJ
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = special_volunteers
+			original_tag = CRJ
+		}
+
+		custom_cost_trigger = {
+			command_power > 15
+		}
+
+
+		complete_effect = {
+			ROOT = {
+				add_ideas = zzz_massive_volunteer_campaing
+			}
+			custom_effect_tooltip = ERN_send_volunteers_completed
+			
+			hidden_effect = {
+				CEA = {	add_ideas = zzz_voluntrios_da_ptria }
+				BMF = {	add_ideas = zzz_voluntrios_da_ptria }
+				QPM = {	add_ideas = zzz_voluntrios_da_ptria }
+			}
+		}
+		
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				INT = { has_war = yes }
+				factor = 100
+			}
+			modifier = { CEA = { has_war = yes }
+				factor = 100
+			}
+			modifier = { BMF = { has_war = yes }
+				factor = 100
+			}
+			modifier = { QPM = { has_war = yes }
+				factor = 100
+			}
+			factor = 0
+		}
+	}
+}

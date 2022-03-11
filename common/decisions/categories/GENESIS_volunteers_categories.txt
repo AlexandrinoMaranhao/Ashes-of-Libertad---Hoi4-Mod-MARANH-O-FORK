@@ -1,0 +1,13 @@
+GNIS_volunteers = {
+	priority = 10
+	icon = GFX_generic_formable_nations
+	picture = #GFX_
+	
+	allowed = {
+		has_country_flag = special_volunteers
+	}
+	
+	visible = {
+		has_country_flag = special_volunteers
+	}
+}

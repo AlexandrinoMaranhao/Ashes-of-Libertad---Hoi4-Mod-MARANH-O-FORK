@@ -24,21 +24,35 @@ division_template = {
 units = {
 	division = {
 		name = "Infanteria Revolucionaria del Ecuador"
-		location = 5127
+		location = 1002
 		division_template = "Infanteria del Ecuador"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infanteria Revolucionaria del Ecuador"
-		location = 5127
+		location = 1002
+		division_template = "Infanteria del Ecuador"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Revolucionaria del Ecuador"
+		location = 1002
+		division_template = "Infanteria del Ecuador"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Revolucionaria del Ecuador"
+		location = 1002
 		division_template = "Infanteria del Ecuador"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Montaneros"
-		location = 5127
+		location = 1002
 		division_template = "Montaneros"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9

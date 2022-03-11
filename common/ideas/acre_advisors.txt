@@ -1,240 +1,4 @@
 ideas = {
-	
-    ###############################
-	# Military Staff
-	###############################
-    army_chief = {
-
-        jorge_kalume_army_chief = {
-        visible = {
-            NOT = { 
-                has_country_flag = cerqueira_is_couping 
-                }
-            }
-
-            #traits = { }
-            
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        edgar_cerqueira_army_chief = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping 
-                    has_country_flag = ACR_cerqueira_kill
-                    }
-                }
-            }
-
-            #traits = { }
-            
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        jose_guiomard_army_chief = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping 
-                    }
-                }
-            }
-
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        #traits = {}
-
-        }
-
-    nabor_junior_army_chief_aaaa = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping 
-                    }
-                }
-            }
-    #traits = { }
-
-    allowed = {
-        original_tag = ACR
-        }
-    }
-}
-
-    navy_chief = {
-        jonas_kalume_navy_chief = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                    }
-                }
-            }
-    #traits = { }
-    allowed = {
-        original_tag = ACR
-        }
-    }
-
-    sergio_petecao_navy_chief = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                    }
-                }
-            }
-        #traits = { }
-        allowed = {
-            original_tag = ACR
-            }
-        }
-    }
-
-    air_chief = {
-
-        nabor_junior_air_chief = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                    }
-                }
-            }
-        #traits = { }
-        allowed = {
-            original_tag = ACR
-            }
-        }
-        
-        mateus_satanawa_air_chief = { #AIR
-        allowed = {
-            original_tag = ACR
-        }
-        #traits = { }
-        }
-    }
-
-    ###############################
-	# High Command
-	###############################
-        
-        high_command = {
-
-        jorge_kalume_high_command = {
-        visible = {
-            NOT = {
-                    has_country_flag = cerqueira_is_couping
-                }
-            }
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        edgar_cerqueira_high_command = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping 
-                    has_country_flag = ACR_cerqueira_kill
-                    }
-                }
-            }
-            allowed = {
-            original_tag = ACR
-            }
-
-
-        }
-
-        jonas_kalume_high_command = {
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                }
-             }
-            }
-
-
-
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        eneas_carneiro_high_command = {
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        jose_guiomard_high_command = { #militarist
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                }
-             }
-            }
-
-
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        nabor_junior_high_command = { #militarist
-            visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                }
-             }
-            }
-
-            
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-        
-        marques_ern_high_command = { #marques with ERN
-            visible = {
-                AND = {
-                    NOT = { has_country_flag = ACR_marques_kill }
-                    has_completed_focus = ACR_holding_hands_with_che
-                }
-            }
-
-            
-        	allowed = {
-        	original_tag = ACR
-        	}
-        }
-        }
-
     ###############################
 	# Theorists
 	###############################
@@ -325,7 +89,7 @@ ideas = {
             allowed = {
             original_tag = ACR
             }
-
+		traits = { hog_corporate_suit }
         }
 
         helio_cury_political_advisor = { #nationalist
@@ -344,7 +108,8 @@ ideas = {
                     
                 }
                 }
-
+traits = { hog_flamboyant_tough_guy }
+cost = 50
         }
 
         marques_de_souza_political_advisor = { #technocrat
@@ -363,7 +128,8 @@ ideas = {
                 }    
                 
             }
-
+traits = { hog_ambitious_union_boss }
+cost = 50
         }
 
         edgar_cerqueira_political_advisor = { #militarist
@@ -376,11 +142,11 @@ ideas = {
             } 
         }    
 
-            
+            traits = { hog_local_tyrant }  
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         jorge_kalume_political_advisor = { #militarist
@@ -391,12 +157,12 @@ ideas = {
                 }
              }
             }
-
+traits = { hog_old_general }
 
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         jonas_kalume_political_advisor = { #nationalist 
@@ -409,8 +175,8 @@ ideas = {
             }
 
 
-
-
+cost = 50
+traits = { hog_silent_workhorse } 
             allowed = {
             original_tag = ACR
             }
@@ -426,6 +192,8 @@ ideas = {
             visible = {
                     has_completed_focus = ACR_mr_carneiros_class
                 }
+cost = 50
+traits = { hog_intelligentsia }
         }
 
         jose_augusto_political_advisor = { #nationalist
@@ -445,7 +213,8 @@ ideas = {
                     
                 }
                 }
-
+cost = 50
+traits = { hog_sympathetic_to_natives }
         }
 
         adalberto_sena_political_advisor = { #technocrat
@@ -466,8 +235,8 @@ ideas = {
                     
                 }
                 }
-            
-
+            cost = 50
+traits = { hog_reformist_soldier } 
         }
 
         nilson_mourao_political_advisor = { #technocrat
@@ -486,6 +255,8 @@ ideas = {
                     
                 }
                 }
+cost = 50
+traits = { hog_silent_workhorse } 
 
         }
 
@@ -502,7 +273,8 @@ ideas = {
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
+traits = { hog_political_protege } 
         }
 
         jose_guiomard_political_advisor = { #militarist
@@ -515,11 +287,11 @@ ideas = {
             }
 
 
-
+traits = { hog_political_protege } 
             allowed = {
             original_tag = ACR
             }
-
+cost = 50
         }
 
         mateus_satanawa_political_advisor = { #nationalist
@@ -539,6 +311,8 @@ ideas = {
                     
                 }
                 }
+traits = { hog_political_protege } 
+cost = 50
 
         }
 
@@ -560,7 +334,8 @@ ideas = {
                     
                 }
                 }
-
+traits = { hog_happy_amateur } 
+cost = 50
         }
 
         moacyr_grechi_political_advisor = { #priest
@@ -569,7 +344,8 @@ ideas = {
             allowed = {
             original_tag = ACR
             }
-
+traits = { hog_spiritual_leader } 
+cost = 50
         }
         
         marques_ern_political_advisor = { #ERN representative 
@@ -586,7 +362,8 @@ ideas = {
         	allowed = {
         	original_tag = ACR
         	}
-        	
+        	traits = { hog_ambitious_union_boss }
+cost = 50
         }
 
         carlos_drummond_de_andrade_advisor = { 
@@ -599,7 +376,7 @@ ideas = {
         	allowed = {
         	original_tag = ACR
         	}
-        	
+        	traits = { hog_backroom_backstabber }
             }
          
         placeholder_1_advisor = {

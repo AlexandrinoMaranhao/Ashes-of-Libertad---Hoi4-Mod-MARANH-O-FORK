@@ -222,7 +222,7 @@ acrean_senate = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 10000
+				amount = 2100
 			}
 			add_popularity = {
 				ideology = fascism

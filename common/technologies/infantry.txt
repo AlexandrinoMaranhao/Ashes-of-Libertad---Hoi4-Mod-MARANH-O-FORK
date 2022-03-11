@@ -50,7 +50,7 @@ technologies = {
 		}
 		
 		enable_subunits = {
-			tribe
+			tribal_infantry
 		}
 		
 		path = {

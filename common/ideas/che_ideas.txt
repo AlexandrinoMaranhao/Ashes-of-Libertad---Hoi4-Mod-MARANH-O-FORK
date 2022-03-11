@@ -1,0 +1,75 @@
+ideas = {
+	country = {
+		
+		international_guerrilla = {
+			picture = ###
+			allowed = {
+				AND = {
+					has_government = communism
+					original_tag = ERN
+				}
+			}
+			visible = {
+				has_government = communism
+			}
+			modifier = {
+				monthly_population = 0.05
+			}
+			
+		}
+
+		che_ideas_a_dream_of_revolution = {
+			picture = che_ideas_a_dream_of_revolution-2040
+			allowed = {
+				AND = {
+					has_government = communism
+					original_tag = ERN
+				}
+			}
+			visible = {
+				has_government = communism
+			}
+			modifier = {
+				max_surrender_limit_offset = 0.5
+surrender_limit = 1.0
+opinion_gain_monthly_same_ideology = 5
+			}
+		}
+
+		che_ideas_magnetic_personality = {
+			picture = che_ideas_magnetic_personality-2040
+			allowed = {
+				AND = {
+					has_government = communism
+					original_tag = ERN
+				}
+			}
+			visible = {
+				has_government = communism
+			}
+			modifier = {
+				political_power_gain = 0.5
+conscription = 0.1
+army_morale = 10
+			}
+		}
+
+		che_ideas_overextended_and_disorganized = {
+			picture = che_ideas_overextended_and_disorganized-2040
+			allowed = {
+				AND = {
+					has_government = communism
+					original_tag = ERN
+				}
+			}
+			visible = {
+				has_government = communism
+			}
+			modifier = {
+				experience_loss_factor = 0.25
+experience_gain_army_factor = -0.1
+war_support_factor = -0.3
+			}
+		}
+	}
+}
