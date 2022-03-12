@@ -800,47 +800,503 @@ acrean_senate = {
 	}
 }
 
-ACR_war_train_category = {
+###################################################################################
+########################################WAR TRAIN##################################
+###################################################################################
+
+ACR_war_train_category = { #TRAX STUFF
+	
 	ACR_connect_arquimedes = {
+		
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_arquimedes_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_arquimedes_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_arquimedes_connected
+			
+			build_railway = {
+			level = 1
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 4230
+			target_province = 811
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
+
 	ACR_connect_cruzeiro = {
+		
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_cruzeiro_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_cruzeiro_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_cruzeiro_connected
+			
+			build_railway = {
+			level = 1
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 4094
+			target_province = 4300
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	ACR_connect_feijo = {
+		
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_feijo_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_feijo_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_feijo_connected
+			
+			build_railway = {
+			level = 1
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 1256
+			target_province = 4241
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	ACR_connect_guajara_mirim = {
+
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_guajara_mirim_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_guajara_mirim_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_guajara_mirim_connected
+			
+			build_railway = {
+			level = 1
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 1309
+			target_province = 4230
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	ACR_connect_porto_velho = {
+
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_porto_velho_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_porto_velho_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_porto_velho_connected
+			
+			build_railway = {
+			level = 1
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 4205
+			target_province = 4125
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	ACR_connect_riberalta = {
+		
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_riberalta_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_riberalta_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_riberalta_connected
+			
+			build_railway = {
+			level = 1
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 2471
+			target_province = 4230
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	ACR_connect_rio_branco = {
+		
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_rio_branco_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_rio_branco_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_rio_branco_connected
+			
+			build_railway = {
+			level = 3
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 1855
+			target_province = 4230
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	ACR_connect_xapuri = {
+
+		
+		available = {
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_xapuri_connected
+					has_idea = ACR_building_connection
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 30
+		#days_re_enable = 0
+
+		visible = {		
+			AND = {
+				original_tag = ACR
+				NOT = {
+					has_country_flag = ACR_war_train_xapuri_connected
+				}
+			}
+		}	
+
+		cost = 10		
+
+		
+
 		complete_effect = {
+			add_timed_idea = {
+			idea = ACR_building_connection
+			days = 30
+			}
+		}
+		
+		remove_effect = {
 			set_country_flag = ACR_war_train_xapuri_connected
+			
+			build_railway = {
+			level = 2
+			build_only_on_allied = no
+			controller_priority = {
+			base = 1
+   
+				modifier = {
+				tag = ACR
+				add = 2
+				}
+			}
+			fallback = yes
+			start_province = 533
+			target_province = 4230
+			}
+		}
+	
+
+		ai_will_do = {
+			factor = 20
 		}
 	}
+	
 	ACR_construct_railroad_acre = {
 		icon = GFX_decision_build_acre_wartrain_decision
 		visible = {

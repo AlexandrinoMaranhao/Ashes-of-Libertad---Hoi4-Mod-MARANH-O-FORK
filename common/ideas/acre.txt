@@ -1,5 +1,29 @@
 ideas = {
 	country = {
+		
+		ACR_building_connection = {
+			
+			picture = GFX_idea_building_connection
+			
+			allowed = {
+				tag = ACR
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+        	modifier  = {consumer_goods_factor = 0.25 production_speed_buildings_factor = -0.3 supply_node_range = 0.2}
+		}
+		
 		the_red_menace = {
 			
 			allowed = {
@@ -19,7 +43,6 @@ ideas = {
 			}
 			
         	targeted_modifier = { tag = ERN attack_bonus_against = 0.1 defense_bonus_against = 0.25}
-
 		}
 		the_red_menace1 = {
 			

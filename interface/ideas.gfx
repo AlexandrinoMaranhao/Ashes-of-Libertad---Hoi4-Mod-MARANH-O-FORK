@@ -8,6 +8,11 @@ SpriteTypes = {
 # 
                  
 spriteType ={
+    name = "GFX_idea_building_connection"
+    texturefile = "gfx/interface/ideas/ACR_building_connection.dds"
+}
+
+spriteType ={
     name = "GFX_idea_the_farc"
     texturefile = "gfx/interface/ideas/the_farc.dds"
 } 

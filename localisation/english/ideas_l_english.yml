@@ -374,6 +374,8 @@
  bad_carlos_prestes_return:0 "The Return of Carlos Prestes"
  good_carlos_prestes_return:0 "The Return of Carlos Prestes"
  padre_cicero:0 "Padre Cicero"
+ ACR_building_connection:0 "Building Railroad connection in [FROM.GetName]"
+ 
  ########################################################
 
 # battle_of_guanabara:0 "The 2nd Battle of Guanabara"
