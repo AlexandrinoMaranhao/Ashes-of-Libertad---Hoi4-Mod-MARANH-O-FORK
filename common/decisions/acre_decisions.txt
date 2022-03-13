@@ -1311,13 +1311,18 @@ ACR_war_train_category = { #TRAX STUFF
 			}
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 21
 		complete_effect = {
+			custom_effect_tooltip = ACR_building_network
 			89 = {
 				add_manpower = -50
 			}
 		}
 		remove_effect = {
+			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_extra_state_shared_building_slots = -1
+				add_resistance_target = 25
+			}
 			add_to_variable = { ACR_acrean_railroad_progress = 1 }
 			add_to_variable = { ACR_railroad_progress = 10 }
 		}
@@ -1339,14 +1344,19 @@ ACR_war_train_category = { #TRAX STUFF
 				has_decision = ACR_construct_railroad_acre
 			}
 		}
-		cost = 10
-		days_remove = 1
+		cost = 25
+		days_remove = 21
 		complete_effect = {
+			custom_effect_tooltip = ACR_building_network
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
 			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
+			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_extra_state_shared_building_slots = -1
+				add_resistance_target = 25
+			}
 			add_to_variable = { ACR_acrean_railroad_progress = 1 }
 			add_to_variable = { ACR_railroad_progress = 10 }
 		}
@@ -1374,12 +1384,17 @@ ACR_war_train_category = { #TRAX STUFF
 		cost = 50
 		days_remove = 1
 		complete_effect = {
+			custom_effect_tooltip = ACR_building_network
 			89 = {
 				add_manpower = -50
 			}
 			ACR_increase_che_suspicion = yes
 		}
 		remove_effect = {
+			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_extra_state_shared_building_slots = -1
+				add_resistance_target = 25
+			}
 			add_to_variable = { ACR_railroad_progress = 15 }
 			set_country_flag = ACR_railroad_rondonia_finished
 		}
@@ -1410,11 +1425,16 @@ ACR_war_train_category = { #TRAX STUFF
 		cost = 10
 		days_remove = 1
 		complete_effect = {
+			custom_effect_tooltip = ACR_building_network
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
 			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
+			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_extra_state_shared_building_slots = -1
+				add_resistance_target = 25
+			}
 			add_to_variable = { ACR_railroad_progress = 15 }
 			set_country_flag = ACR_railroad_rondonia_finished
 		}
@@ -1442,6 +1462,7 @@ ACR_war_train_category = { #TRAX STUFF
 		cost = 50
 		days_remove = 1
 		complete_effect = {
+			custom_effect_tooltip = ACR_building_network
 			89 = {
 				add_manpower = -50
 			}
@@ -1478,6 +1499,7 @@ ACR_war_train_category = { #TRAX STUFF
 		cost = 10
 		days_remove = 1
 		complete_effect = {
+			custom_effect_tooltip = ACR_building_network
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
 			ACR_trigger_native_revolt = yes
@@ -1487,6 +1509,8 @@ ACR_war_train_category = { #TRAX STUFF
 			set_country_flag = ACR_railroad_bolivia_finished
 		}
 	}
+###Focus above require finalized touches...
+
 
 	ACR_lower_che_suspicion = {
 		icon = GFX_decision_lower_che_suspicion_wartrain_decision
