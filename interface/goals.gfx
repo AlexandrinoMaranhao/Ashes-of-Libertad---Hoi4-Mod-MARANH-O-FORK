@@ -8,37 +8,7 @@ spriteTypes = {
 #	texturefile = "gfx/interface/goals/.dds"
 #	}	
 #    
-          
-	SpriteType = {
-	name = "GFX_goal_ACR_Tappers_No_More"
-	texturefile = "gfx/interface/goals/ACR_Tappers_No_More.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_ACR_The_Elites_Elite"
-	texturefile = "gfx/interface/goals/ACR_The_Elites_Elite.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_ACR_Plato_Cave"
-	texturefile = "gfx/interface/goals/ACR_Plato_Cave.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_ACR_The_War_Academy"
-	texturefile = "gfx/interface/goals/ACR_The_War_Academy.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_ACR_the_art_of_war"
-	texturefile = "gfx/interface/goals/ACR_the_art_of_war.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_ACR_the_art_of_thought"
-	texturefile = "gfx/interface/goals/ACR_the_art_of_thought.dds"
-	}	
-    
+        
 	SpriteType = {
 	name = "GFX_goal_east_wing_expansion"
 	texturefile = "gfx/interface/goals/east_wing_expansion.dds"
