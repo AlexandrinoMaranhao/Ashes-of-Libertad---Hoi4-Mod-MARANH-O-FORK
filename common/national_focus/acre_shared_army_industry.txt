@@ -968,7 +968,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_art_of_thought
 	prerequisite = { focus = ACR_west_wing_expansion}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_the_art_of_thought
 	mutually_exclusive = { focus = ACR_art_of_war }
 	relative_position_id = ACR_the_university_of_rio_branco
 
@@ -1010,7 +1010,7 @@ shared_focus = {
 	id = ACR_art_of_war
 	prerequisite = { focus = ACR_west_wing_expansion}
 	mutually_exclusive = { focus = ACR_art_of_thought }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_the_art_of_war
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = -3
@@ -1045,7 +1045,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_platos_cave
 	prerequisite = { focus = ACR_art_of_thought}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_Plato_Cave
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = -1
@@ -1081,7 +1081,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_war_academy
 	prerequisite = { focus = ACR_art_of_war}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_The_War_Academy
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = -3
@@ -1146,7 +1146,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_the_elites_elite
 	prerequisite = { focus = ACR_education_for_the_elite}
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_The_Elites_Elite
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 1
@@ -1168,7 +1168,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_tappers_no_more
 	prerequisite = { focus = ACR_education_for_all }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_ACR_Tappers_No_More
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = 3
@@ -1209,7 +1209,7 @@ shared_focus = {
 shared_focus = {
 	id = ACR_extra_research_slot_2
 	prerequisite = { focus = ACR_war_academy focus = ACR_platos_cave }
-	icon = GFX_goal_first_step_republic
+	icon = GFX_goal_extra_research_slot_acre_1
 	relative_position_id = ACR_the_university_of_rio_branco
 
 	x = -2
