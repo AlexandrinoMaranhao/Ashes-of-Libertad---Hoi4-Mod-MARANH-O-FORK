@@ -1391,6 +1391,7 @@ ACR_war_train_category = { #TRAX STUFF
 		cost = 50
 		days_remove = 21
 		modifier = {
+			consumer_goods_factor = 0.2
 			production_speed_buildings_factor = -0.12
         }
 		complete_effect = {
@@ -1433,16 +1434,24 @@ ACR_war_train_category = { #TRAX STUFF
 				}
 			}
 		}
-		cost = 10
-		days_remove = 1
+		cost = 25
+		days_remove = 31
+		modifier = {
+			production_speed_buildings_factor = -0.1
+			resistance_target_on_our_occupied_states = 0.12
+        }
 		complete_effect = {
 			custom_effect_tooltip = ACR_building_network
+			89 = {
+				add_manpower = -50
+			}
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
 			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
 			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_manpower = 50
 				add_extra_state_shared_building_slots = -1
 				add_resistance_target = 25
 			}
@@ -1471,7 +1480,11 @@ ACR_war_train_category = { #TRAX STUFF
 			}
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 30
+		modifier = {
+			production_speed_buildings_factor = -0.2
+			consumer_goods_factor = 0.2
+        }
 		complete_effect = {
 			custom_effect_tooltip = ACR_building_network
 			89 = {
@@ -1480,12 +1493,17 @@ ACR_war_train_category = { #TRAX STUFF
 			ACR_increase_che_suspicion = yes
 		}
 		remove_effect = {
+			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_manpower = 50
+				add_extra_state_shared_building_slots = -1
+				add_resistance_target = 25
+			}
 			add_to_variable = { ACR_railroad_progress = 15 }
 			set_country_flag = ACR_railroad_bolivia_finished
 		}
 	}
 
-	ACR_construct_railroad_bolivia_natives = {
+	#ACR_construct_railroad_bolivia_natives = {
 		icon = GFX_decision_build_cerqueira_bolivia_wartrain_decision
 		visible = {
 			tag = ACR
@@ -1508,19 +1526,31 @@ ACR_war_train_category = { #TRAX STUFF
 			}
 		}
 		cost = 10
-		days_remove = 1
+		days_remove = 30
+		modifier = {
+			production_speed_buildings_factor = -0.1
+			resistance_target_on_our_occupied_states = 0.12
+        }
 		complete_effect = {
 			custom_effect_tooltip = ACR_building_network
+			89 = {
+				add_manpower = -50
+			}
 			ACR_construct_railroad_natives = yes
 			ACR_increase_che_suspicion = yes
 			ACR_trigger_native_revolt = yes
 		}
 		remove_effect = {
+			random_owned_state = { #It removes the building slot to place a vast railway network in the region.
+				add_manpower = 50
+				add_extra_state_shared_building_slots = -1
+				add_resistance_target = 25
+			}
 			add_to_variable = { ACR_railroad_progress = 15 }
 			set_country_flag = ACR_railroad_bolivia_finished
 		}
 	}
-###Decisions above require finalized touches...
+###Decisions above require changing *random_owned_state* with the idealized state ID.
 
 
 	ACR_lower_che_suspicion = {
