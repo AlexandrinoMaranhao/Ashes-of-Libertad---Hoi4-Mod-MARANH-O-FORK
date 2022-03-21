@@ -1503,7 +1503,7 @@ ACR_war_train_category = { #TRAX STUFF
 		}
 	}
 
-	#ACR_construct_railroad_bolivia_natives = {
+	ACR_construct_railroad_bolivia_natives = {
 		icon = GFX_decision_build_cerqueira_bolivia_wartrain_decision
 		visible = {
 			tag = ACR
@@ -1558,7 +1558,7 @@ ACR_war_train_category = { #TRAX STUFF
 		visible = {
 			tag = ACR
 		}
-		days_remove = 1
+		days_remove = 7
 		cost = 10
 		remove_effect = {
 			ACR_decrease_che_suspicion = yes
@@ -1574,7 +1574,7 @@ ACR_war_train_category = { #TRAX STUFF
 			tag = ACR
 			has_manpower > 200
 		}
-		days_remove = 1
+		days_remove = 7
 		cost = 10
 		complete_effect = {
 			add_manpower = -200
@@ -1620,7 +1620,7 @@ ACR_war_train_category = { #TRAX STUFF
 			} 
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		complete_effect = {
 			custom_effect_tooltip = ACR_build_train_engine_tt
 			hidden_effect = {
@@ -1659,7 +1659,7 @@ ACR_war_train_category = { #TRAX STUFF
 			}
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		remove_effect = {
 			set_country_flag = ACR_base_wagons_built
 			set_country_flag = ACR_can_reveal_the_war_train
@@ -1681,7 +1681,7 @@ ACR_war_train_category = { #TRAX STUFF
 			} 
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		remove_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 3 }
 			add_to_variable = { ACR_first_empty_train = 1 }
@@ -1705,7 +1705,7 @@ ACR_war_train_category = { #TRAX STUFF
 			ACR_can_build_other_wagons = yes
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		remove_effect = {
 			set_country_flag = ACR_reinforced_hull_built
 		}
@@ -1729,7 +1729,7 @@ ACR_war_train_category = { #TRAX STUFF
 			command_power > 50
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		complete_effect = {
 			add_command_power = -50
 		}
@@ -1761,7 +1761,7 @@ ACR_war_train_category = { #TRAX STUFF
 			}  
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		complete_effect = {
 			custom_effect_tooltip = ACR_build_ammo_wagon_tt
 			hidden_effect = {
@@ -1802,7 +1802,7 @@ ACR_war_train_category = { #TRAX STUFF
 			} 
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		remove_effect = {
 			set_variable = { ACR_war_train_array^ACR_first_empty_train = 9 }
 			add_to_variable = { ACR_first_empty_train = 1 }
@@ -1827,7 +1827,7 @@ ACR_war_train_category = { #TRAX STUFF
 			has_manpower > 200 
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		complete_effect = {
 			add_manpower = -200
 		}
@@ -1859,7 +1859,7 @@ ACR_war_train_category = { #TRAX STUFF
 			} 
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		complete_effect = {
 			custom_effect_tooltip = ACR_build_turrets_tt
 			hidden_effect = {
@@ -1905,7 +1905,7 @@ ACR_war_train_category = { #TRAX STUFF
 			} 
 		}
 		cost = 50
-		days_remove = 1
+		days_remove = 14
 		complete_effect = {
 			custom_effect_tooltip = ACR_build_turrets_tt
 			hidden_effect = {
