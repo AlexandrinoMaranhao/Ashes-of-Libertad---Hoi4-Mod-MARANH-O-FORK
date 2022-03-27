@@ -53,9 +53,7 @@ ideas = {
 		wasteland_misery = {
 		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea wasteland_misery"}
-			available = {
-				NOT = { has_idea = slavery_outlawed }
-			}
+			available = { always = no } 
 			
 			removal_cost = -1
 			ledger = civilian
