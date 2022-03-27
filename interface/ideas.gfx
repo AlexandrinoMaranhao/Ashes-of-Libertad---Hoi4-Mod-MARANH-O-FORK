@@ -58,6 +58,11 @@ spriteType ={
 } 
       
 spriteType ={
+    name = "GFX_idea_light_level_69"
+    texturefile = "gfx/interface/ideas/light_redbruv.dds"
+} 
+      
+spriteType ={
     name = "GFX_idea_light_level_7"
     texturefile = "gfx/interface/ideas/light_green.dds"
 } 
