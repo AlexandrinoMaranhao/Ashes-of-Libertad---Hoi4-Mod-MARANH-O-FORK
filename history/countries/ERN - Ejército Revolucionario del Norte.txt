@@ -44,6 +44,11 @@ magnetic_personality
 overextended_and_disorganized
 }
 
+add_timed_idea = {
+    idea = ern_buff
+    days = 364
+}
+
 set_country_flag = special_volunteers
 set_country_flag = use_generic_outsider_laws
 set_country_flag = use_generic_draft_exemptions_laws
