@@ -46,12 +46,16 @@ acrean_senate = {
 	press_act = { 
 	icon = GFX_decision_senate_technocrats_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_promise_to_limit_reforms
+			}
 		}
 
 		available = {
@@ -63,7 +67,10 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = press_act_tt }
 		}
 		visible = {
-			always = yes
+			AND = {
+			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		cost = 50
         days_re_enable = 30
@@ -87,19 +94,23 @@ acrean_senate = {
 	icon = GFX_decision_senate_technocrats_decision
 
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
-
+			}
 		}
 		available = {
+			AND = {
 			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
 			has_war_support < 0.1
-
+			}
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_make_love_not_war
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -177,16 +188,20 @@ acrean_senate = {
 	national_conscription_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			check_variable = { senate_militarist_seats > 11 }
 			custom_trigger_tooltip = { tooltip = national_conscription_act_tt }
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_national_conscription_act
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -206,16 +221,20 @@ acrean_senate = {
 	national_disarmament_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			check_variable = { senate_militarist_seats > 19 }
 			custom_trigger_tooltip = { tooltip = national_disarmament_act_tt }
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_national_rearment_act
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -240,16 +259,20 @@ acrean_senate = {
 	native_protection_act = { 
 	icon = GFX_decision_senate_nationalists_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			check_variable = { senate_nationalist_seats > 14 }
 			custom_trigger_tooltip = { tooltip = native_protection_tt }
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_pass_native_defence_act
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -285,16 +308,22 @@ acrean_senate = {
 	worker_rights_act = { 
 	icon = GFX_decision_senate_technocrats_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
+			AND = {
 			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = worker_right_tt }
+			}
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_revise_worker_rights
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -340,16 +369,20 @@ acrean_senate = {
 	nut_act = { 
 	icon = GFX_decision_senate_nut_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			check_variable = { senate_nationalist_seats > 7 }
 			custom_trigger_tooltip = { tooltip = nut_right_tt }
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_xapuri_acre_pride
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -371,15 +404,20 @@ acrean_senate = {
 	mercenary_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			check_variable = { senate_militarist_seats > 7  }
 			custom_trigger_tooltip = { tooltip = mercenary_act_tt }
 		}
 		visible = {
-			always = yes
+			AND = {
+			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -411,15 +449,20 @@ acrean_senate = {
 	labor_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			check_variable = { senate_technocrat_seats > 7 }
 			custom_trigger_tooltip = { tooltip = labor_act_tt }
 		}
 		visible = {
-			always = yes
+			AND = {
+			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -439,11 +482,13 @@ acrean_senate = {
 	trade_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
-			AND = {
+			OR = {
 				check_variable = { senate_technocrat_seats > 7 }
 				check_variable = { senate_militarist_seats > 7 }
 			}
@@ -451,7 +496,10 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = trade_act_tt }
 		}
 		visible = {
-			always = yes
+			AND = {
+			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		cost = 50
         days_re_enable = 90
@@ -482,11 +530,13 @@ acrean_senate = {
 	military_factory_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
-			AND = {
+			OR = {
 				check_variable = { senate_nationalist_seats > 7 }
 				check_variable = { senate_militarist_seats > 7 }
 			}
@@ -494,8 +544,10 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = military_factory_act_tt }
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_a_national_fire_stick
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -519,11 +571,13 @@ acrean_senate = {
 	civilian_factory_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
-			AND = {
+			OR = {
 				check_variable = { senate_nationalist_seats > 7 }
 				check_variable = { senate_technocrat_seats > 7 }
 			}
@@ -531,7 +585,10 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = civilian_act_tt }
 		}
 		visible = {
-			always = yes
+			AND = {
+			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -555,11 +612,13 @@ acrean_senate = {
 	defense_act = { 
 	icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
-			AND = {
+			OR = {
 				check_variable = { senate_militarist_seats > 7 }
 				check_variable = { senate_nationalist_seats > 7 }
 			}
@@ -567,7 +626,10 @@ acrean_senate = {
 			custom_trigger_tooltip = { tooltip = defense_act_tt }
 		}
 		visible = {
-			always = yes
+			AND = {
+			tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -612,16 +674,20 @@ acrean_senate = {
 	end_gridlock_TN_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			always = yes
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
 		}
 		visible = {
+			OR = {
 			check_variable = { senate_technocrat_seats = 9 }
 			check_variable = { senate_nationalist_seats = 9 }
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -642,12 +708,16 @@ acrean_senate = {
 			tag = ACR
 		}
 		available = {
+			AND = {
 			always = yes
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
+			}
 		}
 		visible = {
+			OR = {
 			check_variable = { senate_technocrat_seats = 9 }
-			check_variable = { senate_militarist_seats = 9 } 
+			check_variable = { senate_militarist_seats = 9 }
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -665,16 +735,20 @@ acrean_senate = {
 	end_gridlock_NM_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
 			always = yes
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
 		}
 		visible = {
+			OR = {
 			check_variable = { senate_nationalist_seats = 9 }
 			check_variable = { senate_militarist_seats = 9 }
+			}
 		}
 		cost = 50
 		fire_only_once = yes
@@ -692,17 +766,23 @@ acrean_senate = {
 	contingency_plan_act = {
 		icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		available = {
+			AND = {
 			has_completed_focus = ACR_a_contingency_plan
 			has_war = yes
 			NOT = { has_country_flag = ACR_conscripted_civilians }
+			}
 		}
 		visible = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_a_contingency_plan
+			}
 		}
 		cost = 75
 		days_remove = 14
@@ -746,16 +826,22 @@ acrean_senate = {
 	ACR_deconscript_civilian_militias = {
 		icon = GFX_decision_senate_generic_decision
 		allowed = {
+			AND = {
 			tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
+			}
 		}
 		activation = {
+			AND = {
 			has_country_flag = ACR_conscripted_civilians
 			has_war = no
+			}
 		}
 		visible = {
+			AND = {
 			has_country_flag = ACR_conscripted_civilians
 			has_war = no
+			}
 		}
 		is_good = no
 		selectable_mission = yes
