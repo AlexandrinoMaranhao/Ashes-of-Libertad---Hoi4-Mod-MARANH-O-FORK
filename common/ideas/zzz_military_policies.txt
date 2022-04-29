@@ -292,7 +292,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea mercenary_training"}
 			
 			available = {
-			NOT = { has_idea = no_mercenaries }
+				always = no
 			}
 			
 			removal_cost = -1

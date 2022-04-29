@@ -2,7 +2,17 @@ spriteTypes = {
 
 	### categories
 	##AoL
-				
+					
+	spriteType = {
+		name = "GFX_use_hid_weapons_decision"
+		texturefile = "gfx/interface/decisions/use_hid_weapons_decision.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_hid_weapons_decision"
+		texturefile = "gfx/interface/decisions/hid_weapons_decision.dds"
+	}
+					
 	spriteType = {
 		name = "GFX_decision_category_eneas_insanity"
 		texturefile = "gfx/interface/decisions/decision_category_eneas_insanity.dds"

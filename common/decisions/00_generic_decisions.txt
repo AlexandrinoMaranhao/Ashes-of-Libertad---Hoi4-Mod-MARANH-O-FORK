@@ -15,24 +15,24 @@ ACR_debug = {
 
 	hid_weapons = {
 
-		icon = GFX_decision_icon_default
+		icon = GFX_hid_weapons_decision
 		state_target = yes
 		on_map_mode = map_only
-			target_array = core_states
-			target_root_trigger = {
-				ROOT = {
-					any_core_state = {
-					NOT = { 
-						has_state_flag = stashed_weapons
-						}
+		target_trigger = {
+			FROM = {
+				all_neighbor_state = {
+					AND = {
+							NOT = {
+								has_state_flag = stashed_weapons
+							}
+						is_owned_and_controlled_by = ROOT
 					}
 				}
 			}
+		}
 		
 		available = {
-			ROOT = {
-				is_ai = no
-			}
+
 		}
 		
 		fire_only_once = no
@@ -45,7 +45,7 @@ ACR_debug = {
 		}
 		
 
-		cost = 10
+		cost = 0
 
 		#
 
@@ -54,8 +54,8 @@ ACR_debug = {
 				type = infantry_equipment
 				amount = -1000
 			}
-			ROOT = { 
-				random_core_state = {
+			ROOT = {
+				random_owned_state = {
 					set_state_flag = stashed_weapons
 				}
 			}
@@ -70,47 +70,55 @@ ACR_debug = {
 	
 	use_hid_weapons = {
 
-		icon = GFX_decision_icon_default		#
+		icon = GFX_use_hid_weapons_decision
 		
 		#
 		
 		state_target = yes
 		on_map_mode = map_only
-			target_array = core_states
-			target_root_trigger = {
-				ROOT = {
-					any_core_state = {
+		target_trigger = {
+			FROM = {
+				any_neighbor_state = {
+					AND = {
 						has_state_flag = stashed_weapons
+						is_owned_and_controlled_by = ROOT
 					}
 				}
 			}
+		}
 		
 		available = {
-			ROOT = {
-				is_ai = no
-			}
+
 		}
 		
 		fire_only_once = no
 		days_re_enable = 5
 
 		visible = {
-			ROOT = {
-				is_ai = no
-			}		
+			FROM = {
+				any_neighbor_state = {
+					AND = {
+						has_state_flag = stashed_weapons
+						is_owned_and_controlled_by = ROOT
+					}
+				}
+			}
 		}
 		
 
-		cost = 10
+		cost = 1
 
 		#
 
 		complete_effect = {
-			ROOT = { 
-				random_core_state = {
-					has_state_flag = stashed_weapons
-					clr_state_flag = stashed_weapons
-				}
+			random_state = {
+					limit = {
+						AND = {
+							is_owned_and_controlled_by = FROM
+							has_state_flag = stashed_weapons
+						}
+					}
+				clr_state_flag = stashed_weapons
 			}
 		}
 		
