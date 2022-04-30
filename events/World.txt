@@ -838,6 +838,14 @@ news_event = { # Falklands War
 
 	option = {
 		name = world.64.a
+		hidden_effect = {
+			ARG = {
+				add_war_support = 0.25
+				add_stability = -0.25
+				add_political_power = -150
+				load_oob = "ARG_FAK_WAR"
+			}
+		}
 	}
 }
 

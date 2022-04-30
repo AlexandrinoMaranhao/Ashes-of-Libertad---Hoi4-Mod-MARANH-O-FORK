@@ -1,13 +1,6 @@
 ﻿capital = 285
 
 oob = "ARG_1967"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ARG_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ARG_1936_naval_legacy"
-	}
-}
 
 # Starting tech
 set_technology = {
@@ -32,13 +25,13 @@ set_popularities = {
 }
 
 add_ideas = {
+	political_parties_multiparty_system
 	conscription_one_year_draft
 	economic_focus_partial_mobilization
 	trade_scope_intercontinental_exports
-
 	permanent_military_economy
-the_silver_deal
-the_argentinan_facade
+	the_silver_deal
+	the_argentinan_facade
 }
 
 set_country_flag = use_generic_outsider_laws

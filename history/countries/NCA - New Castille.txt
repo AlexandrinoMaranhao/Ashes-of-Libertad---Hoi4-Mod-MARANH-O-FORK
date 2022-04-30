@@ -27,8 +27,9 @@ set_popularities = {
 }
 
 add_ideas = {
+	masters_education
 	NCA_oligarchical_monarchy
-NCA_volatile_intentions
+	NCA_volatile_intentions
 }
 
 set_country_flag = use_generic_outsider_laws
