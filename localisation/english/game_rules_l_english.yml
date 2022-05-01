@@ -181,8 +181,6 @@
  RULE_OPTION_INDEPENDENCE:0 "Independence"
  RULE_OPTION_RANDOM:0 "Random"
  RULE_OPTION_AUSTRIA_HUNGARY:0 "Restore Austria-Hungary"
- RULE_OPTION_DEFAULT:0 "Default"
- RULE_OPTION_DEFAULT_AI_DESC:0 "The AI will make decisions based on other gameplay settings, such as the option to force historical focuses and other gameplay scenarios. This is the same behavior as in version 1.5 and earlier."
  RULE_OPTION_RANDOM_AI_DESC:0 "The AI will randomly decide on a game plan at the start of the game and attempt to execute it."
  RULE_OPTION_FASCIST_GER_AI_DESC:0 "The German AI will remain fascist and attempt to take over Europe by going down the relevant path in the national focus tree."
  RULE_FASCIST_JAP_AI_DESC:0 "The Japanese AI will attempt to strike south against the western allies by going down the relevant path in the national focus tree."
@@ -474,3 +472,14 @@
  RULE_OPTION_SHOW_DESC_DESC:0 "Obsolete branches will always remain visible in the Focus Tree."
 
 
+######RULES CREATED BY AOL, IF CREATING NEW LOC, PLEASE ADD BELOW.
+ 
+ ACR_AI_BEHAVIOR:0 "@ACR Acre's Election"
+ RULE_OPTION_CURY_PATH:0 "Acre elects §YHélio Cury§!"
+ RULE_OPTION_CURY_PATH_DESC:0 "Acre will elect §YHélio Cury§! as their president, ensuring a bright free future under the §YNacionalista's§! party rule!"
+ RULE_OPTION_EDGAR_PATH:0 "§LEdgar Cerqueira§! Coups §GJorge Kalume§!"
+ RULE_DEMOCRATIC_EDGAR_PATH_DESC:0 "Acre will elect §GJorge Kalume§! as their president, but §LEdgar Cerqueira§! will rise up the stakes and take lead on Acre's leadership. Ensuring a dark future under the §LMilitary rule§! over Acre, until the situation on the mainland gets colder."
+ RULE_OPTION_ENAS_PATH:0 "Acre elects §REnéas Carneiro§!"
+ RULE_KAISER_ENAS_PATH_DESC:0 "Acre will elect §REnéas Carneiro§! as their president, with §RMarques de Souza§! as a vice-president. ensuring a questionable future for Acre under the §RRevolutionary§! Technocratas party rule!"
+ RULE_OPTION_DEFAULT:0 "Default"
+ RULE_OPTION_DEFAULT_AI_DESC:0 "The AI will make decisions based on random gameplay settings. Ensuring a fun and well balanced gameplay!"

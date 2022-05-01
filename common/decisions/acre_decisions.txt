@@ -1,7 +1,7 @@
 ACR_debug = {
 	ACR_toggle_war_train_category = {
 		allowed = {
-			tag = ACR
+			original_tag = ACR
 		}
 		visible = {
 			is_debug = yes
@@ -45,32 +45,22 @@ acrean_senate = {
 	#}
 	press_act = { 
 	icon = GFX_decision_senate_technocrats_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		visible = {
 			AND = {
-			tag = ACR
-			has_completed_focus = ACR_promise_to_limit_reforms
+			original_tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
 
 		available = {
 			AND = {
+				original_tag = ACR
+				has_completed_focus = ACR_finish_the_constitution
 				check_variable = { senate_technocrat_seats > 7 }
 				check_variable = { senate_militarist_seats > 3 }
 			}	
 			
 			custom_trigger_tooltip = { tooltip = press_act_tt }
-		}
-		visible = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
 		}
 		cost = 50
         days_re_enable = 30
@@ -93,14 +83,10 @@ acrean_senate = {
 	join_the_libs_act = { #Join the LIBERTADORES Act
 	icon = GFX_decision_senate_technocrats_decision
 
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
 			AND = {
+			original_tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
 			has_war_support < 0.1
@@ -108,7 +94,7 @@ acrean_senate = {
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_make_love_not_war
 			}
 		}
@@ -165,7 +151,7 @@ acrean_senate = {
 	#foundation_of_the_prona = {
 	#	icon = GFX_decision_senate_technocrats_decision
 	#	allowed = {
-	#		tag = ACR
+	#		original_tag = ACR
 	#		has_completed_focus = ACR_finish_the_constitution
 	#	}
 	#	available = {
@@ -187,19 +173,15 @@ acrean_senate = {
 
 	national_conscription_act = { 
 	icon = GFX_decision_senate_militarists_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
+			AND = {
 			check_variable = { senate_militarist_seats > 11 }
 			custom_trigger_tooltip = { tooltip = national_conscription_act_tt }
+			}
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_national_conscription_act
 			}
 		}
@@ -220,19 +202,17 @@ acrean_senate = {
 	}
 	national_disarmament_act = { 
 	icon = GFX_decision_senate_militarists_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
-			check_variable = { senate_militarist_seats > 19 }
-			custom_trigger_tooltip = { tooltip = national_disarmament_act_tt }
+			AND = {
+				original_tag = ACR
+				has_completed_focus = ACR_finish_the_constitution
+				check_variable = { senate_militarist_seats > 19 }
+				custom_trigger_tooltip = { tooltip = national_disarmament_act_tt }
+			}
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_national_rearment_act
 			}
 		}
@@ -258,19 +238,17 @@ acrean_senate = {
 	}
 	native_protection_act = { 
 	icon = GFX_decision_senate_nationalists_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
-			check_variable = { senate_nationalist_seats > 14 }
-			custom_trigger_tooltip = { tooltip = native_protection_tt }
+			AND = {
+				original_tag = ACR
+				has_completed_focus = ACR_finish_the_constitution
+				check_variable = { senate_nationalist_seats > 14 }
+				custom_trigger_tooltip = { tooltip = native_protection_tt }
+			}
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_pass_native_defence_act
 			}
 		}
@@ -307,21 +285,18 @@ acrean_senate = {
 
 	worker_rights_act = { 
 	icon = GFX_decision_senate_technocrats_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
+
 		available = {
 			AND = {
 			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = worker_right_tt }
+			original_tag = ACR
+			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_revise_worker_rights
 			}
 		}
@@ -368,19 +343,13 @@ acrean_senate = {
 
 	nut_act = { 
 	icon = GFX_decision_senate_nut_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
 			check_variable = { senate_nationalist_seats > 7 }
 			custom_trigger_tooltip = { tooltip = nut_right_tt }
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_xapuri_acre_pride
 			}
 		}
@@ -403,19 +372,13 @@ acrean_senate = {
 
 	mercenary_act = { 
 	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
 			check_variable = { senate_militarist_seats > 7  }
 			custom_trigger_tooltip = { tooltip = mercenary_act_tt }
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -448,19 +411,14 @@ acrean_senate = {
 
 	labor_act = { 
 	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
+
 		available = {
 			check_variable = { senate_technocrat_seats > 7 }
 			custom_trigger_tooltip = { tooltip = labor_act_tt }
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -481,12 +439,6 @@ acrean_senate = {
 
 	trade_act = { 
 	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
 			OR = {
 				check_variable = { senate_technocrat_seats > 7 }
@@ -497,7 +449,7 @@ acrean_senate = {
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -529,12 +481,7 @@ acrean_senate = {
 
 	military_factory_act = { 
 	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
+
 		available = {
 			OR = {
 				check_variable = { senate_nationalist_seats > 7 }
@@ -545,7 +492,7 @@ acrean_senate = {
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_a_national_fire_stick
 			}
 		}
@@ -570,12 +517,7 @@ acrean_senate = {
 
 	civilian_factory_act = { 
 	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
+
 		available = {
 			OR = {
 				check_variable = { senate_nationalist_seats > 7 }
@@ -586,7 +528,7 @@ acrean_senate = {
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -611,12 +553,7 @@ acrean_senate = {
 
 	defense_act = { 
 	icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
+
 		available = {
 			OR = {
 				check_variable = { senate_militarist_seats > 7 }
@@ -627,7 +564,7 @@ acrean_senate = {
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -675,7 +612,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -705,7 +642,7 @@ acrean_senate = {
 	end_gridlock_TM_act = { 
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
-			tag = ACR
+			original_tag = ACR
 		}
 		available = {
 			AND = {
@@ -736,7 +673,7 @@ acrean_senate = {
 	icon = GFX_decision_senate_militarists_decision
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -767,7 +704,7 @@ acrean_senate = {
 		icon = GFX_decision_senate_generic_decision
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -780,7 +717,7 @@ acrean_senate = {
 		}
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_a_contingency_plan
 			}
 		}
@@ -827,7 +764,7 @@ acrean_senate = {
 		icon = GFX_decision_senate_generic_decision
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_completed_focus = ACR_finish_the_constitution
 			}
 		}
@@ -938,7 +875,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1000,7 +937,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1061,7 +998,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1122,7 +1059,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1183,7 +1120,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1244,7 +1181,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1305,7 +1242,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1367,7 +1304,7 @@ ACR_war_train_category = { #TRAX STUFF
 			base = 1
    
 				modifier = {
-				tag = ACR
+				original_tag = ACR
 				add = 2
 				}
 			}
@@ -1386,11 +1323,11 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_construct_railroad_acre = {
 		icon = GFX_decision_build_acre_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
 		}
 		available = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
 			NOT = {
 				has_decision = ACR_construct_railroad_acre_natives
@@ -1420,11 +1357,11 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_construct_railroad_acre_natives = {
 		icon = GFX_decision_build_cerqueira_acre_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
 		}
 		available = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress < 3 }
 			has_country_leader = {
 				name = "Edgar Cerqueira"
@@ -1458,14 +1395,14 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_construct_railroad_rondonia = {
 		icon = GFX_decision_build_rondonia_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			NOT = {
 				has_country_flag = ACR_railroad_rondonia_finished
 			}
 		}
 		available = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			NOT = {
 				OR = {
@@ -1501,14 +1438,14 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_construct_railroad_rondonia_natives = {
 		icon = GFX_decision_build_cerqueira_rondonia_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			NOT = {
 				has_country_flag = ACR_railroad_rondonia_finished
 			}
 		}
 		available = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			has_country_leader = {
 				name = "Edgar Cerqueira"
@@ -1550,7 +1487,7 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_bolivia_wartrain_decision
 		visible = {
 			AND = {
-				tag = ACR
+				original_tag = ACR
 				check_variable = { ACR_acrean_railroad_progress > 0 }
 				NOT = {
 					has_country_flag = ACR_railroad_bolivia_finished
@@ -1559,7 +1496,7 @@ ACR_war_train_category = { #TRAX STUFF
 		}
 		available = {
 			AND = {
-				tag = ACR
+				original_tag = ACR
 				check_variable = { ACR_acrean_railroad_progress > 0 }
 				NOT = {
 					OR = {
@@ -1597,7 +1534,7 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_cerqueira_bolivia_wartrain_decision
 		visible = {
 			AND = {
-				tag = ACR
+				original_tag = ACR
 				check_variable = { ACR_acrean_railroad_progress > 0 }
 				NOT = {
 					has_country_flag = ACR_railroad_bolivia_finished
@@ -1606,7 +1543,7 @@ ACR_war_train_category = { #TRAX STUFF
 		}
 		available = {
 			AND = {
-				tag = ACR
+				original_tag = ACR
 				check_variable = { ACR_acrean_railroad_progress > 0 }
 				has_country_leader = {
 					name = "Edgar Cerqueira"
@@ -1650,7 +1587,7 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_lower_che_suspicion = {
 		icon = GFX_decision_lower_che_suspicion_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 		}
 		days_remove = 7
 		cost = 10
@@ -1662,11 +1599,11 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_distract_che_with_a_raid = {
 		icon = GFX_decision_lower_che_suspicion_raid_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			has_manpower > 200
 			}
 		}
@@ -1699,11 +1636,11 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_build_train_engine = {
 		icon = GFX_decision_build_engine_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 		}
 		available = {
 			AND = {
-				tag = ACR
+				original_tag = ACR
 				NOT = {
 					is_in_array = {
 						array = ACR_war_train_array
@@ -1746,11 +1683,11 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_build_base_wagons = {
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			hidden_trigger = {
 				NOT = {
 					has_country_flag = ACR_base_wagons_built
@@ -1769,11 +1706,11 @@ ACR_war_train_category = { #TRAX STUFF
 	ACR_build_coal_wagon = {
 		icon = GFX_decision_build_coal_wartrain_decision
 		visible = {
-			tag = ACR
+			original_tag = ACR
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			NOT = {
 				is_in_array = {
 					array = ACR_war_train_array
@@ -1795,13 +1732,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			hidden_trigger = {
 				NOT = {
 					has_country_flag = ACR_reinforced_hull_built
@@ -1821,13 +1758,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-				tag = ACR
+				original_tag = ACR
 				ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
@@ -1853,13 +1790,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
@@ -1903,13 +1840,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
@@ -1931,13 +1868,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
@@ -1963,13 +1900,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
@@ -2013,13 +1950,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_build_base_wagon_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			ACR_can_build_other_wagons = yes
 			NOT = {
 				is_in_array = {
@@ -2063,13 +2000,13 @@ ACR_war_train_category = { #TRAX STUFF
 		icon = GFX_decision_reveal_wartrain_decision
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			}
 		}
 		available = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			check_variable = { ACR_acrean_railroad_progress > 0 }
 			has_war = yes
 			has_country_flag = ACR_can_reveal_the_war_train
@@ -2085,7 +2022,7 @@ ACR_war_train_category = { #TRAX STUFF
 ACR_che_war_category = {
 	ACR_survive_the_war = {
 	icon = GFX_decision_acre_survival_decision
-		allowed = { tag = ACR }                
+		allowed = { original_tag = ACR }                
           available = {                           
             89 = {
 				NOT = { is_fully_controlled_by = ACR }
@@ -2142,7 +2079,7 @@ ACR_cerqueira_couping_marques = {
 	ACR_fuck_fuck_fuck = {
 	visible = { has_country_flag = cerqueira_couping_marques }
 
-		allowed = { tag = ACR }  
+		allowed = { original_tag = ACR }  
 		available = {  
 	has_stability > 0.3 }  
 	            
@@ -2711,14 +2648,14 @@ ACR_eneas_insanity_category = {#Be sure to clamp the variable every time you mod
 	ACR_increase_sanity_debug = {
 		icon = GFX_decision_wartrain_railroad_acre
 		visible = {
-			tag = ACR
+			original_tag = ACR
 			is_debug = yes
 			NOT = {
 				check_variable = { ACR_eneas_sanity < 0 }
 			}
 		}
 		available = {
-			tag = ACR
+			original_tag = ACR
 			is_debug = yes
 			NOT = {
 				check_variable = { ACR_eneas_sanity < 0 }
@@ -2732,14 +2669,14 @@ ACR_eneas_insanity_category = {#Be sure to clamp the variable every time you mod
 	ACR_decrease_sanity_debug = {
 		icon = GFX_decision_wartrain_railroad_acre
 		visible = {
-			tag = ACR
+			original_tag = ACR
 			is_debug = yes
 			NOT = {
 				check_variable = { ACR_eneas_sanity > 100 }
 			}
 		}
 		available = {
-			tag = ACR
+			original_tag = ACR
 			is_debug = yes
 			NOT = {
 				check_variable = { ACR_eneas_sanity > 100 }
@@ -2757,14 +2694,14 @@ ACR_coring_decisions = {
 		#icon =
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = JUR
 			}
 			}
 		}
 		allowed = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = JUR
 			}
@@ -2792,7 +2729,7 @@ ACR_coring_decisions = {
 		#icon =
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = DNI
 			}
@@ -2800,7 +2737,7 @@ ACR_coring_decisions = {
 		}
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = DNI
 			}
@@ -2824,7 +2761,7 @@ ACR_coring_decisions = {
 		#icon =
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = IQU
 			}
@@ -2832,7 +2769,7 @@ ACR_coring_decisions = {
 		}
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = IQU
 			}
@@ -2860,7 +2797,7 @@ ACR_coring_decisions = {
 		#icon =
 		visible = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = HIM
 			}
@@ -2868,7 +2805,7 @@ ACR_coring_decisions = {
 		}
 		allowed = {
 			AND = {
-			tag = ACR
+			original_tag = ACR
 			any_owned_state = {
 				is_core_of = HIM
 			}

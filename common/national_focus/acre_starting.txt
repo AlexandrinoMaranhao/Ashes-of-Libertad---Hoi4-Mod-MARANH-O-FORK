@@ -584,11 +584,25 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	completion_reward = {
+		
+		add_advisor_role = {
+			Character = jorge_kalume_AC
+				advisor = {
+					slot = army_chief
+					cost = 50
+					idea_token = jorge_kalume_AC
+					traits = {
+						carm_elastic_defence_doctrine
+					}
+					allowed = {
+						original_tag = ACR
+					}
+				}
+			activate = yes
+		}
 
-	add_ideas = { jorge_kalume_army_chief }
-
-acre_senate_add_nationalist_seats_2 = yes
-acre_senate_add_technocrat_seats_1 = yes
+		acre_senate_add_nationalist_seats_2 = yes
+		acre_senate_add_technocrat_seats_1 = yes
 
 		add_popularity = {
 			ideology = neutrality
@@ -653,9 +667,24 @@ shared_focus = {
 
 	completion_reward = {
 
-	add_ideas = { edgar_cerqueira_army_chief }
-acre_senate_add_technocrat_seats_1 = yes
-acre_senate_add_militarist_seats_2 = yes
+		add_advisor_role = {
+			Character = edgar_cerqueira_AC
+				advisor = {
+					slot = army_chief
+					cost = 50
+					idea_token = edgar_cerqueira_AC
+					traits = {
+						carm_commando_doctrine
+					}
+					allowed = {
+						original_tag = ACR
+					}
+				}
+			activate = yes
+		}
+
+		acre_senate_add_technocrat_seats_1 = yes
+		acre_senate_add_militarist_seats_2 = yes
 
 		create_field_marshal = {
 			name = "Edgar Cerqueira"

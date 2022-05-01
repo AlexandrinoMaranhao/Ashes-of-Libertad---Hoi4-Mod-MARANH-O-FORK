@@ -1,0 +1,184 @@
+ACR_eneas_path = {
+	name = "Acre Techocrat Path Choosen"
+	desc = "Enéas foi escolhido como caminho pré-determinado pelo jogador."
+
+	allowed = {
+		original_tag = ACR
+	}
+	enable = {
+		OR = {
+			has_game_rule = {
+				rule = ACR_ai_behavior
+				option = ACR_ENAS_PATH
+			}
+			AND = {
+				has_game_rule = { 
+					rule = ACR_ai_behavior
+					option = DEFAULT
+				}
+				has_completed_focus = ACR_appoint_senator_3
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		ACR_censorship
+		ACR_workers_no
+		acr_press_yes
+		ACR_general_of_the_army 
+		acr_minorities_yes
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		#todo
+	}
+
+	traits = {
+		captain_of_industry = 5
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+ACR_cury_path = {
+	name = "Acre 'Nacionalista' Path Choosen"
+	desc = "Hélio foi escolhido como caminho pré-determinado pelo jogador."
+
+	allowed = {
+		original_tag = ACR
+	}
+	enable = {
+		OR = {
+			has_game_rule = {
+				rule = ACR_ai_behavior
+				option = ACR_CURY_PATH
+			}
+			AND = {
+				has_game_rule = { 
+					rule = ACR_ai_behavior
+					option = DEFAULT
+				}
+				has_completed_focus = ACR_appoint_senator_1
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		ACR_anticensorship
+		ACR_workers_yes
+		acr_press_yes
+		acr_minorities_no
+		ACR_general_of_the_people
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		#todo
+	}
+
+	traits = {
+		captain_of_industry = 5
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+ACR_edgar_path = {
+	name = "Edgar's coup on Acre adminstration Path Choosen"
+	desc = "Edgar Cerqueira foi escolhido como caminho pré-determinado pelo jogador."
+
+	allowed = {
+		original_tag = ACR
+	}
+	enable = {
+		OR = {
+			has_game_rule = {
+				rule = ACR_ai_behavior
+				option = ACR_EDGAR_PATH
+			}
+			AND = {
+				has_game_rule = { 
+					rule = ACR_ai_behavior
+					option = DEFAULT
+				}
+				has_completed_focus = ACR_appoint_senator_2
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		acr_press_no
+		ACR_general_of_the_army
+		acr_minorities_no
+		ACR_censorship
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		#todo
+	}
+
+	traits = {
+		captain_of_industry = 5
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
