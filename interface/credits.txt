@@ -1,30 +1,8 @@
-﻿#Ashes of Libertad
+﻿#Ashes of Libertad - A Latin American post-apocalyptic scenario
 
-#LEAD-DEV AND HEAD CREATOR
+
+#LEAD DEVELOPER
 Overlord
-
-#CODERS
-Geneblis
-Antonio 'antonioseg5436' Segtowick
-Samurai
-
-#WRITERS
-The Wild West Pyro
-TheBrazilianGuy
-Vanilla Price
-Duek
-Ace
-ElCaudillo
-Captain-General Blue
-
-
-#ARTISTS
-King Albert I
-Antonio 'antonioseg5436' Segtowick
-Campochi
-YeezeyBreezey
-bobby fucktard kennedy
-Trun'
 
 #LEAD ORGANIZER
 Luisito Libre
@@ -35,11 +13,36 @@ Havoc
 #PLAYTESTERS
 Marisa Best Girl
 
-#HONORABLE MENTIONS:
+#CODERS
+Geneblis
+Samurai
+Antonio 'antonioseg5436' Segtowick
 
+#WRITERS
+The Wild West Pyro
+TheBrazilianGuy
+Vanilla Price
+Duek
+Ace
+ElCaudillo
+Captain-General Blue
+
+#ARTISTS
+King Albert I
+Campochi
+YeezeyBreezey
+bobby fucktard kennedy
+Trun'
+Antonio 'antonioseg5436' Segtowick
+
+#HONORABLE MENTIONS:
 #EX-MEMBERS
 Luc
-todo
+Mira
+tan_mai.ke
+Globerotter
+Luckyowl
+Expozin597
 
 #PARTNERS
 CSS
@@ -52,7 +55,7 @@ Fraternité en Rébellion
 Make America Again
 
 #AND YOU! FOR PLAYING!
-Thank you!
+Thank you
 
 ----------------
 
