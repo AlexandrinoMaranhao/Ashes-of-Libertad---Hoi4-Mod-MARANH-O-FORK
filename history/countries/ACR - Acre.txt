@@ -24,6 +24,23 @@ set_popularities = {
 	reactionary = 0
 
 }
+###Characters###
+recruit_character = ACR_provisional_government_of_acre
+recruit_character = ACR_enéas_carneiro
+recruit_character = ACR_josé_augusto_de_araujo
+recruit_character = ACR_hélio_cury
+recruit_character = ACR_josé_marques_de_souza
+recruit_character = ACR_josé_guiomard_dos_santos
+recruit_character = ACR_geraldo_gurgel_de_mesquita_júnior
+recruit_character = ACR_romildo_magalhães_da_silva
+recruit_character = ACR_josé_rui_da_silveira_lino
+recruit_character = ACR_nabor_teles_da_rocha_júnior
+recruit_character = ACR_chicão_brígido
+recruit_character = ACR_wildy_viana_das_neves
+recruit_character = ACR_aluísio_bezerra_de_oliveira
+recruit_character = ACR_jonas_kalume
+recruit_character = ACR_sérgio_petecão
+
 ###Military Advisors###
 recruit_character = jorge_kalume_AC
 recruit_character = edgar_cerqueira_AC
@@ -38,7 +55,6 @@ recruit_character = edgar_cerqueira
 recruit_character = eneas_carneiro
 recruit_character = jose_guiomard_HC
 recruit_character = nabor_junior_HC
-
 
 ## variables ##
 
@@ -97,55 +113,6 @@ set_country_flag = use_generic_economy_focus
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-create_country_leader = {
-	
-	name = "Jorge Kalume"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume.dds"
-	expire = "1999.1.1"
-	ideology = mercantile_oligarchy
-	#traits = { }
-}
-
-create_country_leader = {
-	
-	name = "Enéas Carneiro"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Eneas_Carneiro_Young.dds"
-	expire = "1999.1.1"
-	ideology = posadism  
-	#traits = { }
-}
-
-create_country_leader = {
-	
-	name = "José Augusto de Araujo"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Augusto_de_Araujo.dds"
-	expire = "1999.1.1"
-	ideology = centrism
-	#traits = { }
-}
-
-create_country_leader = {
-	
-	name = "Hélio Cury"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Helio_Cury.dds"
-	expire = "1999.1.1"
-	ideology = centrism
-	traits = {
-	gala_tupiniquim
-	}
-}
-
-create_country_leader = {
-	
-	name = "José Marques de Souza"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Jose_Marques_de_Souza.dds"
-	expire = "1999.1.1"
-	ideology = socialism
-	traits = {
-	Playmaker
-	syndical_activist
-	}
-}
 
 #create_country_leader = {
 #	
@@ -159,161 +126,3 @@ create_country_leader = {
 #	}
 #}
 
-create_country_leader = {
-	
-	name = "Provisional Government of Acre"
-	desc = "ACR_PROVISIONAL_DESC"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Provisional Government.dds"
-	expire = "1999.1.1"
-	ideology = provisional_government
-	traits = {
-	cabinet_crisis
-	}
-}
-
-create_country_leader = {
-	
-	name = "Edgar Cerqueira"
-	picture = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira.dds"
-	expire = "1999.1.1"
-	ideology = coronelism 
-	#traits = { }
-}
-###############GENERALS
-
-create_field_marshal = {
-	name = "José Guiomard dos Santos"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
-	traits = { old_guard career_officer politically_connected inflexible_strategist }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Geraldo Gurgel de Mesquita Júnior"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Gurgel.dds"
-	traits = { trait_reckless infantry_officer politically_connected }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Romildo Magalhães da Silva"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Romildo.dds"
-	traits = { career_officer politically_connected }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "José Rui da Silveira Lino"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Rui_Lino.dds"
-	traits = { cavalry_officer politically_connected }
-	skill = 3
-	
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Nabor Teles da Rocha Júnior"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Nabor_Teles.dds"
-	traits = { trickster brilliant_strategist trait_cautious politically_connected }
-	skill = 3
-
-	
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Chicão Brígido"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Chico.dds"
-	traits = { commando infantry_officer offensive_doctrine politically_connected }
-	skill = 3
-	
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Wildy Viana das Neves"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Wildy.dds"
-	traits = { infantry_officer media_personality }
-	skill = 2
-	
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Aluísio Bezerra de Oliveira"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Aluisio.dds"
-	traits = { infantry_officer armor_officer politically_connected }
-	skill = 1 
-	
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_navy_leader = {
-	name = "Jonas Kalume"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Jonas_Kalume.dds"
-	traits = { green_water_expert navy_career_officer bold }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "José Guiomard dos Santos"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
-	traits = { green_water_expert }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "Sérgio Petecão"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Sergio.dds"
-	traits = { green_water_expert ground_pounder ironside }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
-#create_country_leader = {
-#	
-#	name = ""
-#	picture = "gfx/leaders/ACR/.dds"
-#	expire = "1999.1.1"
-#	ideology = 
-#	traits = {
-#
-#
-#	}
-#}
