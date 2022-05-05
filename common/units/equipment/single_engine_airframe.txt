@@ -3,6 +3,7 @@ equipments = {
 	fighter_equipment = {
 		year = 1933
 
+
 		is_archetype = yes
 		is_convertable = yes
 		picture = archetype_fighter_equipment
@@ -37,7 +38,7 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			technology = 2
+			aluminium = 2
 			rubber = 1
 		}
 		
@@ -47,6 +48,8 @@ equipments = {
 
 	cv_fighter_equipment = {
 		year = 1933
+
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -84,7 +87,7 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			technology = 2
+			aluminium = 2
 			rubber = 1
 		}
 		
@@ -94,6 +97,8 @@ equipments = {
 	
 	CAS_equipment = {
 		year = 1933
+
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -129,7 +134,7 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			technology = 2
+			aluminium = 2
 			rubber = 1
 		}
 		
@@ -139,6 +144,8 @@ equipments = {
 
 	cv_CAS_equipment = {
 		year = 1933
+
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -175,7 +182,7 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			technology = 2
+			aluminium = 2
 			rubber = 1
 		}
 		
@@ -185,6 +192,8 @@ equipments = {
 	
 	nav_bomber_equipment = {
 		year = 1933
+
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -217,7 +226,7 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 1
-			technology = 2
+			aluminium = 2
 			rubber = 1
 		}
 		
@@ -227,6 +236,8 @@ equipments = {
 
 	cv_nav_bomber_equipment = {
 		year = 1933
+
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -261,7 +272,7 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 1
-			technology = 2
+			aluminium = 2
 			rubber = 1
 		}
 		
@@ -271,6 +282,7 @@ equipments = {
 	
 	jet_fighter_equipment = {
 		year = 1933
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -302,8 +314,8 @@ equipments = {
 		
 		build_cost_ic = 30
 		resources = {
-			technology = 2
-			ammunition = 3
+			aluminium = 2
+			tungsten = 3
 			rubber = 1
 		}
 		
@@ -348,7 +360,7 @@ equipments = {
 		build_cost_ic = 24
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -374,7 +386,7 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 2
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -400,7 +412,7 @@ equipments = {
 		build_cost_ic = 28
 		resources = {
 			#oil = 2
-			technology = 4
+			aluminium = 4
 			rubber = 1
 		}
 
@@ -440,8 +452,8 @@ equipments = {
 
 		build_cost_ic = 32
 		resources = {
-			technology = 3
-			ammunition = 3
+			aluminium = 3
+			tungsten = 3
 			rubber = 1
 		}
 	}
@@ -483,7 +495,7 @@ equipments = {
 		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -508,7 +520,7 @@ equipments = {
 		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			technology = 2
+			aluminium = 3
 			rubber = 1
 		}
 		naval_strike_attack = 6
@@ -532,7 +544,7 @@ equipments = {
 		build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -552,7 +564,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 6
 		air_defence = 14
-		air_ground_attack = 10
+		air_ground_attack = 8
 
 		naval_strike_attack = 3
 		naval_strike_targetting = 10		
@@ -571,12 +583,12 @@ equipments = {
 		air_agility = 39
 		air_attack = 10
 		air_defence = 16
-		air_ground_attack = 15
+		air_ground_attack = 13
 		
 		build_cost_ic = 24
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 		
@@ -597,12 +609,12 @@ equipments = {
 		air_agility = 44
 		air_attack = 14
 		air_defence = 20
-		air_ground_attack = 20
+		air_ground_attack = 18
 		
 		build_cost_ic = 26
 		resources = {
 			#oil = 2
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}		
 
@@ -623,7 +635,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 6
 		air_defence = 14
-		air_ground_attack = 10
+		air_ground_attack = 8
 		
 		build_cost_ic = 26.4 # cv_version costs 20% more of base archetype
 
@@ -644,12 +656,12 @@ equipments = {
 		air_agility = 39
 		air_attack = 10
 		air_defence = 16
-		air_ground_attack = 15
+		air_ground_attack = 13
 		
 		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -670,12 +682,12 @@ equipments = {
 		air_agility = 44
 		air_attack = 14
 		air_defence = 20
-		air_ground_attack = 20
+		air_ground_attack = 18
 		
 		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -716,7 +728,7 @@ equipments = {
 		build_cost_ic = 28
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 		
@@ -740,7 +752,7 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 2
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}	
 	}
@@ -780,7 +792,7 @@ equipments = {
 		build_cost_ic = 33.2 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 	}
@@ -803,7 +815,7 @@ equipments = {
 		build_cost_ic = 35.2 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			technology = 3
+			aluminium = 3
 			rubber = 1
 		}
 	}
@@ -811,6 +823,9 @@ equipments = {
 	# ROCKET INTERCEPTORS ###############
 	rocket_interceptor_equipment = {
 		year = 1936
+
+		can_be_produced = {
+		}
 
 		is_archetype = yes
 		is_convertable = yes
@@ -834,8 +849,8 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-			technology = 2
-			ammunition = 2
+			aluminium = 2
+			tungsten = 2
 			rubber = 1
 		}
 
@@ -861,8 +876,8 @@ equipments = {
 		
 		build_cost_ic = 16
 		resources = {
-			technology = 3
-			ammunition = 2
+			aluminium = 3
+			tungsten = 2
 			rubber = 1
 		}		
 	}
@@ -883,8 +898,8 @@ equipments = {
 		reliability = 0.5
 		build_cost_ic = 18
 		resources = {
-			technology = 3
-			ammunition = 3
+			aluminium = 3
+			tungsten = 3
 			rubber = 1
 		}			
 	}
@@ -905,8 +920,8 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 20
 		resources = {
-			technology = 3
-			ammunition = 3
+			aluminium = 3
+			tungsten = 3
 			rubber = 1
 		}
 	}
@@ -934,8 +949,8 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-			technology = 2
-			ammunition = 2
+			aluminium = 2
+			tungsten = 2
 			rubber = 1
 		}
 

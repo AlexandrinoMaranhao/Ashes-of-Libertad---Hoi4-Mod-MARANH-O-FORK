@@ -3,6 +3,12 @@ equipments = {
 	ship_hull_heavy = {
 		year = 1922
 
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+
 		is_archetype = yes
 		is_buildable = no
 		type = capital_ship
@@ -118,7 +124,7 @@ equipments = {
 		build_cost_ic = 3300
 		resources = {
 			steel = 1
-			motors = 1
+			chromium = 1
 		}
 
 		manpower = 4000
@@ -126,6 +132,7 @@ equipments = {
 	###Special snowflake hull
 
 	ship_hull_pre_dreadnought = {
+		abbreviation = "hcb"
 		year = 1905
 		visual_tech_level_addition = 0
 		archetype = ship_hull_heavy
@@ -177,12 +184,13 @@ equipments = {
 		build_cost_ic = 3000
 		resources = {
 			steel = 1
-			motors = 1
+			chromium = 1
 		}
 
 		manpower = 3200
 	}
 	ship_hull_heavy_1 = {
+		abbreviation = "hcc"
 		year = 1922
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -273,6 +281,7 @@ equipments = {
 	}
 
 	ship_hull_heavy_2 = {
+		abbreviation = "hcd"
 		year = 1936
 
 		archetype = ship_hull_heavy
@@ -329,13 +338,14 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 1
-			motors = 1
+			chromium = 1
 		}
 
 		manpower = 5200
 	}
 
 	ship_hull_heavy_3 = {
+		abbreviation = "hce"
 		year = 1940
 
 		archetype = ship_hull_heavy
@@ -393,13 +403,14 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 1
-			motors = 1
+			chromium = 1
 		}
 
 		manpower = 6000
 	}
 
 	ship_hull_heavy_4 = {
+		abbreviation = "hcf"
 		year = 1944
 
 		archetype = ship_hull_heavy
@@ -457,13 +468,14 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 1
-			motors = 1
+			chromium = 1
 		}
 
 		manpower = 6000
 	}
 
 	ship_hull_super_heavy_1 = {
+		abbreviation = "hcg"
 		year = 1940
 
 		archetype = ship_hull_heavy
@@ -551,7 +563,7 @@ equipments = {
 		build_cost_ic = 5500
 		resources = {
 			steel = 1
-			motors = 1
+			chromium = 1
 		}
 		manpower = 9000
 	}
@@ -657,7 +669,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 1
+			chromium = 1
 		}
 
 		manpower = 6000
@@ -711,7 +723,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			motors = 1
+			chromium = 1
 		}
 		manpower = 6600
 		
@@ -766,7 +778,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			motors = 2
+			chromium = 2
 		}
 		manpower = 7000
 
@@ -821,7 +833,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 5
-			motors = 3
+			chromium = 3
 		}
 		manpower = 7400
 		
@@ -941,7 +953,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			motors = 1
+			chromium = 1
 		}
 		manpower = 9000
 	}
@@ -1061,7 +1073,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 5
-			motors = 3
+			chromium = 3
 		}
 		manpower = 10000
 		
@@ -1115,7 +1127,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 1
+			chromium = 1
 		}
 		
 		manpower = 3500
@@ -1170,7 +1182,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			motors = 1
+			chromium = 1
 		}
 		manpower = 4000
 	}

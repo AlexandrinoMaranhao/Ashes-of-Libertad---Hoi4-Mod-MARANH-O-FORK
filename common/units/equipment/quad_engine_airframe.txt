@@ -3,6 +3,8 @@ equipments = {
 	strat_bomber_equipment = {
 		year = 1933
 
+
+
 		is_archetype = yes
 		is_convertable = yes
 		picture = archetype_strat_bomber_equipment			
@@ -37,7 +39,7 @@ equipments = {
 		build_cost_ic = 60
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 2
 		}
 		
@@ -47,6 +49,8 @@ equipments = {
 	
 	jet_strat_bomber_equipment = {
 		year = 1933
+
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -78,8 +82,8 @@ equipments = {
 		
 		build_cost_ic = 80
 		resources = {
-			technology = 3
-			ammunition = 3
+			aluminium = 3
+			tungsten = 3
 			rubber = 1
 		}
 		
@@ -123,7 +127,7 @@ equipments = {
 		build_cost_ic = 62
 		resources = {
 			#oil = 1
-			technology = 4
+			aluminium = 4
 			rubber = 2
 		}
 	}
@@ -146,7 +150,7 @@ equipments = {
 		build_cost_ic = 64
 		resources = {
 			#oil = 1
-			technology = 5
+			aluminium = 5
 			rubber = 2
 		}
 	}
@@ -194,12 +198,12 @@ equipments = {
 		build_cost_ic = 180
 		resources = {
 			#oil = 1
-			technology = 3
+			aluminium = 3
 			rubber = 2
 		}
 		
 		manpower = 80
-		fuel_consumption = 0
+		fuel_consumption = 1.0
 	}
 
 

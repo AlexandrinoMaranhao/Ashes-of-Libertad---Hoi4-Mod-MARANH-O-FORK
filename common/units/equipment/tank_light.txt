@@ -4,6 +4,7 @@ equipments = {
 
 	light_tank_equipment = {
 		year = 1934
+
 	
 		is_archetype = yes
 		is_buildable = no
@@ -192,7 +193,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 2
-			ammunition= 1
+			tungsten= 1
 		}
 		fuel_consumption = 1.2
 	}
@@ -238,7 +239,7 @@ equipments = {
 		resources = {
 			steel = 3
 			#oil = 1
-			ammunition= 1
+			tungsten= 1
 		}
 	}
 
@@ -271,7 +272,7 @@ equipments = {
 		resources = {
 			steel = 4
 			#oil = 2
-			ammunition = 1
+			tungsten = 1
 		}
 	}
 
@@ -318,7 +319,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 2
-			ammunition = 2
+			tungsten = 2
 		}
 		fuel_consumption = 1.2
 	}
@@ -366,7 +367,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			ammunition = 2
+			tungsten = 2
 		}
 	}
 
@@ -400,7 +401,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			ammunition = 2
+			tungsten = 2
 		}
 	}
 

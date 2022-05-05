@@ -4,6 +4,7 @@ equipments = {
 	super_heavy_tank_equipment = {
 		year = 1934
 
+
 		is_archetype = yes
 		is_convertable = yes
 		picture = archetype_super_heavy_tank_equipment		
@@ -43,7 +44,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			motors = 4
+			chromium = 4
 		}
 		
 		fuel_consumption = 10
@@ -101,7 +102,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			motors = 4
+			chromium = 4
 		}
 		fuel_consumption = 5
 	}
@@ -120,6 +121,7 @@ equipments = {
 
 	super_heavy_tank_destroyer_equipment = {
 		year = 1934
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -161,7 +163,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			motors = 4
+			chromium = 4
 		}
 		fuel_consumption = 5
 	}
@@ -180,6 +182,7 @@ equipments = {
 
 	super_heavy_tank_aa_equipment = {
 		year = 1934
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -221,7 +224,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			motors = 4
+			chromium = 4
 		}
 		fuel_consumption = 2.5
 	}

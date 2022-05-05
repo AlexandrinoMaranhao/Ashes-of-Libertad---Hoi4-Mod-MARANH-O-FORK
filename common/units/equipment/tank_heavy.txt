@@ -43,7 +43,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 3
+			chromium = 3
 		}
 		
 		fuel_consumption = 4.4
@@ -86,7 +86,7 @@ equipments = {
 		resources = {
 #			oil = 1
 			steel = 3
-			motors = 3
+			chromium = 3
 		}
 	}
 
@@ -117,12 +117,13 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			motors = 3
+			chromium = 3
 		}
 	}
 
 	heavy_tank_artillery_equipment = {
 		year = 1934
+
 
 		is_archetype = yes
 		is_convertable = yes
@@ -164,7 +165,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 3
+			chromium = 3
 		}
 		fuel_consumption = 2.2
 	}
@@ -210,7 +211,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			motors = 3
+			chromium = 3
 		}
 	}
 
@@ -243,7 +244,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 5
-			motors = 3
+			chromium = 3
 		}
 	}
 
@@ -290,7 +291,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 3
+			chromium = 3
 		}
 		fuel_consumption = 2.2
 	}
@@ -338,7 +339,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			motors = 3
+			chromium = 3
 		}
 	}
 
@@ -373,7 +374,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			motors = 4
+			chromium = 4
 		}
 	}
 
@@ -420,7 +421,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 3
+			chromium = 3
 		}
 		fuel_consumption = 1.1
 	}
@@ -468,7 +469,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 3
+			chromium = 3
 		}
 	}
 
@@ -505,7 +506,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			motors = 3
+			chromium = 3
 		}
 		
 	}

@@ -3,6 +3,12 @@ equipments = {
 	ship_hull_carrier = {
 		year = 1922
 
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+
 		is_archetype = yes
 		is_buildable = no
 		type = carrier
@@ -105,13 +111,14 @@ equipments = {
 		build_cost_ic = 2450
 		resources = {
 			steel = 3
-			motors = 1
+			chromium = 1
 		}
 		
 		manpower = 4500
 	}
 
 	ship_hull_carrier_1 = {
+		abbreviation = "haa"
 		year = 1936
 		visual_level = 1
 		visual_tech_level_addition = 2
@@ -126,6 +133,7 @@ equipments = {
 	}
 
 	ship_hull_carrier_2 = {
+		abbreviation = "hab"
 		year = 1940
 		visual_level = 1
 		archetype = ship_hull_carrier
@@ -170,12 +178,13 @@ equipments = {
 		build_cost_ic = 2600
 		resources = {
 			steel = 4
-			motors = 1
+			chromium = 1
 		}
 		manpower = 5000
 	}
 
 	ship_hull_carrier_3 = {
+		abbreviation = "hac"
 		year = 1944
 		visual_level = 1
 		archetype = ship_hull_carrier
@@ -228,12 +237,13 @@ equipments = {
 		build_cost_ic = 3250
 		resources = {
 			steel = 4
-			motors = 2
+			chromium = 2
 		}
 		manpower = 5500
 	}
 
 	ship_hull_carrier_conversion_bb = {
+		abbreviation = "had"
 		year = 1922
 		visual_level = 0
 		archetype = ship_hull_carrier
@@ -272,12 +282,13 @@ equipments = {
 		build_cost_ic = 2700
 		resources = {
 			steel = 4
-			motors = 1
+			chromium = 1
 		}
 		manpower = 5000
 	}
 
 	ship_hull_carrier_conversion_ca = {
+		abbreviation = "hae"
 		year = 1922
 		visual_level = 0
 		archetype = ship_hull_carrier
@@ -401,7 +412,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			motors = 1
+			chromium = 1
 		}
 		
 		manpower = 4500
@@ -486,7 +497,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			motors = 1
+			chromium = 1
 		}
 		manpower = 5000
 	}
@@ -533,7 +544,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			motors = 2
+			chromium = 2
 		}
 		manpower = 5500
 	}
@@ -580,7 +591,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 5
-			motors = 2
+			chromium = 2
 		}		
 		manpower = 6000
 	}
