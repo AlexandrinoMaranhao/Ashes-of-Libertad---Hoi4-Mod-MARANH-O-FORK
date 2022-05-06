@@ -20,7 +20,7 @@ country_event = {
 	id = ACR_EdgarIntro.1
 	title = ACR_EdgarIntro.1.t
 	desc = ACR_EdgarIntro.1.d
-	picture = GFX_report_event_acre_flag
+	picture = GFX_report_event_edgar_cerqueira
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -36,7 +36,7 @@ country_event = {
 	id = ACR_MarquesIntro.1
 	title = ACR_MarquesIntro.1.t
 	desc = ACR_MarquesIntro.1.d
-	picture = GFX_report_event_acre_flag
+	picture = GFX_report_event_marques_and_eneas
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -52,7 +52,7 @@ country_event = {
 	id = ACR_HelioIntro.1
 	title = ACR_HelioIntro.1.t
 	desc = ACR_HelioIntro.1.d
-	picture = GFX_report_event_acre_flag
+	picture = GFX_report_event_helio_cury
 	fire_only_once = yes
 	is_triggered_only = yes
 	

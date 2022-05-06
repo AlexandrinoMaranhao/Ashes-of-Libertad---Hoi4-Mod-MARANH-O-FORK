@@ -7,7 +7,27 @@ spriteTypes = {
 #	}
 #					
 
-																
+									
+	spriteType = {
+		name = "GFX_report_event_marques_and_eneas"
+		texturefile = "gfx/event_pictures/report_event_marques_and_eneas.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_report_event_marques_de_souza"
+		texturefile = "gfx/event_pictures/report_event_marques_de_souza.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_report_event_edgar_cerqueira"
+		texturefile = "gfx/event_pictures/report_event_edgar_cerqueira.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_report_event_helio_cury"
+		texturefile = "gfx/event_pictures/report_event_helio_cury.dds"
+	}
+																				
 	spriteType = {
 		name = "GFX_report_event_red_telephone"
 		texturefile = "gfx/event_pictures/report_event_red_telephone.dds"
