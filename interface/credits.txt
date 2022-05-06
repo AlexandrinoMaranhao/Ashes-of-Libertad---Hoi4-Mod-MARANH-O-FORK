@@ -1,4 +1,4 @@
-﻿#Ashes of Libertad - A Latin American post-apocalyptic scenario
+﻿#Ashes of Libertad
 
 
 #LEAD DEVELOPER
