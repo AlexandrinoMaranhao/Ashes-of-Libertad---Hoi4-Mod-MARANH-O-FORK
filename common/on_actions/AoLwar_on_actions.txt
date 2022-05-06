@@ -306,20 +306,20 @@ on_actions = {
             CFD = {
                 country_event = {
                     id = CFD.1 # Beginning of the CFD collapse
-                    days = 926
+                    days = 847
                 }
             }
             SAO = {
                 country_event = {
                     id = SAO.1 # SAO civil war
-                    days = 956
+                    days = 916
                 }
 			}
 			
 			RPB = {
 				country_event = {
 					id = RPB.1 # Baiana Revolt
-					days = 980
+					days = 877
 				}
 			}
 

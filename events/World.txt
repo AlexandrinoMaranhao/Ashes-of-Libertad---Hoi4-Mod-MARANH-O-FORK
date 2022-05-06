@@ -832,7 +832,7 @@ news_event = { # Falklands War
 	id = world.64
 	title = world.64.t
 	desc = world.64.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_malvinas"
 
 	is_triggered_only = yes
 
@@ -885,19 +885,19 @@ news_event = { # Carlos Lamarca
 		name = world.66.a
 	}
 }
-
-news_event = { # Farmlands War
-	id = world.67
-	title = world.67.t
-	desc = world.67.d
-	picture = "GFX_news_event_coari_ded"
-
-	is_triggered_only = yes
-
-	option = {
-		name = world.67.a
-	}
-}
+#
+#news_event = { # Farmlands War
+#	id = world.67
+#	title = world.67.t
+#	desc = world.67.d
+#	picture = "GFX_news_event_coari_ded"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = world.67.a
+#	}
+#}
 
 news_event = { # APRA-UNO Breakup
 	id = world.68
