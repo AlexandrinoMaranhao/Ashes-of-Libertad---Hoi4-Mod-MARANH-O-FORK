@@ -1,5 +1,17 @@
 ﻿l_english:
  
+ zzz_massive_volunteer_campaing:0 "Massive Volunteer Campaing"
+ zzz_massive_volunteer_campaing_desc:0 "Currently, [ROOT.GetName] is focusing all its efforts to protect its ideology and influence in the whole of Latin America, and going far as using volunteers to go all around the wastelands in operations to secure its position as a regional power!"
+ zzz_volunteers_from_jun:0 "Volunteers from [JUN.GetName]"
+ zzz_volunteers_from_jun_desc:0 "Missing a very sick desc cuz i can't think of smth good to put in here :)"
+ zzz_volunteers_from_the_republic:0 "Volunteers from the Republic"
+ zzz_volunteers_from_the_republic_desc:0 "[BRA.GetName] is supporting our army by deploying armed troops to in our battles!"
+ zzz_volunteers_from_the_ejercito_revolucionario:0 "Volunteers from the Ejercito Revolucionario"
+ zzz_volunteers_from_the_ejercito_revolucionario_desc:0 "The blessed revolutionary army of [ERN.GetLeader] is happily supplying our armies in our current battles against the bourgeoisie!"
+ zzz_voluntrios_da_ptria:0 "Voluntários da Pátria"
+ zzz_voluntrios_da_ptria_desc:0 "The monarchists of [CRJ.GetName] is helping us establishing a foothold in our battles by assisting our armies with equipment and manpower!"
+
+
  ministers:0 "§bPolitical Cabinet§!"
  political_advisor:0 "Political Advisor"
  

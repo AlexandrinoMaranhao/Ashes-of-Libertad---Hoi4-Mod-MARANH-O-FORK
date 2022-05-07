@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+
+		GEN_the_devil_in_the_bottle = {
+			picture = GEN_the_devil_in_the_bottle-1
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				stability_factor = -0.15
+political_power_cost = 0.05
+			}
+		}
+
+		GEN_stolen_institutions = {
+			picture = GEN_stolen_institutions-1
+			available = {
+				original_tag = SAO
+			}
+			modifier = {
+				political_power_gain = 0.3
+party_popularity_stability_factor = 0.2
+			}
+		}
+
+		GEN_shattered_economy = {
+			picture = GEN_shattered_economy-1
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.3
+line_change_production_efficiency_factor = -0.3
+industrial_capacity_factory = -0.45
+industrial_capacity_dockyard = -0.45
+			}
+		}
+
+		GEN_the_2nd_constitutionalist_revolution = {
+			picture = GEN_the_2nd_constitutionalist_revolution-213988
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				political_advisor_cost_factor = -0.25
+drift_defence_factor = 0.15
+			}
+		}
+	}
+}

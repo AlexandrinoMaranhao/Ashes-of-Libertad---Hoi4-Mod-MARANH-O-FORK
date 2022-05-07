@@ -26,14 +26,14 @@ set_popularities = {
 }
 
 add_ideas = {
-
 	trade_scope_regional_exports
 	economic_focus_partial_mobilization
 	conscription_one_year_draft
 
-	the_second_constitutionalist_revolution
-stolen_institutions
-the_devil_in_the_bottle
+	GEN_the_2nd_constitutionalist_revolution
+	GEN_stolen_institutions 
+	GEN_shattered_economy 
+	GEN_the_devil_in_the_bottle
 }
 
 set_country_flag = is_brazilian
