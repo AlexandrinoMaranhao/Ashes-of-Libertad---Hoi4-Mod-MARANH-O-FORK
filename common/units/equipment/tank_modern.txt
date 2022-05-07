@@ -43,7 +43,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			motors = 4
 		}
 		
 		fuel_consumption = 5
@@ -103,7 +103,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			motors = 4
 		}
 		fuel_consumption = 2.5
 	}
@@ -121,7 +121,6 @@ equipments = {
 
 	modern_tank_destroyer_equipment = {
 		year = 1934
-
 
 		is_archetype = yes
 		is_convertable = yes
@@ -165,7 +164,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			motors = 4
 		}
 		fuel_consumption = 2.5
 	}
@@ -225,7 +224,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			motors = 4
 		}
 		fuel_consumption = 1.25
 	}
