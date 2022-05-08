@@ -79,7 +79,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 800 }
+					position = { x = 40 y = 950 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -91,12 +91,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_gear"
-					position = { x = 30 y = 585 }
+					name = "infantry_subtitle_motorized"
+					position = { x = 30 y = 510 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_GEAR"
+					text = "INFANTRY_TITLE_MOTORISED"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -329,14 +329,14 @@ guiTypes = {
 			}			
 
 			gridboxtype = {
-				name = "infantry_gear_tree"
+				name = "motorised_infantry_tree"
 				position = { x = 140 y = 620 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "shock_troops_tree"
+				name = "marines_tree"
 				position = { x = 140 y = 825 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
