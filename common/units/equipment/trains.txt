@@ -35,12 +35,12 @@ equipments = {
 
 		build_cost_ic = 70
 		resources = {
-			steel = 1
+			steel = 2
 		}
 	}
 	# cheap trains
 	train_equipment_2 = {
-		year = 1940
+		year = 1964
 
 		archetype = train_equipment
 		parent = train_equipment_1
@@ -51,14 +51,31 @@ equipments = {
 
 		build_cost_ic = 50
 		resources = {
+			steel = 2
+		}
+	}
+	# interwar train
+	train_equipment_3 = {
+		year = 1965
+
+		archetype = train_equipment
+		parent = train_equipment_2
+		type = {
+			train
+		}
+		priority = 20
+		armor_value = 10
+		
+		build_cost_ic = 50
+		resources = {
 			steel = 1
 		}
 	}
 	# armored trains
-	train_equipment_3 = {
-		year = 1936
+	train_equipment_4 = {
+		year = 1962
 		archetype = train_equipment
-		parent = train_equipment_1
+		parent = train_equipment_3
 		type = {
 			train
 		}
