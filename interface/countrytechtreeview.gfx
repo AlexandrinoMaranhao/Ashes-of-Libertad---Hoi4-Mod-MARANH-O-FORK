@@ -5,6 +5,26 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//techtree_details_progress_bar_frame.dds"
 	}
 
+	spriteType = {
+		name = "GFX_spec_techtree_bg"
+		texturefile = "gfx/interface/techtree/spec_techtree_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_spec_button"
+		texturefile = "gfx/interface/techtree/spec_button.dds"
+		noOfFrames = 2
+	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_phonk_research_bg"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//phonk_research_bg.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
 	progressbartype = {
 		name = "GFX_techtree_details_progress_bar"
 		color = { 0.0 0.5 0.0 }
