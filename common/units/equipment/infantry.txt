@@ -1,46 +1,6 @@
 # All infantry equipment
 
 equipments = {
-
-	tribal_equipment = {
-		year = 0
-	
-		is_archetype = yes
-		picture = archetype_infantry_equipment		
-		is_buildable = yes
-		type = infantry
-		group_by = archetype
-		
-		interface_category = interface_category_land
-		
-		active = no
-		
-		#Misc Abilities
-		reliability = 1
-		maximum_speed = 10
-
-		#Defensive Abilities
-		defense = 15
-		breakthrough = 2
-		hardness = 0
-		armor_value = 0
-
-		#Offensive Abilities
-		soft_attack = 1
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 1
-
-		#Space taken in convoy
-		lend_lease_cost = 0.2
-		build_cost_ic = 0.20
-		resources = {
-			steel = 1
-
-		}
-		
-	}
-
 	infantry_equipment = {
 		year = 1936
 	
@@ -159,6 +119,108 @@ equipments = {
 		
 		reliability = 0.8
 		build_cost_ic = 0.69
+		resources = {
+			steel = 4
+		}
+	}
+	
+	infantry_equipment_4 = {
+		year = 1975
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_3
+		priority = 20
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 6
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 4
+		ap_attack = 12
+		air_attack = 0
+		
+		reliability = 0.9
+		build_cost_ic = 0.90
+		resources = {
+			steel = 4
+		}
+	}
+	
+##############################Improvised weaponry branch
+	
+	improvised_infantry_equipment_0 = {
+		year = 1939
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_0
+		priority = 10
+		visual_level = 2
+		
+		#Defensive Abilities
+		defense = 28
+		breakthrough = 4
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 1.5
+		ap_attack = 5
+		air_attack = 0
+		
+		build_cost_ic = 0.58
+		resources = {
+			steel = 3
+		}
+	}
+	
+	# Advanced weapons  ~1942
+	improvised_infantry_equipment_1 = {
+		year = 1942
+	
+		archetype = infantry_equipment
+		parent = improvised_infantry_equipment_0
+		priority = 10
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 5
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+		air_attack = 0
+		
+		reliability = 0.8
+		build_cost_ic = 0.69
+		resources = {
+			steel = 4
+		}
+	}
+	
+	improvised_infantry_equipment_2 = {
+		year = 1975
+	
+		archetype = infantry_equipment
+		parent = improvised_infantry_equipment_1
+		priority = 20
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 6
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 4
+		ap_attack = 12
+		air_attack = 0
+		
+		reliability = 0.9
+		build_cost_ic = 0.90
 		resources = {
 			steel = 4
 		}

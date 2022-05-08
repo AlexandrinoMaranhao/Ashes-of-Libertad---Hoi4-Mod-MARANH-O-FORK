@@ -6,20 +6,22 @@ GNIS_volunteers = {
 		
 		
 		available = {
-			has_country_flag = special_volunteers
-			original_tag = ERN
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = ERN
+			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
+			AND = {
 			has_country_flag = special_volunteers
 			original_tag = ERN
+			}
 		}
 
-		custom_cost_trigger = {
-			command_power > 15
-		}
+		cost = 50
 
 
 		complete_effect = {
@@ -78,20 +80,22 @@ GNIS_volunteers = {
 		
 		
 		available = {
-			has_country_flag = special_volunteers
-			original_tag = JUN
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = JUN
+			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = special_volunteers
-			original_tag = JUN
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = JUN
+			}
 		}
 
-		custom_cost_trigger = {
-			command_power > 15
-		}
+		cost = 50
 
 		complete_effect = {
 			ROOT = {
@@ -132,20 +136,25 @@ GNIS_volunteers = {
 		icon = GFX_decision_icon_default
 		
 		available = {
-			has_country_flag = special_volunteers
-			original_tag = BRA
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = BRA
+			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = special_volunteers
-			original_tag = BRA
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = BRA
+			}
 		}
 
 		custom_cost_trigger = {
-			command_power > 15
+			has_command_power > 14
 		}
+		custom_cost_text = decision_cost_CP_15
 
 
 		complete_effect = {
@@ -188,20 +197,22 @@ GNIS_volunteers = {
 		
 		
 		available = {
-			has_country_flag = special_volunteers
-			original_tag = CRJ
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = CRJ
+			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = special_volunteers
-			original_tag = CRJ
+			AND = {
+				has_country_flag = special_volunteers
+				original_tag = CRJ
+			}
 		}
 
-		custom_cost_trigger = {
-			command_power > 15
-		}
+		cost = 50
 
 
 		complete_effect = {

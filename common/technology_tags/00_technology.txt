@@ -1,5 +1,3 @@
-# Do not change tags in here without changing every other reference to them.
-# If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
 	light_air
@@ -11,6 +9,7 @@ technology_categories = {
 	cat_heavy_armor
 	artillery
 	cat_anti_tank
+	cat_anti_air
 	naval_air
 	infantry_weapons
 	motorized_equipment
@@ -35,6 +34,7 @@ technology_categories = {
 	cat_strategic_bomber
 	naval_bomber
 	cas_bomber
+	ship_modules_tech
 	dd_tech
 	cl_tech
 	ca_tech
@@ -86,12 +86,17 @@ technology_categories = {
 	naval_minesweeping
 	naval_minelaying
 	cat_scout_plane
-	################
-	tribal_weapons
+	train_tech
+	cat_production
+	cat_synth_rubber
+	cat_synth_oil
 }
 
 technology_folders = {
 	infantry_folder = {
+		ledger = army
+	}
+	specialization_folder = {
 		ledger = army
 	}
 	support_folder = {
@@ -99,6 +104,17 @@ technology_folders = {
 	}
 	armour_folder = {
 		ledger = army
+		available = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+	}
+	nsb_armour_folder = {
+		ledger = army
+		available = {
+			has_dlc = "No Step Back"
+		}
 	}
 	artillery_folder = {
 		ledger = army
@@ -138,5 +154,3 @@ technology_folders = {
 	}
 	#secret_weapons_folder
 }
-
- 

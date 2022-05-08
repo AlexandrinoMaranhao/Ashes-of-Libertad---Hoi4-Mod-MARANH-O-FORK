@@ -160,7 +160,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "aluminium_icon"
+						name = "technology_icon"
 						position = { x=210 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 2
@@ -168,7 +168,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "aluminium_value"
+						name = "technology_value"
 						position = { x = 241 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -181,7 +181,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "tungsten_icon"
+						name = "ammunition_icon"
 						position = { x=280 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 4
@@ -189,7 +189,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "tungsten_value"
+						name = "ammunition_value"
 						position = { x = 309 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -202,7 +202,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "chromium_icon"
+						name = "motors_icon"
 						position = { x=350 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 6
@@ -210,7 +210,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "chromium_value"
+						name = "motors_value"
 						position = { x = 381 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"

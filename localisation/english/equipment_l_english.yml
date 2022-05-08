@@ -3511,6 +3511,14 @@
  HOL_amphibious_mechanized_equipment_2_short:1 "DAF MC-143"
  EQUIPMENT_MODULE_NOT_ALLOWED:0 "§RUnavailable§!"
 
+
+#########Trains/Logistical Supplies#########
+
+train_equipment_1:0 "Civil Transport Vehicle"
+train_equipment_2:0 "Improved Civil Transport Vehicle"
+train_equipment_3:0 "Armored Civilian Transport Vehicle"
+train_equipment_4:0 "Military-Grade Transport Vehicle"
+
  tribal_equipment:0 "Tribal Weaponry"
  tribal_equipment_desc:0 "Classic native weaponry, consisting of bow and arrow, spears and blowguns all beautifully decorated with colorful feathers and small trinkets."
  tribal_upgrade1:0 "Hit-and-Run Tactics"
@@ -3520,7 +3528,7 @@
  tribal_upgrade3:0 "Preservation of Life"
  tribal_upgrade3_desc:0 "Our warriors are brave, but are few, and they must be kept alive at all cost, thankfully, the independent thinking of our warriors can be molded to engrave the sense of self preservation in them and the adoption of scavenged western medicine can help heal those who fall wounded."
  tribal_upgrade4:0 "Adopt the white man's tactics"
- tribal_upgrade4_desc:0 "Guns, books and medicine ocasionally fall upon our hands either by luck or after raids, but few are those that fully understand them or have expertise on such items, white colonists, helpful mestizos, "civilised" natives and the ocasional white captive do have that knowledge however, by spreading their knowledge via our extensive oral tradition we can start to employ those strange weapons in our ranks and even common life."
+ tribal_upgrade4_desc:0 "Guns, books and medicine ocasionally fall upon our hands either by luck or after raids, but few are those that fully understand them or have expertise on such items, white colonists, helpful mestizos, ''civilised'' natives and the ocasional white captive do have that knowledge however, by spreading their knowledge via our extensive oral tradition we can start to employ those strange weapons in our ranks and even common life."
  tribal_upgrade5:0 "Create specialized units"
  tribal_upgrade5_desc:0 "Our people are extremely gifted, we are natural hunters, gatherers and survivors in one of the harshest places on earth, and with the outside world slowly leaking into our society we can start to mix our new found expertise with our natural skills, elite sharpshooters trained since birth on hunting, guerrillas that can spend months away from any type of civilisation and expert scouts capable of memorizing hundreds of maps, rivers and settlements."
 
