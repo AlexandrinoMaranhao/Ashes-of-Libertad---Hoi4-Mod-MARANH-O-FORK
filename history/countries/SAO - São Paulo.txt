@@ -32,8 +32,8 @@ add_ideas = {
 
 	GEN_the_2nd_constitutionalist_revolution
 	GEN_stolen_institutions 
-	GEN_shattered_economy 
 	GEN_the_devil_in_the_bottle
+	GEN_shattered_economy 
 }
 
 set_country_flag = is_brazilian
