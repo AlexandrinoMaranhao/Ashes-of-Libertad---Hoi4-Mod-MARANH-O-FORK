@@ -1,0 +1,161 @@
+spriteTypes = {
+
+#	spriteType = { #Portrait Template
+#		name = "GFX_Portrait_Africa_Generic_1"
+#		texturefile = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+#	}
+#	spriteType = {
+#		name = "GFX_Portrait_Africa_Generic_1_small"
+#		texturefile = "gfx/interface/ideas/idea_africa_generic_1.dds"
+#	}
+
+	
+	spriteType = {
+		name = "GFX_el_generico1"
+		texturefile = "gfx/leaders/europe/el_generico1.dds"
+	}
+	spriteType = {
+		name = "GFX_el_generico1_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_el_generico2"
+		texturefile = "gfx/leaders/europe/el_generico2.dds"
+	}
+	spriteType = {
+		name = "GFX_el_generico2_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_el_generico3"
+		texturefile = "gfx/leaders/europe/el_generico3.dds"
+	}
+	spriteType = {
+		name = "GFX_el_generico3_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_el_generico4"
+		texturefile = "gfx/leaders/europe/el_generico4.dds"
+	}
+	spriteType = {
+		name = "GFX_el_generico4_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_el_generico5"
+		texturefile = "gfx/leaders/europe/el_generico5.dds"
+	}
+	spriteType = {
+		name = "GFX_el_generico5_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_el_generico6"
+		texturefile = "gfx/leaders/europe/el_generico6.dds"
+	}
+	spriteType = {
+		name = "GFX_el_generico6_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_8.dds"
+	}
+	
+	
+###Army Generics
+	spriteType = {
+		name = "GFX_generic_army1"
+		texturefile = "gfx/leaders/europe/generic_army1.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army1_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army2"
+		texturefile = "gfx/leaders/europe/generic_army2.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army2_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army3"
+		texturefile = "gfx/leaders/europe/generic_army3.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army3_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army4"
+		texturefile = "gfx/leaders/europe/generic_army4.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army4_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army5"
+		texturefile = "gfx/leaders/europe/generic_army5.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army5_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army6"
+		texturefile = "gfx/leaders/europe/generic_army6.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army6_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army7"
+		texturefile = "gfx/leaders/europe/generic_army7.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army8_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_11.dds"
+	}
+	
+###Navy Generics
+
+	spriteType = {
+		name = "GFX_generic_navy1"
+		texturefile = "gfx/leaders/europe/generic_navy1.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_navy1_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_11.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_navy2"
+		texturefile = "gfx/leaders/europe/generic_navy2.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_navy2_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_navy3"
+		texturefile = "gfx/leaders/europe/generic_navy3.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_navy3_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_15.dds"
+	}
+}

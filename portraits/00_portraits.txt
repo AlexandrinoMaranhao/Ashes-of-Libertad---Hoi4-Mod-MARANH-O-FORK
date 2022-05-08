@@ -30,52 +30,80 @@ default = {
 	}
 }
 
-##############DON'T MESS AROUND WITH CONTINENT PORTRAITS. TENDS TO CRASH THE GAME OR GENERATE ERRORS.##############
+##############DON'T MESS AROUND WITH CONTINENT PORTRAITS. TENDS TO CRASH THE GAME OR GENERATE ERRORS. let me do those ;)##############
 
 continent = {
 	name = europe
 	army = {
 		male = {
-			"GFX_Portrait_Europe_Generic_land_1"
-			"GFX_Portrait_Europe_Generic_land_2"
-			"GFX_Portrait_Europe_Generic_land_3"
-			"GFX_Portrait_Europe_Generic_land_4"
-			"GFX_Portrait_Europe_Generic_land_5"
-			"GFX_portrait_europe_generic_land_13"
+			"GFX_generic_army1"
+			"GFX_generic_army2"
+			"GFX_generic_army3"
+			"GFX_generic_army4"
+			"GFX_generic_army5"
+			"GFX_generic_army6"
+			"GFX_generic_army7"
+			"GFX_generic_army8"
 		}
 	}
 	
 	navy = {
 		male = {
-			"GFX_Portrait_Europe_Generic_navy_1"
-			"GFX_Portrait_Europe_Generic_navy_2"
-			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_generic_navy3"
+			"GFX_generic_navy2"
+			"GFX_generic_navy1"
 		}
 	}
 	
 	political = {
 		communism = {
-				male = { 
-					"GFX_Portrait_Europe_Generic_1"
+				male = {
+					"GFX_el_generico1.dds"
+					"GFX_el_generico2.dds"
+					"GFX_el_generico3.dds"
+					"GFX_el_generico4.dds"
+					"GFX_el_generico5.dds"
 			}
 		}
 		democratic = {
 				male = { 
-					"GFX_Portrait_Europe_Generic_2" 
+					"GFX_el_generico1.dds"
+					"GFX_el_generico2.dds"
+					"GFX_el_generico3.dds"
+					"GFX_el_generico4.dds"
+					"GFX_el_generico5.dds"
 			}
 		}
 		fascism = {
 				male = { 
-					"GFX_Portrait_Europe_Generic_3" 
+					"GFX_el_generico1.dds"
+					"GFX_el_generico2.dds"
+					"GFX_el_generico3.dds"
+					"GFX_el_generico4.dds"
+					"GFX_el_generico5.dds"
+					"GFX_el_generico6.dds"
 			}
 		}
 		neutrality = {
 				male = { 
-					"GFX_Portrait_Europe_Generic_3" 
+					"GFX_el_generico1.dds"
+					"GFX_el_generico2.dds"
+					"GFX_el_generico3.dds"
+					"GFX_el_generico4.dds"
+					"GFX_el_generico5.dds"
+			}
+		}
+		reactionary = {
+				male = {
+					"GFX_el_generico1.dds"
+					"GFX_el_generico2.dds"
+					"GFX_el_generico3.dds"
+					"GFX_el_generico4.dds"
+					"GFX_el_generico5.dds"
+					"GFX_el_generico6.dds"
 			}
 		}
 	}
-
 }
 
 continent = {
