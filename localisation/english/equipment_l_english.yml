@@ -3514,10 +3514,10 @@
 
 #########Trains/Logistical Supplies#########
 
-train_equipment_1:0 "Civil Transport Vehicle"
-train_equipment_2:0 "Improved Civil Transport Vehicle"
-train_equipment_3:0 "Armored Civilian Transport Vehicle"
-train_equipment_4:0 "Military-Grade Transport Vehicle"
+train_equipment_1:0 "Civilian ANTRAC"
+train_equipment_2:0 "Improved ANTRAC"
+train_equipment_3:0 "Armored ANTRAC"
+train_equipment_4:0 "Military-Grade ANTRAC"
 
  tribal_equipment:0 "Tribal Weaponry"
  tribal_equipment_desc:0 "Classic native weaponry, consisting of bow and arrow, spears and blowguns all beautifully decorated with colorful feathers and small trinkets."

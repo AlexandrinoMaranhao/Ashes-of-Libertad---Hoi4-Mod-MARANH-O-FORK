@@ -17,6 +17,149 @@ technologies = {
 	@1976 = 28
 	@1977 = 30
 
+	infantry_gear = {
+
+		enable_equipments = {
+			infantry_gear
+		}
+		
+		enable_subunits = {
+			militia_unit
+		}
+		
+		path = {
+			leads_to_tech = infantry_gear1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1962
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1962 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_gear1 = {
+
+		enable_equipments = {
+			infantry_gear_1
+		}
+		
+
+		path = {
+			leads_to_tech = infantry_gear2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1965
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1965 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_gear2 = {
+
+		enable_equipments = {
+			infantry_gear_2
+		}
+		
+
+		path = {
+			leads_to_tech = infantry_gear3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1967
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1967 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_gear3 = {
+
+		enable_equipments = {
+			infantry_gear_3
+		}
+		
+
+		path = {
+			leads_to_tech = infantry_gear4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1969
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1969 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_gear4 = {
+
+		enable_equipments = {
+			infantry_gear_4
+		}
+		
+
+		path = {
+			leads_to_tech = infantry_gear5
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1971
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1971 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	infantry_weapons = {
 
 		enable_equipments = {

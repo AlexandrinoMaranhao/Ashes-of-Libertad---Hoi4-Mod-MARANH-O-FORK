@@ -25,11 +25,7 @@ ACR_eneas_path = {
 	}
 
 	ai_national_focuses = {
-		ACR_censorship
-		ACR_workers_no
-		acr_press_yes
-		ACR_general_of_the_army 
-		acr_minorities_yes
+		
 	}
 
 	research = {
@@ -55,7 +51,11 @@ ACR_eneas_path = {
 	}
 
 	focus_factors = {
-		
+		ACR_censorship = 100
+		ACR_workers_no = 100
+		acr_press_yes = 100
+		ACR_general_of_the_army = 100
+		acr_minorities_yes = 100
 	}
 
 }
@@ -87,11 +87,7 @@ ACR_cury_path = {
 	}
 
 	ai_national_focuses = {
-		ACR_anticensorship
-		ACR_workers_yes
-		acr_press_yes
-		acr_minorities_no
-		ACR_general_of_the_people
+		
 	}
 
 	research = {
@@ -116,8 +112,12 @@ ACR_cury_path = {
 		}
 	}
 
-	focus_factors = {
-		
+	focus_factors = {		
+		ACR_anticensorship = 100
+		ACR_workers_yes = 100
+		acr_press_yes = 100
+		acr_minorities_no = 100
+		ACR_general_of_the_people = 100
 	}
 
 }
@@ -149,10 +149,7 @@ ACR_edgar_path = {
 	}
 
 	ai_national_focuses = {
-		acr_press_no
-		ACR_general_of_the_army
-		acr_minorities_no
-		ACR_censorship
+		
 	}
 
 	research = {
@@ -178,7 +175,10 @@ ACR_edgar_path = {
 	}
 
 	focus_factors = {
-		
+		acr_press_no = 100
+		ACR_general_of_the_army = 100
+		acr_minorities_no = 100
+		ACR_censorship = 100
 	}
 
 }

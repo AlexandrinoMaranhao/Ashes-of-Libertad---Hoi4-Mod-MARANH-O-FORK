@@ -32,5 +32,134 @@ equipments = {
 		archetype = support_equipment
 		priority = 20	
 	}
+	
+################################Infantry Gear
 
+	infantry_gear = {
+		year = 1962
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 2
+		resources = {
+			rubber = 1
+		}
+	}
+
+	infantry_gear_1 = {
+		year = 1965
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 3
+		resources = {
+			rubber = 2
+		}
+	}
+	
+	infantry_gear_2 = {
+		year = 1967
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			rubber = 3
+		}
+	}
+	
+	infantry_gear_3 = {
+		year = 1969
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 5
+		resources = {
+			rubber = 2
+			steel = 1
+		}
+	}
+	
+	infantry_gear_4 = {
+		year = 1971
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 6
+		resources = {
+			rubber = 2
+			technology = 1
+			steel = 2
+		}
+	}
 }

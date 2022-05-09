@@ -28,6 +28,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+        dependencies = {
+           tech_special_forces = 1
+        }
+
 		research_cost = 2
 		start_year = 1962
 		folder = {
@@ -93,12 +97,67 @@ technologies = {
 			max_organisation = 5
 		}
 		
+		path = {
+			leads_to_tech = paratroopers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1967
+		folder = {
+			name = specialization_folder
+			position = { x = -3 y = @1967 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			
+		}
+	}
+	
+	paratroopers4 = {
+
+		paratrooper = {
+			breakthrough = 0.2
+		}
+		
+		path = {
+			leads_to_tech = paratroopers5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.0
 		start_year = 1969
 		folder = {
 			name = specialization_folder
 			position = { x = -3 y = @1969 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			
+		}
+	}
+	
+	paratroopers5 = {
+
+		paratrooper = {
+			initiative = 0.05
+		}
+
+		research_cost = 2.0
+		start_year = 1971
+		folder = {
+			name = specialization_folder
+			position = { x = -3 y = @1971 }
 		}
 		
 		categories = {
@@ -130,6 +189,11 @@ technologies = {
 		}			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}	
+
+        dependencies = {
+           tech_special_forces = 1
+        }
+
 		path = {
 			leads_to_tech = marines2
 			research_cost_coeff = 1
@@ -186,6 +250,38 @@ technologies = {
 		marine = {
 			max_organisation = 5
 		}
+		path = {
+			leads_to_tech = marines4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1967
+		folder = {
+			name = specialization_folder
+			position = { x = 2 y = @1967 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+			
+
+		}
+	}	
+	
+	marines4 = {
+
+		marine = {
+			breakthrough = 0.2
+		}
+		path = {
+			leads_to_tech = marines5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.0
 		start_year = 1969
@@ -203,7 +299,31 @@ technologies = {
 			
 
 		}
-	}	
+	}
+	
+	marines5 = {
+
+		marine = {
+			initiative = 0.05
+		}
+
+		research_cost = 2.0
+		start_year = 1971
+		folder = {
+			name = specialization_folder
+			position = { x = 2 y = @1971 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+			
+
+		}
+	}
 	
 	tech_mountaineers = {
 
@@ -225,6 +345,10 @@ technologies = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
+        dependencies = {
+           tech_special_forces = 1
+        }
+
 		path = {
 			leads_to_tech = tech_mountaineers2
 			research_cost_coeff = 1
@@ -276,9 +400,39 @@ technologies = {
 		}
 	}
 	
-	tech_mountaineers3 = {	
+	tech_mountaineers3 = {
 		mountaineers = {
 			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = tech_mountaineers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1967
+		folder = {
+			name = specialization_folder
+			position = { x = -3 y = @1967 }
+		}
+		
+		categories = {
+			infantry_tech
+			mountaineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+	
+	tech_mountaineers4 = {
+		mountaineers = {
+			breakthrough = 0.2
+		}
+		path = {
+			leads_to_tech = tech_mountaineers5
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2.0
@@ -286,6 +440,28 @@ technologies = {
 		folder = {
 			name = specialization_folder
 			position = { x = -3 y = @1969 }
+		}
+		
+		categories = {
+			infantry_tech
+			mountaineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+	
+	tech_mountaineers5 = {
+		mountaineers = {
+			initiative = 0.05
+		}
+
+		research_cost = 2.0
+		start_year = 1971
+		folder = {
+			name = specialization_folder
+			position = { x = -3 y = @1971 }
 		}
 		
 		categories = {
@@ -323,10 +499,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1964
+		start_year = 1963
 		folder = {
 			name = specialization_folder
-			position = { x = 3 y = @1964 }
+			position = { x = -11 y = 0 }
 		}
 		
 		categories = {
@@ -359,10 +535,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1966
+		start_year = 1964
 		folder = {
 			name = specialization_folder
-			position = { x = 2 y = @1966 }
+			position = { x = -12 y = @1964 }
 		}
 		
 		categories = {
@@ -390,10 +566,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1966
+		start_year = 1964
 		folder = {
 			name = specialization_folder
-			position = { x = 4 y = @1966 }
+			position = { x = -10 y = @1964 }
 		}
 		
 		categories = {
@@ -424,10 +600,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1968
+		start_year = 1966
 		folder = {
 			name = specialization_folder
-			position = { x = 2 y = @1968 }
+			position = { x = -12 y = @1966 }
 		}
 		
 		categories = {
@@ -457,10 +633,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1968
+		start_year = 1966
 		folder = {
 			name = specialization_folder
-			position = { x = 4 y = @1968 }
+			position = { x = -10 y = @1966 }
 		}
 		
 		categories = {
@@ -486,10 +662,10 @@ technologies = {
 		special_forces_no_supply_grace = 48
 
 		research_cost = 2
-		start_year = 1970
+		start_year = 1968
 		folder = {
 			name = specialization_folder
-			position = { x = 3 y = @1970 }
+			position = { x = -11 y = @1968 }
 		}
 		
 		categories = {
