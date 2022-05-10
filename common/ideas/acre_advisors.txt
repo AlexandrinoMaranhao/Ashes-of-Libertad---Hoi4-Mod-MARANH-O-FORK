@@ -379,76 +379,75 @@ cost = 50
         	traits = { hog_backroom_backstabber }
             }
          
-        placeholder_1_advisor = {
-
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_2_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_3_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_4_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-        
-        placeholder_5_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_6_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_7_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_8_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_9_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        placeholder_10_advisor = {
-            
-            allowed = {
-                original_tag = ACR
-            }
-        }
-
-        }
+#        placeholder_1_advisor = {
+#
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_2_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_3_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_4_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#        
+#        placeholder_5_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_6_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_7_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_8_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_9_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+#
+#        placeholder_10_advisor = {
+#            
+#            allowed = {
+#                original_tag = ACR
+#            }
+#        }
+    }
 }
