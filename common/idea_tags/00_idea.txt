@@ -28,12 +28,12 @@ idea_categories = {
     }
 
     military_staff = {
-        character_slot = theorist
         character_slot = army_chief
         character_slot = navy_chief
         character_slot = air_chief
         character_slot = high_command
         character_slot = high_command
+		character_slot = theorist
 
         removal_cost = -1
     }
@@ -50,8 +50,8 @@ idea_categories = {
     }
 
     economic_policies = {
-        slot = economy_focus
         slot = trade_scope
+        slot = economy_focus
         slot = work_regulations
         slot = taxation
         slot = societal_investment
@@ -65,8 +65,8 @@ idea_categories = {
         slot = specialization
         slot = troop_training
         slot = officer_training
+		slot = draft_exemptions
         slot = mercenaries
-        slot = draft_exemptions
 
         removal_cost = -1
     }

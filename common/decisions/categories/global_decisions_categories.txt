@@ -22,3 +22,41 @@ JUNTA_civil_war = {
 		has_global_flag = JUNTA_CIVIL_WAR
 	}
 }
+
+################Momento Chico Buarque
+
+change_societal_investment = {
+	allowed = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}
+	visible = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}	
+}
+
+change_work_regulations = {
+	allowed = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}
+	visible = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}	
+}
+
+change_poverty_rate = {
+	allowed = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}
+	visible = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}	
+}
+
+change_education_rate = {
+	allowed = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}
+	visible = {
+		NOT = {has_country_flag = has_unique_advisors}
+	}	
+}
