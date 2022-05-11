@@ -7,6 +7,31 @@ spriteTypes = {
 #	}
 #					
 
+													
+	spriteType = {
+		name = "GFX_news_event_waimiri"
+		texturefile = "gfx/event_pictures/news_event_waimiri.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_news_event_betancourt_ded"
+		texturefile = "gfx/event_pictures/news_event_betancourt_ded.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_news_event_apra_uno_collapse"
+		texturefile = "gfx/event_pictures/news_event_apra_uno_collapse.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_news_event_manaus"
+		texturefile = "gfx/event_pictures/news_event_manaus.dds"
+	}
+													
+	spriteType = {
+		name = "GFX_news_event_farmlands_war"
+		texturefile = "gfx/event_pictures/news_event_farmlands_war.dds"
+	}
 															
 	spriteType = {
 		name = "GFX_news_event_malvinas"
