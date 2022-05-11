@@ -1,6 +1,6 @@
 spriteTypes = { 
 	##Icon For: Massive Volunteer Campaing
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_idea_zzz_massive_volunteer_campaing-1096"
 		texturefile = "gfx/interface/ideas/massive_volunteer_campaing_idea.dds"
 	}
@@ -28,6 +28,10 @@ spriteTypes = {
 		name = "GFX_idea_zzz_voluntrios_da_ptria-1142"
 		texturefile = "gfx/interface/ideas/voluntarios_da_ptria_idea.dds"
 	}
+	##Icon For ern buff
+	SpriteType = { 
+		name = "GFX_idea_thisempty"
+		texturefile = "gfx/interface/ideas/goofybois/thisempty.dds"
+	}
 
- 
  }

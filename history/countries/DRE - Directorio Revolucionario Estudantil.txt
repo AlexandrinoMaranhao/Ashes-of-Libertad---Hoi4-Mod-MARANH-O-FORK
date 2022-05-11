@@ -30,9 +30,8 @@ add_to_faction = DRE
 
 add_ideas = {
 	split_leadership
-anti_castro
-
-conscription_scraping_the_barrel
+	anti_castro
+	conscription_scraping_the_barrel
 }
 
 set_country_flag = use_generic_outsider_laws

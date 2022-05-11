@@ -366,19 +366,17 @@ cost = 50
 cost = 50
         }
 
-        carlos_drummond_de_andrade_advisor = { 
+        carlos_drummond_de_andrade_advisor = {
             visible = {
-                has_country_flag = ACR_carlos_drummond_advisor
-                }
-
-
-
-        	allowed = {
-        	original_tag = ACR
-        	}
-        	traits = { hog_backroom_backstabber }
+				has_country_flag = ACR_carlos_drummond_advisor
             }
-         
+			
+        	allowed = {
+				original_tag = ACR
+        	}
+			
+        	traits = { hog_backroom_backstabber }
+		}
 #        placeholder_1_advisor = {
 #
 #            

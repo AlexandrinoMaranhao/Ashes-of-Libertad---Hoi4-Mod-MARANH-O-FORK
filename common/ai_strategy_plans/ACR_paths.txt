@@ -36,7 +36,11 @@ ACR_eneas_path = {
 	}
 
 	ideas = {
-		#todo
+		marques_ern_political_advisor = 100
+		adalberto_sena_political_advisor = 50
+		nilson_mourao_political_advisor = 50
+		eneas_carneiro_political_advisor = 50
+		marques_de_souza_political_advisor = 50
 	}
 
 	traits = {
@@ -98,7 +102,11 @@ ACR_cury_path = {
 	}
 
 	ideas = {
-		#todo
+		geraldo_mesquita_advisor = 100
+		jonas_kalume_political_advisor = 100
+		jose_augusto_political_advisor = 100
+		mateus_satanawa_political_advisor = 100 
+		pedro_augusto_da_silva_political_advisor = 100
 	}
 
 	traits = {
@@ -160,7 +168,10 @@ ACR_edgar_path = {
 	}
 
 	ideas = {
-		#todo
+		edgar_cerqueira_political_advisor = 100
+		jose_guiomard_political_advisor = 100
+		nabor_junior_political_advisor = 100
+		jorge_kalume_political_advisor = 100
 	}
 
 	traits = {

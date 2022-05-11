@@ -111,7 +111,7 @@ sub_units = {
 			infantry_gear
 		}
 	}
-	anti_personnel_unit = {
+	antipersonnel_unit = {
 		abbreviation = "APUT"
 		sprite = "artillery"
 		map_icon_category = infantry

@@ -27,36 +27,36 @@ JUNTA_civil_war = {
 
 change_societal_investment = {
 	allowed = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_si
 	}
 	visible = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_si
 	}	
 }
 
 change_work_regulations = {
 	allowed = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_wr
 	}
 	visible = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_wr
 	}	
 }
 
 change_poverty_rate = {
 	allowed = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_pr
 	}
 	visible = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_pr
 	}	
 }
 
 change_education_rate = {
 	allowed = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_er
 	}
 	visible = {
-		NOT = {has_country_flag = has_unique_advisors}
+		has_country_flag = can_change_laws_er
 	}	
 }

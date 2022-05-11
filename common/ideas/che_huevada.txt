@@ -2,9 +2,11 @@ ideas = {
 	country = {
 		
 		ern_buff = {
-			picture = #
+			picture = GFX_idea_thisempty
 			available = {
-				always = yes
+				ROOT = {
+					is_ai = yes
+				}
 			}
 			visible = {
 				original_tag = ERN 

@@ -890,6 +890,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			unlock_decision_category_tooltip = change_work_regulations
+			set_country_flag = can_change_laws_wr
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1.0
@@ -961,6 +963,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			unlock_decision_category_tooltip = change_poverty_rate
+			set_country_flag = can_change_laws_pr
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -1582,6 +1586,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			unlock_decision_category_tooltip = change_education_rate
+			set_country_flag = can_change_laws_er
 			add_research_slot = 1
 		}
 	}
@@ -1648,7 +1654,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 120
+			unlock_decision_category_tooltip = change_societal_investment
+			set_country_flag = can_change_laws_si
+			add_political_power = 150
 		}
 	}
 

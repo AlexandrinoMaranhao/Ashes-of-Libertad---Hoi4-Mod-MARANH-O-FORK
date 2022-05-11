@@ -151,10 +151,7 @@ GNIS_volunteers = {
 			}
 		}
 
-		custom_cost_trigger = {
-			has_command_power > 14
-		}
-		custom_cost_text = decision_cost_CP_15
+		cost = 50
 
 
 		complete_effect = {
