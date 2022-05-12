@@ -97,7 +97,7 @@ sub_units = {
 		max_strength = 15
 		max_organisation = 35
 		default_morale = 0.15
-		manpower = 250
+		manpower = 150
 
 		#Misc Abilities
 		suppression_factor = 0.1
@@ -119,7 +119,7 @@ sub_units = {
 		breakthrough = -0.1
 	
 		need = {
-			infantry_equipment = 500
+			infantry_equipment = 150
 		}
 	}
 	merc_unit = {
@@ -150,7 +150,7 @@ sub_units = {
 		max_strength = 60
 		max_organisation = 50
 		default_morale = 0.4
-		manpower = 800
+		manpower = 150
 
 		#Misc Abilities
 		suppression_factor = 0.2
@@ -177,8 +177,8 @@ sub_units = {
         }
 	
 		need = {
-			infantry_equipment = 800
-			infantry_gear
+			infantry_equipment = 150
+			infantry_gear = 50
 		}
 	}
 	antipersonnel_unit = {
@@ -206,11 +206,11 @@ sub_units = {
 
 		need = {
 			rocket_artillery_equipment = 100
-			infantry_equipment = 900
-			infantry_gear = 800
+			infantry_equipment = 300
+			infantry_gear = 300
 		}
 		
-		manpower = 1000
+		manpower = 300
 		max_organisation = -0.08
 		default_morale = 0.03
 		max_strength = 0.06

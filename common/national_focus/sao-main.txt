@@ -1,0 +1,497 @@
+focus_tree = {
+	id = sao-main
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAO
+		}
+	}
+	#Extinguish Militarist Hopes
+	focus = {
+		id = SAO_extinguish_militarist_hopes
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_paulista_betrayal  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#...A Shameful Excuse
+	focus = {
+		id = SAO_ashamefulexcuse
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_thesecondconstitutionalistrevolutionis  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Road to Guanabara
+	focus = {
+		id = SAO_the_road_to_guanabara
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_appeasing_the_elites  } prerequisite = { focus = SAO_police_the_border  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Second Constitutionalist Revolution is...
+	focus = {
+		id = SAO_thesecondconstitutionalistrevolutionis
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#...An Honorable Cause
+	focus = {
+		id = SAO_anhonorablecause
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_thesecondconstitutionalistrevolutionis  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Paulista Betrayal
+	focus = {
+		id = SAO_the_paulista_betrayal
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Eye to Eye with the Republic
+	focus = {
+		id = SAO_eye_to_eye_with_the_republic
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_paulista_betrayal  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Appeasing the Elites
+	focus = {
+		id = SAO_appeasing_the_elites
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_extinguish_militarist_hopes  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Police the Border
+	focus = {
+		id = SAO_police_the_border
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_eye_to_eye_with_the_republic  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Coffee and Milk Line
+	focus = {
+		id = SAO_the_coffee_and_milk_line
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_road_to_guanabara  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Unsure Revolution
+	focus = {
+		id = SAO_the_unsure_revolution
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_coffee_and_milk_line  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Public Defence Force
+	focus = {
+		id = SAO_the_public_defence_force
+		icon = GFX_goal_unknown
+		x = 17
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_coffee_and_milk_line  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#A Army in Name Only
+	focus = {
+		id = SAO_a_army_in_name_only
+		icon = GFX_goal_unknown
+		x = 18
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_public_defence_force  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Resettling the Immigrants
+	focus = {
+		id = SAO_resettling_the_immigrants
+		icon = GFX_goal_unknown
+		x = 16
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_public_defence_force  } prerequisite = { focus = SAO_the_unsure_revolution  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#New Neighbors
+	focus = {
+		id = SAO_new_neighbors
+		icon = GFX_goal_unknown
+		x = 16
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_resettling_the_immigrants  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Figueiredo's Reforms
+	focus = {
+		id = SAO_figueiredosreforms
+		icon = GFX_goal_unknown
+		x = 18
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_a_army_in_name_only  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Protecting the Rich
+	focus = {
+		id = SAO_protecting_the_rich
+		icon = GFX_goal_unknown
+		x = 14
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_unsure_revolution  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Tour the Farmsteads
+	focus = {
+		id = SAO_tour_the_farmsteads
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_mst  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Crush the Occupiers
+	focus = {
+		id = SAO_crush_the_occupiers
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_mst  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Propaganda War
+	focus = {
+		id = SAO_the_propaganda_war
+		icon = GFX_goal_unknown
+		x = 14
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_protecting_the_rich  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Chest of Happiness
+	focus = {
+		id = SAO_the_chest_of_happiness
+		icon = GFX_goal_unknown
+		x = 15
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_new_neighbors  } prerequisite = { focus = SAO_the_propaganda_war  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Family Before Country
+	focus = {
+		id = SAO_family_before_country
+		icon = GFX_goal_unknown
+		x = 17
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_new_neighbors  } prerequisite = { focus = SAO_figueiredosreforms  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Grey Skies Once More!
+	focus = {
+		id = SAO_greyskiesoncemore
+		icon = GFX_goal_unknown
+		x = 16
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_chest_of_happiness  } prerequisite = { focus = SAO_family_before_country  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Fall of the White Castle
+	focus = {
+		id = SAO_the_fall_of_the_white_castle
+		icon = GFX_goal_unknown
+		x = 2
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Embrace the Junta's Deserters
+	focus = {
+		id = SAO_embracethejuntasdeserters
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_fall_of_the_white_castle  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Fan the Flames of Revolution
+	focus = {
+		id = SAO_fan_the_flames_of_revolution
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_fall_of_the_white_castle  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Junta's Poster Boys
+	focus = {
+		id = SAO_thejuntasposterboys
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_fan_the_flames_of_revolution  } prerequisite = { focus = SAO_embracethejuntasdeserters  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Brace for the §RStorm§!...
+	focus = {
+		id = SAO_braceforthessrstormss
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_thejuntasposterboys  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The MST
+	focus = {
+		id = SAO_the_mst
+		icon = GFX_goal_unknown
+		x = 7
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Agricultural Revival
+	focus = {
+		id = SAO_agricultural_revival
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_tour_the_farmsteads  } prerequisite = { focus = SAO_crush_the_occupiers  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Addictive White Dust
+	focus = {
+		id = SAO_the_addictive_white_dust
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_agricultural_revival  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Brown Gold
+	focus = {
+		id = SAO_brown_gold
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_agricultural_revival  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Piracicaba Que Eu Adoro Tanto
+	focus = {
+		id = SAO_piracicaba_que_eu_adoro_tanto
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_the_addictive_white_dust  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Found the Air-Café
+	focus = {
+		id = SAO_foundtheaircafe
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_brown_gold  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Paulista Authocracy
+	focus = {
+		id = SAO_the_paulista_authocracy
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SAO_foundtheaircafe  } prerequisite = { focus = SAO_piracicaba_que_eu_adoro_tanto  }
+		ai_will_do = { factor = 1 }
+	}
+
+}

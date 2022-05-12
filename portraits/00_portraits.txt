@@ -405,3 +405,46 @@ continent = {
 #		}
 #	}
 #}
+
+CIA = {
+	army = {
+		male = {
+			"GFX_AArmygeneric1"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_AArmygeneric1"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = {
+				"GFX_AArmygeneric1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_AArmygeneric1"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_AArmygeneric1"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_AArmygeneric1" 
+			}
+		}
+		
+		reactionary = {
+			male = {
+				"GFX_AArmygeneric1"
+			}
+		}
+	}
+}

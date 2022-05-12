@@ -54,9 +54,9 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 
-		build_cost_ic = 2
+		build_cost_ic = 1
 		resources = {
-			rubber = 1
+			steel = 1
 		}
 	}
 
@@ -73,9 +73,9 @@ equipments = {
 		breakthrough = 0.2
 
 		reliability = 0.9
-		build_cost_ic = 4
+		build_cost_ic = 1
 		resources = {
-			rubber = 1
+			steel = 1
 		}
 	}
 
@@ -93,9 +93,9 @@ equipments = {
 		breakthrough = 0.4
 		
 		reliability = 0.85
-		build_cost_ic = 5
+		build_cost_ic = 3
 		resources = {
-			rubber = 2
+			steel = 2
 		}
 	}
 	
@@ -113,9 +113,9 @@ equipments = {
 		breakthrough = 0.6
 		
 		reliability = 0.75
-		build_cost_ic = 6
+		build_cost_ic = 4
 		resources = {
-			rubber = 3
+			steel = 2
 		}
 	}
 	
@@ -133,10 +133,10 @@ equipments = {
 		breakthrough = 0.8
 		
 		reliability = 0.7
-		build_cost_ic = 7
+		build_cost_ic = 5
 		resources = {
-			rubber = 2
-			steel = 1
+			rubber = 1
+			steel = 2
 		}
 	}
 	
@@ -154,9 +154,9 @@ equipments = {
 		breakthrough = 1
 		
 		reliability = 0.7
-		build_cost_ic = 8
+		build_cost_ic = 6
 		resources = {
-			rubber = 2
+			rubber = 1
 			technology = 1
 			steel = 2
 		}

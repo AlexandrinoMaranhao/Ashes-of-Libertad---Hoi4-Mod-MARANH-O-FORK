@@ -155,7 +155,7 @@ equipments = {
 		year = 1939
 	
 		archetype = infantry_equipment
-		parent = infantry_equipment_0
+		parent = infantry_equipment_1
 		priority = 10
 		visual_level = 2
 		

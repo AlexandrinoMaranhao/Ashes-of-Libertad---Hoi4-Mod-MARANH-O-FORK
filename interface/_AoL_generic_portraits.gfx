@@ -19,7 +19,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
 	}
 
- 
 	spriteType = {
 		name = "GFX_el_generico2"
 		texturefile = "gfx/leaders/europe/el_generico2.dds"
@@ -158,4 +157,16 @@ spriteTypes = {
 		name = "GFX_generic_navy3_small"
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_15.dds"
 	}
+	
+###CIA/American Generics
+	
+	spriteType = {
+		name = "GFX_AArmygeneric1"
+		texturefile = "gfx/leaders/america/AArmygeneric1.dds"
+	}
+	spriteType = {
+		name = "GFX_AArmygeneric1"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
+	}
+	
 }

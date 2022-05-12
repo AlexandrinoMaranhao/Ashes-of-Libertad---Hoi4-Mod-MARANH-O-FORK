@@ -331,6 +331,47 @@ ACC_Uniting_Cuba = {
 	}
 }
 RED_Uniting_Cuba = {
+	
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
 
 	RED_Conquest = {
 
@@ -622,6 +663,47 @@ RED_Uniting_Cuba = {
 	}
 }
 NEH_Uniting_Cuba = {
+
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
 
 	NEH_Conquest = {
 
@@ -1205,6 +1287,47 @@ DRE_Uniting_Cuba = {
 }
 RUM_Uniting_Cuba = {
 
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
+
 	RUM_Conquest = {
 
 		icon = generic_civil_support
@@ -1495,6 +1618,47 @@ RUM_Uniting_Cuba = {
 	}
 }
 CUP_Uniting_Cuba = {
+
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
 
 	CUP_Conquest = {
 
@@ -1787,6 +1951,47 @@ CUP_Uniting_Cuba = {
 }
 ECR_Uniting_Cuba = {
 
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
+
 	ECR_Conquest = {
 
 		icon = generic_civil_support
@@ -2077,6 +2282,47 @@ ECR_Uniting_Cuba = {
 	}
 }
 CDR_Uniting_Cuba = {
+
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
 
 	CDR_Conquest = {
 
@@ -2369,6 +2615,47 @@ CDR_Uniting_Cuba = {
 }
 SCR_Uniting_Cuba = {
 
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
+
 	SCR_Conquest = {
 
 		icon = generic_civil_support
@@ -2659,6 +2946,47 @@ SCR_Uniting_Cuba = {
 	}
 }
 BTA_Uniting_Cuba = {
+
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
 
 	BTA_Conquest = {
 
@@ -2951,6 +3279,47 @@ BTA_Uniting_Cuba = {
 }
 CUB_Uniting_Cuba = {
 
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
+
 	CUB_Conquest = {
 
 		icon = generic_civil_support
@@ -3241,6 +3610,47 @@ CUB_Uniting_Cuba = {
 	}
 }
 JUV_Uniting_Cuba = {
+
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
 
 	JUV_Conquest = {
 
