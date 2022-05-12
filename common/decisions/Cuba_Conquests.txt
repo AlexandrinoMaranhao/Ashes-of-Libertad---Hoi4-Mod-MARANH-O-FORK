@@ -1,5 +1,46 @@
 ACC_Uniting_Cuba = {
 
+	DRE_defeat = {
+
+		icon = generic_civil_support
+		
+		activation  = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}	
+		}
+
+		allowed = {
+		}
+		available = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+		visible = {
+			221 = {
+				NOT = {
+					is_owned_and_controlled_by = DRE
+				}
+			}
+		}
+
+		cost = 2
+				
+		fire_only_once = yes
+
+		complete_effect = {
+			KEY = {
+				transfer_state = 204
+				add_state_claim = 204
+			}
+		}
+	}
+
 	ACC_Conquest = {
 
 		icon = generic_civil_support
