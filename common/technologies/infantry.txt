@@ -23,9 +23,6 @@ technologies = {
 			infantry_gear_0
 		}
 		
-		enable_subunits = {
-			militia_unit
-		}
 		
 		path = {
 			leads_to_tech = infantry_gear1
@@ -168,6 +165,7 @@ technologies = {
 		
 		enable_subunits = {
 			infantry
+			militia_unit
 		}
 		
 		path = {
