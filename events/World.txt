@@ -885,25 +885,25 @@ news_event = { # Carlos Lamarca
 		name = world.66.a
 	}
 }
-#
-#news_event = { # Farmlands War
-#	id = world.67
-#	title = world.67.t
-#	desc = world.67.d
-#	picture = "GFX_news_event_coari_ded"
-#
-#	is_triggered_only = yes
-#
-#	option = {
-#		name = world.67.a
-#	}
-#}
+
+news_event = { # Farmlands War
+	id = world.67
+	title = world.67.t
+	desc = world.67.d
+	picture = "GFX_news_event_farmlands_war"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world.67.a
+	}
+}
 
 news_event = { # APRA-UNO Breakup
 	id = world.68
 	title = world.68.t
 	desc = world.68.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_apra_uno_collapse"
 
 	is_triggered_only = yes
 
@@ -916,7 +916,7 @@ news_event = { # Battle for Manaus
 	id = world.69
 	title = world.69.t
 	desc = world.69.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_manaus"
 
 	is_triggered_only = yes
 
@@ -955,7 +955,7 @@ news_event = { # The Indian War
 	id = world.72
 	title = world.72.t
 	desc = world.72.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_waimiri"
 
 	is_triggered_only = yes
 
@@ -1020,7 +1020,7 @@ news_event = { # Betancourt
 	id = world.77
 	title = world.77.t
 	desc = world.77.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_betancourt_ded"
 
 	is_triggered_only = yes
 
