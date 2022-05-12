@@ -20,7 +20,7 @@ technologies = {
 	infantry_gear = {
 
 		enable_equipments = {
-			infantry_gear
+			infantry_gear_0
 		}
 		
 		enable_subunits = {

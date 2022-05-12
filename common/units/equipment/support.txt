@@ -7,9 +7,6 @@ equipments = {
 		picture = archetype_support_equipment
 		is_buildable = no
 		type = {
-			infantry
-			motorized
-		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -41,7 +38,10 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_support_equipment
 		is_buildable = no
+		active = no
+
 		type = {
+			armor
 			infantry
 			motorized
 		}
@@ -60,25 +60,28 @@ equipments = {
 		}
 	}
 
+	infantry_gear_0 = {
+		year = 1965
+		
+		archetype = infantry_gear
+		priority = 05
+		visual_level = 0
+		
+		build_cost_ic = 3
+		resources = {
+			rubber = 2
+		}
+	}
+
 	infantry_gear_1 = {
 		year = 1965
 
-		is_archetype = yes
-		picture = archetype_support_equipment
-		is_buildable = no
-		type = {
-			infantry
-			motorized
-		}
-		group_by = archetype
+		archetype = infantry_gear
+		parent = infantry_gear_0
+		archetype = infantry_gear
+		priority = 10
+		visual_level = 1
 		
-		interface_category = interface_category_land
-		
-		reliability = 0.8
-
-		#Space taken in convoy
-		lend_lease_cost = 1
-
 		build_cost_ic = 3
 		resources = {
 			rubber = 2
@@ -88,23 +91,12 @@ equipments = {
 	infantry_gear_2 = {
 		year = 1967
 
-		is_archetype = yes
-		picture = archetype_support_equipment
-		is_buildable = no
-		type = {
-			infantry
-			motorized
-		}
-		group_by = archetype
+		archetype = infantry_gear
+		parent = infantry_gear_1
+		priority = 10
+		visual_level = 2
 		
-		interface_category = interface_category_land
-		
-		reliability = 0.8
-
-		#Space taken in convoy
-		lend_lease_cost = 1
-
-		build_cost_ic = 4
+		build_cost_ic = 3
 		resources = {
 			rubber = 3
 		}
@@ -113,23 +105,12 @@ equipments = {
 	infantry_gear_3 = {
 		year = 1969
 
-		is_archetype = yes
-		picture = archetype_support_equipment
-		is_buildable = no
-		type = {
-			infantry
-			motorized
-		}
-		group_by = archetype
+		archetype = infantry_gear
+		parent = infantry_gear_2
+		priority = 10
+		visual_level = 2
 		
-		interface_category = interface_category_land
-		
-		reliability = 0.8
-
-		#Space taken in convoy
-		lend_lease_cost = 1
-
-		build_cost_ic = 5
+		build_cost_ic = 3
 		resources = {
 			rubber = 2
 			steel = 1
@@ -139,23 +120,12 @@ equipments = {
 	infantry_gear_4 = {
 		year = 1971
 
-		is_archetype = yes
-		picture = archetype_support_equipment
-		is_buildable = no
-		type = {
-			infantry
-			motorized
-		}
-		group_by = archetype
+		archetype = infantry_gear
+		parent = infantry_gear_3
+		priority = 20
+		visual_level = 3
 		
-		interface_category = interface_category_land
-		
-		reliability = 0.8
-
-		#Space taken in convoy
-		lend_lease_cost = 1
-
-		build_cost_ic = 6
+		build_cost_ic = 3
 		resources = {
 			rubber = 2
 			technology = 1

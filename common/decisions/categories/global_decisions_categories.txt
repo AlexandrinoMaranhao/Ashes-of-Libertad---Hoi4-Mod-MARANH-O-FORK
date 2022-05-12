@@ -25,38 +25,16 @@ JUNTA_civil_war = {
 
 ################Momento Chico Buarque
 
-change_societal_investment = {
+change_social_laws = {
+	visible_when_empty = yes
 	allowed = {
-		has_country_flag = can_change_laws_si
+		ROOT = {
+			has_country_flag = can_change_social_laws
+		}
 	}
 	visible = {
-		has_country_flag = can_change_laws_si
-	}	
-}
-
-change_work_regulations = {
-	allowed = {
-		has_country_flag = can_change_laws_wr
-	}
-	visible = {
-		has_country_flag = can_change_laws_wr
-	}	
-}
-
-change_poverty_rate = {
-	allowed = {
-		has_country_flag = can_change_laws_pr
-	}
-	visible = {
-		has_country_flag = can_change_laws_pr
-	}	
-}
-
-change_education_rate = {
-	allowed = {
-		has_country_flag = can_change_laws_er
-	}
-	visible = {
-		has_country_flag = can_change_laws_er
+		ROOT = {
+			has_country_flag = can_change_social_laws
+		}
 	}	
 }
