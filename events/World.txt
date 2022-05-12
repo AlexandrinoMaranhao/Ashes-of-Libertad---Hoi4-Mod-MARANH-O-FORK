@@ -7,7 +7,7 @@ news_event = { # Dutra declares himself president oh fuck oh shit
 	id = world_dutra.1
 	title = world_dutra.1.t
 	desc = world_dutra.1.desc
-	picture = "GFX_news_event_dutra_president"
+	picture = "GFX_news_event_dutra"
 
 	is_triggered_only = yes
 
@@ -384,7 +384,7 @@ news_event = { # Dutra wins
 	id = world.34
 	title = world.34.t
 	desc = world.34.d
-	#picture = "GFX_news_event_mexican_american_war"
+	#picture = "GFX_news_event_dutra"
 
 	is_triggered_only = yes
 
@@ -877,7 +877,7 @@ news_event = { # Carlos Lamarca
 	id = world.66
 	title = world.66.t
 	desc = world.66.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_lamarca"
 
 	is_triggered_only = yes
 
@@ -929,7 +929,7 @@ news_event = { # Amapá Intervention
 	id = world.70
 	title = world.70.t
 	desc = world.70.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "GFX_news_event_amapa"
 
 	is_triggered_only = yes
 
