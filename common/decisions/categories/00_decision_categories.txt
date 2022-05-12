@@ -1,3 +1,17 @@
 #find_resources = {
 #     icon = generic_prospect_for_resources
 #}
+
+change_social_laws = {
+	visible_when_empty = yes
+	allowed = {
+		ROOT = {
+			has_country_flag = can_change_social_laws
+		}
+	}
+	visible = {
+		ROOT = {
+			has_country_flag = can_change_social_laws
+		}
+	}	
+}
