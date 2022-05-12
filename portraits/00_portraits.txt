@@ -440,5 +440,11 @@ CIA = {
 				"GFX_AArmygeneric1" 
 			}
 		}
+		
+		reactionary = {
+			male = {
+				"GFX_AArmygeneric1"
+			}
+		}
 	}
 }
