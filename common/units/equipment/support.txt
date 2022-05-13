@@ -7,6 +7,11 @@ equipments = {
 		picture = archetype_support_equipment
 		is_buildable = no
 		type = {
+			armor
+			infantry
+			motorized
+		}
+		
 		group_by = archetype
 		
 		interface_category = interface_category_land

@@ -1,0 +1,20 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				random_state = {
+					add_resource = {
+						type = steel
+						amount = 10
+						state = THIS
+					}
+					add_resource = {
+						type = technology
+						amount = 5
+						state = THIS
+					}
+				}
+			}
+		}
+	}
+}
