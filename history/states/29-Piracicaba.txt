@@ -5,7 +5,6 @@ state={
 
 	history={
 		buildings = {
-
 			infrastructure = 2
 			industrial_complex = 2
 
@@ -19,9 +18,10 @@ state={
 	}
 
 	provinces={
-		600 4625 
+		1508 4625 
 	}
 	manpower=116190
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

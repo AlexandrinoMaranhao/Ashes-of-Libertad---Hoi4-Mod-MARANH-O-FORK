@@ -2,34 +2,26 @@
 state={
 	id=502
 	name="STATE_502"
-	provinces={
-		1180 2179 6263 6264 6268 
-	}
-	manpower=284374
-	buildings_max_level_factor=1.000
-        state_category=town
 
 	history={
 		buildings = {
-
-			infrastructure = 2
+			infrastructure = 7
 			industrial_complex = 2
 
 		}
 		owner = SAO
 		add_core_of = SAO
-
 		victory_points = {
-		6268 5
-		}
-
-		victory_points = {
-		2179 5
-		}
-
-		victory_points = {
-		1180 5
+			6475 5 
 		}
 
 	}
+
+	provinces={
+		2179 6473 6475 
+	}
+	manpower=284374
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

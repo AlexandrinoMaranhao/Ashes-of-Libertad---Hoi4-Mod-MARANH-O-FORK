@@ -13,7 +13,7 @@ state={
 		owner = SAO
 		add_core_of = SAO
 		victory_points = {
-			4576 50 
+			4558 10
 		}
 		victory_points = {
 			409 5 

@@ -1,34 +1,28 @@
+
 state={
 	id=10
 	name="STATE_10"
-	provinces={
-		820 1826 4212 4219 4227 4244 
-	}
-	manpower=1109933
-	buildings_max_level_factor=1.000
-        state_category=town
 
-
-            history = {
-
+	history={
 		buildings = {
-
-			infrastructure = 2
+			infrastructure = 5
 			industrial_complex = 2
 
 		}
-        owner = CFD
-        add_core_of = ALA
-        add_core_of = CFD
+		owner = CFD
+		add_core_of = ALA
+		add_core_of = CFD
 		victory_points = {
-		4219 30
+			4219 30 
 		}
-		victory_points = {
-		4244 10	 
-		}
-		victory_points = {
-		4212 5	 
-		}
-}
 
+	}
+
+	provinces={
+		4219 
+	}
+	manpower=1109933
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

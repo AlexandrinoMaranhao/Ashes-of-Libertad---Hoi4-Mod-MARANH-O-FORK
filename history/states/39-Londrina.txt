@@ -13,9 +13,10 @@ state={
 	}
 
 	provinces={
-		363 982 1027 1800 2167 4642 6278 
+		363 982 1027 1800 2167 4642 6278 6479 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

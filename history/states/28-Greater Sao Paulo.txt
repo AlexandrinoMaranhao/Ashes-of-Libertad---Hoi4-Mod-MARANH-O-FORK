@@ -5,28 +5,44 @@ state={
 
 	history={
 		buildings = {
-
-			infrastructure = 5
+			infrastructure = 7
 			industrial_complex = 2
 
 		}
 		owner = SAO
 		add_core_of = SAO
-
 		victory_points = {
-		6269 50
+			4644 1 
 		}
-
 		victory_points = {
-		4636 5
+			4636 1 
+		}
+		victory_points = {
+			2217 1 
+		}
+		victory_points = {
+			1180 1 
+		}
+		victory_points = {
+			6274 1 
+		}
+		victory_points = {
+			6268 1 
+		}
+		victory_points = {
+			6267 1 
+		}
+		victory_points = {
+			6474 5 
 		}
 
 	}
 
 	provinces={
-		4636 4644 6267 6269 
+		1180 2217 4636 4644 6267 6268 6274 6474 
 	}
 	manpower=4825351
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
+	local_supplies=0.000
 }

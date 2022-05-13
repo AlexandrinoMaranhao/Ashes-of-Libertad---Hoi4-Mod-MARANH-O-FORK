@@ -1,0 +1,35 @@
+state={
+	id=568
+	name="STATE_568"
+
+	history={
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		owner = SAO
+		add_core_of = SAO
+		victory_points = {
+			4601 5 
+		}
+
+		victory_points = {
+			800 5 
+		}
+
+		victory_points = {
+			6478 5 
+		}
+
+
+	}
+
+	provinces={
+		800 2418 4591 4601 6257 6478 6484 
+	}
+	manpower=174890
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

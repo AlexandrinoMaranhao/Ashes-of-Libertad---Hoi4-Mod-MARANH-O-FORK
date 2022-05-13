@@ -1,0 +1,31 @@
+state={
+	id=567
+	name="STATE_567"
+	history={
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		owner = SAO
+		add_core_of = SAO
+		victory_points = {
+			6259 5 
+		}
+		victory_points = {
+			487 5 
+		}
+		victory_points = {
+			6467 5 
+		}
+
+	}
+
+	provinces={
+		307 487 6258 6259 6260 6265 6467 6468 
+	}
+	manpower=384992
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

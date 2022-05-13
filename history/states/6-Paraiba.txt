@@ -5,18 +5,16 @@ state={
 
 	history={
 		buildings = {
-
 			infrastructure = 2
 			industrial_complex = 2
 
 		}
-        owner = CFD
-        add_core_of = CFD
+		owner = CFD
+		add_core_of = CFD
 		add_core_of = PAI
 		victory_points = {
-			6279 30
+			6279 30 
 		}
-
 
 	}
 
@@ -26,4 +24,5 @@ state={
 	manpower=749394
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
