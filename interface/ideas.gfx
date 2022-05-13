@@ -12,6 +12,41 @@ spriteType ={
     texturefile = "gfx/interface/ideas/ACR_building_connection.dds" #ACR_war_train.dds
 }
 
+##Icon For: Massive Volunteer Campaing
+SpriteType = {
+		name = "GFX_idea_zzz_massive_volunteer_campaing-1096"
+		texturefile = "gfx/interface/ideas/massive_volunteer_campaing_idea.dds"
+}
+
+##Icon For: Volunteers from the Junta
+SpriteType = { 
+		name = "GFX_idea_zzz_volunteers_from_jun-1844"
+		texturefile = "gfx/interface/ideas/volunteers_from_jun_idea.dds"
+}
+
+##Icon For: Volunteers from the Republic
+SpriteType = { 
+		name = "GFX_idea_zzz_volunteers_from_the_republic-1842"
+		texturefile = "gfx/interface/ideas/volunteers_from_the_republic_idea.dds"
+}
+
+##Icon For: Volunteers from the Ejercito Revolucionario
+SpriteType = { 
+		name = "GFX_idea_zzz_volunteers_from_the_ejercito_revolucionario-1845"
+		texturefile = "gfx/interface/ideasvolunteers_from_the_ejercito_revolucionario_idea.dds"
+}
+
+##Icon For: Voluntários da Pátria
+SpriteType = { 
+		name = "GFX_idea_zzz_voluntrios_da_ptria-1142"
+		texturefile = "gfx/interface/ideas/voluntarios_da_ptria_idea.dds"
+}
+##Icon For ern buff
+SpriteType = { 
+		name = "GFX_idea_thisempty"
+		texturefile = "gfx/interface/ideas/goofybois/thisempty.dds"
+}
+
 spriteType ={
     name = "GFX_idea_ern_buff"
     texturefile = "gfx/interface/ideas/goofybois/thisempty.dds"
