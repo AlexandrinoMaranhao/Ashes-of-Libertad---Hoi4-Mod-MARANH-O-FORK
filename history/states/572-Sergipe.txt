@@ -1,0 +1,29 @@
+state={
+	id=572
+	name="STATE_572"
+	history={
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		owner = SEG
+		add_core_of = SEG
+		add_core_of = CFD
+		victory_points = {
+			768 10 
+		}
+		victory_points = {
+			4315 5 
+		}
+
+	}
+
+	provinces={
+		2361 4254 4295 4315 
+	}
+	manpower=384901
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -2,33 +2,27 @@
 state={
 	id=11
 	name="STATE_11"
-	provinces={
-		768 1398 2361 4254 4266 4270 4278 4290 4295 4315 4319 
-	}
-	manpower=657198
-	buildings_max_level_factor=1.000
-        state_category=town
 
-
-            history = {
-
+	history={
 		buildings = {
-
 			infrastructure = 2
 			industrial_complex = 2
 
 		}
-        owner = SEG
-        add_core_of = SEG
+		owner = SEG
+		add_core_of = SEG
 		add_core_of = CFD
-        victory_points = {
-           1398 30
-        }
-        victory_points = {
-           768 10
-        }
-        victory_points = {
-           4315 5
-        }
-}
+		victory_points = {
+			1398 30 
+		}
+
+	}
+
+	provinces={
+		768 1398 4266 4270 4278 4290 4319 
+	}
+	manpower=657198
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

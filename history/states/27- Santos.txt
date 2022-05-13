@@ -2,29 +2,28 @@
 state={
 	id=27
 	name="STATE_27"
+
+	history={
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		owner = SAO
+		add_core_of = SAO
+		victory_points = {
+			4658 30 
+		}
+		victory_points = {
+			6262 5 
+		}
+	}
+
 	provinces={
-		1305 4647 4649 4653 4656 4658 
+		4649 4658 6261 6262 6263 6264 
 	}
 	manpower=619284
 	buildings_max_level_factor=1.000
 	state_category=large_city
-
-            history = {
-		buildings = {
-
-			infrastructure = 2
-			industrial_complex = 2
-
-		}
-
-          owner = SAO
-          add_core_of = SAO
-
-        victory_points = {
-           4658 30
-        }
-        victory_points = {
-           1305 1
-        }
-}
+	local_supplies=0.000
 }

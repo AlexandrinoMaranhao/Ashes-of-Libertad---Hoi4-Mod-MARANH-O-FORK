@@ -5,23 +5,23 @@ state={
 
 	history={
 		buildings = {
-
 			infrastructure = 2
 			industrial_complex = 2
 
 		}
 		owner = SAO
 		add_core_of = SAO
-
 		victory_points = {
 			605 20 
 		}
+
 	}
 
 	provinces={
-		185 605 681 1508 4594 
+		185 605 681 4594 6470 
 	}
 	manpower=125697
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }
