@@ -14,7 +14,7 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
@@ -33,6 +33,7 @@ add_ideas = {
 
 }
 
+set_country_flag = is_brazilian
 set_country_flag = use_generic_outsider_laws
 set_country_flag = use_generic_draft_exemptions_laws
 set_country_flag = use_generic_officer_training_laws
@@ -48,4 +49,56 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = guerrilla
 	traits = { boogieman_of_sp }
+}
+
+
+create_country_leader = {
+	
+	name = "------"
+	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	expire = "1999.1.1"
+	ideology = coronelism
+}
+
+create_country_leader = {#intended for name showcase only
+	
+	name = "------"
+	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
+	expire = "1999.1.1"
+	ideology = conservatism 
+}
+
+create_country_leader = {#intended for name showcase only
+	
+	name = "------"
+	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
+	expire = "1999.1.1"
+	ideology = military_junta 
+}
+
+create_country_leader = {#intended for name showcase only
+	
+	name = "------"
+	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
+	expire = "1999.1.1"
+	ideology = coronelism 
+}
+
+create_country_leader = {#intended for name showcase only
+	
+	name = "------"
+	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
+	expire = "1999.1.1"
+	ideology = centrism 
+}
+
+create_field_marshal = {
+	name = "Carlos Marighella"
+	portrait_path = "gfx/leaders/PAU/Portrait_PAU_Carlos_Marighella.dds"
+	traits = {  }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 8
+	logistics_skill = 7
 }
