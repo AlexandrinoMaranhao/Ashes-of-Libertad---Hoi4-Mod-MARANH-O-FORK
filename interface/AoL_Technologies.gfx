@@ -1,0 +1,55 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_military_grade_motorized1_medium"
+		texturefile = "gfx/interface/technologies/military_grade_motorized1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tribal_weapons_medium"
+		texturefile = "gfx/interface/technologies/tribal_weapons.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_military_grade_mechanized1_medium"
+		texturefile = "gfx/interface/technologies/military_grade_mechanized1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_military_grade_mechanized2_medium"
+		texturefile = "gfx/interface/technologies/military_grade_mechanized2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_military_grade_mechanized2_medium"
+		texturefile = "gfx/interface/technologies/military_grade_mechanized2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_gear3_medium"
+		texturefile = "gfx/interface/technologies/infantry_gear_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_gear_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_gear_3.dds"
+	}
+	
+	#Train Tech
+	
+	SpriteType = {
+		name = "GFX_basic_train_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_wartime_train_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_good_train2_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_train_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_4.dds"
+	}
+}

@@ -578,6 +578,25 @@ ACR_ai_behavior = {
 	}
 }
 
+#########################
+#######Game Setup########
+#########################
+
+ERN_buff_status = {
+	name = "ERN_BUFF_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	option = {
+		name = ALLOWED_BUFF
+		text = "RULE_OPTION_ERN_BUFF"
+		desc = "RULE_OPTION_ERN_BUFF_STATUS_DESC"
+	}
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_NO_ERN_BUFF"
+		desc = "RULE_OPTION_NO_ERN_BUFF_DESC"
+	}
+}
+
 ####	MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED.   
 ##
 ##americas_colonization_status = {

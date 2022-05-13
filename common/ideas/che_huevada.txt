@@ -4,8 +4,11 @@ ideas = {
 		ern_buff = {
 			picture = GFX_idea_thisempty
 			available = {
-				ROOT = {
-					is_ai = yes
+				AND = {
+					has_game_rule = { rule = ERN_buff_status option = ALLOWED_BUFF }
+					ROOT = {
+						is_ai = yes
+					}
 				}
 			}
 			visible = {

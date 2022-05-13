@@ -461,8 +461,9 @@
  RULE_OPTION_SHOW:0 "Show"
  RULE_OPTION_SHOW_DESC_DESC:0 "Obsolete branches will always remain visible in the Focus Tree."
 
-
-######RULES CREATED BY AOL, IF CREATING NEW LOC, PLEASE ADD BELOW.
+#####################################################################################
+#########RULES CREATED BY AOL, IF CREATING NEW LOC, PLEASE PLACE THEM BELOW.#########
+#####################################################################################
  
  ACR_AI_BEHAVIOR:0 "@ACR Acre's Election"
  RULE_OPTION_CURY_PATH:0 "Acre elects §YHélio Cury§!"
@@ -473,4 +474,12 @@
  RULE_KAISER_ENAS_PATH_DESC:0 "Acre will elect §REnéas Carneiro§! as their president, with §RMarques de Souza§! as a vice-president. ensuring a questionable future for Acre under the §RRevolutionary§! Technocratas party rule!"
  RULE_OPTION_DEFAULT:0 "Default"
  RULE_OPTION_DEFAULT_AI_DESC:0 "The AI will make decisions based on random gameplay settings. Ensuring a fun and well balanced gameplay!"
+ RULE_OPTION_DEFAULT_GAME_SETUP_DESC:0 "Allow the game to run on its pre-determined path."
  RULE_OPTION_WARGOALS_ALWAYS_FREE:0 "§RWARNING!§! It is not recommended to play Ashes of Libertad using war goals. You are playing at your own risk."
+ 
+ ###ERN Game Setup
+ ERN_BUFF_STATUS:0 "@ERN Ejército Revolucionario's Additional Buffs"
+ RULE_OPTION_ERN_BUFF:0 "Give ERdN the a Chance!"
+ RULE_OPTION_ERN_BUFF_STATUS_DESC:0 "The Ejército Revolucionario will receive an small additional buff, to ensure the likelyhood of an equal battle between him and §GAcre.§!"
+ RULE_OPTION_NO_ERN_BUFF:0 "Removed AI Buff"
+ RULE_OPTION_NO_ERN_BUFF_DESC:0 "The AI-Only buff will not be added."

@@ -13,6 +13,11 @@ spriteType ={
 }
 
 spriteType ={
+    name = "GFX_idea_ern_buff"
+    texturefile = "gfx/interface/ideas/goofybois/thisempty.dds"
+}
+
+spriteType ={
     name = "GFX_idea_ACR_war_train"
     texturefile = "gfx/interface/ideas/ACR_war_train.dds"
 }
