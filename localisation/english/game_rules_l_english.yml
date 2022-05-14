@@ -479,7 +479,7 @@
  
  ###ERN Game Setup
  ERN_BUFF_STATUS:0 "@ERN Ejército Revolucionario's Additional Buffs"
- RULE_OPTION_ERN_BUFF:0 "Give ERdN the a Chance!"
- RULE_OPTION_ERN_BUFF_STATUS_DESC:0 "The Ejército Revolucionario will receive an small additional buff, to ensure the likelyhood of an equal battle between him and §GAcre.§!"
- RULE_OPTION_NO_ERN_BUFF:0 "Removed AI Buff"
- RULE_OPTION_NO_ERN_BUFF_DESC:0 "The AI-Only buff will not be added."
+ RULE_OPTION_ERN_BUFF:0 "Give ERdN a Chance!"
+ RULE_OPTION_ERN_BUFF_STATUS_DESC:0 "The Ejército Revolucionario will receive an small additional buff. This §YMAY§! make them §Rstronger and harder§! for Acre to defeat."
+ RULE_OPTION_NO_ERN_BUFF:0 "Remove the AI Buff"
+ RULE_OPTION_NO_ERN_BUFF_DESC:0 "The AI-Only buff for the Ejército Revolucionario will not be used upon the start of the game. Keeping the ERnD an easier fight."
