@@ -165,7 +165,34 @@ spriteTypes = {
 		texturefile = "gfx/leaders/america/AArmygeneric1.dds"
 	}
 	spriteType = {
-		name = "GFX_AArmygeneric1"
+		name = "GFX_AArmygeneric1_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_APoliticalgeneric1"
+		texturefile = "gfx/leaders/america/APoliticalgeneric1.dds"
+	}
+	spriteType = {
+		name = "GFX_APoliticalgeneric1_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_APoliticalgeneric2"
+		texturefile = "gfx/leaders/america/APoliticalgeneric2.dds"
+	}
+	spriteType = {
+		name = "GFX_APoliticalgeneric2_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_APoliticalgeneric3"
+		texturefile = "gfx/leaders/america/APoliticalgeneric3.dds"
+	}
+	spriteType = {
+		name = "GFX_APoliticalgeneric3_small"
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
 	}
 	

@@ -423,27 +423,42 @@ CIA = {
 		communism = {
 			male = {
 				"GFX_AArmygeneric1"
+				"GFX_APoliticalgeneric1"
+				"GFX_APoliticalgeneric2"
+				"GFX_APoliticalgeneric3"
 			}
 		}
 		democratic = {
 			male = { 
 				"GFX_AArmygeneric1"
+				"GFX_APoliticalgeneric1"
+				"GFX_APoliticalgeneric2"
+				"GFX_APoliticalgeneric3"
 			}
 		}
 		fascism = {
 			male = { 
 				"GFX_AArmygeneric1"
+				"GFX_APoliticalgeneric1"
+				"GFX_APoliticalgeneric2"
+				"GFX_APoliticalgeneric3"
 			}
 		}
 		neutrality = {
 			male = { 
 				"GFX_AArmygeneric1" 
+				"GFX_APoliticalgeneric1"
+				"GFX_APoliticalgeneric2"
+				"GFX_APoliticalgeneric3"
 			}
 		}
 		
 		reactionary = {
 			male = {
 				"GFX_AArmygeneric1"
+				"GFX_APoliticalgeneric1"
+				"GFX_APoliticalgeneric2"
+				"GFX_APoliticalgeneric3"
 			}
 		}
 	}
