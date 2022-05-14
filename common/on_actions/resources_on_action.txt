@@ -5,12 +5,193 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = steel
-						amount = 10
+						amount = 6
 						state = THIS
 					}
 					add_resource = {
 						type = technology
+						amount = 3
+						state = THIS
+					}
+				}
+			}
+			
+			###Specific Countries Resources
+			VEN = {
+				random_core_state = {
+					add_resource = {
+						type = rubber
+						amount = 4
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 6
+						state = THIS
+					}
+				}
+			}
+			URG = {
+				random_core_state = {
+					add_resource = {
+						type = motors
+						amount = 10
+						state = THIS
+					}
+					add_resource = {
+						type = oil
 						amount = 5
+						state = THIS
+					}
+				}
+			}
+			ARG = {
+				random_core_state = {
+					add_resource = {
+						type = ammunition
+						amount = 12
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 6
+						state = THIS
+					}
+				}
+			}
+			CHL = {
+				random_core_state = {
+					add_resource = {
+						type = ammunition
+						amount = 2
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 3
+						state = THIS
+					}
+					add_resource = {
+						type = motors
+						amount = 2
+						state = THIS
+					}
+				}
+			}
+			BOL = {
+				random_core_state = {
+					add_resource = {
+						type = ammunition
+						amount = 1
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 1
+						state = THIS
+					}
+					add_resource = {
+						type = technology
+						amount = 2
+						state = THIS
+					}
+				}
+			}
+			ERN = {
+				random_core_state = {
+					add_resource = {
+						type = rubber
+						amount = 1
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 3
+						state = THIS
+					}
+					add_resource = {
+						type = ammunition
+						amount = 4
+						state = THIS
+					}
+				}
+			}
+			PAR = {
+				random_core_state = {
+					add_resource = {
+						type = motors
+						amount = 5
+						state = THIS
+					}
+					add_resource = {
+						type = ammunition
+						amount = 2
+						state = THIS
+					}
+				}
+			}
+			VAL = {
+				random_core_state = {
+					add_resource = {
+						type = motors
+						amount = 6
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 4
+						state = THIS
+					}
+				}
+			}
+			RMI = {
+				random_core_state = {
+					add_resource = {
+						type = ammunition
+						amount = 2
+						state = THIS
+					}
+					add_resource = {
+						type = technology
+						amount = 1
+						state = THIS
+					}
+				}
+			}
+			COL = {
+				random_core_state = {
+					add_resource = {
+						type = rubber
+						amount = 2
+						state = THIS
+					}
+					add_resource = {
+						type = oil
+						amount = 1
+						state = THIS
+					}
+					add_resource = {
+						type = motors
+						amount = 3
+						state = THIS
+					}
+				}
+			}
+			CRJ = {
+				random_core_state = {
+					add_resource = {
+						type = ammunition
+						amount = 2
+						state = THIS
+					}
+					add_resource = {
+						type = technology
+						amount = 1
+						state = THIS
+					}
+					add_resource = {
+						type = motors
+						amount = 1
 						state = THIS
 					}
 				}

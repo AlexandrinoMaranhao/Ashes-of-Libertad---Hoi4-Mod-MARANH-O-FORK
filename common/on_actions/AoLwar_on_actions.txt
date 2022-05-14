@@ -1,67 +1,37 @@
 on_actions = {
-    ### ARGENTINA WAR CHAIN
-    on_startup = {
-        effect = {
+    ##Reworked Startup effects##
+   on_startup = {
+		effect = {
             ARG = {
                 country_event = {
                     id = ARG_aiwar.1 # Falklands Reclamation
                     days = 186
                 }
             }
-        }
-    }
-
-
-
-######## Che Huevada
-
-    on_startup = {
-        effect = {
             ERN = {
                 country_event = {
                     id = ERN_aiwar.1 # Acre War
                     days = 2650
                 }
             }
-        }
-        effect = {
             BOL = {
                 country_event = {
                     id = BOL_aiwar.1 # Acre War
                     days = 2660
                 }
             }
-        }
-    }
-
-#### MNH and CFD scripted peace deal
-
-    on_startup = {
-        effect = {
             CFD = {
                 country_event = {
                     id = CFD_ai.1 # Annexation of SEG
                     days = 405
                 }
             }
-        }
-    }
-
-    ####GUANABARA#####
-
-    on_startup = {
-        effect = {
             CRJ = {
                 country_event = {
                     id = CRJ_guanabara.1
                     days = 125
                 }
             }
-        }
-    }
-    #### PERUVIAN SENGOKU JIDAI
-    on_startup = {
-        effect = {
             RPE = {
                 country_event = {
                     id = PERU.1
@@ -72,126 +42,109 @@ on_actions = {
                 country_event = {
                     id = PERU.5
                     days = 40
-                    }
+                }
             }
             NCA = {
                 country_event = {
                     id = PERU.2
                     days = 69 #nice
-                    }
+                }
             }
             INC = {
                 country_event = {
                     id = PERU.7
                     days = 353 
-                    }
+                }
             }
             PRU = {
                 country_event = {
                     id = PERUNORTE.1
                     days = 320 
-                    }
+                }
             }
-
-        }
-    }
-
-
-  #### JUNTA BREAK UP #####
-
-  ###1-CASTELODEATH###
-
-    on_startup = {
-        effect = {
             JUN = {
                 country_event = {
                     id = JUN_collapse.1 
                     days = 679
                 }
             }
-        effect = {
-            news_event = { id = world.46 
-            days = 679}
-            }
-        }
-    }
-  ### AMAZON DOING STUFF ###
-
-    on_startup = {
-        effect = {
+			news_event = {
+				id = world.46
+				days = 679
+			}
             ARI = {
                 country_event = {
                     id = ARI.1 
                     days = 810
                 }
             }
-        }
-        effect = {
             MNS = {
                 country_event = {
                     id = MNS.1 
                     days = 329
                 }
             }
-        }
-        effect = {
             COR = {
                 country_event = {
                     id = COR.1 
                     days = 400
                 }
             }
-        }
-        effect = {
             ROR = {
                 country_event = {
                     id = ROR.1 
                     days = 399
                 }
             }
-        }
-        effect = {
             NHA = {
                 country_event = {
                     id = NHA.1 
                     days = 230
                 }
             }
-        }
-        effect = {
             FBO = {
                 country_event = {
                     id = FBO.1 
                     days = 150
                 }
-            }
-        }
-        effect = {
+            }		
             BEM = {
                 country_event = {
                     id = BEM.1 
                     days = 180
                 }
             }
-        }
-        effect = {
             JAU = {
                 country_event = {
                     id = JAU.1 
                     days = 730
                 }
             }
-        }
-    }
-    ###CUBA LIBRE
-    on_startup = {
-        effect = {
+			## Brazilian Civil War ##
+			JAG = {
+				country_event = {
+					id = JuntavsBrazil.1
+					days = 10
+				}
+			}
+			UBA = {
+				country_event = {
+					id = HugovsCommies.1
+					days = 60
+				}
+			}
+			JAG = {
+				country_event = {
+					id = XinguvsJagunco.1
+					days = 340
+				}
+			}
+			## Cuba Stuff ##
             WAS = {
                 country_event = {
                     id = cubaunification.1 
                     days = 900
                 }
-
             }
             BTA = {
                 country_event = {
@@ -236,36 +189,22 @@ on_actions = {
                     id = NEH.1 
                     days = 230
                 }
-             }
-        }
-    }
-    # Mexico
-    on_startup = {
-        effect = {
+            }
             MEX = {
                 country_event = {
                     id = MEX_scripted.1
                     days = 1170
                 }
             }
-        }
-    }
-    # Kayapo - Para War
-    on_startup = {
-        effect = {
             BEM = {
                 country_event = {
                     id = Para.8
                     days = 396
                 }
             }
-        }
-    }
-    # Venezuela
-    on_startup = {
-        effect = {
-        VEN = {
-        random_list = {
+				## Venezuela's Paths
+			VEN = {
+				random_list = {
                  50 = {
                  country_event = {
                      id = VEN_Bettancourt_Assassination_Fails.1 # Bettancourt Assassiantion Attempt
@@ -291,44 +230,7 @@ on_actions = {
                         }
                     }
                 }
-            }
-        }
-    }
-    # 68 onwards stuff
-    on_startup = {
-		effect = {
-			every_country = {
-				news_event = {
-				id = world.1 # Carlos Prestes comes back on April 23rd 1969
-				days = 843
-				}
 			}
-            CFD = {
-                country_event = {
-                    id = CFD.1 # Beginning of the CFD collapse
-                    days = 847
-                }
-            }
-            SAO = {
-                country_event = {
-                    id = SAO.1 # SAO civil war
-                    days = 916
-                }
-			}
-			
-			RPB = {
-				country_event = {
-					id = RPB.1 # Baiana Revolt
-					days = 877
-				}
-			}
-
-            BRA = {
-                country_event = {
-                    id = BRA_elections.1 # Elections
-                    days = 589
-                }
-            }
 		}
 	}
 }
