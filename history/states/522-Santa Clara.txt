@@ -2,7 +2,10 @@
 state={
 	id=522
 	name="STATE_522"
-
+	resources = {
+		ammunition = 5
+		oil = 12
+	}
 	history={
 		owner = SCR
 		add_core_of = SCR

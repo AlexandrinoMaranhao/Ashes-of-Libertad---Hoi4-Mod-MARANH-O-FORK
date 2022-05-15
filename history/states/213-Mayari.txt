@@ -2,7 +2,10 @@
 state={
 	id=213
 	name="STATE_213"
-
+	resources = {
+		ammunition = 6
+		motors = 12
+	}
 	history={
 		owner = ACC
 		add_core_of = ACC
