@@ -13,6 +13,8 @@ set_technology = {
 	support_weapons2 = 1
 	support_weapons3 = 1
 	motorised_infantry = 1
+    	true_motorised_infantry = 1
+    	infantry_gear = 1
 	mechanised_infantry = 1
 
 	# Support
