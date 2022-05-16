@@ -33,7 +33,9 @@ idea_categories = {
         character_slot = air_chief
         character_slot = high_command
         character_slot = high_command
-		slot = theorist
+		slot = field_operators
+
+		ledger = invalid
 
         removal_cost = -1
     }

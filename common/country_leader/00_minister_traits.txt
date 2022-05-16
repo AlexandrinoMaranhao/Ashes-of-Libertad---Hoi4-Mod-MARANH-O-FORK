@@ -277,7 +277,6 @@ experience_gain_army = 0.05
 		political_power_gain = 0.15
 		stability_factor = 0.05
 		fascism_acceptance = 25
-		national_socialism_acceptance = 10
 		random = no
 	}
 
@@ -285,8 +284,6 @@ experience_gain_army = 0.05
 	hog_beloved_ideologue = {
 		political_power_factor = 0.20
 		stability_factor = 0.15
-		socialist_acceptance = 25
-		social_democracy_acceptance = 5
 		random = no
 	}
 
@@ -304,15 +301,12 @@ experience_gain_army = 0.05
 		political_power_factor = 0.15
 		stability_factor = 0.1
 		fascism_acceptance = -20
-		national_socialism_acceptance = -30
 		random = no
 	}
 
 	#Maudling HOG
 	hog_believer_in_democracy = {
 		political_power_gain = 0.07
-		conservative_democracy_acceptance = 20
-		liberal_democracy_acceptance = 30
 		drift_defence_factor = -0.25
 		random = no
 	}
@@ -320,8 +314,6 @@ experience_gain_army = 0.05
 	#Robeson
 	hog_beloved_folk_hero = {
 		political_power_gain = 0.075
-		communist_acceptance = 10
-		socialist_acceptance = 10
 		random = no
 	}
 
@@ -842,9 +834,6 @@ experience_gain_army = 0.05
 	for_talleyrands_spirit = {
 		political_power_gain = -0.2
 		trade_opinion_factor = 0.25
-		liberal_democracy_acceptance = 50
-		conservative_democracy_acceptance = 50
-		social_democracy_acceptance = 50
 		random = no
 	}
 

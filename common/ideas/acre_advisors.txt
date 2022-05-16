@@ -3,12 +3,13 @@ ideas = {
 	# Theorists
 	###############################
         
-        theorist = {
-
+        field_operators = {
+			ledger = invalid
+			
         edgar_cerqueira_theorist = { #ARMY
         visible = {
             NOT = {
-                OR = {
+                AND = {
                     has_country_flag = cerqueira_is_couping 
                     has_country_flag = ACR_cerqueira_kill
                     }
@@ -17,9 +18,8 @@ ideas = {
 
             
             allowed = {
-            original_tag = ACR
+				original_tag = ACR
             }
-
         }
  
         jose_guiomard_theorist = { #ARMY

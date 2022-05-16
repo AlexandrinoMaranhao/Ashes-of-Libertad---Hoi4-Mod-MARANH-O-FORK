@@ -114,7 +114,7 @@
 
  specialization:0 "Military Specialization"
  tribal_specialization:0 "Tribal Warfare"
- militia_specialization:0 "Civilian Militia"
+ urban_specialization:0 "Urban Warfare Focus"
  raider_specialization:0 "Raider Scum"
  pirate_specialization:0 "Pirate Scum"
  traditional_army_specialization:0 "Traditional Army Doctrine"
