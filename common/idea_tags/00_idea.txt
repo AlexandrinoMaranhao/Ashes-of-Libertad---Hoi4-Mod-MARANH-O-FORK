@@ -23,7 +23,7 @@ idea_categories = {
         slot = political_advisor
         slot = political_advisor
         slot = political_advisor
-
+		
         removal_cost = -1
     }
 
@@ -34,8 +34,6 @@ idea_categories = {
         character_slot = high_command
         character_slot = high_command
 		slot = field_operators
-
-		ledger = invalid
 
         removal_cost = -1
     }

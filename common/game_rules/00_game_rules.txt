@@ -600,6 +600,32 @@ ERN_buff_status = {
 	}
 }
 
+ #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
+ #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
+ #     #   #       #        #           #        #      #   # #   #  #        #       
+ #     #   #        #####   #####       #        #      #   #  #  #  #  ####   #####  
+ #     #   #             #  #           #        #      #   #   # #  #     #        # 
+ #     #   #       #     #  #           #        #      #   #    ##  #     #  #     # 
+  #####   ###       #####   #######     #        #     ###  #     #   #####    #####  
+
+
+obsolete_focus_branches_visibility = {
+	name = "OBSOLETE_FOCUS_BRANCHES_VISIBILITY"
+	required_dlc = "No Step Back"
+	group = "RULE_GROUP_GENERAL_UI"
+	default = {
+		name = HIDE
+		text = "RULE_OPTION_HIDE"
+		desc = "RULE_OPTION_HIDE_DESC"
+	}
+	option = {
+		name = SHOW
+		text = "RULE_OPTION_SHOW"
+		desc = "RULE_OPTION_SHOW_DESC_DESC"
+		allow_achievements = yes
+	}
+}
+
 ####	MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED.   
 ##
 ##americas_colonization_status = {
@@ -768,30 +794,3 @@ ERN_buff_status = {
 ##	}
 ##}
 ####	MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED. MAP SETUP WAS DISABLED.   
-
-
- #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
- #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
- #     #   #       #        #           #        #      #   # #   #  #        #       
- #     #   #        #####   #####       #        #      #   #  #  #  #  ####   #####  
- #     #   #             #  #           #        #      #   #   # #  #     #        # 
- #     #   #       #     #  #           #        #      #   #    ##  #     #  #     # 
-  #####   ###       #####   #######     #        #     ###  #     #   #####    #####  
-
-
-obsolete_focus_branches_visibility = {
-	name = "OBSOLETE_FOCUS_BRANCHES_VISIBILITY"
-	required_dlc = "No Step Back"
-	group = "RULE_GROUP_GENERAL_UI"
-	default = {
-		name = HIDE
-		text = "RULE_OPTION_HIDE"
-		desc = "RULE_OPTION_HIDE_DESC"
-	}
-	option = {
-		name = SHOW
-		text = "RULE_OPTION_SHOW"
-		desc = "RULE_OPTION_SHOW_DESC_DESC"
-		allow_achievements = yes
-	}
-}

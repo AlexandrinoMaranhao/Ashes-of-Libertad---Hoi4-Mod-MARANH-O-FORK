@@ -183,7 +183,7 @@ ideas = {
 	racial_integration = {
 		law = yes
 		state_oppression = {
-		picture = light_level_5
+		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_oppression"}
 			default = yes
 			available = { always = no } 
@@ -200,7 +200,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		state_segregation = {
-		picture = light_level_69
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_segregation"}
 			available = { always = no } 
 			
@@ -215,7 +215,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		equal_rights = {
-		picture = light_level_5
+		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea equal_rights"}
 			available = { always = no } 
 			

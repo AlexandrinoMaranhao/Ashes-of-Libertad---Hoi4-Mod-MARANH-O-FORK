@@ -36,13 +36,8 @@ add_ideas = {
 	GEN_shattered_economy 
 }
 
-set_country_flag = is_brazilian
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
+set_country_flag = is_brazilian #Why do we still use these old country flags anyway?
+set_country_flag = sao_show_main_focus
 
 create_country_leader = {
 	

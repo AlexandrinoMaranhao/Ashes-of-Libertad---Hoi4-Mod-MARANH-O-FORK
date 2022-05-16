@@ -1,0 +1,323 @@
+focus_tree = {
+	id = sao-phase-two
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = sao_phase_two
+		}
+	}
+	#WHERE IS §RMERIGHELLA§!???
+	focus = {
+		id = sao_phase_two_whereisssrmerighellass
+		icon = GFX_goal_unknown
+		x = 19
+		y = 8
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_bringordertochaos  focus = sao_phase_two_fullserveilancecoverage  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Full Serveilance Coverage
+	focus = {
+		id = sao_phase_two_fullserveilancecoverage
+		icon = GFX_goal_unknown
+		x = 20
+		y = 7
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_scrambleforhelicopters  focus = sao_phase_two_somebodyiswatchingme  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Scramble for Helicopters
+	focus = {
+		id = sao_phase_two_scrambleforhelicopters
+		icon = GFX_goal_unknown
+		x = 21
+		y = 6
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_piracatuairservice  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Piracatu Air Service
+	focus = {
+		id = sao_phase_two_piracatuairservice
+		icon = GFX_goal_unknown
+		x = 21
+		y = 5
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_mobilizethetrains  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#I Always Feel Like...
+	focus = {
+		id = sao_phase_two_ialwaysfeellike
+		icon = GFX_goal_unknown
+		x = 19
+		y = 5
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_hunt_their_allies  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#...Somebody is Watching Me.
+	focus = {
+		id = sao_phase_two_somebodyiswatchingme
+		icon = GFX_goal_unknown
+		x = 19
+		y = 6
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_ialwaysfeellike  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Bring Order to Chaos
+	focus = {
+		id = sao_phase_two_bringordertochaos
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_thefortressoflight  focus = sao_phase_two_somebodyiswatchingme  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Integrate the 36th Battalion
+	focus = {
+		id = sao_phase_two_integrate_the_36th_battalion
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = sao_phase_two_state_of_emergency  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Mobilize the Trains
+	focus = {
+		id = sao_phase_two_mobilizethetrains
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_integrate_the_36th_battalion  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Hunt their Allies
+	focus = {
+		id = sao_phase_two_hunt_their_allies
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_higienopolisinterrogationcenter  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Ostensive Patrols
+	focus = {
+		id = sao_phase_two_ostensive_patrols
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = sao_phase_two_state_of_emergency  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Face of the Revolution!
+	focus = {
+		id = sao_phase_two_faceoftherevolution
+		icon = GFX_goal_unknown
+		x = 19
+		y = 0
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = sao_focus_phase_two
+		}
+	}
+
+	#For my Family
+	focus = {
+		id = sao_phase_two_formyfamily
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#For my Country
+	focus = {
+		id = sao_phase_two_formycountry
+		icon = GFX_goal_unknown
+		x = 19
+		y = 1
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#For the Revolution
+	focus = {
+		id = sao_phase_two_fortherevolution
+		icon = GFX_goal_unknown
+		x = 21
+		y = 1
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#State of Emergency
+	focus = {
+		id = sao_phase_two_state_of_emergency
+		icon = GFX_goal_unknown
+		x = 19
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_formyfamily  } prerequisite = { focus = sao_phase_two_formycountry  } prerequisite = { focus = sao_phase_two_fortherevolution  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#ROTA na Rua!
+	focus = {
+		id = sao_phase_two_rotanarua
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = sao_phase_two_ostensive_patrols  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Paint it Black
+	focus = {
+		id = sao_phase_two_paintitblack
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_rotanarua  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Fortress of Light
+	focus = {
+		id = sao_phase_two_thefortressoflight
+		icon = GFX_goal_unknown
+		x = 17
+		y = 6
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_paintitblack  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Higienopolis ''Interrogation'' Center
+	focus = {
+		id = sao_phase_two_higienopolisinterrogationcenter
+		icon = GFX_goal_unknown
+		x = 19
+		y = 3
+		cost = 3
+		search_filters = {
+			
+						FOCUS_FILTER_POLITICAL
+					
+		}
+		prerequisite = { focus = sao_phase_two_state_of_emergency  }
+		ai_will_do = { factor = 1 }
+	}
+
+}

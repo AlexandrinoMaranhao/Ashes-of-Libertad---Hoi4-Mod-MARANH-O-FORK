@@ -61,6 +61,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = sao_show_main_focus
+		}
 	}
 
 	#...An Honorable Cause
@@ -88,6 +91,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = sao_show_main_focus
+		}
 	}
 
 	#Eye to Eye with the Republic
@@ -248,7 +254,7 @@ focus_tree = {
 	focus = {
 		id = SAO_tour_the_farmsteads
 		icon = GFX_goal_unknown
-		x = 25
+		x = 24
 		y = 1
 		cost = 3
 		search_filters = {
@@ -262,7 +268,7 @@ focus_tree = {
 	focus = {
 		id = SAO_crush_the_occupiers
 		icon = GFX_goal_unknown
-		x = 23
+		x = 22
 		y = 1
 		cost = 3
 		search_filters = {
@@ -332,20 +338,23 @@ focus_tree = {
 	focus = {
 		id = SAO_the_fall_of_the_white_castle
 		icon = GFX_goal_unknown
-		x = 9
+		x = 11
 		y = 0
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = sao_show_main_focus
+		}
 	}
 
 	#Embrace the Junta's Deserters
 	focus = {
 		id = SAO_embracethejuntasdeserters
 		icon = GFX_goal_unknown
-		x = 8
+		x = 10
 		y = 1
 		cost = 3
 		search_filters = {
@@ -359,7 +368,7 @@ focus_tree = {
 	focus = {
 		id = SAO_fan_the_flames_of_revolution
 		icon = GFX_goal_unknown
-		x = 10
+		x = 12
 		y = 1
 		cost = 3
 		search_filters = {
@@ -373,7 +382,7 @@ focus_tree = {
 	focus = {
 		id = SAO_thejuntasposterboys
 		icon = GFX_goal_unknown
-		x = 9
+		x = 11
 		y = 2
 		cost = 3
 		search_filters = {
@@ -387,7 +396,7 @@ focus_tree = {
 	focus = {
 		id = SAO_braceforthessrstormss
 		icon = GFX_goal_unknown
-		x = 9
+		x = 11
 		y = 3
 		cost = 3
 		search_filters = {
@@ -401,20 +410,23 @@ focus_tree = {
 	focus = {
 		id = SAO_the_mst
 		icon = GFX_goal_unknown
-		x = 24
+		x = 23
 		y = 0
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = sao_show_main_focus
+		}
 	}
 
 	#Agricultural Revival
 	focus = {
 		id = SAO_agricultural_revival
 		icon = GFX_goal_unknown
-		x = 24
+		x = 23
 		y = 2
 		cost = 3
 		search_filters = {
@@ -428,7 +440,7 @@ focus_tree = {
 	focus = {
 		id = SAO_the_addictive_white_dust
 		icon = GFX_goal_unknown
-		x = 23
+		x = 22
 		y = 3
 		cost = 3
 		search_filters = {
@@ -442,7 +454,7 @@ focus_tree = {
 	focus = {
 		id = SAO_brown_gold
 		icon = GFX_goal_unknown
-		x = 25
+		x = 24
 		y = 3
 		cost = 3
 		search_filters = {
@@ -456,7 +468,7 @@ focus_tree = {
 	focus = {
 		id = SAO_piracicaba_que_eu_adoro_tanto
 		icon = GFX_goal_unknown
-		x = 23
+		x = 22
 		y = 4
 		cost = 3
 		search_filters = {
@@ -470,7 +482,7 @@ focus_tree = {
 	focus = {
 		id = SAO_foundtheaircafe
 		icon = GFX_goal_unknown
-		x = 25
+		x = 24
 		y = 4
 		cost = 3
 		search_filters = {
@@ -484,7 +496,7 @@ focus_tree = {
 	focus = {
 		id = SAO_the_paulista_authocracy
 		icon = GFX_goal_unknown
-		x = 24
+		x = 23
 		y = 5
 		cost = 3
 		search_filters = {

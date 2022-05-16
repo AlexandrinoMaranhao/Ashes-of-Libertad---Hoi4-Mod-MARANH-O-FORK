@@ -1,0 +1,28 @@
+SAO_category = {
+	debug_second_phase = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		
+		complete_effect = {
+			clr_character_flag = sao_show_main_focus
+			set_country_flag = sao_focus_phase_two
+			mark_focus_tree_layout_dirty = yes
+			load_focus_tree = sao-phase-two
+		}
+		
+		ai_will_do = {
+			factor = -1
+		}
+	}
+}

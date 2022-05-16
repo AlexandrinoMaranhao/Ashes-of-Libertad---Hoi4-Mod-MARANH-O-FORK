@@ -34,6 +34,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry_gear_3.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_infantry_gear4_medium"
+		texturefile = "gfx/interface/technologies/infantry_gear_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_gear_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_gear_4.dds"
+	}
+	
 	#Train Tech
 	
 	SpriteType = {
