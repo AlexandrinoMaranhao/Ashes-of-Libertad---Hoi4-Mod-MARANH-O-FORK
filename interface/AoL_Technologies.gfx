@@ -25,23 +25,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/military_grade_mechanized2.dds"
 	}
 	
+	###Gear icons
+	
 	SpriteType = {
 		name = "GFX_infantry_gear3_medium"
 		texturefile = "gfx/interface/technologies/infantry_gear_3.dds"
 	}
-	SpriteType = {
-		name = "GFX_infantry_gear_3_medium"
-		texturefile = "gfx/interface/technologies/infantry_gear_3.dds"
-	}
-	
+
 	SpriteType = {
 		name = "GFX_infantry_gear4_medium"
 		texturefile = "gfx/interface/technologies/infantry_gear_4.dds"
 	}
+	
+	###Infantry icons
+	
 	SpriteType = {
-		name = "GFX_infantry_gear_4_medium"
-		texturefile = "gfx/interface/technologies/infantry_gear_4.dds"
+		name = "GFX_improved_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry3.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry4.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry1.dds"
+	}
+
 	
 	#Train Tech
 	

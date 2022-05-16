@@ -33,7 +33,7 @@ idea_categories = {
         character_slot = air_chief
         character_slot = high_command
         character_slot = high_command
-		slot = field_operators
+        character_slot = high_command
 
         removal_cost = -1
     }
