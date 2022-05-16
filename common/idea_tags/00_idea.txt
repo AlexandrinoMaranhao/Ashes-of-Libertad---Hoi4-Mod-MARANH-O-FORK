@@ -33,7 +33,7 @@ idea_categories = {
         character_slot = air_chief
         character_slot = high_command
         character_slot = high_command
-	character_slot = theorist
+		slot = theorist
 
         removal_cost = -1
     }
@@ -65,7 +65,7 @@ idea_categories = {
         slot = specialization
         slot = troop_training
         slot = officer_training
-	slot = draft_exemptions
+		slot = draft_exemptions
         slot = mercenaries
 
         removal_cost = -1

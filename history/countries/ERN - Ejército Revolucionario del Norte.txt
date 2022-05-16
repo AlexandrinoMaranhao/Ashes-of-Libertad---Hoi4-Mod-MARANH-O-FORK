@@ -49,16 +49,10 @@ overextended_and_disorganized
 
 add_timed_idea = {
     idea = ern_buff
-    days = 364
+    days = 365
 }
 
 set_country_flag = special_volunteers
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 set_country_flag = allow_raid_operations
 
 create_country_leader = {

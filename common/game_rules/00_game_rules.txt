@@ -238,6 +238,7 @@ allow_kick_faction = {
 		name = "BLOCKED"
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_KICK_FACTION_BLOCKED_DESC"
+		allow_achievements = yes
 	}
 }
 
@@ -255,6 +256,7 @@ allow_take_over_faction = {
 		name = "BLOCKED"
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_TAKE_OVER_FACTION_BLOCKED_DESC"
+		allow_achievements = yes
 	}
 }
 
@@ -277,12 +279,12 @@ allow_coups = {
 		name = AI_ONLY
 		text = "RULE_OPTION_AI_ONLY"
 		desc = "RULE_ALLOW_COUPS_AI_ONLY_DESC"
-		allow_achievements = yes
 	}
 	default = {
 		name = BLOCKED
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_COUPS_BLOCKED_DESC"
+		allow_achievements = yes
 	}
 }
 
@@ -299,7 +301,6 @@ allow_party_boosting = {
 		name = AI_ONLY
 		text = "RULE_OPTION_AI_ONLY"
 		desc = "RULE_ALLOW_PARTY_BOOSTING_AI_ONLY_DESC"
-		allow_achievements = yes
 	}
 	option = {
 		name = PLAYER_ONLY
@@ -310,6 +311,7 @@ allow_party_boosting = {
 		name = BLOCKED
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_PARTY_BOOSTING_BLOCKED_DESC"
+		allow_achievements = yes
 	}
 }
 
@@ -594,6 +596,7 @@ ERN_buff_status = {
 		name = DEFAULT
 		text = "RULE_OPTION_NO_ERN_BUFF"
 		desc = "RULE_OPTION_NO_ERN_BUFF_DESC"
+		allow_achievements = yes
 	}
 }
 

@@ -5,12 +5,29 @@ ideas = {
 		conscription_scraping_the_barrel = {
 		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_scraping_the_barrel"}
-			available = { always = no } 
+			available = {
+				has_war_support > 0.5
+				OR = {
+					has_government = fascism
+					has_government = communism
+					has_government = reactionary
+					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
+					AND = {
+						has_war = yes
+						any_enemy_country = {
+							ic_ratio = {
+								tag = ROOT
+								ratio > 0.4
+							}
+						}
+					}
+				} 
+			} 
 			level = 8
 			
 			removal_cost = -1
 			ledger = civilian
-			modifier = { 
+			modifier = {
 				conscription = 0.2
 				stability_factor = -0.30
 				war_support_factor = -0.30
@@ -21,10 +38,22 @@ ideas = {
 				industrial_capacity_factory = -0.55
 				industrial_capacity_dockyard = -0.55
 				production_speed_buildings_factor = -0.60
-			
 			} 
-			cancel_if_invalid = no
-			ai_will_do = { } 
+			cancel_if_invalid = yes
+			ai_will_do = {
+   				factor = 0
+
+				modifier = {
+					any_enemy_country = {
+						ic_ratio = {
+							tag = ROOT
+							ratio > 0.4
+						}
+					}
+					has_war = yes
+					factor = 5
+				}
+			} 
 		}
 		conscription_all_adults_serve = {
 		picture = light_level_6
@@ -196,10 +225,22 @@ ideas = {
 	}
 
 	specialization = {
-
+		designer = yes
 		tribal_specialization = {
+			picture = tribal_specialization_spec
+			
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tribal_specialization"}
 			available = { always = no } 
-
+			removal_cost = -1
+			cost = 50
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { }#tank_manufacturer
+			cancel_if_invalid = no
+			ai_will_do = { } 
 		}
 		militia_specialization = {
 			available = { always = no } 
