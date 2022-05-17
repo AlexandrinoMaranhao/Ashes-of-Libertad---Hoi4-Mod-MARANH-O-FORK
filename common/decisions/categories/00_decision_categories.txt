@@ -3,7 +3,6 @@
 #}
 
 change_social_laws = {
-	visible_when_empty = yes
 	allowed = {
 		ROOT = {
 			has_country_flag = can_change_social_laws

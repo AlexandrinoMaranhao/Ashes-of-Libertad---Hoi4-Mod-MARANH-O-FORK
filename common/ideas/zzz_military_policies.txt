@@ -231,7 +231,7 @@ ideas = {
 			picture = pirate_specialization_icon
 				
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea pirate_specialization"}
-			available = { always = no } 
+			available = { ROOT = {has_country_flag = allow_pirate_tech} } 
 			removal_cost = -1
 			cost = 50
 				
@@ -263,7 +263,7 @@ ideas = {
 			picture = tribal_specialization_icon
 			
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tribal_specialization"}
-			available = { always = no } 
+			available = { ROOT = {has_country_flag = is_amazonian} } 
 			removal_cost = -1
 			cost = 50
 			
@@ -292,6 +292,7 @@ ideas = {
 			cost = 50
 			
 			modifier = {
+				terrain_penalty_reduction = 0.15
 				army_core_defence_factor = 0.05 
 				army_core_attack_factor = 0.05
 				pocket_penalty = -0.3
@@ -650,7 +651,7 @@ ideas = {
 		}
 		mercenaries_batallions = {
 		picture = light_level_7
-			available = {ROOT = { has_country_flag = use_generic_outsider_laws = yes } }
+			available = { NOT = { has_idea = no_mercenaries } }
 			cost = 100
 			removal_cost = -1
 			level = 1

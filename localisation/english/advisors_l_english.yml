@@ -2,6 +2,10 @@
  ABILITY_TOOLTIP_NAME:0 "$NAME|H$"
 ###################################COARI ADVISORS
 
+        capable_strategist:0 "Gifted Strategist"
+        divided_loyalties:0 "Divided Loyalties"
+        honest_man:0 "A Good Man in a Bad Place"
+
         jorge_kalume_army_chief:0 "Jorge Kalume"
         edgar_cerqueira_army_chief:0 "Edgar Pedreira de Cerqueira Filho"
         jose_guiomard_army_chief:0 "José Guiomard dos Santos"
