@@ -2,82 +2,9 @@ ideas = {
     ###############################
 	# Theorists
 	###############################
-        
-        field_operators = {
-			ledger = invalid
-			
-        edgar_cerqueira_theorist = { #ARMY
-        visible = {
-            NOT = {
-                AND = {
-                    has_country_flag = cerqueira_is_couping 
-                    has_country_flag = ACR_cerqueira_kill
-                    }
-                }
-            }
-
-            
-            allowed = {
-				original_tag = ACR
-            }
-        }
- 
-        jose_guiomard_theorist = { #ARMY
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                }
-             }
-            }
-
-
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        jonas_kalume_theorist = { #NAVY
-        visible = {
-            NOT = {
-                OR = {
-                    has_country_flag = cerqueira_is_couping
-                }
-             }
-            }
-
-
-
-
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-        
-        mateus_satanawa_theorist = { #AIR
-
-        
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-        eneas_carneiro_theorist = {
-        
-            allowed = {
-            original_tag = ACR
-            }
-
-        }
-
-
-
-        }
-
+	#
+    # What Theorists?
+	#
     ###############################
 	# Political Advisors
 	###############################
