@@ -275,39 +275,38 @@ remove_ideas = stolen_institutions
 
     annex_country = { 
         target = BRA
-        transfer_troops = yes } 
+        transfer_troops = yes 
+	} 
         
-ai_will_do = {
-  factor = 0
-  }
+	set_party_name = {
+		ideology = democratic
+		name = BRA_democratic_janio_party
+		long_name = BRA_democratic_janio_party_long
+	}
 
 
-set_party_name = {
-    ideology = democratic
-    name = BRA_democratic_janio_party
-    long_name = BRA_democratic_janio_party_long
-}
+	set_politics = {
+		ruling_party = democratic
+			last_election = "1967.1.1"
+				election_frequency = 48
+					elections_allowed = no
+	}
 
-
-set_politics = {
-                ruling_party = democratic
-                last_election = "1967.1.1"
-                election_frequency = 48
-                elections_allowed = no
-}
-
-set_popularities = {
-    democratic = 60
-    fascism = 3
-    communism = 5
-    neutrality = 2
-    reactionary = 30
-}
+	set_popularities = {
+		democratic = 60
+		fascism = 3
+		communism = 5
+		neutrality = 2
+		reactionary = 30
+	}
 
     set_cosmetic_tag = BRA_REPUBLIC
         }
 
     }
+	ai_will_do = {
+		factor = 0
+	}
 }
 
 ##################################
