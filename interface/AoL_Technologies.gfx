@@ -69,6 +69,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_improvised_infantry_weapons0_medium"
+		texturefile = "gfx/interface/technologies/improvised_infantry_weapons0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improvised_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/improvised_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improvised_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/improvised_infantry_weapons6.dds"
+	}
 	
 	#Train Tech
 	
