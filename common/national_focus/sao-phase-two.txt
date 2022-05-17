@@ -178,7 +178,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#Face of the Revolution!
+	#Face of the Revolution!
 	focus = {
 		id = sao_phase_two_faceoftherevolution
 		icon = GFX_goal_unknown
@@ -186,9 +186,7 @@ focus_tree = {
 		y = 0
 		cost = 3
 		search_filters = {
-			
-						FOCUS_FILTER_POLITICAL
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
 		allow_branch = {

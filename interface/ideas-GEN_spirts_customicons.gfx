@@ -29,5 +29,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_ongoing_political_reforms-185521.dds"
 	}
 
+	##Icon For: A Military Runned by the Police
+	SpriteType = { 
+		name = "GFX_idea_GEN_a_military_runned_by_the_police-225757"
+		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_a_military_runned_by_the_police-225757.dds"
+	}
+
  
  }

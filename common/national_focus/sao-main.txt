@@ -20,6 +20,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_paulista_betrayal  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_popularity = {
+			    ideology = fascism
+			    popularity = -0.05
+			}
+			
+		}
 	}
 
 	#...A Shameful Excuse
@@ -91,6 +98,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_country_flag = can_change_social_laws
+			unlock_decision_category_tooltip = change_social_laws
+			add_stability = -0.05
+			add_war_support = -0.1
+			
+			
+		}
 		allow_branch = {
 			has_country_flag = sao_show_main_focus
 		}
@@ -108,6 +123,16 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_paulista_betrayal  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+			add_opinion_modifier = {
+			    target = BRA
+			    modifier = medium_increase
+			}
+			
+			
+			
+		}
 	}
 
 	#Appeasing the Elites
@@ -122,6 +147,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_extinguish_militarist_hopes  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = -10
+			
+			
+		}
 	}
 
 	#Police the Border
@@ -136,6 +167,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_eye_to_eye_with_the_republic  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = {GEN_a_military_runned_by_the_police}
+		}
 	}
 
 	#The Coffee and Milk Line
@@ -150,6 +184,70 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_road_to_guanabara  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			30 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4626
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 2573
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 6266
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4635
+				}
+			}
+			31 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 409
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4577
+				}
+			}
+			500 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 6476
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 2287
+				}
+			}
+			394 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 185
+				}
+			}
+		}
 	}
 
 	#The Unsure Revolution
@@ -206,6 +304,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_public_defence_force  } prerequisite = { focus = SAO_the_unsure_revolution  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = {minorities_protected}
+			add_manpower = 10000
+		}
 	}
 
 	#New Neighbors
@@ -248,13 +350,19 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_unsure_revolution  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = {private_mercenaries_contractors militia_training}
+			add_stability = -0.1
+			
+			
+		}
 	}
 
 	#Tour the Farmsteads
 	focus = {
 		id = SAO_tour_the_farmsteads
 		icon = GFX_goal_unknown
-		x = 24
+		x = 23
 		y = 1
 		cost = 3
 		search_filters = {
@@ -268,7 +376,7 @@ focus_tree = {
 	focus = {
 		id = SAO_crush_the_occupiers
 		icon = GFX_goal_unknown
-		x = 22
+		x = 21
 		y = 1
 		cost = 3
 		search_filters = {
@@ -290,6 +398,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_protecting_the_rich  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = free_press
+			    add_idea = state_press_only
+			}
+		}
 	}
 
 	#The Chest of Happiness
@@ -332,6 +446,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_chest_of_happiness  } prerequisite = { focus = SAO_family_before_country  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = trade_scope_regional_exports
+			    add_idea = trade_scope_international_exports
+			}
+		}
 	}
 
 	#The Fall of the White Castle
@@ -410,7 +530,7 @@ focus_tree = {
 	focus = {
 		id = SAO_the_mst
 		icon = GFX_goal_unknown
-		x = 23
+		x = 22
 		y = 0
 		cost = 1
 		search_filters = {
@@ -426,7 +546,7 @@ focus_tree = {
 	focus = {
 		id = SAO_agricultural_revival
 		icon = GFX_goal_unknown
-		x = 23
+		x = 22
 		y = 2
 		cost = 3
 		search_filters = {
@@ -440,7 +560,7 @@ focus_tree = {
 	focus = {
 		id = SAO_the_addictive_white_dust
 		icon = GFX_goal_unknown
-		x = 22
+		x = 21
 		y = 3
 		cost = 3
 		search_filters = {
@@ -454,7 +574,7 @@ focus_tree = {
 	focus = {
 		id = SAO_brown_gold
 		icon = GFX_goal_unknown
-		x = 24
+		x = 23
 		y = 3
 		cost = 3
 		search_filters = {
@@ -468,7 +588,7 @@ focus_tree = {
 	focus = {
 		id = SAO_piracicaba_que_eu_adoro_tanto
 		icon = GFX_goal_unknown
-		x = 22
+		x = 21
 		y = 4
 		cost = 3
 		search_filters = {
@@ -482,7 +602,7 @@ focus_tree = {
 	focus = {
 		id = SAO_foundtheaircafe
 		icon = GFX_goal_unknown
-		x = 24
+		x = 23
 		y = 4
 		cost = 3
 		search_filters = {
@@ -496,7 +616,7 @@ focus_tree = {
 	focus = {
 		id = SAO_the_paulista_authocracy
 		icon = GFX_goal_unknown
-		x = 23
+		x = 22
 		y = 5
 		cost = 3
 		search_filters = {

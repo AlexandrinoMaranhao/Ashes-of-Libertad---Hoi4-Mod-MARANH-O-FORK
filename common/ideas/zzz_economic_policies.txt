@@ -7,9 +7,11 @@ ideas = {
 		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_demilitarized_economy"}
 			default = yes
-			available = { always = no } 
-			
+			available = { } 
 			removal_cost = -1
+			cost = 100
+			level = 1
+			
 			ledger = civilian
 			modifier = {
 				consumer_goods_factor = -0.05
@@ -20,7 +22,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.40
 				political_power_gain = 0.15
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 			ai_will_do = {
 				factor = 0
 			}
@@ -28,9 +30,11 @@ ideas = {
 		economic_focus_civilian_economy = {
 		picture = light_level_3
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_civilian_economy"}
-			available = { always = no } 
-			
+			available = { has_stability > 0.1 } 
 			removal_cost = -1
+			cost = 100
+			level = 2
+			
 			ledger = civilian
 			modifier = {
 				production_speed_arms_factory_factor = -0.50
@@ -40,15 +44,17 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.20
 				political_power_gain = 0.05
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 			ai_will_do = { } 
 		}
 		economic_focus_early_mobilization = {
 		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_early_mobilization"}
-			available = { always = no } 
-			
+			available = { has_stability > 0.15 } 
 			removal_cost = -1
+			cost = 100
+			level = 3
+			
 			ledger = civilian
 			modifier = {
 				production_speed_arms_factory_factor = -0.15
@@ -57,7 +63,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.05
 				political_power_gain = -0.05
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 			ai_will_do = {
 				factor = 1.8
 
@@ -71,17 +77,20 @@ ideas = {
 		economic_focus_partial_mobilization = {
 		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_partial_mobilization"}
-			available = { always = no } 
-			
+			available = { has_stability > 0.2 } 
 			removal_cost = -1
+			cost = 100
+			level = 4
+			
 			ledger = civilian
 			modifier = {
+				stability_weekly = -0.001
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
 				production_speed_industrial_complex_factor = -0.25
 				political_power_gain = -0.15
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 			ai_will_do = {
 				factor = 2
 
@@ -95,11 +104,17 @@ ideas = {
 		economic_focus_war_economy = {
 		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_war_economy"}
-			available = { always = no } 
-			
+			available = { 
+				has_war_support > 0.4
+				has_stability > 0.3
+			}
 			removal_cost = -1
+			cost = 100
+			level = 5
+			
 			ledger = civilian
 			modifier = {
+				stability_weekly = -0.01
 				consumer_goods_factor = 0.05
 				production_speed_arms_factory_factor = 0.30
 				production_speed_industrial_complex_factor = -0.40
@@ -108,7 +123,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.05
 				political_power_gain = -0.25
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 			ai_will_do = {
 				factor = 5
 
@@ -122,11 +137,17 @@ ideas = {
 		economic_focus_total_mobilization = {
 		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economic_focus_total_mobilization"}
-			available = { always = no } 
-			
+			available = { 
+				has_war_support > 0.5
+				has_stability > 0.3
+			}
 			removal_cost = -1
+			cost = 100
+			level = 6
+			
 			ledger = civilian
 			modifier = {
+				stability_weekly = -0.02
 				consumer_goods_factor = 0.10
 				production_speed_arms_factory_factor = 0.50
 				production_speed_industrial_complex_factor = -0.50
@@ -135,7 +156,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.10
 				political_power_gain = -0.50
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 			ai_will_do = {
 				factor = 1
 
@@ -324,7 +345,7 @@ ideas = {
 				stability_factor = -0.025
 				production_speed_buildings_factor = 0.10
 				industrial_capacity_factory = 0.05
-				production_factory_max_efficiency_factor = -0.15
+				production_factory_max_efficiency_factor = 0.15
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 
@@ -339,9 +360,9 @@ ideas = {
 			modifier = {
 				MONTHLY_POPULATION = 0.05
 				stability_factor = 0.025
+				production_factory_max_efficiency_factor = 0.075
 				production_speed_buildings_factor = -0.05
 				industrial_capacity_factory = -0.05
-				production_factory_max_efficiency_factor = 0.075
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 

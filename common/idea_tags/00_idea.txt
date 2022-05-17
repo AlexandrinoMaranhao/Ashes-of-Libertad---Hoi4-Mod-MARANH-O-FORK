@@ -65,8 +65,8 @@ idea_categories = {
         slot = specialization
         slot = troop_training
         slot = officer_training
-		slot = draft_exemptions
         slot = mercenaries
+		slot = draft_exemptions
 
         removal_cost = -1
     }

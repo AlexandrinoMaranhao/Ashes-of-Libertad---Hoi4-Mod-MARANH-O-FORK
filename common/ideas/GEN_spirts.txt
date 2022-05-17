@@ -56,5 +56,12 @@ drift_defence_factor = 0.15
 				political_power_cost = 0.3
 			}
 		}
+
+		GEN_a_military_runned_by_the_police = {
+			picture = GEN_a_military_runned_by_the_police-225757
+			allowed = {
+				original_tag = SAO
+			}
+		}
 	}
 }
