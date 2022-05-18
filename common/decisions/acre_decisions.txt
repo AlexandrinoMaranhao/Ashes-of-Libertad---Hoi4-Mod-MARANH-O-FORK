@@ -48,14 +48,18 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 
 		available = {
 			AND = {
 				original_tag = ACR
-				has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 				check_variable = { senate_technocrat_seats > 7 }
 				check_variable = { senate_militarist_seats > 3 }
 			}	
@@ -86,16 +90,20 @@ acrean_senate = {
 		available = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			check_variable = { senate_technocrat_seats > 14 }
-			custom_trigger_tooltip = { tooltip = join_the_libs_tt }
-			has_war_support < 0.1
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
+				check_variable = { senate_technocrat_seats > 14 }
+				custom_trigger_tooltip = { tooltip = join_the_libs_tt }
+				has_war_support < 0.1
 			}
 		}
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_make_love_not_war
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -182,7 +190,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_national_conscription_act
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -205,7 +215,9 @@ acrean_senate = {
 		available = {
 			AND = {
 				original_tag = ACR
-				has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 				check_variable = { senate_militarist_seats > 19 }
 				custom_trigger_tooltip = { tooltip = national_disarmament_act_tt }
 			}
@@ -241,7 +253,9 @@ acrean_senate = {
 		available = {
 			AND = {
 				original_tag = ACR
-				has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 				check_variable = { senate_nationalist_seats > 14 }
 				custom_trigger_tooltip = { tooltip = native_protection_tt }
 			}
@@ -249,7 +263,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_pass_native_defence_act
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -291,13 +307,17 @@ acrean_senate = {
 			check_variable = { senate_technocrat_seats > 14 }
 			custom_trigger_tooltip = { tooltip = worker_right_tt }
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_revise_worker_rights
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -350,7 +370,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_xapuri_acre_pride
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -379,7 +401,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -419,7 +443,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -450,7 +476,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -493,7 +521,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_a_national_fire_stick
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -529,7 +559,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -565,7 +597,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			}
 		}
 		cost = 50
@@ -610,15 +644,15 @@ acrean_senate = {
 
 	end_gridlock_TN_act = { 
 	icon = GFX_decision_senate_militarists_decision
-		allowed = {
+		available = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
-		available = {
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			always = yes
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
+			}
 		}
 		visible = {
 			OR = {
@@ -641,14 +675,9 @@ acrean_senate = {
 
 	end_gridlock_TM_act = { 
 	icon = GFX_decision_senate_militarists_decision
-		allowed = {
-			original_tag = ACR
-		}
 		available = {
-			AND = {
 			always = yes
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
-			}
 		}
 		visible = {
 			OR = {
@@ -671,12 +700,6 @@ acrean_senate = {
 
 	end_gridlock_NM_act = { 
 	icon = GFX_decision_senate_militarists_decision
-		allowed = {
-			AND = {
-			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
 			always = yes
 			custom_trigger_tooltip = { tooltip = end_gridlock_tt }
@@ -702,15 +725,11 @@ acrean_senate = {
 
 	contingency_plan_act = {
 		icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		available = {
 			AND = {
-			has_completed_focus = ACR_a_contingency_plan
+				ACR = {
+					has_completed_focus = ACR_a_contingency_plan
+				}
 			has_war = yes
 			NOT = { has_country_flag = ACR_conscripted_civilians }
 			}
@@ -718,7 +737,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_a_contingency_plan
+				ACR = {
+					has_completed_focus = ACR_a_contingency_plan
+				}
 			}
 		}
 		cost = 75
@@ -762,21 +783,19 @@ acrean_senate = {
 
 	ACR_deconscript_civilian_militias = {
 		icon = GFX_decision_senate_generic_decision
-		allowed = {
-			AND = {
-			original_tag = ACR
-			has_completed_focus = ACR_finish_the_constitution
-			}
-		}
 		activation = {
 			AND = {
-			has_country_flag = ACR_conscripted_civilians
+				ACR = {
+					has_completed_focus = ACR_conscripted_civilians
+				}
 			has_war = no
 			}
 		}
 		visible = {
 			AND = {
-			has_country_flag = ACR_conscripted_civilians
+				ACR = {
+					has_completed_focus = ACR_finish_the_constitution
+				}
 			has_war = no
 			}
 		}
@@ -799,28 +818,28 @@ acrean_senate = {
 		}
 	}
 
-	ACR_buy_filming_equipment = {
-	icon = GFX_decision_senate_technocrats_decision
-	visible = { has_completed_focus = ACR_haha_sike }
-	available = {
-	NOT = {
-	check_variable = { senate_technocrat_seats = 0 }
-	}
-	}
-	cost = 75
-		complete_effect = { 
-	acre_senate_remove_technocrat_seats_1 = yes
-	random_list = {
-	50 = {
-	acre_senate_add_militarist_seats_1 = yes
-	}
-	50 = {
-	acre_senate_add_nationalist_seats_1 = yes
-	}
-	}
-	add_to_variable = { var = filming_equipment value = 10 }
-    	}
-	}
+##	ACR_buy_filming_equipment = {
+##	icon = GFX_decision_senate_technocrats_decision
+##	visible = { has_completed_focus = ACR_haha_sike }
+##	available = {
+##	NOT = {
+##	check_variable = { senate_technocrat_seats = 0 }
+##	}
+##	}
+##	cost = 75
+##		complete_effect = { 
+##	acre_senate_remove_technocrat_seats_1 = yes
+##	random_list = {
+##	50 = {
+##	acre_senate_add_militarist_seats_1 = yes
+##	}
+##	50 = {
+##	acre_senate_add_nationalist_seats_1 = yes
+##	}
+##	}
+##	add_to_variable = { var = filming_equipment value = 10 }
+##    	}
+##	}
 }
 
 ###################################################################################
@@ -2700,7 +2719,7 @@ ACR_coring_decisions = {
 			}
 			}
 		}
-		allowed = {
+		available = {
 			original_tag = ACR
 			any_owned_state = {
 				is_core_of = JUR
@@ -2735,7 +2754,7 @@ ACR_coring_decisions = {
 			}
 			}
 		}
-		allowed = {
+		available = {
 			AND = {
 			original_tag = ACR
 			any_owned_state = {
@@ -2767,7 +2786,7 @@ ACR_coring_decisions = {
 			}
 			}
 		}
-		allowed = {
+		available = {
 			AND = {
 			original_tag = ACR
 			any_owned_state = {
@@ -2803,7 +2822,7 @@ ACR_coring_decisions = {
 			}
 			}
 		}
-		allowed = {
+		available = {
 			AND = {
 			original_tag = ACR
 			any_owned_state = {

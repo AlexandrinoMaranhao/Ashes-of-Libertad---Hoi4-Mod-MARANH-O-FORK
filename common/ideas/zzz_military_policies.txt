@@ -382,7 +382,7 @@ ideas = {
 		picture = light_level_2
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea training_none"}
 			default = yes
-			available = { always = yes }
+			available = {}
 			level = 4
 			cost = 100
 			
@@ -440,7 +440,7 @@ ideas = {
 		guerrilla_training = {
 		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea guerrilla_training"}
-			available = { always = yes }
+			available = {}
 			level = 2
 			cost = 100
 			
@@ -460,7 +460,7 @@ ideas = {
 		professional_training_methods = {
 		picture = light_level_7
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea professional_training_methods"}
-			available = { always = yes }
+			available = {}
 			level = 1
 			cost = 100
 			
@@ -483,7 +483,7 @@ ideas = {
 		law = yes
 		no_officer_training = {
 		picture = light_level_2
-			available = { always = yes }
+			available = {}
 			cost = 100
 			removal_cost = -1
 			level = 5
@@ -554,7 +554,7 @@ ideas = {
 		}
 		professional_officer_training = {
 		picture = light_level_7
-			available = {}
+			available = {has_idea = no_mercenaries }
 			cost = 100
 			removal_cost = -1
 			level = 1
@@ -581,7 +581,7 @@ ideas = {
 		law = yes
 		no_mercenaries = {
 		picture = light_level_2
-			available = {} 
+			available = { has_idea = no_mercenaries }
 			cost = 100
 			removal_cost = -1
 			level = 5
@@ -598,7 +598,7 @@ ideas = {
 		}
 		instruction_roles_only = {
 		picture = light_level_4
-			available = {} 
+			available = { NOT = { has_idea = no_mercenaries } }
 			cost = 100
 			removal_cost = -1
 			level = 4
@@ -616,7 +616,7 @@ ideas = {
 		}
 		private_mercenaries_contractors = {
 		picture = light_level_5
-			available = {} 
+			available = { NOT = { has_idea = no_mercenaries } }
 			cost = 100
 			removal_cost = -1
 			level = 3
@@ -633,7 +633,7 @@ ideas = {
 		}
 		mercenaries_auxiliaries = {
 		picture = light_level_6
-			available = {} 
+			available = { NOT = { has_idea = no_mercenaries } }
 			cost = 100
 			removal_cost = -1
 			level = 2
