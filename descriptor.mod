@@ -1,5 +1,5 @@
 version="Alpha Release - São Paulo 0.1e"
-name="Ashes of Libertad Demo"
+name="Ashes of Libertad Dev Version"
 tags={
 	"Gameplay"
 	"Map"
