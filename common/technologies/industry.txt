@@ -1668,11 +1668,11 @@ technologies = {
 				factor = 5.0
 				OR = {
 					oil > 0
-					aluminium > 0
+					technology > 0
 					rubber > 0
-					tungsten > 0
+					ammunition > 0
 					steel > 0
-					chromium > 0
+					motors > 0
 				}
 			}
 			
@@ -1680,11 +1680,11 @@ technologies = {
 				factor = 1.5
 				OR = {
 					oil > 8
-					aluminium > 8
+					technology > 8
 					rubber > 8
-					tungsten > 8
+					ammunition > 8
 					steel > 8
-					chromium > 8
+					motors > 8
 				}
 			}
 		}
@@ -1756,11 +1756,11 @@ technologies = {
 				factor = 5.0
 				OR = {
 					oil > 0
-					aluminium > 0
+					technology > 0
 					rubber > 0
-					tungsten > 0
+					ammunition > 0
 					steel > 0
-					chromium > 0
+					motors > 0
 				}
 			}
 			
@@ -1768,11 +1768,11 @@ technologies = {
 				factor = 1.5
 				OR = {
 					oil > 8
-					aluminium > 8
+					technology > 8
 					rubber > 8
-					tungsten > 8
+					ammunition > 8
 					steel > 8
-					chromium > 8
+					motors > 8
 				}
 			}
 		}
@@ -1856,11 +1856,11 @@ technologies = {
 				factor = 5.0
 				OR = {
 					oil > 0
-					aluminium > 0
+					technology > 0
 					rubber > 0
-					tungsten > 0
+					ammunition > 0
 					steel > 0
-					chromium > 0
+					motors > 0
 				}
 			}
 			
@@ -1868,11 +1868,11 @@ technologies = {
 				factor = 1.5
 				OR = {
 					oil > 8
-					aluminium > 8
+					technology > 8
 					rubber > 8
-					tungsten > 8
+					ammunition > 8
 					steel > 8
-					chromium > 8
+					motors > 8
 				}
 			}
 		}
@@ -1944,11 +1944,11 @@ technologies = {
 				factor = 5.0
 				OR = {
 					oil > 0
-					aluminium > 0
+					technology > 0
 					rubber > 0
-					tungsten > 0
+					ammunition > 0
 					steel > 0
-					chromium > 0
+					motors > 0
 				}
 			}
 			
@@ -1956,11 +1956,11 @@ technologies = {
 				factor = 1.5
 				OR = {
 					oil > 8
-					aluminium > 8
+					technology > 8
 					rubber > 8
-					tungsten > 8
+					ammunition > 8
 					steel > 8
-					chromium > 8
+					motors > 8
 				}
 			}
 		}
@@ -2030,11 +2030,11 @@ technologies = {
 				factor = 5.0
 				OR = {
 					oil > 0
-					aluminium > 0
+					technology > 0
 					rubber > 0
-					tungsten > 0
+					ammunition > 0
 					steel > 0
-					chromium > 0
+					motors > 0
 				}
 			}
 			
@@ -2042,11 +2042,11 @@ technologies = {
 				factor = 1.5
 				OR = {
 					oil > 8
-					aluminium > 8
+					technology > 8
 					rubber > 8
-					tungsten > 8
+					ammunition > 8
 					steel > 8
-					chromium > 8
+					motors > 8
 				}
 			}
 		}

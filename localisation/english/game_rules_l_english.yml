@@ -483,3 +483,10 @@
  RULE_OPTION_ERN_BUFF_STATUS_DESC:0 "The Ejército Revolucionario will receive an small additional buff. This §YMAY§! make them §Rstronger and harder§! for Acre to defeat."
  RULE_OPTION_NO_ERN_BUFF:0 "Remove the AI Buff"
  RULE_OPTION_NO_ERN_BUFF_DESC:0 "The AI-Only buff for the Ejército Revolucionario will not be used upon the start of the game. Keeping the ERdN an easier fight."
+ 
+ ###Fail'o'State effects
+ FAIL_O_STATE_EFFECTS:0 "£infinity_icon Failstate'o'Meter Effects"
+ FAIL_O_STATE_TRUE:0 "Keep it fun"
+ FAIL_O_STATE_TRUE_DESC:0 "This will allows the game to create the most wacky and interesting factions to be born from the Failstate'o'Meter effects!"
+ FAIL_O_STATE_FALSE:0 "Keep it realistic"
+ FAIL_O_STATE_FALSE_DESC:0 "This will keep the Failstate'o'Meter effects, but factions that are too wacky or non-realistic with the AoL's lore and aesthetics will not be shown."

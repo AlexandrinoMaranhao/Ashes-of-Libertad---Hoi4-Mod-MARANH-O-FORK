@@ -154,13 +154,6 @@ technologies = {
 			dozer_blade
 			flamethrower
 		}
-
-		enable_subunits = {
-			light_flame_tank
-			medium_flame_tank
-			heavy_flame_tank
-		}
-		
 		
 		path = {
 			leads_to_tech = tech_engineers3
@@ -208,31 +201,6 @@ technologies = {
 				defence = 0.10
 			}
 		}
-
-		light_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
 		path = {
 			leads_to_tech = tech_engineers4
 			research_cost_coeff = 1
@@ -277,30 +245,6 @@ technologies = {
 			urban = {
 				attack = 0.1	
 				defence = 0.1
-			}
-		}
-		light_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
 			}
 		}
 		research_cost = 1.5

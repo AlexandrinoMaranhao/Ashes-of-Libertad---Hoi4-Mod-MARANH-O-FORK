@@ -584,6 +584,23 @@ ACR_ai_behavior = {
 #######Game Setup########
 #########################
 
+Failostates_effect = {
+	name = "FAIL_O_STATE_EFFECTS"
+	group = "RULE_GROUP_GAME_SETUP"
+	option = {
+		name = FAIL_O_STATE_ENABLED
+		text = "FAIL_O_STATE_TRUE"
+		desc = "FAIL_O_STATE_TRUE_DESC"
+		allow_achievements = yes
+	}
+	default = {
+		name = FAIL_O_STATE_DISABLED
+		text = "FAIL_O_STATE_FALSE"
+		desc = "FAIL_O_STATE_FALSE_DESC"
+		allow_achievements = yes
+	}
+}
+
 ERN_buff_status = {
 	name = "ERN_BUFF_STATUS"
 	group = "RULE_GROUP_GAME_SETUP"
