@@ -11,23 +11,44 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 20
-	communism = 20
-	neutrality = 20
-	reactionary = 20
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+	reactionary = 0
 
 }
 
 add_ideas = {
-	conscription_volunteer_only
-	economic_focus_early_mobilization
+religious_pluralism
+vital_needs_fulfilled
+political_parties_multiparty_system
+minorities_protected
+censored_press
+primary_education
+economic_focus_partial_mobilization
+trade_scope_continental_exports
+WR_acceptable_regulations
+tax_rate_low_taxation
+SI_acceptable_regulations
+slavery_outlawed
+conscription_volunteer_only
+traditional_army_specialization
+militia_training
+militia_officer_training
+no_mercenaries
+draft_exemptions_educational_deferment
+
+	PIR_uniao_piracatu
+	PIR_piracicaba_minutemen
+	PIR_aerial_lifestyle
+	THE_PAULISTA_CATASTROPHE
 }
 
 set_country_flag = use_generic_outsider_laws
@@ -42,9 +63,8 @@ create_country_leader = {
 	name = "Antonio 'Alemão' Danelon"
 	picture = "gfx/leaders/PIR/Portrait_PIR_Antonio_Danelon.dds"
 	expire = "1999.1.1"
-	ideology = conservatism
+	ideology = corporate_state_status_quo
 	traits = {
 		popular_figurehead
-		snuggler
 	}
 }

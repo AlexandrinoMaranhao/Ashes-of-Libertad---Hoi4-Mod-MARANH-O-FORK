@@ -1,4 +1,25 @@
 SAO_category = {
+	trigger_paulista_catastrophe = {
+	cost = 0
+		visible = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			SAO = {
+			 country_event = { id = PAULISTA_CATASTROPHE.1 days = 0 }
+				}
+		}
+	}
+
 	debug_second_phase = {
 		cost = 0
 		visible = {

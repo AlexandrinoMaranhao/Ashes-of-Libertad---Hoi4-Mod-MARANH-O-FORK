@@ -1,0 +1,106 @@
+ideas = {
+
+	country = {
+
+	
+		THE_PAULISTA_CATASTROPHE = {
+
+		}
+
+		CAI_cangaco_paulista = {
+
+		}
+
+		CSP_DOPS_police_state = {
+
+		}
+
+		CSP_urban_hellscape = {
+
+		}
+
+		CSP_the_city_of_drizzle = {
+
+		}
+
+		BDC_o_bacharel_de_cananeia = {
+
+		}
+
+		BDC_wreck_scavangers = {
+
+		}
+
+		CDC_the_legacy_of_marighella = {
+
+		}
+
+		CDC_autonomous_comune = {
+
+		}
+
+		BAR_festa_de_rodeio = {
+
+		}
+
+		TYW_oil_refinery = {
+
+		}
+
+		TYW_the_yellow_woodpeckers = {
+
+		}
+
+		TYW_unfertile_land = {
+
+		}
+
+		TTC_the_black_rose_of_santos = {
+
+		}
+
+		TTC_technocratic_ambitions = {
+
+		}
+
+		TTC_the_port_of_santos = {
+
+		}
+
+		AME_confederate_revival = {
+
+		}
+
+		ROT_e_rota_na_rua = {
+
+		}
+
+		ROT_a_fortaleza_da_luz = {
+
+		}
+
+		UBA_the_railroad_master = {
+
+		}
+
+		PIR_uniao_piracatu = {
+
+		}
+
+		PIR_piracicaba_minutemen = {
+
+		}
+
+		PIR_aerial_lifestyle = {
+
+		}
+
+		SBT_TV_paulista = {
+
+		}
+
+		SBT_the_show_must_go_on = {
+
+		}
+	}
+}
