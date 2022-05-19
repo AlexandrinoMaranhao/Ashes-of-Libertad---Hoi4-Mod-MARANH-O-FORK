@@ -76,26 +76,26 @@ country_event = {
 #        }
 #    }
           
-        33 = { set_demilitarized_zone = yes days = 1 }
-        569 = { set_demilitarized_zone = yes days = 1 }
-        34 = { set_demilitarized_zone = yes days = 1 }
-        35 = { set_demilitarized_zone = yes days = 1 }
-        568 = { set_demilitarized_zone = yes days = 1 }
-        307 = { set_demilitarized_zone = yes days = 1 }
-        31 = { set_demilitarized_zone = yes days = 1 }
-        394 = { set_demilitarized_zone = yes days = 1 }
-        29 = { set_demilitarized_zone = yes days = 1 }
-        570 = { set_demilitarized_zone = yes days = 1 }
-        32 = { set_demilitarized_zone = yes days = 1 }
-        502 = { set_demilitarized_zone = yes days = 1 }
-        28 = { set_demilitarized_zone = yes days = 1 }
-        502 = { set_demilitarized_zone = yes days = 1 }
-        501 = { set_demilitarized_zone = yes days = 1 }
-        30 = { set_demilitarized_zone = yes days = 1 }
-        500 = { set_demilitarized_zone = yes days = 1 }
-        27 = { set_demilitarized_zone = yes days = 1 }
-        571 = { set_demilitarized_zone = yes days = 1 }
-        567 = { set_demilitarized_zone = yes days = 1 }
+        33 = { set_demilitarized_zone = yes  }
+        569 = { set_demilitarized_zone = yes  }
+        34 = { set_demilitarized_zone = yes  }
+        35 = { set_demilitarized_zone = yes  }
+        568 = { set_demilitarized_zone = yes  }
+        307 = { set_demilitarized_zone = yes  }
+        31 = { set_demilitarized_zone = yes  }
+        394 = { set_demilitarized_zone = yes  }
+        29 = { set_demilitarized_zone = yes  }
+        570 = { set_demilitarized_zone = yes  }
+        32 = { set_demilitarized_zone = yes  }
+        502 = { set_demilitarized_zone = yes  }
+        28 = { set_demilitarized_zone = yes  }
+        502 = { set_demilitarized_zone = yes  }
+        501 = { set_demilitarized_zone = yes  }
+        30 = { set_demilitarized_zone = yes  }
+        500 = { set_demilitarized_zone = yes  }
+        27 = { set_demilitarized_zone = yes  }
+        571 = { set_demilitarized_zone = yes  }
+        567 = { set_demilitarized_zone = yes  }
         
 
         CSP = {

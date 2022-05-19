@@ -92,12 +92,11 @@ set_variable = { var = no_success_chance value = 0 }
 
 #
 add_ideas = {
-edgar_cerqueira_theorist
-economic_focus_demilitarized_economy
-trade_scope_regional_exports
-militia_training
-no_officer_training
-primary_education
+	economic_focus_demilitarized_economy
+	trade_scope_regional_exports
+	militia_training
+	no_officer_training
+	primary_education
 }
 
 set_country_flag = has_unique_advisors

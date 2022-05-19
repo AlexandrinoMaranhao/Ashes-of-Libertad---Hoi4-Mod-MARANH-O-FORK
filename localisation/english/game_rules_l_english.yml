@@ -468,10 +468,10 @@
  ACR_AI_BEHAVIOR:0 "@ACR Acre's Election"
  RULE_OPTION_CURY_PATH:0 "Acre elects §YHélio Cury§!"
  RULE_OPTION_CURY_PATH_DESC:0 "Acre will elect §YHélio Cury§! as their president, ensuring a bright free future under the §YNacionalista's§! party rule!"
- RULE_OPTION_EDGAR_PATH:0 "§LEdgar Cerqueira§! Coups §GJorge Kalume§!"
- RULE_DEMOCRATIC_EDGAR_PATH_DESC:0 "Acre will elect §GJorge Kalume§! as their president, but §LEdgar Cerqueira§! will rise up the stakes and take lead on Acre's leadership. Ensuring a dark future under the §LMilitary rule§! over Acre, until the situation on the mainland gets colder."
- RULE_OPTION_ENAS_PATH:0 "Acre elects §REnéas Carneiro§!"
- RULE_KAISER_ENAS_PATH_DESC:0 "Acre will elect §REnéas Carneiro§! as their president, with §RMarques de Souza§! as a vice-president. ensuring a questionable future for Acre under the §RRevolutionary§! Technocratas party rule!"
+ RULE_OPTION_EDGAR_PATH:0 "§LEdgar Cerqueira§! Wins the election"
+ RULE_DEMOCRATIC_EDGAR_PATH_DESC:0 "Acre will elect the General as their president, taking the lead on Acre's leadership. Ensuring a dark future under the §LMilitary rule§! over Acre, until the situation on the mainland gets colder."
+ RULE_OPTION_ENAS_PATH:0 "Acre elects §tEnéas Carneiro§!"
+ RULE_KAISER_ENAS_PATH_DESC:0 "Acre will elect §tEnéas Carneiro§! as their president, with §tMarques de Souza§! as a vice-president. ensuring a questionable future for Acre under the §tRevolutionary§! Technocratas party rule!"
  RULE_OPTION_DEFAULT:0 "Default"
  RULE_OPTION_DEFAULT_AI_DESC:0 "The AI will make decisions based on random gameplay settings. Ensuring a fun and well balanced gameplay!"
  RULE_OPTION_DEFAULT_GAME_SETUP_DESC:0 "Allow the game to run on its pre-determined path."
@@ -485,7 +485,7 @@
  RULE_OPTION_NO_ERN_BUFF_DESC:0 "The AI-Only buff for the Ejército Revolucionario will not be used upon the start of the game. Keeping the ERdN an easier fight."
  
  ###Fail'o'State effects
- FAIL_O_STATE_EFFECTS:0 "£infinity_icon Failstate'o'Meter Effects"
+ FAIL_O_STATE_EFFECTS:0 "£infinity_icon Failstate'o'Meter Settings"
  FAIL_O_STATE_TRUE:0 "Keep it fun"
  FAIL_O_STATE_TRUE_DESC:0 "This will allows the game to create the most wacky and interesting factions to be born from the Failstate'o'Meter effects!"
  FAIL_O_STATE_FALSE:0 "Keep it realistic"
