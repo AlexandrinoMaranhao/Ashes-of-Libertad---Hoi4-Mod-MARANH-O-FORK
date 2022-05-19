@@ -569,14 +569,14 @@ ACR_ai_behavior = {
 		desc = "RULE_OPTION_CURY_PATH_DESC"
 	}
 	option = {
-		name = ACR_EDGAR_PATH
-		text = "RULE_OPTION_EDGAR_PATH"
-		desc = "RULE_DEMOCRATIC_EDGAR_PATH_DESC"
-	}
-	option = {
 		name = ACR_ENAS_PATH
 		text = "RULE_OPTION_ENAS_PATH"
 		desc = "RULE_KAISER_ENAS_PATH_DESC"
+	}
+	option = {
+		name = ACR_EDGAR_PATH
+		text = "RULE_OPTION_EDGAR_PATH"
+		desc = "RULE_DEMOCRATIC_EDGAR_PATH_DESC"
 	}
 }
 

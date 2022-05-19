@@ -68,6 +68,12 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+		trigger = {
+			OR = {
+				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_DISABLED }
+			}
+		}
 
 #    every_country = {
 #        news_event = {
