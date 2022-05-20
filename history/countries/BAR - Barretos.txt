@@ -54,8 +54,11 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "O Rei do Gado"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	picture = "gfx/leaders/SAO/Portrait_BAR_Osmar_Marchi.dds"
 	desc = "REIDOGADO_DESC"
 	expire = "1999.1.1"
 	ideology = coronelism
+	traits = {
+		rei_do_gado
+	}
 }

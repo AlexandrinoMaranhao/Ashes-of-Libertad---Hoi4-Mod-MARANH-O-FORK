@@ -58,4 +58,7 @@ create_country_leader = {
 	desc = "BACHAREL_DESC"
 	expire = "1999.1.1"
 	ideology = despotism
+	traits = {
+		o_bacharel_de_cananeia
+	}
 }

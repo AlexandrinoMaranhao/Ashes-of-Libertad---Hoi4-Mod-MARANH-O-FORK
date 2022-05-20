@@ -1,5 +1,205 @@
 leader_traits = {
-	
+
+	o_visconde_de_sabugosa = {
+        random = no
+
+		conscription_factor = -0.1
+		war_support_factor = -0.1
+		stability_factor = 0.15
+		land_reinforce_rate = 0.2
+		monthly_population = -0.2
+		political_power_cost = -0.25
+		global_building_slots_factor = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	o_alemao = {
+        random = no
+
+		stability_factor = 0.15
+		political_power_gain = 0.15
+		war_support_factor = 0.15
+		attrition = -0.05
+		army_defence_factor = -0.1
+		max_dig_in = 2
+		army_morale_factor = 0.5
+		conscription_factor = 0.8
+        monthly_population = 0.5
+		production_lack_of_resource_penalty_factor = -0.5
+		industry_air_damage_factor = -0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	juntas_poster_boy = {
+        random = no
+
+		stability_factor = 0.1
+		political_power_gain = 0.05
+		war_support_factor = 0.30
+		attrition = -0.15
+		army_defence_factor = 0.5
+		max_dig_in = 2
+		army_org_factor = 0.5
+		army_morale_factor = 0.5
+		conscription_factor = 1 
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	railway_lord = {
+        random = no
+
+        planning_speed = 0.15
+		political_power_gain = 0.05
+		war_support_factor = 0.30
+		army_defence_factor = 0.5
+		max_dig_in = 1
+		army_org_factor = 1
+		army_morale_factor = 0.5
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heroi_eterno = {
+        random = no
+
+        planning_speed = 0.25
+		political_power_gain = 0.15
+		war_support_factor = 0.5
+		army_defence_factor = 0.5
+		max_dig_in = 5
+		army_org_factor = 1
+		army_morale_factor = 0.75
+        command_power_gain = 0.5
+        monthly_population = 0.5
+        max_command_power = 25	
+		production_factory_start_efficiency_factor = 0.5
+		production_lack_of_resource_penalty_factor = -0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	neo_confederate = {
+        random = no
+
+		stability_factor = -0.25
+		consumer_goods_factor = -0.1
+		industrial_capacity_factory = 0.15
+		production_speed_arms_factory_factor = 0.15
+		production_speed_dockyard_factor = 0.15
+		production_speed_infrastructure_factor = 0.15
+		production_factory_start_efficiency_factor = 0.5
+		production_lack_of_resource_penalty_factor = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_black_rose_of_sao_paulo = {
+        random = no
+
+        planning_speed = 0.5
+        army_chief_cost_factor = -0.25
+		stability_factor = 0.15
+		political_power_factor = 0.25
+		war_support_factor = 0.15
+        command_power_gain = 0.5
+        monthly_population = 0.5
+        max_command_power = 25	
+		production_factory_start_efficiency_factor = 0.3
+		production_lack_of_resource_penalty_factor = -0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	show_do_milhao = {
+        random = no
+
+		stability_factor = 0.25
+		war_support_factor = 0.5
+		consumer_goods_factor = -0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rei_do_gado = {
+        random = no
+
+		stability_factor = 0.15
+		war_support_factor = 0.05
+		consumer_goods_factor = 0.5
+        monthly_population = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	o_bacharel_de_cananeia = {
+        random = no
+
+		stability_factor = 0.55
+		consumer_goods_factor = 0.1
+		war_support_factor = 0.05
+        command_power_gain = 0.5
+        monthly_population = 0.5
+        max_command_power = 25	
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	head_of_the_dops = {
+        random = no
+
+		stability_factor = 0.05
+		political_power_factor = 0.25
+		war_support_factor = 0.05
+        command_power_gain = 1
+        monthly_population = -0.5
+        max_command_power = 25	
+		land_reinforce_rate = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rouba_mas_faz = {
+        random = no
+
+		stability_factor = 0.15
+		consumer_goods_factor = -0.1
+		industrial_capacity_factory = 0.15
+		production_speed_arms_factory_factor = -0.15
+		production_speed_dockyard_factor = 0.15
+		production_speed_infrastructure_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
 	shitty_strategist = {
         random = no
         planning_speed = -0.15
@@ -257,6 +457,7 @@ leader_traits = {
 	stability_factor = 0.15
 	war_support_factor = -0.1
 	}
+
 	social_reformer_aol = {
 	monthly_population = 0.1
 	stability_factor = 0.10

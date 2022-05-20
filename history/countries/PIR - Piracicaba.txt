@@ -60,11 +60,11 @@ set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
-	name = "Antonio 'Alemão' Danelon"
+	name = "Antonio Danelon"
 	picture = "gfx/leaders/PIR/Portrait_PIR_Antonio_Danelon.dds"
 	expire = "1999.1.1"
 	ideology = corporate_state_status_quo
 	traits = {
-		popular_figurehead
+		o_alemao
 	}
 }

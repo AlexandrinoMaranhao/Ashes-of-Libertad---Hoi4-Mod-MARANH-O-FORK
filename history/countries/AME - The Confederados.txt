@@ -58,4 +58,7 @@ create_country_leader = {
 	desc = "AMERICANA_DESC"
 	expire = "1999.1.1"
 	ideology = city_state
+	traits = {
+		neo_confederate
+	}
 }

@@ -54,8 +54,11 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "Collapsed Authority"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	picture = "GFX_Portrait_WAS_leader"
 	desc = "CAIPIRAS_DESC"
 	expire = "1999.1.1"
 	ideology = anarchism
+	traits = {
+		abandoned_government
+	}
 }

@@ -1,27 +1,27 @@
 
 YWP = {
-	color = rgb { 255 233 127 }
-	color_ui = rgb { 255 233 127 }
+	color = rgb { 206 203 0 }
+	color_ui = rgb { 206 203 0 }
 }
 
 TTC = {
-	color = rgb { 45 28 28 }
-	color_ui = rgb { 45 28 28 }
+	color = rgb { 127 63 90 }
+	color_ui = rgb { 127 63 90 }
 }
 
 SBT = {
-	color = rgb { 167 217 182 }
-	color_ui = rgb { 167 217 182 }
+	color = rgb { 120 132 78 }
+	color_ui = rgb { 120 132 78 }
 }
 
 ROT = {
-	color = rgb { 40 0 63 }
-	color_ui = rgb { 40 0 63 }
+	color = rgb { 87 124 124 }
+	color_ui = rgb { 87 124 124 }
 }
 
 CSP = {
-	color = rgb { 30 23 35 }
-	color_ui = rgb { 30 23 35 }
+	color = rgb { 50 0 70 }
+	color_ui = rgb { 50 0 70 }
 }
 
 AME = {
@@ -30,8 +30,8 @@ AME = {
 }
 
 BDC = {
-	color = rgb { 9 30 11 }
-	color_ui = rgb { 9 30 11 }
+	color = rgb { 62 96 31 }
+	color_ui = rgb { 62 96 31 }
 }
 
 CAI = {
@@ -40,8 +40,8 @@ CAI = {
 }
 
 CDC = {
-	color = rgb { 127 38 38 }
-	color_ui = rgb { 127 38 38 }
+	color = rgb { 255 25 71 }
+	color_ui = rgb { 255 25 71 }
 }
 
 BAR = {
@@ -50,8 +50,8 @@ BAR = {
 }
 
 NLI = {
-	color = rgb { 234 197 197 }
-	color_ui = rgb { 234 197 197 }
+	color = rgb { 193 160 118 }
+	color_ui = rgb { 193 160 118 }
 }
 
 INT = {
@@ -668,8 +668,8 @@ PAU = {
 }
 
 PIR = {
-	color = rgb { 87 124 124 }
-	color_ui = rgb { 87 124 124 }
+	color = rgb { 0 127 127 }
+	color_ui = rgb { 0 127 127 }
 }
 
 MNH = {

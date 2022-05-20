@@ -55,8 +55,11 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "Silvio Santos"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	picture = "gfx/leaders/SAO/Portrait_SBT_Silvio_Santos.dds"
 	desc = "SILVIOSANTOS_DESC"
 	expire = "1999.1.1"
 	ideology = corporate_state
+	traits = {
+		show_do_milhao
+	}
 }
