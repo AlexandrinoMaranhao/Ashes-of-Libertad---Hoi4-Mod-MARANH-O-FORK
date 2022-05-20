@@ -267,7 +267,7 @@ ideas = {
 				decryption_factor = 0.50
 				encryption_factor = 0.50
 				civilian_intel_to_others = -50.0
-				enemy_partisan_effect = -0.3
+				compliance_growth_on_our_occupied_states = -0.3
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 
@@ -286,7 +286,7 @@ ideas = {
 				decryption_factor = -0.10
 				encryption_factor = -0.10
 				civilian_intel_to_others = -10.0
-				enemy_partisan_effect = -0.1
+				occupation_cost = -0.1
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 
@@ -307,7 +307,7 @@ ideas = {
 				decryption_factor = -0.50
 				encryption_factor = -0.50
 				civilian_intel_to_others = 50.0
-				enemy_partisan_effect = 0.25
+				occupation_cost = 0.25
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 
