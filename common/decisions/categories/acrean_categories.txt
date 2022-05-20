@@ -77,3 +77,8 @@ ACR_fighting_coari = {
 	}
 	visible_when_empty = no
 }
+
+acrean_raids = {
+	icon = acrean_raids
+    allowed = { tag = COR }
+}

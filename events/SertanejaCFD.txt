@@ -3,7 +3,112 @@
 add_namespace = CFD
 add_namespace = CFD_ai
 add_namespace = CFD_aiwar
+add_namespace = CFD_failometer_enabled
 
+
+country_event = {
+    id = CFD_failometer_enabled.1
+    title = CFD_failometer_enabled.1.t
+    desc = CFD_failometer_enabled.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+		trigger = {
+			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+		}
+        name = CFD_failometer_enabled.1.a
+		
+        NUD = {
+			load_oob = "NUD_1967"
+            transfer_state = 13
+			transfer_state = 503
+			
+			declare_war_on = {
+                target = CFD
+                type = annex_everything
+            }
+            declare_war_on = {
+              target = INT
+              type = annex_everything
+            }
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = CEA
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = RGN
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PAI
+                type = annex_everything
+            }
+            
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+        }
+		RPP = {
+			load_oob = "RPP_1967"
+			transfer_state = 573
+			
+			declare_war_on = {
+                target = CFD
+                type = annex_everything
+            }
+            declare_war_on = {
+              target = INT
+              type = annex_everything
+            }
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = CEA
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = RGN
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = PAI
+                type = annex_everything
+            }
+            
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+		}
+    }
+}
 
 country_event = {
     id = CFD_ai.1
@@ -265,6 +370,7 @@ country_event = {
         }
     }
         ALA = {
+			country_event = { id = CFD_failometer_enabled.1 days = 2 }
             transfer_state  = 10
             load_oob = "ALA_1967"
             declare_war_on = {

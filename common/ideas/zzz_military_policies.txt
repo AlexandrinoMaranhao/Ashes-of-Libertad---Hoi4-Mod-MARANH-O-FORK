@@ -7,13 +7,13 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_scraping_the_barrel"}
 			available = {
 				has_war_support > 0.5
+				has_war = yes
 				OR = {
 					has_government = fascism
 					has_government = communism
 					has_government = reactionary
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
-						has_war = yes
 						any_enemy_country = {
 							ic_ratio = {
 								tag = ROOT
