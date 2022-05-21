@@ -25,7 +25,10 @@ focus_tree = {
 			    ideology = fascism
 			    popularity = -0.05
 			}
-			
+			add_stability = 0.05
+			add_war_support = -0.1
+			unlock_decision_tooltip = sao_rid_authoritarianism
+			unlock_decision_tooltip = sao_rid_bad_officers
 		}
 	}
 
@@ -99,11 +102,10 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			set_country_flag = can_change_social_laws
-			unlock_decision_category_tooltip = change_social_laws
+			set_country_flag = sao_dealing_with_bra
+			unlock_decision_category_tooltip = SAO_BRA_category
 			add_stability = -0.05
 			add_war_support = -0.1
-			
 			
 		}
 		allow_branch = {
@@ -124,14 +126,25 @@ focus_tree = {
 		prerequisite = { focus = SAO_the_paulista_betrayal  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
-			add_opinion_modifier = {
-			    target = BRA
-			    modifier = medium_increase
+			diplomatic_relation = {
+			    country = BRA
+			    relation = non_aggression_pact
+			    active = yes
 			}
 			
+			add_opinion_modifier = {
+			    target = BRA
+			    modifier = large_decrease
+			}
 			
+			BRA = {
 			
+				add_opinion_modifier = {
+				    target = SAO
+				    modifier = large_decrease
+				}
+			
+			}
 		}
 	}
 
@@ -150,8 +163,22 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_political_power = -10
-			
-			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			}
+			unlock_decision_tooltip = sao_appease_the_elites
 		}
 	}
 
@@ -168,7 +195,10 @@ focus_tree = {
 		prerequisite = { focus = SAO_eye_to_eye_with_the_republic  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_ideas = {GEN_a_military_runned_by_the_police}
+			add_ideas = {GEN_a_military_run_by_the_police}
+			unlock_decision_tooltip = sao_hire_prudente
+			unlock_decision_tooltip = sao_hire_registro
+			unlock_decision_tooltip = sao_hire_marilia
 		}
 	}
 
@@ -262,6 +292,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_coffee_and_milk_line  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = sao_print_propaganda
+		}
 	}
 
 	#The Public Defence Force
@@ -276,6 +309,25 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_coffee_and_milk_line  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = tax_rate_exploitative_taxation
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 500
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = infantry_gear
+			    amount = 500
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = support_equipment
+			    amount = 500
+			    producer = SAO
+			}
+			add_stability = -0.2
+		}
 	}
 
 	#A Army in Name Only
@@ -307,6 +359,13 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = {minorities_protected}
 			add_manpower = 10000
+			add_timed_idea = {
+			    idea = GEN_uncontrolled_urban_growth
+			    days = 180
+			}
+			
+			
+			
 		}
 	}
 
@@ -353,6 +412,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = {private_mercenaries_contractors militia_training}
 			add_stability = -0.1
+			add_ideas = GEN_private_militias_under_control
 			
 			
 		}
@@ -418,6 +478,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_new_neighbors  } prerequisite = { focus = SAO_the_propaganda_war  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			501 = {
+				add_building_construction = {
+			    	type = radar_station
+			  	  level = 5
+			 	   instant_build = yes
+				}
+			}
+			add_ideas = GEN_the_silvio_santos_show
+			
+			
+		}
 	}
 
 	#Family Before Country
@@ -448,8 +520,21 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			swap_ideas = {
-			    remove_idea = trade_scope_regional_exports
-			    add_idea = trade_scope_international_exports
+			    remove_idea = trade_scope_closed_economy
+			    add_idea = trade_scope_regional_exports
+			}
+			remove_ideas = GEN_shattered_economy
+			28 = {
+				add_building_construction = {
+			    	type = arms_factory
+			  	  level = 1
+			 	   instant_build = yes
+				}
+				add_building_construction = {
+			    	type = industrial_complex
+			  	  level = 1
+			 	   instant_build = yes
+				}
 			}
 		}
 	}
@@ -722,6 +807,58 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_greyskiesoncemore  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			build_railway = {
+			  level = 3
+			  build_only_on_allied = yes
+			  controller_priority = {
+			    base = 1
+			   
+			    modifier = {
+			      tag = SAO
+			      add = 2
+			    }
+			  }
+			  fallback = yes
+			  start_state = 28
+			  target_state = 34
+			}
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  controller_priority = {
+			    base = 1
+			   
+			    modifier = {
+			      tag = SAO
+			      add = 2
+			    }
+			  }
+			  fallback = yes
+			  start_state = 28
+			  target_state = 33
+			}
+			
+			
+			34 = {
+				add_building_construction = {
+			 	   type = naval_base 
+			 	   level = 2
+			 	   instant_build = yes
+			  	  province = 4617
+				}
+			}
+			
+			33 = {
+				add_building_construction = {
+			 	   type = naval_base 
+			 	   level = 2
+			 	   instant_build = yes
+			  	  province = 4548 
+				}
+			}
+			
+		}
 	}
 
 	#La Garantía Soy Jo

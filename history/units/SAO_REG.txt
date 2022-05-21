@@ -1,0 +1,39 @@
+division_template = {
+	is_locked = yes
+	name = "Military Police Unit"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		cavalry = { x = 1 y = 0}
+		cavalry = { x = 1 y = 1}
+	}
+	support = {
+		military_police = { x = 0 y = 0}
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "Registro's 1st Mlitary Police Battalion"
+		location = 6259 
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Itapeva's 1st Mlitary Police Battalion"
+		location = 6258  
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Itapeva's 2nd Mlitary Police Battalion"
+		location = 307  
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Piraju's 1st Mlitary Police Battalion"
+		location = 6467  
+		division_template = "Military Police Unit"
+	}
+}

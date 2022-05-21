@@ -26,24 +26,24 @@ set_popularities = {
 }
 
 add_ideas = {
-religious_secularism
-confortable_living_standarts
-political_parties_controlled_opposition
-equal_rights
-free_press
-secondary_education
-economic_focus_civilian_economy
-trade_scope_closed_economy
-WR_minimal_regulations
-tax_rate_high_taxes
-SI_minimal_regulations
-slavery_outlawed
-conscription_disarmed_nation
-traditional_army_specialization
-training_none
-no_officer_training
-no_mercenaries
-draft_exemptions_civil_service_deferment
+	religious_secularism
+	confortable_living_standarts
+	political_parties_controlled_opposition
+	equal_rights
+	free_press
+	secondary_education
+	economic_focus_civilian_economy
+	trade_scope_closed_economy
+	WR_minimal_regulations
+	tax_rate_high_taxes
+	SI_minimal_regulations
+	slavery_outlawed
+	conscription_disarmed_nation
+	traditional_army_specialization
+	training_none
+	no_officer_training
+	no_mercenaries
+	draft_exemptions_civil_service_deferment
 	
 	GEN_the_2nd_constitutionalist_revolution
 	GEN_stolen_institutions 
@@ -51,7 +51,6 @@ draft_exemptions_civil_service_deferment
 	GEN_shattered_economy 
 }
 
-set_country_flag = is_brazilian #Why do we still use these old country flags anyway?
 set_country_flag = sao_show_main_focus
 
 create_country_leader = {

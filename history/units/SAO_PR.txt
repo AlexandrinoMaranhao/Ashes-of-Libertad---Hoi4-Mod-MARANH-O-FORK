@@ -1,0 +1,39 @@
+division_template = {
+	is_locked = yes
+	name = "Military Police Unit"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		cavalry = { x = 1 y = 0}
+		cavalry = { x = 1 y = 1}
+	}
+	support = {
+		military_police = { x = 0 y = 0}
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "Mirante's 1st Mlitary Police Battalion"
+		location = 4617
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Prudente's 1st Mlitary Police Battalion"
+		location = 4600 
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Prudente's 2nd Mlitary Police Battalion"
+		location = 1581 
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Prudente's 3rd Mlitary Police Battalion"
+		location = 4615 
+		division_template = "Military Police Unit"
+	}
+}

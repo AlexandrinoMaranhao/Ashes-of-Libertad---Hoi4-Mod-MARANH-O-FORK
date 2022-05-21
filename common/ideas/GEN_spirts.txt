@@ -33,6 +33,7 @@ party_popularity_stability_factor = 0.2
 line_change_production_efficiency_factor = -0.3
 industrial_capacity_factory = -0.45
 industrial_capacity_dockyard = -0.45
+stability_factor = -0.1
 			}
 		}
 
@@ -57,10 +58,55 @@ drift_defence_factor = 0.15
 			}
 		}
 
-		GEN_a_military_runned_by_the_police = {
-			picture = GEN_a_military_runned_by_the_police-225757
+		GEN_a_military_run_by_the_police = {
+			picture = GEN_a_military_run_by_the_police-225757
 			allowed = {
 				original_tag = SAO
+			}
+			modifier = {
+				land_doctrine_cost_factor = -0.05
+command_abilities_cost_factor = -0.3
+every_core_state = {
+	army_speed_factor_for_controller = 0.15
+	resistance_growth = -0.1
+	resistance_damage_to_garrison = -0.1
+}
+			}
+		}
+
+		GEN_the_silvio_santos_show = {
+			picture = GEN_the_silvio_santos_show-122541
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				stability_factor = 0.1
+trade_opinion_factor = 0.25
+			}
+		}
+
+		GEN_uncontrolled_urban_growth = {
+			picture = GEN_uncontrolled_urban_growth-115656
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				monthly_population = 0.1
+war_support_factor = -0.15
+stability_weekly = -0.02
+			}
+		}
+
+		GEN_private_militias_under_control = {
+			picture = GEN_private_militias_under_control-153592
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				army_core_defence_factor = 0.02
+experience_gain_army = 0.001
+weekly_manpower = 2
+stability_weekly = -0.001
 			}
 		}
 	}

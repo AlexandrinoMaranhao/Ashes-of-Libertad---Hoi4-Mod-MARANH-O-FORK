@@ -161,7 +161,7 @@ ideas = {
 				war_support_factor = -0.05
 				political_power_gain = -0.05
 			} 
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 			ai_will_do = { } 
 		}
 		conscription_volunteer_only = {
