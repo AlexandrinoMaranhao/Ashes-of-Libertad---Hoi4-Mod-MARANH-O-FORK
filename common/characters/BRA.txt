@@ -3,7 +3,7 @@ characters={
 		name="João Belchior Goulart"
 		portraits={
 			civilian={
-				large="GFX_portrait_europe_generic_8"
+				large="gfx/leaders/BRA/Portrait_BRA_João_Goulart.dds"
 			}
 		}
 		country_leader={
@@ -17,7 +17,7 @@ characters={
 		name="Leonel de Moura Brizola"
 		portraits={
 			civilian={
-				large="GFX_portrait_europe_generic_5"
+				large="gfx/leaders/BRA/Portrait_BRA_Leonel_Brizola.dds"
 			}
 		}
 		country_leader={
@@ -31,7 +31,7 @@ characters={
 		name="Irton Marx"
 		portraits={
 			civilian={
-				large="GFX_portrait_europe_generic_8"
+				large="gfx/leaders/BRA/Portrait_BRA_Irton_Marx.dds"
 			}
 		}
 		country_leader={
@@ -44,7 +44,7 @@ characters={
 		name="João de Segadas Viana"
 		portraits={
 			army={
-				small="GFX_Portrait_South_America_Generic_land_1_small"
+				small=""
 			}
 			army={
 				large="GFX_Portrait_South_America_Generic_land_1"
@@ -63,7 +63,7 @@ characters={
 		name="José Machado Lopes"
 		portraits={
 			army={
-				small="GFX_Portrait_South_America_Generic_land_1_small"
+				small=""
 			}
 			army={
 				large="GFX_Portrait_South_America_Generic_land_1"
