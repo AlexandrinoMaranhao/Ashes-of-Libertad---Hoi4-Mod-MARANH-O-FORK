@@ -55,7 +55,7 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "Elder Alberto Mendes Jr"
-	picture = "gfx/leaders/SAO/Portrait_ROT_Alberto_Mendes.dds"
+	#picture = "gfx/leaders/SAO/Portrait_ROT_Alberto_Mendes.dds"
 	desc = "MENDESJR_DESC"
 	expire = "1999.1.1"
 	ideology = military_government

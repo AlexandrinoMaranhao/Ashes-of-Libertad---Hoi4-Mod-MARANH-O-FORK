@@ -160,7 +160,7 @@ leader_traits = {
 		consumer_goods_factor = 0.1
 		war_support_factor = 0.05
         command_power_gain = 0.5
-        monthly_population = 0.5
+        monthly_population = -0.5
         max_command_power = 25	
 
 		ai_will_do = {

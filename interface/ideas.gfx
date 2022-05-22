@@ -31,32 +31,27 @@ spriteType ={
     name = "GFX_idea_CAI_cangaco_paulista"
     texturefile = "gfx/interface/ideas/CAI_cangaco_paulista.dds"
 } 
- 
                     
 spriteType ={
     name = "GFX_idea_TTC_the_black_rose_of_santos"
     texturefile = "gfx/interface/ideas/TTC_the_black_rose_of_santos.dds"
 } 
- 
                     
 spriteType ={
     name = "GFX_idea_TTC_technocratic_ambitions"
     texturefile = "gfx/interface/ideas/TTC_technocratic_ambitions.dds"
 } 
- 
                     
 spriteType ={
     name = "GFX_idea_caprichoso"
     texturefile = "gfx/interface/ideas/caprichoso.dds"
 } 
- 
                     
 spriteType ={
     name = "GFX_idea_garantido"
     texturefile = "gfx/interface/ideas/garantido.dds"
 } 
- 
-                    
+                   
 spriteType ={
     name = "GFX_idea_ACR_building_connection"
     texturefile = "gfx/interface/ideas/ACR_building_connection.dds" #ACR_war_train.dds

@@ -43,15 +43,15 @@ ideas = {
 
 		}
 
-		TYW_oil_refinery = {
+		TWP_oil_refinery = {
 
 		}
 
-		TYW_the_yellow_woodpeckers = {
+		TWP_the_yellow_woodpeckers = {
 
 		}
 
-		TYW_unfertile_land = {
+		TWP_unfertile_land = {
 
 		}
 
@@ -100,6 +100,10 @@ ideas = {
 		}
 
 		SBT_the_show_must_go_on = {
+
+		}
+
+		NLI_nova_liberdade = {
 
 		}
 	}

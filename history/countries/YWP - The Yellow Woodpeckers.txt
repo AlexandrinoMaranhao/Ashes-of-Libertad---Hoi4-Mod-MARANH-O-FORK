@@ -45,9 +45,9 @@ mercenary_officer_training
 mercenaries_batallions
 draft_exemptions_none
 	
-	TWP_the_yellow_woodpeckers
-	TWP_oil_refinery
-	TWP_unfertile_land
+	YWP_the_yellow_woodpeckers
+	YWP_oil_refinery
+	YWP_unfertile_land
 	THE_PAULISTA_CATASTROPHE
 }
 
@@ -56,7 +56,7 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "Carlos Walter Marinho" 
-	picture = "gfx/leaders/SAO/Portrait_TWP_Carlos_Walter_Marinho.dds"
+	#picture = "gfx/leaders/SAO/Portrait_YWP_Carlos_Walter_Marinho.dds"
 	desc = "YELLOWWOODPECKERS_DESC"
 	expire = "1999.1.1"
 	ideology = mercantile_oligarchy

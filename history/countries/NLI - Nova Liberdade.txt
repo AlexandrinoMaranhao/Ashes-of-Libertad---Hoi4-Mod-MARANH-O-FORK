@@ -45,8 +45,8 @@ militia_officer_training
 no_mercenaries
 draft_exemptions_civil_service_deferment
 	
-	CDC_the_legacy_of_marighella
-	CDC_autonomous_comune
+
+	NLI_nova_liberdade
 	THE_PAULISTA_CATASTROPHE
 }
 
