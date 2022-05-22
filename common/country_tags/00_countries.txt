@@ -1,3 +1,4 @@
+POR = "countries/Portugal.txt"
 PAI = "countries/Paraíba.txt"
 JCL = "countries/Lacerdas Brazil.txt" 
 JCS = "countries/Costas Brazil.txt" 

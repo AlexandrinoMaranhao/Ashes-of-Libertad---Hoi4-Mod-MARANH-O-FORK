@@ -16,11 +16,17 @@ country_event = {
 
     option = {
 		trigger = {
-			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+			OR = {
+				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_DISABLED }
+			}
 		}
         name = CFD_failometer_enabled.1.a
 		
         NUD = {
+			
+			add_opinion_modifier = { target = RPP modifier = large_increase }
+			
 			load_oob = "NUD_1967"
             transfer_state = 13
 			transfer_state = 503
@@ -65,6 +71,19 @@ country_event = {
             }
         }
 		RPP = {
+			
+			puppet = NUD
+			set_autonomy = {
+				target = NUD
+				autonomy_state = autonomy_wtt_imperial_subject
+				end_wars = no
+				end_civil_wars = no
+			}
+			CFD = {
+				every_core_state = {
+					add_core_of = RPP
+				}
+			}
 			load_oob = "RPP_1967"
 			transfer_state = 573
 			

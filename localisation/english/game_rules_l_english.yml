@@ -484,9 +484,16 @@
  RULE_OPTION_NO_ERN_BUFF:0 "Remove the AI Buff"
  RULE_OPTION_NO_ERN_BUFF_DESC:0 "The AI-Only buff for the Ejército Revolucionario will not be used upon the start of the game. Keeping the ERdN an easier fight."
  
- ###Fail'o'State effects
+ ###Fail'o'State settings
  FAIL_O_STATE_EFFECTS:0 "£infinity_icon Failstate'o'Meter Settings"
  FAIL_O_STATE_TRUE:0 "Keep it fun"
  FAIL_O_STATE_TRUE_DESC:0 "This will allows the game to create the most wacky and interesting factions to be born from the Failstate'o'Meter effects!"
  FAIL_O_STATE_FALSE:0 "Keep it realistic"
  FAIL_O_STATE_FALSE_DESC:0 "This will keep the Failstate'o'Meter effects, but factions that are too wacky or non-realistic with the AoL's lore and aesthetics will not be shown."
+ 
+ ###Portclave (joke creation)
+ PORTOCLAVE_SETTINGS:0 "£GFX_portuclave The Portuguese Enclave (Fun Box)" 
+ PORTOCLAVE_ENABLED:0 "§GSpawn the Enclave Devils.§!"
+ PORTOCLAVE_ENABLED_DESC:0 "This will trigger the requirements to activate the §GPortuguese Enclave§! in Fernando de Noronha. Be aware of their plans for your nation once they are done."
+ PORTOCLAVE_DISABLED:0 "Disabled"
+ PORTOCLAVE_DISABLED_DESC:0 "The Portuguese Enclave will not spawn. And thus, continue normal AoL gameplay."

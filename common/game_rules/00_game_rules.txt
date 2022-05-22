@@ -617,6 +617,23 @@ ERN_buff_status = {
 	}
 }
 
+portoclave_setup = {
+	name = "PORTOCLAVE_SETTINGS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = PORTOCLAVE_DISABLED
+		text = "PORTOCLAVE_DISABLED"
+		desc = "PORTOCLAVE_DISABLED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = PORTOCLAVE_ENABLED
+		text = "PORTOCLAVE_ENABLED"
+		desc = "PORTOCLAVE_ENABLED_DESC"
+		allow_achievements = no
+	}
+}
+
  #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
  #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
  #     #   #       #        #           #        #      #   # #   #  #        #       

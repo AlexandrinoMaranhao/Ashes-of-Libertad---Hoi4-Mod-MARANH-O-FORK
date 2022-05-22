@@ -1,0 +1,24 @@
+gamerules_check = {
+	portuclave_activation = {
+		cost = 9999
+		days_remove = 1
+		allowed = {
+			NOT = {
+				has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_DISABLED }
+			}
+		}
+		activation = {
+			NOT = {
+				has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_DISABLED }
+			}
+		}
+		complete_effect = {
+			POR = {
+				transfer_state = 2
+			}
+		}
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

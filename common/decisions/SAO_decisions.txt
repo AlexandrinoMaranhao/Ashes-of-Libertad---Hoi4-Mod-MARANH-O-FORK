@@ -267,7 +267,8 @@ SAO_international_diplomacy_category = {
 	
 	##Remember to add more c:
 	sao_institutions_remover = {
-		cost = 50
+		cost = 2
+		fire_only_once = yes
 		visible = {
 			AND = {
 				SAO = {has_completed_focus = SAO_eye_to_eye_with_the_republic }
@@ -284,6 +285,262 @@ SAO_international_diplomacy_category = {
 			SAO = {
 				remove_ideas = {GEN_stolen_institutions}
 			}
+		}		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+################## SÃO PAULO - ARGENTINA TRADING BUSINESS ##################
+	SAO_business_with_ARG = {
+		cost = 50
+		
+		activation = {
+			SAO = {has_completed_focus = SAO_lagarantiasoyjo }
+		}
+		visible = {
+			original_tag = SAO
+			SAO = {has_completed_focus = SAO_lagarantiasoyjo }
+		}
+		available = {
+			original_tag = SAO
+			SAO = {has_completed_focus = SAO_lagarantiasoyjo }
+		}
+		complete_effect = {
+			set_state_flag = SAO_business_with_ARG
+			ARG = {
+				add_opinion_modifier = { target = ARG modifier = large_increase }
+			}
+		}	
+	}
+	SAO_ARG_steel1 = {
+		icon = GFX_decision_icon_default
+		cost = 40
+		days_remove = 120
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				SAO = {has_country_flag = SAO_business_with_ARG}
+				has_equipment = {
+					convoy > 99
+				}
+				
+			}
+		}
+		visible = {
+			SAO = {has_country_flag = SAO_business_with_ARG}
+		}
+		complete_effect = {
+			SAO = {
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -100
+					producer = ROOT
+				}
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 10
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			add_war_support = -0.02
+			add_political_power = 5
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	SAO_ARG_steel2 = {
+		icon = GFX_decision_icon_default
+		cost = 25
+		days_remove = 120
+		is_good = yes
+		fire_only_once = yes
+		#days_re_enable = 24
+		
+		available = {
+			AND = {
+				SAO = {has_country_flag = SAO_business_with_ARG}
+				has_equipment = {
+					convoy > 99
+				}
+				
+			}
+		}
+		visible = {
+			SAO = {has_country_flag = SAO_business_with_ARG}
+		}
+		complete_effect = {
+			SAO = {
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -100
+					producer = ROOT
+				}
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 5
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			add_war_support = -0.02
+			add_political_power = 5
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	SAO_ARG_ammo1 = {
+		icon = GFX_decision_icon_default
+		cost = 40
+		days_remove = 120
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				SAO = {has_country_flag = SAO_business_with_ARG}
+				has_equipment = {
+					convoy > 99
+				}
+				
+			}
+		}
+		visible = {
+			SAO = {has_country_flag = SAO_business_with_ARG}
+		}
+		complete_effect = {
+			SAO = {
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -100
+					producer = ROOT
+				}
+				capital_scope = {
+					add_resource = {
+						type = ammunition
+						amount = 10
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			add_war_support = -0.02
+			add_political_power = 5
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	SAO_ARG_ammo2 = {
+		icon = GFX_decision_icon_default
+		cost = 25
+		days_remove = 120
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				SAO = {has_country_flag = SAO_business_with_ARG}
+				has_equipment = {
+					convoy > 99
+				}
+				
+			}
+		}
+		visible = {
+			SAO = {has_country_flag = SAO_business_with_ARG}
+		}
+		complete_effect = {
+			SAO = {
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -100
+					producer = ROOT
+				}
+				capital_scope = {
+					add_resource = {
+						type = ammunition
+						amount = 5
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			add_war_support = -0.02
+			add_political_power = 5
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	SAO_ARG_motor_tech = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 120
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				SAO = {has_country_flag = SAO_business_with_ARG}
+				has_equipment = {
+					convoy > 99
+				}
+				
+			}
+		}
+		visible = {
+			SAO = {has_country_flag = SAO_business_with_ARG}
+		}
+		complete_effect = {
+			SAO = {
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -200
+					producer = ROOT
+				}
+				capital_scope = {
+					add_resource = {
+						type = motors
+						amount = 6
+					}	
+					add_resource = {
+						type = technology
+						amount = 6
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.9
+		}
+		remove_effect = {
+			add_war_support = -0.02
+			add_political_power = 5
+		}
+		ai_will_do = {
+			factor = 999
 		}
 	}
 }
