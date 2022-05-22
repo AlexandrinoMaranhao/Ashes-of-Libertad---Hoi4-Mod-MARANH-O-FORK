@@ -1,0 +1,79 @@
+characters={
+	JAG_newton_cruz={
+		name="Newton Cruz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/JAG/Portrait_JAG_Newton_Cruz.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	JAG_washington_vaz_de_melo={
+		name="Washington Vaz de Melo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/JAG/Portrait_JAG_Washington_Vaz_de_Melo.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JAG_carlos_brilhante_ustra={
+		name="Carlos Brilhante Ustra"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/JAG/Portrait_JAG_Carlos_Brilhante_Ustra.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	JAG_josé_anselmo_dos_santos={
+		name="José Anselmo dos Santos"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/JAG/Portrait_JAG_Jose_Anselmo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

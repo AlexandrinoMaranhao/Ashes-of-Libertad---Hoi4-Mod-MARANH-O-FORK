@@ -67,14 +67,6 @@ create_country_leader = {
 
 create_country_leader = {#intended for name showcase only
 	
-	name = "Jânio Quadros"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
-	expire = "1999.1.1"
-	ideology = conservatism 
-}
-
-create_country_leader = {#intended for name showcase only
-	
 	name = "Laudo Natel"
 	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
 	expire = "1999.1.1"
@@ -89,20 +81,6 @@ create_country_leader = {#intended for name showcase only
 	ideology = guerrilla 
 }
 
-create_country_leader = {#intended for name showcase only
-	
-	name = "------"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
-	expire = "1999.1.1"
-	ideology = centrism 
-}
-create_field_marshal = {
-	name = "Brasilio Taborda"
-	portrait_path = "gfx/leaders/JCL/Portrait_SAO_Brasílio_Taborda.dds"
-	traits = { trait_reckless }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
+recruit_character = SAO_jânio_quadros
+recruit_character = SAO_o
+recruit_character = SAO_brasilio_taborda

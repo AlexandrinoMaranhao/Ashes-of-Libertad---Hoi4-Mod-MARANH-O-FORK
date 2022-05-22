@@ -97,7 +97,7 @@ create_country_leader = {
 
         create_field_marshal = {
 	name = "João Amazonas"
-	picture = "gfx/leaders/ROR/.dds"
+	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -118,7 +118,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Elza Monnerat"
-	picture = "gfx/leaders/ROR/.dds"
+	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -138,7 +138,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Lúcia Maria de Souza"
-	picture = "gfx/leaders/ROR/.dds"
+	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 1
 	attack_skill = 4

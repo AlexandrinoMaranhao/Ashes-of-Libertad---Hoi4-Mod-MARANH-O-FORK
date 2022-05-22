@@ -6,12 +6,9 @@ SAO_category = {
     priority = 300
 }
 
-SAO_BRA_category = {
+SAO_international_diplomacy_category = {
 	available = {
-		AND = {
-			has_country_flag = sao_dealing_with_bra
-			original_tag = SAO
-		}
+		original_tag = SAO
 	}
 	icon = GFX_decision_category_acrean_raids
     priority = 300

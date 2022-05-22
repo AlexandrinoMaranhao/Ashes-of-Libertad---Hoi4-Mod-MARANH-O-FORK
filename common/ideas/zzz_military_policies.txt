@@ -581,7 +581,7 @@ ideas = {
 		law = yes
 		no_mercenaries = {
 		picture = light_level_2
-			available = { has_idea = no_mercenaries }
+			available = {}
 			cost = 100
 			removal_cost = -1
 			level = 5

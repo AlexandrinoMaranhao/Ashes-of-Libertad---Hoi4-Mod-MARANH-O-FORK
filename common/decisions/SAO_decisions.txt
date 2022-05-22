@@ -262,21 +262,21 @@ SAO_category = {
 }
 
 
-##################		SAO-BRA Decisions.		##################
-SAO_BRA_category = {
+##################		International Country Diplomacy Decisions.		##################
+SAO_international_diplomacy_category = {
 	
 	##Remember to add more c:
 	sao_institutions_remover = {
 		cost = 50
 		visible = {
 			AND = {
-				has_country_flag = sao_dealing_with_bra
+				SAO = {has_completed_focus = SAO_eye_to_eye_with_the_republic }
 				original_tag = SAO
 			}
 		}
 		available = {
 			AND = {
-				has_country_flag = sao_dealing_with_bra
+				SAO = {has_completed_focus = SAO_eye_to_eye_with_the_republic }
 				original_tag = SAO
 			}
 		}

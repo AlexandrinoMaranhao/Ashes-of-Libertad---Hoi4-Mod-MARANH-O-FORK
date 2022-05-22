@@ -1,0 +1,62 @@
+characters={
+	RMI_sinval_de_oliveira_bambirra={
+		name="Sinval de Oliveira Bambirra"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RMI/Portrait_RMI_Gilney_Viana.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious infantry_officer defensive_doctrine }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RMI_joão_lucas_alves={
+		name="João Lucas Alves"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RMI/Portrait_RMI_Joao_Lucas_Alves.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist trait_cautious }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RMI_severino_viana_colon={
+		name="Severino Viana Colon"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RMI/Portrait_RMI_Severino.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

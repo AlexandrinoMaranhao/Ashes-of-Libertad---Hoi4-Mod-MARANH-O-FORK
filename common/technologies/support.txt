@@ -484,15 +484,13 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = GER
+				tag = ACR
 			}
 
 			modifier = {
 				factor = 10
-				tag = GER
+				tag = SAO
 
-				POL = { has_capitulated = yes }
-				GER = { has_war = yes }
 			}
 			
 			modifier = {
@@ -1061,7 +1059,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = GER
+				tag = ACR
 			}
 		}
 	}
@@ -1392,7 +1390,7 @@ technologies = {
 
 			modifier = {
 				OR = {
-					TAG = GER
+					TAG = ACR
 					tag = SOV
 				}
 				factor = 1.5
@@ -1523,7 +1521,7 @@ technologies = {
 				factor = 20
 			}
 			modifier = {
-				tag = GER
+				tag = ACR
 				factor = 5
 			}
 			modifier = {

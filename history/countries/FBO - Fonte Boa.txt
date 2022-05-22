@@ -36,15 +36,6 @@ memories_of_araguaia
 living_at_the_limit
 }
 
-set_country_flag = is_amazonian
-set_country_flag = is_brazilian
-
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -58,34 +49,6 @@ create_country_leader = {
 		#
 	}
 }
-        create_corps_commander = {
-	name = "Dinalva Oliveira Teixeira"
-	portrait_path = ""
-	traits = {  }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 1
-}
-        create_corps_commander = {
-	name = "Adriano Fonseca"
-	portrait_path = ""
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-        create_field_marshal = {
-	name = "Carlos Lamarca"
-	portrait_path = "gfx/leaders/FBO/Portrait_FBO_Lamarca_Portrait.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
+recruit_character = FBO_dinalva_oliveira_teixeira
+recruit_character = FBO_adriano_fonseca
+recruit_character = FBO_carlos_lamarca

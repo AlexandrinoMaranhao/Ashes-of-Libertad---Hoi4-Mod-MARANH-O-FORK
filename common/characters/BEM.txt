@@ -1,0 +1,134 @@
+characters={
+	BEM_jurandir_bizarria_mamede={
+		name="Jurandir Bizarria Mamede"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/BEM/Portrait_BEM_Jurandir_Bizarria_Mamede.dds"
+			}
+		}
+		field_marshal={
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	BEM_olavo_viana_moog={
+		name="Olavo Viana Moog"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/BEM/Portrait_BEM_Olavo_Viana_Moog.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BEM_carlos_alberto_cabral_ribeiro={
+		name="Carlos Alberto Cabral Ribeiro"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/BEM/Portrait_BEM_Carlos_Alberto_Cabral_Ribeiro.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	BEM_liciel_maciel={
+		name="Liciel Maciel"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/BEM/Portrait_BEM_Lício_Maciel.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BEM_peter_taylor={
+		name="Peter Taylor"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_6"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ dealbroker }
+			expire="1948.1.1.12"
+			id=-1
+		}
+	}
+	BEM_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_4"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1954.1.1.12"
+			id=-1
+		}
+	}
+	BEM_john_wilson={
+		name="John Wilson"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=gen_nazism
+			expire="1944.1.1.12"
+			id=-1
+		}
+	}
+	BEM_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits={ ideological_crusader financial_expert }
+			expire="1950.1.1.12"
+			id=-1
+		}
+	}
+}

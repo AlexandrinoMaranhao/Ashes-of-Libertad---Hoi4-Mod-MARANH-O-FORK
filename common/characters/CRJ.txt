@@ -1,0 +1,200 @@
+characters={
+	CRJ_olímpio_mourão_filho={
+		name="Olímpio Mourão Filho"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CRJ_Olimpio_Mourao.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CRJ_danilo_venturini={
+		name="Danilo Venturini"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Danilo_Venturini.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless war_hero }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CRJ_diogo_de_oliveira_figueiredo={
+		name="Diogo de Oliveira Figueiredo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Diogo_de_Oliveira_Figueiredo.dds"
+			}
+		}
+		field_marshal={
+			traits={ cavalry_officer armor_officer politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CRJ_joão_punaro_bley={
+		name="João Punaro Bley"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Joao_Punaro.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CRJ_jair_dantas_ribeiro={
+		name="Jair Dantas Ribeiro"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Jair_Dantas.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	CRJ_césar_montagna={
+		name="César Montagna"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Cesar_Montagna.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CRJ_antônio_luiz_rocha_veneu={
+		name="Antônio Luiz Rocha Veneu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Antonio_Veneu.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CRJ_argus_fagundes_ourique_moreira={
+		name="Argus Fagundes Ourique Moreira"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Argus_Fagundes.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer infantry_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CRJ_raymundo_nonato_de_cerqueira_filho={
+		name="Raymundo Nonato de Cerqueira Filho"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Raimundo_Nonato.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CRJ_sergio_ernesto_alves_conforto={
+		name="Sergio Ernesto Alves Conforto"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CRJ/Portrait_CJR_Sergio_Ernesto.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

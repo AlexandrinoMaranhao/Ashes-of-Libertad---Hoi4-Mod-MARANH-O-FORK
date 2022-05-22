@@ -34,13 +34,6 @@ add_ideas = {
     trabalhismo_mineiro
 }
 
-set_country_flag = is_brazilian
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -62,36 +55,6 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Sinval de Oliveira Bambirra"
-	desc = "BAMBIRRA_DESC"
-	portrait_path = "gfx/leaders/RMI/Portrait_RMI_Gilney_Viana.dds"
-	traits = { defensive_doctrine trait_cautious infantry_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "João Lucas Alves"
-	portrait_path = "gfx/leaders/RMI/Portrait_RMI_Joao_Lucas_Alves.dds"
-	traits = { brilliant_strategist trait_cautious }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Severino Viana Colon"
-	portrait_path = "gfx/leaders/RMI/Portrait_RMI_Severino.dds"
-	traits = { trait_cautious }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+recruit_character = RMI_sinval_de_oliveira_bambirra
+recruit_character = RMI_joão_lucas_alves
+recruit_character = RMI_severino_viana_colon

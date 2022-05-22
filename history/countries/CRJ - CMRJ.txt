@@ -76,112 +76,13 @@ create_country_leader = {
 }
 
 
-create_field_marshal = {
-	name = "Olímpio Mourão Filho"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CRJ_Olimpio_Mourao.dds"
-	traits = { defensive_doctrine trait_cautious armor_officer harsh_leader }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Danilo Venturini"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Danilo_Venturini.dds"
-	traits = {  trait_reckless war_hero }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Diogo de Oliveira Figueiredo"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Diogo_de_Oliveira_Figueiredo.dds"
-	traits = { politically_connected cavalry_officer armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "João Punaro Bley"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Joao_Punaro.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Jair Dantas Ribeiro"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Jair_Dantas.dds"
-	traits = { infantry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "César Montagna"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Cesar_Montagna.dds"
-	traits = { infantry_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Antônio Luiz Rocha Veneu"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Antonio_Veneu.dds"
-	traits = { brilliant_strategist }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Argus Fagundes Ourique Moreira"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Argus_Fagundes.dds"
-	traits = { career_officer infantry_officer brilliant_strategist }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Raymundo Nonato de Cerqueira Filho"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Raimundo_Nonato.dds"
-	traits = { }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Sergio Ernesto Alves Conforto"
-	portrait_path = "gfx/leaders/CRJ/Portrait_CJR_Sergio_Ernesto.dds"
-	traits = { career_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
+recruit_character = CRJ_olímpio_mourão_filho
+recruit_character = CRJ_danilo_venturini
+recruit_character = CRJ_diogo_de_oliveira_figueiredo
+recruit_character = CRJ_joão_punaro_bley
+recruit_character = CRJ_jair_dantas_ribeiro
+recruit_character = CRJ_césar_montagna
+recruit_character = CRJ_antônio_luiz_rocha_veneu
+recruit_character = CRJ_argus_fagundes_ourique_moreira
+recruit_character = CRJ_raymundo_nonato_de_cerqueira_filho
+recruit_character = CRJ_sergio_ernesto_alves_conforto

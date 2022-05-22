@@ -30,37 +30,5 @@ add_ideas = {
 	conscription_two_year_draft
 }
 
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
-
-
-create_country_leader = {
-	
-	name = "Ranieri Mazzilli"
-	picture = "gfx/leaders/JRM/Portrait_JUN_Ranieri_Mazzilli.dds"
-	expire = "1999.1.1"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	
-	name = "Emílio Garrastazu Médici"
-	picture = "gfx/leaders/JRM/Portrait_JUN_Emilio_Garrastazu_Medici.dds"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-}
-
-create_field_marshal = {
-	name = "Emílio Garrastazu Médici"
-	portrait_path = "gfx/leaders/JRM/Portrait_JRM_Emilio_Garrastazu_Medici.dds"
-	traits = { trickster harsh_leader politically_connected }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
+recruit_character = JRM_ranieri_mazzilli
+recruit_character = JRM_emílio_garrastazu_médici
