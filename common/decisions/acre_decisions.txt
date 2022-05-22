@@ -225,7 +225,9 @@ acrean_senate = {
 		visible = {
 			AND = {
 			original_tag = ACR
-			has_completed_focus = ACR_national_rearment_act
+				ACR = {
+					has_completed_focus = ACR_national_rearment_act
+				}
 			}
 		}
 		cost = 50

@@ -4,6 +4,9 @@ oob = "UFO_1967"
 
 # Starting tech
 set_technology = {
+    	motorised_infantry = 1
+    	true_motorised_infantry = 1
+    	infantry_gear = 1
 	infantry_weapons = 1
 }
 
@@ -27,15 +30,9 @@ set_popularities = {
 
 add_ideas = {
 	UFO_the_akashic_records
-UFO_the_think_tank
+	UFO_the_think_tank
 }
 
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	

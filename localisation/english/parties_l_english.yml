@@ -457,8 +457,6 @@ CNU_democratic_party_long:0 "Governo Provisório da Bahia"
 AMA_democratic_party:0 "PSB - A"
 AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
 
-CFD_reactionary_party:0 "UFNB"
-CFD_reactionary_party:0 "União Federativa do Nordeste Brasileiro"
 
 PEB_reactionary_party:0 "GP"
 PEB_reactionary_party_long:0 "Governo do Pernambuco"
@@ -520,9 +518,9 @@ HON_fascism_party_long:0 "Standard Fruit & Steamship Company's Board of Director
 HON_reactionary_party:0 "FNLH"
 HON_reactionary_party_long:0 "Frente Nacional para la Liberación Hondureña"
 HON_military_fascism_party:0 "CRN"
-HON_military_fascism_party:0 "Consejo de Reforma Nacional"
-HON_military_reactionary_party:0 "CRN"
-HON_military_reactionary_party:0 "Consejo de Reforma Nacional - Gustavistas"
+HON_military_fascism_long:0 "Consejo de Reforma Nacional"
+HON_military_reactionary:0 "CRN"
+HON_military_reactionary_long:0 "Consejo de Reforma Nacional - Gustavistas"
 
 HNM_military_fascism_party:0 "CRN"
 HNM_military_fascism_party:0 "Consejo de Reforma Nacional"
@@ -542,10 +540,10 @@ ELS_communism_party_long:0 "Left Guerrillas"
 ELS_democratic_party:0 "PDC"
 ELS_democratic_party_long:0 "Partido Demócrata Cristiano"
 ELS_JRG_fascism_party:0 "JRG"
-ELS_JRG_fascism_party:0 "Junta Revolucionaria de Gobierno"
+ELS_JRG_fascism_party_long:0 "Junta Revolucionaria de Gobierno"
 
 NIC_communism_party:0 "FSLN"
-NIC_communism_party:0 "Frente Sandinista de Liberación Nacional"
+NIC_communism_party_long:0 "Frente Sandinista de Liberación Nacional"
 
 COS_communism_party:0 "PVP"
 COS_communism_party_long:0 "Partido Vanguardia Popular"
@@ -556,7 +554,7 @@ PAN_democratic_party:0 "PLN"
 PAN_democratic_party_long:0 "Partido Liberal Nacional"
 
 PAM_fascism_party:0 "GRP"
-PAM_fascism_party:0 "Gobierno de la Revolución Panameña"
+PAM_fascism_party_long:0 "Gobierno de la Revolución Panameña"
 
 ## Colombia ##
 COL_democratic_party:0 "FN-PLC"
@@ -594,7 +592,7 @@ BOL_democratic_party_long:0 "Movimiento Popular Cristiano"
 
 ## Peru ##
 PRU_democratic_party:0 "Coalición APRA-UNO"
-PRU_democratic_party:0 "Coalición de Alianza Popular Revolucionaria Americana y Unión Nacional Odriista"
+PRU_democratic_party_long:0 "Coalición de Alianza Popular Revolucionaria Americana y Unión Nacional Odriista"
 PRU_communism_party:0 "APRA"
 PRU_communism_party_long:0 "Alianza Popular Revolucionaria Americana"
 PRU_reactionary_party:0 "UNO"
@@ -664,20 +662,30 @@ BTA_fascism_party:0 "PAP"
 BTA_fascism_party_long:0 "Partido de Acción Progresista"
 
 ECR_communism_party:0 "Alfa 66"
-ECR_communism_party_party:0 "Alfa 66"
+ECR_communism_party_long:0 "Alfa 66"
 
 RUM_neutrality_party:0 "José Arechabala S.A."
 RUM_neutrality_party_long:0 "José Arechabala S.A."
 
 DRE_communism_party:0 "DRE"
-DRE_communism_party:0 "Directorio Revolucionario Estudiantil"
+DRE_communism_party_long:0 "Directorio Revolucionario Estudiantil"
 
 ACC_fascism_party:0 "LAC"
 ACC_fasciam_party_long:0 "Legión Anticomunista del Caribe"
 
 ## Haiti ##
 HAI_reactionary_party:0 "PUN"
-HAI_reactionary_party:0 "Parti de l'Unité Nationale"
+HAI_reactionary_party_long:0 "Parti de l'Unité Nationale"
 
 DOM_democratic_party:0 "PRD"
-DOM_democratic_party:0 "Partido Revolucionario Dominicano"
+DOM_democratic_party_long:0 "Partido Revolucionario Dominicano"
+
+## Nordeste ##
+  CFD_reactionary_party:0 "UFNB"
+  CFD_reactionary_party_long:0 "União Federativa do Nordeste Brasileiro"
+  RPP_communism_party:0 "GRP"
+  RPP_communism_party_long:0 "Governo Revolucionario Pernambucano"
+  NUD_democratic_party:0 "UN"
+  NUD_democratic_party_long:0 "União pelo Nordeste"
+  NUD_communism_party:0 "UPN"
+  NUD_communism_party_long:0 "União Popular Nordestina"
