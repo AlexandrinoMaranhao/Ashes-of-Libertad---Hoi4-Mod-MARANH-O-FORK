@@ -3,7 +3,7 @@ GNIS_volunteers = {
 	icon = GFX_generic_formable_nations
 	picture = #GFX_
 	
-	allowed = {
+	available = {
 		has_country_flag = special_volunteers
 	}
 	

@@ -1,1 +1,13 @@
-#
+weaponstash_system_category = {
+	priority = 20
+	icon = GFX_generic_formable_nations
+	picture = #GFX_
+	
+	available = {
+		has_country_flag = can_stash
+	}
+	
+	visible = {
+		has_country_flag = can_stash
+	}
+}
