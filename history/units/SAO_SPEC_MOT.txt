@@ -1,0 +1,24 @@
+division_template = {
+	is_locked = yes
+	name = "Batalhão Experimental de Resposta Rápida"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+       		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+       		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "1° Batalhão Experimental de Resposta Rápida"
+		location = 6474
+		division_template = "Batalhão Experimental de Resposta Rápida"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}

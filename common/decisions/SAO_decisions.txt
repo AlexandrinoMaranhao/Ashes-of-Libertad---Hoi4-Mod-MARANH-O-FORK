@@ -37,11 +37,11 @@ SAO_category = {
 		}
 		complete_effect = {
 			SAO = {
-				clr_character_flag = sao_show_main_focus
+				clr_country_flag = sao_show_main_focus
 				set_country_flag = sao_focus_phase_two
 				mark_focus_tree_layout_dirty = yes
 				load_focus_tree = sao-phase-two
-				}
+			}
 		}
 		ai_will_do = {
 			factor = -1
@@ -259,9 +259,205 @@ SAO_category = {
 			factor = 1
 		}
 	}
+
+##################		Resettling Decisions.		##################
+	sao_resettling_riograndeses = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_cariocas = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_mineiros = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_midwestern = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_northeastern = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_europeans = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_americans = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
-
-
 ##################		International Country Diplomacy Decisions.		##################
 SAO_international_diplomacy_category = {
 	

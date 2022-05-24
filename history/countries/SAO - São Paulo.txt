@@ -84,3 +84,5 @@ create_country_leader = {#intended for name showcase only
 recruit_character = SAO_jânio_quadros
 recruit_character = SAO_o
 recruit_character = SAO_brasilio_taborda
+recruit_character = SAO_joao_figueiredo
+recruit_character = SAO_sergio_fleury

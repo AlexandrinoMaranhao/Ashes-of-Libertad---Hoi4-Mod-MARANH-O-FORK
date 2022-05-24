@@ -1,16 +1,11 @@
 gamerules_check = {
 	portuclave_activation = {
-		cost = 9999
 		days_remove = 1
-		allowed = {
-			NOT = {
-				has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_DISABLED }
-			}
+		available = {
+			has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_ENABLED }
 		}
 		activation = {
-			NOT = {
-				has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_DISABLED }
-			}
+			has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_ENABLED }
 		}
 		complete_effect = {
 			POR = {

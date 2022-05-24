@@ -1,0 +1,18 @@
+division_template = {
+	name = "Despache da Policia Militiar"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1° Commando Civil Paulista"
+		location = 6474
+		division_template = "Despache da Policia Militiar"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

@@ -1,5 +1,4 @@
 division_template = {
-	is_locked = yes
 	name = "Infantaria"
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +13,6 @@ division_template = {
 }
 
 division_template = {
-	is_locked = yes
 	name = "Artilharia de Campanha"
 	regiments = {
 		infantry = { x = 0 y = 0 }

@@ -381,6 +381,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_resettling_the_immigrants  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = sao_resettling_riograndeses
+			unlock_decision_tooltip = sao_resettling_cariocas
+			unlock_decision_tooltip = sao_resettling_mineiros
+			unlock_decision_tooltip = sao_resettling_midwestern
+			unlock_decision_tooltip = sao_resettling_northeastern
+			unlock_decision_tooltip = sao_resettling_europeans
+			unlock_decision_tooltip = sao_resettling_americans
+			add_stability = 0.1
+			
+			
+		}
 	}
 
 	#Figueiredo's Reforms
@@ -723,6 +735,26 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_sweep_corruption_under_the_rug  } prerequisite = { focus = SAO_policing_the_city_of_drizzle  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			28 = {
+				add_resource = {
+				type = oil
+				amount = 10
+				}	
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+			load_oob = "SAO_SPEC_MOT"
+			
+		}
 	}
 
 	#Sweep Corruption Under the Rug
@@ -737,6 +769,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_greyskiesoncemore  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+		 add_ideas = GEN_a_esperana_deste_povo_abandonado 
+			
+			
+			
+		}
 	}
 
 	#Policing the City of Drizzle
@@ -751,6 +789,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_greyskiesoncemore  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			load_oob = "SAO_DES"
+			
+		}
 	}
 
 	#Today, in the Silvio Santos Show...
@@ -779,6 +821,33 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_greyskiesoncemore  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_opinion_modifier = { target = UBA modifier = large_increase }
+			add_opinion_modifier = { target = JUN modifier = large_increase }
+			add_opinion_modifier = { target = LAM modifier = large_increase }
+			add_opinion_modifier = { target = BEM modifier = large_increase }
+			add_opinion_modifier = { target =JAG modifier = large_increase }
+			add_opinion_modifier = { target =CRJ modifier = large_increase }
+			add_opinion_modifier = { target =BRA modifier = medium_decrease}
+			
+			UBA = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 100
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = infantry_gear
+			    amount = 100
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = support_equipment
+			    amount = 100
+			    producer = SAO
+			}
+			}
+		}
 	}
 
 	#Sneak into the Junta
@@ -793,6 +862,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_invest_in_the_triangle  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			diplomatic_relation = {
+			    country = UBA
+			    relation = non_aggression_pact
+			    active = yes
+			}
+			diplomatic_relation = {
+			    country = JUN
+			    relation = non_aggression_pact
+			    active = yes
+			}
+		}
 	}
 
 	#River Highways
@@ -873,6 +954,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_river_highways  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_opinion_modifier = { target = URG modifier = large_increase }
+			add_opinion_modifier = { target = PAR modifier = large_increase }
+			add_opinion_modifier = { target = ARG modifier = large_increase }
+			unlock_decision_tooltip = SAO_business_with_ARG
+		}
 	}
 
 }

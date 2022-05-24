@@ -3,7 +3,7 @@ characters={
 		name="Jânio Quadros"
 		portraits={
 			civilian={
-				large="GFX_portrait_europe_generic_8"
+				large="gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
 			}
 		}
 		country_leader={
@@ -29,7 +29,7 @@ characters={
 		name="Brasilio Taborda"
 		portraits={
 			army={
-				small=""
+				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
 			}
 			army={
 				large="gfx/leaders/JCL/Portrait_SAO_Brasílio_Taborda.dds"
@@ -43,6 +43,68 @@ characters={
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
+		}
+	}
+	SAO_joao_figueiredo={
+		name="João Figueiredo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/joao_figueiredo.dds"
+				large="gfx/leaders/SAO/Portrait_SAO_Joao_figueiredo.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected thorough_planner inspirational_leader }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+			visible = {
+				SAO = {
+					has_completed_focus = SAO_a_army_in_name_only
+				}
+			}
+		}
+	}
+	SAO_sergio_fleury ={
+		name="Sérgio Fleury"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/sergio_fleury.dds"
+				large="gfx/leaders/SAO/Portrait_SAO_Sergio_Fleury.dds"
+			}
+		}
+	corps_commander={
+			traits={urban_assault_specialist fortress_buster }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				SAO = {
+					has_completed_focus = SAO_figueiredosreforms
+				}
+			}
+		}
+		advisor={
+			slot = high_command
+			ledger = army
+			available = {
+				SAO = {
+					has_completed_focus = SAO_figueiredosreforms
+				}
+			}
+			traits = {
+				sec_prince_of_terror army_chief_drill_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 }

@@ -53,5 +53,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_private_militias_under_control-153592.dds"
 	}
 
+	##Icon For: A Esperança deste Povo Abandonado
+	SpriteType = { 
+		name = "GFX_idea_GEN_a_esperana_deste_povo_abandonado-114532"
+		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_a_esperana_deste_povo_abandonado-114532.dds"
+	}
+
+	##Icon For: The Drizzle's Police
+	SpriteType = { 
+		name = "GFX_idea_GEN_the_drizzles_police-229857"
+		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_the_drizzles_police-229857.dds"
+	}
+
  
  }
