@@ -9,7 +9,17 @@ spriteTypes = {
 #		texturefile = "gfx/interface/ideas/idea_africa_generic_1.dds"
 #	}
 
+###Sertaneja's advisors###
+	spriteType = {
+		name = "GFX_idea_father_almeida_lustosa_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/father_almeida_lustosa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_afonso_farias_mello_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/afonso_farias_mello.dds"
+	}
 	
+###El_Generico Quadrant###
 	spriteType = {
 		name = "GFX_el_generico1"
 		texturefile = "gfx/leaders/europe/el_generico1.dds"

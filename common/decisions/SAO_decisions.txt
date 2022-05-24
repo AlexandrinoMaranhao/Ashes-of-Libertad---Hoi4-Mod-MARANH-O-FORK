@@ -503,7 +503,7 @@ SAO_international_diplomacy_category = {
 			SAO = {has_completed_focus = SAO_lagarantiasoyjo }
 		}
 		complete_effect = {
-			set_state_flag = SAO_business_with_ARG
+			set_country_flag = SAO_business_with_ARG
 			ARG = {
 				add_opinion_modifier = { target = ARG modifier = large_increase }
 			}

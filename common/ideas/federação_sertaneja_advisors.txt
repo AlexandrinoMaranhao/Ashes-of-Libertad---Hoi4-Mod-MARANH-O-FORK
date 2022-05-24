@@ -1,0 +1,28 @@
+ideas = {
+	political_advisor = {
+
+		father_almeida_lustosa_advisor = {
+
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_flamboyant_tough_guy }
+			cost = 50
+		}
+		
+		afonso_farias_mello_advisor = {
+
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_flamboyant_tough_guy }
+			cost = 50
+		}
+	}
+}

@@ -1,0 +1,50 @@
+characters={
+	CFD_arnon_afonso_de_farias_mello={
+		name="Arnon Afonso de Farias Mello"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALA/Portrait_ALA_Arnon_Afonso_de_Farias_Mello.dds"
+			}
+			army={
+				small="gfx/interface/ideas/goofybois/afonso_farias_mello.dds"
+				large="gfx/leaders/ALA/Portrait_ALA_Arnon_Afonso_de_Farias_Mello.dds"
+			}
+		}
+		country_leader={
+			desc="ARNON_DESC"
+			ideology=corporate_state_status_quo
+			traits={ the_killer_senator }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+	CFD_miguel_arraes={
+		name="Miguel Arraes"
+		portraits={
+			civilian={
+				large="gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+			}
+		}
+		country_leader={
+			desc="ARRAES_DESC"
+			ideology=moderatism 
+			traits={ ensuing_collapse }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+	CFD_collapsed_government={
+		name="Collapsed Government"
+		portraits={
+			civilian={
+				large="gfx/leaders/CFD/Portrait_CFD_Collapsed_Government.dds"
+			}
+		}
+		country_leader={
+			ideology=anarchism
+			traits={ abandoned_government }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}
