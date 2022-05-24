@@ -48,6 +48,9 @@ characters={
 	SAO_joao_figueiredo={
 		name="João Figueiredo"
 		portraits={
+			civilian={
+				large="gfx/leaders/SAO/Portrait_SAO_Joao_figueiredo.dds"
+			}
 			army={
 				small="gfx/interface/ideas/goofybois/joao_figueiredo.dds"
 				large="gfx/leaders/SAO/Portrait_SAO_Joao_figueiredo.dds"
