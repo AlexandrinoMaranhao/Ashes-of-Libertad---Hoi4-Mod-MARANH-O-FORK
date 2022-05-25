@@ -2710,7 +2710,7 @@ ACR_eneas_insanity_category = {#Be sure to clamp the variable every time you mod
 	}
 }
 
-ACR_coring_decisions = { 
+ACR_coring_decisions = {
 	ACR_core_JUR = {
 		#icon =
 		visible = {
@@ -2842,6 +2842,304 @@ ACR_coring_decisions = {
 				}
 			}
 			custom_effect_tooltip = ACR_core_HIM_tt
+		}
+	}
+}
+
+acrean_raids = {
+	give_guns_to_raiders = {
+		available = {
+
+			has_equipment = {
+				infantry_equipment > 99
+
+			}
+			check_variable = {
+				var = raid_success_percentage
+				value = 100
+				compare = less_than_or_equals
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+
+	give_boats_to_raiders = {
+		available = {
+
+		check_variable = {
+				var = raid_success_percentage
+				value = 100
+				compare = less_than_or_equals
+			}
+		}
+
+		complete_effect = {
+		add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+
+	give_them_extra_supplies = {
+
+		available = {
+			has_political_power > 99
+		}
+
+		complete_effect = {
+			add_political_power = -100
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+	
+	send_trained_boatman = {
+		available = {
+			has_navy_experience > 9.99
+			check_variable = {
+				var = raid_success_percentage
+				value = 100
+				compare = less_than_or_equals
+			}
+		}
+		
+		complete_effect = {
+			navy_experience = -10
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+
+	send_mercenary_advisor = {
+		available = {
+			has_army_experience > 9.99
+			has_political_power > 24
+		}
+
+		complete_effect = {
+			army_experience = -10
+			add_political_power = -25
+			add_to_variable = {
+				raid_success_percentage = 10
+			}
+		}
+	}
+
+	send_negotiator = {
+		available = {
+			has_political_power > 24
+		}
+
+		complete_effect = {
+		add_political_power = -25
+		add_to_variable = {
+			raid_success_percentage = 10
+			}
+		}
+	}
+
+	draft_plan = {
+		available = {
+			has_political_power > 24
+			has_army_experience > 4.99
+		}
+
+		complete_effect = {
+		army_experience = -5
+		add_political_power = -25
+		add_to_variable = {
+			raid_success_percentage = 10
+			}
+		}
+	}
+
+	motivational_speech = {
+		available = {
+			command_power > 25
+		}
+
+		complete_effect = {
+		add_command_power = -25
+		add_to_variable = {
+			raid_success_percentage = 10
+			}
+		}
+	}
+
+	test_percentage = {
+	fixed_random_seed = no
+		complete_effect = {
+			if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 0
+				compare = equals
+					}
+				}
+				random_list = {
+					90 = {
+						add_political_power = -70
+						clear_variable = raid_success_percentage
+					}
+					10 = {
+						add_political_power = 80
+						clear_variable = raid_success_percentage
+					}
+				}
+			}else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 10
+				compare = equals
+					}
+				}
+				random_list = {
+					80 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					20 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 20
+				compare = equals
+					}
+				}
+				random_list = {
+					70 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					30 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 30
+				compare = equals
+					}
+				}
+				random_list = {
+					60 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					40 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 40
+				compare = equals
+					}
+				}
+				random_list = {
+					50 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					50 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 50
+				compare = equals
+					}
+				}
+				random_list = {
+					40 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					60 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 60
+				compare = equals
+					}
+				}
+				random_list = {
+					30 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					70 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 70
+				compare = equals
+					}
+				}
+				random_list = {
+					20 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					80 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 80
+				compare = equals
+					}
+				}
+				random_list = {
+					10 = {
+						add_political_power = -810
+						clear_variable = raid_success_percentage
+					}
+					90 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
+			else_if = { limit = { check_variable = {
+				var = raid_success_percentage
+				value = 90
+				compare = equals
+					}
+				}
+				random_list = {
+					100 = {
+						add_political_power = 64
+						clear_variable = raid_success_percentage
+					}
+				}
+			}
 		}
 	}
 }

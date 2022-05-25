@@ -1,0 +1,8 @@
+CFD_main_category = {
+##################		Debug Decisions.	##################
+##################		Recrutamento de PM		##################
+##################		Addons		##################
+}
+##################		International Country Diplomacy Decisions.		##################
+CFD_piaui_frontier = {
+}

@@ -2,6 +2,25 @@ on_actions = {
     ##Reworked Startup effects##
    on_startup = {
 		effect = {
+			HON = {
+				set_country_flag = HON_allow_dual_leaders
+				country_event = {
+					id = farmlands_war.1
+					days = 390
+				}
+			}
+			ELS = {
+				country_event = {
+					id = ELS_election.1
+					days = 124
+				}
+			}
+			COS = {
+				country_event = {
+					id = COS.1
+					days = 330
+				}
+			}
             ARG = {
                 country_event = {
                     id = ARG_aiwar.1 # Falklands Reclamation

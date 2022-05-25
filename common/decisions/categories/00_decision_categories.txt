@@ -21,3 +21,32 @@ gamerules_check = {
 		is_debug = yes
 	}	
 }
+
+weaponstash_system_category = {
+	priority = 20
+	icon = GFX_generic_formable_nations
+	picture = #GFX_
+	
+	available = {
+		has_country_flag = can_stash
+	}
+	
+	visible = {
+		has_country_flag = can_stash
+	}
+}
+
+CFD_main_category = {
+	allowed = {
+		original_tag = CFD
+	}
+}
+
+CFD_piaui_frontier = {
+	allowed = {
+		original_tag = CFD
+	}
+	available = {
+		has_country_flag = begin_piaui_frontier
+	}
+}

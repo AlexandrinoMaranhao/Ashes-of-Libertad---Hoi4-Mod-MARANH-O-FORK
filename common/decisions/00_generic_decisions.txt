@@ -11,7 +11,7 @@
 #}
 #
 
-ACR_debug = {
+weaponstash_system_category = {
 
 	hid_weapons = {
 

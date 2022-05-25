@@ -115,11 +115,11 @@ ideas = {
 			available = {
 				AND = {
 				original_tag = CFD
-				hidden_trigger = {
-					NOT = {
-						date > 1967.09.03
+					hidden_trigger = {
+						NOT = {
+							date > 1967.09.03
+						}
 					}
-				}
 				}
 			}
             visible = {
