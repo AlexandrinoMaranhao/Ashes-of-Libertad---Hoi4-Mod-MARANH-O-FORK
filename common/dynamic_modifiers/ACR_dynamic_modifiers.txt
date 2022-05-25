@@ -59,3 +59,13 @@ ACR_matters_of_national_rectification = {
 	research_speed_factor = ACR_research_speed_factor1
 	stability_factor = ACR_stability_factor
 }
+
+using_weapon_stashes = {
+	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource
+	
+	local_supplies = 0.25
+	mobilization_speed = 0.3
+	resistance_target = -0.5
+	resistance_damage_to_garrison = 0.5
+}

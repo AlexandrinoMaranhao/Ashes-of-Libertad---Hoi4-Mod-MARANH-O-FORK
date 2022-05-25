@@ -72,7 +72,7 @@ ACR_debug = {
 
 		icon = GFX_use_hid_weapons_decision
 		
-		#
+		days_remove = 30
 		
 		state_target = yes
 		on_map_mode = map_only
@@ -110,6 +110,18 @@ ACR_debug = {
 		#
 
 		complete_effect = {
+			random_state = {
+				limit = {
+					has_state_flag = stashed_weapons
+					is_owned_and_controlled_by = FROM
+				}
+				add_dynamic_modifier = {
+					modifier = using_weapon_stashes
+					days = 30
+				}
+			}
+		}
+		remove_effect = {
 			random_state = {
 					limit = {
 						has_state_flag = stashed_weapons

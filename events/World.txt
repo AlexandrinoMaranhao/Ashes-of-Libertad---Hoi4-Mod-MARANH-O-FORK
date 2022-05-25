@@ -1160,7 +1160,47 @@ news_event = { # Silva wins the Junta Civil War
 	}
 }
 
+news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.1
+	id = world.86
+	title = world.86.t
+	desc = world.86.d
+	picture = "GFX_news_event_bahia"
+	trigger = {
+		AND = {
+			is_ai = yes
+			date > 1967.09.03
+			NOT = {
+				CFD = {has_country_flag = rip_bozo_antonio}
+			}
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = world.86.a
+		CFD = {
+			news_event = {id = world.87}
+		}
+	}
+}
 
+news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.2
+	id = world.87
+	title = world.86.t
+	desc = world.86.d
+	picture = "GFX_news_event_bahia"
+	is_triggered_only = yes
 
+	option = {
+		name = world.86.a
+		CFD = {
+			set_country_flag = rip_bozo_antonio
+			add_political_power = -10
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.02
+			}
+		}
+	}
+}
 
 

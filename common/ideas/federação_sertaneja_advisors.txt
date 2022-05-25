@@ -1,8 +1,31 @@
 ideas = {
 	political_advisor = {
-
-		father_almeida_lustosa_advisor = {
-
+		#CFD_NAME_advisor = { #Template
+        #    allowed = {
+		#		original_tag = CFD
+        #    }
+        #    visible = {
+		#		original_tag = CFD
+        #    }
+		#	traits = { TRAIT }
+		#	cost = 50
+		#}
+		CFD_father_almeida_lustosa_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { for_man_of_faith }
+			cost = 50
+		}
+		CFD_afonso_farias_mello_advisor = {
             allowed = {
 				original_tag = CFD
             }
@@ -12,17 +35,103 @@ ideas = {
 			traits = { hog_flamboyant_tough_guy }
 			cost = 50
 		}
-		
-		afonso_farias_mello_advisor = {
-
+		CFD_cid_sempaio_advisor = {
             allowed = {
 				original_tag = CFD
             }
             visible = {
 				original_tag = CFD
             }
-			traits = { hog_flamboyant_tough_guy }
+			traits = { eco_industrial_chemist }
 			cost = 50
+		}
+		CFD_pelopidas_silveira_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { eco_construction_magnate }
+			cost = 50
+		}
+		CFD_drayton_nejaim_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { sec_silent_lawyer }
+			cost = 50
+		}
+		CFD_augusto_lucena_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				has_government = fascism
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { sec_prince_of_terror }
+			cost = 50
+		}
+		CFD_chagas_rodrigues_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_defender_of_democracy }
+			cost = 50
+		}
+		CFD_joaquim_parente_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_silver_tongue }
+			cost = 50
+		}
+		CFD_antonio_corpse_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				AND = {
+				original_tag = CFD
+				hidden_trigger = {
+					NOT = {
+						date > 1967.09.03
+					}
+				}
+				}
+			}
+            visible = {
+				AND = {
+				original_tag = CFD
+					NOT = {
+						date > 1967.09.03
+					}
+				}
+            }
+			traits = { eco_balanced_budget_economy }
+			cost = 25
 		}
 	}
 }

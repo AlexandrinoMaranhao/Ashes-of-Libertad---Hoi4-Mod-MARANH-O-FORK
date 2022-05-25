@@ -11,11 +11,11 @@ spriteTypes = {
 
 ###Sertaneja's advisors###
 	spriteType = {
-		name = "GFX_idea_father_almeida_lustosa_advisor"
+		name = "GFX_idea_CFD_father_almeida_lustosa_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/father_almeida_lustosa.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_afonso_farias_mello_advisor"
+		name = "GFX_idea_CFD_afonso_farias_mello_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/afonso_farias_mello.dds"
 	}
 	
