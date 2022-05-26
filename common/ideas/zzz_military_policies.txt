@@ -287,11 +287,22 @@ ideas = {
 			picture = urban_specialization_icon
 			
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea urban_specialization"}
-			available = { always = no } 
+			available = {
+				any_state = {
+					OR = {
+						has_state_category = large_town
+						has_state_category = city
+						has_state_category = large_city
+						has_state_category = metropolis
+						has_state_category = megalopolis
+					}
+				}
+			} 
 			removal_cost = -1
 			cost = 50
 			
 			modifier = {
+				cat_mass_assault_cost_factor = -0.05
 				terrain_penalty_reduction = 0.15
 				army_core_defence_factor = 0.05 
 				army_core_attack_factor = 0.05
@@ -301,18 +312,44 @@ ideas = {
 
 		}
 		mercenary_specialization = {
-			available = { always = no } 
-
+			available = { NOT = { has_idea = no_mercenaries }}
+			modifier = {
+				cat_mobile_warfare_cost_factor = -0.2
+			}
+			
 		}
 		traditional_army_specialization = {
-			available = { always = no } 
-
+			available = { } 
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea traditional_army_specialization"}
+			available = { } 
+			removal_cost = -1
+			cost = 50
+			
+			modifier = {
+				cat_superior_firepower_cost_factor = -0.15
+			}
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+				motorized_equipment = {
+					maximum_speed = 0.05
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+			}
+			
+			cancel_if_invalid = yes
+			ai_will_do = { }
 		}
 		mechanical_specialization = {
 			picture = mechanical_specialization_icon
 			
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea mechanical_specialization"}
-			available = { always = no } 
+			available = { } 
 			removal_cost = -1
 			cost = 50
 			
@@ -327,7 +364,7 @@ ideas = {
 					soft_attack = 0.05
 					armor_value = 0.05
 				}
-				armored_car_equipment = {
+				mechanized_equipment = {
 					maximum_speed = 0.05
 					soft_attack = 0.05
 					hard_attack = 0.05
@@ -341,11 +378,12 @@ ideas = {
 			picture = offensive_specialization_icon
 			
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea offensive_specialization"}
-			available = { always = no } 
+			available = { } 
 			removal_cost = -1
 			cost = 50
 			
 			modifier = {
+				cat_mass_assault_cost_factor = -0.15
 				army_core_attack_factor = 0.1
 				breakthrough_factor = 0.1
 				planning_speed = 0.1
@@ -359,11 +397,12 @@ ideas = {
 			picture = defensive_specialization_icon
 			
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea defensive_specialization"}
-			available = { always = no } 
+			available = { } 
 			removal_cost = -1
 			cost = 50 
 			
 			modifier = {
+				cat_trench_warfare_cost_factor = -0.15
 				army_core_defence_factor = 0.1
 				breakthrough_factor = -0.1
 				planning_speed = 0.1

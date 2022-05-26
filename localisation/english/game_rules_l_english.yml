@@ -491,7 +491,7 @@
  FAIL_O_STATE_FALSE:0 "Keep it realistic"
  FAIL_O_STATE_FALSE_DESC:0 "This will keep the Failstate'o'Meter effects, but factions that are too wacky or non-realistic with the AoL's lore and aesthetics will not be shown."
  
- ###Portclave (joke creation)
+ ###Portclave (Fun Box)
  PORTOCLAVE_SETTINGS:0 "£GFX_portuclave The Portuguese Enclave (Fun Box)" 
  PORTOCLAVE_ENABLED:0 "§GSpawn the Enclave Devils.§!"
  PORTOCLAVE_ENABLED_DESC:0 "This will trigger the requirements to activate the §GPortuguese Enclave§! in Fernando de Noronha. Be aware of their plans for your nation once they are done."

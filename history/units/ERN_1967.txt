@@ -2,11 +2,13 @@ division_template = {
 	is_locked = yes
 	name = "Infantaria Del Norte"
 	regiments = {
-		infantry = { x = 0 y = 0 }
+		militia_unit = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 0 }
+        militia_unit = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
 	}
 }
 
@@ -86,83 +88,97 @@ units = {
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 12"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 22"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 21"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 20"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 19"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 18"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 17"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 16"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 15"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 14"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Infanteria Del Norte 13"
 		location = 4205
 		division_template = "Infantaria Del Norte"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Infanteria Del Norte 23"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Infanteria Del Norte 24"
+		location = 4205
+		division_template = "Infantaria Del Norte"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
 	}
 }
