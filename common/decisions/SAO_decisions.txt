@@ -1,7 +1,7 @@
 SAO_category = {
 ##################		Debug Decisions.	##################
 	trigger_paulista_catastrophe = {
-	cost = 0
+		cost = 0
 		visible = {
 			AND = {
 				original_tag = SAO
@@ -17,7 +17,7 @@ SAO_category = {
 		complete_effect = {
 			SAO = {
 			 country_event = { id = PAULISTA_CATASTROPHE.1 days = 0 }
-				}
+			}
 		}
 	}
 
@@ -518,11 +518,12 @@ SAO_international_diplomacy_category = {
 		
 		available = {
 			AND = {
-				SAO = {has_country_flag = SAO_business_with_ARG}
-				has_equipment = {
-					convoy > 99
+				SAO = {
+					has_country_flag = SAO_business_with_ARG
+					has_equipment = {
+						convoy > 99
+					}
 				}
-				
 			}
 		}
 		visible = {

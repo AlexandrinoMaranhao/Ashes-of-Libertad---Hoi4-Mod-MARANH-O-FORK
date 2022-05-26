@@ -31,4 +31,4 @@ add_ideas = {
 }
 
 recruit_character = JRM_ranieri_mazzilli
-recruit_character = JRM_emílio_garrastazu_médici
+recruit_character = JRM_emílio_garrastazu_medici

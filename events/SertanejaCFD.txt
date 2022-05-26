@@ -1,10 +1,40 @@
 ### PLACEHOLDER EVENTS, NOT INCLUDED IN ALPHA OTHER THAN AI ACTIONS ###
 
+add_namespace = CFD_operations
+add_namespace = CFD_failometer_enabled
 add_namespace = CFD
 add_namespace = CFD_ai
 add_namespace = CFD_aiwar
-add_namespace = CFD_failometer_enabled
 
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.1
+    title = CFD_operations.1.t
+    desc = CFD_operations.1.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.1.a
+		CFD = {
+			set_province_controller = 330
+		}
+    }
+}
+
+country_event = { #Operação: |Derrota
+    id = CFD_operations.2
+    title = CFD_operations.2.t
+    desc = CFD_operations.2.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.2.a
+		CFD = {
+			set_country_flag = portella_dead
+		}
+    }
+}
 
 country_event = {
     id = CFD_failometer_enabled.1

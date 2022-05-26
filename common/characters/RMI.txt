@@ -19,7 +19,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	RMI_joão_lucas_alves={
+	RMI_joao_lucas_alves={
 		name="João Lucas Alves"
 		portraits={
 			army={

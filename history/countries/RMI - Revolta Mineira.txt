@@ -56,5 +56,5 @@ create_country_leader = {
 }
 
 recruit_character = RMI_sinval_de_oliveira_bambirra
-recruit_character = RMI_joão_lucas_alves
+recruit_character = RMI_joao_lucas_alves
 recruit_character = RMI_severino_viana_colon
