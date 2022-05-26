@@ -7,35 +7,36 @@ bookmarks = {
 		default_country = "SAO"
 		default = yes
 
-		#	ACR={
-		#		history = "ACR_GATHERING_STORM_DESC"
-    #	              ideology = democratic
-		#	      ideas = {
-    #	            ACR_anti_bolivian_propaganda 
-    #	            ACR_funai 
-    #	            ACR_banana_bread_and_theater 
-    #	              }
-    #	        focuses = {
-    #	            ACR_force_a_stage_of_siege
-    #	            ACR_pass_native_defence_act
-    #	            ACR_talk_business
-    #	              }
-		#	}
+			ACR={
+				history = "ACR_GATHERING_STORM_DESC"
+                ideology = democratic
+				minor = yes
+			    ideas = {
+						ACR_anti_bolivian_propaganda 
+						ACR_funai 
+						ACR_banana_bread_and_theater 
+    	        }
+    	        focuses = {
+					ACR_force_a_stage_of_siege
+					ACR_pass_native_defence_act
+					ACR_talk_business
+    	        }
+			}
 
-	SAO={
-		history = "SAO_GATHERING_STORM_DESC"
-	              ideology = reactionary
-	      ideas = {
-	            GEN_the_2nd_constitutionalist_revolution 
-	            GEN_stolen_institutions 
-	            GEN_shattered_economy 
-	              }
-	        focuses = {
-	            #ACR_force_a_stage_of_siege
-	            #ACR_pass_native_defence_act
-	            #ACR_talk_business
-	              }
-	}
+			SAO={
+				history = "SAO_GATHERING_STORM_DESC"
+			              ideology = reactionary
+			      ideas = {
+			            GEN_the_2nd_constitutionalist_revolution 
+			            GEN_stolen_institutions 
+			            GEN_shattered_economy 
+			              }
+			        focuses = {
+			            #ACR_force_a_stage_of_siege
+			            #ACR_pass_native_defence_act
+			            #ACR_talk_business
+			              }
+			}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
