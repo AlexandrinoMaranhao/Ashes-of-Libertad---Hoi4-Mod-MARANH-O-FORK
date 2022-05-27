@@ -86,3 +86,4 @@ recruit_character = SAO_o
 recruit_character = SAO_brasilio_taborda
 recruit_character = SAO_joao_figueiredo
 recruit_character = SAO_sergio_fleury
+recruit_character = SAO_alberto_mendes_jr

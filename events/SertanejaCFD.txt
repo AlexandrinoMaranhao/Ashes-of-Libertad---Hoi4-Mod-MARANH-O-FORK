@@ -4,7 +4,6 @@ add_namespace = CFD_operations
 add_namespace = CFD_failometer_enabled
 add_namespace = CFD
 add_namespace = CFD_ai
-add_namespace = CFD_aiwar
 
 country_event = { #Operação: |Sucesso
     id = CFD_operations.1
@@ -177,48 +176,6 @@ country_event = {
     }
 }
 
-country_event = {
-    id = CFD_aiwar.1
-    title = CFD_aiwar.1.t
-    desc = CFD_aiwar.1.d
-    fire_only_once = yes
-    is_triggered_only = yes
-    picture = x
-
-    option = {
-        name = CFD_aiwar.1.a
-        declare_war_on = {
-            target = PIA
-            type = annex_everything
-        }
-        MNH = {
-            country_event = {
-                id = MNH_war.1
-            }
-        }
-            set_global_flag = CFD_MNH_split_war
-    }
-}
-
-country_event = {  
-    id = CFD_aiwar.2
-    title = CFD_aiwar.2.t
-    desc = CFD_aiwar.2.d
-    fire_only_once = yes
-    is_triggered_only = yes
-    picture = x
-
-    option = {
-        name = CFD_aiwar.2.a
-        clr_global_flag = CFD_MNH_split_war
-        transfer_state = 15
-        transfer_state = 16
-        transfer_state = 475
-        add_state_core = 15
-        add_state_core = 16
-        add_state_core = 475
-    }
-}
 
 country_event = {
     id = CFD.1 # PEB breaks away from CFD
@@ -266,6 +223,9 @@ country_event = {
     picture = x
 
     option = {
+		trigger = {
+			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+		}
         name = CFD.2.a
         CEA = {
             transfer_state  = 14
@@ -351,57 +311,6 @@ country_event = {
 }
 
 country_event = {
-    id = CFD.4 # PAI breaks away from CFD
-    title = CFD.4.t
-    desc = CFD.4.d
-    fire_only_once = yes
-    is_triggered_only = yes
-    picture = x
-
-    option = {
-        name = CFD.4.a
-        PAI = {
-            transfer_state  = 6
-            load_oob = "PAI_1967"
-            declare_war_on = {
-                target = CFD
-                type = annex_everything
-            }
-            declare_war_on = {
-              target = INT
-              type = annex_everything
-            }
-            declare_war_on = {
-                target = PEB 
-                type = annex_everything
-            }
-
-            declare_war_on = {
-                target = CEA
-                type = annex_everything
-            }
-
-            declare_war_on = {
-                target = RGN
-                type = annex_everything
-            }
-
-            random_country_with_original_tag = {
-                original_tag_to_check = PEB
-                limit = {
-                    has_government = communism
-                }
-                declare_war_on = {
-                    target = PREV 
-                    type = annex_everything
-                }
-            }
-        }
-        country_event = { id = CFD.5 days = 3 }
-    }
-}
-
-country_event = {
     id = CFD.5 # ALA breaks away from CFD
     title = CFD.5.t
     desc = CFD.5.d
@@ -410,9 +319,11 @@ country_event = {
     picture = x
 
     option = {
+		trigger = {
+			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+		}
         name = CFD.5.a
-
-    every_country = {
+		every_country = {
         news_event = {
             id = world.79
             days = 1

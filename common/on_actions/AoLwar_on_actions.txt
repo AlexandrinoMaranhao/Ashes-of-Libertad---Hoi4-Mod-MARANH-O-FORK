@@ -8,6 +8,10 @@ on_actions = {
 					id = farmlands_war.1
 					days = 390
 				}
+				country_event = {
+					id = honduran_civilwar.1
+					days = 1622
+				}
 			}
 			ELS = {
 				country_event = {
@@ -37,12 +41,6 @@ on_actions = {
                 country_event = {
                     id = BOL_aiwar.1 # Acre War
                     days = 2660
-                }
-            }
-            CFD = {
-                country_event = {
-                    id = CFD_ai.1 # Annexation of SEG
-                    days = 405
                 }
             }
             CRJ = {

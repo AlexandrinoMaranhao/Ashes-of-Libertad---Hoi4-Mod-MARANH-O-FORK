@@ -9,6 +9,12 @@ spriteTypes = {
 #		texturefile = "gfx/interface/ideas/idea_africa_generic_1.dds"
 #	}
 
+###Honduran Advisors###
+	spriteType = {
+		name = "GFX_idea_HON_roberto_ordonez_larios_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/roberto_ordonez_larios.dds"
+	}
+
 ###Sertaneja's advisors###
 	spriteType = {
 		name = "GFX_idea_CFD_father_almeida_lustosa_advisor"

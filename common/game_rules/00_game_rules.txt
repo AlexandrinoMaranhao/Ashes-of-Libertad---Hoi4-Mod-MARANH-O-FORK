@@ -587,13 +587,13 @@ ACR_ai_behavior = {
 Failostates_effect = {
 	name = "FAIL_O_STATE_EFFECTS"
 	group = "RULE_GROUP_GAME_SETUP"
-	option = {
+	default = {
 		name = FAIL_O_STATE_ENABLED
 		text = "FAIL_O_STATE_TRUE"
 		desc = "FAIL_O_STATE_TRUE_DESC"
 		allow_achievements = yes
 	}
-	default = {
+	option = {
 		name = FAIL_O_STATE_DISABLED
 		text = "FAIL_O_STATE_FALSE"
 		desc = "FAIL_O_STATE_FALSE_DESC"

@@ -1,0 +1,34 @@
+division_template = {
+	is_locked = yes
+	name = "Military Police Unit"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		cavalry = { x = 1 y = 0}
+		cavalry = { x = 1 y = 1}
+	}
+	support = {
+		military_police = { x = 0 y = 0}
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "Assis's 1st Mlitary Police Battalion"
+		location = 800 
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Assis's 2nd Mlitary Police Battalion"
+		location = 6257  
+		division_template = "Military Police Unit"
+	}
+	division= {
+		name = "Assis's 3rd Mlitary Police Battalion"
+		location = 2418  
+		division_template = "Military Police Unit"
+	}
+}

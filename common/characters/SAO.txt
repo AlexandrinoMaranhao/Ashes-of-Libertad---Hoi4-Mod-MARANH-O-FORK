@@ -79,7 +79,7 @@ characters={
 				large="gfx/leaders/SAO/Portrait_SAO_Sergio_Fleury.dds"
 			}
 		}
-	corps_commander={
+		corps_commander={
 			traits={urban_assault_specialist fortress_buster }
 			skill=2
 			attack_skill=2
@@ -103,6 +103,35 @@ characters={
 			}
 			traits = {
 				sec_prince_of_terror army_chief_drill_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	SAO_alberto_mendes_jr ={
+		name="Alberto Mendes Jr"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/alberto_mendes_jr.dds"
+				large="gfx/leaders/SAO/alberto_mendes_jr.dds"
+			}
+		}
+		corps_commander={
+			traits={}
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor={
+			slot = high_command
+			ledger = army
+			traits = {
+				mhc_school_of_commando_operations
 			}
 			cost = 100
 			ai_will_do = {

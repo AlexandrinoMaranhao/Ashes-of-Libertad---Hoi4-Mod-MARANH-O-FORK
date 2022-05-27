@@ -478,7 +478,7 @@
  RULE_OPTION_WARGOALS_ALWAYS_FREE:0 "§RWARNING!§! It is not recommended to play Ashes of Libertad using war goals. You are playing at your own risk."
  
  ###ERN Game Setup
- ERN_BUFF_STATUS:0 "@ERN Ejército Revolucionario's Additional Buffs"
+ ERN_BUFF_STATUS:0 "@ERN Ejército Revolucionario's Buff"
  RULE_OPTION_ERN_BUFF:0 "Give ERdN a Chance!"
  RULE_OPTION_ERN_BUFF_STATUS_DESC:0 "The Ejército Revolucionario will receive an small additional buff. This §YMAY§! make them §Rstronger and harder§! for Acre to defeat."
  RULE_OPTION_NO_ERN_BUFF:0 "Remove the AI Buff"
