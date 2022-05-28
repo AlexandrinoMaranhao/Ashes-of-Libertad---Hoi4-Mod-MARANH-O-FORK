@@ -138,7 +138,7 @@ create_country_leader = {
 create_country_leader = {
 	
 	name = "Hugo de Abreu"
-	#picture = "gfx/leaders/UBA/Portrait_UBA_Hugo_de_Abreu_Duke.dds"
+	#picture = "gfx/leaders/UBA/Portrait_UBA_Hugo_de_Abreu_duke.dds"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
