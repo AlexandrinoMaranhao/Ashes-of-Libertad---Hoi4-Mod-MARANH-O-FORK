@@ -10,9 +10,10 @@ scripted_gui = {
 
 		effects = {
 		end_of_demo_button_click = {
-			TST = {
-			change_tag_from = ROOT
-			}
+				ROOT = {
+					clr_country_flag = demo_end
+					set_country_flag = post_ending_content
+				}
 			}
 		}
 	}

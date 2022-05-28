@@ -18,8 +18,11 @@ change_social_laws = {
 
 gamerules_check = {
 	visible = {
-		is_debug = yes
-	}	
+		OR = {
+			is_debug = yes
+			is_ai = yes
+		}
+	}
 }
 
 weaponstash_system_category = {

@@ -151,10 +151,10 @@
  PIA_neutrality_party:0 "Collapsed Authority"
  PIA_reactionary_party:0 "Collapsed Authority"
   
- MNH_fascism_party:0 "ARENA - MNH"
+ MNH_fascism_party:0 "House of Sarney"
  MNH_communism_party:0 "ARENA - MNH"
- MNH_democratic_party:0 "ARENA - MNH"
- MNH_neutrality_party:0 "House of Sarney"
+ MNH_democratic_party:0 "PDC"
+ MNH_neutrality_party:0 "UDM"
  MNH_reactionary_party:0 "ARENA - MNH"
   
  RPB_fascism_party:0 "Revolta Bahiana"

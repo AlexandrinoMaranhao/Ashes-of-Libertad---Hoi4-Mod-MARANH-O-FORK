@@ -1,4 +1,20 @@
 gamerules_check = {
+	test_demo_end = {
+		available = {
+			AND = {
+				is_debug = yes
+				is_ai = no
+			}
+		}
+		complete_effect = {
+			ROOT = {
+				set_country_flag = demo_end
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+	}
 	portuclave_activation = {
 		days_remove = 1
 		available = {
