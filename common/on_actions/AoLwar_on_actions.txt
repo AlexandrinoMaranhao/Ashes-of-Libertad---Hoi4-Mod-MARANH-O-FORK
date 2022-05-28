@@ -85,9 +85,11 @@ on_actions = {
                     days = 679
                 }
             }
-			news_event = {
-				id = world.46
-				days = 679
+			ROOT = {
+				news_event = {
+					id = world.46
+					days = 679
+				}
 			}
             ARI = {
                 country_event = {

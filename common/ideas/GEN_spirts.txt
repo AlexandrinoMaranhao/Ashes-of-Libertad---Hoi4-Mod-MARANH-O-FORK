@@ -66,11 +66,10 @@ drift_defence_factor = 0.15
 			modifier = {
 				land_doctrine_cost_factor = -0.05
 command_abilities_cost_factor = -0.3
-every_core_state = {
 	army_speed_factor_for_controller = 0.15
 	resistance_growth = -0.1
 	resistance_damage_to_garrison = -0.1
-}
+
 			}
 		}
 
@@ -147,11 +146,10 @@ political_power_gain = -0.01
 		GEN_the_drizzles_police = {
 			picture = GEN_the_drizzles_police-229857
 			modifier = {
-				every_core_state = {
-	subversive_activites_upkeep = -0.15
-	resistance_damage_to_garrison = -0.1
-	root_out_resistance_effectiveness_factor = 0.6
-}
+				subversive_activites_upkeep = -0.15
+				resistance_damage_to_garrison = -0.1
+				root_out_resistance_effectiveness_factor = 0.6
+
 			}
 		}
 
