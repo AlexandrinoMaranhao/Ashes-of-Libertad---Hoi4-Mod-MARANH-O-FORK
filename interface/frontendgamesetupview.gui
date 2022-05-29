@@ -173,7 +173,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 50 y = -30	}
+			position = { x = 49 y = -32	}
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -749,25 +749,25 @@ guiTypes = {
 				format = left
 			}
 			
-			#instantTextBoxType = {
-			#	name = "ideology_label"
-			#	position = { x = 0 y = 35 }
-			#	textureFile = ""
-			#	font = "hoi4_typewriter16"
-			#	borderSize = {x = 0 y = 0}
-			#	text = "IDEOLOGY"
-			#	maxWidth = 340
-			#	format = left
-			#}
+			instantTextBoxType = {
+				name = "ideology_label"
+				position = { x = 0 y = 35 }
+				textureFile = ""
+				font = "hoi4_typewriter16"
+				borderSize = {x = 0 y = 0}
+				text = "IDEOLOGY"
+				maxWidth = 340
+				format = left
+			}
 			
-			#instantTextBoxType = {
-			#	name = "ideology"
-			#	position = { x = 0 y = 52 }
-			#	font = "hoi4_typewriter16"
-			#	borderSize = {x = 0 y = 0}
-			#	maxWidth = 340
-			#	format = left
-			#}
+			instantTextBoxType = {
+				name = "ideology"
+				position = { x = 0 y = 52 }
+				font = "hoi4_typewriter16"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 340
+				format = left
+			}
 			
 			instantTextBoxType = {
 				name = "government_label"
@@ -789,24 +789,24 @@ guiTypes = {
 				format = left
 			}
 			
-			#instantTextBoxType = {
-			#	name = "elections_label"
-			#	position = { x = 80 y = 85 }
-			#	font = "hoi4_typewriter16"
-			#	borderSize = {x = 0 y = 0}
-			#	text = "ELECTIONS"
-			#	maxWidth = 340
-			#	format = left
-			#}
-			#
-			#instantTextBoxType = {
-			#	name = "elections"
-			#	position = { x = 10 y = 102 }
-			#	font = "hoi4_typewriter16"
-			#	borderSize = {x = 0 y = 0}
-			#	maxWidth = 340
-			#	format = left
-			#}
+			instantTextBoxType = {
+				name = "elections_label"
+				position = { x = 80 y = 85 }
+				font = "hoi4_typewriter16"
+				borderSize = {x = 0 y = 0}
+				text = "ELECTIONS"
+				maxWidth = 340
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "elections"
+				position = { x = 10 y = 102 }
+				font = "hoi4_typewriter16"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 340
+				format = left
+			}
 			
 			instantTextBoxType = {
 				name = "party_label"

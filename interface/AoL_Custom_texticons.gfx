@@ -19,4 +19,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_els_BoS"
+		texturefile = "gfx/texticons/elsalv_bos.dds"
+		legacy_lazy_load = no
+	}
+	
 }

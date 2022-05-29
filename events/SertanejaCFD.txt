@@ -1,7 +1,9 @@
+add_namespace = CFD_operations_success
 add_namespace = CFD_operations
 add_namespace = CFD_events
-add_namespace = CFD_ai
 add_namespace = CFD_failometer_enabled
+add_namespace = CFD_ai
+add_namespace = CFD
 
 country_event = { #Operação: |Sucesso
     id = CFD_operations.1
@@ -12,8 +14,16 @@ country_event = { #Operação: |Sucesso
 
     option = {
         name = CFD_operations.1.a
-		CFD = {
-			set_province_controller = 330
+		PIA = {
+			set_province_controller = 1929
+			set_province_controller = 1771
+			set_province_controller = 4133
+			set_province_controller = 1634
+			set_province_controller = 1895
+			set_province_controller = 941
+			CFD = {
+				set_province_controller = 330
+			}
 		}
     }
 }
@@ -29,6 +39,21 @@ country_event = { #Operação: |Derrota
         name = CFD_operations.2.a
 		CFD = {
 			set_country_flag = portella_dead
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations_success.1
+    title = CFD_operations.1.t
+    desc = CFD_operations.1.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.1.a
+		PIA = {
+			country_event = {id = CFD_operations.1 days = 3}
 		}
     }
 }

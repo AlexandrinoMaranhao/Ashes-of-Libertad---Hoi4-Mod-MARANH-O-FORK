@@ -182,7 +182,6 @@ CDC = "countries/Comuna de Campinas.txt"
 BAR = "countries/Barretos.txt"
 NLI = "countries/Nova Liberdade.txt"
 PIR = "countries/Piracicaba.txt"
-
 SAO = "countries/São Paulo.txt"
 PAU = "countries/Revolta Paulista.txt"
 UBA = "countries/Ubatuba.txt"

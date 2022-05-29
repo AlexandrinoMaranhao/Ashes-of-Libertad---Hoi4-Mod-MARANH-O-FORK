@@ -18,11 +18,8 @@ change_social_laws = {
 
 gamerules_check = {
 	visible = {
-		OR = {
-			is_debug = yes
-			is_ai = yes
-		}
-	}
+		is_debug = yes
+	}	
 }
 
 weaponstash_system_category = {
@@ -36,5 +33,20 @@ weaponstash_system_category = {
 	
 	visible = {
 		has_country_flag = can_stash
+	}
+}
+
+CFD_main_category = {
+	allowed = {
+		original_tag = CFD
+	}
+}
+
+CFD_piaui_frontier = {
+	allowed = {
+		original_tag = CFD
+	}
+	available = {
+		has_country_flag = begin_piaui_frontier
 	}
 }

@@ -57,7 +57,7 @@ ideas = {
             visible = {
 				original_tag = CFD
             }
-			traits = { eco_construction_magnate }
+			traits = { eco_construction_magnate hog_defender_of_democracy}
 			cost = 50
 		}
 		CFD_drayton_nejaim_advisor = {
@@ -109,12 +109,9 @@ ideas = {
 			cost = 50
 		}
 		CFD_antonio_corpse_advisor = {
-            allowed = {
-				original_tag = CFD
-            }
 			available = {
 				AND = {
-				original_tag = CFD
+					original_tag = CFD
 					hidden_trigger = {
 						NOT = {
 							date > 1967.09.03
@@ -124,7 +121,7 @@ ideas = {
 			}
             visible = {
 				AND = {
-				original_tag = CFD
+					original_tag = CFD
 					NOT = {
 						date > 1967.09.03
 					}

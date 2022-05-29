@@ -1176,9 +1176,7 @@ experience_gain_army = 0.05
 			mountaineers = {
 				max_organisation = 0.2
 			}
-			air_assault = {
-				max_organisation = 0.2
-			}
+
 		}
 		random = no
 	}

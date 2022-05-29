@@ -22,7 +22,10 @@ technologies = {
 		enable_equipments = {
 			infantry_gear_0
 		}
-		
+
+		enable_subunits = {
+			heavy_infantry
+		}
 		
 		path = {
 			leads_to_tech = infantry_gear1

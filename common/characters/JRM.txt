@@ -12,7 +12,7 @@ characters={
 			id=-1
 		}
 	}
-	JRM_emílio_garrastazu_medici={
+	JRM_emilio_garrastazu_medici={
 		name="Emílio Garrastazu Médici"
 		portraits={
 			civilian={

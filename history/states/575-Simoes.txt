@@ -1,25 +1,18 @@
-
 state={
-	id=475
-	name="STATE_475"
-
+	id=575
+	name="STATE_575"
 	history={
 		owner = PIA
-		add_core_of = PIA
 		add_core_of = CFD
 		victory_points = {
-			1895 5 
-		}
-		victory_points = {
-			1771 5 
+			330 5 
 		}
 
 	}
-
 	provinces={
-		941 1634 1771 1895 1929 4133 
+		330 
 	}
-	manpower=48503
+	manpower=9200
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

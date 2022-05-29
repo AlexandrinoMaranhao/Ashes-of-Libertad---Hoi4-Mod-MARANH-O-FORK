@@ -57,7 +57,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	JAG_josé_anselmo_dos_santos={
+	JAG_jose_anselmo_dos_santos={
 		name="José Anselmo dos Santos"
 		portraits={
 			army={

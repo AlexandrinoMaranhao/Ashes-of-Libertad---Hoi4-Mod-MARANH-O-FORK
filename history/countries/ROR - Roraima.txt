@@ -39,16 +39,6 @@ misfits
 no_administration_roraima
 }
 
-set_country_flag = has_unique_advisors
-set_country_flag = has_unique_chiefs
-set_country_flag = has_unique_theorists
-set_country_flag = has_unique_high_command
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
@@ -56,7 +46,7 @@ set_country_flag = is_brazilian
 create_country_leader = {
 	
 	name = "Onofre Pinto"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	expire = "1999.1.1"
 	ideology = military_junta
 }
@@ -75,7 +65,7 @@ create_country_leader = {
 
         create_field_marshal = {
 	name = "Osvaldo da Costa"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Osvaldo.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Osvaldo.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 2
@@ -86,7 +76,7 @@ create_country_leader = {
 
         create_field_marshal = {
 	name = "Onofre Pinto"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 4
@@ -97,7 +87,7 @@ create_country_leader = {
 
         create_field_marshal = {
 	name = "João Amazonas"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -108,7 +98,7 @@ create_country_leader = {
 
         create_corps_commander = {
 	name = "Micheas de Almeida"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Micheas_de_Almeida.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Micheas_de_Almeida.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 2
@@ -118,7 +108,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Elza Monnerat"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 2
@@ -128,7 +118,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Maurício Grabois"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Mauricio_Grabois.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Mauricio_Grabois.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 3
@@ -138,7 +128,7 @@ create_country_leader = {
 }
         create_corps_commander = {
 	name = "Lúcia Maria de Souza"
-	picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
+	#picture = "gfx/leaders/ROR/Portrait_ROR_Onofre_Pinto.dds"
 	traits = { }
 	skill = 1
 	attack_skill = 4

@@ -32,4 +32,23 @@ gamerules_check = {
 			factor = 200
 		}
 	}
+	el_salvadorian_bos_activation = {
+		days_remove = 1
+		available = {
+			has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }
+		}
+		activation = {
+			has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }
+		}
+		complete_effect = {
+			#6378 - Province for ELSVBOS divisions
+			#ELSV = {
+			#	transfer_state = 547
+			#	transfer_state = 541
+			#}
+		}
+		ai_will_do = {
+			factor = 200
+		}
+	}
 }

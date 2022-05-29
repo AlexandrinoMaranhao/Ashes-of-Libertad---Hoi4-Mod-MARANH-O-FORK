@@ -617,6 +617,23 @@ ERN_buff_status = {
 	}
 }
 
+el_salvadorian_bos_setup = {
+	name = "el_salvadorian_bos_settings"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = ELSAL_BOS_OFF
+		text = "ELSAL_BOS_DISABLED"
+		desc = "ELSAL_BOS_OFF_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ELSAL_BOS_ON
+		text = "ELSAL_BOS_ENABLED"
+		desc = "ELSAL_BOS_ON_DESC"
+		allow_achievements = no
+	}
+}
+
 portoclave_setup = {
 	name = "PORTOCLAVE_SETTINGS"
 	group = "RULE_GROUP_GAME_SETUP"
