@@ -155,7 +155,7 @@ sub_units = {
 		manpower = 150
 
 		#Misc Abilities
-		suppression_factor = 0.1
+		suppression_factor = 0.02
 		training_time = 50
 		weight = 0.5
 		

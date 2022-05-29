@@ -1,22 +1,19 @@
-
 state={
-	id=16
-	name="STATE_16"
-
+	id=576
+	name="Pio IX"
 	history={
 		owner = PIA
 		add_core_of = PIA
 		add_core_of = CFD
 
 		victory_points = {
-		4003 30	 
+			1384 1			
 		}
 	}
-
 	provinces={
-		52 1236 1844 3903 3951 3973 4003 
+		1384
 	}
-	manpower=80388
+	manpower=2250
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
