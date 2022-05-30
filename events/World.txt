@@ -1199,6 +1199,9 @@ news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.2
 				ideology = democratic
 				popularity = 0.02
 			}
+			hidden_effect = {
+				remove_ideas = CFD_antonio_corpse_advisor
+			}
 		}
 	}
 }

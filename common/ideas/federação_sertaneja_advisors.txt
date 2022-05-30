@@ -95,7 +95,7 @@ ideas = {
             visible = {
 				original_tag = CFD
             }
-			traits = { hog_defender_of_democracy }
+			traits = { sec_retired_general }
 			cost = 50
 		}
 		CFD_joaquim_parente_advisor = {

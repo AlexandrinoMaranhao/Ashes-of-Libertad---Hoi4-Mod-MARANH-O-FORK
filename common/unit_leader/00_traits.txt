@@ -1,4 +1,4 @@
-@@ -1,2497 +0,0 @@
+@@ -1,2497 @@
 # leader_traits contain a list of UnitLeaderTrait with the following structure:
 # trait_key = {
 # 	type = all # or either of field_marshal, corps_commander, navy

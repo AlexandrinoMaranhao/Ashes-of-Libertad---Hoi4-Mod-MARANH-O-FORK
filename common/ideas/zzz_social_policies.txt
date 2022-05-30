@@ -194,7 +194,7 @@ ideas = {
 				non_core_manpower = -0.1
 				political_power_gain = 0.15
 				stability_factor = 0.10
-				enemy_partisan_effect = 0.25
+				resistance_damage_to_garrison = 0.25
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 
@@ -209,7 +209,7 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.10
 				stability_factor = 0.05
-				enemy_partisan_effect = 0.15
+				resistance_damage_to_garrison = 0.15
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 
@@ -240,7 +240,7 @@ ideas = {
 				non_core_manpower = 0.1
 				political_power_gain = -0.10
 				stability_factor = 0.075
-				enemy_partisan_effect = -0.15
+				resistance_damage_to_garrison = -0.15
 			}
 			cancel_if_invalid = no
 			ai_will_do = { } 

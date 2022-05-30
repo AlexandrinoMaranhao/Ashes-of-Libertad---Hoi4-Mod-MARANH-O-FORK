@@ -44,7 +44,7 @@ country_event = {#FNLH rises up
     picture = x
     fire_only_once = yes
     trigger = {
-        date > 1974.1.1
+        date < 1967.5.12
         has_country_flag = HON_civil_war_flag
     }
 

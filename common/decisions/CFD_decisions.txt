@@ -56,16 +56,70 @@ CFD_piaui_frontier = {
 				attacker = {
 					state = 8
 					num_provinces = 4
-					on_win = CFD_operations_success.1
-					on_lose = CFD_operations.2
-					on_cancel = CFD_operations_success.1
+					on_win = CFD_operations.1
+					on_lose = CFD_operations_failure.2
+					on_cancel = CFD_operations.1
 				}
 				defender = {
-					state = 475
-					num_provinces = 4
+					state = 575
+					num_provinces = 1
+					on_win = CFD_operations_failure.2
+					on_lose = CFD_operations.1
+					on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+				factor = 999
+		}
+	}
+	CFD_op_jaicos ={
+		icon = GFX_decision_icon_default
+		cost = 10
+		days_remove = 7
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				CFD = {
+					army_manpower_in_state = {
+						type = infantry
+						amount > 600
+						state = 575
+					}
+					has_equipment = {
+						infantry_equipment > 99
+					}
+					NOT = {has_country_flag = portella_dead}
+					has_country_flag = begin_piaui_frontier
+				}
+				
+			}
+		}
+		visible = {
+			has_country_flag = begin_piaui_frontier
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 575
+					num_provinces = 1
 					on_win = CFD_operations.2
-					on_lose = CFD_operations_success.1
-					on_cancel = CFD_operations_success.1
+					on_lose = CFD_operations_failure.2
+					on_cancel = CFD_operations.2
+				}
+				defender = {
+					state = 577
+					num_provinces = 1
+					on_win = CFD_operations_failure.2
+					on_lose = CFD_operations.2
+					on_cancel = CFD_operations.2
 				}
 			}
 		}
@@ -90,13 +144,13 @@ CFD_piaui_frontier = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
-						state = 475
+						state = 577
 					}
-					has_country_flag = begin_piaui_frontier
 					has_equipment = {
 						infantry_equipment > 99
 					}
 					NOT = {has_country_flag = portella_dead}
+					has_country_flag = begin_piaui_frontier
 				}
 				
 			}
@@ -108,18 +162,18 @@ CFD_piaui_frontier = {
 			start_border_war = {
 				change_state_after_war = yes
 				attacker = {
-					state = 8
-					num_provinces = 4
-					on_win = CFD_operations.1
-					on_lose = CFD_operations.2
-					on_cancel = CFD_operations.1
+					state = 577
+					num_provinces = 1
+					on_win = CFD_operations.3
+					on_lose = CFD_operations_failure.2
+					on_cancel = CFD_operations.3
 				}
 				defender = {
-					state = 475
-					num_provinces = 4
-					on_win = CFD_operations.2
-					on_lose = CFD_operations.1
-					on_cancel = CFD_operations.1
+					state = 576
+					num_provinces = 1
+					on_win = CFD_operations_failure.2
+					on_lose = CFD_operations.3
+					on_cancel = CFD_operations.3
 				}
 			}
 		}
@@ -128,7 +182,115 @@ CFD_piaui_frontier = {
 		remove_effect = {
 		}
 		ai_will_do = {
-				factor = 999
+			factor = 999
+		}
+	}
+	CFD_op_picos ={
+		icon = GFX_decision_icon_default
+		cost = 10
+		days_remove = 7
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				CFD = {
+					army_manpower_in_state = {
+						type = infantry
+						amount > 600
+						state = 577
+					}
+					has_equipment = {
+						infantry_equipment > 99
+					}
+					NOT = {has_country_flag = portella_dead}
+					has_country_flag = begin_piaui_frontier
+				}
+				
+			}
+		}
+		visible = {
+			has_country_flag = begin_piaui_frontier
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 577
+					num_provinces = 1
+					on_win = CFD_operations.4
+					on_lose = CFD_operations_failure.2
+					on_cancel = CFD_operations.4
+				}
+				defender = {
+					state = 578
+					num_provinces = 1
+					on_win = CFD_operations_failure.2
+					on_lose = CFD_operations.4
+					on_cancel = CFD_operations.4
+				}
+			}
+		}
+		modifier = {
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_op_valencia ={
+		icon = GFX_decision_icon_default
+		cost = 10
+		days_remove = 7
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				CFD = {
+					army_manpower_in_state = {
+						type = infantry
+						amount > 600
+						state = 578
+					}
+					has_equipment = {
+						infantry_equipment > 99
+					}
+					NOT = {has_country_flag = portella_dead}
+					has_country_flag = begin_piaui_frontier
+				}
+				
+			}
+		}
+		visible = {
+			has_country_flag = begin_piaui_frontier
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 578
+					num_provinces = 1
+					on_win = CFD_operations.5
+					on_lose = CFD_operations_failure.2
+					on_cancel = CFD_operations.5
+				}
+				defender = {
+					state = 579
+					num_provinces = 1
+					on_win = CFD_operations_failure.2
+					on_lose = CFD_operations.5
+					on_cancel = CFD_operations.5
+				}
+			}
+		}
+		modifier = {
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 999
 		}
 	}
 }

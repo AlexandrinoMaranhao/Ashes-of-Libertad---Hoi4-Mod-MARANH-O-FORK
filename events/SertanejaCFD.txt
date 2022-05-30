@@ -1,5 +1,5 @@
-add_namespace = CFD_operations_success
 add_namespace = CFD_operations
+add_namespace = CFD_operation_failure
 add_namespace = CFD_events
 add_namespace = CFD_failometer_enabled
 add_namespace = CFD_ai
@@ -28,7 +28,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Derrota
+country_event = { #Operação: |Sucesso
     id = CFD_operations.2
     title = CFD_operations.2.t
     desc = CFD_operations.2.d
@@ -37,26 +37,86 @@ country_event = { #Operação: |Derrota
 
     option = {
         name = CFD_operations.2.a
+		PIA = {
+			set_province_controller = 1929
+			set_province_controller = 1771
+			set_province_controller = 4133
+			set_province_controller = 1634
+			set_province_controller = 1895
+			CFD = {
+				set_province_controller = 941
+				set_province_controller = 330
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.3
+    title = CFD_operations.3.t
+    desc = CFD_operations.3.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.3.a
+		PIA = {
+			CFD = {
+				set_province_controller = 1384
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.4
+    title = CFD_operations.4.t
+    desc = CFD_operations.4.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.4.a
+		PIA = {
+			CFD = {
+				set_province_controller = 2103
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.5
+    title = CFD_operations.5.t
+    desc = CFD_operations.5.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.5.a
+		PIA = {
+			CFD = {
+				set_province_controller = 3973
+			}
+		}
+    }
+}
+
+country_event = { #Operação Derrota
+    id = CFD_operations_failure.2
+    title = CFD_operations_failure.2.t
+    desc = CFD_operations_failure.2.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations_failure.2.a
 		CFD = {
 			set_country_flag = portella_dead
 		}
     }
 }
 
-country_event = { #Operação: |Sucesso
-    id = CFD_operations_success.1
-    title = CFD_operations.1.t
-    desc = CFD_operations.1.d
-    is_triggered_only = yes
-    picture = x
-
-    option = {
-        name = CFD_operations.1.a
-		PIA = {
-			country_event = {id = CFD_operations.1 days = 3}
-		}
-    }
-}
 
 country_event = { #The Hell Battalion comes from Dust Fall
     id = CFD_events.1

@@ -313,10 +313,24 @@ ideas = {
 		}
 		mercenary_specialization = {
 			available = { NOT = { has_idea = no_mercenaries }}
+			removal_cost = -1
+			cost = 50
 			modifier = {
+				terrain_penalty_reduction = 0.15
 				cat_mobile_warfare_cost_factor = -0.2
+				unit_upkeep_attrition_factor = -0.3
+				training_time_factor = -0.1
+				coordination_bonus = -0.1
 			}
 			
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = -0.05 build_cost_ic = -0.1
+				}
+			}
+			
+			cancel_if_invalid = yes
+			ai_will_do = { }
 		}
 		traditional_army_specialization = {
 			available = { } 

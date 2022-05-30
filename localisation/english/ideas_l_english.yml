@@ -11,6 +11,11 @@
  zzz_voluntrios_da_ptria:0 "Voluntários da Pátria"
  zzz_voluntrios_da_ptria_desc:0 "The monarchists of [CRJ.GetName] is helping us establishing a foothold in our battles by assisting our armies with equipment and manpower!"
 
+ received_attache:0 "Received attaché"
+ received_attache_desc:0 "Foreign military attachés residing in our country."
+ ATTACHE_LIST:0 "We received military attachés from $LIST$. And they give us the following effects:"
+
+ SPIRIT_ADD_IDEA:0 "§GHire a§! §YMilitary advisor§!"
 
  ministers:0 "§bPolitical Cabinet§!"
  political_advisor:0 "Political Advisor"

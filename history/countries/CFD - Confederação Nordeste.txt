@@ -32,6 +32,14 @@ add_ideas = {
     loose_federation
     cangaceiros_and_commies
     gateway_of_south_america
+	
+	political_parties_multiparty_system
+	economic_focus_early_mobilization
+	equal_rights
+	bellow_poverty_line
+	free_press
+	slavery_outlawed
+	trade_scope_international_exports
 }
 
 recruit_character = CFD_arnon_afonso_de_farias_mello

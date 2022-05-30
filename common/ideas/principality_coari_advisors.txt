@@ -146,42 +146,6 @@ ideas = {
 	}
 
     ###############################
-	# Theorists
-	###############################
-
-    theorist = {
-			father_hirsch_theorist = {
-#			picture = 
-			ledger = army
-			allowed = {
-				original_tag = COR
-			}
-			available = {
-				original_tag = COR
-			}
-			traits = {
-				the_american_priest_theorist
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-			alexandre_montoril_theorist = {
-			picture = GFX_idea_montoril_advisor_cor
-			ledger = army
-			allowed = {
-				original_tag = COR
-			}
-			traits = {
-				alexandre_montoril_theorist_trait
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-    }
-
-    ###############################
 	# Political Advisors
 	###############################
     

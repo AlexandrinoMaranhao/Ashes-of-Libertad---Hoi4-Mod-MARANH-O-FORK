@@ -12,7 +12,7 @@ characters={
 		}
 		country_leader={
 			desc="ARNON_DESC"
-			ideology=corporate_state_status_quo
+			ideology=centrism
 			traits={ the_killer_senator }
 			expire="1999.1.1.1"
 			id=-1
@@ -27,7 +27,7 @@ characters={
 		}
 		country_leader={
 			desc="ARRAES_DESC"
-			ideology=moderatism 
+			ideology=socialism 
 			traits={ ensuing_collapse }
 			expire="1999.1.1.1"
 			id=-1
