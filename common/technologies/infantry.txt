@@ -2315,7 +2315,7 @@ technologies = {
 		}
 	}
 	
-	######### FROM JAPANESE FOCUS ##########
+	######### FROM EXCLUSIVE FOCUSES ##########
 	bicycle_infantry = {
 		
 		allow = {
@@ -2327,6 +2327,19 @@ technologies = {
 
 		enable_subunits = {
 			bicycle_battalion
+		}		
+	}
+	merc_infantry = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1962
+
+		enable_subunits = {
+			merc_unit
 		}		
 	}
 }

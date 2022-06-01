@@ -64,6 +64,5 @@ recruit_character = BRA_peri_constant_bevilacqua
 recruit_character = BRA_argemiro_de_assis_brasil
 recruit_character = BRA_luís_tavares_da_cunha_melo
 recruit_character = BRA_euler_bentes_monteiro
-recruit_character = BRA_euryale_de_jesus_zerbini
 recruit_character = BRA_alfeu_de_alcântara_monteiro
 recruit_character = BRA_carlos_tinoco_ribeiro_gomes

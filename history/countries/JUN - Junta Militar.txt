@@ -12,6 +12,7 @@ set_technology = {
     	infantry_gear = 1
 }
 
+recruit_character = BRA_euryale_de_jesus_zerbini
 set_convoys = 5
 
 
@@ -43,17 +44,10 @@ add_ideas = {
 	conscription_two_year_draft
 
 	the_man_in_the_white_castle
-dutra
+	dutra
 }
 
-set_country_flag = is_brazilian
 set_country_flag = special_volunteers
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	

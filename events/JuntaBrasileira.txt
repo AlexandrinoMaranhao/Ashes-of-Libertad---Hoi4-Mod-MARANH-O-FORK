@@ -45,20 +45,20 @@ country_event = {
 
         custom_effect_tooltip = collapsingjunta_tt
         set_cosmetic_tag = JUN_COUNCIL
-        hidden_effect = { JUN = { country_event = { id = JUN_collapse.2 days = 21 } } }
-        hidden_effect = { 69 = { set_demilitarized_zone = yes } }
-
-        hidden_effect = {
-    every_country = {
-        news_event = {
-            id = world.46
-            days = 1
-            }
-        }   
+			hidden_effect = { JUN = { country_event = { id = JUN_collapse.2 days = 21 } } }
+			hidden_effect = { 69 = { set_demilitarized_zone = yes } }
+		
+			hidden_effect = {
+				every_country = {
+					news_event = {
+						id = world.46
+						days = 1
+					}
+				}   
+			}
+			set_global_flag = juntahasfallen
+		}
     }
-        }
-            #fecha
-        }
     
 
 country_event = {

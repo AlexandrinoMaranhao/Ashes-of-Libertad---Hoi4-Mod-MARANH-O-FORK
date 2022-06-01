@@ -233,25 +233,6 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_euryale_de_jesus_zerbini={
-		name="Euryale de Jesus Zerbini"
-		portraits={
-			army={
-				small=""
-			}
-			army={
-				large="gfx/leaders/BRA/Portrait_BRA_Euryale_Zerbini.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	BRA_alfeu_de_alcântara_monteiro={
 		name="Alfeu de Alcântara Monteiro"
 		portraits={

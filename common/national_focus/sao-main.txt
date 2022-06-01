@@ -592,7 +592,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 1 }
 		allow_branch = {
-			has_country_flag = sao_show_main_focus
+			has_global_flag = juntahasfallen
 		}
 	}
 
@@ -608,6 +608,21 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_fall_of_the_white_castle  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			JUN = {
+				retire_character = BRA_euryale_de_jesus_zerbini
+			}
+			
+			SAO = {
+			  recruit_character = BRA_euryale_de_jesus_zerbini
+			
+			    set_portraits = {
+			        character = BRA_euryale_de_jesus_zerbini
+			        army = { small ="GFX_generic_army6_small" }
+			        army = { large ="gfx/leaders/SAO/Portrait_SAO_Euryale_Zerbini.dds" }
+			    } 
+			}
+		}
 	}
 
 	#Fan the Flames of Revolution

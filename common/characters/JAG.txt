@@ -57,11 +57,11 @@ characters={
 			legacy_id=-1
 		}
 	}
-	JAG_jose_anselmo_dos_santos={
-		name="José Anselmo dos Santos"
+	JAG_joseanselmodossantos ={
+		name="Jose Anselmo dos Santos"
 		portraits={
 			army={
-				small=""
+				small="gfx/leaders/JAG/Portrait_JAG_Jose_Anselmo.dds"
 			}
 			army={
 				large="gfx/leaders/JAG/Portrait_JAG_Jose_Anselmo.dds"
