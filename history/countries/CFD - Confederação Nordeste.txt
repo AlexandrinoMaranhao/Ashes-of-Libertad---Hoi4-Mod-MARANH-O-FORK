@@ -47,6 +47,8 @@ recruit_character = CFD_miguel_arraes
 recruit_character = CFD_collapsed_government
 recruit_character = CFD_pretonio_portella
 
+set_country_flag = unfinished_cfd
+
 create_country_leader = { #Only for the name.
 	name = "Nivaldo Machado"
 	desc = ""

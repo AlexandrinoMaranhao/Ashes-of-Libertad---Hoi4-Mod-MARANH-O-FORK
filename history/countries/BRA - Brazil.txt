@@ -51,18 +51,18 @@ add_ideas = {
 }
 
 
-recruit_character = BRA_joão_belchior_goulart
+recruit_character = BRA_joao_belchior_goulart
 recruit_character = BRA_leonel_de_moura_brizola
 recruit_character = BRA_irton_marx
-recruit_character = BRA_joão_de_segadas_viana
-recruit_character = BRA_josé_machado_lopes
+recruit_character = BRA_joao_de_segadas_viana
+recruit_character = BRA_jose_machado_lopes
 recruit_character = BRA_henrique_teixeira_lott
 recruit_character = BRA_amaury_kruel
 recruit_character = BRA_hugo_panasco_alvim
 recruit_character = BRA_osvino_ferreira_alves
 recruit_character = BRA_peri_constant_bevilacqua
 recruit_character = BRA_argemiro_de_assis_brasil
-recruit_character = BRA_luís_tavares_da_cunha_melo
+recruit_character = BRA_luis_tavares_da_cunha_melo
 recruit_character = BRA_euler_bentes_monteiro
-recruit_character = BRA_alfeu_de_alcântara_monteiro
+recruit_character = BRA_alfeu_de_alcantara_monteiro
 recruit_character = BRA_carlos_tinoco_ribeiro_gomes

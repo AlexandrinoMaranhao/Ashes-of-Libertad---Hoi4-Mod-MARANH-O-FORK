@@ -27,22 +27,15 @@ set_popularities = {
 
 add_ideas = {
 	the_red_army
-anti_castro
-
-conscription_scraping_the_barrel
+	anti_castro
+	conscription_scraping_the_barrel
 }
 
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
-	name = "Dmitry Yazov"
-	picture = "gfx/leaders/RED/Portrait_RED_Anatoly_Gribkov.dds"
+	name = "Issa Pliev"
+	picture = "gfx/leaders/RED/Portrait_RED_Issa_Pliev_funbox.dds"
 	expire = "1999.1.1"
 	ideology = guerrilla
 }

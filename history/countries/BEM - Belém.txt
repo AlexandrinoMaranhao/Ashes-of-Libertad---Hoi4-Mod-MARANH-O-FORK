@@ -59,4 +59,3 @@ create_country_leader = {
 recruit_character = BEM_jurandir_bizarria_mamede
 recruit_character = BEM_olavo_viana_moog
 recruit_character = BEM_carlos_alberto_cabral_ribeiro
-recruit_character = BEM_liciel_maciel

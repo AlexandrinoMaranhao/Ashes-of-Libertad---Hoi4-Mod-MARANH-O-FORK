@@ -1,5 +1,5 @@
 characters={
-	BRA_joão_belchior_goulart={
+	BRA_joao_belchior_goulart={
 		name="João Belchior Goulart"
 		portraits={
 			civilian={
@@ -40,7 +40,7 @@ characters={
 			id=-1
 		}
 	}
-	BRA_joão_de_segadas_viana={
+	BRA_joao_de_segadas_viana={
 		name="João de Segadas Viana"
 		portraits={
 			army={
@@ -59,7 +59,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_josé_machado_lopes={
+	BRA_jose_machado_lopes={
 		name="José Machado Lopes"
 		portraits={
 			army={
@@ -195,7 +195,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_luís_tavares_da_cunha_melo={
+	BRA_luis_tavares_da_cunha_melo={
 		name="Luís Tavares da Cunha Melo"
 		portraits={
 			army={
@@ -233,7 +233,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_alfeu_de_alcântara_monteiro={
+	BRA_alfeu_de_alcantara_monteiro={
 		name="Alfeu de Alcântara Monteiro"
 		portraits={
 			army={

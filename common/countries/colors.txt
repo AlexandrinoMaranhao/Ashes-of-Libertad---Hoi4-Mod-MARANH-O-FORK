@@ -817,6 +817,16 @@ HAL = {
 	color_ui = rgb { 0 0 0 }
 }
 
+NUD = {
+	color = rgb { 0 43 128 }
+	color_ui = rgb { 0 43 128 }
+}
+
+RPP = {
+	color = rgb { 176 0 3 }
+	color_ui = rgb { 176 0 3 }
+}
+
 NNM = {
 	color = rgb { 0 127 70 }
 	color_ui = rgb { 0 127 70 }

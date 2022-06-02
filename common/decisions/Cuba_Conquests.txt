@@ -1,6 +1,6 @@
 ACC_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_ACC = {
 
 		icon = generic_civil_support
 		
@@ -332,7 +332,7 @@ ACC_Uniting_Cuba = {
 }
 RED_Uniting_Cuba = {
 	
-	DRE_defeat = {
+	DRE_defeat_RED = {
 
 		icon = generic_civil_support
 		
@@ -664,7 +664,7 @@ RED_Uniting_Cuba = {
 }
 NEH_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_NEH = {
 
 		icon = generic_civil_support
 		
@@ -996,7 +996,7 @@ NEH_Uniting_Cuba = {
 }
 DRE_Uniting_Cuba = {
 
-	DRE_Conquest = {
+	DRE_Conquest_DRE = {
 
 		icon = generic_civil_support
 
@@ -1287,7 +1287,7 @@ DRE_Uniting_Cuba = {
 }
 RUM_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_RUM = {
 
 		icon = generic_civil_support
 		
@@ -1619,7 +1619,7 @@ RUM_Uniting_Cuba = {
 }
 CUP_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_CUP = {
 
 		icon = generic_civil_support
 		
@@ -1951,7 +1951,7 @@ CUP_Uniting_Cuba = {
 }
 ECR_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_ECR = {
 
 		icon = generic_civil_support
 		
@@ -2283,7 +2283,7 @@ ECR_Uniting_Cuba = {
 }
 CDR_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_CDR = {
 
 		icon = generic_civil_support
 		
@@ -2615,7 +2615,7 @@ CDR_Uniting_Cuba = {
 }
 SCR_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_SCR = {
 
 		icon = generic_civil_support
 		
@@ -2947,7 +2947,7 @@ SCR_Uniting_Cuba = {
 }
 BTA_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_BTA = {
 
 		icon = generic_civil_support
 		
@@ -3279,7 +3279,7 @@ BTA_Uniting_Cuba = {
 }
 CUB_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_CUB = {
 
 		icon = generic_civil_support
 		
@@ -3611,7 +3611,7 @@ CUB_Uniting_Cuba = {
 }
 JUV_Uniting_Cuba = {
 
-	DRE_defeat = {
+	DRE_defeat_JUV = {
 
 		icon = generic_civil_support
 		

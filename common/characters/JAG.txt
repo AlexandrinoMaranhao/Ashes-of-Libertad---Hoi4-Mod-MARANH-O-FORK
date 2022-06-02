@@ -57,23 +57,4 @@ characters={
 			legacy_id=-1
 		}
 	}
-	JAG_joseanselmodossantos ={
-		name="Jose Anselmo dos Santos"
-		portraits={
-			army={
-				small="gfx/leaders/JAG/Portrait_JAG_Jose_Anselmo.dds"
-			}
-			army={
-				large="gfx/leaders/JAG/Portrait_JAG_Jose_Anselmo.dds"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 }

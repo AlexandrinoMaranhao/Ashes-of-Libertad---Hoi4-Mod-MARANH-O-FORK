@@ -134,4 +134,3 @@ create_country_leader = {
 recruit_character = JAG_newton_cruz
 recruit_character = JAG_washington_vaz_de_melo
 recruit_character = JAG_carlos_brilhante_ustra
-recruit_character = JAG_joseanselmodossantos
