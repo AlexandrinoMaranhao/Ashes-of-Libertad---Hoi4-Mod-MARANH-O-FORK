@@ -118,12 +118,6 @@ trabalhismo_mineiro
 }
 
 set_country_flag = is_brazilian
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -138,7 +132,7 @@ create_country_leader = {
 create_country_leader = {
 	
 	name = "Hugo de Abreu"
-	#picture = "gfx/leaders/UBA/Portrait_UBA_Hugo_de_Abreu_duke.dds"
+	picture = "gfx/leaders/UBA/Portrait_UBA_Hugo_de_Abreu_duke.dds"
 	expire = "1999.1.1"
 	ideology = coronelism
 	traits = {
