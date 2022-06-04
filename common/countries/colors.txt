@@ -4,6 +4,12 @@ YWP = {
 	color_ui = rgb { 206 203 0 }
 }
 
+
+ELC = {
+	color = rgb { 78 67 71 }
+	color_ui = rgb { 78 67 71 }
+}
+
 TTC = {
 	color = rgb { 127 63 90 }
 	color_ui = rgb { 127 63 90 }

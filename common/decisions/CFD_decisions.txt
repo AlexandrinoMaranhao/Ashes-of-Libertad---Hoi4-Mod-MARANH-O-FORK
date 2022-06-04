@@ -78,6 +78,9 @@ CFD_main_category = {
 			#	days = 2
 			#}
 		}
+		ai_will_do = {
+				factor = 999
+		}
 	}
 }
 ##################		International Country Diplomacy Decisions.		##################

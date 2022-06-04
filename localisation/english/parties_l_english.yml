@@ -680,6 +680,17 @@ HAI_reactionary_party_long:0 "Parti de l'Unité Nationale"
 DOM_democratic_party:0 "PRD"
 DOM_democratic_party_long:0 "Partido Revolucionario Dominicano"
 
+ELC_democratic_party:0 "The Brotherhood"
+ELC_communism_party:0 "The Clique"
+ELC_neutrality_party:0 "-------"
+ELC_fascism_party:0 "The Chapter"
+ELC_reactionary_party:0 "-------"
+ELC_democratic_party_long:0 "The Brotherhood are soldiers in-line with the ideals of Sydney, on which it must be created unity with the people of El Salvador before taking actions against them."
+ELC_communism_party_long:0 "The Clique"
+ELC_reactionary_party_long:0 "-------"
+ELC_fascism_party_long:0 "The Chapter are members who remain loyal to Taylor and his ambiotious plan to conquer all of El Salvador, to report back to the USA... If they are still around."
+ELC_neutrality_party_long:0 "-------"
+
 ## Nordeste ##
   CFD_democratic_party:0 "PSN - Unionists"
   CFD_democratic_party_long:0 "Partido Social Nordestino - 'Unidos' Branch"

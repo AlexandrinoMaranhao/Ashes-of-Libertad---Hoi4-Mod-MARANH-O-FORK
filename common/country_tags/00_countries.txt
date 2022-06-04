@@ -168,6 +168,7 @@ USA = "countries/American Military Command.txt"
 ELS = "countries/El Salvador.txt"
 FML = "countries/FMLN.txt"
 SEP = "countries/Salvadoran ERP.txt"
+ELC = "countries/ELC.txt"
 
 ## São Paulo ##
 YWP = "countries/The Yellow Woodpeckers.txt"

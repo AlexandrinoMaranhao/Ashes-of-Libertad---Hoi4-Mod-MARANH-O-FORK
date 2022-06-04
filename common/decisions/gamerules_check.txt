@@ -17,6 +17,7 @@ gamerules_check = {
 	}
 	portuclave_activation = {
 		days_remove = 1
+		fire_only_once = yes
 		available = {
 			has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_ENABLED }
 		}
@@ -34,6 +35,7 @@ gamerules_check = {
 	}
 	el_salvadorian_bos_activation = {
 		days_remove = 1
+		fire_only_once = yes
 		available = {
 			has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }
 		}
@@ -41,11 +43,11 @@ gamerules_check = {
 			has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }
 		}
 		complete_effect = {
-			#6378 - Province for ELSVBOS divisions
-			#ELSV = {
-			#	transfer_state = 547
-			#	transfer_state = 541
-			#}
+			ELC = {
+				transfer_state = 547
+				transfer_state = 541
+				#load_oob = "ELC_1967" Have to manually add the OOB after the event.
+			}
 		}
 		ai_will_do = {
 			factor = 200
