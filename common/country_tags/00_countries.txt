@@ -190,4 +190,4 @@ UBA = "countries/Ubatuba.txt"
 ## Nordeste ##
 
 RPP = "countries/RPP Revolutionary Pernambuco.txt"
-NUD = "countries/NUD Democratic Union"
+NUD = "countries/Democratic Union of Vera Cruz.txt"

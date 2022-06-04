@@ -46,7 +46,7 @@ gamerules_check = {
 			ELC = {
 				transfer_state = 547
 				transfer_state = 541
-				#load_oob = "ELC_1967" Have to manually add the OOB after the event.
+				load_oob = "ELC_1967"
 			}
 		}
 		ai_will_do = {

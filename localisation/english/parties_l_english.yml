@@ -691,6 +691,9 @@ ELC_reactionary_party_long:0 "-------"
 ELC_fascism_party_long:0 "The Chapter are members who remain loyal to Taylor and his ambiotious plan to conquer all of El Salvador, to report back to the USA... If they are still around."
 ELC_neutrality_party_long:0 "-------"
 
+POR_fascism_party:0 "MP-AP"
+POR_fascism_party_long:0 "Marinha Portuguesa - Armada Portuguesa"
+
 ## Nordeste ##
   CFD_democratic_party:0 "PSN - Unionists"
   CFD_democratic_party_long:0 "Partido Social Nordestino - 'Unidos' Branch"

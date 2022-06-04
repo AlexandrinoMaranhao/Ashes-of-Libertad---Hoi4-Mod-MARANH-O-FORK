@@ -499,7 +499,7 @@
  PORTOCLAVE_DISABLED_DESC:0 "The Portuguese Enclave will not spawn. And thus, keeping normal AoL gameplay flow."
  
  ###El Salvadorian Brotherhood 'of Steel' (Fun Box)
- el_salvadorian_bos_settings:0 "£GFX_els_BoS El Salvadorian Brotherhood (Fun Box)" 
+ el_salvadorian_bos_settings:0 "£GFX_els_BoS The El Salvadorian Chapter (Fun Box)" 
  ELSAL_BOS_ENABLED:0 "§BTechnological Purity!§!"
  ELSAL_BOS_ON_DESC:0 "This will trigger the requirements to activate the §BEl Salvadorian Brotherhood§! in La Unión. Be aware of their plans for Central America once they are done."
  ELSAL_BOS_DISABLED:0 "Disabled"
