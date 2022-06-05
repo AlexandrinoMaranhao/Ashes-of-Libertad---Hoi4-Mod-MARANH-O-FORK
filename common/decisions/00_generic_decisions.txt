@@ -32,7 +32,7 @@ weaponstash_system_category = {
 		}
 		
 		available = {
-
+			has_country_flag = can_stash
 		}
 		
 		fire_only_once = no
@@ -110,14 +110,16 @@ weaponstash_system_category = {
 		#
 
 		complete_effect = {
-			random_state = {
-				limit = {
-					has_state_flag = stashed_weapons
-					is_owned_and_controlled_by = FROM
-				}
-				add_dynamic_modifier = {
-					modifier = using_weapon_stashes
-					days = 30
+			ROOT = {
+				random_state = {
+					limit = {
+						has_state_flag = stashed_weapons
+						is_owned_and_controlled_by = FROM
+					}
+					add_dynamic_modifier = {
+						modifier = using_weapon_stashes
+						days = 30
+					}
 				}
 			}
 		}

@@ -4,7 +4,23 @@ ideas = {
 
 	
 		THE_PAULISTA_CATASTROPHE = {
-
+			
+			modifier = {
+				production_speed_buildings_factor = -2
+				political_power_cost = 2
+				conscription_factor = -0.5
+				research_speed_factor = -100
+				enemy_justify_war_goal_time = 500
+				join_faction_tension = 2
+				lend_lease_tension = 2
+				send_volunteers_tension = 2
+				guarantee_tension = 2
+				industrial_capacity_factory = -10
+				industrial_capacity_dockyard = -100
+				compliance_growth_on_our_occupied_states = 100
+				ai_badass_factor = -2
+				ai_get_ally_desire_factor = -500
+			}
 		}
 
 		CAI_cangaco_paulista = {

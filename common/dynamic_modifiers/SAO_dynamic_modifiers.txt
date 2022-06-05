@@ -1,0 +1,14 @@
+SAO_modifier1 = { # Divided folk
+	icon = GFX_idea_GEN_so_paulos_divided_populace-183749 	#DON'T TOUCH THE ICON GFX!
+	enable = { always = yes }
+
+	stability_factor = -0.1
+}
+
+SAO_janio_trolling = { # Janio's Campaigns
+	icon = GFX_idea_janio_campaign
+	enable = { always = yes }
+
+	democratic_drift = 0.001
+	political_power_gain = -0.1
+}

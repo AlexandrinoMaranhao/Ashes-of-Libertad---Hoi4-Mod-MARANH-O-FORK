@@ -8,6 +8,11 @@ SpriteTypes = {
 # 
 
 spriteType = {
+	name = "GFX_idea_janio_campaign"
+	texturefile = "gfx/interface/ideas/spirts-ideas/janio_trollage.dds"
+}
+
+spriteType = {
 	name = "GFX_idea_received_attache"
 	texturefile = "gfx/interface/ideas/idea_send_attache.dds"
 }

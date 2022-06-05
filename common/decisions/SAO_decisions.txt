@@ -39,6 +39,7 @@ SAO_category = {
 			SAO = {
 				clr_country_flag = sao_show_main_focus
 				load_focus_tree = sao-phase-two
+				set_country_flag = sao_focus_phase_two
 			}
 		}
 		ai_will_do = {

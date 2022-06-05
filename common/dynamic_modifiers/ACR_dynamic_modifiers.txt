@@ -63,6 +63,7 @@ ACR_matters_of_national_rectification = {
 using_weapon_stashes = {
 	enable = { always = yes }
 	icon = GFX_modifiers_sabotaged_resource
+	attacker_modifier = true
 	
 	local_supplies = 0.25
 	mobilization_speed = 0.3

@@ -7,8 +7,7 @@ ideas = {
 				original_tag = SAO
 			}
 			modifier = {
-				stability_factor = -0.15
-political_power_cost = 0.05
+				stability_factor = 0.05
 			}
 		}
 
@@ -18,8 +17,8 @@ political_power_cost = 0.05
 				original_tag = SAO
 			}
 			modifier = {
-				political_power_gain = 0.3
-party_popularity_stability_factor = 0.2
+				political_power_gain = -0.3
+party_popularity_stability_factor = -0.2
 			}
 		}
 
@@ -130,19 +129,6 @@ stability_weekly = -0.001
 			}
 		}
 
-		GEN_a_esperana_deste_povo_abandonado = {
-			picture = GEN_a_esperana_deste_povo_abandonado-114532
-			allowed = {
-				original_tag = SAO
-			}
-			modifier = {
-				democratic_drift = 0.001
-political_power_gain = -0.01
-
-
-			}
-		}
-
 		GEN_the_drizzles_police = {
 			picture = GEN_the_drizzles_police-229857
 			modifier = {
@@ -150,14 +136,6 @@ political_power_gain = -0.01
 	resistance_damage_to_garrison = -0.1
 	root_out_resistance_effectiveness_factor = 0.6
 
-			}
-		}
-
-		GEN_janios_campaign = {
-			picture = GEN_janios_campaign-113092
-			modifier = {
-				democratic_drift = 0.001
-stability_factor = -0.3
 			}
 		}
 

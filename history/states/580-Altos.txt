@@ -1,22 +1,19 @@
-
 state={
-	id=16
-	name="STATE_16"
-
+	id=580
+	name="Altos"
 	history={
 		owner = PIA
 		add_core_of = PIA
-		add_core_of = CFD
+		add_claim_by = CFD
 
 		victory_points = {
-		4003 30	 
+			1236 2
 		}
 	}
-
 	provinces={
-		52 1844 3903 3951 4003 
+	  1236
 	}
-	manpower=80388
+	manpower=6475
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

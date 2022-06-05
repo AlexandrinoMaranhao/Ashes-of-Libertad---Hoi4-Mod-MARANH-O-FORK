@@ -50,6 +50,9 @@ add_ideas = {
 	GEN_the_devil_in_the_bottle
 	GEN_shattered_economy 
 }
+add_dynamic_modifier = {
+	modifier = SAO_modifier1
+}
 
 set_country_flag = sao_show_main_focus
 
