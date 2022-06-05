@@ -647,6 +647,14 @@ CHL_neutrality_party_long:0 "Frente de Acción Popular - Partido Socialista de C
 ## Uruguay ##
 URG_neutrality_party:0 "PC(UCB)"
 URG_neutrality_party_long:0 "Partido Colorado(Unión Colorada y Batllista)"
+DEA_democratic_party:0 "DAN"
+DEA_democratic_party_long:0 "Defensa Armada Nacionalista"
+DEA_reactionary_party:0 "CCT"
+DEA_reactionary_party_long:0 "Comandos Caza Tupamaros"
+DEA_fascism_party:0 "COSENA - JOG Unity"
+DEA_fascism_party_long:0 "Consejo de Seguridad Nacional de Uruguay - Junta de Oficiales Generales United Party"
+TUP_communism_party:0 "MLN-T"
+TUP_communism_party_long:0 "Movimiento de Liberación Nacional-Tupamaros"
 
 ## Cuba ##
 CUB_communism_party:0 "PCC"

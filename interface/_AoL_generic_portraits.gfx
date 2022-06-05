@@ -212,4 +212,42 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
 	}
 	
+###Generic Mercenaries
+
+	spriteType = {
+		name = "GFX_MGeneric1"
+		texturefile = "gfx/leaders/STR/Portrait_STR_Merc1.dds"
+	}
+	spriteType = {
+		name = "GFX_MGeneric1_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_MGeneric2"
+		texturefile = "gfx/leaders/STR/Portrait_STR_Merc2.dds"
+	}
+	spriteType = {
+		name = "GFX_MGeneric2_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_MGeneric3"
+		texturefile = "gfx/leaders/STR/Portrait_STR_Merc3.dds"
+	}
+	spriteType = {
+		name = "GFX_MGeneric3_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_MGeneric4"
+		texturefile = "gfx/leaders/STR/Portrait_STR_Merc4.dds"
+	}
+	spriteType = {
+		name = "GFX_MGeneric4_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_13.dds"
+	}
+	
 }

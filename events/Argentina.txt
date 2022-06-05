@@ -40,20 +40,37 @@ country_event = { #### Falklands Reclamation
     option = {
         name = ARG_aiwar.1.a
         ai_chance = { factor = 1 }
-        declare_war_on = {
-            target = FAK
-            type = annex_everything
-        }
-
-    every_country = {
-        news_event = {
-            id = world.64
-            days = 1
-        }
-    }
- 
-        add_state_core = 153
-        add_state_core = 514
+		
+			declare_war_on = {
+				target = FAK
+				type = annex_everything
+			}
+			every_country = {
+				news_event = {
+					id = world.64
+					days = 1
+				}
+			}
+			
+ 			153 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = {
+					all_provinces = yes
+					limit_to_coastal = yes
+					}
+				}
+			}
+			ARG = {
+				add_war_support = 0.25
+				add_stability = -0.25
+				add_political_power = -150
+				load_oob = "ARG_FAK_WAR"
+				add_state_core = 153
+				add_state_core = 514
+			}
         hidden_effect = { country_event = { id = ARG_aiwar.2 days = 574 } country_event = { id = ARG_aiwar.5 days = 90 } }
     }
 }
@@ -92,33 +109,41 @@ country_event = { ### POCHI'S WET DREAM
     option = {
         name = ARG_URG_collapse.1.a
         URG = {
-        80 = {add_core_of = DEA}
-        81 = {add_core_of = DEA}
-        82 = {add_core_of = DEA}
-        83 = {add_core_of = DEA}
-        84 = {add_core_of = DEA}
-
-        80 = {add_core_of = TUP}
-        81 = {add_core_of = TUP}
-        82 = {add_core_of = TUP}
-        83 = {add_core_of = TUP}
-        84 = {add_core_of = TUP}
-
-        DEA = { transfer_state = 81 }
-        DEA = { transfer_state = 82 }
-        TUP = { transfer_state = 83 }
-        TUP = { transfer_state = 84 }
-
-
-        declare_war_on = {
-            target = DEA
-            type = annex_everything
-        }
-        declare_war_on = {
-            target = TUP
-            type = annex_everything
-        }
-    }
+			80 = {add_core_of = DEA}
+			81 = {add_core_of = DEA}
+			82 = {add_core_of = DEA}
+			83 = {add_core_of = DEA}
+			84 = {add_core_of = DEA}
+	
+			80 = {add_core_of = TUP}
+			81 = {add_core_of = TUP}
+			82 = {add_core_of = TUP}
+			83 = {add_core_of = TUP}
+			84 = {add_core_of = TUP}
+	
+			TUP = { 
+				transfer_state = 83 
+				transfer_state = 84
+				load_oob = "TUP_1967"
+			}
+			DEA = { 
+				transfer_state = 81
+				transfer_state = 82
+				load_oob = "DEA_1967"
+				declare_war_on = {
+					target = TUP
+					type = annex_everything
+				}
+			}
+			declare_war_on = {
+				target = DEA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TUP
+				type = annex_everything
+			}
+		}
     }
 }
 country_event = { ### Uruguay 

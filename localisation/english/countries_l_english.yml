@@ -34,11 +34,11 @@
  RPP_DEF:0 "Northeastern Revolutionary"
 
  ERP:0 "E.R.P."
- DEA:0 "Escuadrones de la Muerte"
- TUP:0 "MLN-T"
+ DEA:0 "National Uruguayan State"
+ TUP:0 "Movimiento de Liberación Nacional"
 
  ERP_ADJ:0 "E.R.P."
- DEA_ADJ:0 "Escuadrón"
+ DEA_ADJ:0 "'Escuadrones de la Muerte'"
  TUP_ADJ:0 "Tupamaro"
 
  ERP_DEF:0 "the E.R.P."

@@ -263,16 +263,7 @@ leader_traits = {
 			infantry_leader = 1     #+100%
 		}
 		
-		new_commander_weight = {
-			factor = 1
-			
-			modifier = {
-				FROM = { has_idea = mass_assault_academy_spirit }
-				factor = 1.5
-			}
-			
 
-		}
 		defense_skill_factor = 1
 		planning_skill_factor = 1
 	}
@@ -302,16 +293,7 @@ leader_traits = {
 		trait_xp_factor = {
 			panzer_leader = 1     #+100%
 		}
-		new_commander_weight = {
-			factor = 1
-			
-			modifier = {
-				FROM = { has_idea = mobile_warfare_academy_spirit }
-				factor = 1.5 
-			}
 
-
-		}
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}
@@ -323,23 +305,7 @@ leader_traits = {
 		trait_xp_factor = {
 			trait_engineer = 1     #+100%
 		}
-		new_commander_weight = {
-			factor = 1
-			
-			modifier = {
-				FROM = { has_idea = superior_firepower_academy_spirit }
-				factor = 2
-			}
 
-			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
-				factor = 0
-			}
-			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
-				factor = 0
-			}
-		}
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}

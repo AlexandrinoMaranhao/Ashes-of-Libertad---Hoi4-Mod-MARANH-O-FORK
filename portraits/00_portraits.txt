@@ -406,13 +406,13 @@ continent = {
 #	}
 #}
 
+###American Countries
 CIA = {
 	army = {
 		male = {
 			"GFX_AArmygeneric1"
 		}
 	}
-	
 	navy = {
 		male = {
 			"GFX_AArmygeneric1"
@@ -452,13 +452,318 @@ CIA = {
 				"GFX_APoliticalgeneric3"
 			}
 		}
-		
 		reactionary = {
 			male = {
 				"GFX_AArmygeneric1"
 				"GFX_APoliticalgeneric1"
 				"GFX_APoliticalgeneric2"
 				"GFX_APoliticalgeneric3"
+			}
+		}
+	}
+}
+
+###Mercenary countries
+STR = {
+	army = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		reactionary = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+	}
+}
+NEB = {
+	army = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		reactionary = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+	}
+}
+MNS = {
+	army = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		reactionary = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+	}
+}
+RUM = {
+	army = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		reactionary = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+	}
+}
+XIN = {
+	army = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_MGeneric1"
+			"GFX_MGeneric2"
+			"GFX_MGeneric3"
+			"GFX_MGeneric4"
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
+			}
+		}
+		reactionary = {
+			male = {
+				"GFX_MGeneric1"
+				"GFX_MGeneric2"
+				"GFX_MGeneric3"
+				"GFX_MGeneric4"
 			}
 		}
 	}

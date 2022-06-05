@@ -14,6 +14,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_unit_merc_unit_icon_small"
+		texturefile = "gfx/texticons/unit_merc_unit_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
 		name = "GFX_portuclave"
 		texturefile = "gfx/texticons/portuclave.dds"
 		legacy_lazy_load = no
