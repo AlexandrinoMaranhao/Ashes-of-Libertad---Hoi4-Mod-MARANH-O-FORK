@@ -148,7 +148,7 @@
  mercenaries:0 "Mercenary Policy"
  no_mercenaries:0 "No Mercenaries"
  instruction_roles_only:0 "Instruction Roles Only"
- private_mercenaries_contractors:0 "Private Constractors Allowed"
+ private_mercenaries_contractors:0 "Private Contractors Allowed"
  mercenaries_auxiliaries:0 "Mercenary Auxiliaries"
  mercenaries_batallions:0 "Mercenary Army"
 
