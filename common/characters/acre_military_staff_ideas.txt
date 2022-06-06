@@ -3,7 +3,8 @@ characters = {
 		name = jorge_kalume
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/jorge_kalume.dds"
+				small = "gfx/interface/ideas/jorge_kalume.dds"
+				large="gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume_army.dds"
 			}
 		}
 		advisor = {
@@ -14,12 +15,26 @@ characters = {
 			}
 			traits = {carm_elastic_defence_doctrine}
 		}
+		corps_commander={
+			traits = { trait_reckless war_hero media_personality politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			visible = {
+				ACR = {
+					has_completed_focus = ACR_general_of_the_people
+				}
+			}
+		}
 	}
 	edgar_cerqueira_AC = {
 		name = edgar_cerqueira
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/edgar.dds"
+				small = "gfx/interface/ideas/edgar.dds"
+				large = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira_Acre.dds"
 			}
 		}
 		advisor = {
@@ -29,6 +44,19 @@ characters = {
 				original_tag = ACR
 			}
 			traits = {carm_commando_doctrine}
+		}
+		corps_commander={
+			traits = { defensive_doctrine old_guard politically_connected }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 2
+			visible = {
+				ACR = {
+					has_completed_focus = ACR_general_of_the_army
+				}
+			}
 		}
 	}
 	jose_guiomard = {

@@ -614,30 +614,6 @@ shared_focus = {
 			popularity = 0.05
 		}
 
-		create_field_marshal = {
-			name = "Jorge Kalume"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume_army.dds"
-			traits = { trait_reckless war_hero media_personality politically_connected }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			id = 4
-		}
-
-		create_corps_commander = {
-			name = "Edgar Cerqueira"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira_Acre.dds"
-			traits = { defensive_doctrine old_guard politically_connected }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 2
-			id = 14
-		}
-
 	}
 }
 
@@ -685,30 +661,6 @@ shared_focus = {
 
 		acre_senate_add_technocrat_seats_1 = yes
 		acre_senate_add_militarist_seats_2 = yes
-
-		create_field_marshal = {
-			name = "Edgar Cerqueira"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Edgar_Cerqueira_Acre.dds"
-			traits = { defensive_doctrine old_guard politically_connected }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 2
-			id = 14
-		}
-
-		create_corps_commander = {
-			name = "Jorge Kalume"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Jorge_Kalume_army.dds"
-			traits = { trait_reckless war_hero media_personality politically_connected }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			id = 4
-		}
 
 		add_popularity = {
 			ideology = communism
