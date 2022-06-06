@@ -78,14 +78,6 @@ BTA_Uniting_Cuba = {
 	}
 
 }
-BTA_Uniting_Cuba = {
-	icon = generic_propaganda
-	
-	allowed = {
-		original_tag = BTA
-	}
-
-}
 CUB_Uniting_Cuba = {
 	icon = generic_propaganda
 	

@@ -406,7 +406,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	completion_reward = {
-	add_ideas = { traditional_army_specialization }
+	add_ideas = { urban_specialization }
 	89 = {
 add_building_construction = {
 	type = bunker
@@ -464,7 +464,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	completion_reward = {
-	add_ideas = { guerrilla_specialization }
+	add_ideas = { tribal_specialization }
 	89 = {
 add_building_construction = {
 	type = bunker
@@ -657,6 +657,16 @@ shared_focus = {
 					}
 				}
 			activate = yes
+		}
+		
+		add_corps_commander_role = {
+			Character = edgar_cerqueira_AC
+			traits = { trait_reckless war_hero media_personality politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 
 		acre_senate_add_technocrat_seats_1 = yes

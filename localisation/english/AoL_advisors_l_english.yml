@@ -12,6 +12,13 @@
 		divided_loyalties:0 "Divided Loyalties"
 		honest_man:0 "A Good Man in a Bad Place"
 	#######Acre#######
+		jorge_kalume:0 "Jorge Kalume"
+		edgar_cerqueira:0 "Edgar Cerqueira"
+		jose_guiomard:0 "Jose Guiomard"
+		nabor_junior:0 "Nabor Junior"
+		sergio_petecao:0 "Sergio Petecao"
+		mateus_satanawa:0 "Mateus Satanawa"
+		eneas_carneiro:0 "Eneas Carneiro"
 		jorge_kalume_army_chief:0 "Jorge Kalume"
 		edgar_cerqueira_army_chief:0 "Edgar Pedreira de Cerqueira Filho"
 		jose_guiomard_army_chief:0 "José Guiomard dos Santos"
@@ -190,4 +197,3 @@
 	CFD_chagas_rodrigues_advisor:0 "Chagas Rodrigues"
 	CFD_joaquim_parente_advisor:0 "Joaquim Parente"
 	CFD_antonio_corpse_advisor:0 "Antônio de Barros Carvalho"
-

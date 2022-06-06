@@ -109,6 +109,17 @@ country_event = { ### POCHI'S WET DREAM
     option = {
         name = ARG_URG_collapse.1.a
         URG = {
+			add_timed_idea = {
+				idea = URG_civilwar
+				days = 74
+			}
+			add_idea = {
+				URG_emergency_council
+			}
+			remove_ideas = {
+				URG_political_militias
+				URG_armamentos_y_municiones_del_ejercito
+			}
 			80 = {add_core_of = DEA}
 			81 = {add_core_of = DEA}
 			82 = {add_core_of = DEA}
@@ -122,11 +133,26 @@ country_event = { ### POCHI'S WET DREAM
 			84 = {add_core_of = TUP}
 	
 			TUP = { 
+				add_ideas = {
+					URG_TUP_the_tupamaros
+				}
+				add_timed_idea = {
+					idea = URG_civilwar
+					days = 74
+				}
 				transfer_state = 83 
 				transfer_state = 84
 				load_oob = "TUP_1967"
 			}
-			DEA = { 
+			DEA = {
+				add_ideas = {
+					URG_DEA_the_deathsquads
+					URG_armamentos_y_municiones_del_ejercito
+				}
+				add_timed_idea = {
+					idea = URG_civilwar
+					days = 74
+				}
 				transfer_state = 81
 				transfer_state = 82
 				load_oob = "DEA_1967"

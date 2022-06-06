@@ -30,11 +30,13 @@ buy_mercenary_companies_category = {
         icon = GFX_decision_decision_category_santarem
 
         allowed = {
-            has_completed_focus = ACR_to_the_highest_bidder
+			original_tag = ACR
         }
     
         available = {
-            always = yes
+			ACR = {
+				has_completed_focus = ACR_to_the_highest_bidder
+			}
         }
         visible = {
         NOT = {
@@ -496,13 +498,11 @@ random_list = {
     neblina_open_decisions = {
         icon = GFX_decision_decision_category_neblina
  #Shows up Neblina Decisions
-
-    allowed = {
-        has_completed_focus = ACR_to_the_highest_bidder 
-        }
     
         available = {
-            always = yes
+           	ACR = {
+				has_completed_focus = ACR_to_the_highest_bidder 
+			}
         }
         visible = {
         NOT = {
@@ -656,13 +656,11 @@ random_list = {
     cia_open_decisions = {
         icon = GFX_decision_decision_category_cia
  #Shows up CIA Decisions
-
-    allowed = {
-        has_completed_focus = ACR_to_the_highest_bidder
-        }
     
         available = {
-            always = yes
+			ACR = {
+				has_completed_focus = ACR_to_the_highest_bidder
+			}
         }
         visible = {
         NOT = {
@@ -704,9 +702,8 @@ random_list = {
         
         days_re_enable = 30
         complete_effect = {
-            add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1.0
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
 				uses = 1
 				category = air_doctrine
 			}
@@ -803,22 +800,22 @@ random_list = {
         }
     }
 
-    CIAd_la_resistance_shit = {
-        #icon = 
-
-        cost = 300
-        available = {
-            always = yes
-        }
-        visible = {
-        has_country_flag = cia_mercenary_open
-        }
-        
-        days_re_enable = 60
-        complete_effect = {
-        #La Resistance Shit
-        }
-    }
+    #CIAd_la_resistance_shit = {
+    #    #icon = 
+	#
+    #    cost = 300
+    #    available = {
+    #        always = yes
+    #    }
+    #    visible = {
+    #    has_country_flag = cia_mercenary_open
+    #    }
+    #    
+    #    days_re_enable = 60
+    #    complete_effect = {
+    #    #La Resistance Shit
+    #    }
+    #}
 
 
 }

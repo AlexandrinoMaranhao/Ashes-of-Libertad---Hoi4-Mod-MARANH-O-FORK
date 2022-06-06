@@ -25,7 +25,7 @@ gamerules_check = {
 weaponstash_system_category = {
 	priority = 20
 	icon = GFX_generic_formable_nations
-	picture = #GFX_
+	#picture = 
 	
 	available = {
 		has_country_flag = can_stash

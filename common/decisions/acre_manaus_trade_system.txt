@@ -16,8 +16,8 @@ ACR_compensation_trade_category = {
 			}
 		}
 		complete_effect = {
-			capital_scope = {
-				if = {
+			ACR = {
+				random_controlled_state = {
 					limit = {
 						has_resources_amount = {
 							resource = rubber
@@ -25,38 +25,17 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-				}	
-				add_resource = {
-					type = rubber
-					amount = -8
-				}
-				add_resource = {
-					type = steel
-					amount = 10
-				}	
-			}
-				else = {
-					ACR = {
-						random_controlled_state = {
-							limit = {
-								has_resources_amount = {
-									resource = rubber
-									amount > 7
-									delivered = yes
-								}
-							}
-							add_resource = {
-								type = rubber
-								amount = -8
-							}
-							add_resource = {
-								type = steel
-								amount = 10
-							}
-						}
+					add_resource = {
+						type = rubber
+						amount = -8
+					}
+					add_resource = {
+						type = steel
+						amount = 10
 					}
 				}
 			}
+		}
 		days_remove = 120
 		ai_will_do = {
 			factor = 999
@@ -77,9 +56,9 @@ ACR_compensation_trade_category = {
 				}
 			}
 		}
-		complete_effect = {
-			capital_scope = {
-				if = {
+		complete_effect = {	
+			ACR = {
+				random_controlled_state = {
 					limit = {
 						has_resources_amount = {
 							resource = rubber
@@ -87,38 +66,16 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-						add_resource = {
-							type = rubber
-							amount = -8
-						}
-						add_resource = {
-							type = oil
-							amount = 10
-						}
-					
-				} 
-			}	
-				else = {
-					ACR = {
-						random_controlled_state = {
-							limit = {
-								has_resources_amount = {
-									resource = rubber
-									amount > 7
-									delivered = yes
-								}
-							}
-							add_resource = {
-								type = rubber
-								amount = -8
-							}
-							add_resource = {
-								type = oil
-								amount = 10
-							}
-						}
+					add_resource = {
+						type = rubber
+						amount = -8
+					}
+					add_resource = {
+						type = oil
+						amount = 10
 					}
 				}
+			}
 		}
 		days_remove = 120
 		ai_will_do = {
@@ -157,8 +114,8 @@ ACR_compensation_trade_category = {
 			}
 		}
 		complete_effect = {
-			capital_scope = {
-				if = {
+			ACR = {
+				random_controlled_state = {
 					limit = {
 						has_resources_amount = {
 							resource = rubber
@@ -166,40 +123,36 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-						add_resource = {
-							type = rubber
-							amount = -8
-						}
-						add_resource = {
-							type = ammunition
-							amount = 10
-						}
-
-				}
-			}	
-				else = {
-					ACR = {
-						random_controlled_state = {
-							limit = {
-								has_resources_amount = {
-									resource = rubber
-									amount > 7
-									delivered = yes
-								}
-							}
-							add_resource = {
-								type = rubber
-								amount = -8
-							}
-							add_resource = {
-								type = ammunition
-								amount = 10
-							}
-						}
+					add_resource = {
+						type = rubber
+						amount = -8
+					}
+					add_resource = {
+						type = ammunition
+						amount = 10
 					}
 				}
 			}
+		}
 		days_remove = 120
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 250
+				has_army_size = {
+					size > 0
+					type = armor
+				}
+			}
+			modifier = {
+				add = 250
+				has_deployed_air_force_size = {	size > 0 }
+			}
+			modifier = {
+				add = 250
+				has_war = yes
+			}
+		}
 	}
 	trade_motors = {
 		available = {
@@ -220,8 +173,8 @@ ACR_compensation_trade_category = {
 			}
 		}
 		complete_effect = {
-			capital_scope = {
-				if = {
+			ACR = {
+				random_controlled_state = {
 					limit = {
 						has_resources_amount = {
 							resource = rubber
@@ -229,38 +182,16 @@ ACR_compensation_trade_category = {
 							delivered = yes
 						}
 					}
-						add_resource = {
-							type = rubber
-							amount = -8
-						}
-						add_resource = {
-							type = motors
-							amount = 10
-						}
-					
-				}
-			}	
-				else = {
-					ACR = {
-						random_controlled_state = {
-							limit = {
-								has_resources_amount = {
-									resource = rubber
-									amount > 7
-									delivered = yes
-								}
-							}
-							add_resource = {
-								type = rubber
-								amount = -8
-							}
-							add_resource = {
-								type = motors
-								amount = 10
-							}
-						}
+					add_resource = {
+						type = rubber
+						amount = -8
+					}
+					add_resource = {
+						type = motors
+						amount = 10
 					}
 				}
+			}
 		}
 		days_remove = 120
 		ai_will_do = {
@@ -290,48 +221,38 @@ ACR_compensation_trade_category = {
 		}
 		
 		complete_effect = {
-			capital_scope = {
-				if = {
+			ACR = {
+				random_controlled_state = {
 					limit = {
 						has_resources_amount = {
 							resource = rubber
 							amount > 7
 							delivered = yes
 						}
+						
 					}
-						add_resource = {
-							type = rubber
-							amount = -8
-						}
-						add_resource = {
-							type = technology
-							amount = 10
-						}
+					add_resource = {
+						type = rubber
+						amount = -8
 					}
-				}
-				else = {
-					ACR = {
-						random_controlled_state = {
-							limit = {
-								has_resources_amount = {
-									resource = rubber
-									amount > 7
-									delivered = yes
-								}
-								
-							}
-							add_resource = {
-								type = rubber
-								amount = -8
-							}
-							add_resource = {
-								type = technology
-								amount = 10
-							}
-						}
+					add_resource = {
+						type = technology
+						amount = 10
 					}
 				}
 			}
+		}
 		days_remove = 120
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 250
+				has_template_containing_unit = heavy_infantry 
+			}
+			modifier = {
+				add = 250
+				has_template_containing_unit = merc_unit
+			}
+		}
 	}
 }

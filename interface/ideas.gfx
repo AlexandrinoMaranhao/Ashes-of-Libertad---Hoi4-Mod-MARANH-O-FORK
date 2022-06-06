@@ -17,6 +17,26 @@ spriteType = {
 	texturefile = "gfx/interface/ideas/idea_send_attache.dds"
 }
 
+spriteType = {
+	name = "GFX_idea_URG_TUP_the_tupamaros"
+	texturefile = "gfx/interface/ideas/URG_TUP_the_tupamaros.dds"
+}
+
+spriteType = {
+	name = "GFX_idea_URG_civilwar"
+	texturefile = "gfx/interface/ideas/URG_civil_war.dds"
+}
+
+spriteType = {
+	name = "GFX_idea_URG_emergency_council"
+	texturefile = "gfx/interface/ideas/URG_emergency_council.dds"
+}
+
+spriteType = {
+	name = "GFX_idea_URG_DEA_the_deathsquads"
+	texturefile = "gfx/interface/ideas/URG_DEA_the_deathsquads.dds"
+}
+
 spriteType ={
     name = "GFX_idea_BAR_festa_de_rodeio"
     texturefile = "gfx/interface/ideas/BAR_festa_de_rodeio.dds"

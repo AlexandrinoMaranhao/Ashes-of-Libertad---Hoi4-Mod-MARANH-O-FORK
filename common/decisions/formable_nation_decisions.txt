@@ -34,7 +34,9 @@ form_amaru_mayu_category = {
 
 		complete_effect = {
 			    set_cosmetic_tag = AMZ_KAY
-			    set_capital = 132
+			    ROOT = {
+					set_capital = {state = 132}
+				}
 			every_state = {  
 			    limit = {
 			    OR = {
@@ -212,7 +214,9 @@ form_amaru_mayu_category = {
 
 		complete_effect = {
 			    set_cosmetic_tag = AMZ_FREE
-			    set_capital = 96
+			    ROOT = {
+					set_capital = {state = 96}
+				}
 			every_state = {  
 			    limit = {
 			    OR = {
@@ -380,7 +384,9 @@ form_amazonian_papal_states_category = {
 
 		complete_effect = {
 			    set_cosmetic_tag = AMZ_QPM
-			    set_capital = 100
+			    ROOT = {
+					set_capital = {state = 100}
+				}
 			every_state = {  
 			    limit = {
 			    OR = {
@@ -1488,8 +1494,8 @@ form_united_bahia_category = {
 				59 = { add_core_of = ROOT }
 				496 = { add_core_of = ROOT }
 			}
-			ROOT = {
-				set_capital = 53
+				ROOT = {
+					set_capital = {state = 53} #
 				}
 			}
 		ai_will_do = {

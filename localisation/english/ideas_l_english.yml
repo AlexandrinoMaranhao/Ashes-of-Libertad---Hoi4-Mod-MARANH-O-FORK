@@ -380,6 +380,10 @@
  URG_switzerland_of_south_america:0 "The Switzerland of South America"
  URG_armamentos_y_municiones_del_ejercito:0 "Armamentos y Municiones del Ejército"
  URG_political_militias:0 "Political Militias"
+ URG_DEA_the_deathsquads:0 "The §ODeathsquads§!"
+ URG_TUP_the_tupamaros:0 "The §RTupamaros§!"
+ URG_civilwar:0 "The Uruguayan Civil-War"
+ URG_emergency_council:0 "[ROOT.GetAdj] State of Emergency"
  ACR_placidos_dream:0 "Placido's Dream"
  pirates_of_the_jurua:0 "Pirates of the Solimões"
  acre_coari_naval_struggle:0 "Coarense Piracy"
@@ -421,6 +425,7 @@
  SBT_the_show_must_go_on:0 "The Show §gMUST§! go on"
  SAO_janio_trolling:0 "Janio's Campaign"
  SAO_modifier1:0 "São Paulo's Divided Populace"
+ SAO_modifier1_desc:0 "The State of São Paulo is not a homogenous place by any standards, such would be impossible given the variety of cultures and social classes that share its territory. As a result, its political pie chart is destined never to be monochromatic, the reactionaries of the 2nd Constitutionalist Revolution struggle desperately to keep the majority and keep away the opposition of Junta Supporters, Republican wannabees, and Communist Revolutionaries. Failing to do so could have disastrous consequences to the state's self-determination."
  ########################################################
 
 # battle_of_guanabara:0 "The 2nd Battle of Guanabara"
