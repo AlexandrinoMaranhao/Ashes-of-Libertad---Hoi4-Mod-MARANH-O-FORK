@@ -17,18 +17,18 @@ division_template = {
 #Spawn units
 units = {
 	division= {
-		name = "Assis's 1st Mlitary Police Battalion"
+		name = "Assis's Police Battalion"
 		location = 800 
 		division_template = "Military Police Unit"
 	}
 	division= {
-		name = "Assis's 2nd Mlitary Police Battalion"
-		location = 6257  
+		name = "Marília's Police Battalion"
+		location = 4601  
 		division_template = "Military Police Unit"
 	}
 	division= {
-		name = "Assis's 3rd Mlitary Police Battalion"
-		location = 2418  
+		name = "Tupã's Police Battalion"
+		location = 6478  
 		division_template = "Military Police Unit"
 	}
 }

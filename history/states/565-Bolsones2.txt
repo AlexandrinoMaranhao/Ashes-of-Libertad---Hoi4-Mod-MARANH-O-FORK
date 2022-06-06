@@ -7,9 +7,10 @@ state={
 	history={
 		owner = HON
 		add_core_of = HON
+set_demilitarized_zone = yes
 	}
 
-	manpower=200
+	manpower=248
 	buildings_max_level_factor=0
 	state_category=rural 
 }

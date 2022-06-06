@@ -12,6 +12,7 @@ state={
  
 		owner = FCP
 		add_core_of = FCP
+set_demilitarized_zone = yes
 
         victory_points = {
 4271 5

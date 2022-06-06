@@ -10,6 +10,7 @@ state={
             history = {
              owner=CAY
              add_core_of = CAY
+set_demilitarized_zone = yes
         victory_points = {
 128 5
         }

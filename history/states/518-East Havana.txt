@@ -12,6 +12,7 @@ state={
 		owner = CDR
 		add_core_of = CDR
 		add_core_of = CUB
+set_demilitarized_zone = yes
 
         victory_points = {
 6299 5

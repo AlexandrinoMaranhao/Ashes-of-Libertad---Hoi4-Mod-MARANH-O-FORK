@@ -14,6 +14,7 @@ steel = 4
 	history={
 		owner = ANI
 		add_core_of = ANI
+set_demilitarized_zone = yes
 
         buildings = {
             arms_factory = 1

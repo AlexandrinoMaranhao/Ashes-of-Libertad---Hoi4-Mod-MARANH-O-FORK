@@ -8,6 +8,7 @@ state={
 	history={
 		owner = RMI
 		add_core_of = RMI
+		set_demilitarized_zone = yes
 		victory_points = {
 			4609 5 
 		}

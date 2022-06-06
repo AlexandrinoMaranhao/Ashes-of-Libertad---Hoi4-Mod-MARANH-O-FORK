@@ -11,6 +11,7 @@ state={
             history = {
              owner=ARG
              add_core_of = ARG
+set_demilitarized_zone = yes
 
         victory_points = {
            5030 5

@@ -10,6 +10,7 @@ state={
 		owner = SCR
 		add_core_of = SCR
 		add_core_of = CUB
+set_demilitarized_zone = yes
 
         victory_points = {
 687 5

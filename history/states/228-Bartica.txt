@@ -20,5 +20,6 @@ state={
         owner = ENG
         add_core_of = ENG
              add_core_of = VEN
+set_demilitarized_zone = yes
 }
 }

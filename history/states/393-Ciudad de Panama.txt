@@ -1,22 +1,28 @@
+
 state={
 	id=393
 	name="STATE_393"
+
+	history={
+		owner = PAM
+		add_core_of = PAM
+		set_demilitarized_zone = yes
+		add_core_of = PAN
+		add_core_of = USR
+		victory_points = {
+			3011 20 
+		}
+		victory_points = {
+			3001 5 
+		}
+
+	}
+
 	provinces={
-		2195 3001 3006 3011 
+		3001 3006 3011 
 	}
 	manpower=35993
-        state_category=large_city
 	buildings_max_level_factor=1.000
-            history = {
-             owner=PAM
-             add_core_of = PAM
-        add_core_of = PAN
-        add_core_of = USR
-             victory_points = {
-             3011 50
-             }
-             victory_points = {
-             3001 30
-             }
-}
+	state_category=large_city
+	local_supplies=0.000
 }

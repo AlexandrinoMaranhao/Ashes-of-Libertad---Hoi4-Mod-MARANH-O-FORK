@@ -19,6 +19,7 @@ history = {
 			4036 30 
 		}
 		owner = PRU
+set_demilitarized_zone = yes
 		add_core_of = PRU
 
 }

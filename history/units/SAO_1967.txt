@@ -1,14 +1,13 @@
 division_template = {
-	name = "Infantaria"
+	name = "Military Police Unit"
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }
-        infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		cavalry = { x = 1 y = 0}
+		cavalry = { x = 1 y = 1}
+	support = {
+		military_police = { x = 0 y = 0}
 	}
 }
 
@@ -28,43 +27,43 @@ division_template = {
 
 units = {
 	division = {
-		name = "Batalhão da Marinha Santista"
+		name = "Campinas's Police Battalion"
+		location = 605
+		division_template = "Military Police Unit"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Santos's Police Battalion"
 		location = 4658
-		division_template = "Infantaria"
+		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Batalhão da Marinha Santista 2"
-		location = 4658
-		division_template = "Infantaria"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Batalhão da Capital 1"
+		name = "São Paulo's 2nd Police Battalion"
 		location = 6269
-		division_template = "Infantaria"
+		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Batalhão da Capital 2"
-		location = 6269
-		division_template = "Infantaria"
+		name = "São Paulo's 3rd Police Battalion"
+		location = 6274
+		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Batalhão da Capital 3"
-		location = 6269
-		division_template = "Infantaria"
+		name = "São Paulo's 1st Police Battalion"
+		location = 6474
+		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Batalhão da Capital Artilharia"
-		location = 6269
+		name = "Southeastern Military Command Remnants"
+		location = 6474
 		division_template = "Artilharia de Campanha"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1

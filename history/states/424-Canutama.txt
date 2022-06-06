@@ -15,6 +15,7 @@ steel = 1
         history = {
 	owner = IQU
 	add_core_of = IQU
+set_demilitarized_zone = yes
 
         buildings = {
             arms_factory = 1

@@ -23,12 +23,7 @@ units = {
 	}
 	division= {
 		name = "Itapeva's 1st Mlitary Police Battalion"
-		location = 6258  
-		division_template = "Military Police Unit"
-	}
-	division= {
-		name = "Itapeva's 2nd Mlitary Police Battalion"
-		location = 307  
+		location = 487  
 		division_template = "Military Police Unit"
 	}
 	division= {

@@ -56,7 +56,7 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "Sérgio Paranhas Fleury"
-	picture = "gfx/leaders/CSP/Portrait_CSP_Sergio_Fleury.dds"
+	picture = "gfx/leaders/SAO/Portrait_CSP_Sergio_Fleury.dds"
 	desc = "FLEURY_DESC"
 	expire = "1999.1.1"
 	ideology = despotism

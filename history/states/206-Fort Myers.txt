@@ -6,6 +6,7 @@ state={
 	history={
 		owner = WAS
 		add_core_of = WAS
+set_demilitarized_zone = yes
 
         victory_points = {
 651 5

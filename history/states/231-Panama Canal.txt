@@ -1,20 +1,25 @@
+
 state={
 	id=231
 	name="STATE_231"
+
+	history={
+		owner = USR
+		add_core_of = USR
+		set_demilitarized_zone = yes
+		add_core_of = PAM
+		add_core_of = PAN
+		victory_points = {
+			463 10 
+		}
+
+	}
+
 	provinces={
-		463 1430 3004 3012 
+		463 3004 3012 
 	}
 	manpower=40030
-        state_category=city
 	buildings_max_level_factor=1.000
-            history = {
-             owner=USR
-             add_core_of = USR
-        add_core_of = PAM
-        add_core_of = PAN
-
-             victory_points = {
-             463 10
-             }
-}
+	state_category=city
+	local_supplies=0.000
 }

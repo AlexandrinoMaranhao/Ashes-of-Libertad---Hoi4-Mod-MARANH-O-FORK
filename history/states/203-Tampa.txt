@@ -19,5 +19,6 @@ state={
         }
         owner = WAS
         add_core_of = WAS
+set_demilitarized_zone = yes
 }
 }

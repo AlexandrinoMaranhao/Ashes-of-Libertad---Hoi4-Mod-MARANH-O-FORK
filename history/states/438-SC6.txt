@@ -12,7 +12,7 @@ state={
         victory_points = {
 3375 1
         }
-             owner=QPM
-             add_core_of = QPM
+             owner=COL
+             add_core_of = COL
 }
 }

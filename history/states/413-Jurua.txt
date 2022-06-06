@@ -16,6 +16,7 @@ ammunition = 3
         history = {
 	owner = DNI
 	add_core_of = DNI
+set_demilitarized_zone = yes
 
         buildings = {
             arms_factory = 1

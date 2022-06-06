@@ -15,5 +15,6 @@ state={
 
         owner = HOL
         add_core_of = HOL
+set_demilitarized_zone = yes
 }
 }

@@ -10,6 +10,7 @@ state={
             history = {
              owner=JUV
              add_core_of = JUV
+set_demilitarized_zone = yes
         victory_points = {
 2843 5
         }

@@ -18,17 +18,17 @@ division_template = {
 #Spawn units
 units = {
 	division= {
-		name = "1st Piracicaba's MinutemenBattalion"
+		name = "Alemão's Minutemen Battalion"
 		location = 4625 
 		division_template = "Piracicaba's Minutemen"
 	}
 	division= {
-		name = "2nd Piracicaba's Minutemen Battalion"
-		location = 4625  
+		name = "Botucatu's Minutemen Battalion"
+		location = 6477  
 		division_template = "Piracicaba's Minutemen"
 	}
 	division= {
-		name = "3rd Piracicaba's Minutemen Battalion"
+		name = "Castelinho's Minutemen Battalion"
 		location = 4625  
 		division_template = "Piracicaba's Minutemen"
 	}

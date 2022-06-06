@@ -15,6 +15,7 @@ state={
 			}
  
              owner=PRU
+set_demilitarized_zone = yes
              add_core_of = ECU
         victory_points = {
 3466 5

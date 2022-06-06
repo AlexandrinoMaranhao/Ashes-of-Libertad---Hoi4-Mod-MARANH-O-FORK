@@ -17,18 +17,18 @@ division_template = {
 #Spawn units
 units = {
 	division= {
-		name = "Picapais Amarelos Unit"
-		location = 800 
+		name = "Picapaus Amarelos Unit"
+		location = 2573 
 		division_template = "Picapais Amarelos Unit"
 	}
 	division= {
-		name = "Picapais Amarelos Unit"
-		location = 6257  
+		name = "Sabugosa's Honor Guard"
+		location = 1024  
 		division_template = "Picapais Amarelos"
 	}
 	division= {
-		name = "Picapais Amarelos Unit"
-		location = 2418  
+		name = "Picapaus Amarelos Unit"
+		location = 4647  
 		division_template = "Picapais Amarelos"
 	}
 }

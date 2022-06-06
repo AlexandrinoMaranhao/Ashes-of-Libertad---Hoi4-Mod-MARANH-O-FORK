@@ -59,15 +59,15 @@ ideas = {
 
 		}
 
-		TWP_oil_refinery = {
+		YWP_the_yellow_woodpeckers = {
 
 		}
 
-		TWP_the_yellow_woodpeckers = {
+		YWP_oil_refinery = {
 
 		}
 
-		TWP_unfertile_land = {
+		YWP_unfertile_land = {
 
 		}
 
