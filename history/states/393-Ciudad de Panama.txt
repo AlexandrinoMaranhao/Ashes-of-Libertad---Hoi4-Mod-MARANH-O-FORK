@@ -4,7 +4,7 @@ state={
 	name="STATE_393"
 
 	history={
-		owner = PAM
+		owner = USR
 		add_core_of = PAM
 		set_demilitarized_zone = yes
 		add_core_of = PAN

@@ -10,7 +10,7 @@ division_template = {
 		military_police = { x = 0 y = 0}
 	}
 }
-
+}
 division_template = {
 	name = "Artilharia de Campanha"
 	regiments = {
@@ -24,6 +24,21 @@ division_template = {
 		artillery_brigade = { x = 1 y = 3 }
 	}
 }
+division_template = {
+	name = "Sexto"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 1 y = 0 }
+		armored_car_recon = { x = 1 y = 1 }
+	}
+}
 
 units = {
 	division = {
@@ -31,14 +46,14 @@ units = {
 		location = 605
 		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
-		start_equipment_factor = 1
+		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Santos's Police Battalion"
 		location = 4658
 		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
-		start_equipment_factor = 1
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "São Paulo's 2nd Police Battalion"
@@ -53,6 +68,7 @@ units = {
 		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
+        start_manpower_factor = 0.5
 	}
 	division = {
 		name = "São Paulo's 1st Police Battalion"
@@ -60,12 +76,22 @@ units = {
 		division_template = "Military Police Unit"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
+        start_manpower_factor = 0.5
 	}
 	division = {
 		name = "Southeastern Military Command Remnants"
 		location = 6474
 		division_template = "Artilharia de Campanha"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+        start_manpower_factor = 0.5
+	}
+	division = {
+		name = "6º BIL ''O Ipiranga''"
+		location = 6269
+		division_template = "Sexto" 
+		start_experience_factor = 0.9
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.5
 	}
 }

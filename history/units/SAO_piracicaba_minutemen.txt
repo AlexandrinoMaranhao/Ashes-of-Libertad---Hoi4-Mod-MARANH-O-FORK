@@ -6,11 +6,11 @@ division_template = {
 		militia_unit = { x = 0 y = 1}
 		militia_unit = { x = 0 y = 2}
 		cavalry = { x = 1 y = 0}
-		cavalry = { x = 1 y = 1}
-		cavalry = { x = 1 y = 2}
 	}
 	support = {
 		engineer = { x = 0 y = 0}
+		maintenance_company = { x = 0 y = 1}
+		military_police = { x = 0 y = 2}
 	}
 
 }
@@ -31,5 +31,6 @@ units = {
 		name = "Castelinho's Minutemen Battalion"
 		location = 4625  
 		division_template = "Piracicaba's Minutemen"
+        start_manpower_factor = 0.5
 	}
 }
