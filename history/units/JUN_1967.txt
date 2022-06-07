@@ -55,16 +55,16 @@ division_template = {
 
 units = {
 	division = {
-		name = "Batalhão de Infantaria"
+		name = "2º Brigada de Cavalaria Mecanizada ''Brigada Charrua''" #Camarinha
 		location = 4276
-		division_template = "Infantaria"
+		division_template = "Cavalaria Mecanizado"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "Batalhão de Infantaria"
+		name = "4º Brigada de Cavalaria Mecanizada ''Brigada Guaicurus''" 
 		location = 2544
-		division_template = "Infantaria"
+		division_template = "Cavalaria Mecanizado"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.7
 	}

@@ -17,25 +17,25 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	division = {
-		name = "Comando Militar de Venezuela Democracia 2"
-		location = 3017
-		division_template = "Comando Militar de Venezuela Democracia"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Comando Militar de Venezuela Democracia 3"
-		location = 3017
-		division_template = "Comando Militar de Venezuela Democracia"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Comando Militar de Venezuela Democracia 4"
-		location = 3017
-		division_template = "Comando Militar de Venezuela Democracia"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
+	#division = {
+	#	name = "Comando Militar de Venezuela Democracia 2"
+	#	location = 3017
+	#	division_template = "Comando Militar de Venezuela Democracia"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 1
+	#}
+	#division = {
+	#	name = "Comando Militar de Venezuela Democracia 3"
+	#	location = 3017
+	#	division_template = "Comando Militar de Venezuela Democracia"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 1
+	#}
+	#division = {
+	#	name = "Comando Militar de Venezuela Democracia 4"
+	#	location = 3017
+	#	division_template = "Comando Militar de Venezuela Democracia"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 1
+	#}
 }

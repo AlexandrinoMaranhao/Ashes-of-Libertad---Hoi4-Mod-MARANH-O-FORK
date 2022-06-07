@@ -45,6 +45,7 @@ add_ideas = {
 
 	the_man_in_the_white_castle
 	dutra
+	the_knockedout_giant_JUN
 }
 
 set_country_flag = special_volunteers

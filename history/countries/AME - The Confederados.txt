@@ -53,8 +53,8 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 
 create_country_leader = {
 	
-	name = "PLACEHOLDER"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	name = "Ralph Biasi"
+	picture = "gfx/leaders/SAO/Portrait_AME_Ralph_Biasi.dds"
 	desc = "AMERICANA_DESC"
 	expire = "1999.1.1"
 	ideology = city_state

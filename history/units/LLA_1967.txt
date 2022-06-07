@@ -17,25 +17,25 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	division = {
-		name = "Comando Militar de Llaneros 2"
-		location = 2072
-		division_template = "Comando Militar de Llaneros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Comando Militar de Llaneros 3"
-		location = 2072
-		division_template = "Comando Militar de Llaneros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Comando Militar de Llaneros 4"
-		location = 2072
-		division_template = "Comando Militar de Llaneros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
+	#division = {
+	#	name = "Comando Militar de Llaneros 2"
+	#	location = 2072
+	#	division_template = "Comando Militar de Llaneros"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 1
+	#}
+	#division = {
+	#	name = "Comando Militar de Llaneros 3"
+	#	location = 2072
+	#	division_template = "Comando Militar de Llaneros"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 1
+	#}
+	#division = {
+	#	name = "Comando Militar de Llaneros 4"
+	#	location = 2072
+	#	division_template = "Comando Militar de Llaneros"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 1
+	#}
 }

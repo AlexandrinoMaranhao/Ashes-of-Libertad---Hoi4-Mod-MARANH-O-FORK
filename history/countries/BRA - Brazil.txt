@@ -48,6 +48,7 @@ add_ideas = {
 	the_paulista_betrayal
     overdue_elections
     last_stand_of_the_republic
+    the_knockedout_giant_BRA
 }
 
 

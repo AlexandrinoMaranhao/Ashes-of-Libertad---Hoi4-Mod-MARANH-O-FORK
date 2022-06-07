@@ -13,7 +13,11 @@ ideas = {
 
 		}
 		
-		favelas_of_rio = {
+		the_knockedout_giant_BRA = {
+
+		}
+		
+		the_knockedout_giant_JUN = {
 
 		}
 	}

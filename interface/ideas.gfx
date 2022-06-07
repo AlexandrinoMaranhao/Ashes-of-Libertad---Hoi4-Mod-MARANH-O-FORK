@@ -6,7 +6,112 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-
+                
+spriteType ={
+    name = "GFX_idea_the_knockedout_giant_JUN"
+    texturefile = "gfx/interface/ideas/the_knockedout_giant_JUN.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_knockedout_giant_BRA"
+    texturefile = "gfx/interface/ideas/the_knockedout_giant_BRA.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_YWP_the_yellow_woodpeckers"
+    texturefile = "gfx/interface/ideas/YWP_the_yellow_woodpeckers.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_YWP_oil_refinery"
+    texturefile = "gfx/interface/ideas/YWP_oil_refinery.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_YWP_unfertile_land"
+    texturefile = "gfx/interface/ideas/YWP_unfertile_land.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_PIR_aerial_lifestyle"
+    texturefile = "gfx/interface/ideas/PIR_aerial_lifestyle.dds"
+} 
+               
+spriteType ={
+    name = "GFX_idea_PIR_piracicaba_minutemen"
+    texturefile = "gfx/interface/ideas/PIR_piracicaba_minutemen.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_PIR_uniao_piracatu"
+    texturefile = "gfx/interface/ideas/PIR_uniao_piracatu.dds"
+} 
+                 
+spriteType ={
+    name = "GFX_idea_ROT_a_fortaleza_da_luz"
+    texturefile = "gfx/interface/ideas/ROT_a_fortaleza_da_luz.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_ROT_e_rota_na_rua"
+    texturefile = "gfx/interface/ideas/ROT_e_rota_na_rua.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_CSP_urban_hellscape"
+    texturefile = "gfx/interface/ideas/CSP_urban_hellscape.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_CSP_DOPS_police_state"
+    texturefile = "gfx/interface/ideas/CSP_DOPS_police_state.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_AME_confederate_revival"
+    texturefile = "gfx/interface/ideas/AME_confederate_revival.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_THE_PAULISTA_CATASTROPHE"
+    texturefile = "gfx/interface/ideas/THE_PAULISTA_CATASTROPHE.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_CDC_autonomous_comune"
+    texturefile = "gfx/interface/ideas/CDC_autonomous_comune.dds"
+} 
+           
+spriteType ={
+    name = "GFX_idea_NLI_nova_liberdade"
+    texturefile = "gfx/interface/ideas/NLI_nova_liberdade.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_TTC_the_port_of_santos"
+    texturefile = "gfx/interface/ideas/TTC_the_port_of_santos.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_BDC_o_bacharel_de_cananeia"
+    texturefile = "gfx/interface/ideas/BDC_o_bacharel_de_cananeia.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_GEN_private_militias_unruly"
+    texturefile = "gfx/interface/ideas/spirts-ideas/GEN_private_militias_unruly.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_GEN_private_militias_uncontrollable"
+    texturefile = "gfx/interface/ideas/spirts-ideas/GEN_private_militias_uncontrollable.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_GEN_private_militias_rebellious"
+    texturefile = "gfx/interface/ideas/spirts-ideas/GEN_private_militias_rebellious.dds"
+} 
+ 
 spriteType = {
 	name = "GFX_idea_janio_campaign"
 	texturefile = "gfx/interface/ideas/spirts-ideas/janio_trollage.dds"

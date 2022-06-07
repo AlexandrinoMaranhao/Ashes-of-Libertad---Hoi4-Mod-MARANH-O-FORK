@@ -54,7 +54,7 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "O Bacharel de Cananéia"
-	#picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	picture = "gfx/leaders/SAO/Portrait_BDC_Bacharel_de_Cananeia.dds"
 	desc = "BACHAREL_DESC"
 	expire = "1999.1.1"
 	ideology = despotism
