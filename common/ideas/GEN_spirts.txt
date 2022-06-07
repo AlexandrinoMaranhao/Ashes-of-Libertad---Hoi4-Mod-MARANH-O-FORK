@@ -148,5 +148,12 @@ consumer_goods_factor = -0.1
 
 			}
 		}
+
+		GEN_so_paulos_divided_populace = {
+			picture = GEN_so_paulos_divided_populace-183749
+			allowed = {
+				original_tag = SAO
+			}
+		}
 	}
 }

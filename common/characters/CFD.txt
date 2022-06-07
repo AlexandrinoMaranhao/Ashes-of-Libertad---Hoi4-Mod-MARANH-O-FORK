@@ -75,4 +75,40 @@ characters={
 			}
 		}
 	}
+	CFD_nelson_a_silva={
+		name="Nelso Ambrioso da Silva"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_5.dds"
+				large="gfx/leaders/CFD/CFD_nelson_a_silva.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer engineer_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CFD_hangho_trench={
+		name="Hangho Trench"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
+				large="gfx/leaders/CFD/CFD_hangho_trench.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }

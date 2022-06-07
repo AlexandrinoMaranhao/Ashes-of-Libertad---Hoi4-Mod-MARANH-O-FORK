@@ -1,0 +1,27 @@
+spriteTypes = { 
+	##Icon For: Northern Anarchist Threat
+	SpriteType = { 
+		name = "GFX_idea_CFD_northern_anarchist_threat-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_northern_anarchist_threat-238388.dds"
+	}
+
+	##Icon For: Lacking Order
+	SpriteType = { 
+		name = "GFX_idea_CFD_lacking_order-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_lacking_order-238388.dds"
+	}
+
+	##Icon For: The Gateway to South America
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_gateway_to_south_america-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_gateway_to_south_america-238388.dds"
+	}
+
+	##Icon For: Disunited Armed Forces
+	SpriteType = { 
+		name = "GFX_idea_CFD_disunited_armed_forces-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_disunited_armed_forces-238388.dds"
+	}
+
+ 
+ }

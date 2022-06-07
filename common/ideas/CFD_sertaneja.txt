@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+
+		CFD_northern_anarchist_threat = {
+			picture = CFD_northern_anarchist_threat-238388
+			allowed = {
+				original_tag = CFD
+			}
+		}
+
+		CFD_lacking_order = {
+			picture = CFD_lacking_order-238388
+			allowed = {
+				original_tag = CFD
+			}
+		}
+
+		CFD_the_gateway_to_south_america = {
+			picture = CFD_the_gateway_to_south_america-238388
+			allowed = {
+				original_tag = CFD
+			}
+		}
+
+		CFD_disunited_armed_forces = {
+			picture = CFD_disunited_armed_forces-238388
+			allowed = {
+				original_tag = CFD
+			}
+		}
+	}
+}

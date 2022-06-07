@@ -42,12 +42,6 @@ add_ideas = {
 }
 
 set_country_flag = is_brazilian
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -55,4 +49,48 @@ create_country_leader = {
 	picture = "gfx/leaders/LAM/Portrait_LAM_Justino_Alves_Bastos.dds"
 	expire = "1999.1.1"
 	ideology = military_government
+}
+
+create_field_marshal = {
+	name = "Justino Alves Bastos"
+	picture = "Portrait_LAM_Justino_Alves_Bastos.dds"
+	traits = { defensive_doctrine brilliant_strategist politically_connected }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Helio Ibiapina Lima"
+	#picture = "GFX_generic_army6"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Antonio Bandeira"
+	#picture = "GFX_generic_army4"
+	traits = { infantry_expert skirmisher }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Darcy Vianna"
+	#picture = "GFX_generic_army1"
+	traits = { combined_arms_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }

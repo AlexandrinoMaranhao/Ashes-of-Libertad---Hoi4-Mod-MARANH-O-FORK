@@ -109,12 +109,12 @@ country_event = { ### POCHI'S WET DREAM
     option = {
         name = ARG_URG_collapse.1.a
         URG = {
+			add_ideas = {
+				URG_emergency_council
+			}
 			add_timed_idea = {
 				idea = URG_civilwar
 				days = 74
-			}
-			add_idea = {
-				URG_emergency_council
 			}
 			remove_ideas = {
 				URG_political_militias
@@ -131,6 +131,17 @@ country_event = { ### POCHI'S WET DREAM
 			82 = {add_core_of = TUP}
 			83 = {add_core_of = TUP}
 			84 = {add_core_of = TUP}
+	
+			create_country_leader = {
+				
+				name = "National Emergency Council"
+				picture = "gfx/leaders/URG/Portrait_URG_Uruguayan_Council2.dds"
+				expire = "1999.1.1"
+				ideology = corporate_state_status_quo 
+				traits = {
+					ensuing_collapse
+				}
+			}
 	
 			TUP = { 
 				add_ideas = {
