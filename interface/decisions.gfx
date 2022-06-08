@@ -4,6 +4,12 @@ spriteTypes = {
 	##AoL
 					
 	spriteType = {
+		name = "GFX_piaui_frontier"
+		texturefile = "gfx/interface/decisions/piaui_frontier.dds"
+		legacy_lazy_load = no
+	}
+					
+	spriteType = {
 		name = "GFX_use_hid_weapons_decision"
 		texturefile = "gfx/interface/decisions/use_hid_weapons_decision.dds"
 	}

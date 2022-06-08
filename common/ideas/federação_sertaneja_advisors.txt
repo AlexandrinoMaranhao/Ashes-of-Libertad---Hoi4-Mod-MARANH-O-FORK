@@ -10,14 +10,12 @@ ideas = {
 		#	traits = { TRAIT }
 		#	cost = 50
 		#}
-		CFD_father_almeida_lustosa_advisor = {
+		CFD_father_almeida_lustosa_advisor = { ###Advisor para a MAOdC / Mais Alta Ordem de Cristo
             allowed = {
-				original_tag = CFD
+				original_tag = MOC
             }
 			available = {
-				NOT = {
-					has_government = fascism
-				}
+				has_government = fascism
 			}
             visible = {
 				original_tag = CFD

@@ -10,7 +10,7 @@
 
 		}
 	}
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 50 y = 2700 }
 	focus = {
 		id = COR_intro_one
 		icon = GFX_goal_coat_of_arms_coari

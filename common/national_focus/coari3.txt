@@ -12,7 +12,7 @@ focus_tree = {
 	}
 		default = no
 	
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 50 y = 2700 }
 
 		focus = {
 		id = COR_begin_expansion

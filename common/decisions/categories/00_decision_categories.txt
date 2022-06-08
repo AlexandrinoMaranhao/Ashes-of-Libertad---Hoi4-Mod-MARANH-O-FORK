@@ -43,10 +43,17 @@ CFD_main_category = {
 }
 
 CFD_piaui_frontier = {
+	priority = 20
+	icon = GFX_generic_formable_nations
+	#picture = GFX_piaui_frontier
+	
 	allowed = {
 		original_tag = CFD
 	}
 	available = {
+		has_country_flag = begin_piaui_frontier
+	}
+	visible = {
 		has_country_flag = begin_piaui_frontier
 	}
 }
