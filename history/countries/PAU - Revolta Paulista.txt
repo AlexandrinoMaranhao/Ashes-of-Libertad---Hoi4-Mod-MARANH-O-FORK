@@ -76,13 +76,6 @@ create_country_leader = {#intended for name showcase only
 	ideology = military_junta 
 }
 
-create_country_leader = {#intended for name showcase only
-	
-	name = "------"
-	picture = "gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
-	expire = "1999.1.1"
-	ideology = coronelism 
-}
 
 create_country_leader = {#intended for name showcase only
 	

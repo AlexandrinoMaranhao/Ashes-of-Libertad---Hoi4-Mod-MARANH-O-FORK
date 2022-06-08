@@ -111,7 +111,7 @@ set_popularities = {
 add_ideas = {
 	conscription_scraping_the_barrel
 	trade_scope_closed_economy
-	tot_economic_mobilisation
+	economic_focus_total_mobilization
 
 	colombian_war
 	fading_support

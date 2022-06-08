@@ -102,6 +102,109 @@ country_event = { #Operação: |Sucesso
     }
 }
 
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.6
+    title = CFD_operations.6.t
+    desc = CFD_operations.6.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.6.a
+		PIA = {
+			CFD = {
+				set_province_controller = 1236
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.7
+    title = CFD_operations.7.t
+    desc = CFD_operations.7.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.7.a
+		PIA = {
+			CFD = {
+				set_province_controller = 4003
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.8
+    title = CFD_operations.8.t
+    desc = CFD_operations.8.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.8.a
+		PIA = {
+			CFD = {
+				set_province_controller = 3951
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.9
+    title = CFD_operations.9.t
+    desc = CFD_operations.9.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.9.a
+		PIA = {
+			CFD = {
+				set_province_controller = 1844
+				set_country_flag = 11_operations_completed
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.10
+    title = CFD_operations.10.t
+    desc = CFD_operations.10.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.10.a
+		PIA = {
+			CFD = {
+				set_province_controller = 3903
+			}
+		}
+    }
+}
+
+country_event = { #Operação: |Sucesso
+    id = CFD_operations.11
+    title = CFD_operations.11.t
+    desc = CFD_operations.11.d
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+        name = CFD_operations.11.a
+		PIA = {
+			CFD = {
+				set_province_controller = 52
+			}
+		}
+    }
+}
+
 country_event = { #Operação Derrota
     id = CFD_operations_failure.2
     title = CFD_operations_failure.2.t

@@ -55,16 +55,8 @@ add_timed_idea = {
 set_country_flag = special_volunteers
 set_country_flag = allow_raid_operations
 
-create_country_leader = {
-	
-	name = "Ernesto ''Che'' Guevara"
-	desc = "CHE_DESC"
-	picture = "gfx/leaders/ERN/Portrait_ERN_Che_Guevara.dds"
-	expire = "1999.1.1"
-	ideology = guerrilla 
-	traits = {
-	legendary_guerrilla_fighter
-	shitty_strategist
-
-	}
-}
+recruit_character = ERN_ernesto_che_guevara
+recruit_character = ERN_paulo_lopes
+recruit_character = ERN_maximo_bleck
+recruit_character = ERN_paraguacu_machado
+recruit_character = ERN_ruda_sarmineto

@@ -46,18 +46,12 @@ set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
 
-create_country_leader = {
-	
-	name = "Raul Monteiro Valdez"
-	picture = "gfx/leaders/AMA/Portrait_AMA_Raul_Valdez.dds"
-	expire = "1999.1.1"
-	ideology = socialism
-}
+recruit_character = AMA_raul_monteiro_valdez
 
 create_country_leader = {
 	
 	name = "Luis Mendes da Silva"
-	picture = ""
+	picture = "GFX_el_generico3"
 	expire = "1999.1.1"
 	ideology = military_junta
 }

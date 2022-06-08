@@ -29,8 +29,8 @@ set_popularities = {
 add_ideas = {
 slavery_outlawed
 equal_rights
-service_by_requirement
 economic_focus_war_economy
+conscription_all_adults_serve
 trade_scope_regional_exports
 
 the_great_game
