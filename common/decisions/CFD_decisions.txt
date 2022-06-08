@@ -685,7 +685,7 @@ CFD_piaui_frontier = {
 	CFD_op_parnaiba ={
 		icon = GFX_decision_icon_default
 		cost = 0
-		days_remove = 30
+		days_remove = 7
 		is_good = yes
 		fire_only_once = yes
 		

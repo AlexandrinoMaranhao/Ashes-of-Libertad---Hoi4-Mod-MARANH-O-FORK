@@ -493,7 +493,7 @@
  
  ###Portclave (Fun Box)
  PORTOCLAVE_SETTINGS:0 "£GFX_portuclave The Portuguese Enclave (Fun Box)" 
- PORTOCLAVE_ENABLED:0 "§GSpawn the Enclave Devils.§!"
+ PORTOCLAVE_ENABLED:0 "§GAmérica é nossa!§!"
  PORTOCLAVE_ENABLED_DESC:0 "This will trigger the requirements to activate the §GPortuguese Enclave§! in Fernando de Noronha. Be aware of their plans for your nation once they are done."
  PORTOCLAVE_DISABLED:0 "Disabled"
  PORTOCLAVE_DISABLED_DESC:0 "The Portuguese Enclave will not spawn. And thus, keeping normal AoL gameplay flow."
