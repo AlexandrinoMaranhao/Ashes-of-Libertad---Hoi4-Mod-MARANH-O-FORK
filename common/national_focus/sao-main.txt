@@ -209,7 +209,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 		custom_effect_tooltip = SAO_police_the_border_tt
-			add_ideas = {GEN_a_military_run_by_the_police}
+			add_ideas = {SAO_a_military_run_by_the_police}
 			unlock_decision_tooltip = sao_hire_prudente
 			unlock_decision_tooltip = sao_hire_registro
 			unlock_decision_tooltip = sao_hire_marilia
@@ -377,7 +377,7 @@ focus_tree = {
 			add_ideas = {minorities_protected}
 			add_manpower = 15293
 			add_timed_idea = {
-			    idea = GEN_uncontrolled_urban_growth
+			    idea = SAO_uncontrolled_urban_growth
 			    days = 365
 			}
 								
@@ -447,7 +447,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = {private_mercenaries_contractors militia_training}
 			add_stability = -0.1
-			add_ideas = GEN_private_militias_under_control
+			add_ideas = SAO_private_militias_under_control
 			
 			
 		}
@@ -532,7 +532,7 @@ focus_tree = {
 			 	   instant_build = yes
 				}
 			}
-			add_ideas = GEN_the_silvio_santos_show
+			add_ideas = SAO_the_silvio_santos_show
 			
 			
 		}
@@ -572,7 +572,7 @@ focus_tree = {
 			    remove_idea = trade_scope_closed_economy
 			    add_idea = trade_scope_regional_exports
 			}
-			remove_ideas = GEN_shattered_economy
+			remove_ideas = SAO_shattered_economy
 			28 = {
 				add_building_construction = {
 			    	type = arms_factory
@@ -687,7 +687,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_ideas = GEN_movimento_sem_terra_movement 
+			add_ideas = SAO_movimento_sem_terra_movement 
 			
 		}
 		allow_branch = {
@@ -708,10 +708,10 @@ focus_tree = {
 		prerequisite = { focus = SAO_tour_the_farmsteads  } prerequisite = { focus = SAO_crush_the_occupiers  }
 		ai_will_do = { factor = 1 }
 		available = {
-			NOT = { has_idea = GEN_rebuilding_the_farms}
+			NOT = { has_idea = SAO_rebuilding_the_farms}
 		}
 		completion_reward = {
-			add_ideas = GEN_agriculture_reborn
+			add_ideas = SAO_agriculture_reborn
 			
 			
 		}

@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 
-		GEN_the_devil_in_the_bottle = {
+		SAO_the_devil_in_the_bottle = {
 			picture = GEN_the_devil_in_the_bottle-1
 			allowed = {
 				original_tag = SAO
@@ -11,7 +11,7 @@ ideas = {
 			}
 		}
 
-		GEN_stolen_institutions = {
+		SAO_stolen_institutions = {
 			picture = GEN_stolen_institutions-1
 			available = {
 				original_tag = SAO
@@ -22,7 +22,7 @@ party_popularity_stability_factor = -0.2
 			}
 		}
 
-		GEN_shattered_economy = {
+		SAO_shattered_economy = {
 			picture = GEN_shattered_economy-1
 			allowed = {
 				original_tag = SAO
@@ -36,7 +36,7 @@ stability_factor = -0.1
 			}
 		}
 
-		GEN_the_2nd_constitutionalist_revolution = {
+		SAO_the_2nd_constitutionalist_revolution = {
 			picture = GEN_the_2nd_constitutionalist_revolution-213988
 			allowed = {
 				original_tag = SAO
@@ -57,7 +57,7 @@ drift_defence_factor = 0.15
 			}
 		}
 
-		GEN_a_military_run_by_the_police = {
+		SAO_a_military_run_by_the_police = {
 			picture = GEN_a_military_run_by_the_police-225757
 			allowed = {
 				original_tag = SAO
@@ -72,7 +72,7 @@ command_abilities_cost_factor = -0.3
 			}
 		}
 
-		GEN_movimento_sem_terra_movement = {
+		SAO_movimento_sem_terra_movement = {
 			picture = GEN_movimento_sem_terra_movement-213988
 			modifier = {
 				stability_factor = -0.2
@@ -85,7 +85,7 @@ command_abilities_cost_factor = -0.3
 			}
 		}
 
-		GEN_rebuilding_the_farms = {
+		SAO_rebuilding_the_farms = {
 			picture = GEN_rebuilding_the_farms-225757
 			modifier = {
 				production_speed_buildings_factor = -0.2 
@@ -95,7 +95,7 @@ stability_weekly = 0.01
 			}
 		}
 
-		GEN_the_silvio_santos_show = {
+		SAO_the_silvio_santos_show = {
 			picture = GEN_the_silvio_santos_show-122541
 			allowed = {
 				original_tag = SAO
@@ -107,7 +107,7 @@ trade_opinion_factor = 0.5
 			}
 		}
 
-		GEN_uncontrolled_urban_growth = {
+		SAO_uncontrolled_urban_growth = {
 			picture = GEN_uncontrolled_urban_growth-115656
 			allowed = {
 				original_tag = SAO
@@ -120,7 +120,7 @@ consumer_goods_factor = -0.1
 			}
 		}
 
-		GEN_private_militias_under_control = {
+		SAO_private_militias_under_control = {
 			picture = GEN_private_militias_under_control-153592
 			allowed = {
 				original_tag = SAO
@@ -133,7 +133,7 @@ stability_weekly = -0.001
 			}
 		}
 
-		GEN_the_drizzles_police = {
+		SAO_the_drizzles_police = {
 			picture = GEN_the_drizzles_police-229857
 			modifier = {
 					subversive_activites_upkeep = -0.15
@@ -143,7 +143,7 @@ stability_weekly = -0.001
 			}
 		}
 
-		GEN_agriculture_reborn = {
+		SAO_agriculture_reborn = {
 			picture = GEN_agriculture_reborn-1079
 			modifier = {
 				production_speed_industrial_complex_factor = 0.05
@@ -153,7 +153,7 @@ consumer_goods_factor = -0.1
 			}
 		}
 
-		GEN_so_paulos_divided_populace = {
+		SAO_so_paulos_divided_populace = {
 			picture = GEN_so_paulos_divided_populace-183749
 			allowed = {
 				original_tag = SAO

@@ -690,7 +690,7 @@ CFD_piaui_frontier = {
 		fire_only_once = yes
 		
 		activation = {
-			CFD = { has_country_flag = 11_operations_completed }
+			CFD = { has_country_flag = operations_completed }
 		}
 		
 		available = {
@@ -698,13 +698,13 @@ CFD_piaui_frontier = {
 				CFD = {
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
-					has_country_flag = 11_operations_completed
+					has_country_flag = operations_completed
 				}
 				
 			}
 		}
 		visible = {
-			has_country_flag = 11_operations_completed
+			has_country_flag = operations_completed
 		}
 		complete_effect = {
 			#TAG = {

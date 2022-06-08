@@ -48,10 +48,10 @@ add_ideas = {
 	no_mercenaries
 	draft_exemptions_civil_service_deferment
 	
-	GEN_the_2nd_constitutionalist_revolution
-	GEN_stolen_institutions 
-	GEN_the_devil_in_the_bottle
-	GEN_shattered_economy 
+	SAO_the_2nd_constitutionalist_revolution
+	SAO_stolen_institutions 
+	SAO_the_devil_in_the_bottle
+	SAO_shattered_economy 
 }
 add_dynamic_modifier = {
 	modifier = SAO_modifier1

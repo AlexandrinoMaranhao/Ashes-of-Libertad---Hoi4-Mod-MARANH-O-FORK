@@ -58,14 +58,14 @@ SAO_category = {
 		available = {
 			AND = {
 				original_tag = SAO
-				has_idea = GEN_a_military_run_by_the_police
+				has_idea = SAO_a_military_run_by_the_police
 			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
-			has_idea = GEN_a_military_run_by_the_police
+			has_idea = SAO_a_military_run_by_the_police
 		}		
 
 		cost = 25
@@ -88,14 +88,14 @@ SAO_category = {
 		available = {
 			AND = {
 				original_tag = SAO
-				has_idea = GEN_a_military_run_by_the_police
+				has_idea = SAO_a_military_run_by_the_police
 			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
-			has_idea = GEN_a_military_run_by_the_police
+			has_idea = SAO_a_military_run_by_the_police
 		}		
 
 		cost = 25
@@ -118,14 +118,14 @@ SAO_category = {
 		available = {
 			AND = {
 				original_tag = SAO
-				has_idea = GEN_a_military_run_by_the_police
+				has_idea = SAO_a_military_run_by_the_police
 			}
 		}
 		
 		fire_only_once = yes
 
 		visible = {
-			has_idea = GEN_a_military_run_by_the_police
+			has_idea = SAO_a_military_run_by_the_police
 		}		
 
 		cost = 25

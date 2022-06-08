@@ -165,7 +165,7 @@ country_event = { #Operação: |Sucesso
 		PIA = {
 			CFD = {
 				set_province_controller = 1844
-				set_country_flag = 11_operations_completed
+				set_country_flag = operations_completed
 			}
 		}
     }
