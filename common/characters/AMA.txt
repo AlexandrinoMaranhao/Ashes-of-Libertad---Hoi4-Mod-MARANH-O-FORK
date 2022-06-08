@@ -1,0 +1,15 @@
+characters={
+	AMA_raul_monteiro_valdez={
+		name="Raul Monteiro Valdez"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMA/Portrait_AMA_Raul_Valdez.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=584
+	name="União"
+	history={
+		owner = PIA
+		add_core_of = PIA
+		add_core_of = CFD
+
+		victory_points = {
+			1844 1
+		}
+	}
+	provinces={
+		1844
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

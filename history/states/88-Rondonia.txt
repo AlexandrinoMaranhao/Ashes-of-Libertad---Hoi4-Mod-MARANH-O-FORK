@@ -5,7 +5,7 @@ state={
 
 	history={
 		buildings = {
-			arms_factory = 3
+			arms_factory = 2
 			infrastructure = 3
 			
 

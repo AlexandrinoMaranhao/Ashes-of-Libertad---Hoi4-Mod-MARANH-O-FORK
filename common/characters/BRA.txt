@@ -44,7 +44,7 @@ characters={
 		name="João de Segadas Viana"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="GFX_Portrait_South_America_Generic_land_1"
@@ -63,7 +63,7 @@ characters={
 		name="José Machado Lopes"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="GFX_Portrait_South_America_Generic_land_1"
@@ -82,7 +82,7 @@ characters={
 		name="Henrique Teixeira Lott"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Marechal_Lott.dds"
@@ -102,7 +102,7 @@ characters={
 		name="Amaury Kruel"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Amaury_Kruel.dds"
@@ -141,7 +141,7 @@ characters={
 		name="Osvino Ferreira Alves"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Osvino_Ferreira_Alves.dds"
@@ -160,7 +160,7 @@ characters={
 		name="Peri Constant Bevilacqua"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Peri_Constant.dds"
@@ -180,7 +180,7 @@ characters={
 		name="Argemiro de Assis Brasil"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Argemiro_de_Assis_Brasil.dds"
@@ -218,7 +218,7 @@ characters={
 		name="Euler Bentes Monteiro"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Euler_Bentes_Monteiro.dds"
@@ -237,7 +237,7 @@ characters={
 		name="Alfeu de Alcântara Monteiro"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Alfeu_de_Alcântara_Monteiro.dds"
@@ -256,7 +256,7 @@ characters={
 		name="Carlos Tinoco Ribeiro Gomes"
 		portraits={
 			army={
-				small=""
+				small = "GFX_Portrait_South_America_Generic_land_2_small"
 			}
 			army={
 				large="gfx/leaders/BRA/Portrait_BRA_Carlos_Tinoco_Gomes.dds"

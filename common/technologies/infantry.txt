@@ -1828,6 +1828,10 @@ technologies = {
 			leads_to_tech = mechanised_infantry
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = armored_car1
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1918
 		folder = {
@@ -1960,7 +1964,7 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		
+
 		path = {
 			leads_to_tech = mechanised_infantry2
 			research_cost_coeff = 1
@@ -2034,6 +2038,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_subunits = {
+			motorized_rocket_brigade
+		}
+		enable_equipments = {
+			motorized_rocket_equipment_1
+		}
+
 		research_cost = 1.5
 		start_year = 1967
 		folder = {
@@ -2098,7 +2109,7 @@ technologies = {
 		start_year = 1969
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = 13 }
 		}
 		
 		categories = {
@@ -2217,10 +2228,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1967
+		start_year = 1969
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1969 }
+			position = { x = 1 y = @1970 }
 		}
 		
 		categories = {
@@ -2244,10 +2255,10 @@ technologies = {
 		
 
 		research_cost = 2
-		start_year = 1969
+		start_year = 1971
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1971 }
+			position = { x = 1 y = @1972 }
 		}
 		
 		categories = {
@@ -2269,10 +2280,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1967
+		start_year = 1969
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1966 }
+			position = { x = 3 y = 11 }
 		}
 		
 		categories = {
@@ -2298,10 +2309,10 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1967
+		start_year = 1969
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1967 }
+			position = { x = 0 y = 11 }
 		}
 		
 		categories = {
@@ -2312,6 +2323,189 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	armored_car1 = {
+
+		enable_subunits = {
+			armored_car
+		}
+
+		enable_equipments = {
+			gw_armored_car_equipment
+		}
+		allow_branch = { has_dlc = "La Resistance" }
+		path = {
+			leads_to_tech = armored_car2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1967
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1962 }
+		}
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
+	armored_car2 = {
+
+		enable_equipments = {
+			armored_car_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = armored_car3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1967
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1966 }
+		}
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
+	armored_car3 = {
+
+		enable_equipments = {
+			armored_car_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1969
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1969 }
+		}
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+		
+		sub_technologies = {
+			armored_car_at_upgrade
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
+	armored_car_at_upgrade = {
+
+		enable_equipments = {
+			armored_car_at_equipment
+		}
+
+		research_cost = 1
+		start_year = 1942
+		sub_tech_index = 1
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
 		}
 	}
 	

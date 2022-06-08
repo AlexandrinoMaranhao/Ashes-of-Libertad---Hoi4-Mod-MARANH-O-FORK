@@ -1,0 +1,19 @@
+state={
+	id=582
+	name="Campo Maior"
+	history={
+		owner = PIA
+		add_core_of = PIA
+		add_core_of = CFD
+
+		victory_points = {
+			3951 5
+		}
+	}
+	provinces={
+		3951
+	}
+	manpower=23560
+	buildings_max_level_factor=1.000
+	state_category=town
+}

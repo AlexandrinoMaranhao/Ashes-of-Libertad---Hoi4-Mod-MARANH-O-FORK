@@ -28,10 +28,9 @@ slavery_outlawed
 equal_rights 
 conscription_one_year_draft
 trade_scope_closed_economy
-trade_scope_closed_economy
 state_press_only
 secondary_education
-guerrilla_specialization
+urban_specialization
 militia_training
 no_mercenaries
 
