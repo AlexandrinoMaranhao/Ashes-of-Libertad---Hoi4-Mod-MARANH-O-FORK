@@ -1,0 +1,43 @@
+﻿l_english:
+# Focus Tree
+
+################
+# Decisions
+################
+ SAO_category:0 "Civil Administration of São Paulo"
+ SAO_international_diplomacy_category:0 "Extra-Federal Relations"
+ sao_hire_prudente:0 "Rally the Police in Prudente"
+ sao_hire_registro:0 "Rally the Police in Registro"
+ sao_hire_marilia:0 "Rally the Police in Marília"
+ sao_appease_the_elites:0 "Grant Concessions to the Elites"
+ sao_rid_authoritarianism:0 "Supersede Disloyal City Mayors"
+ sao_rid_bad_officers:0 "Replace Disloyal Police Officers"
+ sao_rid_authoritarianism_desc:0 "One of the ways we can retard a military intervention from the Republic or the Junta is by keeping the people loyal to the Revolutionary cause, they will not attempt to invade the state if the people don't support them. As time passes the Paulista people may drift away from the Constitutionalist cause, we can fight this by keeping the police and regional powers on our side by placing complacent people on seats of power around the state.\n\n The Republic will attempt a military intervention if §BConservative§! ideology exceeds 70%. \n\n The Junta will attempt a military intervention if §GAuthoritarian§! ideology exceeds 70%."
+ sao_rid_bad_officers_desc:0 "One of the ways we can retard a military intervention from the Republic or the Junta is by keeping the people loyal to the Revolutionary cause, they will not attempt to invade the state if the people don't support them. As time passes the Paulista people may drift away from the Constitutionalist cause, we can fight this by keeping the police and regional powers on our side by placing complacent people on seats of power around the state.\n\n The Republic will attempt a military intervention if §BConservative§! ideology exceeds 70%. \n\n The Junta will attempt a military intervention if §GAuthoritarian§! ideology exceeds 70%."
+ sao_print_propaganda:0 "Spread Constitutionalist Propaganda"
+ sao_print_propaganda_desc:0 "One of the ways we can retard a military intervention from the Republic or the Junta is by keeping the people loyal to the Revolutionary cause, they will not attempt to invade the state if the people don't support them. As time passes the Paulista people may drift away from the Constitutionalist cause, we can fight this by keeping the police and regional powers on our side by placing complacent people on seats of power around the state.\n\n The Republic will attempt a military intervention if §BConservative§! ideology exceeds 70%. \n\n The Junta will attempt a military intervention if §GAuthoritarian§! ideology exceeds 70%."
+ sao_resettling_riograndeses:0 "Resettle Gaúchos"
+ sao_resettling_cariocas:0 "Resettle Cariocas"
+ sao_resettling_mineiros:0 "Resettle Mineiros"
+ sao_resettling_midwestern:0 "Resettle Hermanos"
+ sao_resettling_northeastern:0 "Resettle Nordestinos"
+ sao_resettling_europeans:0 "Resettle Europeans"
+ sao_resettling_americans:0 "Resettle Americans"
+
+################
+# Tooltips
+################
+ SAO_appeasing_the_elites_tt:0 "Unlocks decisions to keep the §YElites§! satisfied and loyal to the Revolution."
+ SAO_police_the_border_tt:0 "Unlocks the mobilization of emergency Police Battalions on the Southern Border to keep §GRepublican§! aggression at bay."
+ SAO_the_coffee_and_milk_line_tt:0 "Border patrols on the Northern Border with §RMinas Gerais§! will be reinforced to detain any stragglers trying to get in or out of the state."
+ SAO_the_road_to_guanabara_tt:0 "War is coming to Rio. §G\n\nWe will take a batch of decisions concerning our involvement in the impending 2nd Battle of Guanabara, they will decide whether we wish to maintain our neutrality or lean back towards either side of the Civil War. \n\nDeciding to help either side may destroy our fragile peace and throw São Paulo back in the conflict prematurely or put the State under the thumb of the Republic or the Junta again, destroying any hope for the Constitutionalist Revolution to succeed. We must walk a fine line.§!"
+ SAO_new_neighbors_tt:0 "Unlocks decisions to settle immigrants in cities across the State to ease overpopulation in the capital."
+
+################
+# OOBs
+################
+ SAO_MAR:0 "Marília's Police Battalion"
+ SAO_REG:0 "Registro's Police Battalion"
+ SAO_PR:0 "Prudente's Police Battalion"
+ SAO_piracicaba_minutemen:0 "The Piracicaba Minutemen"
+ SAO_picapais_amarelos:0 "Os Pica-paus Amarelos"

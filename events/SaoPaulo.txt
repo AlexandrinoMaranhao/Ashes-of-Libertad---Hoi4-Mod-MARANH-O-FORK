@@ -1,8 +1,31 @@
 add_namespace = SAO
 add_namespace = PAULISTA_CATASTROPHE
 add_namespace = SAO_Flavour
+add_namespace = SAO_MST_SPAWN
 
 country_event = {
+    id = SAO_MST_SPAWN.1
+    title = SAO_MST_SPAWN.1.t
+    desc = SAO_MST_SPAWN.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+    MST = {
+        transfer_state = 32 
+        transfer_state = 570
+        transfer_state = 35
+        transfer_state = 502 
+        load_oob = "MST_1967"
+        }
+    SAO = {
+        complete_national_focus = SAO_the_mst
+    }
+    }
+}
+
+country_event = { #Mendes in the car listening to radio
     id = SAO_Flavour.1
     title = SAO_Flavour.1.t
     desc = SAO_Flavour.1.d

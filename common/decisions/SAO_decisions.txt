@@ -72,6 +72,7 @@ SAO_category = {
 
 		complete_effect = {
 			load_oob = "SAO_PR"
+			add_manpower = -1000
 		}
 
 		ai_will_do = {
@@ -101,6 +102,7 @@ SAO_category = {
 
 		complete_effect = {
 			load_oob = "SAO_REG"
+			add_manpower = -1000
 		}
 
 		ai_will_do = {
@@ -130,6 +132,7 @@ SAO_category = {
 
 		complete_effect = {
 			load_oob = "SAO_MAR"
+			add_manpower = -1000
 		}
 
 		ai_will_do = {
@@ -155,10 +158,10 @@ SAO_category = {
 			#
 		}
 		modifier = {
-			consumer_goods_factor = 0.01
+			consumer_goods_factor = 0.05
 			political_power_cost = 0.05
 			stability_weekly = 0.001
-			war_support_weekly = -0.001
+			war_support_weekly = 0.001
 		}
 		remove_effect = {
 		}
@@ -189,6 +192,9 @@ SAO_category = {
 			political_power_cost = 0.5
 			stability_weekly = 0.001
 			war_support_weekly = 0.001
+			democratic_drift = -0.1
+			fascism_drift = -0.1
+			communism_drift = -0.1
 		}
 		remove_effect = {
 		}
@@ -219,6 +225,7 @@ SAO_category = {
 			stability_weekly = -0.001
 			war_support_weekly = -0.001
 			fascism_drift = -0.1
+			democratic_drift = -0.1
 		}
 		remove_effect = {
 			add_political_power = 5
@@ -249,6 +256,7 @@ SAO_category = {
 			army_morale_factor = -0.15
 			experience_gain_army = -0.01
 			fascism_drift = -0.3
+			democratic_drift = -0.3
 		}
 		remove_effect = {
 			add_war_support = -0.02
@@ -456,6 +464,172 @@ SAO_category = {
 			factor = 1
 		}
 	}
+
+	sao_liberate_sao_roque = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 28
+					num_provinces = 2
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 502
+					num_provinces = 2
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_liberate_sorocaba = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 567
+					num_provinces = 5
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 32
+					num_provinces = 1
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	sao_liberate_bauru = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 568
+					num_provinces = 4
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 35
+					num_provinces = 3
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_direct_intervention_against_the_mst = {
+		icon = GFX_decision_icon_default
+		cost = 20
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_crush_the_occupiers}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 }
 ##################		International Country Diplomacy Decisions.		##################
 SAO_international_diplomacy_category = {

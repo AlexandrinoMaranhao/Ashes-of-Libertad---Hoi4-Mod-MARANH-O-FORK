@@ -58,6 +58,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_appeasing_the_elites  } prerequisite = { focus = SAO_police_the_border  }
 		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+		custom_effect_tooltip = SAO_the_road_to_guanabara_tt
+			
+		}
+
 	}
 
 	#The Second Constitutionalist Revolution is...
@@ -74,6 +80,9 @@ focus_tree = {
 		allow_branch = {
 			has_country_flag = sao_show_main_focus
 		}
+		completion_reward = {
+			
+		}
 	}
 
 	#...An Honorable Cause
@@ -88,6 +97,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_thesecondconstitutionalistrevolutionis  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+		}
 	}
 
 	#The Paulista Betrayal
@@ -161,6 +173,7 @@ focus_tree = {
 		prerequisite = { focus = SAO_extinguish_militarist_hopes  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+		custom_effect_tooltip = SAO_appeasing_the_elites_tt
 			add_stability = 0.1
 			add_political_power = -10
 			random_owned_controlled_state = {
@@ -195,6 +208,7 @@ focus_tree = {
 		prerequisite = { focus = SAO_eye_to_eye_with_the_republic  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+		custom_effect_tooltip = SAO_police_the_border_tt
 			add_ideas = {GEN_a_military_run_by_the_police}
 			unlock_decision_tooltip = sao_hire_prudente
 			unlock_decision_tooltip = sao_hire_registro
@@ -215,6 +229,8 @@ focus_tree = {
 		prerequisite = { focus = SAO_the_road_to_guanabara  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+		custom_effect_tooltip = SAO_the_coffee_and_milk_line_tt
+		hidden_effect = {
 			30 = {
 				add_building_construction = {
 					type = bunker
@@ -275,6 +291,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 					province = 185
+					}
 				}
 			}
 		}
@@ -358,23 +375,14 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = {minorities_protected}
-			mark_focus_tree_layout_dirty = yes
-			set_country_flag = sao_show_MST
-			add_manpower = 10000
+			add_manpower = 15293
 			add_timed_idea = {
 			    idea = GEN_uncontrolled_urban_growth
-			    days = 180
+			    days = 365
 			}
-			
-			hidden_effect = {
-			    32= {set_demilitarized_zone = yes} 35= {set_demilitarized_zone = yes} 570= {set_demilitarized_zone = yes}
-			
-			}
-			
-			
-			
-		}
+								
 	}
+}
 
 	#New Neighbors
 	focus = {
@@ -389,6 +397,8 @@ focus_tree = {
 		prerequisite = { focus = SAO_resettling_the_immigrants  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+		custom_effect_tooltip = SAO_new_neighbors_tt
+		hidden_effect = {
 			unlock_decision_tooltip = sao_resettling_riograndeses
 			unlock_decision_tooltip = sao_resettling_cariocas
 			unlock_decision_tooltip = sao_resettling_mineiros
@@ -397,8 +407,14 @@ focus_tree = {
 			unlock_decision_tooltip = sao_resettling_europeans
 			unlock_decision_tooltip = sao_resettling_americans
 			add_stability = 0.1
+            set_country_flag = sao_show_MST
+			mark_focus_tree_layout_dirty = yes
 			
-			
+		country_event = {
+			id = SAO_MST_SPAWN.1
+			days = 0
+				}
+			}
 		}
 	}
 
@@ -470,11 +486,6 @@ focus_tree = {
 		prerequisite = { focus = SAO_the_mst  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			remove_ideas = GEN_movimento_sem_terra_movement 
-			add_timed_idea = {
-			    idea = GEN_rebuilding_the_farms 
-			    days = 120
-			}
 			
 			
 			
@@ -677,7 +688,6 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = GEN_movimento_sem_terra_movement 
-			
 			
 		}
 		allow_branch = {

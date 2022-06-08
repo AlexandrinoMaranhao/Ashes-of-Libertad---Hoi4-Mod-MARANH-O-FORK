@@ -186,6 +186,7 @@ PIR = "countries/Piracicaba.txt"
 SAO = "countries/São Paulo.txt"
 PAU = "countries/Revolta Paulista.txt"
 UBA = "countries/Ubatuba.txt"
+MST = "countries/MST.txt"
 
 ## Nordeste ##
 
