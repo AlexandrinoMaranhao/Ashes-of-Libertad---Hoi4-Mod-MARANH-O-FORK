@@ -1933,6 +1933,10 @@
  ELD_ADJ:0 "the Movimiento de Recuperación Democrática"
  ELD_DEF:0 "MRD"
 
+ MST:0 "Movimento Sem Terra"
+ MST_ADJ:0 "Sem terra"
+ MST_DEF:0 "the Movimento Sem Terra"
+
  RON:0 "Rondônia"
  RON_ADJ:0 "Rondônian"
  RON_DEF:0 "Rondônia"
@@ -1948,3 +1952,4 @@
  ELC:0 "El Salvadoran Chapter"
  ELC_ADJ:0 "Salvadoran"
  ELC_DEF:0 "The Salvadoran Brotherhood Chapter"
+ 

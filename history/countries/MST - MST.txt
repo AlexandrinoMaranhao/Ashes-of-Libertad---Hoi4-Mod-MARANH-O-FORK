@@ -55,7 +55,7 @@ set_country_flag = is_brazilian #Why do we still use these old country flags any
 create_country_leader = {
 	
 	name = "The MST"
-	#picture = "gfx/leaders/SAO/Portrait_MST_MST.dds"
+	picture = "gfx/leaders/SAO/Portrait_MST_MST.dds"
 	desc = "TOLEDO_DESC"
 	expire = "1999.1.1"
 	ideology = guerrilla

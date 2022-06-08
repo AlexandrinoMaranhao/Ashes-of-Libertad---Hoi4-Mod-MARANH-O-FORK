@@ -41,7 +41,7 @@ set_country_flag = use_generic_economy_focus
 create_country_leader = {
 	
 	name = "Cesar Chavez"
-	picture = ""
+	picture = "gfx/leaders/ELS/Portrait_ELS_Julio_Adalberto_Rivera.dds"
 	expire = "1999.1.1"
 	ideology = anarchism
 }

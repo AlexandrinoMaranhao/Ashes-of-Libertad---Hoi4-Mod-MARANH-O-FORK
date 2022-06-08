@@ -35,7 +35,7 @@ set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	name = "Salvador Cayetano Carpio"
-	#picture = "gfx/leaders/ELS/Portrait_ELS_Julio_Adalberto_Rivera.dds"
+	picture = "gfx/leaders/ELS/Portrait_ELS_Julio_Adalberto_Rivera.dds"
 	expire = "1999.1.1"
 	ideology = marxism
 }
