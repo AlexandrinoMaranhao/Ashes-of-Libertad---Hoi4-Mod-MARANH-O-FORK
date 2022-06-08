@@ -40,43 +40,39 @@ spriteTypes = {
 	###Infantry icons
 	
 	SpriteType = {
-		name = "GFX_improved_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/infantry3.dds"
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}
-
-	SpriteType = {
-		name = "GFX_infantry_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
-	}
-
+	
 	SpriteType = {
 		name = "GFX_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/infantry2.dds"
 	}
 	
 	SpriteType = {
+		name = "GFX_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}
+	
+
+	SpriteType = {
 		name = "GFX_improved_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/infantry4.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_improvised_infantry_weapons0_medium"
-		texturefile = "gfx/interface/technologies/improvised_infantry_weapons0.dds"
-	}
-	
 	SpriteType = {
 		name = "GFX_improvised_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/improvised_infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improvised_infantry_weapons0_medium"
+		texturefile = "gfx/interface/technologies/improvised_infantry_weapons0.dds"
 	}
 
 	SpriteType = {
@@ -84,7 +80,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/improvised_infantry_weapons6.dds"
 	}
 	
-	#Train Tech
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
+	}
+	
+	##São Paulo's research icons
+	
+	SpriteType = {
+		name = "GFX_SAO_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SAO_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAO_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SAO_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAO_improved_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SAO_infantry4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAO_advanced_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SAO_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAO_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SAO_infantry5.dds"
+	}
+	
+	###Train Tech
 	
 	SpriteType = {
 		name = "GFX_basic_train_medium"

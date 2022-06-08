@@ -200,7 +200,7 @@ ideas = {
 			ai_will_do = { } 
 		}
 		state_segregation = {
-		picture = light_level_5
+		picture = GFX_light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_segregation"}
 			available = { always = no } 
 			
