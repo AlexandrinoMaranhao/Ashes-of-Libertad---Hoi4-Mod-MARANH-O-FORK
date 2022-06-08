@@ -652,7 +652,7 @@ SAO_international_diplomacy_category = {
 		}
 		complete_effect = {
 			SAO = {
-				remove_ideas = {GEN_stolen_institutions}
+				remove_ideas = {SAO_stolen_institutions_stolen_institutions}
 			}
 		}		
 		ai_will_do = {

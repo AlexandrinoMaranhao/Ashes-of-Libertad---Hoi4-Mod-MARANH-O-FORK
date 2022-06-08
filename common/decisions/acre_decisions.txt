@@ -1657,16 +1657,21 @@ ACR_war_train_category = { #TRAX STUFF
 		available = {
 			AND = {
 				original_tag = ACR
-				NOT = {
-					is_in_array = {
-						array = ACR_war_train_array
-						value = 8
+				ACR = {
+					ACR_can_build_other_wagons = yes
+					NOT = {
+						is_in_array = {
+							array = ACR_war_train_array
+							value = 8
+						}
 					}
-				}
-				has_resources_amount = {
-					resource = motors
-					amount > 0
-					state = 89
+					any_owned_state = {
+						has_resources_amount = {
+							resource = motors
+							amount > 0
+							delivered = yes
+						}
+					}
 				}
 			}
 		}
@@ -1812,19 +1817,23 @@ ACR_war_train_category = { #TRAX STUFF
 		}
 		available = {
 			AND = {
-			original_tag = ACR
-			ACR_can_build_other_wagons = yes
-			NOT = {
-				is_in_array = {
-					array = ACR_war_train_array
-					value = 2
+				original_tag = ACR
+				ACR = {
+					ACR_can_build_other_wagons = yes
+					NOT = {
+						is_in_array = {
+							array = ACR_war_train_array
+							value = 2
+						}
+					}
+					any_owned_state = {
+						has_resources_amount = {
+							resource = ammunition
+							amount > 3
+							delivered = yes
+						}
+					}
 				}
-			}
-			has_resources_amount = {
-				resource = ammunition
-				amount > 3
-				state = 89
-			}
 			}
 		}
 		cost = 50
@@ -1922,19 +1931,23 @@ ACR_war_train_category = { #TRAX STUFF
 		}
 		available = {
 			AND = {
-			original_tag = ACR
-			ACR_can_build_other_wagons = yes
-			NOT = {
-				is_in_array = {
-					array = ACR_war_train_array
-					value = 6
+				original_tag = ACR
+				ACR = {
+					ACR_can_build_other_wagons = yes
+					NOT = {
+						is_in_array = {
+							array = ACR_war_train_array
+							value = 6
+						}
+					}
+					any_owned_state = {
+						has_resources_amount = {
+							resource = ammunition
+							amount > 0
+							delivered = yes
+						}
+					}
 				}
-			}
-			has_resources_amount = {
-				resource = ammunition
-				amount > 0
-				state = 89
-			}
 			}
 		}
 		cost = 50
@@ -1972,19 +1985,23 @@ ACR_war_train_category = { #TRAX STUFF
 		}
 		available = {
 			AND = {
-			original_tag = ACR
-			ACR_can_build_other_wagons = yes
-			NOT = {
-				is_in_array = {
-					array = ACR_war_train_array
-					value = 7
+				original_tag = ACR
+				ACR = {
+					ACR_can_build_other_wagons = yes
+					NOT = {
+						is_in_array = {
+							array = ACR_war_train_array
+							value = 7
+						}
+					}
+					any_owned_state = {
+						has_resources_amount = {
+							resource = ammunition
+							amount > 0
+							delivered = yes
+						}
+					}
 				}
-			}
-			has_resources_amount = {
-				resource = ammunition
-				amount > 0
-				state = 89
-			} 
 			}
 		}
 		cost = 50

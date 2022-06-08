@@ -74,6 +74,22 @@ characters={
 				}
 			}
 		}
+		advisor={
+			slot = army_chief
+			ledger = army
+			available = {
+				CFD = {
+					controls_state = 15
+				}
+			}
+			traits = {
+				carm_decisive_battle_doctrine carm_elastic_defence_doctrine
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 999
+			}
+		}
 	}
 	CFD_nelson_a_silva={
 		name="Nelso Ambrioso da Silva"
@@ -109,6 +125,38 @@ characters={
 			planning_skill=3
 			logistics_skill=1
 			legacy_id=-1
+		}
+	}
+	CFD_romeu_sobreira_de_moura = {
+		name = "Romeu Sobreira de Moura"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_romeu_moura.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_romeu_sobreira_de_moura
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {mhc_school_of_psychology}
+		}
+	}
+	CFD_jose_amorim = {
+		name = "José Bezerra de Amorim"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_jose_amorim.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = cfd_jose_amorim
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {mhc_school_of_mass_combat}
 		}
 	}
 }

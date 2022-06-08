@@ -1,5 +1,6 @@
 ﻿l_english:
  WTT_border_conflict_initiate_incident:0 "Prepare a Raid at [From.From.GetName] Border"
+ WTT_PL_border_conflict_initiate_incident:0 "Prepare a Raid at [From.From.GetName] Border"
  WTT_border_conflict_incident_warning_defender:0 "Incident at [From.From.GetName] border to [From.GetNameDef]"
  WTT_border_conflict_incident_warning_defender_desc:0 "§WMove divisions to §H[From.From.GetName]§!§!"
  WTT_border_conflict_escalation_warning_defender:0 "Incident at [From.From.GetName] border to [From.GetNameDef]"

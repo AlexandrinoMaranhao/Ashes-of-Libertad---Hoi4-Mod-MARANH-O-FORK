@@ -1,0 +1,18 @@
+
+MNS_the_amazonas_theater = {
+	icon = decision_category_generic_political_actions
+	visible_when_empty = yes
+
+	picture = GFX_idea_amazonas_theater
+
+	allowed = {
+		original_tag = MNS
+	}
+	visible = {
+		has_country_leader = {
+		    name = "Gilberto Mestrinho"
+		    ruling_only = yes
+		}
+		has_war = no
+	}
+}

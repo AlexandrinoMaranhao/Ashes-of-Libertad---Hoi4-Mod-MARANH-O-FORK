@@ -10,7 +10,7 @@ set_technology = {
     infantry_gear = 1
 }
 
-set_convoys = 50
+set_convoys = 100
 
 
 set_politics = {
@@ -22,8 +22,8 @@ set_politics = {
 set_popularities = {
 	democratic = 40
 	fascism = 20
-	communism = 0 #18
-	neutrality = 30 #12
+	communism = 18
+	neutrality = 12
 	reactionary = 10
 }
 
@@ -42,12 +42,17 @@ add_ideas = {
 	trade_scope_international_exports
 }
 
+###Generals and Country Leaders###
 recruit_character = CFD_arnon_afonso_de_farias_mello
 recruit_character = CFD_miguel_arraes
 recruit_character = CFD_collapsed_government
 recruit_character = CFD_pretonio_portella
 recruit_character = CFD_nelson_a_silva
 recruit_character = CFD_hangho_trench
+
+###Military High Command or Alike###
+recruit_character = CFD_romeu_sobreira_de_moura
+recruit_character = CFD_jose_amorim
 
 set_country_flag = unfinished_cfd
 

@@ -1,0 +1,513 @@
+focus_tree = {
+	id = BEM_focus
+	default = no
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BEM
+
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = BEM_intro_one
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+		x = 9
+		y = 1
+		completion_reward = {
+			country_event = {
+				id = ParaIntroduction.1
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_intro_two
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+		prerequisite = {
+			focus = BEM_intro_one
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+			country_event = {
+				id = ParaIntroduction.2
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_intro_three
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+		prerequisite = {
+			focus = BEM_intro_one
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+			country_event = {
+				id = ParaIntroduction.3
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_intro_final
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		bypass = {
+		has_completed_focus = BEM_intro_one
+		}
+		x = 0
+		y = 2
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+			country_event = {
+				id = ParaIntroduction.1
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_the_new_problem
+		icon = GFX_goal_TheNewProblem
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_intro_final
+		}
+		x = -2
+		y = 3
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+country_event = {
+				id = Para.1
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_the_older_problem
+		icon = GFX_goal_TheOlderProblem
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_prepare_for_the_worse focus = BEM_hope_for_the_best} 
+		prerequisite = {
+		    focus = BEM_go_crawling_to_daddy focus = BEM_chance_to_prove_ourselves
+		}
+		x = 0
+		y = 5
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+country_event = {
+				id = Para.2
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_the_old_problem
+		icon = GFX_goal_TheOldProblem
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_intro_final
+		}
+		x = 2
+		y = 3
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+country_event = {
+				id = Para.3
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_prepare_for_the_worse
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_hope_for_the_best
+        }
+		prerequisite = {
+			focus = BEM_the_new_problem
+		}
+		x = -1
+		y = 4
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEM_hope_for_the_best
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_prepare_for_the_worse
+        }
+		prerequisite = {
+			focus = BEM_the_new_problem
+		}
+		x = -3
+		y = 4
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEM_go_crawling_to_daddy
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_chance_to_prove_ourselves
+        }
+		prerequisite = {
+			focus = BEM_the_old_problem
+		}
+		x = 3
+		y = 4
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEM_chance_to_prove_ourselves
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_go_crawling_to_daddy
+        }
+		prerequisite = {
+			focus = BEM_the_old_problem
+		}
+		x = 1
+		y = 4
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEM_restablish_contact
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_military_intervention
+        }
+		prerequisite = {
+			focus = BEM_the_older_problem
+		}
+		x = -1
+		y = 6
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+		country_event = {
+				id = Para.4
+				days = 0
+			}
+		custom_effect_tooltip = Green_Para_Good_tt
+		}
+	}
+
+	focus = {
+		id = BEM_military_intervention
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_restablish_contact
+        }
+		prerequisite = {
+			focus = BEM_the_older_problem
+		}
+		x = 1
+		y = 6
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+		country_event = {
+				id = Para.5
+				days = 0
+			}
+		custom_effect_tooltip = Red_Para_Bad_tt
+		}
+	}
+
+	focus = {
+		id = BEM_beg_for_gear
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_beg_for_men
+        }
+		prerequisite = {
+			focus = BEM_military_intervention
+		}
+		x = 1
+		y = 7
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEM_beg_for_men
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_beg_for_gear
+        }
+		prerequisite = {
+			focus = BEM_military_intervention
+		}
+		x = 3
+		y = 7
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEM_jungle_training
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_beg_for_men
+			focus = BEM_beg_for_gear
+		}
+		x = 2
+		y = 8
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+		add_ideas = jungle_spe
+		}
+	}
+
+	focus = {
+		id = BEM_infiltration_training
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_beg_for_men
+			focus = BEM_beg_for_gear
+		}
+		x = 4
+		y = 8
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+		army_experience = 5
+		}
+	}
+
+	focus = {
+		id = BEM_os_fumantes
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_infiltration_training
+			focus = BEM_jungle_training
+		}
+		x = 3
+		y = 9
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+		country_event = {
+				id = Para.6
+				days = 0
+			}
+UBA = {
+add_manpower = -2000
+				send_equipment = {
+    equipment = motorized_equipment
+    amount = 200
+    target = BEM
+}
+				}
+add_manpower = 2000
+		}
+	}
+
+	focus = {
+		id = BEM_operacao_tabaco
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_os_fumantes
+		}
+		x = 2
+		y = 10
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+        declare_war_on = {
+            target = KAY
+            type = annex_everything
+        }
+		}
+	}
+
+	focus = {
+		id = BEM_send_our_diplomats
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_send_a_funai_diplomat
+        }
+		prerequisite = {
+			focus = BEM_restablish_contact
+		}
+		x = -1
+		y = 7
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+
+		add_ideas = integrated_society
+		add_political_power = 50
+		
+		}
+	}
+
+	focus = {
+		id = BEM_send_a_funai_diplomat
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+        
+        mutually_exclusive = {
+        focus = BEM_send_our_diplomats
+        }
+		prerequisite = {
+			focus = BEM_restablish_contact
+		}
+		x = -3
+		y = 7
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+		add_ideas = state_segregation
+
+		}
+	}
+
+	focus = {
+		id = BEM_we_come_bearing_gifts
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_send_a_funai_diplomat focus = BEM_send_our_diplomats
+		}
+		x = -2
+		y = 8
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+KAY = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+				country_event = {
+				id = Para.7
+				days = 0
+			}
+			}
+		}
+	}
+
+	focus = {
+		id = BEM_hide_our_true_intentions
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_send_a_funai_diplomat focus = BEM_send_our_diplomats
+		}
+		x = -4
+		y = 8
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+add_state_core = 87
+add_state_core = 140
+add_state_core = 149
+add_state_core = 471
+		}
+	}
+
+	focus = {
+		id = BEM_negotiate_tribal_peace
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_hide_our_true_intentions}
+		prerequisite = {
+			focus = BEM_we_come_bearing_gifts
+		}
+		
+		x = -3
+		y = 9
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+KAY = { 
+add_stability = 0.2
+}
+		}
+	}
+
+	focus = {
+		id = BEM_assert_our_dominance
+		icon = GFX_goal_losing_its_shine
+		cost = 1
+
+		prerequisite = {
+			focus = BEM_negotiate_tribal_peace
+		}
+		x = -2
+		y = 10
+		relative_position_id = BEM_intro_one
+		completion_reward = {
+KAY = {
+country_event = {
+				id = Para.8
+				days = 0
+			}
+		}
+		}
+	}
+
+}

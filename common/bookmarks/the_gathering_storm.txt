@@ -27,15 +27,15 @@ bookmarks = {
 				history = "SAO_GATHERING_STORM_DESC"
 			              ideology = reactionary
 			      ideas = {
-			            GEN_the_2nd_constitutionalist_revolution 
-			            GEN_stolen_institutions 
-			            GEN_shattered_economy 
-			              }
+			            SAO_the_2nd_constitutionalist_revolution 
+			            SAO_stolen_institutions 
+			            SAO_shattered_economy 
+			        }
 			        focuses = {
 			            #ACR_force_a_stage_of_siege
 			            #ACR_pass_native_defence_act
 			            #ACR_talk_business
-			              }
+			        }
 			}
 
 		effect = {

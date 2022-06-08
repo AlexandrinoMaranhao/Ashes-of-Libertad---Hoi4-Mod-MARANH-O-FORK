@@ -1,1 +1,26 @@
-#
+CHI_border_clashes = {
+	priority = 12
+	picture = generic_border_conflicts
+	icon = border_conflicts
+	allowed = {
+		ROOT = {
+			has_country_flag = allow_raid_operations
+		}
+	}
+	visible = {
+		ROOT = {
+			has_country_flag = allow_raid_operations
+		}	
+	}
+
+CHI_PL_border_clashes = {
+	priority = 0
+	picture = generic_border_conflicts
+	icon = border_conflicts
+	allowed = {
+		always = no
+	}	
+	visible = {
+		always = no
+	}	
+}

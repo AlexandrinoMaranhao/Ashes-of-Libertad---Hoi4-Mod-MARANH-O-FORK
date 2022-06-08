@@ -51,7 +51,6 @@ add_timed_idea = {
     idea = ern_buff
     days = 365
 }
-
 set_country_flag = special_volunteers
 set_country_flag = allow_raid_operations
 
