@@ -27,7 +27,7 @@ set_popularities = {
 
 add_ideas = {
 slavery_bonded_labor
-state_segregation
+state_segregation_policy
 censored_press
 conscription_one_year_draft
 economic_focus_early_mobilization

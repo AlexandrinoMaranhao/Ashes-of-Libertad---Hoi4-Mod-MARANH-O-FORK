@@ -28,21 +28,21 @@ characters={
 		country_leader={
 			desc="ARRAES_DESC"
 			ideology=socialism 
-			traits={ ensuing_collapse }
+			traits={ popular_figurehead2 union_man }
 			expire="1999.1.1.1"
 			id=-1
 		}
 	}
-	CFD_collapsed_government={
-		name="Collapsed Government"
+	CFD_gregorio_bezerra={
+		name="Gregório Bezerra"
 		portraits={
 			civilian={
-				large="gfx/leaders/CFD/Portrait_CFD_Collapsed_Government.dds"
+				large="gfx/leaders/CFD/Portrait_CFD_Gregorio_Bezerra.dds"
 			}
 		}
 		country_leader={
-			ideology=anarchism
-			traits={ abandoned_government }
+			ideology= marxism
+			traits={ revolutionary_general communist_revolutionary }
 			expire="1999.1.1.1"
 			id=-1
 		}
@@ -56,7 +56,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ thorough_planner harsh_leader }
+			traits={ thorough_planner harsh_leader politically_connected }
 			skill=4
 			attack_skill=3
 			defense_skill=1
@@ -91,6 +91,24 @@ characters={
 			}
 		}
 	}
+	CFD_hangho_trench={
+		name="Hangho Trench"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
+				large="gfx/leaders/CFD/CFD_hangho_trench.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero infantry_officer politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 	CFD_nelson_a_silva={
 		name="Nelso Ambrioso da Silva"
 		portraits={
@@ -109,21 +127,21 @@ characters={
 			legacy_id=-1
 		}
 	}
-	CFD_hangho_trench={
-		name="Hangho Trench"
+	CFD_joaquim_castillho={
+		name="Joaquim de Castillho"
 		portraits={
 			army={
-				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
-				large="gfx/leaders/CFD/CFD_hangho_trench.dds"
+				small="gfx/interface/ideas/goofybois/generic_minister_10.dds"
+				large="gfx/leaders/CFD/CFD_joaquim_castillho.dds"
 			}
 		}
 		corps_commander={
-			traits={ war_hero infantry_officer }
-			skill=3
+			traits={ trait_reckless  }
+			skill=2
 			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}

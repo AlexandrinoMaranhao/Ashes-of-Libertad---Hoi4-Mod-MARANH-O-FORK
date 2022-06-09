@@ -19,9 +19,8 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
 				uses = 1
 				category = land_doctrine
 			}
@@ -42,7 +41,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				ahead_reduction = 2
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -63,10 +62,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 3.0
-				technology = motorised_infantry
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
+				uses = 1
+				category = land_doctrine
 			}
 		}
 	}
@@ -84,9 +83,8 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
 				uses = 1
 				category = land_doctrine
 			}
@@ -107,7 +105,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				ahead_reduction = 2
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -127,11 +125,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				ahead_reduction = 2
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
 				uses = 1
-				category = motorized_equipment
+				category = land_doctrine
 			}
 		}
 	}
@@ -149,9 +146,8 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
 				uses = 1
 				category = land_doctrine
 			}

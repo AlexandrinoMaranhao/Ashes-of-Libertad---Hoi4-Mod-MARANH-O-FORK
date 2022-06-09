@@ -40,7 +40,7 @@ SI_minimal_regulations
 slavery_outlawed
 conscription_service_by_requirement
 urban_specialization
-guerrilla_training
+guerrilla_training_law
 guerrilla_officer_training
 no_mercenaries
 draft_exemptions_civil_service_deferment

@@ -26,7 +26,7 @@ set_popularities = {
 add_ideas = {
 	conscription_tribal_mobilisation
 	slavery_bonded_labor
-	state_segregation
+	state_segregation_policy
 	economic_focus_war_economy
 	trade_scope_closed_economy
 

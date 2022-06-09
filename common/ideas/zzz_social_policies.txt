@@ -199,8 +199,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { } 
 		}
-		state_segregation = {
-		picture = GFX_light_level_5
+		state_segregation_policy = {
+		picture = light_level_5
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea state_segregation"}
 			available = { always = no } 
 			
@@ -212,7 +212,7 @@ ideas = {
 				resistance_damage_to_garrison = 0.15
 			}
 			cancel_if_invalid = no
-			ai_will_do = { } 
+			ai_will_do = { }
 		}
 		equal_rights = {
 		picture = light_level_6

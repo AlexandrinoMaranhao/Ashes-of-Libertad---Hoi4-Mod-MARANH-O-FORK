@@ -20,11 +20,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 40
+	democratic = 26
 	fascism = 20
 	communism = 18
-	neutrality = 12
-	reactionary = 10
+	neutrality = 24
+	reactionary = 12
 }
 
 add_ideas = {
@@ -51,10 +51,11 @@ add_ideas = {
 ###Generals and Country Leaders###
 recruit_character = CFD_arnon_afonso_de_farias_mello
 recruit_character = CFD_miguel_arraes
-recruit_character = CFD_collapsed_government
+recruit_character = CFD_gregorio_bezerra
 recruit_character = CFD_pretonio_portella
 recruit_character = CFD_nelson_a_silva
 recruit_character = CFD_hangho_trench
+recruit_character = CFD_joaquim_castillho
 
 ###Military High Command or Alike###
 recruit_character = CFD_romeu_sobreira_de_moura

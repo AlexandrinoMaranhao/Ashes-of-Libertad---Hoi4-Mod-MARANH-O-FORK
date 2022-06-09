@@ -162,7 +162,7 @@
 				id = Coari.2
 				days = 7
 			}
-			add_ideas = limited_conscription
+			add_ideas = conscription_two_year_draft
 			create_corps_commander = {
 				name = "Aldenor G. Nascimento"
 				picture = ""

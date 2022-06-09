@@ -274,7 +274,7 @@ nordeste_unification_initialization = {
 			original_tag = INT
 		}
 		ROOT = {
-		set_capital = 7
+			set_capital = {state = 7 }
 		}
 		set_cosmetic_tag = INT_NORDESTE_UNIFICATION
 	}

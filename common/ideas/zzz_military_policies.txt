@@ -490,7 +490,7 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		guerrilla_training = {
+		guerrilla_training_law = {
 		picture = light_level_6
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea guerrilla_training"}
 			available = {}

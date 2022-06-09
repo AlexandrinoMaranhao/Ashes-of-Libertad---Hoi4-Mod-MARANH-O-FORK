@@ -399,63 +399,6 @@ start_border_war = {
     }
 }
 
-country_event = {
-    id = RMI_UBA_border_conflict.3
-    title = RMI_UBA_border_conflict.3.t
-    desc = RMI_UBA_border_conflict.3.d
-    picture = x
-    fire_only_once = no
-    is_triggered_only = yes
-
-    option = {
-        name = RMI_UBA_border_conflict.3.A
-
-        RMI = { transfer_state = 513 }
-        UBA = { country_event = { id = HugovsCommies.3 days = 30 } }
-    }
-}
-country_event = {
-    id = RMI_UBA_border_conflict.4
-    title = RMI_UBA_border_conflict.4.t
-    desc = RMI_UBA_border_conflict.4.d
-    picture = x
-    fire_only_once = no
-    is_triggered_only = yes
-
-    option = {
-        name = RMI_UBA_border_conflict.4.A
-
-        UBA = { transfer_state = 513 }
-        UBA = { country_event = { id = HugovsCommies.2 days = 30 } }
-    }
-}
-country_event = {
-    id = UBA_RMI_border_conflict.3
-    title = UBA_RMI_border_conflict.3.t
-    desc = UBA_RMI_border_conflict.3.d
-    picture = x
-    fire_only_once = no
-    is_triggered_only = yes
-
-    option = {
-        name = UBA_RMI_border_conflict.3.A
-
-    }
-}
-country_event = {
-    id = UBA_RMI_border_conflict.4
-    title = UBA_RMI_border_conflict.4.t
-    desc = UBA_RMI_border_conflict.4.d
-    picture = x
-    fire_only_once = no
-    is_triggered_only = yes
-
-    option = {
-        name = UBA_RMI_border_conflict.4.A
-
-    }
-}
-
 country_event = { #Linha 2 Retaking
     id = HugovsCommies.3
     title = HugovsCommies.3.t
@@ -519,32 +462,6 @@ country_event = {
 
     }
 }
-country_event = {
-    id = UBA_RMI_border_conflict.3
-    title = UBA_RMI_border_conflict.3.t
-    desc = UBA_RMI_border_conflict.3.d
-    picture = x
-    fire_only_once = no
-    is_triggered_only = yes
-
-    option = {
-        name = UBA_RMI_border_conflict.3.A
-
-    }
-}
-country_event = {
-    id = UBA_RMI_border_conflict.4
-    title = UBA_RMI_border_conflict.4.t
-    desc = UBA_RMI_border_conflict.4.d
-    picture = x
-    fire_only_once = no
-    is_triggered_only = yes
-
-    option = {
-        name = UBA_RMI_border_conflict.4.A
-
-    }
-}
 
 #######################
 # Brazilian Civil War #
@@ -564,24 +481,15 @@ country_event = { #Sorriso
 
     option = {
         name = XinguvsJagunco.1.A
-
-
-start_border_war = {
-    change_state_after_war = yes
-    attacker = {
-        state = 152
-        num_provinces = 5
-        on_win = XIN_JAG_border_conflict.1
-    }
-                
-    defender = {
-        state = 151
-        num_provinces = 5
-        on_win = JAG_XIN_border_conflict.1
-    }
-}
-
-        JAG = { country_event = { id = XinguvsJagunco.3 days = 90 } }
+        JAG = { 
+		
+			country_event = { id = XinguvsJagunco.3 days = 90 } 
+			
+			declare_war_on = {
+				target = XIN
+				type = annex_everything
+			}
+		}
     }
 }
 
@@ -595,21 +503,6 @@ country_event = { #Xingú
 
     option = {
         name = XinguvsJagunco.2.A
-
-
-start_border_war = {
-    change_state_after_war = yes
-    attacker = {
-        state = 151
-        num_provinces = 5
-    }
-                
-    defender = {
-        state = 150
-        num_provinces = 5
-    }
-}
-
         JAG = { country_event = { id = XinguvsJagunco.3 days = 350 } }
     }
 }
@@ -642,7 +535,7 @@ country_event = { #Alta Floresta
         name = XinguvsJagunco.3.A
 
         JAG = { country_event = { id = XinguvsJagunco.4 days = 60 } }
-    annex_country = { target = XIN transfer_troops = yes }
+		annex_country = { target = XIN transfer_troops = yes }
     }
 }
 country_event = { #Aripuanã
@@ -655,21 +548,7 @@ country_event = { #Aripuanã
 
     option = {
         name = XinguvsJagunco.4.A
-
-
-start_border_war = {
-    change_state_after_war = yes
-    attacker = {
-        state = 86
-        num_provinces = 5
-    }
-                
-    defender = {
-        state = 502
-        num_provinces = 5
-    }
-}
+		
         JAG = { country_event = { id = XinguvsJagunco.2 days = 50 } }
-
     }
 }

@@ -48,7 +48,7 @@
 
  racial_integration:0 "Racial Integration"
  state_oppression:0 "State Oppression"
- state_segregation:0 "State Segregation"
+ state_segregation_policy:0 "State Segregation"
  equal_rights:0 "Equal Rights"
  minorities_protected:0 "Minorities Protected"
 
@@ -136,7 +136,7 @@
  training_none:0 "No Troop Training"
  militia_training:0 "Militia Troop Training"
  mercenary_training:0 "Mercenary Troop Training"
- guerrilla_training:0 "Guerrilla Troop Training"
+ guerrilla_training_law:0 "Guerrilla Troop Training"
  professional_training_methods:0 "Professional Troop Training"
 
  officer_training:0 "Officer Training"
@@ -466,7 +466,6 @@
 # minorities:0 "Minority Rights"
 # racial_oligarchy:0 "Racial Supremacy"
 # total_segregation:0 "Segregated Society"
-# state_segregation:0 "Partially Segregated Society"
 # racist_society:0 "Racist Society"
 # equal_rights:0 "Integrated Society"
 # slavery:0 "Slavery Law"

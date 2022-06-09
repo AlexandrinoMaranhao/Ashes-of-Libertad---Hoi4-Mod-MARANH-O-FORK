@@ -29,7 +29,7 @@ add_ideas = {
 religious_secularism
 bellow_poverty_line
 political_parties_one_party_state
-state_segregation
+state_segregation_policy
 state_press_only
 secondary_education
 economic_focus_war_economy

@@ -740,7 +740,7 @@ country_event = {
         NHA = { transfer_state = 116 }
         NHA = { transfer_state = 504 }
         hidden_effect = { country_event = { id = NHA.2 days = 120 } }
-        NHA = { set_capital = 504 }
+        NHA = { set_capital = {state = 504} }
     }
     option = {
     name = NHA.1.b
