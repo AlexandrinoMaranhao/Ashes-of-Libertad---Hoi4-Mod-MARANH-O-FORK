@@ -675,7 +675,6 @@ CFD_piaui_frontier = {
 			}
 		}
 		modifier = {
-			weekly_stability = 0.001
 		}
 		remove_effect = {
 		}

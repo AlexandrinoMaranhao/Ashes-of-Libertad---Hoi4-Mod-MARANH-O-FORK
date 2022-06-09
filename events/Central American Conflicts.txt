@@ -1,5 +1,6 @@
 add_namespace = farmlands_war
 add_namespace = honduran_civilwar
+add_namespace = honduran_flavors
 
 ## Farmlands War ##
 country_event = {
@@ -34,6 +35,22 @@ country_event = {
         } 
     }
 }
+
+## Honduras Flavor Events ##
+
+country_event = {
+    id = honduran_flavors.1
+    title = honduran_flavors.1.t
+    desc = honduran_flavors.1.d
+    picture = GFX_report_event_acrean_natives
+    is_triggered_only = yes
+
+    option = {
+		name = honduran_flavors.1.a
+	}
+
+}
+
 
 ## Honduran Civil War ##
 
@@ -168,6 +185,32 @@ country_event = {#NRC/Corporatists duel
     is_triggered_only = yes
 
     option = {
+		
+		HON = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		HNM = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		HNR = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		HNL = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		
         name = honduran_civilwar.3.a
         delete_unit = {
             state = 240
@@ -217,6 +260,32 @@ country_event = {#Civil war erupts in HON after its defeat
 
     option = {
         name = honduran_civilwar.4.a
+		
+		HON = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		HNM = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		HNR = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		HNL = {
+			country_event = {
+				id = honduran_flavors.1
+				days = 0
+			}
+		}
+		
         HON = {
             declare_war_on = {
                 target = HNL

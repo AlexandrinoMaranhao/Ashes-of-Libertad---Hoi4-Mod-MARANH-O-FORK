@@ -12,7 +12,7 @@ buildings = {
 			843 = {
 				bunker = 2
 			}
-			1938 {
+			1938 = {
 				bunker = 2
 			}
 			4513 = {
