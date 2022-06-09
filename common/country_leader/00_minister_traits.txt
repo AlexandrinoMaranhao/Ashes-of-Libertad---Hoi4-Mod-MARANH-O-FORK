@@ -1116,7 +1116,7 @@ experience_gain_army = 0.05
 	########################################
 
 	mhc_school_of_manoeuvre = {
-		experience_gain_army_factor = 0.1
+		experience_gain_army = 0.05
 		army_speed_factor = 0.1
 		equipment_bonus = {
 			motorized_equipment = {
@@ -1129,7 +1129,7 @@ experience_gain_army = 0.05
 	}
 
 	mhc_school_of_fire_support = {
-		experience_gain_army_factor = 0.1
+		experience_gain_army = 0.05
 		army_artillery_attack_factor = 0.15
 		army_artillery_defence_factor = 0.15
 		equipment_bonus = {
@@ -1141,6 +1141,7 @@ experience_gain_army = 0.05
 	}
 
 	mhc_school_of_mass_combat = {
+		experience_gain_army = 0.01
 		conscription = 0.005
 		army_infantry_attack_factor = 0.05
 		army_infantry_defence_factor = 0.05
@@ -1148,14 +1149,14 @@ experience_gain_army = 0.05
 	}
 
 	mhc_school_of_psychology = {
-		experience_gain_army_factor = 0.1
+		experience_gain_army = 0.05
 		army_org_factor = 0.1
 		army_morale_factor = 0.1
 		random = no
 	}
 
 	mhc_school_of_defence = {
-		experience_gain_army_factor = 0.1
+		experience_gain_army = 0.05
 		production_speed_bunker_factor = 0.15
 		production_speed_coastal_bunker_factor = 0.15
 		production_speed_anti_air_building_factor = 0.15
@@ -1166,7 +1167,7 @@ experience_gain_army = 0.05
 	}
 
 	mhc_school_of_commando_operations = {
-		experience_gain_army_factor = 0.1
+		experience_gain_army = 0.05
 		special_forces_attack_factor = 0.15
 		special_forces_defence_factor = 0.15
 		equipment_bonus = {
@@ -1176,7 +1177,6 @@ experience_gain_army = 0.05
 			mountaineers = {
 				max_organisation = 0.2
 			}
-
 		}
 		random = no
 	}
@@ -1186,14 +1186,14 @@ experience_gain_army = 0.05
 	########################################
 
 	carm_elastic_defence_doctrine = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		army_defence_factor = 0.1
 		supply_consumption_factor = -0.1
 		random = no
 	}
 
 	carm_static_defence_doctrine = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		army_defence_factor = 0.1
 		attrition = -0.1
 		dig_in_speed_factor = 0.2
@@ -1201,13 +1201,13 @@ experience_gain_army = 0.05
 	}
 
 	carm_decisive_battle_doctrine = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		army_attack_factor = 0.1
 		random = no
 	}
 
 	carm_armoured_spearhead_doctrine = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		army_attack_factor = 0.05
 		equipment_bonus = {
 			motorized_equipment = {
@@ -1218,14 +1218,14 @@ experience_gain_army = 0.05
 	}
 
 	carm_guns_and_butter_doctrine = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		supply_consumption_factor = -0.1
 		army_org_factor = 0.1
 		random = no
 	}
 
 	carm_commando_doctrine = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		no_supply_grace = 48
 		out_of_supply_factor = -0.15
 		land_night_attack = 0.15
@@ -1238,7 +1238,7 @@ experience_gain_army = 0.05
 	}
 
 	carm_doctrine_of_autonomy = {
-		experience_gain_army_factor = 0.05
+		experience_gain_army = 0.05
 		planning_speed = 0.1
 		org_loss_when_moving = -0.1
 		random = no

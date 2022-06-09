@@ -15,7 +15,8 @@
  received_attache_desc:0 "Foreign military attachés residing in our country."
  ATTACHE_LIST:0 "We received military attachés from $LIST$. And they give us the following effects:"
 
- SPIRIT_ADD_IDEA:0 "§GHire a§! §YMilitary advisor§!"
+ SPIRIT_ADD_IDEA:0 "§GClick to hire a§! §YMilitary advisor§!"
+ CHANGE_ADVISOR:0 "§GClick to change the§! §YMilitary advisor§!"
 
  ministers:0 "§bPolitical Cabinet§!"
  political_advisor:0 "Political Advisor"

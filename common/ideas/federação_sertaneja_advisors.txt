@@ -10,37 +10,46 @@ ideas = {
 		#	traits = { TRAIT }
 		#	cost = 50
 		#}
-		CFD_father_almeida_lustosa_advisor = { ###Advisor para a MAOdC / Mais Alta Ordem de Cristo
+		
+		###Advisor para a MAOdC / Mais Alta Ordem de Cristo
+		CFD_father_almeida_lustosa_advisor = {
             allowed = {
 				original_tag = MOC
             }
 			available = {
-				has_government = fascism
+				has_government = reactionary
 			}
             visible = {
-				original_tag = CFD
+				AND = {
+					original_tag = CFD
+					NOT = {
+						has_government = fascism
+					}
+				}
             }
-			traits = { for_man_of_faith }
+			traits = { new_cicero }
 			cost = 50
 		}
-		CFD_afonso_farias_mello_advisor = {
+		
+		###Anti-Junta Advisors
+		CFD_dom_helder_camara_advisor = {
             allowed = {
 				original_tag = CFD
             }
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
             visible = {
-				original_tag = CFD
+				AND = {
+					original_tag = CFD
+					NOT = {
+						has_government = fascism
+					}
+				}
             }
-			traits = { hog_flamboyant_tough_guy }
-			cost = 50
-		}
-		CFD_cid_sempaio_advisor = {
-            allowed = {
-				original_tag = CFD
-            }
-            visible = {
-				original_tag = CFD
-            }
-			traits = { eco_industrial_chemist }
+			traits = { the_red_preist }
 			cost = 50
 		}
 		CFD_pelopidas_silveira_advisor = {
@@ -53,32 +62,14 @@ ideas = {
 				}
 			}
             visible = {
-				original_tag = CFD
+				AND = {
+					original_tag = CFD
+					NOT = {
+						has_government = fascism
+					}
+				}
             }
 			traits = { eco_construction_magnate hog_defender_of_democracy}
-			cost = 50
-		}
-		CFD_drayton_nejaim_advisor = {
-            allowed = {
-				original_tag = CFD
-            }
-            visible = {
-				original_tag = CFD
-            }
-			traits = { sec_silent_lawyer }
-			cost = 50
-		}
-		CFD_augusto_lucena_advisor = {
-            allowed = {
-				original_tag = CFD
-            }
-			available = {
-				has_government = fascism
-			}
-            visible = {
-				original_tag = CFD
-            }
-			traits = { sec_prince_of_terror }
 			cost = 50
 		}
 		CFD_chagas_rodrigues_advisor = {
@@ -91,9 +82,46 @@ ideas = {
 				}
 			}
             visible = {
-				original_tag = CFD
+				AND = {
+					original_tag = CFD
+					NOT = {
+						has_government = fascism
+					}
+				}
             }
 			traits = { sec_retired_general }
+			cost = 50
+		}
+		
+		###Neutral Advisors/Loyalty to no-one
+		CFD_afonso_farias_mello_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { the_killer_senator }
+			cost = 50
+		}
+		CFD_cid_sempaio_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { eco_industrial_chemist }
+			cost = 50
+		}
+		CFD_drayton_nejaim_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { sec_silent_lawyer }
 			cost = 50
 		}
 		CFD_joaquim_parente_advisor = {
@@ -127,6 +155,104 @@ ideas = {
             }
 			traits = { eco_balanced_budget_economy }
 			cost = 25
+		}
+		CFD_pedro_gondim_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { the_thorned_rose }
+			cost = 50
+		}
+		CFD_jose_almeida_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { poet_3 }
+			cost = 50
+		}
+		CFD_francisco_queiroz_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { journalist_2 }
+			cost = 50
+		}
+		CFD_otavio_araujo_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { for_fierce_negotiator }
+			cost = 50
+		}
+		CFD_germano_coelho_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { sec_silent_lawyer sec_humble_teacher }
+			cost = 50
+		}
+		CFD_etvelvino_lins_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_silent_workhorse hog_pragmatic_statesman }
+			cost = 50
+		}
+		CFD_joao_oliveira_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { the_sertanejan_sore_loser for_political_appointment }
+			cost = 50
+		}
+		
+		###Pro-Junta Advisors
+		CFD_jose_fernandes_lima_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				has_government = fascism
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_silver_tongue sec_humble_teacher }
+			cost = 50
+		}
+		CFD_augusto_lucena_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				has_government = fascism
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { sec_prince_of_terror }
+			cost = 50
 		}
 	}
 }

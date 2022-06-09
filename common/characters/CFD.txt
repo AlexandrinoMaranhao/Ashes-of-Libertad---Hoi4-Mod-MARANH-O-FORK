@@ -159,4 +159,36 @@ characters={
 			traits = {mhc_school_of_mass_combat}
 		}
 	}
+	CFD_eraldo_leite = {
+		name = "Eraldo Gueiros Leite"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_eraldo_leite.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_eraldo_leite
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {mhc_school_of_fire_support}
+		}
+	}
+	CFD_rui_carneiro = {
+		name = "Rui Carneiro"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_rui_carneiro.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_rui_carneiro
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {mhc_school_of_defence}
+		}
+	}
 }

@@ -28,11 +28,17 @@ set_popularities = {
 }
 
 add_ideas = {
+###Starting NatSpirts###
 	CFD_lacking_order
     CFD_disunited_armed_forces
     CFD_northern_anarchist_threat
     CFD_the_gateway_to_south_america
+
+###Starting Advisors###
+	CFD_joao_oliveira_advisor
+	CFD_antonio_corpse_advisor		##<-O que morre la.
 	
+###Governo###
 	political_parties_multiparty_system
 	economic_focus_early_mobilization
 	equal_rights
@@ -53,6 +59,8 @@ recruit_character = CFD_hangho_trench
 ###Military High Command or Alike###
 recruit_character = CFD_romeu_sobreira_de_moura
 recruit_character = CFD_jose_amorim
+recruit_character = CFD_eraldo_leite
+recruit_character = CFD_rui_carneiro
 
 set_country_flag = unfinished_cfd
 

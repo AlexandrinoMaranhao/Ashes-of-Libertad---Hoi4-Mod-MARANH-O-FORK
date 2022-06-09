@@ -1262,7 +1262,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "aluminium_checkbox"
+				name = "technology_checkbox"
 				position = { x = 195 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1278,7 +1278,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "tungsten_checkbox"
+				name = "ammunition_checkbox"
 				position = { x = 253 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1294,7 +1294,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "chromium_checkbox"
+				name = "motors_checkbox"
 				position = { x = 311 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"

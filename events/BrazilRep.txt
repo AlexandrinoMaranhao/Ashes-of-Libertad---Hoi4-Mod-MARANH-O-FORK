@@ -304,9 +304,6 @@ remove_ideas = stolen_institutions
         }
 
     }
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 ##################################
