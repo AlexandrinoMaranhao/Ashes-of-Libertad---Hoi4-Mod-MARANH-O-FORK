@@ -12,9 +12,9 @@ bookmarks = {
                 ideology = democratic
 				minor = yes
 			    ideas = {
-						ACR_anti_bolivian_propaganda 
-						ACR_funai 
-						ACR_banana_bread_and_theater 
+					ACR_anti_bolivian_propaganda 
+					ACR_funai 
+					ACR_banana_bread_and_theater 
     	        }
     	        focuses = {
 					ACR_force_a_stage_of_siege
@@ -22,20 +22,36 @@ bookmarks = {
 					ACR_talk_business
     	        }
 			}
+			
+			NHA={
+				history = "NHA_GATHERING_STORM_DESC"
+                ideology = democratic
+				minor = yes
+			    ideas = {
+					overcrowded_island 
+					the_amazonian_military_command 
+					what_are_we_fighting_for 
+    	        }
+    	        focuses = {
+					NHA_petition_belem
+					NHA_the_madera_incident
+					NHA_segregate_the_troops
+    	        }
+			}
 
 			SAO={
 				history = "SAO_GATHERING_STORM_DESC"
-			              ideology = reactionary
-			      ideas = {
-			            SAO_the_2nd_constitutionalist_revolution 
-			            SAO_stolen_institutions 
-			            SAO_shattered_economy 
-			        }
-			        focuses = {
-			            #ACR_force_a_stage_of_siege
-			            #ACR_pass_native_defence_act
-			            #ACR_talk_business
-			        }
+					ideology = reactionary
+				ideas = {
+			        SAO_the_2nd_constitutionalist_revolution 
+			        SAO_stolen_institutions 
+			        SAO_shattered_economy 
+			    }
+			    focuses = {
+			        #ACR_force_a_stage_of_siege
+			        #ACR_pass_native_defence_act
+			        #ACR_talk_business
+			    }
 			}
 
 		effect = {
