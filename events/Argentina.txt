@@ -265,14 +265,16 @@ country_event = { #PARAGUAY COMES BACK FROM THE DEAD
         ai_chance = { factor = 1 }
         379 = {add_core_of = PAR}
 
-        PAR = { transfer_state = 278 }
-        PAR = { declare_war_on = {
-            target = ARG
-            type = annex_everything
-            } 
-        }
-        hidden_effect = { country_event = { id = ARG_chile_war.3 days = 45 } 
-    }
+        PAR = {
+			transfer_state = 278 
+			declare_war_on = {
+				target = ARG
+				type = annex_everything
+			} 
+		}
+
+        hidden_effect = { country_event = { id = ARG_chile_war.3 days = 45 } }
+	}
 }
 country_event = { #URUGUAY COMES BACK FROM THE DEAD
     id = ARG_chile_war.3
@@ -324,7 +326,6 @@ country_event = { #FALKLANDS MY ASS THIS IS MALVINAS BABY
         }
     }
 }
-###
 
 country_event = { #Argentinian Collapse Aftermath 
     id = ARG_COLLAPSE.1

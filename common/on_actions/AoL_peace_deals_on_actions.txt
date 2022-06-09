@@ -842,7 +842,8 @@ on_actions = {
         white_peace = ENG
         }
         ENG = {
-          remove_idea = ENG_preassure_from_venezuela }
+          remove_ideas = ENG_preassure_from_venezuela 
+		}
       }
       if = {  #### Fall of Tawantinsuyu
       limit = {
@@ -1178,7 +1179,7 @@ VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
         USA = {
           set_country_flag = maw_has_taken_land
           set_state_owner = FROM.FROM
-          set_capital = FROM.FROM
+          set_capital = {state = 492}
         }
         WAS = {
           transfer_state = 248
@@ -1206,8 +1207,8 @@ VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
         annex_country = {
           target = FROM
           transfer_troops = no
-          set_capital = 504
           }
+		  set_capital = {state = 504}
         }
       }
       if = {  
@@ -1229,7 +1230,7 @@ VEN = { country_event = { id = VEN_Collapse_Comes_Quick_Path.8 days = 0 } }
       }
       ROOT = {
         annex_country = {
-          puppet = FROM
+          target = FROM
           transfer_troops = no
           }
         }

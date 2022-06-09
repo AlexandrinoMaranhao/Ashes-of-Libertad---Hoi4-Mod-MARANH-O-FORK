@@ -205,18 +205,16 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação Derrota
-    id = CFD_operations_failure.2
-    title = CFD_operations_failure.2.t
-    desc = CFD_operations_failure.2.d
+country_event = {
+    id = CFD_operation_failure.1
+    title = CFD_operation_failure.1.t
+    desc = CFD_operation_failure.1.d
     is_triggered_only = yes
     picture = x
 
     option = {
-        name = CFD_operations_failure.2.a
-		CFD = {
-			set_country_flag = portella_dead
-		}
+        name = CFD_operations_failure.1.a
+		CFD = {set_country_flag = portella_dead}
     }
 }
 

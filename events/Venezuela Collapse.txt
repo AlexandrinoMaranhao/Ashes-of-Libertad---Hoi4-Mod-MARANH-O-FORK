@@ -460,7 +460,7 @@ country_event = {
        VEN = { set_cosmetic_tag = VEN_UNION }
        VEJ = { set_cosmetic_tag = VEJ_UNION }
        NEB = { set_cosmetic_tag = NEB_UNION }
-       NEB = { set_capital = 302 }
+       NEB = { set_capital = {state = 302} }
        #VEN = { transfer_state = 310 }
 
        NEB = {
@@ -502,24 +502,21 @@ country_event = {
 
     option = {
         name = VEN_Collapse_End.2.A
-        VEN = {
-            declare_war_on = {
-                target = VEC
-                type = annex_everything
-            }
-
-        VEN = {
-            declare_war_on = {
-                target = LLA
-                type = annex_everything
-            }
 
         VEN = {
             declare_war_on = {
                 target = ELD
                 type = annex_everything
             }
-                        every_state = {
+			declare_war_on = {
+                target = VEC
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = LLA
+                type = annex_everything
+            }
+            every_state = {
                 limit = {
                     is_owned_by = VEC
                     is_owned_by = LLA
@@ -543,18 +540,6 @@ country_event = {
 
     option = {
         name = NEB_Fuck.1.A
-start_border_war = {
-    change_state_after_war = yes
-    attacker = {
-        state = 311
-        num_provinces = 4
-    }
-                
-    defender = {
-        state = 445
-        num_provinces = 4
-    }
-}
     }
 }
 
@@ -569,21 +554,20 @@ country_event = {
     option = {
         name = VEN_Democracy_Wins.1.A
 
-        ELD = {
-            declare_war_on = {
-                target = LLA
-                type = annex_everything
-            }
-        304 = { set_demilitarized_zone = no }
-        305 = { set_demilitarized_zone = no }
-        303 = { set_demilitarized_zone = no }
-        447 = { set_demilitarized_zone = no }
-
-        ELD = { transfer_state = 304 }
-        ELD = { transfer_state = 305 }
-        ELD = { transfer_state = 303 }
-        ELD = { transfer_state = 447 }
-    }
+		ELD = {
+				declare_war_on = {
+					target = LLA
+					type = annex_everything
+				}
+				304 = { set_demilitarized_zone = no }
+				305 = { set_demilitarized_zone = no }
+				303 = { set_demilitarized_zone = no }
+				447 = { set_demilitarized_zone = no }
+				transfer_state = 304
+				transfer_state = 305
+				transfer_state = 303
+				transfer_state = 447
+		}
         VEN = { country_event = { id = VEN_Collapse_End.1 days = 5 } }
     }
 }
