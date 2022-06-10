@@ -1,0 +1,471 @@
+scripted_gui = {
+  para_prestige = {
+    window_name = "para_prestige_gui_window"
+	parent_window_token = politics_tab
+    context_type = player_context
+
+
+    visible = {
+		tag = BEM
+		has_country_flag = para_prestige
+    }
+
+    effects = {
+		open_gui_click = {
+			if = {
+					limit = { NOT = { has_country_flag = para_prestige_open } }
+					set_country_flag = para_prestige_open
+				}
+				else_if = {
+					limit = { has_country_flag = para_prestige_open }
+					clr_country_flag = para_prestige_open
+				}
+		  }
+    }
+
+    triggers = {
+    }
+
+    dynamic_lists = {
+	  }
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+  para_prestige_gui = {
+    window_name = "para_prestige_gui_window_main"
+	parent_window_token = para_prestige_gui_window
+    context_type = player_context
+
+    visible = {
+		tag = BEM
+		has_country_flag = para_prestige_open
+    }
+
+    effects = {
+		close_button_click = {
+			clr_country_flag = para_prestige_open
+		}
+		
+		tutorial_button_click = {
+			country_event = {
+				id = ParaTutorial.0
+				days = 0
+		}
+  }
+  belem_piece_click = {
+      set_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  cachimbo_piece_click = {
+      set_country_flag = cachimbo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  kayapo_piece_click = {
+      set_country_flag = kayapo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  nhamunda_piece_click = {
+      set_country_flag = nhamunda_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  portel_piece_click = {
+      set_country_flag = portel_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  santarem_piece_click = {
+      set_country_flag = santarem_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = tapajos_selected
+  }
+  tapajos_piece_click = {
+      set_country_flag = tapajos_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+  }
+  belem_controlled_piece_click = {
+      set_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  cachimbo_controlled_piece_click = {
+      set_country_flag = cachimbo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  kayapo_controlled_piece_click = {
+      set_country_flag = kayapo_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  nhamunda_controlled_piece_click = {
+      set_country_flag = nhamunda_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  portel_controlled_piece_click = {#
+      set_country_flag = portel_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = santarem_selected
+      clr_country_flag = tapajos_selected
+  }
+  santarem_controlled_piece_click = {
+      set_country_flag = santarem_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = tapajos_selected
+  }
+  tapajos_controlled_piece_click = {
+      set_country_flag = tapajos_selected
+      clr_country_flag = belem_selected
+      clr_country_flag = cachimbo_selected
+      clr_country_flag = kayapo_selected
+      clr_country_flag = nhamunda_selected
+      clr_country_flag = portel_selected
+      clr_country_flag = santarem_selected
+  }
+  # Buttons
+  military_intervention_click = {
+    set_country_flag = mil_intervention_ch
+    clr_country_flag = mil_intervention
+  }
+  military_intervention_checked_click = {
+    set_country_flag = mil_intervention
+    clr_country_flag = mil_intervention_ch
+  }
+  civ_factory_click = {
+    set_country_flag = civ_factory_ch
+    clr_country_flag = civ_factory
+  }
+  civ_factory_checked_click = {
+    set_country_flag = civ_factory
+    clr_country_flag = civ_factory_ch
+  }
+  mil_factory_click = {
+    set_country_flag = mil_factory_ch
+    clr_country_flag = mil_factory
+  }
+  mil_factory_checked_click = {
+    set_country_flag = mil_factory
+    clr_country_flag = mil_factory_ch
+  }
+  new_garrison_click = {
+    set_country_flag = new_garrison_ch
+    clr_country_flag = new_garrison
+  }
+  new_garrison_checked_click = {
+    set_country_flag = new_garrison
+    clr_country_flag = new_garrison_ch
+  }
+  new_equipment_click = {
+    set_country_flag = new_equipment_ch
+    clr_country_flag = new_equipment
+  }
+  new_equipment_checked_click = {
+    set_country_flag = new_equipment
+    clr_country_flag = new_equipment_ch
+  }
+  new_division_click = {
+    set_country_flag = new_division_ch
+    clr_country_flag = new_division
+  }
+  new_division_checked_click = {
+    set_country_flag = new_division
+    clr_country_flag = new_division_ch
+  }
+  new_general_click = {
+    set_country_flag = new_general_ch
+    clr_country_flag = new_general
+  }
+  new_general_checked_click = {
+    set_country_flag = new_general
+    clr_country_flag = new_general_ch
+  }
+  building_speed_click = {
+    set_country_flag = building_speed_ch
+    clr_country_flag = building_speed
+  }
+  building_speed_checked_click = {
+    set_country_flag = building_speed
+    clr_country_flag = building_speed_ch
+  }
+  stability_boost_click = {
+    clr_country_flag = stability_boost
+    set_country_flag = stability_boost_ch
+    
+  }
+  stability_boost_checked_click = {
+    set_country_flag = stability_boost
+    clr_country_flag = stability_boost_ch
+  }
+  abort_mission_click = {
+    set_country_flag = abort_mission_ch
+    clr_country_flag = abort_mission
+    if = {
+      limit = { has_active_mission = para_build_military }
+      remove_mission = para_build_military
+      clr_country_flag = para_mission0
+    }
+    if = {
+      limit = { has_active_mission = para_build_civilian }
+      remove_mission = para_build_civilian
+      clr_country_flag = para_mission1 
+    }
+    if = {
+      limit = { has_active_mission = para_build_infrastructure }
+      remove_mission = para_build_infrastructure
+      clr_country_flag = para_mission2
+    }
+  }
+  abort_mission_checked_click = {
+    set_country_flag = abort_mission
+    clr_country_flag = abort_mission_ch
+  }
+}
+
+    triggers = {
+      belem_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 77
+        controls_state = 132
+        controls_state = 133
+          }
+      kayapo_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 78
+        controls_state = 138
+        controls_state = 139
+      }
+      portel_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 134
+        controls_state = 529
+        controls_state = 487
+      }
+      cachimbo_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 87
+        controls_state = 136
+        controls_state = 140
+        controls_state = 471
+        controls_state = 491
+      }
+      tapajos_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 137
+        controls_state = 470
+        controls_state = 124
+        controls_state = 486
+        controls_state = 485
+      }
+      santarem_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 121
+        controls_state = 95
+        controls_state = 135
+        controls_state = 120
+        controls_state = 122
+        controls_state = 123
+        controls_state = 490
+        controls_state = 489
+        controls_state = 488
+      }
+      nhamunda_controlled_piece_visible = {
+        tag = BEM
+        controls_state = 118
+        controls_state = 119
+        controls_state = 456
+        controls_state = 530
+      }
+    belem_list_visible = {
+      has_country_flag = belem_selected
+    }
+    kayapo_list_visible = {
+      has_country_flag = kayapo_selected
+    }
+    cachimbo_list_visible = {
+      has_country_flag = cachimbo_selected
+    }
+    nhamunda_list_visible = {
+      has_country_flag = nhamunda_selected
+    }
+    portel_list_visible = {
+      has_country_flag = portel_selected
+    }
+    santarem_list_visible = {
+      has_country_flag = santarem_selected
+    }
+    tapajos_list_visible = {
+      has_country_flag = tapajos_selected
+    }
+    belem_state_visible = {
+      has_country_flag = belem_selected
+    }
+    cachimbo_state_visible = {
+      has_country_flag = cachimbo_selected
+    }
+    kayapo_state_visible = {
+      has_country_flag = kayapo_selected
+    }
+    nhamunda_state_visible = {
+      has_country_flag = nhamunda_selected
+    }
+    portel_state_visible = {
+      has_country_flag = portel_selected
+    }
+    santarem_state_visible = {
+      has_country_flag = santarem_selected
+    }
+    tapajos_state_visible = {
+      has_country_flag = tapajos_selected
+    }
+
+    # Prestige
+    prestige_view_visible = {
+      always = yes
+    }
+    military_intervention_checked_visible = {
+      has_country_flag = mil_intervention_ch
+    }
+    civ_factory_checked_visible = {
+      has_country_flag = civ_factory_ch
+    }
+    mil_factory_checked_visible = {
+      has_country_flag = mil_factory_ch
+    }
+    new_garrison_checked_visible = {
+      has_country_flag = new_garrison_ch
+    }
+    new_equipment_checked_visible = {
+      has_country_flag = new_equipment_ch
+    }
+    new_division_checked_visible = {
+      has_country_flag = new_division_ch
+    }
+    new_general_checked_visible = {
+      has_country_flag = new_general_ch
+    }
+    building_speed_checked_visible = {
+      has_country_flag = building_speed_ch
+    }
+    stability_boost_checked_visible = {
+      has_country_flag = stability_boost_ch
+    }
+    abort_mission_checked_visible = {
+      has_country_flag = abort_mission_ch
+    }
+    # Cabanos
+    belem_cabanos_visible = {
+      has_country_flag = belem_selected
+    }
+    portel_cabanos_visible = {
+      has_country_flag = portel_selected
+    }
+    kayapo_cabanos_visible = {
+      has_country_flag = kayapo_selected
+    }
+    mil_factory_mission_visible = {
+      has_country_flag = para_mission0
+    }
+    civ_factory_mission_visible = {
+      has_country_flag = para_mission1
+    }
+    infrastructure_mission_visible = {
+      has_country_flag = para_mission2
+    }
+  }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}
