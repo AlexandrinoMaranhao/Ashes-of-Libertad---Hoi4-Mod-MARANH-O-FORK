@@ -189,25 +189,25 @@ country_event = {#NRC/Corporatists duel
 		HON = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 14
 			}
 		}
 		HNM = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 14
 			}
 		}
 		HNR = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 14
 			}
 		}
 		HNL = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 14
 			}
 		}
 		
@@ -264,25 +264,25 @@ country_event = {#Civil war erupts in HON after its defeat
 		HON = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 7
 			}
 		}
 		HNM = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 7
 			}
 		}
 		HNR = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 7
 			}
 		}
 		HNL = {
 			country_event = {
 				id = honduran_flavors.1
-				days = 0
+				days = 7
 			}
 		}
 		

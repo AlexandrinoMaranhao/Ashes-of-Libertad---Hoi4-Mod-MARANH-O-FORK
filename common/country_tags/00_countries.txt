@@ -113,6 +113,8 @@ TEF = "countries/Tefé.txt"
 KAT = "countries/Acrean Natives.txt"
 INT = "countries/Intentona.txt"
 #####################################
+JAP = "countries/Soviet Union.txt"
+GER = "countries/Soviet Union.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
 FRA	= "countries/France.txt"
