@@ -704,22 +704,19 @@ country_event = {
     
     #Answer
     option = {
-    name = ROR.5.a
+		name = ROR.5.a
 
         530 = { add_core_of = ROR }
-
-        ROR = { transfer_state = 530 }
+        ROR = { 
+			declare_war_on = {
+				target = ATR
+				type = annex_everything
+			}
+			transfer_state = 530 
+		}
         #hidden_effect = { country_event = { id = ROR.5 days = 100 } }
     }
 
-    option = {
-    name = ROR.5.b
-
-    declare_war_on = {
-        target = ATR
-        type = annex_everything
-        } 
-    }
 }
 country_event = {
     id = NHA.1

@@ -83,7 +83,7 @@ spriteTypes = {
 	}
 																							
 	spriteType = {
-		name = "GFX_"news_event_castelo_battle_of_manaus
+		name = "GFX_news_event_castelo_battle_of_manaus"
 		texturefile = "gfx/event_pictures/news_event_castelo_battle_of_manaus.dds"
 	}
 													

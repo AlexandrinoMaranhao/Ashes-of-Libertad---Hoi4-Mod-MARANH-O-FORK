@@ -25,7 +25,7 @@ bookmarks = {
 			
 			NHA={
 				history = "NHA_GATHERING_STORM_DESC"
-                ideology = democratic
+                ideology = fascism
 				minor = yes
 			    ideas = {
 					overcrowded_island 
@@ -40,66 +40,33 @@ bookmarks = {
 			}
 			
 			COR={
-				history = "NHA_GATHERING_STORM_DESC"
+				history = "COR_GATHERING_STORM_DESC"
                 ideology = democratic
 				minor = yes
 			    ideas = {
-					overcrowded_island 
-					the_amazonian_military_command 
-					what_are_we_fighting_for 
+					coari_desperation  
+					the_white_linned_mayor 
     	        }
     	        focuses = {
-					NHA_petition_belem
-					NHA_the_madera_incident
-					NHA_segregate_the_troops
+					COR_the_american_priest 
+					COR_intro_final 
+					COR_organize_a_raid
     	        }
 			}
 			
 			BEM={
-				history = "NHA_GATHERING_STORM_DESC"
-                ideology = democratic
+				history = "BEM_GATHERING_STORM_DESC"
+                ideology = fascism
 				minor = yes
 			    ideas = {
-					overcrowded_island 
-					the_amazonian_military_command 
-					what_are_we_fighting_for 
+					the_cabanos 
+					the_juntas_favorite_pet 
+					the_siege_of_altamira 
     	        }
     	        focuses = {
-					NHA_petition_belem
-					NHA_the_madera_incident
-					NHA_segregate_the_troops
-    	        }
-			}
-			
-			ROR={
-				history = "NHA_GATHERING_STORM_DESC"
-                ideology = democratic
-				minor = yes
-			    ideas = {
-					overcrowded_island 
-					the_amazonian_military_command 
-					what_are_we_fighting_for 
-    	        }
-    	        focuses = {
-					NHA_petition_belem
-					NHA_the_madera_incident
-					NHA_segregate_the_troops
-    	        }
-			}
-			
-			HON={
-				history = "NHA_GATHERING_STORM_DESC"
-                ideology = democratic
-				minor = yes
-			    ideas = {
-					overcrowded_island 
-					the_amazonian_military_command 
-					what_are_we_fighting_for 
-    	        }
-    	        focuses = {
-					NHA_petition_belem
-					NHA_the_madera_incident
-					NHA_segregate_the_troops
+					BEM_the_new_problem 
+					BEM_the_older_problem
+					BEM_the_old_problem
     	        }
 			}
 
@@ -120,16 +87,13 @@ bookmarks = {
 			
 			CFD={
 				history = "SAO_GATHERING_STORM_DESC"
-					ideology = reactionary
+					ideology = democratic
 				ideas = {
-			        SAO_the_2nd_constitutionalist_revolution 
-			        SAO_stolen_institutions 
-			        SAO_shattered_economy 
+			        CFD_northern_anarchist_threat 
+					CFD_lacking_order 
+					CFD_disunited_armed_forces  
 			    }
 			    focuses = {
-			        #ACR_force_a_stage_of_siege
-			        #ACR_pass_native_defence_act
-			        #ACR_talk_business
 			    }
 			}
 
