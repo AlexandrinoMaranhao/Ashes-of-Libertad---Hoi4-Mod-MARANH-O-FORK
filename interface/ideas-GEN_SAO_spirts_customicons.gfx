@@ -1,5 +1,10 @@
 spriteTypes = { 
 	##Icon For: The Devil in the Bottle
+		SpriteType = { 
+		name = "GFX_idea_SAO_the_ALN"
+		texturefile = "gfx/interface/ideas/SAO_the_ALN.dds"
+	}
+
 	SpriteType = { 
 		name = "GFX_idea_GEN_the_devil_in_the_bottle-1"
 		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_the_devil_in_the_bottle-1.dds"

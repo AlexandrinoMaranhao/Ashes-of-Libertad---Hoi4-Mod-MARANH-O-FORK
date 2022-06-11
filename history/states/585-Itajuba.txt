@@ -1,0 +1,21 @@
+state={
+	id=585
+	name="STATE_585"
+	provinces={
+		1715 2451 4606 
+	}
+
+	history={
+		owner = RMI
+		add_core_of = RMI
+		victory_points = {
+			2451 5 
+		}
+
+	}
+
+	manpower=13738
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
