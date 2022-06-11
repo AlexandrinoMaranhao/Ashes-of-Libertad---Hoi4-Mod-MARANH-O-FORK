@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		GENERIC_the_itajub_arms_factory = {
+			picture = GENERIC_the_itajub_arms_factory-113010
+			available = {
+				ROOT = {
+	controls_state = 585
+}
+			}
+		}
+	}
+}

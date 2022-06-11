@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: The Itajubá Arms Factory
+	SpriteType = { 
+		name = "GFX_idea_GENERIC_the_itajub_arms_factory-113010"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GENERIC_the_itajub_arms_factory-113010.dds"
+	}
+
+ 
+ }

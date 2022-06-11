@@ -114,7 +114,7 @@ spriteType ={
  
 spriteType = {
 	name = "GFX_idea_janio_campaign"
-	texturefile = "gfx/interface/ideas/spirts-ideas/janio_trollage.dds"
+	texturefile = "gfx/interface/ideas/ideas-ideas/janio_trollage.dds"
 }
 
 spriteType = {

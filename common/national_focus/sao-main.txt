@@ -60,7 +60,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 
 		completion_reward = {
-		custom_effect_tooltip = SAO_the_road_to_guanabara_tt
+			custom_effect_tooltip = SAO_the_road_to_guanabara_tt
 			
 		}
 
@@ -398,21 +398,22 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 		custom_effect_tooltip = SAO_new_neighbors_tt
-		hidden_effect = {
-			unlock_decision_tooltip = sao_resettling_riograndeses
-			unlock_decision_tooltip = sao_resettling_cariocas
-			unlock_decision_tooltip = sao_resettling_mineiros
-			unlock_decision_tooltip = sao_resettling_midwestern
-			unlock_decision_tooltip = sao_resettling_northeastern
-			unlock_decision_tooltip = sao_resettling_europeans
-			unlock_decision_tooltip = sao_resettling_americans
-			add_stability = 0.1
-            set_country_flag = sao_show_MST
-			mark_focus_tree_layout_dirty = yes
-			
-		country_event = {
-			id = SAO_MST_SPAWN.1
-			days = 0
+		
+			hidden_effect = {
+				unlock_decision_tooltip = sao_resettling_riograndeses
+				unlock_decision_tooltip = sao_resettling_cariocas
+				unlock_decision_tooltip = sao_resettling_mineiros
+				unlock_decision_tooltip = sao_resettling_midwestern
+				unlock_decision_tooltip = sao_resettling_northeastern
+				unlock_decision_tooltip = sao_resettling_europeans
+				unlock_decision_tooltip = sao_resettling_americans
+				add_stability = 0.1
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
 				}
 			}
 		}
@@ -766,7 +767,11 @@ focus_tree = {
 			    	instant_build = yes
 				}
 			}
-			load_oob = "SAO_picapais_amarelos"
+			custom_effect_tooltip = oob_sao_pica_amarela_tt
+			
+			hidden_effect = {
+				load_oob = "SAO_picapais_amarelos"
+			}
 			
 		}
 	}
@@ -784,8 +789,12 @@ focus_tree = {
 		prerequisite = { focus = SAO_the_addictive_white_dust  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			load_oob = "SAO_piracicaba_minutemen"
 			
+			custom_effect_tooltip = oob_sao_minutemen_tt
+			
+			hidden_effect = {
+				load_oob = "SAO_piracicaba_minutemen"
+			}
 		}
 	}
 
@@ -859,7 +868,6 @@ focus_tree = {
 				amount = 10
 				}	
 			}
-			load_oob = "SAO_SPEC_MOT"
 			add_tech_bonus = {
 			    bonus = 0.5
 			    uses = 1
@@ -869,6 +877,11 @@ focus_tree = {
 			    bonus = 0.5
 			    uses = 1
 			    category = motorized_equipment
+			}
+			custom_effect_tooltip = oob_sao_spec_mot_tt
+			
+			hidden_effect = {
+				load_oob = "SAO_SPEC_MOT"
 			}
 		}
 	}
@@ -906,8 +919,11 @@ focus_tree = {
 		prerequisite = { focus = SAO_greyskiesoncemore  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			load_oob = "SAO_DES"
+			custom_effect_tooltip = oob_sao_des_tt
 			
+			hidden_effect = {
+				load_oob = "SAO_DES"
+			}
 		}
 	}
 

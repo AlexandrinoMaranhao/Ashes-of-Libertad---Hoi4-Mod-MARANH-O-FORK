@@ -649,3 +649,47 @@ change_social_laws = {
 		}
 	}
 }
+
+generic_like_tno_or_smth = {
+	
+	take_itajub = {
+		activation = {
+			NOT = {
+				AND = {
+					ROOT = {
+						controls_state = 585
+					}
+					has_idea = GENERIC_the_itajub_arms_factory
+				}
+			}
+		}	
+		available = {
+			AND = {
+				ROOT = {
+					controls_state = 585
+				}
+				NOT = {has_idea = GENERIC_the_itajub_arms_factory}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					ROOT = {
+						controls_state = 585
+					}
+				}
+				has_idea = GENERIC_the_itajub_arms_factory
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		selectable_mission = no
+		complete_effect = {
+		}
+		timeout_effect = {
+			add_ideas = GENERIC_the_itajub_arms_factory
+		}
+	}
+	
+}

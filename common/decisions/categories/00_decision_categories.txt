@@ -58,6 +58,11 @@ CFD_piaui_frontier = {
 	}
 }
 
+generic_like_tno_or_smth = {
+	priority = 99
+	
+}
+
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 
