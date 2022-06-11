@@ -19,7 +19,7 @@ units = {
 	division= {
 		name = "Picapaus Amarelos Unit"
 		location = 2573 
-		division_template = "Picapais Amarelos Unit"
+		division_template = "Picapais Amarelos"
 	}
 	division= {
 		name = "Sabugosa's Honor Guard"
