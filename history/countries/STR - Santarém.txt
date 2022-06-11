@@ -1,6 +1,6 @@
 ﻿capital = 95
 
-#oob = ""
+oob = "STR_1967"
 
 # Starting tech
 set_technology = {
@@ -32,6 +32,7 @@ equal_rights
 economic_focus_war_economy
 conscription_all_adults_serve
 trade_scope_regional_exports
+mercenary_specialization
 
 the_great_game
 mercenary_capital

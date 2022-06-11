@@ -50,6 +50,15 @@ rouba_mas_faz:0 "Rouba mas Faz"
 the_sertanejan_sore_loser:0 "The Elitist Sore Loser"
 the_red_preist:0 "The 'Red Preist'"
 
+trait_CFD_arreas_loyalist:0 "£GFX_trait_CFD_arreas_loyalist Arreas Loyalist"
+trait_CFD_arreas_loyalist_desc:0 "This character is loyal to Miguel Areas and will side with him and other loyalists on a occasion such as a civil war."
+trait_CFD_pcb_sympathies:0 "£GFX_trait_communist_sympathizer PCB Sympathizer"
+trait_CFD_pcb_sympathies_desc:0 "This character holds strong left-wing sympathies towards the PCB and similar left-wing parties."
+trait_CFD_arena_sympathies:0 "£GFX_trait_CFD_arena_sympathies Brasília Sympathies"
+trait_CFD_arena_sympathies_desc:0 "This character is secretly loyal to Paulo Guerra and the Junta government."
+trait_CFD_hiredgun:0 "£GFX_trait_CFD_hiredgun Militiaman"
+trait_CFD_hiredgun_desc:0 "Due to the shortage of military staff in the following years after the attempt of disposing of Miguel Arraes, it was allowed to recruit personnel with little to no military knowledge, but the ones from books. This character is one of them."
+
 ################
 # Tooltips
 ################

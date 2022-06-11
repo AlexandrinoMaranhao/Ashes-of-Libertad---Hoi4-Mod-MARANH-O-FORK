@@ -2967,5 +2967,98 @@ leader_traits = {
 			boost_resistance_factor = 0.25
 		}
 	}
-
+	
+	####CFD TRAITS. DON'T FORGET WE EXIST!
+	
+	trait_CFD_arreas_loyalist = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = CFD
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	trait_CFD_pcb_sympathies = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = CFD
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	trait_CFD_arena_sympathies = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = CFD
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	trait_CFD_hiredgun = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = CFD
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
 }

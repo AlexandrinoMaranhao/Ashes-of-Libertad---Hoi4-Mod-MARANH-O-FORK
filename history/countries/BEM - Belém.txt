@@ -25,7 +25,7 @@ set_popularities = {
 
 add_ideas = {
 slavery_outlawed
-state_segregation_policy
+state_oppression
 conscription_one_year_draft
 economic_focus_civilian_economy
 trade_scope_closed_economy

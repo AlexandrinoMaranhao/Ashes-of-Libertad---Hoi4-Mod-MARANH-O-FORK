@@ -33,6 +33,7 @@ equal_rights
 conscription_all_adults_serve
 trade_scope_regional_exports
 economic_focus_partial_mobilization
+mercenary_specialization
 
 mercenary_state_neblina
 the_fog

@@ -491,4 +491,5 @@ leader_traits = {
 		surrender_limit = 0.1
 		production_speed_buildings_factor = 0.15
 	}
+	
 }

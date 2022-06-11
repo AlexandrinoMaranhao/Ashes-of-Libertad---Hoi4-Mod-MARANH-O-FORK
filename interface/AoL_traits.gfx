@@ -1,0 +1,27 @@
+spriteTypes = {
+			
+	spriteType = {
+		name = "GFX_trait_CFD_arreas_loyalist"
+		texturefile = "gfx/interface/traits/personal/trait_CFD_arreas_loyalist.dds"
+		legacy_lazy_load = no
+	}	
+			
+	spriteType = {
+		name = "GFX_trait_CFD_arena_sympathies"
+		texturefile = "gfx/interface/traits/personal/trait_CFD_arena_sympathies.dds"
+		legacy_lazy_load = no
+	}	
+			
+	spriteType = {
+		name = "GFX_trait_CFD_hiredgun"
+		texturefile = "gfx/interface/traits/personal/trait_CFD_hiredgun.dds"
+		legacy_lazy_load = no
+	}	
+			
+	spriteType = {
+		name = "GFX_trait_communist_sympathizer"
+		texturefile = "gfx/interface/traits/personal/trait_communist_sympathizer.dds"
+		legacy_lazy_load = no
+	}
+			
+}

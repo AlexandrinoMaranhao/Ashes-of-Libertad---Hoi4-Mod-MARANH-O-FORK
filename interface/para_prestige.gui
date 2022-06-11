@@ -291,7 +291,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "prestige_view"
 			position = { x = -95 y = -199 }
-			font = "hoi_16typewriter"
+			font = "hoi_16mbs"
 			text = "Current Prestige: [?var:BEM_Prestige]"
 			maxWidth = 400
 			maxHeight = 20
@@ -442,7 +442,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "belem_cabanos"
 			position = { x = -282 y = -105 }
-			font = "hoi_22typewriter"
+			font = "hoi_18mbs"
 			text = "[?var:BEM_belem_cabanos]/[?var:BEM_max_impact]"
 			maxWidth = 400
 			maxHeight = 20
@@ -451,7 +451,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "portel_cabanos"
 			position = { x = -282 y = -105 }
-			font = "hoi_22typewriter"
+			font = "hoi_18mbs"
 			text = "[?var:BEM_portel_cabanos]/[?var:BEM_max_impact]"
 			maxWidth = 400
 			maxHeight = 20
@@ -460,7 +460,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "kayapo_cabanos"
 			position = { x = -282 y = -105 }
-			font = "hoi_22typewriter"
+			font = "hoi_18mbs"
 			text = "[?var:BEM_kayapo_cabanos]/[?var:BEM_max_impact]"
 			maxWidth = 400
 			maxHeight = 20
@@ -496,7 +496,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "prestige_penalty"
 			position = { x = -282 y = -42 }
-			font = "hoi_22typewriter"
+			font = "hoi_18mbs"
 			text = "10%"
 			maxWidth = 400
 			maxHeight = 20
