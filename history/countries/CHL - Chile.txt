@@ -58,7 +58,7 @@ create_country_leader = {
 	ideology = nazism
 }
 
-        create_corps_commander = {
+create_corps_commander = {
 	name = "Oveja"
 	picture = "gfx/leaders/CHL/Portrait_CHL_Oveja.dds"
 	traits = {  }
