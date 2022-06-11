@@ -2,85 +2,85 @@ spriteTypes = {
 	##Icon For: The Devil in the Bottle
 	SpriteType = { 
 		name = "GFX_idea_GEN_the_devil_in_the_bottle-1"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_the_devil_in_the_bottle-1.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_the_devil_in_the_bottle-1.dds"
 	}
 
 	##Icon For: Stolen Institutions
 	SpriteType = { 
 		name = "GFX_idea_GEN_stolen_institutions-1"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_stolen_institutions-1.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_stolen_institutions-1.dds"
 	}
 
 	##Icon For: Shattered Economy
 	SpriteType = { 
 		name = "GFX_idea_GEN_shattered_economy-1"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_shattered_economy-1.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_shattered_economy-1.dds"
 	}
 
 	##Icon For: The 2nd Constitutionalist Revolution
 	SpriteType = { 
 		name = "GFX_idea_GEN_the_2nd_constitutionalist_revolution-213988"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_the_2nd_constitutionalist_revolution-213988.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_the_2nd_constitutionalist_revolution-213988.dds"
 	}
 
 	##Icon For: Ongoing Political Reforms
 	SpriteType = { 
 		name = "GFX_idea_GEN_ongoing_political_reforms-185521"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_ongoing_political_reforms-185521.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_ongoing_political_reforms-185521.dds"
 	}
 
 	##Icon For: A Military Run by the Police
 	SpriteType = { 
 		name = "GFX_idea_GEN_a_military_run_by_the_police-225757"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_a_military_run_by_the_police-225757.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_a_military_run_by_the_police-225757.dds"
 	}
 
 	##Icon For: 'Movimento Sem Terra' Movement
 	SpriteType = { 
 		name = "GFX_idea_GEN_movimento_sem_terra_movement-213988"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_movimento_sem_terra_movement-213988.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_movimento_sem_terra_movement-213988.dds"
 	}
 
 	##Icon For: Rebuilding the farms
 	SpriteType = { 
 		name = "GFX_idea_GEN_rebuilding_the_farms-225757"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_rebuilding_the_farms-225757.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_rebuilding_the_farms-225757.dds"
 	}
 
 	##Icon For: The Silvio Santos Show!
 	SpriteType = { 
 		name = "GFX_idea_GEN_the_silvio_santos_show-122541"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_the_silvio_santos_show-122541.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_the_silvio_santos_show-122541.dds"
 	}
 
 	##Icon For: Uncontrolled Urban Growth
 	SpriteType = { 
 		name = "GFX_idea_GEN_uncontrolled_urban_growth-115656"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_uncontrolled_urban_growth-115656.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_uncontrolled_urban_growth-115656.dds"
 	}
 
 	##Icon For: Private Militias Under Control
 	SpriteType = { 
 		name = "GFX_idea_GEN_private_militias_under_control-153592"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_private_militias_under_control-153592.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_private_militias_under_control-153592.dds"
 	}
 
 	##Icon For: The Drizzle's Police
 	SpriteType = { 
 		name = "GFX_idea_GEN_the_drizzles_police-229857"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_the_drizzles_police-229857.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_the_drizzles_police-229857.dds"
 	}
 
 	##Icon For: Agriculture Reborn
 	SpriteType = { 
 		name = "GFX_idea_GEN_agriculture_reborn-1079"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_agriculture_reborn-1079.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_agriculture_reborn-1079.dds"
 	}
 
 	##Icon For: São Paulo's Divided Populace
 	SpriteType = { 
 		name = "GFX_idea_GEN_so_paulos_divided_populace-183749"
-		texturefile = "gfx/interface/ideas/spirts-ideas/GEN_so_paulos_divided_populace-183749.dds"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GEN_so_paulos_divided_populace-183749.dds"
 	}
 
  

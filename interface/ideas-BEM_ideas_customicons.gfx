@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Specialization Operation Center
+	SpriteType = { 
+		name = "GFX_idea_BEM_specialization_operation_center-213988"
+		texturefile = "gfx/interface/ideas/ideas-ideas/BEM_specialization_operation_center-213988.dds"
+	}
+
+ 
+ }

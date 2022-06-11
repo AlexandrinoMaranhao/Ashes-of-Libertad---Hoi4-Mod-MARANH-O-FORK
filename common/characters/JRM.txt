@@ -3,7 +3,7 @@ characters={
 		name="Ranieri Mazzilli"
 		portraits={
 			civilian={
-				large="GFX_portrait_europe_generic_5"
+				large="gfx/leaders/JRM/Portrait_JUN_Ranieri_Mazzilli.dds"
 			}
 		}
 		country_leader={
@@ -16,7 +16,7 @@ characters={
 		name="Emílio Garrastazu Médici"
 		portraits={
 			civilian={
-				large="GFX_Portrait_Europe_Generic_3"
+				large="gfx/leaders/JRM/Portrait_JUN_Emilio_Garrastazu_Medici.dds"
 			}
 		}
 		field_marshal={

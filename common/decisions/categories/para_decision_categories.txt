@@ -4,3 +4,8 @@ para_gui_missions = {
 	visible_when_empty = yes
 	priority = 1000
 }
+para_debug = {
+	allowed = { tag = BEM }
+	available = { is_debug = yes }
+	priority = 9000
+}

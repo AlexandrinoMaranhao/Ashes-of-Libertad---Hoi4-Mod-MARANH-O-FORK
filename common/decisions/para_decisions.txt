@@ -1,3 +1,75 @@
+para_debug = {
+	BEM_debug_the_kayapo_dead = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			BEM = {
+				set_country_flag = BEM_kayapo_defeated
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+	BEM_debug_the_kayapo_peace = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			BEM = {
+				set_country_flag = BEM_kayapo_union
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+	BEM_debug_junta_civil_war = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			BEM = {
+				JUN = {
+					country_event = {
+						id = JUN_collapse.1
+						days = 0
+					}
+				}
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+	
+}
+
 para_gui_missions = {
 	para_pick_mission = {
 		fixed_random_seed = no

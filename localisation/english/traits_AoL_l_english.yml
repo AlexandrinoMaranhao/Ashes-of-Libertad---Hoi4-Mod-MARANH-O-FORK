@@ -57,7 +57,7 @@ trait_CFD_pcb_sympathies_desc:0 "This character holds strong left-wing sympathie
 trait_CFD_arena_sympathies:0 "£GFX_trait_CFD_arena_sympathies Brasília Sympathies"
 trait_CFD_arena_sympathies_desc:0 "This character is secretly loyal to Paulo Guerra and the Junta government."
 trait_CFD_hiredgun:0 "£GFX_trait_CFD_hiredgun Militiaman"
-trait_CFD_hiredgun_desc:0 "Due to the shortage of military staff in the following years after the attempt of disposing of Miguel Arraes, it was allowed to recruit personnel with little to no military knowledge, but the ones from books. This character is one of them."
+trait_CFD_hiredgun_desc:0 "Due to the shortage of well trained and disciplined military staff after the attempt of disposing of Miguel Arraes, it was allowed to recruit personnel with little to no military combat training, the only knowledge they possed are from theoretical. This character is one of them."
 
 ################
 # Tooltips

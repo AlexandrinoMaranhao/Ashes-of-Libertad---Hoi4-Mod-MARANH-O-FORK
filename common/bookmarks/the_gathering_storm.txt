@@ -79,14 +79,14 @@ bookmarks = {
 			        SAO_shattered_economy 
 			    }
 			    focuses = {
-			        #ACR_force_a_stage_of_siege
-			        #ACR_pass_native_defence_act
-			        #ACR_talk_business
+					SAO_the_coffee_and_milk_line
+					SAO_the_paulista_betrayal
+					SAO_a_army_in_name_only
 			    }
 			}
 			
 			CFD={
-				history = "SAO_GATHERING_STORM_DESC"
+				history = "CFD_GATHERING_STORM_DESC"
 					ideology = democratic
 				ideas = {
 			        CFD_northern_anarchist_threat 

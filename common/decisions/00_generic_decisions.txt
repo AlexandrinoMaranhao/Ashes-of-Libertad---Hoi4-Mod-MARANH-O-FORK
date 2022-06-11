@@ -151,12 +151,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = WR_no_regulations
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = WR_no_regulations
 		}
 
 		days_re_enable = 7
@@ -175,12 +170,7 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			
-			add_stability = 0.1
+			add_stability = 0.01
 		}
 
 
@@ -195,12 +185,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = WR_minimal_regulations
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = WR_minimal_regulations
 		}
 
 		days_re_enable = 7
@@ -219,11 +204,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -239,12 +221,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = WR_acceptable_regulations
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = WR_acceptable_regulations
 		}
 
 		days_re_enable = 7
@@ -263,11 +240,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -283,12 +257,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = SI_no_regulations
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = SI_no_regulations
 		}
 
 		days_re_enable = 7
@@ -307,12 +276,9 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
+
 			
-			add_stability = 0.1
+			add_stability = 0.01
 		}
 
 
@@ -328,12 +294,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
 				has_idea = SI_minimal_regulations
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
 		}
 
 		days_re_enable = 7
@@ -352,11 +313,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -372,12 +330,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = SI_acceptable_regulations
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = SI_acceptable_regulations
 		}
 
 		days_re_enable = 7
@@ -396,11 +349,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -416,12 +366,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = wasteland_misery
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = wasteland_misery
 		}
 
 		days_re_enable = 7
@@ -440,12 +385,9 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
+
 			
-			add_stability = 0.1
+			add_stability = 0.01
 		}
 
 
@@ -461,12 +403,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = bellow_poverty_line
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = bellow_poverty_line
 		}
 
 		days_re_enable = 7
@@ -485,11 +422,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -505,12 +439,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = vital_needs_fulfilled
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = vital_needs_fulfilled
 		}
 
 		days_re_enable = 7
@@ -529,11 +458,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -549,12 +475,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = confortable_living_standarts
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = confortable_living_standarts
 		}
 
 		days_re_enable = 7
@@ -573,11 +494,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -593,12 +511,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = no_education
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = no_education
 		}
 
 		days_re_enable = 7
@@ -617,12 +530,9 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
+
 			
-			add_stability = 0.1
+			add_stability = 0.01
 		}
 
 
@@ -638,12 +548,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = primary_education
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = primary_education
 		}
 
 		days_re_enable = 7
@@ -662,11 +567,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -682,12 +584,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = secondary_education
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = secondary_education
 		}
 
 		days_re_enable = 7
@@ -706,11 +603,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 
@@ -726,12 +620,7 @@ change_social_laws = {
 		is_good = yes
 
 		available = {
-			AND = {
-				has_idea = tertiary_education
-				NOT = {
-					has_idea = GEN_ongoing_political_reforms
-				}
-			}
+			has_idea = tertiary_education
 		}
 
 		days_re_enable = 7
@@ -750,11 +639,8 @@ change_social_laws = {
 		}
 
 		complete_effect  = {
-			add_timed_idea = {
-				idea = GEN_ongoing_political_reforms
-				days = 30
-			}
-			add_stability = 0.1
+
+			add_stability = 0.01
 		}
 
 

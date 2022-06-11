@@ -15,14 +15,13 @@ country_event = {
     is_triggered_only = yes
     fire_only_once = yes 
 
-    option = {
-
-    every_country = {
-        news_event = {
-            id = world.74
-            days = 1
-        }
-    }
+    option = {			
+			every_country = {
+				news_event = {
+					id = world.74
+					days = 1
+				}
+			}
 
         declare_war_on = {
             target = JCL
@@ -41,6 +40,8 @@ country_event = {
             type = civil_war
         }
         set_global_flag = JUNTA_CIVIL_WAR
+		
+		BEM = {mark_focus_tree_layout_dirty = yes}
     }
 }
 
@@ -69,6 +70,7 @@ country_event = {
             target = JCS
             type = civil_war
         }
+		BEM = {mark_focus_tree_layout_dirty = yes}
     }
 }
 
@@ -97,6 +99,7 @@ country_event = {
             target = JCS
             type = civil_war
         }
+		BEM = {mark_focus_tree_layout_dirty = yes}
     }
 }
 
@@ -124,7 +127,9 @@ country_event = {
         declare_war_on = {
             target = JCS
             type = civil_war
-        }    }
+        }
+		BEM = {mark_focus_tree_layout_dirty = yes}
+	}
 }
 
 country_event = {
@@ -152,5 +157,6 @@ country_event = {
             target = JCS
             type = civil_war
         }
+		BEM = {mark_focus_tree_layout_dirty = yes}
     }
 }

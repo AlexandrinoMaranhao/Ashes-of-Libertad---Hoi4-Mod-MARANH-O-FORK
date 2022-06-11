@@ -144,7 +144,7 @@ country_event = {
 	#Answer
 	option = {
 		name = ACR.2.B
-	add_ideas = state_segregation   
+	add_ideas = state_segregation_policy   
 	acre_senate_add_militarist_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes
 
@@ -197,7 +197,7 @@ country_event = {
 	}
 	option = {
 		name = ACR.3.B
-		add_ideas = state_segregation
+		add_ideas = state_segregation_policy
 	acre_senate_add_militarist_seats_1 = yes
     acre_senate_add_nationalist_seats_1 = yes	
 

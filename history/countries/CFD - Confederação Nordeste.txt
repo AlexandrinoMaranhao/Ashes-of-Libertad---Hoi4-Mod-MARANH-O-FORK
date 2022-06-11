@@ -57,6 +57,7 @@ recruit_character = CFD_joao_bezerra_de_araujo
 recruit_character = CFD_hangho_trench
 recruit_character = CFD_joaquim_castillho
 recruit_character = CFD_nelson_a_silva
+recruit_character = CFD_odijas_carvalho_de_souza
 
 ###Military High Command or Alike###
 recruit_character = CFD_romeu_sobreira_de_moura
