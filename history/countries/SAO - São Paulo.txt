@@ -54,6 +54,11 @@ add_ideas = {
 	SAO_the_devil_in_the_bottle
 	SAO_shattered_economy 
 }
+
+#variables
+set_variable = { var = SAO_junta_tolerance value = 0 }
+set_variable = { var = SAO_repubs_tolerance value = 0 }
+
 add_dynamic_modifier = {
 	modifier = SAO_modifier1
 }

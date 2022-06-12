@@ -2,6 +2,183 @@ add_namespace = SAO
 add_namespace = PAULISTA_CATASTROPHE
 add_namespace = SAO_Flavour
 add_namespace = SAO_MST_SPAWN
+add_namespace = SAO_ROAD_TO_GUANABARA
+add_namespace = SAO_MARIGHELLA
+add_namespace = SAO_operations
+add_namespace = SAO_operations_failure
+
+###OPERATIONS AND FAILURES
+
+
+country_event = { #Itajubá Arms Factory
+    id = SAO_operations.1
+    title = SAO_operations.1.t
+    desc = SAO_operations.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_operations.1.A
+    }
+}
+
+country_event = { #Itajubá Arms Factory Failure
+    id = SAO_operations_failure.1
+    title = SAO_operations_failure.1.t
+    desc = SAO_operations_failure.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_operations_failure.1.A
+    }
+}
+
+country_event = { #Border Clash with the COLINA
+    id = SAO_operations.2
+    title = SAO_operations.2.t
+    desc = SAO_operations.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_operations.2.A
+        SAO = { transfer_state = 585 }
+    }
+}
+
+country_event = { #Border Clash with the COLINA Failure
+    id = SAO_operations_failure.2
+    title = SAO_operations_failure.2.t
+    desc = SAO_operations_failure.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_operations_failure.2.A
+    }
+}
+
+###ROAD TO GUANABARA
+
+country_event = { #Road to Guanabara event 1
+    id = SAO_ROAD_TO_GUANABARA.1
+    title = SAO_ROAD_TO_GUANABARA.1.t
+    desc = SAO_ROAD_TO_GUANABARA.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.1.A
+            add_to_variable = { var = SAO_repubs_tolerance value = 2 }
+            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.2
+            days = 0
+        }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.1.B
+            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
+            add_to_variable = { var = SAO_junta_tolerance value = 0 }
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.2
+            days = 0
+        }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.1.C
+            add_to_variable = { var = SAO_repubs_tolerance value = 0 }
+            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.2
+            days = 0
+        }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.1.D
+            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
+            add_to_variable = { var = SAO_junta_tolerance value = 2 }
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.2
+            days = 0
+        }
+    }
+}
+
+country_event = { #Road to Guanabara event 2
+    id = SAO_ROAD_TO_GUANABARA.2
+    title = SAO_ROAD_TO_GUANABARA.2.t
+    desc = SAO_ROAD_TO_GUANABARA.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.2.A
+            add_to_variable = { var = SAO_repubs_tolerance value = 0 }
+            add_to_variable = { var = SAO_junta_tolerance value = 0 }
+    
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.3
+            days = 0
+        }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.2.B
+            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
+            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+    
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.3
+            days = 0
+        }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.2.C
+            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
+            add_to_variable = { var = SAO_junta_tolerance value = 0 }
+    
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.3
+            days = 0
+        }
+    }
+}
+
+country_event = { #Road to Guanabara event 3
+    id = SAO_ROAD_TO_GUANABARA.3
+    title = SAO_ROAD_TO_GUANABARA.3.t
+    desc = SAO_ROAD_TO_GUANABARA.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.3.A
+            add_to_variable = { var = SAO_repubs_tolerance value = 0 }
+            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.3.B
+            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
+            add_to_variable = { var = SAO_junta_tolerance value = 0 }
+    }
+    option = {
+        name = SAO_ROAD_TO_GUANABARA.3.C
+            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
+            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+    }
+}
 
 country_event = {
     id = SAO_MST_SPAWN.1
@@ -12,6 +189,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+        name = SAO_MST_SPAWN.1.A
     MST = {
         transfer_state = 32 
         transfer_state = 570
@@ -25,6 +203,23 @@ country_event = {
     }
 }
 
+###MARIGHELLA
+
+country_event = { #Marighella escapes prision
+    id = SAO_MARIGHELLA.1
+    title = SAO_MARIGHELLA.1.t
+    desc = SAO_MARIGHELLA.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_MARIGHELLA.1.A
+    }
+}
+
+###FLAVOUR
+
 country_event = { #Mendes in the car listening to radio
     id = SAO_Flavour.1
     title = SAO_Flavour.1.t
@@ -33,7 +228,13 @@ country_event = { #Mendes in the car listening to radio
     fire_only_once = yes
     is_triggered_only = yes
 
+    option = {
+        name = SAO_Flavour.1.A
+
+    }
 }
+
+###SAO
 
 country_event = { #Border Clash with the COLINA
     id = SAO.2
@@ -44,22 +245,23 @@ country_event = { #Border Clash with the COLINA
     is_triggered_only = yes
 
     option = {
+        name = SAO.2.A
 
             start_border_war = {
                 change_state_after_war = no
                 attacker = {
-                    state = #
+                    state = 585
                     num_provinces = 1
-                    #on_win = CFD_operations.1
-                    #on_lose = CFD_operations_failure.2
-                    #on_cancel = CFD_operations.1
+                    on_win = SAO_operations.2
+                    on_lose = SAO_operations_failure.2
+                    on_cancel = SAO_operations.2
                 }
                 defender = {
                     state = 30
                     num_provinces = 1
-                    #on_win = CFD_operations_failure.2
-                    #on_lose = CFD_operations.1
-                    #on_cancel = CFD_operations.1
+                    on_win = SAO_operations_failure.2
+                    on_lose = SAO_operations.2
+                    on_cancel = SAO_operations.2
                 }
             }
     }
@@ -75,6 +277,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+        name = SAO.1.A
 
     every_country = {
         news_event = {
@@ -113,6 +316,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+        name = SAO.200.A
         annex_country = {
             target = UBA
             transfer_troops = yes
@@ -124,6 +328,8 @@ country_event = {
     }
 }
 
+###PAULISTA CATASTROPHE
+
 country_event = {
     id = PAULISTA_CATASTROPHE.1
     title = PAULISTA_CATASTROPHE.1.t
@@ -133,6 +339,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
+        name = PAULISTA_CATASTROPHE.1.A
 		trigger = {
 			OR = {
 				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }

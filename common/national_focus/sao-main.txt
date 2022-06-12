@@ -62,6 +62,13 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = SAO_the_road_to_guanabara_tt
 			
+			hidden_effect = {
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.1
+            days = 0
+        }
+
+			}
 		}
 
 	}
@@ -230,7 +237,15 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 		custom_effect_tooltip = SAO_the_coffee_and_milk_line_tt
+		set_country_flag = SAO_itajuba_raid
 		hidden_effect = {
+		SAO = {
+		country_event = {
+			id = SAO.2
+			days = 0
+		}
+	}
+
 			30 = {
 				add_building_construction = {
 					type = bunker

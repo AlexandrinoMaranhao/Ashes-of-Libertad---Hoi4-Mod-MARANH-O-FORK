@@ -11,7 +11,7 @@ division_template = {
 		military_police = { x = 0 y = 0}
 	}
 }
-}
+
 division_template = {
 	name = "Artilharia de Campanha"
 	regiments = {

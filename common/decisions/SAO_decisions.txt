@@ -604,7 +604,7 @@ SAO_category = {
 	sao_direct_intervention_against_the_mst = {
 		icon = GFX_decision_icon_default
 		cost = 20
-		days_remove = 14
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -615,12 +615,20 @@ SAO_category = {
 			SAO = {has_completed_focus = SAO_crush_the_occupiers}
 		}
 		complete_effect = {
-			#
+		SAO = {
+			declare_war_on = {
+			    target = MST
+			    type = annex_everything
+			}
+		}
+			
 		}
 		modifier = {
-			consumer_goods_factor = 0.2
-			political_power_cost = 0.2
-			stability_weekly = -0.001
+			political_power_cost = 0.15
+			army_morale_factor = -0.25
+			experience_gain_army = 0.05
+			fascism_drift = 0.2
+			democratic_drift = 0.2
 		}
 		remove_effect = {
 			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
@@ -912,6 +920,120 @@ SAO_international_diplomacy_category = {
 		ai_will_do = {
 			factor = 999
 		}
+	}
+################ ITAJUBA ARMS FACTORY ################
+
+	SAO_launch_the_itajuba_raid = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 120
+		is_good = yes
+		fire_only_once = no
+		
+		available = {
+			AND = {
+				SAO = {has_country_flag = SAO_itajuba_raid }
+				
+			}
+		}
+		visible = {
+			SAO = {has_country_flag = SAO_itajuba_raid }
+		}
+		complete_effect = {
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 30
+					num_provinces = 4
+					on_win = SAO_operations.1
+					on_lose = SAO_operations_failure.1
+					on_cancel = SAO_operations.1
+				}
+				defender = {
+					state = 585
+					num_provinces = 4
+					on_win = SAO_operations_failure.1
+					on_lose = SAO_operations.1
+					on_cancel = SAO_operations.1
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.9
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+
+###INTERVENTION MISSIONS
+
+sao_junta_intervention = {
+    activation = {
+        fascism > 0.7
+    }
+    available = {
+        fascism > 0.7
+    }
+    cancel_trigger = {
+        fascism < 0.7
+    }
+    icon = #     
+    is_good = no
+    days_mission_timeout = 10
+    selectable_mission = no
+
+    complete_effect = {
+        add_popularity = {
+    ideology = fascism
+    popularity = -0.5
+		}
+    }
+
+    timeout_effect = {
+    JUN = {
+        declare_war_on = {
+            target = SAO
+            type = annex_everything
+        	}
+    	}
+    }
+}
+
+sao_republics_intervention = {
+    activation = {
+        democratic > 0.7
+    }
+    available = {
+        democratic > 0.7
+    }
+    cancel_trigger = {
+        democratic < 0.7
+    }
+    icon = #     
+    is_good = no
+    days_mission_timeout = 10
+    selectable_mission = no
+
+    complete_effect = {
+    add_popularity = {
+    ideology = democratic
+    popularity = -0.5
+			}
+    	}
+    	
+    timeout_effect = {
+    BRA = {
+        declare_war_on = {
+            target = SAO
+            type = annex_everything
+        		}
+    		}
+    	}
 	}
 }
 
