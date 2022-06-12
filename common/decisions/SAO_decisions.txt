@@ -616,6 +616,7 @@ SAO_category = {
 		}
 		complete_effect = {
 		SAO = {
+			remove_ideas = {SAO_movimento_sem_terra_movement}
 			declare_war_on = {
 			    target = MST
 			    type = annex_everything
@@ -926,13 +927,25 @@ SAO_international_diplomacy_category = {
 	SAO_launch_the_itajuba_raid = {
 		icon = GFX_decision_icon_default
 		cost = 50
-		days_remove = 120
+		days_remove = 7
 		is_good = yes
 		fire_only_once = no
 		
 		available = {
 			AND = {
-				SAO = {has_country_flag = SAO_itajuba_raid }
+				SAO = {
+					has_completed_focus = SAO_the_coffee_and_milk_line
+					has_country_flag = SAO_itajuba_raid 
+					
+					divisions_in_state = {
+						type = infantry
+						size > 5
+						state = 30
+					}
+				}
+				RMI = {
+					controls_state = 585
+				}
 				
 			}
 		}
@@ -940,7 +953,12 @@ SAO_international_diplomacy_category = {
 			SAO = {has_country_flag = SAO_itajuba_raid }
 		}
 		complete_effect = {
+		}
 
+		modifier = {
+			political_power_cost = 0.9
+		}
+		remove_effect = {
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
@@ -959,12 +977,6 @@ SAO_international_diplomacy_category = {
 				}
 			}
 		}
-
-		modifier = {
-			political_power_cost = 0.9
-		}
-		remove_effect = {
-		}
 		ai_will_do = {
 			factor = 999
 		}
@@ -972,68 +984,85 @@ SAO_international_diplomacy_category = {
 
 ###INTERVENTION MISSIONS
 
-sao_junta_intervention = {
-    activation = {
-        fascism > 0.7
-    }
-    available = {
-        fascism > 0.7
-    }
-    cancel_trigger = {
-        fascism < 0.7
-    }
-    icon = #     
-    is_good = no
-    days_mission_timeout = 10
-    selectable_mission = no
-
-    complete_effect = {
-        add_popularity = {
-    ideology = fascism
-    popularity = -0.5
+	sao_junta_intervention = {
+		allowed = { tag = SAO }
+		available = {
+			fascism > 0.7
 		}
-    }
-
-    timeout_effect = {
-    JUN = {
-        declare_war_on = {
-            target = SAO
-            type = annex_everything
-        	}
-    	}
-    }
-}
-
-sao_republics_intervention = {
-    activation = {
-        democratic > 0.7
-    }
-    available = {
-        democratic > 0.7
-    }
-    cancel_trigger = {
-        democratic < 0.7
-    }
-    icon = #     
-    is_good = no
-    days_mission_timeout = 10
-    selectable_mission = no
-
-    complete_effect = {
-    add_popularity = {
-    ideology = democratic
-    popularity = -0.5
+		activation = {
+			fascism > 0.7
+		}
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 37
+		war_with_on_remove = JUN
+		cost = 200
+		timeout_effect = {
+			JUN = {
+				declare_war_on = {
+					target = SAO
+					type = annex_everything
+				}
 			}
-    	}
-    	
-    timeout_effect = {
-    BRA = {
-        declare_war_on = {
-            target = SAO
-            type = annex_everything
-        		}
-    		}
-    	}
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.5
+			}
+			send_equipment_fraction = {
+				value = 0.5
+				target = JUN
+			}
+			add_manpower = -1000
+			army_experience = -30
+			navy_experience = -30
+			air_experience = -30
+			add_command_power = -20
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+
+	sao_republics_intervention = {
+		allowed = { tag = SAO }
+		available = {
+			democratic > 0.7
+		}
+		activation = {
+			democratic > 0.7
+		}
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 37
+		war_with_on_remove = BRA
+		cost = 200
+		timeout_effect = {
+			BRA = {
+				declare_war_on = {
+					target = SAO
+					type = annex_everything
+				}
+			}
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.5
+			}
+			send_equipment_fraction = {
+				value = 0.5
+				target = BRA
+			}
+			add_manpower = -1000
+			army_experience = -30
+			navy_experience = -30
+			air_experience = -30
+			add_command_power = -20
+		}
+		ai_will_do = {
+			factor = 999
+		}
 	}
 }
-

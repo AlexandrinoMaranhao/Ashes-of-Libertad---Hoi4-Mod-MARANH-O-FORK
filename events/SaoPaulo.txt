@@ -20,6 +20,10 @@ country_event = { #Itajubá Arms Factory
 
     option = {
         name = SAO_operations.1.A
+		SAO = {
+			transfer_state = 585
+		}
+		RMI = {remove_ideas = GENERIC_the_itajub_arms_factory}
     }
 }
 
@@ -47,6 +51,7 @@ country_event = { #Border Clash with the COLINA
     option = {
         name = SAO_operations.2.A
         SAO = { transfer_state = 585 }
+		RMI = {remove_ideas = GENERIC_the_itajub_arms_factory}
     }
 }
 
@@ -63,6 +68,36 @@ country_event = { #Border Clash with the COLINA Failure
     }
 }
 
+country_event = { #COLINA's Border Clash with the São Paulo 
+    id = SAO_operations.3
+    title = SAO_operations.3.t
+    desc = SAO_operations.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_operations.3.A
+		RMI = {
+			transfer_state = 585
+		}
+		SAO = {remove_ideas = GENERIC_the_itajub_arms_factory}
+    }
+}
+
+country_event = { #COLINA's Border Clash with the São Paulo Failure
+    id = SAO_operations_failure.3
+    title = SAO_operations_failure.3.t
+    desc = SAO_operations_failure.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_operations_failure.3.A
+    }
+}
+
 ###ROAD TO GUANABARA
 
 country_event = { #Road to Guanabara event 1
@@ -75,8 +110,14 @@ country_event = { #Road to Guanabara event 1
 
     option = {
         name = SAO_ROAD_TO_GUANABARA.1.A
-            add_to_variable = { var = SAO_repubs_tolerance value = 2 }
-            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.02
+			}
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
@@ -85,8 +126,10 @@ country_event = { #Road to Guanabara event 1
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.1.B
-            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
-            add_to_variable = { var = SAO_junta_tolerance value = 0 }
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.01
+			}
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
@@ -95,8 +138,14 @@ country_event = { #Road to Guanabara event 1
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.1.C
-            add_to_variable = { var = SAO_repubs_tolerance value = 0 }
-            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.00
+			}
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
@@ -105,8 +154,14 @@ country_event = { #Road to Guanabara event 1
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.1.D
-            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
-            add_to_variable = { var = SAO_junta_tolerance value = 2 }
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.01
+			}
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
@@ -125,9 +180,14 @@ country_event = { #Road to Guanabara event 2
 
     option = {
         name = SAO_ROAD_TO_GUANABARA.2.A
-            add_to_variable = { var = SAO_repubs_tolerance value = 0 }
-            add_to_variable = { var = SAO_junta_tolerance value = 0 }
-    
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.02
+			}
+            add_popularity = {
+				ideology = fascism
+				popularity = 0.00
+			}
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
             days = 0
@@ -135,8 +195,14 @@ country_event = { #Road to Guanabara event 2
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.2.B
-            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
-            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+            add_popularity = {
+				ideology = democratic
+				popularity = 0.01
+			}
+            add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
     
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
@@ -145,9 +211,10 @@ country_event = { #Road to Guanabara event 2
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.2.C
-            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
-            add_to_variable = { var = SAO_junta_tolerance value = 0 }
-    
+            add_popularity = {
+				ideology = fascism
+				popularity = 0.02
+			}
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
             days = 0
@@ -165,18 +232,28 @@ country_event = { #Road to Guanabara event 3
 
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.A
-            add_to_variable = { var = SAO_repubs_tolerance value = 0 }
-            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+            add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.B
-            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
-            add_to_variable = { var = SAO_junta_tolerance value = 0 }
+            add_popularity = {
+				ideology = democratic
+				popularity = 0.01
+			}
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.C
-            add_to_variable = { var = SAO_repubs_tolerance value = 1 }
-            add_to_variable = { var = SAO_junta_tolerance value = 1 }
+            add_popularity = {
+				ideology = democratic
+				popularity = 0.01
+			}
+            add_popularity = {
+				ideology = fascism
+				popularity = 0.01
+			}
     }
 }
 

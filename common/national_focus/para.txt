@@ -79,6 +79,7 @@ focus_tree = {
 				days = 0
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -98,6 +99,7 @@ country_event = {
 				days = 0
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -119,6 +121,7 @@ country_event = {
 				days = 0
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -138,6 +141,7 @@ country_event = {
 				days = 0
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -169,6 +173,7 @@ country_event = {
 				}
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -192,6 +197,7 @@ country_event = {
 				add_opinion_modifier = { target = BEM modifier = large_increase }
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -211,6 +217,7 @@ country_event = {
 		completion_reward = {
 
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -230,6 +237,7 @@ country_event = {
 		completion_reward = {
 
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -253,6 +261,7 @@ country_event = {
 			}
 		custom_effect_tooltip = Green_Para_Good_tt
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -276,6 +285,7 @@ country_event = {
 			}
 		custom_effect_tooltip = Red_Para_Bad_tt
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -321,6 +331,7 @@ country_event = {
 			}
 
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -341,6 +352,7 @@ country_event = {
 			JUN = {add_manpower = -10000}
 			add_manpower = 10000
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -359,6 +371,7 @@ country_event = {
 			add_ideas = tribal_specialization
 			army_experience = 30
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -378,6 +391,7 @@ country_event = {
 			add_ideas = BEM_specialization_operation_center
 			army_experience = 30
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -407,6 +421,7 @@ add_manpower = -2000
 				}
 add_manpower = 2000
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -426,6 +441,7 @@ add_manpower = 2000
             type = annex_everything
         }
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -448,6 +464,7 @@ add_manpower = 2000
 		add_political_power = 50
 		
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -468,6 +485,7 @@ add_manpower = 2000
 		add_ideas = state_segregation_policy
 
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -493,6 +511,7 @@ KAY = {
 			}
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -507,11 +526,12 @@ KAY = {
 		y = 8
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-add_state_core = 87
-add_state_core = 140
-add_state_core = 149
-add_state_core = 471
+			add_state_core = 87
+			add_state_core = 140
+			add_state_core = 149
+			add_state_core = 471
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -529,10 +549,11 @@ add_state_core = 471
 		y = 9
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-KAY = { 
-add_stability = 0.2
-}
+			KAY = { 
+			add_stability = 0.2
+			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
@@ -547,13 +568,14 @@ add_stability = 0.2
 		y = 10
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-KAY = {
-country_event = {
-				id = Para.8
-				days = 0
+			KAY = {
+				country_event = {
+					id = Para.8
+					days = 0
+				}
 			}
 		}
-		}
+		ai_will_do = { factor = 1 }
 	}
 
 	##KAYAPO PEACE
@@ -663,7 +685,7 @@ country_event = {
 	##JUNTA COLLAPSE
 	focus = {
 		id = BEM_fall_of_the_white_castle
-		icon = GFX_goal_TheOlderProblem
+		icon = GFX_goal_TheOldProblem
 		cost = 1
 
 		prerequisite = {
@@ -675,6 +697,8 @@ country_event = {
 		y = 8
 		relative_position_id = BEM_intro_one
 		completion_reward = {
+			custom_effect_tooltip = BEM_change_focus_tree
+			load_focus_tree = china_communist_focus
 		}
 		allow_branch = {
 			has_global_flag = JUNTA_CIVIL_WAR

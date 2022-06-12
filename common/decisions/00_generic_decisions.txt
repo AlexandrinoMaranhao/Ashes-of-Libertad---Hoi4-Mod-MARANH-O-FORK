@@ -686,4 +686,46 @@ generic_like_tno_or_smth = {
 		}
 	}
 	
-}
+		RMI_take_itajub_back_mission = {
+			icon = GFX_decision_icon_default
+			
+			available = {
+				RMI = {NOT = {controls_state = 585}}
+			}
+			
+			days_remove = 120
+			
+			fire_only_once = no
+			days_re_enable = 1
+	
+			visible = {
+				RMI = {NOT = {controls_state = 585}}
+			}		
+	
+			cost = 0
+	
+			complete_effect = {
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 66
+						num_provinces = 4
+						on_win = SAO_operations.3
+						on_lose = SAO_operations_failure.3
+						on_cancel = SAO_operations.3
+					}
+					defender = {
+						state = 585
+						num_provinces = 4
+						on_win = SAO_operations_failure.3
+						on_lose = SAO_operations.3
+						on_cancel = SAO_operations.3
+					}
+				}
+			}
+			
+	
+			ai_will_do = {
+				factor = 900	
+			}
+	}
