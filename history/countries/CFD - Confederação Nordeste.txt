@@ -53,17 +53,24 @@ recruit_character = CFD_arnon_afonso_de_farias_mello
 recruit_character = CFD_miguel_arraes
 recruit_character = CFD_gregorio_bezerra
 recruit_character = CFD_pretonio_portella
+recruit_character = CFD_inima_siqueira
 recruit_character = CFD_joao_bezerra_de_araujo
 recruit_character = CFD_hangho_trench
 recruit_character = CFD_joaquim_castillho
 recruit_character = CFD_nelson_a_silva
 recruit_character = CFD_odijas_carvalho_de_souza
+recruit_character = CFD_augusto_de_silveira
+recruit_character = CFD_NAG_lima
 
 ###Military High Command or Alike###
 recruit_character = CFD_romeu_sobreira_de_moura
 recruit_character = CFD_jose_amorim
 recruit_character = CFD_eraldo_leite
 recruit_character = CFD_rui_carneiro
+recruit_character = CFD_ribeiro_paz
+recruit_character = CFD_juarez_tavora
+recruit_character = CFD_alberto_sallaberry
+recruit_character = CFD_ivan_ruy
 
 set_country_flag = unfinished_cfd
 

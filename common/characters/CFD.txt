@@ -56,7 +56,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ thorough_planner harsh_leader politically_connected }
+			traits={ ranger urban_assault_specialist thorough_planner harsh_leader politically_connected }
 			skill=4
 			attack_skill=3
 			defense_skill=1
@@ -109,6 +109,60 @@ characters={
 			legacy_id=-1
 		}
 	}
+	CFD_NAG_lima={
+		name= "Nilo Augusto Guerreiro Lima"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_3.dds"
+				large="gfx/leaders/CFD/CFD_Nilo_Augusto_Guerreiro_Lima.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer ambusher trait_CFD_arena_sympathies }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CFD_inima_siqueira={
+		name= "Inimá Siqueira"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_6.dds"
+				large="gfx/leaders/CFD/CFD_Inima_Siqueira.dds"
+			}
+		}
+		corps_commander={
+			traits={ camouflage_expert trait_cautious trait_CFD_arreas_loyalist }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CFD_augusto_de_silveira={
+		name= "Augusto de Silveira"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_7.dds"
+				large="gfx/leaders/CFD/CFD_Augusto_de_Silveira.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer trait_reckless }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	CFD_joao_bezerra_de_araujo={
 		name="João Bezerra de Araújo"
 		portraits={
@@ -154,7 +208,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ adaptable trait_CFD_hiredgun }
+			traits={ guerilla_fighter scavenger trait_CFD_hiredgun trait_SPR_stalinist_loyalties  }
 			skill=2
 			attack_skill=1
 			defense_skill=2
@@ -194,7 +248,13 @@ characters={
 			allowed = {
 				original_tag = CFD
 			}
-			traits = {mhc_school_of_psychology}
+            available = {
+                OR = {
+					has_government = neutrality
+					has_government = democratic
+				}
+            }
+			traits = {mhc_school_of_psychology trait_CFD_arreas_loyalist}
 		}
 	}
 	CFD_jose_amorim = {
@@ -226,7 +286,13 @@ characters={
 			allowed = {
 				original_tag = CFD
 			}
-			traits = {mhc_school_of_fire_support}
+            available = {
+                OR = {
+					has_government = fascism
+					has_government = democratic
+				}
+            }
+			traits = {mhc_school_of_fire_support trait_CFD_arena_sympathies}
 		}
 	}
 	CFD_rui_carneiro = {
@@ -243,6 +309,88 @@ characters={
 				original_tag = CFD
 			}
 			traits = {mhc_school_of_defence}
+		}
+	}
+	CFD_ribeiro_paz = {
+		name = "Ribeiro Paz"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_paz.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_rui_carneiro
+			allowed = {
+				original_tag = CFD
+			}
+            available = {
+                OR = {
+					has_government = fascism
+					has_government = democratic
+				}
+            }
+			traits = {mhc_school_of_defence trait_CFD_arena_sympathies}
+		}
+	}
+	CFD_juarez_tavora = {
+		name = "Juarez Távora"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_tavora.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_rui_carneiro
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {mhc_school_of_defence}
+		}
+	}
+	CFD_alberto_sallaberry = {
+		name = "Alberto Ribeiro Sallaberry"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_sallaberry.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_rui_carneiro
+			allowed = {
+				original_tag = CFD
+			}
+            available = {
+                OR = {
+					has_government = neutrality
+					has_government = democratic
+				}
+            }
+			traits = {mhc_school_of_defence trait_CFD_arreas_loyalist}
+		}
+	}
+	CFD_ivan_ruy = {
+		name = "Ivan Ruy"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_ruy.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_rui_carneiro
+			allowed = {
+				original_tag = CFD
+			}
+            available = {
+                OR = {
+					has_government = fascism
+					has_government = democratic
+				}
+            }
+			traits = {mhc_school_of_defence trait_CFD_arena_sympathies}
 		}
 	}
 }
