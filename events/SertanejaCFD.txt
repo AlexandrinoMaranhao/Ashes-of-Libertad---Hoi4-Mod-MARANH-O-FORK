@@ -10,7 +10,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.1.t
     desc = CFD_operations.1.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.1.a
@@ -33,7 +33,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.2.t
     desc = CFD_operations.2.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.2.a
@@ -56,7 +56,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.3.t
     desc = CFD_operations.3.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.3.a
@@ -73,7 +73,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.4.t
     desc = CFD_operations.4.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.4.a
@@ -90,7 +90,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.5.t
     desc = CFD_operations.5.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.5.a
@@ -107,7 +107,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.6.t
     desc = CFD_operations.6.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.6.a
@@ -124,7 +124,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.7.t
     desc = CFD_operations.7.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.7.a
@@ -141,7 +141,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.8.t
     desc = CFD_operations.8.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.8.a
@@ -158,7 +158,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.9.t
     desc = CFD_operations.9.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.9.a
@@ -176,7 +176,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.10.t
     desc = CFD_operations.10.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.10.a
@@ -193,7 +193,7 @@ country_event = { #Operação: |Sucesso
     title = CFD_operations.11.t
     desc = CFD_operations.11.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations.11.a
@@ -210,7 +210,7 @@ country_event = {
     title = CFD_operation_failure.1.t
     desc = CFD_operation_failure.1.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_operations_failure.1.a
@@ -224,7 +224,7 @@ country_event = { #The Hell Battalion comes from Dust Fall
     title = CFD_events.1.t
     desc = CFD_events.1.d
     is_triggered_only = yes
-    picture = x
+    picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_events.1.a

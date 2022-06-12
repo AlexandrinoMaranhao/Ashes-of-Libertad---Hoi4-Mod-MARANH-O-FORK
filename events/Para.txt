@@ -242,9 +242,33 @@ country_event = {
 	}
 }
 
+country_event = { #Santarém Raid somewhat successful
+	id = Para.9
+	title = Para.9.t
+	desc = Para.9.d
+	picture = x
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.9.A
+		army_experience = 25
+	}
+}
 
-
-
+country_event = { #Santarém raid FAILURE
+	id = Para.10
+	title = Para.10.t
+	desc = Para.10.d
+	picture = x
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.10.A
+		army_experience = -25
+	}
+}
 
 
 

@@ -65,7 +65,7 @@ focus_tree = {
 	focus = {
 		id = BEM_intro_final
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 2
 
 		bypass = {
 		has_completed_focus = BEM_intro_one
@@ -85,7 +85,7 @@ focus_tree = {
 	focus = {
 		id = BEM_the_new_problem
 		icon = GFX_goal_TheNewProblem
-		cost = 1
+		cost = 3
 
 		prerequisite = {
 			focus = BEM_intro_final
@@ -105,7 +105,7 @@ country_event = {
 	focus = {
 		id = BEM_the_older_problem
 		icon = GFX_goal_TheOlderProblem
-		cost = 1
+		cost = 3
 
 		prerequisite = {
 			focus = BEM_prepare_for_the_worse focus = BEM_hope_for_the_best} 
@@ -127,7 +127,7 @@ country_event = {
 	focus = {
 		id = BEM_the_old_problem
 		icon = GFX_goal_TheOldProblem
-		cost = 1
+		cost = 3
 
 		prerequisite = {
 			focus = BEM_intro_final
@@ -147,7 +147,7 @@ country_event = {
 	focus = {
 		id = BEM_prepare_for_the_worse
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_hope_for_the_best
@@ -179,7 +179,7 @@ country_event = {
 	focus = {
 		id = BEM_hope_for_the_best
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_prepare_for_the_worse
@@ -203,7 +203,7 @@ country_event = {
 	focus = {
 		id = BEM_go_crawling_to_daddy
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_chance_to_prove_ourselves
@@ -223,7 +223,7 @@ country_event = {
 	focus = {
 		id = BEM_chance_to_prove_ourselves
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_go_crawling_to_daddy
@@ -243,7 +243,7 @@ country_event = {
 	focus = {
 		id = BEM_restablish_contact
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_military_intervention
@@ -267,7 +267,7 @@ country_event = {
 	focus = {
 		id = BEM_military_intervention
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_restablish_contact
@@ -291,7 +291,7 @@ country_event = {
 	focus = {
 		id = BEM_beg_for_gear
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_beg_for_men
@@ -337,7 +337,7 @@ country_event = {
 	focus = {
 		id = BEM_beg_for_men
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_beg_for_gear
@@ -358,7 +358,7 @@ country_event = {
 	focus = {
 		id = BEM_jungle_training
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_beg_for_men
@@ -377,7 +377,7 @@ country_event = {
 	focus = {
 		id = BEM_infiltration_training
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_beg_for_men
@@ -397,7 +397,7 @@ country_event = {
 	focus = {
 		id = BEM_os_fumantes
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_infiltration_training
@@ -427,7 +427,7 @@ add_manpower = 2000
 	focus = {
 		id = BEM_operacao_tabaco
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_os_fumantes
@@ -447,7 +447,7 @@ add_manpower = 2000
 	focus = {
 		id = BEM_send_our_diplomats
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_send_a_funai_diplomat
@@ -470,7 +470,7 @@ add_manpower = 2000
 	focus = {
 		id = BEM_send_a_funai_diplomat
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
         
         mutually_exclusive = {
         focus = BEM_send_our_diplomats
@@ -491,7 +491,7 @@ add_manpower = 2000
 	focus = {
 		id = BEM_we_come_bearing_gifts
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_send_a_funai_diplomat focus = BEM_send_our_diplomats
@@ -517,7 +517,7 @@ KAY = {
 	focus = {
 		id = BEM_hide_our_true_intentions
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_send_a_funai_diplomat focus = BEM_send_our_diplomats
@@ -537,7 +537,7 @@ KAY = {
 	focus = {
 		id = BEM_negotiate_tribal_peace
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_hide_our_true_intentions}
@@ -559,7 +559,7 @@ KAY = {
 	focus = {
 		id = BEM_assert_our_dominance
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_negotiate_tribal_peace
@@ -582,7 +582,7 @@ KAY = {
 	focus = {
 		id = BEM_explore_resources
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_assert_our_dominance
@@ -600,7 +600,7 @@ KAY = {
 	focus = {
 		id = BEM_the_fort_people
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_explore_resources
@@ -616,7 +616,7 @@ KAY = {
 	focus = {
 		id = BEM_operacao_tapajos
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_the_fort_people
@@ -625,7 +625,7 @@ KAY = {
 		y = 13
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-			#event, peace with Santarém or war
+			#event peace with Santarém
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -634,7 +634,7 @@ KAY = {
 	focus = {
 		id = BEM_controling_the_lands
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_operacao_tabaco
@@ -652,7 +652,7 @@ KAY = {
 	focus = {
 		id = BEM_the_yellow_devils
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_controling_the_lands
@@ -668,7 +668,7 @@ KAY = {
 	focus = {
 		id = BEM_operacao_jogo_de_xadrez
 		icon = GFX_goal_losing_its_shine
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_the_yellow_devils
@@ -677,7 +677,24 @@ KAY = {
 		y = 13
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-			#wargoal against Santarém
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 487 
+					num_provinces = 4
+					on_win = Para.9
+					on_lose = Para.10
+					on_cancel = Para.9
+				}
+							
+				defender = {
+					state = 135
+					num_provinces = 4
+					on_win = Para.10
+					on_lose = Para.9
+					on_cancel = Para.10
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -686,7 +703,7 @@ KAY = {
 	focus = {
 		id = BEM_fall_of_the_white_castle
 		icon = GFX_goal_TheOldProblem
-		cost = 1
+		cost = 4
 
 		prerequisite = {
 			focus = BEM_prepare_for_the_worse focus = BEM_hope_for_the_best} 
@@ -698,7 +715,7 @@ KAY = {
 		relative_position_id = BEM_intro_one
 		completion_reward = {
 			custom_effect_tooltip = BEM_change_focus_tree
-			load_focus_tree = china_communist_focus
+			load_focus_tree = para2
 		}
 		allow_branch = {
 			has_global_flag = JUNTA_CIVIL_WAR

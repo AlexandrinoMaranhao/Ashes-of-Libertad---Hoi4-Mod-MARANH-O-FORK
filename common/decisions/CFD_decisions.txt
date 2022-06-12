@@ -82,6 +82,33 @@ CFD_main_category = {
 				factor = 999
 		}
 	}
+	CFD_maranhao_failstate = {
+        allowed = { tag = CFD }
+        available = {
+            always = no
+        }
+        activation = {
+			AND = {
+				has_war_with = MNH
+				check_variable = {
+					CFD_MNH_crisis > 9
+				}
+			}
+        }
+        is_good = no
+        selectable_mission = yes
+        days_mission_timeout = 120
+        timeout_effect = {
+            country_event = {
+				id = CFD_failometer_enabled.1
+				days = 2
+			}
+        }
+		complete_effect = {
+			add_political_power = 50
+		}
+	}
+	
 }
 ##################		International Country Diplomacy Decisions.		##################
 CFD_piaui_frontier = {

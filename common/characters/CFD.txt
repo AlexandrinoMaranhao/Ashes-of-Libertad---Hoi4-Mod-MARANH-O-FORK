@@ -135,7 +135,7 @@ characters={
 				large="gfx/leaders/CFD/CFD_Inima_Siqueira.dds"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={ camouflage_expert trait_cautious trait_CFD_arreas_loyalist }
 			skill=5
 			attack_skill=4
