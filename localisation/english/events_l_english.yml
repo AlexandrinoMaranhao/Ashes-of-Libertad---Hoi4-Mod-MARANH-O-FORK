@@ -390,3 +390,35 @@ honduran_flavors.1.a:0 "¡Llamen a la Pacana!"
 CFD_events.1.t:0 "The Hell Battalion comes from Dust Fall"
 CFD_events.1.d:0 "It was a typical day in Ceará, when citizens of the small village of barroquinha noticed a group of armed men coming from the dangerous frontier with Piauí marched into the town. Scared, they contacted the local authorities, thinking it was a raid from some cangaço group. However, when the authorities did get there, not only they had set up camp in the village, but also engaged in some friendly interactions with the villagers that didn’t run away. This occurrence quickly spread among local villages, and today we are bringing an exclusive interview with their leader, Petrômio Portella! \n\n-''How and why exactly did you come to the confederation?'' \n\n-''Both are pretty simple. We came walking, scavenging what we could from the land and gunning down anyone that got in the way. The reason we came here is simply because heard of the little revolt you guys made here, so i decided to leave that hell of a state with my boys and come here.'' \n\n''-What is your opinion on the confederation?'' the interviewer asked. \n\n''-Well, I don't really like the Junta to begin with. Talking about them, in my personal opinion, kicking them out of here was the best thing you guys could’ve done! Arraes got some guts to just outright refuse when the military told him to leave. That’s not even an opinion, that’s a fact, and against facts, there are no arguments.'' \n\n-''What are your plans for the future, if at all?'' \n\n-''Well, I'd join the confederacy right now if I could, but I have to wait for the higher-ups in the army to allow me to join officially. Don’t think it’s going to take a long time, though, considering the situation you guys are in. After that… Well, all i can think now is getting back home one day...''"
 CFD_events.1.a:0 "Definitely a surprise, but a very welcome one!"
+
+SAO_ROAD_TO_GUANABARA.1.t:0 "The Road to Guanabara"
+SAO_ROAD_TO_GUANABARA.1.d:0 "what to do with republican troops in paulista territory"
+SAO_ROAD_TO_GUANABARA.1.A:0 "Kick them to Rio"
+SAO_ROAD_TO_GUANABARA.1.B:0 "Kick them down South"
+SAO_ROAD_TO_GUANABARA.1.C:0 "Imprision Them"
+SAO_ROAD_TO_GUANABARA.1.D:0 "Exchange Prisioners with the Junta"
+
+
+SAO_ROAD_TO_GUANABARA.2.t:0 "Going Down the Serra do Mar"
+SAO_ROAD_TO_GUANABARA.2.d:0 "let them pass through sp?"
+SAO_ROAD_TO_GUANABARA.2.A:0 "Deny all access to the State"
+SAO_ROAD_TO_GUANABARA.2.B:0 "Allow Free Passage for Both Sides"
+SAO_ROAD_TO_GUANABARA.2.C:0 "Allow a Supply Rout to Rio"
+
+SAO_ROAD_TO_GUANABARA.3.t:0 "Arriving in The Wonderful City"
+SAO_ROAD_TO_GUANABARA.3.d:0 "help during the fight?"
+SAO_ROAD_TO_GUANABARA.3.A:0 "Favor the Junta"
+SAO_ROAD_TO_GUANABARA.3.B:0 "Favor the Republic"
+SAO_ROAD_TO_GUANABARA.3.C:0 "Maintain our Neutrality"
+
+SAO.2.t:0 "The Battle of Pindamonhagaba"
+SAO.2.d:0 "alberto mendes leads the defense against a raid from the COLINA and discovers the itajubá arms factory"
+SAO.2.A:0 "fuck them commies"
+
+SAO.200.t:0 "Hugo Defects to the Revolution"
+SAO.200.d:0 "the 36º Battalion joins sp"
+SAO.200.A:0 "yey"
+
+PAULISTA_CATASTROPHE.1.t:0 "The Paulista Catastrophe"
+PAULISTA_CATASTROPHE.1.d:0 "oh no"
+PAULISTA_CATASTROPHE.1.A:0 "fuuuuuuuuuck"

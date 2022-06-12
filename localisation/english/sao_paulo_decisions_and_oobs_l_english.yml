@@ -32,6 +32,10 @@
  SAO_the_coffee_and_milk_line_tt:0 "Border patrols on the Northern Border with §RMinas Gerais§! will be reinforced to detain any stragglers trying to get in or out of the state."
  SAO_the_road_to_guanabara_tt:0 "War is coming to Rio. §G\n\nWe will take a batch of decisions concerning our involvement in the impending 2nd Battle of Guanabara, they will decide whether we wish to maintain our neutrality or lean back towards either side of the Civil War. \n\nDeciding to help either side may destroy our fragile peace and throw São Paulo back in the conflict prematurely or put the State under the thumb of the Republic or the Junta again, destroying any hope for the Constitutionalist Revolution to succeed. We must walk a fine line.§!"
  SAO_new_neighbors_tt:0 "Unlocks decisions to settle immigrants in cities across the State to ease overpopulation in the capital."
+ oob_sao_pica_amarela_tt:0 "Hires the Yellow-Woodpeckers Mercenary Band."
+ oob_sao_des_tt:0 "Emergencial police battalions will be assembled in São Paulo to assure order and security in the streets."
+ oob_sao_spec_mot_tt:0 "An experimental-fast-response-urban-motorized-police-force will be assembled in São Paulo, they shall be known as R.O.T.A."
+ oob_sao_minutemen_tt:0 "The Piracicaba Minutemen will rise up in arms to defend their city."
 
 ################
 # OOBs
