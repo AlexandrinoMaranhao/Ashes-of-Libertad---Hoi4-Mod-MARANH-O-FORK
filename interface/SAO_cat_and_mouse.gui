@@ -1,0 +1,26 @@
+guiTypes = {
+	containerWindowType = {
+		name = "sao_cat_and_mouse_window_main"
+		position = { x = 0 y = 0}	
+		size = { width = 400 height= 400 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = no
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_sao_background"
+		}
+
+		buttonType = {
+			name ="aracatuba_gov"
+			spriteType = "GFX_sp_aracatuba"
+			position = { x = 0 y = 0 }
+			Orientation = center
+		}
+	}		
+}
