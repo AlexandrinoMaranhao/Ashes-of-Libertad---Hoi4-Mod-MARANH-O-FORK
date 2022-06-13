@@ -100,3 +100,4 @@ recruit_character = SAO_joao_figueiredo
 recruit_character = SAO_sergio_fleury
 recruit_character = SAO_alberto_mendes_jr
 recruit_character = SAO_hugo_de_abreu
+recruit_character = SAO_euryale_de_jesus_zerbini

@@ -638,10 +638,9 @@ focus_tree = {
 			}
 			
 			SAO = {
-			  recruit_character = BRA_euryale_de_jesus_zerbini
 			
 			    set_portraits = {
-			        character = BRA_euryale_de_jesus_zerbini
+			        character = SAO_euryale_de_jesus_zerbini
 			        army = { small ="GFX_generic_army6_small" }
 			        army = { large ="gfx/leaders/SAO/Portrait_SAO_Euryale_Zerbini.dds" }
 			    } 
