@@ -226,6 +226,16 @@ ideas = {
 			traits = { the_sertanejan_sore_loser for_political_appointment }
 			cost = 50
 		}
+		CFD_duarte_advisor = {
+            allowed = {
+				original_tag = CFD
+            }
+            visible = {
+				original_tag = CFD
+            }
+			traits = { journalist_4 for_political_appointment }
+			cost = 50
+		}
 		
 		###Pro-Junta Advisors
 		CFD_jose_fernandes_lima_advisor = {

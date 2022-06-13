@@ -321,6 +321,10 @@ country_event = {
               target = INT
               type = annex_everything
             }
+            declare_war_on = {
+              target = NUD
+              type = annex_everything
+            }
             random_country_with_original_tag = {
                 original_tag_to_check = PEB
                 limit = {
@@ -471,7 +475,7 @@ country_event = {
 		
         NUD = {
 			
-			add_opinion_modifier = { target = RPP modifier = large_increase }
+			add_opinion_modifier = { target = INT modifier = large_increase }
 			
 			load_oob = "NUD_1967"
 			transfer_state = 503
@@ -496,44 +500,6 @@ country_event = {
                 }
             }
         }
-		RPP = {
-			
-			puppet = NUD
-			set_autonomy = {
-				target = NUD
-				autonomy_state = autonomy_wtt_imperial_subject
-				end_wars = no
-				end_civil_wars = no
-			}
-			CFD = {
-				every_core_state = {
-					add_core_of = RPP
-				}
-			}
-			load_oob = "RPP_1967"
-			transfer_state = 573
-			
-			declare_war_on = {
-                target = CFD
-                type = annex_everything
-            }
-            declare_war_on = {
-              target = INT
-              type = annex_everything
-            }
-
-            
-            random_country_with_original_tag = {
-                original_tag_to_check = PEB
-                limit = {
-                    has_government = communism
-                }
-                declare_war_on = {
-                    target = PREV 
-                    type = annex_everything
-                }
-            }
-		}
 		CFD = {
 			create_wargoal = {
 				type = annex_everything
@@ -546,12 +512,9 @@ country_event = {
 			transfer_state = 3
 			transfer_state = 5
 			load_oob = "INT_1967"
+			load_oob = "INT_revolutionary_divisions"
             declare_war_on = {
                 target = NUD 
-                type = annex_everything
-            }
-			declare_war_on = {
-                target = RPP 
                 type = annex_everything
             }
 			declare_war_on = {

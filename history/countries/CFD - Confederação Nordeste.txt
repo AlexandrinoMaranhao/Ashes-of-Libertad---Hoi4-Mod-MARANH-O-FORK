@@ -6,8 +6,9 @@ oob = "CFD_1967"
 set_technology = {
 	infantry_weapons = 1
 	motorised_infantry = 1
-    true_motorised_infantry = 1
-    infantry_gear = 1
+	tech_support = 1
+   	true_motorised_infantry = 1
+    	infantry_gear = 1
 }
 
 set_convoys = 100
@@ -36,6 +37,7 @@ add_ideas = {
 
 ###Starting Advisors###
 	CFD_joao_oliveira_advisor
+	CFD_duarte_advisor
 	CFD_antonio_corpse_advisor		##<-O que morre la.
 	
 ###Governo###
@@ -58,9 +60,10 @@ recruit_character = CFD_joao_bezerra_de_araujo
 recruit_character = CFD_hangho_trench
 recruit_character = CFD_joaquim_castillho
 recruit_character = CFD_nelson_a_silva
-recruit_character = CFD_odijas_carvalho_de_souza
+recruit_character = CFD_harry_alberto_schnarndorf
 recruit_character = CFD_augusto_de_silveira
 recruit_character = CFD_NAG_lima
+recruit_character = CFD_odijas_carvalho_de_souza
 
 ###Military High Command or Alike###
 recruit_character = CFD_romeu_sobreira_de_moura
@@ -77,10 +80,30 @@ set_country_flag = unfinished_cfd
 create_country_leader = { #Only for the name.
 	name = "Nivaldo Machado"
 	desc = ""
-	picture = "gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+	picture = "Portrait_RGN_Aluízio_Alves.dds"
 	expire = "1999.1.1"
 	ideology = coronelism 
 	traits = {
 		
 	}
 }
+
+	#3° Distrito 
+	create_navy_leader = {
+		name = "Ernani Jayme Lima"
+		#picture = "CFD_generic_navy1.dds"
+		traits = { trait_CFD_arena_sympathies }
+		skill = 3
+	}
+	create_navy_leader = {
+		name = "Luiz Clovis de Oliveira"
+		#picture = "CFD_generic_navy2.dds"
+		traits = { trait_CFD_arena_sympathies }
+		skill = 2
+	}
+	create_navy_leader = {
+		name = "Augusto Roque Dias Fernandes"
+		#picture = "CFD_generic_navy3.dds"
+		traits = { trait_CFD_arena_sympathies }
+		skill = 2
+	}

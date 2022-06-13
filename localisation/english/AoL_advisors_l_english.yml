@@ -1,5 +1,6 @@
 ﻿l_english:
  ABILITY_TOOLTIP_NAME:0 "$NAME|H$"
+		union_man:0 "Man of Unity"
 		for_man_of_faith:0 "Man of faith"
 		eco_industrial_chemist:0 "Industrial Chemist"
 		eco_construction_magnate:0 "Construction Genius"
@@ -53,7 +54,6 @@
 		helio_cury_political_advisor:0 "Hélio Cury"
 		marques_de_souza_political_advisor:0 "José Marques de Sousa"
 		edgar_cerqueira_political_advisor:0 "Edgar Pedreira de Cerqueira Filho"
-		jorge_kalume_political_advisor:0 "Jorge Kalume"
 		jonas_kalume_political_advisor:0 "Jonas Kalume"
 		eneas_carneiro_political_advisor:0 "Enéas Ferreira Carneiro"
 		jose_augusto_political_advisor:0 "José Augusto de Araújo"
@@ -221,3 +221,4 @@
 	CFD_joao_oliveira_advisor_desc:0 "What once was a minister of agriculture, during the Vargas government, now, a mere failure on politics. Handpicked by Miguel Arreas to calm down the mill elites in a effort to maintain his mandate somewhat stable."
 	CFD_jose_fernandes_lima_advisor:0 "José Fernandes de Lima"
 	CFD_dom_helder_camara_advisor:0 "Dom Helder Câmara"
+	CFD_duarte_advisor:0 "Samuel Duarte"

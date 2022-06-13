@@ -81,4 +81,18 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.1
 	}
+	division = {
+		name = "14º Regimento de Infantaria do Recife"
+		location = 4345
+		division_template = "Infantaria"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "1ª Bateria do 1º/7º RO de Olindaa"
+		location = 4345
+		division_template = "Infantaria"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
+	}
 }

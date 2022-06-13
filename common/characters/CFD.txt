@@ -28,7 +28,7 @@ characters={
 		country_leader={
 			desc="ARRAES_DESC"
 			ideology=socialism 
-			traits={ popular_figurehead2 union_man }
+			traits={ popular_figurehead2 social_reformer }
 			expire="1999.1.1.1"
 			id=-1
 		}
@@ -100,7 +100,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ war_hero infantry_officer trait_CFD_arreas_loyalist }
+			traits={ war_hero infantry_officer media_personality trait_CFD_arreas_loyalist }
 			skill=4
 			attack_skill=3
 			defense_skill=3
@@ -190,11 +190,29 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer engineer_officer }
+			traits={ career_officer trickster engineer_officer }
 			skill=3
 			attack_skill=3
 			defense_skill=2
 			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CFD_harry_alberto_schnarndorf={
+		name="Harry Alberto Schnarndorf"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_5.dds"
+				large="gfx/leaders/CFD/Portrait_CFD_Harry_Alberto_Schnarndorf.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox inflexible_strategist organizer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1
 		}
@@ -208,7 +226,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ guerilla_fighter scavenger trait_CFD_hiredgun trait_SPR_stalinist_loyalties  }
+			traits={ guerilla_fighter scavenger trait_CFD_hiredgun trait_CFD_pcb_sympathies  }
 			skill=2
 			attack_skill=1
 			defense_skill=2
@@ -320,45 +338,7 @@ characters={
 		}
 		advisor = {
 			slot = high_command
-			idea_token = CFD_rui_carneiro
-			allowed = {
-				original_tag = CFD
-			}
-            available = {
-                OR = {
-					has_government = fascism
-					has_government = democratic
-				}
-            }
-			traits = {mhc_school_of_defence trait_CFD_arena_sympathies}
-		}
-	}
-	CFD_juarez_tavora = {
-		name = "Juarez Távora"
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/goofybois/cfd_tavora.dds"
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = CFD_rui_carneiro
-			allowed = {
-				original_tag = CFD
-			}
-			traits = {mhc_school_of_defence}
-		}
-	}
-	CFD_alberto_sallaberry = {
-		name = "Alberto Ribeiro Sallaberry"
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/goofybois/cfd_sallaberry.dds"
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = CFD_rui_carneiro
+			idea_token = CFD_ribeiro_paz
 			allowed = {
 				original_tag = CFD
 			}
@@ -371,6 +351,44 @@ characters={
 			traits = {mhc_school_of_defence trait_CFD_arreas_loyalist}
 		}
 	}
+	CFD_juarez_tavora = {
+		name = "Juarez Távora"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_tavora.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_juarez_tavora
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {mhc_school_of_defence}
+		}
+	}
+	CFD_alberto_sallaberry = {
+		name = "Sylvio Melo de Cahú"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_cahu.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CFD_alberto_sallaberry
+			allowed = {
+				original_tag = CFD
+			}
+            available = {
+                OR = {
+					has_government = democratic
+					has_government = fascism
+				}
+            }
+			traits = {mhc_school_of_defence trait_CFD_arena_sympathies}
+		}
+	}
 	CFD_ivan_ruy = {
 		name = "Ivan Ruy"
 		portraits = {
@@ -380,7 +398,7 @@ characters={
 		}
 		advisor = {
 			slot = high_command
-			idea_token = CFD_rui_carneiro
+			idea_token = CFD_ivan_ruy
 			allowed = {
 				original_tag = CFD
 			}

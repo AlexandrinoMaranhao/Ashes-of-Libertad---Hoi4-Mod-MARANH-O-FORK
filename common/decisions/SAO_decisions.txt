@@ -992,6 +992,11 @@ SAO_international_diplomacy_category = {
 		activation = {
 			fascism > 0.7
 		}
+		cancel_trigger = {
+			SAO = {
+				fascism < 0.7
+			}
+		}
 		is_good = no
 		selectable_mission = yes
 		days_mission_timeout = 37
@@ -1032,6 +1037,11 @@ SAO_international_diplomacy_category = {
 		}
 		activation = {
 			democratic > 0.7
+		}
+		cancel_trigger = {
+			SAO = {
+				democratic < 0.7
+			}
 		}
 		is_good = no
 		selectable_mission = yes

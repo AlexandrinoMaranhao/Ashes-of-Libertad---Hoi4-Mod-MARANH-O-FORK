@@ -85,16 +85,21 @@ CFD_main_category = {
 	CFD_maranhao_failstate = {
         allowed = { tag = CFD }
         available = {
-            always = no
+            NOT = {country_exists = MNH}
         }
         activation = {
 			AND = {
-				has_war_with = MNH
-				check_variable = {
-					CFD_MNH_crisis > 9
+				CFD = {
+					has_war_with = MNH
+					check_variable = {
+						CFD_MNH_crisis > 9
+					}
 				}
 			}
         }
+		cancel_trigger = {
+			NOT = {country_exists = MNH}
+		}
         is_good = no
         selectable_mission = yes
         days_mission_timeout = 120

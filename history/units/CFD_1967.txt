@@ -1,6 +1,5 @@
 division_template = {
-	is_locked = yes
-	name = "Infantaria Nordeste"
+	name = "Batalhão de Infantaria"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -10,46 +9,85 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Batalhão de Caçadores"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+        mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+    support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	is_locked = yes
+	name = "Comando da PMPE"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        heavy_infantry = { x = 1 y = 0 }
+		heavy_infantry = { x = 1 y = 1 }
+		heavy_infantry = { x = 1 y = 2 }
+	}
+    support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
 units = {
 	division = {
-		name = "Infantaria Nordeste 1"
-		location = 1793
-		division_template = "Infantaria Nordeste"
+		name = "1° Batalhão de Infantaria"
+		location = 4177
+		division_template = "Batalhão de Infantaria"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Nordeste 2"
-		location = 1793
-		division_template = "Infantaria Nordeste"
+		name = "2° Batalhão de Infantaria"
+		location = 6279
+		division_template = "Batalhão de Infantaria"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Nordeste 3"
-		location = 1793
-		division_template = "Infantaria Nordeste"
+		name = "1° Grupamento de Engenharia"
+		location = 6279
+		division_template = "Batalhão de Caçadores"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Nordeste 4"
-		location = 1793
-		division_template = "Infantaria Nordeste"
+		name = "1° Batalhão de Caçadores"
+		location = 4003
+		division_template = "Batalhão de Caçadores"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Nordeste 5"
-		location = 1793
-		division_template = "Infantaria Nordeste"
+		name = "2° Batalhão de Caçadores"
+		location = 4219 #
+		division_template = "Batalhão de Caçadores"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infanteria Nordeste 6"
+		name = "Recife's Military Police Unit"
 		location = 1793
-		division_template = "Infantaria Nordeste"
+		division_template = "Comando da PMPE"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Natal's Military Police Unit"
+		location = 3959
+		division_template = "Comando da PMPE"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}

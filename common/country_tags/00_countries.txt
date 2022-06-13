@@ -192,5 +192,4 @@ MST = "countries/MST.txt"
 
 ## Nordeste ##
 
-RPP = "countries/RPP Revolutionary Pernambuco.txt"
 NUD = "countries/Democratic Union of Vera Cruz.txt"

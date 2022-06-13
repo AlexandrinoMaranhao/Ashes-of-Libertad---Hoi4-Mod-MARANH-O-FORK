@@ -64,7 +64,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Helio Ibiapina Lima"
-	#picture = "GFX_generic_army6"
+	#picture = "gfx/leaders/Europe/generic_army5"
 	traits = { trickster }
 	skill = 3
 	attack_skill = 2
@@ -88,6 +88,17 @@ create_corps_commander = {
 	name = "Darcy Vianna"
 	#picture = "GFX_generic_army1"
 	traits = { combined_arms_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hugo Caetano Coelho de Almeida"
+	#picture = "GFX_generic_army3"
+	traits = { infantry_officer }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2
