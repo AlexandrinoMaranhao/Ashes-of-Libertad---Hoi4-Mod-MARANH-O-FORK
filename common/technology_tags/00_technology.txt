@@ -105,15 +105,13 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
+			always = yes
 		}
 	}
-	nsb_armour_folder = {
+	nsb_armour_folder = { #Until NSB tanks gets fixed. They are disabled.
 		ledger = army
 		available = {
-			has_dlc = "No Step Back"
+			always = no
 		}
 	}
 	artillery_folder = {
