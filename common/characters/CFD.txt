@@ -28,7 +28,7 @@ characters={
 		country_leader={
 			desc="ARRAES_DESC"
 			ideology=socialism 
-			traits={ popular_figurehead2 social_reformer }
+			traits={ popular_figurehead2 social_reformer_aol }
 			expire="1999.1.1.1"
 			id=-1
 		}
