@@ -3,7 +3,7 @@ characters={
 		name="Jurandir Bizarria Mamede"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_11.dds"
 			}
 			army={
 				large="gfx/leaders/BEM/Portrait_BEM_Jurandir_Bizarria_Mamede.dds"
@@ -22,7 +22,7 @@ characters={
 		name="Olavo Viana Moog"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_4.dds"
 			}
 			army={
 				large="gfx/leaders/BEM/Portrait_BEM_Olavo_Viana_Moog.dds"
@@ -42,7 +42,7 @@ characters={
 		name="Carlos Alberto Cabral Ribeiro"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_5.dds"
 			}
 			army={
 				large="gfx/leaders/BEM/Portrait_BEM_Carlos_Alberto_Cabral_Ribeiro.dds"

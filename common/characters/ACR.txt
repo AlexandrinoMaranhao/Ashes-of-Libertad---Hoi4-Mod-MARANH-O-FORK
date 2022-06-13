@@ -72,7 +72,7 @@ characters={
 		name="José Guiomard dos Santos"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Guiomard.dds"
@@ -92,7 +92,7 @@ characters={
 		name="Geraldo Gurgel de Mesquita Júnior"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Gurgel.dds"
@@ -112,7 +112,7 @@ characters={
 		name="Romildo Magalhães da Silva"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Romildo.dds"
@@ -132,7 +132,7 @@ characters={
 		name="José Rui da Silveira Lino"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Rui_Lino.dds"
@@ -152,7 +152,7 @@ characters={
 		name="Nabor Teles da Rocha Júnior"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Nabor_Teles.dds"
@@ -172,7 +172,7 @@ characters={
 		name="Chicão Brígido"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Chico.dds"
@@ -192,7 +192,7 @@ characters={
 		name="Wildy Viana das Neves"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Wildy.dds"
@@ -212,7 +212,7 @@ characters={
 		name="Aluísio Bezerra de Oliveira"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Aluisio.dds"
@@ -232,7 +232,7 @@ characters={
 		name="Jonas Kalume"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/jorge_kalume.dds"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Jonas_Kalume.dds"
@@ -252,7 +252,7 @@ characters={
 		name="Sérgio Petecão"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/ACR/Portrait_ACR_Sergio.dds"

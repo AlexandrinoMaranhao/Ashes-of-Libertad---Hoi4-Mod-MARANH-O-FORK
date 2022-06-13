@@ -1,6 +1,28 @@
 ideas = {
 	country = {
 
+		BEM_a_friend_of_the_natives = {
+			picture = BEM_a_friend_of_the_natives-153592
+			allowed = {
+				original_tag = BEM
+			}
+			modifier = {
+				compliance_growth = 0.4
+non_core_manpower = 0.3
+			}
+		}
+
+		BEM_assimilating_the_natives = {
+			picture = BEM_assimilating_the_natives-115194
+			allowed = {
+				original_tag = BEM
+			}
+			modifier = {
+				non_core_manpower = -0.6
+resistance_growth = -0.4
+			}
+		}
+
 		BEM_specialization_operation_center = {
 			picture = BEM_specialization_operation_center-213988
 			allowed = {

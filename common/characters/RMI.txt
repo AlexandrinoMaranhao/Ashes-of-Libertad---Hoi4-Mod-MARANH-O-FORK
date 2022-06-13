@@ -3,7 +3,7 @@ characters={
 		name="Sinval de Oliveira Bambirra"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/RMI/Portrait_RMI_Gilney_Viana.dds"
@@ -23,7 +23,7 @@ characters={
 		name="João Lucas Alves"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/RMI/Portrait_RMI_Joao_Lucas_Alves.dds"
@@ -43,7 +43,7 @@ characters={
 		name="Severino Viana Colon"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/RMI/Portrait_RMI_Severino.dds"

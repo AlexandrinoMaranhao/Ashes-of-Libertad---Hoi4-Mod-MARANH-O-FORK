@@ -625,6 +625,8 @@ KAY = {
 		y = 13
 		relative_position_id = BEM_intro_one
 		completion_reward = {
+			custom_effect_tooltip = BEM_change_focus_tree
+			load_focus_tree = para2
 			#event peace with Santarém
 		}
 		ai_will_do = { factor = 1 }
@@ -695,30 +697,9 @@ KAY = {
 					on_cancel = Para.10
 				}
 			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	##JUNTA COLLAPSE
-	focus = {
-		id = BEM_fall_of_the_white_castle
-		icon = GFX_goal_TheOldProblem
-		cost = 4
-
-		prerequisite = {
-			focus = BEM_prepare_for_the_worse focus = BEM_hope_for_the_best} 
-		prerequisite = {
-		    focus = BEM_go_crawling_to_daddy focus = BEM_chance_to_prove_ourselves
-		}
-		x = 0
-		y = 8
-		relative_position_id = BEM_intro_one
-		completion_reward = {
 			custom_effect_tooltip = BEM_change_focus_tree
 			load_focus_tree = para2
 		}
-		allow_branch = {
-			has_global_flag = JUNTA_CIVIL_WAR
-		}
+		ai_will_do = { factor = 1 }
 	}
 }

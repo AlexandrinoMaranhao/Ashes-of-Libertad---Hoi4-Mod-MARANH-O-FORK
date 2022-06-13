@@ -3,7 +3,7 @@ characters={
 		name="Newton Cruz"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
 			}
 			army={
 				large="gfx/leaders/JAG/Portrait_JAG_Newton_Cruz.dds"
@@ -22,7 +22,7 @@ characters={
 		name="Washington Vaz de Melo"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
 			}
 			army={
 				large="gfx/leaders/JAG/Portrait_JAG_Washington_Vaz_de_Melo.dds"
@@ -41,7 +41,7 @@ characters={
 		name="Carlos Brilhante Ustra"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
 			}
 			army={
 				large="gfx/leaders/JAG/Portrait_JAG_Carlos_Brilhante_Ustra.dds"

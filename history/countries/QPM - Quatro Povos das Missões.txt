@@ -57,24 +57,8 @@ set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
 
-create_country_leader = {
-	
-	name = "Father Paolino Baldassari"
-	picture = "gfx/leaders/QPM/Portrait_QPM_Paolino_Baldassari.dds"
-	expire = "1999.1.1"
-	ideology = christian_theocracy_reactionary 
-}
-create_country_leader = {
-	
-	name = "Grand-Master Francis Hirsch"
-	picture = "gfx/leaders/QPM/.dds"
-	expire = "1999.1.1"
-	ideology = military_junta 
-}
-
-create_country_leader = {
-	name = "I-Tawari Tukano"
-	picture = "gfx/leaders/QPM/Portrait_QPM_Tukano.dds"
-	expire = "1999.1.1"
-	ideology = guerrilla
-}
+recruit_character = QPM_father_paolino_baldassari
+recruit_character = QPM_grandmaster_francis_hirsch
+recruit_character = QPM_itawari_tukano
+recruit_character = QPM_irapua_saraiba
+recruit_character = QPM_zaltana_jatoba

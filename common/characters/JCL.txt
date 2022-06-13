@@ -17,8 +17,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Ademar_de_Queirós.dds"
 			}
 		}
@@ -37,8 +35,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Otávio_Aguiar_de_Medeiros.dds"
 			}
 		}
@@ -57,8 +53,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Moacir_Barcelos_Potiguara.dds"
 			}
 		}
@@ -77,8 +71,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Afonso_Augusto_de_Albuquerque_Lima.dds"
 			}
 		}
@@ -97,8 +89,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Golbery_do_Couto_e_Silva.dds"
 			}
 		}
@@ -117,8 +107,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Samuel_Augusto_Alves_Corrêa.dds"
 			}
 		}
@@ -137,8 +125,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Zenildo_Gonzaga_Zoroastro_de_Lucena.dds"
 			}
 		}
@@ -157,8 +143,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_el_generico4_small"
-			}
-			army={
 				large="gfx/leaders/JCL/Portrait_JCL_Sérgio_Etchegoyen.dds"
 			}
 		}

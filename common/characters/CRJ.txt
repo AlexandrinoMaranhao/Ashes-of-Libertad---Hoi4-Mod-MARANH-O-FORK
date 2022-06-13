@@ -3,7 +3,7 @@ characters={
 		name="Olímpio Mourão Filho"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_6.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CRJ_Olimpio_Mourao.dds"
@@ -23,7 +23,7 @@ characters={
 		name="Danilo Venturini"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_9.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Danilo_Venturini.dds"
@@ -43,7 +43,7 @@ characters={
 		name="Diogo de Oliveira Figueiredo"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_12.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Diogo_de_Oliveira_Figueiredo.dds"
@@ -63,7 +63,7 @@ characters={
 		name="João Punaro Bley"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_10.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Joao_Punaro.dds"
@@ -82,7 +82,7 @@ characters={
 		name="Jair Dantas Ribeiro"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_5.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Jair_Dantas.dds"
@@ -102,7 +102,7 @@ characters={
 		name="César Montagna"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_7.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Cesar_Montagna.dds"
@@ -122,7 +122,7 @@ characters={
 		name="Antônio Luiz Rocha Veneu"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_3.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Antonio_Veneu.dds"
@@ -142,7 +142,7 @@ characters={
 		name="Argus Fagundes Ourique Moreira"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_1.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Argus_Fagundes.dds"
@@ -162,7 +162,7 @@ characters={
 		name="Raymundo Nonato de Cerqueira Filho"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_12.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Raimundo_Nonato.dds"
@@ -181,7 +181,7 @@ characters={
 		name="Sergio Ernesto Alves Conforto"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_8.dds"
 			}
 			army={
 				large="gfx/leaders/CRJ/Portrait_CJR_Sergio_Ernesto.dds"

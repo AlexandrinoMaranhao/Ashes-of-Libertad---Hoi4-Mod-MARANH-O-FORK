@@ -3,7 +3,7 @@ characters={
 		name="Euryale de Jesus Zerbini"
 		portraits={
 			army={
-				small=""
+				small = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
 			}
 			army={
 				large="gfx/leaders/JUN/Portrait_JUN_Euryale_Zerbini.dds"

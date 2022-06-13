@@ -41,7 +41,7 @@ characters={
 		name="Carlos Lamarca"
 		portraits={
 			army={
-				small=""
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 			army={
 				large="gfx/leaders/FBO/Portrait_FBO_Lamarca_Portrait.dds"

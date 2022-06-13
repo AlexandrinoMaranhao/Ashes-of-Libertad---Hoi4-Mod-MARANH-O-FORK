@@ -67,6 +67,29 @@ para_debug = {
 			}
 		}
 	}
+	BEM_debug_doi_codi = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = BEM
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			BEM = {
+				create_intelligence_agency = {
+					name = "DOI-CODI - PARÁ"
+					icon = GFX_intelligence_agency_logo_doicodi_bem
+				}
+			}
+		}
+	}
 	
 }
 

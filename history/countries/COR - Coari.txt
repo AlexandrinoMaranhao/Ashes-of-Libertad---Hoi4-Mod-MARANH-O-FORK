@@ -7,7 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 5
+set_convoys = 20
+
 country_event = {
 id = Coari.999
 days = 150
@@ -39,47 +40,12 @@ training_none
 no_officer_training
 no_mercenaries
 
-coari_desperation
-the_white_linned_mayor
+	coari_desperation
+	the_white_linned_mayor
 }
 
-set_country_flag = has_unique_advisors
-set_country_flag = has_unique_chiefs
-set_country_flag = has_unique_theorists
-set_country_flag = has_unique_high_command
-set_country_flag = has_unique_manufacturers
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 set_country_flag = is_amazonian
 set_country_flag = is_brazilian
 
-create_country_leader = {
-	
-	name = "Alexandre Montoril"
-	desc = "COR_MONTORIL_DESC"
-	picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
-	expire = "1999.1.1"
-	ideology = pirate_federation
-	traits = {
-		the_white_linned_mayor_trait
-		dictator
-	}
-}
-
-create_country_leader = {
-	
-	name = "Alexandre Montoril"
-	desc = "COR_MONTORIL_DESC"
-	picture = "gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
-	expire = "1999.1.1"
-	ideology = authoritarian_democracy
-	traits = {
-		the_white_linned_mayor_trait
-
-	}
-}
+recruit_character = COR_alexandre_montoril

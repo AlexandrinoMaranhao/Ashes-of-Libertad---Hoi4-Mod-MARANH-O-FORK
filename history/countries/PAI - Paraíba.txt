@@ -45,7 +45,7 @@ set_country_flag = use_generic_economy_focus
 create_country_leader = {
 	
 	name = "Pedro Moreno Gondim"
-	picture = "gfx/leaders/PAI/Portrait_PAI_Pedro_Moreno_Gondim.dds"
+	picture = "gfx/leaders/PAI/Portrait_PAI_Pedro_Moreno_Godim.dds"
 	desc = GONDIM_DESC
 	expire = "1999.1.1"
 	ideology = coronelism

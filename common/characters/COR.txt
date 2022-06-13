@@ -1,0 +1,24 @@
+characters={
+	COR_alexandre_montoril={
+		name="Alexandre Montoril"
+		portraits={
+			civilian={
+				large="gfx/leaders/COR/Portrait_COR_Alexandre_Montoril.dds"
+			}
+		}
+		country_leader={
+			desc="COR_MONTORIL_DESC"
+			ideology=authoritarian_democracy
+			traits={ the_white_linned_mayor_trait }
+			expire="1999.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="COR_MONTORIL_DESC"
+			ideology=pirate_federation
+			traits={ the_white_linned_mayor_trait dictator }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}
