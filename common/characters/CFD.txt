@@ -253,6 +253,7 @@ characters={
 			legacy_id=-1
 		}
 	}
+	#Military Staff & High Command
 	CFD_romeu_sobreira_de_moura = {
 		name = "Romeu Sobreira de Moura"
 		portraits = {
@@ -326,7 +327,7 @@ characters={
 			allowed = {
 				original_tag = CFD
 			}
-			traits = {mhc_school_of_defence}
+			traits = {carm_elastic_defence_doctrine}
 		}
 	}
 	CFD_ribeiro_paz = {
@@ -348,7 +349,7 @@ characters={
 					has_government = democratic
 				}
             }
-			traits = {mhc_school_of_defence trait_CFD_arreas_loyalist}
+			traits = {carm_doctrine_of_autonomy trait_CFD_arreas_loyalist}
 		}
 	}
 	CFD_juarez_tavora = {
@@ -364,7 +365,7 @@ characters={
 			allowed = {
 				original_tag = CFD
 			}
-			traits = {mhc_school_of_defence}
+			traits = {mhc_school_of_commando_operations}
 		}
 	}
 	CFD_alberto_sallaberry = {
@@ -386,7 +387,7 @@ characters={
 					has_government = fascism
 				}
             }
-			traits = {mhc_school_of_defence trait_CFD_arena_sympathies}
+			traits = {carm_guns_and_butter_doctrine trait_CFD_arena_sympathies}
 		}
 	}
 	CFD_ivan_ruy = {
@@ -408,7 +409,7 @@ characters={
 					has_government = democratic
 				}
             }
-			traits = {mhc_school_of_defence trait_CFD_arena_sympathies}
+			traits = {mhc_school_of_manoeuvre trait_CFD_arena_sympathies}
 		}
 	}
 }

@@ -591,6 +591,7 @@ KAY = {
 		y = 11
 		relative_position_id = BEM_intro_one
 		completion_reward = {
+			add_ideas = BEM_a_friend_of_the_natives 
 		}
 		ai_will_do = { factor = 1 }
 		allow_branch = {
@@ -645,6 +646,7 @@ KAY = {
 		y = 11
 		relative_position_id = BEM_intro_one
 		completion_reward = {
+			add_ideas = BEM_assimilating_the_natives 
 		}
 		ai_will_do = { factor = 1 }
 		allow_branch = {

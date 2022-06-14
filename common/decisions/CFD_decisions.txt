@@ -47,11 +47,11 @@ CFD_main_category = {
 		complete_effect = {
 			news_event = {
 				id = world.1
-				days = 1
+				days = 3
 			}
-			country_event = {
-				id = CFD_failometer_enabled.1
-				days = 5
+            country_event = {
+				id = PEB.1
+				days = 0
 			}
 			add_popularity = {
 				ideology = neutrality
@@ -106,7 +106,7 @@ CFD_main_category = {
         timeout_effect = {
             country_event = {
 				id = CFD_failometer_enabled.1
-				days = 2
+				days = 1
 			}
         }
 		complete_effect = {

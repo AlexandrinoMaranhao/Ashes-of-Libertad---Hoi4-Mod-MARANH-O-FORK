@@ -71,10 +71,7 @@ country_event = {
             501 = { set_demilitarized_zone = yes }
             30 = { set_demilitarized_zone = yes }
 		SAO = { remove_ideas = the_devil_in_the_bottle }
-      #create_faction = partido_comunista_brasileiro_FACTION
-      #add_to_faction = ROR
-      #add_to_faction = RMI
-      #add_to_faction = PCR
+      create_faction = partido_comunista_brasileiro_FACTION
     }
   } 
 }

@@ -41,7 +41,9 @@ country_event = {
         }
         set_global_flag = JUNTA_CIVIL_WAR
 		
-		BEM = {mark_focus_tree_layout_dirty = yes}
+		BEM = {
+			complete_national_focus = para_junta_collapse_thebrasiliascollapse
+		}
     }
 }
 

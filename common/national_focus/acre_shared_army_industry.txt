@@ -1241,7 +1241,7 @@ shared_focus = {
 
 	cancel_if_invalid = yes
 
-	completion_reward = {	
+	completion_reward = {
 		if = {
 			limit = {
 				has_idea = ACR_rio_branco_academy_2

@@ -219,12 +219,6 @@ on_actions = {
                     days = 1170
                 }
             }
-            BEM = {
-                country_event = {
-                    id = Para.8
-                    days = 396
-                }
-            }
 				## Venezuela's Paths
 			VEN = {
 				random_list = {

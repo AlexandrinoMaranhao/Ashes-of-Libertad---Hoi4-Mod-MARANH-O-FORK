@@ -484,10 +484,6 @@ country_event = {
                 target = CFD
                 type = annex_everything
             }
-            declare_war_on = {
-              target = INT
-              type = annex_everything
-            }
             
             random_country_with_original_tag = {
                 original_tag_to_check = PEB

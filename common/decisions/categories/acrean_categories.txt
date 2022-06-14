@@ -1,14 +1,14 @@
 ACR_debug = {
 	icon = GFX_decision_category_acrean_raids
-	allowed = { tag = ACR }
+	allowed = { original_tag = ACR }
 	visible = { is_debug = yes is_ai = no }
     visible_when_empty = no
 }
 
 acrean_senate = {
 	icon = GFX_decision_category_acrean_raids
-	allowed = { tag = ACR }
-	visible = { NOT = { has_completed_focus = ACR_siege_senate } }
+	allowed = { original_tag = ACR }
+	visible = { ACR = { NOT = { has_completed_focus = ACR_siege_senate } } }
     visible_when_empty = yes
     priority = 300
 	scripted_gui = acre_senate_category
@@ -38,13 +38,15 @@ ACR_che_war_category = {
 		tag = ACR
 	}
 	visible = {
-		tag = ACR
-		has_war_with = ERN
+		AND = {
+			tag = ACR
+			has_war_with = ERN
+		}
 	}
 }
 
 ACR_marques_movies_category = {
-	visible = { has_completed_focus = ACR_haha_sike }
+	visible = { ACR = { has_completed_focus = ACR_haha_sike } }
 
 	icon = GFX_decision_category_acrean_theater
 	allowed = {

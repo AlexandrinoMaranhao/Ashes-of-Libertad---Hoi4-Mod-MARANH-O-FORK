@@ -219,24 +219,30 @@ country_event = {
     50 = {
         
         modifier = {
-            factor = 1.5
+            factor = 500
 			BEM = {
-            has_completed_focus = BEM_send_a_funai_diplomat
-				  }
-					}
+				has_completed_focus = BEM_send_a_funai_diplomat
+			}
+		}
 		BEM= {
-		annex_country = {
-    target = KAY
-    transfer_troops = no
-}
+			annex_country = {
+				target = KAY
+				transfer_troops = no
+			}
+			set_country_flag = BEM_kayapo_union
+			mark_focus_tree_layout_dirty = yes
 		}
         XIN = { transfer_state = 149 }
     }
     50 = {
         declare_war_on = {
-    target = BEM
-    type = annex_everything
-}
+			target = BEM
+			type = annex_everything
+		}
+		BEM = {
+			set_country_flag = BEM_kayapo_defeated
+			mark_focus_tree_layout_dirty = yes
+		}
     }
 }
 	}
@@ -270,7 +276,81 @@ country_event = { #Santarém raid FAILURE
 	}
 }
 
+country_event = { 
+	id = Para.11
+	title = Para.11.t
+	desc = Para.11.d
+	picture = x
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.11.A
+		unlock_national_focus = para_junta_collapse_threat_to_use_force
+	}
+	option = {
+		name = Para.11.B
+		unlock_national_focus = para_junta_collapse_authorize_total_mobilization
+	}
+}
 
+country_event = { #Brasilia's collapse sheet
+	id = Para.12
+	title = Para.12.t
+	desc = Para.12.d
+	picture = x
+	is_triggered_only = yes
+	
+	#Answer
+	option = {
+		name = Para.12.A
+		complete_national_focus = para_junta_collapse_a_vote_for_the_old_state
+		add_opinion_modifier = {
+			target = JEG
+			modifier = medium_increase
+		}
+		add_opinion_modifier = {
+			target = JCS
+			modifier = medium_decrease
+		}
+		add_opinion_modifier = {
+			target = JRM
+			modifier = medium_decrease
+		}
+	}
+	option = {
+		name = Para.12.B
+		complete_national_focus = para_junta_collapse_a_vote_for_the_new_state
+		add_opinion_modifier = {
+			target = JEG
+			modifier = medium_decrease
+		}
+		add_opinion_modifier = {
+			target = JCS
+			modifier = medium_decrease
+		}
+		add_opinion_modifier = {
+			target = JRM
+			modifier = medium_increase
+		}
+	}
+	option = {
+		name = Para.12.C
+		complete_national_focus = para_junta_collapse_a_vote_for_the_stronger_state
+		add_opinion_modifier = {
+			target = JEG
+			modifier = medium_decrease
+		}
+		add_opinion_modifier = {
+			target = JCS
+			modifier = medium_increase
+		}
+		add_opinion_modifier = {
+			target = JRM
+			modifier = medium_decrease
+		}
+	}
+}
 
 
 ####################################

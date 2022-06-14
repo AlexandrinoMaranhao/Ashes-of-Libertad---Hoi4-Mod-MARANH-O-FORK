@@ -62,6 +62,12 @@ focus_tree = {
 		bypass = {
 			has_global_flag = JUNTA_CIVIL_WAR
 		}
+		completion_reward = {
+			country_event = {
+				id = Para.12
+				days = 0
+			}
+		}
 	}
 
 	#A Vote for the Stronger State
@@ -630,6 +636,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = para_junta_collapse_massive_weaponry_distribution_campaign  } prerequisite = { focus = para_junta_collapse_armoranytransportvehicle  } prerequisite = { focus = para_junta_collapse_invest_in_heavy_industry_research_centers  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = {
+			    id = Para.11
+			    days = 0
+			}
+		}
 	}
 
 	#Everything We Can Offer
@@ -743,6 +755,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = para_junta_collapse_pathfinders  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			declare_war_on = {
+			    target = STR
+			    type = annex_everything
+			}
+			
+			
+			
+		}
 	}
 
 	#Pathfinders
@@ -771,6 +792,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = para_junta_collapse_allhandstosantarem  focus = para_junta_collapse_refugee_center  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			annex_country = {
+			    target = STR
+			    transfer_troops = yes
+			}
+			
+			
+			
+		}
 	}
 
 	#Operação: §YPoturujara§!
@@ -793,9 +823,9 @@ focus_tree = {
 		}
 	}
 
-	#Operação: §BMonte Dourado§!
+	#Operação: §4Monte Dourado§!
 	focus = {
-		id = para_junta_collapse_operacaossbmontedouradoss
+		id = para_junta_collapse_operacaoss4montedouradoss
 		icon = GFX_focus_eng_special_air_service
 		x = 9
 		y = 8
@@ -830,6 +860,29 @@ focus_tree = {
 			    target = MUN
 			    type = annex_everything
 			}
+		}
+	}
+
+	#Operação: §7Trombetas§!
+	focus = {
+		id = para_junta_collapse_operacaoss7trombetasss
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = para_junta_collapse_operacaoss4montedouradoss  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			declare_war_on = {
+			    target = MAP
+			    type = annex_everything
+			}
+			
+			
+			
 		}
 	}
 
