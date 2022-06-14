@@ -790,7 +790,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = para_junta_collapse_allhandstosantarem  focus = para_junta_collapse_refugee_center  }
+		prerequisite = { focus = para_junta_collapse_refugee_center  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			annex_country = {
@@ -813,7 +813,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  } prerequisite = { focus = para_junta_collapse_allhandstosantarem  }
+		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  focus = para_junta_collapse_allhandstosantarem  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			declare_war_on = {
@@ -833,7 +833,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  } prerequisite = { focus = para_junta_collapse_allhandstosantarem  }
+		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  focus = para_junta_collapse_allhandstosantarem  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			declare_war_on = {
@@ -853,7 +853,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  } prerequisite = { focus = para_junta_collapse_allhandstosantarem  }
+		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  focus = para_junta_collapse_allhandstosantarem  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			declare_war_on = {

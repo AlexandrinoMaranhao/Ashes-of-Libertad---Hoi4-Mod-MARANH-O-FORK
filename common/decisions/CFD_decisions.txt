@@ -53,6 +53,10 @@ CFD_main_category = {
 				id = PEB.1
 				days = 0
 			}
+			country_event = {
+				id = CFD_failometer_enabled.1
+				days = 1
+			}
 			add_popularity = {
 				ideology = neutrality
 				popularity = 0.15

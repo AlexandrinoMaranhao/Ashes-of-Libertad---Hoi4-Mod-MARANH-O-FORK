@@ -1125,6 +1125,9 @@ news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.1
 		name = world.86.a
 		CFD = {
 			news_event = {id = world.87}
+			hidden_effect = {
+				remove_ideas = CFD_antonio_corpse_advisor
+			}
 		}
 	}
 }
@@ -1144,9 +1147,6 @@ news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.2
 			add_popularity = {
 				ideology = democratic
 				popularity = 0.02
-			}
-			hidden_effect = {
-				remove_ideas = CFD_antonio_corpse_advisor
 			}
 		}
 	}

@@ -458,7 +458,13 @@ country_event = {
 
        VEN = { country_event = { id = VEN_Collapse_End.2 days = 30 } }
        VEN = { set_cosmetic_tag = VEN_UNION }
-       VEJ = { set_cosmetic_tag = VEJ_UNION }
+       VEJ = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = VEC
+			}
+			set_cosmetic_tag = VEJ_UNION 
+	   }
        NEB = { set_cosmetic_tag = NEB_UNION }
        NEB = { set_capital = {state = 302} }
        #VEN = { transfer_state = 310 }

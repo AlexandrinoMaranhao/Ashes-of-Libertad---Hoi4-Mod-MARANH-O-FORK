@@ -12,42 +12,42 @@ division_template = {
 units = {
 	division = {
 		name = "Infantaria da Capital"
-		location = 4244 
+		location = 4160 
 		division_template = "Infantaria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria da Fronteira"
-		location = 4244
+		location = 4160
 		division_template = "Infantaria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria da Fronteira"
-		location = 4244
+		location = 4160
 		division_template = "Infantaria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria da Fronteira"
-		location = 4244
+		location = 4160
 		division_template = "Infantaria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria da Fronteira"
-		location = 4244
+		location = 4160
 		division_template = "Infantaria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria da Fronteira"
-		location = 4244
+		location = 4160
 		division_template = "Infantaria Nordeste"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9

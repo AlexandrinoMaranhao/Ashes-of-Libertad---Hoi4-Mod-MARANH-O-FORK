@@ -466,10 +466,7 @@ country_event = {
 
     option = {
 		trigger = {
-			OR = {
-				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
-				has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_DISABLED }
-			}
+			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
 		}
         name = CFD_failometer_enabled.1.a
 		
@@ -484,17 +481,7 @@ country_event = {
                 target = CFD
                 type = annex_everything
             }
-            
-            random_country_with_original_tag = {
-                original_tag_to_check = PEB
-                limit = {
-                    has_government = communism
-                }
-                declare_war_on = {
-                    target = PREV 
-                    type = annex_everything
-                }
-            }
+           
         }
 		CFD = {
 			create_wargoal = {
@@ -509,10 +496,14 @@ country_event = {
 			transfer_state = 5
 			load_oob = "INT_1967"
 			load_oob = "INT_revolutionary_divisions"
-            declare_war_on = {
-                target = NUD 
-                type = annex_everything
-            }
+			create_wargoal = {
+				type = annex_everything
+				target = NUD
+			}
+			declare_war_on = {
+				target = MNH
+				type = annex_everything
+			}
 			declare_war_on = {
                 target = CFD 
                 type = annex_everything
