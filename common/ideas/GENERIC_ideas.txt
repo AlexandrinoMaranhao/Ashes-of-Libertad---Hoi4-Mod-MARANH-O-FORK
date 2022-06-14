@@ -8,6 +8,13 @@ ideas = {
 	controls_state = 585
 }
 			}
+			modifier = {
+				production_speed_buildings_factor = 0.25
+production_speed_bunker_factor = 0.5
+industry_repair_factor = 0.15
+industry_free_repair_factor = 0.15
+consumer_goods_factor = -0.1
+			}
 		}
 	}
 }

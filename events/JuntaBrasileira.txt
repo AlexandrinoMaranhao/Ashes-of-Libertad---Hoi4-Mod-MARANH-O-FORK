@@ -57,6 +57,7 @@ country_event = {
 				}   
 			}
 			set_global_flag = juntahasfallen
+			SAO = {mark_focus_tree_layout_dirty = yes} #Updates São Paulo's focus tree.
 		}
     }
     

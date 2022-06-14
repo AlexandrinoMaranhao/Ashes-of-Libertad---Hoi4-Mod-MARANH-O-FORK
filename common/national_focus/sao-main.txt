@@ -1066,6 +1066,13 @@ focus_tree = {
 			  target_state = 33
 			}
 			
+			569 = {
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
 			
 			34 = {
 				add_building_construction = {

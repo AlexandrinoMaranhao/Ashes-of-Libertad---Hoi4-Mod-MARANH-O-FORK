@@ -85,13 +85,13 @@ create_country_leader = {#intended for name showcase only
 	ideology = centrism 
 }
 
-create_field_marshal = {
-	name = "Carlos Marighella"
-	portrait_path = "gfx/leaders/PAU/Portrait_PAU_Carlos_Marighella.dds"
-	traits = {  }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 8
-	logistics_skill = 7
-}
+#create_field_marshal = { #Generals and Field Marshals HAVE to be created via character system.
+#	name = "Carlos Marighella"
+#	portrait_path = "gfx/leaders/PAU/Portrait_PAU_Carlos_Marighella.dds"
+#	traits = {  }
+#	skill = 5
+#	attack_skill = 4
+#	defense_skill = 1
+#	planning_skill = 8
+#	logistics_skill = 7
+#}
