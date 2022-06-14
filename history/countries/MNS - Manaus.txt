@@ -39,22 +39,5 @@ what_apocalypse
 
 set_country_flag = is_amazonian
 
-create_country_leader = {
-	
-	name = "Gilberto Mestrinho"
-	desc = "MNS_GILBERTO_MESTRINHO_DESC"
-	picture = "gfx/leaders/MNS/Portrait_MNS_Gilberto_Mestrinho.dds"
-	expire = "1999.1.1"
-	ideology = mercantile_oligarchy 
-}
-
-create_field_marshal = {
-	name = "Jorge Teixeira de Oliveira"
-	portrait_path = "gfx/leaders/MNS/Portrait_MNS_Jorge_Teixeira_de_Oliveira.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
+recruit_character = MNS_gilberto_mestrinho
+recruit_character = MNS_jorge_teixeira_de_oliveira

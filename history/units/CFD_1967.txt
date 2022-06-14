@@ -26,6 +26,16 @@ division_template = {
 }
 
 division_template = {
+	name = "Liga Camponesa"
+	regiments = {
+		militia_unit = { x = 0 y = 0 }
+		militia_unit = { x = 0 y = 1 }
+        militia_unit = { x = 1 y = 0 }
+		militia_unit = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
 	is_locked = yes
 	name = "Comando da PMPE"
 	regiments = {
@@ -65,7 +75,7 @@ units = {
 	}
 	division = {
 		name = "1° Batalhão de Caçadores"
-		location = 4003
+		location = 159
 		division_template = "Batalhão de Caçadores"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
@@ -90,5 +100,26 @@ units = {
 		division_template = "Comando da PMPE"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Liga Abreu e Lima"
+		location = 4145
+		division_template = "Liga Camponesa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Liga Vitorá de Santo Antão"
+		location = 1366
+		division_template = "Liga Camponesa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Liga Patos"
+		location = 164
+		division_template = "Liga Camponesa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
 	}
 }

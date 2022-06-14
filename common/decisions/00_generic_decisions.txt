@@ -690,7 +690,10 @@ generic_like_tno_or_smth = {
 		icon = GFX_decision_icon_default
 			
 		available = {
-			RMI = {NOT = {controls_state = 585}}
+			AND = {
+				original_tag = RMI
+				RMI = {NOT = {controls_state = 585}}
+			}
 		}
 			
 		days_remove = 120
@@ -699,7 +702,10 @@ generic_like_tno_or_smth = {
 		days_re_enable = 1
 			
 		visible = {
-			RMI = {NOT = {controls_state = 585}}
+			AND = {
+				original_tag = RMI
+				RMI = {NOT = {controls_state = 585}}
+			}
 		}		
 			
 		cost = 0

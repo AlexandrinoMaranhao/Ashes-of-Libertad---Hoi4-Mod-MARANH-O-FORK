@@ -2,6 +2,7 @@ SAO_modifier1 = { # Divided folk
 	icon = GFX_idea_GEN_so_paulos_divided_populace-183749 	#DON'T TOUCH THE ICON GFX!
 	enable = { always = yes }
 
+	fascism_drift = 0.001
 	stability_factor = -0.1
 }
 

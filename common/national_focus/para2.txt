@@ -687,9 +687,9 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#BEM something national spirit
+	#Refugee Center
 	focus = {
-		id = para_junta_collapse_bem_something_national_spirit
+		id = para_junta_collapse_refugee_center
 		icon = GFX_focus_AST_never_gallipoli
 		x = 8
 		y = 6
@@ -699,6 +699,36 @@ focus_tree = {
 		}
 		prerequisite = { focus = para_junta_collapse_threat_to_use_force  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			136 = {
+				add_building_construction = {
+			  	  type = infrastructure 
+			  	  level = 2
+				    instant_build = yes
+				}
+			}
+			87 = {
+				add_building_construction = {
+			  	  type = infrastructure 
+			  	  level = 2
+				    instant_build = yes
+				}
+			}
+			529 = {
+				add_building_construction = {
+			  	  type = infrastructure 
+			  	  level = 2
+				    instant_build = yes
+				}
+			}
+			134 = {
+				add_building_construction = {
+			  	  type = infrastructure 
+			  	  level = 2
+				    instant_build = yes
+				}
+			}
+		}
 	}
 
 	#All Hands to Santarém!
@@ -718,7 +748,7 @@ focus_tree = {
 	#Pathfinders
 	focus = {
 		id = para_junta_collapse_pathfinders
-		icon = GFX_focus_GRE_a_land_of_mountains
+		icon = GFX_goal_rhineland
 		x = 10
 		y = 6
 		cost = 5
@@ -739,7 +769,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = para_junta_collapse_allhandstosantarem  focus = para_junta_collapse_bem_something_national_spirit  }
+		prerequisite = { focus = para_junta_collapse_allhandstosantarem  focus = para_junta_collapse_refugee_center  }
 		ai_will_do = { factor = 1 }
 	}
 

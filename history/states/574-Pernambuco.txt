@@ -11,10 +11,16 @@ state={
 		add_core_of = CFD
 		add_core_of = PEB
 		victory_points = {
-			4188 10 
+			4188 15
 		}
 		victory_points = {
-			1869 5 
+			4145 5
+		}
+		victory_points = {
+			1366 10
+		}
+		victory_points = {
+			1869 15
 		}
 
 	}

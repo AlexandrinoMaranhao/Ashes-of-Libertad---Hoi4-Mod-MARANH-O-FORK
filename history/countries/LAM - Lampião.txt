@@ -43,65 +43,8 @@ add_ideas = {
 
 set_country_flag = is_brazilian
 
-create_country_leader = {
-	
-	name = "Justino Alves Bastos"
-	picture = "gfx/leaders/LAM/Portrait_LAM_Justino_Alves_Bastos.dds"
-	expire = "1999.1.1"
-	ideology = military_government
-}
-
-create_field_marshal = {
-	name = "Justino Alves Bastos"
-	picture = "Portrait_LAM_Justino_Alves_Bastos.dds"
-	traits = { defensive_doctrine brilliant_strategist politically_connected }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Helio Ibiapina Lima"
-	#picture = "gfx/leaders/Europe/generic_army5"
-	traits = { trickster }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Antonio Bandeira"
-	#picture = "GFX_generic_army4"
-	traits = { infantry_expert skirmisher }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Darcy Vianna"
-	#picture = "GFX_generic_army1"
-	traits = { combined_arms_expert }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Hugo Caetano Coelho de Almeida"
-	#picture = "GFX_generic_army3"
-	traits = { infantry_officer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
+recruit_character = LAM_justino_alves_bastos
+recruit_character = LAM_helio_ibiapina_lima
+recruit_character = LAM_antonio_bandeira
+recruit_character = LAM_darcy_vianna
+recruit_character = LAM_hugo_caetano_coelho_de_almeida

@@ -36,42 +36,8 @@ set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
 
-create_country_leader = {
-	name = "Modesto Rodas Alvarado"
-	picture = "gfx/leaders/HON/Portrait_HON_Modesto_Rodas_Alvarado.dds"
-	expire = "1999.1.1"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Agapito Robleda Castro"
-	picture = "gfx/leaders/HON/Portrait_HON_Agapito_Robleda_Castro.dds"
-	expire = "1999.1.1"
-	ideology = maoism
-}
-
-create_country_leader = {
-	name = "Standard Fruit & Steamship Company's Board of Directors"
-	picture = "gfx/leaders/HON/Portrait_HON_SFC.dds"
-	expire = "1999.1.1"
-	ideology = corporate_state
-}
-
-create_country_leader = {
-	name = "Juan Alberto Melgar Castro"
-	picture = "gfx/leaders/HON/Portrait_HON_Juan_Alberto_Melgar_Castro.dds"
-	expire = "1999.1.1"
-	ideology = ultranationalism
-}
-
-create_field_marshal = {
-	name = "Oswaldo López Arellano"
-	id = 1111
-	portrait_path = "gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"
-	traits = {  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
+recruit_character = HON_modesto_rodas_alvarado
+recruit_character = HON_agapito_robleda_castro
+recruit_character = HON_standard_fruit_steamship_companys_board_of_directors
+recruit_character = HON_juan_alberto_melgar_castro
+recruit_character = HON_oswaldo_lópez_arellano
