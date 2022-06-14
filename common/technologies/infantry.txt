@@ -2335,7 +2335,7 @@ technologies = {
 		enable_equipments = {
 			gw_armored_car_equipment
 		}
-		allow_branch = { has_dlc = "La Resistance" }
+		#allow_branch = { has_dlc = "La Resistance" }
 		path = {
 			leads_to_tech = armored_car2
 			research_cost_coeff = 1

@@ -58,13 +58,13 @@ create_country_leader = {
 	ideology = nazism
 }
 
-create_corps_commander = {
-	name = "Oveja"
-	picture = "Portrait_CHL_Oveja.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+#create_corps_commander = { #Convert to the new character system to be functional.
+#	name = "Oveja"
+#	picture = "Portrait_CHL_Oveja.dds"
+#	traits = {  }
+#	skill = 1
+#	attack_skill = 1
+#	defense_skill = 1
+#	planning_skill = 1
+#	logistics_skill = 1
+#}
