@@ -8,7 +8,7 @@ set_technology = {
 	motorised_infantry = 1
 	tech_support = 1
    	true_motorised_infantry = 1
-    	infantry_gear = 1
+    infantry_gear = 1
 }
 
 set_convoys = 100
@@ -51,7 +51,6 @@ add_ideas = {
 }
 
 ###Generals and Country Leaders###
-recruit_character = CFD_arnon_afonso_de_farias_mello
 recruit_character = CFD_miguel_arraes
 recruit_character = CFD_gregorio_bezerra
 recruit_character = CFD_pretonio_portella
@@ -77,15 +76,31 @@ recruit_character = CFD_ivan_ruy
 
 set_country_flag = unfinished_cfd
 
-create_country_leader = { #Only for the name.
-	name = "Nivaldo Machado"
-	desc = ""
+create_country_leader = {
+	name = "Aluízio Alves"
 	picture = "Portrait_RGN_Aluízio_Alves.dds"
+	desc = "ALUIZIO_DESC"
 	expire = "1999.1.1"
-	ideology = coronelism 
-	traits = {
-		
-	}
+	ideology = coronelism
+	traits = { merciless_dominator }
+}
+
+create_country_leader = {
+	name = "-------"
+	picture = "Portrait_CFD_Collapsed_Government.dds"
+	desc = ""
+	expire = "1999.1.1"
+	ideology = military_government
+	traits = { ensuing_collapse }
+}
+
+create_country_leader = {
+	name = "Paulo Pessoa Guerra"
+	desc = ""
+	picture = "Portrait_CFD_Paulo_Pessoa_Guerra.dds"
+	expire = "1999.1.1"
+	ideology = corporate_state_status_quo 
+	traits = {  }
 }
 
 	#3° Distrito 

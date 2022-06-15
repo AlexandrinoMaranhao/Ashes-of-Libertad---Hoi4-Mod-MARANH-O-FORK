@@ -132,9 +132,9 @@ on_actions = {
                 }
             }		
             BEM = {
-                country_event = {
+                country_event = { #Pará-Amapá War
                     id = BEM.1 
-                    days = 180
+                    days = 730
                 }
             }
             JAU = {

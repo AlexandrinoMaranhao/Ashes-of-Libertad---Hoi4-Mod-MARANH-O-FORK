@@ -1031,25 +1031,17 @@ country_event = {
     #Answer
     option = {
     name = BEM.1.b
-    declare_war_on = {
-            target = KAY
-            type = annex_everything
-            }  
 
-        hidden_effect = { country_event = { id = BEM.2 days = 90 } }
-    }
-    option = {
-    name = BEM.1.a
-
-        87 = { add_core_of = BEM }
-        140 = { add_core_of = BEM }
-
-        BEM = { transfer_state = 87 }
-        BEM = { transfer_state = 140 }
-        BEM = { transfer_state = 471 }
-        JAG = { transfer_state = 149 }
-
-        hidden_effect = { country_event = { id = BEM.2 days = 40 } }
+		every_country = {
+			news_event = {
+				id = world.70
+				days = 1
+			}
+		}
+		declare_war_on = {
+			target = AMA
+			type = annex_everything
+		}
     }
 }
 
@@ -1113,7 +1105,7 @@ country_event = {
         BEM = { transfer_state = 485 }
         BEM = { transfer_state = 124 }
         BEM = { transfer_state = 486 }
-        hidden_effect = { country_event = { id = BEM.5 days = 120 } }
+        hidden_effect = { country_event = { id = BEM.8 days = 120 } }
     }
 }
 
@@ -1171,52 +1163,52 @@ country_event = {
         BEM = { transfer_state = 135 }
         BEM = { transfer_state = 95  }
 
-        hidden_effect = { country_event = { id = BEM.7 days = 200 } }
+        #hidden_effect = { country_event = { id = BEM.7 days = 200 } }
 
     }
 }
  
-country_event = { #Second Phase of expanding
-    id = BEM.7
-    title = BEM.7.t
-    desc = BEM.7.d
-    picture = GFX_report_event_acre_flag
-    fire_only_once = yes
-    is_triggered_only = yes
-    
-    #Answer
-    option = {
-    name = BEM.7.a
-
-    declare_war_on = {
-            target = ZOE
-            type = annex_everything
-            }
-    declare_war_on = {
-            target = MAP
-            type = annex_everything
-            }
-    declare_war_on = {
-            target = WAI
-            type = annex_everything
-            }
-random_list = {
-    33 = {
-    MNS = {annex_country = { target = TRO }}
-    }
-
-    34 = {
-    ROR = {annex_country = { target = TRO }}
-    }
-
-    33 = {
-    BEM = {annex_country = { target = TRO }}
-    }
-
-}
-        #hidden_effect = { country_event = { id = MNS.9 days = 80 } }
-    }
-}
+#country_event = { #Second Phase of expanding
+#    id = BEM.7
+#    title = BEM.7.t
+#    desc = BEM.7.d
+#    picture = GFX_report_event_acre_flag
+#    fire_only_once = yes
+#    is_triggered_only = yes
+#    
+#    #Answer
+#    option = {
+#    name = BEM.7.a
+#
+#    declare_war_on = {
+#            target = ZOE
+#            type = annex_everything
+#            }
+#    declare_war_on = {
+#            target = MAP
+#            type = annex_everything
+#            }
+#    declare_war_on = {
+#            target = WAI
+#            type = annex_everything
+#            }
+#random_list = {
+#    33 = {
+#    MNS = {annex_country = { target = TRO }}
+#    }
+#
+#    34 = {
+#    ROR = {annex_country = { target = TRO }}
+#    }
+#
+#    33 = {
+#    BEM = {annex_country = { target = TRO }}
+#    }
+#
+#}
+#        #hidden_effect = { country_event = { id = MNS.9 days = 80 } }
+#    }
+#}
 
 country_event = { #Amapá
     id = BEM.8
@@ -1236,10 +1228,9 @@ country_event = { #Amapá
             days = 1
         }
     }
-    declare_war_on = {
+		declare_war_on = {
             target = AMA
             type = annex_everything
-            }  
-
+        }
     }
 }

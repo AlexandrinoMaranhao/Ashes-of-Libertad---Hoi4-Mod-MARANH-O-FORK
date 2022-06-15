@@ -37,12 +37,4 @@ set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
 
-create_country_leader = {
-	
-	name = "Arnon Afonso de Farias Mello"
-	picture = "Portrait_ALA_Arnon_Afonso_de_Farias_Mello.dds"
-	desc = ARNON_DESC
-	expire = "1999.1.1"
-	ideology = coronelism
-	traits = { the_killer_senator }
-}
+recruit_character = CFD_arnon_afonso_de_farias_mello
