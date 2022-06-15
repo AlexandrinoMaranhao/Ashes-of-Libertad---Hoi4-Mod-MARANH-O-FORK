@@ -22,10 +22,10 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 35
-	fascism = 4
+	fascism = 0
 	communism = 25
 	neutrality = 30
-	reactionary = 6
+	reactionary = 10
 }
 
 add_ideas = {
@@ -77,12 +77,12 @@ recruit_character = CFD_ivan_ruy
 set_country_flag = unfinished_cfd
 
 create_country_leader = {
-	name = "Aluízio Alves"
-	picture = "Portrait_RGN_Aluízio_Alves.dds"
-	desc = "ALUIZIO_DESC"
+	name = "Nivaldo Rodrigues Machado"
+	picture = "Portrait_CFD_Collapsed_Government.dds"
+	desc = ""
 	expire = "1999.1.1"
 	ideology = coronelism
-	traits = { merciless_dominator }
+	traits = { }
 }
 
 create_country_leader = {
@@ -95,7 +95,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paulo Pessoa Guerra"
+	name = "No Organized Leadership"
 	desc = ""
 	picture = "Portrait_CFD_Paulo_Pessoa_Guerra.dds"
 	expire = "1999.1.1"
@@ -103,22 +103,40 @@ create_country_leader = {
 	traits = {  }
 }
 
+
+#create_country_leader = { #Pro-Church
+#	name = "Aluízio Alves"
+#	picture = "Portrait_RGN_Aluízio_Alves.dds"
+#	desc = "ALUIZIO_DESC"
+#	expire = "1999.1.1"
+#	ideology = corporate_state_status_quo
+#	traits = { merciless_dominator }
+#}
+#create_country_leader = { #Pro-Usineiros
+#	name = "Paulo Pessoa Guerra"
+#	desc = ""
+#	picture = "Portrait_CFD_Paulo_Pessoa_Guerra.dds"
+#	expire = "1999.1.1"
+#	ideology = corporate_state_status_quo 
+#	traits = {  }
+#}
+
 	#3° Distrito 
-	create_navy_leader = {
-		name = "Ernani Jayme Lima"
-		#picture = "CFD_generic_navy1.dds"
-		traits = { trait_CFD_arena_sympathies }
-		skill = 3
-	}
-	create_navy_leader = {
-		name = "Luiz Clovis de Oliveira"
-		#picture = "CFD_generic_navy2.dds"
-		traits = { trait_CFD_arena_sympathies }
-		skill = 2
-	}
-	create_navy_leader = {
-		name = "Augusto Roque Dias Fernandes"
-		#picture = "CFD_generic_navy3.dds"
-		traits = { trait_CFD_arena_sympathies }
-		skill = 2
-	}
+create_navy_leader = {
+	name = "Ernani Jayme Lima"
+	#picture = "CFD_generic_navy1.dds"
+	traits = { trait_CFD_arena_sympathies }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Luiz Clovis de Oliveira"
+	#picture = "CFD_generic_navy2.dds"
+	traits = { trait_CFD_arena_sympathies }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Augusto Roque Dias Fernandes"
+	#picture = "CFD_generic_navy3.dds"
+	traits = { trait_CFD_arena_sympathies }
+	skill = 2
+}
