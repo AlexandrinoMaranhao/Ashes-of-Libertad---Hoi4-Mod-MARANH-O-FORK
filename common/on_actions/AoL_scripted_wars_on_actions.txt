@@ -19,6 +19,12 @@ on_actions = {
 					days = 14
 				}
 			}
+			SAO = {
+				country_event = {
+					id = SAO.10
+					days = 180
+				}
+			}
 			ELS = {
 				country_event = {
 					id = ELS_election.1
