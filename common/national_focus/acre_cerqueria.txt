@@ -337,6 +337,19 @@ shared_focus = {
 	logistics_skill = 3
 			id = 17
 		}
+		
+		create_corps_commander = {
+			name = "Jair Bolsonaro"
+			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Bolsonaro.dds"
+	traits = {  trickster career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+			id = 16
+		}
+		
 		create_corps_commander = {
 			name = "Antonio Danelon"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Danelon.dds"
@@ -843,7 +856,7 @@ shared_focus = {
 
 	ai_will_do = { factor = 1 }
 
-	completion_reward = {	
+	completion_reward = {
 		set_cosmetic_tag = AMC_ACR
 
 		create_field_marshal = {
