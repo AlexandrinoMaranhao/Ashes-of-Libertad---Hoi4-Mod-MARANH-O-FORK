@@ -607,7 +607,7 @@ focus_tree = {
 	#The Fall of the White Castle
 	focus = {
 		id = SAO_the_fall_of_the_white_castle
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_the_fall_of_the_whitecastle
 		x = 11
 		y = 0
 		cost = 1
@@ -623,7 +623,7 @@ focus_tree = {
 	#Embrace the Junta's Deserters
 	focus = {
 		id = SAO_embracethejuntasdeserters
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_embrace_junta_deserters
 		x = 10
 		y = 1
 		cost = 3
@@ -665,7 +665,7 @@ focus_tree = {
 	#The Junta's Poster Boys
 	focus = {
 		id = SAO_thejuntasposterboys
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_the_juntas_posterboy
 		x = 11
 		y = 2
 		cost = 3
@@ -679,7 +679,7 @@ focus_tree = {
 	#Brace for the §RStorm§!...
 	focus = {
 		id = SAO_braceforthessrstormss
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_brace_for_the_storm
 		x = 11
 		y = 3
 		cost = 3

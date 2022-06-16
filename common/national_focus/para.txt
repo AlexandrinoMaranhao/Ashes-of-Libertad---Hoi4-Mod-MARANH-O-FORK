@@ -64,7 +64,7 @@ focus_tree = {
 
 	focus = {
 		id = BEM_intro_final
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_ACR_welcome_to_the_jungle
 		cost = 2
 
 		bypass = {
@@ -202,7 +202,7 @@ country_event = {
 
 	focus = {
 		id = BEM_go_crawling_to_daddy
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_Depend_on_the_Junta
 		cost = 4
         
         mutually_exclusive = {
@@ -222,7 +222,7 @@ country_event = {
 
 	focus = {
 		id = BEM_chance_to_prove_ourselves
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_Prove_our_Worth
 		cost = 4
         
         mutually_exclusive = {
@@ -357,7 +357,7 @@ country_event = {
 
 	focus = {
 		id = BEM_jungle_training
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_ACR_jungle_training
 		cost = 4
 
 		prerequisite = {
@@ -376,7 +376,7 @@ country_event = {
 
 	focus = {
 		id = BEM_infiltration_training
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_extra_autonomous_units
 		cost = 4
 
 		prerequisite = {
@@ -446,7 +446,7 @@ add_manpower = 2000
 
 	focus = {
 		id = BEM_send_our_diplomats
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_ACRE_natives
 		cost = 4
         
         mutually_exclusive = {
@@ -469,7 +469,7 @@ add_manpower = 2000
 
 	focus = {
 		id = BEM_send_a_funai_diplomat
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_found_the_funai
 		cost = 4
         
         mutually_exclusive = {
@@ -536,7 +536,7 @@ KAY = {
 
 	focus = {
 		id = BEM_negotiate_tribal_peace
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_natives_in_the_army
 		cost = 4
 
 		prerequisite = {
@@ -558,7 +558,7 @@ KAY = {
 
 	focus = {
 		id = BEM_assert_our_dominance
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_separate_ourselves_savages
 		cost = 4
 
 		prerequisite = {
@@ -636,7 +636,7 @@ KAY = {
 	##KAYAPO DEFEATED
 	focus = {
 		id = BEM_controling_the_lands
-		icon = GFX_goal_losing_its_shine
+		icon = GFX_goal_Useful_Savages
 		cost = 4
 
 		prerequisite = {
