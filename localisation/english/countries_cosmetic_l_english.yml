@@ -39,6 +39,9 @@
  FAR_WINS:0 "Colombia"
  FAR_WINS_ADJ:0 "Colombian"
  FAR_WINS_DEF:0 "Colombia"
+ SAO_SCR:0 "2nd Constitutionalist Revolution"
+ SAO_SCR_ADJ:0 "Paulista"
+ SAO_SCR_DEF:0 "The 2nd Paulista Constitutionalist Revolution"
  
  #peru unification
  HIE_peru_unification_neutrality:0 "República Neoplatónica Peruana"
@@ -115,5 +118,5 @@
  MEX_collapsed_ADJ:0 "Mexican"
 
  FML_FPL:0 "FPL"
- FML_FPL_DEF:0 "the Fuerzas Populares de Liberación "Farabundo Martí""
+ FML_FPL_DEF:0 "the Fuerzas Populares de Liberación ''Farabundo Martí''"
  FML_FPL_ADJ:0 "Salvadoran"

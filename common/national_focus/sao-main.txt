@@ -953,6 +953,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_police_car_experiment  } prerequisite = { focus = SAO_sneak_into_the_junta  } prerequisite = { focus = SAO_lagarantiasoyjo  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BEM_change_focus_tree
+
+			hidden_effect = {
+				load_focus_tree = sao-phase-two
+				set_cosmetic_tag = SAO_SCR
+			}
+		}
 	}
 
 	#Invest in the Triangle
@@ -972,9 +980,9 @@ focus_tree = {
 			add_opinion_modifier = { target = JUN modifier = large_increase }
 			add_opinion_modifier = { target = LAM modifier = large_increase }
 			add_opinion_modifier = { target = BEM modifier = large_increase }
-			add_opinion_modifier = { target =JAG modifier = large_increase }
-			add_opinion_modifier = { target =CRJ modifier = large_increase }
-			add_opinion_modifier = { target =BRA modifier = medium_decrease}
+			add_opinion_modifier = { target = JAG modifier = large_increase }
+			add_opinion_modifier = { target = CRJ modifier = large_increase }
+			add_opinion_modifier = { target = BRA modifier = medium_decrease}
 			
 			UBA = {
 			add_equipment_to_stockpile = {

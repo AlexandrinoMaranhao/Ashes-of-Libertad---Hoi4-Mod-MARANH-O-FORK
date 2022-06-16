@@ -642,7 +642,7 @@ spriteType ={
     texturefile = "gfx/interface/ideas/anti_castro.dds"
 } 
 		
-spriteType ={ #ACR_suspicious_government
+spriteType ={ #Sus?Amongus?
     name = "GFX_idea_ACR_suspicious_government"
     texturefile = "gfx/interface/ideas/ACR_suspicious_government.dds"
 } 
@@ -655,6 +655,22 @@ spriteType ={
 spriteType ={
     name = "GFX_idea_ACR_guerilla_tactics"
     texturefile = "gfx/interface/ideas/ACR_guerilla_tactics.dds"
+} 
+spriteType ={
+    name = "GFX_idea_ACR_country_of_soldiers"
+    texturefile = "gfx/interface/ideas/militiaArmyAcre.dds"
+} 
+spriteType ={
+    name = "GFX_idea_ACR_country_of_soldiers1"
+    texturefile = "gfx/interface/ideas/militiaArmyAcre.dds"
+} 
+spriteType ={
+    name = "GFX_idea_ACR_state_of_emergency_declared"
+    texturefile = "gfx/interface/ideas/fallout.dds"
+} 
+spriteType ={
+    name = "GFX_idea_ACR_cassinos_rio_branco"
+    texturefile = "gfx/interface/ideas/ACR_cassinos_rio_branco.dds"
 } 
      
 spriteType ={

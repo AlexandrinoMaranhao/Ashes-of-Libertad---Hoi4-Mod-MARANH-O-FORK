@@ -1963,7 +1963,7 @@ ACR_che_war_category = {
 			has_war_with = ERN
           }
           is_good = yes                                      
-          days_mission_timeout = 120           
+          days_mission_timeout = 250           
           timeout_effect = {   
 			white_peace = ERN
 			BOL = {

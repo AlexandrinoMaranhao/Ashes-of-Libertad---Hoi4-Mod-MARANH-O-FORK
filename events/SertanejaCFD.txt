@@ -219,7 +219,7 @@ country_event = {
 }
 
 
-country_event = { #The Hell Battalion comes from Dust Fall
+country_event = { #The Hell Battalion returns from Piaui
     id = CFD_events.1
     title = CFD_events.1.t
     desc = CFD_events.1.d
@@ -230,6 +230,25 @@ country_event = { #The Hell Battalion comes from Dust Fall
         name = CFD_events.1.a
 		CFD = {
 			set_country_flag = portella_alive
+			country_event = {
+				id = CFD_events.2	
+				days = 7
+			}
+		}
+    }
+}
+
+country_event = { #Portella and Miguel
+    id = CFD_events.2
+    title = CFD_events.2.t
+    desc = CFD_events.2.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_events.2.a
+		CFD = {
+			set_country_flag = begin_piaui_frontier
 		}
     }
 }
