@@ -157,13 +157,13 @@ CFD_piaui_frontier = {
 					state = 8
 					num_provinces = 4
 					on_win = CFD_operations.1
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.1
 				}
 				defender = {
 					state = 575
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.1
 					on_cancel = CFD_operations.1
 				}
@@ -211,13 +211,13 @@ CFD_piaui_frontier = {
 					state = 575
 					num_provinces = 1
 					on_win = CFD_operations.2
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.2
 				}
 				defender = {
 					state = 577
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.2
 					on_cancel = CFD_operations.2
 				}
@@ -265,13 +265,13 @@ CFD_piaui_frontier = {
 					state = 577
 					num_provinces = 1
 					on_win = CFD_operations.3
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.3
 				}
 				defender = {
 					state = 576
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.3
 					on_cancel = CFD_operations.3
 				}
@@ -319,13 +319,13 @@ CFD_piaui_frontier = {
 					state = 577
 					num_provinces = 1
 					on_win = CFD_operations.4
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.4
 				}
 				defender = {
 					state = 578
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.4
 					on_cancel = CFD_operations.4
 				}
@@ -373,13 +373,13 @@ CFD_piaui_frontier = {
 					state = 578
 					num_provinces = 1
 					on_win = CFD_operations.5
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.5
 				}
 				defender = {
 					state = 579
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.5
 					on_cancel = CFD_operations.5
 				}
@@ -427,13 +427,13 @@ CFD_piaui_frontier = {
 					state = 578
 					num_provinces = 1
 					on_win = CFD_operations.6
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.6
 				}
 				defender = {
 					state = 580
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.6
 					on_cancel = CFD_operations.6
 				}
@@ -481,13 +481,13 @@ CFD_piaui_frontier = {
 					state = 580
 					num_provinces = 1
 					on_win = CFD_operations.7
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.7
 				}
 				defender = {
 					state = 16
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.7
 					on_cancel = CFD_operations.7
 				}
@@ -535,13 +535,13 @@ CFD_piaui_frontier = {
 					state = 580
 					num_provinces = 1
 					on_win = CFD_operations.8
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.8
 				}
 				defender = {
 					state = 582
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.8
 					on_cancel = CFD_operations.8
 				}
@@ -589,13 +589,13 @@ CFD_piaui_frontier = {
 					state = 582
 					num_provinces = 1
 					on_win = CFD_operations.11
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.11
 				}
 				defender = {
 					state = 581
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.11
 					on_cancel = CFD_operations.11
 				}
@@ -643,13 +643,13 @@ CFD_piaui_frontier = {
 					state = 582
 					num_provinces = 1
 					on_win = CFD_operations.10
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.10
 				}
 				defender = {
 					state = 583
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.10
 					on_cancel = CFD_operations.10
 				}
@@ -700,13 +700,13 @@ CFD_piaui_frontier = {
 					state = 582
 					num_provinces = 1
 					on_win = CFD_operations.9
-					on_lose = CFD_operation_failure.1.1
+					on_lose = CFD_operation_failure.1
 					on_cancel = CFD_operations.9
 				}
 				defender = {
 					state = 584
 					num_provinces = 1
-					on_win = CFD_operation_failure.1.1
+					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.9
 					on_cancel = CFD_operations.9
 				}
