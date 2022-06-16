@@ -25,7 +25,6 @@ Samuel de Houston-Braganza
 The Wild West Pyro
 TheBrazilianGuy
 Vanilla Price
-Duek
 Ace
 Captain-General Blue
 Josefino
@@ -41,6 +40,7 @@ Trun'
 
 #HONORABLE MENTIONS:
 #EX-MEMBERS
+Duek
 Antonio 'antonioseg5436' Segtowick
 Luc
 Mira

@@ -472,7 +472,7 @@ focus_tree = {
 	#Tour the Farmsteads
 	focus = {
 		id = SAO_tour_the_farmsteads
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_tuor_the_farmsteads
 		x = 23
 		y = 1
 		cost = 3
@@ -492,7 +492,7 @@ focus_tree = {
 	#Crush the Occupiers
 	focus = {
 		id = SAO_crush_the_occupiers
-		icon = GFX_goal_unknown
+		icon = SAO_crush_the_occupiers
 		x = 21
 		y = 1
 		cost = 3
@@ -693,7 +693,7 @@ focus_tree = {
 	#The MST
 	focus = {
 		id = SAO_the_mst
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_the_mst
 		x = 22
 		y = 0
 		cost = 1
@@ -713,7 +713,7 @@ focus_tree = {
 	#Agricultural Revival
 	focus = {
 		id = SAO_agricultural_revival
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_agricultural_revival
 		x = 22
 		y = 2
 		cost = 1
@@ -735,7 +735,7 @@ focus_tree = {
 	#The Addictive White Dust
 	focus = {
 		id = SAO_the_addictive_white_dust
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_the_adictive_white_dust
 		x = 21
 		y = 3
 		cost = 3
@@ -758,7 +758,7 @@ focus_tree = {
 	#Brown Gold
 	focus = {
 		id = SAO_brown_gold
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_brown_gold
 		x = 23
 		y = 3
 		cost = 3
@@ -793,7 +793,7 @@ focus_tree = {
 	#Piracicaba Que Eu Adoro Tanto
 	focus = {
 		id = SAO_piracicaba_que_eu_adoro_tanto
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_piracicaba_que_eu_adoro_tanto
 		x = 21
 		y = 4
 		cost = 3
@@ -815,7 +815,7 @@ focus_tree = {
 	#Found the Air-Café
 	focus = {
 		id = SAO_foundtheaircafe
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_air_cafe
 		x = 23
 		y = 4
 		cost = 3
@@ -838,7 +838,7 @@ focus_tree = {
 	#The Paulista Autarky
 	focus = {
 		id = SAO_the_paulista_autarky
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_paulista_autarky
 		x = 22
 		y = 5
 		cost = 2
