@@ -940,4 +940,40 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 
+	SpriteType = {
+		name = "GFX_SAO_fan_the_flames_of_revolution"
+		texturefile = "gfx/interface/goals/SAO_fan_the_flames_of_revolution.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAO_fan_the_flames_of_revolution_shine"
+		texturefile = "gfx/interface/goals/SAO_fan_the_flames_of_revolution.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_fan_the_flames_of_revolution.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_fan_the_flames_of_revolution.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
 }
