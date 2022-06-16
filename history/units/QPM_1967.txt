@@ -17,11 +17,11 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
-	division = {
-		name = "Protetores de Deus"
-		location = 1114
-		division_template = "Infantaria de Deus"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
+	#division = {
+	#	name = "Protetores de Deus"
+	#	location = 1114
+	#	division_template = "Infantaria de Deus"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 0.9
+	#}
 }
