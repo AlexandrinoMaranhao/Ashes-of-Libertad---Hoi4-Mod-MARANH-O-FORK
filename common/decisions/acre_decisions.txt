@@ -1,6 +1,6 @@
 ACR_debug = {
 	ACR_toggle_war_train_category = {
-		allowed = {
+		available = {
 			has_idea = the_acrean_constitution
 		}
 		visible = {

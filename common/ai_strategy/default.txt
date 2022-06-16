@@ -687,16 +687,16 @@ default_stockpile_management = {
 
 dont_build_capitals_if_on_treaty = {
 	enable = {
-		
 		not = {
 			OR = {
 				original_tag = JAP
-				original_tag = ITA
+				original_tag = SAO
 			}
 		}
 	}
 
 	abort = {
+		num_divisions < 130
 	}
 
 	ai_strategy = {
@@ -719,17 +719,6 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = {
-			OR = {
-				tag = GER
-				tag = ENG
-				tag = SOV
-				tag = ITA
-				tag = JAP
-				tag = USA
-				tag = POL
-			}
-		}
 		date < 1940.1.1
 	}
 	abort = {
@@ -781,17 +770,6 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = {
-			OR = {
-				tag = GER
-				tag = ENG
-				tag = SOV
-				tag = ITA
-				tag = JAP
-				tag = USA
-				tag = POL
-			}
-		}
 		date > 1940.1.1
 	}
 

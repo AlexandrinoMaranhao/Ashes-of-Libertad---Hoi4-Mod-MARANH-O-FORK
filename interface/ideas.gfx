@@ -641,6 +641,39 @@ spriteType ={
     name = "GFX_idea_anti_castro"
     texturefile = "gfx/interface/ideas/anti_castro.dds"
 } 
+		
+spriteType ={ #ACR_suspicious_government
+    name = "GFX_idea_ACR_suspicious_government"
+    texturefile = "gfx/interface/ideas/ACR_suspicious_government.dds"
+} 
+		
+spriteType ={
+    name = "GFX_idea_ACR_old_war_tactics"
+    texturefile = "gfx/interface/ideas/ACR_old_war_tactics.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ACR_guerilla_tactics"
+    texturefile = "gfx/interface/ideas/ACR_guerilla_tactics.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_the_red_menace_demil"
+    texturefile = "gfx/interface/ideas/the_red_menace.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ACR_junta_dependent"
+    texturefile = "gfx/interface/ideas/ACR_junta_dependent.dds"
+} 
+spriteType ={
+    name = "GFX_idea_ACR_proving_our_worth"
+    texturefile = "gfx/interface/ideas/ACR_proving_our_worth.dds"
+} 
+spriteType ={
+    name = "GFX_idea_ACR_trained_civilians"
+    texturefile = "gfx/interface/ideas/ACR_trained_civilians.dds"
+} 
      
 spriteType ={
     name = "GFX_idea_ACR_tappers_protest"

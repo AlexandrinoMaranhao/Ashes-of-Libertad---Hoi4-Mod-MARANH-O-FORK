@@ -652,6 +652,70 @@ change_social_laws = {
 
 generic_like_tno_or_smth = {
 	
+	take_the_xingu_national_park = {
+		activation = {
+			AND = {
+				ROOT = {
+					controls_state = 150
+				}
+				NOT = {has_idea = the_xingu_national_park}
+			}
+		}
+		available = {
+			ROOT = {
+				controls_state = 150
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					ROOT = {
+						controls_state = 150
+					}
+				}
+				has_idea = the_xingu_national_park
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		complete_effect = {
+			add_ideas = the_xingu_national_park
+		}
+	}
+	
+	take_cachimbo = {
+		activation = {
+			AND = {
+				ROOT = {
+					controls_state = 471
+				}
+				NOT = {has_idea = cachimbo_military_base}
+			}
+		}	
+		available = {
+			ROOT = {
+				controls_state = 471
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					ROOT = {
+						controls_state = 471
+					}
+				}
+				has_idea = cachimbo_military_base
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		complete_effect = {
+			add_ideas = cachimbo_military_base
+		}
+	}
+	
 	take_itajub = {
 		activation = {
 			AND = {
@@ -681,8 +745,6 @@ generic_like_tno_or_smth = {
 		days_mission_timeout = 7
 		complete_effect = {
 			add_ideas = GENERIC_the_itajub_arms_factory
-		}
-		timeout_effect = {
 		}
 	}
 	

@@ -215,7 +215,7 @@ country_event = {
 		y = 4
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-
+			add_ideas = ACR_junta_dependent
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -235,7 +235,7 @@ country_event = {
 		y = 4
 		relative_position_id = BEM_intro_one
 		completion_reward = {
-
+			add_ideas = ACR_proving_our_worth
 		}
 		ai_will_do = { factor = 1 }
 	}

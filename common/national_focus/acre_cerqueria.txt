@@ -327,17 +327,6 @@ shared_focus = {
 			id = 15
 		}
 		create_corps_commander = {
-			name = "Jair Bolsonaro"
-			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Bolsonaro.dds"
-	traits = {  trickster career_officer }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-			id = 16
-		}
-		create_corps_commander = {
 			name = "Domingos Botalho"
 			portrait_path = "gfx/leaders/ACR/Portrait_ACR_Domingos.dds"
 	traits = { career_officer commando }

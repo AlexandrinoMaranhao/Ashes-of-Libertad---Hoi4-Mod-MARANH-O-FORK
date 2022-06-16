@@ -42,7 +42,12 @@ ideas = {
 			}
 			
 			modifier = {
-
+				consumer_goods_factor = -0.05
+				production_speed_air_base_factor = 0.15
+				production_speed_anti_air_building_factor = 0.15
+				industrial_capacity_factory = 0.05
+				industry_air_damage_factor = -0.3
+				conversion_cost_mil_to_civ_factor = 0.3
 			}
 		}
 		quick_modernization = {

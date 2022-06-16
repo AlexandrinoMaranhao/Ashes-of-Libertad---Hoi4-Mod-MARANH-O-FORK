@@ -30,7 +30,7 @@ default = {
 	}
 }
 
-##############DON'T MESS AROUND WITH CONTINENT PORTRAITS. TENDS TO CRASH THE GAME OR GENERATE ERRORS. let me do those ;)##############
+##############DON'T MESS AROUND WITH CONTINENT PORTRAITS. TENDS TO CRASH THE GAME OR GENERATE ERRORS.##############
 
 continent = {
 	name = europe
@@ -44,6 +44,7 @@ continent = {
 			"GFX_generic_army6"
 			"GFX_generic_army7"
 			"GFX_generic_army8"
+			"GFX_generic_army9"
 		}
 	}
 	

@@ -153,8 +153,26 @@ spriteTypes = {
 		texturefile = "gfx/leaders/europe/generic_army7.dds"
 	}
 	spriteType = {
-		name = "GFX_generic_army8_small"
+		name = "GFX_generic_army7_small"
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army8"
+		texturefile = "gfx/leaders/europe/generic_army8.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army8_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_army9"
+		texturefile = "gfx/leaders/europe/generic_army9.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_army9_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_16.dds"
 	}
 	
 ###Navy Generics

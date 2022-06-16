@@ -150,7 +150,7 @@ ideas = {
 		picture = light_level_4
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea conscription_one_year_draft"}
 			default = yes
-			available = { has_war_support > 0.01 } 
+			available = { has_war_support > 0.01 is_ai = yes } 
 			level = 3
 			
 			removal_cost = -1
