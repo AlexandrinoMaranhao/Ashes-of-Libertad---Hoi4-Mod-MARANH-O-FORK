@@ -409,14 +409,15 @@ guiTypes = {
 			position = { x=0 y=0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
+			pdx_tooltip = "MENU_WIKI"
+			web_link = "https://hoi4mods.miraheze.org/wiki/Ashes_of_Libertad"
 		}
 		ButtonType = {
 			name = "forum_button"
 			position = { x=50 y=0 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
+			pdx_tooltip = "MENU_REDDIT"
 			web_link = "https://www.reddit.com/r/AshesOfLibertad/"
 		}
 		ButtonType = {
@@ -424,16 +425,16 @@ guiTypes = {
 			position = { x=100 y=0 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.reddit.com/r/AshesOfLibertad/"
+			pdx_tooltip = "MENU_DISCORD"
+			web_link = "https://discord.gg/xG89FDMgtc"
 		}
 		ButtonType = {
 			name = "twitter_button"
 			position = { x=150 y=0 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://www.reddit.com/r/AshesOfLibertad/"
+			pdx_tooltip = "MENU_YOUTUBE"
+			web_link = "https://www.youtube.com/channel/UCTLfiH0pwwokBkN9yAef6zQ"
 		}
 		ButtonType = {
 			name = "privacy_policy_button"

@@ -464,6 +464,10 @@
 #####################################################################################
 #########RULES CREATED BY AOL, IF CREATING NEW LOC, PLEASE PLACE THEM BELOW.#########
 #####################################################################################
+ MENU_DISCORD:0 "Join §YAshes of Libertad§! Discord Server"
+ MENU_REDDIT:0 "Visit the official §YAshes of Libertad§! Subreddit"
+ MENU_YOUTUBE:0 "Visit the official §YAshes of Libertad§!'s Youtube Channel"
+ MENU_WIKI:0 "Check our official Wikipage"
  
  ACR_AI_BEHAVIOR:0 "@ACR Acre's Election"
  RULE_OPTION_CURY_PATH:0 "Acre elects §YHélio Cury§!"
