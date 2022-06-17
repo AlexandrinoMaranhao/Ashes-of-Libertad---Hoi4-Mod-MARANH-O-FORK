@@ -903,7 +903,7 @@ focus_tree = {
 	#Sweep Corruption Under the Rug
 	focus = {
 		id = SAO_sweep_corruption_under_the_rug
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_sweep_corruption_under_the_rug
 		x = 17
 		y = 12
 		cost = 3
@@ -923,7 +923,7 @@ focus_tree = {
 	#Policing the City of Drizzle
 	focus = {
 		id = SAO_policing_the_city_of_drizzle
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_policing_the_city_of_drizzle
 		x = 15
 		y = 12
 		cost = 3
@@ -966,7 +966,7 @@ focus_tree = {
 	#Invest in the Triangle
 	focus = {
 		id = SAO_invest_in_the_triangle
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_invest_in_the_triangle
 		x = 19
 		y = 12
 		cost = 3
@@ -1033,7 +1033,7 @@ focus_tree = {
 	#River Highways
 	focus = {
 		id = SAO_river_highways
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_river_highways
 		x = 13
 		y = 12
 		cost = 3

@@ -3,7 +3,7 @@ spriteTypes = {
 
 
 	SpriteType = {
-		name = "GFX__shine"
+		name = "GFX_unknown_shine"
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

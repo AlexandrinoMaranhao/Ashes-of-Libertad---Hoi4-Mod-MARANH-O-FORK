@@ -1,14 +1,5 @@
 spriteTypes = {	
-
-	#### Generic continuous goal icons
-
-#  
-#	SpriteType = {
-#	name = "GFX_goal_"
-#	texturefile = "gfx/interface/goals/.dds"
-#	}	
-#    
-          
+     
 	SpriteType = {
 	name = "GFX_goal_ACR_Tappers_No_More"
 	texturefile = "gfx/interface/goals/ACR_Tappers_No_More.dds"
@@ -1453,12 +1444,7 @@ spriteTypes = {
 	name = "GFX_goal_Misfits_remake"
 	texturefile = "gfx/interface/goals/Misfits_remake.dds"	
 	}	
-		
-#	SpriteType = {
-#	name = "GFX_goal_"
-#	texturefile = "gfx/interface/goals/.dds"	
-#	}	
-#	
+
 	SpriteType = {
 	name = "GFX_goal_All_rivers_lead_to_Manaus"
 	texturefile = "gfx/interface/goals/All_rivers_lead_to_Manaus.dds"	

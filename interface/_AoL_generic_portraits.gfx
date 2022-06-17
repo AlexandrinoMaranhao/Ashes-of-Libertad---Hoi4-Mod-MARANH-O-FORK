@@ -36,6 +36,10 @@ spriteTypes = {
 		name = "GFX_idea_CFD_duarte_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/cfd_duarte.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_CFD_cid_sempaio_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/cfd_sempaio.dds"
+	}
 	
 ###El_Generico Quadrant###
 	spriteType = {
