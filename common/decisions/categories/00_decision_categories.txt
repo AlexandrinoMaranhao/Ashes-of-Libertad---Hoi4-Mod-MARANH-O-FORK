@@ -58,11 +58,16 @@ CFD_piaui_frontier = {
 	}
 }
 
-generic_like_tno_or_smth = {
+key_locations_decisions = {		#These are TNO-inspired national spirits based on important regional locations.
 	priority = 99
-	
 }
 
+COLINA_category = {
+	priority = 99
+	allowed = {
+		original_tag = RMI
+	}
+}
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 

@@ -8,6 +8,13 @@ ideas = {
 			}
 		}
 
+		CFD_the_peasant_leagues = {
+			picture = CFD_the_peasant_leagues-238388
+			allowed = {
+				original_tag = CFD
+			}
+		}
+
 		CFD_lacking_order = {
 			picture = CFD_lacking_order-238388
 			allowed = {

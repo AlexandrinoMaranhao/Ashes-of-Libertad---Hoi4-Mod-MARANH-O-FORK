@@ -38,10 +38,5 @@ set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
 
-create_country_leader = {
-	
-	name = "Artur da Costa e Silva"
-	picture = "gfx/leaders/JUN/Portrait_JUN_Costa_e_Silva.dds"
-	expire = "1999.1.1"
-	ideology = military_junta
-}
+recruit_character = JCS_Artur_da_costa_e_silva
+recruit_character = JCS_Aurelio_de_Lyra_Tavares

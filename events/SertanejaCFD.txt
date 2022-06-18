@@ -5,7 +5,7 @@ add_namespace = CFD_failometer_enabled
 add_namespace = CFD_ai
 add_namespace = CFD
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.1
     title = CFD_operations.1.t
     desc = CFD_operations.1.d
@@ -28,7 +28,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.2
     title = CFD_operations.2.t
     desc = CFD_operations.2.d
@@ -51,7 +51,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.3
     title = CFD_operations.3.t
     desc = CFD_operations.3.d
@@ -68,7 +68,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.4
     title = CFD_operations.4.t
     desc = CFD_operations.4.d
@@ -85,7 +85,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.5
     title = CFD_operations.5.t
     desc = CFD_operations.5.d
@@ -102,7 +102,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.6
     title = CFD_operations.6.t
     desc = CFD_operations.6.d
@@ -119,7 +119,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.7
     title = CFD_operations.7.t
     desc = CFD_operations.7.d
@@ -136,7 +136,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.8
     title = CFD_operations.8.t
     desc = CFD_operations.8.d
@@ -153,7 +153,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.9
     title = CFD_operations.9.t
     desc = CFD_operations.9.d
@@ -171,7 +171,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.10
     title = CFD_operations.10.t
     desc = CFD_operations.10.d
@@ -188,7 +188,7 @@ country_event = { #Operação: |Sucesso
     }
 }
 
-country_event = { #Operação: |Sucesso
+country_event = {
     id = CFD_operations.11
     title = CFD_operations.11.t
     desc = CFD_operations.11.d
@@ -249,6 +249,62 @@ country_event = { #Portella and Miguel
         name = CFD_events.2.a
 		CFD = {
 			set_country_flag = begin_piaui_frontier
+		}
+    }
+}
+
+country_event = { #Failstate stuff
+    id = CFD_failometer_enabled.1
+    title = CFD_failometer_enabled.1.t
+    desc = CFD_failometer_enabled.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    picture = x
+
+    option = {
+		trigger = {
+			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
+		}
+        name = CFD_failometer_enabled.1.a
+		
+        NUD = {
+			
+			add_opinion_modifier = { target = INT modifier = large_increase }
+			
+			load_oob = "NUD_1967"
+			transfer_state = 503
+			
+			declare_war_on = {
+                target = CFD
+                type = annex_everything
+            }
+           
+        }
+		CFD = {
+			create_wargoal = {
+				type = annex_everything
+				target = NUD
+			}
+		}
+		INT = {
+			transfer_state = 6
+			transfer_state = 4
+			transfer_state = 3
+			transfer_state = 5
+			load_oob = "INT_1967"
+			load_oob = "INT_revolutionary_divisions"
+			create_wargoal = {
+				type = annex_everything
+				target = NUD
+			}
+			declare_war_on = {
+				target = MNH
+				type = annex_everything
+			}
+			declare_war_on = {
+                target = CFD 
+                type = annex_everything
+            }
 		}
     }
 }
@@ -472,61 +528,5 @@ country_event = {
                 }
             }
         }
-    }
-}
-
-country_event = {
-    id = CFD_failometer_enabled.1
-    title = CFD_failometer_enabled.1.t
-    desc = CFD_failometer_enabled.1.d
-    fire_only_once = yes
-    is_triggered_only = yes
-    picture = x
-
-    option = {
-		trigger = {
-			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
-		}
-        name = CFD_failometer_enabled.1.a
-		
-        NUD = {
-			
-			add_opinion_modifier = { target = INT modifier = large_increase }
-			
-			load_oob = "NUD_1967"
-			transfer_state = 503
-			
-			declare_war_on = {
-                target = CFD
-                type = annex_everything
-            }
-           
-        }
-		CFD = {
-			create_wargoal = {
-				type = annex_everything
-				target = NUD
-			}
-		}
-		INT = {
-			transfer_state = 6
-			transfer_state = 4
-			transfer_state = 3
-			transfer_state = 5
-			load_oob = "INT_1967"
-			load_oob = "INT_revolutionary_divisions"
-			create_wargoal = {
-				type = annex_everything
-				target = NUD
-			}
-			declare_war_on = {
-				target = MNH
-				type = annex_everything
-			}
-			declare_war_on = {
-                target = CFD 
-                type = annex_everything
-            }
-		}
     }
 }

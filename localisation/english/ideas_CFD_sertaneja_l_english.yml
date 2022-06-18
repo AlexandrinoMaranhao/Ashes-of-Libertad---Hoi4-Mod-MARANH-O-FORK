@@ -1,6 +1,7 @@
 ﻿l_english:
 CFD_northern_anarchist_threat:0 "Northern Anarchist Threat"
 CFD_northern_anarchist_threat_desc:0 "It is no surprise to any [ROOT.GetAdjective] that Piauí has seen better days. Its recent downfall into anarchy has deeply destabilized both the [CFD.GetName] and [MNH.GetName] in terms of safety for its citizens, after all, when you are at the border with a lawless wasteland of bandits and rapists, no one can save you. Not even the most well-equipped army…"
+CFD_the_peasant_leagues:0 "The Peasant Leagues"
 CFD_lacking_order:0 "Lacking Order"
 CFD_lacking_order_desc:0 "Due to the turbulent formation of the confederacy, we lack basic structure like an official set of laws and many institutions expected from an independent nation like the one we break apart of. Brazil’s 1946 constitution is the only thing we have left from a proper organization of our own, perhaps, tweaking it, we can make a good use out of it."
 CFD_the_gateway_to_south_america:0 "The Gateway to South America"

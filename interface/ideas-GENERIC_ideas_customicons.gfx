@@ -5,5 +5,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas-ideas/GENERIC_the_itajub_arms_factory-113010.dds"
 	}
 
+	##Icon For: Boa Esperança Hydroelectric Power Plant
+	SpriteType = { 
+		name = "GFX_idea_GENERIC_boa_esperana_hydroelectric_power_plant-182318"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GENERIC_boa_esperana_hydroelectric_power_plant-182318.dds"
+	}
+
  
  }

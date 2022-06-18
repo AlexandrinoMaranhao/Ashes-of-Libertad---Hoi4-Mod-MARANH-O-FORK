@@ -16,5 +16,12 @@ industry_free_repair_factor = 0.15
 consumer_goods_factor = -0.1
 			}
 		}
+
+		GENERIC_boa_esperana_hydroelectric_power_plant = {
+			picture = GENERIC_boa_esperana_hydroelectric_power_plant-182318
+			allowed = {
+				always = yes
+			}
+		}
 	}
 }

@@ -637,9 +637,9 @@ change_social_laws = {
 	}
 }
 
-generic_like_tno_or_smth = {
+key_locations_decisions = {		#These are TNO-inspired national spirits based on important regional locations.
 	
-	take_the_camaguey_distillery = {
+	take_the_camaguey_distillery = { #Gain the Idea
 		activation = {
 			AND = {
 				ROOT = {
@@ -668,6 +668,40 @@ generic_like_tno_or_smth = {
 		days_mission_timeout = 7
 		complete_effect = {
 			add_ideas = the_camaguey_distillery
+		}
+	}
+	give_the_camaguey_distillery = { #Lose the Idea
+		activation = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 216
+					}
+				}
+				has_idea = the_camaguey_distillery
+			}
+		}
+		available = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 216
+					}
+				}
+				has_idea = the_camaguey_distillery
+			}
+		}
+		cancel_trigger = {
+			ROOT = {
+				controls_state = 216
+				has_idea = the_camaguey_distillery
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		complete_effect = {
+			remove_ideas = the_camaguey_distillery
 		}
 	}
 	
@@ -702,6 +736,40 @@ generic_like_tno_or_smth = {
 			add_ideas = the_xingu_national_park
 		}
 	}
+	give_the_xingu_national_park = {
+		activation = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 150
+					}
+				}
+				has_idea = the_xingu_national_park
+			}
+		}
+		available = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 150
+					}
+				}
+				has_idea = the_xingu_national_park
+			}
+		}
+		cancel_trigger = {
+			ROOT = {
+				controls_state = 150
+				has_idea = the_xingu_national_park
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		complete_effect = {
+			remove_ideas = the_xingu_national_park
+		}
+	}
 	
 	take_cachimbo_military_complex = {
 		activation = {
@@ -732,6 +800,40 @@ generic_like_tno_or_smth = {
 		days_mission_timeout = 7
 		complete_effect = {
 			add_ideas = cachimbo_military_base
+		}
+	}
+	give_cachimbo_military_base = {
+		activation = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 471
+					}
+				}
+				has_idea = cachimbo_military_base
+			}
+		}
+		available = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 471
+					}
+				}
+				has_idea = cachimbo_military_base
+			}
+		}
+		cancel_trigger = {
+			ROOT = {
+				controls_state = 471
+				has_idea = cachimbo_military_base
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		complete_effect = {
+			remove_ideas = cachimbo_military_base
 		}
 	}
 	
@@ -766,53 +868,104 @@ generic_like_tno_or_smth = {
 			add_ideas = GENERIC_the_itajub_arms_factory
 		}
 	}
-	
-	RMI_take_itajub_back_mission = {
-		icon = GFX_decision_icon_default
-			
+	give_the_itajub_arms_factory = {
+		activation = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 585
+					}
+				}
+				has_idea = GENERIC_the_itajub_arms_factory
+			}
+		}
 		available = {
 			AND = {
-				original_tag = RMI
-				RMI = {NOT = {controls_state = 585}}
+				ROOT = {
+					NOT = {
+						controls_state = 585
+					}
+				}
+				has_idea = GENERIC_the_itajub_arms_factory
 			}
 		}
-			
-		days_remove = 120
-			
-		fire_only_once = no
-		days_re_enable = 1
-			
-		visible = {
-			AND = {
-				original_tag = RMI
-				RMI = {NOT = {controls_state = 585}}
+		cancel_trigger = {
+			ROOT = {
+				controls_state = 585
+				has_idea = GENERIC_the_itajub_arms_factory
 			}
-		}		
-			
-		cost = 0
-			
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
 		complete_effect = {
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = 66
-					num_provinces = 4
-					on_win = SAO_operations.3
-					on_lose = SAO_operations_failure.3
-					on_cancel = SAO_operations.3
+			remove_ideas = GENERIC_the_itajub_arms_factory
+		}
+	}
+	
+	take_good_hope_hydro = {
+		activation = {
+			AND = {
+				ROOT = {
+					controls_state = 17
 				}
-				defender = {
-					state = 585
-					num_provinces = 4
-					on_win = SAO_operations_failure.3
-					on_lose = SAO_operations.3
-					on_cancel = SAO_operations.3
-				}
+				NOT = {has_idea = GENERIC_boa_esperana_hydroelectric_power_plant}
 			}
 		}
-			
-		ai_will_do = {
-			factor = 900	
+		available = {
+			ROOT = {
+				controls_state = 17
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					ROOT = {
+						controls_state = 17
+					}
+				}
+				has_idea = GENERIC_boa_esperana_hydroelectric_power_plant
+			}
+		}
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		complete_effect = {
+			add_ideas = GENERIC_boa_esperana_hydroelectric_power_plant
+		}
+	}
+	give_good_hope_hydro = {
+		activation = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 17
+					}
+				}
+				has_idea = GENERIC_boa_esperana_hydroelectric_power_plant
+			}
+		}
+		available = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 17
+					}
+				}
+				has_idea = GENERIC_boa_esperana_hydroelectric_power_plant
+			}
+		}
+		cancel_trigger = {
+			ROOT = {
+				controls_state = 17
+				has_idea = GENERIC_boa_esperana_hydroelectric_power_plant
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		complete_effect = {
+			remove_ideas = GENERIC_boa_esperana_hydroelectric_power_plant
 		}
 	}
 }

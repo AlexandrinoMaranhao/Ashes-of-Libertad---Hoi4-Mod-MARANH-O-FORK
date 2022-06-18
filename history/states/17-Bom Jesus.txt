@@ -9,11 +9,15 @@ state={
 
 		add_core_of = CFD
 		victory_points = {
-		381 5	 
+			381 5	 
 		}
 
 		victory_points = {
-		4152 5	 
+			4152 5	 
+		}
+		
+		victory_points = {
+			2493 5
 		}
 	}
 

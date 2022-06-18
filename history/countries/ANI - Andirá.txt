@@ -50,10 +50,11 @@ set_country_flag = use_generic_economy_focus
 create_country_leader = {
 	
 	name = "Tuxaua Manoelzinho"
-	picture = "gfx/leaders/ANI/Portrait_AND_Tuxuara_Manuelzinho.dds"
+	picture = "gfx/leaders/ANI/Portrait_ANI_Tuxuara_Manuelzinho.dds"
 	expire = "1999.1.1"
 	ideology = tribal
 }
+
 #Esta sociedade estrutura-se em clãs - os ywania - havendo uma hierarquia entre eles, onde o clã sateré (lagarta de fogo) sobrepuja-se aos demais, uma vez que indica os bons tuxauas. Os clãs estão presentes na cosmologia e são narrados nos mitos - saray potairia (as belas palavras dos Sateré-Mawé), e nos cantos do Waymat (ritual da tucandeira). Este ritual de passagem da puberdade para a vida adulta é o evento que tradicionalmente reúne os clãs.
 #
 #Os clãs são os seguintes: sateré (lagarta de fogo), waranã (guaraná), ywaçaí (açaí), akuri (cotia), awkuy (guariba), as’ho (tatu), iaguaretê (onça), piriwato (rato grande), akyi (morcego), mói (cobra), hwi (gavião), nhampo (pássaro do mato), uruba (urubu) e nhap (caba). Geralmente os xamãs – paini na língua sateré-mawé, são do clã mói (cobra).
