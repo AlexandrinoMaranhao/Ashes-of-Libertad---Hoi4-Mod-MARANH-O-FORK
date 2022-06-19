@@ -146,7 +146,7 @@ SAO_category = {
 		days_remove = 30
 		is_good = yes
 		fire_only_once = no
-		days_re_enable = 3
+		days_re_enable = 14
 		
 		available = {
 			SAO = {has_completed_focus = SAO_appeasing_the_elites}
@@ -176,7 +176,7 @@ SAO_category = {
 		days_remove = 14
 		is_good = yes
 		fire_only_once = no
-		days_re_enable = 7
+		days_re_enable = 14
 		
 		available = {
 			SAO = {has_completed_focus = SAO_the_unsure_revolution}
@@ -209,7 +209,7 @@ SAO_category = {
 		days_remove = 16
 		is_good = yes
 		fire_only_once = no
-		days_re_enable = 3
+		days_re_enable = 14
 		
 		available = {
 			SAO = {has_completed_focus = SAO_extinguish_militarist_hopes}
@@ -240,7 +240,7 @@ SAO_category = {
 		days_remove = 14
 		is_good = yes
 		fire_only_once = no
-		days_re_enable = 3
+		days_re_enable = 14
 		
 		available = {
 			SAO = {has_completed_focus = SAO_extinguish_militarist_hopes}
