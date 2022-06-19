@@ -253,6 +253,18 @@ country_event = { #Portella and Miguel
     }
 }
 
+country_event = { #Guerra's Letter
+    id = CFD_events.3
+    title = CFD_events.3.t
+    desc = CFD_events.3.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_events.3.a
+    }
+}
+
 country_event = { #Failstate stuff
     id = CFD_failometer_enabled.1
     title = CFD_failometer_enabled.1.t
