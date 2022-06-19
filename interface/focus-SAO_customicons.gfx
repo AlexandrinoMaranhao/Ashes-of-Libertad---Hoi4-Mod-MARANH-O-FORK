@@ -1444,17 +1444,17 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 
-	SpriteType = { #Icone
-		name = "GFX_SAO_lagarantiasoyjo" #Alterar para GFX_SAO_ICONE
-		texturefile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds" #alterar path
+	SpriteType = {
+		name = "GFX_SAO_lagarantiasoyjo"
+		texturefile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds"
 	}
 
-	SpriteType = { #Shine
-		name = "GFX_SAO_lagarantiasoyjo_shine" #alterar para GFX_SAO_ICONE_shine
+	SpriteType = {
+		name = "GFX_SAO_lagarantiasoyjo_shine"
 		texturefile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds" #alterar path
+			animationmaskfile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1466,7 +1466,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds" #alterar path
+			animationmaskfile = "gfx/interface/goals/SAO_lagarantiasoyjo.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1480,4 +1480,111 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 
+	SpriteType = { #Icone
+		name = "GFX_SAO_today_in_silvo_show" #Alterar para GFX_SAO_ICONE
+		texturefile = "gfx/interface/goals/SAO_today_in_silvo_show.dds" #alterar path
+	}
+
+	SpriteType = { #Shine
+		name = "GFX_SAO_today_in_silvo_show_shine" #alterar para GFX_SAO_ICONE_shine
+		texturefile = "gfx/interface/goals/SAO_today_in_silvo_show.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_today_in_silvo_show.dds" #alterar path
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_today_in_silvo_show.dds" #alterar path
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_SAO_the_police_car_experiemnt"
+		texturefile = "gfx/interface/goals/SAO_the_police_car_experiemnt.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAO_the_police_car_experiemnt_shine"
+		texturefile = "gfx/interface/goals/SAO_the_police_car_experiemnt.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_the_police_car_experiemnt.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_the_police_car_experiemnt.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_SAO_sneak_into_the_junta"
+		texturefile = "gfx/interface/goals/SAO_sneak_into_the_junta.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAO_sneak_into_the_junta_shine"
+		texturefile = "gfx/interface/goals/SAO_sneak_into_the_junta.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_sneak_into_the_junta.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/SAO_sneak_into_the_junta.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
 }

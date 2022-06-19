@@ -215,6 +215,21 @@ country_event = {
                 add_ideas = JUN_junta_civilwar_1
             }
             JCS = {
+				add_advisor_role = {
+					Character = JCS_Aurelio_de_Lyra_Tavares
+					advisor = {
+						slot = army_chief
+						cost = 50
+						idea_token = JCS_Aurelio_de_Lyra_Tavares
+						traits = {
+							carm_elastic_defence_doctrine
+						}
+						allowed = {
+							original_tag = JCS
+						}
+					}
+					activate = yes
+				}
                 add_equipment_to_stockpile = {
                     type = infantry_equipment
                     amount = 10000

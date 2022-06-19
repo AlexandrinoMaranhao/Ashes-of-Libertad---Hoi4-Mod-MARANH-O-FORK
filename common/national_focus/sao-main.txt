@@ -866,7 +866,7 @@ focus_tree = {
 	#The Police Car Experiment
 	focus = {
 		id = SAO_the_police_car_experiment
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_the_police_car_experiemnt
 		x = 16
 		y = 13
 		cost = 3
@@ -944,7 +944,7 @@ focus_tree = {
 	#Today, in the Silvio Santos Show...
 	focus = {
 		id = SAO_todayinthesilviosantosshow
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_today_in_silvo_show
 		x = 16
 		y = 15
 		cost = 3
@@ -1007,7 +1007,7 @@ focus_tree = {
 	#Sneak into the Junta
 	focus = {
 		id = SAO_sneak_into_the_junta
-		icon = GFX_goal_unknown
+		icon = GFX_SAO_sneak_into_the_junta
 		x = 19
 		y = 13
 		cost = 3
