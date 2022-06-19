@@ -6,6 +6,7 @@
 ################
  SAO_category:0 "Civil Administration of São Paulo"
  SAO_international_diplomacy_category:0 "Extra-Federal Relations"
+ SAO_business_with_ARG:0 "The Platean Market"
  sao_hire_prudente:0 "Rally the Police in Prudente"
  sao_hire_registro:0 "Rally the Police in Registro"
  sao_hire_marilia:0 "Rally the Police in Marília"
@@ -27,15 +28,15 @@
 ################
 # Tooltips
 ################
- SAO_appeasing_the_elites_tt:0 "Unlocks decisions to keep the §YElites§! satisfied and loyal to the Revolution."
- SAO_police_the_border_tt:0 "Unlocks the mobilization of emergency Police Battalions on the Southern Border to keep §GRepublican§! aggression at bay."
- SAO_the_coffee_and_milk_line_tt:0 "Border patrols on the Northern Border with §RMinas Gerais§! will be reinforced to detain any stragglers trying to get in or out of the state."
- SAO_the_road_to_guanabara_tt:0 "War is coming to Rio. §G\n\nWe will take a batch of decisions concerning our involvement in the impending 2nd Battle of Guanabara, they will decide whether we wish to maintain our neutrality or lean back towards either side of the Civil War. \n\nDeciding to help either side may destroy our fragile peace and throw São Paulo back in the conflict prematurely or put the State under the thumb of the Republic or the Junta again, destroying any hope for the Constitutionalist Revolution to succeed. We must walk a fine line.§!"
- SAO_new_neighbors_tt:0 "Unlocks decisions to settle immigrants in cities across the State to ease overpopulation in the capital."
- oob_sao_pica_amarela_tt:0 "Hires the Yellow-Woodpeckers Mercenary Band."
- oob_sao_des_tt:0 "Emergencial police battalions will be assembled in São Paulo to assure order and security in the streets."
- oob_sao_spec_mot_tt:0 "An experimental-fast-response-urban-motorized-police-force will be assembled in São Paulo, they shall be known as R.O.T.A."
- oob_sao_minutemen_tt:0 "The Piracicaba Minutemen will rise up in arms to defend their city."
+ SAO_appeasing_the_elites_tt:0 "\nUnlocks decisions to keep the §YElites§! satisfied and loyal to the Revolution."
+ SAO_police_the_border_tt:0 "\nUnlocks the mobilization of emergency Police Battalions on the Southern Border to keep §GRepublican§! aggression at bay."
+ SAO_the_coffee_and_milk_line_tt:0 "\nBorder patrols on the Northern Border with §RMinas Gerais§! will be reinforced to detain any stragglers trying to get in or out of the state."
+ SAO_the_road_to_guanabara_tt:0 "\nWar is coming to Rio. §G\n\nWe will take a batch of decisions concerning our involvement in the impending 2nd Battle of Guanabara, they will decide whether we wish to maintain our neutrality or lean back towards either side of the Civil War. \n\nDeciding to help either side may destroy our fragile peace and throw São Paulo back in the conflict prematurely or put the State under the thumb of the Republic or the Junta again, destroying any hope for the Constitutionalist Revolution to succeed. We must walk a fine line.§!"
+ SAO_new_neighbors_tt:0 "\nUnlocks decisions to settle immigrants in cities across the State to ease overpopulation in the capital. \n\n§RThis could have unnexpected consequences§!"
+ oob_sao_pica_amarela_tt:0 "\nHires the §YYellow-Woodpeckers Mercenary Band§!."
+ oob_sao_des_tt:0 "\nEmergencial Police Battalions will be assembled in São Paulo to assure order and security in the streets."
+ oob_sao_spec_mot_tt:0 "\nAn experimental-fast-response-urban-motorized-police-force will be assembled in São Paulo, they shall be known as §YR.O.T.A.§!"
+ oob_sao_minutemen_tt:0 "\nThe §BPiracicaba Minutemen§! will rise up in arms to defend their city."
 
 ################
 # OOBs

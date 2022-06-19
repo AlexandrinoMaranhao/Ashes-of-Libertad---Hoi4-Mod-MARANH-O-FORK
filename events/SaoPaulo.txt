@@ -6,9 +6,346 @@ add_namespace = SAO_ROAD_TO_GUANABARA
 add_namespace = SAO_MARIGHELLA
 add_namespace = SAO_operations
 add_namespace = SAO_operations_failure
+add_namespace = SAO_Focus_Tree_Events
+add_namespace = SAO_dear_big_brother
 
+
+###Focus Tree Events
+
+country_event = { #"Under New Manadgement"
+    id = SAO_Focus_Tree_Events.1
+    title = SAO_Focus_Tree_Events.1.t
+    desc = SAO_Focus_Tree_Events.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.1.A
+    }
+}
+
+country_event = { #"Intro Event 1"
+    id = SAO_Focus_Tree_Events.2
+    title = SAO_Focus_Tree_Events.2.t
+    desc = SAO_Focus_Tree_Events.2.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.2.A
+    }
+}
+
+country_event = { #"Intro Event 2 GOOD"
+    id = SAO_Focus_Tree_Events.3
+    title = SAO_Focus_Tree_Events.3.t
+    desc = SAO_Focus_Tree_Events.3.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.3.A
+    }
+}
+
+country_event = { #"Intro Event 1 BAD"
+    id = SAO_Focus_Tree_Events.4
+    title = SAO_Focus_Tree_Events.4.t
+    desc = SAO_Focus_Tree_Events.4.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.4.A
+    }
+}
+
+country_event = { #"A Esperança Desse Povo Abandonado"
+    id = SAO_Focus_Tree_Events.5
+    title = SAO_Focus_Tree_Events.5.t
+    desc = SAO_Focus_Tree_Events.5.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.5.A
+    }
+}
+
+country_event = { #"The Situation is Under Control"
+    id = SAO_Focus_Tree_Events.6
+    title = SAO_Focus_Tree_Events.6.t
+    desc = SAO_Focus_Tree_Events.6.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.6.A
+    }
+}
+
+country_event = { #"All Quiet in the Eastern Front"
+    id = SAO_Focus_Tree_Events.7
+    title = SAO_Focus_Tree_Events.7.t
+    desc = SAO_Focus_Tree_Events.7.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.7.A
+    }
+}
+
+country_event = { #"The Governor and the General"
+    id = SAO_Focus_Tree_Events.8
+    title = SAO_Focus_Tree_Events.8.t
+    desc = SAO_Focus_Tree_Events.8.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.8.A
+    }
+}
+
+country_event = { #"The Hero of Pindamonhangaba"
+    id = SAO_Focus_Tree_Events.9
+    title = SAO_Focus_Tree_Events.9.t
+    desc = SAO_Focus_Tree_Events.9.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.9.A
+
+        hidden_effect = { SAO = { country_event = {id = SAO_MARIGHELLA.2 days = 15 }}}
+    }
+}
+country_event = { #"RELATÓRIO 00135 - Escalação em Taubaté"
+    id = SAO_Focus_Tree_Events.10
+    title = SAO_Focus_Tree_Events.10.t
+    desc = SAO_Focus_Tree_Events.10.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.10.A
+    }
+}
+country_event = { #"Guerrilla Campaigning"
+    id = SAO_Focus_Tree_Events.11
+    title = SAO_Focus_Tree_Events.11.t
+    desc = SAO_Focus_Tree_Events.11.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.11.A
+        hidden_effect = { SAO = { country_event = {id = SAO_MARIGHELLA.3 days = 15 }}}
+    }
+}
+country_event = { #"O Baú da Felicidade!"
+    id = SAO_Focus_Tree_Events.12
+    title = SAO_Focus_Tree_Events.12.t
+    desc = SAO_Focus_Tree_Events.12.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.12.A
+    }
+}
+country_event = { #"Dear Big Brother"
+    id = SAO_Focus_Tree_Events.13
+    title = SAO_Focus_Tree_Events.13.t
+    desc = SAO_Focus_Tree_Events.13.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.13.A
+    }
+
+    option = {
+        name = SAO_Focus_Tree_Events.13.B
+
+        hidden_effect = { SAO = { country_event = {id = SAO_dear_big_brother.1 days = 0 }}}
+    }
+}
+
+country_event = { #"The General Exposed"
+    id = SAO_dear_big_brother.1
+    title = SAO_dear_big_brother.1.t
+    desc = SAO_dear_big_brother.1.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_dear_big_brother.1.A
+    }
+}
+
+country_event = { #"Goodbye Mr. Blue Sky"
+    id = SAO_Focus_Tree_Events.14
+    title = SAO_Focus_Tree_Events.14.t
+    desc = SAO_Focus_Tree_Events.14.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.14.A
+        hidden_effect = { SAO = { country_event = {id = SAO_MARIGHELLA.4 days = 15 }}}
+    }
+}
+country_event = { #"More Urgent Matters"
+    id = SAO_Focus_Tree_Events.15
+    title = SAO_Focus_Tree_Events.15.t
+    desc = SAO_Focus_Tree_Events.15.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.15.A
+    }
+}
+country_event = { #"RELATÓRIO 00344 - Base Aérea de Botucatu"
+    id = SAO_Focus_Tree_Events.16
+    title = SAO_Focus_Tree_Events.16.t
+    desc = SAO_Focus_Tree_Events.16.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.16.A
+    }
+}
+country_event = { #"Cheia de Flores, Cheia de Encantos"
+    id = SAO_Focus_Tree_Events.17
+    title = SAO_Focus_Tree_Events.17.t
+    desc = SAO_Focus_Tree_Events.17.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.17.A
+    }
+}
+country_event = { #"The Legs of the Revolution"
+    id = SAO_Focus_Tree_Events.18
+    title = SAO_Focus_Tree_Events.18.t
+    desc = SAO_Focus_Tree_Events.18.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.18.A
+    }
+}
+country_event = { #"Bigger Things to Worry"
+    id = SAO_Focus_Tree_Events.19
+    title = SAO_Focus_Tree_Events.19.t
+    desc = SAO_Focus_Tree_Events.19.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.19.A
+    }
+}
+country_event = { #"The Partnership of the Century"
+    id = SAO_Focus_Tree_Events.20
+    title = SAO_Focus_Tree_Events.20.t
+    desc = SAO_Focus_Tree_Events.20.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.20.A
+    }
+}
+country_event = { #"Heavy gunfire reported in República."
+    id = SAO_Focus_Tree_Events.21
+    title = SAO_Focus_Tree_Events.21.t
+    desc = SAO_Focus_Tree_Events.21.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.21.A
+    }
+}
+country_event = { #"The Poet Warrior"
+    id = SAO_Focus_Tree_Events.22
+    title = SAO_Focus_Tree_Events.22.t
+    desc = SAO_Focus_Tree_Events.22.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.22.A
+    }
+}
+country_event = { #"The Smirk Under the Smile"
+    id = SAO_Focus_Tree_Events.23
+    title = SAO_Focus_Tree_Events.23.t
+    desc = SAO_Focus_Tree_Events.23.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.23.A
+    }
+}
+country_event = { #"Tabajara Organizations"
+    id = SAO_Focus_Tree_Events.24
+    title = SAO_Focus_Tree_Events.24.t
+    desc = SAO_Focus_Tree_Events.24.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.24.A
+        hidden_effect = { SAO = { country_event = {id = SAO_MARIGHELLA.5 days = 15 }}}
+    }
+}
+country_event = { #"The Interview of the Century"
+    id = SAO_Focus_Tree_Events.25
+    title = SAO_Focus_Tree_Events.25.t
+    desc = SAO_Focus_Tree_Events.25.d
+    picture = x
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.25.A
+    }
+}
 ###OPERATIONS AND FAILURES
-
 
 country_event = { #Itajubá Arms Factory
     id = SAO_operations.1
@@ -292,6 +629,58 @@ country_event = { #Marighella escapes prision
 
     option = {
         name = SAO_MARIGHELLA.1.A
+    }
+}
+
+country_event = { #
+    id = SAO_MARIGHELLA.2
+    title = SAO_MARIGHELLA.2.t
+    desc = SAO_MARIGHELLA.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_MARIGHELLA.2.A
+    }
+}
+
+country_event = { #
+    id = SAO_MARIGHELLA.3
+    title = SAO_MARIGHELLA.3.t
+    desc = SAO_MARIGHELLA.3.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_MARIGHELLA.3.A
+    }
+}
+
+country_event = { #
+    id = SAO_MARIGHELLA.4
+    title = SAO_MARIGHELLA.4.t
+    desc = SAO_MARIGHELLA.4.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_MARIGHELLA.4.A
+    }
+}
+
+country_event = { #
+    id = SAO_MARIGHELLA.5
+    title = SAO_MARIGHELLA.5.t
+    desc = SAO_MARIGHELLA.5.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_MARIGHELLA.5.A
     }
 }
 
