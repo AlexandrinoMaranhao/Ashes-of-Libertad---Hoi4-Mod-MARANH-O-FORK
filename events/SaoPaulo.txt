@@ -16,7 +16,7 @@ country_event = { #"Under New Manadgement"
     id = SAO_Focus_Tree_Events.1
     title = SAO_Focus_Tree_Events.1.t
     desc = SAO_Focus_Tree_Events.1.d
-    picture = x
+    picture = GFX_report_event_dr_nogueira
     fire_only_once = no
     is_triggered_only = yes
 
@@ -68,7 +68,7 @@ country_event = { #"A Esperança Desse Povo Abandonado"
     id = SAO_Focus_Tree_Events.5
     title = SAO_Focus_Tree_Events.5.t
     desc = SAO_Focus_Tree_Events.5.d
-    picture = x
+    picture = GFX_report_event_the_last_hope
     fire_only_once = no
     is_triggered_only = yes
 
