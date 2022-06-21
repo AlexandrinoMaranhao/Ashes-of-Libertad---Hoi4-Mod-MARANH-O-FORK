@@ -76,14 +76,16 @@ focus_tree = {
 			custom_effect_tooltip = SAO_the_road_to_guanabara_tt
 			
 			hidden_effect = {
-        country_event = {
-            id = SAO_ROAD_TO_GUANABARA.1
-            days = 0
-        }
-
+				country_event = {
+					id = SAO_ROAD_TO_GUANABARA.1
+					days = 0
+				}
+				country_event = {
+					id = SAO_ROAD_TO_GUANABARA.4
+					days = 7
+				}
 			}
 		}
-
 	}
 
 	#The Second Constitutionalist Revolution is...

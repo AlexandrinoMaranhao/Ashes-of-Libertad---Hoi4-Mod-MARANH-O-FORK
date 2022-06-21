@@ -598,6 +598,28 @@ country_event = { #Road to Guanabara event 3
     }
 }
 
+country_event = { #The Choice.
+    id = SAO_ROAD_TO_GUANABARA.4
+    title = SAO_ROAD_TO_GUANABARA.4.t
+    desc = SAO_ROAD_TO_GUANABARA.4.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = { #Marighella
+        name = SAO_ROAD_TO_GUANABARA.4.A
+		set_country_flag = SAO_marighella_path
+    }
+    option = { #Figueiredo
+        name = SAO_ROAD_TO_GUANABARA.4.B
+		set_country_flag = SAO_figueiredo_path
+    }
+    #option = { #Quadros
+    #    name = SAO_ROAD_TO_GUANABARA.4.C
+    #    set_country_flag = SAO_quadros_path
+    #}
+}
+
 country_event = {
     id = SAO_MST_SPAWN.1
     title = SAO_MST_SPAWN.1.t
