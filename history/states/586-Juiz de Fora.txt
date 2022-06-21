@@ -1,22 +1,20 @@
-
 state={
-	id=65
-	name="STATE_65"
-
+	id=586
+	name="STATE_586"
+	provinces={
+		4589 
+	}
 	history={
 		owner = RMI
 		add_core_of = RMI
+		add_core_of = CRJ
 		victory_points = {
-			1215 10 
+			4589 10
 		}
 
 	}
-
-	provinces={
-		4503 4509 4525 4532 4544 
-	}
-	manpower=965394
+	manpower=27389
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+	state_category=rural
 }

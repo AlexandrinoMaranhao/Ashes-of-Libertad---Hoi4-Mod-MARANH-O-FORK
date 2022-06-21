@@ -1,17 +1,12 @@
+
 state={
 	id=464
 	name="STATE_464"
-	provinces={
-		294 565 761 1181 2130 2622 4527 4572 4573 4589 4604 
-	}
-	manpower=60493
-	buildings_max_level_factor=1.000
-        state_category=town
+
 	history={
 		owner = RMI
 		add_core_of = RMI
-        add_core_of = CRJ
-
+		add_core_of = CRJ
 		victory_points = {
 			4589 20 
 		}
@@ -23,4 +18,12 @@ state={
 		}
 
 	}
+
+	provinces={
+		294 565 761 1181 2130 2622 4527 4572 4573 4604 
+	}
+	manpower=60493
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

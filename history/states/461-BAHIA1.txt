@@ -15,7 +15,7 @@ state={
 			industrial_complex = 1
 
 		}
-		owner = CNU
+		owner = RPB
 		add_core_of = CNU
         add_core_of = RPB
         add_core_of = LAM

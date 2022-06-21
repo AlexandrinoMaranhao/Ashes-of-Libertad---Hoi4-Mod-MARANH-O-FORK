@@ -74,6 +74,10 @@ country_event = { #"A Esperança Desse Povo Abandonado"
 
     option = {
         name = SAO_Focus_Tree_Events.5.A
+        add_popularity = {
+    ideology = fascism
+    popularity = -0.1
+}
     }
 }
 
