@@ -70,6 +70,14 @@ SAO_category = {
 
 		cost = 25
 
+		highlight_states = {
+    highlight_state_targets = {
+        state = 34
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
 		complete_effect = {
 			load_oob = "SAO_PR"
 			add_manpower = -1000
@@ -99,6 +107,14 @@ SAO_category = {
 		}		
 
 		cost = 25
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 567
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
 
 		complete_effect = {
 			load_oob = "SAO_REG"
@@ -130,6 +146,13 @@ SAO_category = {
 
 		cost = 25
 
+		highlight_states = {
+    highlight_state_targets = {
+        state = 568
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
 		complete_effect = {
 			load_oob = "SAO_MAR"
 			add_manpower = -1000
@@ -478,6 +501,15 @@ SAO_category = {
 		visible = {
 			SAO = {has_completed_focus = SAO_crush_the_occupiers}
 		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 502
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
 		complete_effect = {
 			
 			start_border_war = {
@@ -523,6 +555,15 @@ SAO_category = {
 		visible = {
 			SAO = {has_completed_focus = SAO_crush_the_occupiers}
 		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 32
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
 		complete_effect = {
 			
 			start_border_war = {
@@ -569,6 +610,15 @@ SAO_category = {
 		visible = {
 			SAO = {has_completed_focus = SAO_crush_the_occupiers}
 		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 35
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
 		complete_effect = {
 			
 			start_border_war = {
@@ -646,16 +696,17 @@ SAO_international_diplomacy_category = {
 	##Remember to add more c:
 	sao_institutions_remover = {
 		cost = 2
+		days_remove = 30
 		fire_only_once = yes
 		visible = {
 			AND = {
-				SAO = {has_completed_focus = SAO_eye_to_eye_with_the_republic }
+				SAO = {has_completed_focus = SAO_figueiredosreforms }
 				original_tag = SAO
 			}
 		}
 		available = {
 			AND = {
-				SAO = {has_completed_focus = SAO_eye_to_eye_with_the_republic }
+				SAO = {has_completed_focus = SAO_figueiredosreforms }
 				original_tag = SAO
 			}
 		}

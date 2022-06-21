@@ -37,7 +37,9 @@
  oob_sao_des_tt:0 "\nEmergencial Police Battalions will be assembled in São Paulo to assure order and security in the streets."
  oob_sao_spec_mot_tt:0 "\nAn experimental-fast-response-urban-motorized-police-force will be assembled in São Paulo, they shall be known as §YR.O.T.A.§!"
  oob_sao_minutemen_tt:0 "\nThe §BPiracicaba Minutemen§! will rise up in arms to defend their city."
-
+ the_devil_has_escaped_the_bottle_tt:0 "§RThe Devil is Out of the Bottle§!"
+ SAO_figueiredosreforms_tt:0 "\nUnlocks decisions sever any ties left between the §YRevolutionary Constitutionalist Army§! and the old Brazilian military, making our institutions completely independent."
+ SAO_crush_the_occupiers_tt:0 "Options to deal with the §RMST§! will become available."
 ################
 # OOBs
 ################

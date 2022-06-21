@@ -512,6 +512,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_a_army_in_name_only  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+
+		custom_effect_tooltip = SAO_figueiredosreforms_tt
+		}
 	}
 
 	#Protecting the Rich
@@ -581,7 +585,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			
-			
+			custom_effect_tooltip = SAO_crush_the_occupiers_tt
 			
 		}
 	}
@@ -863,6 +867,8 @@ focus_tree = {
 		completion_reward = {
 
 			29 = {
+
+				add_manpower = 375
 			add_building_construction = {
 			    type = industrial_complex
 			    level = 2
@@ -888,7 +894,7 @@ focus_tree = {
 
 
 			30 = {
-				add_manpower = 1000
+				add_manpower = 573
 				set_building_level = {
 				    type = infrastructure
 				    level = 2

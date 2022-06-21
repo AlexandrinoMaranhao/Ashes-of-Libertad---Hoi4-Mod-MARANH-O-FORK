@@ -88,6 +88,14 @@ drift_defence_factor = 0.15
 
 		SAO_movimento_sem_terra_movement = {
 			picture = GEN_movimento_sem_terra_movement-213988
+			
+			cancel = {
+			SAO = {
+    			controls_state = 502
+    			controls_state = 32
+    			controls_state = 35
+				}
+			}
 			modifier = {
 				stability_factor = -0.2
 				stability_weekly = -0.02

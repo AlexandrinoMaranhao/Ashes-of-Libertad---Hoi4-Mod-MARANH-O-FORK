@@ -2,7 +2,21 @@ spriteTypes = {
 
 	### categories
 	##AoL
+	spriteType = {
+		name = "GFX_decision_category_SAO_category"
+		texturefile = "gfx/interface/decisions/decision_category_civil_administration.dds"
+	}
 					
+	spriteType = {
+		name = "GFX_decision_category_SAO_cat_and_mouse_category"
+		texturefile = "gfx/interface/decisions/decision_category_cat_and_mouse.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_category_SAO_international_diplomacy_category"
+		texturefile = "gfx/interface/decisions/decision_category_extra_federal_sp.dds"
+	}
+										
 	spriteType = {
 		name = "GFX_piaui_frontier"
 		texturefile = "gfx/interface/decisions/piaui_frontier.dds"
