@@ -736,7 +736,7 @@ focus_tree = {
 		icon = GFX_SAO_embrace_junta_deserters
 		x = 10
 		y = 1
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -764,7 +764,7 @@ focus_tree = {
 		icon = GFX_SAO_fan_the_flames_of_revolution
 		x = 12
 		y = 1
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -778,7 +778,7 @@ focus_tree = {
 		icon = GFX_SAO_the_juntas_posterboy
 		x = 11
 		y = 2
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -788,7 +788,7 @@ focus_tree = {
 		completion_reward = {
 
 				country_event = {
-					id = SAO_Focus_Tree_Events.25
+					id = SAO.200
 					days = 0
 				}
 
@@ -801,7 +801,7 @@ focus_tree = {
 		icon = GFX_SAO_brace_for_the_storm
 		x = 11
 		y = 3
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1115,6 +1115,11 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			custom_effect_tooltip = BEM_change_focus_tree
+
+				country_event = {
+					id = SAO_Focus_Tree_Events.25
+					days = 0
+				}
 
 			hidden_effect = {
 				load_focus_tree = sao-phase-two
