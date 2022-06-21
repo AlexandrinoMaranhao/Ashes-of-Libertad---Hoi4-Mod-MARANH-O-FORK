@@ -680,11 +680,10 @@ focus_tree = {
 			SAO = {has_completed_focus = SAO_the_paulista_autarky }
 		}
 		completion_reward = {
-
-				country_event = {
-					id = SAO_Focus_Tree_Events.14
-					days = 0
-				}
+			country_event = {
+				id = SAO_Focus_Tree_Events.14
+				days = 0
+			}
 
 			swap_ideas = {
 			    remove_idea = trade_scope_closed_economy
@@ -721,12 +720,10 @@ focus_tree = {
 			has_global_flag = juntahasfallen
 		}
 		completion_reward = {
-
-
-				country_event = {
-					id = SAO_Focus_Tree_Events.15
-					days = 0
-				}
+			country_event = {
+				id = SAO_Focus_Tree_Events.15
+				days = 0
+			}
 		}
 	}
 
@@ -743,12 +740,15 @@ focus_tree = {
 		prerequisite = { focus = SAO_the_fall_of_the_white_castle  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			
+			custom_effect_tooltip = SAO_trolling_junta_tt
+			
 			JUN = {
 				retire_character = BRA_euryale_de_jesus_zerbini
+				add_manpower = -10000
 			}
-			
 			SAO = {
-			
+				add_manpower = 10000
 			    set_portraits = {
 			        character = SAO_euryale_de_jesus_zerbini
 			        army = { small ="GFX_generic_army6_small" }
@@ -770,6 +770,36 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_fall_of_the_white_castle  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = SAO_reactionary_boost_tt
+			add_political_power = 50
+			hidden_effect = {
+				CFD = {
+					add_timed_idea = {
+						idea = SAO_reactionary_boost
+						days = 60
+					}
+				}
+				RPB = {
+					add_timed_idea = {
+						idea = SAO_reactionary_boost
+						days = 60
+					}
+				}
+				BRA = {
+					add_timed_idea = {
+						idea = SAO_reactionary_boost
+						days = 60
+					}
+				}
+				MNS = {
+					add_timed_idea = {
+						idea = SAO_reactionary_boost
+						days = 60
+					}
+				}
+			}
+		}
 	}
 
 	#The Junta's Poster Boys
@@ -786,12 +816,10 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 
 		completion_reward = {
-
-				country_event = {
-					id = SAO.200
-					days = 0
-				}
-
+			country_event = {
+				id = SAO.200
+				days = 0
+			}
 		}
 	}
 
@@ -807,6 +835,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_thejuntasposterboys  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = SAO_remove_divided_population_tt
+			hidden_effect = {
+				remove_dynamic_modifier = { modifier = SAO_modifier1 }
+				remove_dynamic_modifier = { modifier = SAO_divided_population_modifier}
+			}
+		}
 	}
 
 	#The MST

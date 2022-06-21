@@ -181,5 +181,13 @@ consumer_goods_factor = -0.1
 				original_tag = SAO
 			}
 		}
+		
+		SAO_reactionary_boost = {
+			picture = GEN_so_paulos_divided_populace-183749
+			modifier = {
+				reactionary_drift = 0.01
+				reactionary_acceptance = 50
+			}
+		}
 	}
 }
