@@ -318,7 +318,12 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 
 	completion_reward = {
-	custom_effect_tooltip="Sorry, this specific mechanic could not be finished in time. A future hotfix will bring the War Train mechanic!"
+		if = {
+			limit = { has_country_flag = ACR_war_train_category_allowed }
+			clr_country_flag = ACR_war_train_category_allowed
+		}
+		else = { set_country_flag = ACR_war_train_category_allowed }
+		custom_effect_tooltip = ACR_wartrain
 	}
 }
 shared_focus = {
@@ -978,6 +983,10 @@ shared_focus = {
 		swap_ideas = {
 			remove_idea = the_red_menace1
 			add_idea = the_red_menace2
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = ERN
 		}
 	}
 }

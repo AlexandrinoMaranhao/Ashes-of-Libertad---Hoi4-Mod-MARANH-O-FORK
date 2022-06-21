@@ -143,7 +143,8 @@ characters = {
 		name = mateus_satanawa
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/mateus.dds"
+				small = "gfx/interface/ideas/mateus.dds"
+				large = "gfx/leaders/ACR/Portrait_ACR_Mateus.dds"
 			}
 		}
 		advisor = {

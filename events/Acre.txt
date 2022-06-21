@@ -1446,21 +1446,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ACR_cury.22.a
-
-create_corps_commander = {
-	name = "Mateus Satanawa"
-	portrait_path = "gfx/leaders/ACR/Portrait_ACR_Mateus.dds"
-	traits = { career_officer trait_cautious }
-	skill = 2
-
-	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-	id = 10
-}
-
+		
+		add_corps_commander_role = {
+			Character = mateus_satanawa
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
 	}
 }
 
