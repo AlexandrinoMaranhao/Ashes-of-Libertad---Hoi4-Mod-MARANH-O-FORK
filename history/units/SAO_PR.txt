@@ -1,5 +1,4 @@
 division_template = {
-	is_locked = yes
 	name = "Military Police Unit"
 	regiments = {
 		infantry = { x = 0 y = 0}

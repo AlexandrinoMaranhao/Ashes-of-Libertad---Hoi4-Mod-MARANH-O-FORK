@@ -1,5 +1,4 @@
 division_template = {
-	is_locked = yes
 	name = "Piracicaba's Minutemen"
 	regiments = {
 		militia_unit = { x = 0 y = 0}

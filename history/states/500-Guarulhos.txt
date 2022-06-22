@@ -7,7 +7,6 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
-			arms_factory = 2
 		}
 		owner = SAO
 		add_core_of = SAO
