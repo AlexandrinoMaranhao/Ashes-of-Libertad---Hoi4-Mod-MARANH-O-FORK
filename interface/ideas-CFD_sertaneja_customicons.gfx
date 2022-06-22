@@ -1,14 +1,14 @@
 spriteTypes = { 
-	##Icon For: Northern Anarchist Threat
+	##Icon For: The Peasant Leagues
 	SpriteType = { 
-		name = "GFX_idea_CFD_northern_anarchist_threat-238388"
-		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_northern_anarchist_threat-238388.dds"
+		name = "GFX_idea_CFD_the_peasant_leagues-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_peasant_leagues-238388.dds"
 	}
 
-	##Icon For: Lacking Order
+	##Icon For: Turbulent Confederatization
 	SpriteType = { 
-		name = "GFX_idea_CFD_lacking_order-238388"
-		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_lacking_order-238388.dds"
+		name = "GFX_idea_CFD_turbulent_confederatization-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_turbulent_confederatization-238388.dds"
 	}
 
 	##Icon For: The Gateway to South America
@@ -21,6 +21,18 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_CFD_disunited_armed_forces-238388"
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_disunited_armed_forces-238388.dds"
+	}
+
+	##Icon For: The Sergipe Backstab
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_sergipe_backstab-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_sergipe_backstab-238388.dds"
+	}
+
+	##Icon For: Piratas de Noronha
+	SpriteType = { 
+		name = "GFX_idea_CFD_piratas_de_noronha-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_piratas_de_noronha-238388.dds"
 	}
 
  

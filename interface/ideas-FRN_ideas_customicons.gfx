@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: The Isolated Garrison
+	SpriteType = { 
+		name = "GFX_idea_FRN_the_isolated_garrison-238388"
+		texturefile = "gfx/interface/ideas/ideas-ideas/FRN_the_isolated_garrison-238388.dds"
+	}
+
+ 
+ }

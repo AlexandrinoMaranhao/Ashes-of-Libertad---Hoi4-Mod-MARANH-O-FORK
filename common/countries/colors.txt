@@ -441,6 +441,11 @@ LAM = {
 	color_ui = rgb { 93 75 63 }
 }
 
+FRN = {
+	color = rgb { 93 75 63 }
+	color_ui = rgb { 93 75 63 }
+}
+
 JAG = {
 	color = rgb { 156 66 46 }
 	color_ui = rgb { 156 66 46 }

@@ -1,0 +1,21 @@
+division_template = {
+	name = "Fernando Garrison Units"
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Fernando Garrison Unit"
+		location = 2619
+		division_template = "Fernando Garrison Units"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}

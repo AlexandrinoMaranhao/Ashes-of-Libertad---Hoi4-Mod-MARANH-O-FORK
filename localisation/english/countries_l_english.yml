@@ -29,9 +29,12 @@
  NUD:0 "Democratic Union of Vera Cruz"
  NUD_ADJ:0 "Democratic Union of Vera Cruz"
  NUD_DEF:0 "Northeastern Unionist"
- RPP:0 "Revolutionary Government of Pernambuco"
- RPP_ADJ:0 "Revolutionary Government of Pernambuco"
- RPP_DEF:0 "Northeastern Revolutionary"
+ 
+ FRN:0 "Fernando de Noronha Military District"
+ FRN_neutrality:0 "Piratas de Loronha"
+ FRN_neutrality_DEF:0 "The Pirates of Fernando de Noronha"
+ FRN_ADJ:0 "Noronhense"
+ FRN_DEF:0 "Fernando de Noronha Military District"
 
  ERP:0 "E.R.P."
  DEA:0 "National Uruguayan State"

@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+
+		FRN_the_isolated_garrison = {
+			picture = FRN_the_isolated_garrison-238388
+			allowed = {
+				tag = FRN
+			}
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.5
+			}
+		}
+	}
+}

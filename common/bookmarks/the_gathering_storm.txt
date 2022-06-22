@@ -89,9 +89,9 @@ bookmarks = {
 				history = "CFD_GATHERING_STORM_DESC"
 					ideology = democratic
 				ideas = {
-			        CFD_northern_anarchist_threat 
-					CFD_lacking_order 
-					CFD_disunited_armed_forces  
+			        CFD_turbulent_confederatization  
+					CFD_the_peasant_leagues  
+					CFD_the_sergipe_backstab
 			    }
 			    focuses = {
 			    }

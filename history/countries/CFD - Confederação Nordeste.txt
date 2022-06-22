@@ -30,11 +30,13 @@ set_popularities = {
 
 add_ideas = {
 ###Starting NatSpirts###
-	CFD_lacking_order
+	CFD_turbulent_confederatization
     CFD_disunited_armed_forces
-    CFD_northern_anarchist_threat
+    CFD_the_peasant_leagues
     CFD_the_gateway_to_south_america
 
+	CFD_the_sergipe_backstab
+	CFD_piratas_de_noronha
 ###Starting Advisors###
 	CFD_joao_oliveira_advisor
 	CFD_duarte_advisor
