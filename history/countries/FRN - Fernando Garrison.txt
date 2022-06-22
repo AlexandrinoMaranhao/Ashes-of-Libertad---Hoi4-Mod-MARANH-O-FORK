@@ -31,14 +31,15 @@ add_ideas = {
 	FRN_the_isolated_garrison
 }
 
+recruit_character = CFD_joaquim_castillho
 
 create_country_leader = {
-	name = "Edson 'Generaile' Moreno"
-	picture = "gfx/leaders/PEB/RPP_General.dds"
+	name = "João Dutra de Castilho"
+	picture = "gfx/leaders/CFD/CFD_joaquim_castillho.dds"
 	desc = ""
 	expire = "1999.1.1"
 	ideology = military_government
-	traits = { popular_figurehead2 }
+	traits = { }
 }
 
 create_country_leader = {

@@ -412,4 +412,20 @@ characters={
 			traits = {mhc_school_of_manoeuvre trait_CFD_arena_sympathies}
 		}
 	}
+	CFD_homero_souto_de_oliveira = {
+		name = "Homero Souto de Oliveira"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_homero_souto_de_oliveira.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = CFD_homero_souto_de_oliveira
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {cair_air_superiority_doctrine}
+		}
+	}
 }

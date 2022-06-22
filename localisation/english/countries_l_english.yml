@@ -30,11 +30,11 @@
  NUD_ADJ:0 "Democratic Union of Vera Cruz"
  NUD_DEF:0 "Northeastern Unionist"
  
- FRN:0 "Fernando de Noronha Military District"
+ FRN:0 "Fernando de Noronha Military Garrison"
  FRN_neutrality:0 "Piratas de Loronha"
  FRN_neutrality_DEF:0 "The Pirates of Fernando de Noronha"
  FRN_ADJ:0 "Noronhense"
- FRN_DEF:0 "Fernando de Noronha Military District"
+ FRN_DEF:0 "Fernando de Noronha Military Garrison"
 
  ERP:0 "E.R.P."
  DEA:0 "National Uruguayan State"

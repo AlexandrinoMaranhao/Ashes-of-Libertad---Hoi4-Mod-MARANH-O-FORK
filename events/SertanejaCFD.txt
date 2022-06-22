@@ -61,15 +61,44 @@ country_event = { #Arraes and Bezerra
         name = CFD_events.4.a
     }
 }
-country_event = { #Sampaio Plans
-    id = CFD_events.5
+country_event = { #Sampaio Plans 1
+    id = CFD_events.50
     title = CFD_events.5.t
     desc = CFD_events.5.d
-    is_triggered_only = yes
+	trigger = {
+		is_ai = yes
+		CFD = {
+			AND = {
+				has_completed_focus = CFD_foundssgbandecosess
+				has_completed_focus = CFD_thecreationofssocoperbess
+			}
+		}
+	}
+	fire_only_once = yes
     picture = GFX_report_event_guerrilla
 
     option = {
         name = CFD_events.5.a
+		CFD = {
+			country_event = {id = CFD_events.5}
+		}
+    }
+}
+country_event = { #Sampaio Plans 2
+    id = CFD_events.5
+    title = CFD_events.5.t
+    desc = CFD_events.5.d
+	is_triggered_only = yes
+	fire_only_once = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_events.5.a
+		add_stability = 0.1
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.02
+		}
     }
 }
 country_event = { #The Betrayal (Bezerra and Prestes)
@@ -93,6 +122,68 @@ country_event = { #Dom Helder
 
     option = {
         name = CFD_events.7.a
+    }
+}
+
+country_event = { #Doria FDP!
+    id = CFD_events.8
+    title = CFD_events.8.t
+    desc = CFD_events.8.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_events.8.a
+		CFD = {
+			set_country_flag = CFD_sergipe_backstab_enabled
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = CFD_the_sergipe_backstab
+			add_ideas = CFD_the_sergipe_backstab 
+		}
+    }
+}
+
+country_event = { #Bezerra's remorse
+    id = CFD_events.9
+    title = CFD_events.9.t
+	desc = {
+		text = CFD_events.9.d.normal
+		trigger = {
+			CFD = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	desc = {
+		text = CFD_events.9.d.bezerra
+		trigger = {
+			CFD = {
+				has_government = communism
+			}
+		}
+	}
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+		trigger = {
+			CFD = {
+				has_government = communism
+			}
+		}
+        name = CFD_events.9.a.bezerra
+    }
+    option = {
+		trigger = {
+			CFD = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+        name = CFD_events.9.a.normal
     }
 }
 

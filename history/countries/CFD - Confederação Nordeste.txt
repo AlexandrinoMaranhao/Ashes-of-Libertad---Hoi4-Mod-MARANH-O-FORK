@@ -35,8 +35,6 @@ add_ideas = {
     CFD_the_peasant_leagues
     CFD_the_gateway_to_south_america
 
-	CFD_the_sergipe_backstab
-	CFD_piratas_de_noronha
 ###Starting Advisors###
 	CFD_joao_oliveira_advisor
 	CFD_duarte_advisor
@@ -59,7 +57,6 @@ recruit_character = CFD_pretonio_portella
 recruit_character = CFD_inima_siqueira
 recruit_character = CFD_joao_bezerra_de_araujo
 recruit_character = CFD_hangho_trench
-recruit_character = CFD_joaquim_castillho
 recruit_character = CFD_nelson_a_silva
 recruit_character = CFD_harry_alberto_schnarndorf
 recruit_character = CFD_augusto_de_silveira
@@ -75,6 +72,7 @@ recruit_character = CFD_ribeiro_paz
 recruit_character = CFD_juarez_tavora
 recruit_character = CFD_alberto_sallaberry
 recruit_character = CFD_ivan_ruy
+recruit_character = CFD_homero_souto_de_oliveira
 
 set_country_flag = unfinished_cfd
 

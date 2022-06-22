@@ -13,12 +13,12 @@ on_actions = {
 					days = 1622
 				}
 			}
-			CFD = { #The Battalion returns from Piauí
-				country_event = {
+			CFD = { #Sertaneja's Scripted events
+				country_event = { #The Battalion returns from Piauí
 					id = CFD_events.1
 					days = 14
 				}
-				country_event = {
+				country_event = { #Paulo Guerra's Flavor
 					id = CFD_events.3
 					days = 29
 				}

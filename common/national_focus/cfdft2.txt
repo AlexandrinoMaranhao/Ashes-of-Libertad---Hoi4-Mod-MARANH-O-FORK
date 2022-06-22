@@ -1,0 +1,664 @@
+focus_tree = {
+	id = cfdft2
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CFD
+		}
+	}
+	#The Fall
+	focus = {
+		id = CFD_the_fall
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Rise
+	focus = {
+		id = CFD_the_rise
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_fall  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Future
+	focus = {
+		id = CFD_the_future
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_fall  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Sampaio's Adminstration
+	focus = {
+		id = CFD_sampaiosadminstration
+		icon = GFX_CFD_sampaiosadminstration-213988
+		x = 16
+		y = 4
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_anotherdayintheoffice  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Autonomy to Small Business
+	focus = {
+		id = CFD_autonomy_to_small_business
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_investing_in_basic_infrastructure  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+				    type = industrial_complex
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Forced Industrialization
+	focus = {
+		id = CFD_forced_industrialization
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_autonomy_to_small_business  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+				    type = industrial_complex
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	#The Creation of §OCOPERBE§!
+	focus = {
+		id = CFD_thecreationofssocoperbess
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_legalize_gunsmiths_workshops_in_fortaleza  } prerequisite = { focus = CFD_forced_industrialization  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Another Day in the Office...
+	focus = {
+		id = CFD_anotherdayintheoffice
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = CFD_events.8
+					days = 7
+				}
+			}
+			
+			country_event = {
+			    id = CFD_events.7
+			    days = 0
+			}
+		}
+	}
+
+	#Investing in Basic Infrastructure
+	focus = {
+		id = CFD_investing_in_basic_infrastructure
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_sampaiosadminstration  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	#The Everyday Fuel
+	focus = {
+		id = CFD_the_everyday_fuel
+		icon = GFX_goal_unknown
+		x = 18
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_sampaiosadminstration  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Found §GBANDECOSE§!
+	focus = {
+		id = CFD_foundssgbandecosess
+		icon = GFX_CFD_foundssgbandecosess-247778
+		x = 18
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_establishing_a_new_currency  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Re-opening Military Academies in Recife
+	focus = {
+		id = CFD_reopening_military_academies_in_recife
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_investing_in_basic_infrastructure  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			7 = {
+				add_building_construction = {
+				    type = arms_factory
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Legalize Gunsmiths Workshops in Fortaleza
+	focus = {
+		id = CFD_legalize_gunsmiths_workshops_in_fortaleza
+		icon = GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633
+		x = 16
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_reopening_military_academies_in_recife  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			12 = {
+				add_building_construction = {
+				    type = arms_factory
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Continue the Elections...
+	focus = {
+		id = CFD_continuetheelections
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_elections  }
+		mutually_exclusive = { focus = CFD_nooneotherthanme  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#No One Other Than Me!
+	focus = {
+		id = CFD_nooneotherthanme
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_elections  }
+		mutually_exclusive = { focus = CFD_continuetheelections  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#Spending the Fortunes
+	focus = {
+		id = CFD_spendingthefortunes
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
+		search_filters = {
+			
+						FOCUS_FILTER_INDUSTRY
+					
+		}
+		prerequisite = { focus = CFD_the_everyday_fuel  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						random_owned_controlled_state ={
+						 limit = {
+						 free_building_slots = {
+						 building = industrial_complex
+						 size > 0
+						 include_locked = yes
+						 }
+						 }
+						 add_extra_state_shared_building_slots = 5
+						 add_building_construction = {
+						 type = industrial_complex
+						 level = 4
+						 instant_build = yes
+						 }
+						 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+						 }
+						
+					
+		}
+	}
+
+	#Establishing A New Currency
+	focus = {
+		id = CFD_establishing_a_new_currency
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_spendingthefortunes  }
+	}
+
+	#And the Result is...
+	focus = {
+		id = CFD_andtheresultis
+		icon = GFX_goal_unknown
+		x = 9
+		y = 11
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_toimprovethesertaoswasteland  focus = CFD_tofreethepeasantsfromtheirlandowners  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = yes
+		}
+	}
+
+	#Resume the Elections...
+	focus = {
+		id = CFD_resumetheelections
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_nooneotherthanme  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#The Green Stars
+	focus = {
+		id = CFD_the_green_stars
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_continuetheelections  }
+		mutually_exclusive = { focus = CFD_thepeasantshero  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#The Zona da Mata-Agreste Electoral Campaigns
+	focus = {
+		id = CFD_the_zona_da_mataagreste_electoral_campaigns
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_thepeasantshero  focus = CFD_the_green_stars  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#The Peasants' Hero
+	focus = {
+		id = CFD_thepeasantshero
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_continuetheelections  }
+		mutually_exclusive = { focus = CFD_the_green_stars  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#The Elections
+	focus = {
+		id = CFD_the_elections
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_anotherdayintheoffice  }
+		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = CFD_elections_phase_1
+		}
+	}
+
+	#The Sergipe Backstab
+	focus = {
+		id = CFD_the_sergipe_backstab
+		icon = GFX_goal_unknown
+		x = 23
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_anotherdayintheoffice  }
+		ai_will_do = { factor = 1 }
+		bypass = {
+			always = yes
+		}
+		completion_reward = {
+			add_ideas = CFD_the_sergipe_backstab
+			
+			
+		}
+		allow_branch = {
+			has_country_flag = CFD_sergipe_backstab_enabled
+		}
+	}
+
+	#...For A More Egalitarian Recife
+	focus = {
+		id = CFD_foramoreegalitarianrecife
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_zona_da_mataagreste_electoral_campaigns  }
+		mutually_exclusive = { focus = CFD_forabetterrecife  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#...For a Better Recife
+	focus = {
+		id = CFD_forabetterrecife
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_zona_da_mataagreste_electoral_campaigns  }
+		mutually_exclusive = { focus = CFD_foramoreegalitarianrecife  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#...To Free the Peasants From Their Landowners
+	focus = {
+		id = CFD_tofreethepeasantsfromtheirlandowners
+		icon = GFX_goal_unknown
+		x = 8
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_thesertaoelectoralcampaigns  }
+		mutually_exclusive = { focus = CFD_toimprovethesertaoswasteland  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#...To Improve the Sertão's Wasteland
+	focus = {
+		id = CFD_toimprovethesertaoswasteland
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_thesertaoelectoralcampaigns  }
+		mutually_exclusive = { focus = CFD_tofreethepeasantsfromtheirlandowners  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#The Sertão Electoral Campaigns
+	focus = {
+		id = CFD_thesertaoelectoralcampaigns
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_foramoreegalitarianrecife  focus = CFD_forabetterrecife  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+	}
+
+	#Sertaneja And What Army?
+	focus = {
+		id = CFD_sertanejaandwhatarmy
+		icon = GFX_goal_unknown
+		x = 23
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_sergipe_backstab  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Invite 'Jagunços' to Our Ranks
+	focus = {
+		id = CFD_invitejaguncostoourranks
+		icon = GFX_goal_unknown
+		x = 22
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_relaxing_the_requirements  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Centralizing the Confederation's Combined Arms
+	focus = {
+		id = CFD_centralizingtheconfederationscombinedarms
+		icon = GFX_goal_unknown
+		x = 24
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_sertanejaandwhatarmy  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Relaxing The Requirements
+	focus = {
+		id = CFD_relaxing_the_requirements
+		icon = GFX_goal_unknown
+		x = 22
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_sertanejaandwhatarmy  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Fernando Situation
+	focus = {
+		id = CFD_the_fernando_situation
+		icon = GFX_goal_unknown
+		x = 23
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_retakingwhatsours  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Allow Militiamens in Our Ranks
+	focus = {
+		id = CFD_allow_militiamens_in_our_ranks
+		icon = GFX_goal_unknown
+		x = 24
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_centralizingtheconfederationscombinedarms  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Retaking Whats Ours!
+	focus = {
+		id = CFD_retakingwhatsours
+		icon = GFX_goal_unknown
+		x = 23
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_allow_militiamens_in_our_ranks  } prerequisite = { focus = CFD_invitejaguncostoourranks  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			declare_war_on = {
+			    target = SEG
+			    type = annex_everything
+			}
+		}
+	}
+
+}
