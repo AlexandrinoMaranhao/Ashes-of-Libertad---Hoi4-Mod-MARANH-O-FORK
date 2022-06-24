@@ -30,7 +30,6 @@ add_ideas = {
 	trade_scope_regional_exports
 	conscription_volunteer_only
 
-	nebulous_independence
 	cangaceiros_and_commies
 }
 set_country_flag = is_brazilian

@@ -19,6 +19,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		completion_reward = {country_event = {id = CFD_intro.1}}
 	}
 
 	#The Rise
@@ -33,6 +34,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_the_fall  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {country_event = {id = CFD_intro.2}}
 	}
 
 	#The Future
@@ -47,6 +49,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_the_fall  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {country_event = {id = CFD_intro.3}}
 	}
 
 	#Sampaio's Adminstration
@@ -319,7 +322,7 @@ focus_tree = {
 						 level = 4
 						 instant_build = yes
 						 }
-						 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+						 
 						 }
 						
 					

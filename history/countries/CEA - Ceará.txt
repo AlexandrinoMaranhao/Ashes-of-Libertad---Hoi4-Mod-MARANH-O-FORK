@@ -25,9 +25,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	nebulous_independence
 	padre_cicero
-	cangaceiros_heavy
 }
 set_country_flag = is_brazilian
 set_country_flag = use_generic_outsider_laws

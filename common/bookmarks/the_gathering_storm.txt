@@ -94,6 +94,9 @@ bookmarks = {
 					CFD_the_sergipe_backstab
 			    }
 			    focuses = {
+					CFD_sampaiosadminstration
+					CFD_the_elections
+					CFD_the_sergipe_backstab
 			    }
 			}
 

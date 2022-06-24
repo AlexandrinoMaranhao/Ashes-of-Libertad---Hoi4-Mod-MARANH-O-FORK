@@ -271,4 +271,26 @@ characters={
 			legacy_id=-1
 		}
 	}
+	BRA_Reinaldo_Joaquim_Filho={
+		name="Reinaldo Joaquim Ribeiro de Carvalho Filho"
+		portraits={
+			army={
+				small = "gfx/interface/ideas/goofybois/bra_reinaldo_carvalho_filho.dds"
+			}
+			army={
+				large="gfx/leaders/BRA/Portrait_BRA_Reinaldo_Joaquim_Filho.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			cost = 50
+			idea_token = BRA_Reinaldo_Joaquim_Filho
+			traits = {
+				air_chief_ground_support_2
+			}
+			allowed = {
+				original_tag = BRA
+			}
+		}
+	}
 }

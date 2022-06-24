@@ -29,8 +29,6 @@ add_ideas = {
 	trade_scope_international_exports
 	conscription_volunteer_only
 
-	gateway_of_south_america
-	nebulous_independence
 	cangaceiros_medium
 }
 set_country_flag = is_brazilian

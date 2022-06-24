@@ -11,10 +11,12 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        declare_war_on = {
-            target = VAL
-            type = annex_everything
-        }
+		RMI = {
+			declare_war_on = {
+				target = VAL
+				type = annex_everything
+			}
+		}
         country_event = { id = RMI.300 days = 50 }
     }
 }

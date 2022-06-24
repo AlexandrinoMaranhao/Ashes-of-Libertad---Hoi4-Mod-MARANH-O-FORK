@@ -75,3 +75,4 @@ recruit_character = BRA_luis_tavares_da_cunha_melo
 recruit_character = BRA_euler_bentes_monteiro
 recruit_character = BRA_alfeu_de_alcantara_monteiro
 recruit_character = BRA_carlos_tinoco_ribeiro_gomes
+recruit_character = BRA_Reinaldo_Joaquim_Filho

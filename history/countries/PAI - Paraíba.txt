@@ -30,7 +30,6 @@ add_ideas = {
 	economic_focus_civilian_economy
 	conscription_volunteer_only
 
-	nebulous_independence
 	whale_hunting
 	cangaceiros_medium
 }

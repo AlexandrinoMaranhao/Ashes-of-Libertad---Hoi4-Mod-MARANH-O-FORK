@@ -1,9 +1,46 @@
+add_namespace = CFD_intro
 add_namespace = CFD_events
 add_namespace = CFD_operations
 add_namespace = CFD_operation_failure
 add_namespace = CFD_failometer_enabled
 add_namespace = CFD_ai
 add_namespace = CFD
+
+country_event = { #Intro1
+    id = CFD_intro.1
+    title = CFD_intro.1.t
+    desc = CFD_intro.1.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_intro.1.a
+    }
+}
+
+country_event = { #Intro2
+    id = CFD_intro.2
+    title = CFD_intro.2.t
+    desc = CFD_intro.2.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_intro.2.a
+    }
+}
+
+country_event = { #Intro3
+    id = CFD_intro.3
+    title = CFD_intro.3.t
+    desc = CFD_intro.3.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_intro.3.a
+    }
+}
 
 country_event = { #The Hell Battalion returns from Piaui
     id = CFD_events.1
@@ -33,6 +70,7 @@ country_event = { #Portella and Miguel
 
     option = {
         name = CFD_events.2.a
+		custom_effect_tooltip = "This activates the 'Piauí Frontier'."
 		CFD = {
 			set_country_flag = begin_piaui_frontier
 		}
@@ -62,7 +100,7 @@ country_event = { #Arraes and Bezerra
     }
 }
 country_event = { #Sampaio Plans 1
-    id = CFD_events.50
+    id = CFD_events.500
     title = CFD_events.5.t
     desc = CFD_events.5.d
 	trigger = {

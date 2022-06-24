@@ -29,6 +29,7 @@ set_popularities = {
 
 add_ideas = {
 	FRN_the_isolated_garrison
+	whale_hunting
 }
 
 recruit_character = CFD_joaquim_castillho

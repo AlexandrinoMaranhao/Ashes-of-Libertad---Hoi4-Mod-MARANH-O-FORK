@@ -1,16 +1,6 @@
 ideas = {
 	country = {
 
-			nebulous_independence = {
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			modifier = {
-			}
-		}
-
 			loose_federation = {
 
 			allowed_civil_war = {
@@ -31,17 +21,6 @@ ideas = {
 			}
 
 		}
-
-		    gateway_of_south_america = {
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-			}
-
-		    }
 
 		    whale_hunting = {
 
