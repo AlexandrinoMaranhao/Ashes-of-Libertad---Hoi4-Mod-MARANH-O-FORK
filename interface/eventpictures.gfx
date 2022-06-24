@@ -1,12 +1,41 @@
 
 spriteTypes = {
-#								
-#	spriteType = {
-#		name = "GFX_"
-#		texturefile = "gfx/event_pictures/.dds"
-#	}
-#					
-															
+
+	#spriteType = {
+	#	name = "GFX_"
+	#	texturefile = "gfx/event_pictures/.dds"
+	#}
+
+	spriteType = {
+		name = "GFX_report_cfd_cid_plans"
+		texturefile = "gfx/event_pictures/report_cfd_cid_plans.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_elections"
+		texturefile = "gfx/event_pictures/report_cfd_elections.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_fernandinho1"
+		texturefile = "gfx/event_pictures/report_cfd_fernandinho1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_hope"
+		texturefile = "gfx/event_pictures/report_cfd_hope.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_memories"
+		texturefile = "gfx/event_pictures/report_cfd_memories.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_miguel"
+		texturefile = "gfx/event_pictures/report_cfd_miguel.dds"
+	}
+
 	spriteType = {
 		name = "GFX_report_event_marighella_arrested"
 		texturefile = "gfx/event_pictures/report_event_marighella_arrested.dds"

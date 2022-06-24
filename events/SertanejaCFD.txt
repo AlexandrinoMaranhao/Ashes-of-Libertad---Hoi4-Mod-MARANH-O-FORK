@@ -11,7 +11,7 @@ country_event = { #Intro1
     title = CFD_intro.1.t
     desc = CFD_intro.1.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_fernandinho1
 
     option = {
         name = CFD_intro.1.a
@@ -23,7 +23,7 @@ country_event = { #Intro2
     title = CFD_intro.2.t
     desc = CFD_intro.2.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_memories
 
     option = {
         name = CFD_intro.2.a
@@ -35,7 +35,7 @@ country_event = { #Intro3
     title = CFD_intro.3.t
     desc = CFD_intro.3.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_hope
 
     option = {
         name = CFD_intro.3.a
@@ -66,7 +66,7 @@ country_event = { #Portella and Miguel
     title = CFD_events.2.t
     desc = CFD_events.2.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_miguel
 
     option = {
         name = CFD_events.2.a
@@ -113,7 +113,7 @@ country_event = { #Sampaio Plans 1
 		}
 	}
 	fire_only_once = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_cid_plans
 
     option = {
         name = CFD_events.5.a
@@ -128,7 +128,7 @@ country_event = { #Sampaio Plans 2
     desc = CFD_events.5.d
 	is_triggered_only = yes
 	fire_only_once = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_cid_plans
 
     option = {
         name = CFD_events.5.a
@@ -156,7 +156,7 @@ country_event = { #Dom Helder
     title = CFD_events.7.t
     desc = CFD_events.7.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_hope
 
     option = {
         name = CFD_events.7.a
@@ -168,7 +168,7 @@ country_event = { #Doria FDP!
     title = CFD_events.8.t
     desc = CFD_events.8.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_memories
 
     option = {
         name = CFD_events.8.a
