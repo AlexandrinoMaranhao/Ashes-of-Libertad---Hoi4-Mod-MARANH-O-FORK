@@ -42,8 +42,8 @@ party_popularity_stability_factor = -0.2
 				original_tag = SAO
 			}
 			modifier = {
-				production_speed_buildings_factor = -0.3
-line_change_production_efficiency_factor = -0.3
+				production_speed_buildings_factor = -0.85
+line_change_production_efficiency_factor = -0.85
 industrial_capacity_factory = -0.45
 industrial_capacity_dockyard = -0.45
 stability_factor = -0.1

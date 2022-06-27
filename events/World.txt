@@ -2,6 +2,7 @@ add_namespace = world
 add_namespace = world_acr
 add_namespace = world_inc
 add_namespace = world_dutra
+add_namespace = world_sp
 
 news_event = { # Dutra declares himself president oh fuck oh shit
 	id = world_dutra.1
@@ -31,6 +32,19 @@ news_event = { # Dutra declares himself president oh fuck oh shit
 		trigger = { NOT = { tag = JGD tag = BRA tag = JRM tag = JEG tag = JCS tag = JCL } }
 		}
 
+	}
+
+news_event = { # Natel is ded
+	id = world_sp.1
+	title = world_sp.1.t
+	desc = world_sp.1.d
+	picture = "GFX_news_event_natel_dead"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_sp.1.a 
+		}
 	}
 
 news_event = { # Elected Cerqueira

@@ -5,7 +5,7 @@ state={
 		889 
 	}
 	history={
-		owner = RMI
+		owner = CRJ
 		add_core_of = RMI
 		add_core_of = CRJ
 		victory_points = {

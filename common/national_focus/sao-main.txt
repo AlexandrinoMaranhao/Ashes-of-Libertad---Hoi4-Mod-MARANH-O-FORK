@@ -550,7 +550,7 @@ focus_tree = {
 	#Tour the Farmsteads
 	focus = {
 		id = SAO_tour_the_farmsteads
-		icon = SAO_crush_the_occupiers
+		icon = GFX_SAO_tour_the_farmsteads
 		x = 23
 		y = 1
 		cost = 3
@@ -576,7 +576,7 @@ focus_tree = {
 	#Crush the Occupiers
 	focus = {
 		id = SAO_crush_the_occupiers
-		icon = GFX_SAO_tuor_the_farmsteads
+		icon = GFX_SAO_crush_the_occupiers
 		x = 21
 		y = 1
 		cost = 3
@@ -1057,7 +1057,7 @@ focus_tree = {
 		completion_reward = {
 
 				country_event = {
-					id = SAO_Focus_Tree_Events.19
+					id = SAO_Focus_Tree_Events.21
 					days = 0
 				}
 
@@ -1126,7 +1126,7 @@ focus_tree = {
 		completion_reward = {
 
 				country_event = {
-					id = SAO_Focus_Tree_Events.21
+					id = SAO_Focus_Tree_Events.19
 					days = 0
 				}
 

@@ -22,6 +22,10 @@ country_event = { #"Under New Manadgement"
 
     option = {
         name = SAO_Focus_Tree_Events.1.A
+        add_popularity = {
+    ideology = fascism
+    popularity = -0.1
+}
     }
 }
 
@@ -74,10 +78,6 @@ country_event = { #"A Esperança Desse Povo Abandonado"
 
     option = {
         name = SAO_Focus_Tree_Events.5.A
-        add_popularity = {
-    ideology = fascism
-    popularity = -0.1
-}
     }
 }
 
@@ -85,12 +85,14 @@ country_event = { #"The Situation is Under Control"
     id = SAO_Focus_Tree_Events.6
     title = SAO_Focus_Tree_Events.6.t
     desc = SAO_Focus_Tree_Events.6.d
-    picture = x
+    picture = GFX_report_event_adhemar_with_medal
     fire_only_once = no
     is_triggered_only = yes
 
     option = {
         name = SAO_Focus_Tree_Events.6.A
+
+        hidden_effect = { news_event = { id = world_sp.1 } }
     }
 }
 
@@ -175,7 +177,7 @@ country_event = { #"Dear Big Brother"
     id = SAO_Focus_Tree_Events.13
     title = SAO_Focus_Tree_Events.13.t
     desc = SAO_Focus_Tree_Events.13.d
-    picture = x
+    picture = GFX_report_event_brothers_figueiredo
     fire_only_once = no
     is_triggered_only = yes
 
@@ -268,7 +270,7 @@ country_event = { #"Bigger Things to Worry"
     id = SAO_Focus_Tree_Events.19
     title = SAO_Focus_Tree_Events.19.t
     desc = SAO_Focus_Tree_Events.19.d
-    picture = x
+    picture = GFX_report_event_rota_na_rua
     fire_only_once = no
     is_triggered_only = yes
 
@@ -485,7 +487,7 @@ country_event = { #Road to Guanabara event 1
 			}
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.00
+				popularity = 0.05
 			}
 
         country_event = {
@@ -497,7 +499,7 @@ country_event = { #Road to Guanabara event 1
         name = SAO_ROAD_TO_GUANABARA.1.D
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.02
+				popularity = 0.05
 			}
 			add_popularity = {
 				ideology = democratic
@@ -523,11 +525,11 @@ country_event = { #Road to Guanabara event 2
         name = SAO_ROAD_TO_GUANABARA.2.A
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.02
+				popularity = 0.05
 			}
             add_popularity = {
 				ideology = fascism
-				popularity = 0.00
+				popularity = 0.01
 			}
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
@@ -554,7 +556,7 @@ country_event = { #Road to Guanabara event 2
         name = SAO_ROAD_TO_GUANABARA.2.C
             add_popularity = {
 				ideology = fascism
-				popularity = 0.02
+				popularity = 0.05
 			}
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
@@ -575,25 +577,25 @@ country_event = { #Road to Guanabara event 3
         name = SAO_ROAD_TO_GUANABARA.3.A
             add_popularity = {
 				ideology = fascism
-				popularity = 0.01
+				popularity = 0.05
 			}
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.B
             add_popularity = {
 				ideology = democratic
-				popularity = 0.01
+				popularity = 0.05
 			}
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.C
             add_popularity = {
 				ideology = democratic
-				popularity = 0.01
+				popularity = 0.025
 			}
             add_popularity = {
 				ideology = fascism
-				popularity = 0.01
+				popularity = 0.025
 			}
     }
 }
@@ -732,7 +734,7 @@ country_event = { #Natel Gets Assassinated
     id = SAO_Flavour.2
     title = SAO_Flavour.2.t
     desc = SAO_Flavour.2.d
-    picture = x
+    picture = GFX_news_event_natel_dead
     fire_only_once = yes
     is_triggered_only = yes
 
