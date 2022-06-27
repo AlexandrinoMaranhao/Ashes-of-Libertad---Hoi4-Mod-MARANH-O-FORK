@@ -112,4 +112,270 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_the_sergipe_backstab-247778"
+		texturefile = "gfx/interface/goals/GFX_CFD_the_sergipe_backstab-247778.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_the_sergipe_backstab-247778_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_the_sergipe_backstab-247778.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_the_sergipe_backstab-247778.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_the_sergipe_backstab-247778.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_sertanejaandwhatarmy-238388"
+		texturefile = "gfx/interface/goals/GFX_CFD_sertanejaandwhatarmy-238388.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_sertanejaandwhatarmy-238388_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_sertanejaandwhatarmy-238388.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_sertanejaandwhatarmy-238388.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_sertanejaandwhatarmy-238388.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_invitejaguncostoourranks-229858"
+		texturefile = "gfx/interface/goals/GFX_CFD_invitejaguncostoourranks-229858.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_invitejaguncostoourranks-229858_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_invitejaguncostoourranks-229858.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_invitejaguncostoourranks-229858.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_invitejaguncostoourranks-229858.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_centralizingtheconfederationscombinedarms-153588"
+		texturefile = "gfx/interface/goals/GFX_CFD_centralizingtheconfederationscombinedarms-153588.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_centralizingtheconfederationscombinedarms-153588_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_centralizingtheconfederationscombinedarms-153588.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_centralizingtheconfederationscombinedarms-153588.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_centralizingtheconfederationscombinedarms-153588.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_relaxing_the_requirements-153592"
+		texturefile = "gfx/interface/goals/GFX_CFD_relaxing_the_requirements-153592.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_relaxing_the_requirements-153592_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_relaxing_the_requirements-153592.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_relaxing_the_requirements-153592.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_relaxing_the_requirements-153592.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_allow_militiamens_in_our_ranks-183749"
+		texturefile = "gfx/interface/goals/GFX_CFD_allow_militiamens_in_our_ranks-183749.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_allow_militiamens_in_our_ranks-183749_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_allow_militiamens_in_our_ranks-183749.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_allow_militiamens_in_our_ranks-183749.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_allow_militiamens_in_our_ranks-183749.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_retakingwhatsours-156704"
+		texturefile = "gfx/interface/goals/GFX_CFD_retakingwhatsours-156704.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_retakingwhatsours-156704_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_retakingwhatsours-156704.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_retakingwhatsours-156704.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_retakingwhatsours-156704.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
 }

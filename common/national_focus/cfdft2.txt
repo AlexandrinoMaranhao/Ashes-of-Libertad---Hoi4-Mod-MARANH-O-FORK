@@ -19,7 +19,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
-		completion_reward = {country_event = {id = CFD_intro.1}}
+		completion_reward = {
+			country_event = {id = CFD_intro.1}
+		}
 	}
 
 	#The Rise
@@ -34,7 +36,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_the_fall  }
 		ai_will_do = { factor = 1 }
-		completion_reward = {country_event = {id = CFD_intro.2}}
+		completion_reward = {
+			country_event = {id = CFD_intro.2}
+		}
 	}
 
 	#The Future
@@ -49,7 +53,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_the_fall  }
 		ai_will_do = { factor = 1 }
-		completion_reward = {country_event = {id = CFD_intro.3}}
+		completion_reward = {
+			country_event = {id = CFD_intro.3}
+		}
 	}
 
 	#Sampaio's Adminstration
@@ -57,7 +63,7 @@ focus_tree = {
 		id = CFD_sampaiosadminstration
 		icon = GFX_CFD_sampaiosadminstration-213988
 		x = 16
-		y = 4
+		y = 5
 		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -71,7 +77,7 @@ focus_tree = {
 		id = CFD_autonomy_to_small_business
 		icon = GFX_goal_unknown
 		x = 14
-		y = 6
+		y = 7
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -94,7 +100,7 @@ focus_tree = {
 		id = CFD_forced_industrialization
 		icon = GFX_goal_unknown
 		x = 14
-		y = 7
+		y = 8
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -117,7 +123,7 @@ focus_tree = {
 		id = CFD_thecreationofssocoperbess
 		icon = GFX_goal_unknown
 		x = 15
-		y = 8
+		y = 9
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -157,7 +163,7 @@ focus_tree = {
 		id = CFD_investing_in_basic_infrastructure
 		icon = GFX_goal_unknown
 		x = 15
-		y = 5
+		y = 6
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -187,7 +193,7 @@ focus_tree = {
 		id = CFD_the_everyday_fuel
 		icon = GFX_goal_unknown
 		x = 18
-		y = 5
+		y = 6
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -201,7 +207,7 @@ focus_tree = {
 		id = CFD_foundssgbandecosess
 		icon = GFX_CFD_foundssgbandecosess-247778
 		x = 18
-		y = 8
+		y = 9
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -215,7 +221,7 @@ focus_tree = {
 		id = CFD_reopening_military_academies_in_recife
 		icon = GFX_goal_unknown
 		x = 16
-		y = 6
+		y = 7
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -238,7 +244,7 @@ focus_tree = {
 		id = CFD_legalize_gunsmiths_workshops_in_fortaleza
 		icon = GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633
 		x = 16
-		y = 7
+		y = 8
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -297,7 +303,7 @@ focus_tree = {
 		id = CFD_spendingthefortunes
 		icon = GFX_goal_unknown
 		x = 18
-		y = 6
+		y = 7
 		cost = 10
 		search_filters = {
 			
@@ -322,7 +328,7 @@ focus_tree = {
 						 level = 4
 						 instant_build = yes
 						 }
-						 
+						 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 						 }
 						
 					
@@ -334,7 +340,7 @@ focus_tree = {
 		id = CFD_establishing_a_new_currency
 		icon = GFX_goal_unknown
 		x = 18
-		y = 7
+		y = 8
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -449,7 +455,7 @@ focus_tree = {
 	#The Sergipe Backstab
 	focus = {
 		id = CFD_the_sergipe_backstab
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_sergipe_backstab-247778
 		x = 23
 		y = 4
 		cost = 2
@@ -563,7 +569,7 @@ focus_tree = {
 	#Sertaneja And What Army?
 	focus = {
 		id = CFD_sertanejaandwhatarmy
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_sertanejaandwhatarmy-238388
 		x = 23
 		y = 5
 		cost = 1
@@ -577,7 +583,7 @@ focus_tree = {
 	#Invite 'Jagunços' to Our Ranks
 	focus = {
 		id = CFD_invitejaguncostoourranks
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_invitejaguncostoourranks-229858
 		x = 22
 		y = 7
 		cost = 3
@@ -591,7 +597,7 @@ focus_tree = {
 	#Centralizing the Confederation's Combined Arms
 	focus = {
 		id = CFD_centralizingtheconfederationscombinedarms
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_centralizingtheconfederationscombinedarms-153588
 		x = 24
 		y = 6
 		cost = 3
@@ -605,7 +611,7 @@ focus_tree = {
 	#Relaxing The Requirements
 	focus = {
 		id = CFD_relaxing_the_requirements
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_relaxing_the_requirements-153592
 		x = 22
 		y = 6
 		cost = 3
@@ -633,7 +639,7 @@ focus_tree = {
 	#Allow Militiamens in Our Ranks
 	focus = {
 		id = CFD_allow_militiamens_in_our_ranks
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_allow_militiamens_in_our_ranks-183749
 		x = 24
 		y = 7
 		cost = 3
@@ -647,7 +653,7 @@ focus_tree = {
 	#Retaking Whats Ours!
 	focus = {
 		id = CFD_retakingwhatsours
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_retakingwhatsours-156704
 		x = 23
 		y = 8
 		cost = 3

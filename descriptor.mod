@@ -5,6 +5,7 @@ tags={
 	"Map"
 	"Alternative History"
 }
+picture="thumbnail.png"
 replace_path="common/abilities"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"

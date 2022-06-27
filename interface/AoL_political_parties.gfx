@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_CFD_socialism"
+		texturefile = "gfx/interface/ideologies/CFD_praieiros.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_CFD_corporate_state_status_quo"
+		texturefile = "gfx/interface/ideologies/CFD_usineiros.dds"
+	}
+	
+}
