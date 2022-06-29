@@ -40,6 +40,11 @@
  the_devil_has_escaped_the_bottle_tt:0 "§RThe Devil is Out of the Bottle§!"
  SAO_figueiredosreforms_tt:0 "\nUnlocks decisions to sever any ties left between the §YRevolutionary Constitutionalist Army§! and the old Brazilian military, making our institutions completely independent."
  SAO_crush_the_occupiers_tt:0 "Options to deal with the §RMST§! will become available."
+ SAO_trolling_junta_tt:0 "We will embrace those tired of the §GJunta's§! failures and give them a new purpose."
+ SAO_reactionary_boost_tt:0 "The Spirit of the Constitution will spread beyond the borders of São Paulo."
+ SAO_remove_divided_population_tt:0 "The people of §RSão Paulo§! are finally united under the Revolution. \n\n§GFor the Constitution.§!"
+ SAO_todayinthesilviosantosshow_tt:0 "The future of São Paulo will be decided on the stage of the Silvio Santos Show, tune in!"
+
 ################
 # OOBs
 ################
@@ -48,3 +53,4 @@
  SAO_PR:0 "Prudente's Police Battalion"
  SAO_piracicaba_minutemen:0 "The Piracicaba Minutemen"
  SAO_picapais_amarelos:0 "Os Pica-paus Amarelos"
+

@@ -1,26 +1,47 @@
 
 spriteTypes = {
-
+	# 
 	#spriteType = {
 	#	name = "GFX_"
 	#	texturefile = "gfx/event_pictures/.dds"
 	#}
+	# 
+
+	spriteType = {
+	name = "GFX_report_event_alberto_mendes"
+	texturefile = "gfx/event_pictures/report_event_alberto_mendes.dds"
+	}
+
+	spriteType = {
+	name = "GFX_report_event_rusty_kombi"
+	texturefile = "gfx/event_pictures/report_event_rusty_kombi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_itajuba_arms_factory"
+		texturefile = "gfx/event_pictures/report_event_itajuba_arms_factory.dds"
+	}
+
 	spriteType = {
 	name = "GFX_report_event_rota_na_rua"
 	texturefile = "gfx/event_pictures/report_event_rota_na_rua.dds"
 	}
+
 	spriteType = {
 		name = "GFX_report_event_brothers_figueiredo"
 		texturefile = "gfx/event_pictures/report_event_brothers_figueiredo.dds"
 	}
+
 	spriteType = {
 		name = "GFX_report_event_adhemar_with_medal"
 		texturefile = "gfx/event_pictures/report_event_adhemar_with_medal.dds"
 	}
+
 	spriteType = {
 		name = "GFX_news_event_natel_dead"
 		texturefile = "gfx/event_pictures/news_event_natel_dead.dds"
 	}
+
 	spriteType = {
 		name = "GFX_report_cfd_cid_plans"
 		texturefile = "gfx/event_pictures/report_cfd_cid_plans.dds"

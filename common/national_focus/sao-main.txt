@@ -295,12 +295,6 @@ focus_tree = {
 				}
 
 		hidden_effect = {
-		SAO = {
-		country_event = {
-			id = SAO.2
-			days = 0
-		}
-	}
 
 			30 = {
 				add_building_construction = {
@@ -1151,7 +1145,7 @@ focus_tree = {
 		prerequisite = { focus = SAO_the_police_car_experiment  } prerequisite = { focus = SAO_sneak_into_the_junta  } prerequisite = { focus = SAO_lagarantiasoyjo  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			custom_effect_tooltip = BEM_change_focus_tree
+			custom_effect_tooltip = SAO_todayinthesilviosantosshow_tt
 
 				country_event = {
 					id = SAO_Focus_Tree_Events.25
@@ -1159,8 +1153,93 @@ focus_tree = {
 				}
 
 			hidden_effect = {
+
 				load_focus_tree = sao-phase-two
+
+				if = { # Figueiredo's Path
+				limit = { 
+					has_country_flag = SAO_figueiredo_path
+				} 
+
+		set_party_name = { 
+		    ideology = reactionary 
+		    long_name = SAO_reactionary_party_figueiredo_long 
+		    name = SAO_reactionary_party_figueiredo
+} 
+
+				set_country_flag = second_phase_sp
 				set_cosmetic_tag = SAO_SCR
+
+ 				news_event = { id = world_sp.4 } 
+
+		add_popularity = {
+			ideology = democratic
+			popularity = -1
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = -1
+		}
+
+ 			}
+			else_if = { # Marighella's Path
+
+				limit = { 
+					has_country_flag = SAO_marighella_path
+
+				} 
+
+		set_party_name = { 
+		    ideology = democratic 
+		    long_name = SAO_democratic_party_marighella_long 
+		    name = SAO_democratic_party_marighella 
+}
+		set_party_name = { 
+		    ideology = reactionary 
+		    long_name = SAO_reactionary_party_figueiredo_long 
+		    name = SAO_reactionary_party_figueiredo
+}
+
+				kill_country_leader = yes
+		add_popularity = {
+			ideology = democratic
+			popularity = -1
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = -1
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.25
+		}
+				create_country_leader = {
+
+					name = "João Baptista Figueiredo"
+					picture = "gfx/leaders/SAO/Portrait_SAO_Joao_figueiredo.dds"
+					expire = "1999.1.1"
+					ideology = ultranationalism 
+					traits = {
+					}
+				}
+				set_cosmetic_tag = SAO_SCR
+ 				news_event = { id = world_sp.2 } 
+			}
+
+			else_if = { # Quadros' Path
+				limit = {
+					has_country_flag = SAO_quadros_path
+
+				} 
+				set_politics = {
+					ruling_party = democratic
+					last_election = "1967.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+
+ 			news_event = { id = world_sp.3 } 
+				}
 			}
 		}
 	}

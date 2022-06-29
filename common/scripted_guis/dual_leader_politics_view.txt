@@ -36,6 +36,10 @@ scripted_gui = {
 					has_country_flag = marques_elected
 				}
 				tag = ARG
+				AND = {
+					tag = SAO
+					has_country_flag = second_phase_sp
+				}
 			}	
 		}
 		

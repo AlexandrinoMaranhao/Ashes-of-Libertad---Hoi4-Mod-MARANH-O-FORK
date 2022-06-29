@@ -44,8 +44,61 @@ news_event = { # Natel is ded
 
 	option = {
 		name = world_sp.1.a 
+SAO = {
+				kill_ideology_leader = fascism
+
+				create_country_leader = {
+
+					name = "------"
+					picture = "gfx/leaders/SAO/Portrait_SAO_Joao_figueiredo.dds"
+					expire = "1999.1.1"
+					ideology = military_junta  
+					traits = {
+					}
+				}
+			} 
 		}
 	}
+
+news_event = { # Adhemar ded (Marighella Path)
+	id = world_sp.2
+	title = world_sp.2.t
+	desc = world_sp.2.d
+	picture = "GFX_news_event_natel_dead"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_sp.2.a 
+		}
+	}
+
+news_event = { # Figueiredo ded (Quadros Path)
+	id = world_sp.3
+	title = world_sp.3.t
+	desc = world_sp.3.d
+	picture = "GFX_news_event_natel_dead"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_sp.3.a 
+		}
+	}
+
+news_event = { # Figueiredo takes control of SP (Figueiredo Path)
+	id = world_sp.4
+	title = world_sp.4.t
+	desc = world_sp.4.d
+	picture = "GFX_news_event_natel_dead"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_sp.3.a 
+		}
+	}
+
 
 news_event = { # Elected Cerqueira
 	id = world_acr.1

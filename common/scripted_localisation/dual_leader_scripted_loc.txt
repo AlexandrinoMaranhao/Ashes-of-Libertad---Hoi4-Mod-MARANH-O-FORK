@@ -154,6 +154,14 @@ defined_text = {
     }
 
 	text = {
+		trigger = {
+			tag = SAO
+		    has_country_flag = second_phase_sp
+	    }
+		localization_key = SAO_FIRST_TITLE_FIG
+    }
+
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -315,6 +323,16 @@ defined_text = {
 	    }
 		localization_key = ARG_SECOND_TITLE
     }
+
+	text = {
+		trigger = {
+			tag = SAO
+		    has_country_flag = second_phase_sp
+	    }
+		localization_key = SAO_SECOND_TITLE_FIG
+    }
+
+
 }
 #########################
 defined_text = {
@@ -480,6 +498,16 @@ defined_text = {
 	    }
 		localization_key = ARG_SECOND_LEADER
     }
+
+	text = {
+		trigger = {
+			tag = SAO
+		    has_country_flag = second_phase_sp
+	    }
+		localization_key = SAO_SECOND_LEADER_FIG
+    }
+
+
 	text = {
 		localization_key = DEFAULT_TITLE
 	}
@@ -644,6 +672,16 @@ defined_text = {
 	    }
 		localization_key = "GFX_ARG_PERETTE"
     }
+
+	text = {
+		trigger = {
+			tag = SAO
+		    has_country_flag = second_phase_sp
+	    }
+		localization_key = GFX_SAO_FIGUEIREDO
+    }
+
+
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
@@ -674,6 +712,12 @@ defined_text = {
 			original_tag = RMI
         }
         localization_key = "ARANTES_DESC"
+	}
+    text = {
+        trigger = {
+			original_tag = SAO
+        }
+        localization_key = "FIGUEIREDO_DESC"
 	}
 }
 ###################################
@@ -709,5 +753,12 @@ defined_text = {
 			original_tag = RMI
         }
         localization_key = "BAMBIRRA_DESC"
+	}
+
+    text = {
+        trigger = {
+			original_tag = SAO
+        }
+        localization_key = "SAO_ADHEMAR_DESC"
 	}
 }

@@ -100,12 +100,20 @@ country_event = { #"All Quiet in the Eastern Front"
     id = SAO_Focus_Tree_Events.7
     title = SAO_Focus_Tree_Events.7.t
     desc = SAO_Focus_Tree_Events.7.d
-    picture = x
+    picture = GFX_report_event_rusty_kombi
     fire_only_once = no
     is_triggered_only = yes
 
     option = {
         name = SAO_Focus_Tree_Events.7.A
+
+        SAO = {
+        country_event = {
+            id = SAO.2
+            days = 0
+        }
+    }
+    
     }
 }
 
@@ -126,7 +134,7 @@ country_event = { #"The Hero of Pindamonhangaba"
     id = SAO_Focus_Tree_Events.9
     title = SAO_Focus_Tree_Events.9.t
     desc = SAO_Focus_Tree_Events.9.d
-    picture = x
+    picture = GFX_report_event_alberto_mendes
     fire_only_once = no
     is_triggered_only = yes
 
@@ -579,6 +587,11 @@ country_event = { #Road to Guanabara event 3
 				ideology = fascism
 				popularity = 0.05
 			}
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.4
+            days = 0
+        }
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.B
@@ -586,6 +599,11 @@ country_event = { #Road to Guanabara event 3
 				ideology = democratic
 				popularity = 0.05
 			}
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.4
+            days = 0
+        }
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.3.C
@@ -597,6 +615,11 @@ country_event = { #Road to Guanabara event 3
 				ideology = fascism
 				popularity = 0.025
 			}
+
+        country_event = {
+            id = SAO_ROAD_TO_GUANABARA.4
+            days = 0
+        }
     }
 }
 
@@ -609,17 +632,17 @@ country_event = { #The Choice.
     is_triggered_only = yes
 
     option = { #Marighella
-        name = SAO_ROAD_TO_GUANABARA.4.A
-		set_country_flag = SAO_marighella_path
+        name = SAO_ROAD_TO_GUANABARA.4.A 
+		set_country_flag = SAO_figueiredo_path
     }
     option = { #Figueiredo
         name = SAO_ROAD_TO_GUANABARA.4.B
-		set_country_flag = SAO_figueiredo_path
+		set_country_flag = SAO_marighella_path
     }
-    #option = { #Quadros
-    #    name = SAO_ROAD_TO_GUANABARA.4.C
-    #    set_country_flag = SAO_quadros_path
-    #}
+    option = { #Quadros
+        name = SAO_ROAD_TO_GUANABARA.4.C
+        set_country_flag = SAO_quadros_path
+    }
 }
 
 country_event = {
@@ -764,12 +787,29 @@ country_event = { #Border Clash with the COLINA
     id = SAO.2
     title = SAO.2.t
     desc = SAO.2.d
-    picture = x
+    picture = GFX_report_event_itajuba_arms_factory
     fire_only_once = yes
     is_triggered_only = yes
 
     option = {
         name = SAO.2.A
+        SAO = {
+        add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 120
+        producer = RMI
+            }
+        }
+
+        RMI = {
+        add_manpower = -1
+
+        add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = -120
+        producer = RMI
+            }
+        }
 
             start_border_war = {
                 change_state_after_war = no
