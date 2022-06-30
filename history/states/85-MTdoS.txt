@@ -10,9 +10,9 @@ state={
 	state_category=rural
 
             history = {
-             owner=BRA
-             add_core_of = BRA
+             owner=MGS
 		add_core_of = JAG
+		add_core_of = MGS
 		buildings = {
 
 			infrastructure = 2

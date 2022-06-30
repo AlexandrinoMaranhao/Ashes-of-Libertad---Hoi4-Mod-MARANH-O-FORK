@@ -1,5 +1,10 @@
 ideas = {
 	country = {
+
+			AMA_the_northern_military_command = {
+
+			}
+
 		    the_port_of_macapa = {
 			
 			allowed = {
@@ -25,6 +30,7 @@ ideas = {
 			political_power_gain = 0.05
 			}
 		}
+
 		northern_friend_of_the_republic = {
 			
 			allowed = {

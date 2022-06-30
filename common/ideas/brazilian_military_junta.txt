@@ -1,6 +1,10 @@
 ideas = {
 	country = {
 
+		JUN_plateau_military_command = {
+		
+		}
+
 		the_man_in_the_white_castle = {
 
 		}

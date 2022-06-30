@@ -436,6 +436,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_the_public_defence_force  }
 		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+		army_experience = 100
+		}
 	}
 
 	#Resettling the Immigrants
@@ -744,6 +748,7 @@ focus_tree = {
 				add_manpower = -10000
 			}
 			SAO = {
+				army_experience = 50
 				add_manpower = 10000
 			    set_portraits = {
 			        character = SAO_euryale_de_jesus_zerbini
@@ -1256,6 +1261,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = SAO_greyskiesoncemore  }
 		ai_will_do = { factor = 1 }
+		bypass = {
+		NOT = {
+		country_exists = UBA
+			}
+		}
 		completion_reward = {
 			add_opinion_modifier = { target = UBA modifier = large_increase }
 			add_opinion_modifier = { target = JUN modifier = large_increase }

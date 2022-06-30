@@ -1,0 +1,64 @@
+division_template = {
+	name = "Divisão deInfantaria"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	support = {
+		recon = { x = 0 y = 0 }
+		}
+	}
+}
+
+division_template = {
+	is_locked = yes
+    name = "Tanque"
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+        light_armor = { x = 1 y = 1 }
+    }
+
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Escudos da Democracia"
+		location = 815
+		division_template = "Tanque"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Belo Horizonte"
+		location = 815
+		division_template = "Divisão deInfantaria"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Divinópolis"
+		location = 4516
+		division_template = "Divisão deInfantaria"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalhão de Três Corações"
+		location = 889
+		division_template = "Divisão deInfantaria"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}	

@@ -29,6 +29,9 @@ create_faction = NATO
 add_to_faction = DOM
 add_to_faction = BTA
 add_to_faction = ACC
+puppet = ACC
+puppet = BTA
+
 
 add_ideas = {
     conscription_volunteer_only

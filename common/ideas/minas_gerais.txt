@@ -17,10 +17,21 @@ ideas = {
 		}
 
 
-	    #
+	    # 
 	    trabalhismo_mineiro = {
 
 	    }
+	}
+
+	country = {
+
+		BHO_the_4th_military_region = {
+	
+		}
+	
+		BHO_the_siege_of_belo_horizonte = {
+	
+		}
 
 	}
 }

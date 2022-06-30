@@ -31,7 +31,7 @@ add_equipment_to_stockpile = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "1966.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -46,13 +46,15 @@ set_popularities = {
 create_faction = brazilian_federation
 add_to_faction = AMA
 add_to_faction = CNU
-
+add_to_faction = MGS
+puppet = MGS
 add_ideas = {
 
 	conscription_one_year_draft
 	trade_scope_regional_exports
 	economic_focus_partial_mobilization
 
+	BRA_the_southern_military_command
 	the_paulista_betrayal
     overdue_elections
     last_stand_of_the_republic

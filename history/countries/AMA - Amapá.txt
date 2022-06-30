@@ -32,6 +32,7 @@ conscription_one_year_draft
 trade_scope_intercontinental_exports
 economic_focus_civilian_economy
 
+AMA_the_northern_military_command
 the_port_of_macapa
 northern_friend_of_the_republic
 }

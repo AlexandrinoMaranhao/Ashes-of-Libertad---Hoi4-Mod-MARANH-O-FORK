@@ -31,8 +31,9 @@ state={
 				bunker = 2
 			}
 		}
-             owner=BRA
+             owner = MGS
              add_core_of = BRA
+		add_core_of = MGS
 		add_core_of = JAG
         victory_points = {
            4593 5

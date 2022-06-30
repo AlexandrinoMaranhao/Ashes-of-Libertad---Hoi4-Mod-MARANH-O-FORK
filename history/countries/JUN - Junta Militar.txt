@@ -36,6 +36,7 @@ add_to_faction = UBA
 add_to_faction = CRJ
 add_to_faction = LAM
 add_to_faction = JAG
+add_to_faction = BHO
 
 add_ideas = {
 
@@ -43,9 +44,11 @@ add_ideas = {
 	economic_focus_partial_mobilization
 	conscription_two_year_draft
 
+	JUN_plateau_military_command
 	the_man_in_the_white_castle
 	dutra
 	the_knockedout_giant_JUN
+
 }
 
 set_country_flag = special_volunteers

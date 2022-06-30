@@ -50,8 +50,8 @@ country_event = {
     option = {
         name = JAG_BRA_border_conflict.1.A
 
-        BRA = { transfer_state = 85 }
-        BRA = { country_event = { id = JuntavsBrazil.1 days = 60 } }
+        MGS = { transfer_state = 85 }
+        MGS = { country_event = { id = JuntavsBrazil.1 days = 60 } }
     }
 }
 country_event = {
@@ -66,7 +66,7 @@ country_event = {
         name = JAG_BRA_border_conflict.2.A
 
         JAG = { transfer_state = 85 }
-        BRA = { country_event = { id = JuntavsBrazil.2 days = 60 } }
+        MGS = { country_event = { id = JuntavsBrazil.2 days = 60 } }
     }
 }
 country_event = {
@@ -139,8 +139,8 @@ country_event = {
     option = {
         name = JAG_BRA_border_conflict.3.A
 
-        BRA = { transfer_state = 144 }
-        BRA = { country_event = { id = JuntavsBrazil.2 days = 60 } }
+        MGS = { transfer_state = 144 }
+        MGS = { country_event = { id = JuntavsBrazil.2 days = 60 } }
     }
 }
 country_event = {
@@ -155,7 +155,7 @@ country_event = {
         name = JAG_BRA_border_conflict.4.A
 
         JAG = { transfer_state = 144 }
-        BRA = { country_event = { id = JuntavsBrazil.3 days = 60 } }
+        MGS = { country_event = { id = JuntavsBrazil.3 days = 60 } }
     }
 }
 country_event = {
@@ -226,7 +226,7 @@ country_event = {
     option = {
         name = JAG_BRA_border_conflict.5.A
 
-        BRA = { transfer_state = 143 }
+        MGS = { transfer_state = 143 }
     }
 }
 country_event = {

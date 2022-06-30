@@ -6,7 +6,52 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-				
+				    
+spriteType ={
+    name = "GFX_idea_MGS_unberable_infrastructure"
+    texturefile = "gfx/interface/ideas/MGS_unberable_infrastructure.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_MGS_constitutionalist_sympathies"
+    texturefile = "gfx/interface/ideas/MGS_constitutionalist_sympathies.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_MGS_civil_military_government"
+    texturefile = "gfx/interface/ideas/MGS_civil_military_government.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_MGS_JAG_the_battle_of_mato_grosso"
+    texturefile = "gfx/interface/ideas/MGS_JAG_the_battle_of_mato_grosso.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_MGS_comando_militar_do_oeste"
+    texturefile = "gfx/interface/ideas/MGS_comando_militar_do_oeste.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_BHO_the_4th_military_region"
+    texturefile = "gfx/interface/ideas/BHO_the_4th_military_region.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_BHO_the_siege_of_belo_horizonte"
+    texturefile = "gfx/interface/ideas/BHO_the_siege_of_belo_horizonte.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_CRJ_isolated_battalions_in_mg"
+    texturefile = "gfx/interface/ideas/CRJ_isolated_battalions_in_mg.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_CRJ_the_eastern_military_command"
+    texturefile = "gfx/interface/ideas/CRJ_the_eastern_military_command.dds"
+} 
+
 spriteType ={
     name = "GFX_idea_the_knockedout_giant_JUN"
     texturefile = "gfx/interface/ideas/the_knockedout_giant_JUN.dds"

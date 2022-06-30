@@ -520,6 +520,19 @@ SAO.200.t:0 "Hugo Defects to the Revolution"
 SAO.200.d:0 "the 36º Battalion joins sp"
 SAO.200.A:0 "yey"
 
+
+SAO_operations_failure.1.t:0 "Itajubá Raid was a Success"
+SAO_operations_failure.1.d:0 "Itajubá is ours"
+SAO_operations_failure.1.A:0 "yey"
+
+SAO_operations_failure.2.t:0 "We won the battle of Pindamonhangaba yey."
+SAO_operations_failure.2.d:0 "Discussion about the upcoming raid on Itajubá"
+SAO_operations_failure.2.A:0 "yey"
+
+SAO_operations_failure.3.t:0 "Colina raided Itajubá"
+SAO_operations_failure.3.d:0 "those bitches"
+SAO_operations_failure.3.A:0 "not yey"
+
 PAULISTA_CATASTROPHE.1.t:0 "The Paulista Catastrophe"
 PAULISTA_CATASTROPHE.1.d:0 "oh no"
 PAULISTA_CATASTROPHE.1.A:0 "fuuuuuuuuuck"

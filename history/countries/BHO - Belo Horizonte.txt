@@ -1,0 +1,80 @@
+﻿capital = 64
+
+oob = "BHO_1967"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	tech_support = 1
+	motorised_infantry = 1
+	true_motorised_infantry = 1
+	infantry_gear = 1
+	armored_car1 = 1
+	light_tank_equipment = 1
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 10000
+	producer = CRJ
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 1000
+	producer = CRJ
+}
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
+	reactionary = 0
+}
+
+add_ideas = {
+
+BHO_the_4th_military_region
+BHO_the_siege_of_belo_horizonte
+trabalhismo_mineiro
+
+	religious_secularism
+	bellow_poverty_line
+	political_parties_one_party_state
+	state_press_only
+	economic_focus_war_economy
+	WR_minimal_regulations
+	tax_rate_medium_taxation
+	SI_minimal_regulations
+	conscription_all_adults_serve
+	urban_specialization
+	professional_training_methods
+	professional_officer_training
+	private_mercenaries_contractors
+	draft_exemptions_civil_service_deferment
+	
+}
+
+#variables
+
+create_country_leader = {
+	
+	name = "Olímpio Mourão Filho"
+	picture = "gfx/leaders/CRJ/Portrait_CRJ_Olimpio_Mourao.dds"
+	desc = ""
+	expire = "1999.1.1"
+	ideology = military_government 
+	traits = {
+		
+	}
+}
+

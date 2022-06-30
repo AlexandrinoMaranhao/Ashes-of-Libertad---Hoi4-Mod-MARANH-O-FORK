@@ -25,16 +25,24 @@
  MON_ADJ:0 ""
  MAS_ADJ:0 ""
  ONG_ADJ:0 ""
- 
+
+ BHO:0 "4º Military Region"
+ BHO_ADJ:0 "the 4º Military Region"
+ BHO_DEF:0 "from the 4º Military Region"
+
+ MGS:0 "Provisional Government of Maracaju"
+ MGS_DEF:0 "Sul Matogrossense"
+ MGS_ADJ:0 "the Provisional Government of Maracaju"
+
  NUD:0 "Democratic Union of Vera Cruz"
- NUD_ADJ:0 "Democratic Union of Vera Cruz"
+ NUD_ADJ:0 "the Democratic Union of Vera Cruz"
  NUD_DEF:0 "Northeastern Unionist"
  
- FRN:0 "Fernando de Noronha Military Garrison"
+ FRN:0 "Guarnição Militar do Território Federal de Fernando de Noronha"
  FRN_neutrality:0 "Piratas de Loronha"
  FRN_neutrality_DEF:0 "The Pirates of Fernando de Noronha"
  FRN_ADJ:0 "Noronhense"
- FRN_DEF:0 "Fernando de Noronha Military Garrison"
+ FRN_DEF:0 "Guarnição Militar do Território Federal de Fernando de Noronha"
 
  ERP:0 "E.R.P."
  DEA:0 "National Uruguayan State"
@@ -563,8 +571,8 @@
  ERN_neutrality_ADJ:0 "Libertador"
  ERN_communism_ADJ:0 "Libertador"
  
- UBA_fascism:0 "36° Battalion"
- UBA_fascism_DEF:0 "the 36° Battalion"
+ UBA_fascism:0 "36º Battalion"
+ UBA_fascism_DEF:0 "the 36º Battalion"
  UBA_democratic:0 "Minas Gerais"
  UBA_democratic_DEF:0 "Minas Gerais"
  UBA_neutrality:1 "Provisional Government of Minas Gerais"
@@ -589,8 +597,8 @@
  CNU_neutrality_ADJ:0 "Baianos"
  CNU_communism_ADJ:0 "Jacobinos"
 
- LAM_fascism:0 "6° Military Region"
- LAM_fascism_DEF:0 "the 6° Military Region"
+ LAM_fascism:0 "6º Military Region"
+ LAM_fascism_DEF:0 "the 6º Military Region"
  LAM_democratic:0 "Company of Jesus"
  LAM_democratic_DEF:0 "the Company of Jesus"
  LAM_neutrality:1 "Cangaceiros do Justino"

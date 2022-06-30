@@ -1,6 +1,10 @@
 ideas = {
 	country = {
 
+		BEM_the_northern_military_command = {
+		
+		}
+
 		BEM_a_friend_of_the_natives = {
 			picture = BEM_a_friend_of_the_natives-153592
 			allowed = {

@@ -1,8 +1,8 @@
-﻿capital = 145
+﻿capital = 144
 
-oob = "JAG_1967"
+oob = "MGS_1967"
 
-## Starting tech ##
+# Starting tech
 set_technology = {
 	# Infantry
 	infantry_weapons = 1
@@ -47,92 +47,103 @@ set_technology = {
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 5000
-	producer = JUN
+	producer = BRA
 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 8000
-	producer = JUN
+	producer = BRA
 }
 add_equipment_to_stockpile = {
 	type = motorized_equipment_1
 	amount = 1000
-	producer = JUN
+	producer = BRA
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 2500
-	producer = JUN
+	producer = BRA
 }
 add_equipment_to_stockpile = {
 	type = mechanized_equipment_1
 	amount = 200
-	producer = JUN
+	producer = BRA
 }
 
 # Artillery
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 1500
-	producer = JUN
+	producer = BRA
 }
 add_equipment_to_stockpile = {
 	type = anti_tank_equipment_1
 	amount = 120
-	producer = JUN
+	producer = BRA
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
 	amount = 120
-	producer = JUN
+	producer = BRA
 }
 
 # Armored
 add_equipment_to_stockpile = {
 	type = light_tank_equipment_1
 	amount = 400
-	producer = JUN
+	producer = BRA
 }
-
+set_convoys = 5
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
-	election_frequency = 0
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 80
+	democratic = 10
+	fascism = 85
 	communism = 0
 	neutrality = 0
-	reactionary = 20
+	reactionary = 5
 }
 
 add_ideas = {
+MGS_comando_militar_do_oeste
+MGS_JAG_the_battle_of_mato_grosso
+MGS_unberable_infrastructure
+MGS_civil_military_government
+MGS_constitutionalist_sympathies
 
-	conscription_volunteer_only
-	economic_focus_civilian_economy
-	trade_scope_regional_exports
-
-	filinto_is_an_ass
-	MGS_JAG_the_battle_of_mato_grosso
-	unsustainable_army
-	gambiarra_army
+	religious_secularism
+	bellow_poverty_line
+	political_parties_one_party_state
+	state_press_only
+	economic_focus_war_economy
+	WR_minimal_regulations
+	tax_rate_medium_taxation
+	SI_minimal_regulations
+	conscription_all_adults_serve
+	urban_specialization
+	professional_training_methods
+	professional_officer_training
+	private_mercenaries_contractors
+	draft_exemptions_civil_service_deferment
 }
 
-set_country_flag = is_brazilian
-
+#variables
 
 create_country_leader = {
 	
-	name = "Filinto Müller"
-	picture = "gfx/leaders/JAG/Portrait_JAG_Filinto_Muller.dds"
+	name = "Henrique Teixeira Lott"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Henrique_Teixeira_Lott.dds"
+	desc = ""
 	expire = "1999.1.1"
-	ideology = military_government 
+	ideology = provisional_government 
+	traits = {
+		
+	}
 }
-
-recruit_character = JAG_newton_cruz
-recruit_character = JAG_washington_vaz_de_melo
-recruit_character = JAG_carlos_brilhante_ustra
+recruit_character = CRJ_diogo_de_oliveira_figueiredo

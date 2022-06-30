@@ -1,6 +1,10 @@
 ideas = {
 	country = {
 		
+		BRA_the_southern_military_command = {
+
+		}
+
 		the_paulista_betrayal = {
 
 		}

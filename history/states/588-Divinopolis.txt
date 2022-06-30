@@ -5,9 +5,10 @@ state={
 		4516 
 	}
 	history={
-		owner = CRJ
+		owner = BHO
 		add_core_of = RMI
 		add_core_of = CRJ
+		add_core_of = BHO
 		victory_points = {
 			4516 10
 		}

@@ -25,7 +25,7 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 10
@@ -37,14 +37,25 @@ set_popularities = {
 }
 
 add_ideas = {
-scars_of_guanabara
 CRJ_the_eastern_military_command
+scars_of_guanabara
 CRJ_isolated_battalions_in_mg
 
 naval_bias
-	trade_scope_closed_economy
-	economic_focus_partial_mobilization
-	conscription_two_year_draft
+	religious_secularism
+	bellow_poverty_line
+	political_parties_one_party_state
+	state_press_only
+	economic_focus_war_economy
+	WR_minimal_regulations
+	tax_rate_medium_taxation
+	SI_minimal_regulations
+	conscription_all_adults_serve
+	urban_specialization
+	professional_training_methods
+	professional_officer_training
+	private_mercenaries_contractors
+	draft_exemptions_civil_service_deferment
 }
 
 set_country_flag = is_brazilian
@@ -77,10 +88,10 @@ create_country_leader = {
 	ideology = monarchy_status_quo
 }
 
+puppet = BHO
 
 recruit_character = CRJ_olímpio_mourão_filho
 recruit_character = CRJ_danilo_venturini
-recruit_character = CRJ_diogo_de_oliveira_figueiredo
 recruit_character = CRJ_joão_punaro_bley
 recruit_character = CRJ_jair_dantas_ribeiro
 recruit_character = CRJ_césar_montagna

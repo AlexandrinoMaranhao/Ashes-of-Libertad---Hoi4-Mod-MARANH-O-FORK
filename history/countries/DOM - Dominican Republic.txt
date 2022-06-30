@@ -49,6 +49,7 @@ add_ideas = {
 	DOM_trujillos_legacy
 }
 
+
 set_country_flag = use_generic_outsider_laws
 set_country_flag = use_generic_draft_exemptions_laws
 set_country_flag = use_generic_officer_training_laws

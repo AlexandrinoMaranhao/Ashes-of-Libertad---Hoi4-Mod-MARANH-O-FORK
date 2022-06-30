@@ -30,6 +30,7 @@ conscription_one_year_draft
 economic_focus_civilian_economy
 trade_scope_closed_economy
 
+BEM_the_northern_military_command
 the_cabanos 
 the_juntas_favorite_pet 
 the_siege_of_altamira

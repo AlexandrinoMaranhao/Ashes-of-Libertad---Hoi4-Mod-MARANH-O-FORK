@@ -145,7 +145,8 @@ BAH = "countries/Bahamas.txt"
 GDL = "countries/Guadeloupe.txt"
 JAM = "countries/Jamaica.txt"
 CAY = "countries/Cayenne.txt"
-
+MGS = "countries/Mato Grosso do Sul.txt"
+BHO = "countries/Belo Horizonte.txt"
 ## MEXICO ##
 MEX = "countries/Mexico.txt"
 NGA = "countries/Nueva Galicia.txt"
