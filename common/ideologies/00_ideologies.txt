@@ -40,7 +40,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 0 0 160 }
+		color = { 0 0 100 }
 		
 		rules = {
 			can_create_collaboration_government = yes
@@ -112,7 +112,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 160 0 0 }
+		color = { 127 0 0 }
 		
 		rules = {
 			can_create_collaboration_government = yes
@@ -183,7 +183,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 0 100 10 }
+		color = { 0 81 44 }
 		
 		rules = {
 			can_create_collaboration_government = yes
@@ -262,7 +262,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 200 195 0 }
+		color = { 255 233 127 }
 		
 		
 		rules = {
@@ -327,7 +327,7 @@ ideologies = {
 
 		}
 		
-		color = { 130 80 0 }
+		color = { 140 70 0 }
 		
 		rules = {
 			can_create_collaboration_government = yes

@@ -17,13 +17,11 @@ ideas = {
 		CRJ_isolated_battalions_in_mg = {
 		cancel = { has_war_with = RMI }
 		modifier = {
-		occupation_cost = 0.5
-		required_garrison_factor = 0.5
 		supply_combat_penalties_on_core_factor = -0.9
 		supply_consumption_factor = -0.3
-
-		}
-
+		occupation_cost = 0.5
+		required_garrison_factor = 0.5
+			}
 		}
 
 		scars_of_guanabara = {

@@ -131,6 +131,7 @@ MGS_constitutionalist_sympathies
 	professional_officer_training
 	private_mercenaries_contractors
 	draft_exemptions_civil_service_deferment
+	slavery_outlawed
 }
 
 #variables
