@@ -1,5 +1,6 @@
 add_namespace = CFD_intro
 add_namespace = CFD_events
+add_namespace = CFD_elections
 add_namespace = CFD_operations
 add_namespace = CFD_operation_failure
 add_namespace = CFD_failometer_enabled
@@ -178,6 +179,132 @@ country_event = { #Doria FDP!
 			complete_national_focus = CFD_the_sergipe_backstab
 			add_ideas = CFD_the_sergipe_backstab 
 		}
+    }
+}
+
+##The Elections events##
+
+country_event = { #Eleições Start
+    id = CFD_elections.1
+    title = CFD_elections.1.t
+    desc = CFD_elections.1.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = {
+        name = CFD_elections.1.a
+		CFD = {
+			set_country_flag = CFD_elections_phase_1
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = CFD_the_elections
+			hidden_effect = {
+				country_event = {
+					id = CFD_elections.2
+					days = 7
+				}
+			}
+		}	
+    }
+}
+
+country_event = { #Election options 1
+    id = CFD_elections.2
+    title = CFD_elections.2.t
+    desc = CFD_elections.2.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = {
+        name = CFD_elections.2.a
+		CFD = {
+			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
+			add_to_variable = {
+				var = CFD_yes_elections_chances
+				value = 2
+			}
+			hidden_effect = {
+				country_event = {
+					id = CFD_elections.3
+					days = 7
+				}
+			}
+		}
+    }
+    option = {
+        name = CFD_elections.2.b
+		CFD = {
+			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
+			add_to_variable = {
+				var = CFD_no_elections_chances
+				value = 2
+			}
+			hidden_effect = {
+				country_event = {
+					id = CFD_elections.3
+					days = 7
+				}
+			}
+		}
+    }
+}
+
+country_event = { #Election options 2
+    id = CFD_elections.3
+    title = CFD_elections.3.t
+    desc = CFD_elections.3.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = {
+        name = CFD_elections.3.a
+		CFD = {
+			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
+			add_to_variable = {
+				var = CFD_yes_elections_chances
+				value = 1
+			}
+			hidden_effect = {country_event = {id = CFD_elections.4}}
+		}
+    }
+    option = {
+        name = CFD_elections.3.b
+		CFD = {
+			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
+			add_to_variable = {
+				var = CFD_no_elections_chances
+				value = 1
+			}
+			hidden_effect = {country_event = {id = CFD_elections.4}}
+		}
+    }
+}
+
+country_event = { #Election yes or no
+    id = CFD_elections.4
+    title = CFD_elections.3.t
+    desc = CFD_elections.3.d
+    is_triggered_only = yes
+	hidden = yes
+    picture = GFX_report_cfd_elections1
+
+    option = { #Arraes coup
+        name = CFD_elections.3.a
+		trigger = {
+			CFD = {
+				check_variable = { CFD_no_elections_chances > CFD_yes_elections_chances }
+			}
+		}
+		CFD = {hidden_effect = {complete_national_focus = CFD_nooneotherthanme}}
+    }
+	
+    option = { #Elections is a go!
+        name = CFD_elections.3.b
+		trigger = {
+			CFD = {
+				check_variable = { CFD_yes_elections_chances > CFD_no_elections_chances }
+			}
+		}
+		CFD = {hidden_effect = {complete_national_focus = CFD_continuetheelections}}
     }
 }
 

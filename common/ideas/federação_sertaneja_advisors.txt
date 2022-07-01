@@ -140,7 +140,7 @@ ideas = {
 					original_tag = CFD
 					hidden_trigger = {
 						NOT = {
-							date > 1967.09.03
+							date > 1967.09.10
 						}
 					}
 				}
@@ -149,7 +149,7 @@ ideas = {
 				AND = {
 					original_tag = CFD
 					NOT = {
-						date > 1967.09.03
+						date > 1967.09.10
 					}
 				}
             }

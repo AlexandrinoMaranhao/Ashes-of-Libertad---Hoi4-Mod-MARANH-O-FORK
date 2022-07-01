@@ -35,12 +35,12 @@ CFD_main_category = {
 			AND = {
 				original_tag = CFD
 				has_country_flag = unfinished_cfd
-				date > 1969.04.22
+				date > 1972.04.22
 			}
 		}
 		activation = {
 			AND = {
-				date > 1969.04.22
+				date > 1972.04.22
 				has_country_flag = unfinished_cfd
 			}
         }
@@ -143,6 +143,7 @@ CFD_piaui_frontier = {
 						infantry_equipment > 99
 					}
 					NOT = {has_country_flag = portella_dead}
+					has_border_war = no
 				}
 				
 			}
@@ -197,6 +198,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -251,6 +253,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -305,6 +308,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -359,6 +363,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -413,6 +418,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -467,6 +473,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -521,6 +528,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -575,6 +583,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -629,6 +638,7 @@ CFD_piaui_frontier = {
 					}
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -686,6 +696,7 @@ CFD_piaui_frontier = {
 					controls_state = 583
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
+					has_border_war = no
 				}
 				
 			}
@@ -737,6 +748,7 @@ CFD_piaui_frontier = {
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
 					has_country_flag = operations_completed
+					has_border_war = no
 				}
 				
 			}

@@ -119,10 +119,10 @@ ideas = {
 		modifier = {
 			reactionary_acceptance = 50
 			reactionary_drift = 0.001
-			targeted_modifier = {
-				tag = SAO
-				attack_bonus_against = -0.5
-			}
+		}
+		targeted_modifier = {
+			tag = SAO
+			attack_bonus_against = -0.5
 		}
 
 		}

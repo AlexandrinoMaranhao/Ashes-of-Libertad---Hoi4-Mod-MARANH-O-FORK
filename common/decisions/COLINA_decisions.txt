@@ -5,7 +5,12 @@ COLINA_category = {
 		available = {
 			AND = {
 				original_tag = RMI
-				RMI = {NOT = {controls_state = 585}}
+				RMI = {
+					NOT = {
+						has_country_flag = RMI_cant_retake_itajub
+						controls_state = 585
+					}
+				}
 			}
 		}
 			
@@ -17,11 +22,16 @@ COLINA_category = {
 		visible = {
 			AND = {
 				original_tag = RMI
-				RMI = {NOT = {controls_state = 585}}
+				RMI = {
+					NOT = {
+						has_country_flag = RMI_cant_retake_itajub
+						controls_state = 585
+					}
+				}
 			}
 		}		
 			
-		cost = 0
+		cost = 5
 			
 		complete_effect = {
 			start_border_war = {

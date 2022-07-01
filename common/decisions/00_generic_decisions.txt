@@ -865,6 +865,13 @@ key_locations_decisions = {		#These are TNO-inspired national spirits based on i
 		is_good = yes
 		days_mission_timeout = 7
 		complete_effect = {
+			RMI = {
+				set_country_flag = {
+					flag = RMI_cant_retake_itajub
+					days = 14
+					value = 1
+				}
+			}
 			add_ideas = GENERIC_the_itajub_arms_factory
 		}
 	}
