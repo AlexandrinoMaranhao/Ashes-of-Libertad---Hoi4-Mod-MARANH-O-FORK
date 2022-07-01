@@ -548,7 +548,7 @@ focus_tree = {
 	#Tour the Farmsteads
 	focus = {
 		id = SAO_tour_the_farmsteads
-		icon = GFX_SAO_tour_the_farmsteads
+		icon = GFX_SAO_tuor_the_farmsteads
 		x = 23
 		y = 1
 		cost = 3
