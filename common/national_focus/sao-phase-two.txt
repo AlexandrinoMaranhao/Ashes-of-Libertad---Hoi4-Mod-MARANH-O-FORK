@@ -68,7 +68,7 @@ focus_tree = {
 						FOCUS_FILTER_POLITICAL
 					
 		}
-		prerequisite = { focus = sao_phase_two_mobilizethetrains  }
+		prerequisite = { focus = sao_phase_two_mobilize_the_trains  }
 		ai_will_do = { factor = 1 }
 	}
 
@@ -123,7 +123,7 @@ focus_tree = {
 	#Integrate the 36th Battalion
 	focus = {
 		id = sao_phase_two_integrate_the_36th_battalion
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_integrate_the_36th_battalion-185523
 		x = 21
 		y = 3
 		cost = 3
@@ -134,17 +134,15 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#Mobilize the Trains
+	#Mobilize the Trains
 	focus = {
-		id = sao_phase_two_mobilizethetrains
-		icon = GFX_goal_unknown
+		id = sao_phase_two_mobilize_the_trains
+		icon = GFX_sao_phase_two_mobilize_the_trains-185523
 		x = 21
 		y = 4
 		cost = 3
 		search_filters = {
-			
-						FOCUS_FILTER_POLITICAL
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = sao_phase_two_integrate_the_36th_battalion  }
 		ai_will_do = { factor = 1 }
@@ -153,7 +151,7 @@ focus_tree = {
 	#Hunt their Allies
 	focus = {
 		id = sao_phase_two_hunt_their_allies
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_hunt_their_allies-185523
 		x = 19
 		y = 4
 		cost = 3
@@ -167,7 +165,7 @@ focus_tree = {
 	#Ostensive Patrols
 	focus = {
 		id = sao_phase_two_ostensive_patrols
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_ostensive_patrols-185523
 		x = 17
 		y = 3
 		cost = 3
@@ -181,7 +179,7 @@ focus_tree = {
 	#Face of the Revolution!
 	focus = {
 		id = sao_phase_two_faceoftherevolution
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_faceoftherevolution-185523
 		x = 19
 		y = 0
 		cost = 3
@@ -190,53 +188,47 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 1 }
 		allow_branch = {
-			has_country_flag = sao_focus_phase_two
+			has_country_flag = SAO_figueiredo_path
 		}
 	}
 
-	#For my Family
+	#For my Family
 	focus = {
-		id = sao_phase_two_formyfamily
-		icon = GFX_goal_unknown
+		id = sao_phase_two_for_my_family
+		icon = GFX_sao_phase_two_for_my_family-185523
 		x = 17
 		y = 1
 		cost = 3
 		search_filters = {
-			
-						FOCUS_FILTER_POLITICAL
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
 		ai_will_do = { factor = 1 }
 	}
 
-	#For my Country
+	#For my Country
 	focus = {
-		id = sao_phase_two_formycountry
-		icon = GFX_goal_unknown
+		id = sao_phase_two_for_my_country
+		icon = GFX_sao_phase_two_for_my_country-185523
 		x = 19
 		y = 1
 		cost = 3
 		search_filters = {
-			
-						FOCUS_FILTER_POLITICAL
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
 		ai_will_do = { factor = 1 }
 	}
 
-	#For the Revolution
+	#For the Revolution
 	focus = {
-		id = sao_phase_two_fortherevolution
-		icon = GFX_goal_unknown
+		id = sao_phase_two_for_the_revolution
+		icon = GFX_sao_phase_two_for_the_revolution-185523
 		x = 21
 		y = 1
 		cost = 3
 		search_filters = {
-			
-						FOCUS_FILTER_POLITICAL
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
 		ai_will_do = { factor = 1 }
@@ -245,21 +237,21 @@ focus_tree = {
 	#State of Emergency
 	focus = {
 		id = sao_phase_two_state_of_emergency
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_state_of_emergency-185523
 		x = 19
 		y = 2
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = sao_phase_two_formyfamily  } prerequisite = { focus = sao_phase_two_formycountry  } prerequisite = { focus = sao_phase_two_fortherevolution  }
+		prerequisite = { focus = sao_phase_two_for_my_family  } prerequisite = { focus = sao_phase_two_for_my_country  } prerequisite = { focus = sao_phase_two_for_the_revolution  }
 		ai_will_do = { factor = 1 }
 	}
 
 	#ROTA na Rua!
 	focus = {
 		id = sao_phase_two_rotanarua
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_rotanarua-185523
 		x = 17
 		y = 4
 		cost = 3
@@ -302,19 +294,298 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#Higienopolis ''Interrogation'' Center
+	#Higienopolis ''Interrogation'' Center
 	focus = {
 		id = sao_phase_two_higienopolisinterrogationcenter
-		icon = GFX_goal_unknown
+		icon = GFX_sao_phase_two_higienopolisinterrogationcenter-185523
 		x = 19
 		y = 3
 		cost = 3
 		search_filters = {
-			
-						FOCUS_FILTER_POLITICAL
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = sao_phase_two_state_of_emergency  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Old Commander Toledo
+	focus = {
+		id = sao_phase_two_the_old_commander_toledo
+		icon = GFX_sao_phase_two_the_old_commander_toledo-185521
+		x = 32
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_theboogiemanofsaopaulo  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Dark Rose of São Paulo
+	focus = {
+		id = sao_phase_two_thedarkroseofsaopaulo
+		icon = GFX_sao_phase_two_thedarkroseofsaopaulo-185521
+		x = 34
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_theboogiemanofsaopaulo  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Red Canary
+	focus = {
+		id = sao_phase_two_the_red_canary
+		icon = GFX_sao_phase_two_the_red_canary-185521
+		x = 36
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_theboogiemanofsaopaulo  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Boogieman of São Paulo
+	focus = {
+		id = sao_phase_two_theboogiemanofsaopaulo
+		icon = GFX_sao_phase_two_theboogiemanofsaopaulo-185521
+		x = 34
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = SAO_marighella_path
+		}
+	}
+
+	#Ready the Weapon Caches
+	focus = {
+		id = sao_phase_two_ready_the_weapon_caches
+		icon = GFX_sao_phase_two_ready_the_weapon_caches-185521
+		x = 34
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_the_urban_guerrila_minihandbook  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Urban Guerrila Mini-Handbook
+	focus = {
+		id = sao_phase_two_the_urban_guerrila_minihandbook
+		icon = GFX_sao_phase_two_the_urban_guerrila_minihandbook-185521
+		x = 34
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_the_old_commander_toledo  } prerequisite = { focus = sao_phase_two_thedarkroseofsaopaulo  } prerequisite = { focus = sao_phase_two_the_red_canary  }
+	}
+
+	#Scale up the Operations
+	focus = {
+		id = sao_phase_two_scale_up_the_operations
+		icon = GFX_sao_phase_two_scale_up_the_operations-185521
+		x = 32
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_the_urban_guerrila_minihandbook  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Rekindle the MST
+	focus = {
+		id = sao_phase_two_rekindle_the_mst
+		icon = GFX_sao_phase_two_rekindle_the_mst-185521
+		x = 36
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_the_urban_guerrila_minihandbook  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Seize the Means of Publication
+	focus = {
+		id = sao_phase_two_seize_the_means_of_publication
+		icon = GFX_sao_phase_two_seize_the_means_of_publication-185521
+		x = 32
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_scale_up_the_operations  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Contact the Friars
+	focus = {
+		id = sao_phase_two_contact_the_friars
+		icon = GFX_sao_phase_two_contact_the_friars-185521
+		x = 34
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_ready_the_weapon_caches  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Reconhecimento de Terreno
+	focus = {
+		id = sao_phase_two_reconhecimento_de_terreno
+		icon = GFX_sao_phase_two_reconhecimento_de_terreno-185521
+		x = 36
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_rekindle_the_mst  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Paint it Red
+	focus = {
+		id = sao_phase_two_paint_it_red
+		icon = GFX_sao_phase_two_paint_it_red-185521
+		x = 32
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_seize_the_means_of_publication  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Contact the §tCOLINA§!
+	focus = {
+		id = sao_phase_two_contactthesstcolinass
+		icon = GFX_sao_phase_two_contactthesstcolinass-185521
+		x = 34
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_contact_the_friars  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Hit and Run
+	focus = {
+		id = sao_phase_two_hit_and_run
+		icon = GFX_sao_phase_two_hit_and_run-185521
+		x = 36
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_reconhecimento_de_terreno  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Stab their Pockets
+	focus = {
+		id = sao_phase_two_stab_their_pockets
+		icon = GFX_sao_phase_two_stab_their_pockets-185521
+		x = 32
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_paint_it_red  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Shadow their Officers
+	focus = {
+		id = sao_phase_two_shadow_their_officers
+		icon = GFX_sao_phase_two_shadow_their_officers-185521
+		x = 34
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_contactthesstcolinass  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Seize the Sewers
+	focus = {
+		id = sao_phase_two_seize_the_sewers
+		icon = GFX_sao_phase_two_seize_the_sewers-185521
+		x = 36
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_hit_and_run  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Cripple the Admiral
+	focus = {
+		id = sao_phase_two_cripple_the_admiral
+		icon = GFX_sao_phase_two_cripple_the_admiral-185521
+		x = 33
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_shadow_their_officers  focus = sao_phase_two_stab_their_pockets  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Paradox of Guerrila Warfare
+	focus = {
+		id = sao_phase_two_the_paradox_of_guerrila_warfare
+		icon = GFX_sao_phase_two_the_paradox_of_guerrila_warfare-185521
+		x = 35
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_seize_the_sewers  focus = sao_phase_two_shadow_their_officers  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Start the §RPaulista Uprising§!
+	focus = {
+		id = sao_phase_two_startthessrpaulistauprisingss
+		icon = GFX_sao_phase_two_startthessrpaulistauprisingss-185521
+		x = 34
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = sao_phase_two_cripple_the_admiral  } prerequisite = { focus = sao_phase_two_the_paradox_of_guerrila_warfare  }
 		ai_will_do = { factor = 1 }
 	}
 

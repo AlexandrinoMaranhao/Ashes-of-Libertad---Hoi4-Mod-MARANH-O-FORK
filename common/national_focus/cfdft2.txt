@@ -11,7 +11,7 @@ focus_tree = {
 	#The Fall
 	focus = {
 		id = CFD_the_fall
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_fall-257058
 		x = 16
 		y = 0
 		cost = 1
@@ -27,7 +27,7 @@ focus_tree = {
 	#The Rise
 	focus = {
 		id = CFD_the_rise
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_rise-257058
 		x = 15
 		y = 1
 		cost = 1
@@ -44,7 +44,7 @@ focus_tree = {
 	#The Future
 	focus = {
 		id = CFD_the_future
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_future-257058
 		x = 17
 		y = 1
 		cost = 1
@@ -75,7 +75,7 @@ focus_tree = {
 	#Autonomy to Small Business
 	focus = {
 		id = CFD_autonomy_to_small_business
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 14
 		y = 7
 		cost = 3
@@ -98,7 +98,7 @@ focus_tree = {
 	#Forced Industrialization
 	focus = {
 		id = CFD_forced_industrialization
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 14
 		y = 8
 		cost = 3
@@ -121,7 +121,7 @@ focus_tree = {
 	#The Creation of §OCOPERBE§!
 	focus = {
 		id = CFD_thecreationofssocoperbess
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_thecreationofssocoperbess-247778
 		x = 15
 		y = 9
 		cost = 3
@@ -135,7 +135,7 @@ focus_tree = {
 	#Another Day in the Office...
 	focus = {
 		id = CFD_anotherdayintheoffice
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_anotherdayintheoffice-247778
 		x = 16
 		y = 3
 		cost = 10
@@ -161,7 +161,7 @@ focus_tree = {
 	#Investing in Basic Infrastructure
 	focus = {
 		id = CFD_investing_in_basic_infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civilian
 		x = 15
 		y = 6
 		cost = 2
@@ -191,7 +191,7 @@ focus_tree = {
 	#The Everyday Fuel
 	focus = {
 		id = CFD_the_everyday_fuel
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_everyday_fuel-247778
 		x = 18
 		y = 6
 		cost = 3
@@ -219,7 +219,7 @@ focus_tree = {
 	#Re-opening Military Academies in Recife
 	focus = {
 		id = CFD_reopening_military_academies_in_recife
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 16
 		y = 7
 		cost = 4
@@ -265,7 +265,7 @@ focus_tree = {
 	#Continue the Elections...
 	focus = {
 		id = CFD_continuetheelections
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_continuetheelections-247778
 		x = 9
 		y = 5
 		cost = 1
@@ -283,7 +283,7 @@ focus_tree = {
 	#No One Other Than Me!
 	focus = {
 		id = CFD_nooneotherthanme
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_nooneotherthanme-247778
 		x = 12
 		y = 5
 		cost = 1
@@ -298,17 +298,15 @@ focus_tree = {
 		}
 	}
 
-	#Spending the Fortunes
+	#Spending the Fortunes
 	focus = {
-		id = CFD_spendingthefortunes
-		icon = GFX_goal_unknown
+		id = CFD_spending_the_fortunes
+		icon = GFX_CFD_spending_the_fortunes-247778
 		x = 18
 		y = 7
 		cost = 10
 		search_filters = {
-			
-						FOCUS_FILTER_INDUSTRY
-					
+			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = CFD_the_everyday_fuel  }
 		ai_will_do = { factor = 1 }
@@ -338,20 +336,20 @@ focus_tree = {
 	#Establishing A New Currency
 	focus = {
 		id = CFD_establishing_a_new_currency
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_establishing_a_new_currency-247778
 		x = 18
 		y = 8
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_spendingthefortunes  }
+		prerequisite = { focus = CFD_spending_the_fortunes  }
 	}
 
 	#And the Result is...
 	focus = {
 		id = CFD_andtheresultis
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_andtheresultis-247778
 		x = 9
 		y = 11
 		cost = 1
@@ -368,7 +366,7 @@ focus_tree = {
 	#Resume the Elections...
 	focus = {
 		id = CFD_resumetheelections
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_resumetheelections-247778
 		x = 12
 		y = 6
 		cost = 10
@@ -385,7 +383,7 @@ focus_tree = {
 	#The Green Stars
 	focus = {
 		id = CFD_the_green_stars
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_green_stars-247778
 		x = 10
 		y = 6
 		cost = 3
@@ -403,7 +401,7 @@ focus_tree = {
 	#The Zona da Mata-Agreste Electoral Campaigns
 	focus = {
 		id = CFD_the_zona_da_mataagreste_electoral_campaigns
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_zona_da_mataagreste_electoral_campaigns-247778
 		x = 9
 		y = 7
 		cost = 10
@@ -420,7 +418,7 @@ focus_tree = {
 	#The Peasants' Hero
 	focus = {
 		id = CFD_thepeasantshero
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_thepeasantshero-247778
 		x = 8
 		y = 6
 		cost = 10
@@ -438,7 +436,7 @@ focus_tree = {
 	#The Elections
 	focus = {
 		id = CFD_the_elections
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_elections-247778
 		x = 10
 		y = 4
 		cost = 1
@@ -480,7 +478,7 @@ focus_tree = {
 	#...For A More Egalitarian Recife
 	focus = {
 		id = CFD_foramoreegalitarianrecife
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_foramoreegalitarianrecife-247778
 		x = 8
 		y = 8
 		cost = 1
@@ -498,7 +496,7 @@ focus_tree = {
 	#...For a Better Recife
 	focus = {
 		id = CFD_forabetterrecife
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_forabetterrecife-247778
 		x = 10
 		y = 8
 		cost = 1
@@ -516,7 +514,7 @@ focus_tree = {
 	#...To Free the Peasants From Their Landowners
 	focus = {
 		id = CFD_tofreethepeasantsfromtheirlandowners
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_tofreethepeasantsfromtheirlandowners-247778
 		x = 8
 		y = 10
 		cost = 1
@@ -534,7 +532,7 @@ focus_tree = {
 	#...To Improve the Sertão's Wasteland
 	focus = {
 		id = CFD_toimprovethesertaoswasteland
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_toimprovethesertaoswasteland-247778
 		x = 10
 		y = 10
 		cost = 1
@@ -552,7 +550,7 @@ focus_tree = {
 	#The Sertão Electoral Campaigns
 	focus = {
 		id = CFD_thesertaoelectoralcampaigns
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_thesertaoelectoralcampaigns-247778
 		x = 9
 		y = 9
 		cost = 1
