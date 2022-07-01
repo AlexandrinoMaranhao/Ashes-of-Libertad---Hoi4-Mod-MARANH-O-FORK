@@ -639,10 +639,12 @@ country_event = { #The Choice.
         name = SAO_ROAD_TO_GUANABARA.4.B
 		set_country_flag = SAO_marighella_path
     }
-    option = { #Quadros
-        name = SAO_ROAD_TO_GUANABARA.4.C
-        set_country_flag = SAO_quadros_path
-    }
+	# -Disabled. Not in this demo. #
+	#
+    #option = { #Quadros
+    #    name = SAO_ROAD_TO_GUANABARA.4.C
+    #    set_country_flag = SAO_quadros_path
+    #}
 }
 
 country_event = {
