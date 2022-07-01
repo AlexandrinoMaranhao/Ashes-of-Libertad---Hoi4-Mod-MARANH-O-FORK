@@ -63,6 +63,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_cfd_helder"
+		texturefile = "gfx/event_pictures/report_cfd_helder.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_cfd_memories"
 		texturefile = "gfx/event_pictures/report_cfd_memories.dds"
 	}
@@ -72,6 +77,21 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_cfd_miguel.dds"
 	}
 
+	spriteType = {
+		name = "GFX_report_cfd_family_stuff"
+		texturefile = "gfx/event_pictures/report_cfd_family_stuff.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_elections1"
+		texturefile = "gfx/event_pictures/report_cfd_working.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_cfd_republican_coup"
+		texturefile = "gfx/event_pictures/news_cfd_republican_coup.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_report_event_marighella_arrested"
 		texturefile = "gfx/event_pictures/report_event_marighella_arrested.dds"

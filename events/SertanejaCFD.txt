@@ -83,7 +83,7 @@ country_event = { #Guerra's Letter
     title = CFD_events.3.t
     desc = CFD_events.3.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_elections1
 
     option = {
         name = CFD_events.3.a
@@ -94,7 +94,7 @@ country_event = { #Arraes and Bezerra
     title = CFD_events.4.t
     desc = CFD_events.4.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_elections1
 
     option = {
         name = CFD_events.4.a
@@ -157,7 +157,7 @@ country_event = { #Dom Helder
     title = CFD_events.7.t
     desc = CFD_events.7.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_hope
+    picture = GFX_report_cfd_helder
 
     option = {
         name = CFD_events.7.a
@@ -189,7 +189,7 @@ country_event = { #Eleições Start
     title = CFD_elections.1.t
     desc = CFD_elections.1.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_elections1
+    picture = GFX_report_cfd_family_stuff
 
     option = {
         name = CFD_elections.1.a
