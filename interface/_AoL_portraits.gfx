@@ -15,6 +15,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goofybois/roberto_ordonez_larios.dds"
 	}
 
+###Sao Paulo Advisors###
+	spriteType = {
+		name = "GFX_idea_SAO_edmundo_de_macedo_soares_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/sao_edmundo_de_macedo_soares.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SEG_seixas_doria_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/seg_seixas_doria.dds"
+	}
+
 ###Sertaneja's advisors###
 	spriteType = {
 		name = "GFX_idea_CFD_father_almeida_lustosa_advisor"
@@ -95,7 +105,6 @@ spriteTypes = {
 		name = "GFX_el_generico6_small"
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_8.dds"
 	}
-	
 	
 ###Army Generics
 	spriteType = {

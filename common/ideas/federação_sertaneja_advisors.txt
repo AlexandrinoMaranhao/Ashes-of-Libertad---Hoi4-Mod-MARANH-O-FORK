@@ -11,6 +11,35 @@ ideas = {
 		#	cost = 50
 		#}
 		
+		SEG_seixas_doria_advisor = {
+            allowed = {
+				OR = {
+					original_tag = CFD
+					original_tag = SAO
+				}
+            }
+            visible = {
+				OR = {
+					CFD = {
+						AND = {
+							controls_state = 11
+							has_country_flag = doria_stays
+						}
+					}
+					SAO = {
+						CFD = {
+							AND = {
+								controls_state = 11
+								NOT = {has_country_flag = doria_stays}
+							}
+						}
+					}
+				}
+            }
+			traits = { hog_corporate_suit }
+			cost = 50
+		}
+		
 		###Advisor para a MAOdC / Mais Alta Ordem de Cristo
 		CFD_father_almeida_lustosa_advisor = {
             allowed = {

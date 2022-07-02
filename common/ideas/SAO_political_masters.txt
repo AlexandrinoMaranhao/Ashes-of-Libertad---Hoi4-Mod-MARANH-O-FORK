@@ -1,0 +1,26 @@
+ideas = {
+	political_advisor = {
+		#SAO_NAME_advisor = { #Template
+        #    allowed = {
+		#		original_tag = SAO
+        #    }
+        #    visible = {
+		#		original_tag = SAO
+        #    }
+		#	traits = { TRAIT }
+		#	cost = 50
+		#}
+		
+		##Sao paulo##
+		SAO_edmundo_de_macedo_soares_advisor = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = { eco_industrial_chemist }
+			cost = 50
+		}
+	}
+}

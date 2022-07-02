@@ -1158,8 +1158,8 @@ focus_tree = {
 				}
 
 			hidden_effect = {
-
-				load_focus_tree = sao-phase-two
+				
+				load_focus_tree = { tree = sao-phase-two keep_completed = yes }
 
 				if = { # Figueiredo's Path
 				limit = { 

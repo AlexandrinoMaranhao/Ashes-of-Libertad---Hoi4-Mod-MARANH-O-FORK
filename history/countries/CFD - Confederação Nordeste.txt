@@ -123,12 +123,6 @@ create_country_leader = {
 
 	#3° Distrito 
 create_navy_leader = {
-	name = "Ernani Jayme Lima"
-	#picture = "CFD_generic_navy1.dds"
-	traits = { trait_CFD_arena_sympathies }
-	skill = 3
-}
-create_navy_leader = {
 	name = "Luiz Clovis de Oliveira"
 	#picture = "CFD_generic_navy2.dds"
 	traits = { trait_CFD_arena_sympathies }
