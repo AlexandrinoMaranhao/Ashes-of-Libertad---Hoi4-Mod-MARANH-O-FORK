@@ -43,14 +43,14 @@ ideas = {
 		###Advisor para a MAOdC / Mais Alta Ordem de Cristo
 		CFD_father_almeida_lustosa_advisor = {
             allowed = {
-				original_tag = MOC
+				original_tag = CEA
             }
 			available = {
 				has_government = reactionary
 			}
             visible = {
 				AND = {
-					original_tag = CFD
+					original_tag = CEA
 					NOT = {
 						has_government = fascism
 					}
@@ -164,6 +164,7 @@ ideas = {
 			cost = 50
 		}
 		CFD_antonio_corpse_advisor = {
+			allowed = {original_tag = CFD}
 			available = {
 				AND = {
 					original_tag = CFD

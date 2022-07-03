@@ -162,6 +162,28 @@ defined_text = {
     }
 
 	text = {
+		trigger = {
+			tag = CFD
+		    CFD = {
+				NOT = {
+					has_country_flag = CFD_puppet
+				}
+			}
+	    }
+		localization_key = CFD_FIRST_TITLE
+    }
+
+	text = {
+		trigger = {
+			tag = CFD
+		    CFD = {
+				has_country_flag = CFD_puppet
+			}
+	    }
+		localization_key = USR_FIRST_TITLE
+    }
+
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -332,6 +354,32 @@ defined_text = {
 		localization_key = SAO_SECOND_TITLE_FIG
     }
 
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = neutrality
+		}
+		localization_key = CFD_SECOND_TITLE
+	}
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = communism
+		}
+		localization_key = CFD_SECOND_TITLE
+	}
+	text = {
+		trigger = {
+			tag = CFD
+			CFD = {
+				AND = {
+					has_country_flag = CFD_cid_adminstration
+					has_government = democratic
+				}
+			}
+	    }
+		localization_key = CFD_SECOND_TITLE
+	}
 
 }
 #########################
@@ -507,6 +555,34 @@ defined_text = {
 		localization_key = SAO_SECOND_LEADER_FIG
     }
 
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = communism
+	    }
+		localization_key = CFD_Bezerra1
+    }
+	
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = neutrality
+	    }
+		localization_key = CFD_Guerra
+    }
+	
+	text = {
+		trigger = {
+			tag = CFD
+			CFD = {
+				AND = {
+					has_country_flag = CFD_cid_adminstration
+					has_government = democratic
+				}
+			}
+	    }
+		localization_key = CFD_Sampaio
+    }
 
 	text = {
 		localization_key = DEFAULT_TITLE
@@ -678,9 +754,44 @@ defined_text = {
 			tag = SAO
 		    has_country_flag = second_phase_sp
 	    }
-		localization_key = GFX_SAO_FIGUEIREDO
+		localization_key = "GFX_SAO_FIGUEIREDO"
     }
 
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = communism
+			CFD = {NOT ={has_country_flag = prestes_returned}}
+		}
+		localization_key = "GFX_CFD_Bezerra1"
+	}
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = communism
+			CFD = {has_country_flag = prestes_returned}
+		}
+		localization_key = "GFX_CFD_Bezerra2"
+	}
+	text = {
+		trigger = {
+			tag = CFD
+			has_government = neutrality
+		}
+		localization_key = "GFX_CFD_Guerra"
+	}
+	text = {
+		trigger = {
+			tag = CFD
+			CFD = {
+				AND = {
+					has_country_flag = CFD_cid_adminstration
+					has_government = democratic
+				}
+			}
+	    }
+		localization_key = "GFX_CFD_Sampaio"
+	}
 
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
@@ -760,5 +871,12 @@ defined_text = {
 			original_tag = SAO
         }
         localization_key = "SAO_ADHEMAR_DESC"
+	}
+	
+    text = {
+        trigger = {
+			original_tag = CFD
+        }
+        localization_key = "ARRAES_DESC"
 	}
 }

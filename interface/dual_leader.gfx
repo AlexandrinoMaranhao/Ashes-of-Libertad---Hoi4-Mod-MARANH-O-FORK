@@ -149,4 +149,24 @@ spriteTypes = {
 		texturefile = "gfx/dual_leaders/ARG/Portrait_ARG_Carlos_Humberto_Perette.dds"
 	}
 
+	spriteType = {
+		name = "GFX_CFD_Bezerra1"
+		texturefile = "gfx/dual_leaders/CFD/Portrait_CFD_Bezerra_elected.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CFD_Bezerra2"
+		texturefile = "gfx/dual_leaders/CFD/Portrait_CFD_Gregorio_Bezerra.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CFD_Guerra"
+		texturefile = "gfx/dual_leaders/CFD/Portrait_CFD_Paulo_Pessoa_Guerra.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CFD_Sampaio"
+		texturefile = "gfx/dual_leaders/CFD/Portrait_CFD_Cid_Sampaio.dds"
+	}
+
 }

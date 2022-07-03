@@ -70,6 +70,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_anotherdayintheoffice  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = construction_tech
+			}
+			add_ideas = CFD_barterbased_economy
+		}
 	}
 
 	#Autonomy to Small Business
@@ -122,14 +130,34 @@ focus_tree = {
 	focus = {
 		id = CFD_thecreationofssocoperbess
 		icon = GFX_CFD_thecreationofssocoperbess-247778
-		x = 15
-		y = 9
+		x = 20
+		y = 8
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_legalize_gunsmiths_workshops_in_fortaleza  } prerequisite = { focus = CFD_forced_industrialization  }
+		prerequisite = { focus = CFD_spending_the_fortunes  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = CFD_the_coperbe
+			add_tech_bonus = {
+			    bonus = 0.1
+			    uses = 1
+			    category = electronics
+			}
+			
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = cat_synth_oil
+			}
+			
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = cat_synth_rubber
+			}
+		}
 	}
 
 	#Another Day in the Office...
@@ -138,7 +166,7 @@ focus_tree = {
 		icon = GFX_CFD_anotherdayintheoffice-247778
 		x = 16
 		y = 3
-		cost = 10
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -192,7 +220,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_everyday_fuel
 		icon = GFX_CFD_the_everyday_fuel-247778
-		x = 18
+		x = 20
 		y = 6
 		cost = 3
 		search_filters = {
@@ -200,20 +228,33 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_sampaiosadminstration  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = excavation_tech
+			}
+		}
 	}
 
 	#Found §GBANDECOSE§!
 	focus = {
 		id = CFD_foundssgbandecosess
 		icon = GFX_CFD_foundssgbandecosess-247778
-		x = 18
-		y = 9
+		x = 15
+		y = 10
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = CFD_establishing_a_new_currency  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_ideas = CFD_barterbased_economy
+			add_ideas = CFD_the_bandecose
+			
+			
+		}
 	}
 
 	#Re-opening Military Academies in Recife
@@ -302,34 +343,20 @@ focus_tree = {
 	focus = {
 		id = CFD_spending_the_fortunes
 		icon = GFX_CFD_spending_the_fortunes-247778
-		x = 18
+		x = 20
 		y = 7
-		cost = 10
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = CFD_the_everyday_fuel  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
-						random_owned_controlled_state ={
-						 limit = {
-						 free_building_slots = {
-						 building = industrial_complex
-						 size > 0
-						 include_locked = yes
-						 }
-						 }
-						 add_extra_state_shared_building_slots = 5
-						 add_building_construction = {
-						 type = industrial_complex
-						 level = 4
-						 instant_build = yes
-						 }
-						 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-						 }
-						
-					
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = industry
+			}
 		}
 	}
 
@@ -337,13 +364,20 @@ focus_tree = {
 	focus = {
 		id = CFD_establishing_a_new_currency
 		icon = GFX_CFD_establishing_a_new_currency-247778
-		x = 18
-		y = 8
+		x = 15
+		y = 9
 		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_spending_the_fortunes  }
+		prerequisite = { focus = CFD_legalize_gunsmiths_workshops_in_fortaleza  } prerequisite = { focus = CFD_forced_industrialization  }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = cat_production
+			}
+		}
 	}
 
 	#And the Result is...
@@ -454,7 +488,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_sergipe_backstab
 		icon = GFX_CFD_the_sergipe_backstab-247778
-		x = 23
+		x = 24
 		y = 4
 		cost = 2
 		search_filters = {
@@ -568,7 +602,7 @@ focus_tree = {
 	focus = {
 		id = CFD_sertanejaandwhatarmy
 		icon = GFX_CFD_sertanejaandwhatarmy-238388
-		x = 23
+		x = 24
 		y = 5
 		cost = 1
 		search_filters = {
@@ -582,7 +616,7 @@ focus_tree = {
 	focus = {
 		id = CFD_invitejaguncostoourranks
 		icon = GFX_CFD_invitejaguncostoourranks-229858
-		x = 22
+		x = 23
 		y = 7
 		cost = 3
 		search_filters = {
@@ -596,7 +630,7 @@ focus_tree = {
 	focus = {
 		id = CFD_centralizingtheconfederationscombinedarms
 		icon = GFX_CFD_centralizingtheconfederationscombinedarms-153588
-		x = 24
+		x = 25
 		y = 6
 		cost = 3
 		search_filters = {
@@ -604,13 +638,20 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_sertanejaandwhatarmy  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = infantry_tech
+			}
+		}
 	}
 
 	#Relaxing The Requirements
 	focus = {
 		id = CFD_relaxing_the_requirements
 		icon = GFX_CFD_relaxing_the_requirements-153592
-		x = 22
+		x = 23
 		y = 6
 		cost = 3
 		search_filters = {
@@ -624,7 +665,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_fernando_situation
 		icon = GFX_goal_unknown
-		x = 23
+		x = 24
 		y = 10
 		cost = 3
 		search_filters = {
@@ -638,7 +679,7 @@ focus_tree = {
 	focus = {
 		id = CFD_allow_militiamens_in_our_ranks
 		icon = GFX_CFD_allow_militiamens_in_our_ranks-183749
-		x = 24
+		x = 25
 		y = 7
 		cost = 3
 		search_filters = {
@@ -652,7 +693,7 @@ focus_tree = {
 	focus = {
 		id = CFD_retakingwhatsours
 		icon = GFX_CFD_retakingwhatsours-156704
-		x = 23
+		x = 24
 		y = 8
 		cost = 3
 		search_filters = {
@@ -664,6 +705,72 @@ focus_tree = {
 			declare_war_on = {
 			    target = SEG
 			    type = annex_everything
+			}
+			remove_ideas = CFD_disunited_armed_forces
+		}
+	}
+
+	#The Food Situation
+	focus = {
+		id = CFD_the_food_situation
+		icon = GFX_CFD_the_food_situation-247778
+		x = 18
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_sampaiosadminstration  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = -100
+			add_stability = -0.1
+		}
+	}
+
+	#A Talk with the Usineiros
+	focus = {
+		id = CFD_a_talk_with_the_usineiros
+		icon = GFX_CFD_a_talk_with_the_usineiros-247778
+		x = 18
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_food_situation  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.1
+			    uses = 1
+			    category = dispersed_industry_category
+			}
+		}
+	}
+
+	#Modernize the Fields
+	focus = {
+		id = CFD_modernize_the_fields
+		icon = GFX_CFD_modernize_the_fields-247778
+		x = 18
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_a_talk_with_the_usineiros  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = cat_production
+			}
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = train_tech
 			}
 		}
 	}

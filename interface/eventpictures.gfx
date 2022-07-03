@@ -58,6 +58,21 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_cfd_fernandinho2"
+		texturefile = "gfx/event_pictures/report_cfd_fernandinho2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_cfd_bezerra_and_prestes"
+		texturefile = "gfx/event_pictures/report_cfd_bezerra_and_prestes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_cfd_bezerra_remorse"
+		texturefile = "gfx/event_pictures/report_cfd_bezerra_remorse.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_cfd_hope"
 		texturefile = "gfx/event_pictures/report_cfd_hope.dds"
 	}

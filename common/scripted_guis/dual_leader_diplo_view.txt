@@ -39,6 +39,15 @@ scripted_gui = {
 					tag = SAO
 					has_country_flag = second_phase_sp
 				}
+				AND = {
+					tag = CFD
+					CFD = {
+						OR = {
+							has_country_flag = CFD_elections_phase_1
+							has_country_flag = CFD_cid_adminstration
+						}
+					}
+				}
 			}
 		}
 		

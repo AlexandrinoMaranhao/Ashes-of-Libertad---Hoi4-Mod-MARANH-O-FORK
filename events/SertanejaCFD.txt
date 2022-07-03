@@ -119,7 +119,9 @@ country_event = { #Sampaio Plans 1
     option = {
         name = CFD_events.5.a
 		CFD = {
+			clr_country_flag = CFD_cid_adminstration
 			country_event = {id = CFD_events.5}
+			add_ideas = CFD_cid_sempaio_advisor
 		}
     }
 }
@@ -138,6 +140,11 @@ country_event = { #Sampaio Plans 2
 			ideology = democratic
 			popularity = 0.02
 		}
+		custom_effect_tooltip = "This will unite the development national spirits into a single one."
+		hidden_effect = {
+			add_ideas = {CFD_sudene}
+			remove_ideas = {CFD_the_bandecose CFD_the_coperbe}
+		}
     }
 }
 country_event = { #The Betrayal (Bezerra and Prestes)
@@ -145,7 +152,7 @@ country_event = { #The Betrayal (Bezerra and Prestes)
     title = CFD_events.6.t
     desc = CFD_events.6.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_bezerra_and_prestes
 
     option = {
         name = CFD_events.6.a
@@ -256,7 +263,7 @@ country_event = { #Bezerra's remorse
 		}
 	}
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_bezerra_remorse
 
     option = {
 		trigger = {

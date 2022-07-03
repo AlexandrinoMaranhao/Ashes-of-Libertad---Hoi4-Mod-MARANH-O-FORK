@@ -6,6 +6,25 @@ ideas = {
 			allowed = {
 				original_tag = CFD
 			}
+			modifier = {
+				conscription = 0.15
+party_popularity_stability_factor = -0.15
+communism_acceptance = 25
+			}
+		}
+
+		CFD_the_coperbe = {
+			picture = CFD_the_coperbe-238388
+			ai_will_do = {
+				factor = 1
+			}
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				production_oil_factor = 0.5
+army_fuel_consumption_factor = -0.05
+			}
 		}
 
 		CFD_turbulent_confederatization = {
@@ -13,12 +32,21 @@ ideas = {
 			allowed = {
 				original_tag = CFD
 			}
+			modifier = {
+				political_power_factor = -0.5
+political_advisor_cost_factor = 0.3
+stability_weekly_factor = -0.3
+drift_defence_factor = -0.25
+			}
 		}
 
 		CFD_the_gateway_to_south_america = {
 			picture = CFD_the_gateway_to_south_america-238388
-			allowed = {
-				original_tag = CFD
+			modifier = {
+				stability_factor = -0.05
+monthly_population = 0.05
+root_out_resistance_effectiveness_factor = -0.2
+
 			}
 		}
 
@@ -26,6 +54,13 @@ ideas = {
 			picture = CFD_disunited_armed_forces-238388
 			allowed = {
 				original_tag = CFD
+			}
+			modifier = {
+				heat_attrition_factor = -1.0
+war_support_factor = -0.3
+air_advisor_cost_factor = 0.5
+army_advisor_cost_factor = 0.5
+navy_advisor_cost_factor = 0.5
 			}
 		}
 
@@ -51,6 +86,52 @@ consumer_goods_factor = 0.2
 trade_opinion_factor = -0.5
 convoy_escort_efficiency = -0.5
 
+			}
+		}
+
+		CFD_aftermath_of_the_great_1962_famine = {
+			picture = CFD_aftermath_of_the_great_1962_famine-238388
+			allowed = {
+				original_tag = CFD
+			}
+		}
+
+		CFD_barterbased_economy = {
+			picture = CFD_barterbased_economy-238388
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				trade_opinion_factor = -0.8
+min_export = -0.95
+local_resources_factor = -0.5
+stability_factor = -0.25
+			}
+		}
+
+		CFD_the_bandecose = {
+			picture = CFD_the_bandecose-238388
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				local_resources_factor = 0.05
+production_factory_efficiency_gain_factor = 0.25
+production_lack_of_resource_penalty_factor = -0.05
+			}
+		}
+
+		CFD_sudene = {
+			picture = CFD_sudene-238388
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				production_oil_factor = 0.5
+army_fuel_consumption_factor = -0.05
+local_resources_factor = 0.05
+production_factory_efficiency_gain_factor = 0.1
+production_lack_of_resource_penalty_factor = -0.1
 			}
 		}
 	}

@@ -119,6 +119,37 @@ CFD_main_category = {
 			add_political_power = 50
 		}
 	}
+	CFD_debug_vice_president_teaser = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = CFD
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = CFD
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			CFD = {
+				CFD_miguel_arraes = {
+					add_country_leader_role = {
+						character = CFD_miguel_arraes
+						promote_leader = yes
+						country_leader = {
+							ideology = corporate_state_status_quo
+							expire = "1965.1.1.1"
+							traits = { }
+						}
+					}
+				}
+				set_politics = {ruling_party = neutrality}
+			}
+		}
+	}
 	
 }
 ##################		International Country Diplomacy Decisions.		##################

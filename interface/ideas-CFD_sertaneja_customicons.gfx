@@ -5,6 +5,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_peasant_leagues-238388.dds"
 	}
 
+	##Icon For: The COPERBE
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_coperbe-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_coperbe-238388.dds"
+	}
+
 	##Icon For: Turbulent Confederatization
 	SpriteType = { 
 		name = "GFX_idea_CFD_turbulent_confederatization-238388"
@@ -33,6 +39,30 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_CFD_piratas_de_noronha-238388"
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_piratas_de_noronha-238388.dds"
+	}
+
+	##Icon For: Aftermath of the Great 1962 Famine
+	SpriteType = { 
+		name = "GFX_idea_CFD_aftermath_of_the_great_1962_famine-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_aftermath_of_the_great_1962_famine-238388.dds"
+	}
+
+	##Icon For: Barter-Based Economy
+	SpriteType = { 
+		name = "GFX_idea_CFD_barterbased_economy-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_barterbased_economy-238388.dds"
+	}
+
+	##Icon For: The BANDECOSE
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_bandecose-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_bandecose-238388.dds"
+	}
+
+	##Icon For: SUDENE
+	SpriteType = { 
+		name = "GFX_idea_CFD_sudene-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_sudene-238388.dds"
 	}
 
  

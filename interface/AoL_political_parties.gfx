@@ -1,4 +1,5 @@
 spriteTypes = {
+	###Sertaneja Parties###
 	spriteType = {
 		name = "GFX_ideology_CFD_socialism"
 		texturefile = "gfx/interface/ideologies/CFD_praieiros.dds"
@@ -7,5 +8,12 @@ spriteTypes = {
 		name = "GFX_ideology_CFD_corporate_state_status_quo"
 		texturefile = "gfx/interface/ideologies/CFD_usineiros.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_ideology_CFD_marxism"
+		texturefile = "gfx/interface/ideologies/CFD_PCB.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_CFD_military_government"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
 }

@@ -30,6 +30,7 @@ set_popularities = {
 
 add_ideas = {
 ###Starting NatSpirts###
+	CFD_aftermath_of_the_great_1962_famine
 	CFD_turbulent_confederatization
     CFD_disunited_armed_forces
     CFD_the_peasant_leagues
@@ -74,6 +75,7 @@ recruit_character = CFD_alberto_sallaberry
 recruit_character = CFD_ivan_ruy
 recruit_character = CFD_homero_souto_de_oliveira
 
+set_country_flag = CFD_cid_adminstration
 set_country_flag = unfinished_cfd
 
 create_country_leader = {
