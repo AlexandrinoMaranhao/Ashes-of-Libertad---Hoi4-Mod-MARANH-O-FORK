@@ -428,6 +428,10 @@ country_event = {
 			set_province_controller = 1895
 			set_province_controller = 941
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 330
 			}
 		}
@@ -450,6 +454,10 @@ country_event = {
 			set_province_controller = 1634
 			set_province_controller = 1895
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 941
 				set_province_controller = 330
 			}
@@ -468,6 +476,10 @@ country_event = {
         name = CFD_operations.3.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 1384
 			}
 		}
@@ -485,6 +497,10 @@ country_event = {
         name = CFD_operations.4.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 2103
 			}
 		}
@@ -502,6 +518,10 @@ country_event = {
         name = CFD_operations.5.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 3973
 			}
 		}
@@ -519,6 +539,10 @@ country_event = {
         name = CFD_operations.6.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 1236
 			}
 		}
@@ -536,6 +560,10 @@ country_event = {
         name = CFD_operations.7.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 4003
 			}
 		}
@@ -553,6 +581,10 @@ country_event = {
         name = CFD_operations.8.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 3951
 			}
 		}
@@ -570,6 +602,10 @@ country_event = {
         name = CFD_operations.9.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 1844
 				set_country_flag = operations_completed
 			}
@@ -588,6 +624,10 @@ country_event = {
         name = CFD_operations.10.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 3903
 			}
 		}
@@ -605,6 +645,10 @@ country_event = {
         name = CFD_operations.11.a
 		PIA = {
 			CFD = {
+				add_to_variable = {
+					var = cfd_piaui_frontier_progress
+					value = 0.11
+				}
 				set_province_controller = 52
 			}
 		}
@@ -620,7 +664,11 @@ country_event = {
 
     option = {
         name = CFD_operations_failure.1.a
-		CFD = {set_country_flag = portella_dead}
+		CFD = {
+			set_country_flag = portella_dead
+			clear_variable = cfd_piaui_frontier_progress
+			clr_country_flag = begin_piaui_frontier
+		}
     }
 }
 

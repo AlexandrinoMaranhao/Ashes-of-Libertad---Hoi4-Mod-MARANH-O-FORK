@@ -8,7 +8,7 @@ ideas = {
                 revengist_spirit = {
 				modifier = {
 					offence = 0.1
-					war_support_factor = 0.1
+					defence = 0.1
 				}
                 }
 

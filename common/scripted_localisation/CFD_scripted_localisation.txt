@@ -1,0 +1,24 @@
+defined_text = {
+    name = sarney_puto_values_loc
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { sarney_puto_value = 0 }
+        }
+        localization_key = sarney_puto_value_low
+    }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { sarney_puto_value = 1 }
+        }
+        localization_key = sarney_puto_value_med
+    }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { sarney_puto_value = 2 }
+        }
+        localization_key = sarney_puto_value_high
+    }
+}

@@ -5,5 +5,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas-ideas/FRN_the_isolated_garrison-238388.dds"
 	}
 
+	##Icon For: Justino's Questionable Behaviour
+	SpriteType = { 
+		name = "GFX_idea_FRN_justinos_questionable_behaviour-238388"
+		texturefile = "gfx/interface/ideas/ideas-ideas/FRN_justinos_questionable_behaviour-238388.dds"
+	}
+
+	##Icon For: Border with the Devil
+	SpriteType = { 
+		name = "GFX_idea_FRN_border_with_the_devil-238388"
+		texturefile = "gfx/interface/ideas/ideas-ideas/FRN_border_with_the_devil-238388.dds"
+	}
+
  
  }

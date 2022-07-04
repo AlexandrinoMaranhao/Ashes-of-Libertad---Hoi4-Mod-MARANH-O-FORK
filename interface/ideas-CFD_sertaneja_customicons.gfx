@@ -65,5 +65,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_sudene-238388.dds"
 	}
 
+	##Icon For: The Lawbringers
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_lawbringers-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_lawbringers-238388.dds"
+	}
+
+	##Icon For: Unhappy Population
+	SpriteType = { 
+		name = "GFX_idea_CFD_unhappy_population-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_unhappy_population-238388.dds"
+	}
+
+	##Icon For: Sergipe-Vale Deals
+	SpriteType = { 
+		name = "GFX_idea_CFD_sergipevale_deals-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_sergipevale_deals-238388.dds"
+	}
+
  
  }

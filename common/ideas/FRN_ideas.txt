@@ -10,5 +10,30 @@ ideas = {
 				convoy_raiding_efficiency_factor = 0.5
 			}
 		}
+
+		FRN_justinos_questionable_behaviour = {
+			picture = FRN_justinos_questionable_behaviour-238388
+			allowed = {
+				original_tag = LAM
+			}
+			modifier = {
+				war_support_factor = 0.1
+consumer_goods_factor = -0.1
+drift_defence_factor = -0.1
+stability_factor = -0.05
+
+
+			}
+		}
+
+		FRN_border_with_the_devil = {
+			picture = FRN_border_with_the_devil-238388
+			modifier = {
+				monthly_population = -0.02
+org_loss_when_moving = 0.1
+
+
+			}
+		}
 	}
 }

@@ -29,6 +29,9 @@ add_ideas = {
 	economic_focus_civilian_economy
 	trade_scope_regional_exports
 
+	CFD_the_lawbringers
+	CFD_unhappy_population
+	CFD_sergipevale_deals
 	cangaceiros_light
 }
 

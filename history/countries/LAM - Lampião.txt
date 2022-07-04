@@ -35,8 +35,9 @@ add_ideas = {
 	trade_scope_regional_exports
 
 	sixth_military_region
-    revengist_spirit
-    mercenary_army_LAM
+	FRN_justinos_questionable_behaviour
+	FRN_border_with_the_devil
+    	revengist_spirit
 	cangaceiros_light
     
 }

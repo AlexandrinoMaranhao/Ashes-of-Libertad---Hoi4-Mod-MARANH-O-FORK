@@ -88,37 +88,6 @@ CFD_main_category = {
 			factor = 999
 		}
 	}
-	CFD_maranhao_failstate = {
-        allowed = { tag = CFD }
-        available = {
-            NOT = {country_exists = MNH}
-        }
-        activation = {
-			AND = {
-				CFD = {
-					has_war_with = MNH
-					check_variable = {
-						CFD_MNH_crisis > 9
-					}
-				}
-			}
-        }
-		cancel_trigger = {
-			NOT = {country_exists = MNH}
-		}
-        is_good = no
-        selectable_mission = yes
-        days_mission_timeout = 120
-        timeout_effect = {
-            country_event = {
-				id = CFD_failometer_enabled.1
-				days = 1
-			}
-        }
-		complete_effect = {
-			add_political_power = 50
-		}
-	}
 	CFD_debug_vice_president_teaser = {
 		cost = 0
 		visible = {
@@ -150,6 +119,39 @@ CFD_main_category = {
 			}
 		}
 	}
+
+##################		The Sarney War		##################
+	CFD_maranhao_failstate = {
+        allowed = { tag = CFD }
+        available = {
+            NOT = {country_exists = MNH}
+        }
+        activation = {
+			AND = {
+				CFD = {
+					has_war_with = MNH
+					check_variable = {
+						CFD_MNH_crisis > 9
+					}
+				}
+			}
+        }
+		cancel_trigger = {
+			NOT = {country_exists = MNH}
+		}
+        is_good = no
+        selectable_mission = yes
+        days_mission_timeout = 120
+        timeout_effect = {
+            country_event = {
+				id = CFD_failometer_enabled.1
+				days = 1
+			}
+        }
+		complete_effect = {
+			add_political_power = 50
+		}
+	}
 	
 }
 ##################		International Country Diplomacy Decisions.		##################
@@ -169,12 +171,12 @@ CFD_piaui_frontier = {
 						amount > 599
 						state = 8
 					}
-					has_country_flag = begin_piaui_frontier
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -227,9 +229,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -282,9 +284,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -337,9 +339,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -392,9 +394,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -447,9 +449,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -502,9 +504,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -557,9 +559,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -612,9 +614,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -667,9 +669,9 @@ CFD_piaui_frontier = {
 					has_equipment = {
 						infantry_equipment > 99
 					}
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -725,9 +727,9 @@ CFD_piaui_frontier = {
 					controls_state = 581
 					controls_state = 582
 					controls_state = 583
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
 					has_border_war = no
+					has_war = no
+					NOT = {has_country_flag = portella_dead}
 				}
 				
 			}
@@ -765,7 +767,7 @@ CFD_piaui_frontier = {
 	CFD_op_parnaiba ={
 		icon = GFX_decision_icon_default
 		cost = 0
-		days_remove = 7
+		days_remove = 21
 		is_good = yes
 		fire_only_once = yes
 		
@@ -780,6 +782,7 @@ CFD_piaui_frontier = {
 					has_country_flag = begin_piaui_frontier
 					has_country_flag = operations_completed
 					has_border_war = no
+					has_war = no
 				}
 				
 			}

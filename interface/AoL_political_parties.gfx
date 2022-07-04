@@ -16,4 +16,52 @@ spriteTypes = {
 		name = "GFX_ideology_CFD_military_government"
 		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
 	}
+	
+	###Acre Parties###
+	spriteType = {
+		name = "GFX_ideology_ACR_centrism"
+		texturefile = "gfx/interface/ideologies/ACR_Nacionalistas.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ACR_authoritarian_democracy"
+		texturefile = "gfx/interface/ideologies/ACR_Militares.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ACR_military_government"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ACR_socialism"
+		texturefile = "gfx/interface/ideologies/ACR_eneas_party.dds"
+	}
+	
+	###Para Parties###
+	spriteType = {
+		name = "GFX_ideology_BEM_military_junta"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
+	
+	###Para Parties###
+	spriteType = {
+		name = "GFX_ideology_BEM_military_junta"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
+	
+	###Brasilia Junta Parties###
+	spriteType = {
+		name = "GFX_ideology_JUN_military_junta"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
+	
+	###Pro-Junta Mato Grosso Parties###
+	spriteType = {
+		name = "GFX_ideology_JAG_military_government"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
+	
+	###Sarney Parties###
+	spriteType = {
+		name = "GFX_ideology_MNH_coronelism"
+		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+	}
 }

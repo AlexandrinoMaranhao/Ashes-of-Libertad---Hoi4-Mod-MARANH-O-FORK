@@ -134,5 +134,43 @@ production_factory_efficiency_gain_factor = 0.1
 production_lack_of_resource_penalty_factor = -0.1
 			}
 		}
+
+		CFD_the_lawbringers = {
+			picture = CFD_the_lawbringers-238388
+			allowed = {
+				original_tag = SEG
+			}
+			modifier = {
+				war_support_factor = 0.1
+conscription = 0.05
+minimum_training_level = -0.15
+surrender_limit = 1.0
+command_abilities_cost_factor = 0.4
+army_leader_cost_factor = 0.6
+land_doctrine_cost_factor = 0.25
+command_power_gain = -0.5
+			}
+		}
+
+		CFD_unhappy_population = {
+			picture = CFD_unhappy_population-238388
+			allowed = {
+				original_tag = SEG
+			}
+			modifier = {
+				stability_factor = -0.15
+consumer_goods_factor = 0.1
+production_speed_buildings_factor = -0.2
+
+
+			}
+		}
+
+		CFD_sergipevale_deals = {
+			picture = CFD_sergipevale_deals-238388
+			allowed = {
+				original_tag = SEG
+			}
+		}
 	}
 }

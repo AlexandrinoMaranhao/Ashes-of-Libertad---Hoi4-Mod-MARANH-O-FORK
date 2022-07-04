@@ -76,8 +76,11 @@ recruit_character = CFD_ivan_ruy
 recruit_character = CFD_homero_souto_de_oliveira
 
 set_country_flag = CFD_cid_adminstration
-set_country_flag = unfinished_cfd
-
+set_country_flag = unfinished_cfd #Remove once completed.
+set_variable = {
+	var = sarney_puto_value
+	value = 0
+}
 create_country_leader = {
 	name = "Nivaldo Rodrigues Machado"
 	picture = "Portrait_CFD_Collapsed_Government.dds"

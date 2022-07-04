@@ -1,3 +1,6 @@
 ﻿l_english:
  is_controlled_by_ROOT_or_ally:0 "Controlled by §H[Root.GetNameDef]§! or one of their allies."
- 
+ sarney_puto_value_low:0 "§GLow§!"
+ sarney_puto_value_med:0 "§YMedium§!"
+ sarney_puto_value_high:0 "§RHigh§!"
+ cfd_piaui_frontier_progress:0 ""
