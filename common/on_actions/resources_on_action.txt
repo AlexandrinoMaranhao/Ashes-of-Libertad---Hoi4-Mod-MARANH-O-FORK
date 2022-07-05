@@ -5,7 +5,7 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = steel
-						amount = 6
+						amount = 7
 						state = THIS
 					}
 					add_resource = {
@@ -153,7 +153,7 @@ on_actions = {
 					}
 					add_resource = {
 						type = technology
-						amount = 1
+						amount = 2
 						state = THIS
 					}
 				}
@@ -167,7 +167,7 @@ on_actions = {
 					}
 					add_resource = {
 						type = oil
-						amount = 1
+						amount = 2
 						state = THIS
 					}
 					add_resource = {
@@ -186,12 +186,12 @@ on_actions = {
 					}
 					add_resource = {
 						type = technology
-						amount = 1
+						amount = 2
 						state = THIS
 					}
 					add_resource = {
 						type = motors
-						amount = 1
+						amount = 2
 						state = THIS
 					}
 				}

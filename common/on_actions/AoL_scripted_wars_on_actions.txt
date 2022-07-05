@@ -23,6 +23,30 @@ on_actions = {
 					days = 29
 				}
 			}
+			SEG = { #Sergipe Vale Deals
+				give_military_access = VAL				
+				diplomatic_relation = {
+					country = VAL
+					relation = docking_rights
+					active = yes
+				}
+				add_opinion_modifier = {
+					target = VAL
+					modifier = large_increase
+				}
+				VAL = {
+					give_military_access = SEG
+					diplomatic_relation = {
+						country = SEG
+						relation = docking_rights
+						active = yes
+					}
+					add_opinion_modifier = {
+						target = SEG
+						modifier = large_increase
+					}
+				}
+			}
 			SAO = {
 				country_event = {
 					id = SAO.10

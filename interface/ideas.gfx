@@ -187,6 +187,16 @@ spriteType = {
 	texturefile = "gfx/interface/ideas/URG_DEA_the_deathsquads.dds"
 }
 
+spriteType = {
+	name = "GFX_idea_URG_armamentos_y_municiones_del_ejercito"
+	texturefile = "gfx/interface/ideas/URG_armamentos_y_municiones_del_ejercito.dds"
+}
+
+spriteType = {
+	name = "GFX_idea_URG_political_militias"
+	texturefile = "gfx/interface/ideas/URG_political_militias.dds"
+}
+
 spriteType ={
     name = "GFX_idea_BAR_festa_de_rodeio"
     texturefile = "gfx/interface/ideas/BAR_festa_de_rodeio.dds"
