@@ -42,6 +42,15 @@ CFD_main_category = {
 	}
 }
 
+CFD_nation_development_category = {
+	allowed = {
+		original_tag = CFD
+	}
+	visible = {
+		has_country_flag = CFD_can_upgrade_laws
+	}
+}
+
 CFD_piaui_frontier = {
 	priority = 20
 	icon = GFX_generic_formable_nations

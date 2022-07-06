@@ -10,6 +10,8 @@ set_technology = {
 	motorised_infantry = 1
 	true_motorised_infantry = 1
 	infantry_gear = 1
+	gwtank = 1
+	basic_light_tank = 1
 	armored_car1 = 1
 }
 

@@ -152,7 +152,43 @@ CFD_main_category = {
 			add_political_power = 50
 		}
 	}
-	
+}
+##################		Nation-Wide Development		##################
+CFD_nation_development_category = {
+	CFD_WR_upgrade = {
+        allowed = { tag = CFD }
+        available = {
+           has_country_flag = CFD_can_upgrade_laws
+        }
+        is_good = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+		}
+		remove_effect = {
+			add_ideas = WR_acceptable_regulations
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_SI_upgrade = {
+        allowed = { tag = CFD }
+        available = {
+           has_country_flag = CFD_can_upgrade_laws
+        }
+        is_good = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+		}
+		remove_effect = {
+			add_ideas = SI_acceptable_regulations
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 }
 ##################		International Country Diplomacy Decisions.		##################
 CFD_piaui_frontier = {

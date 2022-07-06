@@ -22,5 +22,15 @@ ideas = {
 			traits = { eco_industrial_chemist }
 			cost = 50
 		}
+		SAO_jose_porfirio_da_paz = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = { hog_corporate_suit }
+			cost = 50
+		}
 	}
 }

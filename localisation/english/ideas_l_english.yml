@@ -238,6 +238,7 @@
  mercenary_army_LAM:0 "Mercenary Reliant Army"
  the_sertao:0 "The Sertão"
  whale_hunting:0 "Convoy Hijacking"
+ whale_hunting_desc:0 "After relying in pure piracy to survive day to day after the defeat of the 6th Military Region, the soldiers of Fernando de Noronha have become proficient at it. Being ever more bolder and brutal in their incursions, a lot of them question their loyalty to the junta, and the most radical of them are now fully commited to the pirate life. /n/nOnly time will tell if the Noronha garrison will continue being part of the army, or if they have found a new way to live."
  neutral_ground:0 "Neutral Ground"
  provisional_government_of_bahia:0 "The Provisional Government of Bahia"
  return_of_the_advisor:0 "Return of the Advisor"

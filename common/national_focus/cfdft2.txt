@@ -319,6 +319,12 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		completion_reward = {
+			country_event = {
+			    id = CFD_elections.5
+			    days = 3
+			}
+		}
 	}
 
 	#No One Other Than Me!
@@ -336,6 +342,9 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		available = {
 			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
 		}
 	}
 
@@ -395,6 +404,12 @@ focus_tree = {
 		available = {
 			always = yes
 		}
+		completion_reward = {
+			country_event = {
+			    id = CFD_elections.8
+			    days = 14
+			}
+		}
 	}
 
 	#Resume the Elections...
@@ -410,7 +425,13 @@ focus_tree = {
 		prerequisite = { focus = CFD_nooneotherthanme  }
 		ai_will_do = { factor = 1 }
 		available = {
-			always = no
+			always = yes
+		}
+		bypass = {
+			always = yes
+		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
 		}
 	}
 
@@ -430,6 +451,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
+		}
 	}
 
 	#The Zona da Mata-Agreste Electoral Campaigns
@@ -438,14 +462,19 @@ focus_tree = {
 		icon = GFX_CFD_the_zona_da_mataagreste_electoral_campaigns-247778
 		x = 9
 		y = 7
-		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = CFD_thepeasantshero  focus = CFD_the_green_stars  }
 		ai_will_do = { factor = 1 }
 		available = {
-			always = no
+			always = yes
+		}
+		completion_reward = {
+			country_event = {
+			    id = CFD_elections.6
+			    days = 7
+			}
 		}
 	}
 
@@ -464,6 +493,9 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		available = {
 			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
 		}
 	}
 
@@ -525,6 +557,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
+		}
 	}
 
 	#...For a Better Recife
@@ -542,6 +577,9 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		available = {
 			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
 		}
 	}
 
@@ -561,6 +599,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
+		}
 	}
 
 	#...To Improve the Sertão's Wasteland
@@ -579,6 +620,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus will be automatically completed via events."
+		}
 	}
 
 	#The Sertão Electoral Campaigns
@@ -594,7 +638,13 @@ focus_tree = {
 		prerequisite = { focus = CFD_foramoreegalitarianrecife  focus = CFD_forabetterrecife  }
 		ai_will_do = { factor = 1 }
 		available = {
-			always = no
+			always = yes
+		}
+		completion_reward = {
+			country_event = {
+			    id = CFD_elections.7
+			    days = 7
+			}
 		}
 	}
 
@@ -610,6 +660,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_the_sergipe_backstab  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_ideas = CFD_disunited_armed_forces
+			add_ideas = militia_officer_training
+		}
 	}
 
 	#Invite 'Jagunços' to Our Ranks
@@ -624,6 +678,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_relaxing_the_requirements  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = private_mercenaries_contractors
+			add_manpower = 500
+			
+			
+		}
 	}
 
 	#Centralizing the Confederation's Combined Arms
@@ -659,12 +719,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_sertanejaandwhatarmy  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = draft_exemptions_none
+		}
 	}
 
 	#The Fernando Situation
 	focus = {
 		id = CFD_the_fernando_situation
-		icon = GFX_goal_unknown
+		icon = GFX_CFD_the_fernando_situation-247778
 		x = 24
 		y = 10
 		cost = 3
@@ -687,6 +750,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_centralizingtheconfederationscombinedarms  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = militia_training
+			add_manpower = 1000
+			
+		}
 	}
 
 	#Retaking Whats Ours!
@@ -772,6 +840,178 @@ focus_tree = {
 			    uses = 1
 			    category = train_tech
 			}
+		}
+	}
+
+	#Lets be Civilized!
+	focus = {
+		id = CFD_letsbecivilized
+		icon = GFX_CFD_letsbecivilized-257058
+		x = 22
+		y = 11
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_fernando_situation  }
+		mutually_exclusive = { focus = CFD_prepare_the_invasion  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Prepare The Invasion
+	focus = {
+		id = CFD_prepare_the_invasion
+		icon = GFX_CFD_prepare_the_invasion-257058
+		x = 26
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_fernando_situation  }
+		mutually_exclusive = { focus = CFD_letsbecivilized  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Resemble the Third Naval District
+	focus = {
+		id = CFD_resemble_the_third_naval_district
+		icon = GFX_CFD_resemble_the_third_naval_district-257058
+		x = 26
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_prepare_the_invasion  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Recife's Naval Port
+	focus = {
+		id = CFD_recifesnavalport
+		icon = GFX_CFD_recifesnavalport-257058
+		x = 25
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_resemble_the_third_naval_district  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#New Marine Corps
+	focus = {
+		id = CFD_new_marine_corps
+		icon = GFX_CFD_new_marine_corps-257058
+		x = 26
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_resemble_the_third_naval_district  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+			navy_experience = 10
+		}
+	}
+
+	#Close Sea Support
+	focus = {
+		id = CFD_close_sea_support
+		icon = GFX_CFD_close_sea_support-257058
+		x = 27
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_resemble_the_third_naval_district  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Ultimatum
+	focus = {
+		id = CFD_the_ultimatum
+		icon = GFX_CFD_the_ultimatum-257058
+		x = 24
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_new_marine_corps  focus = CFD_a_talk_with_castilho  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = {
+			    id = CFD_elections.1
+			    days = 25
+			}
+			
+			
+			
+		}
+	}
+
+	#Sending the Diplomats
+	focus = {
+		id = CFD_sending_the_diplomats
+		icon = GFX_CFD_sending_the_diplomats-257058
+		x = 22
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_letsbecivilized  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = "This will improve our relations with the Fernando de Noronha Garrison at the cost of"
+			add_political_power = -20
+			
+		}
+	}
+
+	#Radio Them In
+	focus = {
+		id = CFD_radio_them_in
+		icon = GFX_CFD_radio_them_in-257058
+		x = 22
+		y = 13
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_sending_the_diplomats  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = "This will improve our relations with the Fernando de Noronha Garrison at the cost of"
+			add_political_power = -30
+		}
+	}
+
+	#A Talk with Castilho
+	focus = {
+		id = CFD_a_talk_with_castilho
+		icon = GFX_CFD_a_talk_with_castilho-257058
+		x = 22
+		y = 14
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_radio_them_in  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = "This will improve our relations with the Fernando de Noronha Garrison at the cost of"
+			add_political_power = -10
 		}
 	}
 

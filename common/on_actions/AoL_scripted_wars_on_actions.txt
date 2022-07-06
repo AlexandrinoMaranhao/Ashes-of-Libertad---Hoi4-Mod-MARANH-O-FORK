@@ -22,6 +22,10 @@ on_actions = {
 					id = CFD_events.3
 					days = 29
 				}
+				country_event = { #Praieira Memories's Flavor
+					id = CFD_events.12
+					days = 60
+				}
 			}
 			SEG = { #Sergipe Vale Deals
 				give_military_access = VAL				

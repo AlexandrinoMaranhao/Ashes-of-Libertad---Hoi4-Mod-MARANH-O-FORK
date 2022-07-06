@@ -17,6 +17,10 @@ spriteTypes = {
 
 ###Sao Paulo Advisors###
 	spriteType = {
+		name = "GFX_idea_SAO_jose_porfirio_da_paz"
+		texturefile = "gfx/interface/ideas/goofybois/sao_jose_porfirio_da_paz.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_SAO_edmundo_de_macedo_soares_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/sao_edmundo_de_macedo_soares.dds"
 	}
