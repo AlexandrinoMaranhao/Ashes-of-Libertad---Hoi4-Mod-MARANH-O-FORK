@@ -91,8 +91,9 @@ convoy_escort_efficiency = -0.5
 
 		CFD_aftermath_of_the_great_1962_famine = {
 			picture = CFD_aftermath_of_the_great_1962_famine-238388
-			allowed = {
-				original_tag = CFD
+			modifier = {
+				consumer_goods_factor = 0.2
+stability_factor = -0.1
 			}
 		}
 
@@ -130,7 +131,7 @@ production_lack_of_resource_penalty_factor = -0.05
 				production_oil_factor = 0.5
 army_fuel_consumption_factor = -0.05
 local_resources_factor = 0.05
-production_factory_efficiency_gain_factor = 0.1
+production_speed_synthetic_refinery_factor = 0.3
 production_lack_of_resource_penalty_factor = -0.1
 			}
 		}

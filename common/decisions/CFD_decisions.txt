@@ -88,6 +88,39 @@ CFD_main_category = {
 			factor = 999
 		}
 	}
+	CFD_prestes_returns_timer = {
+        allowed = { tag = CFD }
+        available = {
+            NOT = {country_exists = CFD}
+        }
+		visible = {
+			is_debug = yes
+		}
+        activation = {
+			country_exists = CFD
+        }
+		cancel_trigger = {
+			NOT = {country_exists = CFD}
+		}
+        is_good = no
+        selectable_mission = yes
+        days_mission_timeout = 1335
+        timeout_effect = {
+			every_country = {
+				news_event = {
+					id = world.1
+					days = 3
+				}
+			}
+            country_event = {
+				id = PEB.1
+				days = 0
+			}
+        }
+		complete_effect = {
+			add_political_power = 50
+		}
+	}
 	CFD_debug_vice_president_teaser = {
 		cost = 0
 		visible = {
@@ -152,7 +185,44 @@ CFD_main_category = {
 			add_political_power = 50
 		}
 	}
-	
+##################		Misc.		##################
+}
+##################		Nation-Wide Development		##################
+CFD_nation_development_category = {
+	CFD_WR_upgrade = {
+        allowed = { tag = CFD }
+        available = {
+           has_country_flag = CFD_can_upgrade_laws
+        }
+        is_good = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+		}
+		remove_effect = {
+			add_ideas = WR_acceptable_regulations
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_SI_upgrade = {
+        allowed = { tag = CFD }
+        available = {
+           has_country_flag = CFD_can_upgrade_laws
+        }
+        is_good = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+		}
+		remove_effect = {
+			add_ideas = SI_acceptable_regulations
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 }
 ##################		International Country Diplomacy Decisions.		##################
 CFD_piaui_frontier = {

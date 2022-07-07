@@ -140,7 +140,7 @@ country_event = { #Sampaio Plans 2
 			ideology = democratic
 			popularity = 0.02
 		}
-		custom_effect_tooltip = "This will unite the development national spirits into a single one."
+		custom_effect_tooltip = "This will unify the development national spirits into a single one."
 		hidden_effect = {
 			add_ideas = {CFD_sudene}
 			remove_ideas = {CFD_the_bandecose CFD_the_coperbe}
@@ -189,7 +189,32 @@ country_event = { #Doria FDP!
     }
 }
 
-country_event = { #Doria's run
+country_event = { #Dória's run 1
+    id = CFD_events.900
+    title = CFD_events.9.t
+    desc = CFD_events.9.d
+	trigger = {
+		is_ai = yes
+		CFD = {
+			AND = {
+				has_completed_focus = CFD_retakingwhatsours
+				controls_state = 11
+				controls_state = 572
+			}
+		}
+	}
+	fire_only_once = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.9.a
+		CFD = {
+			country_event = {id = CFD_events.9}
+		}
+    }
+}
+
+country_event = { #Doria's run 2
     id = CFD_events.9
     title = CFD_events.9.t
     desc = CFD_events.9.d
@@ -199,8 +224,9 @@ country_event = { #Doria's run
     option = {
         name = CFD_events.9.a
 		CFD = {
-			custom_effect_tooltip = "Dória will escape to São Paulo..."
+			custom_effect_tooltip = "Dória will escape to São Paulo."
 			hidden_effect = {
+				remove_ideas = CFD_the_sergipe_backstab
 				add_political_power = -100
 				add_popularity = {
 					ideology = reactionary
@@ -213,8 +239,9 @@ country_event = { #Doria's run
     option = {
         name = CFD_events.9.b
 		CFD = {
-			custom_effect_tooltip = "Dória will be brought to justice, at a cost..."
+			custom_effect_tooltip = "Dória will be brought to justice."
 			hidden_effect = {
+				remove_ideas = CFD_the_sergipe_backstab
 				add_political_power = 100
 				add_popularity = {
 					ideology = reactionary
@@ -285,7 +312,19 @@ country_event = { #Bezerra's remorse
     }
 }
 
-##The Elections events##
+country_event = { #Memories of Praieira Flavor
+    id = CFD_events.12
+    title = CFD_events.12.t
+    desc = CFD_events.12.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.12.a
+    }
+}
+
+###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
     id = CFD_elections.1
@@ -397,7 +436,12 @@ country_event = { #Election yes or no
 				check_variable = { CFD_no_elections_chances > CFD_yes_elections_chances }
 			}
 		}
-		CFD = {hidden_effect = {complete_national_focus = CFD_nooneotherthanme}}
+		CFD = {
+			hidden_effect = {
+				complete_national_focus = CFD_nooneotherthanme
+				clear_variable = CFD_no_elections_chances
+			}	
+		}
     }
 	
     option = { #Elections is a go!
@@ -407,9 +451,167 @@ country_event = { #Election yes or no
 				check_variable = { CFD_yes_elections_chances > CFD_no_elections_chances }
 			}
 		}
-		CFD = {hidden_effect = {complete_national_focus = CFD_continuetheelections}}
+		CFD = {
+			hidden_effect = {
+				complete_national_focus = CFD_continuetheelections
+				clear_variable = CFD_yes_elections_chances
+			}
+		}
     }
 }
+
+country_event = { #Election debate 1
+    id = CFD_elections.5
+    title = CFD_elections.5.t
+    desc = CFD_elections.5.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = { ##pro-bezerra
+        name = CFD_elections.5.a
+		CFD = {
+			complete_national_focus = CFD_thepeasantshero 
+			add_to_variable = {
+				var = CFD_bezerra_support
+				value = 1
+			}
+			hidden_effect = {
+				complete_national_focus = CFD_the_zona_da_mataagreste_electoral_campaigns  
+			}
+		}
+    }
+	
+    option = { ##pro-guerra
+        name = CFD_elections.5.b
+		CFD = {
+			complete_national_focus = CFD_the_green_stars  
+			add_to_variable = {
+				var = CFD_guerras_support
+				value = 1
+			}
+			hidden_effect = {
+				complete_national_focus = CFD_the_zona_da_mataagreste_electoral_campaigns  
+			}
+		}
+    }
+}
+
+country_event = { #Election debate 2
+    id = CFD_elections.6
+    title = CFD_elections.6.t
+    desc = CFD_elections.6.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = { ##pro-bezerra
+        name = CFD_elections.6.a
+		CFD = {
+			complete_national_focus = CFD_foramoreegalitarianrecife  
+			add_to_variable = {
+				var = CFD_bezerra_support
+				value = 1
+			}
+			hidden_effect = {
+				complete_national_focus = CFD_thesertaoelectoralcampaigns  
+			}
+		}
+    }
+	
+    option = { ##pro-guerra
+        name = CFD_elections.6.b
+		CFD = {
+			complete_national_focus = CFD_forabetterrecife 
+			add_to_variable = {
+				var = CFD_guerras_support
+				value = 1
+			}
+			hidden_effect = {
+				complete_national_focus = CFD_thesertaoelectoralcampaigns  
+			}
+		}
+    }
+}
+
+country_event = { #Election debate 3
+    id = CFD_elections.7
+    title = CFD_elections.7.t
+    desc = CFD_elections.7.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = { ##pro-bezerra
+        name = CFD_elections.7.a
+		CFD = {
+			complete_national_focus = CFD_tofreethepeasantsfromtheirlandowners 
+			add_to_variable = {
+				var = CFD_bezerra_support
+				value = 1
+			}
+			hidden_effect = {
+				complete_national_focus = CFD_andtheresultis  
+			}
+		}
+    }
+	
+    option = { ##pro-guerra
+        name = CFD_elections.7.b
+		CFD = {
+			complete_national_focus = CFD_toimprovethesertaoswasteland 
+			add_to_variable = {
+				var = CFD_guerras_support
+				value = 1
+			}
+			hidden_effect = {
+				complete_national_focus = CFD_andtheresultis  
+			}
+		}
+    }
+}
+
+country_event = { #Election victorious
+    id = CFD_elections.8
+    title = CFD_elections.8.t
+    desc = CFD_elections.8.d
+    is_triggered_only = yes
+	hidden = yes
+    picture = GFX_report_cfd_elections1
+
+    option = { #PCB Victory
+        name = CFD_elections.8.a
+		trigger = {
+			CFD = {
+				check_variable = { CFD_bezerra_support > CFD_guerras_support }
+			}
+		}
+		CFD = {
+			hidden_effect = {
+				set_country_flag = CFD_elections_over
+				set_country_flag = CFD_PCB_Victory
+				mark_focus_tree_layout_dirty = yes
+				complete_national_focus = CFD_a_new_dawn
+			}
+		}
+    }
+	
+    option = { #Usineiros Victory
+        name = CFD_elections.8.b
+		trigger = {
+			CFD = {
+				check_variable = { CFD_guerras_support > CFD_bezerra_support }
+			}
+		}
+		CFD = {
+			hidden_effect = {
+				set_country_flag = CFD_elections_over
+				set_country_flag = CFD_PSNU_Victory
+				mark_focus_tree_layout_dirty = yes
+				complete_national_focus = CFD_a_new_dawn
+			}
+		}
+    }
+}
+
+###########################	The Operations	###########################
 
 country_event = {
     id = CFD_operations.1

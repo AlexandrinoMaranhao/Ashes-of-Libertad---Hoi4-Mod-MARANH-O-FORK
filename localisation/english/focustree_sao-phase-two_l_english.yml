@@ -1,18 +1,18 @@
 ﻿l_english: 
-sao_phase_two_whereisssrmerighellass:0 "WHERE IS §RMERIGHELLA§!???"
-sao_phase_two_whereisssrmerighellass_desc:0 "tbc"
-sao_phase_two_fullserveilancecoverage:0 "Full Serveilance Coverage"
-sao_phase_two_fullserveilancecoverage_desc:0 "tbc"
-sao_phase_two_scrambleforhelicopters:0 "Scramble for Helicopters"
-sao_phase_two_scrambleforhelicopters_desc:0 "tbc"
-sao_phase_two_piracatuairservice:0 "Piracatu Air Service"
-sao_phase_two_piracatuairservice_desc:0 "tbc"
-sao_phase_two_ialwaysfeellike:0 "I Always Feel Like..."
-sao_phase_two_ialwaysfeellike_desc:0 "tbc"
-sao_phase_two_somebodyiswatchingme:0 "...Somebody is Watching Me."
-sao_phase_two_somebodyiswatchingme_desc:0 "tbc"
-sao_phase_two_bringordertochaos:0 "Bring Order to Chaos"
-sao_phase_two_bringordertochaos_desc:0 "tbc"
+sao_phase_two_whereisssrmerighellass:0 "WHERE IS §RMERIGHELLA§!???"
+sao_phase_two_whereisssrmerighellass_desc:0 "tbc"
+sao_phase_two_full_serveilance_coverage:0 "Full Serveilance Coverage"
+sao_phase_two_full_serveilance_coverage_desc:0 "tbc"
+sao_phase_two_scramble_for_helicopters:0 "Scramble for Helicopters"
+sao_phase_two_scramble_for_helicopters_desc:0 "tbc"
+sao_phase_two_piracatu_air_service:0 "Piracatu Air Service"
+sao_phase_two_piracatu_air_service_desc:0 "tbc"
+sao_phase_two_ialwaysfeellike:0 "I Always Feel Like..."
+sao_phase_two_ialwaysfeellike_desc:0 "tbc"
+sao_phase_two_somebodyiswatchingme:0 "...Somebody is Watching Me."
+sao_phase_two_somebodyiswatchingme_desc:0 "tbc"
+sao_phase_two_bring_order_to_chaos:0 "Bring Order to Chaos"
+sao_phase_two_bring_order_to_chaos_desc:0 "tbc"
 sao_phase_two_integrate_the_36th_battalion:0 "Integrate the 36th Battalion"
 sao_phase_two_integrate_the_36th_battalion_desc:0 "tbc"
 sao_phase_two_mobilize_the_trains:0 "Mobilize the Trains"
@@ -33,10 +33,10 @@ sao_phase_two_state_of_emergency:0 "State of Emergency"
 sao_phase_two_state_of_emergency_desc:0 "tbc"
 sao_phase_two_rotanarua:0 "ROTA na Rua!"
 sao_phase_two_rotanarua_desc:0 "tbc"
-sao_phase_two_paintitblack:0 "Paint it Black"
-sao_phase_two_paintitblack_desc:0 "tbc"
-sao_phase_two_thefortressoflight:0 "The Fortress of Light"
-sao_phase_two_thefortressoflight_desc:0 "tbc"
+sao_phase_two_paint_it_black:0 "Paint it Black"
+sao_phase_two_paint_it_black_desc:0 "tbc"
+sao_phase_two_the_fortress_of_light:0 "The Fortress of Light"
+sao_phase_two_the_fortress_of_light_desc:0 "tbc"
 sao_phase_two_higienopolisinterrogationcenter:0 "Higienopolis ''Interrogation'' Center"
 sao_phase_two_higienopolisinterrogationcenter_desc:0 "tbc"
 sao_phase_two_the_old_commander_toledo:0 "The Old Commander Toledo"

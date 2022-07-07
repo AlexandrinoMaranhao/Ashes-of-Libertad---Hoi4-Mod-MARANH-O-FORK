@@ -42,13 +42,27 @@ add_ideas = {
 	CFD_antonio_corpse_advisor		##<-O que morre la.
 	
 ###Governo###
+
+#Social laws
+	religious_pluralism
 	political_parties_multiparty_system
 	economic_focus_early_mobilization
 	equal_rights
 	bellow_poverty_line
 	free_press
+	no_education
+#Economic Laws
+	WR_minimal_regulations
+	tax_rate_no_taxation
 	slavery_outlawed
 	trade_scope_international_exports
+	tax_rate_medium_taxation
+	SI_no_regulations
+#Army Laws
+	no_mercenaries 
+	training_none 
+	no_officer_training
+	draft_exemptions_civil_service_deferment
 }
 
 ###Generals and Country Leaders###
@@ -74,13 +88,32 @@ recruit_character = CFD_juarez_tavora
 recruit_character = CFD_alberto_sallaberry
 recruit_character = CFD_ivan_ruy
 recruit_character = CFD_homero_souto_de_oliveira
+recruit_character = CFD_luiz_clovis_de_oliveira
 
 set_country_flag = CFD_cid_adminstration
 set_country_flag = unfinished_cfd #Remove once completed.
+
 set_variable = {
 	var = sarney_puto_value
 	value = 0
 }
+set_variable = {
+	var = CFD_no_elections_chances
+	value = 0
+}
+set_variable = {
+	var = CFD_yes_elections_chances
+	value = 0
+}
+set_variable = {
+	var = CFD_bezerra_support
+	value = 0
+}
+set_variable = {
+	var = CFD_guerras_support
+	value = 0
+}
+
 create_country_leader = {
 	name = "Nivaldo Rodrigues Machado"
 	picture = "Portrait_CFD_Collapsed_Government.dds"
@@ -100,7 +133,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "No Organized Leadership"
+	name = "-------"
 	desc = ""
 	picture = "Portrait_CFD_Paulo_Pessoa_Guerra.dds"
 	expire = "1999.1.1"

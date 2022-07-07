@@ -428,4 +428,20 @@ characters={
 			traits = {cair_air_superiority_doctrine}
 		}
 	}
+	CFD_luiz_clovis_de_oliveira = {
+		name = "Luiz Clovis De Oliveira"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/goofybois/cfd_luiz_clovis_de_oliveira.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CFD_luiz_clovis_de_oliveira
+			allowed = {
+				original_tag = CFD
+			}
+			traits = {cnav_decisive_battle_doctrine}
+		}
+	}
 }
