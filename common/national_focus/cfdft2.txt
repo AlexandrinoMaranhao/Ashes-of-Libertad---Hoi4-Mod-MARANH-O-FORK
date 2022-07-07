@@ -8,6 +8,81 @@ focus_tree = {
 			tag = CFD
 		}
 	}
+	#Opportunities and Resources
+	focus = {
+		id = CFD_opportunities_and_resources
+		icon = GFX_goal_unknown
+		x = 40
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_a_look_at_our_surroundings  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_country_flag = CFD_can_upgrade_laws
+			unlock_decision_category_tooltip = CFD_nation_development_category
+		}
+	}
+
+	#The §RPeasant§! on the §WWhite House§!
+	focus = {
+		id = CFD_thessrpeasantssonthesswwhitehousess
+		icon = GFX_goal_unknown
+		x = 38
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_uniting_the_people  }
+		mutually_exclusive = { focus = CFD_assggreenstarssonthesky  }
+		ai_will_do = { factor = 1 }
+		available = {
+			has_country_flag = CFD_PCB_Victory
+			
+		}
+	}
+
+	#A §GGreen Star§! On the Sky
+	focus = {
+		id = CFD_assggreenstarssonthesky
+		icon = GFX_goal_unknown
+		x = 42
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_uniting_the_people  }
+		mutually_exclusive = { focus = CFD_thessrpeasantssonthesswwhitehousess  }
+		ai_will_do = { factor = 1 }
+		available = {
+			has_country_flag = CFD_PSNU_Victory
+		}
+		completion_reward = {
+			custom_effect_tooltip = "This focus is related to the PSN - Usineiros' path and currently isn't available on this version."
+		}
+	}
+
+	#§GComing Soon...§!
+	focus = {
+		id = CFD_ssgcomingsoonss
+		icon = GFX_goal_unknown
+		x = 42
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_assggreenstarssonthesky  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = "This focus is related to the PSN - Usineiros' path and currently isn't available on this version."
+		}
+	}
+
 	#The Fall
 	focus = {
 		id = CFD_the_fall
@@ -64,7 +139,7 @@ focus_tree = {
 		icon = GFX_CFD_sampaiosadminstration-213988
 		x = 16
 		y = 5
-		cost = 6
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -86,7 +161,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 14
 		y = 7
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -175,7 +250,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = {
 					id = CFD_events.8
-					days = 7
+					days = 90
 				}
 			}
 			
@@ -286,7 +361,7 @@ focus_tree = {
 		icon = GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633
 		x = 16
 		y = 8
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -672,7 +747,7 @@ focus_tree = {
 		icon = GFX_CFD_invitejaguncostoourranks-229858
 		x = 23
 		y = 7
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -692,7 +767,7 @@ focus_tree = {
 		icon = GFX_CFD_centralizingtheconfederationscombinedarms-153588
 		x = 25
 		y = 6
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -713,7 +788,7 @@ focus_tree = {
 		icon = GFX_CFD_relaxing_the_requirements-153592
 		x = 23
 		y = 6
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -736,6 +811,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_retakingwhatsours  }
 		ai_will_do = { factor = 1 }
+		available = {
+			NOT = {
+				country_exists = SEG
+			}
+		}
 	}
 
 	#Allow Militiamens in Our Ranks
@@ -744,7 +824,7 @@ focus_tree = {
 		icon = GFX_CFD_allow_militiamens_in_our_ranks-183749
 		x = 25
 		y = 7
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -769,12 +849,21 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_allow_militiamens_in_our_ranks  } prerequisite = { focus = CFD_invitejaguncostoourranks  }
 		ai_will_do = { factor = 1 }
+		available = {
+			CFD = {
+				AND = {
+						has_completed_focus = CFD_foundssgbandecosess
+						has_completed_focus = CFD_thecreationofssocoperbess
+			
+				}
+			}
+			
+		}
 		completion_reward = {
 			declare_war_on = {
 			    target = SEG
 			    type = annex_everything
 			}
-			remove_ideas = CFD_disunited_armed_forces
 		}
 	}
 
@@ -784,7 +873,7 @@ focus_tree = {
 		icon = GFX_CFD_the_food_situation-247778
 		x = 18
 		y = 6
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -802,7 +891,7 @@ focus_tree = {
 		icon = GFX_CFD_a_talk_with_the_usineiros-247778
 		x = 18
 		y = 7
-		cost = 3
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -823,7 +912,7 @@ focus_tree = {
 		icon = GFX_CFD_modernize_the_fields-247778
 		x = 18
 		y = 8
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -849,7 +938,7 @@ focus_tree = {
 		icon = GFX_CFD_letsbecivilized-257058
 		x = 22
 		y = 11
-		cost = 2
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -864,7 +953,7 @@ focus_tree = {
 		icon = GFX_CFD_prepare_the_invasion-257058
 		x = 26
 		y = 11
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -885,6 +974,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_prepare_the_invasion  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			navy_experience = 25
+		}
 	}
 
 	#Recife's Naval Port
@@ -899,6 +991,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_resemble_the_third_naval_district  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			7 = {
+				add_building_construction = {
+				    type = dockyard
+				    level = 2
+				    instant_build = yes
+				}
+			add_building_construction = {
+			    type = naval_base
+			    level = 3
+			    instant_build = yes
+			    province = 1793
+			}
+			}
+			
+		}
 	}
 
 	#New Marine Corps
@@ -919,7 +1027,7 @@ focus_tree = {
 				uses = 2
 				category = naval_doctrine
 			}
-			navy_experience = 10
+			navy_experience = 25
 		}
 	}
 
@@ -952,11 +1060,8 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 			    id = CFD_elections.1
-			    days = 25
+			    days = 32
 			}
-			
-			
-			
 		}
 	}
 
@@ -985,7 +1090,7 @@ focus_tree = {
 		icon = GFX_CFD_radio_them_in-257058
 		x = 22
 		y = 13
-		cost = 7
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1013,6 +1118,50 @@ focus_tree = {
 			custom_effect_tooltip = "This will improve our relations with the Fernando de Noronha Garrison at the cost of"
 			add_political_power = -10
 		}
+	}
+
+	#A New Dawn
+	focus = {
+		id = CFD_a_new_dawn
+		icon = GFX_goal_unknown
+		x = 40
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		allow_branch = {
+			has_country_flag = CFD_elections_over
+		}
+	}
+
+	#Uniting the People
+	focus = {
+		id = CFD_uniting_the_people
+		icon = GFX_goal_unknown
+		x = 40
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_a_new_dawn  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#A Look at our Surroundings
+	focus = {
+		id = CFD_a_look_at_our_surroundings
+		icon = GFX_goal_unknown
+		x = 40
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_uniting_the_people  }
+		ai_will_do = { factor = 1 }
 	}
 
 }

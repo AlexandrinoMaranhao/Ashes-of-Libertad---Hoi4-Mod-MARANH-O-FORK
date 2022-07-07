@@ -1,5 +1,271 @@
 spriteTypes = {	##Icon For: 
 	SpriteType = { 
+		name = "GFX_sao_phase_two_whereisssrmerighellass-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_whereisssrmerighellass-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_whereisssrmerighellass-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_whereisssrmerighellass-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_whereisssrmerighellass-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_whereisssrmerighellass-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_full_serveilance_coverage-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_full_serveilance_coverage-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_full_serveilance_coverage-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_full_serveilance_coverage-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_full_serveilance_coverage-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_full_serveilance_coverage-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_scramble_for_helicopters-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_scramble_for_helicopters-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_scramble_for_helicopters-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_scramble_for_helicopters-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_scramble_for_helicopters-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_scramble_for_helicopters-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_piracatu_air_service-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_piracatu_air_service-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_piracatu_air_service-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_piracatu_air_service-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_piracatu_air_service-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_piracatu_air_service-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_ialwaysfeellike-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_ialwaysfeellike-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_ialwaysfeellike-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_ialwaysfeellike-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_ialwaysfeellike-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_ialwaysfeellike-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_somebodyiswatchingme-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_somebodyiswatchingme-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_somebodyiswatchingme-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_somebodyiswatchingme-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_somebodyiswatchingme-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_somebodyiswatchingme-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_bring_order_to_chaos-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_bring_order_to_chaos-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_bring_order_to_chaos-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_bring_order_to_chaos-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_bring_order_to_chaos-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_bring_order_to_chaos-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
 		name = "GFX_sao_phase_two_integrate_the_36th_battalion-185523"
 		texturefile = "gfx/interface/goals/GFX_sao_phase_two_integrate_the_36th_battalion-185523.dds"
 	}
@@ -365,6 +631,82 @@ spriteTypes = {	##Icon For:
 		}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_rotanarua-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_paint_it_black-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_paint_it_black-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_paint_it_black-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_paint_it_black-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_paint_it_black-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_paint_it_black-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_the_fortress_of_light-185523"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_the_fortress_of_light-185523.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_sao_phase_two_the_fortress_of_light-185523_shine"
+		texturefile = "gfx/interface/goals/GFX_sao_phase_two_the_fortress_of_light-185523.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_the_fortress_of_light-185523.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_sao_phase_two_the_fortress_of_light-185523.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
