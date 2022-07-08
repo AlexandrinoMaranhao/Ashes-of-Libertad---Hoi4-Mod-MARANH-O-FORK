@@ -160,21 +160,17 @@ CFD_main_category = {
             NOT = {country_exists = MNH}
         }
         activation = {
-			AND = {
-				CFD = {
-					has_war_with = MNH
-					check_variable = {
-						CFD_MNH_crisis > 9
-					}
-				}
+			CFD = {
+				has_war_with = MNH
 			}
         }
 		cancel_trigger = {
 			NOT = {country_exists = MNH}
 		}
         is_good = no
+		fire_only_once = yes
         selectable_mission = yes
-        days_mission_timeout = 120
+        days_mission_timeout = 200
         timeout_effect = {
             country_event = {
 				id = CFD_failometer_enabled.1
@@ -186,6 +182,27 @@ CFD_main_category = {
 		}
 	}
 ##################		Misc.		##################
+	CFD_maranhao_prep_fortifications = {        
+		allowed = { tag = CFD }
+        available = {
+           has_country_flag = operations_completed
+        }
+		visible = {
+			has_country_flag = operations_completed
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+		}
+		remove_effect = {
+			add_ideas = WR_acceptable_regulations
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 }
 ##################		Nation-Wide Development		##################
 CFD_nation_development_category = {
@@ -195,6 +212,7 @@ CFD_nation_development_category = {
            has_country_flag = CFD_can_upgrade_laws
         }
         is_good = yes
+		fire_only_once = yes
 		cost = 50
 		days_remove = 30
 		modifier = {
@@ -212,6 +230,7 @@ CFD_nation_development_category = {
            has_country_flag = CFD_can_upgrade_laws
         }
         is_good = yes
+		fire_only_once = yes
 		cost = 50
 		days_remove = 30
 		modifier = {

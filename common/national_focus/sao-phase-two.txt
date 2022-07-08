@@ -8,10 +8,10 @@ focus_tree = {
 			tag = sao_phase_two
 		}
 	}
-	#WHERE IS §RMERIGHELLA§!???
+	#WHERE IS §RMARIGHELLA§!???
 	focus = {
-		id = sao_phase_two_whereisssrmerighellass
-		icon = GFX_sao_phase_two_whereisssrmerighellass-185523
+		id = sao_phase_two_whereisssrmarighellass
+		icon = GFX_sao_phase_two_whereisssrmarighellass-185523
 		x = 19
 		y = 8
 		cost = 3
@@ -20,6 +20,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_bring_order_to_chaos  focus = sao_phase_two_full_serveilance_coverage  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = SAO_where_is_marighella
+			
+			
+		}
 	}
 
 	#Full Serveilance Coverage
@@ -34,6 +39,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_scramble_for_helicopters  focus = sao_phase_two_somebodyiswatchingme  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_form_department
+			every_owned_state = {
+			add_resistance = -40
+			set_garrison_strength = 99
+			}
+		}
 	}
 
 	#Scramble for Helicopters
@@ -48,6 +60,17 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_piracatu_air_service  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = CAS_equipment_1
+			    amount = 100
+			    producer = SAO
+			}
+			hidden_effect = {
+			load_oob = "SAO_HELI"
+			}
+			custom_effect_tooltip = SAO_OOB_heli
+		}
 	}
 
 	#Piracatu Air Service
@@ -62,6 +85,36 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_mobilize_the_trains  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_technology = {
+			    CAS1 = 1
+			    early_fighter = 1
+			}
+			add_equipment_to_stockpile = {
+			    type = fighter_equipment_0
+			    amount = 200
+			    producer = SAO
+			}
+			air_experience = 20
+			add_ace = {
+			    name = "Antonio"
+			    surname = "Danelon"
+			    callsign = "O Alemao"
+			    type = fighter_genius
+			    is_female = no
+			}
+			add_tech_bonus = {
+			    bonus = 0.3
+			    uses = 2
+			    category = air_equipment
+			}
+			
+			hidden_effect = {
+			load_oob = "SAO_PAS"
+			}
+			custom_effect_tooltip = SAO_OOB_pas
+			
+		}
 	}
 
 	#I Always Feel Like...
@@ -76,6 +129,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_hunt_their_allies  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = SAO_unlock_fluery_tt
+		}
 	}
 
 	#...Somebody is Watching Me.
@@ -90,6 +146,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_ialwaysfeellike  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+				create_intelligence_agency = {
+				    name = "D.O.P.S."
+				    icon = GFX_DOPS_agency
+				}
+		}
 	}
 
 	#Bring Order to Chaos
@@ -104,6 +166,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_the_fortress_of_light  focus = sao_phase_two_somebodyiswatchingme  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.15
+			custom_effect_tooltip = SAO_bring_order_tt
+			add_ideas = SAO_military_command
+		}
 	}
 
 	#Integrate the 36th Battalion
@@ -118,6 +185,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_state_of_emergency  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			add_ideas = the_triangle_battalion
+		}
 	}
 
 	#Mobilize the Trains
@@ -132,6 +207,18 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_integrate_the_36th_battalion  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 3
+			    category = train_tech
+			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 2
+			    category = armor
+			}
+		}
 	}
 
 	#Hunt their Allies
@@ -146,6 +233,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_higienopolisinterrogationcenter  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_category_tooltip = SAO_DOPS
+		}
 	}
 
 	#Ostensive Patrols
@@ -160,6 +250,35 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_state_of_emergency  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_ideas = SAO_a_military_run_by_the_police
+			add_ideas = SAO_ROTA
+			hidden_effect = {
+			load_oob = "SAO_rota_patrols"
+			}
+			army_experience = 15
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = cat_mechanized_equipment
+			}
+			add_tech_bonus = {
+			    bonus = 0.3
+			    uses = 1
+			    category = motorized_equipment
+			}
+			add_tech_bonus = {
+			    bonus = 0.2
+			    uses = 1
+			    category = armor
+			}
+			add_tech_bonus = {
+			    bonus = 0.1
+			    uses = 2
+			    category = infantry_weapons
+			}
+			
+		}
 	}
 
 	#Face of the Revolution!
@@ -190,6 +309,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			
+			
+		}
 	}
 
 	#For my Country
@@ -204,6 +329,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
 	}
 
 	#For the Revolution
@@ -218,6 +347,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_faceoftherevolution  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
 	}
 
 	#State of Emergency
@@ -232,6 +365,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_for_my_family  } prerequisite = { focus = sao_phase_two_for_my_country  } prerequisite = { focus = sao_phase_two_for_the_revolution  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_ideas = SAO_the_silvio_santos_show
+			remove_ideas = SAO_agriculture_reborn
+			remove_ideas = SAO_the_2nd_constitutionalist_revolution
+			
+		}
 	}
 
 	#ROTA na Rua!
@@ -246,6 +385,30 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_ostensive_patrols  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.1
+			
+			add_equipment_to_stockpile = {
+			    type = gw_armored_car_equipment
+			    amount = 1000
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = mechanized_equipment_1
+			    amount = 1000
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = amphibious_mechanized_equipment_1
+			    amount = 1000
+			    producer = SAO
+			}
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 1000
+			    producer = SAO
+			}
+		}
 	}
 
 	#Paint it Black
@@ -260,6 +423,28 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_rotanarua  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			army_experience = 5
+			add_equipment_to_stockpile = {
+			    type = infantry_gear_1
+			    amount = 1000
+			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = military_police_tech
+			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = artillery
+			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = logistics_tech
+			}
+		}
 	}
 
 	#The Fortress of Light
@@ -274,6 +459,20 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_paint_it_black  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_province_name = {
+			    id = 6269
+			    name = VICTORY_POINTS_FORTALEZA_DA_LUZ
+			}
+			571 = {
+				add_building_construction = {
+				    type = bunker
+				    level = 10
+				    instant_build = yes
+				    province = 6269
+				}
+			}
+		}
 	}
 
 	#Higienopolis ''Interrogation'' Center
@@ -288,6 +487,17 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_state_of_emergency  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			28 = {
+				add_building_construction = {
+			 	  type = bunker
+			 	  level = 1
+			  	  instant_build = yes
+			  	  province = 6474
+				}
+			}
+			army_experience = 25
+		}
 	}
 
 	#The Old Commander Toledo

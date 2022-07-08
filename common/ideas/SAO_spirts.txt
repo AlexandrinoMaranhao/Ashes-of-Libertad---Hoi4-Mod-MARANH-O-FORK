@@ -190,5 +190,17 @@ consumer_goods_factor = -0.1
 				
 			}
 		}
+		
+		SAO_ROTA = {
+			modifier = {
+				political_power_gain = -0.2
+				stability_factor = -0.3
+				land_doctrine_cost_factor = -0.1
+				command_abilities_cost_factor = -0.15
+				army_speed_factor_for_controller = 0.2
+				resistance_growth = -0.2
+				resistance_damage_to_garrison = -0.2
+			}
+		}
 	}
 }

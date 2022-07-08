@@ -64,7 +64,10 @@ characters={
 			legacy_id=-1
 			visible = {
 				SAO = {
-					has_completed_focus = SAO_embracethejuntasdeserters
+					OR = {
+						has_completed_focus = SAO_embracethejuntasdeserters
+						has_completed_focus = sao_phase_two_faceoftherevolution
+					}
 				}
 			}
 		}
@@ -90,7 +93,10 @@ characters={
 			legacy_id=-1
 			visible = {
 				SAO = {
-					has_completed_focus = SAO_a_army_in_name_only
+					OR = {
+						has_completed_focus = SAO_a_army_in_name_only
+						has_completed_focus = sao_phase_two_faceoftherevolution
+					}
 				}
 			}
 		}
@@ -113,7 +119,7 @@ characters={
 			legacy_id=-1
 			visible = {
 				SAO = {
-					has_completed_focus = SAO_figueiredosreforms
+					has_completed_focus = sao_phase_two_ialwaysfeellike
 				}
 			}
 		}
@@ -122,7 +128,7 @@ characters={
 			ledger = army
 			available = {
 				SAO = {
-					has_completed_focus = SAO_figueiredosreforms
+					has_completed_focus = sao_phase_two_ialwaysfeellike
 				}
 			}
 			traits = {
@@ -181,7 +187,10 @@ characters={
 			legacy_id=-1
 			visible = {
 				SAO = {
-					has_completed_focus = SAO_thejuntasposterboys
+					OR = {
+						has_completed_focus = SAO_thejuntasposterboys
+						has_completed_focus = sao_phase_two_faceoftherevolution
+					}
 				}
 			}
 		}
@@ -193,7 +202,10 @@ characters={
 			}
 			available = {
 				SAO = {
-					has_completed_focus = SAO_thejuntasposterboys
+					OR = {
+						has_completed_focus = SAO_thejuntasposterboys
+						has_completed_focus = sao_phase_two_faceoftherevolution
+					}
 				}
 			}
 			cost = 100
