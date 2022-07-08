@@ -13,6 +13,11 @@ spriteType ={
 } 
 
 spriteType ={
+    name = "GFX_idea_SAO_ROTA"
+    texturefile = "gfx/interface/ideas/SAO_ROTA.dds"
+} 
+
+spriteType ={
     name = "GFX_idea_AMA_the_northern_military_command"
     texturefile = "gfx/interface/ideas/AMA_the_northern_military_command.dds"
 } 

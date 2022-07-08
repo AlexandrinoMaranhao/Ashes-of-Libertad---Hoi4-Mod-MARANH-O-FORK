@@ -12,7 +12,7 @@ country_event = { #Intro1
     title = CFD_intro.1.t
     desc = CFD_intro.1.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_fernandinho1
+    picture = GFX_report_cfd_fernandinho2
 
     option = {
         name = CFD_intro.1.a
@@ -227,11 +227,7 @@ country_event = { #Doria's run 2
 			custom_effect_tooltip = "Dória will escape to São Paulo."
 			hidden_effect = {
 				remove_ideas = CFD_the_sergipe_backstab
-				add_political_power = -100
-				add_popularity = {
-					ideology = reactionary
-					popularity = 0.1
-				}
+				country_event = {id = CFD_events.1090}
 			}
 		}
     }
@@ -241,19 +237,16 @@ country_event = { #Doria's run 2
 		CFD = {
 			custom_effect_tooltip = "Dória will be brought to justice."
 			hidden_effect = {
+				set_country_flag = doria_stays
 				remove_ideas = CFD_the_sergipe_backstab
-				add_political_power = 100
-				add_popularity = {
-					ideology = reactionary
-					popularity = -0.1
-				}
+				country_event = {id = CFD_events.10}
 			}
 		}
     }
 }
 
 
-country_event = { #Doria choice
+country_event = { #Doria Judgment 1
     id = CFD_events.10
     title = CFD_events.10.t
     desc = CFD_events.10.d
@@ -263,7 +256,30 @@ country_event = { #Doria choice
     option = {
         name = CFD_events.10.a
 		CFD = {
+			add_political_power = -100
+			add_popularity = {
+				ideology = reactionary
+				popularity = -0.05
+			}
+		}
+    }
+}
 
+country_event = { #Doria Judgment 2
+    id = CFD_events.1090
+    title = CFD_events.10.t.1
+    desc = CFD_events.10.d.1
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.10.b
+		CFD = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = reactionary
+				popularity = -0.1
+			}
 		}
     }
 }
@@ -321,6 +337,73 @@ country_event = { #Memories of Praieira Flavor
 
     option = {
         name = CFD_events.12.a
+    }
+}
+
+country_event = { #Fernandinho
+    id = CFD_events.13
+    title = {
+		text = CFD_events.13.t
+		trigger = {
+			CFD = {
+				NOT = {has_country_flag = CFD_FRN_peace}
+			}
+		}
+	}
+    title = {
+		text = CFD_events.13.t2
+		trigger = {
+			CFD = {
+				has_country_flag = CFD_FRN_peace
+			}
+		}
+	}
+	desc = {
+		text = CFD_events.13.d
+		trigger = {
+			CFD = {
+				NOT = {has_country_flag = CFD_FRN_peace}
+			}
+		}
+	}
+	desc = {
+		text = CFD_events.13.d2
+		trigger = {
+			CFD = {
+				has_country_flag = CFD_FRN_peace
+			}
+		}
+	}
+    is_triggered_only = yes
+    picture = GFX_report_cfd_fernandinho1
+
+    option = {
+        name = CFD_events.13.a
+		trigger = {
+			CFD = {
+				NOT = {has_country_flag = CFD_FRN_peace}
+			}
+		}
+		CFD = {
+			declare_war_on = {
+				target = FRN
+				type = annex_everything
+			}
+		}
+    }
+    option = {
+        name = CFD_events.13.a2
+		trigger = {
+			CFD = {
+				has_country_flag = CFD_FRN_peace
+			}
+		}
+		CFD = {
+			annex_country = {
+				target = FRN
+				transfer_troops = yes
+			}
+		}
     }
 }
 

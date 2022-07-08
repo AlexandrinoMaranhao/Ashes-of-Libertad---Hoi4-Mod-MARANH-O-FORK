@@ -13,25 +13,14 @@ ideas = {
 		
 		SEG_seixas_doria_advisor = {
             allowed = {
-				OR = {
-					original_tag = CFD
-					original_tag = SAO
-				}
+				original_tag = SAO
             }
             visible = {
-				OR = {
+				SAO = {
 					CFD = {
 						AND = {
 							controls_state = 11
-							has_country_flag = doria_stays
-						}
-					}
-					SAO = {
-						CFD = {
-							AND = {
-								controls_state = 11
-								NOT = {has_country_flag = doria_stays}
-							}
+							NOT = {has_country_flag = doria_stays}
 						}
 					}
 				}

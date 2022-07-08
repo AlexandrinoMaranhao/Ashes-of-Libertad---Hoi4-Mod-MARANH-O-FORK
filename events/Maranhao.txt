@@ -82,13 +82,20 @@ if = {
             days = 1
         }
     }
-        annex_country = {
+        declare_war_on = {
             target = PIA
-            transfer_troops = no
+            type = annex_everything
         }
 
         set_politics = {
             ruling_party = fascism
         }
+		set_popularities = {
+			reactionary = 20
+			neutrality = 10
+			fascism = 70
+			communism = 0
+			democratic = 0
+		}
     }
 }
