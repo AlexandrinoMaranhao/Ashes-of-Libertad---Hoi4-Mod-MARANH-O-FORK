@@ -158,7 +158,7 @@ focus_tree = {
 	#Autonomy to Small Business
 	focus = {
 		id = CFD_autonomy_to_small_business
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_CFD_autonomy_to_small_business-257058
 		x = 14
 		y = 7
 		cost = 2
@@ -181,7 +181,7 @@ focus_tree = {
 	#Forced Industrialization
 	focus = {
 		id = CFD_forced_industrialization
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_CFD_forced_industrialization-257058
 		x = 14
 		y = 8
 		cost = 2
@@ -264,7 +264,7 @@ focus_tree = {
 	#Investing in Basic Infrastructure
 	focus = {
 		id = CFD_investing_in_basic_infrastructure
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_CFD_investing_in_basic_infrastructure-257058
 		x = 15
 		y = 6
 		cost = 2
@@ -335,7 +335,7 @@ focus_tree = {
 	#Re-opening Military Academies in Recife
 	focus = {
 		id = CFD_reopening_military_academies_in_recife
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_CFD_reopening_military_academies_in_recife-257058
 		x = 16
 		y = 7
 		cost = 2
@@ -358,7 +358,7 @@ focus_tree = {
 	#Legalize Gunsmiths Workshops in Fortaleza
 	focus = {
 		id = CFD_legalize_gunsmiths_workshops_in_fortaleza
-		icon = GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633
+		icon = GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058
 		x = 16
 		y = 8
 		cost = 2
