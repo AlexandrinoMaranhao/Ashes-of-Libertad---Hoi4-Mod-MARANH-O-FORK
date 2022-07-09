@@ -152,6 +152,82 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
+		name = "GFX_CFD_autonomy_to_small_business-257058"
+		texturefile = "gfx/interface/goals/GFX_CFD_autonomy_to_small_business-257058.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_autonomy_to_small_business-257058_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_autonomy_to_small_business-257058.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_autonomy_to_small_business-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_autonomy_to_small_business-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_forced_industrialization-257058"
+		texturefile = "gfx/interface/goals/GFX_CFD_forced_industrialization-257058.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_forced_industrialization-257058_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_forced_industrialization-257058.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_forced_industrialization-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_forced_industrialization-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
 		name = "GFX_CFD_thecreationofssocoperbess-247778"
 		texturefile = "gfx/interface/goals/GFX_CFD_thecreationofssocoperbess-247778.dds"
 	}
@@ -213,6 +289,44 @@ spriteTypes = {	##Icon For:
 		}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/GFX_CFD_anotherdayintheoffice-247778.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_investing_in_basic_infrastructure-257058"
+		texturefile = "gfx/interface/goals/GFX_CFD_investing_in_basic_infrastructure-257058.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_investing_in_basic_infrastructure-257058_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_investing_in_basic_infrastructure-257058.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_investing_in_basic_infrastructure-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_investing_in_basic_infrastructure-257058.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -304,17 +418,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633"
-		texturefile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633.dds"
+		name = "GFX_CFD_reopening_military_academies_in_recife-257058"
+		texturefile = "gfx/interface/goals/GFX_CFD_reopening_military_academies_in_recife-257058.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633_shine"
-		texturefile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633.dds"
+		name = "GFX_CFD_reopening_military_academies_in_recife-257058_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_reopening_military_academies_in_recife-257058.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_reopening_military_academies_in_recife-257058.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -326,7 +440,45 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-177633.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_reopening_military_academies_in_recife-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058"
+		texturefile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_legalize_gunsmiths_workshops_in_fortaleza-257058.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
