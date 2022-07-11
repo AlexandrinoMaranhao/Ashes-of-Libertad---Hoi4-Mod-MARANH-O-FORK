@@ -7,4 +7,32 @@ spriteTypes = {
 		name = "GFX_sp_aracatuba"
 		textureFile = "/gfx/interface/GUIs/sao/sp_aracatuba.dds"
 	}
+	spriteType = {
+		name = "GFX_sp_barretos"
+		textureFile = "/gfx/interface/GUIs/sao/sp_barretos.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_campinas"
+		textureFile = "/gfx/interface/GUIs/sao/sp_campinas.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_capital"
+		textureFile = "/gfx/interface/GUIs/sao/sp_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_marilia"
+		textureFile = "/gfx/interface/GUIs/sao/sp_marilia.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_santos"
+		textureFile = "/gfx/interface/GUIs/sao/sp_santos.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_sorocaba"
+		textureFile = "/gfx/interface/GUIs/sao/sp_sorocaba.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_taubate"
+		textureFile = "/gfx/interface/GUIs/sao/sp_taubate.dds"
+	}
 }

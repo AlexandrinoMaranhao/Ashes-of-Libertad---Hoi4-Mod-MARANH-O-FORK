@@ -1,6 +1,6 @@
 scripted_gui = {
 	sao_cat_and_mouse = {
-		window_name = "sao_cat_and_mouse_window_main"
+		window_name = "sao_cat_and_mouse_window_political"
 		parent_window_token = decision_tab
 		context_type = decision_category
 		visible = {
