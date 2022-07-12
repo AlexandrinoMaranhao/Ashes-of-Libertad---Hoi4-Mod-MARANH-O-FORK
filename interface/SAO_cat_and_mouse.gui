@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "sao_cat_and_mouse_window_political"
 		position = { x = 0 y = 0}	
-		size = { width = 400 height= 800 }
+		size = { width = 400 height= 1200 }
 		orientation = center
 		origo = center
 		moveable = no
@@ -17,49 +17,49 @@ guiTypes = {
 		buttonType = {
 			name ="aracatuba_gov"
 			spriteType = "GFX_sp_aracatuba"
-			position = { x = -159 y = -349 }
+			position = { x = -159 y = -549 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="barretos_gov"
 			spriteType = "GFX_sp_barretos"
-			position = { x = -60 y = -365 }
+			position = { x = -60 y = -565 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="campinas_gov"
 			spriteType = "GFX_sp_campinas"
-			position = { x = 50 y = -300 }
+			position = { x = 50 y = -500 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="capital_gov"
 			spriteType = "GFX_sp_capital"
-			position = { x = 105 y = -220 }
+			position = { x = 105 y = -420 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="marilia_gov"
 			spriteType = "GFX_sp_marilia"
-			position = { x = -76 y = -293 }
+			position = { x = -76 y = -493 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="santos_gov"
 			spriteType = "GFX_sp_santos"
-			position = { x = 100 y = -206 }
+			position = { x = 100 y = -406 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="sorocaba_gov"
 			spriteType = "GFX_sp_sorocaba"
-			position = { x = -2 y = -230 }
+			position = { x = -2 y = -430 }
 			Orientation = center
 		}
 		buttonType = {
 			name ="taubate_gov"
 			spriteType = "GFX_sp_taubate"
-			position = { x = 141 y = -238 }
+			position = { x = 141 y = -438 }
 			Orientation = center
 		}
 	containerWindowType = {
@@ -77,6 +77,24 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 			}
-		}	
+		}
+		iconType = {
+			name ="spguiA"
+			spriteType = "GFX_spguiA"
+			position = { x = 50 y = 0 }
+			Orientation = center
+		}
+		iconType = {
+			name ="spguiB"
+			spriteType = "GFX_spguiB"
+			position = { x = -200 y = 0 }
+			Orientation = center
+		}
+		iconType = {
+			name ="FigueiredoBALL"
+			spriteType = "GFX_FigueiredoBALL"
+			position = { x = -100 y = 200 }
+			Orientation = center
+		}
 	}		
 }

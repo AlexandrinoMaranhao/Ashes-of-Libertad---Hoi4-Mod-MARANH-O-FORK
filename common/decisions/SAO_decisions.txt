@@ -1164,5 +1164,5 @@ SAO_international_diplomacy_category = {
 }
 
 SAO_cat_and_mouse_category = {
-	##
+	############################
 }

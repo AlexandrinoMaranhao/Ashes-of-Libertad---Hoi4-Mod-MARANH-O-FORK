@@ -35,4 +35,20 @@ spriteTypes = {
 		name = "GFX_sp_taubate"
 		textureFile = "/gfx/interface/GUIs/sao/sp_taubate.dds"
 	}
+	spriteType = {
+		name = "GFX_spguiA"
+		textureFile = "/gfx/interface/GUIs/sao/spguiA.png"
+	}
+	spriteType = {
+		name = "GFX_spguiB"
+		textureFile = "/gfx/interface/GUIs/sao/spguiB.png"
+	}
+	spriteType = {
+		name = "GFX_FigueiredoBALL"
+		textureFile = "/gfx/interface/GUIs/sao/FigueiredoBALL.png"
+	}
+	spriteType = {
+		name = "GFX_MarighellaBALL"
+		textureFile = "/gfx/interface/GUIs/sao/MarighellaBALL.png"
+	}
 }
