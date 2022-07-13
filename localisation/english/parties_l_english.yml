@@ -462,28 +462,6 @@ CNU_democratic_party_long:0 "Governo Provisório da Bahia"
 AMA_democratic_party:0 "PSB - A"
 AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
 
-
-PEB_reactionary_party:0 "GP"
-PEB_reactionary_party_long:0 "Governo do Pernambuco"
-
-RNG_reactionary_party:0 "GRNG"
-RNG_reactionary_party_long:0 "Governo do Rio Grande do Norte"
-
-PAI_reactionary_party:0 "GP"
-PAI_reactionary_party_long:0 "Governo da Paraíba"
-
-ALA_reactionary_party:0 "GA"
-ALA_reactionary_party_long:0 "Governo do Alagoas"
-
-SEG_reactionary_party:0 "GS"
-SEG_reactionary_party_long:0 "Governor do Sergipe"
-
-CEA_reactionary_party:0 "AF"
-CEA_reactionary_party_long:0 "Arquediocese de Fortaleza"
-
-INT_communism_party:0 "CP"
-INT_communism_party_long:0 "Coluna Prestes"
-
 #Uruguay things
 URG_fascism_party:0 "M-I C"
 URG_fascism_party_long:0 "Military-Industrial Complex"
@@ -708,23 +686,48 @@ POR_fascism_party:0 "MP-AP"
 POR_fascism_party_long:0 "Marinha Portuguesa - Armada Portuguesa"
 
 ## Nordeste ##
-  CFD_democratic_party:0 "PSN - Praieiros"
-  CFD_democratic_party_long:0 "Partido Social Nordestino - 'Praieiros' Branch"
-  CFD_neutrality_party:0 "PSN - Usineiros"
-  CFD_neutrality_party_long:0 "Partido Social Nordestino - 'Usineiros' Branch"
-  CFD_fascism_party:0 "ARENA - N"
-  CFD_fascism_party_long:0 "Aliança Renovadora Nacional - Nordeste"
-  CFD_reactionary_party:0 "UNS"
-  CFD_reactionary_party_long:0 "União Nacional Sertaneja"
-  CFD_communism_party:0 "PCB"
-  CFD_communism_party_long:0 "Partido Comunista Brasileiro"
-  CFD_BRA_democratic_party:0 "PSN - Unionists"
-  CFD_BRA_democratic_party_desc:0 "Partido Social Nordestino - Unidos"
-  CFD_JUN_fascism_party:0 "ARENA - N"
-  CFD_JUN_fascism_party_long:0 "Aliança Renovadora Nacional - Nordeste"
-  PAI_communism_party:0 "GRP"
-  PAI_communism_party_long:0 "Governo Revolucionario Pernambucano"
-  NUD_democratic_party:0 "UN"
-  NUD_democratic_party_long:0 "União pelo Nordeste"
-  NUD_communism_party:0 "UPN"
-  NUD_communism_party_long:0 "União Popular Nordestina"
+
+PEB_reactionary_party:0 "GP"
+PEB_reactionary_party_long:0 "Governo de Pernambuco"
+
+RNG_reactionary_party:0 "GRNG"
+RNG_reactionary_party_long:0 "Governo do Rio Grande do Norte"
+
+PAI_reactionary_party:0 "GP"
+PAI_reactionary_party_long:0 "Governo da Paraíba"
+PAI_communism_party:0 "GRP"
+PAI_communism_party_long:0 "Governo Revolucionario Pernambucano"
+
+ALA_reactionary_party:0 "GA"
+ALA_reactionary_party_long:0 "Governo de Alagoas"
+
+SEG_reactionary_party:0 "GS"
+SEG_reactionary_party_long:0 "Sergipe's Governor"
+SEG_fascism_party:0 "PMSE - Lawmakers"
+SEG_fascism_party_long:0 "Polícia Militar do Estado de Sergipe - Legisladores"
+
+CEA_reactionary_party:0 "AF"
+CEA_reactionary_party_long:0 "Arquediocese de Fortaleza"
+
+INT_communism_party:0 "CP"
+INT_communism_party_long:0 "Coluna Prestes"
+
+CFD_democratic_party:0 "PSN - Praieiros"
+CFD_democratic_party_long:0 "Partido Social Nordestino - 'Praieiros' Branch"
+CFD_neutrality_party:0 "PSN - Usineiros"
+CFD_neutrality_party_long:0 "Partido Social Nordestino - 'Usineiros' Branch"
+CFD_fascism_party:0 "ARENA - N"
+CFD_fascism_party_long:0 "Aliança Renovadora Nacional - Nordeste"
+CFD_reactionary_party:0 "UNS"
+CFD_reactionary_party_long:0 "União Nacional Sertaneja"
+CFD_communism_party:0 "PCB"
+CFD_communism_party_long:0 "Partido Comunista Brasileiro"
+CFD_BRA_democratic_party:0 "PSN - Unionists"
+CFD_BRA_democratic_party_desc:0 "Partido Social Nordestino - Unidos"
+CFD_JUN_fascism_party:0 "ARENA - N"
+CFD_JUN_fascism_party_long:0 "Aliança Renovadora Nacional - Nordeste"
+
+NUD_democratic_party:0 "UN"
+NUD_democratic_party_long:0 "União pelo Nordeste"
+NUD_communism_party:0 "UPN"
+NUD_communism_party_long:0 "União Popular Nordestina"

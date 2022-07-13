@@ -7,7 +7,10 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
-
+			3959={
+				naval_base = 3
+	
+			}
 		}
 		owner = CFD
 		add_core_of = CFD

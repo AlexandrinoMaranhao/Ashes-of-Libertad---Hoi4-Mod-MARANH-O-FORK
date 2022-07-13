@@ -152,8 +152,126 @@ CFD_main_category = {
 			}
 		}
 	}
+	
 
+##################		Miscs.		##################
+	CFD_cangaco_lvl1 = {
+		allowed = { tag = CFD }
+        available = {
+			AND = {
+				CFD = {
+					has_country_flag = operations_completed
+					has_idea = cangaceiros_light
+				}
+			}
+        }
+		visible = {
+			AND = {
+				CFD = {
+					has_country_flag = operations_completed
+					has_idea = cangaceiros_light
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 30
+		days_remove = 30
+		modifier = {
+			experience_gain_army = -0.1
+			command_power_gain = -0.1
+			experience_loss_factor = 0.5
+			root_out_resistance_effectiveness_factor = 0.3
+			compliance_growth_on_our_occupied_states = 0.3
+			occupation_cost = -0.2
+		}
+		remove_effect = {
+			remove_ideas = cangaceiros_light
+			add_stability = 0.1
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_cangaco_lvl2 = {
+		allowed = { tag = CFD }
+        available = {
+			AND = {
+				CFD = {
+					has_country_flag = operations_completed
+					has_idea = cangaceiros_medium
+				}
+			}
+        }
+		visible = {
+			AND = {
+				CFD = {
+					has_country_flag = operations_completed
+					has_idea = cangaceiros_medium
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 40
+		days_remove = 30
+		modifier = {
+			experience_gain_army = -0.1
+			command_power_gain = -0.1
+			experience_loss_factor = 0.5
+			root_out_resistance_effectiveness_factor = 0.3
+			compliance_growth_on_our_occupied_states = 0.3
+			occupation_cost = -0.2
+		}
+		remove_effect = {
+			remove_ideas = cangaceiros_medium
+			add_ideas = cangaceiros_light
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_cangaco_lvl3 = {
+		allowed = { tag = CFD }
+        available = {
+			AND = {
+				CFD = {
+					has_country_flag = operations_completed
+					has_idea = cangaceiros_heavy
+				}
+			}
+        }
+		visible = {
+			AND = {
+				CFD = {
+					has_country_flag = operations_completed
+					has_idea = cangaceiros_heavy
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+			experience_gain_army = -0.1
+			command_power_gain = -0.1
+			experience_loss_factor = 0.5
+			root_out_resistance_effectiveness_factor = 0.3
+			compliance_growth_on_our_occupied_states = 0.3
+			occupation_cost = -0.2
+		}
+		remove_effect = {
+			remove_ideas = cangaceiros_heavy
+			add_ideas = cangaceiros_medium
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+}
 ##################		The Sarney War		##################
+CFD_maranhao_war_category = {
 	CFD_maranhao_failstate = {
         allowed = { tag = CFD }
         available = {
@@ -181,8 +299,52 @@ CFD_main_category = {
 			add_political_power = 50
 		}
 	}
-##################		Misc.		##################
-	CFD_maranhao_prep_fortifications = {        
+	CFD_maranhao_prep_fortifications1 = {
+		allowed = { tag = CFD }
+        available = {
+           has_country_flag = operations_completed
+        }
+		visible = {
+			has_country_flag = operations_completed
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			command_power_gain = -0.05
+		}
+		remove_effect = {
+			16 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 4003
+				}
+			}
+			580 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 1236
+				}
+			}
+			578 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 2103
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_maranhao_prep_fortifications2 = {
 		allowed = { tag = CFD }
         available = {
            has_country_flag = operations_completed
@@ -195,15 +357,77 @@ CFD_main_category = {
 		cost = 50
 		days_remove = 30
 		modifier = {
+			command_power_gain = -0.05
 		}
 		remove_effect = {
-			add_ideas = WR_acceptable_regulations
+			581 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 52
+				}
+			}
+			584 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 1844
+				}
+			}
+			15 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 3737
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_maranhao_prep_fortifications3 = {
+		allowed = { tag = CFD }
+        available = {
+           has_country_flag = operations_completed
+        }
+		visible = {
+			has_country_flag = operations_completed
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 75
+		days_remove = 30
+		modifier = {
+			command_power_gain = -0.05
+		}
+		remove_effect = {
+			577 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 941
+				}
+			}
+			575 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 330
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 999
 		}
 	}
 }
+
 ##################		Nation-Wide Development		##################
 CFD_nation_development_category = {
 	CFD_WR_upgrade = {
@@ -216,6 +440,8 @@ CFD_nation_development_category = {
 		cost = 50
 		days_remove = 30
 		modifier = {
+			production_speed_industrial_complex_factor = -0.5
+			production_speed_arms_factory_factor = -0.5
 		}
 		remove_effect = {
 			add_ideas = WR_acceptable_regulations
@@ -234,6 +460,7 @@ CFD_nation_development_category = {
 		cost = 50
 		days_remove = 30
 		modifier = {
+			production_factory_efficiency_gain_factor = -0.5
 		}
 		remove_effect = {
 			add_ideas = SI_acceptable_regulations
@@ -248,7 +475,7 @@ CFD_piaui_frontier = {
 	CFD_op_simoes ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -295,15 +522,19 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
-				factor = 999
+			factor = 999
 		}
 	}
 	CFD_op_jaicos ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -350,6 +581,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 				factor = 999
@@ -358,7 +593,7 @@ CFD_piaui_frontier = {
 	CFD_op_pioIX ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -405,6 +640,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -413,7 +652,7 @@ CFD_piaui_frontier = {
 	CFD_op_picos ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -460,6 +699,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -468,7 +711,7 @@ CFD_piaui_frontier = {
 	CFD_op_valencia ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -515,6 +758,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -523,7 +770,7 @@ CFD_piaui_frontier = {
 	CFD_op_altos ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -570,6 +817,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -578,7 +829,7 @@ CFD_piaui_frontier = {
 	CFD_op_teresinha ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -625,6 +876,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -633,7 +888,7 @@ CFD_piaui_frontier = {
 	CFD_op_campo_maior ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -680,6 +935,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.11
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -688,7 +947,7 @@ CFD_piaui_frontier = {
 	CFD_op_freitas ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -735,6 +994,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.02
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -743,7 +1006,7 @@ CFD_piaui_frontier = {
 	CFD_op_cap_campos ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -790,6 +1053,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.05
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -798,7 +1065,7 @@ CFD_piaui_frontier = {
 	CFD_op_union_city ={
 		icon = GFX_decision_icon_default
 		cost = 25
-		days_remove = 7
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
@@ -848,6 +1115,10 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = 0.05
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -856,7 +1127,7 @@ CFD_piaui_frontier = {
 	CFD_op_parnaiba ={
 		icon = GFX_decision_icon_default
 		cost = 0
-		days_remove = 21
+		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
 		
@@ -880,13 +1151,7 @@ CFD_piaui_frontier = {
 			has_country_flag = operations_completed
 		}
 		complete_effect = {
-			#TAG = {
-			#	set_state_owner = 15
-			#}
-			CFD = {
-				add_state_claim = 15
-			}
-			
+			add_political_power = 25
 		}
 		modifier = {
 		}
@@ -895,7 +1160,19 @@ CFD_piaui_frontier = {
 			#	target = NPP
 			#	type = annex_everything
 			#}
-			
+			#TAG = {
+			#	set_state_owner = 15
+			#}
+			CFD = {
+				add_state_claim = 15
+				add_ideas = cangaceiros_heavy
+			}
+			MNH = {
+				country_event = {
+					id = MNH.1
+					days = 30
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 999
