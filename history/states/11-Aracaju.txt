@@ -7,7 +7,10 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
-
+			1398= {
+				naval_base = 3
+	
+			}
 		}
 		owner = SEG
 		add_core_of = SEG

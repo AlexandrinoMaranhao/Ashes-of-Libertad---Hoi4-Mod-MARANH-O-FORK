@@ -42,6 +42,18 @@ CFD_main_category = {
 	}
 }
 
+SEG_main_category = {
+	allowed = {
+		original_tag = SEG
+	}
+}
+
+CFD_maranhao_war_category = {
+	allowed = {
+		original_tag = CFD
+	}
+}
+
 CFD_nation_development_category = {
 	allowed = {
 		original_tag = CFD
@@ -77,6 +89,7 @@ COLINA_category = {
 		original_tag = RMI
 	}
 }
+
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 

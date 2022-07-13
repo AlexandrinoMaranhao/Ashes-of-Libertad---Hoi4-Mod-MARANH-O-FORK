@@ -1,0 +1,39 @@
+SEG_main_category = {
+	SEG_lawmaker_coup = {
+		allowed = { tag = SEG }
+		available = {
+			fascism > 0.65
+		}
+		activation = {
+			fascism > 0.65
+		}
+		cancel_trigger = {
+			SEG = {
+				fascism < 0.65
+			}
+		}
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 7
+		cost = 200
+		timeout_effect = {
+			SEG = {
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+					long_name = SEG_fascism_party_long
+					name = SEG_fascism_party
+				}
+			}
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.5
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+}

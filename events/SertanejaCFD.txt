@@ -256,7 +256,7 @@ country_event = { #Doria Judgment 1
     option = {
         name = CFD_events.10.a
 		CFD = {
-			add_political_power = -100
+			add_political_power = 50
 			add_popularity = {
 				ideology = reactionary
 				popularity = -0.05
@@ -672,6 +672,27 @@ country_event = { #Election victorious
 				set_country_flag = CFD_PCB_Victory
 				mark_focus_tree_layout_dirty = yes
 				complete_national_focus = CFD_a_new_dawn
+				CFD_miguel_arraes = {
+					add_country_leader_role = {
+						character = CFD_miguel_arraes
+						promote_leader = yes
+						country_leader = {
+							ideology = marxism
+							expire = "1995.1.1.1"
+							traits = { popular_figurehead2 social_reformer_aol communist_revolutionary }
+						}
+					}
+				}
+				set_politics = {ruling_party = communism}
+				create_country_leader = {
+					name = "-------"
+					picture = Portrait_CFD_Collapsed_Government.dds
+					expire = "1987.1.1"
+					ideology = socialism
+					traits = {
+						
+					}
+				}
 			}
 		}
     }
@@ -689,6 +710,27 @@ country_event = { #Election victorious
 				set_country_flag = CFD_PSNU_Victory
 				mark_focus_tree_layout_dirty = yes
 				complete_national_focus = CFD_a_new_dawn
+				CFD_miguel_arraes = {
+					add_country_leader_role = {
+						character = CFD_miguel_arraes
+						promote_leader = yes
+						country_leader = {
+							ideology = corporate_state_status_quo
+							expire = "1995.1.1.1"
+							traits = { popular_figurehead2 }
+						}
+					}
+				}
+				set_politics = {ruling_party = neutrality}
+				create_country_leader = {
+					name = "-------"
+					picture = Portrait_CFD_Collapsed_Government.dds
+					expire = "1987.1.1"
+					ideology = socialism
+					traits = {
+						
+					}
+				}
 			}
 		}
     }
@@ -713,10 +755,6 @@ country_event = {
 			set_province_controller = 1895
 			set_province_controller = 941
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 330
 			}
 		}
@@ -739,10 +777,6 @@ country_event = {
 			set_province_controller = 1634
 			set_province_controller = 1895
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 941
 				set_province_controller = 330
 			}
@@ -761,10 +795,6 @@ country_event = {
         name = CFD_operations.3.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 1384
 			}
 		}
@@ -782,10 +812,6 @@ country_event = {
         name = CFD_operations.4.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 2103
 			}
 		}
@@ -803,10 +829,6 @@ country_event = {
         name = CFD_operations.5.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 3973
 			}
 		}
@@ -825,8 +847,8 @@ country_event = {
 		PIA = {
 			CFD = {
 				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
+					var = sarney_puto_value
+					value = 0.5
 				}
 				set_province_controller = 1236
 			}
@@ -845,10 +867,6 @@ country_event = {
         name = CFD_operations.7.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 4003
 			}
 		}
@@ -866,10 +884,6 @@ country_event = {
         name = CFD_operations.8.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 3951
 			}
 		}
@@ -888,11 +902,12 @@ country_event = {
 		PIA = {
 			CFD = {
 				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
+					var = sarney_puto_value
+					value = 0.5
 				}
 				set_province_controller = 1844
 				set_country_flag = operations_completed
+				activate_decision = CFD_op_parnaiba
 			}
 		}
     }
@@ -909,10 +924,6 @@ country_event = {
         name = CFD_operations.10.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 3903
 			}
 		}
@@ -930,10 +941,6 @@ country_event = {
         name = CFD_operations.11.a
 		PIA = {
 			CFD = {
-				add_to_variable = {
-					var = cfd_piaui_frontier_progress
-					value = 0.11
-				}
 				set_province_controller = 52
 			}
 		}
