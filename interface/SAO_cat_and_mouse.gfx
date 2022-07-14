@@ -1,6 +1,10 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_sao_background"
+		name = "GFX_sao_background_political"
+		textureFile = "/gfx/interface/GUIs/sao/sao_bg.png"
+	}
+	spriteType = {
+		name = "GFX_sao_background_map"
 		textureFile = "/gfx/interface/GUIs/sao/sp_background.dds"
 	}
 	spriteType = {

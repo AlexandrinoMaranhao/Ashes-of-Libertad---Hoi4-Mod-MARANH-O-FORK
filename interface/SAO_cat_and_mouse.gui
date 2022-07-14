@@ -2,66 +2,79 @@ guiTypes = {
 	containerWindowType = {
 		name = "sao_cat_and_mouse_window_political"
 		position = { x = 0 y = 0}	
-		size = { width = 400 height= 1200 }
+		size = { width = 400 height= 900 }
 		orientation = center
 		origo = center
 		moveable = no
 		click_to_front = no
 		clipping = no
-
 		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_sao_background"
+			name = "Background Political"
+			quadTextureSprite = "GFX_sao_background_political"
+		}
+		containerWindowType = {
+			name = "sao_cat_and_mouse_window_political_map"
+			position = { x = -200 y = -435 }
+			orientation = center
+			origo = center
+			moveable = no
+			click_to_front = no
+			clipping = no
+			background = {
+				name = "Background Political Map"		
+				quadTextureSprite ="GFX_sao_background_map"
+			}
+	
+			buttonType = {
+				name ="aracatuba_gov"
+				spriteType = "GFX_sp_aracatuba"
+				position = { x = 41 y = 49 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="barretos_gov"
+				spriteType = "GFX_sp_barretos"
+				position = { x = 140 y = 33 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="campinas_gov"
+				spriteType = "GFX_sp_campinas"
+				position = { x = 250 y = 98 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="capital_gov"
+				spriteType = "GFX_sp_capital"
+				position = { x = 305 y = 178 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="marilia_gov"
+				spriteType = "GFX_sp_marilia"
+				position = { x = 124 y = 105 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="santos_gov"
+				spriteType = "GFX_sp_santos"
+				position = { x = 300 y = 192 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="sorocaba_gov"
+				spriteType = "GFX_sp_sorocaba"
+				position = { x = 198 y = 168 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="taubate_gov"
+				spriteType = "GFX_sp_taubate"
+				position = { x = 341 y = 160 }
+				Orientation = center
+			}
 		}
 
-		buttonType = {
-			name ="aracatuba_gov"
-			spriteType = "GFX_sp_aracatuba"
-			position = { x = -159 y = -549 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="barretos_gov"
-			spriteType = "GFX_sp_barretos"
-			position = { x = -60 y = -565 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="campinas_gov"
-			spriteType = "GFX_sp_campinas"
-			position = { x = 50 y = -500 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="capital_gov"
-			spriteType = "GFX_sp_capital"
-			position = { x = 105 y = -420 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="marilia_gov"
-			spriteType = "GFX_sp_marilia"
-			position = { x = -76 y = -493 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="santos_gov"
-			spriteType = "GFX_sp_santos"
-			position = { x = 100 y = -406 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="sorocaba_gov"
-			spriteType = "GFX_sp_sorocaba"
-			position = { x = -2 y = -430 }
-			Orientation = center
-		}
-		buttonType = {
-			name ="taubate_gov"
-			spriteType = "GFX_sp_taubate"
-			position = { x = 141 y = -438 }
-			Orientation = center
-		}
 	containerWindowType = {
 		name = "SAO_state_names"
 		position = { x = 0 y = 0 }
@@ -70,7 +83,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "aracatuba_state"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -100 }
 			font = "hoi_24header"
 			text = "Aracatuba"
 			maxWidth = 400
@@ -81,19 +94,19 @@ guiTypes = {
 		iconType = {
 			name ="spguiA"
 			spriteType = "GFX_spguiA"
-			position = { x = 50 y = 0 }
+			position = { x = 50 y = -75 }
 			Orientation = center
 		}
 		iconType = {
 			name ="spguiB"
 			spriteType = "GFX_spguiB"
-			position = { x = -200 y = 0 }
+			position = { x = -200 y = -75 }
 			Orientation = center
 		}
 		iconType = {
 			name ="FigueiredoBALL"
 			spriteType = "GFX_FigueiredoBALL"
-			position = { x = -100 y = 200 }
+			position = { x = -100 y = 125 }
 			Orientation = center
 		}
 	}		
