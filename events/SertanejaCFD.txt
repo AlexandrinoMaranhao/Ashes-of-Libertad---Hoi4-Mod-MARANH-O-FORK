@@ -407,6 +407,18 @@ country_event = { #Fernandinho
     }
 }
 
+country_event = { #TRE-N Event, Election Awareness
+    id = CFD_events.14
+    title = CFD_events.14.t
+    desc = CFD_events.14.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.14.a
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -943,6 +955,36 @@ country_event = {
 			CFD = {
 				set_province_controller = 52
 			}
+		}
+    }
+}
+
+country_event = {
+    id = CFD_operations.12
+    title = CFD_operations.12.t
+    desc = CFD_operations.12.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_operations.12.a
+		CFD = {
+			set_province_controller = 52
+		}
+    }
+}
+
+country_event = {
+    id = CFD_operations.13
+    title = CFD_operations.13.t
+    desc = CFD_operations.13.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_operations.13.a
+		CFD = {
+			set_province_controller = 52
 		}
     }
 }

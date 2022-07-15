@@ -736,7 +736,6 @@ focus_tree = {
 		prerequisite = { focus = CFD_the_sergipe_backstab  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			remove_ideas = CFD_disunited_armed_forces
 			add_ideas = militia_officer_training
 		}
 	}

@@ -155,6 +155,92 @@ CFD_main_category = {
 	
 
 ##################		Miscs.		##################
+	CFD_reform_army_1 = {
+		allowed = { tag = CFD }
+        available = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+        }
+		visible = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+		}
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = decision_cost_CP_15
+        is_good = yes
+		fire_only_once = yes
+		complete_effect = {
+			add_command_power = -15
+			add_political_power = -5
+		}
+		modifier = {
+			experience_gain_army = 0.05
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			CFD = {
+				add_war_support = 0.05
+				army_experience = 25
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_reform_army = {
+		allowed = { tag = CFD }
+        available = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+					has_country_flag = can_reform_army
+				}
+			}
+        }
+		visible = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+		}
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		is_good = yes
+		fire_only_once = yes
+		days_remove = 30
+		complete_effect = {
+			add_command_power = -25
+			add_political_power = -10
+		}
+		modifier = {
+			experience_gain_army = 0.05
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			CFD = {
+				remove_ideas = CFD_disunited_armed_forces
+				add_war_support = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 	CFD_cangaco_lvl1 = {
 		allowed = { tag = CFD }
         available = {
@@ -188,6 +274,11 @@ CFD_main_category = {
 		remove_effect = {
 			remove_ideas = cangaceiros_light
 			add_stability = 0.1
+			CFD = {
+				every_owned_state = {
+					add_core_of = ROOT
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -1151,21 +1242,25 @@ CFD_piaui_frontier = {
 			has_country_flag = operations_completed
 		}
 		complete_effect = {
+			country_event = {
+				id = CFD_operations.12
+				days = 13
+			}
 			add_political_power = 25
 		}
 		modifier = {
 		}
 		remove_effect = { #Work in progress.
-			#declare_war_on = {
-			#	target = NPP
-			#	type = annex_everything
-			#}
 			#TAG = {
 			#	set_state_owner = 15
 			#}
 			CFD = {
 				add_state_claim = 15
 				add_ideas = cangaceiros_heavy
+				#declare_war_on = {
+				#	target = NPP
+				#	type = annex_everything
+				#}
 			}
 			MNH = {
 				country_event = {
