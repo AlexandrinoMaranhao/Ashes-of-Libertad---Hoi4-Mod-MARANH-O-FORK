@@ -83,5 +83,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_sergipevale_deals-238388.dds"
 	}
 
+	##Icon For: The Sertânia Military
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_sertnia_military-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_sertnia_military-238388.dds"
+	}
+
  
  }

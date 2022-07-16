@@ -4,8 +4,8 @@ add_namespace = CFD_elections
 add_namespace = CFD_operations
 add_namespace = CFD_operation_failure
 add_namespace = CFD_failometer_enabled
-add_namespace = CFD_ai
 add_namespace = CFD
+add_namespace = PEB
 
 country_event = { #Intro1
     id = CFD_intro.1
@@ -416,6 +416,56 @@ country_event = { #TRE-N Event, Election Awareness
 
     option = {
         name = CFD_events.14.a
+    }
+}
+
+country_event = { #A Trip to Bahia
+    id = CFD_events.15
+    title = CFD_events.15.t
+    desc = CFD_events.15.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.15.a
+		CFD = {
+			diplomatic_relation = {
+				country = CNU
+				relation = non_aggression_pact
+				active = yes
+			}
+			CNU = {
+				add_opinion_modifier = {
+					target = CFD
+					modifier = large_increase 
+				}
+			}
+		}
+    }
+}
+
+country_event = { #A Trip to Macapa
+    id = CFD_events.16
+    title = CFD_events.16.t
+    desc = CFD_events.16.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.16.a
+		CFD = {
+			diplomatic_relation = {
+				country = AMA
+				relation = docking_rights
+				active = yes
+			}
+			AMA = {
+				add_opinion_modifier = {
+					target = CFD
+					modifier = large_increase 
+				}
+			}
+		}
     }
 }
 
@@ -969,7 +1019,10 @@ country_event = {
     option = {
         name = CFD_operations.12.a
 		CFD = {
-			set_province_controller = 52
+			country_event = {
+				id = CFD_operations.13
+				days = 30
+			}
 		}
     }
 }
@@ -979,13 +1032,10 @@ country_event = {
     title = CFD_operations.13.t
     desc = CFD_operations.13.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_elections1
 
     option = {
         name = CFD_operations.13.a
-		CFD = {
-			set_province_controller = 52
-		}
     }
 }
 
@@ -997,7 +1047,7 @@ country_event = {
     picture = GFX_report_event_guerrilla
 
     option = {
-        name = CFD_operations_failure.1.a
+        name = CFD_operation_failure.1.a
 		CFD = {
 			set_country_flag = portella_dead
 			clear_variable = cfd_piaui_frontier_progress
@@ -1062,25 +1112,7 @@ country_event = { #Failstate stuff
     }
 }
 
-################################################	OLD AI EVENTS.		################################################
-country_event = {
-    id = CFD_ai.1
-    title = CFD_ai.1.t
-    desc = CFD_ai.1.d
-    fire_only_once = yes
-    is_triggered_only = yes
-    picture = x
-
-    option = {
-        name = CFD_ai.1.a
-        annex_country = {
-            target = SEG
-            transfer_troops = yes
-        }
-        add_state_core = 11
-    }
-}
-
+################################################	SERTANEJA COLLAPSE EVENTS.		################################################
 
 country_event = {
     id = CFD.1 # PEB breaks away from CFD
@@ -1282,4 +1314,76 @@ country_event = {
             }
         }
     }
+}
+
+country_event = {
+    id = PEB.1 # Prestes prepares to uprise at Petrolina
+    title = PEB.1.t
+    desc = PEB.1.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.1.a
+      8 = {
+        set_demilitarized_zone = yes
+      }
+      country_event = { id = PEB.2 days = 3 }
+  }
+}
+
+country_event = {
+    id = PEB.2
+    title = PEB.2.t
+    desc = PEB.2.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.2.a
+		8 = {
+			set_demilitarized_zone = no
+		}
+		CFD = {
+			set_country_flag = prestes_returned
+		}
+      INT = {
+        transfer_state = 8
+        add_state_core = 8
+        load_oob = "INT_1967"
+		load_oob = "INT_revolutionary_divisions"
+      }
+      country_event = { id = PEB.3 }
+  }
+} 
+
+
+country_event = {
+    id = PEB.3
+    title = PEB.3.t
+    desc = PEB.3.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.3.a
+
+    INT = {
+	  
+        declare_war_on = {
+          target = CFD
+          type = annex_everything
+        }
+
+            28 = { set_demilitarized_zone = yes }
+            502 = { set_demilitarized_zone = yes }
+            501 = { set_demilitarized_zone = yes }
+            30 = { set_demilitarized_zone = yes }
+		SAO = { remove_ideas = SAO_the_devil_in_the_bottle }
+      create_faction = partido_comunista_brasileiro_FACTION
+    }
+  } 
 }

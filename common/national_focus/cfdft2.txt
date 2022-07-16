@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = CFD_opportunities_and_resources
 		icon = GFX_goal_unknown
-		x = 32
+		x = 33
 		y = 7
 		cost = 2
 		search_filters = {
@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = CFD_thessrpeasantssonthesswwhitehousess
 		icon = GFX_goal_unknown
-		x = 30
+		x = 31
 		y = 5
 		cost = 1
 		search_filters = {
@@ -49,7 +49,7 @@ focus_tree = {
 	focus = {
 		id = CFD_assggreenstarssonthesky
 		icon = GFX_goal_unknown
-		x = 34
+		x = 35
 		y = 5
 		cost = 1
 		search_filters = {
@@ -70,7 +70,7 @@ focus_tree = {
 	focus = {
 		id = CFD_ssgcomingsoonss
 		icon = GFX_goal_unknown
-		x = 34
+		x = 35
 		y = 6
 		cost = 1
 		search_filters = {
@@ -93,7 +93,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = {id = CFD_intro.1}
 		}
@@ -110,7 +109,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = CFD_the_fall  }
-		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = {id = CFD_intro.2}
 		}
@@ -122,7 +120,6 @@ focus_tree = {
 		icon = GFX_CFD_the_future-257058
 		x = 11
 		y = 1
-		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -148,7 +145,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 1
+			    uses = 2
 			    category = construction_tech
 			}
 			add_ideas = CFD_barterbased_economy
@@ -217,19 +214,19 @@ focus_tree = {
 			add_ideas = CFD_the_coperbe
 			add_tech_bonus = {
 			    bonus = 0.1
-			    uses = 1
+			    uses = 5
 			    category = electronics
 			}
 			
 			add_tech_bonus = {
 			    bonus = 0.2
-			    uses = 1
+			    uses = 4
 			    category = cat_synth_oil
 			}
 			
 			add_tech_bonus = {
 			    bonus = 0.2
-			    uses = 1
+			    uses = 4
 			    category = cat_synth_rubber
 			}
 		}
@@ -306,7 +303,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 1
+			    uses = 3
 			    category = excavation_tech
 			}
 		}
@@ -327,8 +324,6 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = CFD_barterbased_economy
 			add_ideas = CFD_the_bandecose
-			
-			
 		}
 	}
 
@@ -352,6 +347,14 @@ focus_tree = {
 				    instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 2
+			    category = military_police_tech
+			}
+			
+			
+			
 		}
 	}
 
@@ -437,8 +440,8 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_tech_bonus = {
-			    bonus = 0.5
-			    uses = 1
+			    bonus = 0.4
+			    uses = 2
 			    category = industry
 			}
 		}
@@ -458,7 +461,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.2
-			    uses = 1
+			    uses = 3
 			    category = cat_production
 			}
 		}
@@ -608,8 +611,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = CFD_the_sergipe_backstab
-			
-			
 		}
 		allow_branch = {
 			has_country_flag = CFD_sergipe_backstab_enabled
@@ -737,6 +738,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = militia_officer_training
+			unlock_decision_tooltip = CFD_reform_army
 		}
 	}
 
@@ -774,8 +776,8 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_tech_bonus = {
-			    bonus = 0.2
-			    uses = 1
+			    bonus = 0.45
+			    uses = 2
 			    category = infantry_tech
 			}
 		}
@@ -899,7 +901,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.1
-			    uses = 1
+			    uses = 3
 			    category = dispersed_industry_category
 			}
 		}
@@ -920,12 +922,12 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.2
-			    uses = 1
+			    uses = 3
 			    category = cat_production
 			}
 			add_tech_bonus = {
-			    bonus = 0.2
-			    uses = 1
+			    bonus = 0.4
+			    uses = 2
 			    category = train_tech
 			}
 		}
@@ -975,6 +977,11 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			navy_experience = 25
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 2
+			    category = marine_tech
+			}
 		}
 	}
 
@@ -1027,6 +1034,11 @@ focus_tree = {
 				category = naval_doctrine
 			}
 			navy_experience = 25
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = marine_tech
+			}
 		}
 	}
 
@@ -1042,6 +1054,30 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_resemble_the_third_naval_district  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 4
+			    category = naval_bomber
+			}
+			
+			
+			add_tech_bonus = {
+			    bonus = 0.25
+			    uses = 3
+			    category = naval_equipment
+			}
+			
+			
+			add_tech_bonus = {
+			    bonus = 0.25
+			    uses = 2
+			    category = radar_tech
+			}
+			
+			
+			
+		}
 	}
 
 	#The Ultimatum
@@ -1134,7 +1170,7 @@ focus_tree = {
 	focus = {
 		id = CFD_a_new_dawn
 		icon = GFX_goal_unknown
-		x = 32
+		x = 33
 		y = 3
 		cost = 2
 		search_filters = {
@@ -1150,7 +1186,7 @@ focus_tree = {
 	focus = {
 		id = CFD_uniting_the_people
 		icon = GFX_goal_unknown
-		x = 32
+		x = 33
 		y = 4
 		cost = 2
 		search_filters = {
@@ -1164,7 +1200,7 @@ focus_tree = {
 	focus = {
 		id = CFD_a_look_at_our_surroundings
 		icon = GFX_goal_unknown
-		x = 32
+		x = 33
 		y = 6
 		cost = 2
 		search_filters = {
@@ -1172,6 +1208,16 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_uniting_the_people  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = {
+			    id = CFD_events.15
+			    days = 1
+			}
+			country_event = {
+			    id = CFD_events.16
+			    days = 2
+			}
+		}
 	}
 
 }

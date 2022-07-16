@@ -157,6 +157,101 @@ CFD_main_category = {
 ##################		Miscs.		##################
 	CFD_reform_army_1 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_army_support
+        available = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+        }
+		visible = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+		}
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = decision_cost_CP_15
+        is_good = yes
+		days_remove = 30
+		fire_only_once = yes
+		complete_effect = {
+			add_command_power = -15
+		}
+		modifier = {
+			experience_gain_army = 1.5
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			CFD = {
+				add_war_support = 0.05
+				army_experience = 5
+				add_to_variable = {
+					var = CFD_army_reformation
+					value = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_reform_army_2 = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_army_support
+        available = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+        }
+		visible = {
+			CFD = {
+				AND = {
+					has_completed_focus = CFD_sertanejaandwhatarmy
+					has_idea = CFD_disunited_armed_forces 
+				}
+			}
+		}
+		custom_cost_trigger = {
+			command_power > 14
+		}
+		custom_cost_text = decision_cost_CP_15
+        is_good = yes
+		days_remove = 30
+		fire_only_once = yes
+		complete_effect = {
+			add_command_power = -15
+		}
+		modifier = {
+			experience_gain_army = 1.5
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			CFD = {
+				add_war_support = 0.05
+				army_experience = 5
+				add_to_variable = {
+					var = CFD_army_reformation
+					value = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_reform_army_3 = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_army_support
         available = {
 			CFD = {
 				AND = {
@@ -179,18 +274,22 @@ CFD_main_category = {
 		custom_cost_text = decision_cost_CP_15
         is_good = yes
 		fire_only_once = yes
+		days_remove = 30
 		complete_effect = {
 			add_command_power = -15
-			add_political_power = -5
 		}
 		modifier = {
-			experience_gain_army = 0.05
+			experience_gain_army = 1.5
 			command_power_gain = -0.5
 		}
 		remove_effect = {
 			CFD = {
 				add_war_support = 0.05
-				army_experience = 25
+				army_experience = 5
+				add_to_variable = {
+					var = CFD_army_reformation
+					value = 1
+				}
 			}
 		}
 		ai_will_do = {
@@ -199,12 +298,13 @@ CFD_main_category = {
 	}
 	CFD_reform_army = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_army_support
         available = {
 			CFD = {
 				AND = {
 					has_completed_focus = CFD_sertanejaandwhatarmy
 					has_idea = CFD_disunited_armed_forces 
-					has_country_flag = can_reform_army
+					check_variable = { CFD_army_reformation = 3 }
 				}
 			}
         }
@@ -224,17 +324,22 @@ CFD_main_category = {
 		fire_only_once = yes
 		days_remove = 30
 		complete_effect = {
-			add_command_power = -25
-			add_political_power = -10
+			CFD = {
+				add_command_power = -25
+			}
 		}
 		modifier = {
-			experience_gain_army = 0.05
+			experience_gain_army = 1.5
 			command_power_gain = -0.5
 		}
 		remove_effect = {
 			CFD = {
-				remove_ideas = CFD_disunited_armed_forces
 				add_war_support = 0.1
+				swap_ideas = {
+					remove_idea = CFD_disunited_armed_forces
+					add_idea = CFD_the_sertnia_military
+				}
+				clear_variable = CFD_army_reformation
 			}
 		}
 		ai_will_do = {
@@ -243,6 +348,7 @@ CFD_main_category = {
 	}
 	CFD_cangaco_lvl1 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
 			AND = {
 				CFD = {
@@ -286,6 +392,7 @@ CFD_main_category = {
 	}
 	CFD_cangaco_lvl2 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
 			AND = {
 				CFD = {
@@ -324,6 +431,7 @@ CFD_main_category = {
 	}
 	CFD_cangaco_lvl3 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
 			AND = {
 				CFD = {
@@ -365,6 +473,7 @@ CFD_main_category = {
 CFD_maranhao_war_category = {
 	CFD_maranhao_failstate = {
         allowed = { tag = CFD }
+		icon = GFX_decision_revolt
         available = {
             NOT = {country_exists = MNH}
         }
@@ -392,6 +501,7 @@ CFD_maranhao_war_category = {
 	}
 	CFD_maranhao_prep_fortifications1 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
            has_country_flag = operations_completed
         }
@@ -437,6 +547,7 @@ CFD_maranhao_war_category = {
 	}
 	CFD_maranhao_prep_fortifications2 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
            has_country_flag = operations_completed
         }
@@ -482,6 +593,7 @@ CFD_maranhao_war_category = {
 	}
 	CFD_maranhao_prep_fortifications3 = {
 		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
            has_country_flag = operations_completed
         }
@@ -523,6 +635,7 @@ CFD_maranhao_war_category = {
 CFD_nation_development_category = {
 	CFD_WR_upgrade = {
         allowed = { tag = CFD }
+		icon = GFX_decision_generic_industry
         available = {
            has_country_flag = CFD_can_upgrade_laws
         }
@@ -543,6 +656,7 @@ CFD_nation_development_category = {
 	}
 	CFD_SI_upgrade = {
         allowed = { tag = CFD }
+		icon = GFX_decision_generic_industry
         available = {
            has_country_flag = CFD_can_upgrade_laws
         }
@@ -564,7 +678,7 @@ CFD_nation_development_category = {
 ##################		International Country Diplomacy Decisions.		##################
 CFD_piaui_frontier = {
 	CFD_op_simoes ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -609,6 +723,12 @@ CFD_piaui_frontier = {
 					on_cancel = CFD_operations.1
 				}
 			}
+			MNH = {
+				country_event = {
+					id = MNH.1
+					days = 400
+				}
+			}
 		}
 		modifier = {
 		}
@@ -623,7 +743,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_jaicos ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -682,7 +802,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_pioIX ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -741,7 +861,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_picos ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -800,7 +920,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_valencia ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -859,7 +979,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_altos ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -918,7 +1038,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_teresinha ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -977,7 +1097,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_campo_maior ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -1036,7 +1156,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_freitas ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -1095,7 +1215,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_cap_campos ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -1154,7 +1274,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_union_city ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
@@ -1216,7 +1336,7 @@ CFD_piaui_frontier = {
 		}
 	}
 	CFD_op_parnaiba ={
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_border_war
 		cost = 0
 		days_remove = 14
 		is_good = yes
@@ -1261,12 +1381,6 @@ CFD_piaui_frontier = {
 				#	target = NPP
 				#	type = annex_everything
 				#}
-			}
-			MNH = {
-				country_event = {
-					id = MNH.1
-					days = 30
-				}
 			}
 		}
 		ai_will_do = {

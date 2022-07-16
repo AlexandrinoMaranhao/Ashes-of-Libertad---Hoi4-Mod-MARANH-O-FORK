@@ -150,7 +150,7 @@ command_abilities_cost_factor = 0.4
 army_leader_cost_factor = 0.6
 land_doctrine_cost_factor = 0.25
 command_power_gain = -0.5
-fascism_drift = 0.001
+fascism_drift = 0.005
 			}
 		}
 
@@ -172,6 +172,19 @@ production_speed_buildings_factor = -0.2
 			picture = CFD_sergipevale_deals-238388
 			allowed = {
 				original_tag = SEG
+			}
+		}
+
+		CFD_the_sertnia_military = {
+			picture = CFD_the_sertnia_military-238388
+			modifier = {
+				heat_attrition_factor = -1.0
+acclimatization_hot_climate_gain_factor = 0.5
+experience_gain_army = 0.05
+army_core_attack_factor = 0.1
+army_core_defence_factor = 0.1
+land_doctrine_cost_factor = -0.25
+command_abilities_cost_factor = -0.25
 			}
 		}
 	}
