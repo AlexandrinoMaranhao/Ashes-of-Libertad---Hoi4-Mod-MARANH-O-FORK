@@ -1951,3 +1951,15 @@
  ELC_ADJ:0 "Salvadoran"
  ELC_DEF:0 "The Salvadoran Brotherhood Chapter"
  
+ PIM:0 "Bom Jesus State"
+ PIM_ADJ:0 "Piauiense"
+ PIM_DEF:0 "the Piauiense Mercenary State"
+ 
+ BEP:0 "Teresina Government"
+ BEP_ADJ:0 "Piauiense"
+ BEP_DEF:0 "the Teresina State under Piaui's State Bank control"
+ 
+ PNA:0 "Parnaíba Occupation Zone"
+ PNA_ADJ:0 "Parnaibano"
+ PNA_DEF:0 "the Military Parnaibano-Zone"
+ 

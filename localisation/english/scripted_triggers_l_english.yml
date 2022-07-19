@@ -4,3 +4,6 @@
  sarney_puto_value_med:0 "§YMedium§!"
  sarney_puto_value_high:0 "§RHigh§!"
  cfd_piaui_frontier_progress:0 ""
+ portella_hs_good:0 "§GGood§!"
+ portella_hs_medium:0 "§OCould be worse...§!"
+ portella_hs_bad:0 "§RBad§!"

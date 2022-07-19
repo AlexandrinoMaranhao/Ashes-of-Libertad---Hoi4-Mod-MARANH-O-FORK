@@ -836,9 +836,27 @@ focus_tree = {
 		prerequisite = { focus = para_junta_collapse_new_plans_under_the_sleeve  focus = para_junta_collapse_allhandstosantarem  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			declare_war_on = {
-			    target = WAI
-			    type = annex_everything
+			119 = {
+				owner = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = take_state_focus
+							generator = { 119 }
+						}
+					}
+				}
+			}
+			118 = {
+				owner = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = take_state_focus
+							generator = { 118 }
+						}
+					}
+				}
 			}
 		}
 	}
@@ -876,13 +894,28 @@ focus_tree = {
 		prerequisite = { focus = para_junta_collapse_operacaoss4montedouradoss  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			declare_war_on = {
-			    target = MAP
-			    type = annex_everything
+			123 = {
+				owner = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = take_state_focus
+							generator = { 123 }
+						}
+					}
+				}
 			}
-			
-			
-			
+			121 = {
+				owner = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = take_state_focus
+							generator = { 121 }
+						}
+					}
+				}
+			}
 		}
 	}
 

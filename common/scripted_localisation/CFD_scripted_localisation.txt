@@ -22,3 +22,28 @@ defined_text = {
         localization_key = sarney_puto_value_high
     }
 }
+
+defined_text = {
+    name = portella_health_status_loc
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { portella_health_status = 0 }
+        }
+        localization_key = portella_hs_good
+    }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { portella_health_status = 1 }
+        }
+        localization_key = portella_hs_medium
+    }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { portella_health_status = 2 }
+        }
+        localization_key = portella_hs_bad
+    }
+}

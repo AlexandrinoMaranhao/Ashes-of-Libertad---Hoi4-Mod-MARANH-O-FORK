@@ -87,6 +87,22 @@ if = {
             type = annex_everything
         }
 
+		remove_ideas = {
+			sarneys_feud
+			cangaceiros_light
+		}
+
+		add_ideas = {
+			sarneys_feud
+			mercenary_army_LAM
+			cangaceiros_light
+		}
+
+		annex_country = {
+			target = PIM
+			transfer_troops = yes
+		}
+
         set_politics = {
             ruling_party = fascism
         }
@@ -97,5 +113,17 @@ if = {
 			communism = 0
 			democratic = 0
 		}
+		119 = {
+			owner = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = take_state_focus
+						generator = { 119 }
+					}
+				}
+			}
+		}
+		
     }
 }

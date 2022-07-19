@@ -113,6 +113,10 @@ set_variable = {
 	var = CFD_guerras_support
 	value = 0
 }
+set_variable = {
+	var = portella_health_status
+	value = 0
+}
 
 create_country_leader = {
 	name = "Nivaldo Rodrigues Machado"

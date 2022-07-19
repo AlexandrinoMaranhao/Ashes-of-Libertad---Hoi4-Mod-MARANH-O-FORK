@@ -431,6 +431,11 @@ WAS = {
 	color_ui = rgb { 0 0 0 }
 }
 
+BEP = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
 ERN = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
@@ -467,6 +472,11 @@ NEB = {
 }
 
 AMA = {
+	color = rgb { 229 182 17 }
+	color_ui = rgb { 153 120 12 }
+}
+
+PNA = {
 	color = rgb { 229 182 17 }
 	color_ui = rgb { 153 120 12 }
 }
@@ -703,6 +713,11 @@ MNH = {
 }
 
 PIA = {
+	color = rgb { 211 153 29 }
+	color_ui = rgb { 211 153 29 }
+}
+
+PIM = {
 	color = rgb { 211 153 29 }
 	color_ui = rgb { 211 153 29 }
 }

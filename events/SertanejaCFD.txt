@@ -59,6 +59,11 @@ country_event = { #The Hell Battalion returns from Piaui
 				days = 7
 			}
 		}
+		PIA = { #Piaui Collapse
+			release = BEP
+			release = PIM
+			release = PNA
+		}
     }
 }
 

@@ -12,6 +12,16 @@ spriteType ={
     texturefile = "gfx/interface/ideas/the_northeastern_military_command.dds"
 } 
 
+SpriteType = { 
+	name = "GFX_idea_PIA_good_jesus_mercs"
+	texturefile = "gfx/interface/ideas/sertaneja-ideas/PIA_good_jesus_mercs.dds"
+}
+
+SpriteType = { 
+	name = "GFX_idea_PIA_the_BEP"
+	texturefile = "gfx/interface/ideas/sertaneja-ideas/PIA_the_BEP.dds"
+}
+
 spriteType ={
     name = "GFX_idea_SAO_ROTA"
     texturefile = "gfx/interface/ideas/SAO_ROTA.dds"

@@ -31,7 +31,6 @@ add_ideas = {
 	conscription_one_year_draft
 
 	sarneys_feud
-	mercenary_army_LAM
 	cangaceiros_light
 }
 
