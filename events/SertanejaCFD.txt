@@ -53,10 +53,13 @@ country_event = { #The Hell Battalion returns from Piaui
     option = {
         name = CFD_events.1.a
 		CFD = {
+			custom_effect_tooltip = "Petrônio Portella will become a Army General."
 			set_country_flag = portella_alive
-			country_event = {
-				id = CFD_events.2	
-				days = 7
+			hidden_effect = {
+				country_event = {
+					id = CFD_events.2	
+					days = 7
+				}
 			}
 		}
     }
@@ -71,13 +74,15 @@ country_event = { #Portella and Miguel
 
     option = {
         name = CFD_events.2.a
-		custom_effect_tooltip = "This activates the 'Piauí Frontier'."
+		custom_effect_tooltip = "This activates the Piauí Frontier's operations decisions."
 		CFD = {
 			set_country_flag = begin_piaui_frontier
-			PIA = { #Piaui Collapse
-				release = BEP
-				release = PIM
-				release = PNA
+			hidden_effect = {
+				PIA = { #Piaui Collapse
+					release = BEP
+					release = PIM
+					release = PNA
+				}
 			}
 		}
     }
@@ -456,6 +461,21 @@ country_event = { #A Trip to Macapa
     }
 }
 
+country_event = { #Sarney's war starting event
+    id = CFD_events.17
+    title = CFD_events.17.t
+    desc = CFD_events.17.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.17.a
+		CFD = {
+			unlock_decision_category_tooltip = CFD_maranhao_war_category
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -468,90 +488,121 @@ country_event = { #Eleições Start
     option = {
         name = CFD_elections.1.a
 		CFD = {
-			set_country_flag = CFD_elections_phase_1
-			mark_focus_tree_layout_dirty = yes
-			complete_national_focus = CFD_the_elections
-			hidden_effect = {
-				country_event = {
-					id = CFD_elections.2
-					days = 7
-				}
-			}
-		}	
-    }
-}
-
-country_event = { #Election options 1
-    id = CFD_elections.2
-    title = CFD_elections.2.t
-    desc = CFD_elections.2.d
-    is_triggered_only = yes
-    picture = GFX_report_cfd_elections1
-
-    option = {
-        name = CFD_elections.2.a
-		CFD = {
-			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
-			add_to_variable = {
-				var = CFD_yes_elections_chances
-				value = 2
-			}
-			hidden_effect = {
-				country_event = {
-					id = CFD_elections.3
-					days = 7
-				}
-			}
-		}
-    }
-    option = {
-        name = CFD_elections.2.b
-		CFD = {
-			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
-			add_to_variable = {
-				var = CFD_no_elections_chances
-				value = 2
-			}
-			hidden_effect = {
-				country_event = {
-					id = CFD_elections.3
-					days = 7
-				}
-			}
-		}
-    }
-}
-
-country_event = { #Election options 2
-    id = CFD_elections.3
-    title = CFD_elections.3.t
-    desc = CFD_elections.3.d
-    is_triggered_only = yes
-    picture = GFX_report_cfd_elections1
-
-    option = {
-        name = CFD_elections.3.a
-		CFD = {
 			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
 			add_to_variable = {
 				var = CFD_yes_elections_chances
 				value = 1
 			}
-			hidden_effect = {country_event = {id = CFD_elections.4}}
+			hidden_effect = {
+				CFD = {
+					country_event = {
+						id = CFD_elections.4
+						days = 14
+					}
+					set_country_flag = CFD_elections_phase_1
+					mark_focus_tree_layout_dirty = yes
+					complete_national_focus = CFD_the_elections
+					set_variable = { CFD_no_balance = 1 }
+				}
+			}
 		}
     }
     option = {
-        name = CFD_elections.3.b
+        name = CFD_elections.1.b
 		CFD = {
 			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
 			add_to_variable = {
 				var = CFD_no_elections_chances
 				value = 1
 			}
-			hidden_effect = {country_event = {id = CFD_elections.4}}
+			hidden_effect = {
+				CFD = {
+					country_event = {
+						id = CFD_elections.4
+						days = 14
+					}
+					set_country_flag = CFD_elections_phase_1
+					mark_focus_tree_layout_dirty = yes
+					complete_national_focus = CFD_the_elections
+					set_variable = { CFD_no_balance = 1 }
+				}
+			}
 		}
     }
 }
+
+#country_event = { #Election options 1
+#    id = CFD_elections.2
+#    title = CFD_elections.2.t
+#    desc = CFD_elections.2.d
+#    is_triggered_only = yes
+#    picture = GFX_report_cfd_elections1
+#
+#    option = {
+#        name = CFD_elections.2.a
+#		CFD = {
+#			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
+#			add_to_variable = {
+#				var = CFD_yes_elections_chances
+#				value = 1
+#			}
+#			hidden_effect = {
+#				country_event = {
+#					id = CFD_elections.3
+#					days = 7
+#				}
+#			}
+#		}
+#    }
+#	
+#    option = {
+#        name = CFD_elections.2.b
+#		CFD = {
+#			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
+#			add_to_variable = {
+#				var = CFD_no_elections_chances
+#				value = 1
+#			}
+#			hidden_effect = {
+#				country_event = {
+#					id = CFD_elections.3
+#					days = 7
+#				}
+#			}
+#		}
+#    }
+#}
+#
+#country_event = { #Election options 2
+#    id = CFD_elections.3
+#    title = CFD_elections.3.t
+#    desc = CFD_elections.3.d
+#    is_triggered_only = yes
+#    picture = GFX_report_cfd_elections1
+#
+#    option = {
+#        name = CFD_elections.3.a
+#		CFD = {
+#			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
+#			add_to_variable = {
+#				var = CFD_yes_elections_chances
+#				value = 1
+#			}
+#			hidden_effect = {country_event = {id = CFD_elections.4}}
+#		}
+#    }
+#    option = {
+#        name = CFD_elections.3.b
+#		CFD = {
+#			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
+#			add_to_variable = {
+#				var = CFD_no_elections_chances
+#				value = 1
+#			}
+#			hidden_effect = {country_event = {id = CFD_elections.4}}
+#		}
+#    }
+#}
 
 country_event = { #Election yes or no
     id = CFD_elections.4
@@ -1022,6 +1073,24 @@ country_event = {
     option = {
         name = CFD_operations.13.a
 		CFD = {
+			clr_country_flag = portella_alive
+			add_advisor_role = {
+				character = CFD_pretonio_portella
+				advisor = {
+					slot = army_chief
+					cost = 50
+					idea_token = CFD_pretonio_portella
+					traits = {
+						carm_decisive_battle_doctrine carm_elastic_defence_doctrine
+					}
+					available = {
+						CFD = {
+							controls_state = 15
+						}
+					}
+				}
+				activate = yes
+			}
 			15 = {
 				set_demilitarized_zone = yes
 			}
@@ -1044,6 +1113,10 @@ country_event = { #Portella gets hit
 					trait = wounded
 					days = 14
 				}
+			}
+			add_to_variable = {
+				var = cfd_piaui_frontier_progress
+				value = -0.055
 			}
 			add_to_variable = {
 				var = portella_health_status
