@@ -677,6 +677,51 @@ CFD_nation_development_category = {
 }
 ##################		International Country Diplomacy Decisions.		##################
 CFD_piaui_frontier = {
+	CFD_maranhao_war_on_piaui = {
+        allowed = { tag = CFD }
+		icon = GFX_decision_revolt
+        available = {
+            NOT = {country_exists = MNH}
+        }
+        activation = {
+			CFD = {
+				controls_state = 575
+			}
+        }
+		cancel_trigger = {
+			CFD = {
+				custom_trigger_tooltip = {
+					tooltip = CFD_operations_completed_tt		
+					has_country_flag = operations_completed
+				}
+			}
+		}
+        is_good = no
+		fire_only_once = yes
+        selectable_mission = yes
+        days_mission_timeout = 400
+        timeout_effect = {
+			custom_effect_tooltip = CFD_MNH_piaui_invasion_tt
+			hidden_effect = {
+				MNH = {
+					country_event = {
+						id = MNH.1
+						days = 1
+					}
+				}
+				CFD = {
+					country_event = {
+						id = CFD_operation_failure.3
+						days = 1
+					}
+				}
+			}
+        }
+		complete_effect = {
+			add_stability = 0.05
+		}
+	}
+	
 	CFD_op_simoes ={
 		icon = GFX_decision_generic_operation
 		cost = 25
@@ -703,9 +748,15 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 575
+				}
+			}
 		}
 		complete_effect = {
+			activate_decision = CFD_maranhao_war_on_piaui
 			start_border_war = {
 				change_state_after_war = yes
 				attacker = {
@@ -721,12 +772,6 @@ CFD_piaui_frontier = {
 					on_win = CFD_operation_failure.1
 					on_lose = CFD_operations.1
 					on_cancel = CFD_operations.1
-				}
-			}
-			MNH = {
-				country_event = {
-					id = MNH.1
-					days = 400
 				}
 			}
 		}
@@ -747,11 +792,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -768,7 +812,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 577
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -798,7 +847,7 @@ CFD_piaui_frontier = {
 			}
 		}
 		ai_will_do = {
-				factor = 999
+			factor = 999
 		}
 	}
 	CFD_op_pioIX ={
@@ -806,11 +855,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -827,7 +875,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 576
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -865,11 +918,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -886,7 +938,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 578
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -924,11 +981,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -945,7 +1001,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 579
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -983,11 +1044,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -1004,7 +1064,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 580
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -1045,8 +1110,8 @@ CFD_piaui_frontier = {
 		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -1063,25 +1128,17 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 16
+				}
+			}
 		}
 		complete_effect = {
-			start_border_war = {
-				change_state_after_war = yes
-				attacker = {
-					state = 580
-					num_provinces = 1
-					on_win = CFD_operations.7
-					on_lose = CFD_operation_failure.1
-					on_cancel = CFD_operations.7
-				}
-				defender = {
-					state = 16
-					num_provinces = 1
-					on_win = CFD_operation_failure.1
-					on_lose = CFD_operations.7
-					on_cancel = CFD_operations.7
-				}
+			declare_war_on = {
+				target = BEP
+				type = annex_everything
 			}
 		}
 		modifier = {
@@ -1101,11 +1158,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -1122,7 +1178,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 582
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -1160,11 +1221,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -1181,7 +1241,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 581
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -1219,11 +1284,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -1240,7 +1304,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 583
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -1278,11 +1347,10 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		fire_only_once = yes
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					army_manpower_in_state = {
 						type = infantry
 						amount > 600
@@ -1302,7 +1370,12 @@ CFD_piaui_frontier = {
 			}
 		}
 		visible = {
-			has_country_flag = begin_piaui_frontier
+			CFD = {
+				has_country_flag = begin_piaui_frontier
+				NOT = {
+					controls_state = 584
+				}
+			}
 		}
 		complete_effect = {
 			start_border_war = {
@@ -1347,15 +1420,14 @@ CFD_piaui_frontier = {
 		}
 		
 		available = {
-			AND = {
-				CFD = {
+			CFD = {
+				AND = {
 					NOT = {has_country_flag = portella_dead}
 					has_country_flag = begin_piaui_frontier
 					has_country_flag = operations_completed
 					has_border_war = no
 					has_war = no
 				}
-				
 			}
 		}
 		visible = {
@@ -1370,17 +1442,14 @@ CFD_piaui_frontier = {
 		}
 		modifier = {
 		}
-		remove_effect = { #Work in progress.
-			#TAG = {
-			#	set_state_owner = 15
-			#}
+		remove_effect = {
 			CFD = {
 				add_state_claim = 15
 				add_ideas = cangaceiros_heavy
-				#declare_war_on = {
-				#	target = NPP
-				#	type = annex_everything
-				#}
+				declare_war_on = {
+					target = PNA
+					type = annex_everything
+				}
 			}
 		}
 		ai_will_do = {

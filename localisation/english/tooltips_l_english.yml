@@ -2,6 +2,8 @@
 
 BEM_change_focus_tree:0 "Upon completion, the focus tree will be §Gchanged§! into a new one."
 ACR_wartrain:0 "This focus will enable the §RWar Train§! mechanic. §YBeware, the mechanic still is pretty much WIP. What you see is NOT final.§!"
+CFD_MNH_piaui_invasion_tt:0 "\n§GMaranhão§! is preparing a invasion on §tPiaui§!. \nWe must act quickly!\n"
+CFD_operations_completed_tt:0 "\n The §YPiaui Frontier's§! progress is at §Y100%§!.\n"
 
 ##### End of Demo #####
 

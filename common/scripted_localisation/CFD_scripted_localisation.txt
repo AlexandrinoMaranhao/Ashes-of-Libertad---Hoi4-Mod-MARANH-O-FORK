@@ -46,4 +46,11 @@ defined_text = {
         }
         localization_key = portella_hs_bad
     }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { portella_health_status = 3 }
+        }
+        localization_key = portella_hs_dead
+    }
 }
