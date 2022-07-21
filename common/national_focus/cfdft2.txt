@@ -143,6 +143,7 @@ focus_tree = {
 		prerequisite = { focus = CFD_anotherdayintheoffice  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			unlock_decision_category_tooltip = CFD_main_category
 			add_tech_bonus = {
 			    bonus = 0.5
 			    uses = 2
@@ -1194,6 +1195,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_a_new_dawn  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_variable = { CFD_no_balance = 1 }
+		}
 	}
 
 	#A Look at our Surroundings

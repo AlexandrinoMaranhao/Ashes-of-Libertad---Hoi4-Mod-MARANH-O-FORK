@@ -155,6 +155,441 @@ CFD_main_category = {
 	
 
 ##################		Miscs.		##################
+	CFD_build_stuff_recife = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				7 = {
+					set_building_level = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_alagoas = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				573 = {
+					set_building_level = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = radar_station 
+						level = 2
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_petrolina = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				8 = {
+					set_building_level = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						instant_build = yes
+						province = 4160
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_patos = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				503 = {
+					set_building_level = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						instant_build = yes
+						province = 164
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_jaboatao_garanhuns = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				574 = {
+					set_building_level = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+				}
+				9 = {
+					set_building_level = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_maceio = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				10 = {
+					set_building_level = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_touros_natal = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				4 = {
+					set_building_level = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = synthetic_refinery 
+						level = 1
+						instant_build = yes
+					}
+				}
+				3 = {
+					set_building_level = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard 
+						level = 2
+						instant_build = yes
+					} 
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_joao_person = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			CFD = {
+				6 = {
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard 
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_mossoro = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.15
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			CFD = {
+				5 = {
+					add_building_construction = {
+						type = synthetic_refinery  
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard 
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure  
+						level = 2
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_build_stuff_ceara = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+			tag = CFD
+        }
+		visible = {
+			CFD = {
+				has_completed_focus = CFD_sampaiosadminstration
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 0
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.15
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			CFD = {
+				12 = {
+					add_building_construction = {
+						type = air_base   
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard  
+						level = 2
+						instant_build = yes
+					}
+				}
+				13 = {
+					add_building_construction = {
+						type = infrastructure  
+						level = 3
+						instant_build = yes
+					}
+				}
+				14 = {
+					add_building_construction = {
+						type = fuel_silo  
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_stability = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 	CFD_reform_army_1 = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_army_support
@@ -644,11 +1079,12 @@ CFD_nation_development_category = {
 		cost = 50
 		days_remove = 30
 		modifier = {
-			production_speed_industrial_complex_factor = -0.5
-			production_speed_arms_factory_factor = -0.5
+			production_speed_industrial_complex_factor = -0.15
+			production_speed_arms_factory_factor = -0.25
 		}
 		remove_effect = {
 			add_ideas = WR_acceptable_regulations
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 999
@@ -665,16 +1101,183 @@ CFD_nation_development_category = {
 		cost = 50
 		days_remove = 30
 		modifier = {
-			production_factory_efficiency_gain_factor = -0.5
+			production_factory_efficiency_gain_factor = -0.1
 		}
 		remove_effect = {
 			add_ideas = SI_acceptable_regulations
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 999
 		}
 	}
 }
+
+##################		Political Balance mini-game	 	##################
+CFD_balance_category = {
+	CFD_compromise_with_PCB = {
+        allowed = { tag = CFD }
+		icon = GFX_decision_generic_political_discourse
+        available = {
+			CFD = {
+				check_variable = {
+					var = PCB_balance
+					value = 0.05
+					compare = greater_than_or_equals
+				}
+				OR = {
+					has_country_flag = CFD_PCB_Victory
+					has_country_flag = CFD_PSNU_Victory
+				}
+			}
+        }
+        visible = {
+			CFD = {
+				OR = {
+					has_country_flag = CFD_PCB_Victory
+					has_country_flag = CFD_PSNU_Victory
+				}
+			}
+        }
+        is_good = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			political_power_cost = 0.05
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = PSN_balance
+				value = -0.05
+			}
+			add_to_variable = {
+				var = CFD_no_balance
+				value = 0.05
+			}
+		}
+		remove_effect = {
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_compromise_with_PSN = {
+        allowed = { tag = CFD }
+		icon = GFX_decision_generic_political_discourse
+        available = {
+			CFD = {
+				check_variable = {
+					var = PSN_balance
+					value = 0.05
+					compare = greater_than_or_equals
+				}
+				OR = {
+					has_country_flag = CFD_PCB_Victory
+					has_country_flag = CFD_PSNU_Victory
+				}
+			}
+        }
+        visible = {
+			CFD = {
+				OR = {
+					has_country_flag = CFD_PCB_Victory
+					has_country_flag = CFD_PSNU_Victory
+				}
+			}
+        }
+        is_good = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			political_power_cost = 0.05
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = PSN_balance
+				value = -0.05
+			}
+			add_to_variable = {
+				var = CFD_no_balance
+				value = 0.05
+			}
+		}
+		remove_effect = {
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_increase_PCB_balance = {
+		activation = {
+			CFD = {
+				OR = {
+					has_country_flag = CFD_PCB_Victory
+					has_country_flag = CFD_PSNU_Victory
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			has_war = yes
+		}
+		icon = GFX_decision_generic_civil_support
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
+		complete_effect = {
+		}
+		timeout_effect = {
+			add_to_variable = {
+				var = PCB_balance
+				value = 0.05
+			}
+			add_to_variable = {
+				var = CFD_no_balance
+				value = -0.05
+			}
+			activate_decision = CFD_increase_PCB_balance
+		}
+	}
+	CFD_increase_PSN_balance = {
+		activation = {
+			CFD = {
+				OR = {
+					has_country_flag = CFD_PCB_Victory
+					has_country_flag = CFD_PSNU_Victory
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			has_war = yes
+		}
+		icon = GFX_decision_generic_civil_support
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
+		complete_effect = {
+			
+		}
+		timeout_effect = {
+			add_to_variable = {
+				var = PSN_balance
+				value = 0.05
+			}
+			add_to_variable = {
+				var = CFD_no_balance
+				value = -0.05
+			}
+			activate_decision = CFD_increase_PSN_balance
+		}
+	}
+}
+
 ##################		International Country Diplomacy Decisions.		##################
 CFD_piaui_frontier = {
 	CFD_maranhao_war_on_piaui = {
