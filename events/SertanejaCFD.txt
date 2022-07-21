@@ -59,11 +59,6 @@ country_event = { #The Hell Battalion returns from Piaui
 				days = 7
 			}
 		}
-		PIA = { #Piaui Collapse
-			release = BEP
-			release = PIM
-			release = PNA
-		}
     }
 }
 
@@ -79,6 +74,11 @@ country_event = { #Portella and Miguel
 		custom_effect_tooltip = "This activates the 'Piauí Frontier'."
 		CFD = {
 			set_country_flag = begin_piaui_frontier
+			PIA = { #Piaui Collapse
+				release = BEP
+				release = PIM
+				release = PNA
+			}
 		}
     }
 }
@@ -105,36 +105,18 @@ country_event = { #Arraes and Bezerra
         name = CFD_events.4.a
     }
 }
-country_event = { #Sampaio Plans 1
-    id = CFD_events.500
-    title = CFD_events.5.t
-    desc = CFD_events.5.d
-	trigger = {
-		is_ai = yes
-		CFD = {
-			AND = {
-				has_completed_focus = CFD_foundssgbandecosess
-				has_completed_focus = CFD_thecreationofssocoperbess
-			}
-		}
-	}
-	fire_only_once = yes
-    picture = GFX_report_cfd_cid_plans
 
-    option = {
-        name = CFD_events.5.a
-		CFD = {
-			clr_country_flag = CFD_cid_adminstration
-			country_event = {id = CFD_events.5}
-			add_ideas = CFD_cid_sempaio_advisor
-		}
-    }
-}
 country_event = { #Sampaio Plans 2
     id = CFD_events.5
     title = CFD_events.5.t
     desc = CFD_events.5.d
-	is_triggered_only = yes
+	trigger = {
+		tag = CFD
+		CFD = {
+			has_completed_focus = CFD_foundssgbandecosess
+			has_completed_focus = CFD_thecreationofssocoperbess
+		}
+	}
 	fire_only_once = yes
     picture = GFX_report_cfd_cid_plans
 
@@ -815,12 +797,6 @@ country_event = {
     option = {
         name = CFD_operations.1.a
 		PIA = {
-			set_province_controller = 1929
-			set_province_controller = 1771
-			set_province_controller = 4133
-			set_province_controller = 1634
-			set_province_controller = 1895
-			set_province_controller = 941
 			CFD = {
 				set_province_controller = 330
 			}
@@ -838,11 +814,6 @@ country_event = {
     option = {
         name = CFD_operations.2.a
 		PIA = {
-			set_province_controller = 1929
-			set_province_controller = 1771
-			set_province_controller = 4133
-			set_province_controller = 1634
-			set_province_controller = 1895
 			CFD = {
 				set_province_controller = 941
 				set_province_controller = 330
@@ -1028,6 +999,15 @@ country_event = {
 				id = CFD_operations.13
 				days = 30
 			}
+			remove_mission = CFD_maranhao_war_on_piaui
+			hidden_effect = {
+				MNH = {
+					country_event = {
+						id = MNH.1
+						days = 1
+					}
+				}
+			}
 		}
     }
 }
@@ -1041,10 +1021,15 @@ country_event = {
 
     option = {
         name = CFD_operations.13.a
+		CFD = {
+			15 = {
+				set_demilitarized_zone = yes
+			}
+		}
     }
 }
 
-country_event = {
+country_event = { #Portella gets hit
     id = CFD_operation_failure.1
     title = CFD_operation_failure.1.t
     desc = CFD_operation_failure.1.d
@@ -1054,9 +1039,52 @@ country_event = {
     option = {
         name = CFD_operation_failure.1.a
 		CFD = {
+			CFD_pretonio_portella = {
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 14
+				}
+			}
+			add_to_variable = {
+				var = portella_health_status
+				value = 0.5
+			}
+		}
+    }
+}
+
+country_event = { #Portella Dies
+    id = CFD_operation_failure.2
+    title = CFD_operation_failure.2.t
+    desc = CFD_operation_failure.2.d
+    picture = GFX_report_event_guerrilla
+	fire_only_once = yes
+	trigger = {
+		tag = CFD
+		check_variable = { portella_health_status = 3 }
+	}
+    option = {
+        name = CFD_operation_failure.2.a
+		CFD = {
 			set_country_flag = portella_dead
 			clear_variable = cfd_piaui_frontier_progress
+		}
+    }
+}
+
+country_event = { #Frontier downfall
+    id = CFD_operation_failure.3
+    title = CFD_operation_failure.3.t
+    desc = CFD_operation_failure.3.d
+    is_triggered_only = yes
+    picture = GFX_report_event_guerrilla
+
+    option = {
+        name = CFD_operation_failure.3.a
+		CFD = {
+			clr_country_flag = portella_alive
 			clr_country_flag = begin_piaui_frontier
+			add_stability = -0.25
 		}
     }
 }

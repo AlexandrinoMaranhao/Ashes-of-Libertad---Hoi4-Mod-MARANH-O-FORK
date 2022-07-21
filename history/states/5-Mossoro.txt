@@ -5,10 +5,8 @@ state={
 
 	history={
 		buildings = {
-
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
-
 		}
         owner = CFD
         add_core_of = CFD

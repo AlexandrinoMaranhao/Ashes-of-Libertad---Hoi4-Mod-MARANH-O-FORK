@@ -515,10 +515,15 @@ CFD_operations.13.t:0 "A month of peace in Parnai"
 CFD_operations.13.d:0 "For the first time since 1963, one entire month has passed without the last remaining population of the region being afraid of the cangaço and militiamen. In Arraes office, a letter from the new governor of Nova Parnai, Petrônio Portella, arrives. Its contents are the following: \n\n‘‘Well, Arraes, we did it! Those bastards that terrorized my home for so long have been driven out! Even if all the fighting was on my shoulders if you didn’t auxiliary i cannot say i could have accomplished this. Sadly, i won’t be coming back to duty on the frontlines, as i have a lot to manage now that i finally became a governor again, but I shall definitely help as an officer, so long as I can stay at an office.’’ \nThe letter ends there, but in the back, there is a text, probably written after the letter was finished. \n\n‘‘I almost forgot, §3don't even think about sending any soldier to the borders of the state§!, as unforeseen consequences are sure to come about if you do. For the moment, it shall be demilitarized indefinitely.’’"
 CFD_operations.13.a:0 "And just like that, a new state is added to the fold."
 
-
-CFD_operation_failure.1.t:0 "Disaster on the frontier!"
-CFD_operation_failure.1.d:0 "Terrible news! Portella was killed in our last operation, and his soldiers have been executed as well. This means we will no longer be able to advance into Piauí, losing our greatest opportunity to end the cangaço rule and to screw with Maranhão. We assembled a small team to collect Portella’s mortal remains, and a public ceremony will be held to commemorate his achievements and mourn his death. If only we had been more cautious…"
-CFD_operation_failure.1.a:0 "What?! No! Impossible!"
+CFD_operation_failure.1.t:0 "Portella wounded."
+CFD_operation_failure.1.d:0 "tbc"
+CFD_operation_failure.1.a:0 "He will get better..."
+CFD_operation_failure.2.t:0 "Disaster on the frontier!"
+CFD_operation_failure.2.d:0 "Terrible news! Portella was killed in our last operation, and his soldiers have been executed as well. This means we will no longer be able to advance into Piauí, losing our greatest opportunity to end the cangaço rule and to screw with Maranhão. We assembled a small team to collect Portella’s mortal remains, and a public ceremony will be held to commemorate his achievements and mourn his death. If only we had been more cautious…"
+CFD_operation_failure.2.a:0 "What?! No! Impossible!"
+CFD_operation_failure.3.t:0 "Frontier's End"
+CFD_operation_failure.3.d:0 "tbc"
+CFD_operation_failure.3.a:0 "What a disastrous waste of resources!"
 
 #######################São Paulo's events
 
