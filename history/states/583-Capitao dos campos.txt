@@ -3,8 +3,7 @@ state={
 	name="Capitão dos Campos"
 	history={
 		owner = PIA
-		add_core_of = PIA
-		add_core_of = CFD
+		add_core_of = PNA
 
 		victory_points = {
 			3903 3

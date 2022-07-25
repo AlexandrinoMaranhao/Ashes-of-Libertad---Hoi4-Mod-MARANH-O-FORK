@@ -82,7 +82,13 @@ country_event = { #Portella and Miguel
 					release = BEP
 					release = PIM
 					release = PNA
+					release = JIN
 				}
+				
+				JIN = {load_oob = "JIN_1967"}
+				BEP = {load_oob = "BEP_1967"}
+				PIM = {load_oob = "PIM_1967"}
+				PNA = {load_oob = "PNA_1967"}
 			}
 		}
     }
@@ -476,6 +482,53 @@ country_event = { #Sarney's war starting event
     }
 }
 
+country_event = { #Balance lost control
+    id = CFD_events.18
+    title = CFD_events.18.t
+    desc = CFD_events.18.d
+	trigger = {
+		tag = CFD
+		CFD = {
+			OR = {
+				check_variable = {
+					var = PCB_balance
+					value = CFD_no_balance
+					compare = greater_than
+				}
+				check_variable = {
+					var = PSN_balance
+					value = CFD_no_balance
+					compare = greater_than
+				}
+			}
+		}
+	}
+    picture = GFX_report_cfd_cid_plans
+    option = {
+        name = CFD_events.18.a
+		CFD = {
+			set_variable = { PCB_balance = 0 }
+			set_variable = { CFD_no_balance = 1 }
+			set_variable = { PSN_balance = 0 }
+			add_stability = -0.25
+			random_list = {
+				25 = {
+					add_stability = -0.5
+				}
+				25 = {
+					add_manpower = -10000
+				}
+				25 = {
+					add_war_support = -0.5
+				}
+				25 = {
+					army_experience = -100
+				}
+			}
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -638,6 +691,10 @@ country_event = { #Election yes or no
 			hidden_effect = {
 				complete_national_focus = CFD_continuetheelections
 				clear_variable = CFD_yes_elections_chances
+				country_event = {
+					id = CFD_events.14
+					days = 7
+				}
 			}
 		}
     }
@@ -832,6 +889,61 @@ country_event = { #Election victorious
 					}
 				}
 			}
+		}
+    }
+}
+
+country_event = { #PSN leader mini game
+    id = CFD_elections.9
+    title = CFD_elections.9.t
+    desc = CFD_elections.9.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_elections1
+
+    option = { ##coronel won... good for him i guess
+        name = CFD_elections.9.a
+		trigger = {
+			CFD = {
+				AND = {
+					check_variable = { CFD_teodorico_support > CFD_guerras_support }
+					check_variable = { CFD_teodorico_support > CFD_aluizio_support }
+				}
+			}
+		}
+		CFD = {
+			CFD = {
+				set_country_flag = CFD_PSN_teodorico_victory
+			}
+		}
+    }
+	
+    option = { ##guerra won lmao
+        name = CFD_elections.9.b
+		trigger = {
+			CFD = {
+				AND = {
+					check_variable = { CFD_guerras_support > CFD_teodorico_support }
+					check_variable = { CFD_guerras_support > CFD_aluizio_support }
+				}
+			}
+		}
+		CFD = {
+			set_country_flag = CFD_PSN_guerra_victory
+		}
+    }
+	
+    option = { ##aluizio won great news
+        name = CFD_elections.9.c
+		trigger = {
+			CFD = {
+				AND = {
+					check_variable = { CFD_aluizio_support > CFD_guerras_support }
+					check_variable = { CFD_aluizio_support > CFD_teodorico_support }
+				}
+			}
+		}
+		CFD = {
+			set_country_flag = CFD_PSN_aluizio_victory
 		}
     }
 }

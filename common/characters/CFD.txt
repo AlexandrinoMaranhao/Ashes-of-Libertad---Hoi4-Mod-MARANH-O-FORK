@@ -100,7 +100,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ war_hero infantry_officer media_personality trait_CFD_arreas_loyalist }
+			traits={ trait_CFD_arreas_loyalist war_hero infantry_officer media_personality }
 			skill=4
 			attack_skill=3
 			defense_skill=3
@@ -118,7 +118,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ cavalry_officer ambusher trait_CFD_arena_sympathies }
+			traits={ trait_CFD_arena_sympathies cavalry_officer ambusher }
 			skill=4
 			attack_skill=3
 			defense_skill=2
@@ -136,7 +136,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ camouflage_expert trait_cautious trait_CFD_arreas_loyalist }
+			traits={ trait_CFD_arreas_loyalist camouflage_expert trait_cautious }
 			skill=5
 			attack_skill=4
 			defense_skill=3
@@ -172,7 +172,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ old_guard trait_CFD_arreas_loyalist  }
+			traits={ trait_CFD_arreas_loyalist old_guard  }
 			skill=3
 			attack_skill=2
 			defense_skill=2
@@ -244,7 +244,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trait_reckless trait_CFD_arena_sympathies }
+			traits={ trait_CFD_arena_sympathies trait_reckless }
 			skill=3
 			attack_skill=2
 			defense_skill=2
@@ -273,7 +273,7 @@ characters={
 					has_government = democratic
 				}
             }
-			traits = {mhc_school_of_psychology trait_CFD_arreas_loyalist}
+			traits = { trait_CFD_arreas_loyalist mhc_school_of_psychology}
 		}
 	}
 	CFD_jose_amorim = {
@@ -311,7 +311,7 @@ characters={
 					has_government = democratic
 				}
             }
-			traits = {mhc_school_of_fire_support trait_CFD_arena_sympathies}
+			traits = {trait_CFD_arena_sympathies mhc_school_of_fire_support }
 		}
 	}
 	CFD_rui_carneiro = {
@@ -349,7 +349,7 @@ characters={
 					has_government = democratic
 				}
             }
-			traits = {carm_doctrine_of_autonomy trait_CFD_arreas_loyalist}
+			traits = {trait_CFD_arreas_loyalist carm_doctrine_of_autonomy}
 		}
 	}
 	CFD_juarez_tavora = {
@@ -387,7 +387,7 @@ characters={
 					has_government = fascism
 				}
             }
-			traits = {carm_guns_and_butter_doctrine trait_CFD_arena_sympathies}
+			traits = {trait_CFD_arena_sympathies carm_guns_and_butter_doctrine}
 		}
 	}
 	CFD_ivan_ruy = {
@@ -409,7 +409,7 @@ characters={
 					has_government = democratic
 				}
             }
-			traits = {mhc_school_of_manoeuvre trait_CFD_arena_sympathies}
+			traits = {trait_CFD_arena_sympathies mhc_school_of_manoeuvre}
 		}
 	}
 	CFD_homero_souto_de_oliveira = {

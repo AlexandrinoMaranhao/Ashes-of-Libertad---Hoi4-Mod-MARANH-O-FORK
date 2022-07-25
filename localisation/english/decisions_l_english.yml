@@ -124,6 +124,7 @@
  CFD_reform_army_2:0 "Improve the army's efficiency requirements"
  CFD_reform_army_3:0 "Introduce Pro-Confederation propaganda on patrol drills"
  
- CFD_nation_development_category:0 "National Development"
+ CFD_nation_development_category:0 "National Development Programs"
+ CFD_nation_development_category_desc:0 "**WIP**\nmake sertao great again % is at: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                                £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
  CFD_balance_category:0 "§RPCB§! - §YPSN§! Power Balance"
  CFD_balance_category_desc:0 "**WIP** \n\n§RPCB§!:  [?PCB_balance|%R0§!] \n§GCompromise§!:  [?CFD_no_balance|%G0§!] \n§YPSN§!:  [?PSN_balance|%Y0§!]"

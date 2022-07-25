@@ -22,6 +22,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/piaui_frontier.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_cfd_nationwide_reforms"
+		texturefile = "gfx/interface/decisions/cfd_nationwide_reforms.dds"
+		legacy_lazy_load = no
+	}
 					
 	spriteType = {
 		name = "GFX_use_hid_weapons_decision"
