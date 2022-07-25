@@ -50,6 +50,13 @@ CFD_balance_category = {
 	}
 }
 
+CFD_PSN_election_category = {
+	icon = GFX_decision_category_eng_concessions_to_the_trade_unions
+	allowed = {
+		original_tag = CFD
+	}
+}
+
 SEG_main_category = {
 	allowed = {
 		original_tag = SEG

@@ -256,6 +256,11 @@ ECR = {
 	color_ui = rgb { 124 111 42 }
 }
 
+JIN = {
+	color = rgb { 124 111 42 }
+	color_ui = rgb { 124 111 42 }
+}
+
 BTA = {
 	color = rgb { 76 114 40 }
 	color_ui = rgb { 76 114 40 }

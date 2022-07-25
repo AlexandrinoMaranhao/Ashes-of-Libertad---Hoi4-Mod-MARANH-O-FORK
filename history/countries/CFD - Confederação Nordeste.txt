@@ -91,7 +91,6 @@ recruit_character = CFD_homero_souto_de_oliveira
 recruit_character = CFD_luiz_clovis_de_oliveira
 
 set_country_flag = CFD_cid_adminstration
-set_country_flag = unfinished_cfd #Remove once completed.
 
 set_variable = {
 	var = sarney_puto_value
@@ -116,6 +115,14 @@ set_variable = {
 set_variable = {
 	var = portella_health_status
 	value = 0
+}
+set_variable = {
+	var = CFD_nationwide_progress
+	value = 0
+}
+set_variable = {
+	var = CFD_no_balance
+	value = 1
 }
 
 create_country_leader = {

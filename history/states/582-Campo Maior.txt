@@ -4,7 +4,6 @@ state={
 	history={
 		owner = PIA
 		add_core_of = PIA
-		add_core_of = CFD
 
 		victory_points = {
 			3951 5

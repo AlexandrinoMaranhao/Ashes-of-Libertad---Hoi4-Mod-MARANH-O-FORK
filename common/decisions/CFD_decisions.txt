@@ -20,74 +20,76 @@ CFD_main_category = {
 			}
 		}
 	}
-	CFD_debug_unfinished_scripted_demo = {
-		cost = 0
-		days_remove = 1
-		is_good = no
-		fire_only_once = yes
-		visible = {
-			AND = {
-				original_tag = CFD
-				has_country_flag = unfinished_cfd
-			}
-		}
-		available = {
-			AND = {
-				original_tag = CFD
-				has_country_flag = unfinished_cfd
-				date > 1972.04.22
-			}
-		}
-		activation = {
-			AND = {
-				date > 1972.04.22
-				has_country_flag = unfinished_cfd
-			}
-        }
-		complete_effect = {
-			every_country = {
-				news_event = {
-					id = world.1
-					days = 3
-				}
-			}
-            country_event = {
-				id = PEB.1
-				days = 0
-			}
-			country_event = {
-				id = CFD_failometer_enabled.1
-				days = 1
-			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.15
-			}
-			CFD = {
-				#kill_ideology_leader = democratic
-				CFD_miguel_arraes = {
-					add_country_leader_role = {
-						character = CFD_miguel_arraes
-						promote_leader = yes
-						country_leader = {
-							ideology = centrism
-							expire = "1965.1.1.1"
-							traits = { }
-						}
-					}
-				}
-				set_politics = {ruling_party = neutrality}
-			}
-			
-			#news_event = {
-			#	id = world.79
-			#	days = 2
-			#}
-		}
-		ai_will_do = {
-			factor = 999
-		}
-	}
+	
+	#CFD_debug_unfinished_scripted_demo = { #No longer in use.
+	#	cost = 0
+	#	days_remove = 1
+	#	is_good = no
+	#	fire_only_once = yes
+	#	visible = {
+	#		AND = {
+	#			original_tag = CFD
+	#			has_country_flag = unfinished_cfd
+	#		}
+	#	}
+	#	available = {
+	#		AND = {
+	#			original_tag = CFD
+	#			has_country_flag = unfinished_cfd
+	#			date > 1972.04.22
+	#		}
+	#	}
+	#	activation = {
+	#		AND = {
+	#			date > 1972.04.22
+	#			has_country_flag = unfinished_cfd
+	#		}
+    #    }
+	#	complete_effect = {
+	#		every_country = {
+	#			news_event = {
+	#				id = world.1
+	#				days = 3
+	#			}
+	#		}
+    #        country_event = {
+	#			id = PEB.1
+	#			days = 0
+	#		}
+	#		country_event = {
+	#			id = CFD_failometer_enabled.1
+	#			days = 1
+	#		}
+	#		add_popularity = {
+	#			ideology = neutrality
+	#			popularity = 0.15
+	#		}
+	#		CFD = {
+	#			#kill_ideology_leader = democratic
+	#			CFD_miguel_arraes = {
+	#				add_country_leader_role = {
+	#					character = CFD_miguel_arraes
+	#					promote_leader = yes
+	#					country_leader = {
+	#						ideology = centrism
+	#						expire = "1965.1.1.1"
+	#						traits = { }
+	#					}
+	#				}
+	#			}
+	#			set_politics = {ruling_party = neutrality}
+	#		}
+	#		
+	#		#news_event = {
+	#		#	id = world.79
+	#		#	days = 2
+	#		#}
+	#	}
+	#	ai_will_do = {
+	#		factor = 999
+	#	}
+	#}
+	
 	CFD_prestes_returns_timer = {
         allowed = { tag = CFD }
         available = {
@@ -169,7 +171,7 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
 			consumer_goods_factor = 0.1
 			political_power_cost = 0.05
@@ -204,7 +206,7 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
 			consumer_goods_factor = 0.1
 			political_power_cost = 0.05
@@ -244,7 +246,7 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
 			consumer_goods_factor = 0.1
 			political_power_cost = 0.05
@@ -285,7 +287,7 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
 			consumer_goods_factor = 0.1
 			political_power_cost = 0.05
@@ -328,8 +330,8 @@ CFD_main_category = {
 		cost = 0
 		days_remove = 30
 		modifier = {
-			consumer_goods_factor = 0.1
-			political_power_cost = 0.05
+			consumer_goods_factor = 0.15
+			political_power_cost = 0.15
 		}
 		remove_effect = {
 			CFD = {
@@ -373,7 +375,7 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
 			consumer_goods_factor = 0.1
 			political_power_cost = 0.05
@@ -415,8 +417,8 @@ CFD_main_category = {
 		cost = 0
 		days_remove = 30
 		modifier = {
-			consumer_goods_factor = 0.1
-			political_power_cost = 0.05
+			consumer_goods_factor = 0.15
+			political_power_cost = 0.15
 		}
 		remove_effect = {
 			CFD = {
@@ -465,7 +467,7 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
 			consumer_goods_factor = 0.1
 			political_power_cost = 0.05
@@ -505,10 +507,10 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 15
 		modifier = {
-			consumer_goods_factor = 0.15
-			political_power_cost = 0.1
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.05
 		}
 		remove_effect = {
 			CFD = {
@@ -550,10 +552,10 @@ CFD_main_category = {
         is_good = yes
 		fire_only_once = yes
 		cost = 0
-		days_remove = 30
+		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.15
-			political_power_cost = 0.1
+			political_power_cost = 0.2
 		}
 		remove_effect = {
 			CFD = {
@@ -1072,8 +1074,25 @@ CFD_nation_development_category = {
         allowed = { tag = CFD }
 		icon = GFX_decision_generic_industry
         available = {
-           has_country_flag = CFD_can_upgrade_laws
-        }
+			custom_trigger_tooltip = {
+				tooltip = CFD_nationwide_progress_80_tt
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_nationwide_progress
+							value = 0.8
+							compare = greater_than_or_equals
+						}
+						has_country_flag = CFD_can_upgrade_laws
+					}
+				}
+			}
+		}
+		visible = {
+			CFD = {
+				has_country_flag = CFD_can_upgrade_laws
+			}
+		}
         is_good = yes
 		fire_only_once = yes
 		cost = 50
@@ -1094,8 +1113,25 @@ CFD_nation_development_category = {
         allowed = { tag = CFD }
 		icon = GFX_decision_generic_industry
         available = {
-           has_country_flag = CFD_can_upgrade_laws
-        }
+			custom_trigger_tooltip = {
+				tooltip = CFD_nationwide_progress_90_tt
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_nationwide_progress
+							value = 0.9
+							compare = greater_than_or_equals
+						}
+						has_country_flag = CFD_can_upgrade_laws
+					}
+				}
+			}
+		}
+		visible = {
+			CFD = {
+				has_country_flag = CFD_can_upgrade_laws
+			}
+		}
         is_good = yes
 		fire_only_once = yes
 		cost = 50
@@ -1113,7 +1149,36 @@ CFD_nation_development_category = {
 	}
 }
 
-##################		Political Balance mini-game	 	##################
+CFD_PSN_election_category = {
+	CFD_PSN_election_timehold = {
+		activation = {
+			CFD = {
+				has_country_flag = CFD_PSNU_Victory
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			has_war = yes
+		}
+		icon = GFX_decision_generic_civil_support
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
+		complete_effect = {
+			
+		}
+		timeout_effect = {
+			country_event = {
+				id = CFD_elections.9
+				days = 1
+			}
+		}
+	}
+}
+
+##################		Political Balance mini-game	(PCB) 	##################
 CFD_balance_category = {
 	CFD_compromise_with_PCB = {
         allowed = { tag = CFD }
@@ -1125,27 +1190,22 @@ CFD_balance_category = {
 					value = 0.05
 					compare = greater_than_or_equals
 				}
-				OR = {
-					has_country_flag = CFD_PCB_Victory
-					has_country_flag = CFD_PSNU_Victory
-				}
+				has_country_flag = CFD_PCB_Victory
 			}
         }
         visible = {
 			CFD = {
-				OR = {
-					has_country_flag = CFD_PCB_Victory
-					has_country_flag = CFD_PSNU_Victory
-				}
+				has_country_flag = CFD_PCB_Victory
 			}
         }
         is_good = yes
-		cost = 25
-		days_remove = 30
+		cost = 10
+		days_remove = 15
 		modifier = {
-			political_power_cost = 0.05
+			political_power_cost = 0.5
 		}
 		complete_effect = {
+			custom_effect_tooltip = CFD_compromise_PCB_tt
 			add_to_variable = {
 				var = PSN_balance
 				value = -0.05
@@ -1156,7 +1216,7 @@ CFD_balance_category = {
 			}
 		}
 		remove_effect = {
-			add_stability = 0.05
+			add_stability = 0.01
 		}
 		ai_will_do = {
 			factor = 999
@@ -1172,27 +1232,22 @@ CFD_balance_category = {
 					value = 0.05
 					compare = greater_than_or_equals
 				}
-				OR = {
-					has_country_flag = CFD_PCB_Victory
-					has_country_flag = CFD_PSNU_Victory
-				}
+				has_country_flag = CFD_PCB_Victory
 			}
         }
         visible = {
 			CFD = {
-				OR = {
-					has_country_flag = CFD_PCB_Victory
-					has_country_flag = CFD_PSNU_Victory
-				}
+				has_country_flag = CFD_PCB_Victory
 			}
         }
         is_good = yes
-		cost = 25
-		days_remove = 30
+		cost = 10
+		days_remove = 15
 		modifier = {
-			political_power_cost = 0.05
+			political_power_cost = 0.50
 		}
 		complete_effect = {
+			custom_effect_tooltip = CFD_compromise_PSN_tt
 			add_to_variable = {
 				var = PSN_balance
 				value = -0.05
@@ -1203,7 +1258,7 @@ CFD_balance_category = {
 			}
 		}
 		remove_effect = {
-			add_stability = 0.05
+			add_stability = 0.01
 		}
 		ai_will_do = {
 			factor = 999
@@ -1212,10 +1267,7 @@ CFD_balance_category = {
 	CFD_increase_PCB_balance = {
 		activation = {
 			CFD = {
-				OR = {
-					has_country_flag = CFD_PCB_Victory
-					has_country_flag = CFD_PSNU_Victory
-				}
+				has_country_flag = CFD_PCB_Victory
 			}
 		}
 		available = {
@@ -1245,10 +1297,7 @@ CFD_balance_category = {
 	CFD_increase_PSN_balance = {
 		activation = {
 			CFD = {
-				OR = {
-					has_country_flag = CFD_PCB_Victory
-					has_country_flag = CFD_PSNU_Victory
-				}
+				has_country_flag = CFD_PCB_Victory
 			}
 		}
 		available = {
