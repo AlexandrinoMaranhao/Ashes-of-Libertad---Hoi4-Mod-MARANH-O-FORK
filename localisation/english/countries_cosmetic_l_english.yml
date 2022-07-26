@@ -85,10 +85,17 @@
  ALA_NORDESTE_UNIFICATION:0 "Provisional Government of the Northeast"
  PAI_NORDESTE_UNIFICATION:0 "Provisional Government of the Northeast"
  CFD_BRA:0 "Northeastern Provisional Government"
+ CFD_BRA_DEF:0 "the Northeastern Provisional Government"
+ CFD_BRA_ADJ:0 "Nordestine"
  CFD_JUN:0 "Northeastern Military Command"
+ CFD_JUN_DEF:0 "the Northeastern Military Command"
+ CFD_JUN_ADJ:0 "Nordestine"
  INT_NORDESTE_UNIFICATION:0 "Coluna Prestes"
  CEA_MAODC:0 "Mais Alta Ordem de Cristo"
-
+ PIA_PG:0 "Provisional Government of Piauí"
+ PIA_PG_DEF:0 "the Provisional Government of Piauí"
+ PIA_PG_ADJ:0 "Piauiense"
+ 
  ACR_PRONA:0 "Government of Rectification of the National Order"
  ACR_PRONA_ADJ:0 "Acrean"
  ACR_PRONA_DEF:0 "Government of Rectification of the National Order"

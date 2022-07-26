@@ -55,7 +55,7 @@ characters={
 		name="Oswaldo López Arellano"
 		portraits={
 			army={
-				small="GFX_Portrait_Europe_Generic_land_1_small"
+				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
 			}
 			army={
 				large="gfx/leaders/HON/Portrait_HON_Oswaldo_López_Arellano.dds"

@@ -83,12 +83,35 @@ country_event = { #Portella and Miguel
 					release = PIM
 					release = PNA
 					release = JIN
+					release = VDP
+					set_politics = {
+						ruling_party = democratic
+						elections_allowed = no
+						last_election = "1966.12.17"
+						long_name = PIA_PG_party_long
+						name = PIA_PG_party
+					}
+					add_popularity = {
+						ideology = democratic
+						popularity = 1.0
+					}
+					set_cosmetic_tag = PIA_PG
+					remove_ideas = {
+						cangaceiros_total
+					}
+					add_ideas = {
+						PIA_wolf_adminstration
+						cangaceiros_heavy
+					}
 				}
-				
 				JIN = {load_oob = "JIN_1967"}
 				BEP = {load_oob = "BEP_1967"}
 				PIM = {load_oob = "PIM_1967"}
 				PNA = {load_oob = "PNA_1967"}
+				VDP = {
+					load_oob = "VDP_1967"
+					inherit_technology = PIA
+				}
 			}
 		}
     }
@@ -486,6 +509,7 @@ country_event = { #Balance lost control
     id = CFD_events.18
     title = CFD_events.18.t
     desc = CFD_events.18.d
+	timeout_days = 7
 	trigger = {
 		tag = CFD
 		CFD = {

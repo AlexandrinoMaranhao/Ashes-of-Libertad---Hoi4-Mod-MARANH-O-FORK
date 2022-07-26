@@ -18,6 +18,21 @@ SpriteType = {
 }
 
 SpriteType = { 
+	name = "GFX_idea_PIA_wolf_adminstration"
+	texturefile = "gfx/interface/ideas/sertaneja-ideas/PIA_wolf_adminstration.dds"
+}
+
+SpriteType = { 
+	name = "GFX_idea_PIA_just_an_occupation"
+	texturefile = "gfx/interface/ideas/sertaneja-ideas/PIA_just_an_occupation.dds"
+}
+
+SpriteType = { 
+	name = "GFX_idea_PIA_memories_of_the_1963_revolt"
+	texturefile = "gfx/interface/ideas/sertaneja-ideas/PIA_memories_of_the_1963_revolt.dds"
+}
+
+SpriteType = { 
 	name = "GFX_idea_PIA_the_BEP"
 	texturefile = "gfx/interface/ideas/sertaneja-ideas/PIA_the_BEP.dds"
 }

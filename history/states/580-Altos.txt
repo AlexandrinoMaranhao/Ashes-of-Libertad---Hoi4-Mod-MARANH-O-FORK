@@ -3,7 +3,7 @@ state={
 	name="Altos"
 	history={
 		owner = PIA
-		add_core_of = PIA
+		add_core_of = VDP
 		add_claim_by = CFD
 
 		victory_points = {

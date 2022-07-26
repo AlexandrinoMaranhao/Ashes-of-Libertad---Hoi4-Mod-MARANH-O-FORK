@@ -459,6 +459,8 @@ VAL_neutrality_party_long:0 "Companhia Vale do Rio Doce"
 CNU_democratic_party:0 "GPB"
 CNU_democratic_party_long:0 "Governo Provisório da Bahia"
 
+
+
 AMA_democratic_party:0 "PSB - A"
 AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
 
@@ -731,3 +733,6 @@ NUD_democratic_party:0 "UN"
 NUD_democratic_party_long:0 "União pelo Nordeste"
 NUD_communism_party:0 "UPN"
 NUD_communism_party_long:0 "União Popular Nordestina"
+
+PIA_PG_party:0 "GPP"
+PIA_PG_party_long:0 "Governo Provisório do Piauí"

@@ -656,6 +656,11 @@ RGN = {
 	color_ui = rgb { 193 166 141 }
 }
 
+VDP = {
+	color = rgb { 193 166 141 }
+	color_ui = rgb { 193 166 141 }
+}
+
 PEB = {
 	color = rgb { 127 51 13 }
 	color_ui = rgb { 127 51 13 }

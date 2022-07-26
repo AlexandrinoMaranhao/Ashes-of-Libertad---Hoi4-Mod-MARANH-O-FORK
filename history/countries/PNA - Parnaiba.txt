@@ -40,6 +40,8 @@ add_ideas = {
 	trade_scope_intercontinental_exports
 	economic_focus_early_mobilization
 	
+	PIA_memories_of_the_1963_revolt
+	PIA_just_an_occupation
 	cangaceiros_light
 }
 

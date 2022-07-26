@@ -3,7 +3,7 @@ state={
 	name="José de Freitas"
 	history={
 		owner = PIA
-		add_core_of = PIA
+		add_core_of = VDP
 
 		victory_points = {
 			52 2

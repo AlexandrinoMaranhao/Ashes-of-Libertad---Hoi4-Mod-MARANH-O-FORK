@@ -23,6 +23,31 @@ ideas = {
 			}
 		}
 		
+		PIA_wolf_adminstration = {
+		
+			modifier = {
+				defensive_war_stability_factor = -0.1
+				political_advisor_cost_factor = 0.5
+				party_popularity_stability_factor = -0.3
+				political_power_gain = -0.1
+			}
+		}
+		
+		PIA_memories_of_the_1963_revolt = {
+		
+			modifier = {
+				political_advisor_cost_factor = 0.2
+				political_power_gain = -0.15
+			}
+		}
+		
+		PIA_just_an_occupation = {
+		
+			modifier = {
+				defensive_war_stability_factor = 0.25
+			}
+		}
+		
 		cangaceiros_and_commies = {
 
 			allowed_civil_war = {
