@@ -46,7 +46,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-	spriteType = { #CFD Political Parties.
+	spriteType = { #CFD Political Parties icons.
 		name = "GFX_CFD_PSNU_party_icon"
 		texturefile = "gfx/texticons/CFD_PSNU_party_icon.dds"
 		legacy_lazy_load = no
@@ -67,4 +67,19 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = { #SAO Political Parties icons.
+		name = "GFX_ALN_party_icon"
+		texturefile = "gfx/texticons/ALN_party_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SAO_cons_party_icon"
+		texturefile = "gfx/texticons/SAO_cons_party_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BRA_military_party_icon"
+		texturefile = "gfx/texticons/BRA_military_party_icon.dds"
+		legacy_lazy_load = no
+	}
 }

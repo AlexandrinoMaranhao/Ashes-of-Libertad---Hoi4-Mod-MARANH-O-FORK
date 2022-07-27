@@ -41,10 +41,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
 	}
 	
-	###Para Parties###
+	###Brasil Parties###
 	spriteType = {
-		name = "GFX_ideology_BEM_military_junta"
-		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
+		name = "GFX_ideology_BRA_liberalism"
+		texturefile = "gfx/interface/ideologies/BRA_PTB_party.dds"
+	}
+	###Pro-Jango Mato Grosso Parties###
+	spriteType = {
+		name = "GFX_ideology_MGS_provisional_government"
+		texturefile = "gfx/interface/ideologies/BRA_military_party.dds"
 	}
 	
 	###Brasilia Junta Parties###
@@ -52,7 +57,6 @@ spriteTypes = {
 		name = "GFX_ideology_JUN_military_junta"
 		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
 	}
-	
 	###Pro-Junta Mato Grosso Parties###
 	spriteType = {
 		name = "GFX_ideology_JAG_military_government"
@@ -64,4 +68,14 @@ spriteTypes = {
 		name = "GFX_ideology_MNH_coronelism"
 		texturefile = "gfx/interface/ideologies/ARENA_party.dds"
 	}
+	
+	###Sao Paulo Parties###
+	spriteType = {
+		name = "GFX_ideology_SAO_coronelism"
+		texturefile = "gfx/interface/ideologies/SAO_PSP_party.dds"
+	}
+	#spriteType = {
+	#	name = "GFX_ideology_SAO_figueiredo"
+	#	texturefile = "gfx/interface/ideologies/SAO_cons_party.dds"
+	#}
 }

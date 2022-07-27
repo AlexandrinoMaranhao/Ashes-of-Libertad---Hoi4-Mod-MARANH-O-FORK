@@ -16,7 +16,7 @@ spriteTypes = {
 		name = "GFX_decision_category_SAO_international_diplomacy_category"
 		texturefile = "gfx/interface/decisions/decision_category_extra_federal_sp.dds"
 	}
-										
+
 	spriteType = {
 		name = "GFX_piaui_frontier"
 		texturefile = "gfx/interface/decisions/piaui_frontier.dds"
@@ -27,6 +27,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/cfd_nationwide_reforms.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = { #PCB-PSN Power Balance beta
+		name = "GFX_cfd_power_balance_wip"
+		texturefile = "gfx/interface/decisions/cfd_pcb_psn_power_balance_wip.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #PCB-PSN Power Balance final
+		name = "GFX_cfd_power_balance"
+		texturefile = "gfx/interface/decisions/cfd_pcb_psn_power_balance_final.dds"
+		legacy_lazy_load = no
+	}
+	
 					
 	spriteType = {
 		name = "GFX_use_hid_weapons_decision"

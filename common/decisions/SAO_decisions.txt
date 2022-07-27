@@ -453,7 +453,7 @@ SAO_category = {
 			stability_weekly = -0.001
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -481,7 +481,7 @@ SAO_category = {
 			stability_weekly = -0.001
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+			
 		}
 		ai_will_do = {
 			factor = 1
@@ -542,7 +542,7 @@ SAO_category = {
 			stability_weekly = -0.001
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -602,7 +602,7 @@ SAO_category = {
 			stability_weekly = -0.001
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -663,7 +663,7 @@ SAO_category = {
 			stability_weekly = -0.001
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -700,7 +700,6 @@ SAO_category = {
 			democratic_drift = 0.2
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
 		}
 		ai_will_do = {
 			factor = 1
@@ -1067,9 +1066,9 @@ SAO_international_diplomacy_category = {
 			factor = 999
 		}
 	}
-
+}
 ###INTERVENTION MISSIONS
-
+SAO_divided_ppl_category = {
 	sao_junta_intervention = {
 		allowed = { tag = SAO }
 		available = {
@@ -1162,7 +1161,6 @@ SAO_international_diplomacy_category = {
 		}
 	}
 }
-
 SAO_cat_and_mouse_category = {
 	############################################
 }

@@ -126,5 +126,5 @@
  
  CFD_nation_development_category:0 "National Development Programs"
  CFD_nation_development_category_desc:0 "**WIP**\nmake sertao great again % is at: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                                £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
- CFD_balance_category:0 "§RPCB§! - §YPSN§! Power Balance"
- CFD_balance_category_desc:0 "**WIP** \n\n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%R0§!] \n£GFX_CFD_PSN_party_icon §GCompromise§!:  [?CFD_no_balance|%G0§!] \n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%Y0§!]"
+ CFD_balance_category:0 "§YPSN§! - §RPCB§! Power Balance"
+ CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"

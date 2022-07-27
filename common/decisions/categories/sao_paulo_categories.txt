@@ -9,6 +9,18 @@ SAO_category = {
     priority = 300
 }
 
+SAO_divided_ppl_category = {
+	allowed = {
+		original_tag = SAO
+	}
+	visible = {
+		original_tag = SAO
+	}
+	icon = GFX_decision_category_acrean_raids
+	visible_when_empty = yes
+    priority = 350
+}
+
 SAO_international_diplomacy_category = {
 	allowed = {
 		original_tag = SAO

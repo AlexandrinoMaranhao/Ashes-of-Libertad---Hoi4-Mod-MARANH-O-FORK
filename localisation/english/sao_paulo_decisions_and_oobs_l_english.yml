@@ -32,6 +32,13 @@
  sao_liberate_sorocaba:0 "Liberate §OSorocaba§!"
  sao_direct_intervention_against_the_mst:0 "Announce a §RDirect Intervention§! Against the §RMST§!"
  sao_institutions_remover:0 "§OTake Over Federal Institutions§!"
+ 
+#############################################
+#	Sao Paulo's divided populace Decisions	#
+#############################################
+ SAO_divided_ppl_category:0 "São Paulo's Divided Populace"
+ SAO_divided_ppl_category_desc:0 "**WIP** \n\n£GFX_manpower_texticon Military Support: §G[?has_war_support|%0]§!\n£GFX_pol_power Administrative Satisfaction: §G[?has_stability|%0§!]§!\n\n£GFX_SAO_cons_party_icon §gConstitutionalists Support§!:  [?party_popularity@reactionary|%O0§!] \n£GFX_BRA_military_party_icon §3Republican Support§!:  §2[?party_popularity@democratic|%0§!]§! \n£GFX_ALN_party_icon §tALN Support§!:  [?party_popularity@communism|%R0§!] \n£GFX_ARENA_party_icon §GARENA Support§!:  §7[?party_popularity@fascism|%0§!]§! \n\n£GFX_population_texticon Population Awareness: \n\nPaulistanos: [?SAO_paulistas_support|%Y0§!] \nCaipiras: [?SAO_caipiras_support|%Y0§!] \nPraianos: [?SAO_praianos_support|%Y0§!] \n\nSyrian-Lebanese: [?SAO_syrian_support|%Y0§!] \nJapanese: [?SAO_japa_support|%Y0§!] \nChinese: [?SAO_china_support|%Y0§!] \nItalian: [?SAO_italian_support|%Y0§!] \n\nThe Upper Classes: [?SAO_high_class_support|%Y0§!] \nThe Middle Classes: [?SAO_med_class_support|%Y0§!] \nThe Lower Classes: [?SAO_low_class_support|%Y0§!]"
+
 ################
 # Tooltips
 ################
