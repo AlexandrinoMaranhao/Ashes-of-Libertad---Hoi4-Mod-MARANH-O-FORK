@@ -76,15 +76,7 @@
  Army_Exp_Gain:0 "Distribute Socialist Literature"
  cor_conquer_tef:0 "Conquering Tefé"
  conquer_tef:0 "Act Quickly!"
- 
- #Custom cost tooltips
- decision_cost_CP_15:0 "£command_power  §Y15§!"
- decision_cost_CP_15_blocked:0 "£command_power  §R15§!"
- decision_cost_CP_15_tooltip:0 "It costs £command_power  §Y15§! to take this decision."
- decision_cost_CP_25:0 "£command_power  §Y25§!"
- decision_cost_CP_25_blocked:0 "£command_power  §Y25§!"
- decision_cost_CP_25_tooltip:0 "It costs £command_power  §Y25§! to take this decision."
- 
+  
  #Change social laws system
  change_social_laws:0 "Social Investment Acts"
  WR_improve_law_1:0 "Begin Worker's Regulations improvements"
@@ -125,6 +117,6 @@
  CFD_reform_army_3:0 "Introduce Pro-Confederation propaganda on patrol drills"
  
  CFD_nation_development_category:0 "National Development Programs"
- CFD_nation_development_category_desc:0 "**WIP**\nmake sertao great again % is at: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                                £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
+ CFD_nation_development_category_desc:0 "**WIP**\n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash]§! \nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                              £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
  CFD_balance_category:0 "§YPSN§! - §RPCB§! Power Balance"
  CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"

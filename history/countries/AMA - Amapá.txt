@@ -52,7 +52,7 @@ recruit_character = AMA_raul_monteiro_valdez
 create_country_leader = {
 	
 	name = "Luis Mendes da Silva"
-	picture = "GFX_el_generico3"
+	picture = GFX_el_generico3
 	expire = "1999.1.1"
 	ideology = military_junta
 }

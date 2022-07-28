@@ -163,8 +163,9 @@ country_event = { #Sampaio Plans 2
 		}
 		custom_effect_tooltip = "This will unify the development national spirits into a single one."
 		hidden_effect = {
-			add_ideas = {CFD_sudene}
+			add_ideas = {CFD_sudene CFD_cid_sempaio_advisor}
 			remove_ideas = {CFD_the_bandecose CFD_the_coperbe}
+			clr_country_flag = CFD_cid_adminstration
 		}
     }
 }
@@ -277,10 +278,10 @@ country_event = { #Doria Judgment 1
     option = {
         name = CFD_events.10.a
 		CFD = {
-			add_political_power = 50
+			add_political_power = 100
 			add_popularity = {
 				ideology = reactionary
-				popularity = -0.05
+				popularity = -0.1
 			}
 		}
     }
@@ -296,10 +297,21 @@ country_event = { #Doria Judgment 2
     option = {
         name = CFD_events.10.b
 		CFD = {
-			add_political_power = 100
+			add_intel = {
+				target = FRN
+				civilian_intel = 3
+				army_intel = 3
+				navy_intel = 3
+				airforce_intel = 3
+			}
+			add_decryption = {
+				target = FRN
+				ratio = 0.7
+			}
+			add_political_power = 50
 			add_popularity = {
 				ideology = reactionary
-				popularity = -0.1
+				popularity = -0.05
 			}
 		}
     }
@@ -354,7 +366,7 @@ country_event = { #Memories of Praieira Flavor
     title = CFD_events.12.t
     desc = CFD_events.12.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_memories
+    picture = GFX_report_cfd_propaganda
 
     option = {
         name = CFD_events.12.a
@@ -553,6 +565,23 @@ country_event = { #Balance lost control
     }
 }
 
+country_event = { #The Army Situation
+    id = CFD_events.19
+    title = CFD_events.19.t
+    desc = CFD_events.19.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.19.a
+		CFD = {
+			add_war_support = 0.05
+			army_experience = 25
+			unlock_decision_tooltip = CFD_reform_army
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -698,6 +727,7 @@ country_event = { #Election yes or no
 		}
 		CFD = {
 			hidden_effect = {
+				clr_country_flag = CFD_elections_phase_1
 				complete_national_focus = CFD_nooneotherthanme
 				clear_variable = CFD_no_elections_chances
 			}	

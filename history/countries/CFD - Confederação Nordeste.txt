@@ -124,6 +124,10 @@ set_variable = {
 	var = CFD_no_balance
 	value = 1
 }
+set_variable = {
+	var = CFD_resource_cash
+	value = 10
+}
 
 create_country_leader = {
 	name = "Nivaldo Rodrigues Machado"

@@ -48,6 +48,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_cfd_propaganda"
+		texturefile = "gfx/event_pictures/report_cfd_propaganda.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_cfd_elections"
 		texturefile = "gfx/event_pictures/report_cfd_elections.dds"
 	}

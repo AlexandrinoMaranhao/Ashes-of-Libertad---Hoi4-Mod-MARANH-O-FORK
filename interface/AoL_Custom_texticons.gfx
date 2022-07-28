@@ -35,6 +35,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_CFD_cash_icon"
+		texturefile = "gfx/texticons/CFD_cash_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_portuclave"
 		texturefile = "gfx/texticons/portuclave.dds"
 		legacy_lazy_load = no

@@ -178,6 +178,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				7 = {
 					set_building_level = {
 						type = infrastructure
@@ -213,6 +215,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				573 = {
 					set_building_level = {
 						type = infrastructure
@@ -253,6 +257,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				8 = {
 					set_building_level = {
 						type = infrastructure
@@ -294,6 +300,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				503 = {
 					set_building_level = {
 						type = infrastructure
@@ -335,6 +343,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				574 = {
 					set_building_level = {
 						type = infrastructure
@@ -382,6 +392,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				10 = {
 					set_building_level = {
 						type = infrastructure
@@ -422,6 +434,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				4 = {
 					set_building_level = {
 						type = infrastructure
@@ -474,6 +488,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				6 = {
 					add_building_construction = {
 						type = fuel_silo 
@@ -514,6 +530,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				5 = {
 					add_building_construction = {
 						type = synthetic_refinery  
@@ -559,6 +577,8 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
+				custom_effect_tooltip = CFD_will_get_cash
+				add_to_variable = { CFD_resource_cash = 0.5 }
 				12 = {
 					add_building_construction = {
 						type = air_base   
@@ -1070,6 +1090,217 @@ CFD_maranhao_war_category = {
 
 ##################		Nation-Wide Development		##################
 CFD_nation_development_category = {
+	CFD_actual_dolar_money = {
+        allowed = { tag = CFD }
+		icon = GFX_decision_generic_industry
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = CFD_nationwide_progress_100_tt
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_nationwide_progress
+							value = 1.0
+							compare = greater_than_or_equals
+						}
+						has_country_flag = CFD_development
+					}
+				}
+			}
+		}
+		visible = {
+			CFD = {
+				has_country_flag = CFD_development
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			remove_ideas = CFD_barterbased_economy
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_monthly_cash_gain = {
+		activation = {
+			CFD = {
+				has_country_flag = CFD_development
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			has_war = yes
+		}
+		icon = GFX_decision_generic_civil_support
+		is_good = yes
+		days_mission_timeout = 30
+		selectable_mission = yes
+		complete_effect = {
+		}
+		timeout_effect = {
+			custom_effect_tooltip = CFD_monthly_cash_tt
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = 0.25
+			}
+			hidden_effect = {
+				activate_decision = CFD_monthly_cash_gain
+			}
+		}
+	}
+	##############	BUY ITEMS ##############
+	CFD_buy_clandestine_mils = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+           has_country_flag = CFD_development
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_offsite_building = { type = arms_factory level = 3 }
+		}
+        is_good = yes
+		days_remove = 60
+		modifier = {
+
+		}
+		remove_effect = {
+			add_offsite_building = { type = arms_factory level = -3 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_buy_clandestine_civs = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_construction
+        available = {
+           has_country_flag = CFD_development
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_offsite_building = { type = industrial_complex  level = 10 }
+		}
+        is_good = yes
+		days_remove = 60
+		modifier = {
+
+		}
+		remove_effect = {
+			add_offsite_building = { type = industrial_complex  level = -10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	##############	SELL ITEMS ##############
+	CFD_sell_civilian_goods = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_civil_support
+		cost = 10
+        available = {
+			CFD = {
+				AND = {
+					has_country_flag = CFD_development
+					has_equipment = {
+						train_equipment > 49
+					}
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_get_cash_at_pp_cost
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = 1
+			}
+			add_equipment_to_stockpile = {
+				type = train_equipment
+				amount = -50
+				producer = CFD
+			}
+		}
+        is_good = yes
+		days_remove = 7
+		modifier = {
+			consumer_goods_factor = 0.25
+		}
+		remove_effect = {
+			add_stability = -0.02
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_sell_convoys = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_civil_support
+		cost = 10
+        available = {
+			CFD = {
+				AND = {
+					has_country_flag = CFD_development
+					has_equipment = {
+						convoy > 49
+					}
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_get_cash_at_pp_cost
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = 1
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -50
+				producer = CFD
+			}
+		}
+        is_good = yes
+		days_remove = 14
+		modifier = {
+			industrial_capacity_dockyard = -0.5
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	CFD_WR_upgrade = {
         allowed = { tag = CFD }
 		icon = GFX_decision_generic_industry
@@ -1104,6 +1335,11 @@ CFD_nation_development_category = {
 		remove_effect = {
 			add_ideas = WR_acceptable_regulations
 			add_stability = 0.05
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -1140,6 +1376,11 @@ CFD_nation_development_category = {
 			production_factory_efficiency_gain_factor = -0.1
 		}
 		remove_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
 			add_ideas = SI_acceptable_regulations
 			add_stability = 0.05
 		}
@@ -1207,7 +1448,7 @@ CFD_balance_category = {
 		complete_effect = {
 			custom_effect_tooltip = CFD_compromise_PCB_tt
 			add_to_variable = {
-				var = PSN_balance
+				var = PCB_balance
 				value = -0.05
 			}
 			add_to_variable = {

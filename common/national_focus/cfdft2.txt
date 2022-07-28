@@ -37,7 +37,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = CFD_uniting_the_people  }
-		mutually_exclusive = { focus = CFD_assggreenstarssonthesky  }
+		mutually_exclusive = { focus = CFD_ssythessssyoppositionssssgleadershipss  }
 		ai_will_do = { factor = 1 }
 		available = {
 			has_country_flag = CFD_PCB_Victory
@@ -45,9 +45,9 @@ focus_tree = {
 		}
 	}
 
-	#A §GGreen Star§! On the Sky
+	#§YThe§! §YOpposition§! §GLeadership§!
 	focus = {
-		id = CFD_assggreenstarssonthesky
+		id = CFD_ssythessssyoppositionssssgleadershipss
 		icon = GFX_goal_unknown
 		x = 35
 		y = 5
@@ -76,7 +76,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_assggreenstarssonthesky  }
+		prerequisite = { focus = CFD_ssythessssyoppositionssssgleadershipss  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			custom_effect_tooltip = "This focus is related to the PSN - Usineiros' path and currently isn't available on this version."
@@ -143,7 +143,6 @@ focus_tree = {
 		prerequisite = { focus = CFD_anotherdayintheoffice  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			unlock_decision_category_tooltip = CFD_main_category
 			add_tech_bonus = {
 			    bonus = 0.5
 			    uses = 2
@@ -245,6 +244,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			unlock_decision_category_tooltip = CFD_main_category
 			hidden_effect = {
 				country_event = {
 					id = CFD_events.8
@@ -323,8 +323,9 @@ focus_tree = {
 		prerequisite = { focus = CFD_establishing_a_new_currency  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			remove_ideas = CFD_barterbased_economy
 			add_ideas = CFD_the_bandecose
+			unlock_decision_category_tooltip = CFD_nation_development_category
+			set_country_flag = CFD_development
 		}
 	}
 
@@ -739,7 +740,10 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = militia_officer_training
-			unlock_decision_tooltip = CFD_reform_army
+			country_event = {
+			    id = CFD_events.19
+			    days = 1
+			}
 		}
 	}
 

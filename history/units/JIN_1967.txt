@@ -6,7 +6,6 @@ division_template = {
 		militia_unit = { x = 0 y = 1 }
         militia_unit = { x = 1 y = 0 }
 		militia_unit = { x = 1 y = 1 }
-		militia_unit = { x = 1 y = 2 }
 	}
 }
 
@@ -15,28 +14,14 @@ units = {
 		name = "Pio's Cangaceiros"
 		location = 1236
 		division_template = "Cangaceiros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.1
 	}
 	division = {
 		name = "Pico's Cangaceiros"
 		location = 1236
 		division_template = "Cangaceiros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
-	division = {
-		name = "Simoes' Cangaceiros"
-		location = 1236
-		division_template = "Cangaceiros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
-	division = {
-		name = "Jaicos' Cangaceiros"
-		location = 1236
-		division_template = "Cangaceiros"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.1
 	}
 }
