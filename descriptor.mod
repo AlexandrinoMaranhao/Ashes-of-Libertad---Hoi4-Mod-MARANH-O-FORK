@@ -1,4 +1,4 @@
-version="Alpha Release - São Paulo 0.2"
+version="Alpha Release - São Paulo 1.7"
 name="Ashes of Libertad Dev Version"
 tags={
 	"Gameplay"

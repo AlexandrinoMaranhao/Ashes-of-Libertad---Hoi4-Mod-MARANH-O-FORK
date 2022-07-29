@@ -279,10 +279,6 @@ country_event = { #Doria Judgment 1
         name = CFD_events.10.a
 		CFD = {
 			add_political_power = 100
-			add_popularity = {
-				ideology = reactionary
-				popularity = -0.1
-			}
 		}
     }
 }
@@ -309,10 +305,6 @@ country_event = { #Doria Judgment 2
 				ratio = 0.7
 			}
 			add_political_power = 50
-			add_popularity = {
-				ideology = reactionary
-				popularity = -0.05
-			}
 		}
     }
 }
@@ -1655,7 +1647,7 @@ country_event = {
             501 = { set_demilitarized_zone = yes }
             30 = { set_demilitarized_zone = yes }
 		SAO = { remove_ideas = SAO_the_devil_in_the_bottle }
-      create_faction = partido_comunista_brasileiro_FACTION
+		create_faction = partido_comunista_brasileiro_FACTION
     }
   } 
 }

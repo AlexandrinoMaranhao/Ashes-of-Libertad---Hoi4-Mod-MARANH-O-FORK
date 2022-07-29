@@ -187,7 +187,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -229,7 +233,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -272,7 +280,11 @@ CFD_main_category = {
 						province = 4160
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -315,7 +327,11 @@ CFD_main_category = {
 						province = 164
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -364,7 +380,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -406,7 +426,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -460,7 +484,11 @@ CFD_main_category = {
 						instant_build = yes
 					} 
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -502,7 +530,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -549,7 +581,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -605,7 +641,11 @@ CFD_main_category = {
 						instant_build = yes
 					}
 				}
-				add_stability = 0.01
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+				add_stability = -0.01
 			}
 		}
 		ai_will_do = {
@@ -1160,12 +1200,496 @@ CFD_nation_development_category = {
 			}
 		}
 	}
+	##############	Miguel's Upgrades ##############
+	CFD_WR_upgrade = {
+        allowed = { tag = CFD }
+		icon = GFX_decision_generic_industry
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = CFD_nationwide_progress_80_tt
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_nationwide_progress
+							value = 0.8
+							compare = greater_than_or_equals
+						}
+						has_country_flag = CFD_can_upgrade_laws
+					}
+				}
+			}
+		}
+		visible = {
+			CFD = {
+				has_country_flag = CFD_can_upgrade_laws
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+			production_speed_industrial_complex_factor = -0.15
+			production_speed_arms_factory_factor = -0.25
+		}
+		remove_effect = {
+			add_stability = 0.05
+			add_ideas = WR_acceptable_regulations
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_SI_upgrade = {
+        allowed = { tag = CFD }
+		icon = GFX_decision_generic_industry
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = CFD_nationwide_progress_90_tt
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_nationwide_progress
+							value = 0.9
+							compare = greater_than_or_equals
+						}
+						has_country_flag = CFD_can_upgrade_laws
+					}
+				}
+			}
+		}
+		visible = {
+			CFD = {
+				has_country_flag = CFD_can_upgrade_laws
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		modifier = {
+			production_factory_efficiency_gain_factor = -0.1
+		}
+		remove_effect = {
+			add_stability = 0.05
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_ideas = SI_acceptable_regulations
+			custom_effect_tooltip = CFD_will_lose_cash
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	##############	Miguel's Upgrades ##############
 	##############	BUY ITEMS ##############
+	CFD_AMA_buy_tech_2 = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = technology
+						amount = 3
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AMA_buy_tech = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = technology
+						amount = 3
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AMA_buy_motors_2 = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = motors
+						amount = 3
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AMA_buy_motors = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = motors
+						amount = 3
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_CNU_buy_steel_2 = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 3
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_CNU_buy_steel_1 = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 3
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_CNU_buy_ammo_2 = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = ammunition
+						amount = 2
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_CNU_buy_ammo_1 = {
+		icon = GFX_decision_icon_default
+		days_remove = 60
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_can_upgrade_laws
+				}
+			}
+		}
+		visible = {
+			CFD = {has_country_flag = CFD_can_upgrade_laws}
+		}
+		complete_effect = {
+			CFD = {
+				add_to_variable = { CFD_resource_cash = -1.0 }
+				custom_effect_tooltip = CFD_will_lose_cash
+				capital_scope = {
+					add_resource = {
+						type = ammunition
+						amount = 5
+					}	
+				}
+			}
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		remove_effect = {
+			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
+			add_to_variable = {
+				var = CFD_nationwide_progress
+				value = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 	CFD_buy_clandestine_mils = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
         available = {
-           has_country_flag = CFD_development
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
         }
 		visible = {
 			has_country_flag = CFD_development
@@ -1194,7 +1718,16 @@ CFD_nation_development_category = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
         available = {
-           has_country_flag = CFD_development
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
         }
 		visible = {
 			has_country_flag = CFD_development
@@ -1255,7 +1788,7 @@ CFD_nation_development_category = {
 			consumer_goods_factor = 0.25
 		}
 		remove_effect = {
-			add_stability = -0.02
+			add_stability = -0.01
 		}
 		ai_will_do = {
 			factor = 0
@@ -1301,93 +1834,6 @@ CFD_nation_development_category = {
 			factor = 0
 		}
 	}
-	CFD_WR_upgrade = {
-        allowed = { tag = CFD }
-		icon = GFX_decision_generic_industry
-        available = {
-			custom_trigger_tooltip = {
-				tooltip = CFD_nationwide_progress_80_tt
-				CFD = {
-					AND = {
-						check_variable = {
-							var = CFD_nationwide_progress
-							value = 0.8
-							compare = greater_than_or_equals
-						}
-						has_country_flag = CFD_can_upgrade_laws
-					}
-				}
-			}
-		}
-		visible = {
-			CFD = {
-				has_country_flag = CFD_can_upgrade_laws
-			}
-		}
-        is_good = yes
-		fire_only_once = yes
-		cost = 50
-		days_remove = 30
-		modifier = {
-			production_speed_industrial_complex_factor = -0.15
-			production_speed_arms_factory_factor = -0.25
-		}
-		remove_effect = {
-			add_ideas = WR_acceptable_regulations
-			add_stability = 0.05
-			custom_effect_tooltip = CFD_will_lose_cash
-			add_to_variable = {
-				var = CFD_resource_cash
-				value = -1
-			}
-		}
-		ai_will_do = {
-			factor = 999
-		}
-	}
-	CFD_SI_upgrade = {
-        allowed = { tag = CFD }
-		icon = GFX_decision_generic_industry
-        available = {
-			custom_trigger_tooltip = {
-				tooltip = CFD_nationwide_progress_90_tt
-				CFD = {
-					AND = {
-						check_variable = {
-							var = CFD_nationwide_progress
-							value = 0.9
-							compare = greater_than_or_equals
-						}
-						has_country_flag = CFD_can_upgrade_laws
-					}
-				}
-			}
-		}
-		visible = {
-			CFD = {
-				has_country_flag = CFD_can_upgrade_laws
-			}
-		}
-        is_good = yes
-		fire_only_once = yes
-		cost = 50
-		days_remove = 30
-		modifier = {
-			production_factory_efficiency_gain_factor = -0.1
-		}
-		remove_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
-			add_to_variable = {
-				var = CFD_resource_cash
-				value = -1
-			}
-			add_ideas = SI_acceptable_regulations
-			add_stability = 0.05
-		}
-		ai_will_do = {
-			factor = 999
-		}
-	}
 }
 
 CFD_PSN_election_category = {
@@ -1405,7 +1851,7 @@ CFD_PSN_election_category = {
 		}
 		icon = GFX_decision_generic_civil_support
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 47
 		selectable_mission = yes
 		complete_effect = {
 			

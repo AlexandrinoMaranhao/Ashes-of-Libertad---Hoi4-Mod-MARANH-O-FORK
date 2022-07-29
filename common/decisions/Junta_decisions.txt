@@ -1,5 +1,6 @@
 CRJ_second_battle_of_guanabara = {
 	CRJ_win_the_battle = {
+		fire_only_once = yes
 		allowed = { tag = CRJ }                
           available = {                           
             24 = {
