@@ -1752,8 +1752,187 @@ CFD_nation_development_category = {
 			factor = 0
 		}
 	}
+	CFD_buy_infantry_equipment = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 14
+		modifier = {
+
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_buy_medical_supplies = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_research
+        available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+				producer = ROOT
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_gear
+				amount = 100
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 7
+		modifier = {
+
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_buy_mobile_equipment = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_tank
+        available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 100
+				producer = ROOT
+			}
+			add_equipment_to_stockpile = {
+				type = mechanized_equipment
+				amount = 100
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 14
+		modifier = {
+
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_buy_heavy_equipment = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			custom_effect_tooltip = CFD_will_lose_cash
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -1
+			}
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 250
+				producer = ROOT
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 250
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 7
+		modifier = {
+
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	##############	SELL ITEMS ##############
-	CFD_sell_civilian_goods = {
+	CFD_sell_trains = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_civil_support
 		cost = 10
@@ -1785,7 +1964,7 @@ CFD_nation_development_category = {
         is_good = yes
 		days_remove = 7
 		modifier = {
-			consumer_goods_factor = 0.25
+			consumer_goods_factor = -0.1
 		}
 		remove_effect = {
 			add_stability = -0.01
@@ -1826,9 +2005,10 @@ CFD_nation_development_category = {
         is_good = yes
 		days_remove = 14
 		modifier = {
-			industrial_capacity_dockyard = -0.5
+			consumer_goods_factor = -0.1
 		}
 		remove_effect = {
+			add_stability = -0.01
 		}
 		ai_will_do = {
 			factor = 0

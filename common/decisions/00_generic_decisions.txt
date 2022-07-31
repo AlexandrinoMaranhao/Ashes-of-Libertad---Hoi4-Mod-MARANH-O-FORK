@@ -105,6 +105,7 @@ weaponstash_system_category = {
 					}
 					add_dynamic_modifier = {
 						modifier = using_weapon_stashes
+						scope = ROOT
 						days = 30
 					}
 				}
