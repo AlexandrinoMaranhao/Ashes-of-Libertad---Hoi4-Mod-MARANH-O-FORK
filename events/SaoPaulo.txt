@@ -260,6 +260,9 @@ country_event = { #"Cheia de Flores, Cheia de Encantos"
 
     option = {
         name = SAO_Focus_Tree_Events.17.A
+        SAO = {
+        transfer_state = 570
+        }
     }
 }
 country_event = { #"The Legs of the Revolution"
@@ -455,7 +458,7 @@ country_event = { #Road to Guanabara event 1
     id = SAO_ROAD_TO_GUANABARA.1
     title = SAO_ROAD_TO_GUANABARA.1.t
     desc = SAO_ROAD_TO_GUANABARA.1.d
-    picture = x
+    picture = GFX_report_event_serra_do_mar_1
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -525,7 +528,7 @@ country_event = { #Road to Guanabara event 2
     id = SAO_ROAD_TO_GUANABARA.2
     title = SAO_ROAD_TO_GUANABARA.2.t
     desc = SAO_ROAD_TO_GUANABARA.2.d
-    picture = x
+    picture = GFX_report_event_serra_do_mar_2
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -577,7 +580,7 @@ country_event = { #Road to Guanabara event 3
     id = SAO_ROAD_TO_GUANABARA.3
     title = SAO_ROAD_TO_GUANABARA.3.t
     desc = SAO_ROAD_TO_GUANABARA.3.d
-    picture = x
+    picture = GFX_report_event_serra_do_mar_3
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -627,23 +630,26 @@ country_event = { #The Choice.
     id = SAO_ROAD_TO_GUANABARA.4
     title = SAO_ROAD_TO_GUANABARA.4.t
     desc = SAO_ROAD_TO_GUANABARA.4.d
-    picture = x
+    picture = GFX_report_event_the_choice
     fire_only_once = yes
     is_triggered_only = yes
 
-    option = { #Marighella
+    option = { # Figueiredo
         name = SAO_ROAD_TO_GUANABARA.4.A 
 		set_country_flag = SAO_figueiredo_path
+        custom_effect_tooltip =  the_choice_figueiredo_tt
     }
-    option = { #Figueiredo
+    option = { # Marighella
         name = SAO_ROAD_TO_GUANABARA.4.B
 		set_country_flag = SAO_marighella_path
+        custom_effect_tooltip = the_choice_marighella_tt
     }
 	# -Disabled. Not in this demo. #
 	#
     #option = { #Quadros
     #    name = SAO_ROAD_TO_GUANABARA.4.C
     #    set_country_flag = SAO_quadros_path
+    #    custom_effect_tooltip = the_choice_quadros_tt
     #}
 }
 
@@ -691,7 +697,7 @@ country_event = { #
     id = SAO_MARIGHELLA.2
     title = SAO_MARIGHELLA.2.t
     desc = SAO_MARIGHELLA.2.d
-    picture = x
+    picture = GFX_news_event_marighella
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -704,7 +710,7 @@ country_event = { #
     id = SAO_MARIGHELLA.3
     title = SAO_MARIGHELLA.3.t
     desc = SAO_MARIGHELLA.3.d
-    picture = x
+    picture = GFX_news_event_marighella
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -717,7 +723,7 @@ country_event = { #
     id = SAO_MARIGHELLA.4
     title = SAO_MARIGHELLA.4.t
     desc = SAO_MARIGHELLA.4.d
-    picture = x
+    picture = GFX_news_event_marighella
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -730,7 +736,7 @@ country_event = { #
     id = SAO_MARIGHELLA.5
     title = SAO_MARIGHELLA.5.t
     desc = SAO_MARIGHELLA.5.d
-    picture = x
+    picture = GFX_news_event_marighella
     fire_only_once = yes
     is_triggered_only = yes
 
@@ -766,7 +772,15 @@ country_event = { #Natel Gets Assassinated
     option = {
         name = SAO_Flavour.2.A
 
-        hidden_effect = { SAO = { country_event = {id = SAO_Flavour.3 days = 5 }}}
+        hidden_effect = { 
+        SAO = {
+        add_popularity = {
+        ideology = fascism
+        popularity = -0.10
+        }
+
+        country_event = {id = SAO_Flavour.3 days = 5 }}}
+
     }
 }
 

@@ -18,7 +18,7 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = -0.05
-				political_power_gain = -0.2
+				political_power_gain = -0.5
 				communism_drift = 0.1
 				resistance_growth = 0.1
 				resistance_damage_to_garrison = 0.2
@@ -31,8 +31,14 @@ ideas = {
 				original_tag = SAO
 			}
 			modifier = {
-				political_power_gain = -0.3
-party_popularity_stability_factor = -0.2
+				political_power_gain = -0.5
+				party_popularity_stability_factor = -0.5
+				resistance_growth = 0.1
+				resistance_damage_to_garrison = 0.2
+				line_change_production_efficiency_factor = -0.20
+				experience_gain_army = -0.001
+				consumer_goods_factor = -0.1
+				
 			}
 		}
 
@@ -77,11 +83,12 @@ drift_defence_factor = 0.15
 				original_tag = SAO
 			}
 			modifier = {
-				land_doctrine_cost_factor = -0.05
+				land_doctrine_cost_factor = -0.15
 	command_abilities_cost_factor = -0.3
 	army_speed_factor_for_controller = 0.15
 	resistance_growth = -0.1
 	resistance_damage_to_garrison = -0.1
+	experience_gain_army = 0.01
 
 			}
 		}
@@ -161,6 +168,7 @@ stability_weekly = 0.001
 					subversive_activites_upkeep = -0.15
 	resistance_damage_to_garrison = -0.1
 	root_out_resistance_effectiveness_factor = 0.6
+	experience_gain_army = 0.001
 
 			}
 		}
@@ -185,7 +193,7 @@ consumer_goods_factor = -0.1
 		SAO_reactionary_boost = {
 			picture = GEN_so_paulos_divided_populace-183749
 			modifier = {
-				reactionary_drift = 0.01
+				reactionary_drift = 0.015
 				reactionary_acceptance = 50
 				
 			}
@@ -195,7 +203,7 @@ consumer_goods_factor = -0.1
 			modifier = {
 				political_power_gain = -0.2
 				stability_factor = -0.3
-				land_doctrine_cost_factor = -0.1
+				land_doctrine_cost_factor = -0.25
 				command_abilities_cost_factor = -0.15
 				army_speed_factor_for_controller = 0.2
 				resistance_growth = -0.2

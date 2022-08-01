@@ -6,14 +6,14 @@
 ################
  SAO_cat_and_mouse_category:0 "The §3Cat§! and §tMouse§! Game"
  SAO_category:0 "Civil Administration of São Paulo"
- SAO_international_diplomacy_category:0 "Extra-Federal Relations"
+ SAO_international_diplomacy_category:0 "Outer-State Actions"
  SAO_business_with_ARG:0 "Open The §4Platean Market§!"
  sao_hire_prudente:0 "Rally the §3Police§! in §OPrudente§!"
  sao_hire_registro:0 "Rally the §3Police§! in §ORegistro§!"
  sao_hire_marilia:0 "Rally the §3Police§! in §OMarília§!"
- sao_appease_the_elites:0 "Grant Concessions to the Elites"
- sao_rid_authoritarianism:0 "Supersede Disloyal City Mayors"
- sao_rid_bad_officers:0 "Replace Disloyal Police Officers"
+ sao_appease_the_elites:0 "Grant Concessions to the §OElites§!"
+ sao_rid_authoritarianism:0 "Supersede Disloyal §OCity Mayors§!"
+ sao_rid_bad_officers:0 "Replace Disloyal §OPolice Officers§!"
  sao_rid_authoritarianism_desc:0 "One of the ways we can retard a military intervention from the Republic or the Junta is by keeping the people loyal to the Revolutionary cause, they will not attempt to invade the state if the people don't support them. As time passes the Paulista people may drift away from the Constitutionalist cause, we can fight this by keeping the police and regional powers on our side by placing complacent people on seats of power around the state.\n\n The Republic will attempt a military intervention if §BConservative§! ideology exceeds 70%. \n\n The Junta will attempt a military intervention if §GAuthoritarian§! ideology exceeds 70%."
  sao_rid_bad_officers_desc:0 "One of the ways we can retard a military intervention from the Republic or the Junta is by keeping the people loyal to the Revolutionary cause, they will not attempt to invade the state if the people don't support them. As time passes the Paulista people may drift away from the Constitutionalist cause, we can fight this by keeping the police and regional powers on our side by placing complacent people on seats of power around the state.\n\n The Republic will attempt a military intervention if §BConservative§! ideology exceeds 70%. \n\n The Junta will attempt a military intervention if §GAuthoritarian§! ideology exceeds 70%."
  sao_print_propaganda:0 "Spread §OConstitutionalist Propaganda§!"
@@ -26,13 +26,20 @@
  sao_resettling_europeans:0 "Resettle Europeans"
  sao_resettling_americans:0 "Resettle Americans"
  SAO_DOPS:0 "Department of Order and Political Security"
- SAO_launch_the_itajuba_raid:0 "Launch the §tItajuba Raid§!"
+ SAO_launch_the_itajuba_raid:0 "Launch the §tItajubá Raid§!"
  sao_liberate_sao_roque:0 "Liberate §OSão Roque§!"
  sao_liberate_bauru:0 "Liberate §OBauru§!"
  sao_liberate_sorocaba:0 "Liberate §OSorocaba§!"
  sao_direct_intervention_against_the_mst:0 "Announce a §RDirect Intervention§! Against the §RMST§!"
  sao_institutions_remover:0 "§OTake Over Federal Institutions§!"
+ SAO_ARG_steel1:0 "Buy Steel (§410§!)"
+ SAO_ARG_steel2:0 "Buy Steel (§45§!)"
+ SAO_ARG_ammo1:0 "Buy Ammo (§410§!)"
+ SAO_ARG_ammo2:0 "Buy Ammo (§45§!)"
+ SAO_ARG_motor_tech:0 "Buy Tech and Motor Parts (§46§!)"
  
+ 
+
 #############################################
 #	Sao Paulo's divided populace Decisions	#
 #############################################
@@ -62,6 +69,9 @@
  SAO_unlock_fluery_tt:0 "§3Fleury§! will become available as a political and military advisor. \n\nOperations against the §tALN§! will reach their final stage."
  SAO_bring_order_tt:0 "The §BSoutheastern Military Command§! will be reborn as the backbone of the Constitutionalist Revolution, reshaped for our needs and capabilities and skillfully led by General Figueiredo."
  SAO_OOB_pas:0 "The §3Piracicaba Minutemen§! in cooperation with the facilities built in Botucatu will expand their operations throughout the state, and create a fast responding aerial support unit."
+ the_choice_figueiredo_tt:0 "§OYou will play as the Police and Constitutionalist Forces, trying to save Brazil from itself and reestablish the Constitution. Democracy will be Saved,§! §twhatever the price may be.§!"
+ the_choice_marighella_tt:0 "§tYou will play as the ALN, organize the urban guerrilla and take over the state, spearheading the Communist Revolution in Brazil.§!"
+ the_choice_quadros_tt:0 "§GYou will play as Jânio Quadros, organize your political campaign and resurgence, retake the helm of the Brazilian Presidency and§! §YSAVE THIS ABBANDONED PEOPLE FROM THEMSELVES§!."
 
 ################
 # OOBs

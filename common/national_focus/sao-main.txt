@@ -44,7 +44,7 @@ focus_tree = {
 		icon = GFX_SAO_ashamefulexcuse-155871
 		x = 15
 		y = 1
-		cost = 1
+		cost = 0
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -65,7 +65,7 @@ focus_tree = {
 		icon = GFX_SAO_the_road_to_guanabara-155871
 		x = 16
 		y = 5
-		cost = 3
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -94,7 +94,7 @@ focus_tree = {
 		icon = GFX_SAO_thesecondconstitutionalistrevolutionis-185521
 		x = 16
 		y = 0
-		cost = 1
+		cost = 0
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -118,7 +118,7 @@ focus_tree = {
 		icon = GFX_SAO_anhonorablecause-155871
 		x = 17
 		y = 1
-		cost = 1
+		cost = 0
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -513,6 +513,8 @@ focus_tree = {
 		prerequisite = { focus = SAO_a_army_in_name_only  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+		army_experience = 100
+		air_experience = 100
 
 		custom_effect_tooltip = SAO_figueiredosreforms_tt
 		}
@@ -680,6 +682,8 @@ focus_tree = {
 			SAO = {has_completed_focus = SAO_the_paulista_autarky }
 		}
 		completion_reward = {
+
+
 			country_event = {
 				id = SAO_Focus_Tree_Events.14
 				days = 0

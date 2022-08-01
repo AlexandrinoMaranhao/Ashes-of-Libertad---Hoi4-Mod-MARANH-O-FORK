@@ -16,17 +16,17 @@ division_template = {
 #Spawn units
 units = {
 	division= {
-		name = "Registro's 1st Mlitary Police Battalion"
+		name = "Registro's 1st Police Battalion"
 		location = 6259 
 		division_template = "Military Police Unit"
 	}
 	division= {
-		name = "Itapeva's 1st Mlitary Police Battalion"
+		name = "Itapeva's 1st Police Battalion"
 		location = 487  
 		division_template = "Military Police Unit"
 	}
 	division= {
-		name = "Piraju's 1st Mlitary Police Battalion"
+		name = "Piraju's 1st Police Battalion"
 		location = 6467  
 		division_template = "Military Police Unit"
 	}
