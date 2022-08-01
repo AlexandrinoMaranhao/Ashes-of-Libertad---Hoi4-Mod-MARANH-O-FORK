@@ -574,6 +574,22 @@ country_event = { #The Army Situation
     }
 }
 
+
+country_event = { #Usineiros Revolt
+    id = CFD_events.20
+    title = CFD_events.20.t
+    desc = CFD_events.20.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.20.a
+		CFD = {
+
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start

@@ -13,7 +13,7 @@ set_technology = {
 	armored_car1 = 1
 }
 
-set_convoys = 5
+set_convoys = 100
 
 
 set_politics = {
@@ -57,8 +57,19 @@ add_ideas = {
 }
 
 #variables
-set_variable = { var = SAO_junta_tolerance value = 0 }
-set_variable = { var = SAO_repubs_tolerance value = 0 }
+#population support variables
+set_variable = { var = SAO_paulistas_support value = 0.53 }
+set_variable = { var = SAO_caipiras_support value = 0.33 }
+set_variable = { var = SAO_praianos_support value = 0.26 }
+
+set_variable = { var = SAO_syrian_support value = 0.45 }
+set_variable = { var = SAO_japa_support value = 0.36 }
+set_variable = { var = SAO_china_support value = 0.34 }
+set_variable = { var = SAO_italian_support value = 0.48 }
+
+set_variable = { var = SAO_high_class_support value = 0.68 }
+set_variable = { var = SAO_med_class_support value = 0.28 }
+set_variable = { var = SAO_low_class_support value = 0.42 }
 
 add_dynamic_modifier = {
 	modifier = SAO_modifier1

@@ -32,11 +32,11 @@
  sao_liberate_sorocaba:0 "Liberate §OSorocaba§!"
  sao_direct_intervention_against_the_mst:0 "Announce a §RDirect Intervention§! Against the §RMST§!"
  sao_institutions_remover:0 "§OTake Over Federal Institutions§!"
- SAO_ARG_steel1:0 "Buy Steel (§410§!)"
- SAO_ARG_steel2:0 "Buy Steel (§45§!)"
- SAO_ARG_ammo1:0 "Buy Ammo (§410§!)"
- SAO_ARG_ammo2:0 "Buy Ammo (§45§!)"
- SAO_ARG_motor_tech:0 "Buy Tech and Motor Parts (§46§!)"
+ SAO_ARG_steel1:0 "Buy Steel (§4 10§! )"
+ SAO_ARG_steel2:0 "Buy Steel (§4 5§! )"
+ SAO_ARG_ammo1:0 "Buy Ammo (§4 10§! )"
+ SAO_ARG_ammo2:0 "Buy Ammo (§4 5§! )"
+ SAO_ARG_motor_tech:0 "Buy Tech and Motor Parts (§4 6§! )"
  
  
 

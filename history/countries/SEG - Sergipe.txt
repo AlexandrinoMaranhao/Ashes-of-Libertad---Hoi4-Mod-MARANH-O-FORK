@@ -10,8 +10,11 @@ set_technology = {
    	true_motorised_infantry = 1
     infantry_gear = 1
 }
+
 set_convoys = 20
 
+recruit_character = SEG_seixas_dória
+recruit_character = SEG_Anatolio_Ettinger_de_Meneses
 
 set_politics = {
 	ruling_party = reactionary
@@ -21,10 +24,10 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 0
-	fascism = 0
+	fascism = 10
 	communism = 0
 	neutrality = 0
-	reactionary = 100
+	reactionary = 90
 }
 
 add_ideas = {
@@ -38,19 +41,3 @@ add_ideas = {
 	cangaceiros_light
 }
 
-set_country_flag = is_brazilian
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
-
-create_country_leader = {
-	
-	name = "Seixas Dória"
-	picture = "Portrait_SEG_Seixas_Dória.dds"
-	desc = SEIXAS_DORIA_DESC
-	expire = "1999.1.1"
-	ideology = coronelism
-}

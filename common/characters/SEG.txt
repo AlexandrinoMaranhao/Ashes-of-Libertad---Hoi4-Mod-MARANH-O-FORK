@@ -1,0 +1,34 @@
+characters={
+	SEG_seixas_dória={
+		name="Seixas Dória"
+		portraits={
+			civilian={
+				large="gfx/leaders/SEG/Portrait_SEG_Seixas.dds"
+			}
+		}
+		country_leader={
+			desc="SEIXAS_DORIA_DESC"
+			ideology=coronelism
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+	SEG_Anatolio_Ettinger_de_Meneses={
+		name="Anatólio Ettinger de Meneses"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
+				large="gfx/leaders/SEG/Portrait_SEG_Anatolio_Ettinger_de_Meneses.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

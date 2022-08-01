@@ -23,8 +23,8 @@ set_popularities = {
 	democratic = 0
 	fascism = 85
 	communism = 0
-	neutrality = 15
-	reactionary = 0
+	neutrality = 0
+	reactionary = 15
 }
 
 add_ideas = {
@@ -44,10 +44,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "La Pirate"
-	picture = "gfx/leaders/PEB/RPP_General.dds"
+	name = "Manoel da Penha Alves"
+	picture = "gfx/leaders/FRN/Portrait_FRN_Manoel_da_Penha_Alves.dds"
 	desc = ""
 	expire = "1999.1.1"
-	ideology = tribal
-	traits = { popular_figurehead2 }
+	ideology = pirate_federation
+	traits = { }
 }
