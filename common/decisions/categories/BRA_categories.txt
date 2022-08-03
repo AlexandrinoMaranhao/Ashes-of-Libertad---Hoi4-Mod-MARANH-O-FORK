@@ -1,0 +1,10 @@
+BRA_political_interference_category = {
+	allowed = {
+	    original_tag = BRA
+	}
+	visible = {
+	    original_tag = BRA
+	}
+	icon = GFX_decision_acrean_raids
+	priority = 50
+}

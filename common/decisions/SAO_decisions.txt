@@ -1160,6 +1160,155 @@ SAO_divided_ppl_category = {
 			factor = 999
 		}
 	}
+
+	SAO_republican_interference = {
+	    activation = {
+	        SAO = {
+	            completed_focus = SAO_the_paulista_betrayal
+	        }
+	    }
+        available = {
+            always = no
+        }
+        cancel_trigger = {
+            has_war = yes
+        }
+        icon = GFX_decision_generic_civil_support
+        is_good = yes
+        days_mission_timeout = 30
+        selectable_mission = yes
+        complete_effect = {
+        }
+        timeout_effect = {
+            add_popularity = {
+                ideology = democracy
+                popularity = 0.1
+            }
+        }
+	}
+
+	SAO_junta_interference = {
+	    activation = {
+	        SAO = {
+	            completed_focus = SAO_the_paulista_betrayal
+	        }
+	    }
+	    available = {
+	        always = no
+	    }
+	    cancel_trigger = {
+	       has_war = yes
+	    }
+	    icon = GFX_decision_generic_civil_support
+	    is_good = yes
+	    days_mission_timeout = 30
+	    selectable_mission = yes
+	    complete_effect = {
+	    }
+	    timeout_effect = {
+	        add_popularity = {
+	            ideology = fascism
+	            popularity = 0.1
+	        }
+	    }
+	}
+
+	SAO_avoid_intervention_one = {
+	    allowed = {
+	        original_tag = SAO
+	    }
+	    available = {
+            SAO = {
+               OR = {
+                 fascism > 0.7
+                 democratic > 0.7
+               }
+            }
+	    }
+	    visible = {
+	        SAO = {
+	           OR = {
+	             fascism > 0.7
+	             democratic > 0.7
+	           }
+	        }
+	    }
+	    cost = 0
+
+	    complete_effect = {
+	        add_equipment_to_stockpile = {
+	           type = infantry_equipment_1
+	           amount = -750
+	        }
+	        add_popularity = {
+	            ideology = reactionary
+	            popularity = 0.1
+	        }
+	    }
+	}
+    
+    SAO_avoid_intervention_two = {
+        allowed = {
+            original_tag = SAO
+        }
+        available = {
+            SAO = {
+               OR = {
+                 fascism > 0.7
+                 democratic 0.7
+               }
+            }
+        }
+        visible = {
+            SAO = {
+               OR = {
+                 fascism > 0.7
+                 democratic 0.7
+               }
+            }
+        }
+        cost = 0
+
+        complete_effect = {
+            add_manpower = -10000
+            add_popularity = {
+                ideology = reactionary
+                popularity = 0.1
+            }
+        }
+    }
+
+    SAO_avoid_intervention_three = {
+        allowed = {
+            original_tag = SAO
+        }
+        available = {
+            SAO = {
+               OR = {
+                 fascism > 0.7
+                 democratic 0.7
+               }
+            }
+        }
+        visible = {
+            SAO = {
+               OR = {
+                 fascism > 0.7
+                 democratic 0.7
+               }
+            }
+        }
+        cost = 0
+
+        complete_effect = {
+            add_stability = -0.15
+            add_war_support = -o.15
+            add_popularity = {
+                ideology = reactionary
+                popularity = 0.1
+            }
+        }
+    }
 }
 SAO_cat_and_mouse_category = {
 	############################################

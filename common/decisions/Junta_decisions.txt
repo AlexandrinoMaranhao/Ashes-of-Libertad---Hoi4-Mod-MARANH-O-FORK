@@ -159,3 +159,34 @@ JUNTA_civil_war = {
 		}
 	}
 }
+
+JUN_political_interference_category = {
+	  JUN_support_fascism = {
+	      allowed = {
+	          original_tag = JUN
+	      }
+	      available = {
+	          NOT = {
+	              country_exists = SAO
+	          }
+	      }
+	      fire_only_once = no
+
+	      days_re_enable = 30
+
+	      visible = {
+	          ROOT = {
+	              is_country = JUN
+	          }
+	      }
+	      target_trigger = {
+	          FROM = { tag = SAO }
+	      }
+
+	      cost = 20
+
+	      complete_effect = {
+            FROM = { activate_decision = SAO_junta_interference }
+	      }
+	  }
+}
