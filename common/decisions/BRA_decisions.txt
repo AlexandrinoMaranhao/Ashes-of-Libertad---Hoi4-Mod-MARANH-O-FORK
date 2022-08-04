@@ -4,9 +4,7 @@ BRA_political_interference_category = {
 	        original_tag = BRA
 	    }
 	    available = {
-	        NOT = {
-	            country_exists = SAO
-	        }
+            country_exists = SAO
 	    }
 	    fire_only_once = no
 
@@ -14,7 +12,7 @@ BRA_political_interference_category = {
 
 	    visible = {
 	        ROOT = {
-	            is_country = BRA
+	            tag = BRA
 	        }
 	    }
 	    target_trigger = {

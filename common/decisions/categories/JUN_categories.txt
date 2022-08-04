@@ -3,7 +3,7 @@ JUN_political_interference_category = {
 	    original_tag = JUN
 	}
 	visible = {
-	    original_tag = BRA 
+	    original_tag = JUN
 	}
 	icon = GFX_decision_acrean_raids
 	priority = 50

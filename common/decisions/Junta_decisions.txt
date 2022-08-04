@@ -166,9 +166,7 @@ JUN_political_interference_category = {
 	          original_tag = JUN
 	      }
 	      available = {
-	          NOT = {
-	              country_exists = SAO
-	          }
+            country_exists = SAO
 	      }
 	      fire_only_once = no
 
@@ -176,7 +174,7 @@ JUN_political_interference_category = {
 
 	      visible = {
 	          ROOT = {
-	              is_country = JUN
+	              tag = JUN
 	          }
 	      }
 	      target_trigger = {
