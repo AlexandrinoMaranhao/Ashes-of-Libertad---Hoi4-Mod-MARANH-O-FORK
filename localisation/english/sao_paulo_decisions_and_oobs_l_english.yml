@@ -72,7 +72,14 @@
  the_choice_figueiredo_tt:0 "§OYou will play as the Police and Constitutionalist Forces, trying to save Brazil from itself and reestablish the Constitution. Democracy will be Saved,§! §twhatever the price may be.§!"
  the_choice_marighella_tt:0 "§tYou will play as the ALN, organize the urban guerrilla and take over the state, spearheading the Communist Revolution in Brazil.§!"
  the_choice_quadros_tt:0 "§GYou will play as Jânio Quadros, organize your political campaign and resurgence, retake the helm of the Brazilian Presidency and§! §YSAVE THIS ABBANDONED PEOPLE FROM THEMSELVES§!."
-
+ SAO_BIL_tt:0 "Revives the §O6º Battalion of Light Infantry§!"
+ SAO_ROAD_TO_GUANABARA_ONE_A_tt:0 "\nThe §O1ª DI ''Bandeirantes''§! will be allowed to flee to §3Rio de Janeiro§! to help in the upcoming battle."
+ SAO_ROAD_TO_GUANABARA_ONE_B_tt:0 "\nThe §O1ª DI ''Bandeirantes''§! will be allowed to flee to the §3South§!, to join the rest of the Republican Army."
+ SAO_ROAD_TO_GUANABARA_ONE_C_tt:0 "\nWe will §timprision§! the soldiers, which will become available for the creation of a §3Penal Battalion§! should the need ever arise."
+ SAO_ROAD_TO_GUANABARA_THREE_A:0 "\nA decision will become available to send volunteers to the §7Eastern Military Command§! to help in the §t2nd Battle of Guanabara§!. \n\n§tATTENTION!§! \n\nThis will heavily change how the §7Junta§! sees §OSão Paulo§!, if they feel that the population is on their side they will attempt a §tMilitary Intervention§! in the state."
+ SAO_ROAD_TO_GUANABARA_THREE_B:0 "\nA decision will become available to send volunteers to the §G4th Brazilian Republic§! to help in the §t2nd Battle of Guanabara§!. \n\n§tATTENTION!§! \n\nThis will heavily change how the §G4th Republic§! sees §OSão Paulo§!, if they feel that the population is on their side they will attempt a §tMilitary Intervention§! in the state."
+ SAO_ROAD_TO_GUANABARA_THREE_C:0 "\n§tThe safe option.§!"
+ 
 ################
 # OOBs
 ################

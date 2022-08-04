@@ -11,8 +11,35 @@ add_namespace = BRA_elections_goulart
 add_namespace = BRA_elections_jk
 add_namespace = BRA_elections_lott
 add_namespace = BRA_elections_quadros
+add_namespace = BRA_ROAD_TO_GUANABARA
 
 
+
+country_event = {
+    id = BRA_ROAD_TO_GUANABARA.2
+    title = BRA_ROAD_TO_GUANABARA.2.t
+    desc = BRA_ROAD_TO_GUANABARA.2.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = BRA_ROAD_TO_GUANABARA.2.a
+    }
+}
+
+country_event = {
+    id = BRA_ROAD_TO_GUANABARA.1
+    title = BRA_ROAD_TO_GUANABARA.1.t
+    desc = BRA_ROAD_TO_GUANABARA.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = BRA_ROAD_TO_GUANABARA.1.a
+    }
+}
 
 country_event = {
     id = BRA_guanabara.1

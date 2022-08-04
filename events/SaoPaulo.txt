@@ -204,7 +204,7 @@ country_event = { #"The General Exposed"
     id = SAO_dear_big_brother.1
     title = SAO_dear_big_brother.1.t
     desc = SAO_dear_big_brother.1.d
-    picture = x
+    picture = GFX_report_event_brothers_figueiredo
     fire_only_once = no
     is_triggered_only = yes
 
@@ -242,7 +242,7 @@ country_event = { #"RELATÓRIO 00344 - Base Aérea de Botucatu"
     id = SAO_Focus_Tree_Events.16
     title = SAO_Focus_Tree_Events.16.t
     desc = SAO_Focus_Tree_Events.16.d
-    picture = x
+    picture = GFX_news_event_meu_vo_porra
     fire_only_once = no
     is_triggered_only = yes
 
@@ -254,7 +254,7 @@ country_event = { #"Cheia de Flores, Cheia de Encantos"
     id = SAO_Focus_Tree_Events.17
     title = SAO_Focus_Tree_Events.17.t
     desc = SAO_Focus_Tree_Events.17.d
-    picture = x
+    picture = GFX_news_event_piracicaba_que_eu_adoro_tanto
     fire_only_once = no
     is_triggered_only = yes
 
@@ -341,7 +341,7 @@ country_event = { #"Tabajara Organizations"
     id = SAO_Focus_Tree_Events.24
     title = SAO_Focus_Tree_Events.24.t
     desc = SAO_Focus_Tree_Events.24.d
-    picture = x
+    picture = GFX_news_event_spanish_arms_poster
     fire_only_once = no
     is_triggered_only = yes
 
@@ -368,7 +368,7 @@ country_event = { #Itajubá Arms Factory
     id = SAO_operations.1
     title = SAO_operations.1.t
     desc = SAO_operations.1.d
-    picture = x
+    picture = GFX_report_event_itajuba_arms_factory
     fire_only_once = no
     is_triggered_only = yes
 
@@ -385,7 +385,7 @@ country_event = { #Itajubá Arms Factory Failure
     id = SAO_operations_failure.1
     title = SAO_operations_failure.1.t
     desc = SAO_operations_failure.1.d
-    picture = x
+    picture = GFX_report_event_itajuba_arms_factory
     fire_only_once = no
     is_triggered_only = yes
 
@@ -398,7 +398,7 @@ country_event = { #Border Clash with the COLINA
     id = SAO_operations.2
     title = SAO_operations.2.t
     desc = SAO_operations.2.d
-    picture = x
+    picture = GFX_report_event_itajuba_arms_factory
     fire_only_once = no
     is_triggered_only = yes
 
@@ -413,7 +413,7 @@ country_event = { #Border Clash with the COLINA Failure
     id = SAO_operations_failure.2
     title = SAO_operations_failure.2.t
     desc = SAO_operations_failure.2.d
-    picture = x
+    picture = GFX_report_event_itajuba_arms_factory
     fire_only_once = no
     is_triggered_only = yes
 
@@ -426,7 +426,7 @@ country_event = { #COLINA's Border Clash with the São Paulo
     id = SAO_operations.3
     title = SAO_operations.3.t
     desc = SAO_operations.3.d
-    picture = x
+    picture = GFX_report_event_itajuba_arms_factory
     fire_only_once = no
     is_triggered_only = yes
 
@@ -466,12 +466,34 @@ country_event = { #Road to Guanabara event 1
         name = SAO_ROAD_TO_GUANABARA.1.A
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.01
+				popularity = -0.05
 			}
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.02
+				popularity = 0.05
 			}
+            custom_effect_tooltip = "SAO_ROAD_TO_GUANABARA_ONE_A_tt"
+
+            hidden_effect = {
+            BRA = {
+            load_oob = "SAO_BRA_UP"
+                }
+            }
+            BRA = {
+
+        country_event = {
+            id = BRA_ROAD_TO_GUANABARA.1
+            days = 0
+        }
+            }
+        add_opinion_modifier = {
+    target = BRA
+    modifier = large_increase
+        }
+        add_opinion_modifier = {
+    target = JUN
+    modifier = medium_decrease  
+        }
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
@@ -482,44 +504,74 @@ country_event = { #Road to Guanabara event 1
         name = SAO_ROAD_TO_GUANABARA.1.B
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.01
+				popularity = 0.1
 			}
+            hidden_effect = {
 
+            BRA = {
+            load_oob = "SAO_BRA_DOWN"
+                }
+            }
+
+            BRA = {
+
+        country_event = {
+            id = BRA_ROAD_TO_GUANABARA.2
+            days = 0
+        }
+            }
+            custom_effect_tooltip = "SAO_ROAD_TO_GUANABARA_ONE_B_tt"
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
             days = 0
         }
+        add_opinion_modifier = {
+    target = BRA
+    modifier = small_increase
+        }
+
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.1.C
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.01
+				popularity = 0.05
 			}
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.05
+				popularity = -0.05
 			}
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
             days = 0
         }
+        add_opinion_modifier = {
+    target = BRA
+    modifier = medium_decrease
+        }
+        hidden_effect = {set_country_flag = SAO_has_war_prisioners}
+
+            custom_effect_tooltip = "SAO_ROAD_TO_GUANABARA_ONE_C_tt"
     }
     option = {
         name = SAO_ROAD_TO_GUANABARA.1.D
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.05
-			}
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.01
+				popularity = 0.1
 			}
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.2
             days = 0
+        }
+        add_opinion_modifier = {
+    target = BRA
+    modifier = large_decrease
+        }
+        add_opinion_modifier = {
+    target = JUN
+    modifier = large_increase
         }
     }
 }
@@ -536,11 +588,11 @@ country_event = { #Road to Guanabara event 2
         name = SAO_ROAD_TO_GUANABARA.2.A
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.05
+				popularity = -0.05
 			}
             add_popularity = {
 				ideology = fascism
-				popularity = 0.01
+				popularity = -0.05
 			}
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
@@ -551,13 +603,23 @@ country_event = { #Road to Guanabara event 2
         name = SAO_ROAD_TO_GUANABARA.2.B
             add_popularity = {
 				ideology = democratic
-				popularity = 0.01
+				popularity = 0.30
 			}
             add_popularity = {
 				ideology = fascism
-				popularity = 0.01
+				popularity = 0.30
 			}
-    
+    give_military_access = BRA
+    give_military_access = JUN
+    give_military_access = CRJ
+    give_military_access = UBA
+    give_military_access = MGS
+    give_military_access = JAG
+    give_military_access = BEM
+    give_military_access = BHO
+    give_military_access = LAM
+    give_military_access = FRN
+    give_military_access = NHA
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
             days = 0
@@ -567,8 +629,13 @@ country_event = { #Road to Guanabara event 2
         name = SAO_ROAD_TO_GUANABARA.2.C
             add_popularity = {
 				ideology = fascism
-				popularity = 0.05
+				popularity = -0.05
 			}
+            add_popularity = {
+                ideology = democratic
+                popularity = 0.1
+            }
+            give_military_access = BRA
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.3
             days = 0
@@ -588,8 +655,13 @@ country_event = { #Road to Guanabara event 3
         name = SAO_ROAD_TO_GUANABARA.3.A
             add_popularity = {
 				ideology = fascism
-				popularity = 0.05
+				popularity = 0.3
 			}
+
+            custom_effect_tooltip = "SAO_ROAD_TO_GUANABARA_THREE_A"
+
+            hidden_effect = { set_country_flag = SAO_send_volunteers_EMC }
+
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.4
@@ -600,8 +672,11 @@ country_event = { #Road to Guanabara event 3
         name = SAO_ROAD_TO_GUANABARA.3.B
             add_popularity = {
 				ideology = democratic
-				popularity = 0.05
+				popularity = 0.3
 			}
+            custom_effect_tooltip = "SAO_ROAD_TO_GUANABARA_THREE_B"
+
+            hidden_effect = { set_country_flag = SAO_send_volunteers_BRA }
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.4
@@ -612,12 +687,13 @@ country_event = { #Road to Guanabara event 3
         name = SAO_ROAD_TO_GUANABARA.3.C
             add_popularity = {
 				ideology = democratic
-				popularity = 0.025
+				popularity = 0.05
 			}
             add_popularity = {
 				ideology = fascism
-				popularity = 0.025
+				popularity = 0.05
 			}
+            custom_effect_tooltip = "SAO_ROAD_TO_GUANABARA_THREE_C"
 
         country_event = {
             id = SAO_ROAD_TO_GUANABARA.4

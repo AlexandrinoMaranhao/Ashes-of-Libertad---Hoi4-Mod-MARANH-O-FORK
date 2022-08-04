@@ -439,8 +439,18 @@ focus_tree = {
 
 		completion_reward = {
 		army_experience = 100
+	
+		add_victory_points = {
+			province = 6266
+			value = 5
 		}
-	}
+		
+		custom_effect_tooltip = SAO_BIL_tt
+			hidden_effect = {
+		load_oob = "SAO_BIL"
+				}
+			}
+		}
 
 	#Resettling the Immigrants
 	focus = {
@@ -515,7 +525,11 @@ focus_tree = {
 		completion_reward = {
 		army_experience = 100
 		air_experience = 100
-
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
+			uses = 5
+			category = land_doctrine
+		}
 		custom_effect_tooltip = SAO_figueiredosreforms_tt
 		}
 	}
@@ -1427,6 +1441,8 @@ focus_tree = {
 			add_opinion_modifier = { target = PAR modifier = large_increase }
 			add_opinion_modifier = { target = ARG modifier = large_increase }
 			unlock_decision_tooltip = SAO_business_with_ARG
+			
+			add_ideas = "trade_scope_international_exports"
 		}
 	}
 

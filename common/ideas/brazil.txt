@@ -10,7 +10,10 @@ ideas = {
 		the_paulista_betrayal = {
 			modifier = {
 				stability_factor = -0.25
-				reactionary_acceptance = -75
+				reactionary_acceptance = -100
+				SAO = {
+				trade_opinion_factor = -1
+				}
 			}
 		}
 

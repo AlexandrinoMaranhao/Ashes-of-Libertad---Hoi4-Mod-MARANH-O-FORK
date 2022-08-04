@@ -28,10 +28,10 @@
 
  BHO:0 "4º Military Region"
  BHO_ADJ:0 "the 4º Military Region"
- BHO_DEF:0 "from the 4º Military Region"
+ BHO_DEF:0 "the 4º Military Region"
 
  MGS:0 "Provisional Government of Maracaju"
- MGS_DEF:0 "Sul Matogrossense"
+ MGS_DEF:0 "Provisional Government of Maracaju"
  MGS_ADJ:0 "the Provisional Government of Maracaju"
 
  NUD:0 "Democratic Union of Vera Cruz"
@@ -328,7 +328,7 @@
  RMI_communism_ADJ:0 "Mineiro"
 
  CRJ_fascism:0 "Eastern Military Command"
- CRJ_fascism_DEF:0 "the EMC"
+ CRJ_fascism_DEF:0 "the Eastern Military Command"
  CRJ_democratic:0 "Carioca Republic"
  CRJ_democratic_DEF:0 "the Carioca Republic"
  CRJ_neutrality:1 "Second Brazilian Empire"
