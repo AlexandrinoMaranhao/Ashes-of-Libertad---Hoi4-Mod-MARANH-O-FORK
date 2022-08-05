@@ -6,7 +6,17 @@ spriteTypes = {
 	#	texturefile = "gfx/event_pictures/.dds"
 	#}
 	# 
-	   
+	     
+	spriteType = {
+		name = "GFX_news_event_radio_silence_from_brasilia"
+		texturefile = "gfx/event_pictures/news_event_radio_silence_from_brasilia.dds"
+	}
+ 
+	spriteType = {
+		name = "GFX_report_event_pica_pau_amarelo"
+		texturefile = "gfx/event_pictures/report_event_pica_pau_amarelo.dds"
+	}
+ 
 	spriteType = {
 		name = "GFX_news_event_spanish_arms_poster"
 		texturefile = "gfx/event_pictures/news_event_spanish_arms_poster.dds"

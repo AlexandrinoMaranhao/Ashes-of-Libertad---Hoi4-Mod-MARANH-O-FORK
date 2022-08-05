@@ -214,7 +214,7 @@ SAO_category = {
 			consumer_goods_factor = 0.05
 			political_power_cost = 0.5
 			stability_weekly = 0.001
-			war_support_weekly = 0.001
+			war_support_weekly = 0.0015
 			democratic_drift = -0.1
 			fascism_drift = -0.1
 			communism_drift = -0.1
@@ -246,8 +246,8 @@ SAO_category = {
 		modifier = {
 			political_power_cost = 0.05
 			stability_weekly = -0.001
-			war_support_weekly = -0.001
-			fascism_drift = -0.1
+			war_support_weekly = 0.001
+			fascism_drift = -0.15
 			democratic_drift = -0.1
 		}
 		remove_effect = {
@@ -293,7 +293,7 @@ SAO_category = {
 ##################		Resettling Decisions.		##################
 	sao_resettling_riograndeses = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -321,7 +321,7 @@ SAO_category = {
 	}
 	sao_resettling_cariocas = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -338,7 +338,7 @@ SAO_category = {
 		modifier = {
 			consumer_goods_factor = 0.2
 			political_power_cost = 0.2
-			stability_weekly = -0.001
+			stability_weekly = 0.001
 		}
 		remove_effect = {
 			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
@@ -349,7 +349,7 @@ SAO_category = {
 	}
 	sao_resettling_mineiros = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -377,7 +377,7 @@ SAO_category = {
 	}
 	sao_resettling_midwestern = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -405,7 +405,7 @@ SAO_category = {
 	}
 	sao_resettling_northeastern = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -433,7 +433,7 @@ SAO_category = {
 	}
 	sao_resettling_europeans = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -461,7 +461,7 @@ SAO_category = {
 	}
 	sao_resettling_americans = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -490,7 +490,7 @@ SAO_category = {
 
 	sao_liberate_sao_roque = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 10
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -550,7 +550,7 @@ SAO_category = {
 	}
 	sao_liberate_sorocaba = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -611,7 +611,7 @@ SAO_category = {
 
 	sao_liberate_bauru = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 15
 		days_remove = 14
 		is_good = yes
 		fire_only_once = yes
@@ -671,7 +671,7 @@ SAO_category = {
 	}
 	sao_direct_intervention_against_the_mst = {
 		icon = GFX_decision_icon_default
-		cost = 20
+		cost = 50
 		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
@@ -684,7 +684,6 @@ SAO_category = {
 		}
 		complete_effect = {
 		SAO = {
-			remove_ideas = {SAO_movimento_sem_terra_movement}
 			declare_war_on = {
 			    target = MST
 			    type = annex_everything
@@ -712,7 +711,7 @@ SAO_international_diplomacy_category = {
 	
 	##Remember to add more c:
 	sao_institutions_remover = {
-		cost = 2
+		cost = 5
 		days_remove = 30
 		fire_only_once = yes
 		visible = {
@@ -736,7 +735,257 @@ SAO_international_diplomacy_category = {
 			factor = 100
 		}
 	}
+
+
+	sao_liberate_araxa = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 66}
+			}
+		}
+		visible = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 66}
+			}
+		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 66
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 394
+					num_provinces = 8
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 66
+					num_provinces = 6
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
+	sao_liberate_sao_manuel_da_esperanca = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 552}
+				controls_state = 585
+			}
+		}
+		visible = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 552}
+				controls_state = 585
+			}
+		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 552
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 585
+					num_provinces = 1
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 552
+					num_provinces = 1
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	sao_liberate_tres_coracoes = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 14
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 589}
+				controls_state = 585
+			}
+		}
+		visible = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 589}
+				controls_state = 585
+			}
+		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 589
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
+		complete_effect = {
+			
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 585
+					num_provinces = 1
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 589
+					num_provinces = 1
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	sao_liberate_rio = {
+		icon = GFX_decision_icon_default
+		cost = 300
+		days_remove = 30
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 24}
+			}
+		}
+		visible = {
+			SAO = {
+				has_completed_focus = SAO_fan_the_flames_of_revolution
+				NOT = {controls_state = 24}
+			}
+		}
+
+		highlight_states = {
+    highlight_state_targets = {
+        state = 24
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+
+		complete_effect = {
+						 news_event = { id = THIRD_BATTLE_OF_GUANABARA.1 days = 0 }
+
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 30
+					num_provinces = 4
+					#on_win = CFD_operations.1
+					#on_lose = CFD_operations_failure.2
+					#on_cancel = CFD_operations.1
+				}
+				defender = {
+					state = 24
+					num_provinces = 3
+					#on_win = CFD_operations_failure.2
+					#on_lose = CFD_operations.1
+					#on_cancel = CFD_operations.1
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = -0.001
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ################## SÃO PAULO - ARGENTINA TRADING BUSINESS ##################
 	SAO_business_with_ARG = {
 		cost = 50

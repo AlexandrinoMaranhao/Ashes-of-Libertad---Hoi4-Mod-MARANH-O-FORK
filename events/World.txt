@@ -3,6 +3,7 @@ add_namespace = world_acr
 add_namespace = world_inc
 add_namespace = world_dutra
 add_namespace = world_sp
+add_namespace = THIRD_BATTLE_OF_GUANABARA
 
 news_event = { # Dutra declares himself president oh fuck oh shit
 	id = world_dutra.1
@@ -57,6 +58,19 @@ SAO = {
 					}
 				}
 			} 
+		}
+	}
+
+news_event = { # Third Battle of Guanabara
+	id = THIRD_BATTLE_OF_GUANABARA.1
+	title = THIRD_BATTLE_OF_GUANABARA.1.t
+	desc = THIRD_BATTLE_OF_GUANABARA.1.d
+	picture = "GFX_news_event_natel_dead"
+
+	is_triggered_only = yes
+
+	option = {
+		name = THIRD_BATTLE_OF_GUANABARA.1.a 
 		}
 	}
 
@@ -994,7 +1008,7 @@ news_event = { # the Junta Breakup
 	id = world.74
 	title = world.74.t
 	desc = world.74.d
-	picture = "GFX_news_event_coari_ded"
+	picture = "news_event_radio_silence_from_brasilia"
 
 	is_triggered_only = yes
 

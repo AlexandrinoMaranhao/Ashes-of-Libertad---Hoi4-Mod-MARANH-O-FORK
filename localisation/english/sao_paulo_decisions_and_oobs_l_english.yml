@@ -37,7 +37,14 @@
  SAO_ARG_ammo1:0 "Buy Ammo (§4 10§! )"
  SAO_ARG_ammo2:0 "Buy Ammo (§4 5§! )"
  SAO_ARG_motor_tech:0 "Buy Tech and Motor Parts (§4 6§! )"
- 
+ sao_liberate_araxa:0 "Liberate §tAraxá§!"
+ sao_liberate_araxa:0 "n\§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_sao_manuel_da_esperanca:0 "Liberate §tSão Manuel da Esperança§!"
+ sao_liberate_sao_manuel_da_esperanca:0 "n\§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_tres_coracoes:0 "Liberate §tTrês Corações§!"
+ sao_liberate_tres_coracoes:0 "n\§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_rio:0 "Liberate §tRio de Janeiro§!"
+ sao_liberate_rio:0 "n\§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
  
 
 #############################################

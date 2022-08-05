@@ -308,7 +308,7 @@ GNIS_volunteers = {
 			custom_effect_tooltip = SAO_send_volunteers_completed
 			
 			hidden_effect = {
-				EMC = {	load_oob = "SAO_EMC_volunteers" }
+				CRJ = {	load_oob = "SAO_EMC_volunteers" }
 			}
 		}
 

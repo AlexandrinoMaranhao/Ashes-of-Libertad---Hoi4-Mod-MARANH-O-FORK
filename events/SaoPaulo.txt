@@ -9,7 +9,6 @@ add_namespace = SAO_operations_failure
 add_namespace = SAO_Focus_Tree_Events
 add_namespace = SAO_dear_big_brother
 
-
 ###Focus Tree Events
 
 country_event = { #"Under New Manadgement"
@@ -148,7 +147,7 @@ country_event = { #"RELATÓRIO 00135 - Escalação em Taubaté"
     id = SAO_Focus_Tree_Events.10
     title = SAO_Focus_Tree_Events.10.t
     desc = SAO_Focus_Tree_Events.10.d
-    picture = x
+    picture = GFX_report_event_pica_pau_amarelo
     fire_only_once = no
     is_triggered_only = yes
 
