@@ -1072,10 +1072,14 @@ SAO_divided_ppl_category = {
 	sao_junta_intervention = {
 		allowed = { tag = SAO }
 		available = {
-			fascism > 0.7
+			SAO = {
+				fascism > 0.7
+			}
 		}
 		activation = {
-			fascism > 0.7
+			SAO = {
+				fascism > 0.7
+			}
 		}
 		cancel_trigger = {
 			SAO = {
@@ -1118,10 +1122,14 @@ SAO_divided_ppl_category = {
 	sao_republics_intervention = {
 		allowed = { tag = SAO }
 		available = {
-			democratic > 0.7
+			SAO = {
+				democratic > 0.7
+			}
 		}
 		activation = {
-			democratic > 0.7
+			SAO = {
+				democratic > 0.7
+			}
 		}
 		cancel_trigger = {
 			SAO = {
@@ -1164,7 +1172,7 @@ SAO_divided_ppl_category = {
 	SAO_republican_interference = {
 	    activation = {
 	        SAO = {
-	            completed_focus = SAO_the_paulista_betrayal
+	            has_completed_focus = SAO_the_paulista_betrayal
 	        }
 	    }
         available = {
@@ -1181,7 +1189,7 @@ SAO_divided_ppl_category = {
         }
         timeout_effect = {
             add_popularity = {
-                ideology = democracy
+                ideology = democratic
                 popularity = 0.1
             }
         }
@@ -1190,7 +1198,7 @@ SAO_divided_ppl_category = {
 	SAO_junta_interference = {
 	    activation = {
 	        SAO = {
-	            completed_focus = SAO_the_paulista_betrayal
+	            has_completed_focus = SAO_the_paulista_betrayal
 	        }
 	    }
 	    available = {
@@ -1255,7 +1263,7 @@ SAO_divided_ppl_category = {
             SAO = {
                OR = {
                  fascism > 0.7
-                 democratic 0.7
+                 democratic > 0.7
                }
             }
         }
@@ -1263,7 +1271,7 @@ SAO_divided_ppl_category = {
             SAO = {
                OR = {
                  fascism > 0.7
-                 democratic 0.7
+                 democratic > 0.7
                }
             }
         }
@@ -1286,7 +1294,7 @@ SAO_divided_ppl_category = {
             SAO = {
                OR = {
                  fascism > 0.7
-                 democratic 0.7
+                 democratic > 0.7
                }
             }
         }
@@ -1294,7 +1302,7 @@ SAO_divided_ppl_category = {
             SAO = {
                OR = {
                  fascism > 0.7
-                 democratic 0.7
+                 democratic > 0.7
                }
             }
         }
