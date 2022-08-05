@@ -76,6 +76,7 @@ add_dynamic_modifier = {
 }
 
 set_country_flag = sao_show_main_focus
+set_country_flag = special_volunteers
 
 create_country_leader = {
 	
