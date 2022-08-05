@@ -1446,15 +1446,18 @@ SAO_divided_ppl_category = {
 
 	SAO_junta_interference = {
 	    activation = {
-	        SAO = {
-	            has_completed_focus = SAO_the_paulista_betrayal
-	        }
+			AND = {
+				SAO = {
+					has_completed_focus = SAO_the_paulista_betrayal
+				}
+				NOT = {has_global_flag = juntahasfallen}
+			}
 	    }
 	    available = {
-	        always = no
+			has_global_flag = juntahasfallen
 	    }
 	    cancel_trigger = {
-	       has_war = yes
+	       has_global_flag = juntahasfallen
 	    }
 	    icon = GFX_decision_generic_civil_support
 	    is_good = yes

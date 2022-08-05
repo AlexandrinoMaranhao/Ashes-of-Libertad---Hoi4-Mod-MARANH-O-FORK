@@ -11,9 +11,10 @@ ideas = {
 			modifier = {
 				stability_factor = -0.25
 				reactionary_acceptance = -100
-				SAO = {
+			}
+			targeted_modifier = {
+				tag = SAO
 				trade_opinion_factor = -1
-				}
 			}
 		}
 

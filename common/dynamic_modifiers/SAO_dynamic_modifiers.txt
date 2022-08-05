@@ -14,6 +14,13 @@ SAO_divided_population_modifier = { # Divided folk 2
 	stability_factor = -0.2
 }
 
+SAO_divided_junta_modifier = { # Divided folk 3 (No Junta)
+	icon = GFX_idea_GEN_so_paulos_divided_populace-183749
+	enable = { always = yes }
+
+	stability_factor = -0.2
+}
+
 SAO_janio_trolling = { # Janio's Campaigns
 	icon = GFX_idea_janio_campaign
 	enable = { always = yes }

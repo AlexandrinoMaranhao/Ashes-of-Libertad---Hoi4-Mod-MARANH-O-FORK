@@ -36,6 +36,44 @@ CRJ_second_battle_of_guanabara = {
 			}
         }
 	}
+	CRJ_leave_shitty_junta_leftovers = {
+		fire_only_once = yes
+		allowed = { tag = CRJ }                
+		available = {
+			AND = {
+				NOT = {
+					24 = {
+						is_controlled_by = CRJ
+					}
+					has_global_flag = juntahasfallen
+				}
+			}
+		}
+          activation = {
+			AND = {
+				24 = {
+					is_controlled_by = CRJ
+				}
+				has_global_flag = juntahasfallen
+			}
+          }
+          is_good = yes
+          days_mission_timeout = 70
+          timeout_effect = {
+			CRJ = {
+				leave_faction = yes
+			}
+			JAG = {
+				remove_from_faction = CRJ
+				add_opinion_modifier = {
+					target = CRJ
+					modifier = faction_traitor
+				}
+			}
+          }
+        complete_effect = {
+        }
+	}
 }
 
 JUNTA_civil_war = {
@@ -48,6 +86,7 @@ JUNTA_civil_war = {
 		controls_province = 1936
 		controls_province = 4422
 		controls_province = 2544
+		#hidden_trigger = {
 		#hidden_trigger = {
 			JUNTA_CIVIL_WAR_MISSION_TRIGGER = yes
 		#}

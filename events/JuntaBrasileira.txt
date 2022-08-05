@@ -278,11 +278,11 @@ country_event = {
             JEG = { change_tag_from = JUN }
        }
             JAG = {
-            create_faction = autonomy_isolated_military_district
-            add_to_faction = UBA
-            add_to_faction = BEM
-            add_to_faction = CRJ
-            add_to_faction = LAM
+				create_faction = autonomy_isolated_military_district
+				add_to_faction = UBA
+				add_to_faction = BEM
+				add_to_faction = CRJ
+				add_to_faction = LAM
             }
     every_country = {
         news_event = {

@@ -742,6 +742,37 @@ focus_tree = {
 				id = SAO_Focus_Tree_Events.15
 				days = 0
 			}
+			hidden_effect = {
+				if = {
+					limit = {
+						SAO = {
+							has_dynamic_modifier = {
+								modifier = SAO_modifier1
+							}
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = SAO_divided_junta_modifier
+					}
+					remove_dynamic_modifier = { modifier = SAO_modifier1 }
+				}
+				else_if = {
+					limit = {
+						SAO = {
+							has_dynamic_modifier = {
+								modifier = SAO_modifier1
+							}
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = SAO_divided_junta_modifier
+					}
+					remove_dynamic_modifier = { modifier = SAO_divided_population_modifier }
+				}
+				else = {
+					add_stability = 0.01
+				}
+			}
 		}
 	}
 
