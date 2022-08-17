@@ -965,6 +965,104 @@ CFD_main_category = {
 			factor = 999
 		}
 	}
+	CFD_post_mnh_better_patrols = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_post_mnh_restoration_process
+							value = 0.0
+							compare = greater_than_or_equals
+						}
+						any_state = {
+							is_controlled_by = CFD
+						}
+					}
+				}
+        }
+		visible = {
+			CFD = {
+				has_country_flag = operations_completed
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 60
+		complete_effect = {
+			add_to_variable = {
+				var = CFD_post_mnh_restoration_process
+				value = 0.5
+			}
+		}
+		modifier = {
+			root_out_resistance_effectiveness_factor = 0.3
+			compliance_growth_on_our_occupied_states = 0.3
+			occupation_cost = -0.2
+		}
+		remove_effect = {
+			add_stability = 0.1
+			CFD = {
+				every_owned_state = {
+					add_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_post_mnh_highway_security = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_post_mnh_restoration_process
+							value = 0.5
+							compare = greater_than_or_equals
+						}
+						any_state = {
+							is_controlled_by = CFD
+						}
+					}
+				}
+        }
+		visible = {
+			CFD = {
+				has_country_flag = operations_completed
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 60
+		modifier = {
+			root_out_resistance_effectiveness_factor = 0.3
+			compliance_growth_on_our_occupied_states = 0.3
+			occupation_cost = -0.2
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CFD_post_mnh_restoration_process
+				value = 0.5
+			}
+		}
+		remove_effect = {
+			add_stability = 0.1
+			CFD = {
+				every_owned_state = {
+					add_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 }
 
 ##################		Nation-Wide Development Decisions.		##################
