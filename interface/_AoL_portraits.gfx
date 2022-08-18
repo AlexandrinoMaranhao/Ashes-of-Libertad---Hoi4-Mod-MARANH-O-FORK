@@ -301,4 +301,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goofybois/generic_minister_13.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_MGeneric5"
+		texturefile = "gfx/leaders/STR/Portrait_STR_Merc5.dds"
+	}
+	spriteType = {
+		name = "GFX_MGeneric5_small"
+		texturefile = "gfx/interface/ideas/goofybois/generic_minister_17.dds"
+	}
+	
 }
