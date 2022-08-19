@@ -724,6 +724,12 @@ CFD_reactionary_party:0 "UNS"
 CFD_reactionary_party_long:0 "União Nacional Sertaneja"
 CFD_communism_party:0 "PCB"
 CFD_communism_party_long:0 "Partido Comunista Brasileiro"
+
+CFD_no_PSN_democratic:0 "PLN"
+CFD_no_PSN_democratic_long:0 "Partido Liberal do Nordeste"
+CFD_no_PSN_neutrality:0 "PDC"
+CFD_no_PSN_neutrality_long:0 "Partido Democrata Cristão"
+
 CFD_BRA_democratic_party:0 "PSN - Unionists"
 CFD_BRA_democratic_party_desc:0 "Partido Social Nordestino - Unidos"
 CFD_JUN_fascism_party:0 "ARENA - N"
