@@ -216,7 +216,7 @@ country_event = { #"Goodbye Mr. Blue Sky"
     id = SAO_Focus_Tree_Events.14
     title = SAO_Focus_Tree_Events.14.t
     desc = SAO_Focus_Tree_Events.14.d
-    picture = x
+    picture = GFX_report_event_adhemar_with_medal
     fire_only_once = no
     is_triggered_only = yes
 
@@ -268,7 +268,7 @@ country_event = { #"The Legs of the Revolution"
     id = SAO_Focus_Tree_Events.18
     title = SAO_Focus_Tree_Events.18.t
     desc = SAO_Focus_Tree_Events.18.d
-    picture = x
+    picture = GFX_report_event_Rosa_and_Alberto
     fire_only_once = no
     is_triggered_only = yes
 
@@ -316,7 +316,7 @@ country_event = { #"The Poet Warrior"
     id = SAO_Focus_Tree_Events.22
     title = SAO_Focus_Tree_Events.22.t
     desc = SAO_Focus_Tree_Events.22.d
-    picture = x
+    picture = GFX_news_event_marighella
     fire_only_once = no
     is_triggered_only = yes
 
@@ -328,7 +328,7 @@ country_event = { #"The Smirk Under the Smile"
     id = SAO_Focus_Tree_Events.23
     title = SAO_Focus_Tree_Events.23.t
     desc = SAO_Focus_Tree_Events.23.d
-    picture = x
+    picture = GFX_report_event_Rosa_and_Hugo
     fire_only_once = no
     is_triggered_only = yes
 
@@ -785,7 +785,7 @@ country_event = { #
     id = SAO_MARIGHELLA.3
     title = SAO_MARIGHELLA.3.t
     desc = SAO_MARIGHELLA.3.d
-    picture = GFX_news_event_marighella
+    picture = GFX_report_event_homem_da_capa_preta
     fire_only_once = yes
     is_triggered_only = yes
 
