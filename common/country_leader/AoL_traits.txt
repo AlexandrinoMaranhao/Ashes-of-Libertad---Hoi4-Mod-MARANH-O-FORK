@@ -492,4 +492,19 @@ leader_traits = {
 		production_speed_buildings_factor = 0.15
 	}
 	
+	mhc_DOPS_torturer = { #Trolling Officer
+		experience_gain_army = 0.05
+		special_forces_attack_factor = 0.15
+		special_forces_defence_factor = 0.15
+		equipment_bonus = {
+			marine = {
+				max_organisation = 0.2
+			}
+			mountaineers = {
+				max_organisation = 0.2
+			}
+		}
+		random = no
+	}
+	
 }
