@@ -26,6 +26,7 @@
 		cnav_decisive_battle_doctrine:0 "Decisive Battle Doctrine"
 		mhc_school_of_mass_combat:0 "School of Mass Combat"
 		mhc_school_of_defence:0 "School of Defence"
+		mhc_DOPS_torturer:0 "D.O.P.S. Officer"
 	#######Acre#######
 		jorge_kalume:0 "Jorge Kalume"
 		edgar_cerqueira:0 "Edgar Cerqueira"
@@ -227,4 +228,18 @@
 ###################################SAO PAULO ADVISORS###################################
 	SAO_edmundo_de_macedo_soares_advisor:0 "Edmundo de Macedo Soares"
     SAO_jose_porfirio_da_paz:0 "José Porfírio da Paz"
-
+	SAO_alvaro_lazzarini:0 "Álvaro Lazzarini" 
+	SAO_luiz_fleury_son:0 "Luiz Antônio Fleury Filho" 
+	SAO_orestes_quercia:0 "Orestes Quércia" 
+	SAO_juvenal_matos:0 "Juvenal Lino de Matos" 
+	SAO_janio_basado:0 "Jânio Quadros" 
+	SAO_paulo_malufs:0 "Paulo Maluf" 
+	SAO_franco_motoro:0 "Franco Motoro" 
+	SAO_roberval_lopes_lima:0 "Roberval Conte Lopes Lima" 
+	SAO_paulo_nogueira:0 "Paulo Nogueira Filho" 
+	SAO_wilson_richetti:0 "José Wilson Richetti" 
+	SAO_bolivar_soares:0 "Bolívar Marinho Soares de Meirelles" 
+	
+	PAU_pedro_lobo_de_oliveira:0 "Pedro Lobo de Oliveira"
+	PAU_darcy_rodrigues:0 "Darcy Rodrigues"
+	PAU_paulo_novaes_coutinho:0 "Paulo Novaes Coutinho" 

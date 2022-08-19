@@ -114,3 +114,7 @@ recruit_character = SAO_sergio_fleury
 recruit_character = SAO_alberto_mendes_jr
 recruit_character = SAO_hugo_de_abreu
 recruit_character = SAO_euryale_de_jesus_zerbini
+recruit_character = SAO_ademar_de_oliveira
+recruit_character = SAO_abilio_souza
+recruit_character = SAO_Ivo_Borges
+recruit_character = SAO_adalberto_nunes

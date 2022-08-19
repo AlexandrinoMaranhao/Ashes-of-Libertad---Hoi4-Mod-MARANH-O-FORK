@@ -11,6 +11,38 @@ ideas = {
 		#	cost = 50
 		#}
 		
+		##Paulista Upspring##
+		PAU_pedro_lobo_de_oliveira = {
+            allowed = {
+				original_tag = PAU
+            }
+            visible = {
+				original_tag = PAU
+            }
+			traits = { hog_devoted_follower hog_disgruntled_officer  }
+			cost = 50
+		}
+		PAU_darcy_rodrigues = {
+            allowed = {
+				original_tag = PAU
+            }
+            visible = {
+				original_tag = PAU
+            }
+			traits = { hog_devoted_follower sec_retired_general  }
+			cost = 50
+		}
+		PAU_paulo_novaes_coutinho = {
+            allowed = {
+				original_tag = PAU
+            }
+            visible = {
+				original_tag = PAU
+            }
+			traits = { for_warmonger rearmer  }
+			cost = 50
+		}
+		
 		##Sao paulo##
 		SAO_edmundo_de_macedo_soares_advisor = {
             allowed = {
@@ -30,6 +62,124 @@ ideas = {
 				original_tag = SAO
             }
 			traits = { hog_corporate_suit }
+			cost = 50
+		}
+		SAO_alvaro_lazzarini = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = { sec_silent_lawyer sec_aggressive_fighter }
+			cost = 50
+		}
+		SAO_luiz_fleury_son = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = { hog_reformist_soldier sec_prince_of_terror }
+			cost = 50
+		}
+		SAO_orestes_quercia = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = { journalist_3 }
+			cost = 50
+		}
+		SAO_juvenal_matos = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = { hog_political_protege }
+			cost = 50
+		}
+		SAO_janio_basado = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = -0.1
+				democratic_drift = 0.01
+			}
+			cost = 50
+		}
+		SAO_paulo_malufs = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				SAO = {has_country_flag = natel_died}
+            }
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = -0.1
+				fascism_drift = 0.01
+			}
+			cost = 50
+		}
+		SAO_franco_motoro= {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = {liberal_journalist}
+			cost = 50
+		}
+		SAO_roberval_lopes_lima= {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = {sec_army_instructor}
+			cost = 50
+		}
+		SAO_paulo_nogueira = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = {hog_respected_war_hero}
+			cost = 50
+		}
+		SAO_wilson_richetti = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = {sec_secret_police_chief}
+			cost = 50
+		}
+		SAO_bolivar_soares = {
+            allowed = {
+				original_tag = SAO
+            }
+            visible = {
+				original_tag = SAO
+            }
+			traits = {for_general_staffer}
 			cost = 50
 		}
 	}

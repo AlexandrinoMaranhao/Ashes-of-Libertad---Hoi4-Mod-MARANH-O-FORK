@@ -245,7 +245,7 @@ focus_tree = {
 		prerequisite = { focus = SAO_extinguish_militarist_hopes  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-
+				set_country_flag = natel_died
 				country_event = {
 					id = SAO_Focus_Tree_Events.6
 					days = 0
@@ -1462,7 +1462,7 @@ focus_tree = {
 		prerequisite = { focus = SAO_river_highways  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-
+				set_country_flag = SAO_la_garantia
 				country_event = {
 					id = SAO_Focus_Tree_Events.24
 					days = 0
