@@ -25,7 +25,7 @@
  sao_resettling_northeastern:0 "Resettle Nordestinos"
  sao_resettling_europeans:0 "Resettle Europeans"
  sao_resettling_americans:0 "Resettle Americans"
-  sao_resettling_riograndeses_desc:0 "There has always been beef between the Paulista and Gaúcho populace, sometimes because of literal beef, this is one of those times. As the war tightens the grip around the neck of the §G4th Brazilian Republic§! food rations have become scarcer and scarcer, drawing many hungry souls to the rogue state of §OSão Paulo§!. \n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
+ sao_resettling_riograndeses_desc:0 "There has always been beef between the Paulista and Gaúcho populace, sometimes because of literal beef, this is one of those times. As the war tightens the grip around the neck of the §G4th Brazilian Republic§! food rations have become scarcer and scarcer, drawing many hungry souls to the rogue state of §OSão Paulo§!. \n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
  sao_resettling_cariocas_desc:0 "Cariocas and Paulistas have been enemies since times immemorial, but desperate times demand desperate measures. With Rio de Janeiro devastated by the naval bombardments and brutal street-to-street fighting of the §G2nd Battle of Guanabara§! many Cariocas have no choice but to refugee themselves in the Serra do Mar.\n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
  sao_resettling_mineiros_desc:0 "Mineiros. Once political allies, now mortal enemies. From the Commie-infested hills of Minas Gerais, a constant stream of refugees comes to §OSão Paulo§!, fleeing the constant struggle between the §tC.O.L.I.N.A.§! and the Junta-backed regional forces. Lack of supervision risks allowing enemies of the Revolution inside our borders, so it is in our best interest to keep a close eye on them.\n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
  sao_resettling_midwestern_desc:0 "It seems not all is well in the silvery republic. Although headlines may dismiss any rumors of instability, enough political refugees reach our city to shine a light on the events unfolding behind the §3Silver Curtain§! and gossip on the goings-on of the political halls of §3Argentina§!.\n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
@@ -45,13 +45,13 @@
  SAO_ARG_ammo2:0 "Buy Ammo (§4 5§! )"
  SAO_ARG_motor_tech:0 "Buy Tech and Motor Parts (§4 6§! )"
  sao_liberate_araxa:0 "Liberate §tAraxá§!"
- sao_liberate_araxa:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_araxa_desc:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
  sao_liberate_sao_manuel_da_esperanca:0 "Liberate §tSão Manuel da Esperança§!"
- sao_liberate_sao_manuel_da_esperanca:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_sao_manuel_da_esperanca_desc:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
  sao_liberate_tres_coracoes:0 "Liberate §tTrês Corações§!"
- sao_liberate_tres_coracoes:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_tres_coracoes_desc:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
  sao_liberate_rio:0 "Liberate §tRio de Janeiro§!"
- sao_liberate_rio:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
+ sao_liberate_rio_desc:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up. \n\nAlso, due to §GRio§!'s political importance any attack on it will be answered by an immediate escalation in conflict, dooming §OSão Paulo§!'s neutrality."
  
 
 #############################################

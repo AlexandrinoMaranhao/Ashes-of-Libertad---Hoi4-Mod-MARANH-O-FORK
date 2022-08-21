@@ -1,5 +1,32 @@
 SAO_category = {
 ##################		Debug Decisions.	##################
+
+	SAO_debug_junta_civil_war = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			SAO = {
+				JUN = {
+					country_event = {
+						id = JUN_collapse.1
+						days = 0
+					}
+				}
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
 	trigger_paulista_catastrophe = {
 		cost = 0
 		visible = {
@@ -1415,7 +1442,7 @@ SAO_international_diplomacy_category = {
 			SAO = {
 				add_equipment_to_stockpile = {
 					type = convoy
-					amount = -200
+					amount = -50
 					producer = ROOT
 				}
 				capital_scope = {

@@ -65,12 +65,18 @@ news_event = { # Third Battle of Guanabara
 	id = THIRD_BATTLE_OF_GUANABARA.1
 	title = THIRD_BATTLE_OF_GUANABARA.1.t
 	desc = THIRD_BATTLE_OF_GUANABARA.1.d
-	picture = "GFX_news_event_natel_dead"
+	picture = "GFX_news_event_third_battle_of_guanabara"
 
 	is_triggered_only = yes
 
 	option = {
 		name = THIRD_BATTLE_OF_GUANABARA.1.a 
+		BRA = {
+		declare_war_on = {
+    target = SAO
+    type = annex_everything
+}
+		}
 		}
 	}
 
