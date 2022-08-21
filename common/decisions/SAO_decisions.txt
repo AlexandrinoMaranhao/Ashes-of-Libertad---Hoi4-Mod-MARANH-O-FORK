@@ -294,15 +294,247 @@ SAO_category = {
 	sao_resettling_riograndeses = {
 		icon = GFX_decision_icon_default
 		cost = 15
-		days_remove = 14
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
 		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+			SAO = {has_completed_focus = SAO_new_neighbors}
 		}
 		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = 0.001
+			democratic_drift = -0.3
+		}
+		remove_effect = {
+			add_political_power = 50
+			set_victory_points = {
+			province = 6467
+			value = 10
+					}
+			add_manpower = 1000
+			add_resource = {
+			    type = motors
+			    amount = 5
+			    state = 567
+			}
+			set_country_flag = SAO_gaucho_volunteers
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 25
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+	sao_resettling_cariocas = {
+		icon = GFX_decision_icon_default
+		cost = 15
+		days_remove = 30
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = 0.001
+			fascism_drift = -0.3
+		}
+		remove_effect = {
+			
+			add_political_power = 50
+			set_victory_points = {
+			province = 1024
+			value = 10
+					}
+			add_manpower = 1000
+			add_resource = {
+			    type = ammunition
+			    amount = 3
+			    state = 30
+			}
+			set_country_flag = SAO_carioca_volunteers
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 25
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_mineiros = {
+		icon = GFX_decision_icon_default
+		cost = 15
+		days_remove = 30
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = 0.001
+			communism_drift = -0.3
+		}
+		remove_effect = {
+			
+			add_political_power = 50
+			set_victory_points = {
+			province = 4558
+			value = 10
+					}
+			add_manpower = 1000
+			add_resource = {
+			    type = steel
+			    amount = 5
+			    state = 31
+			}
+			set_country_flag = SAO_mineiro_volunteers 
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 25
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_midwestern = {
+		icon = GFX_decision_icon_default
+		cost = 15
+		days_remove = 30
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.2
+			political_power_cost = 0.2
+			stability_weekly = 0.001
+			fascism_drift = -0.3
+		}
+		remove_effect = {
+
+			add_political_power = 50
+			set_victory_points = {
+			province = 4617
+			value = 10
+					}
+			add_manpower = 1000
+			add_resource = {
+			    type = technology
+			    amount = 2
+			    state = 34
+			}
+			add_resource = {
+			    type = ammunition
+			    amount = 2
+			    state = 34
+			}
+			set_country_flag = SAO_argentino_volunteers #Batalhão Miguel Costa
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 25
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sao_resettling_northeastern = {
+		icon = GFX_decision_icon_default
+		cost = 15
+		days_remove = 30
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
+		}
+		visible = {
+			SAO = {has_completed_focus = SAO_new_neighbors}
 		}
 		complete_effect = {
 			#
@@ -311,26 +543,55 @@ SAO_category = {
 			consumer_goods_factor = 0.2
 			political_power_cost = 0.2
 			stability_weekly = -0.001
+			reactionary_drift = -0.3
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
+			add_political_power = 50
+			add_manpower = 2000
+			add_resource = {
+			    type = steel
+			    amount = 2
+			    state = 28
+			}
+			add_resource = {
+			    type = ammunition
+			    amount = 2
+			    state = 28
+			}
+			set_country_flag = SAO_nordestino_volunteers 
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 25
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	sao_resettling_cariocas = {
+	sao_resettling_europeans = {
 		icon = GFX_decision_icon_default
 		cost = 15
-		days_remove = 14
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
 		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+			SAO = {has_completed_focus = SAO_new_neighbors}
 		}
 		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+			SAO = {has_completed_focus = SAO_new_neighbors}
 		}
 		complete_effect = {
 			#
@@ -341,118 +602,29 @@ SAO_category = {
 			stability_weekly = 0.001
 		}
 		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	sao_resettling_mineiros = {
-		icon = GFX_decision_icon_default
-		cost = 15
-		days_remove = 14
-		is_good = yes
-		fire_only_once = yes
-		
-		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		complete_effect = {
-			#
-		}
-		modifier = {
-			consumer_goods_factor = 0.2
-			political_power_cost = 0.2
-			stability_weekly = -0.001
-		}
-		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	sao_resettling_midwestern = {
-		icon = GFX_decision_icon_default
-		cost = 15
-		days_remove = 14
-		is_good = yes
-		fire_only_once = yes
-		
-		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		complete_effect = {
-			#
-		}
-		modifier = {
-			consumer_goods_factor = 0.2
-			political_power_cost = 0.2
-			stability_weekly = -0.001
-		}
-		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	sao_resettling_northeastern = {
-		icon = GFX_decision_icon_default
-		cost = 15
-		days_remove = 14
-		is_good = yes
-		fire_only_once = yes
-		
-		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		complete_effect = {
-			#
-		}
-		modifier = {
-			consumer_goods_factor = 0.2
-			political_power_cost = 0.2
-			stability_weekly = -0.001
-		}
-		remove_effect = {
-			#country_event = {id = my_event.1} Waiting code from Overlord: Input?
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	sao_resettling_europeans = {
-		icon = GFX_decision_icon_default
-		cost = 15
-		days_remove = 14
-		is_good = yes
-		fire_only_once = yes
-		
-		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
-		}
-		complete_effect = {
-			#
-		}
-		modifier = {
-			consumer_goods_factor = 0.2
-			political_power_cost = 0.2
-			stability_weekly = -0.001
-		}
-		remove_effect = {
+			add_political_power = 50
+			add_manpower = 4000
+			add_resource = {
+			    type = technology
+			    amount = 5
+			    state = 28
+			}
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 50
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
 
 		}
 		ai_will_do = {
@@ -462,15 +634,15 @@ SAO_category = {
 	sao_resettling_americans = {
 		icon = GFX_decision_icon_default
 		cost = 15
-		days_remove = 14
+		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
 		
 		available = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+			SAO = {has_completed_focus = SAO_new_neighbors}
 		}
 		visible = {
-			SAO = {has_completed_focus = SAO_resettling_the_immigrants}
+			SAO = {has_completed_focus = SAO_new_neighbors}
 		}
 		complete_effect = {
 			#
@@ -482,6 +654,34 @@ SAO_category = {
 		}
 		remove_effect = {
 			
+			add_political_power = 50
+			set_victory_points = {
+			province = 6471
+			value = 10
+					}
+			add_manpower = 1000
+			add_resource = {
+			    type = ammunition
+			    amount = 5
+			    state = 500
+			}
+			set_country_flag = SAO_american_volunteers 
+			IF = {
+			limit = {
+			NOT = {
+            has_country_flag = sao_show_MST
+				}
+			}
+			random = {
+				chance = 25
+				set_country_flag = sao_show_MST
+				mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = SAO_MST_SPAWN.1
+					days = 0
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -1022,7 +1222,7 @@ SAO_international_diplomacy_category = {
 				SAO = {
 					has_country_flag = SAO_business_with_ARG
 					has_equipment = {
-						convoy > 99
+						convoy > 25
 					}
 				}
 			}
@@ -1034,7 +1234,7 @@ SAO_international_diplomacy_category = {
 			SAO = {
 				add_equipment_to_stockpile = {
 					type = convoy
-					amount = -100
+					amount = -25
 					producer = ROOT
 				}
 				capital_scope = {
@@ -1080,7 +1280,7 @@ SAO_international_diplomacy_category = {
 			SAO = {
 				add_equipment_to_stockpile = {
 					type = convoy
-					amount = -100
+					amount = -25
 					producer = ROOT
 				}
 				capital_scope = {
@@ -1125,7 +1325,7 @@ SAO_international_diplomacy_category = {
 			SAO = {
 				add_equipment_to_stockpile = {
 					type = convoy
-					amount = -100
+					amount = -25
 					producer = ROOT
 				}
 				capital_scope = {
@@ -1170,7 +1370,7 @@ SAO_international_diplomacy_category = {
 			SAO = {
 				add_equipment_to_stockpile = {
 					type = convoy
-					amount = -100
+					amount = -25
 					producer = ROOT
 				}
 				capital_scope = {

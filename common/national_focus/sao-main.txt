@@ -499,16 +499,10 @@ focus_tree = {
 				unlock_decision_tooltip = sao_resettling_europeans
 				unlock_decision_tooltip = sao_resettling_americans
 				add_stability = 0.1
-				set_country_flag = sao_show_MST
-				mark_focus_tree_layout_dirty = yes
-				
-				country_event = {
-					id = SAO_MST_SPAWN.1
-					days = 0
 				}
 			}
 		}
-	}
+	
 
 	#Figueiredo's Reforms
 	focus = {
