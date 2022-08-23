@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = CFD_opportunities_and_resources
 		icon = GFX_goal_unknown
-		x = 36
+		x = 38
 		y = 7
 		cost = 2
 		search_filters = {
@@ -31,7 +31,7 @@ focus_tree = {
 	focus = {
 		id = CFD_thessrpeasantssonthesswwhitehousess
 		icon = GFX_goal_unknown
-		x = 31
+		x = 33
 		y = 5
 		cost = 1
 		search_filters = {
@@ -50,7 +50,7 @@ focus_tree = {
 	focus = {
 		id = CFD_ssythessssyoppositionssssgleadershipss
 		icon = GFX_goal_unknown
-		x = 41
+		x = 43
 		y = 5
 		cost = 1
 		search_filters = {
@@ -67,11 +67,11 @@ focus_tree = {
 		}
 	}
 
-	#§GComing Soon...§!
+	#§GComing§! §YSoon...§!
 	focus = {
-		id = CFD_ssgcomingsoonss
+		id = CFD_ssgcomingssssysoonss
 		icon = GFX_goal_unknown
-		x = 41
+		x = 43
 		y = 6
 		cost = 1
 		search_filters = {
@@ -1176,7 +1176,7 @@ focus_tree = {
 	focus = {
 		id = CFD_a_new_dawn
 		icon = GFX_goal_unknown
-		x = 36
+		x = 38
 		y = 3
 		cost = 2
 		search_filters = {
@@ -1192,7 +1192,7 @@ focus_tree = {
 	focus = {
 		id = CFD_uniting_the_people
 		icon = GFX_goal_unknown
-		x = 36
+		x = 38
 		y = 4
 		cost = 2
 		search_filters = {
@@ -1209,7 +1209,7 @@ focus_tree = {
 	focus = {
 		id = CFD_a_look_at_our_surroundings
 		icon = GFX_goal_unknown
-		x = 36
+		x = 38
 		y = 6
 		cost = 2
 		search_filters = {
@@ -1233,7 +1233,7 @@ focus_tree = {
 	focus = {
 		id = CFD_andflowers
 		icon = GFX_goal_unknown
-		x = 31
+		x = 33
 		y = 7
 		cost = 2
 		search_filters = {
@@ -1247,7 +1247,7 @@ focus_tree = {
 	focus = {
 		id = CFD_betweeniron
 		icon = GFX_goal_unknown
-		x = 31
+		x = 33
 		y = 6
 		cost = 2
 		search_filters = {
@@ -1261,7 +1261,7 @@ focus_tree = {
 	focus = {
 		id = CFD_thecommunistparty
 		icon = GFX_goal_unknown
-		x = 33
+		x = 35
 		y = 7
 		cost = 2
 		search_filters = {
@@ -1275,7 +1275,7 @@ focus_tree = {
 	focus = {
 		id = CFD_thepeasantleagues
 		icon = GFX_goal_unknown
-		x = 33
+		x = 35
 		y = 6
 		cost = 2
 		search_filters = {
@@ -1289,7 +1289,7 @@ focus_tree = {
 	focus = {
 		id = CFD_andtheagriculturalsocietyofplanters
 		icon = GFX_goal_unknown
-		x = 33
+		x = 35
 		y = 8
 		cost = 2
 		search_filters = {
@@ -1303,7 +1303,7 @@ focus_tree = {
 	focus = {
 		id = CFD_risesapeasant
 		icon = GFX_goal_unknown
-		x = 31
+		x = 33
 		y = 8
 		cost = 2
 		search_filters = {
@@ -1317,7 +1317,7 @@ focus_tree = {
 	focus = {
 		id = CFD_thessypsnssssrpcbssstruggle
 		icon = GFX_goal_unknown
-		x = 29
+		x = 31
 		y = 6
 		cost = 2
 		search_filters = {
@@ -1331,7 +1331,7 @@ focus_tree = {
 	focus = {
 		id = CFD_a_call_for_agrarian_reform
 		icon = GFX_goal_unknown
-		x = 29
+		x = 31
 		y = 8
 		cost = 2
 		search_filters = {
@@ -1345,7 +1345,7 @@ focus_tree = {
 	focus = {
 		id = CFD_a_promise_of_study
 		icon = GFX_goal_unknown
-		x = 29
+		x = 31
 		y = 7
 		cost = 2
 		search_filters = {
@@ -1363,7 +1363,7 @@ focus_tree = {
 	focus = {
 		id = CFD_amplifying_the_leagues
 		icon = GFX_goal_unknown
-		x = 32
+		x = 34
 		y = 9
 		cost = 2
 		search_filters = {
@@ -1377,7 +1377,7 @@ focus_tree = {
 	focus = {
 		id = CFD_communal_sugar_plants
 		icon = GFX_goal_unknown
-		x = 30
+		x = 32
 		y = 9
 		cost = 2
 		search_filters = {
@@ -1391,7 +1391,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_duke_of_saint_louis
 		icon = GFX_goal_unknown
-		x = 31
+		x = 33
 		y = 10
 		cost = 2
 		search_filters = {
@@ -1399,7 +1399,176 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_amplifying_the_leagues  } prerequisite = { focus = CFD_communal_sugar_plants  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_country_flag = CFD_finished_PCB
+			mark_focus_tree_layout_dirty = yes
+			
+			
+			
+		}
 		will_lead_to_war_with = MNH
+	}
+
+	#We Must Strike First!
+	focus = {
+		id = CFD_wemuststrikefirst
+		icon = GFX_goal_unknown
+		x = 38
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_toprotecttheconfederacy  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			declare_war_on = {
+			    target = MNH
+			    type = annex_everything
+			}
+		}
+	}
+
+	#To Protect the Confederacy...
+	focus = {
+		id = CFD_toprotecttheconfederacy
+		icon = GFX_goal_unknown
+		x = 38
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_inviting_potencial_allies  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Inviting Potencial Allies
+	focus = {
+		id = CFD_inviting_potencial_allies
+		icon = GFX_goal_unknown
+		x = 38
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_border_dispute  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Border Dispute
+	focus = {
+		id = CFD_the_border_dispute
+		icon = GFX_goal_unknown
+		x = 38
+		y = 11
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		bypass = {
+			always = yes
+		}
+		allow_branch = {
+			has_country_flag = CFD_finished_PCB
+			
+			
+			
+		}
+	}
+
+	#Increase the §RPeasant's Leagues§! Funding
+	focus = {
+		id = CFD_increasethessrpeasantsleaguesssfunding
+		icon = GFX_goal_unknown
+		x = 36
+		y = 12
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_border_dispute  }
+		mutually_exclusive = { focus = CFD_improvingthessysupplychainss  }
+		ai_will_do = { factor = 1 }
+		available = {
+			has_government = communism
+		}
+	}
+
+	#Improving the §YSupply Chain§!
+	focus = {
+		id = CFD_improvingthessysupplychainss
+		icon = GFX_goal_unknown
+		x = 40
+		y = 12
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_the_border_dispute  }
+		mutually_exclusive = { focus = CFD_increasethessrpeasantsleaguesssfunding  }
+		ai_will_do = { factor = 1 }
+		available = {
+			has_government = neutrality
+		}
+	}
+
+	#Expanding Weapons Contracts
+	focus = {
+		id = CFD_expanding_weapons_contracts
+		icon = GFX_goal_unknown
+		x = 40
+		y = 13
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_improvingthessysupplychainss  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Buying on Debt
+	focus = {
+		id = CFD_buying_on_debt
+		icon = GFX_goal_unknown
+		x = 40
+		y = 14
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_expanding_weapons_contracts  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Focus on the Tranning...
+	focus = {
+		id = CFD_focusonthetranning
+		icon = GFX_goal_unknown
+		x = 36
+		y = 13
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_increasethessrpeasantsleaguesssfunding  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#And Shooting...
+	focus = {
+		id = CFD_andshooting
+		icon = GFX_goal_unknown
+		x = 36
+		y = 14
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CFD_focusonthetranning  }
+		ai_will_do = { factor = 1 }
 	}
 
 }

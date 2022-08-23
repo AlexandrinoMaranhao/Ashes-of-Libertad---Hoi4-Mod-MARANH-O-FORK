@@ -369,11 +369,11 @@ SAO_category = {
 					}
 				}
 			}
+		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-}
 	sao_resettling_cariocas = {
 		icon = GFX_decision_icon_default
 		cost = 15

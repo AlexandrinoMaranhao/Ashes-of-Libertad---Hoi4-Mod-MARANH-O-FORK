@@ -15,6 +15,7 @@ set_convoys = 20
 
 recruit_character = SEG_seixas_dória
 recruit_character = SEG_Anatolio_Ettinger_de_Meneses
+recruit_character = SEG_Oscar_Ribeiro_Fontes_Lima
 
 set_politics = {
 	ruling_party = reactionary

@@ -31,4 +31,22 @@ characters={
 			legacy_id=-1
 		}
 	}
+	SEG_Oscar_Ribeiro_Fontes_Lima={
+		name= "Oscar Ribeiro Fontes Lima"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/SEG_Oscar_Ribeiro_Fontes_Lima.dds"
+				large="gfx/leaders/SEG/SEG_Oscar_Ribeiro_Fontes_Lima.dds"
+			}
+		}
+		field_marshal={
+			traits={ camouflage_expert }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
 }
