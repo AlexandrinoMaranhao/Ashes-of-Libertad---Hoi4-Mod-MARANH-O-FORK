@@ -24,7 +24,7 @@ country_event = { #Intro2
     title = CFD_intro.2.t
     desc = CFD_intro.2.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_memories
+    picture = GFX_report_cfd_riots
 
     option = {
         name = CFD_intro.2.a
@@ -48,7 +48,7 @@ country_event = { #The Hell Battalion returns from Piaui
     title = CFD_events.1.t
     desc = CFD_events.1.d
     is_triggered_only = yes
-    picture = GFX_report_event_guerrilla
+    picture = GFX_report_cfd_portella_intro
 
     option = {
         name = CFD_events.1.a
@@ -499,7 +499,7 @@ country_event = { #Sarney's war starting event
     title = CFD_events.17.t
     desc = CFD_events.17.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_memories
+    picture = GFX_report_cfd_march
 
     option = {
         name = CFD_events.17.a

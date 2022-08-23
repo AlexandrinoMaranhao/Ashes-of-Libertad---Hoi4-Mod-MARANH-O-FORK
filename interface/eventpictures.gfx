@@ -123,6 +123,19 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_cfd_march"
+		texturefile = "gfx/event_pictures/report_cfd_march.dds"
+	}
+	spriteType = {
+		name = "GFX_report_cfd_riots"
+		texturefile = "gfx/event_pictures/report_cfd_riots.dds"
+	}
+	spriteType = {
+		name = "GFX_report_cfd_portella_intro"
+		texturefile = "gfx/event_pictures/report_cfd_portella_intro.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_cfd_elections"
 		texturefile = "gfx/event_pictures/report_cfd_elections.dds"
 	}

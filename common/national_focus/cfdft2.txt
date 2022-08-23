@@ -251,12 +251,14 @@ focus_tree = {
 					id = CFD_events.8
 					days = 90
 				}
+				add_ideas = CFD_pelopidas_silveira_advisor
 			}
 			
 			country_event = {
 			    id = CFD_events.7
 			    days = 0
 			}
+			
 		}
 	}
 
@@ -1202,6 +1204,8 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			set_variable = { CFD_no_balance = 1 }
+			remove_ideas = CFD_turbulent_confederatization
+			add_political_power = 150
 		}
 	}
 
@@ -1419,7 +1423,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_toprotecttheconfederacy  }
+		prerequisite = { focus = CFD_toprotecttheconfederacy  focus = CFD_the_agricultural_warfare_doctrine  focus = CFD_buying_on_debt  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			declare_war_on = {
@@ -1483,7 +1487,7 @@ focus_tree = {
 	focus = {
 		id = CFD_increasethessrpeasantsleaguesssfunding
 		icon = GFX_goal_unknown
-		x = 36
+		x = 35
 		y = 12
 		cost = 1
 		search_filters = {
@@ -1501,7 +1505,7 @@ focus_tree = {
 	focus = {
 		id = CFD_improvingthessysupplychainss
 		icon = GFX_goal_unknown
-		x = 40
+		x = 41
 		y = 12
 		cost = 1
 		search_filters = {
@@ -1519,7 +1523,7 @@ focus_tree = {
 	focus = {
 		id = CFD_expanding_weapons_contracts
 		icon = GFX_goal_unknown
-		x = 40
+		x = 41
 		y = 13
 		cost = 1
 		search_filters = {
@@ -1533,7 +1537,7 @@ focus_tree = {
 	focus = {
 		id = CFD_buying_on_debt
 		icon = GFX_goal_unknown
-		x = 40
+		x = 41
 		y = 14
 		cost = 1
 		search_filters = {
@@ -1543,11 +1547,11 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#Focus on the Tranning...
+	#Focus on the Training
 	focus = {
-		id = CFD_focusonthetranning
+		id = CFD_focus_on_the_training
 		icon = GFX_goal_unknown
-		x = 36
+		x = 35
 		y = 13
 		cost = 1
 		search_filters = {
@@ -1557,17 +1561,17 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#And Shooting...
+	#The Agricultural Warfare Doctrine
 	focus = {
-		id = CFD_andshooting
-		icon = GFX_goal_unknown
-		x = 36
+		id = CFD_the_agricultural_warfare_doctrine
+		icon = GFX_CFD_the_agricultural_warfare_doctrine-294868
+		x = 35
 		y = 14
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_focusonthetranning  }
+		prerequisite = { focus = CFD_focus_on_the_training  }
 		ai_will_do = { factor = 1 }
 	}
 

@@ -2385,7 +2385,9 @@ CFD_balance_category = {
 				var = CFD_no_balance
 				value = -0.05
 			}
-			activate_decision = CFD_increase_PCB_balance
+			hidden_effect = {
+				activate_decision = CFD_increase_PCB_balance
+			}
 		}
 	}
 	CFD_increase_PSN_balance = {
@@ -2416,7 +2418,9 @@ CFD_balance_category = {
 				var = CFD_no_balance
 				value = -0.05
 			}
-			activate_decision = CFD_increase_PSN_balance
+			hidden_effect = {
+				activate_decision = CFD_increase_PSN_balance
+			}
 		}
 	}
 }
@@ -2489,7 +2493,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2553,7 +2559,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2616,7 +2624,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2679,7 +2689,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2742,7 +2754,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2805,7 +2819,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2869,7 +2885,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2919,7 +2937,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -2982,7 +3002,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -3045,7 +3067,9 @@ CFD_piaui_frontier = {
 					}
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -3111,7 +3135,9 @@ CFD_piaui_frontier = {
 					controls_state = 583
 					has_border_war = no
 					has_war = no
-					NOT = {has_country_flag = portella_dead}
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+					}
 				}
 				
 			}
@@ -3169,9 +3195,11 @@ CFD_piaui_frontier = {
 		available = {
 			CFD = {
 				AND = {
-					NOT = {has_country_flag = portella_dead}
-					has_country_flag = begin_piaui_frontier
-					has_country_flag = operations_completed
+					hidden_trigger = {
+						NOT = {has_country_flag = portella_dead}
+						has_country_flag = begin_piaui_frontier
+						has_country_flag = operations_completed
+					}
 					has_border_war = no
 					has_war = no
 				}
@@ -3383,7 +3411,6 @@ CFD_usineiros_revolt_category = {
 							compare = greater_than_or_equals
 						}
 						has_government = communism
-						NOT = {has_country_flag = CFD_PCB_Victory}
 					}
 				}
 			}
@@ -3391,8 +3418,12 @@ CFD_usineiros_revolt_category = {
         activation = {
 			CFD = {
 				AND = {
+					check_variable = {
+						var = CFD_league_influence
+						value = 6
+						compare = greater_than_or_equals
+					}
 					has_government = communism
-					NOT = {has_country_flag = CFD_PCB_Victory}
 				}
 			}
         }
