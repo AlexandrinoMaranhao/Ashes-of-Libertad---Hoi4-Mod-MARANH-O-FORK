@@ -13,24 +13,7 @@ characters={
 			id=-1
 		}
 	}
-	SEG_Anatolio_Ettinger_de_Meneses={
-		name="Anatólio Ettinger de Meneses"
-		portraits={
-			army={
-				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
-				large="gfx/leaders/SEG/Portrait_SEG_Anatolio_Ettinger_de_Meneses.dds"
-			}
-		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill=2
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
+	##PMSE
 	SEG_Oscar_Ribeiro_Fontes_Lima={
 		name= "Oscar Ribeiro Fontes Lima"
 		portraits={
@@ -49,4 +32,78 @@ characters={
 			legacy_id=-1
 		}
 	}
+	SEG_Milton_dos_Santos={
+		name= "Milton dos Santos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/SEG_Milton_dos_Santos.dds"
+				large="gfx/leaders/SEG/SEG_Milton_dos_Santos.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	##Lawmakers
+	SEG_Anatolio_Ettinger_de_Meneses={
+		name="Anatólio Ettinger de Meneses"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
+				large="gfx/leaders/SEG/Portrait_SEG_Anatolio_Ettinger_de_Meneses.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SEG_Luiz_de_Carvalho_Costa={
+		name="Luiz de Carvalho Costa"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/SEG_Luiz_de_Carvalho_Costa.dds"
+				large="gfx/leaders/SEG/SEG_Luiz_de_Carvalho_Costa.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trait_cautious }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SEG_Paulo_Barroso_Pinto={
+		name="Paulo Barroso Pinto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/SEG_Paulo_Barroso_Pinto.dds"
+				large="gfx/leaders/SEG/SEG_Paulo_Barroso_Pinto.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard politically_connected career_officer }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
 }
