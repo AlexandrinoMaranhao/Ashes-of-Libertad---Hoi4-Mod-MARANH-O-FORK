@@ -58,6 +58,14 @@ spriteTypes = {
 		name = "GFX_idea_CFD_augusto_lucena_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/CFD_augusto_lucena_advisor.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_CFD_dom_helder_camara_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_dom_helder_camara_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_joaquim_parente_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_joaquim_parente_advisor.dds"
+	}
 	
 ###El_Generico Quadrant###
 	spriteType = {
