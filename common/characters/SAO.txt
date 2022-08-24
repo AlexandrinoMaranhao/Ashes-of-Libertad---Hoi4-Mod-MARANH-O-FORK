@@ -1,6 +1,6 @@
 characters={
 	SAO_jânio_quadros={
-		name="Jânio Quadros"
+		name= SAO_janio_quadros
 		portraits={
 			civilian={
 				large="gfx/leaders/SAO/Portrait_SAO_Janio_Quadros.dds"
@@ -26,7 +26,7 @@ characters={
 		}
 	}
 	SAO_brasilio_taborda={
-		name="Brasilio Taborda"
+		name= SAO_brasilio_taborda
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
@@ -46,7 +46,7 @@ characters={
 		}
 	}
 	SAO_euryale_de_jesus_zerbini={
-		name="Euryale de Jesus Zerbini"
+		name= SAO_euryale_de_jesus_zerbini
 		portraits={
 			army={
 				small = "gfx/interface/ideas/goofybois/generic_minister_14.dds"
@@ -73,7 +73,7 @@ characters={
 		}
 	}
 	SAO_joao_figueiredo={
-		name="João Figueiredo"
+		name= SAO_joao_figueiredo
 		portraits={
 			civilian={
 				large="gfx/leaders/SAO/Portrait_SAO_Joao_figueiredo.dds"
@@ -102,7 +102,7 @@ characters={
 		}
 	}
 	SAO_sergio_fleury ={
-		name="Sérgio Fleury"
+		name= SAO_sergio_fleury
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/sergio_fleury.dds"
@@ -141,7 +141,7 @@ characters={
 		}
 	}
 	SAO_alberto_mendes_jr ={
-		name="Alberto Mendes Jr"
+		name= SAO_alberto_mendes_jr
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/alberto_mendes_jr.dds"
@@ -170,7 +170,7 @@ characters={
 		}
 	}
 	SAO_hugo_de_abreu ={
-		name="Hugo de Abreu"
+		name= SAO_hugo_de_abreu
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/Hugo_de_Abreu.dds"
@@ -216,7 +216,7 @@ characters={
 	}
 
 	SAO_Ivo_Borges = {
-		name = "Ivo Borges"
+		name = SAO_Ivo_Borges
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/SAO_Ivo_Borges.dds"
@@ -232,7 +232,7 @@ characters={
 		}
 	}
 	SAO_ademar_de_oliveira = {
-		name = "Ademar Augusto de Oliveira"
+		name = SAO_ademar_de_oliveira
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/SAO_ademar_de_oliveira.dds"
@@ -248,7 +248,7 @@ characters={
 		}
 	}
 	SAO_abilio_souza = {
-		name = "Abílio Correa de Souza"
+		name = SAO_abilio_souza
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/SAO_abilio_souza.dds"
@@ -264,7 +264,7 @@ characters={
 		}
 	}
 	SAO_adalberto_nunes = {
-		name = "Adalberto de Barros Nunes"
+		name = SAO_adalberto_nunes
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/SAO_adalberto_nunes.dds"
@@ -288,7 +288,7 @@ characters={
 	
 	##Paulista Upsring
 	PAU_rosa_kusinsky = {
-		name = "Rosa Kusinsky"
+		name = PAU_rosa_kusinsky
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/PAU_Rosa_Kusinsky.dds"
@@ -304,7 +304,7 @@ characters={
 		}
 	}
 	PAU_toledo = {
-		name = "Toledo"
+		name = PAU_toledo
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/PAU_toledo.dds"

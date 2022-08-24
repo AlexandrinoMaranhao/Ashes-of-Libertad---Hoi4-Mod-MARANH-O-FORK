@@ -1,6 +1,6 @@
 characters={
 	CFD_arnon_afonso_de_farias_mello={
-		name="Arnon Afonso de Farias Mello"
+		name= CFD_arnon_afonso_de_farias_mello
 		portraits={
 			civilian={
 				large="gfx/leaders/ALA/Portrait_ALA_Arnon_Afonso_de_Farias_Mello.dds"
@@ -19,7 +19,7 @@ characters={
 		}
 	}
 	CFD_miguel_arraes={
-		name="Miguel Arraes"
+		name= CFD_miguel_arraes
 		portraits={
 			civilian={
 				large="gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
@@ -34,7 +34,7 @@ characters={
 		}
 	}
 	CFD_gregorio_bezerra={
-		name="Gregório Bezerra"
+		name = CFD_gregorio_bezerra
 		portraits={
 			civilian={
 				large="gfx/leaders/CFD/Portrait_CFD_Gregorio_Bezerra.dds"
@@ -48,7 +48,7 @@ characters={
 		}
 	}
 	CFD_pretonio_portella={
-		name="Petrônio Portella"
+		name= CFD_pretonio_portella
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/pretonio_portella.dds"
@@ -92,7 +92,7 @@ characters={
 		}
 	}
 	CFD_hangho_trench={
-		name="Hangho Trench"
+		name= CFD_hangho_trench
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
@@ -110,7 +110,7 @@ characters={
 		}
 	}
 	CFD_NAG_lima={
-		name= "Nilo Augusto Guerreiro Lima"
+		name= CFD_NAG_lima
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_3.dds"
@@ -128,7 +128,7 @@ characters={
 		}
 	}
 	CFD_inima_siqueira={
-		name= "Inimá Siqueira"
+		name= CFD_inima_siqueira
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_6.dds"
@@ -146,7 +146,7 @@ characters={
 		}
 	}
 	CFD_augusto_de_silveira={
-		name= "Augusto de Silveira"
+		name= CFD_augusto_de_silveira
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_7.dds"
@@ -164,7 +164,7 @@ characters={
 		}
 	}
 	CFD_joao_bezerra_de_araujo={
-		name="João Bezerra de Araújo"
+		name= CFD_joao_bezerra_de_araujo
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_10.dds"
@@ -182,7 +182,7 @@ characters={
 		}
 	}
 	CFD_nelson_a_silva={
-		name="Nelso Ambrioso da Silva"
+		name= CFD_nelson_a_silva
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_5.dds"
@@ -200,7 +200,7 @@ characters={
 		}
 	}
 	CFD_harry_alberto_schnarndorf={
-		name="Harry Alberto Schnarndorf"
+		name= CFD_harry_alberto_schnarndorf
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_5.dds"
@@ -218,7 +218,7 @@ characters={
 		}
 	}
 	CFD_odijas_carvalho_de_souza={
-		name="Odijas Carvalho de Souza"
+		name= CFD_odijas_carvalho_de_souza
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_10.dds"
@@ -236,7 +236,7 @@ characters={
 		}
 	}
 	CFD_joaquim_castillho={
-		name="Joaquim de Castillho"
+		name= CFD_joaquim_castillho
 		portraits={
 			army={
 				small="gfx/interface/ideas/goofybois/generic_minister_10.dds"
@@ -255,7 +255,7 @@ characters={
 	}
 	#Military Staff & High Command
 	CFD_romeu_sobreira_de_moura = {
-		name = "Romeu Sobreira de Moura"
+		name = CFD_romeu_sobreira_de_moura
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_romeu_moura.dds"
@@ -277,7 +277,7 @@ characters={
 		}
 	}
 	CFD_jose_amorim = {
-		name = "José Bezerra de Amorim"
+		name = CFD_jose_amorim
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_jose_amorim.dds"
@@ -293,7 +293,7 @@ characters={
 		}
 	}
 	CFD_eraldo_leite = {
-		name = "Eraldo Gueiros Leite"
+		name = CFD_eraldo_leite
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_eraldo_leite.dds"
@@ -315,7 +315,7 @@ characters={
 		}
 	}
 	CFD_rui_carneiro = {
-		name = "Rui Carneiro"
+		name = CFD_rui_carneiro
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_rui_carneiro.dds"
@@ -331,7 +331,7 @@ characters={
 		}
 	}
 	CFD_ribeiro_paz = {
-		name = "Ribeiro Paz"
+		name = CFD_ribeiro_paz
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_paz.dds"
@@ -353,7 +353,7 @@ characters={
 		}
 	}
 	CFD_juarez_tavora = {
-		name = "Juarez Távora"
+		name = CFD_juarez_tavora
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_tavora.dds"
@@ -369,7 +369,7 @@ characters={
 		}
 	}
 	CFD_alberto_sallaberry = {
-		name = "Sylvio Melo de Cahú"
+		name = CFD_alberto_sallaberry
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_cahu.dds"
@@ -391,7 +391,7 @@ characters={
 		}
 	}
 	CFD_ivan_ruy = {
-		name = "Ivan Ruy"
+		name = CFD_ivan_ruy
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_ruy.dds"
@@ -413,7 +413,7 @@ characters={
 		}
 	}
 	CFD_homero_souto_de_oliveira = {
-		name = "Homero Souto de Oliveira"
+		name = CFD_homero_souto_de_oliveira
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_homero_souto_de_oliveira.dds"
@@ -429,7 +429,7 @@ characters={
 		}
 	}
 	CFD_luiz_clovis_de_oliveira = {
-		name = "Luiz Clovis De Oliveira"
+		name = CFD_luiz_clovis_de_oliveira
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/goofybois/cfd_luiz_clovis_de_oliveira.dds"
