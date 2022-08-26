@@ -1218,7 +1218,7 @@ focus_tree = {
 				set_country_flag = second_phase_sp
 				set_cosmetic_tag = SAO_SCR
 
- 				news_event = { id = world_sp.4 } 
+ 				news_event = { id = world_sp.4 days = 2} 
 
 		add_popularity = {
 			ideology = democratic
@@ -1271,7 +1271,7 @@ focus_tree = {
 					}
 				}
 				set_cosmetic_tag = SAO_SCR
- 				news_event = { id = world_sp.2 } 
+ 				news_event = { id = world_sp.2 days = 2} 
 			}
 
 			else_if = { # Quadros' Path
@@ -1286,7 +1286,7 @@ focus_tree = {
 					elections_allowed = no
 				}
 
- 			news_event = { id = world_sp.3 } 
+ 			news_event = { id = world_sp.3 days = 2} 
 				}
 			}
 		}
