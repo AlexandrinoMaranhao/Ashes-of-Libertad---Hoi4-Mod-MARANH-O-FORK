@@ -120,7 +120,7 @@ country_event = { #"The Governor and the General"
     id = SAO_Focus_Tree_Events.8
     title = SAO_Focus_Tree_Events.8.t
     desc = SAO_Focus_Tree_Events.8.d
-    picture = x
+    picture = GFX_report_event_adhemar_with_medal
     fire_only_once = no
     is_triggered_only = yes
 
@@ -159,7 +159,7 @@ country_event = { #"Guerrilla Campaigning"
     id = SAO_Focus_Tree_Events.11
     title = SAO_Focus_Tree_Events.11.t
     desc = SAO_Focus_Tree_Events.11.d
-    picture = x
+    picture = GFX_report_event_the_last_hope
     fire_only_once = no
     is_triggered_only = yes
 
@@ -172,7 +172,7 @@ country_event = { #"O Baú da Felicidade!"
     id = SAO_Focus_Tree_Events.12
     title = SAO_Focus_Tree_Events.12.t
     desc = SAO_Focus_Tree_Events.12.d
-    picture = x
+    picture = GFX_report_event_maoe
     fire_only_once = no
     is_triggered_only = yes
 
@@ -229,7 +229,7 @@ country_event = { #"More Urgent Matters"
     id = SAO_Focus_Tree_Events.15
     title = SAO_Focus_Tree_Events.15.t
     desc = SAO_Focus_Tree_Events.15.d
-    picture = x
+    picture = GFX_report_event_adhemar_with_medal
     fire_only_once = no
     is_triggered_only = yes
 
@@ -292,7 +292,7 @@ country_event = { #"The Partnership of the Century"
     id = SAO_Focus_Tree_Events.20
     title = SAO_Focus_Tree_Events.20.t
     desc = SAO_Focus_Tree_Events.20.d
-    picture = x
+    picture = GFX_report_event_adhemar_with_medal
     fire_only_once = no
     is_triggered_only = yes
 
@@ -304,7 +304,7 @@ country_event = { #"Heavy gunfire reported in República."
     id = SAO_Focus_Tree_Events.21
     title = SAO_Focus_Tree_Events.21.t
     desc = SAO_Focus_Tree_Events.21.d
-    picture = x
+    picture = GFX_report_event_rota_na_rua
     fire_only_once = no
     is_triggered_only = yes
 
