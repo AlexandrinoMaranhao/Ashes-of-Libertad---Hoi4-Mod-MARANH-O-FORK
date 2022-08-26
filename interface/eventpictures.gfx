@@ -6,7 +6,27 @@ spriteTypes = {
 	#	texturefile = "gfx/event_pictures/.dds"
 	#}
 	# 
-				        
+						     
+	spriteType = {
+		name = "GFX_news_event_interview_of_the_century_janio"
+		texturefile = "gfx/event_pictures/news_event_interview_of_the_century_janio.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_news_event_interview_of_the_century_figueiredo"
+		texturefile = "gfx/event_pictures/news_event_interview_of_the_century_figueiredo.dds"
+	}
+	  
+	spriteType = {
+		name = "GFX_report_event_maoe"
+		texturefile = "gfx/event_pictures/report_event_maoe.dds"
+	}
+	  
+	spriteType = {
+		name = "GFX_report_event_adhemar_and_janio"
+		texturefile = "gfx/event_pictures/report_event_adhemar_and_janio.dds"
+	}
+	      
 	spriteType = {
 		name = "GFX_news_event_third_battle_of_guanabara"
 		texturefile = "gfx/event_pictures/news_event_third_battle_of_guanabara.dds"

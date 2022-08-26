@@ -349,16 +349,44 @@ country_event = { #"Tabajara Organizations"
         hidden_effect = { SAO = { country_event = {id = SAO_MARIGHELLA.5 days = 15 }}}
     }
 }
-country_event = { #"The Interview of the Century"
+country_event = { #"The Interview of the Century 1"
     id = SAO_Focus_Tree_Events.25
     title = SAO_Focus_Tree_Events.25.t
     desc = SAO_Focus_Tree_Events.25.d
-    picture = x
+    picture = GFX_report_event_adhemar_and_janio
     fire_only_once = no
     is_triggered_only = yes
 
     option = {
         name = SAO_Focus_Tree_Events.25.A
+        hidden_effect = { SAO = { country_event = {id = SAO_Focus_Tree_Events.26 days = 0 }}}
+    }
+}
+
+country_event = { #"The Interview of the Century 2"
+    id = SAO_Focus_Tree_Events.26
+    title = SAO_Focus_Tree_Events.26.t
+    desc = SAO_Focus_Tree_Events.26.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.26.A
+        hidden_effect = { SAO = { country_event = {id = SAO_Focus_Tree_Events.27 days = 0 }}}
+    }
+}
+
+country_event = { #"The Interview of the Century 3"
+    id = SAO_Focus_Tree_Events.27
+    title = SAO_Focus_Tree_Events.27.t
+    desc = SAO_Focus_Tree_Events.27.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.27.A
     }
 }
 ###OPERATIONS AND FAILURES
