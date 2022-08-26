@@ -1268,6 +1268,10 @@ country_event = {
 			15 = {
 				set_demilitarized_zone = yes
 			}
+			country_event = {
+				id = MNH.2
+				days = 3
+			}
 		}
     }
 }

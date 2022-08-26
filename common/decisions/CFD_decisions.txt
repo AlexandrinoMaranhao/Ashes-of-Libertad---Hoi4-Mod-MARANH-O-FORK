@@ -3455,4 +3455,5 @@ CFD_usineiros_revolt_category = {
 			factor = 999
 		}
 	}
+	
 }
