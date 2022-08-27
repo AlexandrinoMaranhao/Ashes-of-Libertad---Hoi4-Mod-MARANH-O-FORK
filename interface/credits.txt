@@ -17,7 +17,6 @@ Marisa Best Girl
 Oveja
 Geneblis
 Samurai
-Civhelp
 
 #WRITERS
 IronKaiser5
@@ -34,7 +33,6 @@ ElCaudillo
 SouthStar
 
 #ARTISTS
-Nuttachai
 Oveja
 King Albert I
 Campochi
@@ -43,6 +41,8 @@ Trun'
 
 #HONORABLE MENTIONS:
 #EX-MEMBERS
+Civhelp 
+Nuttachai
 Duek
 Antonio 'antonioseg5436' Segtowick
 Luc

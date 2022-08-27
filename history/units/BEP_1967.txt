@@ -32,11 +32,4 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
-	division = {
-		name = "Teresina Guard"
-		location = 1236
-		division_template = "Teresina Guards"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
 }

@@ -1228,8 +1228,8 @@ country_event = {
 			hidden_effect = {
 				MNH = {
 					country_event = {
-						id = MNH.1
-						days = 1
+						id = MNH.2
+						days = 5
 					}
 				}
 			}
@@ -1267,10 +1267,6 @@ country_event = {
 			}
 			15 = {
 				set_demilitarized_zone = yes
-			}
-			country_event = {
-				id = MNH.2
-				days = 3
 			}
 		}
     }

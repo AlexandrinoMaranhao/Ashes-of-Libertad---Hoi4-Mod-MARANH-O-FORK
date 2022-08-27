@@ -9,10 +9,21 @@ set_technology = {
 	tech_support = 1
    	true_motorised_infantry = 1
     infantry_gear = 1
+	basic_train = 1
 }
 
 set_convoys = 100
 
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 10000
+	producer = CFD
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 300
+	producer = CFD
+}
 
 set_politics = {
 	ruling_party = democratic
