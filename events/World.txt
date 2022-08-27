@@ -84,7 +84,7 @@ news_event = { # Adhemar ded (Marighella Path)
 	id = world_sp.2
 	title = world_sp.2.t
 	desc = world_sp.2.d
-	picture = "GFX_news_event_natel_dead"
+	picture = "GFX_news_event_interview_of_the_century_figueiredo"
 
 	is_triggered_only = yes
 
@@ -97,7 +97,7 @@ news_event = { # Figueiredo ded (Quadros Path)
 	id = world_sp.3
 	title = world_sp.3.t
 	desc = world_sp.3.d
-	picture = "GFX_news_event_natel_dead"
+	picture = "GFX_news_event_interview_of_the_century_janio"
 
 	is_triggered_only = yes
 
@@ -110,7 +110,7 @@ news_event = { # Figueiredo takes control of SP (Figueiredo Path)
 	id = world_sp.4
 	title = world_sp.4.t
 	desc = world_sp.4.d
-	picture = "GFX_news_event_natel_dead"
+	picture = "GFX_news_event_third_battle_of_guanabara"
 
 	is_triggered_only = yes
 
