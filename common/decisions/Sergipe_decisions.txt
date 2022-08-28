@@ -1,4 +1,36 @@
 SEG_main_category = {
+	SEG_AI_be_bad = {
+		allowed = {tag = SEG}
+		cost = 0
+		days_remove = 100
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			SEG = {
+				AND = {
+					is_ai = yes
+					has_war = yes
+				}
+			}
+		}
+		modifier = {
+			ai_focus_defense_factor = 0.8
+			ai_focus_war_production_factor = 0.87
+			ai_desired_divisions_factor = 0.55
+		}
+		remove_effect = {
+			SEG = {
+				add_political_power = -1
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 	SEG_lawmaker_coup = {
 		allowed = { tag = SEG }
 		available = {

@@ -735,7 +735,6 @@ country_event = { #Election yes or no
 		}
 		CFD = {
 			hidden_effect = {
-				clr_country_flag = CFD_elections_phase_1
 				complete_national_focus = CFD_nooneotherthanme
 				clear_variable = CFD_no_elections_chances
 			}	
