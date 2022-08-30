@@ -210,5 +210,36 @@ consumer_goods_factor = -0.1
 				resistance_damage_to_garrison = -0.2
 			}
 		}
+		
+		SAO_paulista_revival = {
+			picture = GEN_a_military_run_by_the_police-225757
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				land_doctrine_cost_factor = -0.15
+				command_abilities_cost_factor = -0.3
+				army_speed_factor_for_controller = 0.15
+				resistance_growth = -0.1
+				resistance_damage_to_garrison = -0.1
+				experience_gain_army = 0.01
+			}
+		}
+		SAO_where_is_marighella = {
+			picture = GEN_a_military_run_by_the_police-225757
+			allowed = {
+				original_tag = SAO
+			}
+			modifier = {
+				resistance_growth = -0.1
+				resistance_damage_to_garrison = -0.1
+			}
+		}
+		SAO_military_command = {
+			picture = GEN_so_paulos_divided_populace-183749
+			allowed = {
+				original_tag = SAO
+			}
+		}
 	}
 }

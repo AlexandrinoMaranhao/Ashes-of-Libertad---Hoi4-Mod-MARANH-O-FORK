@@ -34,9 +34,9 @@
  MGS_DEF:0 "Provisional Government of Maracaju"
  MGS_ADJ:0 "the Provisional Government of Maracaju"
 
- NUD:0 "Democratic Union of Vera Cruz"
- NUD_ADJ:0 "the Democratic Union of Vera Cruz"
- NUD_DEF:0 "Northeastern Unionist"
+ NUD:0 "Popular Revolutionary Republic of Ecuador"
+ NUD_ADJ:0 "the Popular Revolutionary Republic of Ecuador"
+ NUD_DEF:0 "Northeastern Revolutionary"
  
  FRN:0 "Guarnição Militar do Território Federal de Fernando de Noronha"
  FRN_neutrality:0 "Piratas de Loronha"

@@ -20,7 +20,6 @@ CFD_main_category = {
 			}
 		}
 	}
-	
 	#CFD_debug_unfinished_scripted_demo = { #No longer in use.
 	#	cost = 0
 	#	days_remove = 1
@@ -154,7 +153,213 @@ CFD_main_category = {
 			}
 		}
 	}
-	
+
+##################		AI Oriented Decisions.		##################
+	CFD_AI_be_bad = {
+		allowed = {tag = CFD}
+		cost = 0
+		days_remove = 100
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_war = yes
+				}
+			}
+		}
+		modifier = {
+			ai_focus_aggressive_factor = 0.8
+			ai_focus_war_production_factor = 0.8
+			ai_desired_divisions_factor = 0.75
+		}
+		remove_effect = {
+			CFD = {
+				add_political_power = -10
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AI_take_FRN = {
+		allowed = {tag = CFD}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 10
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_war_with = FRN
+					naval_strength_ratio = {
+						tag = FRN
+						ratio > 0.5
+					}
+				}
+			}
+		}
+		remove_effect = {
+			CFD = {
+				annex_country = {
+					target = FRN
+					transfer_troops = NO
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AI_take_JIN = {
+		allowed = {tag = CFD}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 60
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_country_flag = begin_piaui_frontier
+				}
+			}
+		}
+		remove_effect = {
+			CFD = {
+				declare_war_on = {
+					target = JIN
+					type = annex_everything
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AI_take_VDP = {
+		allowed = {tag = CFD}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 110
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_country_flag = begin_piaui_frontier
+				}
+			}
+		}
+		remove_effect = {
+			CFD = {
+				declare_war_on = {
+					target = VDP
+					type = annex_everything
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AI_take_BEP = {
+		allowed = {tag = CFD}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 200
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_country_flag = begin_piaui_frontier
+				}
+			}
+		}
+		remove_effect = {
+			CFD = {
+				declare_war_on = {
+					target = BEP
+					type = annex_everything
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AI_take_PNA = {
+		allowed = {tag = CFD}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 350
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_country_flag = begin_piaui_frontier
+				}
+			}
+		}
+		remove_effect = {
+			CFD = {
+				country_event = {
+					id = CFD_operations.12
+					days = 90
+				}
+				country_event = {
+					id = CFD_operations.9
+					days = 90
+				}
+				declare_war_on = {
+					target = PNA
+					type = annex_everything
+				}
+			}
+			MNH = {
+				country_event = {
+					id = MNH.2
+					days = 50
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 
 ##################		Miscs.		##################
 	CFD_build_stuff_recife = {
@@ -3455,4 +3660,5 @@ CFD_usineiros_revolt_category = {
 			factor = 999
 		}
 	}
+	
 }

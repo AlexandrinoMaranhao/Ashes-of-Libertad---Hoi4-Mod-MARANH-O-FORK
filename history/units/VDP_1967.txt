@@ -35,32 +35,4 @@ units = {
 		start_experience_factor = 1
 		start_equipment_factor = 0.3
 	}
-	division = {
-		name = "Valentes 4"
-		location = 1236
-		division_template = "Valentes"
-		start_experience_factor = 1
-		start_equipment_factor = 0.3
-	}
-	division = {
-		name = "Valentes 5"
-		location = 1236
-		division_template = "Valentes"
-		start_experience_factor = 1
-		start_equipment_factor = 0.3
-	}
-	division = {
-		name = "Valentes 6"
-		location = 1236
-		division_template = "Valentes"
-		start_experience_factor = 1
-		start_equipment_factor = 0.3
-	}
-	division = {
-		name = "Valentes 7"
-		location = 1236
-		division_template = "Valentes"
-		start_experience_factor = 1
-		start_equipment_factor = 0.3
-	}
 }	

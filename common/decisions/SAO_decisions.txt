@@ -1652,7 +1652,7 @@ SAO_divided_ppl_category = {
 	        }
 	    }
         available = {
-            always = no
+            has_war = yes
         }
         cancel_trigger = {
             has_war = yes
@@ -1666,7 +1666,7 @@ SAO_divided_ppl_category = {
         timeout_effect = {
             add_popularity = {
                 ideology = democratic
-                popularity = 0.1
+                popularity = 0.05
             }
         }
 	}
@@ -1695,7 +1695,7 @@ SAO_divided_ppl_category = {
 	    timeout_effect = {
 	        add_popularity = {
 	            ideology = fascism
-	            popularity = 0.1
+	            popularity = 0.05
 	        }
 	    }
 	}
@@ -1721,7 +1721,7 @@ SAO_divided_ppl_category = {
 	        }
 	    }
 	    cost = 0
-
+		fire_only_once = yes
 	    complete_effect = {
 	        add_equipment_to_stockpile = {
 	           type = infantry_equipment_1
@@ -1755,7 +1755,7 @@ SAO_divided_ppl_category = {
             }
         }
         cost = 0
-
+		fire_only_once = yes
         complete_effect = {
             add_manpower = -10000
             add_popularity = {
@@ -1786,7 +1786,7 @@ SAO_divided_ppl_category = {
             }
         }
         cost = 0
-
+		fire_only_once = yes
         complete_effect = {
             add_stability = -0.15
             add_war_support = -o.15
