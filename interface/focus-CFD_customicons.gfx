@@ -1368,17 +1368,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_CFD_the_food_situation-247778"
-		texturefile = "gfx/interface/goals/GFX_CFD_the_food_situation-247778.dds"
+		name = "GFX_CFD_leaving_the_scars_behind-247778"
+		texturefile = "gfx/interface/goals/GFX_CFD_leaving_the_scars_behind-247778.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_CFD_the_food_situation-247778_shine"
-		texturefile = "gfx/interface/goals/GFX_CFD_the_food_situation-247778.dds"
+		name = "GFX_CFD_leaving_the_scars_behind-247778_shine"
+		texturefile = "gfx/interface/goals/GFX_CFD_leaving_the_scars_behind-247778.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_CFD_the_food_situation-247778.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_leaving_the_scars_behind-247778.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1390,7 +1390,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_CFD_the_food_situation-247778.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CFD_leaving_the_scars_behind-247778.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

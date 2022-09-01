@@ -20,11 +20,15 @@ on_actions = {
 				}
 				country_event = { #Paulo Guerra's Flavor
 					id = CFD_events.3
-					days = 29
+					days = 30
 				}
 				country_event = { #Praieira Memories's Flavor
 					id = CFD_events.12
-					days = 60
+					days = 70
+				}
+				country_event = { #Euphoria Event
+					id = CFD_intro.4
+					days = 38
 				}
 			}
 			SEG = { #Sergipe Vale Deals

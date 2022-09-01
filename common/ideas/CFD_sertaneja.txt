@@ -56,8 +56,7 @@ root_out_resistance_effectiveness_factor = -0.2
 				original_tag = CFD
 			}
 			modifier = {
-				heat_attrition_factor = -1.0
-war_support_factor = -0.3
+				war_support_factor = -0.3
 air_advisor_cost_factor = 0.5
 army_advisor_cost_factor = 0.5
 navy_advisor_cost_factor = 0.5
@@ -71,7 +70,7 @@ navy_advisor_cost_factor = 0.5
 			}
 			modifier = {
 				stability_factor = -0.1
-political_power_factor = -0.15
+political_power_factor = -0.1
 			}
 		}
 
@@ -92,8 +91,8 @@ convoy_escort_efficiency = -0.5
 		CFD_aftermath_of_the_great_1962_famine = {
 			picture = CFD_aftermath_of_the_great_1962_famine-238388
 			modifier = {
-				consumer_goods_factor = 0.2
-stability_factor = -0.1
+				consumer_goods_factor = 0.35
+stability_factor = -0.2
 			}
 		}
 
@@ -106,7 +105,7 @@ stability_factor = -0.1
 				trade_opinion_factor = -0.8
 min_export = -0.95
 local_resources_factor = -0.5
-stability_factor = -0.25
+stability_factor = -0.15
 			}
 		}
 
@@ -129,7 +128,7 @@ production_lack_of_resource_penalty_factor = -0.05
 			}
 			modifier = {
 				production_oil_factor = 0.5
-army_fuel_consumption_factor = -0.05
+army_fuel_consumption_factor = -0.1
 local_resources_factor = 0.05
 production_speed_synthetic_refinery_factor = 0.3
 production_lack_of_resource_penalty_factor = -0.1
@@ -185,6 +184,32 @@ army_core_attack_factor = 0.1
 army_core_defence_factor = 0.1
 land_doctrine_cost_factor = -0.25
 command_abilities_cost_factor = -0.25
+			}
+		}
+
+		CFD_the_tenth_military_region = {
+			picture = CFD_the_tenth_military_region-213988
+		}
+
+		CFD_sertanejeira_euphoria = {
+			picture = CFD_sertanejeira_euphoria-238388
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				political_power_gain = 0.15
+stability_weekly = 0.01
+			}
+		}
+
+		CFD_democratic_spring = {
+			picture = CFD_democratic_spring-238388
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				political_power_gain = 0.15
+drift_defence_factor = 0.5
 			}
 		}
 	}
