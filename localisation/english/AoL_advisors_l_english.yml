@@ -27,6 +27,11 @@
 		mhc_school_of_mass_combat:0 "School of Mass Combat"
 		mhc_school_of_defence:0 "School of Defence"
 		mhc_DOPS_torturer:0 "D.O.P.S. Officer"
+		carm_armoured_spearhead_doctrine:0 "Spearhead Doctrine"
+		sec_humble_teacher:0 "Humble Teacher"
+		hog_pragmatic_statesman:0 "Pragmatic Statesman"
+		sec_retired_general:0 "Retired General"
+		for_fierce_negotiator:0 "Fierce Negotiator"
 	#######Acre#######
 		jorge_kalume:0 "Jorge Kalume"
 		edgar_cerqueira:0 "Edgar Cerqueira"

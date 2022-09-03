@@ -48,7 +48,7 @@ country_event = { #Sertaneja's Euphoria
     title = CFD_intro.4.t
     desc = CFD_intro.4.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_hope
+    picture = GFX_report_cfd_moring_cock
 
     option = {
         name = CFD_intro.4.a
@@ -314,14 +314,14 @@ country_event = { #Doria Judgment 2
 		CFD = {
 			add_intel = {
 				target = FRN
-				civilian_intel = 3
-				army_intel = 3
-				navy_intel = 3
-				airforce_intel = 3
+				civilian_intel = 100
+				army_intel = 100
+				navy_intel = 100
+				airforce_intel = 100
 			}
 			add_decryption = {
 				target = FRN
-				ratio = 0.7
+				ratio = 0.95
 			}
 			add_political_power = 50
 		}
@@ -456,10 +456,16 @@ country_event = { #TRE-N Event, Election Awareness
     title = CFD_events.14.t
     desc = CFD_events.14.d
     is_triggered_only = yes
-    picture = GFX_report_cfd_memories
+    picture = GFX_report_cfd_elections1
 
     option = {
         name = CFD_events.14.a
+		CFD = {
+			add_timed_idea = {
+				idea = CFD_democratic_spring
+				days = 60
+			}
+		}
     }
 }
 
@@ -839,6 +845,10 @@ country_event = { #Election debate 1
 			complete_national_focus = CFD_the_green_stars  
 			add_to_variable = {
 				var = CFD_guerras_support
+				value = 0	#NOTA:AUMENTAR PARA 1 PARA ELEICOES.
+			}
+			add_to_variable = {
+				var = CFD_bezerra_support
 				value = 1
 			}
 			hidden_effect = {
@@ -875,6 +885,10 @@ country_event = { #Election debate 2
 			complete_national_focus = CFD_forabetterrecife 
 			add_to_variable = {
 				var = CFD_guerras_support
+				value = 0	#NOTA:AUMENTAR PARA 1 PARA ELEICOES.
+			}
+			add_to_variable = {
+				var = CFD_bezerra_support
 				value = 1
 			}
 			hidden_effect = {
@@ -911,6 +925,10 @@ country_event = { #Election debate 3
 			complete_national_focus = CFD_toimprovethesertaoswasteland 
 			add_to_variable = {
 				var = CFD_guerras_support
+				value = 0	#NOTA:AUMENTAR PARA 1 PARA ELEICOES.
+			}
+			add_to_variable = {
+				var = CFD_bezerra_support
 				value = 1
 			}
 			hidden_effect = {
@@ -1713,7 +1731,6 @@ country_event = {
             502 = { set_demilitarized_zone = yes }
             501 = { set_demilitarized_zone = yes }
             30 = { set_demilitarized_zone = yes }
-		SAO = { remove_ideas = SAO_the_devil_in_the_bottle }
 		create_faction = partido_comunista_brasileiro_FACTION
     }
   } 

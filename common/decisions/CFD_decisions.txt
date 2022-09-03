@@ -2599,8 +2599,8 @@ CFD_piaui_frontier = {
 		}
         is_good = no
 		fire_only_once = yes
-        selectable_mission = yes
-        days_mission_timeout = 400
+        selectable_mission = no
+        days_mission_timeout = 500
         timeout_effect = {
 			custom_effect_tooltip = CFD_MNH_piaui_invasion_tt
 			hidden_effect = {
