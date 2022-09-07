@@ -9,8 +9,8 @@ guiTypes = {
 	### bookmark entry
 	containerWindowType = {
 		name = "bookmark_entry"
-		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
+		position = { x= -24 y = 0 }
+		size = { width=999 height= 999}
 		clipping = no
 		fade_time = 500
 		fade_type = linear
@@ -24,17 +24,17 @@ guiTypes = {
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
-			position = { x = 27 y = 28 }
+			position = { x = 14 y = 15 }
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "date"
-			position = { x = 22 y = 147 }
+			position = { x = -38 y = 73 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
+			maxWidth = 200
 			maxHeight = 20
 			fixedsize = yes	
 			format = centre
@@ -502,6 +502,7 @@ guiTypes = {
 		}
 	}
 
+	#bookmarks adds
 	containerWindowType = {
 		name ="gamesetup_scenario_window"
 		size = { width = 579 height = 512 }
@@ -529,16 +530,17 @@ guiTypes = {
 		
 		containerWindowType = {
 			name ="bookmarks"
-			position = { x = 43 y = 55 }
+			position = { x = 34 y = 45 }
 			size = { width = -10 height = 120}
 			
 			gridboxType = {
 				name ="bookmarks_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 260 height = 0 }
+				slotsize = { width = 145 height = 105 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				max_slots_vertical = 2
+				max_slots_horizontal = 4
 				format = "UPPER_LEFT"
 			}
 		}
