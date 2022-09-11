@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 587 #They dont own Belo Horizonte (id 64).
 
 oob = "RMI_1967"
 

@@ -202,7 +202,7 @@ ideas = {
             visible = {
 				original_tag = CFD
             }
-			traits = { journalist_2 }
+			traits = { radialist_4 }
 			cost = 50
 		}
 		CFD_otavio_araujo_advisor = {
@@ -256,13 +256,16 @@ ideas = {
 			cost = 50
 		}
 		
-		###Pro-Junta Advisors
+		###Usineiros Advisors
 		CFD_jose_fernandes_lima_advisor = {
             allowed = {
 				original_tag = CFD
             }
 			available = {
-				has_government = fascism
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}
 			}
             visible = {
 				original_tag = CFD
@@ -275,12 +278,28 @@ ideas = {
 				original_tag = CFD
             }
 			available = {
-				has_government = fascism
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}
 			}
             visible = {
 				original_tag = CFD
             }
 			traits = { sec_prince_of_terror }
+			cost = 50
+		}
+		CFD_olival_tenorio_costa = {
+            allowed = {
+				original_tag = CFD
+            }
+			available = {
+				has_government = neutrality
+			}
+            visible = {
+				original_tag = CFD
+            }
+			traits = { hog_local_tyrant eco_resource_industrialist }
 			cost = 50
 		}
 	}

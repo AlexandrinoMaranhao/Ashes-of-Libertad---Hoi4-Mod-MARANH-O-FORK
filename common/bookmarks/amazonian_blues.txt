@@ -1,32 +1,30 @@
 bookmarks = {
 	bookmark = {
-		name = "The City of Drizzle"
-		desc = "GATHERING_STORM_DESC"
+		name = "BM_AMAZONIA_AZUL"
+		desc = "BM_AMAZONIA_AZUL_DESC"
 		date = 1967.1.1.12
-		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		picture = "GFX_select_date_1942"
+		default_country = "ACR"
+		default = no
 
 			ACR={
 				history = "ACR_GATHERING_STORM_DESC"
-                ideology = democratic
-				minor = yes
-			    ideas = {
+				ideology = democratic
+				ideas = {
 					ACR_anti_bolivian_propaganda 
 					ACR_funai 
 					ACR_banana_bread_and_theater 
-    	        }
-    	        focuses = {
+				}
+				focuses = {
 					ACR_force_a_stage_of_siege
 					ACR_pass_native_defence_act
 					ACR_talk_business
-    	        }
+				}
 			}
 			
 			NHA={
 				history = "NHA_GATHERING_STORM_DESC"
                 ideology = fascism
-				minor = yes
 			    ideas = {
 					overcrowded_island 
 					the_amazonian_military_command 
@@ -42,7 +40,6 @@ bookmarks = {
 			COR={
 				history = "COR_GATHERING_STORM_DESC"
                 ideology = democratic
-				minor = yes
 			    ideas = {
 					coari_desperation  
 					the_white_linned_mayor 
@@ -57,7 +54,6 @@ bookmarks = {
 			BEM={
 				history = "BEM_GATHERING_STORM_DESC"
                 ideology = fascism
-				minor = yes
 			    ideas = {
 					the_cabanos 
 					the_juntas_favorite_pet 
@@ -69,37 +65,7 @@ bookmarks = {
 					BEM_the_old_problem
     	        }
 			}
-
-			SAO={
-				history = "SAO_GATHERING_STORM_DESC"
-					ideology = reactionary
-				ideas = {
-			        SAO_the_2nd_constitutionalist_revolution 
-			        SAO_stolen_institutions 
-			        SAO_shattered_economy 
-			    }
-			    focuses = {
-					SAO_the_coffee_and_milk_line
-					SAO_the_paulista_betrayal
-					SAO_a_army_in_name_only
-			    }
-			}
 			
-			CFD={
-				history = "CFD_GATHERING_STORM_DESC"
-					ideology = democratic
-				ideas = {
-			        CFD_turbulent_confederatization  
-					CFD_the_peasant_leagues  
-					CFD_the_sergipe_backstab
-			    }
-			    focuses = {
-					CFD_sampaiosadminstration
-					CFD_the_elections
-					CFD_the_sergipe_backstab
-			    }
-			}
-
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
