@@ -76,15 +76,15 @@ bookmarks = {
 				}
 			}
 			
-			MNH={
-				history = "MNH_BRAZUKA_DESC"
-				ideology = reactionary
-				ideas = {
-				sarneys_feud
-				}
-				focuses = {
-				}
-			}
+			#MNH={
+			#	history = "MNH_BRAZUKA_DESC"
+			#	ideology = reactionary
+			#	ideas = {
+			#	sarneys_feud
+			#	}
+			#	focuses = {
+			#	}
+			#}
 			
 			JAG={
 				history = "JAG_BRAZUKA_DESC"
