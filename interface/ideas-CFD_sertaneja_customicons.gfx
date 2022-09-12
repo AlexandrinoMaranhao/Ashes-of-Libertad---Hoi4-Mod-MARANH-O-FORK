@@ -107,5 +107,41 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_democratic_spring-238388.dds"
 	}
 
+	##Icon For: Peasant Leagues
+	SpriteType = { 
+		name = "GFX_idea_CFD_peasant_leagues-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_peasant_leagues-238388.dds"
+	}
+
+	##Icon For: The Communal Sugar Plants
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_communal_sugar_plants-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_communal_sugar_plants-238388.dds"
+	}
+
+	##Icon For: The Usineiros Revolt
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_usineiros_revolt-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_usineiros_revolt-238388.dds"
+	}
+
+	##Icon For: Rebuilding Maranhão
+	SpriteType = { 
+		name = "GFX_idea_CFD_rebuilding_maranho-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_rebuilding_maranho-238388.dds"
+	}
+
+	##Icon For: Sertaneja Occupation
+	SpriteType = { 
+		name = "GFX_idea_CFD_sertaneja_occupation-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_sertaneja_occupation-238388.dds"
+	}
+
+	##Icon For: Warzone
+	SpriteType = { 
+		name = "GFX_idea_CFD_warzone-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_warzone-238388.dds"
+	}
+
  
  }

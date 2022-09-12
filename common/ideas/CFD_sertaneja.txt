@@ -212,5 +212,76 @@ stability_weekly = 0.01
 drift_defence_factor = 0.5
 			}
 		}
+
+		CFD_peasant_leagues = {
+			picture = CFD_peasant_leagues-238388
+			ai_will_do = {
+				factor = 1
+			}
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				conscription = 0.15
+training_time_army_factor = -0.2
+army_morale_factor = 0.9
+party_popularity_stability_factor = 0.15
+communism_acceptance = 25
+drift_defence_factor = 0.4
+resistance_activity = -0.5
+			}
+		}
+
+		CFD_the_communal_sugar_plants = {
+			picture = CFD_the_communal_sugar_plants-238388
+			allowed = {
+				original_tag = CFD
+			}
+			modifier = {
+				trade_opinion_factor = 0.45
+local_resources_factor = 0.9
+			}
+		}
+
+		CFD_the_usineiros_revolt = {
+			picture = CFD_the_usineiros_revolt-238388
+			modifier = {
+				local_resources_factor = -1.0
+stability_weekly = -0.05
+compliance_growth_on_our_occupied_states = 0.5
+production_speed_buildings_factor = -0.8 
+line_change_production_efficiency_factor = -0.5
+			}
+		}
+
+		CFD_rebuilding_maranho = {
+			picture = CFD_rebuilding_maranho-238388
+			modifier = {
+				industry_repair_factor = 0.15
+consumer_goods_factor = 0.25
+			}
+		}
+
+		CFD_sertaneja_occupation = {
+			picture = CFD_sertaneja_occupation-238388
+			modifier = {
+				extra_trade_to_overlord_factor = 1.0
+overlord_trade_cost_factor = -0.5
+license_subject_master_purchase_cost = 0.95
+autonomy_manpower_share = -0.5
+autonomy_gain = -0.1
+			}
+		}
+
+		CFD_warzone = {
+			picture = CFD_warzone-238388
+			modifier = {
+				ai_join_ally_desire_factor = -100
+ai_focus_war_production_factor = 0.65
+ai_focus_military_advancements_factor = 0.55
+ai_focus_defense_factor = 0.65
+root_out_resistance_effectiveness_factor = 0.55
+			}
+		}
 	}
 }

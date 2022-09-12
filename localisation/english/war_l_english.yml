@@ -34,3 +34,5 @@
  WAR_NAME_URG_TUP:0 "Uruguayan Civil War" 
  WAR_NAME_URG_DEA:0 "Uruguayan Civil War"
  WAR_NAME_DEA_TUP:0 "Uruguayan Civil War"
+ 
+ CFD_MNH_LOST:0 "[CFD.GetName] lost the war against [MNH.GetName]."
