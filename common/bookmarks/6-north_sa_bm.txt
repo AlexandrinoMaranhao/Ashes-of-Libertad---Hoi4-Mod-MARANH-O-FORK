@@ -63,16 +63,16 @@ bookmarks = {
 			    }
 			}
 
-			NEB={
-				history = "NEB_NORTH_SA_DESC"
-					ideology = fascism
-				ideas = {
-				mercenary_state_neblina
-				the_fog
-			    }
-			    focuses = {
-			    }
-			}
+			#NEB={
+			#	history = "NEB_NORTH_SA_DESC"
+			#		ideology = fascism
+			#	ideas = {
+			#	mercenary_state_neblina
+			#	the_fog
+			#    }
+			#    focuses = {
+			#    }
+			#}
 
 			LBT={
 				history = "LBT_NORTH_SA_DESC"

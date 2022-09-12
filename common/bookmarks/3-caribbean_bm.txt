@@ -82,17 +82,17 @@ bookmarks = {
 			    }
 			}
 
-			NEH={
-				history = "NEH_CARIBBEAN_DESC"
-					ideology = fascism
-				ideas = {
-				el_sortudo_69
-				the_american_deal
-				old_world_blues
-			    }
-			    focuses = {
-			    }
-			}
+			#NEH={
+			#	history = "NEH_CARIBBEAN_DESC"
+			#		ideology = fascism
+			#	ideas = {
+			#	el_sortudo_69
+			#	the_american_deal
+			#	old_world_blues
+			#    }
+			#    focuses = {
+			#    }
+			#}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

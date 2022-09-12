@@ -77,16 +77,16 @@ bookmarks = {
     	        }
 			}
 			
-			FBO={
-				history = "FBO_GATHERING_STORM_DESC"
-				ideology = reactionary
-				ideas = {
-					memories_of_araguaia 
-					living_at_the_limit 
-				}
-				focuses = {
-				}
-			}
+			#FBO={
+			#	history = "FBO_GATHERING_STORM_DESC"
+			#	ideology = reactionary
+			#	ideas = {
+			#		memories_of_araguaia 
+			#		living_at_the_limit 
+			#	}
+			#	focuses = {
+			#	}
+			#}
 			
 			ROR={
 				history = "ROR_GATHERING_STORM_DESC"
