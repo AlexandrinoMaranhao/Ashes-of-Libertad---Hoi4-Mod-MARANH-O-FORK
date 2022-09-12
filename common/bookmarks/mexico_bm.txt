@@ -1,0 +1,30 @@
+bookmarks = {
+	bookmark = {
+		name = "BM_MEXICO"
+		desc = "BM_MEXICO_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAO"
+		default = yes
+			
+			MEX={
+				history = "MEX_BM_MEXICO_DESC"
+					ideology = fascism
+				ideas = {
+			       MEX_mexican_civil_war
+			       MEX_political_catastrophe
+			       MEX_refugee_crisis
+	       
+			    }
+			    focuses = {
+
+			    }
+			}
+			
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

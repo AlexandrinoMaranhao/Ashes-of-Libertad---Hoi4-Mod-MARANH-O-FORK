@@ -1,0 +1,102 @@
+bookmarks = {
+	bookmark = {
+		name = "BM_PERU"
+		desc = "BM_PERU_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAO"
+		default = yes
+
+			PRU={
+				history = "PRU_PERU_DESC"
+					ideology = democratic
+				ideas = {
+				PRU_quito_clique
+				PRU_apra_uno
+			    }
+			    focuses = {
+			    }
+			}
+			
+			PMI={
+				history = "PMI_PERU_DESC"
+					ideology = fascism
+				ideas = {
+				PMI_the_wall
+			    }
+			    focuses = {
+			    }
+			}
+
+			RPU={
+				history = "RPU_PERU_DESC"
+					ideology = democratic
+				ideas = {
+				RPU_dependency
+			    }
+			    focuses = {
+			    }
+			}
+			
+			NCA={
+				history = "NCA_PERU_DESC"
+					ideology = reactionary
+				ideas = {
+				NCA_oligarchical_monarchy
+				NCA_volatile_intentions
+			    }
+			    focuses = {
+			    }
+			}
+
+			HIE={
+				history = "HIE_PERU_DESC"
+					ideology = neutrality
+				ideas = {
+				HIE_city_of_poets
+				HIE_limbo
+				
+			    }
+			    focuses = {
+			    }
+			}
+
+			INC={
+				history = "INC_PERU_DESC"
+					ideology = fascism
+				ideas = {
+				INC_poor_people
+				INC_mama_huaco
+			    }
+			    focuses = {
+			    }
+			}
+
+			NLA={
+				history = "NLA_PERU_DESC"
+					ideology = communism
+				ideas = {
+				NLA_eln_cornered_and_surrounded
+				
+			    }
+			    focuses = {
+			    }
+			}
+
+			UFO={
+				history = "UFO_PERU_DESC"
+					ideology = communism
+				ideas = {
+				UFO_the_think_tank
+				UFO_the_akashic_records
+			    }
+			    focuses = {
+			    }
+			}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,83 @@
+bookmarks = {
+	bookmark = {
+		name = "BM_SOUTH_SA"
+		desc = "BM_SOUTH_SA_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAO"
+		default = yes
+			
+			CHL={
+				history = "CHL_SOUTH_SA_DESC"
+					ideology = neutrality
+				ideas = {
+				red_democracy
+				old_world_dichotomy
+				pacific_overtures
+			    }
+			    focuses = {
+			    }
+			}
+			
+			ARG={
+				history = "ARG_SOUTH_SA_DESC"
+					ideology = democratic
+				ideas = {
+			    }
+			    focuses = {
+			    }
+			}
+
+			URG={
+				history = "URG_SOUTH_SA_DESC"
+					ideology = neutrality
+				ideas = {
+				URG_switzerland_of_south_america
+				URG_armamentos_y_municiones_del_ejercito
+				URG_political_militias
+			    }
+			    focuses = {
+			    }
+			}
+
+			BOL={
+				history = "BOL_SOUTH_SA_DESC"
+					ideology = democratic
+				ideas = {
+				this_is_fine
+				mountain_strongholds
+			    }
+			    focuses = {
+			    }
+			}
+
+			PAR={
+				history = "PAR_SOUTH_SA_DESC"
+					ideology = fascism
+				ideas = {
+				argentine_bullying
+				the_ghost_of_franco
+			    }
+			    focuses = {
+			    }
+			}
+
+			ERN={
+				history = "ERN_SOUTH_SA_DESC"
+					ideology = communism
+				ideas = {
+				a_dream_of_revolution
+				magnetic_personality
+				overextended_and_disorganized
+			    }
+			    focuses = {
+			    }
+			}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

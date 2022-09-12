@@ -1,0 +1,102 @@
+bookmarks = {
+	bookmark = {
+		name = "BM_CARIBBEAN"
+		desc = "BM_CARIBBEAN_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAO"
+		default = yes
+			
+			CUB={
+				history = "SAO_CARIBBEAN_DESC"
+					ideology = communism
+				ideas = {
+				the_true_heir_of_cuba
+				pro_castro
+			    }
+			    focuses = {
+			    }
+			}
+			
+			HAI={
+				history = "HAI_CARIBBEAN_DESC"
+					ideology = reactionary
+				ideas = {
+				HAI_papa_doc
+			    }
+			    focuses = {
+			    }
+			}
+
+			DOM={
+				history = "DOM_CARIBBEAN_DESC"
+					ideology = democratic
+				ideas = {
+				DOM_trujillos_legacy
+			    }
+			    focuses = {
+			    }
+			}
+
+			USR={
+				history = "USR_CARIBBEAN_DESC"
+					ideology = fascism
+				ideas = {
+				USR_leadership_struggles
+				USR_shadow_of_america
+				USR_the_panama_question
+			    }
+			    focuses = {
+			    }
+			}
+
+			DRE={
+				history = "DRE_CARIBBEAN_DESC"
+					ideology = communism
+				ideas = {
+				split_leadership
+				anti_castro
+			    }
+			    focuses = {
+			    }
+			}
+
+			BTA={
+				history = "BTA_CARIBBEAN_DESC"
+					ideology = fascism
+				ideas = {
+				batistas_unfounded_ego
+				old_world_blues
+			    }
+			    focuses = {
+			    }
+			}
+
+			CUP={
+				history = "CUP_CARIBBEAN_DESC"
+					ideology = reactionary
+				ideas = {
+				pirates_of_the_caribbean
+			    }
+			    focuses = {
+			    }
+			}
+
+			NEH={
+				history = "NEH_CARIBBEAN_DESC"
+					ideology = fascism
+				ideas = {
+				el_sortudo_69
+				the_american_deal
+				old_world_blues
+			    }
+			    focuses = {
+			    }
+			}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

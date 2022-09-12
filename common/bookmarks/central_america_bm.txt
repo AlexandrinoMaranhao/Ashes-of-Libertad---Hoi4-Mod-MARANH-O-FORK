@@ -1,0 +1,90 @@
+bookmarks = {
+	bookmark = {
+		name = "BM_CENTRAL_AMERICA"
+		desc = "BM_CENTRAL_AMERICA_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAO"
+		default = yes
+			
+			ERG={
+				history = "ERG_CENTRAL_AMERICA_DESC"
+					ideology = communism
+				ideas = {
+				ERG_no_way_out
+				ERG_hostile_pop
+				ERG_exiles
+			    }
+			    focuses = {
+			    }
+			}
+			
+			GUA={
+				history = "GUA_CENTRAL_AMERICA_DESC"
+					ideology = fascism
+				ideas = {
+			    }
+			    focuses = {
+			    }
+			}
+
+			ELS={
+				history = "ELS_CENTRAL_AMERICA_DESC"
+					ideology = fascism
+				ideas = {
+				ELS_communist_sympathizers
+				ELS_14_families
+				ELS_fury_of_young_officers
+			    }
+			    focuses = {
+			    }
+			}
+			
+			HON={
+				history = "HON_CENTRAL_AMERICA_DESC"
+					ideology = fascism
+				ideas = {
+			    }
+			    focuses = {
+			    }
+			}
+			
+			NIC={
+				history = "NIC_CENTRAL_AMERICA_DESC"
+					ideology = communism
+				ideas = {
+				NIC_sandinos_martyrdom
+				NIC_sorrounded_by_pigs
+			    }
+			    focuses = {
+			    }
+			}
+			
+			COS={
+				history = "COS_CENTRAL_AMERICA_DESC"
+					ideology = reactionary
+				ideas = {
+				COS_anti_nicaraguan_sentiment
+				COS_jimenezs_dark_sympathies
+			    }
+			    focuses = {
+			    }
+			}
+			
+			PAN={
+				history = "PAN_CENTRAL_AMERICA_DESC"
+					ideology = democratic
+				ideas = {
+				PAM_pull_right
+				the_panamanian_stalemate
+			    }
+			    focuses = {
+			    }
+			}
+			
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

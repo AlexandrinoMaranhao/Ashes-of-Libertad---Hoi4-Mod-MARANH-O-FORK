@@ -22,6 +22,17 @@ bookmarks = {
 				}
 			}
 			
+			MNS={
+				history = "MNS_GATHERING_STORM_DESC"
+				ideology = fascism
+				ideas = {
+				the_rubber_barons
+				what_apocalypse
+				}
+				focuses = {
+				}
+			}
+			
 			NHA={
 				history = "NHA_GATHERING_STORM_DESC"
                 ideology = fascism
@@ -64,6 +75,40 @@ bookmarks = {
 					BEM_the_older_problem
 					BEM_the_old_problem
     	        }
+			}
+			
+			FBO={
+				history = "FBO_GATHERING_STORM_DESC"
+				ideology = reactionary
+				ideas = {
+					memories_of_araguaia 
+					living_at_the_limit 
+				}
+				focuses = {
+				}
+			}
+			
+			ROR={
+				history = "ROR_GATHERING_STORM_DESC"
+				ideology = communism
+				ideas = {
+				misfits
+				no_administration_roraima
+				}
+				focuses = {
+				}
+			}
+			
+			KAY={
+				history = "KAY_GATHERING_STORM_DESC"
+				ideology = neutrality
+				ideas = {
+				cachimbo_military_base
+				the_kayapo
+				tribal_wars
+				}
+				focuses = {
+				}
 			}
 			
 		effect = {
