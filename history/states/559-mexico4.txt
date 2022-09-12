@@ -1,14 +1,13 @@
+
 state={
 	id=559
 	name="STATE_559"
-	provinces={
-		2521 1467 
-	}
+
 	history={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-			1467 5
+			1467 5 
 		}
 		buildings = {
 			infrastructure = 2
@@ -17,8 +16,11 @@ state={
 
 	}
 
+	provinces={
+		1467 1868 2154 2521 2873 2882 
+	}
 	manpower=39420
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
-

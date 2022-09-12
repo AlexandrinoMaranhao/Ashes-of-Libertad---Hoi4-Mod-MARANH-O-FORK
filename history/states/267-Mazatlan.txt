@@ -14,19 +14,16 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			#1702 = {
-			#	naval_base = 2
-
-			#}
 
 		}
 
 	}
 
 	provinces={
-		77 288 1607 1690 2121 2833 2845 5071 5075 5078 
+		77 288 434 456 1607 1690 1898 1913 1985 2121 2833 2845 5071 5075 5078 
 	}
 	manpower=233034
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
