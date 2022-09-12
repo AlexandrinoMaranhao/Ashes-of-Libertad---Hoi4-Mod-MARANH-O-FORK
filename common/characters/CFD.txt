@@ -327,7 +327,7 @@ characters={
 			allowed = {
 				original_tag = CFD
 			}
-			traits = {carm_elastic_defence_doctrine}
+			traits = {carm_armoured_spearhead_doctrine}
 		}
 	}
 	CFD_ribeiro_paz = {

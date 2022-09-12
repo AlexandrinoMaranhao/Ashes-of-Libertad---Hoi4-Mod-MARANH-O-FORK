@@ -35,6 +35,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goofybois/father_almeida_lustosa.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_CFD_joao_oliveira_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_joao_oliveira_advisor.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_CFD_afonso_farias_mello_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/afonso_farias_mello.dds"
 	}
@@ -66,10 +70,13 @@ spriteTypes = {
 		name = "GFX_idea_CFD_joaquim_parente_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/CFD_joaquim_parente_advisor.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_CFD_pelopidas_silveira_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/CFD_pelopidas_silveira_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_jose_fernandes_lima_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_jose_fernandes_lima_advisor.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_CFD_francisco_queiroz_advisor"

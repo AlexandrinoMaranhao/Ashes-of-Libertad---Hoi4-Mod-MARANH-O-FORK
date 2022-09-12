@@ -44,6 +44,15 @@ focus_tree = {
 			has_country_flag = CFD_PCB_Victory
 			
 		}
+		completion_reward = {
+			country_event = {
+			    id = CFD_events.4
+			    days = 0
+			}
+			
+			
+			
+		}
 	}
 
 	#§YThe§! §YOpposition§! §GLeadership§!
@@ -88,7 +97,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_fall
 		icon = GFX_CFD_the_fall-257058
-		x = 11
+		x = 10
 		y = 0
 		cost = 1
 		search_filters = {
@@ -103,7 +112,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_rise
 		icon = GFX_CFD_the_rise-257058
-		x = 10
+		x = 9
 		y = 1
 		cost = 1
 		search_filters = {
@@ -119,7 +128,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_future
 		icon = GFX_CFD_the_future-257058
-		x = 12
+		x = 11
 		y = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -204,7 +213,7 @@ focus_tree = {
 		id = CFD_thecreationofssocoperbess
 		icon = GFX_CFD_thecreationofssocoperbess-247778
 		x = 14
-		y = 9
+		y = 8
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -296,7 +305,7 @@ focus_tree = {
 	focus = {
 		id = CFD_the_everyday_fuel
 		icon = GFX_CFD_the_everyday_fuel-247778
-		x = 14
+		x = 13
 		y = 6
 		cost = 2
 		search_filters = {
@@ -317,13 +326,13 @@ focus_tree = {
 	focus = {
 		id = CFD_foundssgbandecosess
 		icon = GFX_CFD_foundssgbandecosess-247778
-		x = 9
+		x = 11
 		y = 10
 		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_establishing_a_new_currency  }
+		prerequisite = { focus = CFD_establishing_a_new_currency  } prerequisite = { focus = CFD_leaving_the_scars_behind  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = CFD_the_bandecose
@@ -825,6 +834,11 @@ focus_tree = {
 				country_exists = SEG
 			}
 		}
+		completion_reward = {
+			add_ideas = CFD_piratas_de_noronha 
+			
+			
+		}
 	}
 
 	#Allow Militiamens in Our Ranks
@@ -876,21 +890,22 @@ focus_tree = {
 		}
 	}
 
-	#The Food Situation
+	#Leaving the Scars Behind
 	focus = {
-		id = CFD_the_food_situation
-		icon = GFX_CFD_the_food_situation-247778
-		x = 12
-		y = 6
+		id = CFD_leaving_the_scars_behind
+		icon = GFX_CFD_leaving_the_scars_behind-247778
+		x = 13
+		y = 9
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_sampaiosadminstration  }
+		prerequisite = { focus = CFD_thecreationofssocoperbess  } prerequisite = { focus = CFD_modernize_the_fields  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = -10
-			add_stability = -0.05
+			add_political_power = 50
+			add_stability = 0.15
+			remove_ideas = CFD_aftermath_of_the_great_1962_famine 
 		}
 	}
 
@@ -904,7 +919,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = CFD_the_food_situation  }
+		prerequisite = { focus = CFD_the_everyday_fuel  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_tech_bonus = {
@@ -920,7 +935,7 @@ focus_tree = {
 		id = CFD_modernize_the_fields
 		icon = GFX_CFD_modernize_the_fields-247778
 		x = 12
-		y = 9
+		y = 8
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1389,6 +1404,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_risesapeasant  } prerequisite = { focus = CFD_a_call_for_agrarian_reform  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_decision = CFD_compromise_with_PCB
+			remove_decision = CFD_compromise_with_PSN
+			set_country_flag = CFD_end_balance
+		}
 	}
 
 	#The Duke of Saint Louis

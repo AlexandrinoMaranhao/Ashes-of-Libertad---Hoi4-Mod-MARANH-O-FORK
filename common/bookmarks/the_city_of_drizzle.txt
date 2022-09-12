@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = "BM_BRAZUKA"
+		desc = "BM_BRAZUKA_DESC"
+		date = 1967.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAO"
+		default = yes
+			
+			SAO={
+				history = "SAO_BLITZKRIEG_DESC"
+					ideology = reactionary
+				ideas = {
+			        SAO_the_2nd_constitutionalist_revolution 
+			        SAO_stolen_institutions 
+			        SAO_shattered_economy 
+			    }
+			    focuses = {
+					SAO_the_coffee_and_milk_line
+					SAO_the_paulista_betrayal
+					SAO_a_army_in_name_only
+			    }
+			}
+			
+			CFD={
+				history = "CFD_BLITZKRIEG_DESC"
+					ideology = democratic
+				ideas = {
+			        CFD_turbulent_confederatization  
+					CFD_the_peasant_leagues  
+					CFD_the_sergipe_backstab
+			    }
+			    focuses = {
+					CFD_sampaiosadminstration
+					CFD_the_elections
+					CFD_the_sergipe_backstab
+			    }
+			}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

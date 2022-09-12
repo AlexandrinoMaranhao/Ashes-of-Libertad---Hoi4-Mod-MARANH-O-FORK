@@ -161,6 +161,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_cfd_moring_cock"
+		texturefile = "gfx/event_pictures/report_cfd_moring_cock.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_cfd_fernandinho1"
 		texturefile = "gfx/event_pictures/report_cfd_fernandinho1.dds"
 	}

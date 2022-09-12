@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = sao_phase_two ##!!Não alterar a Tag.!!##
+			tag = sao_phase_two
 		}
 	}
 	#WHERE IS §RMARIGHELLA§!???
@@ -292,6 +292,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = SAO_paulista_revival
+			
+			
+			
+		}
 		allow_branch = {
 			has_country_flag = SAO_figueiredo_path
 		}

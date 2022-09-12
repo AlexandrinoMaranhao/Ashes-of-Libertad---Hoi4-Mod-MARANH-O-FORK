@@ -51,13 +51,13 @@ CFD_balance_category = {
 	allowed = {
 		original_tag = CFD
 	}
-}
-
-CFD_usineiros_revolt_category = {
-	icon = GFX_decision_category_eng_concessions_to_the_trade_unions
-	priority = 10
-	allowed = {
-		original_tag = CFD
+	visible = {
+		CFD = {
+			AND = {
+				has_country_flag = CFD_PCB_Victory
+				NOT = {has_country_flag = CFD_end_balance}
+			}
+		}
 	}
 }
 

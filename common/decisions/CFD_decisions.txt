@@ -106,12 +106,13 @@ CFD_main_category = {
 			}
 		}
 		modifier = {
-			ai_focus_aggressive_factor = 0.8
-			ai_focus_war_production_factor = 0.8
-			ai_desired_divisions_factor = 0.75
+			ai_focus_aggressive_factor = 0.95
+			ai_focus_war_production_factor = 0.9
+			ai_desired_divisions_factor = 0.9
 		}
 		remove_effect = {
 			CFD = {
+				add_stability = 0.02
 				add_political_power = -10
 			}
 		}
@@ -1550,7 +1551,7 @@ CFD_nation_development_category = {
 		icon = GFX_decision_generic_civil_support
 		is_good = yes
 		days_mission_timeout = 30
-		selectable_mission = yes
+		selectable_mission = no
 		complete_effect = {
 		}
 		timeout_effect = {
@@ -2416,12 +2417,15 @@ CFD_balance_category = {
 		icon = GFX_decision_generic_political_discourse
         available = {
 			CFD = {
-				check_variable = {
-					var = PCB_balance
-					value = 0.05
-					compare = greater_than_or_equals
+				AND = {
+					check_variable = {
+						var = PCB_balance
+						value = 0.05
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_PCB_Victory
+					NOT = {has_country_flag = CFD_end_balance}
 				}
-				has_country_flag = CFD_PCB_Victory
 			}
         }
         visible = {
@@ -2458,12 +2462,15 @@ CFD_balance_category = {
 		icon = GFX_decision_generic_political_discourse
         available = {
 			CFD = {
-				check_variable = {
-					var = PSN_balance
-					value = 0.05
-					compare = greater_than_or_equals
+				AND = {
+					check_variable = {
+						var = PSN_balance
+						value = 0.05
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_PCB_Victory
+					NOT = {has_country_flag = CFD_end_balance}
 				}
-				has_country_flag = CFD_PCB_Victory
 			}
         }
         visible = {
@@ -2498,19 +2505,22 @@ CFD_balance_category = {
 	CFD_increase_PCB_balance = {
 		activation = {
 			CFD = {
-				has_country_flag = CFD_PCB_Victory
+				AND = {
+					has_country_flag = CFD_PCB_Victory
+					NOT = {has_country_flag = CFD_end_balance}
+				}
 			}
 		}
 		available = {
 			always = no
 		}
 		cancel_trigger = {
-			has_war = yes
+			has_country_flag = CFD_end_balance
 		}
 		icon = GFX_decision_generic_civil_support
 		is_good = no
 		days_mission_timeout = 30
-		selectable_mission = yes
+		selectable_mission = no
 		complete_effect = {
 		}
 		timeout_effect = {
@@ -2530,19 +2540,22 @@ CFD_balance_category = {
 	CFD_increase_PSN_balance = {
 		activation = {
 			CFD = {
-				has_country_flag = CFD_PCB_Victory
+				AND = {
+					has_country_flag = CFD_PCB_Victory
+					NOT = {has_country_flag = CFD_end_balance}
+				}
 			}
 		}
 		available = {
 			always = no
 		}
 		cancel_trigger = {
-			has_war = yes
+			has_country_flag = CFD_end_balance
 		}
 		icon = GFX_decision_generic_civil_support
 		is_good = no
 		days_mission_timeout = 30
-		selectable_mission = yes
+		selectable_mission = no
 		complete_effect = {
 			
 		}
@@ -2586,8 +2599,8 @@ CFD_piaui_frontier = {
 		}
         is_good = no
 		fire_only_once = yes
-        selectable_mission = yes
-        days_mission_timeout = 400
+        selectable_mission = no
+        days_mission_timeout = 500
         timeout_effect = {
 			custom_effect_tooltip = CFD_MNH_piaui_invasion_tt
 			hidden_effect = {
@@ -3533,64 +3546,3 @@ CFD_maranhao_war_category = {
 }
 
 ##################		Usineiro's Revolt		##################
-CFD_usineiros_revolt_category = {
-	CFD_usineiros_strike = {
-        allowed = { tag = CFD }
-		icon = GFX_decision_revolt
-        available = {
-			custom_trigger_tooltip = {
-				tooltip = CFD_leagues_support_tt
-				CFD = {
-					AND = {
-						check_variable = {
-							var = CFD_league_influence
-							value = 6
-							compare = greater_than_or_equals
-						}
-						has_government = communism
-					}
-				}
-			}
-        }
-        activation = {
-			CFD = {
-				AND = {
-					check_variable = {
-						var = CFD_league_influence
-						value = 6
-						compare = greater_than_or_equals
-					}
-					has_government = communism
-				}
-			}
-        }
-		#cancel_trigger = {
-		#	custom_trigger_tooltip = CFD_leagues_support_tt
-		#	CFD = {
-		#		check_variable = {
-		#			var = CFD_league_influence
-		#			value = 6
-		#			compare = greater_than_or_equals
-		#		}
-		#	}
-		#}
-        is_good = no
-		fire_only_once = yes
-        selectable_mission = yes
-        days_mission_timeout = 120
-        timeout_effect = {
-			add_stability = -0.1
-			country_event = {
-				id = CFD_events.20
-				days = 1
-			}
-        }
-		complete_effect = {
-			add_political_power = 50
-		}
-		ai_will_do = {
-			factor = 999
-		}
-	}
-	
-}

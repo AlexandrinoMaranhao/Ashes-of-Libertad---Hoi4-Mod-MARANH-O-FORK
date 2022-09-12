@@ -89,5 +89,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_sertnia_military-238388.dds"
 	}
 
+	##Icon For: The Tenth Military Region
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_tenth_military_region-213988"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_tenth_military_region-213988.dds"
+	}
+
+	##Icon For: Sertanejeira Euphoria
+	SpriteType = { 
+		name = "GFX_idea_CFD_sertanejeira_euphoria-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_sertanejeira_euphoria-238388.dds"
+	}
+
+	##Icon For: Democratic Spring
+	SpriteType = { 
+		name = "GFX_idea_CFD_democratic_spring-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_democratic_spring-238388.dds"
+	}
+
  
  }
