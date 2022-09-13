@@ -214,6 +214,15 @@ SAO_category = {
 			war_support_weekly = 0.001
 		}
 		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = 0.02
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -247,6 +256,47 @@ SAO_category = {
 			communism_drift = -0.1
 		}
 		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_praianos_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.01
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -279,6 +329,15 @@ SAO_category = {
 		}
 		remove_effect = {
 			add_political_power = 5
+
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.01
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -311,6 +370,16 @@ SAO_category = {
 		remove_effect = {
 			add_war_support = -0.02
 			add_political_power = 5
+
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.01
+			}
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -351,6 +420,22 @@ SAO_category = {
 			    type = motors
 			    amount = 5
 			    state = 567
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
 			}
 			set_country_flag = SAO_gaucho_volunteers
 			IF = {
@@ -409,6 +494,38 @@ SAO_category = {
 			    amount = 3
 			    state = 30
 			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.08
+			}
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
+			}
 			set_country_flag = SAO_carioca_volunteers
 			IF = {
 			limit = {
@@ -466,6 +583,24 @@ SAO_category = {
 			    amount = 5
 			    state = 31
 			}
+
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
+			}
+
 			set_country_flag = SAO_mineiro_volunteers 
 			IF = {
 			limit = {
@@ -528,6 +663,24 @@ SAO_category = {
 			    amount = 2
 			    state = 34
 			}
+
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
+			}
+
 			set_country_flag = SAO_argentino_volunteers #Batalhão Miguel Costa
 			IF = {
 			limit = {
@@ -585,6 +738,23 @@ SAO_category = {
 			    amount = 2
 			    state = 28
 			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
+			}
+
 			set_country_flag = SAO_nordestino_volunteers 
 			IF = {
 			limit = {
@@ -635,6 +805,37 @@ SAO_category = {
 			    type = technology
 			    amount = 5
 			    state = 28
+			}
+
+			set_country_flag = SAO_european_volunteers 
+
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.10
 			}
 			IF = {
 			limit = {
@@ -692,6 +893,37 @@ SAO_category = {
 			    amount = 5
 			    state = 500
 			}
+
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.10
+			}
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = -0.05
+			}
+
+
 			set_country_flag = SAO_american_volunteers 
 			IF = {
 			limit = {

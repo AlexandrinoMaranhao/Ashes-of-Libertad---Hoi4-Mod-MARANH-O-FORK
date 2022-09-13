@@ -542,6 +542,10 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.05
+			}
 				country_event = {
 					id = SAO_Focus_Tree_Events.10
 					days = 0
@@ -569,6 +573,10 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.05
+			}
 				country_event = {
 					id = SAO_Focus_Tree_Events.11
 					days = 0
@@ -1008,6 +1016,10 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = 0.05
+			}
 				country_event = {
 					id = SAO_Focus_Tree_Events.17
 					days = 0
