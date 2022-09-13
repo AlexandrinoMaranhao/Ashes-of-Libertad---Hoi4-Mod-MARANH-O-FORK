@@ -645,6 +645,55 @@ country_event = { #The Europeans 3
     }
 }
 
+country_event = { #Maranhao Lost
+    id = CFD_events.23
+    title = CFD_events.23.t
+    desc = CFD_events.23.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_memories
+
+    option = {
+        name = CFD_events.22.a
+		CFD = {
+			puppet = MNH
+			MNH = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+					last_election = "1935.12.17"
+					election_frequency = 48
+				}
+				remove_ideas = {
+					sarneys_feud
+					mercenary_army_LAM
+					cangaceiros_light
+				}
+				create_country_leader = {
+					name = "Renato Archer"
+					desc = ""
+					picture = Portrait_Renato_Archer.dds
+					expire = "1965.1.1"
+					ideology = provisional_government
+					traits = {
+						
+					}
+				}
+				add_ideas = {
+					CFD_warzone
+					CFD_rebuilding_maranho
+					CFD_sertaneja_occupation
+				}
+				set_state_owner = 21
+				set_state_owner = 20
+				set_state_owner = 19
+				set_state_owner = 18
+				set_state_owner = 22
+				set_state_owner = 23
+			}
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -1414,49 +1463,22 @@ country_event = { #Failstate stuff
     picture = x
 
     option = {
-		trigger = {
-			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
-		}
         name = CFD_failometer_enabled.1.a
 		
-        NUD = {
-			
-			add_opinion_modifier = { target = INT modifier = large_increase }
-			
-			load_oob = "NUD_1967"
-			transfer_state = 503
-			
-			declare_war_on = {
-                target = CFD
-                type = annex_everything
-            }
-           
-        }
+        #NUD = {
+		#	add_opinion_modifier = { target = INT modifier = large_increase }
+		#	load_oob = "NUD_1967"
+		#	transfer_state = 503
+		#	declare_war_on = {
+        #        target = CFD
+        #        type = annex_everything
+        #    }
+        #}
 		CFD = {
-			create_wargoal = {
-				type = annex_everything
-				target = NUD
+			white_peace = {
+				tag = MNH
+				message = CFD_MNH_LOST
 			}
-		}
-		INT = {
-			transfer_state = 6
-			transfer_state = 4
-			transfer_state = 3
-			transfer_state = 5
-			load_oob = "INT_1967"
-			load_oob = "INT_revolutionary_divisions"
-			create_wargoal = {
-				type = annex_everything
-				target = NUD
-			}
-			declare_war_on = {
-				target = MNH
-				type = annex_everything
-			}
-			declare_war_on = {
-                target = CFD 
-                type = annex_everything
-            }
 		}
     }
 }
@@ -1474,11 +1496,36 @@ country_event = {
     option = {
         name = CFD.1.a
         delete_unit_template_and_units = {
-            division_template = "Infantaria Nordeste"
+            division_template = "Comando da PMMA"
             disband = yes
         }
-        release = PEB
+        delete_unit_template_and_units = {
+            division_template = "Comando da PMSE"
+            disband = yes
+        }
+        delete_unit_template_and_units = {
+            division_template = "Comando da PMPE"
+            disband = yes
+        }
+        delete_unit_template_and_units = {
+            division_template = "Liga Camponesa"
+            disband = yes
+        }
+        delete_unit_template_and_units = {
+            division_template = "Batalhão de Caçadores"
+            disband = yes
+        }
+        delete_unit_template_and_units = {
+            division_template = "Batalhão de Infantaria"
+            disband = yes
+        }
+        delete_unit_template_and_units = {
+            division_template = "Comando da PMPI"
+            disband = yes
+        }
+		release = PEB
         CFD = {
+			country_event = { id = CFD.2 days = 14 }
             set_politics = {
                 ruling_party = communism
                 last_election = "1967.1.1"
@@ -1492,11 +1539,35 @@ country_event = {
                 neutrality = 0
                 reactionary = 0
             }
+			create_country_leader = {
+				name = "Collapsed Government" 
+				desc = ""
+				picture = Portrait_CFD_Collapsed_Government.dds
+				expire = "1965.1.1"
+				ideology = anarchism
+				traits = {
+					
+				}
+			}
+			clr_country_flag = CFD_elections_phase_1
         }
-        PEB = { load_oob = "PEB_1967" country_event = { id = PEB.1 days = 7 } }
-        MNH = { country_event = { id = MNH.1 hours = 3 } }
-        CFD = { remove_ideas = cangaceiros_and_commies }
-        country_event = { id = CFD.2 days = 14 }
+        PEB = {
+			set_nationality = {
+				target_country = PEB
+				character = CFD_joao_bezerra_de_araujo
+			}
+			set_nationality = {
+				target_country = PEB
+				character = CFD_inima_siqueira
+			}
+			set_nationality = {
+				target_country = PEB
+				character = CFD_hangho_trench
+			}
+			change_tag_from = CFD
+			load_oob = "PEB_1967"
+			country_event = { id = PEB.1 days = 7 }
+		}
     }
 }
 
@@ -1509,9 +1580,6 @@ country_event = {
     picture = x
 
     option = {
-		trigger = {
-			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
-		}
         name = CFD.2.a
         CEA = {
             transfer_state  = 14
@@ -1609,18 +1677,14 @@ country_event = {
     picture = x
 
     option = {
-		trigger = {
-			has_game_rule = { rule = Failostates_effect option = FAIL_O_STATE_ENABLED }
-		}
         name = CFD.5.a
 		every_country = {
-        news_event = {
-            id = world.79
-            days = 1
-        }
-    }
+			news_event = {
+				id = world.79
+				days = 1
+			}
+		}
         ALA = {
-			country_event = { id = CFD_failometer_enabled.1 days = 2 }
             transfer_state  = 10
             load_oob = "ALA_1967"
             declare_war_on = {
