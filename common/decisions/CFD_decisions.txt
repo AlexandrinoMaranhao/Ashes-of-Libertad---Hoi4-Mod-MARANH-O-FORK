@@ -939,7 +939,7 @@ CFD_main_category = {
 				AND = {
 					has_completed_focus = CFD_sertanejaandwhatarmy
 					has_idea = CFD_disunited_armed_forces 
-					check_variable = { CFD_army_reformation > 3 }
+					check_variable = { CFD_army_reformation > 2.5 }
 				}
 			}
         }
@@ -2680,10 +2680,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.10 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -2745,10 +2742,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.22 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -2810,10 +2804,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.35 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -2875,10 +2866,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.40 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -2940,10 +2928,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.52 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -3005,10 +2990,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.59 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -3058,10 +3040,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.63 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -3123,10 +3102,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.11
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.72 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -3188,10 +3164,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.02
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.86 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -3253,10 +3226,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.05
-			}
+			set_variable = { cfd_piaui_frontier_progress = 0.90 }
 		}
 		ai_will_do = {
 			factor = 999
@@ -3321,10 +3291,7 @@ CFD_piaui_frontier = {
 		modifier = {
 		}
 		remove_effect = {
-			add_to_variable = {
-				var = cfd_piaui_frontier_progress
-				value = 0.05
-			}
+			set_variable = { cfd_piaui_frontier_progress = 1.0 }
 		}
 		ai_will_do = {
 			factor = 999
