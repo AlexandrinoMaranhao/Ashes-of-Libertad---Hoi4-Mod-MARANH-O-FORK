@@ -813,7 +813,7 @@ focus_tree = {
 		prerequisite = { focus = CFD_sertanejaandwhatarmy  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_ideas = draft_exemptions_none
+			add_ideas = draft_exemptions_religious_deferment
 		}
 	}
 
@@ -1402,6 +1402,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_risesapeasant  } prerequisite = { focus = CFD_andtheagriculturalsocietyofplanters  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = CFD_the_peasant_leagues
+			    add_idea = CFD_peasant_leagues
+			}
+			
+			
+			
+		}
 	}
 
 	#Communal Sugar Plants
@@ -1420,6 +1429,10 @@ focus_tree = {
 			remove_decision = CFD_compromise_with_PCB
 			remove_decision = CFD_compromise_with_PSN
 			set_country_flag = CFD_end_balance
+			add_ideas = CFD_the_communal_sugar_plants
+			
+			
+			
 		}
 	}
 
