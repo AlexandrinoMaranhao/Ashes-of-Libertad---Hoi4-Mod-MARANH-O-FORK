@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 			
 			CUB={
-				history = "SAO_CARIBBEAN_DESC"
+				history = "CUB_CARIBBEAN_DESC"
 					ideology = communism
 				ideas = {
 				the_true_heir_of_cuba
