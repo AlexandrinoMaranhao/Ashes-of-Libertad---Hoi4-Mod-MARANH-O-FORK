@@ -1,6 +1,33 @@
 SAO_category = {
 ##################		Debug Decisions.	##################
 
+	SAO_debug_paulista_uprising = {
+		cost = 0
+		visible = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		available = {
+			AND = {
+				original_tag = SAO
+				is_debug = yes
+			}
+		}
+		complete_effect = {
+			SAO = {
+			set_country_flag = paulista_uprising_started
+					country_event = {
+						id = SAO_uprising_gen.1
+						days = 0
+					}
+
+			}
+				mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
 	SAO_debug_junta_civil_war = {
 		cost = 0
 		visible = {
@@ -678,7 +705,7 @@ SAO_category = {
 			}
 			add_to_variable = {
 				var = SAO_low_class_support
-				value = 0.05
+				value = -0.05
 			}
 
 			set_country_flag = SAO_argentino_volunteers #Batalhão Miguel Costa

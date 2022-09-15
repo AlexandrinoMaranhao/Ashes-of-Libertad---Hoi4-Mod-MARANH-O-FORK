@@ -8,6 +8,513 @@ add_namespace = SAO_operations
 add_namespace = SAO_operations_failure
 add_namespace = SAO_Focus_Tree_Events
 add_namespace = SAO_dear_big_brother
+add_namespace = SAO_uprising_gen
+add_namespace = SAO_uprising_volunteers
+
+
+
+
+country_event = { #"Paulista Uprising Start"
+    id = SAO_uprising_gen.1
+    title = SAO_uprising_gen.1.t
+    desc = SAO_uprising_gen.1.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_gen.1.A
+
+        PAU = {
+        transfer_state = 28
+        }
+    }
+}
+
+
+country_event = { #"Paulista Uprising Volunteers from Chinese"
+    id = SAO_uprising_volunteers.1
+    title = SAO_uprising_volunteers.1.t
+    desc = SAO_uprising_volunteers.1.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.1.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_china_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_china_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_china_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_china_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_china_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_china_volunteers"
+            }
+        }
+    }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Japanese"
+    id = SAO_uprising_volunteers.2
+    title = SAO_uprising_volunteers.2.t
+    desc = SAO_uprising_volunteers.2.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.2.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_japa_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_japanese_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_japa_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_japanese_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_japanese_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_japanese_volunteers"
+            }
+        }
+    }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Italian"
+    id = SAO_uprising_volunteers.3
+    title = SAO_uprising_volunteers.3.t
+    desc = SAO_uprising_volunteers.3.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.3.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_italian_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_italian_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_italian_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_italian_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_italian_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_italian_volunteers"
+            }
+        }
+    }
+}
+
+country_event = { #"Paulista Uprising Volunteers from sirio Libanes Community"
+    id = SAO_uprising_volunteers.4
+    title = SAO_uprising_volunteers.4.t
+    desc = SAO_uprising_volunteers.4.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.4.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_syrian_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_sirio_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_syrian_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_sirio_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_sirio_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_sirio_volunteers"
+            }
+        }
+        }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Argentino Community"
+    id = SAO_uprising_volunteers.5
+    title = SAO_uprising_volunteers.5.t
+    desc = SAO_uprising_volunteers.5.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.5.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_med_class_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_argentina_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_med_class_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_argentina_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_argentina_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_argentina_volunteers"
+            }
+        }
+
+        }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Nordestino Community"
+    id = SAO_uprising_volunteers.6
+    title = SAO_uprising_volunteers.6.t
+    desc = SAO_uprising_volunteers.6.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.6.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_low_class_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_nordestino_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_low_class_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_nordestino_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_nordestino_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_nordestino_volunteers"
+            }
+        }
+
+        }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Gaucho Community"
+    id = SAO_uprising_volunteers.7
+    title = SAO_uprising_volunteers.7.t
+    desc = SAO_uprising_volunteers.7.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.7.A
+
+        if = {
+            limit = {
+            SAO = {
+                check_variable = { var = SAO_high_class_support 
+                        value = 0.6
+                        compare = greater_than_or_equals }
+                }
+            }
+            SAO = {
+            load_oob = "SAO_gaucho_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+            SAO = {
+                check_variable = { var = SAO_high_class_support
+                        value = 0.4
+                        compare = less_than_or_equals }
+                }
+            }
+            PAU = {
+            load_oob = "PAU_gaucho_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_gaucho_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_gaucho_volunteers"
+            }
+        }
+    }
+}
+
+country_event = { #"Paulista Uprising Volunteers from European Community"
+    id = SAO_uprising_volunteers.8
+    title = SAO_uprising_volunteers.8.t
+    desc = SAO_uprising_volunteers.8.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.8.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_paulistas_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_european_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_paulistas_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_european_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_european_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_european_volunteers"
+            }
+        }
+
+        }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Mineiro Community"
+    id = SAO_uprising_volunteers.9
+    title = SAO_uprising_volunteers.9.t
+    desc = SAO_uprising_volunteers.9.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.9.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_caipiras_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_mineiro_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_caipiras_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_mineiro_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_mineiro_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_mineiro_volunteers"
+            }
+        }
+
+        }
+}
+
+country_event = { #"Paulista Uprising Volunteers from Carioca Community"
+    id = SAO_uprising_volunteers.10
+    title = SAO_uprising_volunteers.10.t
+    desc = SAO_uprising_volunteers.10.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.10.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_praianos_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_carioca_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_praianos_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_carioca_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_carioca_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_carioca_volunteers"
+            }
+        }
+
+        }
+}
+
+country_event = { #"Paulista Uprising American Volunteers"
+    id = SAO_uprising_volunteers.11
+    title = SAO_uprising_volunteers.11.t
+    desc = SAO_uprising_volunteers.11.d
+    picture = GFX_report_event_paulista_volunteers
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_uprising_volunteers.11.A
+
+        if = {
+            limit = {
+                check_variable = { var = SAO_caipiras_support 
+                        value = 0.6
+                        compare = greater_than_or_equals  }
+            }
+            SAO = {
+            load_oob = "SAO_american_volunteers"
+            }
+        }
+        else_if = { 
+            limit = {
+                check_variable = { var = SAO_caipiras_support 
+                        value = 0.4
+                        compare = less_than_or_equals  }
+            }
+            PAU = {
+            load_oob = "PAU_american_volunteers"
+            }
+        }
+        else = {
+            SAO = {
+            load_oob = "SAO_american_volunteers"
+            }
+
+            PAU = {
+            load_oob = "PAU_american_volunteers"
+            }
+        }
+
+        }
+}
+
 
 ###Focus Tree Events
 
@@ -1001,7 +1508,7 @@ country_event = {
             target = UBA
             transfer_troops = yes
         }
-        SAO = { add_state_core = 60 }
+        SAO = { add_state_core = 0.60 }
         SAO = { add_state_core = 61 }
         SAO = { add_state_core = 513 }
         SAO = { add_state_core = 512 }
