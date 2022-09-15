@@ -34,7 +34,7 @@ add_ideas = {
 set_country_flag = allow_pirate_tech
 
 create_faction = organizacion_del_tratado_del_pacifico_sur
-add_to_faction = SRE
+add_to_faction = SEC
 add_to_faction = PRU
 
 create_country_leader = {
