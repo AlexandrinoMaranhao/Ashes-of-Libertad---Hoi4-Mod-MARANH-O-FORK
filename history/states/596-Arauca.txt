@@ -1,8 +1,9 @@
+
 state={
-	id=436
-	name="STATE_436"
+	id=596
+	name="STATE_596"
 	provinces={
-		707 1462 1899 2732 3438 3445 3471 3507 
+		173 1390 1866 2326 3102 3122 3141 
 	}
 	manpower=2039
 	state_category=rural
@@ -10,10 +11,11 @@ state={
             history = {
 
         victory_points = {
-2732 1
+173 1
         }
-             owner=FAR
-             add_core_of = FAR
+
+             owner=LBT
              add_core_of = COL
+	     add_core_of = LBT
 }
 }

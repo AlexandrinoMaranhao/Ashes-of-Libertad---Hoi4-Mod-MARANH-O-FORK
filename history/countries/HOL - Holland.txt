@@ -29,9 +29,10 @@ add_ideas = {
 	trade_scope_regional_exports
 	economic_focus_civilian_economy
 	conscription_volunteer_only
-	#HOL_his_magesty_contested
-#HOL_old_business
-HOL_suriname_nationalism
+	HOL_his_magesty_contested
+	HOL_old_business
+	HOL_suriname_nationalism
+	HOL_lacking_constitution
 }
 
 set_country_flag = use_generic_outsider_laws

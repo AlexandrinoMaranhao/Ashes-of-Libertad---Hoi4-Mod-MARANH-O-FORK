@@ -29,9 +29,14 @@ add_ideas = {
 	conscription_one_year_draft
 	economic_focus_partial_mobilization
 	trade_scope_intercontinental_exports
-	permanent_military_economy
-	the_silver_deal
-	the_argentinan_facade
+	
+    ARG_the_silver_deal
+	ARG_the_arsenal_of_south_america
+    ARG_peron_is_dead
+    ARG_the_turtle
+    ARG_looming_military_pressure
+
+
 }
 
 set_country_flag = use_generic_outsider_laws
@@ -40,6 +45,12 @@ set_country_flag = use_generic_officer_training_laws
 set_country_flag = use_generic_troop_training_laws
 set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
+
+
+create_faction = el_pacto_de_plata
+add_to_faction = URG
+add_to_faction = PAR
+add_to_faction = GCP
 
 create_country_leader = {
 	

@@ -4,19 +4,15 @@ state={
 	name="STATE_295"
 
 	history={
-
-        victory_points = {
-3185 20
-        }
-
-        victory_points = {
-3141 1
-        }
-
-        victory_points = {
-986 5
-        }
-
+		victory_points = {
+			3185 20 
+		}
+		victory_points = {
+			3141 1 
+		}
+		victory_points = {
+			986 5 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -29,9 +25,10 @@ state={
 	}
 
 	provinces={
-		671 684 766 911 986 990 1390 1759 1780 1854 1860 2326 2328 2329 3122 3130 3141 3151 3163 3164 3172 3179 3185 3201 3203 3209 3230 
+		671 684 766 911 990 1759 1780 1854 1860 2328 2329 3151 3163 3164 3172 3179 3185 3201 3203 3209 3230 
 	}
 	manpower=284095
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

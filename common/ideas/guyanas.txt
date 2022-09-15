@@ -21,6 +21,11 @@ ideas = {
 
 	}
 
+
+	HOL_lacking_constitution = {
+
+	}
+
 	HOL_suriname_nationalism = {
 	modifier = {
 	stability_factor = -0.1

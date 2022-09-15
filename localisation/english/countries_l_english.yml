@@ -26,6 +26,11 @@
  MAS_ADJ:0 ""
  ONG_ADJ:0 ""
 
+ GCP:0 "Gobierno de Capitán Pablo"
+ GCP_DEF:0 "Gobierno de Capitán Pablo"
+ GCP_ADJ:0 "Gobierno de Capitán Pablo"
+
+
  BHO:0 "4º Military Region"
  BHO_ADJ:0 "the 4º Military Region"
  BHO_DEF:0 "the 4º Military Region"

@@ -200,3 +200,5 @@ MST = "countries/MST.txt"
 ## Nordeste ##
 
 NUD = "countries/Democratic Union of Vera Cruz.txt"
+
+GCP = "countries/Gobierno de Capitan Pablo.txt"

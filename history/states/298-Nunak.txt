@@ -4,27 +4,28 @@ state={
 	name="STATE_298"
 
 	history={
-
-        victory_points = {
-2489 10
-        }
-
-        victory_points = {
-1655 1
-        }
+		victory_points = {
+			2489 10 
+		}
+		victory_points = {
+			1655 1 
+		}
 		owner = COL
 		add_core_of = COL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-            arms_factory = 2
-			}
+			arms_factory = 2
+
+		}
+
 	}
 
 	provinces={
-		655 656 727 835 1048 1117 1289 1529 1655 1953 1962 2489 2621 2638 3232 3237 3266 3267 3276 3289 3299 3341 3344 
+		60 655 656 727 835 1048 1117 1289 1529 1655 1962 2489 2621 2638 3210 3215 3220 3232 3236 3237 3266 3267 3274 3276 3299 3341 3344 
 	}
 	manpower=44827
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

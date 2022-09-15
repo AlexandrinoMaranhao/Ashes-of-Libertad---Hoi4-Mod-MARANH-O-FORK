@@ -30,8 +30,11 @@ add_ideas = {
 	trade_scope_closed_economy
 	economic_focus_partial_mobilization
 
-	argentine_bullying
-	the_ghost_of_franco
+	PAR_the_silver_deal
+	PAR_argentine_bullying
+	PAR_black_sheep_of_the_bunch
+	PAR_the_frontline_of_democracy
+	
 }
 
 set_country_flag = use_generic_outsider_laws

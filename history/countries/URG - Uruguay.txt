@@ -32,7 +32,8 @@ add_ideas = {
 	trade_scope_international_exports
 	economic_focus_civilian_economy
 	conscription_volunteer_only
-
+	
+	URG_the_silver_deal
 	URG_switzerland_of_south_america
     URG_armamentos_y_municiones_del_ejercito
     URG_political_militias

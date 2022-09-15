@@ -301,13 +301,14 @@
  CAY_carib_rouge:0 "§RCarib Rouge§!"
  CAY_vive_la_revolucion:0 "§RVive la Revolution!§!"
  CAY_famine_fever_fear:0 "§RFamine, Fever, Fear.§!"
- HOL_his_magesty_contested:0 "His Magesty Contested"
- HOL_old_business:0 "Old Business"
+ HOL_his_magesty_contested:0 "The Dutch Royal Family"
+ HOL_old_business:0 "Caribbean Holdings"
+ HOL_lacking_constitution:0 "Inneficient Constitution"
  HOL_suriname_nationalism:0 "Rising Surinamese Nationalism"
  ENG_struggling_federation:0 "Juggling Federation"
  ENG_preassure_from_venezuela:0 "Pressure from Venezuela"
  ENG_the_sun_has_set:0 "The Sun Has Set"
- ENG_the_new_jewl_movement:0 "The New Jewl Movement"
+ ENG_the_new_jewl_movement:0 "The New Jewel Movement"
  ENG_friends_in_high_places:0 "Friends in All Places"
  gateway_of_south_america:0 "The Gateway to South America"
  PAN_pull_left:0 "Pull Left"
@@ -474,6 +475,25 @@
  PIA_wolf_adminstration:0 "Lobo's Chaotic Adminstration"
  PIA_just_an_occupation:0 "Just an Occupation?"
  PIA_memories_of_the_1963_revolt:0 "Memories of the 1963 Revolt"
+ 
+ ARG_the_arsenal_of_south_america:0 "The Arsenal of South America"
+ ARG_peron_is_dead:0 "Perón is Dead, §4¡Viva Perón!§!"
+ ARG_the_turtle:0 "The Turtle"
+ ARG_looming_military_pressure:0 "Looming Peronist Coup"
+ ARG_the_silver_deal:0 "§4Leader of The Silver Pact§!"
+
+ URG_the_silver_deal:0 "§4Dependent Member of The Silver Pact§!"
+
+ PAR_the_silver_deal:0 "§4Dependent Member of The Silver Pact§!"
+ PAR_argentine_bullying:0 "Argentine Masochism"
+ PAR_black_sheep_of_the_bunch:0 "The Black Sheep of the Bunch"
+ PAR_the_frontline_of_democracy:0 "The Frontline of ''Democracy''"
+
+ GCP_joint_paraguayan_argentinian_administration:0 "Joint Argentinian-Paraguayan Administration"
+ GCP_anti_guerrilla_army:0 "Anti-Guerrilla Army"
+ GCP_workshop_of_monsters:0 "The Workshop of Monsters"
+ GCP_the_silver_deal:0 "§4Militarily Adminstrated District of the Silver Pact§!"
+
 
  ########################################################
 # battle_of_guanabara:0 "The 2nd Battle of Guanabara"

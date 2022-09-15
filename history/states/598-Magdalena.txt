@@ -1,26 +1,22 @@
 
 state={
-	id=437
-	name="STATE_437"
+	id=598
+	name="STATE_598"
 
 	history={
 		victory_points = {
-			1182 1 
-		}
-		buildings = {
-			infrastructure = 1
-			arms_factory = 2
-
+			78 1 
 		}
 		owner = COL
 		add_core_of = COL
+		add_core_of = ELN
 
 	}
 
 	provinces={
-		969 1182 1321 2080 2400 3404 3427 3433 3437 3448 
+		78 908 1570 2981 2987 
 	}
-	manpower=2059
+	manpower=2039
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

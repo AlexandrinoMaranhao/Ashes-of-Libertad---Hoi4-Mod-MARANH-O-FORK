@@ -1,13 +1,16 @@
 ideas = {
 	country = {
 
-		argentine_bullying = {
+		PAR_argentine_bullying = {
 
 		}
         
-        the_ghost_of_franco = {
+        PAR_black_sheep_of_the_bunch = {
 
        }
-       
+               
+        PAR_the_frontline_of_democracy = {
+
+       }
 	}
 }

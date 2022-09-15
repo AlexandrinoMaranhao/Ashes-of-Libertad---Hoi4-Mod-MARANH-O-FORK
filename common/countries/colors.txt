@@ -316,6 +316,11 @@ PAR = {
 	color_ui = rgb { 218 255 127 }
 }
 
+GCP = {
+	color = rgb { 220 270 140 }
+	color_ui = rgb { 218 255 127 }
+}
+
 ENG = {
 	color = rgb { 107 63 127 }
 	color_ui = rgb { 107 63 127 }

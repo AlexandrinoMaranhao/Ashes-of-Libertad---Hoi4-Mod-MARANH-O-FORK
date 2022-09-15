@@ -1,21 +1,51 @@
 ideas = {
 	country = {
 
-		permanent_military_economy = {
+		ARG_the_arsenal_of_south_america = {
 
 		}
 
-		the_silver_deal = {
+
+		ARG_peron_is_dead = {
 
 		}
 
-		the_argentinan_facade = {
+
+		ARG_the_turtle = {
 
 		}
 
-		the_tupamaros = {
+
+		ARG_looming_military_pressure = {
 
 		}
+
+		ARG_the_silver_deal = {
+
+		}
+
+		GCP_joint_paraguayan_argentinian_administration = {
+
+		}
+
+		GCP_anti_guerrilla_army = {
+
+		}
+
+		GCP_workshop_of_monsters = {
+
+		}
+
+		GCP_the_silver_deal = {
+
+		}
+
+		PAR_the_silver_deal = {
 		
+		}
+
+		URG_the_silver_deal = {
+		
+		}
 	}
 }
