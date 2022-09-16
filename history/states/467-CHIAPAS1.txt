@@ -11,10 +11,13 @@ state={
 		add_core_of = ERG
 		add_core_of = MEX
 		victory_points = {
-			2945 5 
+			1341 5 
 		}
 		victory_points = {
-			891 30 
+			2939 5 
+		}
+		victory_points = {
+			891 10
 		}
 		buildings = {
 			infrastructure = 2
@@ -24,7 +27,7 @@ state={
 	}
 
 	provinces={
-		209 395 406 891 1341 2939 2945 
+		209 395 406 891 1341 2939 2945 6496 
 	}
 	manpower=323953
 	buildings_max_level_factor=1.000

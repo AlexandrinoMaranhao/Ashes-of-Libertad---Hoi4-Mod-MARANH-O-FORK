@@ -13,7 +13,25 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		victory_points = {
-			2885 40 
+			6491 5
+		}
+		victory_points = {
+			6490 5
+		}
+		victory_points = {
+			6489 5
+		}
+		victory_points = {
+			6488 5
+		}
+		victory_points = {
+			6487 30
+		}
+		victory_points = {
+			6485 5
+		}
+		victory_points = {
+			2885 10
 		}
 		buildings = {
 			infrastructure = 3
@@ -26,7 +44,7 @@ state={
 	}
 
 	provinces={
-		2885 
+		2885 6485 6486 6487 6488 6489 6490 6491 
 	}
 	manpower=2043353
 	buildings_max_level_factor=1.000

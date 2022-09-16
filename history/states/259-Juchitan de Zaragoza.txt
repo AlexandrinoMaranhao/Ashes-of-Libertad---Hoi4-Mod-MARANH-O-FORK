@@ -4,6 +4,21 @@ state={
 	name="STATE_259"
 
 	history={
+		victory_points = {
+			116 1 
+		}
+		victory_points = {
+			6499 30 
+		}
+		victory_points = {
+			1656 1 
+		}
+		victory_points = {
+			1126 1 
+		}
+		victory_points = {
+			1990 1 
+		}
 		owner = MEX
 		add_core_of = MEX
 		buildings = {
@@ -13,14 +28,16 @@ state={
 				naval_base = 2
 
 			}
+
 		}
 
 	}
 
 	provinces={
-		67 116 130 189 769 867 1126 1135 1225 1534 1656 1687 1990 2085 2917 2924 2926 2928 
+		67 116 130 189 769 867 1126 1135 1225 1534 1656 1687 1990 2085 2917 2924 2926 2928 6495 6499 
 	}
 	manpower=150293
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

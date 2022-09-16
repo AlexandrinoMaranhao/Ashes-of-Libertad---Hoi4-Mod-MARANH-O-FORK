@@ -8,6 +8,9 @@ state={
 		add_core_of = ERG
 		add_core_of = MEX
 		victory_points = {
+			2923 1
+		}
+		victory_points = {
 			2929 10 
 		}
 		victory_points = {
