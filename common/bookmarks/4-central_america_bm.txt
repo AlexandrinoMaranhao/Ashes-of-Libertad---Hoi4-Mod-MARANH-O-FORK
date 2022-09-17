@@ -4,8 +4,8 @@ bookmarks = {
 		desc = "BM_CENTRAL_AMERICA_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		default_country = "ERG"
+		default = no
 			
 			ERG={
 				history = "ERG_CENTRAL_AMERICA_DESC"

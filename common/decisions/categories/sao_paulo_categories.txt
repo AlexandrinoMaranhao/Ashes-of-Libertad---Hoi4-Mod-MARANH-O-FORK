@@ -20,6 +20,17 @@ SAO_DOPS = {
     priority = 300
 }
 
+SAO_ALN = {
+	allowed = {
+		original_tag = SAO
+	}
+	visible = {
+		original_tag = SAO
+	}
+	icon = GFX_decision_category_acrean_raids
+    priority = 300
+}
+
 SAO_divided_ppl_category = {
 	allowed = {
 		original_tag = SAO

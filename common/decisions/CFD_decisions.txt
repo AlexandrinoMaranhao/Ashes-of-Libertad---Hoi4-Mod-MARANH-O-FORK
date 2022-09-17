@@ -106,9 +106,12 @@ CFD_main_category = {
 			}
 		}
 		modifier = {
-			ai_focus_aggressive_factor = 0.95
-			ai_focus_war_production_factor = 0.9
-			ai_desired_divisions_factor = 0.9
+			ai_focus_aggressive_factor = 1.0
+			ai_focus_war_production_factor = 1.0
+			ai_badass_factor = 1.0
+			ai_focus_aviation_factor = 0.70
+			army_attack_against_minor_factor = 0.20
+			army_defence_against_minor_factor = 0.95
 		}
 		remove_effect = {
 			CFD = {

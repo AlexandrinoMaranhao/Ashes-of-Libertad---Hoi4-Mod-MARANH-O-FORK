@@ -13,35 +13,35 @@ division_template = {
 units = {
 	division = {
 		name = "Infantaria ELN 1"
-		location = 2088
+		location = 1901
 		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria ELN 2"
-		location = 2088
+		location = 1901
 		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria ELN 3"
-		location = 2088
+		location = 1901
 		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria ELN 4"
-		location = 2088
+		location = 1901
 		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "Infantaria ELN 4"
-		location = 2088
+		location = 1901
 		division_template = "Infantaria ELN"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9

@@ -4,8 +4,8 @@ bookmarks = {
 		desc = "BM_MEXICO_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		default_country = "MEX"
+		default = no
 			
 			MEX={
 				history = "MEX_BM_MEXICO_DESC"

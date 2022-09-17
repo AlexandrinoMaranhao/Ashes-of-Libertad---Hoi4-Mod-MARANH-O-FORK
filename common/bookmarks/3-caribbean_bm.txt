@@ -4,14 +4,14 @@ bookmarks = {
 		desc = "BM_CARIBBEAN_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		default_country = "CUB"
+		default = no
 			
 			CUB={
 				history = "CUB_CARIBBEAN_DESC"
 					ideology = communism
 				ideas = {
-				the_true_heir_of_cuba
+				true_heir_of_cuba
 				pro_castro
 			    }
 			    focuses = {

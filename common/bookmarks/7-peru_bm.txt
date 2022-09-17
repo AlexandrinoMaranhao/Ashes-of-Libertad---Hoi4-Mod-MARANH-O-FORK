@@ -4,8 +4,8 @@ bookmarks = {
 		desc = "BM_PERU_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		default_country = "PRU"
+		default = no
 
 			PRU={
 				history = "PRU_PERU_DESC"
@@ -23,16 +23,6 @@ bookmarks = {
 					ideology = fascism
 				ideas = {
 				PMI_the_wall
-			    }
-			    focuses = {
-			    }
-			}
-
-			RPU={
-				history = "RPU_PERU_DESC"
-					ideology = democratic
-				ideas = {
-				RPU_dependency
 			    }
 			    focuses = {
 			    }

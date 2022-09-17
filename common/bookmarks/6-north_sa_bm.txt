@@ -4,8 +4,8 @@ bookmarks = {
 		desc = "BM_NORTH_SA_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		default_country = "VEN"
+		default = no
 			
 			COL={
 				history = "COL_NORTH_SA_DESC"

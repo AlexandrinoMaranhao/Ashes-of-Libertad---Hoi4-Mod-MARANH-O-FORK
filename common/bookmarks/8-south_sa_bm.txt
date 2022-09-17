@@ -4,8 +4,8 @@ bookmarks = {
 		desc = "BM_SOUTH_SA_DESC"
 		date = 1967.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SAO"
-		default = yes
+		default_country = "ARG"
+		default = no
 			
 			CHL={
 				history = "CHL_SOUTH_SA_DESC"
@@ -55,8 +55,6 @@ bookmarks = {
 				history = "PAR_SOUTH_SA_DESC"
 					ideology = fascism
 				ideas = {
-				argentine_bullying
-				the_ghost_of_franco
 			    }
 			    focuses = {
 			    }

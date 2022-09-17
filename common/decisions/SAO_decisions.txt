@@ -2059,3 +2059,697 @@ SAO_divided_ppl_category = {
 SAO_cat_and_mouse_category = {
 	############################################
 }
+
+SAO_DOPS = {
+	sao_investigate_freis = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_freis_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_if_localize_marighella = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_freis_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_freis_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_freis_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_if_kill_marighella = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_freis_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_freis_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_freis_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	sao_investigate_lower_class = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_toledo_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ilc_toledo = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_toledo_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_toledo_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_toledo_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ilc_kill_toledo = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_toledo_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_toledo_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_toledo_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	sao_talk_to_rosa = {
+		cost = 5
+		days_remove = 7
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				has_completed_focus = sao_phase_two_hunt_their_allies
+			}
+		}
+		available = {
+			SAO = {
+				has_completed_focus = sao_phase_two_hunt_their_allies
+			}
+		}
+		complete_effect = {
+			#
+		}
+		remove_effect = {
+			hidden_effect = {
+				#
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_investigate_caipiras = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_virgilio_silva_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ic_virgilio_silva = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_virgilio_silva_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_virgilio_silva_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_virgilio_silva_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ic_kill_virgilio_silva = {
+		
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_virgilio_silva_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_virgilio_silva_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_virgilio_silva_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	sao_investigate_overlordianos = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_italy_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_iitaly_franklin_martins = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_italy_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_italy_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_italy_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_iitaly_kill_franklin_martins = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_italy_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_italy_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_italy_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	sao_investigate_siriolibaneses = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_sili_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_isl_fernando_gabeira = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_sili_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_sili_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_sili_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_isl_kill_fernando_gabeira = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_sili_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_sili_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_sili_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	sao_investigate_japa = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_japa_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ij_manoel_cyrillo = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_japa_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_japa_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_japa_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ij_kill_manoel_cyrillo = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_japa_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_japa_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_japa_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	sao_investigate_china = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_china_unlock = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ichina_chico = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_china_unlock = 1 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_china_unlock = 1 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_variable = { SAO_china_unlock = 2 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ichina_kill_chico = {
+		cost = 5
+		days_remove = 14
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_china_unlock = 2 }
+				}
+			}
+		}
+		available = {
+			SAO = {
+				AND = {
+					has_completed_focus = sao_phase_two_hunt_their_allies
+					check_variable = { SAO_china_unlock = 2 }
+				}
+			}
+		}
+		complete_effect = {
+			#Sem efeito. Libera proximas decisoes. Evento ou tooltip?
+		}
+		remove_effect = {
+			hidden_effect = {
+				clear_variable = SAO_china_unlock
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
