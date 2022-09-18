@@ -1767,6 +1767,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_sending_the_boys_in_brown  } prerequisite = { focus = CFD_the_police_state  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = {
+			    id = CFD_events.6
+			    days = 1
+			}
+		}
 	}
 
 }

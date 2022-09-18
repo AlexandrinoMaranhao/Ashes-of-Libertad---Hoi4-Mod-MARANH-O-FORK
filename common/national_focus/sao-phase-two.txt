@@ -576,6 +576,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = sao_phase_two_the_urban_guerrila_minihandbook  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_country_flag = can_stash
+		}
 	}
 
 	#The Urban Guerrila Mini-Handbook

@@ -197,6 +197,19 @@ country_event = { #The Betrayal (Bezerra and Prestes)
 
     option = {
         name = CFD_events.6.a
+		custom_effect_tooltip = "Prestes will start to organize a uprising against the Sertaneja Confederation."
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = world.1
+					days = 10
+				}
+			}
+            country_event = {
+				id = PEB.1
+				days = 7
+			}
+		}
     }
 }
 

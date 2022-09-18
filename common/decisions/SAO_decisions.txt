@@ -2753,3 +2753,99 @@ SAO_DOPS = {
 		}
 	}
 }
+
+SAO_ALN = {
+	sao_cripple_administration = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+			AND = {
+				country_exists = SAO
+				SAO = {has_completed_focus = sao_phase_two_scale_up_the_operations}
+			}
+		}
+		available = {
+			AND = {
+				country_exists = SAO
+				SAO = {has_completed_focus = sao_phase_two_scale_up_the_operations}
+			}
+		}
+		complete_effect = {
+			SAO = {
+				#add_timed_idea = {
+				#	idea = my_idea
+				#	days = 180
+				#}
+			}
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_cripple_police = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+			AND = {
+				country_exists = SAO
+				SAO = {has_completed_focus = sao_phase_two_scale_up_the_operations}
+			}
+		}
+		available = {
+			AND = {
+				country_exists = SAO
+				SAO = {has_completed_focus = sao_phase_two_scale_up_the_operations}
+			}
+		}
+		complete_effect = {
+			SAO = {
+				#add_timed_idea = {
+				#	idea = my_idea
+				#	days = 180
+				#}
+			}
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_cripple_colina = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+			AND = {
+				country_exists = SAO
+				SAO = {has_completed_focus = sao_phase_two_contactthesstcolinass}
+			}
+		}
+		available = {
+			AND = {
+				country_exists = SAO
+				SAO = {has_completed_focus = sao_phase_two_contactthesstcolinass}
+			}
+		}
+		complete_effect = {
+			SAO = {
+				#add_timed_idea = {
+				#	idea = my_idea
+				#	days = 180
+				#}
+			}
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
