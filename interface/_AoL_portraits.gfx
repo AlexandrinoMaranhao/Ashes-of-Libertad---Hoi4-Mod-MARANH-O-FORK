@@ -86,6 +86,34 @@ spriteTypes = {
 		name = "GFX_idea_CFD_chagas_rodrigues_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/CFD_Chagas_Rodrigues.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_CFD_pelopidas_silveira_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_pelopidas_silveira_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_olival_tenorio_costa"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_olival_tenorio_costa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_jose_almeida_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_jose_almeida_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_germano_coelho_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_germano_coelho_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_etvelvino_lins_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_etvelvino_lins_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_drayton_nejaim_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_drayton_nejaim_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CFD_otavio_araujo_advisor"
+		texturefile = "gfx/interface/ideas/goofybois/CFD_otavio_araujo_advisor.dds"
+	}
 	
 ###El_Generico Quadrant###
 	spriteType = {
