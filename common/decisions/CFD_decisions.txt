@@ -27,33 +27,36 @@ CFD_main_category = {
             NOT = {country_exists = CFD}
         }
 		visible = {
-			is_debug = yes
+			country_exists = CFD
 		}
         activation = {
-			country_exists = CFD
+			CFD = {has_country_flag = CFD_prestes_is_returning}
         }
 		cancel_trigger = {
-			NOT = {country_exists = CFD}
+			hidden_trigger = {
+				CFD = {has_country_flag = prestes_returned}
+			}
 		}
         is_good = no
-        selectable_mission = yes
-        days_mission_timeout = 1335
+        selectable_mission = no
+        days_mission_timeout = 730
         timeout_effect = {
-			every_country = {
-				news_event = {
-					id = world.1
-					days = 3
+			hidden_effect = {
+				clr_country_flag = CFD_prestes_is_returning
+				every_country = {
+					news_event = {
+						id = world.1
+						days = 3
+					}
+				}
+				country_event = {
+					id = PEB.1
+					days = 0
 				}
 			}
-            country_event = {
-				id = PEB.1
-				days = 0
-			}
         }
-		complete_effect = {
-			add_political_power = 50
-		}
 	}
+	
 	CFD_debug_vice_president_teaser = {
 		cost = 0
 		visible = {

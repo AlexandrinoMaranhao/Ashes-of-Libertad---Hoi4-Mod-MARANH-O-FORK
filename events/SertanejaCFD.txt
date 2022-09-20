@@ -707,6 +707,22 @@ country_event = { #Maranhao Lost
     }
 }
 
+country_event = { #Prestes' Countdown to extinction
+    id = CFD_events.24
+    title = CFD_events.24.t
+    desc = CFD_events.24.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_bezerra_and_prestes
+
+    option = {
+        name = CFD_events.24.a
+		CFD = {
+			set_country_flag = CFD_prestes_is_returning
+			activate_mission = CFD_prestes_returns_timer
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -856,6 +872,11 @@ country_event = { #Election yes or no
 			hidden_effect = {
 				complete_national_focus = CFD_nooneotherthanme
 				clear_variable = CFD_no_elections_chances
+				
+				country_event = {
+					id = CFD_events.24
+					days = 5
+				}
 			}	
 		}
     }
