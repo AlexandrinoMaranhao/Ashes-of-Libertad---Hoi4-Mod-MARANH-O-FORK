@@ -123,14 +123,14 @@ sub_units = {
 			infantry_gear = 150
 		}
 	}
-	militia_unit = {
+	militia_unit = {  #Paradox has added militia units. Dont use these.
 		abbreviation = "MLA"
 		sprite = infantry
 		map_icon_category = infantry
 		
 		priority = 100
 		ai_priority = 25
-		active = yes
+		active = no
 
 		type = {
 			infantry
@@ -176,7 +176,7 @@ sub_units = {
 			infantry_equipment = 150
 		}
 	}
-	merc_unit = {
+	merc_unit = {   #Paradox has added merc units. Dont use these.
 		abbreviation = "MRC"
 		sprite = infantry
 		map_icon_category = infantry

@@ -1016,7 +1016,6 @@ CFD_main_category = {
 			experience_loss_factor = 0.5
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
 		}
 		remove_effect = {
 			remove_ideas = cangaceiros_light
@@ -1060,7 +1059,7 @@ CFD_main_category = {
 			experience_loss_factor = 0.5
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		remove_effect = {
 			remove_ideas = cangaceiros_medium
@@ -1099,7 +1098,7 @@ CFD_main_category = {
 			experience_loss_factor = 0.5
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		remove_effect = {
 			remove_ideas = cangaceiros_heavy
@@ -1139,7 +1138,7 @@ CFD_main_category = {
 		modifier = {
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		remove_effect = {
 			add_stability = 0.1
@@ -1184,7 +1183,7 @@ CFD_main_category = {
 		modifier = {
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		complete_effect = {
 			add_to_variable = {
@@ -1235,7 +1234,7 @@ CFD_main_category = {
 		modifier = {
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		complete_effect = {
 			add_to_variable = {
@@ -1286,7 +1285,7 @@ CFD_main_category = {
 		modifier = {
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		complete_effect = {
 			add_to_variable = {
@@ -1340,7 +1339,7 @@ CFD_main_category = {
 		modifier = {
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-			occupation_cost = -0.2
+
 		}
 		complete_effect = {
 			add_to_variable = {
