@@ -139,9 +139,6 @@ technology_folders = {
 	artillery_folder = {
 		ledger = army
 	}
-	air_techs_folder = {
-		ledger = air
-	}
 	naval_folder = {
 		available = {
 			not = { has_dlc = "Man the Guns" }
@@ -156,7 +153,7 @@ technology_folders = {
 	}
 	mtgnavalsupportfolder = {
 		available = {
-			always = no
+			has_dlc = "Man the Guns"
 		}
 		ledger = navy
 	}
