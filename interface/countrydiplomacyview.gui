@@ -221,6 +221,16 @@ guiTypes = {
 				font = "hoi_18mbs"
 			}
 			
+			buttonType = {
+				name = "logistics_button"
+				position = { x = 296 y = -48 }
+				quadTextureSprite ="GFX_button_221x34"
+				buttonFont = "hoi_16mbs"
+				Orientation = "LOWER_LEFT"
+				buttonText = "OPEN_COUNTRY_LOGISTICS"
+				clicksound = click_close
+			}
+			
 			#------------------------- END TAB BUTTONS ----------------------------
 			
 			#------------------------- RELATIONS TAB ----------------------------

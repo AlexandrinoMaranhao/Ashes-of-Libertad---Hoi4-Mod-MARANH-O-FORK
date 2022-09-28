@@ -1,3 +1,5 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
 	light_air
@@ -90,6 +92,17 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	cat_synth_oil
+	cat_armored_cars
+	cat_special_forces_generic
+	cat_torpedoes
+	cat_ship_light_battery
+	cat_ship_medium_battery
+	cat_ship_heavy_battery
+	air_equipment
+	plane_modules_tech
+	cat_air_guns
+	cat_air_engine
+	cat_air_bombs
 }
 
 technology_folders = {
@@ -114,6 +127,15 @@ technology_folders = {
 			always = no
 		}
 	}
+	air_techs_folder = {
+		ledger = air
+	}
+	bba_air_techs_folder = { #Fuck BBA tbh. Aint fixing this shit.
+		available = {
+			always = no
+		}
+		ledger = air
+	}
 	artillery_folder = {
 		ledger = army
 	}
@@ -129,6 +151,12 @@ technology_folders = {
 	mtgnavalfolder = {
 		available = {
 			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavalsupportfolder = {
+		available = {
+			always = no
 		}
 		ledger = navy
 	}
