@@ -1,5 +1,35 @@
 guiTypes = {
-	
+
+	containerWindowType = {
+		name = "intel_ledger_plane_count_detail"
+		size = { width=60 height=35 }
+		clipping = no
+		
+		background = {
+			name = "background"
+			spriteType = "GFX_overview_filter_entry"
+		}
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_air_overview_plane_strip"
+			position = {x=-2 y=16} 
+			Orientation = "Upper_Right"
+			centerposition = yes
+			scale = 0.9
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "count"
+			position = {x=6 y=2}
+			font = "hoi_18mbs"
+			maxWidth = 40
+			maxHeight = 40
+			format = left
+		}
+	}
+
 	containerWindowType = {
 		name = "ledger_resource_entry"
 		position = { x=0 y=0 }
@@ -78,7 +108,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "ledger_template_entry"
 		position = { x = 5 y = 0 }
-		size = { width = 618 height = 50 }
+		size = { width = 485 height = 50 }
 		
 		background = {
 			name = "Background"
@@ -105,11 +135,11 @@ guiTypes = {
 		iconType = {
 			name = "count_bg"
 			quadTextureSprite ="GFX_generic_text_bg_108"
-			position = { x = 503 y = 12 }
+			position = { x = 370 y = 12 }
 		}
 		instantTextboxType = {
 			name = "count"
-			position = { x = 503 y = 16 }
+			position = { x = 370 y = 16 }
 			font = "hoi_18mbs"
 			text = "123 - 512"
 			format = center
@@ -120,7 +150,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "ledger_equipment_stockpile_entry"
 		position = { x = 5 y = 0 }
-		size = { width = 618 height = 50 }
+		size = { width = 485 height = 50 }
 		
 		background = {
 			name = "Background"
@@ -154,11 +184,11 @@ guiTypes = {
 		iconType = {
 			name = "count_bg"
 			quadTextureSprite ="GFX_generic_text_bg_108"
-			position = { x = 503 y = 12 }
+			position = { x = 370 y = 12 }
 		}
 		instantTextboxType = {
 			name = "count"
-			position = { x = 503 y = 16 }
+			position = { x = 370 y = 16 }
 			font = "hoi_18mbs"
 			text = "123 - 512"
 			format = center
@@ -175,7 +205,7 @@ guiTypes = {
 
 		background = {
 			name = "background"
-			spriteType = "GFX_navy_overview_ship_entry"
+			spriteType = "GFX_overview_filter_entry"
 		}
 
 		iconType = {
@@ -201,14 +231,14 @@ guiTypes = {
 	containerWindowType = {
 		name = "ledger_ship_header_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 613 height = 40 }
+		size = { width = 480 height = 40 }
 		Orientation = upper_left
 		clipping = no
 
 		
 		iconType = {
 			name = "entry_bg"
-			position = {x=301 y=20} 
+			position = {x=240 y=20} 
 			spriteType = "GFX_intel_ledger_entry"
 			centerposition = yes
 		}
@@ -233,7 +263,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "ship_count"
-			position = {x=484 y=10}
+			position = {x=362 y=10}
 			font = "hoi_18mbs"
 			maxWidth = 100
 			maxHeight = 40
@@ -244,7 +274,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "ledger_ship_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 603 height = 65 }
+		size = { width = 480 height = 65 }
 		Orientation = upper_left
 		clipping = no
 
@@ -273,7 +303,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "ship_count"
-			position = {x=485 y=22}
+			position = {x=362 y=22}
 			font = "hoi_18mbs"
 			maxWidth = 100
 			maxHeight = 40
@@ -291,7 +321,7 @@ guiTypes = {
 
 		background = {
 			name = "background"
-			spriteType = "GFX_navy_overview_ship_entry"
+			spriteType = "GFX_overview_filter_entry"
 		}
 
 		iconType = {
@@ -323,7 +353,7 @@ guiTypes = {
 
 		iconType = {
 			name = "entry_bg"
-			position = {x=301 y=20} 
+			position = {x=240 y=20} 
 			spriteType = "GFX_intel_ledger_entry"
 			centerposition = yes
 		}
@@ -339,7 +369,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "airwing_count"
-			position = {x=484 y=10}
+			position = {x=362 y=10}
 			font = "hoi_18mbs"
 			maxWidth = 100
 			maxHeight = 40
@@ -350,7 +380,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "ledger_airwing_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 603 height = 65 }
+		size = { width = 480 height = 65 }
 		Orientation = upper_left
 		clipping = no
 
@@ -379,7 +409,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "airwing_count"
-			position = {x=484 y=22}
+			position = {x=362 y=22}
 			font = "hoi_18mbs"
 			maxWidth = 100
 			maxHeight = 40
@@ -2030,144 +2060,25 @@ guiTypes = {
 			
 				containerWindowType = {
 					name = "airwing_type_container"
-					position = { x = 7 y = 94 }
-					size = { width = 490 height = 70 }
-					
-					iconType = {
-						name = "wing_type_bg"
-						spriteType = "GFX_wing_type_bg"
-						position = { x=5 y=-16 }
-						orientation = "UPPER_LEFT"
+					position = { x = 20 y = 94 }
+					size = { width = 500 height = 70 }
+
+					background = {
+							name = "Background"
+							quadTextureSprite ="GFX_mini_bg"
 					}
 
-					iconType = {
-						name = "wing_type_left_0"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=18 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 1
+					gridBoxType = {
+						name = "planes_counts_container"
+						position = { x = 10 y = 8 }
+						size = { width = 155 height = 206 }
+						slotsize = { width = 95 height = 28 }
+						
+						Orientation = upper_left
+						format = "UPPER_LEFT"
+						max_slots_horizontal = 5
+						max_slots_vertical = 2
 					}
-					instantTextboxType = {
-						name = "wing_type_left_text_0"
-						position = { x=14 y=15 }
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_1"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=79 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 2
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_1"
-						position = { x=76 y=15 }
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_2"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=142 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 3
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_2"
-						position = { x=139 y=15 }
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_3"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=202 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 4
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_3"
-						position = { x=199 y=15 }
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_4"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=263 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 5
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_4"
-						position = { x=262 y=15 }
-						font = "hoi_18mbs"
-						text = "123"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_5"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=325 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 6
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_5"
-						position = { x=324 y=15 }
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_6"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=387 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 7
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_6"
-						position = { x=386 y=15 }
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}
-
-					iconType = {
-						name = "wing_type_left_7"
-						spriteType = "GFX_air_overview_plane_strip"
-						position = { x=448 y=35 }
-						orientation = "UPPER_LEFT"
-						frame = 8
-					}
-					instantTextboxType = {
-						name = "wing_type_left_text_7"
-						position = { x=447 y=15}
-						font = "hoi_18mbs"
-						maxWidth = 60
-						maxHeight = 23
-						format = center
-					}					
 				}
 				
 				containerWindowType = {
@@ -2336,7 +2247,7 @@ guiTypes = {
 				}
 
 				iconType = {
-					name = "economic_focus_civilian_economy"
+					name = "civilian_economy"
 					position = { x = 43 y = 3 }
 					quadTextureSprite = "GFX_economy_tab"
 					alwaystransparent = yes
@@ -2356,7 +2267,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "army_tab_frame"
-				position = { x = 186 y = 15 }
+				position = { x = 144 y = 15 }
 				size = { width = 130 height = 60 }
 				clipping = no
 				
@@ -2387,7 +2298,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "navy_tab_frame"
-				position = { x = 363 y = 15 }
+				position = { x = 274 y = 15 }
 				size = { width = 130 height = 60 }
 				clipping = no
 				
@@ -2418,7 +2329,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "air_tab_frame"
-				position = { x = 535 y = 15 }
+				position = { x = 404 y = 15 }
 				size = { width = 130 height = 60 }
 				clipping = no
 				
