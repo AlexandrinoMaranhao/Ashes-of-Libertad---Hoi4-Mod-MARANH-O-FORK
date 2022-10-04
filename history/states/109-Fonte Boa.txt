@@ -4,8 +4,8 @@ state={
 	name="STATE_109"
 	resources={
 		steel=6.000
-		ammunition=10.000
-		motors=3.000
+		tungsten=10.000
+		chromium=3.000
 	}
 
 	history={

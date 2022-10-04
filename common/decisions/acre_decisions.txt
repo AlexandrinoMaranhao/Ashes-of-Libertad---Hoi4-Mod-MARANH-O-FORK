@@ -1565,7 +1565,7 @@ ACR_war_train_category = { #TRAX STUFF
 					}
 					any_owned_state = {
 						has_resources_amount = {
-							resource = motors
+							resource = chromium
 							amount > 0
 							delivered = yes
 						}
@@ -1579,7 +1579,7 @@ ACR_war_train_category = { #TRAX STUFF
 			custom_effect_tooltip = ACR_build_train_engine_tt
 			hidden_effect = {
 				add_resource = {
-					type = motors
+					type = chromium
 					amount = -1
 					state = 89
 				}
@@ -1590,7 +1590,7 @@ ACR_war_train_category = { #TRAX STUFF
 			add_to_variable = { ACR_first_empty_train = 1 }
 			hidden_effect = {
 				add_resource = {
-					type = motors
+					type = chromium
 					amount = 1
 					state = 89
 				}
@@ -1726,7 +1726,7 @@ ACR_war_train_category = { #TRAX STUFF
 					}
 					any_owned_state = {
 						has_resources_amount = {
-							resource = ammunition
+							resource = tungsten
 							amount > 3
 							delivered = yes
 						}
@@ -1740,7 +1740,7 @@ ACR_war_train_category = { #TRAX STUFF
 			custom_effect_tooltip = ACR_build_ammo_wagon_tt
 			hidden_effect = {
 				add_resource = {
-					type = ammunition
+					type = tungsten
 					amount = -4
 					state = 89
 				}
@@ -1751,7 +1751,7 @@ ACR_war_train_category = { #TRAX STUFF
 			add_to_variable = { ACR_first_empty_train = 1 }
 			hidden_effect = {
 				add_resource = {
-					type = ammunition
+					type = tungsten
 					amount = 4
 					state = 89
 				}
@@ -1840,7 +1840,7 @@ ACR_war_train_category = { #TRAX STUFF
 					}
 					any_owned_state = {
 						has_resources_amount = {
-							resource = ammunition
+							resource = tungsten
 							amount > 0
 							delivered = yes
 						}
@@ -1854,7 +1854,7 @@ ACR_war_train_category = { #TRAX STUFF
 			custom_effect_tooltip = ACR_build_turrets_tt
 			hidden_effect = {
 				add_resource = {
-					type = ammunition
+					type = tungsten
 					amount = -1
 					state = 89
 				}
@@ -1865,7 +1865,7 @@ ACR_war_train_category = { #TRAX STUFF
 			add_to_variable = { ACR_first_empty_train = 1 }
 			hidden_effect = {
 				add_resource = {
-					type = ammunition
+					type = tungsten
 					amount = 1
 					state = 89
 				}
@@ -1894,7 +1894,7 @@ ACR_war_train_category = { #TRAX STUFF
 					}
 					any_owned_state = {
 						has_resources_amount = {
-							resource = ammunition
+							resource = tungsten
 							amount > 0
 							delivered = yes
 						}
@@ -1908,7 +1908,7 @@ ACR_war_train_category = { #TRAX STUFF
 			custom_effect_tooltip = ACR_build_turrets_tt
 			hidden_effect = {
 				add_resource = {
-					type = ammunition
+					type = tungsten
 					amount = -1
 					state = 89
 				}
@@ -1919,7 +1919,7 @@ ACR_war_train_category = { #TRAX STUFF
 			add_to_variable = { ACR_first_empty_train = 1 }
 			hidden_effect = {
 				add_resource = {
-					type = ammunition
+					type = tungsten
 					amount = 1
 					state = 89
 				}
