@@ -109,35 +109,35 @@ technology_folders = {
 	infantry_folder = {
 		ledger = army
 	}
-	specialization_folder = {
-		ledger = army
-	}
 	support_folder = {
 		ledger = army
 	}
 	armour_folder = {
 		ledger = army
 		available = {
-			always = yes
+			NOT = {
+				has_dlc = "No Step Back"
+			}
 		}
 	}
-	nsb_armour_folder = { #Until NSB tanks gets fixed. They are disabled.
+	nsb_armour_folder = {
 		ledger = army
 		available = {
-			always = no
+			has_dlc = "No Step Back"
 		}
-	}
-	air_techs_folder = {
-		ledger = air
-	}
-	bba_air_techs_folder = { #Fuck BBA tbh. Aint fixing this shit.
-		available = {
-			always = no
-		}
-		ledger = air
 	}
 	artillery_folder = {
 		ledger = army
+	}
+	air_techs_folder = {
+		available = { NOT = { has_dlc = "By Blood Alone" } }
+		ledger = air
+	}
+	bba_air_techs_folder = {
+		available = {
+			has_dlc = "By Blood Alone"
+		}
+		ledger = air
 	}
 	naval_folder = {
 		available = {
@@ -177,3 +177,5 @@ technology_folders = {
 	}
 	#secret_weapons_folder
 }
+
+ 
