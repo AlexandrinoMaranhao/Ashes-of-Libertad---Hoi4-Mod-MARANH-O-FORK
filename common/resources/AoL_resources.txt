@@ -1,4 +1,4 @@
-#These are causing issues with PDX new DLCs. Use vanilla ones with changed Localisation.
+#These are causing issues with PDX new DLCs. Use vanilla ones (00_resources) with changed Localisation.
 # 																					-Genesis.
 #resources = {
 #
