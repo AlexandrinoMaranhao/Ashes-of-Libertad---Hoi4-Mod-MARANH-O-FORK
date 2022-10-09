@@ -25,6 +25,26 @@ characters={
 			id=-1
 		}
 	}
+	SAO_Adhemar_goofy_general={
+		name= SAO_Adhemar_goofy_general
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_10.dds"
+			}
+			army={
+				large="gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected rouba_mas_faz }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 	SAO_brasilio_taborda={
 		name= SAO_brasilio_taborda
 		portraits={
@@ -36,12 +56,112 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ trait_reckless }
+			traits={ trait_reckless trait_SAO_veteran_of_the_constitutionalist_revolution }
 			skill=3
 			attack_skill=3
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAO_roberval_conte_lopes={
+		name= SAO_roberval_conte_lopes
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
+			}
+			army={
+				large="gfx/leaders/SAO/SAO_roberval_conte_lopes.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SAO_bolivar_marinho_soares={
+		name= SAO_bolivar_marinho_soares
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
+			}
+			army={
+				large="gfx/leaders/SAO/SAO_bolivar_marinho_soares.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SAO_bertoldo_klinger={ #Veteran 1
+		name= SAO_bertoldo_klinger
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
+			}
+			army={
+				large="gfx/leaders/SAO/SAO_bertoldo_klinger.dds"
+			}
+		}
+		field_marshal={
+			traits={ panzer_leader trait_SAO_veteran_of_the_constitutionalist_revolution skilled_staffer}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAO_Herculano_de_Carvalho_Silva={ #Veteran 2
+		name= SAO_Herculano_de_Carvalho_Silva
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
+			}
+			army={
+				large="gfx/leaders/SAO/SAO_Herculano_de_Carvalho_Silva.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_SAO_veteran_of_the_constitutionalist_revolution trickster infantry_leader} 
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAO_corionalano_nogueira_cobra={ #generico feito pra morrer
+		name= SAO_corionalano_nogueira_cobra
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_12.dds"
+			}
+			army={
+				large="gfx/leaders/SAO/generic_army6.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_CFD_arena_sympathies }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -84,12 +204,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ politically_connected thorough_planner inspirational_leader }
-			skill=4
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			traits={ politically_connected thorough_planner inspirational_leader trait_SAO_junta_traitor }
+			skill=7
+			attack_skill=6
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=5
 			legacy_id=-1
 			visible = {
 				SAO = {
@@ -156,10 +276,25 @@ characters={
 			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
+			visible = {
+				SAO = {
+					has_country_flag = SAO_unlock_goofy_ahh_alberto
+				}
+			}
 		}
 		advisor={
 			slot = high_command
 			ledger = army
+			available = {
+				SAO = {
+					has_country_flag = SAO_unlock_goofy_ahh_alberto
+				}
+			}
+			visible = {
+				SAO = {
+					has_country_flag = SAO_unlock_goofy_ahh_alberto
+				}
+			}
 			traits = {
 				mhc_school_of_commando_operations
 			}
@@ -214,7 +349,6 @@ characters={
 			}
 		}
 	}
-
 	SAO_Ivo_Borges = {
 		name = SAO_Ivo_Borges
 		portraits = {
@@ -228,7 +362,7 @@ characters={
 			allowed = {
 				original_tag = SAO
 			}
-			traits = {cair_air_superiority_doctrine}
+			traits = {cair_air_superiority_doctrine trait_SAO_veteran_of_the_constitutionalist_revolution}
 		}
 	}
 	SAO_ademar_de_oliveira = {

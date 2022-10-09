@@ -646,7 +646,7 @@ country_event = { #"The Hero of Pindamonhangaba"
 
     option = {
         name = SAO_Focus_Tree_Events.9.A
-
+		set_country_flag = SAO_unlock_goofy_ahh_alberto
         hidden_effect = { SAO = { country_event = {id = SAO_MARIGHELLA.2 days = 15 }}}
     }
 }

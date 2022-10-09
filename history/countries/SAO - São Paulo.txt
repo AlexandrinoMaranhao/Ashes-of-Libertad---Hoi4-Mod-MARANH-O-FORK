@@ -107,6 +107,10 @@ create_country_leader = {#intended for name showcase only
 	ideology = guerrilla 
 }
 
+recruit_character = SAO_Adhemar_goofy_general		#remove if it gets annoying.
+recruit_character = SAO_Herculano_de_Carvalho_Silva
+recruit_character = SAO_corionalano_nogueira_cobra
+recruit_character = SAO_bertoldo_klinger
 recruit_character = SAO_jânio_quadros
 recruit_character = SAO_o
 recruit_character = SAO_brasilio_taborda
@@ -119,3 +123,5 @@ recruit_character = SAO_ademar_de_oliveira
 recruit_character = SAO_abilio_souza
 recruit_character = SAO_Ivo_Borges
 recruit_character = SAO_adalberto_nunes
+recruit_character = SAO_roberval_conte_lopes
+recruit_character = SAO_bolivar_marinho_soares

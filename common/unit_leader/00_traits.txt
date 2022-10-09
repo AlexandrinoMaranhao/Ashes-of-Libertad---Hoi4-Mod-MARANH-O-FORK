@@ -2968,7 +2968,7 @@ leader_traits = {
 		}
 	}
 	
-	####CFD TRAITS. DON'T FORGET WE EXIST!
+	####Custom AoL traits for generals and alike.
 	
 	trait_CFD_arreas_loyalist = {
 		type = all
@@ -3048,6 +3048,52 @@ leader_traits = {
 		allowed = {
 			FROM = {
 				tag = CFD
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	trait_SAO_junta_traitor = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = SAO
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	trait_SAO_veteran_of_the_constitutionalist_revolution = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = SAO
 			}
 		}
 		modifier = {

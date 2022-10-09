@@ -24,4 +24,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_trait_trait_SAO_junta_traitor"
+		texturefile = "gfx/interface/traits/personal/trait_SAO_junta_traitor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_trait_SAO_veteran_of_the_constitutionalist_revolution"
+		texturefile = "gfx/interface/traits/personal/trait_SAO_veteran_of_the_constitutionalist_revolution.dds"
+		legacy_lazy_load = no
+	}
+	
 }
