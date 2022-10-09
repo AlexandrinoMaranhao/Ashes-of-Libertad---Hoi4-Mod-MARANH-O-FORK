@@ -10,8 +10,8 @@ state={
 
         resources = {
 steel = 4 
-motors = 1
-ammunition = 2
+chromium = 1
+tungsten = 2
 }
 
         history = {

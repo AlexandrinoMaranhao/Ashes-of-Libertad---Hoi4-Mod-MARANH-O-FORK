@@ -3,8 +3,8 @@ state={
 	id=215
 	name="STATE_215"
 	resources = {
-		ammunition = 6
-		motors = 6
+		tungsten = 6
+		chromium = 6
 	}
 	history={
 		owner = CDR

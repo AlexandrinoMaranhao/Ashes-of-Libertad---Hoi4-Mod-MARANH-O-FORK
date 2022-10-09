@@ -9,9 +9,9 @@ state={
         state_category=city
        resources = {
 steel = 2
-technology = 2
-ammunition = 10
-motors = 3
+aluminium = 2
+tungsten = 10
+chromium = 3
 oil = 2
 }
             history = {

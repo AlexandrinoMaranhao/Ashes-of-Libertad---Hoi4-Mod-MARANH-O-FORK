@@ -37,6 +37,27 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
+		name = "Infanteria Posadista 2"
+		location = 83
+		division_template = "Infanteria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Posadista 2"
+		location = 83
+		division_template = "Infanteria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria Posadista 2"
+		location = 83
+		division_template = "Infanteria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
 		name = "Montaneros 1"
 		location = 83
 		division_template = "Montaneros"

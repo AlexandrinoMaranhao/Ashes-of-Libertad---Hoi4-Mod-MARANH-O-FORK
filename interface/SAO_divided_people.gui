@@ -1,0 +1,79 @@
+guiTypes = {
+	containerWindowType = {
+		name = "sao_divided_people_window_political"
+		position = { x = 0 y = 0}	
+		size = { width = 400 height= 900 }
+		orientation = center
+		origo = center
+		moveable = no
+		click_to_front = no
+		clipping = no
+		background = {
+			name = "Background Political"
+			quadTextureSprite = "GFX_sao_background_political"
+		}
+	
+		containerWindowType = {
+			name = "sao_cat_and_mouse_window_political_map"
+			position = { x = -200 y = -435 }
+			orientation = center
+			origo = center
+			moveable = no
+			click_to_front = no
+			clipping = no
+			background = {
+				name = "Background Political Map"		
+				quadTextureSprite ="GFX_sao_background_map"
+			}
+	
+			buttonType = {
+				name ="aracatuba_gov"
+				spriteType = "GFX_sp_aracatuba"
+				position = { x = 41 y = 49 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="barretos_gov"
+				spriteType = "GFX_sp_barretos"
+				position = { x = 140 y = 33 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="campinas_gov"
+				spriteType = "GFX_sp_campinas"
+				position = { x = 250 y = 98 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="capital_gov"
+				spriteType = "GFX_sp_capital"
+				position = { x = 305 y = 178 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="marilia_gov"
+				spriteType = "GFX_sp_marilia"
+				position = { x = 124 y = 105 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="santos_gov"
+				spriteType = "GFX_sp_santos"
+				position = { x = 300 y = 192 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="sorocaba_gov"
+				spriteType = "GFX_sp_sorocaba"
+				position = { x = 198 y = 168 }
+				Orientation = center
+			}
+			buttonType = {
+				name ="taubate_gov"
+				spriteType = "GFX_sp_taubate"
+				position = { x = 341 y = 160 }
+				Orientation = center
+			}
+		}
+	}
+}

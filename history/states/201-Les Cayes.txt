@@ -5,8 +5,8 @@ state={
 		2124 2237 2904 5095 
 	}
 	resources = {
-		ammunition = 12
-		motors = 10
+		tungsten = 12
+		chromium = 10
 	}
 	manpower=386539
         state_category=town

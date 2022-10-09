@@ -3,8 +3,8 @@ state={
 	id=528
 	name="STATE_528"
 	resources = {
-		ammunition = 6
-		motors = 8
+		tungsten = 6
+		chromium = 8
 		oil = 10
 	}
 	history={

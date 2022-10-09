@@ -3,7 +3,7 @@ state={
 	id=261
 	name="STATE_261"
 	resources={
-		ammunition=2.000
+		tungsten =2.000
 	}
 
 	history={

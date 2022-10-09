@@ -10,8 +10,8 @@ state={
 	state_category=large_town
        resources = {
 steel = 2
-ammunition = 3
-technology = 10
+tungsten= 3
+aluminium= 10
 oil = 5
 }
             history = {

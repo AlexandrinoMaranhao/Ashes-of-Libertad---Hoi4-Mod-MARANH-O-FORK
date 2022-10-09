@@ -19,8 +19,8 @@ state={
 
         resources = {
 steel = 5
-ammunition = 2
-technology = 1
+tungsten = 2
+aluminium = 1
 
  
 }

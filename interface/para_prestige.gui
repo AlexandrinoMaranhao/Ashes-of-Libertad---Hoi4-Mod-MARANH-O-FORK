@@ -502,6 +502,6 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 			}
-		}			
+		}
 	}
 }

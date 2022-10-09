@@ -40,6 +40,7 @@ SAO_divided_ppl_category = {
 	}
 	icon = GFX_decision_category_acrean_raids
 	visible_when_empty = yes
+	scripted_gui = sao_divided_people
     priority = 350
 }
 

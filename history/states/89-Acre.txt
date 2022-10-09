@@ -5,7 +5,7 @@ state={
 	resources={
 		rubber=20.000
 		steel=7.000
-		ammunition=3.000
+		tungsten=3.000
 	}
 
 	history={

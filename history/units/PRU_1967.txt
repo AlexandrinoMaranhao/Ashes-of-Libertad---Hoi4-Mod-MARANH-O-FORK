@@ -37,6 +37,27 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
+		name = "Infanteria de la APRA 2"
+		location = 4036
+		division_template = "Infanteria APRA"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la APRA 2"
+		location = 4036
+		division_template = "Infanteria APRA"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la APRA 2"
+		location = 4036
+		division_template = "Infanteria APRA"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
 		name = "Montaneros de la APRA 1"
 		location = 4036
 		division_template = "Montaneros"

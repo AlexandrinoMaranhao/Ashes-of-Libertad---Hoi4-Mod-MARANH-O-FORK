@@ -37,6 +37,34 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
+		name = "Infanteria de lo Indio 2"
+		location = 1075
+		division_template = "Infanteria Indigena"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de lo Indio 2"
+		location = 1075
+		division_template = "Infanteria Indigena"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de lo Indio 2"
+		location = 1075
+		division_template = "Infanteria Indigena"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de lo Indio 2"
+		location = 1075
+		division_template = "Infanteria Indigena"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
 		name = "Montaneros de Cuzco 1"
 		location = 1075
 		division_template = "Montaneros"

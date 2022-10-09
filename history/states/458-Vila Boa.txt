@@ -10,8 +10,8 @@ state={
 
         resources = {
 steel = 3
-technology = 1
-ammunition = 6 
+aluminium = 1
+tungsten = 6 
 }
 	history={
 		owner = ROR

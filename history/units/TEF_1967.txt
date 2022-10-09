@@ -8,13 +8,3 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 	}
 }
-
-units = {
-	division = {
-		name = "Protetores de Deus"
-		location = 3787
-		division_template = "Infantaria de Deus"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
-}

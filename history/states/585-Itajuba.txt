@@ -2,7 +2,7 @@ state={
 	id=585
 	name="STATE_585"
 	resources={
-		ammunition = 5
+		tungsten = 5
 	}
 	provinces={
 		1715 2451 4606 

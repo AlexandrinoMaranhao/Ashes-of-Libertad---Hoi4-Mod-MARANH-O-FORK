@@ -37,6 +37,41 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
+		name = "Infanteria de la Republica 2"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la Republica 2"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la Republica 2"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la Republica 2"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria de la Republica 2"
+		location = 4461
+		division_template = "Infanteria Republicana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
 		name = "Montaneros Republicanos"
 		location = 4461
 		division_template = "Montaneros"

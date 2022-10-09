@@ -37,6 +37,34 @@ units = {
 		start_equipment_factor = 0.9
 	}
 	division = {
+		name = "Infanteria del UNO 2"
+		location = 4302
+		division_template = "Infanteria UNO"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria del UNO 2"
+		location = 4302
+		division_template = "Infanteria UNO"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria del UNO 2"
+		location = 4302
+		division_template = "Infanteria UNO"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infanteria del UNO 2"
+		location = 4302
+		division_template = "Infanteria UNO"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
 		name = "Montaneros 1"
 		location = 4302
 		division_template = "Montaneros UNO"

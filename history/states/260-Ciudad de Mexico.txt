@@ -4,9 +4,9 @@ state={
 	name="STATE_260"
 	resources={
 		steel=12.000
-		ammunition=12.000
+		aluminium =12.000
 		technology=4.000
-		motors=2.000
+		chromium =2.000
 	}
 
 	history={

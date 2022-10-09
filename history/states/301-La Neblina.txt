@@ -10,9 +10,9 @@ state={
 	buildings_max_level_factor=1.000
 
         resources = {
-steel = 4
-ammunition = 3
-technology = 1
+steel = 10
+tungsten = 10
+aluminium= 1
 }
             history = {
 		victory_points = {

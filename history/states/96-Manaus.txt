@@ -29,10 +29,10 @@ naval_base = 4
 	}
 
         resources = {
-rubber = 10
-steel = 12
-motors = 2
-ammunition = 5
+steel = 20
+chromium = 20
+tungsten = 20
+aluminium = 5
  
 }
 	provinces={

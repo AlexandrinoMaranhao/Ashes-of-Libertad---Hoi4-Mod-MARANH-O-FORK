@@ -9,7 +9,7 @@ state={
         state_category=town
 
         resources = {
-motors = 2
+chromium = 2
 steel = 4 
 
 }
