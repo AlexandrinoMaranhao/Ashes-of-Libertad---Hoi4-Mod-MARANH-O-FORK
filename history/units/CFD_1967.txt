@@ -28,10 +28,10 @@ division_template = {
 division_template = {
 	name = "Liga Camponesa"
 	regiments = {
-		militia_unit = { x = 0 y = 0 }
-		militia_unit = { x = 0 y = 1 }
-        militia_unit = { x = 1 y = 0 }
-		militia_unit = { x = 1 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+        militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 }
 
@@ -42,9 +42,9 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        heavy_infantry = { x = 1 y = 0 }
-		heavy_infantry = { x = 1 y = 1 }
-		heavy_infantry = { x = 1 y = 2 }
+        irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
 	}
     support = {
 		military_police = { x = 0 y = 0 }

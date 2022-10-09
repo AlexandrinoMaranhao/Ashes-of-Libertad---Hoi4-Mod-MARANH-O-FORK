@@ -2126,4 +2126,61 @@ technologies = {
 			maximum_speed = 1.25 #TODO_TA for testing only, remove
 		}
 	}
+	
+	######### AoL's custom units unlocker ##########
+	AoL_Militia_tech = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		enable_subunits = {
+			militia
+		}
+	}
+	
+	AoL_Irregular_tech = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		enable_subunits = {
+			irregular_infantry
+		}
+	}
+	
+	###PLACE HOLDERS, DONT REMOVE YET.###
+	true_motorised_infantry = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		enable_subunits = {
+			#irregular_infantry
+		}
+	}
+	infantry_gear = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		enable_subunits = {
+			#irregular_infantry
+		}
+	}
 }
