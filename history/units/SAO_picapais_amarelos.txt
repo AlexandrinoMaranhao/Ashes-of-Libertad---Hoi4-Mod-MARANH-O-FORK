@@ -2,11 +2,11 @@ division_template = {
 	is_locked = yes
 	name = "Picapais Amarelos"
 	regiments = {
-		heavy_infantry = { x = 0 y = 0}
-		heavy_infantry = { x = 0 y = 1}
-		heavy_infantry = { x = 0 y = 2}
-		heavy_infantry = { x = 1 y = 0}
-		heavy_infantry = { x = 1 y = 1}
+		irregular_infantry = { x = 0 y = 0}
+		irregular_infantry = { x = 0 y = 1}
+		irregular_infantry = { x = 0 y = 2}
+		irregular_infantry = { x = 1 y = 0}
+		irregular_infantry = { x = 1 y = 1}
 	}
 	support = {
 		military_police = { x = 0 y = 0}

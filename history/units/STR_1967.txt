@@ -2,10 +2,10 @@ division_template = {
 	is_locked = yes
 	name = "Santarém Mercenary Battalion"
 	regiments = {
-		merc_unit = { x = 0 y = 0 }
-		merc_unit = { x = 0 y = 1 }
-        merc_unit = { x = 1 y = 0 }
-		merc_unit = { x = 1 y = 1 }
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+        marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
 	}
 }
 
