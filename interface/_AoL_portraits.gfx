@@ -18,15 +18,55 @@ spriteTypes = {
 ###Sao Paulo Advisors###
 	spriteType = {
 		name = "GFX_idea_SAO_jose_porfirio_da_paz"
-		texturefile = "gfx/interface/ideas/goofybois/sao_jose_porfirio_da_paz.dds"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Porfirio_da_Paz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_roberval_lopes_lima"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Roberval_Soares.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_paulo_nogueira"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Paulo_Nogueira.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_paulo_maluf"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Paulo_Maluf.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_orestes_quercia"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Orestes_Quercia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_luiz_fleury_son"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Luiz_Antonio_Fleury.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_juvenal_matos"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Lino_Matos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_wilson_richetti"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Jose_Riccheti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_bolivar_soares"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Bolivar_Marinho_Soares.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_franco_motoro"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Franco_Montoro.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SAO_edmundo_de_macedo_soares_advisor"
-		texturefile = "gfx/interface/ideas/goofybois/sao_edmundo_de_macedo_soares.dds"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Edmundo_de_Macedo_Soares.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SEG_seixas_doria_advisor"
-		texturefile = "gfx/interface/ideas/goofybois/seg_seixas_doria.dds"
+		name = "GFX_idea_SAO_alvaro_lazzarini"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Alvaro_Lazzarini.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAO_janio_basado"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Janio_Quadros.dds"
 	}
 
 ###Sertaneja's advisors###

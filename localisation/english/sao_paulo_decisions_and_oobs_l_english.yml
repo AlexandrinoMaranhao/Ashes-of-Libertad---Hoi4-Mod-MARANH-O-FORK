@@ -106,3 +106,12 @@
  SAO_rota_patrols:0 "The R.O.T.A."
  SAO_HELI:0 "The G.A.T.E."
 
+################
+# Advisors
+################
+sec_aggressive_fighter:0 "Religious Ferocity"
+SAO_janio_basado_desc:0 "The Hope of this Abandoned folk"
+hog_respected_war_hero:0 "Respected War Hero"
+for_general_staffer:0 "General Staffer"
+sec_secret_police_chief:0 "Police Chief"
+sec_army_instructor:0 "Army Instructor"
