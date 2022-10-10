@@ -509,7 +509,7 @@ focus_tree = {
 	#The Old Commander Toledo
 	focus = {
 		id = sao_phase_two_the_old_commander_toledo
-		icon = GFX_sao_phase_two_the_old_commander_toledo-185521
+		icon = GFX_goal_SAO_the_old_commander
 		x = 32
 		y = 1
 		cost = 3
@@ -523,8 +523,8 @@ focus_tree = {
 	#The Dark Rose of São Paulo
 	focus = {
 		id = sao_phase_two_thedarkroseofsaopaulo
-		icon = GFX_sao_phase_two_thedarkroseofsaopaulo-185521
-		x = 34
+		icon = GFX_goal_SAO_the_dark_rose_of_sao_paulo
+		x = 36
 		y = 1
 		cost = 3
 		search_filters = {
@@ -537,8 +537,8 @@ focus_tree = {
 	#The Red Canary
 	focus = {
 		id = sao_phase_two_the_red_canary
-		icon = GFX_sao_phase_two_the_red_canary-185521
-		x = 36
+		icon = GFX_goal_SAO_the_red_canaries
+		x = 34
 		y = 1
 		cost = 3
 		search_filters = {
@@ -551,7 +551,7 @@ focus_tree = {
 	#The Boogieman of São Paulo
 	focus = {
 		id = sao_phase_two_theboogiemanofsaopaulo
-		icon = GFX_sao_phase_two_theboogiemanofsaopaulo-185521
+		icon = GFX_goal_SAO_the_boogieman_of_sao_paulo
 		x = 34
 		y = 0
 		cost = 2
@@ -584,7 +584,7 @@ focus_tree = {
 	#The Urban Guerrila Mini-Handbook
 	focus = {
 		id = sao_phase_two_the_urban_guerrila_minihandbook
-		icon = GFX_sao_phase_two_the_urban_guerrila_minihandbook-185521
+		icon = GFX_goal_SAO_the_urban_guerrilla_mini_handbook
 		x = 34
 		y = 2
 		cost = 3
