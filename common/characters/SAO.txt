@@ -35,7 +35,7 @@ characters={
 				large="gfx/leaders/SAO/Portrait_SAO_Adhemar_de_Barros.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ politically_connected rouba_mas_faz }
 			skill=1
 			attack_skill=1
@@ -75,7 +75,7 @@ characters={
 				large="gfx/leaders/SAO/SAO_roberval_conte_lopes.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ }
 			skill=2
 			attack_skill=3
@@ -95,7 +95,7 @@ characters={
 				large="gfx/leaders/SAO/SAO_bolivar_marinho_soares.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ }
 			skill=3
 			attack_skill=4
@@ -155,7 +155,7 @@ characters={
 				large="gfx/leaders/SAO/generic_army6.dds"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ trait_CFD_arena_sympathies }
 			skill=2
 			attack_skill=2
