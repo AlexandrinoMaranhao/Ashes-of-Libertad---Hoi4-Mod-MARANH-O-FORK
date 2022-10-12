@@ -1697,7 +1697,7 @@ CFD_nation_development_category = {
 				custom_effect_tooltip = CFD_will_lose_cash
 				capital_scope = {
 					add_resource = {
-						type = technology
+						type = aluminium
 						amount = 3
 					}	
 				}
@@ -1744,7 +1744,7 @@ CFD_nation_development_category = {
 				custom_effect_tooltip = CFD_will_lose_cash
 				capital_scope = {
 					add_resource = {
-						type = technology
+						type = aluminium
 						amount = 3
 					}	
 				}
@@ -1764,7 +1764,7 @@ CFD_nation_development_category = {
 			factor = 999
 		}
 	}
-	CFD_AMA_buy_motors_2 = {
+	CFD_AMA_buy_chromium_2 = {
 		icon = GFX_decision_icon_default
 		days_remove = 60
 		is_good = yes
@@ -1791,7 +1791,7 @@ CFD_nation_development_category = {
 				custom_effect_tooltip = CFD_will_lose_cash
 				capital_scope = {
 					add_resource = {
-						type = motors
+						type = chromium
 						amount = 3
 					}	
 				}
@@ -1811,7 +1811,7 @@ CFD_nation_development_category = {
 			factor = 999
 		}
 	}
-	CFD_AMA_buy_motors = {
+	CFD_AMA_buy_chromium = {
 		icon = GFX_decision_icon_default
 		days_remove = 60
 		is_good = yes
@@ -1838,7 +1838,7 @@ CFD_nation_development_category = {
 				custom_effect_tooltip = CFD_will_lose_cash
 				capital_scope = {
 					add_resource = {
-						type = motors
+						type = chromium
 						amount = 3
 					}	
 				}
@@ -1979,7 +1979,7 @@ CFD_nation_development_category = {
 				custom_effect_tooltip = CFD_will_lose_cash
 				capital_scope = {
 					add_resource = {
-						type = ammunition
+						type = tungsten
 						amount = 2
 					}	
 				}
@@ -2026,7 +2026,7 @@ CFD_nation_development_category = {
 				custom_effect_tooltip = CFD_will_lose_cash
 				capital_scope = {
 					add_resource = {
-						type = ammunition
+						type = tungsten
 						amount = 5
 					}	
 				}

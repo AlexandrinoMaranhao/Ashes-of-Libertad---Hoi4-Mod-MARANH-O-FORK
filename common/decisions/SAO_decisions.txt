@@ -444,7 +444,7 @@ SAO_category = {
 					}
 			add_manpower = 1000
 			add_resource = {
-			    type = motors
+			    type = chromium
 			    amount = 5
 			    state = 567
 			}
@@ -517,7 +517,7 @@ SAO_category = {
 					}
 			add_manpower = 1000
 			add_resource = {
-			    type = ammunition
+			    type = tungsten
 			    amount = 3
 			    state = 30
 			}
@@ -681,12 +681,12 @@ SAO_category = {
 					}
 			add_manpower = 1000
 			add_resource = {
-			    type = technology
+			    type = aluminium
 			    amount = 2
 			    state = 34
 			}
 			add_resource = {
-			    type = ammunition
+			    type = tungsten
 			    amount = 2
 			    state = 34
 			}
@@ -761,7 +761,7 @@ SAO_category = {
 			    state = 28
 			}
 			add_resource = {
-			    type = ammunition
+			    type = tungsten
 			    amount = 2
 			    state = 28
 			}
@@ -829,7 +829,7 @@ SAO_category = {
 			add_political_power = 50
 			add_manpower = 4000
 			add_resource = {
-			    type = technology
+			    type = aluminium
 			    amount = 5
 			    state = 28
 			}
@@ -916,7 +916,7 @@ SAO_category = {
 					}
 			add_manpower = 1000
 			add_resource = {
-			    type = ammunition
+			    type = tungsten
 			    amount = 5
 			    state = 500
 			}
@@ -1616,7 +1616,7 @@ SAO_international_diplomacy_category = {
 				}
 				capital_scope = {
 					add_resource = {
-						type = ammunition
+						type = tungsten
 						amount = 10
 					}	
 				}
@@ -1661,7 +1661,7 @@ SAO_international_diplomacy_category = {
 				}
 				capital_scope = {
 					add_resource = {
-						type = ammunition
+						type = tungsten
 						amount = 5
 					}	
 				}
@@ -1706,11 +1706,11 @@ SAO_international_diplomacy_category = {
 				}
 				capital_scope = {
 					add_resource = {
-						type = motors
+						type = chromium
 						amount = 6
 					}	
 					add_resource = {
-						type = technology
+						type = aluminium
 						amount = 6
 					}	
 				}
