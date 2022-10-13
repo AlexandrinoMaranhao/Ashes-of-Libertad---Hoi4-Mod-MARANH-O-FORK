@@ -1,29 +1,9 @@
 spriteTypes = {	
      
 	SpriteType = {
-	name = "GFX_goal_SAO_the_boogieman_of_sao_paulo"
-	texturefile = "gfx/interface/goals/SAO_sao_phase_two_theboogiemanofsaopaulo.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_SAO_the_old_commander"
-	texturefile = "gfx/interface/goals/SAO_sao_phase_two_the_old_commander_toledo.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_SAO_the_dark_rose_of_sao_paulo"
-	texturefile = "gfx/interface/goals/SAO_sao_phase_two_thedarkroseofsaopaulo.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_SAO_the_red_canaries"
-	texturefile = "gfx/interface/goals/SAO_sao_phase_two_the_red_canaries.dds"
-	}	
-      
-	SpriteType = {
-	name = "GFX_goal_SAO_the_urban_guerrilla_mini_handbook"
-	texturefile = "gfx/interface/goals/SAO_sao_phase_theminimanualofurbanguerrilla.dds"
-	}	
+		name = "GFX_goal_ACR_Tappers_No_More"
+		texturefile = "gfx/interface/goals/ACR_Tappers_No_More.dds"
+	}
       
 	SpriteType = {
 	name = "GFX_goal_ACR_The_Elites_Elite"
