@@ -1203,7 +1203,7 @@ technologies = {
 
 	night_vision = {
 
-		land_night_attack = 0.1
+		land_night_attack = 0.05
 		
 		path = {
 			leads_to_tech = night_vision2
@@ -1248,13 +1248,134 @@ technologies = {
 	
 	night_vision2 = {
 
-		land_night_attack = 0.15	
+		land_night_attack = 0.05
+
+		path = {
+			leads_to_tech = night_vision3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1940 }
+		}
+		
+		categories = {
+			night_vision
+		}
+		
+		ai_will_do = {
+			factor = 4
+			
+			modifier = {
+				factor = 2
+				date > "1945.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1946.1.6"
+			}
+		}
+	}
+
+	night_vision3 = {
+
+		land_night_attack = 0.05
+
+		path = {
+			leads_to_tech = night_vision4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1941 }
+		}
+		
+		categories = {
+			night_vision
+		}
+		
+		ai_will_do = {
+			factor = 4
+			
+			modifier = {
+				factor = 2
+				date > "1945.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1946.1.6"
+			}
+		}
+	}
+
+	night_vision4 = {
+
+		land_night_attack = 0.05
+
+		path = {
+			leads_to_tech = night_vision5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1946
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1942 }
+		}
+		
+		categories = {
+			night_vision
+		}
+		
+		ai_will_do = {
+			factor = 4
+			
+			modifier = {
+				factor = 2
+				date > "1945.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1946.1.6"
+			}
+		}
+	}
+
+	night_vision5 = {
+
+		land_night_attack = 0.05
+
+
+		research_cost = 2
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1943 }
 		}
 		
 		categories = {

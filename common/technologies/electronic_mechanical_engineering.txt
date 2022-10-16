@@ -1172,6 +1172,10 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
 		}
+
+		allow = {
+			always = no
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1258,6 +1262,10 @@ technologies = {
 			leads_to_tech = nukes 
 			research_cost_coeff = 1
 		}
+
+		allow = {
+			always = no
+		}
 		
 		ai_will_do = {
 			factor = 3
@@ -1291,6 +1299,10 @@ technologies = {
 			factor = 10
 		}
 		
+		allow = {
+			always = no
+		}
+
 		nuclear_production = 1
 		on_research_complete = {
 			if = {
