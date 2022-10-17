@@ -6,7 +6,77 @@ SpriteTypes = {
 #    texturefile = "gfx/interface/ideas/.dds"
 #} 
 # 
-				      
+				    
+spriteType ={
+    name = "GFX_idea_ARG_the_arsenal_of_south_america"
+    texturefile = "gfx/interface/ideas/ARG_the_arsenal_of_south_america.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ARG_the_silver_deal"
+    texturefile = "gfx/interface/ideas/ARG_leader_platean_pact.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PAR_the_silver_deal"
+    texturefile = "gfx/interface/ideas/ARG_leader_platean_pact.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_GCP_the_silver_deal"
+    texturefile = "gfx/interface/ideas/ARG_leader_platean_pact.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_URG_the_silver_deal"
+    texturefile = "gfx/interface/ideas/ARG_leader_platean_pact.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ARG_peron_is_dead"
+    texturefile = "gfx/interface/ideas/ARG_peron_is_dead_viva_peron.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ARG_the_turtle"
+    texturefile = "gfx/interface/ideas/ARG_the_turtle.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_ARG_looming_military_pressure"
+    texturefile = "gfx/interface/ideas/ARG_peronist_coup.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_GCP_joint_paraguayan_argentinian_administration"
+    texturefile = "gfx/interface/ideas/GCP_joint_administration.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_GCP_anti_guerrilla_army"
+    texturefile = "gfx/interface/ideas/GCP_anti_guerrilla_army.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_GCP_workshop_of_monsters"
+    texturefile = "gfx/interface/ideas/GCP_workshop_of_monsters.dds"
+} 
+     
+spriteType ={
+    name = "GFX_idea_PAR_argentine_bullying"
+    texturefile = "gfx/interface/ideas/PAR_argentine_masochism.dds"
+} 
+        
+spriteType ={
+    name = "GFX_idea_PAR_black_sheep_of_the_bunch"
+    texturefile = "gfx/interface/ideas/PAR_the_black_sheep.dds"
+} 
+      
+spriteType ={
+    name = "GFX_idea_PAR_the_frontline_of_democracy"
+    texturefile = "gfx/interface/ideas/PAR_frontline_of_democracy.dds"
+} 
+     
 spriteType ={
     name = "GFX_idea_CFD_the_northeastern_military_command"
     texturefile = "gfx/interface/ideas/the_northeastern_military_command.dds"
