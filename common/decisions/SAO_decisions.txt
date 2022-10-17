@@ -1194,6 +1194,78 @@ SAO_category = {
 }
 ##################		International Country Diplomacy Decisions.		##################
 SAO_international_diplomacy_category = {
+
+	####SAO PAULO VOLUNTEERS###
+	SAO_volunteers_BRA = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			AND = {
+				has_country_flag = SAO_send_volunteers_BRA
+				original_tag = SAO
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			AND = {
+				has_country_flag = SAO_send_volunteers_BRA
+				original_tag = SAO
+			}
+		}
+
+		cost = 50
+
+
+		complete_effect = {
+			custom_effect_tooltip = SAO_send_volunteers_completed
+			
+			hidden_effect = {
+				BRA = {	load_oob = "SAO_BRA_volunteers" }
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SAO_volunteers_EMC = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			AND = {
+				has_country_flag = SAO_send_volunteers_EMC
+				original_tag = SAO
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			AND = {
+				has_country_flag = SAO_send_volunteers_EMC
+				original_tag = SAO
+			}
+		}
+
+		cost = 50
+
+
+		complete_effect = {
+			custom_effect_tooltip = SAO_send_volunteers_completed
+			
+			hidden_effect = {
+				CRJ = {	load_oob = "SAO_EMC_volunteers" }
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	##Remember to add more c:
 	sao_institutions_remover = {
