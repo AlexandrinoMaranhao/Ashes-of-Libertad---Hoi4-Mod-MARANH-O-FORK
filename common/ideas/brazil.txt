@@ -3,7 +3,16 @@ ideas = {
 		
 		BRA_the_southern_military_command = {
 			modifier = {
-				
+				army_leader_cost_factor = -0.5
+				war_support_weekly = 0.01
+				surrender_limit = 1
+				unit_leader_as_advisor_cp_cost_factor = -0.65
+				weekly_bombing_war_support = 0.01
+				weekly_convoys_war_support = 0.01
+				weekly_casualties_war_support = 0.01
+				defensive_war_stability_factor = 0.45
+				send_volunteer_divisions_required = -0.3
+				supply_combat_penalties_on_core_factor = -0.35
 			}
 		}
 

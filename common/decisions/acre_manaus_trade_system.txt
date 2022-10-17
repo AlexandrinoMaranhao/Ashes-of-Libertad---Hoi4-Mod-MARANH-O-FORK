@@ -98,7 +98,7 @@ ACR_compensation_trade_category = {
 		}
 	}
 
-	trade_ammunition = {
+	trade_tungsten = {
 		icon = GFX_decision_ammo_decision
 		visible = {
 			tag = ACR
@@ -154,11 +154,11 @@ ACR_compensation_trade_category = {
 			}
 		}
 	}
-	trade_motors = {
+	trade_chromium = {
 		available = {
 			NOT = { has_idea = trade_scope_closed_economy has_idea = economic_focus_demilitarized_economy  has_idea = trade_scope_regional_exports has_idea = trade_scope_international_exports has_idea = trade_scope_regional_exports }	
 		}
-		icon = GFX_decision_motors_decision
+		icon = GFX_decision_chromium_decision
 		visible = {
 			tag = ACR
 		}
@@ -187,7 +187,7 @@ ACR_compensation_trade_category = {
 						amount = -8
 					}
 					add_resource = {
-						type = motors
+						type = chromium
 						amount = 10
 					}
 				}

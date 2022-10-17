@@ -6,7 +6,7 @@ oob = "STR_1967"
 set_technology = {
 	infantry_weapons = 1
 	infantry_gear = 1
-	merc_infantry = 1
+	AoL_Irregular_tech = 1
 }
 
 set_convoys = 5

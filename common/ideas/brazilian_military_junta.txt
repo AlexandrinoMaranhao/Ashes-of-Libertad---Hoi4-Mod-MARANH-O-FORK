@@ -3,7 +3,18 @@ ideas = {
 
 		JUN_plateau_military_command = {
 			modifier = {
-				
+				root_out_resistance_effectiveness_factor = 0.8
+				decryption_factor = 0.65
+				encryption_factor = 0.85
+				command_power_gain = 0.5
+				land_doctrine_cost_factor = -0.1
+				army_leader_cost_factor = -0.6
+				surrender_limit = 1
+				unit_leader_as_advisor_cp_cost_factor = -0.3
+				offensive_war_stability_factor = 0.5
+				send_volunteer_divisions_required = -0.45
+				army_core_attack_factor = 0.35
+				max_training = 0.3
 			}
 		}
 

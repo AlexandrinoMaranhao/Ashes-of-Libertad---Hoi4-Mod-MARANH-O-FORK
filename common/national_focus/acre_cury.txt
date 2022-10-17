@@ -344,7 +344,7 @@ shared_focus = {
 			add_extra_state_shared_building_slots = 1					
 		}
 		89 = {
-			add_resource = { type = motors amount = 2 }	
+			add_resource = { type = chromium amount = 2 }	
 			add_building_construction = { type = infrastructure level = 1 instant_build = yes }			
 		}
 		534 = {

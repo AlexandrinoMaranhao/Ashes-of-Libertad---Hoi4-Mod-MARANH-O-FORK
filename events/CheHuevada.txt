@@ -105,10 +105,10 @@ country_event = { #trade on rivers with acre?
 			add_resource = { type = rubber amount = 4 }
 		}
 		89 = {
-			add_resource = { type = motors amount = 2 }
+			add_resource = { type = chromium amount = 2 }
 		}
 		89 = {
-			add_resource = { type = ammunition amount = 3 }
+			add_resource = { type = tungsten amount = 3 }
 		}
 		add_ideas = trade_scope_international_exports
 		ACR = {
@@ -143,10 +143,10 @@ country_event = { #deeper oh yeah
 			add_resource = { type = rubber amount = 8 }
 		}
 		89 = {
-			add_resource = { type = motors amount = 2 }
+			add_resource = { type = chromium amount = 2 }
 		}
 		89 = {
-			add_resource = { type = ammunition amount = 3 }
+			add_resource = { type = tungsten amount = 3 }
 		}
 		89 = {
 			add_resource = { type = technology amount = 1 }

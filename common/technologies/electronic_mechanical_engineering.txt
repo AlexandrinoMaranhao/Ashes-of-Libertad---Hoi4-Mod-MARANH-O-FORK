@@ -1259,7 +1259,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = nukes 
+			leads_to_tech = improve_nuclear_reactors 
 			research_cost_coeff = 1
 		}
 
@@ -1283,6 +1283,37 @@ technologies = {
 			building = nuclear_reactor
 			level = 1
 		}
+	}
+
+	improve_nuclear_reactors = {
+
+		# better build reactors
+		
+		start_year = 1943
+		research_cost = 5
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				tag = USA
+				factor = 2
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+		production_speed_nuclear_reactor_factor = 0.5 
 	}
 
 	nukes = {

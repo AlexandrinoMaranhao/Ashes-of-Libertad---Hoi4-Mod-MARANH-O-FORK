@@ -8,3 +8,6 @@ ammunition_desc:0 "An undispensable resource in the post apocalypse anywhere, am
 
 PRODUCTION_MATERIALS_MOTORS:0 "Motor Parts"
 motors_desc:0 "Motor parts and machinery, used to create anything from civilian vehicles to military war machines."
+
+PRODUCTION_MATERIALS_FOOD:0 "Food Materials"
+food_desc:0 "dunno ask Overlord to write smth fancy in this shit."
