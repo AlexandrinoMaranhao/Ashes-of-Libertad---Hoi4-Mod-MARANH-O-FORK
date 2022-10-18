@@ -6,6 +6,7 @@ SAO_category = {
 		original_tag = SAO
 	}
 	icon = GFX_decision_category_acrean_raids
+	visible_when_empty = yes
     priority = 300
 }
 
@@ -17,7 +18,8 @@ SAO_DOPS = {
 		original_tag = SAO
 	}
 	icon = GFX_decision_category_acrean_raids
-    priority = 300
+	visible_when_empty = yes
+    priority = 291
 }
 
 SAO_ALN = {
@@ -28,7 +30,8 @@ SAO_ALN = {
 		original_tag = SAO
 	}
 	icon = GFX_decision_category_acrean_raids
-    priority = 300
+	visible_when_empty = yes
+    priority = 290
 }
 
 SAO_divided_ppl_category = {
@@ -49,6 +52,7 @@ SAO_international_diplomacy_category = {
 		original_tag = SAO
 	}
 	icon = GFX_decision_category_acrean_raids
+	visible_when_empty = yes
     priority = 300
 }
 
@@ -58,6 +62,6 @@ SAO_cat_and_mouse_category = {
 	}
 	visible_when_empty = yes
 	icon = GFX_decision_category_acrean_raids
-	scripted_gui = sao_cat_and_mouse
+	#scripted_gui = sao_cat_and_mouse
     priority = 300
 }

@@ -119,6 +119,42 @@ news_event = { # Figueiredo takes control of SP (Figueiredo Path)
 		}
 	}
 
+news_event = { # Hugo Defects
+	id = world_sp.5
+	title = world_sp.5.t
+	desc = world_sp.5.d
+	picture = "GFX_news_event_third_battle_of_guanabara"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_sp.5.a 
+		SAO = {
+        annex_country = {
+            target = UBA
+            transfer_troops = yes
+        }
+        SAO = { add_state_core = 0.60 }
+        SAO = { add_state_core = 61 }
+        SAO = { add_state_core = 513 }
+        SAO = { add_state_core = 512 }
+        	}
+		}
+	}
+
+news_event = { # MST Rises Up
+	id = world_sp.6
+	title = world_sp.6.t
+	desc = world_sp.6.d
+	picture = "GFX_news_event_third_battle_of_guanabara"
+
+	is_triggered_only = yes
+
+	option = {
+		name = world_sp.6.a 
+		}
+	}
+
 
 news_event = { # Elected Cerqueira
 	id = world_acr.1

@@ -868,8 +868,8 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 
 		completion_reward = {
-			country_event = {
-				id = SAO.200
+			news_event = {
+				id = world_sp.5
 				days = 0
 			}
 		}

@@ -6,6 +6,7 @@
 ################
  SAO_cat_and_mouse_category:0 "The §3Cat§! and §tMouse§! Game"
  SAO_category:0 "Civil Administration of São Paulo"
+ SAO_category_desc:0 "Civil Administration of São Paulo"
  SAO_international_diplomacy_category:0 "Outer-State Actions"
  SAO_business_with_ARG:0 "Open The §4Platean Market§!"
  sao_hire_prudente:0 "Rally the §3Police§! in §OPrudente§!"
@@ -52,14 +53,19 @@
  sao_liberate_tres_coracoes_desc:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up."
  sao_liberate_rio:0 "Liberate §tRio de Janeiro§!"
  sao_liberate_rio_desc:0 "\n§tATTENTION§! If liberated this state will be hard to control, and most likely will fall into the hands of the §tA.L.N.§! if they rise up. \n\nAlso, due to §GRio§!'s political importance any attack on it will be answered by an immediate escalation in conflict, dooming §OSão Paulo§!'s neutrality."
- 
-
+ SAO_republican_interference:0 "The §tJunta§! is Influencing our People"
+ SAO_junta_interference:0 "The §tRepublic§! is Influencing our People"
+ SAO_volunteers_EMC:0 "§tInterfere§! in Rio de Janeiro"
+ SAO_volunteers_BRA:0 "§tInterfere§! in Rio de Janeiro"
+ SAO_ALN:0 "ALN Operations"
+ GNIS_volunteers:0 "Volunteers"
 #############################################
-#	Sao Paulo's divided populace Decisions	#
+#	Sao Paulo's divided populace Decisions and other descriptions	#
 #############################################
- #SAO_divided_ppl_category:0 "Demographics of São Paulo"
- #SAO_divided_ppl_category_desc:0 "São Paulo's immense population is the only thing stopping a military intervention by either the §44th Republic§! or §7Military Junta§!, which are both too militarily exhausted to support a military occupation of our state while it has a majority hostile demographic, should the population start to support either side it will surely lead to an invasion and the death of the Revolution.\nTo ensure the integrity of the State we must ensure that the people are united under a single cause, ours. This screen will help you keep track of the people's loyalties and involvement in the §O2nd Constitutionalist Revolution§!.\n\nThe population is divided along §OIdeological§!, §OEthnic§!, §OGeographical§! and §OWealth§! lines, having all of them on your side will greatly benefit the state once the time for fighting comes. \n\n£GFX_manpower_texticon Revolutionary Zeal: §O[?has_war_support|%0]§!\n£GFX_pol_power Control Over the State: §O[?has_stability|%0§!]§!\n\n£GFX_SAO_cons_party_icon §gConstitutionalist Support§!:  [?party_popularity@reactionary|%O0§!] \n£GFX_BRA_military_party_icon §3Republican Support§!:  §2[?party_popularity@democratic|%0§!]§! \n£GFX_ALN_party_icon §tALN Support§!:  [?party_popularity@communism|%R0§!] \n£GFX_ARENA_party_icon §GARENA Support§!:  §7[?party_popularity@fascism|%0§!]§! \n\n£GFX_population_texticon Population Involvement: \n\nPaulistanos: [?SAO_paulistas_support|%Y0§!] \nCaipiras: [?SAO_caipiras_support|%Y0§!] \nPraianos: [?SAO_praianos_support|%Y0§!] \n\nSyrian-Lebanese: [?SAO_syrian_support|%Y0§!] \nJapanese: [?SAO_japa_support|%Y0§!] \nChinese: [?SAO_china_support|%Y0§!] \nItalian: [?SAO_italian_support|%Y0§!] \n\nThe Upper Classes: [?SAO_high_class_support|%Y0§!] \nThe Middle Classes: [?SAO_med_class_support|%Y0§!] \nThe Lower Classes: [?SAO_low_class_support|%Y0§!]"
-
+ SAO_divided_ppl_category:0 "Demographics of São Paulo"
+ SAO_divided_ppl_category_desc:0 "São Paulo's immense population is the only thing stopping a military intervention by either the §44th Republic§! or §7Military Junta§!, which are both too militarily exhausted to support a military occupation of our state while it has a majority hostile demographic, should the population start to support either side it will surely lead to an invasion and the death of the Revolution.\nTo ensure the integrity of the State we must ensure that the people are united under a single cause, ours. This screen will help you keep track of the people's loyalties and involvement in the §O2nd Constitutionalist Revolution§!.\n\nThe population is divided along §OIdeological§!, §OEthnic§!, §OGeographical§! and §OWealth§! lines, having all of them on your side will greatly benefit the state once the time for fighting comes. \n\n£GFX_manpower_texticon Revolutionary Zeal: §O[?has_war_support|%0]§!\n£GFX_pol_power Control Over the State: §O[?has_stability|%0§!]§!\n\n£GFX_SAO_cons_party_icon §gConstitutionalist Support§!:  [?party_popularity@reactionary|%O0§!] \n£GFX_BRA_military_party_icon §3Republican Support§!:  §2[?party_popularity@democratic|%0§!]§! \n£GFX_ALN_party_icon §tALN Support§!:  [?party_popularity@communism|%R0§!] \n£GFX_ARENA_party_icon §GARENA Support§!:  §7[?party_popularity@fascism|%0§!]§! \n\n£GFX_population_texticon Population Involvement: \n\nPaulistanos: [?SAO_paulistas_support|%Y0§!] \nCaipiras: [?SAO_caipiras_support|%Y0§!] \nPraianos: [?SAO_praianos_support|%Y0§!] \n\nSyrian-Lebanese: [?SAO_syrian_support|%Y0§!] \nJapanese: [?SAO_japa_support|%Y0§!] \nChinese: [?SAO_china_support|%Y0§!] \nItalian: [?SAO_italian_support|%Y0§!] \n\nThe Upper Classes: [?SAO_high_class_support|%Y0§!] \nThe Middle Classes: [?SAO_med_class_support|%Y0§!] \nThe Lower Classes: [?SAO_low_class_support|%Y0§!]"
+ SAO_international_diplomacy_category_desc:0 "International Diplomacy"
+ SAO_cat_and_mouse_category_desc:0 "Cat and Mouse"
 ################
 # Tooltips
 ################
@@ -86,7 +92,7 @@
  the_choice_figueiredo_tt:0 "§OYou will play as the Police and Constitutionalist Forces, trying to save Brazil from itself and reestablish the Constitution. Democracy will be Saved,§! §twhatever the price may be.§!"
  the_choice_marighella_tt:0 "§tYou will play as the ALN, organize the urban guerrilla and take over the state, spearheading the Communist Revolution in Brazil.§!"
  the_choice_quadros_tt:0 "§GYou will play as Jânio Quadros, organize your political campaign and resurgence, retake the helm of the Brazilian Presidency and§! §YSAVE THIS ABBANDONED PEOPLE FROM THEMSELVES§!."
- SAO_BIL_tt:0 "Revives the §O6º Light Infantry Battalion§!"
+ SAO_BIL_tt:0 "Revives the §O6º Light Infantry Battalion§! and appoints §OJoão Baptista Figueiredo§! as General of the §ORevolutionary Army§!"
  SAO_ROAD_TO_GUANABARA_ONE_A_tt:0 "\nThe §O1ª DI ''Bandeirantes''§! will be allowed to flee to §3Rio de Janeiro§! to help in the upcoming battle."
  SAO_ROAD_TO_GUANABARA_ONE_B_tt:0 "\nThe §O1ª DI ''Bandeirantes''§! will be allowed to flee to the §3South§!, to join the rest of the Republican Army."
  SAO_ROAD_TO_GUANABARA_ONE_C_tt:0 "\nWe will §timprision§! the soldiers, which will become available for the creation of a §3Penal Battalion§! should the need ever arise."
@@ -110,8 +116,13 @@
 # Advisors
 ################
 sec_aggressive_fighter:0 "Religious Ferocity"
-SAO_janio_basado_desc:0 "The Hope of this Abandoned folk"
+SAO_janio_basado_desc:0 "The Hope of this Abandoned Folk"
 hog_respected_war_hero:0 "Respected War Hero"
 for_general_staffer:0 "General Staffer"
 sec_secret_police_chief:0 "Police Chief"
 sec_army_instructor:0 "Army Instructor"
+
+trait_SAO_veteran_of_the_constitutionalist_revolution:0 "Veteran of the 1st Constitutionalist Revolution"
+trait_SAO_veteran_of_the_constitutionalist_revolution_desc:0 "This General is a Veteran of the 1st Constitutionalist Revolution of 1932, old but reliable."
+trait_SAO_junta_traitor:0 "Traitor of the Junta"
+trait_SAO_junta_traitor_desc:0 "This character has abandoned the Brasília Based Military Junta and now fights against it."

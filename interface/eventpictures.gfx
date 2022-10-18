@@ -6,7 +6,27 @@ spriteTypes = {
 	#	texturefile = "gfx/event_pictures/.dds"
 	#}
 	# 
-						     
+					  
+	spriteType = {
+		name = "GFX_news_event_mst"
+		texturefile = "gfx/event_pictures/news_event_mst.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_news_event_revolucao_constitucionalistac"
+		texturefile = "gfx/event_pictures/news_event_revolucao_constitucionalistac.dds"
+	}
+ 	     	 
+	spriteType = {
+		name = "GFX_news_event_revolucao_constitucionalista"
+		texturefile = "gfx/event_pictures/news_event_revolucao_constitucionalista.dds"
+	}
+ 	     	 
+	spriteType = {
+		name = "GFX_news_event_revolucao_constitucionalistab"
+		texturefile = "gfx/event_pictures/news_event_revolucao_constitucionalistab.dds"
+	}
+
 	spriteType = {
 		name = "GFX_news_event_interview_of_the_century_janio"
 		texturefile = "gfx/event_pictures/news_event_interview_of_the_century_janio.dds"

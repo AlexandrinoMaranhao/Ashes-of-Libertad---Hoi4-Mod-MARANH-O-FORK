@@ -29,8 +29,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Paulo_Nogueira.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_SAO_paulo_maluf"
-		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_Paulo_Maluf.dds"
+		name = "GFX_idea_SAO_paulo_malufs"
+		texturefile = "gfx/interface/ideas/goofybois/SAO_boyos/SAO_paulo_malufs.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SAO_orestes_quercia"
