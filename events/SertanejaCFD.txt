@@ -669,6 +669,7 @@ country_event = { #Maranhao Lost
         name = CFD_events.22.a
 		CFD = {
 			puppet = MNH
+			set_state_owner = 475
 			MNH = {
 				set_politics = {
 					ruling_party = democratic
@@ -702,6 +703,8 @@ country_event = { #Maranhao Lost
 				set_state_owner = 18
 				set_state_owner = 22
 				set_state_owner = 23
+				set_state_owner = 17
+				set_state_owner = 474
 			}
 		}
     }

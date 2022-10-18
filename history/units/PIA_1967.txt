@@ -25,18 +25,4 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
-	division = {
-		name = "Nova's Bandits"
-		location = 1306
-		division_template = "Bandits"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
-	division = {
-		name = "Gibues' Bandits"
-		location = 1306
-		division_template = "Bandits"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
-	}
 }
