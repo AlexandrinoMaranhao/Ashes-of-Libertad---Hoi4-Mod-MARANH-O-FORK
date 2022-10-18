@@ -1697,13 +1697,10 @@ focus_tree = {
 				inherit_technology = CFD
 			
 				add_equipment_to_stockpile = {
-			    type = infantry_equipment
-			    amount = 1000
-			    producer = CFD
-			}
-			
-			
-			
+					type = infantry_equipment
+					amount = 1000
+					producer = CFD
+				}
 			}
 		}
 	}
