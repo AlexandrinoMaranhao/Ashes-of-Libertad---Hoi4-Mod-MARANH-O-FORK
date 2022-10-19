@@ -17,14 +17,13 @@ SAO_category = {
 		}
 		complete_effect = {
 			SAO = {
-			set_country_flag = paulista_uprising_started
+				set_country_flag = paulista_uprising_started
 					country_event = {
 						id = SAO_uprising_gen.1
 						days = 0
 					}
-
-			}
 				mark_focus_tree_layout_dirty = yes
+			}
 		}
 	}
 	
@@ -2487,24 +2486,88 @@ SAO_cat_and_mouse_category = {
 }
 
 SAO_DOPS = {
-
-	sao_dops_montly_budget = {
-		cost = 20
-		days_remove = 14
-		fire_only_once = no
-		visible = {
+	
+	sao_dops_montly_payment = {
+		activation = {
+			SAO = {
+				has_country_flag = SAO_DOPS_payment_yes
+			}
 		}
 		available = {
+			hidden_trigger = {
+				SAO = {
+					has_country_flag = SAO_DOPS_payment_yes
+				}
+			}
 		}
+		cancel_trigger = {
+			hidden_trigger = {
+				SAO = {
+					NOT = {
+						has_country_flag = SAO_DOPS_payment_yes
+					}
+				}
+			}
+		}
+		icon = GFX_decision_generic_civil_support
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = yes
 		complete_effect = {
+			clr_country_flag = SAO_DOPS_payment_yes
 		}
-		remove_effect = {
-
-		}
-		ai_will_do = {
-			factor = 100
+		timeout_effect = {
+			custom_effect_tooltip = "estas a pagar pelos buffs do DOPS. Isto eh 0,5 Kwanzas."
+			add_to_variable = {
+				var = SAO_budget
+				value = -0.5
+			}
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = 1.0
+					tooltip = "adiciona 1 oficial no final do pagamento."
+				}
+			}
+			hidden_effect = {
+				activate_decision = sao_dops_montly_payment
+			}
 		}
 	}
+
+	sao_dops_montly_budget = {
+		activation = {
+			SAO = {
+				has_country_flag = SAO_figueiredo_path
+			}
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		#cancel_trigger = { #Se quiser por algo que instantaneamente cancele o ganho monetario coloque aqui (se for country flag ou algo irreversivel, teras que reativar manualmente depois disso.)
+		#	has_war = yes
+		#}
+		icon = GFX_decision_generic_civil_support
+		is_good = yes
+		days_mission_timeout = 30
+		selectable_mission = no
+		complete_effect = {
+			
+		}
+		timeout_effect = {
+			custom_effect_tooltip = CFD_monthly_cash_tt
+			add_to_variable = {
+				var = SAO_budget
+				value = 1
+			}
+			hidden_effect = {
+				activate_decision = sao_dops_montly_budget
+			}
+		}
+	}
+
 	sao_bribe_informant = {
 		cost = 20
 		days_remove = 14
@@ -2512,28 +2575,39 @@ SAO_DOPS = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza do banco de SP."
+				}
+			}
 		}
 		remove_effect = {
-
-		}
-		ai_will_do = {
-			factor = 100
-		}
-	}
-	sao_raise_salaries = {
-		cost = 20
-		days_remove = 14
-		fire_only_once = no
-		visible = {
-		}
-		available = {
-		}
-		complete_effect = {
-		}
-		remove_effect = {
-
+			SAO = {
+				add_to_variable = {
+					var = SAO_informant_mole
+					value = 1.0
+					tooltip = "adiciona 1 informante."
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = -0.01
+				}
+				add_popularity = {
+					ideology = reactionary
+					popularity = 0.01
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2542,15 +2616,27 @@ SAO_DOPS = {
 	sao_ask_for_budget_raise = {
 		cost = 20
 		days_remove = 14
+		days_re_enable = 30
 		fire_only_once = no
 		visible = {
 		}
 		available = {
+			SAO = {
+				NOT = {
+					has_country_flag = SAO_DOPS_payment_yes
+				}
+			}
 		}
 		complete_effect = {
+
 		}
 		remove_effect = {
-
+			SAO = {
+				set_country_flag = SAO_DOPS_payment_yes
+				hidden_effect = {
+					activate_decision = sao_dops_montly_payment
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2563,11 +2649,81 @@ SAO_DOPS = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza do banco de SP."
+				}
+			}
 		}
 		remove_effect = {
-
+			SAO = {
+				add_to_variable = {
+					var = SAO_operation_scale
+					value = 1.0
+					tooltip = "aumenta em 1 a militarizacao da PMSP."
+				}
+				random_list = {
+					20 = {
+						add_tech_bonus = {
+							bonus = 0.1
+							uses = 1
+							category = radar_tech
+						}
+						add_tech_bonus = {
+							bonus = 0.1
+							uses = 1
+							category = signal_company_tech
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 0.1
+							uses = 1
+							category = motorized_equipment
+						}
+						add_tech_bonus = {
+							bonus = 0.1
+							uses = 1
+							category = cat_mechanized_equipment
+						}
+					}
+					35 = {
+						add_tech_bonus = {
+							bonus = 0.1
+							uses = 1
+							category = support_tech
+						}
+						add_doctrine_cost_reduction = {
+							cost_reduction = 0.05
+							uses = 1
+							category = land_doctrine
+						}
+					}
+					25 = {
+						add_tech_bonus = {
+							bonus = 0.1
+							uses = 1
+							category = military_police_tech
+						}
+						add_doctrine_cost_reduction = {
+							cost_reduction = 0.1
+							uses = 1
+							category = land_doctrine
+						}
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -2667,7 +2823,7 @@ SAO_DOPS = {
 			factor = 100
 		}
 	}
-
+	
 	sao_investigate_lower_class = {
 		cost = 5
 		days_remove = 14
@@ -3267,21 +3423,37 @@ SAO_DOPS = {
 }
 
 SAO_ALN = {
+	
 	sao_aln_montly_change = {
-		cost = 20
-		days_remove = 14
-		fire_only_once = no
-		visible = {
+		activation = {
+			SAO = {
+				has_country_flag = SAO_marighella_path
+			}
 		}
 		available = {
+			hidden_trigger = {
+				always = no
+			}
 		}
+		#cancel_trigger = { #Se quiser por algo que instantaneamente cancele o ganho monetario coloque aqui (teras que reativar manualmente depois disso.)
+		#	has_war = yes
+		#}
+		icon = GFX_decision_generic_civil_support
+		is_good = yes
+		days_mission_timeout = 30
+		selectable_mission = no
 		complete_effect = {
+			
 		}
-		remove_effect = {
-
-		}
-		ai_will_do = {
-			factor = 100
+		timeout_effect = {
+			custom_effect_tooltip = CFD_monthly_cash_tt
+			add_to_variable = {
+				var = SAO_budget
+				value = 0.5
+			}
+			hidden_effect = {
+				activate_decision = sao_aln_montly_change
+			}
 		}
 	}
 	sao_aln_bank_robbery = {
@@ -3291,11 +3463,50 @@ SAO_ALN = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				AND = {
+					check_variable = {
+						var = SAO_informant_mole
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = SAO_officer_agent
+						value = 1.0
+						compare = greater_than_or_equals
+					}
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_informant_mole
+					value = -1.0
+					tooltip = "remove 1 informante."
+				}
+			}
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = -1.0
+					tooltip = "remove 1 oficial."
+				}
+			}
 		}
 		remove_effect = {
-
+			random_list = {
+				50 = { #Deu bom
+					add_stability = 0.02
+				}
+				30 = { #Da errado
+					add_manpower = -10000
+				}
+				20 = { #Da mt errado
+					add_war_support = -0.5
+					add_manpower = -10000
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -3308,11 +3519,31 @@ SAO_ALN = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza do banco de SP."
+				}
+			}
 		}
 		remove_effect = {
-
+			SAO = {
+				add_to_variable = {
+					var = SAO_informant_mole
+					value = 1.0
+					tooltip = "adiciona 1 informante."
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -3325,11 +3556,31 @@ SAO_ALN = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza do banco de SP."
+				}
+			}
 		}
 		remove_effect = {
-
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = 1.0
+					tooltip = "adiciona 1 oficial."
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -3346,7 +3597,13 @@ SAO_ALN = {
 		complete_effect = {
 		}
 		remove_effect = {
-
+			SAO = {
+				add_to_variable = {
+					var = SAO_operation_scale
+					value = 1.0
+					tooltip = "adiciona em 1 a escala de operacoes dentro de territorios Paulistas."
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -3359,8 +3616,25 @@ SAO_ALN = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza do banco de SP."
+				}
+			}
+		}
+		modifier = {
+			war_support_weekly = -0.02
 		}
 		remove_effect = {
 
@@ -3409,42 +3683,62 @@ SAO_ALN = {
 		visible = {
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza."
+				}
+			}
 		}
 		remove_effect = {
-
-			add_to_variable = {
-				var = SAO_japa_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_china_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_syrian_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_italian_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_paulistas_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_high_class_support
-				value = -0.01
-			}
-			add_to_variable = {
-				var = SAO_med_class_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_low_class_support
-				value = -0.05
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = 1.0
+					tooltip = "adiciona 1 oficial."
+				}
+				add_to_variable = {
+					var = SAO_japa_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_china_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_syrian_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_italian_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_paulistas_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_high_class_support
+					value = -0.01
+				}
+				add_to_variable = {
+					var = SAO_med_class_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_low_class_support
+					value = -0.05
+				}
 			}
 		}
 		ai_will_do = {
@@ -3456,44 +3750,65 @@ SAO_ALN = {
 		days_remove = 14
 		fire_only_once = no
 		visible = {
+			
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza."
+				}
+			}
 		}
 		remove_effect = {
-
-			add_to_variable = {
-				var = SAO_japa_support
-				value = -0.05
-			}
-			add_to_variable = {
-				var = SAO_china_support
-				value = -0.05
-			}
-			add_to_variable = {
-				var = SAO_syrian_support
-				value = -0.05
-			}
-			add_to_variable = {
-				var = SAO_italian_support
-				value = -0.05
-			}
-			add_to_variable = {
-				var = SAO_paulistas_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_high_class_support
-				value = -0.01
-			}
-			add_to_variable = {
-				var = SAO_med_class_support
-				value = -0.05
-			}
-			add_to_variable = {
-				var = SAO_low_class_support
-				value = -0.02
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = 1.0
+					tooltip = "adiciona 1 oficial."
+				}
+				add_to_variable = {
+					var = SAO_japa_support
+					value = -0.05
+				}
+				add_to_variable = {
+					var = SAO_china_support
+					value = -0.05
+				}
+				add_to_variable = {
+					var = SAO_syrian_support
+					value = -0.05
+				}
+				add_to_variable = {
+					var = SAO_italian_support
+					value = -0.05
+				}
+				add_to_variable = {
+					var = SAO_paulistas_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_high_class_support
+					value = -0.01
+				}
+				add_to_variable = {
+					var = SAO_med_class_support
+					value = -0.05
+				}
+				add_to_variable = {
+					var = SAO_low_class_support
+					value = -0.02
+				}
 			}
 		}
 		ai_will_do = {
@@ -3505,44 +3820,65 @@ SAO_ALN = {
 		days_remove = 14
 		fire_only_once = no
 		visible = {
+			
 		}
 		available = {
+			SAO = {
+				check_variable = {
+					var = SAO_budget
+					value = 1.0
+					compare = greater_than_or_equals
+				}
+			}
 		}
 		complete_effect = {
+			SAO = {
+				add_to_variable = {
+					var = SAO_budget
+					value = -1.0
+					tooltip = "remove 1 kwanza."
+				}
+			}
 		}
 		remove_effect = {
-
-			add_to_variable = {
-				var = SAO_japa_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_china_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_syrian_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_italian_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_paulistas_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_high_class_support
-				value = -0.05
-			}
-			add_to_variable = {
-				var = SAO_med_class_support
-				value = -0.02
-			}
-			add_to_variable = {
-				var = SAO_low_class_support
-				value = -0.01
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = 1.0
+					tooltip = "adiciona 1 oficial."
+				}
+				add_to_variable = {
+					var = SAO_japa_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_china_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_syrian_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_italian_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_paulistas_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_high_class_support
+					value = -0.05
+				}
+				add_to_variable = {
+					var = SAO_med_class_support
+					value = -0.02
+				}
+				add_to_variable = {
+					var = SAO_low_class_support
+					value = -0.01
+				}
 			}
 		}
 		ai_will_do = {
@@ -3553,15 +3889,30 @@ SAO_ALN = {
 	sao_aln_help_from_che = {
 		cost = 20
 		days_remove = 14
+		days_re_enable = 30
 		fire_only_once = no
 		visible = {
 		}
 		available = {
+			SAO = {
+				has_war_support > 0.4
+			}
 		}
 		complete_effect = {
 		}
 		remove_effect = {
-
+			SAO = {
+				add_to_variable = {
+					var = SAO_officer_agent
+					value = 1.0
+					tooltip = "adiciona 1 oficial."
+				}
+				add_to_variable = {
+					var = SAO_budget
+					value = 1.0
+					tooltip = "adiciona 1 kwanza."
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100

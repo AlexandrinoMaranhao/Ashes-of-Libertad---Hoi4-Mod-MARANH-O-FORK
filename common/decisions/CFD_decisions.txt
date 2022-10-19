@@ -1548,7 +1548,9 @@ CFD_nation_development_category = {
 			}
 		}
 		available = {
-			always = no
+			hidden_trigger = {
+				always = no
+			}
 		}
 		cancel_trigger = {
 			has_war = yes
