@@ -73,6 +73,12 @@ set_variable = { var = SAO_high_class_support value = 0.68 }
 set_variable = { var = SAO_med_class_support value = 0.28 }
 set_variable = { var = SAO_low_class_support value = 0.42 }
 
+
+set_variable = { var = SAO_budget value = 1 }
+set_variable = { var = SAO_informant_mole value = 0.1 }
+set_variable = { var = SAO_officer_agent value = 0.12 }
+set_variable = { var = SAO_operation_scale value = 0.2 }
+
 add_dynamic_modifier = {
 	modifier = SAO_modifier1
 }

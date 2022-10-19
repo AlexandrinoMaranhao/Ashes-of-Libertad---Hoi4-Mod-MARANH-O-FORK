@@ -33,7 +33,8 @@
  sao_resettling_northeastern_desc:0 "Although we may try to hide it, our glory was built on the back of cheap labor, on the sweat of those more desperate or choiceless. For decades that duty has fallen on the backs of migrants coming from the drought-stricken §ONortheast§!, a noble and hardy people who although often looked down upon, deserve a pedestal in our great society.\n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
  sao_resettling_europeans_desc:0 "The history of European migration to §OSão Paulo§! is as long as its existence, nowadays proud communities of Italians, Spanish, Portuguese, Germans and many others dominate the state. Since the §tApocalypse§!, however, boats departing from Lisbon have brought thousands upon thousands of European immigrants to the shores of §GBrazil§!, coming from a much more diverse pool of ethnicities and backgrounds. \nAny change to the European status quo of §OSão Paulo§! is sure to cause turmoil with the already established communities, but the newcomers do bring with them important technologies not found anywhere else in Latin America that we could take advantage of.\n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
  sao_resettling_americans_desc:0 "After the §tApocalypse§!, §3American Communities§! sprouted across Latin America, crossing the Darian straight in search of a new destiny to manifest. We are no exception, in fact, we are pioneers. The city of §tAmericana§! already boasts a proud American history dating from after the American Civil War, by guiding the newcomers to it we can ensure they will be welcomed and that both communities will prosper together.\n\nBy resettling them we can accommodate the most desirable members of the migrating flock and absorb them into the §OConstitutionalist Revolution§!. \n\n§tATTENTION!§! \n\nFocusing on foreigners will upset the lower classes of the Paulista People and may trigger an §tUprising§!."
- SAO_DOPS:0 "Department of Order and Political Security"
+ SAO_DOPS:0 "The D.O.P.S."
+ SAO_DOPS_desc:0 "Painél do DOPS, só visivel se vc escolher o Figueiredo no ultimo evento do Road to Guanabara\n\nBudget:[?SAO_budget|Y§!]       Informants:[?SAO_informant_mole|Y0§!]     Officers:[?SAO_officer_agent|Y0§!]     Police Militarization Level:[?SAO_operation_scale|Y0§!]"
  SAO_launch_the_itajuba_raid:0 "Launch the §tItajubá Raid§!"
  sao_liberate_sao_roque:0 "Liberate §OSão Roque§!"
  sao_liberate_bauru:0 "Liberate §OBauru§!"
@@ -59,13 +60,56 @@
  SAO_volunteers_BRA:0 "§tInterfere§! in Rio de Janeiro"
  SAO_ALN:0 "ALN Operations"
  GNIS_volunteers:0 "Volunteers"
+
+ sao_aln_montly_change:0 "New Recruits Arrive"
+ sao_dops_montly_budget:0 "Monthly Budget"
+ sao_bribe_informant:0 "Bribe Informant"
+ sao_raise_salaries:0 "Raise Salaries"
+ sao_ask_for_budget_raise:0 "Apply for Budget Raise"
+ sao_police_militarization_increase:0 "Increase Police Militarization"
+ sao_aln_bank_robbery:0 "Rob a Bank"
+ sao_aln_plant_mole:0 "Plant a Mole"
+ sao_aln_recruitment:0 "Recruitment Push"
+ sao_aln_up_operation_scale:0 "Up Operation Range"
+ sao_aln_help_minorities:0 "Public Charity Efforts"
+ sao_aln_interior:0 "Expand Rural Network"
+ sao_aln_praia:0 "Expand Sea-side Network"
+ sao_aln_cidade:0 "Expand Urban Network"
+
+ sao_dops_montly_budget_desc:0 "Essa decisão é pra se repetir mensalmente, adicionando uma quantia ao budget e o numero de Oficiais que voce ganha por mês. O tamanho da quantia depende de quantas vezes Raise Salaries ou Apply for Budget Raise foram feitos. (Um aumenta, o outro diminui a quantia mensal ganha)."
+ sao_bribe_informant_desc:0 "Aumenta o numero de Informantes em 1 ao custo de Budget (-1% communism +1% reactionary só de zoas)"
+ sao_raise_salaries_desc:0 "Diminui o quanto vc ganha de Budget por mês e aumenta a quantidade de Oficiais, imediatamente e por mês."
+ sao_ask_for_budget_raise_desc:0 "Só pode ser feito 1 vez a cada mês, chance de dar certo ou não dependendo no War Support (Alto, sim, baixo, não), aumenta substancialmente o budget mensal"
+ sao_police_militarization_increase_desc:0 "Aumenta o nível de Militarização da Policia ao custo de Budget, adiciona bonuses de pesquisa para infantaria motorizada, radio, suporte e doutrina Mobile Warfare."
+
+ sao_aln_montly_change_desc:0 "Essa decisão é pra se repetir sozinha mensalmente, aumenta o numero de Agents, ocasionalmente de Moles caso envolvimento da classe média e alta na 2RC esteja baixo"
+ sao_aln_bank_robbery_desc:0 "Gasta 1 Mole e Agents, pode dar certo ou não com resultados variados, aumenta o Resources (Budget da ALN), aumenta o envolvimento de toda a população na 2RC"
+ sao_aln_plant_mole_desc:0 "Gasta Resources e adiciona 1 Mole"
+ sao_aln_recruitment_desc:0 "Gasta Resources pra ganhar mais Agents mensalmente"
+ sao_aln_up_operation_scale_desc:0 "Aumenta a Operation Scale"
+ sao_aln_help_minorities_desc:0 "Gasta Resources, diminui War Support enquanto é feita"
+ sao_aln_interior_desc:0 "Gasta Resources, da Agents e diminui o envolvimento de certas partes da população na 2RC"
+ sao_aln_praia_desc:0 "Gasta Resources, da Agents e diminui o envolvimento de certas partes da população na 2RC"
+ sao_aln_cidade_desc:0 "Gasta Resources, da Agents e diminui o envolvimento de certas partes da população na 2RC"
+ sao_aln_help_from_che_desc:0 "Só pode ser feito 1 vez a cada mês, chance de dar certo ou não dependendo no War Support (Baixo, sim, Alto, não), Boost de Agents e Resources"
+
+ sao_aln_help_from_che:0 "Ask Help from ''Che''"
+ sao_print_propaganda_cidade:0 "Spread §OConstitutionalist Propaganda§! URBANO"
+ sao_print_propaganda_interior:0 "Spread §OConstitutionalist Propaganda§! INTERIOR"
+ sao_print_propaganda_praia:0 "Spread §OConstitutionalist Propaganda§! PRAIA"
+
+ sao_cat_and_mouse_automatic_changes:0 "Aqui n vai ter nada até resolver a GUI do mapa de sp "
+ sao_cat_and_mouse_automatic_change1:0 "Vai ter varias decisões para dar crackdown/infiltrar"
+ sao_cat_and_mouse_automatic_changes2:0 "mas isso vai ocupar espaço pra caralho pq tem 17 estados"
+ sao_cat_and_mouse_automatic_changes3:0 "então deixa por ultimo, quando tiver resolvido o resto"
 #############################################
 #	Sao Paulo's divided populace Decisions and other descriptions	#
 #############################################
  SAO_divided_ppl_category:0 "Demographics of São Paulo"
- SAO_divided_ppl_category_desc:0 "São Paulo's immense population is the only thing stopping a military intervention by either the §44th Republic§! or §7Military Junta§!, which are both too militarily exhausted to support a military occupation of our state while it has a majority hostile demographic, should the population start to support either side it will surely lead to an invasion and the death of the Revolution.\nTo ensure the integrity of the State we must ensure that the people are united under a single cause, ours. This screen will help you keep track of the people's loyalties and involvement in the §O2nd Constitutionalist Revolution§!.\n\nThe population is divided along §OIdeological§!, §OEthnic§!, §OGeographical§! and §OWealth§! lines, having all of them on your side will greatly benefit the state once the time for fighting comes. \n\n£GFX_manpower_texticon Revolutionary Zeal: §O[?has_war_support|%0]§!\n£GFX_pol_power Control Over the State: §O[?has_stability|%0§!]§!\n\n£GFX_SAO_cons_party_icon §gConstitutionalist Support§!:  [?party_popularity@reactionary|%O0§!] \n£GFX_BRA_military_party_icon §3Republican Support§!:  §2[?party_popularity@democratic|%0§!]§! \n£GFX_ALN_party_icon §tALN Support§!:  [?party_popularity@communism|%R0§!] \n£GFX_ARENA_party_icon §GARENA Support§!:  §7[?party_popularity@fascism|%0§!]§! \n\n£GFX_population_texticon Population Involvement: \n\nPaulistanos: [?SAO_paulistas_support|%Y0§!] \nCaipiras: [?SAO_caipiras_support|%Y0§!] \nPraianos: [?SAO_praianos_support|%Y0§!] \n\nSyrian-Lebanese: [?SAO_syrian_support|%Y0§!] \nJapanese: [?SAO_japa_support|%Y0§!] \nChinese: [?SAO_china_support|%Y0§!] \nItalian: [?SAO_italian_support|%Y0§!] \n\nThe Upper Classes: [?SAO_high_class_support|%Y0§!] \nThe Middle Classes: [?SAO_med_class_support|%Y0§!] \nThe Lower Classes: [?SAO_low_class_support|%Y0§!]"
+ SAO_divided_ppl_category_desc:0 "São Paulo's immense population is the only thing stopping a military intervention by either the §44th Republic§! or §7Military Junta§!, which are both too militarily exhausted to support a military occupation of our state while it has a majority hostile demographic, should the population start to support either side it will surely lead to an invasion and the death of the Revolution.\nTo ensure the integrity of the State we must ensure that the people are united under a single cause, ours. This screen will help you keep track of the people's loyalties and involvement in the §O2nd Constitutionalist Revolution§!.\n\nThe population is divided along §OIdeological§!, §OEthnic§!, §OGeographical§! and §OWealth§! lines, having all of them on your side will greatly benefit the state once the time for fighting comes. \n\n                                                             DEMOGRAPHICS\n£GFX_manpower_texticon Revolutionary Zeal: §O[?has_war_support|%0]§!\n£GFX_pol_power Control Over the State: §O[?has_stability|%0§!]§!\n\n£GFX_SAO_cons_party_icon §gConstitutionalist Support§!:  [?party_popularity@reactionary|%O0§!] \n£GFX_BRA_military_party_icon §3Republican Support§!:  §2[?party_popularity@democratic|%0§!]§! \n£GFX_ALN_party_icon §tALN Support§!:  [?party_popularity@communism|%R0§!] \n£GFX_ARENA_party_icon §GARENA Support§!:  §7[?party_popularity@fascism|%0§!]§! \n\n£GFX_population_texticon Population Involvement: \n\nPaulistanos: [?SAO_paulistas_support|%Y0§!] \nCaipiras: [?SAO_caipiras_support|%Y0§!] \nPraianos: [?SAO_praianos_support|%Y0§!] \n\nSyrian-Lebanese: [?SAO_syrian_support|%Y0§!] \nJapanese: [?SAO_japa_support|%Y0§!] \nChinese: [?SAO_china_support|%Y0§!] \nItalian: [?SAO_italian_support|%Y0§!] \n\nThe Upper Classes: [?SAO_high_class_support|%Y0§!] \nThe Middle Classes: [?SAO_med_class_support|%Y0§!] \nThe Lower Classes: [?SAO_low_class_support|%Y0§!]"
  SAO_international_diplomacy_category_desc:0 "International Diplomacy"
- SAO_cat_and_mouse_category_desc:0 "Cat and Mouse"
+ SAO_cat_and_mouse_category_desc:0 "DESCRIPTION GOES HERE\n\n                                                                 map of sp GUI\n\n"
+ SAO_ALN_desc:0 "Painel de operações da aln, só visivel se vc escolher o Marighella no ultimo evento do Road to Guanabara\n\nResources:[?SAO_budget|Y§!]       Moles:[?SAO_informant_mole|Y0§!]     Agents:[?SAO_officer_agent|Y0§!]     Operation Scale:[?SAO_operation_scale|Y0§!]"
 ################
 # Tooltips
 ################

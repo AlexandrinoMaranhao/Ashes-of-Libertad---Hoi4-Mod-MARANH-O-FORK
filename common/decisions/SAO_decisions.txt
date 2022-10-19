@@ -265,10 +265,10 @@ SAO_category = {
 		days_re_enable = 14
 		
 		available = {
-			SAO = {has_completed_focus = SAO_the_unsure_revolution}
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
 		}
 		visible = {
-			SAO = {has_completed_focus = SAO_the_unsure_revolution}
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
 		}
 		complete_effect = {
 			#
@@ -330,6 +330,219 @@ SAO_category = {
 		}
 	}
 	
+	
+	sao_print_propaganda_cidade = {
+		icon = GFX_decision_icon_default
+		cost = 5
+		days_remove = 14
+		is_good = yes
+		fire_only_once = no
+		days_re_enable = 14
+		
+		available = {
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
+		}
+		visible = {
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.5
+			stability_weekly = 0.001
+			war_support_weekly = 0.0015
+			communism_drift = -0.1
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Rural
+
+	
+	sao_print_propaganda_interior = {
+		icon = GFX_decision_icon_default
+		cost = 5
+		days_remove = 14
+		is_good = yes
+		fire_only_once = no
+		days_re_enable = 14
+		
+		available = {
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
+		}
+		visible = {
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.5
+			stability_weekly = 0.001
+			war_support_weekly = 0.0015
+			communism_drift = -0.1
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_praianos_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.05
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Praia
+	
+	sao_print_propaganda_praia = {
+		icon = GFX_decision_icon_default
+		cost = 5
+		days_remove = 14
+		is_good = yes
+		fire_only_once = no
+		days_re_enable = 14
+		
+		available = {
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
+		}
+		visible = {
+			#SAO = {has_completed_focus = SAO_the_unsure_revolution}
+		}
+		complete_effect = {
+			#
+		}
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.5
+			stability_weekly = 0.001
+			war_support_weekly = 0.0015
+			communism_drift = -0.1
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = 0.01
+			}
+			add_to_variable = {
+				var = SAO_caipiras_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_praianos_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = 0.02
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = 0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = 0.01
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	sao_rid_authoritarianism = {
 		icon = GFX_decision_icon_default
 		cost = 10
@@ -2203,10 +2416,163 @@ SAO_divided_ppl_category = {
     }
 }
 SAO_cat_and_mouse_category = {
-	############################################
+	sao_cat_and_mouse_automatic_changes = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_cat_and_mouse_automatic_change1 = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_cat_and_mouse_automatic_changes2 = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_cat_and_mouse_automatic_changes3 = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }
 
 SAO_DOPS = {
+
+	sao_dops_montly_budget = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_bribe_informant = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_raise_salaries = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_ask_for_budget_raise = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_police_militarization_increase = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	sao_investigate_freis = {
 		cost = 5
 		days_remove = 14
@@ -2901,6 +3267,307 @@ SAO_DOPS = {
 }
 
 SAO_ALN = {
+	sao_aln_montly_change = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_bank_robbery = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_plant_mole = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_recruitment = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_up_operation_scale = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_help_minorities = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.02
+			}
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_interior = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.01
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.05
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_praia = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.01
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.02
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	sao_aln_cidade = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+			add_to_variable = {
+				var = SAO_japa_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_china_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_syrian_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_italian_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_paulistas_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_high_class_support
+				value = -0.05
+			}
+			add_to_variable = {
+				var = SAO_med_class_support
+				value = -0.02
+			}
+			add_to_variable = {
+				var = SAO_low_class_support
+				value = -0.01
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	sao_aln_help_from_che = {
+		cost = 20
+		days_remove = 14
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	#
 	sao_cripple_administration = {
 		cost = 20
 		days_remove = 14
