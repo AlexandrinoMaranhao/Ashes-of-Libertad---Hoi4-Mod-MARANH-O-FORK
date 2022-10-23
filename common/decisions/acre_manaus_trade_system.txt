@@ -128,7 +128,7 @@ ACR_compensation_trade_category = {
 						amount = -8
 					}
 					add_resource = {
-						type = ammunition
+						type = tungsten
 						amount = 10
 					}
 				}

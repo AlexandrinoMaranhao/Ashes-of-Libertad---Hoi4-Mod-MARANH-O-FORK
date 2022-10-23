@@ -29,27 +29,20 @@ units = {
 		location = 1236
 		division_template = "Piaui Military Police Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "Third Parnaiban Military Police Unit"
 		location = 1236
 		division_template = "Piaui Military Police Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 	division = {
 		name = "4th Parnaiban Military Police Unit"
 		location = 1236
 		division_template = "Piaui Military Police Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
-	division = {
-		name = "5th Parnaiban Military Police Unit"
-		location = 1236
-		division_template = "Piaui Military Police Unit"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
 	}
 }

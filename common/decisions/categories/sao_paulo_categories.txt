@@ -7,7 +7,7 @@ SAO_category = {
 	}
 	icon = GFX_decision_category_acrean_raids
 	visible_when_empty = yes
-    priority = 300
+    priority = 290
 }
 
 SAO_DOPS = {
@@ -44,7 +44,9 @@ SAO_divided_ppl_category = {
 	icon = GFX_decision_category_acrean_raids
 	visible_when_empty = yes
 	scripted_gui = sao_divided_people
-    priority = 250
+
+   	priority = 300
+ 	#SP's divided people category serves as a guide for the player, as such, must be top priority.
 }
 
 SAO_international_diplomacy_category = {
@@ -53,7 +55,7 @@ SAO_international_diplomacy_category = {
 	}
 	icon = GFX_decision_category_acrean_raids
 	visible_when_empty = yes
-    priority = 350
+    priority = 250
 }
 
 SAO_cat_and_mouse_category = {

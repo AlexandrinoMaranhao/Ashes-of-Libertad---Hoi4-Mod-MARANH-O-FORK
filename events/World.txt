@@ -263,6 +263,45 @@ news_event = { # Second Battle of Guanabara won by Brazil
 
 	option = {
 		name = world.4.a
+		
+		hidden_effect = {
+			SAO = {
+				set_rule = {
+					desc = SAO_send_volunteers_completed
+					can_send_volunteers = no
+				}
+				add_ai_strategy = {
+					type = send_volunteers_desire
+					id = CRJ
+					value = 0
+				}
+				add_ai_strategy = {
+					type = send_lend_lease_desire
+					id = CRJ
+					value = 0
+				}
+				add_ai_strategy = {
+					type = support
+					id = CRJ
+					value = 0
+				}
+				add_ai_strategy = {
+					type = send_volunteers_desire
+					id = BRA
+					value = 0
+				}
+				add_ai_strategy = {
+					type = send_lend_lease_desire
+					id = BRA
+					value = 0
+				}
+				add_ai_strategy = {
+					type = support
+					id = BRA
+					value = 0
+				}
+			}
+		}
 	}
 }
 
@@ -276,6 +315,45 @@ news_event = { # Second Battle of Guanabara won by Eastern Military Command
 
 	option = {
 		name = world.5.a
+		
+		hidden_effect = {
+			SAO = {
+				set_rule = {
+					desc = SAO_send_volunteers_completed
+					can_send_volunteers = no
+				}
+				add_ai_strategy = {
+					type = send_volunteers_desire
+					id = CRJ
+					value = 0
+				}
+				add_ai_strategy = {
+					type = send_lend_lease_desire
+					id = CRJ
+					value = 0
+				}
+				add_ai_strategy = {
+					type = support
+					id = CRJ
+					value = 0
+				}
+				add_ai_strategy = {
+					type = send_volunteers_desire
+					id = BRA
+					value = 0
+				}
+				add_ai_strategy = {
+					type = send_lend_lease_desire
+					id = BRA
+					value = 0
+				}
+				add_ai_strategy = {
+					type = support
+					id = BRA
+					value = 0
+				}
+			}
+		}
 	}
 }
 

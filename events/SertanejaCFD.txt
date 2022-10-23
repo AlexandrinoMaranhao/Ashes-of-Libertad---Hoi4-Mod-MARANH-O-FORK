@@ -608,6 +608,18 @@ country_event = { #The Army Situation
 			add_war_support = 0.05
 			army_experience = 25
 			unlock_decision_tooltip = CFD_reform_army
+			hidden_effect = {
+				add_ai_strategy  = {
+					type = invade
+					id = SEG
+					value = 200
+				}
+				add_ai_strategy  = {
+					type = prepare_for_war
+					id = SEG
+					value = 200
+				}
+			}
 		}
     }
 }

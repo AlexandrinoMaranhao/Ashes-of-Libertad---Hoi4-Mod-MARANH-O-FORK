@@ -1442,8 +1442,10 @@ SAO_international_diplomacy_category = {
 		
 		available = {
 			AND = {
-				has_country_flag = SAO_send_volunteers_BRA
-				original_tag = SAO
+				hidden_trigger = {
+					has_country_flag = SAO_send_volunteers_BRA
+					original_tag = SAO
+				}
 			}
 		}
 		
@@ -1461,24 +1463,47 @@ SAO_international_diplomacy_category = {
 
 		complete_effect = {
 			custom_effect_tooltip = SAO_send_volunteers_completed
-			
+
+			##Forces SAO's AI to help BRA.
 			hidden_effect = {
-				BRA = {	load_oob = "SAO_BRA_volunteers" }
+				SAO = {
+					set_rule = {
+						can_send_volunteers = yes
+					}
+					add_ai_strategy = {
+						type = send_volunteers_desire
+						id = BRA
+						value = 999
+					}
+					add_ai_strategy = {
+						type = send_lend_lease_desire
+						id = BRA
+						value = 999
+					}
+					add_ai_strategy = {
+						type = support
+						id = BRA
+						value = 999
+					}
+				}
 			}
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 999
 		}
 	}
+	
 	SAO_volunteers_EMC = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
 			AND = {
-				has_country_flag = SAO_send_volunteers_EMC
-				original_tag = SAO
+				hidden_trigger = {
+					has_country_flag = SAO_send_volunteers_EMC
+					original_tag = SAO
+				}
 			}
 		}
 		
@@ -1486,24 +1511,45 @@ SAO_international_diplomacy_category = {
 
 		visible = {
 			AND = {
-				has_country_flag = SAO_send_volunteers_EMC
-				original_tag = SAO
+				hidden_trigger = {
+					has_country_flag = SAO_send_volunteers_EMC
+					original_tag = SAO
+				}
 			}
 		}
 
 		cost = 50
 
-
 		complete_effect = {
 			custom_effect_tooltip = SAO_send_volunteers_completed
-			
+
+			##Forces SAO's AI to help EMC (CRJ).
 			hidden_effect = {
-				CRJ = {	load_oob = "SAO_EMC_volunteers" }
+				SAO = {
+					set_rule = {
+						can_send_volunteers = yes
+					}
+					add_ai_strategy = {
+						type = send_volunteers_desire
+						id = CRJ
+						value = 999
+					}
+					add_ai_strategy = {
+						type = send_lend_lease_desire
+						id = CRJ
+						value = 999
+					}
+					add_ai_strategy = {
+						type = support
+						id = CRJ
+						value = 999
+					}
+				}
 			}
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 999
 		}
 	}
 	
@@ -2638,8 +2684,8 @@ SAO_DOPS = {
 				}
 			}
 		}
-		ai_will_do = {
-			factor = 100
+		ai_will_do = { #AI should not waste resources on such commodity.
+			factor = 0
 		}
 	}
 	sao_police_militarization_increase = {
