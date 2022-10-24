@@ -41,7 +41,7 @@ SAO_divided_ppl_category = {
 	visible = {
 		original_tag = SAO
 	}
-	icon = GFX_decision_category_acrean_raids
+	icon = GFX_decision_SAO_divided_ppl_category
 	visible_when_empty = yes
 	scripted_gui = sao_divided_people
 

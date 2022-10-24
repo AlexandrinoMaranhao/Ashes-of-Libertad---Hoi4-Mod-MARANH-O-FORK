@@ -102,7 +102,7 @@ SAO_category = {
 ##################		Recrutamento de PM		##################
 	sao_hire_prudente = {
 
-		icon = GFX_decision_sao_recruit_icon
+		icon = GFX_dops_decision
 		
 		#activation = {
 		#	
@@ -143,7 +143,7 @@ SAO_category = {
 	
 	sao_hire_registro = {
 
-		icon = GFX_decision_sao_recruit_icon
+		icon = GFX_dops_decision
 		
 		
 		available = {
@@ -181,7 +181,7 @@ SAO_category = {
 	
 	sao_hire_marilia = {
 
-		icon = GFX_decision_sao_recruit_icon
+		icon = GFX_dops_decision
 		
 		
 		available = {
@@ -217,7 +217,7 @@ SAO_category = {
 	}
 ##################		Addons		##################
 	sao_appease_the_elites = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 10
 		days_remove = 30
 		is_good = yes
@@ -256,7 +256,7 @@ SAO_category = {
 	}
 	
 	sao_print_propaganda = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 5
 		days_remove = 14
 		is_good = yes
@@ -331,7 +331,7 @@ SAO_category = {
 	
 	
 	sao_print_propaganda_cidade = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 5
 		days_remove = 14
 		is_good = yes
@@ -398,7 +398,7 @@ SAO_category = {
 
 	
 	sao_print_propaganda_interior = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 5
 		days_remove = 14
 		is_good = yes
@@ -472,7 +472,7 @@ SAO_category = {
 #Praia
 	
 	sao_print_propaganda_praia = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 5
 		days_remove = 14
 		is_good = yes
@@ -543,7 +543,7 @@ SAO_category = {
 		}
 	}
 	sao_rid_authoritarianism = {
-		icon = GFX_decision_icon_default
+		icon = GFX_dops_decision
 		cost = 10
 		days_remove = 16
 		is_good = yes
@@ -583,7 +583,7 @@ SAO_category = {
 		}
 	}
 	sao_rid_bad_officers = {
-		icon = GFX_decision_icon_default
+		icon = GFX_dops_decision
 		cost = 25
 		days_remove = 14
 		is_good = yes
@@ -627,7 +627,7 @@ SAO_category = {
 
 ##################		Resettling Decisions.		##################
 	sao_resettling_riograndeses = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_gaucho_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -703,7 +703,7 @@ SAO_category = {
 		}
 	}
 	sao_resettling_cariocas = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_carioca_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -796,7 +796,7 @@ SAO_category = {
 		}
 	}
 	sao_resettling_mineiros = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_mineiro_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -875,7 +875,7 @@ SAO_category = {
 		}
 	}
 	sao_resettling_midwestern = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_hermanos_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -959,7 +959,7 @@ SAO_category = {
 		}
 	}
 	sao_resettling_northeastern = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_nordestino_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -1037,7 +1037,7 @@ SAO_category = {
 		}
 	}
 	sao_resettling_europeans = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_europeans_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -1123,7 +1123,7 @@ SAO_category = {
 		}
 	}
 	sao_resettling_americans = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_americans_decision
 		cost = 15
 		days_remove = 30
 		is_good = yes
@@ -1215,7 +1215,7 @@ SAO_category = {
 	}
 
 	sao_liberate_sao_roque = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_mst_decision
 		cost = 10
 		days_remove = 14
 		is_good = yes
@@ -1275,7 +1275,7 @@ SAO_category = {
 		}
 	}
 	sao_liberate_sorocaba = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_mst_decision
 		cost = 15
 		days_remove = 14
 		is_good = yes
@@ -1336,7 +1336,7 @@ SAO_category = {
 	}
 
 	sao_liberate_bauru = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_mst_decision
 		cost = 15
 		days_remove = 14
 		is_good = yes
@@ -1396,7 +1396,7 @@ SAO_category = {
 		}
 	}
 	sao_direct_intervention_against_the_mst = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_mst_decision
 		cost = 50
 		days_remove = 30
 		is_good = yes
@@ -1438,7 +1438,7 @@ SAO_international_diplomacy_category = {
 	####SAO PAULO VOLUNTEERS###
 	SAO_volunteers_BRA = {
 
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_interfere_in_rio_decision
 		
 		available = {
 			AND = {
@@ -1496,7 +1496,7 @@ SAO_international_diplomacy_category = {
 	
 	SAO_volunteers_EMC = {
 
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_interfere_in_rio_decision
 		
 		available = {
 			AND = {
@@ -1555,6 +1555,7 @@ SAO_international_diplomacy_category = {
 	
 	##Remember to add more c:
 	sao_institutions_remover = {
+		icon = GFX_sao_take_over_institutions_decision
 		cost = 5
 		days_remove = 30
 		fire_only_once = yes
@@ -1582,7 +1583,7 @@ SAO_international_diplomacy_category = {
 
 
 	sao_liberate_araxa = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 50
 		days_remove = 14
 		is_good = yes
@@ -1643,7 +1644,7 @@ SAO_international_diplomacy_category = {
 	}
 	
 	sao_liberate_sao_manuel_da_esperanca = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 50
 		days_remove = 14
 		is_good = yes
@@ -1707,7 +1708,7 @@ SAO_international_diplomacy_category = {
 
 
 	sao_liberate_tres_coracoes = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 50
 		days_remove = 14
 		is_good = yes
@@ -1770,7 +1771,7 @@ SAO_international_diplomacy_category = {
 	}
 
 	sao_liberate_rio = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 300
 		days_remove = 30
 		is_good = yes
@@ -1832,6 +1833,7 @@ SAO_international_diplomacy_category = {
 	}
 ################## SÃO PAULO - ARGENTINA TRADING BUSINESS ##################
 	SAO_business_with_ARG = {
+		icon = GFX_sao_platean_pact_decision
 		cost = 50
 		fire_only_once = yes
 		days_re_enable = 0
@@ -1855,7 +1857,7 @@ SAO_international_diplomacy_category = {
 		}	
 	}
 	SAO_ARG_steel1 = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_platean_pact_decision
 		cost = 40
 		days_remove = 120
 		is_good = yes
@@ -1901,7 +1903,7 @@ SAO_international_diplomacy_category = {
 		}
 	}
 	SAO_ARG_steel2 = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_platean_pact_decision
 		cost = 25
 		days_remove = 120
 		is_good = yes
@@ -1947,7 +1949,7 @@ SAO_international_diplomacy_category = {
 		}
 	}
 	SAO_ARG_ammo1 = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_platean_pact_decision
 		cost = 40
 		days_remove = 120
 		is_good = yes
@@ -1992,7 +1994,7 @@ SAO_international_diplomacy_category = {
 		}
 	}
 	SAO_ARG_ammo2 = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_platean_pact_decision
 		cost = 25
 		days_remove = 120
 		is_good = yes
@@ -2037,7 +2039,7 @@ SAO_international_diplomacy_category = {
 		}
 	}
 	SAO_ARG_motor_tech = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_platean_pact_decision
 		cost = 50
 		days_remove = 120
 		is_good = yes
@@ -2088,7 +2090,7 @@ SAO_international_diplomacy_category = {
 ################ ITAJUBA ARMS FACTORY ################
 
 	SAO_launch_the_itajuba_raid = {
-		icon = GFX_decision_icon_default
+		icon = GFX_sao_decision
 		cost = 50
 		days_remove = 7
 		is_good = yes
@@ -2534,6 +2536,7 @@ SAO_cat_and_mouse_category = {
 SAO_DOPS = {
 	
 	sao_dops_montly_payment = {
+		icon = GFX_dops_decision
 		activation = {
 			SAO = {
 				has_country_flag = SAO_DOPS_payment_yes
@@ -2582,6 +2585,7 @@ SAO_DOPS = {
 	}
 
 	sao_dops_montly_budget = {
+		icon = GFX_dops_decision
 		activation = {
 			SAO = {
 				has_country_flag = SAO_figueiredo_path
@@ -2615,6 +2619,7 @@ SAO_DOPS = {
 	}
 
 	sao_bribe_informant = {
+		icon = GFX_dops_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -2660,6 +2665,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ask_for_budget_raise = {
+		icon = GFX_dops_decision
 		cost = 20
 		days_remove = 14
 		days_re_enable = 30
@@ -2689,6 +2695,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_police_militarization_increase = {
+		icon = GFX_dops_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -2775,7 +2782,37 @@ SAO_DOPS = {
 			factor = 100
 		}
 	}
+
+	sao_talk_to_rosa = {
+		icon = GFX_dops_decision
+		cost = 5
+		days_remove = 7
+		fire_only_once = yes
+		visible = {
+			SAO = {
+				has_completed_focus = sao_phase_two_hunt_their_allies
+			}
+		}
+		available = {
+			SAO = {
+				has_completed_focus = sao_phase_two_hunt_their_allies
+			}
+		}
+		complete_effect = {
+			#
+		}
+		remove_effect = {
+			hidden_effect = {
+				#
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
 	sao_investigate_freis = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -2806,6 +2843,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_if_localize_marighella = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -2838,6 +2876,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_if_kill_marighella = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -2871,6 +2910,7 @@ SAO_DOPS = {
 	}
 	
 	sao_investigate_lower_class = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -2901,6 +2941,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ilc_toledo = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -2933,6 +2974,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ilc_kill_toledo = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -2965,33 +3007,8 @@ SAO_DOPS = {
 		}
 	}
 
-	sao_talk_to_rosa = {
-		cost = 5
-		days_remove = 7
-		fire_only_once = yes
-		visible = {
-			SAO = {
-				has_completed_focus = sao_phase_two_hunt_their_allies
-			}
-		}
-		available = {
-			SAO = {
-				has_completed_focus = sao_phase_two_hunt_their_allies
-			}
-		}
-		complete_effect = {
-			#
-		}
-		remove_effect = {
-			hidden_effect = {
-				#
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-	}
 	sao_investigate_caipiras = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3022,6 +3039,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ic_virgilio_silva = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3054,6 +3072,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ic_kill_virgilio_silva = {
+		icon = GFX_dops_decision
 		
 		cost = 5
 		days_remove = 14
@@ -3088,6 +3107,7 @@ SAO_DOPS = {
 	}
 
 	sao_investigate_overlordianos = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3118,6 +3138,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_iitaly_franklin_martins = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3150,6 +3171,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_iitaly_kill_franklin_martins = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3183,6 +3205,7 @@ SAO_DOPS = {
 	}
 	
 	sao_investigate_siriolibaneses = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3213,6 +3236,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_isl_fernando_gabeira = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3245,6 +3269,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_isl_kill_fernando_gabeira = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3278,6 +3303,7 @@ SAO_DOPS = {
 	}
 	
 	sao_investigate_japa = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3308,6 +3334,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ij_manoel_cyrillo = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3340,6 +3367,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ij_kill_manoel_cyrillo = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3373,6 +3401,7 @@ SAO_DOPS = {
 	}
 
 	sao_investigate_china = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3403,6 +3432,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ichina_chico = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3435,6 +3465,7 @@ SAO_DOPS = {
 		}
 	}
 	sao_ichina_kill_chico = {
+		icon = GFX_dops_decision
 		cost = 5
 		days_remove = 14
 		fire_only_once = yes
@@ -3484,7 +3515,7 @@ SAO_ALN = {
 		#cancel_trigger = { #Se quiser por algo que instantaneamente cancele o ganho monetario coloque aqui (teras que reativar manualmente depois disso.)
 		#	has_war = yes
 		#}
-		icon = GFX_decision_generic_civil_support
+		icon = GFX_aln_decision
 		is_good = yes
 		days_mission_timeout = 30
 		selectable_mission = no
@@ -3494,7 +3525,7 @@ SAO_ALN = {
 		timeout_effect = {
 			custom_effect_tooltip = CFD_monthly_cash_tt
 			add_to_variable = {
-				var = SAO_budget
+				var = SAO_officer_agent
 				value = 0.5
 			}
 			hidden_effect = {
@@ -3503,6 +3534,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_bank_robbery = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3559,6 +3591,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_plant_mole = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3596,6 +3629,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_recruitment = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3633,6 +3667,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_up_operation_scale = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3656,6 +3691,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_help_minorities = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3723,6 +3759,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_interior = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3792,6 +3829,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_praia = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3862,6 +3900,7 @@ SAO_ALN = {
 		}
 	}
 	sao_aln_cidade = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3933,6 +3972,7 @@ SAO_ALN = {
 	}
 
 	sao_aln_help_from_che = {
+		icon = GFX_decision_lower_che_suspicion_wartrain_decision
 		cost = 20
 		days_remove = 14
 		days_re_enable = 30
@@ -3966,6 +4006,7 @@ SAO_ALN = {
 	}
 	#
 	sao_cripple_administration = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -3997,6 +4038,7 @@ SAO_ALN = {
 		}
 	}
 	sao_cripple_police = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no
@@ -4028,6 +4070,7 @@ SAO_ALN = {
 		}
 	}
 	sao_cripple_colina = {
+		icon = GFX_aln_decision
 		cost = 20
 		days_remove = 14
 		fire_only_once = no

@@ -3,6 +3,96 @@ spriteTypes = {
 	### categories
 	##AoL
 	spriteType = {
+		name = "GFX_sao_mst_decision"
+		texturefile = "gfx/interface/decisions/sao_mst_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_interfere_in_rio_decision"
+		texturefile = "gfx/interface/decisions/sao_interfere_in_rio_decision.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sao_platean_pact_decision"
+		texturefile = "gfx/interface/decisions/sao_platean_pact_decision.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sao_take_over_institutions_decision"
+		texturefile = "gfx/interface/decisions/sao_take_over_institutions_decision.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sao_hermanos_decision"
+		texturefile = "gfx/interface/decisions/sao_hermanos_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_carioca_decision"
+		texturefile = "gfx/interface/decisions/sao_carioca_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_gaucho_decision"
+		texturefile = "gfx/interface/decisions/sao_gaucho_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_mineiro_decision"
+		texturefile = "gfx/interface/decisions/sao_mineiro_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_nordestino_decision"
+		texturefile = "gfx/interface/decisions/sao_nordestinos_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_europeans_decision"
+		texturefile = "gfx/interface/decisions/sao_europeans_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_americans_decision"
+		texturefile = "gfx/interface/decisions/sao_americans_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sao_decision"
+		texturefile = "gfx/interface/decisions/sao_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_category_SAO_category"
+		texturefile = "gfx/interface/decisions/decision_category_civil_administration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_SAO_divided_ppl_category"
+		texturefile = "gfx/interface/decisions/decision_SAO_divided_ppl_category.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_dops_decision"
+		texturefile = "gfx/interface/decisions/DOPS_decision.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_aln_decision"
+		texturefile = "gfx/interface/decisions/aln_decision.dds"
+	}
+						
+	spriteType = {
+		name = "GFX_decision_category_SAO_DOPS"
+		texturefile = "gfx/interface/decisions/decision_category_SAO_DOPS.dds"
+	}
+					
+	spriteType = {
+		name = "GFX_decision_category_SAO_ALN"
+		texturefile = "gfx/interface/decisions/decision_category_SAO_ALN.dds"
+	}
+					
+	spriteType = {
 		name = "GFX_decision_category_SAO_category"
 		texturefile = "gfx/interface/decisions/decision_category_civil_administration.dds"
 	}

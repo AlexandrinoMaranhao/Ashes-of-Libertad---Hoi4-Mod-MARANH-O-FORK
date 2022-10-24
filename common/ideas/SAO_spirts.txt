@@ -226,7 +226,7 @@ consumer_goods_factor = -0.1
 			}
 		}
 		SAO_where_is_marighella = {
-			picture = GEN_a_military_run_by_the_police-225757
+			picture = GFX_idea_CDC_the_legacy_of_marighella
 			allowed = {
 				original_tag = SAO
 			}
