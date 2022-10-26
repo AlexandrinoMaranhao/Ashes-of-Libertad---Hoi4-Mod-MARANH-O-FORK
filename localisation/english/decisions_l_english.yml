@@ -1,4 +1,8 @@
 ﻿l_english:
+ NEWS_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle News notifications."
+ EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle Event notifications."
+ MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle minor event notifications, such as Ace Pilot events."
+ POPUP_MINOR_EVENTS:0 "Minor Popup"
  DECISIONVIEW_TITLE:0 "Events and Decisions"
  DECISIONSVIEW_EVENT_HEADER:0 "Events"
  POPUP_NEWS:0 "News Popup"
