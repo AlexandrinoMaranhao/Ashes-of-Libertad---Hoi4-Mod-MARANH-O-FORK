@@ -6,8 +6,9 @@ add_namespace = ERN_intro
 add_namespace = ERN_Marques
 add_namespace = ERN_ACR_join_lib
 add_namespace = BOL_aiwar
-
-
+add_namespace = ERN_operations
+add_namespace = ERN_operations_failure
+d
 #### INTRO events (there arent any yet)
 
 country_event = {
@@ -184,4 +185,54 @@ country_event = {
             type = annex_everything
         }
     }
+}
+
+
+country_event = {
+    id = ERN_intro.1
+    title = ERN_intro.1.t
+    desc = ERN_intro.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option  = {
+        name = ERN_intro.1.a
+    }
+    
+}
+
+country_event = {
+    id = ERN_operations.1
+    title = ERN_operations.1.t
+    desc = ERN_operations.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option  = {
+        name = ERN_operations.1.a
+       
+    		every_country = {
+    		    news_event = {
+    		        id = world.89
+    		        days = 1
+    		    }
+    		}
+    }
+    
+}
+
+country_event = {
+    id = ERN_operations_failure.1
+    title = ERN_operations_failure.1.t
+    desc = ERN_operations_failure.1.d
+    picture = x
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option  = {
+        name = ERN_operations_failure.1.a
+    }
+    
 }

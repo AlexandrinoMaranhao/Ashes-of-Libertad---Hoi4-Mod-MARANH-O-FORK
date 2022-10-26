@@ -1335,13 +1335,13 @@ news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.1
 
 news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.2
 	id = world.87
-	title = world.86.t
-	desc = world.86.d
+	title = world.87.t
+	desc = world.87.d
 	picture = "GFX_news_event_bahia"
 	is_triggered_only = yes
 
 	option = {
-		name = world.86.a
+		name = world.87.a
 		CFD = {
 			set_country_flag = rip_bozo_antonio
 			add_political_power = -10
@@ -1354,3 +1354,38 @@ news_event = { #Death of Antônio de Barros Carvalho / Sertaneja News Event pt.2
 }
 
 
+news_event = { #Che Invades Bolivia
+	id = world.88
+	title = world.88.t
+	desc = world.88.d
+	picture = "GFX_news_event_bahia"
+	is_triggered_only = yes
+
+	option = {
+		name = world.88.a
+		ERN = {
+            declare_war_on = {
+                target = BOL
+                type = annex_everything
+            }
+		}
+	}
+}
+
+news_event = { #Capitan Pablo Overrun
+	id = world.89
+	title = world.89.t
+	desc = world.89.d
+	picture = "GFX_news_event_bahia"
+	is_triggered_only = yes
+
+	option = {
+		name = world.89.a
+		ERN = {
+            declare_war_on = {
+                target = GCP
+                type = annex_everything
+            }
+		}
+	}
+}
