@@ -635,7 +635,10 @@ country_event = { #The Europeans 1
     option = {
         name = CFD_events.20.a
 		CFD = {
-
+			country_event = {
+				id = CFD_events.21
+				days = 30
+			}
 		}
     }
 }
@@ -650,7 +653,10 @@ country_event = { #The Europeans 2
     option = {
         name = CFD_events.21.a
 		CFD = {
-
+			country_event = {
+				id = CFD_events.22
+				days = 20
+			}
 		}
     }
 }
@@ -665,7 +671,7 @@ country_event = { #The Europeans 3
     option = {
         name = CFD_events.22.a
 		CFD = {
-
+			remove_ideas = CFD_the_gateway_to_south_america
 		}
     }
 }
@@ -680,43 +686,18 @@ country_event = { #Maranhao Lost
     option = {
         name = CFD_events.22.a
 		CFD = {
-			puppet = MNH
 			transfer_state = 475
 			transfer_state = 17
 			transfer_state = 474
-			MNH = {
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = no
-					last_election = "1935.12.17"
-					election_frequency = 48
-				}
-				remove_ideas = {
-					sarneys_feud
-					mercenary_army_LAM
-					cangaceiros_light
-				}
-				create_country_leader = {
-					name = "Renato Archer"
-					desc = ""
-					picture = Portrait_Renato_Archer.dds
-					expire = "1965.1.1"
-					ideology = provisional_government
-					traits = {
-						
-					}
-				}
-				add_ideas = {
-					CFD_warzone
-					CFD_rebuilding_maranho
-					CFD_sertaneja_occupation
-				}
-				transfer_state = 21
-				transfer_state = 20
-				transfer_state = 19
-				transfer_state = 18
-				transfer_state = 22
-				transfer_state = 23
+			transfer_state = 21
+			transfer_state = 20
+			transfer_state = 19
+			transfer_state = 18
+			transfer_state = 22
+			transfer_state = 23
+			add_timed_idea = {
+				idea = CFD_rebuilding_maranho
+				days = 120
 			}
 		}
     }
@@ -1617,6 +1598,7 @@ country_event = {
 			change_tag_from = CFD
 			load_oob = "PEB_1967"
 			country_event = { id = PEB.1 days = 7 }
+			set_country_flag = CFD_prestes_is_returning
 		}
     }
 }
@@ -1789,11 +1771,12 @@ country_event = {
 
     option = {
       name = PEB.1.a
-      8 = {
-        set_demilitarized_zone = yes
-      }
-      country_event = { id = PEB.2 days = 3 }
-  }
+		8 = {
+			set_demilitarized_zone = yes
+		}
+		country_event = { id = PEB.2 days = 3 }
+		RPB = {country_event = { id = RPB.1 days = 14 } }
+	}
 }
 
 country_event = {
@@ -1809,7 +1792,7 @@ country_event = {
 		8 = {
 			set_demilitarized_zone = no
 		}
-		CFD = {
+		ROOT = {
 			set_country_flag = prestes_returned
 		}
       INT = {
@@ -1818,7 +1801,7 @@ country_event = {
         load_oob = "INT_1967"
 		load_oob = "INT_revolutionary_divisions"
       }
-      country_event = { id = PEB.3 }
+      country_event = { id = PEB.3 days = 3 }
   }
 } 
 
@@ -1834,18 +1817,23 @@ country_event = {
     option = {
       name = PEB.3.a
 
-    INT = {
-	  
-        declare_war_on = {
-          target = CFD
-          type = annex_everything
-        }
-
-            28 = { set_demilitarized_zone = yes }
-            502 = { set_demilitarized_zone = yes }
-            501 = { set_demilitarized_zone = yes }
-            30 = { set_demilitarized_zone = yes }
-		create_faction = partido_comunista_brasileiro_FACTION
-    }
-  } 
+		INT = {
+			
+			declare_war_on = {
+				target = PEB
+				type = annex_everything
+			}
+			
+			declare_war_on = {
+				target = CFD
+				type = annex_everything
+			}
+	
+			28 = { set_demilitarized_zone = yes }
+			502 = { set_demilitarized_zone = yes }
+			501 = { set_demilitarized_zone = yes }
+			30 = { set_demilitarized_zone = yes }
+			create_faction = partido_comunista_brasileiro_FACTION
+		}
+	}
 }

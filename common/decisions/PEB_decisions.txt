@@ -1,0 +1,37 @@
+PEB_main_category = {
+	PEB_prestes_returns_timer = {
+        allowed = { tag = PEB }
+        available = {
+            NOT = {country_exists = PEB}
+        }
+		visible = {
+			country_exists = PEB
+		}
+        activation = {
+			PEB = {has_country_flag = CFD_prestes_is_returning}
+        }
+		cancel_trigger = {
+			hidden_trigger = {
+				PEB = {has_country_flag = prestes_returned}
+			}
+		}
+        is_good = no
+        selectable_mission = no
+        days_mission_timeout = 700
+        timeout_effect = {
+			hidden_effect = {
+				clr_country_flag = CFD_prestes_is_returning
+				every_country = {
+					news_event = {
+						id = world.1
+						days = 3
+					}
+				}
+				country_event = {
+					id = PEB.1
+					days = 0
+				}
+			}
+        }
+	}
+}
