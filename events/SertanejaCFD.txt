@@ -778,6 +778,9 @@ country_event = { #Post-Prestes event
 				ruling_party = communism
 			}
 		}
+		ROOT = {
+			set_country_flag = demo_end
+		}
     }
 }
 
