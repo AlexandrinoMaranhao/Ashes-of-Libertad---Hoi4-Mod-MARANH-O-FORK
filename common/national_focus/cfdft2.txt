@@ -1260,6 +1260,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_betweeniron  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 25
+		}
 	}
 
 	#Between Iron...
@@ -1274,6 +1277,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_thessrpeasantssonthesswwhitehousess  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 25
+			
+			
+		}
 	}
 
 	#...The Communist Party...
@@ -1288,6 +1296,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_thepeasantleagues  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_popularity = {
+			    ideology = communism
+			    popularity = 0.02
+			}
+			
+			
+			
+		}
 	}
 
 	#The Peasant Leagues...
@@ -1302,6 +1319,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_thessrpeasantssonthesswwhitehousess  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = minorities_protected
+			add_popularity = {
+			    ideology = communism
+			    popularity = 0.02
+			}
+			
+		}
 	}
 
 	#...And the Agricultural Society of Planters
@@ -1316,6 +1341,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_thecommunistparty  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_popularity = {
+			    ideology = communism
+			    popularity = 0.02
+			}
+		}
 	}
 
 	#...Rises a Peasant
@@ -1330,6 +1361,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_andflowers  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 25
+		}
 	}
 
 	#The §YPSN§!-§RPCB§! Struggle
@@ -1355,6 +1389,7 @@ focus_tree = {
 			    uses = 5
 			    category = construction_tech
 			}
+			add_ideas = political_parties_controlled_opposition
 		}
 	}
 
@@ -1370,6 +1405,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_a_promise_of_study  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = vital_needs_fulfilled
+		}
 	}
 
 	#A Promise of Study
@@ -1407,9 +1445,6 @@ focus_tree = {
 			    remove_idea = CFD_the_peasant_leagues
 			    add_idea = CFD_peasant_leagues
 			}
-			
-			
-			
 		}
 	}
 
@@ -1430,9 +1465,7 @@ focus_tree = {
 			remove_decision = CFD_compromise_with_PSN
 			set_country_flag = CFD_end_balance
 			add_ideas = CFD_the_communal_sugar_plants
-			
-			
-			
+			add_ideas = trade_scope_regional_exports
 		}
 	}
 
@@ -1470,12 +1503,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_toprotecttheconfederacy  }
 		ai_will_do = { factor = 1 }
+		available = {
+			custom_trigger_tooltip = {
+			    tooltip = CFD_operations_completed_tt
+			    CFD = {
+				has_country_flag = operations_completed
+			    }
+			}
+		}
 		completion_reward = {
 			declare_war_on = {
 			    target = MNH
 			    type = annex_everything
 			}
+			add_threat = 10
 		}
+		will_lead_to_war_with = MNH
 	}
 
 	#To Protect the Confederacy...
@@ -1490,6 +1533,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_inviting_potencial_allies  } prerequisite = { focus = CFD_buying_on_debt  focus = CFD_inviting_potencial_allies  } prerequisite = { focus = CFD_the_agricultural_warfare_doctrine  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			army_experience = 30
+			navy_experience = 30
+			air_experience = 50
+			set_major = yes
+		}
 	}
 
 	#Inviting Potencial Allies
@@ -1504,6 +1553,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_the_border_dispute  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.15
+		}
 	}
 
 	#The Border Dispute
@@ -1693,15 +1746,8 @@ focus_tree = {
 		prerequisite = { focus = CFD_the_devil_at_our_border  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			MNH = {
-				inherit_technology = CFD
-			
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 1000
-					producer = CFD
-				}
-			}
+			send_embargo = LAM
+			send_embargo = BEM
 		}
 	}
 
@@ -1718,8 +1764,16 @@ focus_tree = {
 		prerequisite = { focus = CFD_cleansingthemaranhaofiefdom  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			MNH = {
-				load_oob = "CFD_MNH_PM"
+			CFD = {
+				19 = {
+					add_core_of = ROOT
+				}
+				18 = {
+					add_core_of = ROOT
+				}
+				23 = {
+					add_core_of = ROOT
+				}
 			}
 		}
 	}
@@ -1750,6 +1804,19 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_cleansingthemaranhaofiefdom  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			CFD = {
+				20 = {
+					add_core_of = ROOT
+				}
+				21 = {
+					add_core_of = ROOT
+				}
+				22 = {
+					add_core_of = ROOT
+				}
+			}
+		}
 	}
 
 	#Inviting the §RKnight of Hope§!

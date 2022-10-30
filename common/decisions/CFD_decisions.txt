@@ -1208,15 +1208,9 @@ CFD_main_category = {
 		modifier = {
 			root_out_resistance_effectiveness_factor = 0.3
 			compliance_growth_on_our_occupied_states = 0.3
-
 		}
 		remove_effect = {
 			add_stability = 0.1
-			CFD = {
-				20 = {
-					add_core_of = ROOT
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -1263,11 +1257,6 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			add_stability = 0.1
-			CFD = {
-				21 = {
-					add_core_of = ROOT
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -1314,11 +1303,6 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			add_stability = 0.1
-			CFD = {
-				22 = {
-					add_core_of = ROOT
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -1365,14 +1349,6 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			add_stability = 0.1
-			CFD = {
-				19 = {
-					add_core_of = ROOT
-				}
-				18 = {
-					add_core_of = ROOT
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -1419,11 +1395,6 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			add_stability = 0.1
-			CFD = {
-				23 = {
-					add_core_of = ROOT
-				}
-			}
 			clear_variable = CFD_post_mnh_restoration_process
 		}
 		ai_will_do = {

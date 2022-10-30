@@ -725,6 +725,8 @@ CFD_reactionary_party_long:0 "União Nacional Sertaneja"
 CFD_communism_party:0 "PCB"
 CFD_communism_party_long:0 "Partido Comunista Brasileiro"
 
+CFD_RED_communism_party:0 "LCU"
+CFD_RED_communism_party_long:0 "Ligas Camponesas Unificadas"
 CFD_no_PSN_democratic:0 "PLN"
 CFD_no_PSN_democratic_long:0 "Partido Liberal do Nordeste"
 CFD_no_PSN_neutrality:0 "PDC"

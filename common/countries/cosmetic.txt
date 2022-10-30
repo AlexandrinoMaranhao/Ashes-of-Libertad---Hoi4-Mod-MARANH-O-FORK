@@ -1,6 +1,10 @@
 
 
 
+CFD_RED = {
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }
+}
 
 ACR_PRONA = {
 	color = rgb { 97 127 0 }

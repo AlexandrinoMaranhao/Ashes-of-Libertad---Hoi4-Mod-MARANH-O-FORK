@@ -193,24 +193,14 @@ create_country_leader = {
 	traits = { ensuing_collapse }
 }
 
-create_country_leader = {
-	name = "-------"
-	desc = ""
-	picture = "Portrait_CFD_Paulo_Pessoa_Guerra.dds"
+create_country_leader = { #Pro-Church
+	name = "Aluízio Alves"
+	picture = "Portrait_RGN_Aluízio_Alves.dds"
+	desc = "ALUIZIO_DESC"
 	expire = "1999.1.1"
-	ideology = corporate_state_status_quo 
-	traits = {  }
+	ideology = corporate_state_status_quo
+	traits = { merciless_dominator }
 }
-
-
-#create_country_leader = { #Pro-Church
-#	name = "Aluízio Alves"
-#	picture = "Portrait_RGN_Aluízio_Alves.dds"
-#	desc = "ALUIZIO_DESC"
-#	expire = "1999.1.1"
-#	ideology = corporate_state_status_quo
-#	traits = { merciless_dominator }
-#}
 #create_country_leader = { #Pro-Usineiros
 #	name = "Paulo Pessoa Guerra"
 #	desc = ""

@@ -43,7 +43,7 @@ characters={
 		country_leader={
 			ideology= marxism
 			traits={ revolutionary_general communist_revolutionary }
-			expire="1999.1.1.1"
+			expire="1983.1.1.1"
 			id=-1
 		}
 	}

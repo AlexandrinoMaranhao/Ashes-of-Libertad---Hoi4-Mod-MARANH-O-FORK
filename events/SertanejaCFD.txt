@@ -362,13 +362,32 @@ country_event = { #Bezerra's remorse
 			}
 		}
 	}
-    is_triggered_only = yes
+	trigger = {
+		tag = CFD
+		CFD = {
+			AND = {
+				has_country_flag = prestes_returned
+				NOT = {
+					country_exists = INT
+				}
+			}
+		}
+	}
+	fire_only_once = yes
     picture = GFX_report_cfd_bezerra_remorse
 
     option = {
 		trigger = {
 			CFD = {
 				has_government = communism
+			}
+		}
+		hidden_effect = {
+			CFD = {
+				country_event = {
+					id = CFD_events.25
+					days = 3
+				}
 			}
 		}
         name = CFD_events.11.a.bezerra
@@ -719,6 +738,49 @@ country_event = { #Prestes' Countdown to extinction
     }
 }
 
+country_event = { #Post-Prestes event
+    id = CFD_events.25
+    title = CFD_events.25.t
+    desc = CFD_events.25.d
+    is_triggered_only = yes
+    picture = GFX_report_cfd_family_stuff
+
+    option = {
+        name = CFD_events.25.a
+		CFD = {
+			set_cosmetic_tag = CFD_RED
+			clr_country_flag = CFD_elections_phase_1
+			retire_character = CFD_miguel_arraes
+			add_ideas = religious_secularism
+			remove_ideas = CFD_sudene
+			set_popularities = {
+				democratic = 6
+				neutrality = 4
+				fascism = 0
+				communism = 90
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = CFD_no_PSN_neutrality_long
+				name = CFD_no_PSN_neutrality
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = CFD_no_PSN_democratic_long
+				name = CFD_no_PSN_democratic
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = CFD_RED_communism_party_long
+				name = CFD_RED_communism_party
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+    }
+}
+
 ###########################	The Elections events	###########################
 
 country_event = { #Eleições Start
@@ -868,6 +930,7 @@ country_event = { #Election yes or no
 			hidden_effect = {
 				complete_national_focus = CFD_nooneotherthanme
 				clear_variable = CFD_no_elections_chances
+				load_focus_tree = pebfocus
 				
 				country_event = {
 					id = CFD_events.24
