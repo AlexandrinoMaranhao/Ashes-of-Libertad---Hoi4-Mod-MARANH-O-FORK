@@ -5,7 +5,6 @@ state={
 	resources={
 		steel=12.000
 		aluminium =12.000
-		technology=4.000
 		chromium =2.000
 	}
 

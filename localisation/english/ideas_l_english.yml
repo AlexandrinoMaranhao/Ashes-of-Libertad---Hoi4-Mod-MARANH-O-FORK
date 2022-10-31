@@ -493,6 +493,9 @@
  GCP_anti_guerrilla_army:0 "Anti-Guerrilla Army"
  GCP_workshop_of_monsters:0 "The Workshop of Monsters"
  GCP_the_silver_deal:0 "§4Militarily Adminstrated District of the Silver Pact§!"
+ 
+ non_playable_nation:0 "§RNon-Playable Nation!§!"
+ non_playable_nation_desc:0 "§RThis nation isn't ready or isn't playable. Please, select another.§!"
 
 
  ########################################################

@@ -26,6 +26,7 @@ bookmarks = {
 				history = "MNS_GATHERING_STORM_DESC"
 				ideology = fascism
 				ideas = {
+				non_playable_nation
 				the_rubber_barons
 				what_apocalypse
 				}
@@ -92,6 +93,7 @@ bookmarks = {
 				history = "ROR_GATHERING_STORM_DESC"
 				ideology = communism
 				ideas = {
+				non_playable_nation
 				misfits
 				no_administration_roraima
 				}
@@ -103,6 +105,7 @@ bookmarks = {
 				history = "KAY_GATHERING_STORM_DESC"
 				ideology = neutrality
 				ideas = {
+				non_playable_nation
 				cachimbo_military_base
 				the_kayapo
 				tribal_wars

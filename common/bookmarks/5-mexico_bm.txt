@@ -11,6 +11,7 @@ bookmarks = {
 				history = "MEX_BM_MEXICO_DESC"
 					ideology = fascism
 				ideas = {
+					non_playable_nation #Remove it if you add playable content for Mexico, Oveja.
 			       MEX_mexican_civil_war
 			       MEX_political_catastrophe
 			       MEX_refugee_crisis

@@ -25,5 +25,9 @@ ideas = {
 					army_attack_factor = -0.10
 				}
 		}
+		
+		non_playable_nation = {
+			picture = idea_unknown
+		}
 	}
 }

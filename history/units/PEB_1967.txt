@@ -1,5 +1,4 @@
 division_template = {
-	is_locked = yes
 	name = "Infantaria Pernambucana"
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -12,42 +11,42 @@ division_template = {
 
 units = {
 	division = {
-		name = "Infantaria Pernambucana 1"
+		name = "Infantaria Miguelista"
 		location = 1793
 		division_template = "Infantaria Pernambucana"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Pernambucana 2"
+		name = "Infantaria Miguelista"
 		location = 1793
 		division_template = "Infantaria Pernambucana"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Pernambucana 3"
+		name = "Infantaria Miguelista"
 		location = 1793
 		division_template = "Infantaria Pernambucana"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Pernambucana 4"
+		name = "Infantaria Miguelista"
 		location = 1793
 		division_template = "Infantaria Pernambucana"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Pernambucana 5"
+		name = "Infantaria Miguelista"
 		location = 1793
 		division_template = "Infantaria Pernambucana"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "Infantaria Pernambucana 6"
+		name = "Infantaria Miguelista"
 		location = 1793
 		division_template = "Infantaria Pernambucana"
 		start_experience_factor = 0.4

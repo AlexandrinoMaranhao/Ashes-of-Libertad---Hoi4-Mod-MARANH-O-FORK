@@ -11,6 +11,7 @@ bookmarks = {
 				history = "CHL_SOUTH_SA_DESC"
 					ideology = neutrality
 				ideas = {
+				non_playable_nation
 				red_democracy
 				old_world_dichotomy
 				pacific_overtures
@@ -23,6 +24,7 @@ bookmarks = {
 				history = "ARG_SOUTH_SA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 			    }
 			    focuses = {
 			    }
@@ -32,6 +34,7 @@ bookmarks = {
 				history = "URG_SOUTH_SA_DESC"
 					ideology = neutrality
 				ideas = {
+				non_playable_nation
 				URG_switzerland_of_south_america
 				URG_armamentos_y_municiones_del_ejercito
 				URG_political_militias
@@ -44,6 +47,7 @@ bookmarks = {
 				history = "BOL_SOUTH_SA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				this_is_fine
 				mountain_strongholds
 			    }
@@ -55,6 +59,7 @@ bookmarks = {
 				history = "PAR_SOUTH_SA_DESC"
 					ideology = fascism
 				ideas = {
+				non_playable_nation
 			    }
 			    focuses = {
 			    }
@@ -64,6 +69,7 @@ bookmarks = {
 				history = "ERN_SOUTH_SA_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				a_dream_of_revolution
 				magnetic_personality
 				overextended_and_disorganized

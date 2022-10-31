@@ -1636,6 +1636,11 @@ country_event = {
                 neutrality = 0
                 reactionary = 0
             }
+			set_party_name = {
+				ideology = communism
+				long_name = RPB_communism_party
+				name = RPB_communism_party
+			}
 			create_country_leader = {
 				name = "Collapsed Government" 
 				desc = ""
@@ -1647,8 +1652,22 @@ country_event = {
 				}
 			}
 			clr_country_flag = CFD_elections_phase_1
-        }
-        PEB = {
+			set_nationality = {
+				target_country = PEB
+				character = CFD_miguel_arraes
+			}
+			set_nationality = {
+				target_country = PEB
+				character = CFD_ribeiro_paz
+			}
+			set_nationality = {
+				target_country = PEB
+				character = CFD_romeu_sobreira_de_moura
+			}
+			set_nationality = {
+				target_country = PEB
+				character = CFD_hangho_trench
+			}
 			set_nationality = {
 				target_country = PEB
 				character = CFD_joao_bezerra_de_araujo
@@ -1657,14 +1676,9 @@ country_event = {
 				target_country = PEB
 				character = CFD_inima_siqueira
 			}
-			set_nationality = {
-				target_country = PEB
-				character = CFD_hangho_trench
-			}
+        }
+        PEB = {
 			change_tag_from = CFD
-			load_oob = "PEB_1967"
-			country_event = { id = PEB.1 days = 7 }
-			set_country_flag = CFD_prestes_is_returning
 		}
     }
 }
@@ -1696,10 +1710,6 @@ country_event = {
               target = INT
               type = annex_everything
             }
-            declare_war_on = {
-              target = NUD
-              type = annex_everything
-            }
             random_country_with_original_tag = {
                 original_tag_to_check = PEB
                 limit = {
@@ -1711,6 +1721,17 @@ country_event = {
                 }
             }
         }
+		PEB = {
+			load_oob = "PEB_1967"
+			set_portraits = {
+				character = CFD_miguel_arraes
+				army={
+					large="gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+				}
+			}
+			country_event = { id = PEB.1 days = 7 }
+			set_country_flag = CFD_prestes_is_returning
+		}
         country_event = { id = CFD.3 days = 3 }
     }
 }

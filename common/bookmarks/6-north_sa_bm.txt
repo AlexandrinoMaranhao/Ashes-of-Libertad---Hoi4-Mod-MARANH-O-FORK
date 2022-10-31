@@ -11,6 +11,7 @@ bookmarks = {
 				history = "COL_NORTH_SA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				fading_support
 				colombian_war
 			    }
@@ -22,6 +23,7 @@ bookmarks = {
 				history = "VEN_NORTH_SA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				VEN_the_mir
 				VEN_democratic_protests
 			    }
@@ -33,6 +35,7 @@ bookmarks = {
 				history = "ENG_NORTH_SA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				ENG_the_sun_has_set
 				ENG_preassure_from_venezuela
 				ENG_struggling_federation
@@ -45,6 +48,7 @@ bookmarks = {
 				history = "HOL_NORTH_SA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				HOL_suriname_nationalism
 			    }
 			    focuses = {
@@ -55,6 +59,7 @@ bookmarks = {
 				history = "CAY_NORTH_SA_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				CAY_carib_rouge
 				CAY_vive_la_revolucion
 				CAY_famine_fever_fear
@@ -78,6 +83,7 @@ bookmarks = {
 				history = "LBT_NORTH_SA_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				colombian_war
 				support_from_down_south
 			    }
@@ -89,6 +95,7 @@ bookmarks = {
 				history = "FAR_NORTH_SA_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				colombian_war
 				the_farc
 			    }

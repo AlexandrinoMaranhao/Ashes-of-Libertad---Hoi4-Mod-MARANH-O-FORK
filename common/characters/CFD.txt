@@ -22,7 +22,7 @@ characters={
 		name= CFD_miguel_arraes
 		portraits={
 			civilian={
-				large="gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+				large="gfx/leaders/CFD/Portrait_PEB_Miguel_Arraes.dds"
 			}
 		}
 		country_leader={
@@ -265,7 +265,10 @@ characters={
 			slot = high_command
 			idea_token = CFD_romeu_sobreira_de_moura
 			allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
 			}
             available = {
                 OR = {
@@ -341,7 +344,10 @@ characters={
 			slot = high_command
 			idea_token = CFD_ribeiro_paz
 			allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
 			}
             available = {
                 OR = {

@@ -17,28 +17,29 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 0
+	democratic = 50
 	fascism = 0
-	communism = 40
-	neutrality = 0
-	reactionary = 60
+	communism = 10
+	neutrality = 30
+	reactionary = 10
 
 }
 
 add_ideas = {
-	economic_focus_early_mobilization
+	economic_focus_war_economy
 	trade_scope_regional_exports
-	conscription_volunteer_only
-
+	conscription_two_year_draft
+	bellow_poverty_line
+	militia_training
+	militia_officer_training
+	religious_pluralism
+	slavery_outlawed
+	political_parties_controlled_opposition
+	equal_rights
+	
 	cangaceiros_and_commies
 }
 set_country_flag = is_brazilian
-set_country_flag = use_generic_outsider_laws
-set_country_flag = use_generic_draft_exemptions_laws
-set_country_flag = use_generic_officer_training_laws
-set_country_flag = use_generic_troop_training_laws
-set_country_flag = use_generic_mobilization_laws
-set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
 	
@@ -47,16 +48,6 @@ create_country_leader = {
 	desc = "PRESTES_DESC"
 	expire = "1999.1.1"
 	ideology = marxism
-}
-
-create_country_leader = {
-	
-	name = "Miguel Arraes"
-	picture = "gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
-	desc = "ARRAES_DESC"
-	expire = "1999.1.1"
-	ideology = centrism
-	traits = { social_reformer_aol }
 }
 
 create_country_leader = {

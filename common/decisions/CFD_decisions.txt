@@ -2977,6 +2977,12 @@ CFD_piaui_frontier = {
 		}
 		remove_effect = {
 			set_variable = { cfd_piaui_frontier_progress = 0.52 }
+			set_portraits = {
+				character = CFD_pretonio_portella
+				army={
+					large="gfx/leaders/CFD/pretonio_portella_2.dds"
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -3213,6 +3219,12 @@ CFD_piaui_frontier = {
 		}
 		remove_effect = {
 			set_variable = { cfd_piaui_frontier_progress = 0.86 }
+			set_portraits = {
+				character = CFD_pretonio_portella
+				army={
+					large="gfx/leaders/CFD/pretonio_portella_3.dds"
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 999

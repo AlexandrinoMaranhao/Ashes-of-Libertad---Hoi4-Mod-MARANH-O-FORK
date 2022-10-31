@@ -1746,8 +1746,15 @@ focus_tree = {
 		prerequisite = { focus = CFD_the_devil_at_our_border  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			send_embargo = LAM
-			send_embargo = BEM
+			CFD = {
+				19 = {
+					add_core_of = ROOT
+				}
+				20 = {
+					add_core_of = ROOT
+				}
+			}
+			
 		}
 	}
 
@@ -1765,9 +1772,6 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			CFD = {
-				19 = {
-					add_core_of = ROOT
-				}
 				18 = {
 					add_core_of = ROOT
 				}
@@ -1775,6 +1779,7 @@ focus_tree = {
 					add_core_of = ROOT
 				}
 			}
+			
 		}
 	}
 
@@ -1790,6 +1795,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_peaceatlast  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			send_embargo = LAM
+			send_embargo = BEM
+		}
 	}
 
 	#The Police State
@@ -1806,9 +1815,6 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			CFD = {
-				20 = {
-					add_core_of = ROOT
-				}
 				21 = {
 					add_core_of = ROOT
 				}
@@ -1816,6 +1822,7 @@ focus_tree = {
 					add_core_of = ROOT
 				}
 			}
+			
 		}
 	}
 

@@ -11,6 +11,7 @@ bookmarks = {
 				history = "ERG_CENTRAL_AMERICA_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				ERG_no_way_out
 				ERG_hostile_pop
 				ERG_exiles
@@ -23,6 +24,7 @@ bookmarks = {
 				history = "GUA_CENTRAL_AMERICA_DESC"
 					ideology = fascism
 				ideas = {
+				non_playable_nation
 			    }
 			    focuses = {
 			    }
@@ -32,6 +34,7 @@ bookmarks = {
 				history = "ELS_CENTRAL_AMERICA_DESC"
 					ideology = fascism
 				ideas = {
+				non_playable_nation
 				ELS_communist_sympathizers
 				ELS_14_families
 				ELS_fury_of_young_officers
@@ -44,6 +47,7 @@ bookmarks = {
 				history = "HON_CENTRAL_AMERICA_DESC"
 					ideology = fascism
 				ideas = {
+				non_playable_nation
 			    }
 			    focuses = {
 			    }
@@ -53,6 +57,7 @@ bookmarks = {
 				history = "NIC_CENTRAL_AMERICA_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				NIC_sandinos_martyrdom
 				NIC_sorrounded_by_pigs
 			    }
@@ -64,6 +69,7 @@ bookmarks = {
 				history = "COS_CENTRAL_AMERICA_DESC"
 					ideology = reactionary
 				ideas = {
+				non_playable_nation
 				COS_anti_nicaraguan_sentiment
 				COS_jimenezs_dark_sympathies
 			    }
@@ -75,6 +81,7 @@ bookmarks = {
 				history = "PAN_CENTRAL_AMERICA_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				PAM_pull_right
 				the_panamanian_stalemate
 			    }

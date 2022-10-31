@@ -41,6 +41,7 @@ bookmarks = {
 				history = "BRA_BRAZUKA_DESC"
 				ideology = democratic
 				ideas = {
+				non_playable_nation
 				BRA_the_southern_military_command
 				last_stand_of_the_republic
 				the_knockedout_giant_BRA
@@ -55,6 +56,7 @@ bookmarks = {
 				history = "JUN_BRAZUKA_DESC"
 				ideology = fascism
 				ideas = {
+				non_playable_nation
 				JUN_plateau_military_command
 				the_man_in_the_white_castle
 				the_knockedout_giant_JUN
@@ -67,6 +69,7 @@ bookmarks = {
 				history = "CRJ_BRAZUKA_DESC"
 				ideology = fascism
 				ideas = {
+				non_playable_nation
 				CRJ_the_eastern_military_command
 				scars_of_guanabara
 				CRJ_isolated_battalions_in_mg
@@ -90,6 +93,7 @@ bookmarks = {
 				history = "JAG_BRAZUKA_DESC"
 				ideology = fascism
 				ideas = {
+				non_playable_nation
 				filinto_is_an_ass
 				MGS_JAG_the_battle_of_mato_grosso
 				gambiarra_army
@@ -102,6 +106,7 @@ bookmarks = {
 				history = "RMI_BRAZUKA_DESC"
 				ideology = communism
 				ideas = {
+				non_playable_nation
 				christian_communism
 				stagnated_revolution
 				trabalhismo_mineiro

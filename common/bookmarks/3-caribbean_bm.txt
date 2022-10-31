@@ -11,8 +11,9 @@ bookmarks = {
 				history = "CUB_CARIBBEAN_DESC"
 					ideology = communism
 				ideas = {
-				true_heir_of_cuba
-				pro_castro
+					non_playable_nation
+					true_heir_of_cuba
+					pro_castro
 			    }
 			    focuses = {
 			    }
@@ -22,6 +23,7 @@ bookmarks = {
 				history = "HAI_CARIBBEAN_DESC"
 					ideology = reactionary
 				ideas = {
+				non_playable_nation
 				HAI_papa_doc
 			    }
 			    focuses = {
@@ -32,6 +34,7 @@ bookmarks = {
 				history = "DOM_CARIBBEAN_DESC"
 					ideology = democratic
 				ideas = {
+				non_playable_nation
 				DOM_trujillos_legacy
 			    }
 			    focuses = {
@@ -42,6 +45,7 @@ bookmarks = {
 				history = "USR_CARIBBEAN_DESC"
 					ideology = fascism
 				ideas = {
+				non_playable_nation
 				USR_leadership_struggles
 				USR_shadow_of_america
 				USR_the_panama_question
@@ -54,6 +58,7 @@ bookmarks = {
 				history = "DRE_CARIBBEAN_DESC"
 					ideology = communism
 				ideas = {
+				non_playable_nation
 				split_leadership
 				anti_castro
 			    }
@@ -65,6 +70,7 @@ bookmarks = {
 				history = "BTA_CARIBBEAN_DESC"
 					ideology = fascism
 				ideas = {
+				non_playable_nation
 				batistas_unfounded_ego
 				old_world_blues
 			    }
@@ -76,6 +82,7 @@ bookmarks = {
 				history = "CUP_CARIBBEAN_DESC"
 					ideology = reactionary
 				ideas = {
+				non_playable_nation
 				pirates_of_the_caribbean
 			    }
 			    focuses = {
