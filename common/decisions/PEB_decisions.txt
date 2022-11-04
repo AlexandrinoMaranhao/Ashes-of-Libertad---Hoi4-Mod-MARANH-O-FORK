@@ -2,7 +2,7 @@ PEB_main_category = {
 	PEB_prestes_returns_timer = {
         allowed = { tag = PEB }
         available = {
-            NOT = {country_exists = PEB}
+            always = no
         }
 		visible = {
 			country_exists = PEB

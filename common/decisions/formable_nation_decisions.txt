@@ -1531,7 +1531,6 @@ form_united_nordeste_category = {
 			controls_state = 7
 			controls_state = 10
 			controls_state = 2
-			controls_state = 11
 		}
 		complete_effect = {
 			nordeste_unification_initialization = yes
@@ -1551,6 +1550,7 @@ form_united_nordeste_category = {
 				10 = { add_core_of = ROOT }
 				2 = { add_core_of = ROOT }
 				11 = { add_core_of = ROOT }
+				PEB = {set_cosmetic_tag = CFD_BRA}
 			}
 		}
 		ai_will_do = {

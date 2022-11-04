@@ -11,22 +11,19 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = reactionary
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
+	democratic = 20
 	fascism = 0
 	communism = 0
 	neutrality = 0
-	reactionary = 100
+	reactionary = 80
 }
 
-add_ideas = {
-	padre_cicero
-}
 set_country_flag = is_brazilian
 set_country_flag = use_generic_outsider_laws
 set_country_flag = use_generic_draft_exemptions_laws
@@ -43,4 +40,14 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = christian_theocracy_reactionary
 	traits = { new_cicero }
+}
+
+create_country_leader = {
+	
+	name = "Virgílio Távora"
+	picture = "Portrait_CEA_Virgilio_Tavora.dds"
+	desc = ""
+	expire = "1999.1.1"
+	ideology = provisional_government 
+	traits = { popular_figurehead2 nationalist_symbol   }
 }

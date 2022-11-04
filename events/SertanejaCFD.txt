@@ -1678,6 +1678,7 @@ country_event = {
 			}
         }
         PEB = {
+			transfer_state  = 2
 			change_tag_from = CFD
 		}
     }
@@ -1696,30 +1697,12 @@ country_event = {
         CEA = {
             transfer_state  = 14
             transfer_state  = 12
+            transfer_state  = 13
             load_oob = "CEA_1967"
-            declare_war_on = {
-                target = CFD 
-                type = annex_everything
-            }
-
-            declare_war_on = {
-                target = PEB 
-                type = annex_everything
-            }
-            declare_war_on = {
-              target = INT
-              type = annex_everything
-            }
-            random_country_with_original_tag = {
-                original_tag_to_check = PEB
-                limit = {
-                    has_government = communism
-                }
-                declare_war_on = {
-                    target = PREV 
-                    type = annex_everything
-                }
-            }
+			set_truce = {
+				target = PEB
+				days = 30
+			}
         }
 		PEB = {
 			load_oob = "PEB_1967"
@@ -1729,7 +1712,6 @@ country_event = {
 					large="gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
 				}
 			}
-			country_event = { id = PEB.1 days = 7 }
 			set_country_flag = CFD_prestes_is_returning
 		}
         country_event = { id = CFD.3 days = 3 }
@@ -1754,14 +1736,7 @@ country_event = {
             transfer_state  = 4
             transfer_state  = 5
             load_oob = "RGN_1967"
-            declare_war_on = {
-                target = CFD
-                type = annex_everything
-            }
-            declare_war_on = {
-              target = INT
-              type = annex_everything
-            }
+			
             declare_war_on = {
                 target = PEB 
                 type = annex_everything
@@ -1783,12 +1758,12 @@ country_event = {
                 }
             }
         }
-        country_event = { id = CFD.4 days = 3 }
+        country_event = { id = CFD.5 days = 7 }
     }
 }
 
 country_event = {
-    id = CFD.5 # ALA breaks away from CFD
+    id = CFD.5 # ALA and PAI breaks away from CFD
     title = CFD.5.t
     desc = CFD.5.d
     fire_only_once = yes
@@ -1800,16 +1775,102 @@ country_event = {
 		every_country = {
 			news_event = {
 				id = world.79
-				days = 1
+				days = 7
 			}
 		}
-        ALA = {
-            transfer_state  = 10
-            load_oob = "ALA_1967"
-            declare_war_on = {
-                target = CFD
+		release = PAI
+		
+		#MAODC takeover.
+		CEA = {
+			kill_ideology_leader = democratic
+			set_politics = {
+				ruling_party = reactionary
+				elections_allowed = no
+			}
+			set_cosmetic_tag = CEA_MAODC
+			declare_war_on = {
+                target = PEB 
                 type = annex_everything
             }
+			add_ideas = {
+				padre_cicero
+			}
+		}
+		
+		#Portella Takeover
+		PIA = {
+			transfer_state = 575 
+			transfer_state = 577
+			transfer_state = 576
+			transfer_state = 578
+			transfer_state = 580
+			transfer_state = 579
+			transfer_state = 582
+			transfer_state = 581
+			transfer_state = 16
+			transfer_state = 583
+			transfer_state = 584
+			
+			remove_ideas = {PIA_wolf_adminstration}
+			
+			create_country_leader = {
+				name = CFD_pretonio_portella
+				desc = ""
+				picture = "gfx/leaders/CFD/pretonio_portella_3.dds"
+				expire = "1985.1.1"
+				ideology = authoritarian_democracy
+				traits = {
+					
+				}
+			}
+			
+			declare_war_on = {
+				target = PNA
+				type = annex_everything
+			}
+		}
+		
+		PAI = {
+			load_oob = "PAI_1967"
+			
+            declare_war_on = {
+                target = PEB 
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = CEA
+                type = annex_everything
+            }
+
+            declare_war_on = {
+                target = RGN
+                type = annex_everything
+            }
+            
+            declare_war_on = {
+                target = ALA
+                type = annex_everything
+            }
+			
+            random_country_with_original_tag = {
+                original_tag_to_check = PEB
+                limit = {
+                    has_government = communism
+                }
+                declare_war_on = {
+                    target = PREV 
+                    type = annex_everything
+                }
+            }
+		}
+		
+        ALA = {
+            transfer_state = 573
+            transfer_state = 10
+			
+            load_oob = "ALA_1967"
+			
             declare_war_on = {
               target = INT
               type = annex_everything
@@ -1845,6 +1906,7 @@ country_event = {
                 }
             }
         }
+		
     }
 }
 

@@ -1199,6 +1199,13 @@ news_event = { # Collapse of the CFD
 
 	option = {
 		name = world.79.a
+		hidden_effect = {
+			CNU = {
+				annex_country = {
+					target = CFD
+				}
+			}
+		}
 	}
 }
 
