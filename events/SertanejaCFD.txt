@@ -1865,6 +1865,13 @@ country_event = {
             }
 		}
 		
+		MNH = {
+			country_event = {
+				id = MNH.1
+				days = 120
+			}
+		}
+		
         ALA = {
             transfer_state = 573
             transfer_state = 10
