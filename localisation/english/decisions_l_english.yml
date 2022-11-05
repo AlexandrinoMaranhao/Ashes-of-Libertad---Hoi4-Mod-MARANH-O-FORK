@@ -123,6 +123,6 @@
  CFD_reform_army_3:0 "Introduce Pro-Confederation propaganda on patrol drills"
  
  CFD_nation_development_category:0 "National Development Programs"
- CFD_nation_development_category_desc:0 "**WIP**\n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash]§! \nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                              £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
+ CFD_nation_development_category_desc:0 "**WIP**\n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash|=]K§! \nCurrent £GFX_civ_factory §OCivilian Factories§! amount: §O[?num_of_civilian_factories|=]§! \nCurrent £GFX_mil_factory §GMilitary Factories§! amount: §G[?num_of_military_factories|=]§! \n\nFor each £GFX_mil_factory Military Factories, you get a §Rincome loss§! of §R1K§!, for each £GFX_civ_factory Civilian Factories you get a §Gincome increase§! of §G0.5K§!.		 \n\nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                       £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
  CFD_balance_category:0 "§YPSN§! - §RPCB§! Power Balance"
  CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"

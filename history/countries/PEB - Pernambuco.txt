@@ -37,6 +37,7 @@ add_ideas = {
 	political_parties_controlled_opposition
 	equal_rights
 	
+	CFD_the_northeastern_military_command 
 	cangaceiros_and_commies
 }
 set_country_flag = is_brazilian

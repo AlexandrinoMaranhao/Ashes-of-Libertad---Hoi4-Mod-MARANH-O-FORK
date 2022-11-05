@@ -10,10 +10,11 @@ CFD_nationwide_progress_80_tt:0 "The current 'Development Progress' needs to be 
 CFD_nationwide_progress_increase_tt:0 "This will add §G10%§! for the 'Development Progress' status."
 CFD_compromise_PCB_tt:0 "We will look for a political compromise in the £GFX_CFD_PCB_party_icon §RPCB§! and our current administration."
 CFD_compromise_PSN_tt:0 "We will look for a political compromise in the £GFX_CFD_PSNU_party_icon §YPSN§! and our current administration."
-CFD_monthly_cash_tt:0 "We will §Ggain§! £GFX_CFD_cash_icon §Y0.25 Cash§! for our bank reserves.\n"
-CFD_will_get_cash:0 "We will §Ggain§! £GFX_CFD_cash_icon §Y1 Cash§! for our bank reserves.\n"
-CFD_will_get_cash_at_pp_cost:0 "We will §Ggain§! £GFX_CFD_cash_icon §Y1 Cash§! at the cost of £GFX_pol_power §Y10 Political Power§!.\n"
-CFD_will_lose_cash:0 "We will §Rlose§! £GFX_CFD_cash_icon §Y1 Cash§! from our bank reserves.\n"
+CFD_monthly_cash_tt:0 "We §Ggain§! £GFX_CFD_cash_icon §G[?CFD_monthly_cash_income]§! Cash due to our Civilian Factories.\n"
+CFD_monthly_payment_tt:0 "We will get a §Rpenalization§! of £GFX_CFD_cash_icon §R[?num_of_military_factories]§! Cash due to our Military Factories as payment.\n"
+CFD_will_get_cash:0 "We will §Ggain§! £GFX_CFD_cash_icon §G1 Cash§! for our bank reserves.\n"
+CFD_will_get_cash_at_pp_cost:0 "We will §Ggain§! £GFX_CFD_cash_icon §G$RIGHT$ Cash§! at the cost of £GFX_pol_power §Y10 Political Power§!.\n"
+CFD_will_lose_cash:0 "We will §Rlose§! £GFX_CFD_cash_icon §R$RIGHT$ Cash§! as payment.\n"
 CFD_leagues_support_tt:0 "The §RPeasant leagues§! occupations on the §Ysugar plants§! are §GStable§! or better." 
  
 #Custom cost tooltips

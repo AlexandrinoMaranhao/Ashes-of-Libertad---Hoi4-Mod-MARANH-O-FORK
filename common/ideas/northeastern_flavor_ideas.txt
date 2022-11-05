@@ -11,6 +11,18 @@ ideas = {
 			}
 		}
 		
+		CFD_the_northeastern_military_command = {
+			modifier = {
+				heat_attrition_factor = -1.0
+				acclimatization_hot_climate_gain_factor = 0.5
+				experience_gain_army = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				land_doctrine_cost_factor = -0.25
+				command_abilities_cost_factor = -0.25
+			}
+		}
+		
 		PIA_good_jesus_mercs = {
 		
 			modifier = {

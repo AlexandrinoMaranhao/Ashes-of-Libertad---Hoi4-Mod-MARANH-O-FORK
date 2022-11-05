@@ -1571,10 +1571,10 @@ CFD_nation_development_category = {
 		modifier = {
 		}
 		remove_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -25
+				tooltip = CFD_will_lose_cash
 			}
 			remove_ideas = CFD_barterbased_economy
 		}
@@ -1593,9 +1593,6 @@ CFD_nation_development_category = {
 				always = no
 			}
 		}
-		cancel_trigger = {
-			has_war = yes
-		}
 		icon = GFX_decision_generic_civil_support
 		is_good = yes
 		days_mission_timeout = 30
@@ -1603,13 +1600,48 @@ CFD_nation_development_category = {
 		complete_effect = {
 		}
 		timeout_effect = {
-			custom_effect_tooltip = CFD_monthly_cash_tt
+			###Dividing by 2 gives to the player 50% of the total civilian factories into their currency as brute currency status, instead of 100% of the current amount.
+			set_variable = {
+				var = CFD_monthly_cash_income
+				value = num_of_civilian_factories
+			}
+			round_variable = CFD_resource_cash
+			divide_variable = { CFD_monthly_cash_income = 2 }
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = 0.25
+				value = CFD_monthly_cash_income
+				tooltip = CFD_monthly_cash_tt
 			}
 			hidden_effect = {
 				activate_decision = CFD_monthly_cash_gain
+			}
+		}
+	}
+	CFD_monthly_cash_payment = {
+		activation = {
+			CFD = {
+				has_country_flag = CFD_development
+			}
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = GFX_decision_generic_civil_support
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		complete_effect = {
+		}
+		timeout_effect = {
+			subtract_from_variable = {
+				var = CFD_monthly_cash_income
+				value = num_of_military_factories
+				tooltip = CFD_monthly_payment_tt
+			}
+			hidden_effect = {
+				activate_decision = CFD_monthly_cash_payment
 			}
 		}
 	}
@@ -1648,10 +1680,10 @@ CFD_nation_development_category = {
 		remove_effect = {
 			add_stability = 0.05
 			add_ideas = WR_acceptable_regulations
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -10
+				tooltip = CFD_will_lose_cash
 			}
 			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
 			add_to_variable = {
@@ -1697,10 +1729,10 @@ CFD_nation_development_category = {
 			add_stability = 0.05
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -10
+				tooltip = CFD_will_lose_cash
 			}
 			add_ideas = SI_acceptable_regulations
-			custom_effect_tooltip = CFD_will_lose_cash
 			custom_effect_tooltip = CFD_nationwide_progress_increase_tt
 			add_to_variable = {
 				var = CFD_nationwide_progress
@@ -1724,7 +1756,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -1736,8 +1768,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = aluminium
@@ -1771,7 +1806,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -1783,8 +1818,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = aluminium
@@ -1818,7 +1856,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -1830,8 +1868,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = chromium
@@ -1865,7 +1906,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -1877,8 +1918,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = chromium
@@ -1912,7 +1956,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -1924,8 +1968,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = steel
@@ -1959,7 +2006,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -1971,8 +2018,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = steel
@@ -2006,7 +2056,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -2018,8 +2068,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = tungsten
@@ -2053,7 +2106,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 15
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_can_upgrade_laws
@@ -2065,8 +2118,11 @@ CFD_nation_development_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_to_variable = { CFD_resource_cash = -1.0 }
-				custom_effect_tooltip = CFD_will_lose_cash
+				add_to_variable = {
+					var = CFD_resource_cash
+					value = -15
+					tooltip = CFD_will_lose_cash
+				}
 				capital_scope = {
 					add_resource = {
 						type = tungsten
@@ -2097,7 +2153,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 5
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_development
@@ -2108,10 +2164,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -5
+				tooltip = CFD_will_lose_cash
 			}
 			add_offsite_building = { type = arms_factory level = 3 }
 		}
@@ -2135,7 +2191,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 10
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_development
@@ -2146,10 +2202,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -10
+				tooltip = CFD_will_lose_cash
 			}
 			add_offsite_building = { type = industrial_complex  level = 10 }
 		}
@@ -2173,7 +2229,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 10
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_development
@@ -2184,10 +2240,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -10
+				tooltip = CFD_will_lose_cash
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -2214,7 +2270,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 5
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_development
@@ -2225,10 +2281,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -5
+				tooltip = CFD_will_lose_cash
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
@@ -2260,7 +2316,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 20
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_development
@@ -2271,10 +2327,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -20
+				tooltip = CFD_will_lose_cash
 			}
 			add_equipment_to_stockpile = {
 				type = motorized_equipment
@@ -2306,7 +2362,7 @@ CFD_nation_development_category = {
 				AND = {
 					check_variable = {
 						var = CFD_resource_cash
-						value = 1.0
+						value = 20
 						compare = greater_than_or_equals
 					}
 					has_country_flag = CFD_development
@@ -2317,10 +2373,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_lose_cash
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = -1
+				value = -20
+				tooltip = CFD_will_lose_cash
 			}
 			add_equipment_to_stockpile = {
 				type = anti_tank_equipment
@@ -2363,10 +2419,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_get_cash_at_pp_cost
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = 1
+				value = 10
+				tooltip = CFD_will_get_cash_at_pp_cost
 			}
 			add_equipment_to_stockpile = {
 				type = train_equipment
@@ -2404,10 +2460,10 @@ CFD_nation_development_category = {
 			has_country_flag = CFD_development
 		}
 		complete_effect = {
-			custom_effect_tooltip = CFD_will_get_cash_at_pp_cost
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = 1
+				value = 5
+				tooltip = CFD_will_get_cash_at_pp_cost
 			}
 			add_equipment_to_stockpile = {
 				type = convoy
