@@ -16,6 +16,7 @@ CFD_will_get_cash:0 "We will §Ggain§! £GFX_CFD_cash_icon §G1 Cash§! for our
 CFD_will_get_cash_at_pp_cost:0 "We will §Ggain§! £GFX_CFD_cash_icon §G$RIGHT$ Cash§! at the cost of £GFX_pol_power §Y10 Political Power§!.\n"
 CFD_will_lose_cash:0 "We will §Rlose§! £GFX_CFD_cash_icon §R$RIGHT$ Cash§! as payment.\n"
 CFD_leagues_support_tt:0 "The §RPeasant leagues§! occupations on the §Ysugar plants§! are §GStable§! or better." 
+PEB_can_recruit_ppl:0 "Upon completion of this focus, [ROOT.GetName] will be allowed to recruit §Oblackmarket§! soldiers."
  
 #Custom cost tooltips
 decision_cost_CP_15:0 "£command_power  §Y15§!"

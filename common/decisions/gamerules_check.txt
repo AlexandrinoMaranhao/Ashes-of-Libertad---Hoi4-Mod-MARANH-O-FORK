@@ -16,15 +16,31 @@ gamerules_check = {
 		}
 	}
 	portuclave_activation = {
-		days_remove = 1
-		fire_only_once = yes
+		activation = {
+			date < 1967.09.03
+		}
+		visible = {
+			OR = {
+				is_debug = yes
+				is_ai = yes
+			}
+		}
 		available = {
 			has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_ENABLED }
 		}
-		activation = {
-			has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_ENABLED }
+		cancel_trigger = {
+			NOT = {has_game_rule = { rule = portoclave_setup option = PORTOCLAVE_ENABLED }}
 		}
+		fire_only_once = yes
+		is_good = yes
+		days_mission_timeout = 3
+		selectable_mission = yes
 		complete_effect = {
+			POR = {
+				transfer_state = 2
+			}
+		}
+		timeout_effect = {
 			POR = {
 				transfer_state = 2
 			}
@@ -34,15 +50,34 @@ gamerules_check = {
 		}
 	}
 	el_salvadorian_bos_activation = {
-		days_remove = 1
-		fire_only_once = yes
+		
+		activation = {
+			date < 1967.09.03
+		}
+		visible = {
+			OR = {
+				is_debug = yes
+				is_ai = yes
+			}
+		}
 		available = {
 			has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }
 		}
-		activation = {
-			has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }
+		cancel_trigger = {
+			NOT = {has_game_rule = { rule = el_salvadorian_bos_setup option = ELSAL_BOS_ON }}
 		}
+		fire_only_once = yes
+		is_good = yes
+		days_mission_timeout = 3
+		selectable_mission = yes
 		complete_effect = {
+			ELC = {
+				transfer_state = 547
+				transfer_state = 541
+				load_oob = "ELC_1967"
+			}
+		}
+		timeout_effect = {
 			ELC = {
 				transfer_state = 547
 				transfer_state = 541

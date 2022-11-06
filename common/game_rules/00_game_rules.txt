@@ -580,6 +580,68 @@ ACR_ai_behavior = {
 	}
 }
 
+CFD_ai_behavior = {
+	name = "CFD_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CFD_BEZERRA_PATH
+		text = "RULE_OPTION_BEZERRA_PATH"
+		desc = "RULE_OPTION_BEZERRA_PATH_DESC"
+	}
+	option = {
+		name = CFD_MIGUEL_PATH
+		text = "RULE_OPTION_MIGUEL_PATH"
+		desc = "RULE_OPTION_MIGUEL_PATH_DESC"
+	}
+	#option = {
+	#	name = CFD_PSNU_PG_PATH
+	#	text = "RULE_OPTION_PSNU_PG_PATH"
+	#	desc = "RULE_OPTION_PSNU_PG_PATH_DESC"
+	#}
+	#option = {
+	#	name = CFD_PSNU_AA_PATH
+	#	text = "RULE_OPTION_PSNU_AA_PATH"
+	#	desc = "RULE_OPTION_PSNU_AA_PATH_DESC"
+	#}
+	#option = {
+	#	name = CFD_PSNU_TB_PATH
+	#	text = "RULE_OPTION_PSNU_TB_PATH"
+	#	desc = "RULE_OPTION_PSNU_TB_PATH_DESC"
+	#}
+}
+
+SAO_ai_behavior = {
+	name = "SAO_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SAO_MARIGHELLA_PATH
+		text = "RULE_OPTION_MARIGHELLA_PATH"
+		desc = "RULE_OPTION_MARIGHELLA_PATH_DESC"
+	}
+	option = {
+		name = SAO_FIGUEIREDO_PATH
+		text = "RULE_OPTION_FIGUEIREDO_PATH"
+		desc = "RULE_OPTION_FIGUEIREDO_PATH_DESC"
+	}
+	#option = {
+	#	name = SAO_JANIO_PATH
+	#	text = "RULE_OPTION_JANIO_PATH"
+	#	desc = "RULE_OPTION_JANIO_PATH_DESC"
+	#}
+}
+
 #########################
 #######Game Setup########
 #########################

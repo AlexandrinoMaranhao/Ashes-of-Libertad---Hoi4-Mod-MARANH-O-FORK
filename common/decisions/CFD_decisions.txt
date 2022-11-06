@@ -1605,13 +1605,13 @@ CFD_nation_development_category = {
 				var = CFD_monthly_cash_income
 				value = num_of_civilian_factories
 			}
-			round_variable = CFD_resource_cash
 			divide_variable = { CFD_monthly_cash_income = 2 }
 			add_to_variable = {
 				var = CFD_resource_cash
 				value = CFD_monthly_cash_income
 				tooltip = CFD_monthly_cash_tt
 			}
+			round_variable = CFD_resource_cash
 			hidden_effect = {
 				activate_decision = CFD_monthly_cash_gain
 			}
