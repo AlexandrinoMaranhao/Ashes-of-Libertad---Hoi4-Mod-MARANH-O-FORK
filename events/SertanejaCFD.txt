@@ -1674,7 +1674,15 @@ country_event = { #Failstate stuff
 		
 		}
 		PAI = {
-			kill_country_leader = yes
+			create_country_leader = {
+				
+				name = "Rui Carneiro"
+				picture = "gfx/leaders/CFD/Portrait_PAI_Rui_Carneiro.dds"
+				desc = ""
+				expire = "1999.1.1"
+				ideology = coronelism
+				traits = { }
+			}
 			transfer_state = 503
 			transfer_state = 6
 			set_cosmetic_tag = PAI_FREE
