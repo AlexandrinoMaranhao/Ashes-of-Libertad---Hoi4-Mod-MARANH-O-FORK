@@ -1509,7 +1509,6 @@ form_united_nordeste_category = {
 		visible = {
 			OR = {
 				original_tag = CEA
-				original_tag = PEB
 				original_tag = RGN
 				original_tag = ALA
 				original_tag = PAI
@@ -1551,6 +1550,7 @@ form_united_nordeste_category = {
 				2 = { add_core_of = ROOT }
 				11 = { add_core_of = ROOT }
 				PEB = {set_cosmetic_tag = CFD_BRA}
+				ROOT = {remove_ideas = CFD_osertaneja_collapse}
 			}
 		}
 		ai_will_do = {

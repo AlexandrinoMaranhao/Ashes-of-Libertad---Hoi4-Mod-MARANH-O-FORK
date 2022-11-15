@@ -34,7 +34,7 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Helvídio Nunes"
+	name = JIN_JDF
 	picture = "gfx/leaders/PIA/Portrait_STR_Merc5.dds"
 	expire = "1999.1.1"
 	ideology = coronelism

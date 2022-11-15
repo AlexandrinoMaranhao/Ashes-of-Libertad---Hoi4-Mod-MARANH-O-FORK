@@ -1,0 +1,71 @@
+division_template = {
+	is_locked = yes
+	name = "Milícia Pernambucana"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+        militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Militia Unit"
+		location = 1793 
+		division_template = "Milícia Pernambucana"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}

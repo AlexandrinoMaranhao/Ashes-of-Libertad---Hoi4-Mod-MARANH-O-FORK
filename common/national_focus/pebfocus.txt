@@ -1,0 +1,2053 @@
+focus_tree = {
+	id = pebfocus
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PEB
+		}
+	}
+	#A Professionalized Army
+	focus = {
+		id = PEB_a_professionalized_army
+		icon = GFX_PEB_a_professionalized_army-170979
+		x = 15
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_improving_the_flow  focus = PEB_carpet_ruling  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = PEB_remove_mercs
+			add_ideas = professional_training_methods
+			add_ideas = no_mercenaries
+			add_ideas = professional_officer_training
+			add_war_support = 0.1
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 2
+			    category = mountaineers_tech
+			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 2
+			    category = recon_tech
+			}
+		}
+	}
+
+	#Seizing the Mills
+	focus = {
+		id = PEB_seizing_the_mills
+		icon = GFX_PEB_seizing_the_mills-170979
+		x = 25
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_stabilizing_control  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_stability = 0.15
+			add_war_support = 0.15
+		}
+	}
+
+	#United Pernambuco
+	focus = {
+		id = PEB_united_pernambuco
+		icon = GFX_PEB_united_pernambuco-170979
+		x = 19
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_campaign_for_unification  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			create_intelligence_agency = {
+			    name = "Centro de Operações de Defesa Interna"
+			    icon = GFX_intelligence_agency_logo_doicodi_bem
+			}
+			custom_effect_tooltip = PEB_can_recruit_ppl
+			add_ideas = {
+				CFD_drayton_nejaim_advisor 
+				CFD_otavio_araujo_advisor 
+				CFD_germano_coelho_advisor 
+			}
+		}
+	}
+
+	#Stabilizing Control
+	focus = {
+		id = PEB_stabilizing_control
+		icon = GFX_PEB_stabilizing_control-170979
+		x = 24
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_westandalone  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.1
+			add_ideas = political_parties_controlled_opposition
+			add_ideas = censored_press
+		}
+	}
+
+	#We Stand Alone...
+	focus = {
+		id = PEB_westandalone
+		icon = GFX_PEB_westandalone-170979
+		x = 21
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			inherit_technology = CFD
+							country_event = {
+								id = CFD_events.24
+								days = 14
+							}
+		}
+	}
+
+	#Campaign For Unification
+	focus = {
+		id = PEB_campaign_for_unification
+		icon = GFX_PEB_campaign_for_unification-170979
+		x = 18
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_westandalone  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_war_support = 0.25
+			9 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Appeal To The People
+	focus = {
+		id = PEB_appeal_to_the_people
+		icon = GFX_PEB_appeal_to_the_people-170979
+		x = 23
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_stabilizing_control  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			574 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			add_ideas = {
+				CFD_etvelvino_lins_advisor
+				CFD_pelopidas_silveira_advisor 
+				CFD_francisco_queiroz_advisor
+			}
+			
+		}
+	}
+
+	#§4Neo-Pernambuco§!
+	focus = {
+		id = PEB_ss4neopernambucoss
+		icon = GFX_PEB_ss4neopernambucoss-170979
+		x = 21
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_preparingrecifesdefences  } prerequisite = { focus = PEB_united_pernambuco  focus = PEB_appeal_to_the_people  } prerequisite = { focus = PEB_seizing_the_mills  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			PEB = {set_cosmetic_tag = CFD_BRA}
+			hidden_effect = {
+			    mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+
+	#Preparing Recife's Defences
+	focus = {
+		id = PEB_preparingrecifesdefences
+		icon = GFX_PEB_preparingrecifesdefences-170979
+		x = 17
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_campaign_for_unification  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			7 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Wartime Workshops
+	focus = {
+		id = PEB_wartime_workshops
+		icon = GFX_PEB_wartime_workshops-170979
+		x = 10
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_offsite_building = { type = arms_factory level = 4 }
+			
+			
+			
+		}
+	}
+
+	#Incorporate the Republican Constitution
+	focus = {
+		id = PEB_incorporate_the_republican_constitution
+		icon = GFX_PEB_incorporate_the_republican_constitution-170979
+		x = 29
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_message_to_jango  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_manpower = 1000
+			add_stability = 0.1
+		}
+	}
+
+	#Bringing back the Cruzeiro
+	focus = {
+		id = PEB_bringing_back_the_cruzeiro
+		icon = GFX_PEB_bringing_back_the_cruzeiro-170979
+		x = 31
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_message_to_jango  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	#Reform the Government
+	focus = {
+		id = PEB_reform_the_government
+		icon = GFX_PEB_reform_the_government-170979
+		x = 19
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		mutually_exclusive = { focus = PEB_eternal_martial_law  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = PEB_redemocratization
+			add_timed_idea = {
+			    idea = CFD_democratic_spring 
+			    days = 90
+			}
+		}
+	}
+
+	#Approve Jango's Base Reforms
+	focus = {
+		id = PEB_approvejangosbasereforms
+		icon = GFX_PEB_approvejangosbasereforms-170979
+		x = 29
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_support_loyal_labor_syndicates  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	#Support Loyal Labor Syndicates
+	focus = {
+		id = PEB_support_loyal_labor_syndicates
+		icon = GFX_PEB_support_loyal_labor_syndicates-170979
+		x = 29
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_incorporate_the_republican_constitution  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = si_acceptable_regulations 
+			
+			
+		}
+	}
+
+	#Electricity Tax Reform
+	focus = {
+		id = PEB_electricity_tax_reform
+		icon = GFX_PEB_electricity_tax_reform-170979
+		x = 31
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_bringing_back_the_cruzeiro  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = tax_rate_medium_taxation
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = radar_tech
+			}
+			
+		}
+	}
+
+	#Liberalization of the Northeastern Economy
+	focus = {
+		id = PEB_liberalization_of_the_northeastern_economy
+		icon = GFX_PEB_liberalization_of_the_northeastern_economy-170979
+		x = 31
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_electricity_tax_reform  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	#§RWhen Hell Breaks Loose...§!
+	focus = {
+		id = PEB_ssrwhenhellbreaksloosess
+		icon = GFX_PEB_ssrwhenhellbreaksloosess-170979
+		x = 21
+		y = 5
+		cost = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ss4neopernambucoss  }
+		ai_will_do = { factor = 1 }
+		bypass = {
+			always = yes
+		}
+		allow_branch = {
+			has_country_flag = PEB_focus_part_2
+		}
+	}
+
+	#A Students Coalition
+	focus = {
+		id = PEB_a_students_coalition
+		icon = GFX_PEB_a_students_coalition-170979
+		x = 10
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_wartime_workshops  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+			
+							name = electronics_bonus
+			
+							bonus = 1.0
+			
+							uses = 3
+			
+							category = electronics
+			
+						}
+			
+						add_tech_bonus = {
+			
+							name = industrial_bonus
+			
+							bonus = 1.0
+			
+							uses = 3
+			
+							category = industry
+			
+						}
+			add_stability = 0.15
+			add_war_support = 0.15
+			
+			
+		}
+	}
+
+	#The Pernambuco Higher Education Foundation
+	focus = {
+		id = PEB_the_pernambuco_higher_education_foundation
+		icon = GFX_PEB_the_pernambuco_higher_education_foundation-170979
+		x = 10
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_students_coalition  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_research_slot = 2
+			add_ideas = secondary_education
+		}
+	}
+
+	#New Roads
+	focus = {
+		id = PEB_new_roads
+		icon = GFX_PEB_new_roads-170979
+		x = 9
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_students_coalition  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							add_building_construction = {
+								type = infrastructure
+								level = 5
+								instant_build = yes
+							}
+						}
+			
+			custom_effect_tooltip = PEB_improve_roads
+		}
+	}
+
+	#New Opportunities
+	focus = {
+		id = PEB_new_opportunities
+		icon = GFX_PEB_new_opportunities-170979
+		x = 11
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_students_coalition  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							add_building_construction = {
+								type = industrial_complex
+								level = 4
+								instant_build = yes
+							}
+						}
+			add_ideas = vital_needs_fulfilled
+			
+			
+		}
+	}
+
+	#The Casualties Care
+	focus = {
+		id = PEB_the_casualties_care
+		icon = GFX_PEB_the_casualties_care-170979
+		x = 17
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_professionalized_army  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.75
+			    uses = 3
+			    category = hospital_tech
+			}
+			add_war_support = 0.15
+			add_ideas = draft_exemptions_religious_deferment
+		}
+	}
+
+	#Technological Hoarding
+	focus = {
+		id = PEB_technological_hoarding
+		icon = GFX_PEB_technological_hoarding-170979
+		x = 11
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_new_opportunities  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+						add_tech_bonus = {
+							bonus = 0.25
+							uses = 2
+							category = industry
+						}
+			
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = electronics
+						}
+		}
+	}
+
+	#Better Working Conditions
+	focus = {
+		id = PEB_better_working_conditions
+		icon = GFX_PEB_better_working_conditions-170979
+		x = 9
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_new_roads  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+						random_owned_controlled_state = {
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+						}
+					
+			add_ideas = WR_acceptable_regulations
+		}
+	}
+
+	#Solidarity for the Traitors
+	focus = {
+		id = PEB_solidarity_for_the_traitors
+		icon = GFX_PEB_solidarity_for_the_traitors-170979
+		x = 19
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_reform_the_government  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = free_press
+			unlock_decision_category_tooltip = PEB_reorganize_elections_category
+		}
+	}
+
+	#Brazil is Our People
+	focus = {
+		id = PEB_brazil_is_our_people
+		icon = GFX_PEB_brazil_is_our_people-170979
+		x = 30
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_approvejangosbasereforms  } prerequisite = { focus = PEB_liberalization_of_the_northeastern_economy  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = minorities_protected
+			add_stability = 0.05
+			BRA = {
+				country_event = {
+			    id = PEB.4
+			    days = 3
+			}
+			}
+		}
+	}
+
+	#Wiping the Slate Clean
+	focus = {
+		id = PEB_wiping_the_slate_clean
+		icon = GFX_PEB_wiping_the_slate_clean-170979
+		x = 21
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_westandalone  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_popularity = {
+			    ideology = reactionary
+			    popularity = 0.15
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 10000
+			    producer = PEB
+			}
+			
+			set_variable = {
+			    var = PEB_stabilization_process
+			    value = 0
+			}
+			custom_effect_tooltip = PEB_unlock_stabilization_process_tt
+			
+			
+		}
+	}
+
+	#The Army Back Home
+	focus = {
+		id = PEB_the_army_back_home
+		icon = GFX_PEB_the_army_back_home-170979
+		x = 13
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_professionalized_army  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.95
+			    uses = 1
+			    category = maintenance_company_tech
+			}
+			add_tech_bonus = {
+			    bonus = 0.95
+			    uses = 1
+			    category = signal_company_tech
+			}
+			add_tech_bonus = {
+			    bonus = 0.95
+			    uses = 1
+			    category = logistics_tech
+			}
+			add_tech_bonus = {
+			    bonus = 0.95
+			    uses = 1
+			    category = military_police_tech
+			}
+			add_war_support = 0.15
+			
+		}
+	}
+
+	#The Frontline Barrels
+	focus = {
+		id = PEB_the_frontline_barrels
+		icon = GFX_PEB_the_frontline_barrels-170979
+		x = 15
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_professionalized_army  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.6
+			    uses = 2
+			    category = infantry_weapons
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_war_support = 0.15
+			
+		}
+	}
+
+	#Why We Fought
+	focus = {
+		id = PEB_why_we_fought
+		icon = GFX_PEB_why_we_fought-170979
+		x = 15
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_what_needs_to_be_done  }
+		ai_will_do = { factor = 1 }
+		available = {
+						controls_state = 14
+						controls_state = 12
+						controls_state = 13
+						controls_state = 5
+						controls_state = 4
+						controls_state = 3
+						controls_state = 6
+						controls_state = 503
+						controls_state = 8
+						controls_state = 9
+						controls_state = 7
+						controls_state = 10
+						controls_state = 2
+		}
+		completion_reward = {
+							14 = { add_core_of = ROOT }
+							12 = { add_core_of = ROOT }
+							13 = { add_core_of = ROOT }
+							5 = { add_core_of = ROOT }
+							4 = { add_core_of = ROOT }
+							3 = { add_core_of = ROOT }
+							6 = { add_core_of = ROOT }
+							503 = { add_core_of = ROOT }
+							8 = { add_core_of = ROOT }
+							9 = { add_core_of = ROOT }
+							7 = { add_core_of = ROOT }
+							10 = { add_core_of = ROOT }
+							2 = { add_core_of = ROOT }
+							11 = { add_core_of = ROOT }
+							573 = { add_core_of = ROOT }
+							remove_ideas = CFD_osertaneja_collapse
+			set_country_flag = PEB_united
+			hidden_effect = {
+				country_event = {
+			    id = PEB.5
+			    days = 4
+			}
+			}
+		}
+	}
+
+	#Every Man A King
+	focus = {
+		id = PEB_every_man_a_king
+		icon = GFX_PEB_every_man_a_king-170979
+		x = 28
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_supplies_from_the_republic  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50		
+			add_ideas = minorities_protected
+		}
+	}
+
+	#Supplies from the Republic
+	focus = {
+		id = PEB_supplies_from_the_republic
+		icon = GFX_PEB_supplies_from_the_republic-170979
+		x = 28
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_brazil_is_our_people  }
+		mutually_exclusive = { focus = PEB_thisfightisoursnottheirs  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+		}
+		completion_reward = {
+			add_ideas = vital_needs_fulfilled 
+			PEB = {
+				capital_scope = {
+					add_resource = {
+						type = aluminium
+						amount = 6
+					}	
+				}
+				capital_scope = {
+					add_resource = {
+						type = chromium
+						amount = 3
+					}	
+				}
+				capital_scope = {
+					add_resource = {
+					type = steel
+					amount = 6
+					}	
+				}
+				capital_scope = {
+					add_resource = {
+					type = tungsten
+					amount = 7
+					}	
+				}
+			}
+		}
+	}
+
+	#This Fight is Ours, Not Theirs.
+	focus = {
+		id = PEB_thisfightisoursnottheirs
+		icon = GFX_PEB_thisfightisoursnottheirs-170979
+		x = 32
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_brazil_is_our_people  }
+		mutually_exclusive = { focus = PEB_supplies_from_the_republic  }
+		ai_will_do = { factor = 1 }
+		available = {
+			always = no
+					
+		}
+		completion_reward = {
+			hidden_effect = {
+			}
+		}
+	}
+
+	#§2The Bahian§! §tAnarchy§!
+	focus = {
+		id = PEB_ss2thebahiansssstanarchyss
+		icon = GFX_PEB_ss2thebahiansssstanarchyss-170979
+		x = 30
+		y = 13
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_every_man_a_king  focus = PEB_peeking_at_our_surroundings  }
+		ai_will_do = { factor = 1 }
+		available = {
+			
+						always = no
+					
+		}
+		completion_reward = {
+			
+						add_stability = -0.3
+			
+						add_political_power = -50
+			
+						air_experience = 40
+			
+						army_experience = 40
+			
+						navy_experience = 40
+					
+		}
+		allow_branch = {
+			has_global_flag = bahian_anarchy
+		}
+	}
+
+	#Brothers in Arms
+	focus = {
+		id = PEB_brothers_in_arms
+		icon = GFX_PEB_brothers_in_arms-170979
+		x = 30
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_direct_invervention  focus = PEB_aid_campaign  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 10000
+			    target = CNU
+			}
+			send_equipment = {
+			    equipment = support_equipment
+			    amount = 2500
+			    target = CNU
+			}
+			send_equipment = {
+			    equipment = motorized_equipment
+			    amount = 1000
+			    target = CNU
+			}
+		}
+	}
+
+	#Direct Invervention
+	focus = {
+		id = PEB_direct_invervention
+		icon = GFX_PEB_direct_invervention-170979
+		x = 27
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ss2thebahiansssstanarchyss  }
+		mutually_exclusive = { focus = PEB_aid_campaign  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+			
+			
+		}
+	}
+
+	#Aid Campaign
+	focus = {
+		id = PEB_aid_campaign
+		icon = GFX_PEB_aid_campaign-170979
+		x = 33
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ss2thebahiansssstanarchyss  }
+		mutually_exclusive = { focus = PEB_direct_invervention  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	#Peeking At Our Surroundings
+	focus = {
+		id = PEB_peeking_at_our_surroundings
+		icon = GFX_PEB_peeking_at_our_surroundings-170979
+		x = 32
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_thisfightisoursnottheirs  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			CNU = {
+				country_event = {
+			    id = CNU.1
+			    days = 1
+			}
+			
+			
+			
+			}
+			
+			AMA = {
+				country_event = {
+			    id = AMA.1
+			    days = 2
+			}
+			
+			
+			
+			}
+			
+		}
+	}
+
+	#Diplomats to Jacobina
+	focus = {
+		id = PEB_diplomats_to_jacobina
+		icon = GFX_PEB_diplomats_to_jacobina-170979
+		x = 27
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_direct_invervention  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			give_guarantee = CNU
+			give_military_access = CNU
+			add_threat = 5
+		}
+	}
+
+	#Joint Military Academies
+	focus = {
+		id = PEB_joint_military_academies
+		icon = GFX_PEB_joint_military_academies-170979
+		x = 30
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_brothers_in_arms  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.25
+				uses = 1
+				category = land_doctrine
+			}
+			CNU = {
+			add_tech_bonus = {
+			    bonus = 0.6
+			    uses = 2
+			    category = infantry_weapons
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = land_doctrine
+			}
+			}
+			
+		}
+	}
+
+	#Volunteer Conscription
+	focus = {
+		id = PEB_volunteer_conscription
+		icon = GFX_PEB_volunteer_conscription-170979
+		x = 33
+		y = 15
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_aid_campaign  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+						CNU = {
+							set_rule = {
+								can_send_volunteers = yes
+							}
+							add_ai_strategy = {
+								type = protect
+								id = CNU
+								value = 100
+							}
+							add_ai_strategy = {
+								type = support
+								id = CNU
+								value = 100
+							}
+						}
+		}
+	}
+
+	#Exchange of Experiences
+	focus = {
+		id = PEB_exchange_of_experiences
+		icon = GFX_PEB_exchange_of_experiences-170979
+		x = 33
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_volunteer_conscription  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			army_experience = -30
+			navy_experience = -30
+			air_experience = -30
+			add_manpower = -10000
+			
+			CNU = {
+			army_experience = 30
+			navy_experience = 30
+			air_experience = 30
+			add_manpower = 10000
+			}
+		}
+	}
+
+	#Canudos Workshops
+	focus = {
+		id = PEB_canudos_workshops
+		icon = GFX_PEB_canudos_workshops-170979
+		x = 33
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_exchange_of_experiences  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			CNU = {
+				add_offsite_building = { type = arms_factory level = 3}
+			}
+		}
+	}
+
+	#What Needs to Be Done
+	focus = {
+		id = PEB_what_needs_to_be_done
+		icon = GFX_PEB_what_needs_to_be_done-170979
+		x = 15
+		y = 11
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_the_army_back_home  } prerequisite = { focus = PEB_the_frontline_barrels  } prerequisite = { focus = PEB_the_casualties_care  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = conscription_four_year_draft
+			add_manpower = 100000
+		}
+	}
+
+	#Into the Republic's Sphere
+	focus = {
+		id = PEB_intotherepublicssphere
+		icon = GFX_PEB_intotherepublicssphere-170979
+		x = 30
+		y = 18
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_canudos_workshops  focus = PEB_a_chance_of_vengence  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			BRA = {
+			add_to_faction = PEB
+			}
+		}
+	}
+
+	#Taking Down the Bahian Cangaço
+	focus = {
+		id = PEB_takingdownthebahiancangaco
+		icon = GFX_PEB_takingdownthebahiancangaco-170979
+		x = 27
+		y = 16
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_diplomats_to_jacobina  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			CNU = {
+				remove_ideas = cangaceiros_medium 
+				add_opinion_modifier = {
+			    target = PEB
+			    modifier = medium_increase 
+			}
+			}
+		}
+	}
+
+	#A Chance of Vengence
+	focus = {
+		id = PEB_a_chance_of_vengence
+		icon = GFX_PEB_a_chance_of_vengence-170979
+		x = 27
+		y = 17
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_takingdownthebahiancangaco  }
+		ai_will_do = { factor = 1 }
+		available = {
+			CNU = {
+				has_war = yes
+				exists = yes
+			}
+		}
+		bypass = {
+			CNU = {
+				has_war = no
+				exists = no
+			}
+		}
+		completion_reward = {
+			PEB = {
+				add_to_war = { 
+			    targeted_alliance = CNU
+			    enemy = LAM
+			    hostility_reason = asked_to_join
+			}
+			
+			
+			}
+			
+		}
+	}
+
+	#War on Wheels
+	focus = {
+		id = PEB_war_on_wheels
+		icon = GFX_PEB_war_on_wheels-170979
+		x = 14
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		mutually_exclusive = { focus = PEB_something_to_call_a_air_force  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.02
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 3
+			    category = cat_mechanized_equipment
+			}
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 3
+			    category = cat_armored_cars
+			}
+			add_ideas = mechanical_specialization
+		}
+	}
+
+	#Recife Armored Titans
+	focus = {
+		id = PEB_recife_armored_titans
+		icon = GFX_PEB_recife_armored_titans-170979
+		x = 14
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_war_on_wheels  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.75
+			    uses = 4
+			    category = armor
+			}
+			army_experience = 30
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_mobile_warfare
+			}
+		}
+	}
+
+	#Improving the Flow
+	focus = {
+		id = PEB_improving_the_flow
+		icon = GFX_PEB_improving_the_flow-170979
+		x = 14
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_recife_armored_titans  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+						add_stability = 0.1
+						add_tech_bonus = {
+							bonus = 0.4
+							uses = 2
+							category = motorized_equipment
+						}
+					
+			
+		}
+	}
+
+	#Till All Are One
+	focus = {
+		id = PEB_till_all_are_one
+		icon = GFX_PEB_till_all_are_one-170979
+		x = 21
+		y = 10
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_reviving_democracy  focus = PEB_solidifying_the_state  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Something to Call a Air Force
+	focus = {
+		id = PEB_something_to_call_a_air_force
+		icon = GFX_PEB_something_to_call_a_air_force-170979
+		x = 16
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		mutually_exclusive = { focus = PEB_war_on_wheels  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {			
+						add_equipment_to_stockpile = {
+							type = fighter_equipment_0
+							amount = 100
+							producer = ROOT
+						}
+			
+						add_equipment_to_stockpile = {
+							type = CAS_equipment_1
+							amount = 100
+							producer = ROOT
+						}
+					
+			add_ideas = urban_specialization
+		}
+	}
+
+	#Securing the Skies
+	focus = {
+		id = PEB_securing_the_skies
+		icon = GFX_PEB_securing_the_skies-170979
+		x = 16
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_something_to_call_a_air_force  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 2
+							category = medium_air
+						}
+			
+						add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 3
+							category = light_air
+						}
+			
+						add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 2
+							category = heavy_air
+						}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+			
+			air_experience = 30
+			
+		}
+	}
+
+	#Reviving Democracy
+	focus = {
+		id = PEB_reviving_democracy
+		icon = GFX_PEB_reviving_democracy-170979
+		x = 19
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_a_taste_of_the_old_world  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+			        elections_allowed = no
+			}
+			hidden_effect = {
+			create_country_leader = {
+				
+				name = "Miguel Arraes"
+				picture = "gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
+				desc = "ARRAES_DESC"
+				expire = "1999.1.1"
+				ideology = provisional_government
+				traits = { social_reformer_aol }
+			}
+			}
+		}
+	}
+
+	#§tThe Knight's Return§!
+	focus = {
+		id = PEB_ssttheknightsreturnss
+		icon = GFX_PEB_ssttheknightsreturnss-170979
+		x = 21
+		y = 11
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_till_all_are_one  }
+		ai_will_do = { factor = 1 }
+		bypass = {
+			has_global_flag =  prestes_returned
+		}
+		completion_reward = {
+			add_political_power = 10
+		}
+		allow_branch = {
+			has_global_flag =  prestes_returned
+		}
+	}
+
+	#Massive Bombing Campaign
+	focus = {
+		id = PEB_massive_bombing_campaign
+		icon = GFX_PEB_massive_bombing_campaign-170979
+		x = 19
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssttheknightsreturnss  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+			
+			
+		}
+	}
+
+	#Dissolve PCB Alliances
+	focus = {
+		id = PEB_dissolve_pcb_alliances
+		icon = GFX_PEB_dissolve_pcb_alliances-170979
+		x = 23
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssttheknightsreturnss  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	#Pacify the Reds
+	focus = {
+		id = PEB_pacify_the_reds
+		icon = GFX_PEB_pacify_the_reds-170979
+		x = 20
+		y = 13
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_massive_bombing_campaign  }
+		mutually_exclusive = { focus = PEB_forced_labor_for_the_communists  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+			
+			
+		}
+	}
+
+	#Forced Labor for the Communists
+	focus = {
+		id = PEB_forced_labor_for_the_communists
+		icon = GFX_PEB_forced_labor_for_the_communists-170979
+		x = 22
+		y = 13
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_dissolve_pcb_alliances  }
+		mutually_exclusive = { focus = PEB_pacify_the_reds  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+			add_ideas = slavery_bonded_labor
+			
+			
+			
+		}
+	}
+
+	#Banning the Peasant Leagues
+	focus = {
+		id = PEB_banning_the_peasant_leagues
+		icon = GFX_PEB_banning_the_peasant_leagues-170979
+		x = 21
+		y = 12
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssttheknightsreturnss  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+			
+		}
+	}
+
+	#Feeling Like '35 Again
+	focus = {
+		id = PEB_feelinglike35again
+		icon = GFX_PEB_feelinglike35again-170979
+		x = 21
+		y = 14
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_pacify_the_reds  focus = PEB_forced_labor_for_the_communists  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 10
+			
+			
+		}
+	}
+
+	#Eternal Martial Law
+	focus = {
+		id = PEB_eternal_martial_law
+		icon = GFX_PEB_eternal_martial_law-170979
+		x = 23
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		mutually_exclusive = { focus = PEB_reform_the_government  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = PEB_military_rule
+			add_war_support = 0.15
+			add_popularity = {
+			    ideology = reactionary
+			    popularity = 0.05
+			}
+		}
+	}
+
+	#Purging the Traitors
+	focus = {
+		id = PEB_purging_the_traitors
+		icon = GFX_PEB_purging_the_traitors-170979
+		x = 23
+		y = 7
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_eternal_martial_law  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = slavery_bonded_labor
+			add_popularity = {
+			    ideology = reactionary
+			    popularity = 0.05
+			}
+			unlock_decision_category_tooltip = PEB_traitors_hunt_category
+		}
+	}
+
+	#Full State Surveillance
+	focus = {
+		id = PEB_full_state_surveillance
+		icon = GFX_PEB_full_state_surveillance-170979
+		x = 23
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_purging_the_traitors  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = state_press_only
+			add_popularity = {
+			    ideology = reactionary
+			    popularity = 0.05
+			}
+		}
+	}
+
+	#A Taste of the Old World
+	focus = {
+		id = PEB_a_taste_of_the_old_world
+		icon = GFX_PEB_a_taste_of_the_old_world-170979
+		x = 19
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_solidarity_for_the_traitors  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = political_parties_multiparty_system
+		}
+	}
+
+	#Solidifying the State
+	focus = {
+		id = PEB_solidifying_the_state
+		icon = GFX_PEB_solidifying_the_state-170979
+		x = 23
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_full_state_surveillance  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.1
+			add_ideas = political_parties_one_party_state
+			add_popularity = {
+			    ideology = reactionary
+			    popularity = 0.05
+			}
+		}
+	}
+
+	#Carpet Ruling
+	focus = {
+		id = PEB_carpet_ruling
+		icon = GFX_PEB_carpet_ruling-170979
+		x = 16
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = PEB_securing_the_skies  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 3
+			    category = tactical_bomber
+			}
+			
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 3
+			    category = cas_bomber
+			}
+		}
+	}
+
+	#A Message to Jango
+	focus = {
+		id = PEB_a_message_to_jango
+		icon = GFX_PEB_a_message_to_jango-170979
+		x = 30
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Government of Loyalists
+	focus = {
+		id = PEB_government_of_loyalists
+		icon = GFX_PEB_government_of_loyalists-170979
+		x = 21
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_reform_the_government  focus = PEB_eternal_martial_law  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.25
+			army_experience = 30
+			navy_experience = 30
+			air_experience = 30
+			add_popularity = {
+			    ideology = neutrality
+			    popularity = -0.1
+			}
+			add_ideas = CFD_the_legalist_alliance
+		}
+	}
+
+	#Investing on Other Goods
+	focus = {
+		id = PEB_investing_on_other_goods
+		icon = GFX_PEB_investing_on_other_goods-170979
+		x = 21
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_government_of_loyalists  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+					PEB = {
+						capital_scope = {
+							add_resource = {
+								type = aluminium
+								amount = 2
+							}	
+						}
+						capital_scope = {
+							add_resource = {
+							type = steel
+							amount = 8
+							}	
+						}
+					}
+			add_popularity = {
+			    ideology = neutrality
+			    popularity = -0.1
+			}
+		}
+	}
+
+	#Open For Business
+	focus = {
+		id = PEB_open_for_business
+		icon = GFX_PEB_open_for_business-170979
+		x = 21
+		y = 9
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_investing_on_other_goods  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = trade_scope_international_exports
+			add_popularity = {
+			    ideology = neutrality
+			    popularity = -0.05
+			}
+			remove_ideas = CFD_economic_collapse
+		}
+	}
+
+	#Rebuilding Our Nation
+	focus = {
+		id = PEB_rebuilding_our_nation
+		icon = GFX_PEB_rebuilding_our_nation-170979
+		x = 26
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
+		ai_will_do = { factor = 1 }
+		available = {
+			PEB = {
+				custom_trigger_tooltip = {
+					tooltip = PEB_unified_tt		
+					ROOT = {
+						has_country_flag = PEB_united
+						has_war = no
+						controls_state = 14
+						controls_state = 12
+						controls_state = 13
+						controls_state = 5
+						controls_state = 4
+						controls_state = 3
+						controls_state = 6
+						controls_state = 503
+						controls_state = 8
+						controls_state = 9
+						controls_state = 7
+						controls_state = 10
+						controls_state = 2
+						NOT = {has_idea = CFD_osertaneja_collapse}
+					}
+				}
+			}
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = PEB_rebuilding_category
+						PEB = {
+							set_variable = { PEB_rebuilding = 0 }
+						}
+		}
+	}
+
+	#Pernambuco's Rebuilding
+	focus = {
+		id = PEB_pernambucosrebuilding
+		icon = GFX_PEB_pernambucosrebuilding-170979
+		x = 25
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_rebuilding_our_nation  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = PEB_rebuild_carmo
+			unlock_decision_tooltip = PEB_rebuild_royal_hospital
+			unlock_decision_tooltip = PEB_rebuild_guararapes
+			unlock_decision_tooltip = PEB_rebuild_theater
+		}
+	}
+
+	#Paraiba's Rebuilding
+	focus = {
+		id = PEB_paraibasrebuilding
+		icon = GFX_PEB_paraibasrebuilding-170979
+		x = 27
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_rebuilding_our_nation  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = PEB_PAI_rebuild_palace
+			unlock_decision_tooltip = PEB_PAI_rebuild_airport
+			unlock_decision_tooltip = PEB_PAI_rebuild_cultural_center
+		}
+	}
+
+	#Alagoas' Rebuilding
+	focus = {
+		id = PEB_alagoasrebuilding
+		icon = GFX_PEB_alagoasrebuilding-170979
+		x = 25
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_pernambucosrebuilding  focus = PEB_paraibasrebuilding  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = PEB_ALA_rebuild_1
+			unlock_decision_tooltip = PEB_ALA_rebuild_2
+			unlock_decision_tooltip = PEB_ALA_rebuild_3
+			unlock_decision_tooltip = PEB_ALA_rebuild_4
+		}
+	}
+
+	#Rio Grande do Norte's Rebuilding
+	focus = {
+		id = PEB_riograndedonortesrebuilding
+		icon = GFX_PEB_riograndedonortesrebuilding-170979
+		x = 26
+		y = 9
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_cearasrebuilding  focus = PEB_alagoasrebuilding  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = PEB_RGN_dam
+			unlock_decision_tooltip = PEB_RGN_cathedral
+			unlock_decision_tooltip = PEB_RGN_potengi
+			unlock_decision_tooltip = PEB_RGN_caern
+		}
+	}
+
+	#Ceará's Rebuilding
+	focus = {
+		id = PEB_cearasrebuilding
+		icon = GFX_PEB_cearasrebuilding-170979
+		x = 27
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PEB_pernambucosrebuilding  focus = PEB_paraibasrebuilding  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			unlock_decision_tooltip = PEB_CEA_rebuild_1
+			unlock_decision_tooltip = PEB_CEA_rebuild_2
+			unlock_decision_tooltip = PEB_CEA_rebuild_3
+			unlock_decision_tooltip = PEB_CEA_rebuild_4
+		}
+	}
+
+}

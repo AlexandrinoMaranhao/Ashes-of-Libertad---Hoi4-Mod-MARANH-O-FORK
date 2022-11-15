@@ -140,6 +140,9 @@ production_lack_of_resource_penalty_factor = -0.1
 			allowed = {
 				original_tag = SEG
 			}
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
+			}
 			modifier = {
 				war_support_factor = 0.1
 conscription = 0.05
@@ -158,6 +161,9 @@ fascism_drift = 0.005
 			allowed = {
 				original_tag = SEG
 			}
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
+			}
 			modifier = {
 				stability_factor = -0.15
 consumer_goods_factor = 0.1
@@ -171,6 +177,9 @@ production_speed_buildings_factor = -0.2
 			picture = CFD_sergipevale_deals-238388
 			allowed = {
 				original_tag = SEG
+			}
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
 			}
 		}
 
@@ -281,6 +290,58 @@ ai_focus_war_production_factor = 0.65
 ai_focus_military_advancements_factor = 0.55
 ai_focus_defense_factor = 0.65
 root_out_resistance_effectiveness_factor = 0.55
+			}
+		}
+
+		CFD_economic_collapse = {
+			picture = CFD_economic_collapse-238388
+			ai_will_do = {
+				factor = 1
+			}
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
+			}
+			modifier = {
+				consumer_goods_factor = 0.15
+industry_repair_factor = -0.3
+industry_free_repair_factor = -0.3
+production_speed_buildings_factor = -0.65
+			}
+		}
+
+		CFD_osertaneja_collapse = {
+			picture = CFD_osertaneja_collapse-238388
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
+			}
+		}
+
+		CFD_the_legalist_alliance = {
+			picture = CFD_the_legalist_alliance-238388
+			ai_will_do = {
+				factor = 1
+			}
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
+			}
+			modifier = {
+				army_core_defence_factor = 0.1
+democratic_drift = 0.02
+political_power_gain = 0.01
+			}
+		}
+
+		CFD_living_in_ruins = {
+			picture = CFD_living_in_ruins-238388
+			available = {
+				NOT = { has_country_flag = CFD_failometer_enabled}
+			}
+			modifier = {
+				consumer_goods_factor = 0.2
+production_speed_buildings_factor = -0.2
+industry_repair_factor = 0.15
+industry_free_repair_factor = 0.15
+industrial_capacity_factory = -0.25
 			}
 		}
 	}

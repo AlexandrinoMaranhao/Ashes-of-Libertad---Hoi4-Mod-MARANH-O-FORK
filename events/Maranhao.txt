@@ -118,6 +118,10 @@ country_event = { #Piaui Frontier Failure
             target = PIA
             type = annex_everything
         }
+        declare_war_on = {
+            target = PNA
+            type = annex_everything
+        }
 		
 		CFD = {
 			country_event = CFD_events.17

@@ -47,7 +47,39 @@ CFD_main_category = {
 
 PEB_main_category = {
 	icon = GFX_decision_category_generic_political_actions
-	priority = 1
+	priority = 100
+	allowed = {
+		original_tag = PEB
+	}
+}
+
+PEB_blackmarket = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 150
+	allowed = {
+		original_tag = PEB
+	}
+}
+
+PEB_rebuilding_category = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 50
+	allowed = {
+		original_tag = PEB
+	}
+}
+
+PEB_traitors_hunt_category = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 50
+	allowed = {
+		original_tag = PEB
+	}
+}
+
+PEB_reorganize_elections_category = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 50
 	allowed = {
 		original_tag = PEB
 	}

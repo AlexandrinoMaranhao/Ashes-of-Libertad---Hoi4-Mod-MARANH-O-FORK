@@ -39,4 +39,39 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
+	division = {
+		name = "Infantaria Paraiba 5"
+		location = 6279
+		division_template = "Infantaria Paraiba"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Paraiba 6"
+		location = 6279
+		division_template = "Infantaria Paraiba"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Paraiba 7"
+		location = 6279
+		division_template = "Infantaria Paraiba"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Paraiba 8"
+		location = 6279
+		division_template = "Infantaria Paraiba"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria Paraiba 9"
+		location = 6279
+		division_template = "Infantaria Paraiba"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
 }

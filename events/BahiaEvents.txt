@@ -1,4 +1,156 @@
 add_namespace = RPB
+add_namespace = CNU
+add_namespace = AMA
+
+country_event = { #PEB asks for help
+    id = CNU.1
+    title = CNU.1.t
+    desc = CNU.1.d
+    picture = x
+    is_triggered_only = yes
+
+    option = { #Accept
+      name = CNU.1.a
+		add_opinion_modifier = {
+			target = PEB
+			modifier = large_increase
+		}
+		PEB = {
+			country_event = CNU.2
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+    option = { #Refuse
+      name = CNU.1.a
+
+		PEB = {
+			country_event = CNU.3
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+}
+
+country_event = { #CNU-PEB Response - Positive
+    id = CNU.2
+    title = CNU.2.t
+    desc = CNU.2.d
+    picture = x
+    is_triggered_only = yes
+
+    option = { 
+      name = CNU.2.a
+
+		PEB = {
+			add_opinion_modifier = {
+				target = CNU
+				modifier = large_increase
+			}
+			capital_scope = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}	
+			}
+			capital_scope = {
+				add_resource = {
+					type = tungsten
+					amount = 7
+				}	
+			}
+		}
+	}
+}
+
+country_event = { #CNU-PEB Response - Negative
+    id = CNU.3
+    title = CNU.3.t
+    desc = CNU.3.d
+    picture = x
+    is_triggered_only = yes
+
+    option = {
+      name = CNU.3.a
+	}
+}
+
+country_event = { #PEB asks for help
+    id = AMA.1
+    title = AMA.1.t
+    desc = AMA.1.d
+    picture = x
+    is_triggered_only = yes
+
+    option = { #Accept
+      name = AMA.1.a
+		add_opinion_modifier = {
+			target = PEB
+			modifier = large_increase
+		}
+		PEB = {
+			country_event = AMA.2
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+    option = { #Refuse
+      name = AMA.1.a
+
+		PEB = {
+			country_event = AMA.3
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+}
+
+country_event = { #AMA-PEB Response - Positive
+    id = AMA.2
+    title = AMA.2.t
+    desc = AMA.2.d
+    picture = x
+    is_triggered_only = yes
+
+    option = { 
+      name = AMA.2.a
+
+		PEB = {
+			add_opinion_modifier = {
+				target = AMA
+				modifier = large_increase
+			}
+			capital_scope = {
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}	
+			}
+			capital_scope = {
+				add_resource = {
+					type = chromium
+					amount = 3
+				}	
+			}
+		}
+	}
+}
+
+country_event = { #AMA-PEB Response - Negative
+    id = AMA.3
+    title = AMA.3.t
+    desc = AMA.3.d
+    picture = x
+    is_triggered_only = yes
+
+    option = {
+      name = AMA.3.a
+	}
+}
 
 country_event = {
     id = RPB.1 # RPB Revolt
@@ -16,13 +168,19 @@ country_event = {
 				type = annex_everything
 			}
 		}
-    every_country = {
-        news_event = {
-            id = world.81
-            days = 1
-        }
-    }
-    load_oob = "RPB_Bahia"
+		every_country = {
+			news_event = {
+				id = world.81
+				days = 1
+			}
+		}
+		set_global_flag = bahian_anarchy
+		load_oob = "RPB_Bahia"
+		
+		PEB = {
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = PEB_ss2thebahiansssstanarchyss
+		}
 
 		remove_ideas = the_baiana_revolt
 		remove_ideas = free_port_of_salvador

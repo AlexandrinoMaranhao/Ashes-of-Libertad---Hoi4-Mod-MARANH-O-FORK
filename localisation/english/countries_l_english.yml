@@ -195,7 +195,10 @@
  CFD_reactionary_ADJ:0 "Nordestine"
  CFD_reactionary_DEF:0 "Confederação Sertaneja"
  CFD_reactionary:0 "Confederação Sertaneja"
-
+ ECL:0 "Einstein Cultists"
+ ECL_DEF:0 "The Einstein Cult"
+ ECL_ADJ:0 "Einsteinists"
+ 
  PIR_fascism:0 "Caipira Empire"
  PIR_fascism_DEF:0 "the Caipira Empire"
  PIR_democratic:0 "The Piracicaba Minutemen"

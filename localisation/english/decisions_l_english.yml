@@ -99,6 +99,7 @@
  ER_improve_law_4:0 "Offer the greatest education welfare available in the nation."
  
  #Nordeste, sertão
+ CFD_main_category:0 "Sertaneja Adminstration"
  CFD_piaui_frontier:0 "The Piauí's Frontier"
  CFD_piaui_frontier_desc:0 "The current §YPiaui's Frontier§! progress is at: [?cfd_piaui_frontier_progress|%Y0§!]\n§GSarney's§! annoyance is currently [sarney_puto_values_loc]\n§4Portella's§! Health Status is [portella_health_status_loc]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n£GFX_piaui_frontier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n The sudden apparition of Portella and his loyal soldiers came as a surprise to Arraes, but we don't have time to waste being surprised. With Portella's only goal being to restore order to his old home, we must provide the guns and sometimes the manpower necessary to achieve that, otherwise we might lose the best chance we have at increasing the grip of the confederacy and striking the anarchists that harass our frontier villages constantly. \n\nHow does the §YPiaui Frontier§! works?\n\n§R**§!Each operation takes 7 days to start, and 30 days to end. At the end of each operation the [CFD.GetName] annexes a city of Piauí named on the Operation's decision, the cost of these operations are measured on §GJosé Sarney's§! annoyance towards us. \n§R**§!The ability to use the Piauí Frontier Mechanic depends on §4Portella's health§!, if he gets injured during an operation it will be disabled for a period of 30 days. He may be injured repeatedly up to §Rthree times§!, after that he won't be able to overcome his wounds resulting in his death. With that the Frontier will no longer be available, meaning that §GSarney§! will be free to expand his manor and claim all the remaining land for himself without resistance. \n\nThe safety of the Confederation and the people of the Sertão depends on the Frontier being tamed, losing is not an option. \n\n§Y*Operations' challenge-o-meter*§!\n§GEasy Operations§! - Lightly defended by disorganized militias and loose bands of bandits, these operations don't require much effort, equipment or experience. \n§OMedium Operations§! - Facing larger bands of Cangaceiros, this operations demands a certain level of preparation, good equipment and well trained troops are advised. \n§RHard Operations§! - The North of Piauí is plagued with roaming bands of Cangaceiros, mad Guerrillas and Bloodthirsty Mercenaries, securing the lands around Parnaíba will require preparations to be nothing less than perfect. Survival in these lands hangs on the best guns, most hardened well-trained soldiers and most competent plans we can afford."
  CFD_op_simoes:0 "Operação: §GAsa Branca§!"
@@ -114,7 +115,6 @@
  CFD_op_union_city:0 "Operação: §RParnaibano§!"
  CFD_op_parnaiba:0 "Operação: §RBarba Ruiva§!"
  CFD_maranhao_war_on_piaui:0 "§GThe Duke§! and the §tRiver§!."
- 
  CFD_prestes_returns_timer:0 "§RPrestes'§! §tReturn Countdown§!"
  
  CFD_reform_army:0 "Reform Sertaneja's army structure"
@@ -126,3 +126,36 @@
  CFD_nation_development_category_desc:0 "**WIP**\n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash|=]K§! \nCurrent £GFX_civ_factory §OCivilian Factories§! amount: §O[?num_of_civilian_factories|=]§! \nCurrent £GFX_mil_factory §GMilitary Factories§! amount: §G[?num_of_military_factories|=]§! \n\nFor each £GFX_mil_factory Military Factories, you get a §Rincome loss§! of §R1K§!, for each £GFX_civ_factory Civilian Factories you get a §Gincome increase§! of §G0.5K§!.		 \n\nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                       £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
  CFD_balance_category:0 "§YPSN§! - §RPCB§! Power Balance"
  CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"
+ 
+ PEB_main_category:0 "Northeastern Adminstration"
+ PEB_main_category_desc:0 "**WIP** \n\n Local Police Enforcement: §G[?PEB_stabilization_process|%0§!]§!"
+ PEB_blackmarket:0 "§OThe Blackmarket§!"
+ PEB_rebuilding_category:0 "Rebuilding Our Lands"
+ PEB_rebuilding_category_desc:0 "**WIP** \n\n Rebuilding Process:[?PEB_rebuilding|%0§!]"
+ 
+ PEB_rebuild_carmo:0 "Rebuild the Basilica of Nossa Senhora do Carmo"
+ PEB_rebuild_royal_hospital:0 "Rebuild the Royal Portuguese Hospital"
+ PEB_rebuild_guararapes:0 "Rebuild the Guararapes Airport"
+ PEB_rebuild_theater:0 "Rebuild Santa Isabel Theater"
+ 
+ PEB_PAI_rebuild_palace:0 "Rebuild the Redenção Palace" 
+ PEB_PAI_rebuild_airport:0 "Rebuild João Pessoa International Airport" 
+ PEB_PAI_rebuild_cultural_center:0 "Rebuild São Francisco Cultural Center"
+ 
+ PEB_CEA_rebuild_1:0 "Ceara Rebuild Decision 1"
+ PEB_CEA_rebuild_2:0 "Ceara Rebuild Decision 2"
+ PEB_CEA_rebuild_3:0 "Ceara Rebuild Decision 3"
+ PEB_CEA_rebuild_4:0 "Ceara Rebuild Decision 4"
+ 
+ PEB_ALA_rebuild_1:0 "Alagoas Rebuild Decision 1"
+ PEB_ALA_rebuild_2:0 "Alagoas Rebuild Decision 2"
+ PEB_ALA_rebuild_3:0 "Alagoas Rebuild Decision 3"
+ PEB_ALA_rebuild_4:0 "Alagoas Rebuild Decision 4"
+ 
+ PEB_RGN_dam:0 "Rebuild the Gargalheiras Dam"
+ PEB_RGN_cathedral:0 "Rebuild the Cathedral Sant'Ana de Caico"
+ PEB_RGN_potengi:0 "Rebuild the Potengi Palace"
+ PEB_RGN_caern:0 "Began CAERN Construction"
+ 
+ PEB_traitors_hunt_category:0 "The Hunting Game"
+ PEB_traitors_hunt_category_desc:0 "**WIP** \n\n§YUsineiros§! List: \nPaulo Guerra: [peb_pg_hunt_loc] \nAluízio Alves: [peb_aa_hunt_loc] \nOlival Costa: [peb_oc_hunt_loc] \n\n§RLigas Camponesas§! List: \nElizabeth Texeira: [peb_et_hunt_loc] \nZezé da Galiléia: [peb_zg_hunt_loc] \nPedro Inacio de Araujo: [peb_pi_hunt_loc]"

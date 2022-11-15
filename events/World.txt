@@ -195,7 +195,7 @@ news_event = { # Elected Helio
 		}
 	}
 
-news_event = { # Carlos Prestes comes back on April 23rd 1969
+news_event = { # Carlos Prestes comes back on April 23rd 1971
 	id = world.1
 	title = world.1.t
 	desc = world.1.d
@@ -207,7 +207,7 @@ news_event = { # Carlos Prestes comes back on April 23rd 1969
 		name = world.1.a # Positive national spirit
 
         hidden_effect = { news_event = { id = world.35 } }
-
+			set_global_flag = prestes_returned
 		}
 		
 	}

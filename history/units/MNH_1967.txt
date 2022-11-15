@@ -87,4 +87,46 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "Comando Militar do Maranhao 11"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 12"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 14"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 13"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 15"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Comando Militar do Maranhao 16"
+		location = 3628
+		division_template = "Comando Militar do Maranhao"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
 }

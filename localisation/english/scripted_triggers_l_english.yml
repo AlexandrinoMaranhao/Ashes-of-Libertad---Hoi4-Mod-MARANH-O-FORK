@@ -8,3 +8,5 @@
  portella_hs_medium:0 "§YCould be worse...§!"
  portella_hs_bad:0 "§OBad.§!"
  portella_hs_dead:0 "§RCritical.§!"
+ PEB_hunt_alive_status:0 "§tAlive§!"
+ PEB_hunt_dead_status:0 "§GDead§!"

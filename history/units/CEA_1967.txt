@@ -45,4 +45,39 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
+	division = {
+		name = "Infantaria da Fronteira"
+		location = 2352
+		division_template = "Infantaria Nordeste"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria da Fronteira"
+		location = 2352
+		division_template = "Infantaria Nordeste"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria da Fronteira"
+		location = 2352
+		division_template = "Infantaria Nordeste"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria da Fronteira"
+		location = 2352
+		division_template = "Infantaria Nordeste"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Infantaria da Fronteira"
+		location = 2352
+		division_template = "Infantaria Nordeste"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
 }

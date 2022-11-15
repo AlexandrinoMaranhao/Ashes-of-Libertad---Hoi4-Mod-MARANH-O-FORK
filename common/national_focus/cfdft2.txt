@@ -50,8 +50,7 @@ focus_tree = {
 			    days = 0
 			}
 			
-			
-			
+			set_country_flag = CFD_prestes_is_returning
 		}
 	}
 
@@ -73,6 +72,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = "This focus is related to the PSN - Usineiros' path and currently isn't available on this version."
+			
+			set_country_flag = CFD_prestes_is_returning
 		}
 	}
 
@@ -1346,6 +1347,9 @@ focus_tree = {
 			    ideology = communism
 			    popularity = 0.02
 			}
+			custom_effect_tooltip = CFD_will_get_cash
+			add_to_variable = { CFD_resource_cash = 0.5 }
+			
 		}
 	}
 
@@ -1363,6 +1367,9 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_political_power = 25
+			custom_effect_tooltip = CFD_will_get_cash
+			add_to_variable = { CFD_resource_cash = 0.5 }
+			
 		}
 	}
 
@@ -1407,6 +1414,10 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = vital_needs_fulfilled
+			custom_effect_tooltip = CFD_will_get_cash
+			add_to_variable = { CFD_resource_cash = 0.5 }
+			
+			
 		}
 	}
 
@@ -1441,6 +1452,7 @@ focus_tree = {
 		prerequisite = { focus = CFD_risesapeasant  } prerequisite = { focus = CFD_andtheagriculturalsocietyofplanters  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			custom_effect_tooltip = CFD_unified_leagues
 			swap_ideas = {
 			    remove_idea = CFD_the_peasant_leagues
 			    add_idea = CFD_peasant_leagues
@@ -1461,6 +1473,7 @@ focus_tree = {
 		prerequisite = { focus = CFD_risesapeasant  } prerequisite = { focus = CFD_a_call_for_agrarian_reform  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			custom_effect_tooltip = CFD_PSN_revolt_reform
 			remove_decision = CFD_compromise_with_PCB
 			remove_decision = CFD_compromise_with_PSN
 			set_country_flag = CFD_end_balance
@@ -1484,9 +1497,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = CFD_finished_PCB
 			mark_focus_tree_layout_dirty = yes
-			
-			
-			
+			custom_effect_tooltip = CFD_update_focus
 		}
 		will_lead_to_war_with = MNH
 	}
@@ -1798,6 +1809,7 @@ focus_tree = {
 		completion_reward = {
 			send_embargo = LAM
 			send_embargo = BEM
+			clr_country_flag = CFD_prestes_is_returning
 		}
 	}
 
@@ -1838,6 +1850,15 @@ focus_tree = {
 		}
 		prerequisite = { focus = CFD_sending_the_boys_in_brown  } prerequisite = { focus = CFD_the_police_state  }
 		ai_will_do = { factor = 1 }
+		available = {
+			date > 1970.04.23
+		}
+		bypass = {
+			OR = {
+				has_global_flag = prestes_returned
+				has_country_flag = prestes_returned
+			}
+		}
 		completion_reward = {
 			country_event = {
 			    id = CFD_events.6

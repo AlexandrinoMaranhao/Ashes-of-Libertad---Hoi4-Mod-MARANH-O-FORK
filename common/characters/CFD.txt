@@ -109,6 +109,24 @@ characters={
 			legacy_id=-1
 		}
 	}
+	CFD_Almerio_de_Castro_Neves={
+		name= CFD_Almerio_de_Castro_Neves
+		portraits={
+			army={
+				small="gfx/interface/ideas/goofybois/generic_minister_1.dds"
+				large="gfx/leaders/CFD/CFD_Almerio_de_Castro_Neves_BR.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_CFD_arreas_loyalist infantry_officer }
+			skill=6
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	CFD_NAG_lima={
 		name= CFD_NAG_lima
 		portraits={

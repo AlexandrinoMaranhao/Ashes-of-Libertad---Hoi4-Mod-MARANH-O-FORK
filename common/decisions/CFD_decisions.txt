@@ -30,7 +30,10 @@ CFD_main_category = {
 			country_exists = CFD
 		}
         activation = {
-			CFD = {has_country_flag = CFD_prestes_is_returning}
+			AND = {
+				date > 1970.04.23
+				CFD = {has_country_flag = CFD_prestes_is_returning}
+			}
         }
 		cancel_trigger = {
 			hidden_trigger = {
@@ -39,9 +42,10 @@ CFD_main_category = {
 		}
         is_good = no
         selectable_mission = no
-        days_mission_timeout = 730
+        days_mission_timeout = 365
         timeout_effect = {
 			hidden_effect = {
+				set_global_flag = prestes_returned
 				clr_country_flag = CFD_prestes_is_returning
 				every_country = {
 					news_event = {

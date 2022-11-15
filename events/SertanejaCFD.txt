@@ -598,10 +598,10 @@ country_event = { #Balance lost control
 			add_stability = -0.25
 			random_list = {
 				25 = {
-					add_stability = -0.5
+					add_stability = -0.15
 				}
 				25 = {
-					add_manpower = -10000
+					add_manpower = -1000
 				}
 				25 = {
 					add_war_support = -0.5
@@ -628,12 +628,12 @@ country_event = { #The Army Situation
 			army_experience = 25
 			unlock_decision_tooltip = CFD_reform_army
 			hidden_effect = {
-				add_ai_strategy  = {
+				add_ai_strategy    = {
 					type = invade
 					id = SEG
 					value = 200
 				}
-				add_ai_strategy  = {
+				add_ai_strategy    = {
 					type = prepare_for_war
 					id = SEG
 					value = 200
@@ -735,6 +735,7 @@ country_event = { #Prestes' Countdown to extinction
 			set_country_flag = CFD_prestes_is_returning
 			activate_mission = CFD_prestes_returns_timer
 		}
+		PEB = {set_country_flag = CFD_prestes_is_returning}
     }
 }
 
@@ -795,6 +796,13 @@ country_event = { #Eleições Start
 
     option = {
         name = CFD_elections.1.a
+		ai_chance = {
+			base = 1
+			modifier = {
+								has_game_rule = { rule = CFD_ai_behavior option = CFD_BEZERRA_PATH }
+				add = 200
+			}
+		}
 		CFD = {
 			custom_effect_tooltip = "This will increase the likelihood of the election happening..."
 			add_to_variable = {
@@ -817,6 +825,13 @@ country_event = { #Eleições Start
 		}
     }
     option = {
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_game_rule = { rule = CFD_ai_behavior option = CFD_MIGUEL_PATH }
+				add = 200
+			}
+		}
         name = CFD_elections.1.b
 		CFD = {
 			custom_effect_tooltip = "Arraes will attempt to persuade the electoral system to prevent the election from taking place..."
@@ -933,11 +948,13 @@ country_event = { #Election yes or no
 			hidden_effect = {
 				complete_national_focus = CFD_nooneotherthanme
 				clear_variable = CFD_no_elections_chances
-				load_focus_tree = pebfocus
-				
+				country_event = {
+					id = CFD.1
+					days = 7
+				}
 				country_event = {
 					id = CFD_events.24
-					days = 5
+					days = 14
 				}
 			}	
 		}
@@ -982,6 +999,13 @@ country_event = { #Election debate 1
 				complete_national_focus = CFD_the_zona_da_mataagreste_electoral_campaigns  
 			}
 		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_game_rule = { rule = CFD_ai_behavior option = CFD_BEZERRA_PATH }
+				add = 200
+			}
+		}
     }
 	
     option = { ##pro-guerra
@@ -999,6 +1023,13 @@ country_event = { #Election debate 1
 			hidden_effect = {
 				complete_national_focus = CFD_the_zona_da_mataagreste_electoral_campaigns  
 			}
+		}
+		ai_chance = {
+			base = 1
+			#modifier = {
+			#	#has_game_rule = { rule = CFD_ai_behavior option = CFD_MIGUEL_PATH }
+			#	add = 200
+			#}
 		}
     }
 }
@@ -1022,6 +1053,13 @@ country_event = { #Election debate 2
 				complete_national_focus = CFD_thesertaoelectoralcampaigns  
 			}
 		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_game_rule = { rule = CFD_ai_behavior option = CFD_BEZERRA_PATH }
+				add = 200
+			}
+		}
     }
 	
     option = { ##pro-guerra
@@ -1039,6 +1077,13 @@ country_event = { #Election debate 2
 			hidden_effect = {
 				complete_national_focus = CFD_thesertaoelectoralcampaigns  
 			}
+		}
+		ai_chance = {
+			base = 1
+			#modifier = {
+			#	#has_game_rule = { rule = CFD_ai_behavior option = CFD_BEZERRA_PATH }
+			#	add = 200
+			#}
 		}
     }
 }
@@ -1062,6 +1107,13 @@ country_event = { #Election debate 3
 				complete_national_focus = CFD_andtheresultis  
 			}
 		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				has_game_rule = { rule = CFD_ai_behavior option = CFD_BEZERRA_PATH }
+				add = 200
+			}
+		}
     }
 	
     option = { ##pro-guerra
@@ -1079,6 +1131,13 @@ country_event = { #Election debate 3
 			hidden_effect = {
 				complete_national_focus = CFD_andtheresultis  
 			}
+		}
+		ai_chance = {
+			base = 1
+			#modifier = {
+			#	has_game_rule = { rule = CFD_ai_behavior option = CFD_BEZERRA_PATH }
+			#	add = 200
+			#}
 		}
     }
 }
@@ -1561,25 +1620,292 @@ country_event = { #Failstate stuff
 
     option = {
         name = CFD_failometer_enabled.1.a
-		
-        #NUD = {
-		#	add_opinion_modifier = { target = INT modifier = large_increase }
-		#	load_oob = "NUD_1967"
-		#	transfer_state = 503
-		#	declare_war_on = {
-        #        target = CFD
-        #        type = annex_everything
-        #    }
-        #}
+			
 		CFD = {
 			white_peace = {
 				tag = MNH
 				message = CFD_MNH_LOST
 			}
 		}
+			
+		503 = {set_demilitarized_zone = yes}
+		4 = {set_demilitarized_zone = yes}
+		5 = {set_demilitarized_zone = yes}
+		3 = {set_demilitarized_zone = yes}
+		6 = {set_demilitarized_zone = yes}
+		574 = {set_demilitarized_zone = yes}
+		7 = {set_demilitarized_zone = yes}
+		10 = {set_demilitarized_zone = yes}
+		573 = {set_demilitarized_zone = yes}
+		9 = {set_demilitarized_zone = yes}
+		8 = {set_demilitarized_zone = yes}
+		13 = {set_demilitarized_zone = yes}
+		12 = {set_demilitarized_zone = yes}
+		14 = {set_demilitarized_zone = yes}
+		2 = {set_demilitarized_zone = yes}
+        NUD = {
+			kill_country_leader = yes
+			transfer_state = 3
+			set_cosmetic_tag = RGN_NEU
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {RGN_NEU_remember_europe}
+			load_oob = "NUD_1967"
+        }
+		RGN = {
+			kill_country_leader = yes
+			transfer_state = 5
+			transfer_state = 4
+			set_cosmetic_tag = RGN_ECU
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {RGN_ECU_frei_caneca}
+			load_oob = "NUD_1967"
+		}
+		CEA = {
+			set_politics = {
+				ruling_party = reactionary
+				elections_allowed = no
+			}
+			set_cosmetic_tag = CEA_MAODC
+			set_country_flag = CFD_failometer_enabled
+			transfer_state = 12
+			transfer_state = 14
+			add_ideas = {padre_cicero} 
+			load_oob = "NUD_1967"
+		
+		}
+		PAI = {
+			kill_country_leader = yes
+			transfer_state = 503
+			transfer_state = 6
+			set_cosmetic_tag = PAI_FREE
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {PAI_FREE_free_zone}
+			load_oob = "NUD_1967"
+		}
+		PEB = {
+			create_country_leader = {
+				name = "João Cabral de Melo Neto"
+				desc = ""
+				picture = "gfx/leaders/PEB/Portrait_CFD_Joao_Cabral_de_Melo_Neto.dds"
+				expire = "1999.1.1"
+				ideology = moderatism 
+				traits = {
+				}
+			}
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			transfer_state = 574
+			set_cosmetic_tag = PEB_ATE
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {PEB_ATE_bright_minds}
+			load_oob = "NUD_1967"
+		}
+		PIM = {
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				long_name = "Partido Liberal-Progressista"
+				name = "PLP"
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.3
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.2
+			}
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.15
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "Partido Progressista"
+				name = "PR"
+			}
+			set_party_name = {
+				ideology = reactionary
+				long_name = "Partido Liberal"
+				name = "PL"
+			}
+			create_country_leader = {
+				name = "José ''Indian'' Lima"
+				desc = ""
+				picture = "gfx/leaders/PIA/Portrait_Indian.dds"
+				expire = "1999.1.1"
+				ideology = city_state
+				traits = {
+				}
+			}
+			transfer_state = 8
+			set_cosmetic_tag = PEB_PET
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {PEB_PET_pimp_city}
+			load_oob = "NUD_1967"
+		}
+		JIN = {
+			kill_country_leader = yes
+			transfer_state = 10
+			set_cosmetic_tag = ALA_NQUI
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {}
+			load_oob = "NUD_1967"
+		}
+		VDP = {
+			create_country_leader = {
+				name = "Gabriel Ribeiro"
+				desc = ""
+				picture = "gfx/leaders/CFD/Portrait_CFD_Gabriel_Antonio_Duarte_Ribeiro.dds"
+				expire = "1999.1.1"
+				ideology = military_government 
+				traits = {
+				}
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				long_name = "71º BI Mtz"
+				name = "71º BI Mtz"
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.95
+			}
+			transfer_state = 9
+			set_cosmetic_tag = PEB_71
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {the_71th_motorized_battalion}
+			load_oob = "NUD_1967"
+		}
+		BEP= {
+			kill_country_leader = yes
+			transfer_state = 13
+			set_cosmetic_tag = ECL
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {ECL_the_einstein_cult}
+			load_oob = "NUD_1967"
+		}
+		ALA= {
+			transfer_state = 573
+			set_cosmetic_tag = ALA_REP
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {ALA_REP_corrupt_police}
+			load_oob = "NUD_1967"
+		}
+		FRN = {
+			transfer_state = 2
+			set_politics = {
+				ruling_party = reactionary
+				elections_allowed = no
+			}
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {}
+			load_oob = "NUD_1967"
+		}
+		SEG = {
+			kill_country_leader = yes
+			transfer_state = 7
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 1.0
+			}
+			set_cosmetic_tag = PEB_RECIFE
+			set_country_flag = CFD_failometer_enabled
+			add_ideas = {REC_sport_chapter}
+			load_oob = "NUD_1967"
+		}
+		MNH = {country_event = CFD_events.24}
     }
 }
 
+################################################	Non-Prestes Pernambuco Events.	################################################
+country_event = { #Asking the Republic for assistance
+    id = PEB.4
+    title = PEB.4.t
+    desc = PEB.4.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = { #BRA Accepts
+      name = PEB.4.a
+
+		PEB = {
+			BRA = {
+				set_rule = {
+					can_send_volunteers = yes
+				}
+				add_ai_strategy  = {
+					type = protect
+					id = PEB
+					value = 100
+				}
+				add_ai_strategy  = {
+					type = support
+					id = PEB
+					value = 100
+				}
+			}
+			complete_national_focus = PEB_supplies_from_the_republic
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+	
+    option = { #BRA Refuses
+      name = PEB.4.b
+		PEB = {
+			BRA = {
+				set_rule = {
+					can_send_volunteers = yes
+				}
+				add_ai_strategy = {
+					type = protect
+					id = PEB
+					value = 100
+				}
+				add_ai_strategy = {
+					type = support
+					id = PEB
+					value = 100
+				}
+			}
+			complete_national_focus = PEB_thisfightisoursnottheirs
+		}
+        ai_chance = {
+            base = 1
+        }
+	}
+}
+
+country_event = { #Careful for what you wish.
+    id = PEB.5
+    title = PEB.5.t
+    desc = PEB.5.d
+    picture = x
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.5.a
+
+		PEB = {
+			complete_national_focus = PEB_rebuilding_our_nation
+			add_ideas = CFD_living_in_ruins 
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+}
 ################################################	SERTANEJA COLLAPSE EVENTS.		################################################
 
 country_event = {
@@ -1678,6 +2004,7 @@ country_event = {
 			}
         }
         PEB = {
+			add_ideas = CFD_osertaneja_collapse
 			transfer_state  = 2
 			change_tag_from = CFD
 		}
@@ -1695,6 +2022,7 @@ country_event = {
     option = {
         name = CFD.2.a
         CEA = {
+			add_ideas = CFD_osertaneja_collapse
             transfer_state  = 14
             transfer_state  = 12
             transfer_state  = 13
@@ -1712,9 +2040,8 @@ country_event = {
 					large="gfx/leaders/PEB/Portrait_PEB_Miguel_Arraes.dds"
 				}
 			}
-			set_country_flag = CFD_prestes_is_returning
 		}
-        country_event = { id = CFD.3 days = 3 }
+        country_event = { id = CFD.3 days = 14 }
     }
 }
 
@@ -1732,6 +2059,7 @@ country_event = {
         CFD = { remove_ideas = gateway_of_south_america }
 
         RGN = {
+			add_ideas = CFD_osertaneja_collapse
             transfer_state  = 3
             transfer_state  = 4
             transfer_state  = 5
@@ -1758,7 +2086,7 @@ country_event = {
                 }
             }
         }
-        country_event = { id = CFD.5 days = 7 }
+        country_event = { id = CFD.5 days = 14 }
     }
 }
 
@@ -1780,7 +2108,7 @@ country_event = {
 		}
 		release = PAI
 		
-		#MAODC takeover.
+		#MAODC of Ceara takeover.
 		CEA = {
 			kill_ideology_leader = democratic
 			set_politics = {
@@ -1794,6 +2122,31 @@ country_event = {
             }
 			add_ideas = {
 				padre_cicero
+			}
+		}
+		
+		PEB = {
+			set_country_flag = CFD_prestes_is_returning
+			set_country_flag = PEB_focus_part_2
+			add_ai_strategy   = {
+				type = invade
+				id = PAI
+				value = 200
+			}
+			add_ai_strategy    = {
+				type = invade
+				id = ALA
+				value = 200
+			}
+			add_ai_strategy    = {
+				type = invade
+				id = CEA
+				value = 200
+			}
+			add_ai_strategy    = {
+				type = invade
+				id = RGN
+				value = 200
 			}
 		}
 		
@@ -1811,7 +2164,12 @@ country_event = {
 			transfer_state = 583
 			transfer_state = 584
 			
-			remove_ideas = {PIA_wolf_adminstration}
+			remove_ideas = {
+				PIA_wolf_adminstration
+				cangaceiros_heavy
+			}
+			
+			add_ideas = {cangaceiros_light}
 			
 			create_country_leader = {
 				name = CFD_pretonio_portella
@@ -1828,9 +2186,17 @@ country_event = {
 				target = PNA
 				type = annex_everything
 			}
+			
+			PNA = {
+				remove_ideas = {
+					cangaceiros_light
+				}
+				add_ideas = {cangaceiros_heavy}
+			}
 		}
 		
 		PAI = {
+			add_ideas = CFD_osertaneja_collapse
 			load_oob = "PAI_1967"
 			
             declare_war_on = {
@@ -1865,14 +2231,20 @@ country_event = {
             }
 		}
 		
-		MNH = {
+		MNH = { #Sarney Emperor moment
+			add_ai_strategy = {
+				type = invade
+				id = PIA
+				value = 200
+			}
 			country_event = {
 				id = MNH.1
-				days = 120
+				days = 555
 			}
 		}
 		
         ALA = {
+			add_ideas = CFD_osertaneja_collapse
             transfer_state = 573
             transfer_state = 10
 			
@@ -1918,7 +2290,7 @@ country_event = {
 }
 
 country_event = {
-    id = PEB.1 # Prestes prepares to uprise at Petrolina
+    id = PEB.1 # Prestes prepares to uprise at Aracaju
     title = PEB.1.t
     desc = PEB.1.d
     picture = x
@@ -1927,7 +2299,7 @@ country_event = {
 
     option = {
       name = PEB.1.a
-		8 = {
+		11 = {
 			set_demilitarized_zone = yes
 		}
 		country_event = { id = PEB.2 days = 3 }
@@ -1945,18 +2317,19 @@ country_event = {
 
     option = {
       name = PEB.2.a
-		8 = {
+		11 = {
 			set_demilitarized_zone = no
 		}
 		ROOT = {
 			set_country_flag = prestes_returned
+			mark_focus_tree_layout_dirty = yes
 		}
-      INT = {
-        transfer_state = 8
-        add_state_core = 8
-        load_oob = "INT_1967"
-		load_oob = "INT_revolutionary_divisions"
-      }
+		INT = {
+			transfer_state = 11
+			add_state_core = 11
+			load_oob = "INT_1967"
+			load_oob = "INT_revolutionary_divisions"
+		}
       country_event = { id = PEB.3 days = 3 }
   }
 } 
@@ -1974,6 +2347,26 @@ country_event = {
       name = PEB.3.a
 
 		INT = {
+			
+			declare_war_on = {
+				target = PAI
+				type = annex_everything
+			}
+			
+			declare_war_on = {
+				target = CEA
+				type = annex_everything
+			}
+			
+			declare_war_on = {
+				target = ALA
+				type = annex_everything
+			}
+			
+			declare_war_on = {
+				target = RGN
+				type = annex_everything
+			}
 			
 			declare_war_on = {
 				target = PEB

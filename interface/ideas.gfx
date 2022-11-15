@@ -9,6 +9,51 @@ SpriteTypes = {
 
  
 spriteType ={
+    name = "GFX_idea_PEB_PET_pimp_city"
+    texturefile = "gfx/interface/ideas/PEB_PET_pimp_city.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_ALA_REP_corrupt_police"
+    texturefile = "gfx/interface/ideas/ALA_REP_corrupt_police.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_PEB_ATE_bright_minds"
+    texturefile = "gfx/interface/ideas/PEB_ATE_bright_minds.dds"
+} 
+ 
+spriteType ={
+    name = "GFX_idea_RGN_ECU_frei_caneca"
+    texturefile = "gfx/interface/ideas/RGN_ECU_frei_caneca.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_REC_sport_chapter"
+    texturefile = "gfx/interface/ideas/REC_sport_chapter.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_PAI_FREE_free_zone"
+    texturefile = "gfx/interface/ideas/PAI_FREE_free_zone.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_RGN_NEU_remember_europe"
+    texturefile = "gfx/interface/ideas/RGN_NEU_remember_europe.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_ECL_the_einstein_cult"
+    texturefile = "gfx/interface/ideas/ECL_the_einstein_cult.dds"
+} 
+
+spriteType ={
+    name = "GFX_idea_the_71th_motorized_battalion"
+    texturefile = "gfx/interface/ideas/71th_motorized_battalion.dds"
+} 
+ 
+spriteType ={
     name = "GFX_idea_ARG_the_arsenal_of_south_america"
     texturefile = "gfx/interface/ideas/ARG_the_arsenal_of_south_america.dds"
 } 

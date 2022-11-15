@@ -72,7 +72,10 @@ ideas = {
 		}
 		CFD_pelopidas_silveira_advisor = {
             allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
 			available = {
 				NOT = {
@@ -80,11 +83,8 @@ ideas = {
 				}
 			}
             visible = {
-				AND = {
-					original_tag = CFD
-					NOT = {
-						has_government = fascism
-					}
+				NOT = {
+					has_government = fascism
 				}
             }
 			traits = { eco_construction_magnate hog_defender_of_democracy}
@@ -134,10 +134,16 @@ ideas = {
 		}
 		CFD_drayton_nejaim_advisor = {
             allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
             visible = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
 			traits = { sec_silent_lawyer }
 			cost = 50
@@ -197,40 +203,64 @@ ideas = {
 		}
 		CFD_francisco_queiroz_advisor = {
             allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
             visible = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
 			traits = { radialist_4 }
 			cost = 50
 		}
 		CFD_otavio_araujo_advisor = {
             allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
             visible = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
 			traits = { for_fierce_negotiator }
 			cost = 50
 		}
 		CFD_germano_coelho_advisor = {
             allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
             visible = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
 			traits = { sec_silent_lawyer sec_humble_teacher }
 			cost = 50
 		}
 		CFD_etvelvino_lins_advisor = {
             allowed = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
             visible = {
-				original_tag = CFD
+				OR = {
+					original_tag = CFD
+					original_tag = PEB
+				}
             }
 			traits = { hog_silent_workhorse hog_pragmatic_statesman }
 			cost = 50

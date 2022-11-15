@@ -99,6 +99,27 @@
  PIA_PG_DEF:0 "the Provisional Government of Piauí"
  PIA_PG_ADJ:0 "Piauiense"
  
+ #Failstates
+ #Northeastern -
+ PEB_RECIFE:0 "Recife Sport Chapter"
+ ALA_NQUI:0 "Neo-Quilombo"
+ ALA_REP:0 "Alagoas Republic"
+ RGN_NEU:0 "Novum Europa"
+ PAI_FREE:0 "Paraiba Free Market Zone"
+ PEB_71:0 "71º Motorized Battalion"
+ PEB_ATE:0 "New Athens"
+ PEB_PET:0 "Free Republic of Petrolina"
+ RGN_ECU:0 "New Ecuadorian Confederation"
+ PEB_RECIFE_DEF:0 "Recife Sport Chapter"
+ ALA_NQUI_DEF:0 "Neo-Quilombo"
+ ALA_REP_DEF:0 "Alagoas Republic"
+ RGN_NEU_DEF:0 "Novum Europa"
+ PAI_FREE_DEF:0 "Paraiba Free Market Zone"
+ PEB_71_DEF:0 "71º Motorized Battalion"
+ PEB_ATE_DEF:0 "New Athens"
+ PEB_PET_DEF:0 "Free Republic of Petrolina"
+ RGN_ECU_DEF:0 "New Ecuadorian Confederation"
+
  ACR_PRONA:0 "Government of Rectification of the National Order"
  ACR_PRONA_ADJ:0 "Acrean"
  ACR_PRONA_DEF:0 "Government of Rectification of the National Order"

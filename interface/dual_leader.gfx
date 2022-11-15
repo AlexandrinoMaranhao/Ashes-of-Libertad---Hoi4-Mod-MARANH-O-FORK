@@ -168,5 +168,10 @@ spriteTypes = {
 		name = "GFX_CFD_Sampaio"
 		texturefile = "gfx/dual_leaders/CFD/Portrait_CFD_Cid_Sampaio.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_PIM_hoe_enjoyer"
+		texturefile = "gfx/dual_leaders/PIM/Portrait_Hoe_Enjoyer.dds"
+	}
 
 }

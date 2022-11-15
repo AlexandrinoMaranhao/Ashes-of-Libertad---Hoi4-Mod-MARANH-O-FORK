@@ -15,9 +15,27 @@ CFD_monthly_payment_tt:0 "We will get a §Rpenalization§! of £GFX_CFD_cash_ico
 CFD_will_get_cash:0 "We will §Ggain§! £GFX_CFD_cash_icon §G1 Cash§! for our bank reserves.\n"
 CFD_will_get_cash_at_pp_cost:0 "We will §Ggain§! £GFX_CFD_cash_icon §G$RIGHT$ Cash§! at the cost of £GFX_pol_power §Y10 Political Power§!.\n"
 CFD_will_lose_cash:0 "We will §Rlose§! £GFX_CFD_cash_icon §R$RIGHT$ Cash§! as payment.\n"
+CFD_update_focus:0 "This will §Gupdate§! the focus."
+CFD_unified_leagues:0 "This will introduce a total unification of the infantry leagues units."
+CFD_PSN_revolt_reform:0 "The §RPeasent leagues§! will attempt to overthrow the §YUsineiros§! out of the Sugar Mils and assume total control over them."
 CFD_leagues_support_tt:0 "The §RPeasant leagues§! occupations on the §Ysugar plants§! are §GStable§! or better." 
+
 PEB_can_recruit_ppl:0 "Upon completion of this focus, [ROOT.GetName] will be allowed to recruit §Oblackmarket§! soldiers."
- 
+PEB_improve_roads:0 "This will greatly improve the movement of supplies and soldiers throughout Pernambuco."
+PEB_military_rule:0 "Pernambuco will upkeep the current Military Regime until it is united with the 4th Republic."
+PEB_redemocratization:0 "Arraes will seek ways to bring back the pre-war government structure."
+PEB_remove_mercs:0 "§RWARNING§! This will remove any mercenary units deployed after a while. Be sure you don't need them, or disposed of them before continuing.\n\n"
+PEB_hire_mercs_good_tt:0 "6 Motorized Units will appear on Recife."
+PEB_hire_mercs_mediocre_tt:0 "4 Infantry Units will appear on Recife."
+PEB_hire_mercs_bad_tt:0 "8 Militia Units will appear on Recife."
+PEB_stabilization_process_increase_tt:0 "This will assist on the stabilization efforts of the region."
+PEB_unlock_stabilization_process_tt:0 "\n\nThis will unlock multiple decisions to further stabilize the Northeastern regions."
+PEB_unified_tt:0 "The [PEB.GetName]'s war for unification is over."
+PEB_rebuild_again_tt:0 "This will help the Northeastern reconstruction efforts."
+PEB_usineiros_hunt_tt:0 "§OWe will unlock multiple decisions to hunt down  'Usineiros' cells throughout the northeastern region.§!"
+PEB_ligas_hunt_tt:0 "§OWe will unlock multiple decisions to hunt down PCB cells throughout the northeastern region.§!"
+PEB_juntarists_hunt_tt:0 "§OWe will unlock multiple decisions to hunt down Pro-Junta cells throughout the northeastern region.§!"
+
 #Custom cost tooltips
 decision_cost_CP_15:0 "£command_power  §Y15§!"
 decision_cost_CP_15_blocked:0 "£command_power  §R15§!"
@@ -27,6 +45,5 @@ decision_cost_CP_25_blocked:0 "£command_power  §Y25§!"
 decision_cost_CP_25_tooltip:0 "It costs £command_power  §Y25§! to take this decision."
 
 ##### End of Demo #####
-
 ACR_Thank_You:0 "Thank you for playing the Ashes of Libertad Alpha. Be sure to follow our dev team's progress in the mod on our Discord and to tell your friends. Have a wonderful day!"
 ACR_building_network:0 "With the construction of a railway in the region, the local population and area have to be vastly devastated, so the project may begin. §RThis can lead to some unforeseen actions by the locals.§!"

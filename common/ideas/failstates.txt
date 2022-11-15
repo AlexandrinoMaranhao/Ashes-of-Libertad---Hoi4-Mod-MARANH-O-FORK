@@ -17,7 +17,8 @@ ideas = {
 				guarantee_tension = 2
 				industrial_capacity_factory = -10
 				industrial_capacity_dockyard = -100
-				compliance_growth_on_our_occupied_states = 100
+				compliance_growth = 0.5
+				compliance_gain = 10
 				ai_badass_factor = -2
 				ai_get_ally_desire_factor = -500
 			}
@@ -120,6 +121,36 @@ ideas = {
 		}
 
 		NLI_nova_liberdade = {
+
+		}
+		
+		####Failstates Nordestinos####
+		
+		PEB_PET_pimp_city = {
+
+		}
+		RGN_ECU_frei_caneca = {
+
+		}
+		REC_sport_chapter = {
+
+		}
+		PAI_FREE_free_zone = {
+
+		}
+		RGN_NEU_remember_europe = {
+
+		}
+		the_71th_motorized_battalion = {
+
+		}
+		ECL_the_einstein_cult = {
+
+		}
+		PEB_ATE_bright_minds = {
+
+		}
+		ALA_REP_corrupt_police = {
 
 		}
 	}

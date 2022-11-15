@@ -9,6 +9,7 @@ ideas = {
 			
 			modifier = {
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		CFD_the_northeastern_military_command = {
@@ -21,18 +22,21 @@ ideas = {
 				land_doctrine_cost_factor = -0.25
 				command_abilities_cost_factor = -0.25
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		PIA_good_jesus_mercs = {
 		
 			modifier = {
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		PIA_the_BEP = {
 		
 			modifier = {
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		PIA_wolf_adminstration = {
@@ -43,6 +47,7 @@ ideas = {
 				party_popularity_stability_factor = -0.3
 				political_power_gain = -0.1
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		PIA_memories_of_the_1963_revolt = {
@@ -51,6 +56,7 @@ ideas = {
 				political_advisor_cost_factor = 0.2
 				political_power_gain = -0.15
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		PIA_just_an_occupation = {
@@ -58,6 +64,7 @@ ideas = {
 			modifier = {
 				defensive_war_stability_factor = 0.25
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 		
 		cangaceiros_and_commies = {
@@ -68,15 +75,15 @@ ideas = {
 			
 			modifier = {
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 
 		}
 
 		whale_hunting = {
-
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
 		}
 
 		padre_cicero = {
-
 		}
 		
 	}

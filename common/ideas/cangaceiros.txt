@@ -7,6 +7,7 @@ ideas = {
 				stability_factor = -0.1
 				consumer_goods_factor = 0.02
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
         }
 
         cangaceiros_medium = {
@@ -16,6 +17,7 @@ ideas = {
 				consumer_goods_factor = 0.03
 				political_power_cost = 0.05
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
         }
 
         cangaceiros_heavy = {
@@ -25,6 +27,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 				political_power_cost = 0.10
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
         }
 
         cangaceiros_total = {
@@ -34,6 +37,7 @@ ideas = {
 				consumer_goods_factor = 0.1
 				political_power_cost = 0.15
 			}
+			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
         }
 	}
 }

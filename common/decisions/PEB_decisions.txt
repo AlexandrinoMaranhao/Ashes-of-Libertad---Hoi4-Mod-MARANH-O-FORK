@@ -1,4 +1,168 @@
+##Main decisions
 PEB_main_category = {
+	improved_worker_conditions = {
+
+		icon = generic_industry
+
+		available = {
+			has_stability < 1.0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.1
+		}
+
+		days_remove = 180
+		days_re_enable = 540
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+				has_political_power > 155
+			}
+		}
+	}
+	desperate_defense = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			surrender_progress > 0.5
+		}
+
+		visible = {
+			surrender_progress > 0
+		}
+
+		fire_only_once = no
+
+		days_remove = 45
+		days_re_enable = 360
+
+		cost = 50
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				surrender_progress > 0.45
+				factor = 10
+			}
+		}
+
+		modifier = {
+			defence = 0.2
+			dig_in_speed_factor = 0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+    war_bonds = {
+
+    	icon = generic_industry
+
+    	allowed = {
+            always = yes
+        }
+
+        available = {
+            has_war = yes
+        }
+        visible = {
+            has_war = yes
+        }
+
+        fire_only_once = no
+
+		days_remove = 180
+
+		cost = GER_war_bonds_var?50
+
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 100
+				factor = 0 #use as pp dump
+			}
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_war_bonds_var
+						value = 50
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = GER_war_bonds_var
+					value = 50
+				}
+			}
+			add_to_variable = {
+				var = GER_war_bonds_var
+				value = 25
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_war_bonds_var
+						value = 100
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = GER_war_bonds_war_support_var
+						value = -0.025
+						compare = greater_than
+					}
+				}
+				set_variable = {
+					var = GER_war_bonds_war_support_var
+					value = -0.025
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_war_bonds_war_support_var
+						value = -0.025
+						compare = less_than_or_equals
+					}
+				}
+				add_to_variable = {
+					var = GER_war_bonds_war_support_var
+					value = -0.025
+				}
+				add_war_support = GER_war_bonds_war_support_var
+			}
+		}
+    }
+###these decisions above are all generic decisions i added for fun. Feel free to remove tho.###
 	PEB_prestes_returns_timer = {
         allowed = { tag = PEB }
         available = {
@@ -8,18 +172,22 @@ PEB_main_category = {
 			country_exists = PEB
 		}
         activation = {
-			PEB = {has_country_flag = CFD_prestes_is_returning}
+			AND = {
+				date > 1970.04.23
+				PEB = {has_country_flag = CFD_prestes_is_returning}
+			}
         }
 		cancel_trigger = {
 			hidden_trigger = {
-				PEB = {has_country_flag = prestes_returned}
+				has_global_flag =  prestes_returned
 			}
 		}
         is_good = no
         selectable_mission = no
-        days_mission_timeout = 700
+        days_mission_timeout = 365
         timeout_effect = {
 			hidden_effect = {
+				set_global_flag = prestes_returned
 				clr_country_flag = CFD_prestes_is_returning
 				every_country = {
 					news_event = {
@@ -33,5 +201,1787 @@ PEB_main_category = {
 				}
 			}
         }
+	}
+	PEB_recife_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				7 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		cost = 25
+		remove_effect = {
+			7 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.16
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_maceio_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				10 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.01
+			10 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_juazeiro_do_norte_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				13 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.01
+			13 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_petrolina_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				8 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.01
+			8 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_joao_pessoa_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				6 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.02
+			6 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_natal_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				3 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.02
+			3 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_sobral_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				14 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.01
+			14 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_fortaleza_security_office = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				12 = {
+					is_controlled_by = PEB
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_wiping_the_slate_clean
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_stabilization_process_increase_tt
+			add_stability = 0.02
+			12 = {add_extra_state_shared_building_slots = 1}
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.15
+		}
+		cost = 25
+		remove_effect = {
+			PEB = {
+				add_to_variable = {
+					var = PEB_stabilization_process
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+}
+
+##Blackmarket decisions
+PEB_blackmarket = {
+	PEB_hire_mercs_good = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 30
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_hire_mercs_good_tt
+			hidden_effect = {
+				load_oob = "PEB_mercs_good"
+			}
+		}
+		cancel_effect = {
+			hidden_effect = {
+				PEB = {
+					delete_unit_template_and_units = {
+						division_template = "Rachadinha Militia"
+						disband = no
+					}
+				}
+			}
+		}
+		remove_effect = {
+			PEB = {
+				delete_unit_template_and_units = {
+					division_template = "Rachadinha Militia"
+					disband = no
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_hire_mercs_mediocre = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 30
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_hire_mercs_mediocre_tt
+			hidden_effect = {
+				load_oob = "PEB_mercs_mediocre"
+			}
+		}
+		cancel_effect = {
+			hidden_effect = {
+				PEB = {
+					delete_unit_template_and_units = {
+						division_template = "Praieira Legion"
+						disband = no
+					}
+				}
+			}
+		}
+		remove_effect = {
+			PEB = {
+				delete_unit_template_and_units = {
+					division_template = "Praieira Legion"
+					disband = no
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	PEB_hire_mercs_bad = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 30
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_hire_mercs_bad_tt
+			hidden_effect = {
+				load_oob = "PEB_mercs_bad"
+			}
+		}
+		cancel_effect = {
+			hidden_effect = {
+				PEB = {
+					delete_unit_template_and_units = {
+						division_template = "Milícia Pernambucana"
+						disband = no
+					}
+				}
+			}
+		}
+		remove_effect = {
+			PEB = {
+				delete_unit_template_and_units = {
+					division_template = "Milícia Pernambucana"
+					disband = no
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	PEB_buy_infantry_equipment = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_prepare_civil_war
+		fire_only_once = yes
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 30
+		cost = 100
+		modifier = {
+			consumer_goods_factor = 0.3
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	PEB_buy_medical_supplies = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_research
+		fire_only_once = yes
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 1000
+				producer = ROOT
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_gear
+				amount = 1000
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 30
+		cost = 50
+		modifier = {
+			consumer_goods_factor = 0.3
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	PEB_buy_mobile_equipment = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_tank
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 10000
+				producer = ROOT
+			}
+			add_equipment_to_stockpile = {
+				type = mechanized_equipment
+				amount = 500
+				producer = ROOT
+			}
+		}
+		cost = 45
+        is_good = yes
+		days_remove = 30
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.45
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	PEB_buy_heavy_equipment = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_ger_military_buildup
+        available = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_war = yes
+					has_completed_focus = PEB_united_pernambuco
+					NOT = {
+						has_completed_focus = PEB_a_professionalized_army
+					}
+				}
+			}
+		}
+		cost = 25
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 2500
+				producer = ROOT
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 2500
+				producer = ROOT
+			}
+		}
+        is_good = yes
+		days_remove = 30
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.45
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+}
+
+##Rebuilding decisions
+PEB_rebuilding_category = {
+	PEB_rebuild_carmo = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_pernambucosrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_rebuild_royal_hospital = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_pernambucosrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_rebuild_guararapes = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_pernambucosrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 0.05 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_rebuild_theater = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_pernambucosrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_PAI_rebuild_palace = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_paraibasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_PAI_rebuild_airport = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_paraibasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_PAI_rebuild_cultural_center = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_paraibasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 0.10 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_RGN_dam = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_riograndedonortesrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_RGN_cathedral = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_riograndedonortesrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_RGN_potengi = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_riograndedonortesrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_RGN_caern = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_riograndedonortesrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_CEA_rebuild_1 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_cearasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_CEA_rebuild_2 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_cearasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_CEA_rebuild_3 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_cearasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_CEA_rebuild_4 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_cearasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_ALA_rebuild_1 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_alagoasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_ALA_rebuild_2 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_alagoasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_ALA_rebuild_3 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_alagoasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+ 	PEB_ALA_rebuild_4 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_war = no
+					has_completed_focus = PEB_alagoasrebuilding
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_rebuild_again_tt
+		}
+		remove_effect = {
+			PEB = {
+				add_to_variable = { PEB_rebuilding = 5 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+}
+
+##Hunting Opposition decisions
+PEB_traitors_hunt_category = {
+	PEB_usineiros_hunt = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				has_completed_focus = PEB_purging_the_traitors
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_purging_the_traitors
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 20
+		days_remove = 60
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_usineiros_hunt_tt
+		}
+		remove_effect = {
+			PEB = {
+				set_country_flag = PEB_hunt_usineiros
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_uh_paulo_guerra = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_usineiros
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_usineiros
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 60
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			#Paulo Guerra Hunted Event
+		}
+		remove_effect = {
+			PEB = {
+				set_variable = { PEB_paulo_guerra_hunt = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_uh_aluizio = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_usineiros
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_usineiros
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 40
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			#Aluizio Hunted Event
+		}
+		remove_effect = {
+			PEB = {
+				set_variable = { PEB_aluizio_hunt = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_uh_olival_costa = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_usineiros
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_usineiros
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 50
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			#Olival Costa Hunted Event
+		}
+		remove_effect = {
+			PEB = {
+				set_variable = { PEB_olival_costa_hunt = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_ligas_hunt = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				has_completed_focus = PEB_purging_the_traitors
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_purging_the_traitors
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 20
+		days_remove = 60
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			custom_effect_tooltip = PEB_ligas_hunt_tt
+		}
+		remove_effect = {
+			PEB = {
+				set_country_flag = PEB_hunt_ligas
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_lh_elizabeth_a_texeira = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_ligas
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_ligas
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 30
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			#elizabeth Hunted Event
+		}
+		remove_effect = {
+			PEB = {
+				set_variable = { PEB_texeira_hunt = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_lh_zeze_galileia = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_ligas
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_ligas
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 40
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			#zeze da galileia Hunted Event
+		}
+		remove_effect = {
+			PEB = {
+				set_variable = { PEB_zeze_hunt = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_lh_pedro_inacio_araujo = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_ligas
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					has_completed_focus = PEB_purging_the_traitors
+					has_country_flag = PEB_hunt_ligas
+				}
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 10
+		days_remove = 50
+		modifier = {
+			political_power_cost = 0.10
+		}
+		complete_effect = {
+			#pedro inacio Hunted Event
+		}
+		remove_effect = {
+			PEB = {
+				set_variable = { PEB_inacio_hunt = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+}
+
+PEB_reorganize_elections_category = {
+	PEB_parties_overhaul = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				has_completed_focus = PEB_solidarity_for_the_traitors
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_solidarity_for_the_traitors
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			political_power_cost = 0.25
+		}
+		complete_effect = {
+			#new parties event
+		}
+		remove_effect = {
+			#PEB = {
+			#
+			#}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_restructure_of_laws = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				has_completed_focus = PEB_solidarity_for_the_traitors
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_solidarity_for_the_traitors
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 30
+		days_remove = 90
+		modifier = {
+			political_power_cost = 0.25
+		}
+		complete_effect = {
+			#old systems law event
+		}
+		remove_effect = {
+			#PEB = {
+			#
+			#}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	PEB_the_next_election = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_construction
+        available = {
+			PEB = {
+				has_completed_focus = PEB_solidarity_for_the_traitors
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_solidarity_for_the_traitors
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 40
+		days_remove = 100
+		modifier = {
+			political_power_cost = 0.25
+		}
+		complete_effect = {
+			#the new election event
+		}
+		remove_effect = {
+			#PEB = {
+			#
+			#}
+		}
+		ai_will_do = {
+			factor = 999
+		}
 	}
 }

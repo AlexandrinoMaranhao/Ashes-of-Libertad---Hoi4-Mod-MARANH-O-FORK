@@ -34,7 +34,7 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Djalma Martins Veloso"
+	name = VDP_ABB
 	picture = "gfx/leaders/PIA/Portrait_PIA_Djalma_Martins_Veloso.dds"
 	expire = "1999.1.1"
 	ideology = coronelism

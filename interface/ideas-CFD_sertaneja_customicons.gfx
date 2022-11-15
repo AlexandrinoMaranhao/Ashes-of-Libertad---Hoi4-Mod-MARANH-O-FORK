@@ -143,5 +143,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_warzone-238388.dds"
 	}
 
+	##Icon For: Economic Collapse
+	SpriteType = { 
+		name = "GFX_idea_CFD_economic_collapse-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_economic_collapse-238388.dds"
+	}
+
+	##Icon For: §OSertaneja Collapse§!
+	SpriteType = { 
+		name = "GFX_idea_CFD_osertaneja_collapse-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_osertaneja_collapse-238388.dds"
+	}
+
+	##Icon For: The Legalist Alliance
+	SpriteType = { 
+		name = "GFX_idea_CFD_the_legalist_alliance-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_the_legalist_alliance-238388.dds"
+	}
+
+	##Icon For: Living in Ruins
+	SpriteType = { 
+		name = "GFX_idea_CFD_living_in_ruins-238388"
+		texturefile = "gfx/interface/ideas/sertaneja-ideas/CFD_living_in_ruins-238388.dds"
+	}
+
  
  }

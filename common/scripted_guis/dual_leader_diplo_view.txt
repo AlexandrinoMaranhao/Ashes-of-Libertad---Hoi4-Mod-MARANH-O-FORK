@@ -48,6 +48,10 @@ scripted_gui = {
 						}
 					}
 				}
+				AND = {
+					tag = PIM
+					PIM = {has_country_flag = CFD_failometer_enabled}
+				}
 			}
 		}
 		
