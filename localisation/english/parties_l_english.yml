@@ -414,6 +414,26 @@ BRA_communism_party_long:0 "Partido Trabalhista Brasileiro"
 BRA_fascism_party:0 "FAB"
 BRA_fascism_party_long:0 "Forças Armadas Brasileiras"
 
+##More Brazilian parties :)
+BRA_PTN_party:0 "PTN"
+BRA_PTN_party_long:0 "Partido Trabalhista Nacional"
+BRA_PSD_party:0 "PSD"
+BRA_PSD_party_long:0 "Partido Social Democrático"
+BRA_PTB_party:0 "PTB"
+BRA_PTB_party_long:0 "Partido Trabalhista Brasileiro"
+BRA_PSP_party:0 "PSP"
+BRA_PSP_party_long:0 "Partido Social Progressista"
+BRA_PST_party:0 "PST"
+BRA_PST_party_long:0 "Partido Social Trabalhista"
+BRA_PSB_party:0 "PSB"
+BRA_PSB_party_long:0 "Partido Socialista Brasileiro"
+BRA_PDC_party:0 "PDC"
+BRA_PDC_party_long:0 "Partido Democrata Cristão"
+BRA_PRP_party:0 "PRP"
+BRA_PRP_party_long:0 "Partido de Representação Popular"
+BRA_UDN_party:0 "UDN"
+BRA_UDN_party_long:0 "União Democrática Nacional"
+
 JAG_fascism_party:0 "ARENA - MG"
 JAG_fascism_party_long:0 "Aliança Renovadora Nacional - Mato Grosso"
 
@@ -458,8 +478,6 @@ VAL_neutrality_party_long:0 "Companhia Vale do Rio Doce"
 
 CNU_democratic_party:0 "GPB"
 CNU_democratic_party_long:0 "Governo Provisório da Bahia"
-
-
 
 AMA_democratic_party:0 "PSB - A"
 AMA_democratic_party_long:0 "Partido Socialista Brasileiro - Amapá"
@@ -689,8 +707,17 @@ POR_fascism_party_long:0 "Marinha Portuguesa - Armada Portuguesa"
 
 ## Nordeste ##
 
-PEB_reactionary_party:0 "GP"
-PEB_reactionary_party_long:0 "Governo de Pernambuco"
+PEB_election_red_parties:0 "PTB - PST"
+PEB_election_red_parties_long:0 "Partido Trabalhista Brasileiro - Partido Social Trabalhista"
+PEB_election_reactionary_parties:0 "PTN - PSP"
+PEB_election_reactionary_parties_long:0 "Partido Trabalhista Nacional - Partido Social Progressista"
+PEB_election_democratic_parties:0 "UDN - PDC"
+PEB_election_democratic_parties_long:0 "União Democrática Nacional - Partido Democrata Cristão"
+PEB_election_center_parties:0 "PSD - PSB"
+PEB_election_center_parties_long:0 "Partido Social Democrático - Partido Socialista Brasileiro"
+
+PEB_reactionary_party:0 "GPP"
+PEB_reactionary_party_long:0 "Pernambuco Provisional Government"
 
 RNG_reactionary_party:0 "GRNG"
 RNG_reactionary_party_long:0 "Governo do Rio Grande do Norte"

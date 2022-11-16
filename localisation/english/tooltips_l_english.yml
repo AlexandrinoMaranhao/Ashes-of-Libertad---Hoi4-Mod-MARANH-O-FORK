@@ -35,6 +35,8 @@ PEB_rebuild_again_tt:0 "This will help the Northeastern reconstruction efforts."
 PEB_usineiros_hunt_tt:0 "§OWe will unlock multiple decisions to hunt down  'Usineiros' cells throughout the northeastern region.§!"
 PEB_ligas_hunt_tt:0 "§OWe will unlock multiple decisions to hunt down PCB cells throughout the northeastern region.§!"
 PEB_juntarists_hunt_tt:0 "§OWe will unlock multiple decisions to hunt down Pro-Junta cells throughout the northeastern region.§!"
+PEB_hunt_is_completed_tt:0 "§RAll traitors are either dead or missing.§!"
+PEB_start_elections_tt:0 "§GStart governor elections§!"
 
 #Custom cost tooltips
 decision_cost_CP_15:0 "£command_power  §Y15§!"

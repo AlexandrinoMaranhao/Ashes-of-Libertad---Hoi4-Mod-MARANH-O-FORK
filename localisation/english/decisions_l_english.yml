@@ -157,5 +157,8 @@
  PEB_RGN_potengi:0 "Rebuild the Potengi Palace"
  PEB_RGN_caern:0 "Began CAERN Construction"
  
+ PEB_elections_category:0 "The §GElections§!"
+ PEB_elections_category_desc:0 "**WIP** \n\n§2UDN§! - §2PDC§! candidates: §2[?party_popularity@democracy|%0]§! \nNivaldo Rodrigues Machado - §2UDN§! \nLuís de Sousa Cavalcanti - §1PDC§! \n\n§RPTB§! - §tPST§! candidates: §R[?party_popularity@communism|%0]§! \nNey de Albuquerque Maranhão - §RPTB§! \nMiguel Arraes - §tPST§! \n\n§OPTN - PSP§! candidates: §O[?party_popularity@reactionary|%0]§! \nMoura Cavalcanti - §8PTN§! \nOtávio Correia de Araújo - §OPSP§! \n\n§YPSD - PSB§! candidates: §Y[?party_popularity@democracy|%0]§! \nArmando Monteiro Filho - §gPSD§! \nPelópidas Silveira - §LPSB§!"
+ 
  PEB_traitors_hunt_category:0 "The Hunting Game"
  PEB_traitors_hunt_category_desc:0 "**WIP** \n\n§YUsineiros§! List: \nPaulo Guerra: [peb_pg_hunt_loc] \nAluízio Alves: [peb_aa_hunt_loc] \nOlival Costa: [peb_oc_hunt_loc] \n\n§RLigas Camponesas§! List: \nElizabeth Texeira: [peb_et_hunt_loc] \nZezé da Galiléia: [peb_zg_hunt_loc] \nPedro Inacio de Araujo: [peb_pi_hunt_loc]"

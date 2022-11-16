@@ -972,9 +972,17 @@ focus_tree = {
 		mutually_exclusive = { focus = PEB_aid_campaign  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
-			
-			
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 2
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
 		}
 	}
 
@@ -992,7 +1000,17 @@ focus_tree = {
 		mutually_exclusive = { focus = PEB_direct_invervention  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
+			CNU = {
+				add_war_support = 0.1
+				add_manpower = 50000
+				add_tech_bonus = {
+					name = infantry_artillery_bonus
+					bonus = 1.0
+					uses = 3
+					category = infantry_weapons
+					category = artillery
+				}
+			}
 		}
 	}
 
@@ -1572,9 +1590,24 @@ focus_tree = {
 		prerequisite = { focus = PEB_ssttheknightsreturnss  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
-			
-			
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 3
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
 		}
 	}
 

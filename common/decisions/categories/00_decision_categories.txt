@@ -85,6 +85,25 @@ PEB_reorganize_elections_category = {
 	}
 }
 
+PEB_elections_category = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 50
+	allowed = {
+		original_tag = PEB
+	}
+	visible = {
+		PEB = {
+			has_country_flag = PEB_elections_start
+		}
+	}
+	available = {
+		PEB = {
+			has_country_flag = PEB_elections_start
+		}
+	}
+	visible_when_empty = yes
+}
+
 CFD_balance_category = {
 	icon = GFX_decision_category_eng_concessions_to_the_trade_unions
 	priority = 10

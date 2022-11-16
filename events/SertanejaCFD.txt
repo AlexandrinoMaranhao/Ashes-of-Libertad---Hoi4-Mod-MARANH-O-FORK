@@ -1838,7 +1838,7 @@ country_event = { #Asking the Republic for assistance
     id = PEB.4
     title = PEB.4.t
     desc = PEB.4.d
-    picture = x
+    picture = GFX_report_cfd_elections1
     is_triggered_only = yes
     fire_only_once = yes 
 
@@ -1898,7 +1898,7 @@ country_event = { #Careful for what you wish.
     id = PEB.5
     title = PEB.5.t
     desc = PEB.5.d
-    picture = x
+    picture = GFX_report_cfd_elections1
     is_triggered_only = yes
     fire_only_once = yes 
 
@@ -1908,6 +1908,55 @@ country_event = { #Careful for what you wish.
 		PEB = {
 			complete_national_focus = PEB_rebuilding_our_nation
 			add_ideas = CFD_living_in_ruins 
+			add_ideas = cangaceiros_medium
+		}
+		ai_chance = {
+            base = 1
+        }
+	}
+}
+
+country_event = { #Restore Governor Elections
+    id = PEB.6
+    title = PEB.6.t
+    desc = PEB.6.d
+    picture = GFX_report_cfd_elections1
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+      name = PEB.5.a
+
+		PEB = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 1.0
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = ELC_neutrality_party_long
+				name = ELC_neutrality_party_long
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = PEB_election_center_parties_long
+				name = PEB_election_center_parties
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = PEB_election_democratic_parties_long
+				name = PEB_election_democratic_parties
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = PEB_election_red_parties_long
+				name = PEB_election_red_parties
+			}
+			set_party_name = {
+				ideology = reactionary
+				long_name = PEB_election_reactionary_parties_long
+				name = PEB_election_reactionary_parties
+			}
 		}
 		ai_chance = {
             base = 1

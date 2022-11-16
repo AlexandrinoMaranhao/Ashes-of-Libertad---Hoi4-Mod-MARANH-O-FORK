@@ -2620,7 +2620,9 @@ CFD_balance_category = {
 			}
 		}
 		available = {
-			always = no
+			hidden_trigger = {
+				always = no
+			}
 		}
 		cancel_trigger = {
 			has_country_flag = CFD_end_balance
@@ -2655,7 +2657,9 @@ CFD_balance_category = {
 			}
 		}
 		available = {
-			always = no
+			hidden_trigger = {
+				always = no
+			}
 		}
 		cancel_trigger = {
 			has_country_flag = CFD_end_balance
