@@ -378,6 +378,9 @@ CFD_main_category = {
 	CFD_build_stuff_recife = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 7 }
         available = {
 			tag = CFD
         }
@@ -398,7 +401,7 @@ CFD_main_category = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
 				add_to_variable = { CFD_resource_cash = 0.5 }
-				7 = {
+				FROM = {
 					set_building_level = {
 						type = infrastructure
 						level = 5
@@ -419,6 +422,9 @@ CFD_main_category = {
 	CFD_build_stuff_alagoas = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 573 }
         available = {
 			tag = CFD
         }
@@ -465,6 +471,9 @@ CFD_main_category = {
 	CFD_build_stuff_petrolina = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 8 }
         available = {
 			tag = CFD
         }
@@ -512,6 +521,9 @@ CFD_main_category = {
 	CFD_build_stuff_patos = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 503 }
         available = {
 			tag = CFD
         }
@@ -559,6 +571,9 @@ CFD_main_category = {
 	CFD_build_stuff_jaboatao_garanhuns = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 574 }
         available = {
 			tag = CFD
         }
@@ -612,6 +627,9 @@ CFD_main_category = {
 	CFD_build_stuff_maceio = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 10 }
         available = {
 			tag = CFD
         }
@@ -658,6 +676,9 @@ CFD_main_category = {
 	CFD_build_stuff_touros_natal = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 3 }
         available = {
 			tag = CFD
         }
@@ -716,6 +737,9 @@ CFD_main_category = {
 	CFD_build_stuff_joao_person = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 6 }
         available = {
 			tag = CFD
         }
@@ -762,6 +786,9 @@ CFD_main_category = {
 	CFD_build_stuff_mossoro = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 5 }
         available = {
 			tag = CFD
         }
@@ -813,6 +840,9 @@ CFD_main_category = {
 	CFD_build_stuff_ceara = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 12 }
         available = {
 			tag = CFD
         }
@@ -821,7 +851,6 @@ CFD_main_category = {
 				has_completed_focus = CFD_sampaiosadminstration
 			}
 		}
-        is_good = yes
 		fire_only_once = yes
 		cost = 0
 		days_remove = 60
@@ -1185,6 +1214,9 @@ CFD_main_category = {
 	CFD_post_mnh_better_patrols = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 20 }
         available = {
 				CFD = {
 					20 = {
@@ -1223,6 +1255,9 @@ CFD_main_category = {
 	CFD_post_mnh_highway_security = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 21 }
         available = {
 				CFD = {
 					AND = {
@@ -1269,6 +1304,9 @@ CFD_main_category = {
 	CFD_post_mnh_rewrite_the_constitution = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 22 }
         available = {
 				CFD = {
 					AND = {
@@ -1315,6 +1353,9 @@ CFD_main_category = {
 	CFD_post_mnh_rebuild_saint_louis = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 18 }
         available = {
 				CFD = {
 					AND = {
@@ -1361,6 +1402,9 @@ CFD_main_category = {
 	CFD_post_mnh_transitional_goverment = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 23 }
         available = {
 				CFD = {
 					AND = {
@@ -1600,12 +1644,13 @@ CFD_nation_development_category = {
 		icon = GFX_decision_generic_civil_support
 		is_good = yes
 		days_mission_timeout = 30
+		days_re_enable = 1
 		selectable_mission = no
 		complete_effect = {
 		}
 		timeout_effect = {
 			###Dividing by 2 gives to the player 50% of the total civilian factories into their currency as brute currency status, instead of 100% of the current amount.
-			set_variable = {
+			set_temp_variable = {
 				var = CFD_monthly_cash_income
 				value = num_of_civilian_factories
 			}
@@ -1615,7 +1660,6 @@ CFD_nation_development_category = {
 				value = CFD_monthly_cash_income
 				tooltip = CFD_monthly_cash_tt
 			}
-			round_variable = CFD_resource_cash
 			hidden_effect = {
 				activate_decision = CFD_monthly_cash_gain
 			}
@@ -1634,12 +1678,17 @@ CFD_nation_development_category = {
 		}
 		icon = GFX_decision_generic_civil_support
 		is_good = no
+		days_re_enable = 1
 		days_mission_timeout = 30
 		selectable_mission = no
 		complete_effect = {
 		}
 		timeout_effect = {
-			subtract_from_variable = {
+			set_temp_variable = {
+				var = CFD_monthly_cash_income
+				value = num_of_civilian_factories
+			}
+			subtract_from_temp_variable = {
 				var = CFD_monthly_cash_income
 				value = num_of_military_factories
 				tooltip = CFD_monthly_payment_tt
@@ -2734,13 +2783,14 @@ CFD_piaui_frontier = {
 			add_stability = 0.05
 		}
 	}
-	
 	CFD_op_simoes ={
 		icon = GFX_decision_generic_operation
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 575 }
 		available = {
 			AND = {
 				CFD = {
@@ -2803,7 +2853,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 577 }
 		available = {
 			CFD = {
 				AND = {
@@ -2865,7 +2917,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 576 }
 		available = {
 			CFD = {
 				AND = {
@@ -2927,7 +2981,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 578 }
 		available = {
 			CFD = {
 				AND = {
@@ -2989,7 +3045,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 579 }
 		available = {
 			CFD = {
 				AND = {
@@ -3057,7 +3115,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 580 }
 		available = {
 			CFD = {
 				AND = {
@@ -3120,7 +3180,9 @@ CFD_piaui_frontier = {
 		days_remove = 30
 		is_good = yes
 		fire_only_once = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 16 }
 		available = {
 			CFD = {
 				AND = {
@@ -3169,7 +3231,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 582 }
 		available = {
 			CFD = {
 				AND = {
@@ -3231,7 +3295,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 581 }
 		available = {
 			CFD = {
 				AND = {
@@ -3299,7 +3365,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 583 }
 		available = {
 			CFD = {
 				AND = {
@@ -3361,7 +3429,9 @@ CFD_piaui_frontier = {
 		cost = 25
 		days_remove = 30
 		is_good = yes
-		
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 584 }
 		available = {
 			CFD = {
 				AND = {
@@ -3494,6 +3564,19 @@ CFD_maranhao_war_category = {
         selectable_mission = yes
         days_mission_timeout = 360
         timeout_effect = {
+			MNH = {
+				transfer_state = 575 
+				transfer_state = 577
+				transfer_state = 576
+				transfer_state = 578
+				transfer_state = 580
+				transfer_state = 579
+				transfer_state = 582
+				transfer_state = 581
+				transfer_state = 16
+				transfer_state = 583
+				transfer_state = 584
+			}
             country_event = {
 				id = CFD_failometer_enabled.1
 				days = 1
@@ -3521,6 +3604,9 @@ CFD_maranhao_war_category = {
 	CFD_maranhao_prep_fortifications1 = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 580 }
         available = {
            has_country_flag = operations_completed
         }
@@ -3567,6 +3653,9 @@ CFD_maranhao_war_category = {
 	CFD_maranhao_prep_fortifications2 = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 15 }
         available = {
            has_country_flag = operations_completed
         }
@@ -3613,6 +3702,9 @@ CFD_maranhao_war_category = {
 	CFD_maranhao_prep_fortifications3 = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 575 }
         available = {
            has_country_flag = operations_completed
         }

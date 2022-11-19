@@ -3,10 +3,10 @@ focus_tree = {
 	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = para_junta_collapse
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = para_junta_collapse
+		#}
 	}
 	#The Situation of Our Garrison
 	focus = {

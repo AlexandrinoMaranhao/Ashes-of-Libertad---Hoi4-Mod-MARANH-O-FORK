@@ -1349,6 +1349,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = CFD_will_get_cash
 			add_to_variable = { CFD_resource_cash = 0.5 }
+			add_ideas = {urban_specialization}
 			
 		}
 	}

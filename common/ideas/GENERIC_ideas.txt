@@ -27,5 +27,16 @@ consumer_goods_factor = 0.1
 consumer_goods_factor = 0.1
 			}
 		}
+
+		GENERIC_furnas_hydroelectric_power_plant = {
+			picture = GENERIC_furnas_hydroelectric_power_plant-155873
+			ai_will_do = {
+				factor = 1
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.2
+consumer_goods_factor = 0.05
+			}
+		}
 	}
 }

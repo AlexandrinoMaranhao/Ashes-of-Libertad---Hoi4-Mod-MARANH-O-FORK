@@ -36,6 +36,22 @@ focus_tree = {
 			    uses = 2
 			    category = recon_tech
 			}
+			hidden_effect = {
+				PEB = {
+					delete_unit_template_and_units = {
+						division_template = "Milícia Pernambucana"
+						disband = no
+					}
+					delete_unit_template_and_units = {
+						division_template = "Praieira Legion"
+						disband = no
+					}
+					delete_unit_template_and_units = {
+						division_template = "Rachadinha Militia"
+						disband = no
+					}
+				}
+			}
 		}
 	}
 

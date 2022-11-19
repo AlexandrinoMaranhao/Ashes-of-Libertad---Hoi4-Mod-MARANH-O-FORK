@@ -969,4 +969,70 @@ key_locations_decisions = {		#These are TNO-inspired national spirits based on i
 			remove_ideas = GENERIC_boa_esperana_hydroelectric_power_plant
 		}
 	}
+	
+	take_furnas_hydro = {
+		activation = {
+			AND = {
+				ROOT = {
+					controls_state = 66
+				}
+				NOT = {has_idea = GENERIC_furnas_hydroelectric_power_plant}
+			}
+		}
+		available = {
+			ROOT = {
+				controls_state = 66
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					ROOT = {
+						controls_state = 66
+					}
+				}
+				has_idea = GENERIC_furnas_hydroelectric_power_plant
+			}
+		}
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		complete_effect = {
+			add_ideas = GENERIC_furnas_hydroelectric_power_plant
+		}
+	}
+	give_furnas_hydro = {
+		activation = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 66
+					}
+				}
+				has_idea = GENERIC_furnas_hydroelectric_power_plant
+			}
+		}
+		available = {
+			AND = {
+				ROOT = {
+					NOT = {
+						controls_state = 66
+					}
+				}
+				has_idea = GENERIC_furnas_hydroelectric_power_plant
+			}
+		}
+		cancel_trigger = {
+			ROOT = {
+				controls_state = 66
+				has_idea = GENERIC_furnas_hydroelectric_power_plant
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		complete_effect = {
+			remove_ideas = GENERIC_furnas_hydroelectric_power_plant
+		}
+	}
 }

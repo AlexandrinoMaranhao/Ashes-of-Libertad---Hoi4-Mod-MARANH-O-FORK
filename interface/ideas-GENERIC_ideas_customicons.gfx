@@ -11,5 +11,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas-ideas/GENERIC_boa_esperana_hydroelectric_power_plant-182318.dds"
 	}
 
+	##Icon For: Furnas Hydroelectric Power Plant
+	SpriteType = { 
+		name = "GFX_idea_GENERIC_furnas_hydroelectric_power_plant-155873"
+		texturefile = "gfx/interface/ideas/ideas-ideas/GENERIC_furnas_hydroelectric_power_plant-155873.dds"
+	}
+
  
  }
