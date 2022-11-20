@@ -298,7 +298,13 @@ focus_tree = {
 		prerequisite = { focus = PEB_a_message_to_jango  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
+			random_core_state = {
+				add_building_construction = {
+				type = supply_node 
+				level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -337,7 +343,7 @@ focus_tree = {
 		prerequisite = { focus = PEB_support_loyal_labor_syndicates  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
+			add_ideas = PEB_jango_reforms
 		}
 	}
 
@@ -355,8 +361,6 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_ideas = si_acceptable_regulations 
-			
-			
 		}
 	}
 
@@ -396,7 +400,21 @@ focus_tree = {
 		prerequisite = { focus = PEB_electricity_tax_reform  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
+			add_ideas = PEB_liberal_economics
+			random_core_state = {
+				add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+				type = fuel_silo 
+				level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -979,7 +997,7 @@ focus_tree = {
 		icon = GFX_PEB_direct_invervention-170979
 		x = 27
 		y = 14
-		cost = 2
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -987,6 +1005,11 @@ focus_tree = {
 		mutually_exclusive = { focus = PEB_aid_campaign  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			diplomatic_relation = {
+				country = CNU
+				relation = guarantee
+				active = yes
+			}
 			add_tech_bonus = {
 				name = special_forces_bonus
 				bonus = 1.0
@@ -1007,7 +1030,7 @@ focus_tree = {
 		icon = GFX_PEB_aid_campaign-170979
 		x = 33
 		y = 14
-		cost = 2
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1460,6 +1483,13 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_political_power = 100
+			random_core_state = {
+				add_building_construction = {
+				type = supply_node 
+				level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1476,7 +1506,7 @@ focus_tree = {
 		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
 		mutually_exclusive = { focus = PEB_war_on_wheels  }
 		ai_will_do = { factor = 1 }
-		completion_reward = {			
+		completion_reward = {
 						add_equipment_to_stockpile = {
 							type = fighter_equipment_0
 							amount = 100
@@ -1488,7 +1518,13 @@ focus_tree = {
 							amount = 100
 							producer = ROOT
 						}
-					
+				random_core_state = {
+					add_building_construction = {
+					type = air_base
+					level = 3
+						instant_build = yes
+					}
+				}
 			add_ideas = urban_specialization
 		}
 	}
@@ -1532,7 +1568,13 @@ focus_tree = {
 				uses = 2
 				category = air_doctrine
 			}
-			
+			random_core_state = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 1
+					instant_build = yes
+				}
+			}
 			air_experience = 30
 			
 		}
@@ -1639,7 +1681,11 @@ focus_tree = {
 		prerequisite = { focus = PEB_ssttheknightsreturnss  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
+			add_stability = 0.02
 		}
 	}
 
@@ -1657,8 +1703,11 @@ focus_tree = {
 		mutually_exclusive = { focus = PEB_forced_labor_for_the_communists  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_manpower = 10000
 			
 		}
 	}
@@ -1677,11 +1726,7 @@ focus_tree = {
 		mutually_exclusive = { focus = PEB_pacify_the_reds  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
 			add_ideas = slavery_bonded_labor
-			
-			
-			
 		}
 	}
 
@@ -1698,8 +1743,17 @@ focus_tree = {
 		prerequisite = { focus = PEB_ssttheknightsreturnss  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
-			
+			add_decryption = {
+				target = INT
+				ratio = 0.95
+			}
+			add_intel = {
+				target = INT
+				civilian_intel = 3
+				army_intel = 3
+				navy_intel = 3
+				airforce_intel = 3
+			}
 		}
 	}
 
@@ -1716,9 +1770,10 @@ focus_tree = {
 		prerequisite = { focus = PEB_pacify_the_reds  focus = PEB_forced_labor_for_the_communists  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 10
-			
-			
+			add_timed_idea = {
+				idea = PEB_INT_offensive
+				days = 365
+			}
 		}
 	}
 
@@ -1758,7 +1813,7 @@ focus_tree = {
 		prerequisite = { focus = PEB_eternal_martial_law  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_ideas = slavery_bonded_labor
+			add_ideas = economic_focus_total_mobilization
 			add_popularity = {
 			    ideology = reactionary
 			    popularity = 0.05
@@ -1951,6 +2006,13 @@ focus_tree = {
 			    popularity = -0.05
 			}
 			remove_ideas = CFD_economic_collapse
+			random_core_state = {
+				add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 

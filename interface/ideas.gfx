@@ -7,7 +7,19 @@ SpriteTypes = {
 #} 
 # 
 
- 
+spriteType ={
+    name = "GFX_idea_PEB_INT_offensive"
+    texturefile = "gfx/interface/ideas/revengist_spirit.dds"
+} 
+spriteType ={
+    name = "GFX_idea_PEB_jango_reforms"
+    texturefile = "gfx/interface/ideas/the_brazilian_constitution.dds"
+} 
+spriteType ={
+    name = "GFX_idea_PEB_liberal_economics"
+    texturefile = "gfx/interface/ideas/time_of_rebuilding.dds"
+} 
+
 spriteType ={
     name = "GFX_idea_PEB_PET_pimp_city"
     texturefile = "gfx/interface/ideas/PEB_PET_pimp_city.dds"

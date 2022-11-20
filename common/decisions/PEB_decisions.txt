@@ -97,7 +97,6 @@ PEB_main_category = {
 		icon = GFX_decision_icon_default
 		cost = 50
 		days_remove = 30
-		fire_only_once = yes
 		available = {
 			PEB = {
 				has_war = yes
@@ -118,12 +117,113 @@ PEB_main_category = {
 			training_time_factor = -0.3
 			weekly_manpower = 100
 			political_power_gain = -0.1
+			war_support_weekly = 0.05
 		}
 		remove_effect = {
 
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = { has_war = yes add = 2 }
+		}
+	}
+	PEB_focus_offensive_strategy = {
+		icon = GFX_decision_icon_default
+		cost = 25
+		days_remove = 90
+		days_re_enable = 15
+		available = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		visible = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		complete_effect = {
+		}
+		modifier = {
+			army_attack_factor = 0.1
+			army_core_attack_factor = 0.1
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = { has_offensive_war = yes factor = 2 }
+		}
+	}
+	PEB_focus_defensive_strategy = {
+		icon = GFX_decision_icon_default
+		cost = 25
+		days_remove = 90
+		days_re_enable = 15
+		available = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		visible = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		complete_effect = {
+		}
+		modifier = {
+			army_core_defence_factor = 0.1
+			army_defence_factor = 0.1
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = { has_defensive_war = yes factor = 2 }
+		}
+	}
+	PEB_focus_mobility_strategy = {
+		icon = GFX_decision_icon_default
+		cost = 25
+		days_remove = 90
+		days_re_enable = 15
+		available = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		visible = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		complete_effect = {
+		}
+		modifier = {
+			army_attack_speed_factor = 0.1
+			army_speed_factor = 0.1
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = { has_war = yes factor = 2 }
 		}
 	}
 	PEB_prestes_returns_timer = {
@@ -627,7 +727,7 @@ PEB_main_category = {
         available = {
 			PEB = {
 				AND = {
-					check_variable = { PEB_stabilization_process = 1 }
+					check_variable = { PEB_stabilization_process > 0.9 }
 					has_idea = cangaceiros_medium
 				}
 			}
@@ -661,7 +761,7 @@ PEB_main_category = {
         available = {
 			PEB = {
 				AND = {
-					check_variable = { PEB_stabilization_process = 1 }
+					check_variable = { PEB_stabilization_process > 0.9 }
 					has_idea = cangaceiros_light
 				}
 			}
@@ -670,7 +770,7 @@ PEB_main_category = {
 			PEB = {
 				AND = {
 					has_completed_focus = PEB_a_professionalized_army
-					check_variable = { PEB_stabilization_process = 1 }
+					check_variable = { PEB_stabilization_process > 0.9 }
 					has_idea = cangaceiros_light
 				}
 			}
@@ -1888,6 +1988,42 @@ PEB_rebuilding_category = {
 			factor = 999
 		}
 	}
+	PEB_close_reconstruction = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = PEB_reconstruction_is_completed_tt		
+				PEB = {
+					AND = {
+						has_completed_focus = PEB_rebuilding_our_nation
+						check_variable = { PEB_rebuilding > 0 }
+					}
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_rebuilding_our_nation
+			}
+		}
+        is_good = yes
+		fire_only_once = yes
+		cost = 5
+		days_remove = 30
+		modifier = {
+			political_power_cost = 0.05
+		}
+		complete_effect = {
+
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
 }
 
 ##Hunting Opposition decisions
@@ -2099,7 +2235,7 @@ PEB_traitors_hunt_category = {
 		remove_effect = {
 			PEB = {
 				set_variable = { PEB_olival_costa_hunt = 1 }
-				clr_country_flag = PEB_hunt_usineiros
+				clr_country_flag = PEB_hunting_usineiros
 			}
 		}
 		ai_will_do = {

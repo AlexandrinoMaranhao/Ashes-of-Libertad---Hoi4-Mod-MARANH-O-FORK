@@ -86,5 +86,42 @@ ideas = {
 		padre_cicero = {
 		}
 		
+		PEB_INT_offensive = {
+		
+			modifier = {
+			}
+			targeted_modifier = { tag = INT attack_bonus_against = 0.15 defense_bonus_against = 0.15 }
+			available = {
+				AND = {
+					country_exists = INT
+					NOT = {has_country_flag = CFD_failometer_enabled}
+				}
+			}
+		}
+		
+		PEB_jango_reforms = {
+		
+			modifier = {
+				local_resources_factor = 0.3
+				monthly_population = 0.02
+			}
+			available = {
+				AND = {
+					country_exists = BRA
+					NOT = {has_country_flag = CFD_failometer_enabled}
+				}
+			}
+		}
+		
+		PEB_liberal_economics = {
+		
+			modifier = {
+				trade_opinion_factor = 0.65
+				production_speed_industrial_complex_factor = 0.45
+				consumer_goods_factor = -0.15
+				production_oil_factor = 0.6
+			}
+		}
+		
 	}
 }

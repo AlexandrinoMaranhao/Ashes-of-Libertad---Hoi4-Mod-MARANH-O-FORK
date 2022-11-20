@@ -190,7 +190,7 @@
  CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"
  
  PEB_main_category:0 "Northeastern Adminstration"
- PEB_main_category_desc:0 "**WIP** \n\nLocal Police Enforcement: §G[?PEB_stabilization_process|%0§!]§! \nCurrent Stable States: §G[?PEB_stable_states]/14§!"
+ PEB_main_category_desc:0 "**WIP** \n\nLocal Police Enforcement: §G[?PEB_stabilization_process|%0§!]§! \nCurrent Stable States: §G[?PEB_stable_states]/13§!"
  PEB_blackmarket:0 "§OThe Blackmarket§!"
  PEB_rebuilding_category:0 "Rebuilding Our Lands"
  PEB_rebuilding_category_desc:0 "**WIP** \n\n Rebuilding Process:[?PEB_rebuilding|%0§!]"

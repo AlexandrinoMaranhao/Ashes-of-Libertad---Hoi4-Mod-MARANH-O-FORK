@@ -454,9 +454,15 @@ focus_tree = {
 		prerequisite = { focus = CFD_the_everyday_fuel  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			capital_scope = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}	
+			}
 			add_tech_bonus = {
-			    bonus = 0.4
-			    uses = 2
+			    bonus = 0.8
+			    uses = 1
 			    category = industry
 			}
 		}
@@ -944,9 +950,15 @@ focus_tree = {
 		prerequisite = { focus = CFD_a_talk_with_the_usineiros  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			capital_scope = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}	
+			}
 			add_tech_bonus = {
-			    bonus = 0.2
-			    uses = 3
+			    bonus = 0.6
+			    uses = 1
 			    category = cat_production
 			}
 			add_tech_bonus = {
@@ -1302,9 +1314,6 @@ focus_tree = {
 			    ideology = communism
 			    popularity = 0.02
 			}
-			
-			
-			
 		}
 	}
 
@@ -1389,12 +1398,12 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = maintenance_company_tech
 			}
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = construction_tech
 			}
 			add_ideas = political_parties_controlled_opposition
@@ -1417,8 +1426,13 @@ focus_tree = {
 			add_ideas = vital_needs_fulfilled
 			custom_effect_tooltip = CFD_will_get_cash
 			add_to_variable = { CFD_resource_cash = 0.5 }
-			
-			
+			random_core_state = {
+				add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1550,6 +1564,13 @@ focus_tree = {
 			navy_experience = 30
 			air_experience = 50
 			set_major = yes
+			random_core_state = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1568,6 +1589,13 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.15
 			add_war_support = 0.15
+			random_core_state = {
+				add_building_construction = {
+				type = air_base
+				level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1587,9 +1615,6 @@ focus_tree = {
 		}
 		allow_branch = {
 			has_country_flag = CFD_finished_PCB
-			
-			
-			
 		}
 	}
 
@@ -1612,17 +1637,17 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = logistics_tech
 			}
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = engineers_tech
 			}
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = support_tech
 			}
 		}
@@ -1710,15 +1735,15 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = hospital_tech
 			}
 			add_tech_bonus = {
 			    bonus = 0.5
-			    uses = 5
+			    uses = 2
 			    category = military_police_tech
 			}
-			
+			add_offsite_building = { type = industrial_complex level = 3 }
 		}
 	}
 

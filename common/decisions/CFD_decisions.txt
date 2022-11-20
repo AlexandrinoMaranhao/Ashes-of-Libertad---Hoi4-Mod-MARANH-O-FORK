@@ -1738,7 +1738,7 @@ CFD_nation_development_category = {
 			}
 			divide_variable = { CFD_monthly_cash_income = 2 }
 			subtract_from_variable = {
-				var = CFD_monthly_cash_income
+				var = CFD_resource_cash
 				value = num_of_military_factories
 				tooltip = CFD_monthly_payment_tt
 			}

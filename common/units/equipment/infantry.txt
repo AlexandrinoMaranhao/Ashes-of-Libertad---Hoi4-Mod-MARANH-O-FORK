@@ -96,7 +96,7 @@ equipments = {
 		reliability = 0.75
 		build_cost_ic = 0.55
 		resources = {
-			steel = 3
+			steel = 2
 		}
 		
 	}
@@ -123,7 +123,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 0.75
 		resources = {
-			steel = 3
+			steel = 2
 		}
 	}
 	
@@ -149,7 +149,7 @@ equipments = {
 		reliability = 0.75
 		build_cost_ic = 0.855
 		resources = {
-			steel = 3
+			steel = 2
 		}
 	}
 	
@@ -175,7 +175,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 1.75
 		resources = {
-			steel = 4
+			steel = 3
 		}
 	}
 }

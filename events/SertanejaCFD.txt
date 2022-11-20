@@ -341,7 +341,7 @@ country_event = { #Doria Judgment 2
     }
 }
 
-country_event = { #Bezerra's remorse
+country_event = { #Bezerra's remorse (Prestes executed event - CFD)
     id = CFD_events.11
     title = CFD_events.11.t
 	desc = {
@@ -656,7 +656,7 @@ country_event = { #The Europeans 1
 		CFD = {
 			country_event = {
 				id = CFD_events.21
-				days = 30
+				days = 40
 			}
 		}
     }
@@ -1837,7 +1837,7 @@ country_event = { #Failstate stuff
     }
 }
 
-################################################	Non-Prestes Pernambuco Events.	################################################
+################################################	Non-collapse Pernambuco Events.	################################################
 country_event = { #Asking the Republic for assistance
     id = PEB.4
     title = PEB.4.t
@@ -1929,7 +1929,7 @@ country_event = { #Restore Governor Elections
     fire_only_once = yes 
 
     option = {
-      name = PEB.5.a
+      name = PEB.6.a
 
 		PEB = {
 			add_popularity = {
@@ -1966,6 +1966,42 @@ country_event = { #Restore Governor Elections
             base = 1
         }
 	}
+}
+
+country_event = { #Just like 1935 (Prestes executed event - PEB)
+    id = PEB.7
+    title = CFD_events.11.t
+	desc = {
+		text = CFD_events.11.d.normal
+		trigger = {
+			PEB = {
+				has_country_flag = prestes_returned
+			}
+		}
+	}
+	trigger = {
+		tag = PEB
+		PEB = {
+			AND = {
+				has_country_flag = prestes_returned
+				NOT = {
+					country_exists = INT
+				}
+			}
+		}
+	}
+	fire_only_once = yes
+    picture = GFX_report_cfd_bezerra_and_prestes
+
+    option = {
+		trigger = {
+			PEB = {
+				has_country_flag = prestes_returned
+			}
+		}
+		set_country_flag = demo_end
+        name = CFD_events.11.a.normal
+    }
 }
 ################################################	SERTANEJA COLLAPSE EVENTS.		################################################
 
