@@ -16,41 +16,41 @@ units = {
 		location = 1793 
 		division_template = "Praieira Legion"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.4
 	}
 	division = {
 		name = "Praieira Unit"
 		location = 1793 
 		division_template = "Praieira Legion"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.4
 	}
 	division = {
 		name = "Praieira Unit"
 		location = 1793 
 		division_template = "Praieira Legion"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.4
 	}
 	division = {
 		name = "Praieira Unit"
 		location = 1793 
 		division_template = "Praieira Legion"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.4
 	}
 	division = {
 		name = "Praieira Unit"
 		location = 1793 
 		division_template = "Praieira Legion"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.4
 	}
 	division = {
 		name = "Praieira Unit"
 		location = 1793 
 		division_template = "Praieira Legion"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.4
 	}
 }

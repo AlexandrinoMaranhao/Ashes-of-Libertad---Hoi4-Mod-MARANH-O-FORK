@@ -17,55 +17,55 @@ units = {
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Militia Unit"
 		location = 1793 
 		division_template = "Milícia Pernambucana"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.7
 	}
 }

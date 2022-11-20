@@ -34,8 +34,101 @@ PEB_main_category = {
 			factor = 0
 		}
 	}
+	PEB_temporary_tax_increase = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 30
+		days_re_enable = 15
+		available = {
+			PEB = {
+				has_completed_focus = PEB_electricity_tax_reform
+				has_political_power > 1
+			}
+		}
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_electricity_tax_reform
+				has_political_power > 1
+			}
+		}
+		complete_effect = {
+			add_ideas = tax_rate_exploitative_taxation
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			add_ideas = tax_rate_medium_taxation
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	PEB_even_better_schools = {
+		icon = GFX_decision_icon_default
+		cost = 200
+		days_remove = 90
+		fire_only_once = yes
+		available = {
+			PEB = {
+				has_completed_focus = PEB_the_pernambuco_higher_education_foundation
+				has_political_power > 1
+			}
+		}
+		visible = {
+			PEB = {
+				has_completed_focus = PEB_the_pernambuco_higher_education_foundation
+				has_political_power > 1
+			}
+		}
+		complete_effect = {
+		}
+		modifier = {
+			political_power_gain = -0.15
+		}
+		remove_effect = {
+			add_ideas = tertiary_education
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_war_campaign = {
+		icon = GFX_decision_icon_default
+		cost = 50
+		days_remove = 30
+		fire_only_once = yes
+		available = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		visible = {
+			PEB = {
+				has_war = yes
+				has_completed_focus = PEB_campaign_for_unification
+				has_political_power > 1
+			}
+		}
+		complete_effect = {
+		}
+		modifier = {
+			training_time_factor = -0.3
+			weekly_manpower = 100
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	PEB_prestes_returns_timer = {
         allowed = { tag = PEB }
+		icon = GFX_decision_revolt
         available = {
 			hidden_trigger = {
 				always = no
@@ -78,7 +171,7 @@ PEB_main_category = {
 	PEB_better_living = {
 		icon = GFX_decision_icon_default
 		cost = 100
-		days_remove = 30
+		days_remove = 365
 		is_good = yes
 		fire_only_once = yes
 		available = {
@@ -121,6 +214,7 @@ PEB_main_category = {
 		modifier = {
 			consumer_goods_factor = -0.1
 			political_power_gain = -0.90
+			production_speed_buildings_factor = 0.75
 		}
 		remove_effect = {
 			remove_ideas = CFD_living_in_ruins
@@ -131,7 +225,7 @@ PEB_main_category = {
 	}
 	PEB_recife_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 7 }
@@ -179,7 +273,7 @@ PEB_main_category = {
 	}
 	PEB_maceio_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 10 }
@@ -210,6 +304,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				10 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -222,7 +323,7 @@ PEB_main_category = {
 	}
 	PEB_juazeiro_do_norte_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 13 }
@@ -253,6 +354,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				13 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -265,7 +373,7 @@ PEB_main_category = {
 	}
 	PEB_petrolina_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 8 }
@@ -296,6 +404,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				8 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -308,7 +423,7 @@ PEB_main_category = {
 	}
 	PEB_joao_pessoa_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 6 }
@@ -339,6 +454,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				6 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -351,7 +473,7 @@ PEB_main_category = {
 	}
 	PEB_natal_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 3 }
@@ -382,6 +504,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				3 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -394,7 +523,7 @@ PEB_main_category = {
 	}
 	PEB_sobral_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 14 }
@@ -425,6 +554,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				14 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -437,7 +573,7 @@ PEB_main_category = {
 	}
 	PEB_fortaleza_security_office = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_intelligence_operation
 		on_map_mode = map_and_decisions_view
 		state_target = yes
 		targets = { 12 }
@@ -468,6 +604,13 @@ PEB_main_category = {
 		cost = 25
 		remove_effect = {
 			PEB = {
+				12 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
 				add_to_variable = {
 					var = PEB_stabilization_process
 					value = 0.12
@@ -480,7 +623,7 @@ PEB_main_category = {
 	}
 	PEB_handle_the_cangaco_1 = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_assassination
         available = {
 			PEB = {
 				AND = {
@@ -514,7 +657,7 @@ PEB_main_category = {
 	}
 	PEB_handle_the_cangaco_2 = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_assassination
         available = {
 			PEB = {
 				AND = {
@@ -551,10 +694,10 @@ PEB_main_category = {
 	}
 	PEB_start_military_law_on = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_assassination
 		on_map_mode = map_and_decisions_view
 		state_target = yes
-		targets = { 7 14 12 13 5 4 3 6 503 8 9 7 10 }
+		targets = { 7 14 12 13 5 4 3 6 503 8 9 7 10 2 }
         available = {
 			PEB = {
 				AND = {
@@ -587,7 +730,7 @@ PEB_main_category = {
 		fire_only_once = yes
 		complete_effect = {FROM = {set_state_flag = PEB_underlaw_state}}
 		modifier = {
-			political_power_cost = 0.05
+			political_power_cost = 0.15
 		}
 		cost = 30
 		remove_effect = {
@@ -599,10 +742,10 @@ PEB_main_category = {
 	}
 	PEB_enforce_military_order = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_ger_military_buildup
+		icon = GFX_decision_generic_army_support
 		on_map_mode = map_only
 		state_target = yes
-		targets = { 7 14 12 13 5 4 3 6 503 8 9 7 10 }
+		targets = { 7 14 12 13 5 4 3 6 503 8 9 7 10 2 }
         available = {
 			PEB = {
 				AND = {
@@ -630,7 +773,7 @@ PEB_main_category = {
 		days_remove = 60
 		fire_only_once = yes
 		modifier = {
-			political_power_cost = 0.1
+			political_power_cost = 0.15
 		}
 		cost = 50
 		remove_effect = {
@@ -646,62 +789,107 @@ PEB_main_category = {
 			factor = 100
 		}
 	}
-}
-
-##Blackmarket decisions
-PEB_blackmarket = {
-	PEB_hire_mercs_good = {
+	PEB_give_states = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_eng_trade_unions_support
+		on_map_mode = map_and_decisions_view
+		state_target = yes
+		targets = { 11 53 461 463 57 54 52 462 55 }
         available = {
 			PEB = {
 				AND = {
-					has_war = yes
-					has_completed_focus = PEB_united_pernambuco
-					NOT = {
-						has_completed_focus = PEB_a_professionalized_army
-					}
+					is_in_faction_with = CNU
+					controls_state = FROM
 				}
 			}
         }
 		visible = {
 			PEB = {
 				AND = {
-					has_completed_focus = PEB_united_pernambuco
-					NOT = {
-						has_completed_focus = PEB_a_professionalized_army
-					}
+					is_in_faction_with = CNU
+					controls_state = FROM
 				}
 			}
 		}
-        is_good = yes
-		fire_only_once = no
-		cost = 50
-		days_re_enable = 30
-		days_remove = 60
-		modifier = {
-			consumer_goods_factor = 0.05
-			political_power_cost = 0.10
-		}
 		complete_effect = {
-			custom_effect_tooltip = PEB_hire_mercs_good_tt
-			hidden_effect = {
-				load_oob = "PEB_mercs_good"
-			}
-			add_stability = -0.05
-		}
-		cancel_effect = {
 
 		}
+        is_good = yes
+		days_remove = 30
+		fire_only_once = yes
+		complete_effect = {
+			CNU = {
+				transfer_state = FROM
+			}
+			
+		}
+		modifier = {
+			political_power_cost = 0.15
+		}
+		cost = 50
 		remove_effect = {
+			
 		}
 		ai_will_do = {
-			factor = 999
+			factor = 900
 		}
 	}
+}
+
+##Blackmarket decisions
+PEB_blackmarket = {
+	#PEB_hire_mercs_good = {
+	#	allowed = { tag = PEB }
+	#	icon = GFX_decision_generic_construction
+    #    available = {
+	#		PEB = {
+	#			AND = {
+	#				has_war = yes
+	#				has_completed_focus = PEB_united_pernambuco
+	#				NOT = {
+	#					has_completed_focus = PEB_a_professionalized_army
+	#				}
+	#			}
+	#		}
+    #    }
+	#	visible = {
+	#		PEB = {
+	#			AND = {
+	#				has_completed_focus = PEB_united_pernambuco
+	#				NOT = {
+	#					has_completed_focus = PEB_a_professionalized_army
+	#				}
+	#			}
+	#		}
+	#	}
+    #    is_good = yes
+	#	fire_only_once = no
+	#	cost = 50
+	#	days_re_enable = 30
+	#	days_remove = 60
+	#	modifier = {
+	#		consumer_goods_factor = 0.05
+	#		political_power_cost = 0.10
+	#	}
+	#	complete_effect = {
+	#		custom_effect_tooltip = PEB_hire_mercs_good_tt
+	#		hidden_effect = {
+	#			load_oob = "PEB_mercs_good"
+	#		}
+	#		add_stability = -0.05
+	#	}
+	#	cancel_effect = {
+	#
+	#	}
+	#	remove_effect = {
+	#	}
+	#	ai_will_do = {
+	#		factor = 999
+	#	}
+	#}
 	PEB_hire_mercs_mediocre = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
 			PEB = {
 				AND = {
@@ -749,7 +937,7 @@ PEB_blackmarket = {
 	}
 	PEB_hire_mercs_bad = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_prepare_civil_war
         available = {
 			PEB = {
 				AND = {
@@ -1019,6 +1207,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1055,6 +1244,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1091,6 +1281,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1127,6 +1318,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1163,6 +1355,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1199,6 +1392,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1235,6 +1429,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1271,6 +1466,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1307,6 +1503,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1343,6 +1540,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1379,6 +1577,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1415,6 +1614,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1451,6 +1651,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1487,6 +1688,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1523,6 +1725,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1559,6 +1762,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1595,6 +1799,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1631,6 +1836,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1667,6 +1873,7 @@ PEB_rebuilding_category = {
 		days_remove = 60
 		modifier = {
 			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = 0.05
 			political_power_cost = 0.10
 		}
 		complete_effect = {
@@ -1687,7 +1894,7 @@ PEB_rebuilding_category = {
 PEB_traitors_hunt_category = {
 	PEB_close_hunt = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_army_support
         available = {
 			custom_trigger_tooltip = {
 				tooltip = PEB_hunt_is_completed_tt		
@@ -1728,7 +1935,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_usineiros_hunt = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_army_support
         available = {
 			PEB = {
 				has_completed_focus = PEB_purging_the_traitors
@@ -1760,7 +1967,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_uh_paulo_guerra = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_operation
         available = {
 			PEB = {
 				AND = {
@@ -1807,7 +2014,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_uh_aluizio = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_operation
         available = {
 			PEB = {
 				AND = {
@@ -1854,7 +2061,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_uh_olival_costa = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_operation
         available = {
 			PEB = {
 				AND = {
@@ -1901,7 +2108,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_ligas_hunt = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_army_support
         available = {
 			PEB = {
 				has_completed_focus = PEB_purging_the_traitors
@@ -1933,7 +2140,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_lh_elizabeth_a_texeira = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_operation
         available = {
 			PEB = {
 				AND = {
@@ -1980,7 +2187,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_lh_zeze_galileia = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_operation
         available = {
 			PEB = {
 				AND = {
@@ -2027,7 +2234,7 @@ PEB_traitors_hunt_category = {
 	}
 	PEB_lh_pedro_inacio_araujo = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_operation
         available = {
 			PEB = {
 				AND = {
@@ -2077,7 +2284,7 @@ PEB_traitors_hunt_category = {
 PEB_reorganize_elections_category = {
 	PEB_parties_overhaul = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_nationalism
         available = {
 			PEB = {
 				has_completed_focus = PEB_solidarity_for_the_traitors
@@ -2109,7 +2316,7 @@ PEB_reorganize_elections_category = {
 	}
 	PEB_restructure_of_laws = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_nationalism
         available = {
 			PEB = {
 				has_completed_focus = PEB_solidarity_for_the_traitors
@@ -2141,7 +2348,7 @@ PEB_reorganize_elections_category = {
 	}
 	PEB_the_next_election = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_eng_propaganda_campaigns
         available = {
 			PEB = {
 				has_completed_focus = PEB_solidarity_for_the_traitors
@@ -2200,7 +2407,7 @@ PEB_elections_category = {
 		cancel_trigger = {
 			has_country_flag = PEB_elections_end
 		}
-		icon = GFX_decision_generic_civil_support
+		icon = GFX_decision_generic_political_rally
 		is_good = yes
 		days_mission_timeout = 365
 		selectable_mission = no
@@ -2214,7 +2421,7 @@ PEB_elections_category = {
 	}
 	PEB_campaign_reactionary = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_nationalism
         available = {
 			PEB = {
 				AND = {
@@ -2233,7 +2440,7 @@ PEB_elections_category = {
 		}
         is_good = yes
 		cost = 10
-		days_remove = 50
+		days_remove = 30
 		modifier = {
 			political_power_cost = 0.15
 			reactionary_drift = 0.01
@@ -2250,7 +2457,7 @@ PEB_elections_category = {
 	}
 	PEB_campaign_center = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_nationalism
         available = {
 			PEB = {
 				AND = {
@@ -2269,7 +2476,7 @@ PEB_elections_category = {
 		}
         is_good = yes
 		cost = 10
-		days_remove = 50
+		days_remove = 30
 		modifier = {
 			political_power_cost = 0.15
 			neutrality_drift = 0.01
@@ -2286,7 +2493,7 @@ PEB_elections_category = {
 	}
 	PEB_campaign_right = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_nationalism
         available = {
 			PEB = {
 				AND = {
@@ -2305,7 +2512,7 @@ PEB_elections_category = {
 		}
         is_good = yes
 		cost = 10
-		days_remove = 50
+		days_remove = 30
 		modifier = {
 			political_power_cost = 0.15
 			democratic_drift = 0.01
@@ -2322,7 +2529,7 @@ PEB_elections_category = {
 	}
 	PEB_campaign_left = {
 		allowed = { tag = PEB }
-		icon = GFX_decision_generic_construction
+		icon = GFX_decision_generic_nationalism
         available = {
 			PEB = {
 				AND = {
@@ -2341,7 +2548,7 @@ PEB_elections_category = {
 		}
         is_good = yes
 		cost = 10
-		days_remove = 50
+		days_remove = 30
 		modifier = {
 			political_power_cost = 0.15
 			communism_drift = 0.01
@@ -2373,9 +2580,9 @@ PEB_elections_category = {
 		cancel_trigger = {
 			has_country_flag = PEB_elections_end
 		}
-		icon = GFX_decision_generic_civil_support
+		icon = GFX_decision_generic_political_rally
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 25
 		selectable_mission = no
 		complete_effect = {
 		}
@@ -2384,7 +2591,7 @@ PEB_elections_category = {
 				50 = {
 					add_popularity = {
 						ideology = communism
-						popularity = 0.005
+						popularity = 0.02
 					}
 				}
 				50 = {
@@ -2413,9 +2620,9 @@ PEB_elections_category = {
 		cancel_trigger = {
 			has_country_flag = PEB_elections_end
 		}
-		icon = GFX_decision_generic_civil_support
+		icon = GFX_decision_generic_political_rally
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 25
 		selectable_mission = no
 		complete_effect = {
 		}
@@ -2424,13 +2631,13 @@ PEB_elections_category = {
 				50 = {
 					add_popularity = {
 						ideology = democratic
-						popularity = 0.005
+						popularity = 0.01
 					}
 				}
 				50 = {
 					add_popularity = {
 						ideology = democratic
-						popularity = 0.01
+						popularity = 0.02
 					}
 				}
 			}
@@ -2453,9 +2660,9 @@ PEB_elections_category = {
 		cancel_trigger = {
 			has_country_flag = PEB_elections_end
 		}
-		icon = GFX_decision_generic_civil_support
+		icon = GFX_decision_generic_political_rally
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 25
 		selectable_mission = no
 		complete_effect = {
 		}
@@ -2464,13 +2671,13 @@ PEB_elections_category = {
 				50 = {
 					add_popularity = {
 						ideology = neutrality
-						popularity = 0.005
+						popularity = 0.01
 					}
 				}
 				50 = {
 					add_popularity = {
 						ideology = neutrality
-						popularity = 0.01
+						popularity = 0.02
 					}
 				}
 			}
@@ -2493,9 +2700,9 @@ PEB_elections_category = {
 		cancel_trigger = {
 			has_country_flag = PEB_elections_end
 		}
-		icon = GFX_decision_generic_civil_support
+		icon = GFX_decision_generic_political_rally
 		is_good = no
-		days_mission_timeout = 30
+		days_mission_timeout = 25
 		selectable_mission = no
 		complete_effect = {
 		}
@@ -2504,13 +2711,13 @@ PEB_elections_category = {
 				50 = {
 					add_popularity = {
 						ideology = reactionary
-						popularity = 0.005
+						popularity = 0.01
 					}
 				}
 				50 = {
 					add_popularity = {
 						ideology = reactionary
-						popularity = 0.01
+						popularity = 0.02
 					}
 				}
 			}

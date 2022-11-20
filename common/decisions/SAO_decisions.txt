@@ -139,8 +139,7 @@ SAO_category = {
 		ai_will_do = {
 			factor = 10		
 		}
-	}
-	
+	}	
 	sao_hire_registro = {
 
 		icon = GFX_dops_decision
@@ -178,7 +177,6 @@ SAO_category = {
 			factor = 10		
 		}
 	}
-	
 	sao_hire_marilia = {
 
 		icon = GFX_dops_decision
@@ -325,11 +323,9 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 	}
-	
-	
 	sao_print_propaganda_cidade = {
 		icon = GFX_sao_decision
 		cost = 5
@@ -390,13 +386,11 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 	}
 
 	#Rural
-
-	
 	sao_print_propaganda_interior = {
 		icon = GFX_sao_decision
 		cost = 5
@@ -465,7 +459,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 	}
 
@@ -539,7 +533,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 	}
 	sao_rid_authoritarianism = {
@@ -579,7 +573,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 	}
 	sao_rid_bad_officers = {
@@ -621,7 +615,7 @@ SAO_category = {
 
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 	}
 
@@ -699,7 +693,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 	sao_resettling_cariocas = {
@@ -792,7 +786,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 	sao_resettling_mineiros = {
@@ -871,7 +865,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 	sao_resettling_midwestern = {
@@ -955,7 +949,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 	sao_resettling_northeastern = {
@@ -1033,7 +1027,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 	sao_resettling_europeans = {
@@ -1119,7 +1113,7 @@ SAO_category = {
 
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 	sao_resettling_americans = {
@@ -1210,7 +1204,7 @@ SAO_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 
@@ -1334,7 +1328,6 @@ SAO_category = {
 			factor = 1
 		}
 	}
-
 	sao_liberate_bauru = {
 		icon = GFX_sao_mst_decision
 		cost = 15
@@ -1427,7 +1420,7 @@ SAO_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 90
 		}
 	}
 

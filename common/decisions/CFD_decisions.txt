@@ -1589,6 +1589,59 @@ CFD_main_category = {
 
 ##################		Nation-Wide Development Decisions.		##################
 CFD_nation_development_category = {
+	CFD_economic_crash = {
+		activation = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1
+						compare = less_than
+					}
+					has_country_flag = CFD_development
+				}
+			}
+		}
+		cancel_trigger = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 1
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+		}
+		available = {
+			hidden_trigger = {
+				CFD = {
+					AND = {
+						check_variable = {
+							var = CFD_resource_cash
+							value = 1
+							compare = greater_than_or_equals
+						}
+						has_country_flag = CFD_development
+					}
+				}
+			}
+		}
+		icon = GFX_decision_revolt
+		is_good = no
+		days_mission_timeout = 90
+		days_re_enable = 1
+		selectable_mission = no
+		complete_effect = {
+		}
+		timeout_effect = {
+			CFD = {
+				clr_country_flag = CFD_development
+				add_ideas = CFD_economic_collapse
+			}
+		}
+	}
 	CFD_actual_dolar_money = {
         allowed = { tag = CFD }
 		icon = GFX_decision_generic_industry
@@ -1643,18 +1696,12 @@ CFD_nation_development_category = {
 		}
 		icon = GFX_decision_generic_civil_support
 		is_good = yes
-		days_mission_timeout = 30
+		days_mission_timeout = 31
 		days_re_enable = 1
 		selectable_mission = no
 		complete_effect = {
 		}
 		timeout_effect = {
-			###Dividing by 2 gives to the player 50% of the total civilian factories into their currency as brute currency status, instead of 100% of the current amount.
-			set_temp_variable = {
-				var = CFD_monthly_cash_income
-				value = num_of_civilian_factories
-			}
-			divide_variable = { CFD_monthly_cash_income = 2 }
 			add_to_variable = {
 				var = CFD_resource_cash
 				value = CFD_monthly_cash_income
@@ -1684,11 +1731,13 @@ CFD_nation_development_category = {
 		complete_effect = {
 		}
 		timeout_effect = {
-			set_temp_variable = {
+			###Dividing by 2 gives to the player 50% of the total civilian factories into their currency as brute currency status, instead of 100% of the current amount.
+			set_variable = {
 				var = CFD_monthly_cash_income
 				value = num_of_civilian_factories
 			}
-			subtract_from_temp_variable = {
+			divide_variable = { CFD_monthly_cash_income = 2 }
+			subtract_from_variable = {
 				var = CFD_monthly_cash_income
 				value = num_of_military_factories
 				tooltip = CFD_monthly_payment_tt
@@ -2222,7 +2271,7 @@ CFD_nation_development_category = {
 				value = -5
 				tooltip = CFD_will_lose_cash
 			}
-			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = arms_factory level = 4 }
 		}
         is_good = yes
 		days_remove = 60
@@ -2230,7 +2279,7 @@ CFD_nation_development_category = {
 
 		}
 		remove_effect = {
-			add_offsite_building = { type = arms_factory level = -3 }
+			add_offsite_building = { type = arms_factory level = -4 }
 		}
 		ai_will_do = {
 			factor = 0
@@ -2453,6 +2502,79 @@ CFD_nation_development_category = {
 			factor = 0
 		}
 	}
+	CFD_focus_construction = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 5
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -5
+				tooltip = CFD_will_lose_cash
+			}
+		}
+        is_good = yes
+		days_remove = 60
+		modifier = {
+			production_speed_buildings_factor = 0.15
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_better_production = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			CFD = {
+				AND = {
+					check_variable = {
+						var = CFD_resource_cash
+						value = 5
+						compare = greater_than_or_equals
+					}
+					has_country_flag = CFD_development
+				}
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = -5
+				tooltip = CFD_will_lose_cash
+			}
+		}
+        is_good = yes
+		days_remove = 60
+		modifier = {
+			industrial_capacity_factory = 0.15
+			line_change_production_efficiency_factor = 0.1
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	##############	SELL ITEMS ##############
 	CFD_sell_trains = {
 		allowed = { tag = CFD }
@@ -2531,6 +2653,37 @@ CFD_nation_development_category = {
 		}
 		remove_effect = {
 			add_stability = -0.01
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CFD_increase_consumer_goods = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_civil_support
+		cost = 10
+        available = {
+			CFD = {
+				has_country_flag = CFD_development
+			}
+        }
+		visible = {
+			has_country_flag = CFD_development
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = 1
+				tooltip = CFD_will_get_cash_at_pp_cost
+			}
+		}
+        is_good = yes
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.3
+		}
+		remove_effect = {
+			add_stability = 0.001
 		}
 		ai_will_do = {
 			factor = 0

@@ -674,7 +674,7 @@ country_event = { #The Europeans 2
 		CFD = {
 			country_event = {
 				id = CFD_events.22
-				days = 20
+				days = 40
 			}
 		}
     }
@@ -2150,8 +2150,6 @@ country_event = {
     option = {
         name = CFD.3.a
 
-        CFD = { remove_ideas = gateway_of_south_america }
-
         RGN = {
 			inherit_technology = CFD
 			add_ideas = CFD_osertaneja_collapse
@@ -2457,6 +2455,10 @@ country_event = {
 		INT = {
 			transfer_state = 11
 			add_state_core = 11
+			add_state_core = 572
+			add_state_core = 573
+			add_state_core = 53
+			add_state_core = 10
 			load_oob = "INT_1967"
 			load_oob = "INT_revolutionary_divisions"
 		}

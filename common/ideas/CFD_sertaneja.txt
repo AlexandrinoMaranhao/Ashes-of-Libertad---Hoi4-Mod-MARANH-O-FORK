@@ -248,7 +248,8 @@ resistance_activity = -0.5
 			}
 			modifier = {
 				trade_opinion_factor = 0.45
-local_resources_factor = 0.9
+				local_resources_factor = 0.9
+				communism_acceptance = 10
 			}
 		}
 
@@ -333,8 +334,8 @@ industry_free_repair_factor = -0.5
 			}
 			modifier = {
 				army_core_defence_factor = 0.1
-democratic_drift = 0.02
-political_power_gain = 0.01
+				political_power_gain = 0.01
+				democratic_acceptance = 75
 			}
 		}
 

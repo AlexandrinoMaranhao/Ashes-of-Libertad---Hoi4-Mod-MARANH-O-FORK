@@ -144,6 +144,7 @@
  CFD_actual_dolar_money:0 "Introduce the §OCruzeiro Confederado§! Currency"
  CFD_monthly_cash_gain:0 "§3Monthly Income§!"
  CFD_monthly_cash_payment:0 "§RMonthly Expenses§!"
+ CFD_economic_crash:0 "§0Eminent Economic Crash!§!"
  CFD_SI_upgrade:0 "Fund §4Miguel's Social Investment§! Programs"
  CFD_WR_upgrade:0 "Fund §4Miguel's Worker Regulations§! Programs"
  CFD_AMA_buy_tech_2:0 "Buy Technology Resources from @AMA[AMA.GetName]"
@@ -162,6 +163,9 @@
  CFD_buy_heavy_equipment:0 "Buy Heavy Equipment"
  CFD_sell_trains:0 "Sell Civilians Trains"
  CFD_sell_convoys:0 "Sell Comercial Convoys"
+ CFD_increase_consumer_goods:0 "Increase Consumer Goods"
+ CFD_better_production:0 "Purchase Better Production Materials"
+ CFD_focus_construction:0 "Increase Construction Efforts"
  
  CFD_compromise_with_PCB:0 "Compromise with the §RPCB§!"
  CFD_compromise_with_PSN:0 "Compromise with the §YPSN§!"
@@ -181,7 +185,7 @@
  CFD_reform_army_3:0 "Introduce Pro-Confederation propaganda on patrol drills"
  
  CFD_nation_development_category:0 "Development Sector"
- CFD_nation_development_category_desc:0 "**WIP**\n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash|=]K§! \nCurrent £GFX_civ_factory §OCivilian Factories§! amount: §O[?num_of_civilian_factories|=]§! \nCurrent £GFX_mil_factory §GMilitary Factories§! amount: §G[?num_of_military_factories|=]§! \n\nFor each £GFX_mil_factory Military Factories, you get a §Rincome loss§! of §R1K§!, for each £GFX_civ_factory Civilian Factories you get a §Gincome increase§! of §G0.5K§!.		 \n\nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                       £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
+ CFD_nation_development_category_desc:0 "Perhaps one of Cid Sampaio's greatest deals was the open market accord with the Usineiros and Arraes, allowing the people of the [CFD.GetName] finally gets access to a much-needed and somewhat stable currency. Sadly, nothing is without a cost in this world, as it currently is, if even for a small moment the currency returns with a §Rrecession period for more than 3 months§!, the Usineiros will hold nothing back and immediately close the economy if it does not return positively for them. \n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash|=]K§! \nCurrent £GFX_civ_factory §OCivilian Factories§! amount: §O[?num_of_civilian_factories|=]§! \nCurrent £GFX_mil_factory §GMilitary Factories§! amount: §G[?num_of_military_factories|=]§! \n\nFor each £GFX_mil_factory Military Factories, we get a §Rincome loss§! of §R1K§!, for each £GFX_civ_factory Civilian Factories we get a §Gincome increase§! of §G0.5K§!.		 \n\nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                       £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
  CFD_balance_category:0 "§YPSN§! - §RPCB§! Power Balance"
  CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"
  
@@ -216,7 +220,7 @@
  PEB_RGN_caern:0 "Began CAERN Construction"
  
  PEB_elections_category:0 "The §GElections§!"
- PEB_elections_category_desc:0 "**WIP** \n\n§2UDN§! - §2PDC§! candidates: §2[?party_popularity@democracy|%]§! \nNivaldo Rodrigues Machado - §2UDN§! \nLuís de Sousa Cavalcanti - §1PDC§! \n\n§RPTB§! - §tPST§! candidates: §R[?party_popularity@communism|%]§! \nNey de Albuquerque Maranhão - §RPTB§! \nMiguel Arraes - §tPST§! \n\n§OPTN - PSP§! candidates: §O[?party_popularity@reactionary|%]§! \nMoura Cavalcanti - §8PTN§! \nOtávio Correia de Araújo - §OPSP§! \n\n§YPSD - PSB§! candidates: §Y[?party_popularity@neutrality|%]§! \nArmando Monteiro Filho - §gPSD§! \nPelópidas Silveira - §LPSB§!"
+ PEB_elections_category_desc:0 "**WIP** \n\n§2UDN§! - §2PDC§! candidates: §2[?party_popularity@democratic|%]§! \nNivaldo Rodrigues Machado - §2UDN§! \nLuís de Sousa Cavalcanti - §1PDC§! \n\n§RPTB§! - §tPST§! candidates: §R[?party_popularity@communism|%]§! \nNey de Albuquerque Maranhão - §RPTB§! \nMiguel Arraes - §tPST§! \n\n§OPTN - PSP§! candidates: §O[?party_popularity@reactionary|%]§! \nMoura Cavalcanti - §8PTN§! \nOtávio Correia de Araújo - §OPSP§! \n\n§YPSD - PSB§! candidates: §Y[?party_popularity@neutrality|%]§! \nArmando Monteiro Filho - §gPSD§! \nPelópidas Silveira - §LPSB§!"
  
  PEB_traitors_hunt_category:0 "The Hunting Game"
  PEB_traitors_hunt_category_desc:0 "With a end to the Confederacy's dream, the remnants of old oligarchies and the Peasent Leagues are still out there... Hiding... \nAnd now is time to allow the wolves hunt down their pray. \n\n§YUsineiros§! List: \nPaulo Guerra: [peb_pg_hunt_loc] \nAluízio Alves: [peb_aa_hunt_loc] \nOlival Costa: [peb_oc_hunt_loc] \n\n§RLigas Camponesas§! List: \nElizabeth Texeira: [peb_et_hunt_loc] \nZezé da Galiléia: [peb_zg_hunt_loc] \nPedro Inacio de Araujo: [peb_pi_hunt_loc]\n\n*§RWith the shortage of supplies, we can only search ONE from each list at a time.§!"

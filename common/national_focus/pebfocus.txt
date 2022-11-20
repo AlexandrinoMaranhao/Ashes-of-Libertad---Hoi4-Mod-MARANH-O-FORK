@@ -794,7 +794,6 @@ focus_tree = {
 							7 = { add_core_of = ROOT }
 							10 = { add_core_of = ROOT }
 							2 = { add_core_of = ROOT }
-							11 = { add_core_of = ROOT }
 							573 = { add_core_of = ROOT }
 							remove_ideas = CFD_osertaneja_collapse
 			set_country_flag = PEB_united
