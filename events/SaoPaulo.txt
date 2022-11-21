@@ -897,6 +897,91 @@ country_event = { #"The Interview of the Century 3"
         name = SAO_Focus_Tree_Events.27.A
     }
 }
+
+country_event = { #"Building the Revolution"
+    id = SAO_Focus_Tree_Events.28
+    title = SAO_Focus_Tree_Events.28.t
+    desc = SAO_Focus_Tree_Events.28.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.28.A
+    }
+}
+country_event = { #""
+    id = SAO_Focus_Tree_Events.29
+    title = SAO_Focus_Tree_Events.29.t
+    desc = SAO_Focus_Tree_Events.29.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.29.A
+    }
+}
+country_event = { #""
+    id = SAO_Focus_Tree_Events.30
+    title = SAO_Focus_Tree_Events.30.t
+    desc = SAO_Focus_Tree_Events.30.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.30.A
+    }
+}
+country_event = { #""
+    id = SAO_Focus_Tree_Events.31
+    title = SAO_Focus_Tree_Events.31.t
+    desc = SAO_Focus_Tree_Events.31.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.31.A
+    }
+}
+country_event = { #""
+    id = SAO_Focus_Tree_Events.32
+    title = SAO_Focus_Tree_Events.32.t
+    desc = SAO_Focus_Tree_Events.32.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.32.A
+    }
+}
+country_event = { #""
+    id = SAO_Focus_Tree_Events.33
+    title = SAO_Focus_Tree_Events.33.t
+    desc = SAO_Focus_Tree_Events.33.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.33.A
+    }
+}
+country_event = { #""
+    id = SAO_Focus_Tree_Events.34
+    title = SAO_Focus_Tree_Events.34.t
+    desc = SAO_Focus_Tree_Events.34.d
+    picture = GFX_report_event_maoe
+    fire_only_once = no
+    is_triggered_only = yes
+
+    option = {
+        name = SAO_Focus_Tree_Events.34.A
+    }
+}
 ###OPERATIONS AND FAILURES
 
 country_event = { #Itajubá Arms Factory
