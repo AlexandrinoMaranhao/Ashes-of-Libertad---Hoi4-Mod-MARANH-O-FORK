@@ -457,7 +457,7 @@ focus_tree = {
 			capital_scope = {
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 5
 				}	
 			}
 			add_tech_bonus = {
@@ -929,9 +929,13 @@ focus_tree = {
 		prerequisite = { focus = CFD_the_everyday_fuel  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			country_event = {
+				id = CFD_events.28
+				days = 2
+			}
 			add_tech_bonus = {
-			    bonus = 0.1
-			    uses = 3
+			    bonus = 0.4
+			    uses = 1
 			    category = dispersed_industry_category
 			}
 		}
@@ -953,7 +957,7 @@ focus_tree = {
 			capital_scope = {
 				add_resource = {
 					type = steel
-					amount = 2
+					amount = 4
 				}	
 			}
 			add_tech_bonus = {
@@ -1494,6 +1498,12 @@ focus_tree = {
 			set_country_flag = CFD_end_balance
 			add_ideas = CFD_the_communal_sugar_plants
 			add_ideas = trade_scope_regional_exports
+			hidden_effect = {
+				country_event = {
+					id = CFD_events.27
+					days = 4
+				}
+			}
 		}
 	}
 

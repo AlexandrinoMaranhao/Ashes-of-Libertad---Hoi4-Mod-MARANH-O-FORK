@@ -312,8 +312,8 @@ PEB_main_category = {
 			set_country_flag = PEB_military_enforcement_decisions
 		}
 		modifier = {
-			consumer_goods_factor = -0.1
-			political_power_gain = -0.90
+			consumer_goods_factor = -0.15
+			political_power_gain = -0.15
 			production_speed_buildings_factor = 0.75
 		}
 		remove_effect = {
@@ -734,7 +734,10 @@ PEB_main_category = {
         }
 		visible = {
 			PEB = {
-				has_completed_focus = PEB_a_professionalized_army
+				AND = {
+					check_variable = { PEB_stabilization_process > 0.9 }
+					has_idea = cangaceiros_medium
+				}
 			}
 		}
 		complete_effect = {
@@ -792,7 +795,45 @@ PEB_main_category = {
 			factor = 90
 		}
 	}
-	PEB_start_military_law_on = {
+	PEB_handle_out_the_anti_republicans_1 = {
+		allowed = { tag = PEB }
+		icon = GFX_decision_generic_assassination
+        available = {
+			PEB = {
+				AND = {
+					check_variable = { PEB_stable_states > 6 }
+					has_idea = cangaceiros_and_commies 
+				}
+			}
+        }
+		visible = {
+			PEB = {
+				AND = {
+					check_variable = { PEB_stable_states > 6 }
+					has_idea = cangaceiros_and_commies 
+				}
+			}
+		}
+		complete_effect = {
+		}
+        is_good = yes
+		days_remove = 60
+		fire_only_once = yes
+		modifier = {
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.1
+			drift_defence_factor = 0.45
+		}
+		cost = 40
+		remove_effect = {
+			remove_ideas = cangaceiros_and_commies
+			add_ideas = cangaceiros_heavy
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	PEB_start_military_operations = {
 		allowed = { tag = PEB }
 		icon = GFX_decision_generic_assassination
 		on_map_mode = map_and_decisions_view
@@ -830,9 +871,9 @@ PEB_main_category = {
 		fire_only_once = yes
 		complete_effect = {FROM = {set_state_flag = PEB_underlaw_state}}
 		modifier = {
-			political_power_cost = 0.15
+			political_power_cost = 0.1
 		}
-		cost = 30
+		cost = 5
 		remove_effect = {
 			
 		}
@@ -840,7 +881,7 @@ PEB_main_category = {
 			factor = 90
 		}
 	}
-	PEB_enforce_military_order = {
+	PEB_connect_military_complex = {
 		allowed = { tag = PEB }
 		icon = GFX_decision_generic_army_support
 		on_map_mode = map_only
@@ -852,6 +893,9 @@ PEB_main_category = {
 					has_country_flag = PEB_military_enforcement_decisions
 					FROM = {
 						has_state_flag = PEB_underlaw_state
+					}
+					has_equipment = {
+						infantry_equipment > 999
 					}
 				}
 			}
@@ -868,14 +912,21 @@ PEB_main_category = {
 		}
 		complete_effect = {
 			FROM = {clr_state_flag = PEB_underlaw_state}
+			PEB = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+					producer = ROOT
+				}
+			}
 		}
         is_good = yes
-		days_remove = 60
+		days_remove = 30
 		fire_only_once = yes
 		modifier = {
-			political_power_cost = 0.15
+			political_power_cost = 0.1
 		}
-		cost = 50
+		cost = 25
 		remove_effect = {
 			PEB = {
 				add_to_variable = {
@@ -889,12 +940,12 @@ PEB_main_category = {
 			factor = 100
 		}
 	}
-	PEB_give_states = {
+	PEB_give_states_CNU = {
 		allowed = { tag = PEB }
 		icon = GFX_decision_eng_trade_unions_support
 		on_map_mode = map_and_decisions_view
 		state_target = yes
-		targets = { 11 53 461 463 57 54 52 462 55 }
+		targets = { 11 53 461 463 57 54 52 462 572 55 }
         available = {
 			PEB = {
 				AND = {
@@ -1119,7 +1170,7 @@ PEB_blackmarket = {
         is_good = yes
 		days_remove = 30
 		days_re_enable = 14
-		cost = 75
+		cost = 50
 		modifier = {
 			consumer_goods_factor = 0.3
 			political_power_cost = 0.1
@@ -1997,7 +2048,7 @@ PEB_rebuilding_category = {
 				PEB = {
 					AND = {
 						has_completed_focus = PEB_rebuilding_our_nation
-						check_variable = { PEB_rebuilding > 0 }
+						check_variable = { PEB_rebuilding > 0.9 }
 					}
 				}
 			}
@@ -2063,7 +2114,8 @@ PEB_traitors_hunt_category = {
 
 		}
 		remove_effect = {
-
+			clr_country_flag = PEB_hunt_usineiros
+			clr_country_flag = PEB_hunt_ligas
 		}
 		ai_will_do = {
 			factor = 999
@@ -2095,6 +2147,7 @@ PEB_traitors_hunt_category = {
 		remove_effect = {
 			PEB = {
 				set_country_flag = PEB_hunt_usineiros
+				country_event = PEB.9
 			}
 		}
 		ai_will_do = {
@@ -2188,7 +2241,7 @@ PEB_traitors_hunt_category = {
 		remove_effect = {
 			PEB = {
 				set_variable = { PEB_aluizio_hunt = 1 }
-				clr_country_flag = PEB_hunt_usineiros
+				clr_country_flag = PEB_hunting_usineiro
 			}
 		}
 		ai_will_do = {
@@ -2235,7 +2288,7 @@ PEB_traitors_hunt_category = {
 		remove_effect = {
 			PEB = {
 				set_variable = { PEB_olival_costa_hunt = 1 }
-				clr_country_flag = PEB_hunting_usineiros
+				clr_country_flag = PEB_hunting_usineiro
 			}
 		}
 		ai_will_do = {
@@ -2268,6 +2321,7 @@ PEB_traitors_hunt_category = {
 		remove_effect = {
 			PEB = {
 				set_country_flag = PEB_hunt_ligas
+				country_event = PEB.8
 			}
 		}
 		ai_will_do = {
@@ -2281,7 +2335,7 @@ PEB_traitors_hunt_category = {
 			PEB = {
 				AND = {
 					has_completed_focus = PEB_purging_the_traitors
-					has_country_flag = PEB_hunt_usineiros
+					has_country_flag = PEB_hunt_ligas
 					hidden_trigger = {
 						NOT = {
 							has_country_flag = PEB_hunting_ligas
@@ -2328,7 +2382,7 @@ PEB_traitors_hunt_category = {
 			PEB = {
 				AND = {
 					has_completed_focus = PEB_purging_the_traitors
-					has_country_flag = PEB_hunt_usineiros
+					has_country_flag = PEB_hunt_ligas
 					hidden_trigger = {
 						NOT = {
 							has_country_flag = PEB_hunting_ligas
@@ -2375,7 +2429,7 @@ PEB_traitors_hunt_category = {
 			PEB = {
 				AND = {
 					has_completed_focus = PEB_purging_the_traitors
-					has_country_flag = PEB_hunt_usineiros
+					has_country_flag = PEB_hunt_ligas
 					hidden_trigger = {
 						NOT = {
 							has_country_flag = PEB_hunting_ligas

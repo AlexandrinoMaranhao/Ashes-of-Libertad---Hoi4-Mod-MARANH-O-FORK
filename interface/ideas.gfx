@@ -17,7 +17,7 @@ spriteType ={
 } 
 spriteType ={
     name = "GFX_idea_PEB_liberal_economics"
-    texturefile = "gfx/interface/ideas/time_of_rebuilding.dds"
+    texturefile = "gfx/interface/ideas/generic_economic_increase.dds"
 } 
 
 spriteType ={

@@ -215,6 +215,14 @@ focus_tree = {
 			PEB = {set_cosmetic_tag = CFD_BRA}
 			hidden_effect = {
 			    mark_focus_tree_layout_dirty = yes
+				country_event = {
+					id = PEB.11
+					days = 4
+				}
+				country_event = {
+					id = PEB.13
+					days = 60
+				}
 			}
 		}
 	}
@@ -320,6 +328,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
 		mutually_exclusive = { focus = PEB_eternal_martial_law  }
+		available = {
+			hidden_trigger = {
+				PEB = {has_country_flag = PEB_democratic_path}
+			}
+		}
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			custom_effect_tooltip = PEB_redemocratization
@@ -400,7 +413,10 @@ focus_tree = {
 		prerequisite = { focus = PEB_electricity_tax_reform  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_ideas = PEB_liberal_economics
+			add_timed_idea = {
+				idea = PEB_liberal_economics
+				days = 180
+			}
 			random_core_state = {
 				add_building_construction = {
 				type = synthetic_refinery
@@ -495,7 +511,7 @@ focus_tree = {
 		prerequisite = { focus = PEB_a_students_coalition  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_research_slot = 2
+			add_research_slot = 1
 			add_ideas = secondary_education
 		}
 	}
@@ -839,7 +855,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 50		
-			add_ideas = minorities_protected
+			add_ideas = vital_needs_fulfilled 
 		}
 	}
 
@@ -860,7 +876,6 @@ focus_tree = {
 			always = no
 		}
 		completion_reward = {
-			add_ideas = vital_needs_fulfilled 
 			PEB = {
 				capital_scope = {
 					add_resource = {
@@ -1343,9 +1358,9 @@ focus_tree = {
 			CNU = {
 				remove_ideas = cangaceiros_medium 
 				add_opinion_modifier = {
-			    target = PEB
-			    modifier = medium_increase 
-			}
+					target = PEB
+					modifier = medium_increase 
+				}
 			}
 		}
 	}
@@ -1789,6 +1804,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
 		mutually_exclusive = { focus = PEB_reform_the_government  }
+		available = {
+			hidden_trigger = {
+				PEB = {has_country_flag = PEB_military_path}
+			}
+		}
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			custom_effect_tooltip = PEB_military_rule
@@ -1900,7 +1920,6 @@ focus_tree = {
 			    uses = 3
 			    category = tactical_bomber
 			}
-			
 			add_tech_bonus = {
 			    bonus = 0.5
 			    uses = 3
@@ -1922,9 +1941,10 @@ focus_tree = {
 		prerequisite = { focus = PEB_ssrwhenhellbreaksloosess  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
-			
-			
+			country_event = {
+				id = PEB.12
+				days = 1
+			}
 		}
 	}
 

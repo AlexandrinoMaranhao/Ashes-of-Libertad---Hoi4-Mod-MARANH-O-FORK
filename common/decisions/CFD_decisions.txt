@@ -122,7 +122,7 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
-				add_stability = 0.02
+				add_stability = 0.0001
 				add_political_power = -10
 			}
 		}
@@ -171,7 +171,7 @@ CFD_main_category = {
 			CFD = {
 				annex_country = {
 					target = FRN
-					transfer_troops = NO
+					transfer_troops = no
 				}
 			}
 		}
@@ -214,9 +214,9 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
-				declare_war_on = {
+				annex_country = {
 					target = JIN
-					type = annex_everything
+					transfer_troops = no
 				}
 			}
 		}
@@ -259,9 +259,9 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
-				declare_war_on = {
+				annex_country = {
 					target = VDP
-					type = annex_everything
+					transfer_troops = no
 				}
 			}
 		}
@@ -304,9 +304,9 @@ CFD_main_category = {
 		}
 		remove_effect = {
 			CFD = {
-				declare_war_on = {
+				annex_country = {
 					target = BEP
-					type = annex_everything
+					transfer_troops = no
 				}
 			}
 		}
@@ -338,12 +338,12 @@ CFD_main_category = {
 				add_ai_strategy  = {
 					type = invade
 					id = PNA
-					value = 200
+					value = 999
 				}
 				add_ai_strategy  = {
 					type = prepare_for_war
 					id = PNA
-					value = 200
+					value = 999
 				}
 			}
 		}
@@ -375,6 +375,59 @@ CFD_main_category = {
 	}
 
 ##################		Miscs.		##################
+	CFD_fix_the_economic = {
+		icon = GFX_decision_oil_decision
+		visible = {
+			tag = CFD
+			CFD = {
+				AND = {
+					has_idea = CFD_economic_collapse
+					any_controlled_state = {
+						has_resources_amount = {
+							resource = oil
+							amount > 9
+							delivered = yes
+						}
+					}
+				}
+			}
+		}
+		available = {
+			has_idea = CFD_economic_collapse
+			any_controlled_state = {
+				has_resources_amount = {
+					resource = oil
+					amount > 9
+					delivered = yes
+				}
+			}
+		}
+		complete_effect = {
+			CFD = {
+				random_controlled_state = {
+					limit = {
+						has_resources_amount = {
+							resource = oil
+							amount > 9
+							delivered = yes
+						}
+					}
+					add_resource = {
+						type = oil
+						amount = -10
+					}
+				}
+				remove_ideas = CFD_economic_collapse
+			}
+		}
+		#remove_effect = {
+		#
+		#}
+		days_remove = 90
+		ai_will_do = {
+			factor = 999
+		}
+	}
 	CFD_build_stuff_recife = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_construction
@@ -400,7 +453,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				FROM = {
 					set_building_level = {
 						type = infrastructure
@@ -444,7 +497,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				573 = {
 					set_building_level = {
 						type = infrastructure
@@ -493,7 +546,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				8 = {
 					set_building_level = {
 						type = infrastructure
@@ -543,7 +596,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				503 = {
 					set_building_level = {
 						type = infrastructure
@@ -593,7 +646,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				574 = {
 					set_building_level = {
 						type = infrastructure
@@ -649,7 +702,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				10 = {
 					set_building_level = {
 						type = infrastructure
@@ -698,7 +751,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				4 = {
 					set_building_level = {
 						type = infrastructure
@@ -759,7 +812,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				6 = {
 					add_building_construction = {
 						type = fuel_silo 
@@ -808,7 +861,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				5 = {
 					add_building_construction = {
 						type = synthetic_refinery  
@@ -861,7 +914,7 @@ CFD_main_category = {
 		remove_effect = {
 			CFD = {
 				custom_effect_tooltip = CFD_will_get_cash
-				add_to_variable = { CFD_resource_cash = 0.5 }
+				add_to_variable = { CFD_resource_cash = 1.0 }
 				12 = {
 					add_building_construction = {
 						type = air_base   
@@ -1696,7 +1749,7 @@ CFD_nation_development_category = {
 		}
 		icon = GFX_decision_generic_civil_support
 		is_good = yes
-		days_mission_timeout = 31
+		days_mission_timeout = 30
 		days_re_enable = 1
 		selectable_mission = no
 		complete_effect = {
@@ -1726,7 +1779,7 @@ CFD_nation_development_category = {
 		icon = GFX_decision_generic_civil_support
 		is_good = no
 		days_re_enable = 1
-		days_mission_timeout = 30
+		days_mission_timeout = 29
 		selectable_mission = no
 		complete_effect = {
 		}
@@ -1751,6 +1804,12 @@ CFD_nation_development_category = {
 	CFD_WR_upgrade = {
         allowed = { tag = CFD }
 		icon = GFX_decision_generic_industry
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 9
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_10
         available = {
 			custom_trigger_tooltip = {
 				tooltip = CFD_nationwide_progress_80_tt
@@ -1800,6 +1859,12 @@ CFD_nation_development_category = {
 	CFD_SI_upgrade = {
         allowed = { tag = CFD }
 		icon = GFX_decision_generic_industry
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 9
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_10
         available = {
 			custom_trigger_tooltip = {
 				tooltip = CFD_nationwide_progress_90_tt
@@ -1852,7 +1917,12 @@ CFD_nation_development_category = {
 		days_remove = 60
 		is_good = yes
 		fire_only_once = yes
-		
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		available = {
 			CFD = {
 				AND = {
@@ -1902,7 +1972,12 @@ CFD_nation_development_category = {
 		days_remove = 60
 		is_good = yes
 		fire_only_once = yes
-		
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		available = {
 			CFD = {
 				AND = {
@@ -1952,7 +2027,12 @@ CFD_nation_development_category = {
 		days_remove = 60
 		is_good = yes
 		fire_only_once = yes
-		
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		available = {
 			CFD = {
 				AND = {
@@ -2002,7 +2082,12 @@ CFD_nation_development_category = {
 		days_remove = 60
 		is_good = yes
 		fire_only_once = yes
-		
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		available = {
 			CFD = {
 				AND = {
@@ -2083,6 +2168,12 @@ CFD_nation_development_category = {
 				}
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		modifier = {
 			political_power_cost = 0.05
 		}
@@ -2133,6 +2224,12 @@ CFD_nation_development_category = {
 				}
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		modifier = {
 			political_power_cost = 0.05
 		}
@@ -2183,6 +2280,12 @@ CFD_nation_development_category = {
 				}
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		modifier = {
 			political_power_cost = 0.05
 		}
@@ -2233,6 +2336,12 @@ CFD_nation_development_category = {
 				}
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 14
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_15
 		modifier = {
 			political_power_cost = 0.05
 		}
@@ -2250,6 +2359,12 @@ CFD_nation_development_category = {
 	CFD_buy_clandestine_mils = {
 		allowed = { tag = CFD }
 		icon = GFX_decision_generic_prepare_civil_war
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 4
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_5
         available = {
 			CFD = {
 				AND = {
@@ -2313,6 +2428,12 @@ CFD_nation_development_category = {
 		}
         is_good = yes
 		days_remove = 60
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 9
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_10
 		modifier = {
 
 		}
@@ -2355,6 +2476,12 @@ CFD_nation_development_category = {
 		}
         is_good = yes
 		days_remove = 14
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 9
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_10
 		modifier = {
 
 		}
@@ -2399,6 +2526,12 @@ CFD_nation_development_category = {
 				producer = ROOT
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 4
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_5
         is_good = yes
 		days_remove = 7
 		modifier = {
@@ -2445,6 +2578,12 @@ CFD_nation_development_category = {
 				producer = ROOT
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 19
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_20
         is_good = yes
 		days_remove = 14
 		modifier = {
@@ -2493,6 +2632,12 @@ CFD_nation_development_category = {
 		}
         is_good = yes
 		days_remove = 7
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 19
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_20
 		modifier = {
 
 		}
@@ -2527,6 +2672,12 @@ CFD_nation_development_category = {
 				tooltip = CFD_will_lose_cash
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 4
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_5
         is_good = yes
 		days_remove = 60
 		modifier = {
@@ -2563,6 +2714,12 @@ CFD_nation_development_category = {
 				tooltip = CFD_will_lose_cash
 			}
 		}
+		custom_cost_trigger = {
+			check_variable = {
+				CFD_resource_cash > 4
+			}
+		}
+		custom_cost_text = decision_cost_CFD_cash_5
         is_good = yes
 		days_remove = 60
 		modifier = {
@@ -2673,7 +2830,7 @@ CFD_nation_development_category = {
 		complete_effect = {
 			add_to_variable = {
 				var = CFD_resource_cash
-				value = 1
+				value = 2
 				tooltip = CFD_will_get_cash_at_pp_cost
 			}
 		}
@@ -2687,6 +2844,44 @@ CFD_nation_development_category = {
 		}
 		ai_will_do = {
 			factor = 0
+		}
+	}
+	CFD_war_bonds = {
+		allowed = { tag = CFD }
+		icon = GFX_decision_generic_civil_support
+		cost = 10
+        available = {
+			CFD = {
+				AND = {
+					has_country_flag = CFD_development
+					has_war = yes
+				}
+			}
+        }
+		visible = {
+			CFD = {
+				AND = {
+					has_country_flag = CFD_development
+					has_war = yes
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CFD_resource_cash
+				value = 2
+				tooltip = CFD_will_get_cash_at_pp_cost
+			}
+		}
+        is_good = yes
+		days_remove = 45
+		modifier = {
+			consumer_goods_factor = -0.1
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 999
 		}
 	}
 }

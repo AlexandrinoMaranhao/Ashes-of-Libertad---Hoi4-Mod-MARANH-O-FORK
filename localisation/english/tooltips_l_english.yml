@@ -48,6 +48,15 @@ decision_cost_CP_25:0 "£command_power  §Y25§!"
 decision_cost_CP_25_blocked:0 "£command_power  §R25§!"
 decision_cost_CP_25_tooltip:0 "It costs £command_power  §Y25§! to take this decision."
 
+decision_cost_CFD_cash_5:0 "£GFX_CFD_cash_icon §G5§!"
+decision_cost_CFD_cash_5_blocked:0 "£GFX_CFD_cash_icon §R5§!"
+decision_cost_CFD_cash_15:0 "£GFX_CFD_cash_icon §G15§!"
+decision_cost_CFD_cash_15_blocked:0 "£GFX_CFD_cash_icon §R15§!"
+decision_cost_CFD_cash_20:0 "£GFX_CFD_cash_icon §G20§!"
+decision_cost_CFD_cash_20_blocked:0 "£GFX_CFD_cash_icon §R20§!"
+decision_cost_CFD_cash_10:0 "£GFX_CFD_cash_icon §G10§!"
+decision_cost_CFD_cash_10_blocked:0 "£GFX_CFD_cash_icon §R10§!"
+
 ##### End of Demo #####
 ACR_Thank_You:0 "Thank you for playing the Ashes of Libertad Alpha. Be sure to follow our dev team's progress in the mod on our Discord and to tell your friends. Have a wonderful day!"
 ACR_building_network:0 "With the construction of a railway in the region, the local population and area have to be vastly devastated, so the project may begin. §RThis can lead to some unforeseen actions by the locals.§!"

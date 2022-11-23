@@ -166,6 +166,7 @@
  CFD_increase_consumer_goods:0 "Increase Consumer Goods"
  CFD_better_production:0 "Purchase Better Production Materials"
  CFD_focus_construction:0 "Increase Construction Efforts"
+ CFD_war_bonds:0 "War Bonds"
  
  CFD_compromise_with_PCB:0 "Compromise with the §RPCB§!"
  CFD_compromise_with_PSN:0 "Compromise with the §YPSN§!"
@@ -185,12 +186,12 @@
  CFD_reform_army_3:0 "Introduce Pro-Confederation propaganda on patrol drills"
  
  CFD_nation_development_category:0 "Development Sector"
- CFD_nation_development_category_desc:0 "Perhaps one of Cid Sampaio's greatest deals was the open market accord with the Usineiros and Arraes, allowing the people of the [CFD.GetName] finally gets access to a much-needed and somewhat stable currency. Sadly, nothing is without a cost in this world, as it currently is, if even for a small moment the currency returns with a §Rrecession period for more than 3 months§!, the Usineiros will hold nothing back and immediately close the economy if it does not return positively for them. \n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash|=]K§! \nCurrent £GFX_civ_factory §OCivilian Factories§! amount: §O[?num_of_civilian_factories|=]§! \nCurrent £GFX_mil_factory §GMilitary Factories§! amount: §G[?num_of_military_factories|=]§! \n\nFor each £GFX_mil_factory Military Factories, we get a §Rincome loss§! of §R1K§!, for each £GFX_civ_factory Civilian Factories we get a §Gincome increase§! of §G0.5K§!.		 \n\nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n                       £GFX_cfd_nationwide_reforms\n\n\n\n\n\n\n\n"
+ CFD_nation_development_category_desc:0 "Perhaps one of Cid Sampaio's greatest deals was the open market accord with the Usineiros and Arraes, allowing the people of the [CFD.GetName] finally gets access to a much-needed and somewhat stable currency. Sadly, nothing is without a cost in this world, as it currently is, if even for a small moment the currency returns with a §Rrecession period for more than 3 months§!, the Usineiros will hold nothing back and immediately close the economy if it does not return positively for them. \n\nCurrent £GFX_CFD_cash_icon §YCash§! reserves: §Y[?CFD_resource_cash|=]K§! \nCurrent £GFX_civ_factory §OCivilian Factories§! amount: §O[?num_of_civilian_factories|=]§! \nCurrent £GFX_mil_factory §GMilitary Factories§! amount: §G[?num_of_military_factories|=]§! \n\nFor each £GFX_mil_factory Military Factories, we get a §Rincome loss§! of §R1K§!, for each £GFX_civ_factory Civilian Factories we get a §Gincome increase§! of §G0.5K§!.		 \n\nDevelopment Progress: [?CFD_nationwide_progress|%G0§!]\n\n\n\n\n\n\n                       [CFD_development_images_loc]\n\n\n\n\n\n\n"
  CFD_balance_category:0 "§YPSN§! - §RPCB§! Power Balance"
  CFD_balance_category_desc:0 "**WIP**\n\n\n\n\n\n\n\n£GFX_cfd_power_balance\n\n\n\n\n\n\n\n\n\n\n£GFX_CFD_PSNU_party_icon §YPSN§!:  [?PSN_balance|%0§!] \n£GFX_CFD_PSN_party_icon §3Compromise§!:  [?CFD_no_balance|%0§!] \n£GFX_CFD_PCB_party_icon §RPCB§!:  [?PCB_balance|%0§!]"
  
  PEB_main_category:0 "Northeastern Adminstration"
- PEB_main_category_desc:0 "**WIP** \n\nLocal Police Enforcement: §G[?PEB_stabilization_process|%0§!]§! \nCurrent Stable States: §G[?PEB_stable_states]/13§!"
+ PEB_main_category_desc:0 "As the streets are each day closer and closer under total loyalist control, the fear of the rise of anti-republican groups is also at its peak. §G[PEB.GetName]'s§! governor then authorized the usage of violence to put down any militias he sees as criminal, and that is exactly what we are doing. Yet, this is but a temporary solution. As it would not be possible for appeasement with the groups for many months due to the scale of our units available, and even then it is likely to be too late. As we continue the civil-military administration planning. \n\nLocal Police Enforcement: §G[?PEB_stabilization_process|%0§!]§! \nCurrent Stable States: §G[?PEB_stable_states]/13§!"
  PEB_blackmarket:0 "§OThe Blackmarket§!"
  PEB_rebuilding_category:0 "Rebuilding Our Lands"
  PEB_rebuilding_category_desc:0 "**WIP** \n\n Rebuilding Process:[?PEB_rebuilding|%0§!]"

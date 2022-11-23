@@ -3,7 +3,7 @@ ideas = {
 
         cangaceiros_light = {
 			modifier = {
-				monthly_population = -0.05
+				weekly_manpower = -2
 				stability_factor = -0.1
 				consumer_goods_factor = 0.02
 			}
@@ -12,7 +12,7 @@ ideas = {
 
         cangaceiros_medium = {
 			modifier = {
-				monthly_population = -0.1
+				weekly_manpower = -5
 				stability_factor = -0.15
 				consumer_goods_factor = 0.03
 				political_power_cost = 0.05
@@ -22,7 +22,7 @@ ideas = {
 
         cangaceiros_heavy = {
 			modifier = {
-				monthly_population = -0.15
+				monthly_population = -0.02
 				stability_factor = -0.30
 				consumer_goods_factor = 0.05
 				political_power_cost = 0.10
@@ -32,7 +32,7 @@ ideas = {
 
         cangaceiros_total = {
 			modifier = {
-				monthly_population = -0.2
+				monthly_population = -0.05
 				stability_factor = -0.50
 				consumer_goods_factor = 0.1
 				political_power_cost = 0.15

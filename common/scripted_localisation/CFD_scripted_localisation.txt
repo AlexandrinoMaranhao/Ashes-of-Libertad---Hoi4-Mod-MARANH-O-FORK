@@ -24,6 +24,31 @@ defined_text = {
 }
 
 defined_text = {
+    name = CFD_development_images_loc
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { CFD_nationwide_progress = 0 }
+        }
+        localization_key = cfd_development_progress_1
+    }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { CFD_nationwide_progress > 0.05 }
+        }
+        localization_key = cfd_development_progress_2
+    }
+    text = {
+        trigger = {
+            tag = CFD
+			check_variable = { CFD_nationwide_progress > 0.6 }
+        }
+        localization_key = cfd_development_progress_3
+    }
+}
+
+defined_text = {
     name = portella_health_status_loc
     text = {
         trigger = {

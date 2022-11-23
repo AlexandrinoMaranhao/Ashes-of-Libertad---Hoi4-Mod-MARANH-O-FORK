@@ -69,7 +69,7 @@ country_event = {
 			add_resource = { type = chromium amount = 4 }
 		}
 		89 = {
-			add_resource = { type = technology amount = 2 }
+			add_resource = { type = aluminium amount = 2 }
 		}
 		96 = {
 			add_resource = { type = rubber amount = 12 }

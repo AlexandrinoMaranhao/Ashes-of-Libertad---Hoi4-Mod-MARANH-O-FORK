@@ -46,6 +46,7 @@ CFD_main_category = {
 }
 
 PEB_main_category = {
+	picture = GFX_PEB_decision_category_image
 	icon = GFX_decision_category_generic_political_actions
 	priority = 100
 	allowed = {

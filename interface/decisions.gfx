@@ -91,7 +91,12 @@ spriteTypes = {
 		name = "GFX_decision_category_SAO_ALN"
 		texturefile = "gfx/interface/decisions/decision_category_SAO_ALN.dds"
 	}
-					
+	
+	spriteType = {
+		name = "GFX_PEB_decision_category_image"
+		texturefile = "gfx/interface/decisions/PEB_decision_category_image.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_decision_category_SAO_category"
 		texturefile = "gfx/interface/decisions/decision_category_civil_administration.dds"

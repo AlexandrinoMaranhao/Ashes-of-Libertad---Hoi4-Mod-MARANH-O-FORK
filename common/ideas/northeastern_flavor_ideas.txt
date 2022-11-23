@@ -74,9 +74,14 @@ ideas = {
 			}
 			
 			modifier = {
+				monthly_population = -0.15
+				stability_factor = -0.25
+				consumer_goods_factor = 0.15
+				political_power_cost = 0.15
+				drift_defence_factor = -0.5
+				required_garrison_factor = 0.5
 			}
 			available = {NOT = { has_country_flag = CFD_failometer_enabled}}
-
 		}
 
 		whale_hunting = {
@@ -102,7 +107,7 @@ ideas = {
 		PEB_jango_reforms = {
 		
 			modifier = {
-				local_resources_factor = 0.3
+				local_resources_factor = 0.4
 				monthly_population = 0.02
 			}
 			available = {
@@ -116,10 +121,8 @@ ideas = {
 		PEB_liberal_economics = {
 		
 			modifier = {
-				trade_opinion_factor = 0.65
-				production_speed_industrial_complex_factor = 0.45
 				consumer_goods_factor = -0.15
-				production_oil_factor = 0.6
+				production_oil_factor = 0.3
 			}
 		}
 		
