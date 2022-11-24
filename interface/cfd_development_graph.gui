@@ -38,6 +38,7 @@ guiTypes = {
 			maxWidth = 50
 			format = right
 		}
+		
 		instantTextboxType = {
 			name = "80pct"
 			position = { x= 34 y = 85}
@@ -80,6 +81,7 @@ guiTypes = {
 		}
 	}
 
+
 	# Line segment container, very important
 	containerWindowType = {
 		name = "line_graph_line_segment"
@@ -93,15 +95,25 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			frame = 57
 		}
-
-		# Optional, x-axis label which corresponds to the value of this segment
+		
 		instantTextboxType = {
-			name = "label"
-			position = { x = -15 y = 112}
+			name = "cash_amount"
+			position = { x= -140 y = -20}
 			font = "garamond_14"
-			text = "line_graph_data_label"
-			maxWidth = 30
+			text = "Available Reserves"
+			maxWidth = 400
+			maxHeight = 400
 			format = center
 		}
+		
+		# Optional, x-axis label which corresponds to the value of this segment
+		#instantTextboxType = {
+		#	name = "label"
+		#	position = { x = -15 y = 112}
+		#	font = "garamond_14"
+		#	text = "line_graph_data_label"
+		#	maxWidth = 30
+		#	format = center
+		#}
 	}
 }

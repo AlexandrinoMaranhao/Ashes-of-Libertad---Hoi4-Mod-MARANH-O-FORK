@@ -515,6 +515,12 @@ CFD_main_category = {
 					popularity = 0.01
 				}
 				add_stability = -0.01
+				hidden_effect = {
+					country_event = {
+						id = CFD_intro.5
+						days = 7
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -781,6 +787,12 @@ CFD_main_category = {
 					popularity = 0.01
 				}
 				add_stability = -0.01
+				hidden_effect = {
+					country_event = {
+						id = CFD_intro.6
+						days = 7
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -830,6 +842,12 @@ CFD_main_category = {
 					popularity = 0.01
 				}
 				add_stability = -0.01
+				hidden_effect = {
+					country_event = {
+						id = CFD_intro.8
+						days = 7
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -946,6 +964,12 @@ CFD_main_category = {
 					popularity = 0.01
 				}
 				add_stability = -0.01
+				hidden_effect = {
+					country_event = {
+						id = CFD_intro.7
+						days = 2
+					}
+				}
 			}
 		}
 		ai_will_do = {

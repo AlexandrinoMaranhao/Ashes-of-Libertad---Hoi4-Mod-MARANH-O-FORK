@@ -334,7 +334,7 @@ industry_free_repair_factor = -0.5
 			}
 			modifier = {
 				army_core_defence_factor = 0.1
-				political_power_gain = 0.01
+				political_power_gain = 0.15
 				democratic_acceptance = 75
 			}
 		}

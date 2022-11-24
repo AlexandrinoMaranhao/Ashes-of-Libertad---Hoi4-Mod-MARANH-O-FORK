@@ -30,7 +30,7 @@ Ace
 Captain-General Blue
 Josefino
 ElCaudillo
-SouthStar
+Epin
 
 #ARTISTS
 Oveja
@@ -38,6 +38,7 @@ King Albert I
 Campochi
 YeezeyBreezey
 Trun'
+Holy_Regent
 
 #HONORABLE MENTIONS:
 #EX-MEMBERS
@@ -54,6 +55,7 @@ Expozin597
 Ariel
 bobby fucktard kennedy
 Vanilla Price
+SouthStar
 
 #PARTNERS
 CSS - Cold Southern Springs
@@ -65,37 +67,25 @@ En Unión y Libertad
 Fraternité en Rébellion
 Make America Again
 
-#ESPECIAL THANKS TO OURS
+#ESPECIAL THANKS TO:
+
 Wiki contributors:
 https://hoi4mods.miraheze.org/wiki/Ashes_of_Libertad
+
+ATeaAddict
+Caio79
 
 Russian Translators:
 Парящий Орел
 
+Flaxbeard's Scripted Graphs
+
 
 #IN THE MEMORY OF:
 Antigo Mundo Dourado
-may it rest in pieces.
 
 
 ----------------------------
-
-#PICTURES
-President Truman announces Japan's surrender,
-at the White House. Washington DC, August 14, 1945.
-Courtesy National Archives, photo no. 79-AR-508Q
-
-Hitler accepts the ovation of the Reichstag after
-announcing the `peaceful' acquisition of Austria.
-It set the stage to annex the Czechoslovakian Sudetenland,
-largely inhabited by a German- speaking population.
-Berlin, March 1938.
-Courtesy National Archives, photo no.  208-N-39843
-
-
-Special thanks to all our forum members,
-partners and supporters,
-who are integral for our success.
 
 ----------------
 

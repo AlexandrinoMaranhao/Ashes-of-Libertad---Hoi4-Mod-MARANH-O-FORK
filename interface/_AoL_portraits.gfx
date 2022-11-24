@@ -158,6 +158,22 @@ spriteTypes = {
 		name = "GFX_idea_SEG_seixas_doria_advisor"
 		texturefile = "gfx/interface/ideas/goofybois/seg_seixas_doria.dds"
 	}
+	spriteType = {
+		name = "GFX_virgilio_tavora_portrait"
+		texturefile = "gfx/leaders/CEA/Portrait_CEA_Virgilio_Tavora.dds"
+	}
+	spriteType = {
+		name = "GFX_pedro_godim_portrait"
+		texturefile = "gfx/leaders/PAI/Portrait_PAI_Pedro_Moreno_Godim.dds"
+	}
+	spriteType = {
+		name = "GFX_arnon_farias_portrait"
+		texturefile = "gfx/leaders/ALA/Portrait_ALA_Arnon_Afonso_de_Farias_Mello.dds"
+	}
+	spriteType = {
+		name = "GFX_aluizio_portrait"
+		texturefile = "gfx/leaders/RGN/Portrait_RGN_Aluízio_Alves.dds"
+	}
 	
 ###El_Generico Quadrant###
 	spriteType = {
