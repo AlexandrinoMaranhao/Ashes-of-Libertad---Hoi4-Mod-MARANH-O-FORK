@@ -2516,17 +2516,6 @@ country_event = {
 		
 		#Portella Takeover
 		PIA = {
-			transfer_state = 575 
-			transfer_state = 577
-			transfer_state = 576
-			transfer_state = 578
-			transfer_state = 580
-			transfer_state = 579
-			transfer_state = 582
-			transfer_state = 581
-			transfer_state = 16
-			transfer_state = 583
-			transfer_state = 584
 			
 			remove_ideas = {
 				PIA_wolf_adminstration
@@ -2607,6 +2596,17 @@ country_event = {
 				id = MNH.1
 				days = 555
 			}
+			transfer_state = 575 
+			transfer_state = 577
+			transfer_state = 576
+			transfer_state = 578
+			transfer_state = 580
+			transfer_state = 579
+			transfer_state = 582
+			transfer_state = 581
+			transfer_state = 16
+			transfer_state = 583
+			transfer_state = 584
 		}
 		
         ALA = {

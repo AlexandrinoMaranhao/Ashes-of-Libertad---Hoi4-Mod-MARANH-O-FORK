@@ -55,7 +55,7 @@ PEB_main_category = {
 			add_ideas = tax_rate_exploitative_taxation
 		}
 		modifier = {
-			political_power_gain = -0.1
+			political_power_gain = 0.2
 		}
 		remove_effect = {
 			add_ideas = tax_rate_medium_taxation
@@ -827,7 +827,7 @@ PEB_main_category = {
 		cost = 40
 		remove_effect = {
 			remove_ideas = cangaceiros_and_commies
-			add_ideas = cangaceiros_heavy
+			add_ideas = cangaceiros_medium
 		}
 		ai_will_do = {
 			factor = 90
