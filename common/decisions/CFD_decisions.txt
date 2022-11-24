@@ -1762,6 +1762,7 @@ CFD_nation_development_category = {
 			}
 			hidden_effect = {
 				activate_decision = CFD_monthly_cash_gain
+				cfd_add_cash_to_line = yes
 			}
 		}
 	}

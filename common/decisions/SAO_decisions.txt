@@ -1546,7 +1546,6 @@ SAO_international_diplomacy_category = {
 		}
 	}
 	
-	##Remember to add more c:
 	sao_institutions_remover = {
 		icon = GFX_sao_take_over_institutions_decision
 		cost = 5
@@ -2081,7 +2080,6 @@ SAO_international_diplomacy_category = {
 		}
 	}
 ################ ITAJUBA ARMS FACTORY ################
-
 	SAO_launch_the_itajuba_raid = {
 		icon = GFX_sao_decision
 		cost = 50
@@ -2467,61 +2465,355 @@ SAO_cat_and_mouse_category = {
 		complete_effect = {
 		}
 		remove_effect = {
-
+			random_core_state = {
+				
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 	}
-	sao_cat_and_mouse_automatic_change1 = {
-		cost = 20
-		days_remove = 14
-		fire_only_once = no
+	sao_cat_and_mouse_automatic_change1 = { #Aleatoriamente cria uma cela da ALN em um estado core de SP com mais de 4 leveis de atividade.
+		days_re_enable = 7
+		days_mission_timeout = 30
+		selectable_mission = no
+        is_good = no
+		activation = {SAO = {has_country_flag = SAO_figueiredo_path}}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+        }
 		visible = {
-		}
-		available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_figueiredo_path
+					any_core_state = {
+						check_variable = { FROM.aln_activity > 3 }
+					}
+				}
+			}
 		}
 		complete_effect = {
+			
 		}
-		remove_effect = {
-
+		complete_effect = {
+			
+		}
+		modifier = {
+		}
+		timeout_effect = {
+			random_core_state = {
+				limit = {
+					NOT = {has_state_flag = ALN_cell}
+					check_variable = { aln_activity > 3 }
+				}
+				set_state_flag = ALN_cell
+			}
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 90
 		}
 	}
-	sao_cat_and_mouse_automatic_changes2 = {
-		cost = 20
-		days_remove = 14
-		fire_only_once = no
+	sao_cat_and_mouse_automatic_changes2 = { #aleatoriamente reduz atividade da ALN em um estado core de SP.
+		days_re_enable = 1
+		days_mission_timeout = 30
+		selectable_mission = no
+        is_good = no
+		activation = {SAO = {has_country_flag = SAO_marighella_path}}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+        }
 		visible = {
-		}
-		available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_marighella_path
+					any_core_state = {
+						NOT = {
+							check_variable = { FROM.aln_activity > 4 }
+						}
+					}
+					
+				}
+			}
 		}
 		complete_effect = {
+			
 		}
-		remove_effect = {
-
+		complete_effect = {
+			
+		}
+		modifier = {
+		}
+		timeout_effect = {
+			random_core_state = {
+				limit = {
+					NOT = {has_state_flag = ALN_cell}
+					check_variable = { aln_activity > 0 }
+				}
+				subtract_from_variable = {
+					var = aln_activity
+					value = 1
+					tooltip = SAO_reduce_ALN
+				}
+			}
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 90
 		}
 	}
-	sao_cat_and_mouse_automatic_changes3 = {
-		cost = 20
-		days_remove = 14
-		fire_only_once = no
+	sao_cat_and_mouse_automatic_changes3 = { #aumenta aleatoriamente a atividade da ALN em um estado com core de SP.
+		days_re_enable = 7
+		days_mission_timeout = 30
+		selectable_mission = no
+        is_good = no
+		activation = {SAO = {has_country_flag = SAO_figueiredo_path}}
+        available = {
+			hidden_trigger = {
+				always = no
+			}
+        }
 		visible = {
-		}
-		available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_figueiredo_path
+					any_core_state = {
+						NOT = {
+							check_variable = { FROM.aln_activity > 3 }
+						}
+					}
+				}
+			}
 		}
 		complete_effect = {
+			
 		}
-		remove_effect = {
-
+		complete_effect = {
+			
+		}
+		modifier = {
+		}
+		timeout_effect = {
+			random_core_state = {
+				limit = {
+					NOT = {has_state_flag = ALN_cell}
+				}
+				add_to_variable = {
+					var = aln_activity
+					value = 1
+					tooltip = SAO_reduce_DOPS
+				}
+			}
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 90
+		}
+	}
+	SAO_influence_state_ALN = {
+		allowed = { tag = SAO }
+		icon = GFX_decision_generic_assassination
+		on_map_mode = map_only
+		state_target = yes
+		targets = { 567 502 27 28 500 501 30 32 568 34 569 33 31 394 570 35 29 }
+        available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_marighella_path
+					FROM = {
+						NOT = {
+							check_variable = { FROM.aln_activity > 3 }
+						}
+					}
+				}
+			}
+        }
+		visible = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_marighella_path
+					FROM = {
+						NOT = {
+							check_variable = { FROM.aln_activity > 3 }
+						}
+					}
+				}
+			}
+		}
+		complete_effect = {
+			
+		}
+        is_good = yes
+		days_remove = 14
+		complete_effect = {
+			
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		cost = 5
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					var = aln_activity
+					value = 1
+					tooltip = SAO_ALN_influence_cell
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	SAO_establish_ALN_cell = {
+		allowed = { tag = SAO }
+		icon = GFX_decision_generic_assassination
+		on_map_mode = map_only
+		state_target = yes
+		targets = { 567 502 27 28 500 501 30 32 568 34 569 33 31 394 570 35 29 }
+        available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_marighella_path
+					FROM = {
+						check_variable = { FROM.aln_activity = 4 }
+					}
+				}
+			}
+        }
+		visible = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_marighella_path
+					FROM = {
+						check_variable = { FROM.aln_activity = 4 }
+					}
+				}
+			}
+		}
+		complete_effect = {
+			
+		}
+        is_good = yes
+		days_remove = 30
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = SAO_ALN_stablish_cell
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		cost = 10
+		remove_effect = {
+			FROM = {set_state_flag = ALN_cell}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	SAO_crackdown_DOPS = {
+		allowed = { tag = SAO }
+		icon = GFX_decision_generic_assassination
+		on_map_mode = map_only
+		state_target = yes
+		targets = { 567 502 27 28 500 501 30 32 568 34 569 33 31 394 570 35 29 }
+        available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_figueiredo_path
+					FROM = {
+						NOT = {
+							check_variable = { FROM.aln_activity > 3 }
+						}
+						check_variable = { FROM.aln_activity > 0 }
+					}
+				}
+			}
+        }
+		visible = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_figueiredo_path
+					FROM = {
+						NOT = {
+							check_variable = { FROM.aln_activity > 3 }
+						}
+						check_variable = { FROM.aln_activity > 0 }
+					}
+				}
+			}
+		}
+		complete_effect = {
+			
+		}
+        is_good = yes
+		days_remove = 14
+		complete_effect = {
+			
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		cost = 5
+		remove_effect = {
+			FROM = {
+				subtract_from_variable = {
+					var = aln_activity
+					value = 1
+					tooltip = SAO_ALN_influence_cell
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	SAO_remove_cell_DOPS = {
+		allowed = { tag = SAO }
+		icon = GFX_decision_generic_assassination
+		on_map_mode = map_only
+		state_target = yes
+		targets = { 567 502 27 28 500 501 30 32 568 34 569 33 31 394 570 35 29 }
+        available = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_figueiredo_path
+					FROM = {
+						has_state_flag = ALN_cell
+					}
+				}
+			}
+        }
+		visible = {
+			SAO = {
+				AND = {
+					has_country_flag = SAO_figueiredo_path
+					FROM = {
+						has_state_flag = ALN_cell
+					}
+				}
+			}
+		}
+		complete_effect = {
+			
+		}
+        is_good = yes
+		days_remove = 14
+		complete_effect = {
+			
+		}
+		modifier = {
+			political_power_cost = 0.05
+		}
+		cost = 5
+		remove_effect = {
+			FROM = {
+				clr_state_flag = ALN_cell
+			}
+		}
+		ai_will_do = {
+			factor = 90
 		}
 	}
 }
@@ -2576,7 +2868,6 @@ SAO_DOPS = {
 			}
 		}
 	}
-
 	sao_dops_montly_budget = {
 		icon = GFX_dops_decision
 		activation = {
@@ -2610,7 +2901,6 @@ SAO_DOPS = {
 			}
 		}
 	}
-
 	sao_bribe_informant = {
 		icon = GFX_dops_decision
 		cost = 20
@@ -2775,7 +3065,6 @@ SAO_DOPS = {
 			factor = 100
 		}
 	}
-
 	sao_talk_to_rosa = {
 		icon = GFX_dops_decision
 		cost = 5
@@ -2803,7 +3092,6 @@ SAO_DOPS = {
 			factor = 100
 		}
 	}
-	
 	sao_investigate_freis = {
 		icon = GFX_dops_decision
 		cost = 5
@@ -2901,7 +3189,6 @@ SAO_DOPS = {
 			factor = 100
 		}
 	}
-	
 	sao_investigate_lower_class = {
 		icon = GFX_dops_decision
 		cost = 5

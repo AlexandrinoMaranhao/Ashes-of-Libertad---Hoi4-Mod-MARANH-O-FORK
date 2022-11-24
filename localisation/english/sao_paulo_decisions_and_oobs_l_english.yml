@@ -168,6 +168,11 @@
  SAO_ROAD_TO_GUANABARA_THREE_A:0 "\nA decision will become available to send volunteers to the §GEastern Military Command§! to help in the §t2nd Battle of Guanabara§!. \n\n§tATTENTION!§! \n\nThis will heavily change how the §GJunta§! sees §OSão Paulo§!, if they feel that the population is on their side they will attempt a §tMilitary Intervention§! in the state."
  SAO_ROAD_TO_GUANABARA_THREE_B:0 "\nA decision will become available to send volunteers to the §G4th Brazilian Republic§! to help in the §t2nd Battle of Guanabara§!. \n\n§tATTENTION!§! \n\nThis will heavily change how the §G4th Republic§! sees §OSão Paulo§!, if they feel that the population is on their side they will attempt a §tMilitary Intervention§! in the state."
  SAO_ROAD_TO_GUANABARA_THREE_C:0 "\n§tThe safe option.§!"
+ SAO_ALN_influence_cell:0 "§tThis will add 1 level of influence over [FROM.GetName].§!"
+ SAO_ALN_stablish_cell:0 "§tThis will stablish a ALN cell on [FROM.GetName].§!"
+ SAO_DOPS_crackdown:0 "§OSend a DOPS Unit to underkeep control on [FROM.GetName].§!"
+ SAO_reduce_ALN:0 "§OThe DOPS will attempt to reduce§! §tALN's§! §Oinfluence over [THIS.GetName].§!"
+ SAO_reduce_DOPS:0 "§tALN§! §Owill attempt to reduce DOPS control over [THIS.GetName].§!"
  
 ################
 # OOBs

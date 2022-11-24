@@ -103,7 +103,7 @@ add_ideas = {
 
 #Social laws
 	religious_pluralism
-	political_parties_multiparty_system
+	political_parties_one_party_state
 	economic_focus_early_mobilization
 	equal_rights
 	bellow_poverty_line

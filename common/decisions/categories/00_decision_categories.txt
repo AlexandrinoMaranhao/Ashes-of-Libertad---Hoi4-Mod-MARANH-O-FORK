@@ -139,6 +139,7 @@ CFD_maranhao_war_category = {
 CFD_nation_development_category = {
 	icon = GFX_decision_category_generic_industry
 	priority = 25
+	scripted_gui = line_graph_cfd_scripted_gui
 	allowed = {
 		original_tag = CFD
 	}

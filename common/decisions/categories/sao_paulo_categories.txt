@@ -16,6 +16,15 @@ SAO_DOPS = {
 	}
 	visible = {
 		original_tag = SAO
+		SAO = {
+			hidden_trigger = {has_country_flag = SAO_figueiredo_path}
+		}
+	}
+	available = {
+		original_tag = SAO
+		SAO = {
+			hidden_trigger = {has_country_flag = SAO_figueiredo_path}
+		}
 	}
 	icon = GFX_decision_category_acrean_raids
 	visible_when_empty = yes
@@ -28,6 +37,15 @@ SAO_ALN = {
 	}
 	visible = {
 		original_tag = SAO
+		SAO = {
+			hidden_trigger = {has_country_flag = SAO_marighella_path}
+		}
+	}
+	available = {
+		original_tag = SAO
+		SAO = {
+			hidden_trigger = {has_country_flag = SAO_marighella_path}
+		}
 	}
 	icon = GFX_decision_category_acrean_raids
 	visible_when_empty = yes
