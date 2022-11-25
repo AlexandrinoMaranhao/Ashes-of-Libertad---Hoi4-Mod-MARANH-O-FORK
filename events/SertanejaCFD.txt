@@ -2608,12 +2608,12 @@ country_event = {
 				id = PNA
 				value = 999
 			}
-			ai_strategy = {
+			add_ai_strategy = {
 				type = conquer
 				id = PNA
 				value = 100
 			}
-			ai_strategy = {
+			add_ai_strategy = {
 				type = conquer
 				id = PIA
 				value = 100
