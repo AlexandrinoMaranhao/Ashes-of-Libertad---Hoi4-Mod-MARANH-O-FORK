@@ -5,7 +5,7 @@ guiTypes = {
 		size = { width = 350 height= 250 }
 		orientation = center
 		origo = center
-		moveable = yes
+		moveable = no
 		
 		background = {
 			name = "background"		
@@ -17,6 +17,16 @@ guiTypes = {
 			name = "chart"
 			spriteType = "GFX_Line_Graph_Chart"
 			position = { x = 90 y = 70 }
+		}
+		
+		instantTextboxType = {
+			name = "cash_amount"
+			position = { x = 50 y = 20}
+			font = "garamond_14"
+			text = "Available Reserves"
+			maxWidth = 400
+			maxHeight = 400
+			format = center
 		}
 
 		# Container which will hold each of our line segments
@@ -94,16 +104,6 @@ guiTypes = {
 			spriteType = "GFX_Line_Segment"
 			position = { x = 0 y = 0 }
 			frame = 57
-		}
-		
-		instantTextboxType = {
-			name = "cash_amount"
-			position = { x= -140 y = -20}
-			font = "garamond_14"
-			text = "Available Reserves"
-			maxWidth = 400
-			maxHeight = 400
-			format = center
 		}
 		
 		# Optional, x-axis label which corresponds to the value of this segment

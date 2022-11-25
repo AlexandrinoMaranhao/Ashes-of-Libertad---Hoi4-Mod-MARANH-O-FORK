@@ -699,71 +699,71 @@ key_locations_decisions = {		#These are TNO-inspired national spirits based on i
 		}
 	}
 	
-	take_the_xingu_national_park = {
-		activation = {
-			AND = {
-				ROOT = {
-					controls_state = 150
-				}
-				NOT = {has_idea = the_xingu_national_park}
-			}
-		}
-		available = {
-			ROOT = {
-				controls_state = 150
-			}
-		}
-		cancel_trigger = {
-			OR = {
-				NOT = {
-					ROOT = {
-						controls_state = 150
-					}
-				}
-				has_idea = the_xingu_national_park
-			}
-		}
-		icon = mission_icon     # For GFX_decision_mission_icon
-		is_good = yes
-		days_mission_timeout = 7
-		complete_effect = {
-			add_ideas = the_xingu_national_park
-		}
-	}
-	give_the_xingu_national_park = {
-		activation = {
-			AND = {
-				ROOT = {
-					NOT = {
-						controls_state = 150
-					}
-				}
-				has_idea = the_xingu_national_park
-			}
-		}
-		available = {
-			AND = {
-				ROOT = {
-					NOT = {
-						controls_state = 150
-					}
-				}
-				has_idea = the_xingu_national_park
-			}
-		}
-		cancel_trigger = {
-			ROOT = {
-				controls_state = 150
-				has_idea = the_xingu_national_park
-			}
-		}
-		icon = mission_icon     # For GFX_decision_mission_icon
-		is_good = no
-		days_mission_timeout = 7
-		complete_effect = {
-			remove_ideas = the_xingu_national_park
-		}
-	}
+	#take_the_xingu_national_park = {
+	#	activation = {
+	#		AND = {
+	#			ROOT = {
+	#				controls_state = 150
+	#			}
+	#			NOT = {has_idea = the_xingu_national_park}
+	#		}
+	#	}
+	#	available = {
+	#		ROOT = {
+	#			controls_state = 150
+	#		}
+	#	}
+	#	cancel_trigger = {
+	#		OR = {
+	#			NOT = {
+	#				ROOT = {
+	#					controls_state = 150
+	#				}
+	#			}
+	#			has_idea = the_xingu_national_park
+	#		}
+	#	}
+	#	icon = mission_icon     # For GFX_decision_mission_icon
+	#	is_good = yes
+	#	days_mission_timeout = 7
+	#	complete_effect = {
+	#		add_ideas = the_xingu_national_park
+	#	}
+	#}
+	#give_the_xingu_national_park = {
+	#	activation = {
+	#		AND = {
+	#			ROOT = {
+	#				NOT = {
+	#					controls_state = 150
+	#				}
+	#			}
+	#			has_idea = the_xingu_national_park
+	#		}
+	#	}
+	#	available = {
+	#		AND = {
+	#			ROOT = {
+	#				NOT = {
+	#					controls_state = 150
+	#				}
+	#			}
+	#			has_idea = the_xingu_national_park
+	#		}
+	#	}
+	#	cancel_trigger = {
+	#		ROOT = {
+	#			controls_state = 150
+	#			has_idea = the_xingu_national_park
+	#		}
+	#	}
+	#	icon = mission_icon     # For GFX_decision_mission_icon
+	#	is_good = no
+	#	days_mission_timeout = 7
+	#	complete_effect = {
+	#		remove_ideas = the_xingu_national_park
+	#	}
+	#}
 	
 	take_cachimbo_military_complex = {
 		activation = {
@@ -831,7 +831,7 @@ key_locations_decisions = {		#These are TNO-inspired national spirits based on i
 		}
 	}
 	
-	take_itajub = {
+	take_the_itajub_arms_factory = {
 		activation = {
 			AND = {
 				ROOT = {
