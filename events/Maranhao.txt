@@ -64,14 +64,12 @@ country_event = { #Piaui Frontier Failure
         name = MNH.1.a
 		if = {
 			limit = {
-				CRJ = { is_faction_leader = yes }
+				CRJ = { has_country_flag = CRJ_emperor_path }
 			}
-			
 			CRJ = { add_to_faction = MNH }
 			else = {
-			create_faction = Brazilian_empire_FACTION
+				create_faction = Brazilian_empire_FACTION
 			}
-			
 		}
 		every_country = {
 			news_event = {
@@ -154,14 +152,12 @@ country_event = { #Piaui Frontier Success
         name = MNH.2.a
 		if = {
 			limit = {
-				CRJ = { is_faction_leader = yes }
+				CRJ = { has_country_flag = CRJ_emperor_path }
 			}
-			
 			CRJ = { add_to_faction = MNH }
 			else = {
-			create_faction = Brazilian_empire_FACTION
+				create_faction = Brazilian_empire_FACTION
 			}
-			
 		}
     every_country = {
         news_event = {

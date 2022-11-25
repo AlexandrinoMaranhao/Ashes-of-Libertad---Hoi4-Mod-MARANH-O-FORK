@@ -88,7 +88,8 @@ country_event = { ## Victory! ##
                 }
 			}
 			CRJ = {
-            country_event = { id = CRJ.1 days = 430 }
+				set_country_flag = CRJ_emperor_path
+				country_event = { id = CRJ.1 days = 430 }
                 remove_ideas = CRJ_second_war_of_guanabara 
             }
         }

@@ -529,15 +529,13 @@ focus_tree = {
 		prerequisite = { focus = PEB_a_students_coalition  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
-						random_owned_controlled_state = {
-							add_building_construction = {
-								type = infrastructure
-								level = 5
-								instant_build = yes
-							}
-						}
-			
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
 			custom_effect_tooltip = PEB_improve_roads
 		}
 	}
@@ -605,17 +603,17 @@ focus_tree = {
 		prerequisite = { focus = PEB_new_opportunities  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-						add_tech_bonus = {
-							bonus = 0.25
-							uses = 2
-							category = industry
-						}
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 2
+				category = industry
+			}
 			
-						add_tech_bonus = {
-							bonus = 0.5
-							uses = 1
-							category = electronics
-						}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
 		}
 	}
 
@@ -703,8 +701,7 @@ focus_tree = {
 			    ideology = reactionary
 			    popularity = 0.15
 			}
-			
-			
+
 			add_equipment_to_stockpile = {
 			    type = infantry_equipment
 			    amount = 10000

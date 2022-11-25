@@ -44,19 +44,17 @@ set_country_flag = use_generic_mobilization_laws
 set_country_flag = use_generic_economy_focus
 
 create_country_leader = {
-	
-	name = "Luís Viana Filho"
-	picture = "gfx/leaders/CNU/Portrait_CNU_Luis_Viana_Filho.dds"
+	name = "Antônio Lomanto Júnior"
+	picture = "gfx/leaders/CNU/Portrait_Antonio_Lomanto_Junior.dds"
 	expire = "1999.1.1"
 	ideology = provisional_government
 	#traits = { }
 }
 
 create_country_leader = {
-	
-	name = "The Advisor"
-	picture = "gfx/leaders/RGN/.dds"
+	name = "Luís Viana Filho"
+	picture = "gfx/leaders/CNU/Portrait_CNU_Luis_Viana_Filho.dds"
 	expire = "1999.1.1"
-	ideology = evangelical_theocracy
+	ideology = military_government
 	#traits = { }
 }
