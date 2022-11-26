@@ -94,42 +94,6 @@ CFD_main_category = {
 	}
 
 ##################		AI Oriented Decisions.		##################
-	CFD_AI_be_bad = {
-		allowed = {tag = CFD}
-		cost = 0
-		days_remove = 100
-		visible = {
-			OR = {
-				is_ai = yes
-				is_debug = yes
-			}
-		}
-		available = {
-			CFD = {
-				AND = {
-					is_ai = yes
-					has_war = yes
-				}
-			}
-		}
-		modifier = {
-			ai_focus_aggressive_factor = 1.0
-			ai_focus_war_production_factor = 1.0
-			ai_badass_factor = 1.0
-			ai_focus_aviation_factor = 1.0
-			army_attack_against_minor_factor = 0.95
-			army_defence_against_minor_factor = 0.95
-		}
-		remove_effect = {
-			CFD = {
-				add_stability = 0.0001
-				add_political_power = -10
-			}
-		}
-		ai_will_do = {
-			factor = 999
-		}
-	}
 	CFD_AI_take_FRN = {
 		allowed = {tag = CFD}
 		cost = 0
@@ -366,6 +330,51 @@ CFD_main_category = {
 				country_event = {
 					id = MNH.2
 					days = 50
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	CFD_AI_take_SEG = {
+		allowed = {tag = CFD}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 420
+		visible = {
+			OR = {
+				is_ai = yes
+				is_debug = yes
+			}
+		}
+		available = {
+			CFD = {
+				AND = {
+					is_ai = yes
+					has_country_flag = begin_piaui_frontier
+				}
+			}
+		}
+		complete_effect = {
+			CFD = {
+				add_ai_strategy  = {
+					type = invade
+					id = SEG
+					value = 999
+				}
+				add_ai_strategy  = {
+					type = prepare_for_war
+					id = SEG
+					value = 999
+				}
+			}
+		}
+		remove_effect = {
+			CFD = {
+				annex_country = {
+					target = SEG
+					transfer_troops = no
 				}
 			}
 		}

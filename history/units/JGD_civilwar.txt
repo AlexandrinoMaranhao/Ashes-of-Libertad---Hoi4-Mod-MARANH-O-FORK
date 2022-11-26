@@ -54,25 +54,4 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.2
 	}
-	division = {
-		name = "Grupo de Artilharia de Campanha"
-		location = 2544
-		division_template = "Artilharia de Campanha"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.2
-	}
-	division = {
-		name = "Grupo de Artilharia de Campanha"
-		location = 2544
-		division_template = "Artilharia de Campanha"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.2
-	}
-	division = {
-		name = "Esquadrão de Cavalaria Mecanizado"
-		location = 2544
-		division_template = "Cavalaria Mecanizado"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.3
-	}
 }
