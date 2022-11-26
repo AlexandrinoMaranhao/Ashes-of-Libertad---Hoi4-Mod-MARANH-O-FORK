@@ -32,7 +32,7 @@ on_actions = {
 				}
 				country_event = { #European Events
 					id = CFD_events.20
-					days = 80
+					days = 90
 				}
 			}
 			SEG = { #Sergipe-Vale Deals
@@ -278,31 +278,31 @@ on_actions = {
 				## Venezuela's Paths
 			VEN = {
 				random_list = {
-                 50 = {
-                 country_event = {
-                     id = VEN_Bettancourt_Assassination_Fails.1 # Bettancourt Assassiantion Attempt
-                     days = 203
-                 }
-                 }
-                16 = {
-                 country_event = {
-                     id = VEN_Bettancourt_Assassination_Gun.1 # Bettancourt Assassiantion Attempt
-                     days = 203
-                 }
-                 }
-                17 = {
-                 country_event = {
-                     id = VEN_Bettancourt_Assassination_Explosion.1 # Bettancourt Assassiantion Attempt
-                     days = 203
-                 }
-                 }
-                 17 = {
-                 country_event = {
-                     id = VEN_Bettancourt_Assassination_Aiplane.1 # Bettancourt Assassiantion Attempt
-                     days = 203
-                        }
-                    }
-                }
+					50 = {
+						country_event = {
+							id = VEN_Bettancourt_Assassination_Fails.1 # Bettancourt Assassiantion Attempt
+							days = 203
+						}
+					}
+					16 = {
+						country_event = {
+							id = VEN_Bettancourt_Assassination_Gun.1 # Bettancourt Assassiantion Attempt
+							days = 203
+						}
+					}
+					17 = {
+						country_event = {
+							id = VEN_Bettancourt_Assassination_Explosion.1 # Bettancourt Assassiantion Attempt
+							days = 203
+						}
+					}
+					17 = {
+						country_event = {
+							id = VEN_Bettancourt_Assassination_Aiplane.1 # Bettancourt Assassiantion Attempt
+							days = 203
+						}
+					}
+				}
 			}
 		}
 	}

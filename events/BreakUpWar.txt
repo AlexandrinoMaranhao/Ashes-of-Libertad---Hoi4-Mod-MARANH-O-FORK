@@ -5,7 +5,145 @@ add_namespace = JCL_breakupwar
 add_namespace = JGD_breakupwar
 add_namespace = JRM_breakupwar
 add_namespace = JCS_breakupwar
+add_namespace = junta_pos_dutra_breakupwar
 
+
+country_event = {
+    id = junta_pos_dutra_breakupwar.1
+    title = junta_pos_dutra_breakupwar.1.t
+    desc = junta_pos_dutra_breakupwar.1.d
+    picture = x
+	trigger = {
+		AND = {
+			has_global_flag = JUNTA_CIVIL_WAR
+			NOT = {country_exists = JGD}
+		}
+	}
+    fire_only_once = yes 
+
+    option = {
+		JCL = {
+			declare_war_on = {
+				target = JCS
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JRM
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JEG
+				type = civil_war
+			}
+			#Ai Strategies
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JRM
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JCS
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JEG
+				value = 999
+			}
+		}
+		JCS = {
+			declare_war_on = {
+				target = JCL
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JRM
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JEG
+				type = civil_war
+			}
+			#Ai Strategies
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JRM
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JCL
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JEG
+				value = 999
+			}
+		}
+		JEG = {
+			declare_war_on = {
+				target = JCL
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JRM
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JCS
+				type = civil_war
+			}
+			#Ai Strategies
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JRM
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JCL
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JCS
+				value = 999
+			}
+		}
+		JRM = {
+			declare_war_on = {
+				target = JCL
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JEG
+				type = civil_war
+			}
+			declare_war_on = {
+				target = JCS
+				type = civil_war
+			}
+			#Ai Strategies
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JEG
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JCL
+				value = 999
+			}
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = JCS
+				value = 999
+			}
+		}
+    }
+}
 
 country_event = {
     id = JEG_breakupwar.1
@@ -22,38 +160,21 @@ country_event = {
 				days = 1
 			}
 		}
-
-        create_wargoal = {
-            target = JCL
-            type = civil_war
-        }
         declare_war_on = {
             target = JGD
             type = civil_war
-        }
-        create_wargoal = {
-            target = JRM
-            type = civil_war
-        }
-        create_wargoal = {
-            target = JCS
-            type = civil_war
-        }
+		}
 		add_ai_strategy = {
 			type = conquer
-			id = JCL
+			id = JGD
 			value = 100
 		}
 		add_ai_strategy = {
 			type = prepare_for_war
-			id = JCL
+			id = JGD
 			value = 999
 		}
         set_global_flag = JUNTA_CIVIL_WAR
-		
-		BEM = {
-			complete_national_focus = para_junta_collapse_thebrasiliascollapse
-		}
     }
 }
 
@@ -66,23 +187,20 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        create_wargoal = {
-            target = JCL
-            type = civil_war
-        }
         declare_war_on = {
             target = JGD
             type = civil_war
         }
-        create_wargoal = {
-            target = JRM
-            type = civil_war
-        }
-        create_wargoal = {
-            target = JCS
-            type = civil_war
-        }
-		BEM = {mark_focus_tree_layout_dirty = yes}
+		add_ai_strategy = {
+			type = conquer
+			id = JGD
+			value = 100
+		}
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = JGD
+			value = 999
+		}
     }
 }
 
@@ -111,17 +229,6 @@ country_event = {
             target = JCS
             type = civil_war
         }
-		add_ai_strategy = {
-			type = conquer
-			id = JCL
-			value = 100
-		}
-		add_ai_strategy = {
-			type = prepare_for_war
-			id = JCL
-			value = 999
-		}
-		BEM = {mark_focus_tree_layout_dirty = yes}
     }
 }
 
@@ -134,33 +241,22 @@ country_event = {
     fire_only_once = yes 
 
     option = {
-        create_wargoal = {
-            target = JCL
-            type = civil_war
-        }
+		give_military_access = JEG
+		give_military_access = JCL
         declare_war_on = {
             target = JGD
             type = civil_war
         }
-        create_wargoal = {
-            target = JRM
-            type = civil_war
-        }
-        create_wargoal = {
-            target = JCS
-            type = civil_war
-        }
 		add_ai_strategy = {
 			type = conquer
-			id = JCL
+			id = JGD
 			value = 100
 		}
 		add_ai_strategy = {
 			type = prepare_for_war
-			id = JCL
+			id = JGD
 			value = 999
 		}
-		BEM = {mark_focus_tree_layout_dirty = yes}
 	}
 }
 
@@ -173,32 +269,21 @@ country_event = {
     fire_only_once = yes 
 
     option = {
-        create_wargoal = {
-            target = JCL
-            type = civil_war
-        }
+		give_military_access = JEG
+		give_military_access = JCL
         declare_war_on = {
             target = JGD
             type = civil_war
         }
-        create_wargoal = {
-            target = JRM
-            type = civil_war
-        }
-        create_wargoal = {
-            target = JCS
-            type = civil_war
-        }
 		add_ai_strategy = {
 			type = conquer
-			id = JCL
+			id = JGD
 			value = 100
 		}
 		add_ai_strategy = {
 			type = prepare_for_war
-			id = JCL
+			id = JGD
 			value = 999
 		}
-		BEM = {mark_focus_tree_layout_dirty = yes}
     }
 }

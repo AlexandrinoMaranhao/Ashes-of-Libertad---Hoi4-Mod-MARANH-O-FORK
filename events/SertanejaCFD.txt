@@ -1585,10 +1585,6 @@ country_event = {
     option = {
         name = CFD_operations.12.a
 		CFD = {
-			country_event = {
-				id = CFD_operations.13
-				days = 30
-			}
 			remove_mission = CFD_maranhao_war_on_piaui
 			hidden_effect = {
 				MNH = {
@@ -1606,7 +1602,17 @@ country_event = {
     id = CFD_operations.13
     title = CFD_operations.13.t
     desc = CFD_operations.13.d
-    is_triggered_only = yes
+	trigger = {
+		tag = CFD
+		CFD = {
+			AND = {
+				has_country_flag = operations_completed
+				has_country_flag = portella_alive
+				owns_state = 15
+				NOT = {country_exists = PNA}
+			}
+		}
+	}
 	fire_only_once = yes
     picture = GFX_report_cfd_elections1
 

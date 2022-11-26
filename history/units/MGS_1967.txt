@@ -28,7 +28,7 @@ division_template = {
 	support = {
 		logistics_company = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
-		maintenance_company = { x = 1 y = 0 }
+		maintenance_company = { x = 0 y = 2 }
 	}
 }
 
@@ -38,55 +38,55 @@ units = {
 		location = 863
 		division_template = "Tanque"
 		start_experience_factor = 1
-		start_equipment_factor = 1
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Escudos da Democracia"
 		location = 863
 		division_template = "Tanque"
 		start_experience_factor = 1
-		start_equipment_factor = 1
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Guarnição de Coxim"
 		location = 863
 		division_template = "Divisão deInfantaria"
 		start_experience_factor = 0.7
-		start_equipment_factor = 1
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Guarnição de Corumbá"
 		location = 1147
 		division_template = "Divisão deInfantaria"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Batalhão de Campo Grande"
 		location = 4566
 		division_template = "Divisão deInfantaria"
-		start_experience_factor = 1
-		start_equipment_factor = 1
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Batalhão de Costa Rica"
 		location = 1738
 		division_template = "Divisão deInfantaria"
-		start_experience_factor = 1
-		start_equipment_factor = 1
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Batalhão de Paranaíba"
 		location = 1452
 		division_template = "Divisão deInfantaria"
-		start_experience_factor = 1
-		start_equipment_factor = 1
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Batalhão de Cassilândia"
 		location = 1558
 		division_template = "Divisão deInfantaria"
-		start_experience_factor = 1
-		start_equipment_factor = 1
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
 	}
 }	

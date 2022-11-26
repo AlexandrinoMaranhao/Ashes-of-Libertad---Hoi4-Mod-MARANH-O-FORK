@@ -2,15 +2,24 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
-				random_core_state = {
+				random_owned_state = {
 					add_resource = {
 						type = steel
 						amount = 7
 						state = THIS
 					}
+				}
+				random_owned_state = {
 					add_resource = {
 						type = aluminium
-						amount = 3
+						amount = 6
+						state = THIS
+					}
+				}
+				random_owned_state = {
+					add_resource = {
+						type = tungsten
+						amount = 4
 						state = THIS
 					}
 				}
@@ -21,7 +30,7 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = rubber
-						amount = 4
+						amount = 8
 						state = THIS
 					}
 					add_resource = {
@@ -63,17 +72,22 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = tungsten
-						amount = 2
+						amount = 6
 						state = THIS
 					}
+				}
+				random_core_state = {
 					add_resource = {
 						type = oil
-						amount = 3
+						amount = 6
 						state = THIS
 					}
+				
+				}
+				random_core_state = {
 					add_resource = {
 						type = chromium
-						amount = 2
+						amount = 6
 						state = THIS
 					}
 				}
@@ -82,17 +96,21 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = tungsten
-						amount = 1
+						amount = 12
 						state = THIS
 					}
+				}
+				random_core_state = {
 					add_resource = {
 						type = oil
-						amount = 1
+						amount = 10
 						state = THIS
 					}
+				}
+				random_core_state = {
 					add_resource = {
 						type = aluminium
-						amount = 2
+						amount = 10
 						state = THIS
 					}
 				}
@@ -101,17 +119,17 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = rubber
-						amount = 1
+						amount = 4
 						state = THIS
 					}
 					add_resource = {
 						type = oil
-						amount = 3
+						amount = 10
 						state = THIS
 					}
 					add_resource = {
 						type = tungsten
-						amount = 4
+						amount = 8
 						state = THIS
 					}
 				}
@@ -148,12 +166,12 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = tungsten
-						amount = 2
+						amount = 9
 						state = THIS
 					}
 					add_resource = {
 						type = aluminium
-						amount = 2
+						amount = 6
 						state = THIS
 					}
 				}
@@ -162,17 +180,17 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = rubber
-						amount = 2
+						amount = 4
 						state = THIS
 					}
 					add_resource = {
 						type = oil
-						amount = 2
+						amount = 4
 						state = THIS
 					}
 					add_resource = {
 						type = chromium
-						amount = 3
+						amount = 4
 						state = THIS
 					}
 				}
@@ -181,17 +199,17 @@ on_actions = {
 				random_core_state = {
 					add_resource = {
 						type = tungsten
-						amount = 2
+						amount = 4
 						state = THIS
 					}
 					add_resource = {
 						type = aluminium
-						amount = 2
+						amount = 4
 						state = THIS
 					}
 					add_resource = {
 						type = chromium
-						amount = 2
+						amount = 4
 						state = THIS
 					}
 				}

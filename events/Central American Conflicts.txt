@@ -14,13 +14,12 @@ country_event = {
     option = {
         name = farmlands_war.1.a
 
-    every_country = {
-        news_event = {
-            id = world.67
-            days = 1
-        }
-    }
- 
+		every_country = {
+			news_event = {
+				id = world.67
+				days = 1
+			}
+		}
         HON = {
             declare_war_on = {
                 target = ELS
