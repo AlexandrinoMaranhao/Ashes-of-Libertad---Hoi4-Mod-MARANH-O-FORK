@@ -119,12 +119,12 @@ CFD_main_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = invade
 					id = FRN
 					value = 200
 				}
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = prepare_for_war
 					id = FRN
 					value = 200
@@ -164,12 +164,12 @@ CFD_main_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = invade
 					id = JIN
 					value = 200
 				}
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = prepare_for_war
 					id = JIN
 					value = 200
@@ -209,12 +209,12 @@ CFD_main_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = invade
 					id = VDP
 					value = 200
 				}
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = prepare_for_war
 					id = VDP
 					value = 200
@@ -254,12 +254,12 @@ CFD_main_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = invade
 					id = BEP
 					value = 200
 				}
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = prepare_for_war
 					id = BEP
 					value = 200
@@ -299,12 +299,12 @@ CFD_main_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = invade
 					id = PNA
 					value = 999
 				}
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = prepare_for_war
 					id = PNA
 					value = 999
@@ -358,12 +358,12 @@ CFD_main_category = {
 		}
 		complete_effect = {
 			CFD = {
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = invade
 					id = SEG
 					value = 999
 				}
-				add_ai_strategy  = {
+				add_ai_strategy = {
 					type = prepare_for_war
 					id = SEG
 					value = 999

@@ -375,3 +375,7 @@ world_sp.3.a:0 "Non Dvcor, Dvco."
 world_sp.4.t:0 "Terrorist Attack on the Silvio Santos Show!"
 world_sp.4.d:0 "Shocking news from the State of São Paulo as a terrorist attack struck the latest edition of the Silvio Santos Show, leaving 23 dead and 51 wounded including ex-president Jânio Quadros. The attack was credited to the terrorist organization ''A.L.N.'' had aimed at executing current Governor Adhemar de Barros and Quadros, both being interviewed at the time on live TV. Despite the tragic death of Quadros the full horror intended by the A.L.N. did not come to fruition thanks to the brave actions of Lieutenant Alberto Mendes Jr. and General João Figueiredo, who ensured the Governor's safety. In a public statement, Figueiredo formalized a state of emergency to combat the communist menace while renewing vows to defend Brazilian Democracy at all costs, effectively taking Adhemar's place as the ruler of São Paulo, where violence is expected to increase substantially."
 world_sp.4.a:0 "Non Dvcor, Dvco."
+
+world_peb.1.t:0 "Pernambuco unifies the Northeast!"
+world_peb.1.d:0 "In a shocking turn of events, [PEB.GetLeader] has managed to secure the Northeastern Brazilian region just after the Sertaneja Collapse. As the [PEB.GetName] are now to proceed on stomp out the opposition activities in the region, now is the time to form an alliance with other [PEB.GetLeader]’s members that must not only work together, but also to formulate some alternatives in the name of Democracy for the region."
+world_peb.1.a:0 "A victory for the 4th Republic."

@@ -280,25 +280,25 @@ on_actions = {
 				random_list = {
 					50 = {
 						country_event = {
-							id = VEN_Bettancourt_Assassination_Fails.1 # Bettancourt Assassiantion Attempt
+							id = VEN_Bettancourt_Assassination_Fails.1 #Bettancourt Assassiantion Attempt
 							days = 203
 						}
 					}
 					16 = {
 						country_event = {
-							id = VEN_Bettancourt_Assassination_Gun.1 # Bettancourt Assassiantion Attempt
+							id = VEN_Bettancourt_Assassination_Gun.1 #Bettancourt Assassiantion Attempt
 							days = 203
 						}
 					}
 					17 = {
 						country_event = {
-							id = VEN_Bettancourt_Assassination_Explosion.1 # Bettancourt Assassiantion Attempt
+							id = VEN_Bettancourt_Assassination_Explosion.1 #Bettancourt Assassiantion Attempt
 							days = 203
 						}
 					}
 					17 = {
 						country_event = {
-							id = VEN_Bettancourt_Assassination_Aiplane.1 # Bettancourt Assassiantion Attempt
+							id = VEN_Bettancourt_Assassination_Aiplane.1 #Bettancourt Assassiantion Attempt
 							days = 203
 						}
 					}

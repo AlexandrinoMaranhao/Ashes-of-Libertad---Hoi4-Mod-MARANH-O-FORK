@@ -851,6 +851,7 @@ country_event = { #Economic Collapse event
     desc = CFD_events.26.d
 	fire_only_once = yes
 	trigger = {
+		tag = CFD
 		CFD = {
 			has_idea = CFD_economic_collapse
 		}
@@ -2008,6 +2009,12 @@ country_event = { #Careful for what you wish.
     option = {
       name = PEB.5.a
 
+		every_country = {
+			news_event = {
+				id = world_peb.1
+				days = 1
+			}
+		}
 		PEB = {
 			complete_national_focus = PEB_rebuilding_our_nation
 			add_ideas = CFD_living_in_ruins 
@@ -2134,11 +2141,7 @@ country_event = { #Rebuilding the Northeast
     title = PEB.10.t
     desc = PEB.10.d
     picture = GFX_report_cfd_elections1
-	trigger = {
-		PEB = {
-			check_variable = { PEB_rebuilding > 0.9 }
-		}
-	}
+    is_triggered_only = yes
     fire_only_once = yes 
 
     option = {
