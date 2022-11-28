@@ -2066,7 +2066,7 @@ PEB_rebuilding_category = {
 			political_power_cost = 0.05
 		}
 		complete_effect = {
-
+			hidden_effect = {country_event = PEB.10}
 		}
 		remove_effect = {
 
