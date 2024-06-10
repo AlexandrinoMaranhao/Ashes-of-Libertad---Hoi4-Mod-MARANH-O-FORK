@@ -1,5 +1,0 @@
-cor_conquer_tef = { 
-	icon = acrean_raids
-    allowed = { tag = COR }
-	visible = { has_country_flag = coari_mission_war }
-}

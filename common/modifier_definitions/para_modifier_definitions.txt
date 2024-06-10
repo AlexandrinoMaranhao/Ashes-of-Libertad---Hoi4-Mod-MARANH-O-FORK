@@ -1,6 +1,0 @@
-BEM_cabanos_altamira = {
-	color_type = bad
-	value_type = number
-	precision = 2
-	category = country
-}
